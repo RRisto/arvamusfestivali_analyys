@@ -3,11 +3,14 @@
 from __future__ import annotations
 
 import argparse
+import shutil
 import sys
 from collections.abc import Sequence
 from datetime import UTC, datetime
 from functools import partial
 from pathlib import Path
+
+import httpx
 
 from .pipeline import (
     PipelineDependencies,
@@ -99,6 +102,17 @@ def _validate_snapshot_year(snapshot_path: Path, year: int) -> None:
         raise ValueError(f"catalog snapshot year does not match requested year {year}")
 
 
+def _validate_transcription_configuration(*, script: Path, uv_executable: str) -> None:
+    """Fail before the workflow can classify missing global dependencies as episode errors."""
+    if not script.is_file():
+        raise FileNotFoundError(f"transcription script does not exist: {script}")
+    uv_path = Path(uv_executable)
+    if not (uv_path.is_absolute() and uv_path.is_file()) and shutil.which(uv_executable) is None:
+        raise RuntimeError(f"uv executable is unavailable: {uv_executable}")
+    if shutil.which("ffmpeg") is None:
+        raise RuntimeError("ffmpeg executable is required for MP3 transcription")
+
+
 def _dependencies(uv_executable: str) -> PipelineDependencies:
     return PipelineDependencies(transcriber=partial(run_transcriber, uv_executable=uv_executable))
 
@@ -122,6 +136,11 @@ def main(argv: Sequence[str] | None = None) -> int:
     try:
         if args.catalog_snapshot is not None:
             _validate_snapshot_year(args.catalog_snapshot, args.year)
+        if args.command != "fetch":
+            _validate_transcription_configuration(
+                script=args.transcriber_script,
+                uv_executable=args.uv_executable,
+            )
 
         common = {
             "year": args.year,
@@ -141,7 +160,7 @@ def main(argv: Sequence[str] | None = None) -> int:
                 transcriber_script=args.transcriber_script,
                 dependencies=_dependencies(args.uv_executable),
             )
-    except (OSError, RuntimeError, ValueError) as error:
+    except (httpx.HTTPError, KeyError, OSError, RuntimeError, TypeError, ValueError) as error:
         print(f"error: {error}", file=sys.stderr)
         return 2
 
