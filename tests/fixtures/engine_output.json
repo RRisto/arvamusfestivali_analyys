@@ -1,0 +1,36 @@
+{
+  "source": "C:\\cache\\2026\\2400217815.mp3",
+  "audio_duration_seconds": 60.0,
+  "transcript": "Tere tulemast. Arutame ennetust tervishoius.",
+  "tokens": [
+    "▁Tere",
+    "▁tulemast.",
+    "▁Arutame",
+    "▁ennetust",
+    "▁tervishoius."
+  ],
+  "timestamps": [0.0, 1.9, 4.2, 5.8, 7.3],
+  "cues": [
+    {
+      "start": 0.0,
+      "end": 4.2,
+      "text": "  Tere tulemast.  "
+    },
+    {
+      "start": 4.2,
+      "end": 60.0,
+      "text": " Arutame ennetust tervishoius. "
+    }
+  ],
+  "model": {
+    "name": "large",
+    "repository": "TalTechNLP/streaming-zipformer-large.et-en",
+    "revision": "8e5759e5e6338fd1d39160a462d2dc7f182854a8",
+    "precision": "int8"
+  },
+  "runtime": {
+    "sherpa_onnx": "1.13.7",
+    "decoding_method": "modified_beam_search",
+    "threads": 4
+  }
+}
