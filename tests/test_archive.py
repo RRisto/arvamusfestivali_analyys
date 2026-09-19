@@ -85,6 +85,16 @@ def test_build_archive_removes_raw_tokens(
     validate_archive(archive, 2026)
 
 
+def test_build_archive_preserves_complete_transcript_outer_whitespace(
+    engine_payload: dict[str, object], episode: Episode, downloaded: DownloadedAudio
+) -> None:
+    engine_payload["transcript"] = "  Tere tulemast.\n"
+
+    archive = build_archive(episode, downloaded, engine_payload, 1477431807)
+
+    assert archive["transcription"]["text"] == "  Tere tulemast.\n"
+
+
 def test_validate_archive_rejects_invalid_contract_values(archive: dict[str, object]) -> None:
     invalid_values = [
         (lambda data: data.update(schema_version=2), "schema version"),
@@ -180,6 +190,34 @@ def test_write_archive_removes_temp_when_validation_fails(
 
     assert not destination.exists()
     assert not destination.with_suffix(".json.tmp").exists()
+
+
+def test_write_archive_preserves_preexisting_legacy_temp_file(
+    tmp_path: Path, archive: dict[str, object]
+) -> None:
+    destination = tmp_path / "archive.json"
+    legacy_temp = destination.with_suffix(".json.tmp")
+    legacy_temp.write_text("keep me", encoding="utf-8")
+
+    write_archive(destination, archive)
+
+    assert destination.exists()
+    assert legacy_temp.read_text(encoding="utf-8") == "keep me"
+
+
+def test_write_archive_refuses_dangling_symlink_destination(
+    tmp_path: Path, archive: dict[str, object]
+) -> None:
+    destination = tmp_path / "archive.json"
+    try:
+        destination.symlink_to(tmp_path / "missing.json")
+    except OSError as error:
+        pytest.skip(f"symlink creation unavailable: {error}")
+
+    with pytest.raises(FileExistsError):
+        write_archive(destination, archive)
+
+    assert destination.is_symlink()
 
 
 def test_timestamp_link_uses_media_fragment() -> None:

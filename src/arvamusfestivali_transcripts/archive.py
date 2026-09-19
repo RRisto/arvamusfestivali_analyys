@@ -4,6 +4,7 @@ import json
 import math
 import os
 import re
+import tempfile
 from collections.abc import Mapping
 from datetime import UTC, datetime
 from pathlib import Path
@@ -81,7 +82,7 @@ def validate_archive(payload: Mapping[str, Any], expected_year: int) -> None:
 
 def write_archive(path: Path, payload: Mapping[str, Any], force: bool = False) -> Path:
     """Validate and atomically write a UTF-8 archive without overwriting by default."""
-    if path.exists() and not force:
+    if os.path.lexists(path) and not force:
         raise FileExistsError(f"refusing to overwrite existing archive: {path}")
 
     episode = _require_mapping(payload, "episode")
@@ -89,14 +90,24 @@ def write_archive(path: Path, payload: Mapping[str, Any], force: bool = False) -
     validate_archive(payload, published_at.year)
 
     path.parent.mkdir(parents=True, exist_ok=True)
-    temporary = path.with_suffix(path.suffix + ".tmp")
+    descriptor, temporary_name = tempfile.mkstemp(
+        prefix=f".{path.name}.", suffix=".tmp", dir=path.parent
+    )
+    temporary = Path(temporary_name)
     try:
-        with temporary.open("w", encoding="utf-8", newline="\n") as stream:
+        with os.fdopen(descriptor, "w", encoding="utf-8", newline="\n") as stream:
             json.dump(payload, stream, ensure_ascii=False, indent=2)
             stream.write("\n")
             stream.flush()
             os.fsync(stream.fileno())
-        temporary.replace(path)
+        if force:
+            temporary.replace(path)
+        else:
+            try:
+                os.link(temporary, path)
+            except FileExistsError as error:
+                raise FileExistsError(f"refusing to overwrite existing archive: {path}") from error
+            temporary.unlink()
     finally:
         if temporary.exists():
             temporary.unlink()
@@ -114,7 +125,7 @@ def _archive_cue(value: Any) -> dict[str, Any]:
     return {
         "start_seconds": value.get("start"),
         "end_seconds": value.get("end"),
-        "text": _require_text(value, "text"),
+        "text": _require_text(value, "text").strip(),
     }
 
 
@@ -204,7 +215,7 @@ def _require_text(payload: Mapping[str, Any], key: str, *, description: str | No
     if not isinstance(value, str) or not value.strip():
         label = description or key
         raise ValueError(f"{label} must be nonempty text")
-    return value.strip()
+    return value
 
 
 def _is_finite_number(value: Any) -> bool:
