@@ -14,3 +14,7 @@ build/
 .vscode/
 .DS_Store
 .worktrees/
+data/audio-cache/
+data/engine-output/
+data/state/
+*.part
