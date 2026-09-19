@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>Arvamusfestival</title>
+    <item>
+      <guid>tag:soundcloud,2010:tracks/2400217815</guid>
+      <title>Esimene 2026 osa</title>
+      <link>https://soundcloud.com/arvamusfestival/esimene</link>
+      <pubDate>Mon, 14 Sep 2026 16:40:21 +0300</pubDate>
+      <enclosure url="https://feeds.soundcloud.com/stream/2400217815.mp3" length="86222137" type="audio/mpeg" />
+      <itunes:duration>1:30:00</itunes:duration>
+    </item>
+    <item>
+      <guid>tag:soundcloud,2010:tracks/2400217000</guid>
+      <title>Teine 2026 osa</title>
+      <link>https://soundcloud.com/arvamusfestival/teine</link>
+      <pubDate>Tue, 15 Sep 2026 10:00:00 +0000</pubDate>
+      <enclosure url="https://feeds.soundcloud.com/stream/2400217000.mp3" length="1234" type="audio/mpeg" />
+      <itunes:duration>42:15</itunes:duration>
+    </item>
+    <item>
+      <guid>tag:soundcloud,2010:tracks/2400217815</guid>
+      <title>Duplikaat</title>
+      <link>https://soundcloud.com/arvamusfestival/duplikaat</link>
+      <pubDate>Wed, 16 Sep 2026 10:00:00 +0000</pubDate>
+      <enclosure url="https://feeds.soundcloud.com/stream/2400217815-copy.mp3" length="999" type="audio/mpeg" />
+      <itunes:duration>10</itunes:duration>
+    </item>
+    <item>
+      <guid>tag:soundcloud,2010:tracks/2300000000</guid>
+      <title>2025 osa</title>
+      <link>https://soundcloud.com/arvamusfestival/2025</link>
+      <pubDate>Mon, 15 Sep 2025 10:00:00 +0000</pubDate>
+      <enclosure url="https://feeds.soundcloud.com/stream/2300000000.mp3" type="audio/mpeg" />
+      <itunes:duration>00:20:00</itunes:duration>
+    </item>
+    <item>
+      <guid>tag:soundcloud,2010:tracks/2400217999</guid>
+      <title>Vigane osa</title>
+      <link>https://soundcloud.com/arvamusfestival/vigane</link>
+      <pubDate>Thu, 17 Sep 2026 10:00:00 +0000</pubDate>
+      <enclosure length="100" type="audio/mpeg" />
+      <itunes:duration>30:00</itunes:duration>
+    </item>
+  </channel>
+</rss>
