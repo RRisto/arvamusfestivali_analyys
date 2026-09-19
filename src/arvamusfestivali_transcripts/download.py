@@ -71,15 +71,13 @@ def _stream_to_part(client: httpx.Client, episode: Episode, part_path: Path) -> 
 
 
 def _part_write_mode(response: httpx.Response, offset: int) -> str:
-    if offset == 0:
-        return "wb"
     if response.status_code == 200:
         return "wb"
     expected_range = f"bytes {offset}-"
     if response.status_code == 206 and response.headers.get("Content-Range", "").startswith(
         expected_range
     ):
-        return "ab"
+        return "ab" if offset else "wb"
     raise ValueError(f"server returned an invalid range response for byte {offset}")
 
 

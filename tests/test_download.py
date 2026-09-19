@@ -93,6 +93,27 @@ def test_download_requests_zero_offset_for_empty_partial(tmp_path, episode: Epis
     assert result.path.read_bytes() == b"audio"
 
 
+def test_download_rejects_mismatched_range_for_empty_partial(tmp_path, episode: Episode) -> None:
+    """Finalizing a response starting after byte zero silently drops the audio prefix."""
+    final = audio_path(tmp_path, episode)
+    final.parent.mkdir(parents=True)
+    part = final.with_suffix(final.suffix + ".part")
+    part.touch()
+
+    def handler(_: httpx.Request) -> httpx.Response:
+        return httpx.Response(206, content=b"udio", headers={"Content-Range": "bytes 1-4/5"})
+
+    with pytest.raises(ValueError, match="invalid range response"):
+        download_episode(
+            httpx.Client(transport=httpx.MockTransport(handler)),
+            episode,
+            tmp_path,
+        )
+
+    assert not final.exists()
+    assert part.read_bytes() == b""
+
+
 def test_download_restarts_when_server_ignores_range(tmp_path, episode: Episode) -> None:
     """Appending a 200 response to a partial file would duplicate its prefix."""
     final = audio_path(tmp_path, episode)
