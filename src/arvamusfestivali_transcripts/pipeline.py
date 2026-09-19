@@ -445,9 +445,9 @@ def _process_episode(
         state.mark_complete(episode.id)
         stage = "cleanup"
         shutil.rmtree(output)
-        _cache_sidecar(audio.path).unlink()
         audio.path.unlink()
         summary.deleted_cache += 1
+        _cache_sidecar(audio.path).unlink()
         summary.completed += 1
     except Exception as error:
         message = str(error) or type(error).__name__

@@ -236,6 +236,13 @@ def test_failure_boundaries_keep_audio_and_failure_state(
     summary = run_frozen(paths, services, snapshot)
     assert (summary.failed, summary.completed, summary.deleted_cache) == (1, 0, 0)
     assert (paths.audio_cache / "2026/123.mp3").exists()
+    sidecar = paths.audio_cache / "2026/123.mp3.json"
+    assert json.loads(sidecar.read_text(encoding="utf-8")) == {
+        "episode_id": "123",
+        "audio_url": episode.audio_url,
+        "byte_count": 5,
+        "sha256": hashlib.sha256(b"audio").hexdigest(),
+    }
     with PipelineState(paths.state_db) as state:
         assert state.status_for("123").status == EpisodeStatus.FAILED
         assert f"failed at {failure}" in state.status_for("123").failure_message
