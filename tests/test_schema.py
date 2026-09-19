@@ -1,4 +1,4 @@
-from datetime import UTC, datetime
+from datetime import UTC, datetime, timedelta, timezone
 
 from arvamusfestivali_transcripts.schema import (
     CatalogSnapshot,
@@ -40,3 +40,29 @@ def test_snapshot_json_is_stable() -> None:
     assert '"year": 2026' in rendered
     assert rendered.endswith("\n")
     assert CatalogSnapshot.from_json(rendered) == snapshot
+
+
+def test_serialized_dates_are_normalized_to_utc() -> None:
+    offset = timezone(timedelta(hours=3))
+    episode = Episode(
+        id="offset-episode",
+        rss_guid="offset-guid",
+        title="Offset episode",
+        published_at=datetime(2026, 9, 14, 16, 40, 21, tzinfo=offset),
+        published_raw="Mon, 14 Sep 2026 16:40:21 +0300",
+        page_url="https://example.com/episode",
+        audio_url="https://example.com/episode.mp3",
+        audio_bytes=None,
+        duration_seconds=60.0,
+    )
+    snapshot = CatalogSnapshot(
+        apple_collection_id=1,
+        apple_page_url="https://example.com/catalog",
+        feed_url="https://example.com/feed.xml",
+        resolved_at=datetime(2026, 9, 19, 13, 0, tzinfo=offset),
+        year=2026,
+        episodes=(episode,),
+    )
+
+    assert episode_to_dict(episode)["published_at"] == "2026-09-14T13:40:21Z"
+    assert '"resolved_at": "2026-09-19T10:00:00Z"' in snapshot.to_json()

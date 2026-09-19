@@ -2,7 +2,7 @@ from __future__ import annotations
 
 import json
 from dataclasses import asdict, dataclass
-from datetime import datetime
+from datetime import UTC, datetime
 from pathlib import Path
 from typing import Any
 
@@ -46,7 +46,7 @@ class CatalogSnapshot:
 
     def to_json(self) -> str:
         payload = asdict(self)
-        payload["resolved_at"] = self.resolved_at.isoformat().replace("+00:00", "Z")
+        payload["resolved_at"] = self.resolved_at.astimezone(UTC).isoformat().replace("+00:00", "Z")
         payload["episodes"] = [episode_to_dict(item) for item in self.episodes]
         return json.dumps(payload, ensure_ascii=False, indent=2) + "\n"
 
@@ -62,7 +62,9 @@ class CatalogSnapshot:
 
 def episode_to_dict(episode: Episode) -> dict[str, Any]:
     payload = asdict(episode)
-    payload["published_at"] = episode.published_at.isoformat().replace("+00:00", "Z")
+    payload["published_at"] = (
+        episode.published_at.astimezone(UTC).isoformat().replace("+00:00", "Z")
+    )
     return payload
 
 
