@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import hashlib
 import json
 from dataclasses import replace
 from datetime import UTC, datetime
@@ -563,3 +564,187 @@ def test_frozen_catalog_rejects_episode_ids_that_escape_storage(
     with pytest.raises(ValueError, match="episode ID"):
         run_frozen(paths, services, snapshot, dry_run=True)
     assert not paths.state_db.exists()
+
+
+@pytest.mark.parametrize("change", ["enclosure_url", "same_length_corruption"])
+def test_run_refetches_cache_when_source_or_content_changes(tmp_path, services, episode, change):
+    paths = PipelinePaths.from_root(tmp_path)
+    snapshot = save_catalog(paths, [episode])
+    pipeline.fetch_year(
+        year=2026,
+        paths=paths,
+        dependencies=services.dependencies(),
+        catalog_snapshot=snapshot,
+    )
+    cached = paths.audio_cache / "2026/123.mp3"
+    if change == "enclosure_url":
+        episode = replace(episode, audio_url="https://example.test/replacement.mp3")
+        snapshot = save_catalog(paths, [episode])
+    else:
+        cached.write_bytes(b"wrong")
+
+    def request(request):
+        assert str(request.url) == episode.audio_url
+        services.requests.append(str(request.url))
+        return httpx.Response(200, content=b"fresh")
+
+    def transcribe(audio_path, output_dir, script_path):
+        assert audio_path.read_bytes() == b"fresh"
+        return services.payload
+
+    dependencies = replace(
+        services.dependencies(),
+        transcriber=transcribe,
+        client_factory=lambda: httpx.Client(transport=httpx.MockTransport(request)),
+    )
+    result = run_year(
+        year=2026,
+        paths=paths,
+        dependencies=dependencies,
+        catalog_snapshot=snapshot,
+        transcriber_script=tmp_path / "script.py",
+    )
+    assert (result.completed, result.failed, result.downloaded_bytes) == (1, 0, 5)
+    assert len(services.requests) == 2
+    archive = json.loads((paths.transcripts / "2026/123.json").read_text(encoding="utf-8"))
+    assert archive["episode"]["audio_url"] == episode.audio_url
+    assert archive["episode"]["audio_sha256"] == hashlib.sha256(b"fresh").hexdigest()
+
+
+@pytest.mark.parametrize("failure", ["transcribe", "archive"])
+def test_cache_sidecar_survives_failure_and_is_removed_after_success(
+    tmp_path,
+    services,
+    episode,
+    failure,
+):
+    paths = PipelinePaths.from_root(tmp_path)
+    snapshot = save_catalog(paths, [episode])
+    if failure == "transcribe":
+        services.failure_ids.add("123")
+    else:
+        services.payload["cues"] = []
+    assert run_frozen(paths, services, snapshot).failed == 1
+    sidecar = paths.audio_cache / "2026/123.mp3.json"
+    expected = {
+        "episode_id": "123",
+        "audio_url": "https://example.test/123.mp3",
+        "byte_count": 5,
+        "sha256": hashlib.sha256(b"audio").hexdigest(),
+    }
+    assert json.loads(sidecar.read_text(encoding="utf-8")) == expected
+    assert (paths.audio_cache / "2026/123.mp3").read_bytes() == b"audio"
+    services.failure_ids.clear()
+    services.payload = json.loads((FIXTURES / "engine_output.json").read_text(encoding="utf-8"))
+    result = run_frozen(paths, services, snapshot)
+    assert (result.completed, result.downloaded_bytes, result.deleted_cache) == (1, 0, 1)
+    assert not sidecar.exists()
+    assert not (paths.audio_cache / "2026/123.mp3").exists()
+    assert not list(paths.audio_cache.rglob("*.tmp"))
+
+
+@pytest.mark.parametrize("metadata", [None, "invalid json", "[]", '{"episode_id":"999"}'])
+def test_fetch_replaces_unverified_cache_instead_of_size_shortcut(
+    tmp_path,
+    services,
+    episode,
+    metadata,
+):
+    paths = PipelinePaths.from_root(tmp_path)
+    snapshot = save_catalog(paths, [episode])
+    cached = paths.audio_cache / "2026/123.mp3"
+    cached.parent.mkdir(parents=True)
+    cached.write_bytes(b"wrong")
+    sidecar = cached.with_suffix(".mp3.json")
+    if metadata is not None:
+        sidecar.write_text(metadata, encoding="utf-8")
+    result = pipeline.fetch_year(
+        year=2026,
+        paths=paths,
+        dependencies=services.dependencies(),
+        catalog_snapshot=snapshot,
+    )
+    assert (result.completed, result.downloaded_bytes, result.skipped) == (1, 5, 0)
+    assert cached.read_bytes() == b"audio"
+    assert json.loads(sidecar.read_text(encoding="utf-8"))["sha256"] == (
+        hashlib.sha256(b"audio").hexdigest()
+    )
+
+
+def test_offline_transcribe_rejects_unverified_cache_without_removing_it(
+    tmp_path,
+    services,
+    episode,
+):
+    paths = PipelinePaths.from_root(tmp_path)
+    snapshot = save_catalog(paths, [episode])
+    cached = paths.audio_cache / "2026/123.mp3"
+    cached.parent.mkdir(parents=True)
+    cached.write_bytes(b"audio")
+    result = pipeline.transcribe_year(
+        year=2026,
+        paths=paths,
+        dependencies=services.dependencies(),
+        catalog_snapshot=snapshot,
+        transcriber_script=tmp_path / "script.py",
+    )
+    assert (result.failed, result.completed) == (1, 0)
+    assert cached.read_bytes() == b"audio"
+    assert not services.requests
+
+
+@pytest.mark.parametrize("matching_source", [True, False])
+def test_partial_resume_requires_matching_source_provenance(
+    tmp_path,
+    services,
+    episode,
+    matching_source,
+):
+    paths = PipelinePaths.from_root(tmp_path)
+    snapshot = save_catalog(paths, [episode])
+    partial = paths.audio_cache / "2026/123.mp3.part"
+    partial.parent.mkdir(parents=True)
+    partial.write_bytes(b"au" if matching_source else b"xx")
+    provenance = partial.with_suffix(".part.json")
+    provenance.write_text(
+        json.dumps(
+            {
+                "episode_id": "123",
+                "audio_url": episode.audio_url
+                if matching_source
+                else "https://example.test/old.mp3",
+                "expected_bytes": 5,
+            }
+        ),
+        encoding="utf-8",
+    )
+
+    def request(request):
+        assert json.loads(provenance.read_text(encoding="utf-8")) == {
+            "episode_id": "123",
+            "audio_url": episode.audio_url,
+            "expected_bytes": 5,
+        }
+        if matching_source:
+            assert request.headers["Range"] == "bytes=2-"
+            return httpx.Response(206, content=b"dio", headers={"Content-Range": "bytes 2-4/5"})
+        assert "Range" not in request.headers
+        return httpx.Response(200, content=b"audio")
+
+    dependencies = replace(
+        services.dependencies(),
+        client_factory=lambda: httpx.Client(
+            transport=httpx.MockTransport(request),
+        ),
+    )
+    result = pipeline.fetch_year(
+        year=2026,
+        paths=paths,
+        dependencies=dependencies,
+        catalog_snapshot=snapshot,
+    )
+    assert (result.completed, result.failed) == (1, 0)
+    assert (paths.audio_cache / "2026/123.mp3").read_bytes() == b"audio"
+    assert (paths.audio_cache / "2026/123.mp3.json").is_file()
+    assert not partial.exists()
+    assert not provenance.exists()

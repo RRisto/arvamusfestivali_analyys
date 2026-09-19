@@ -5,6 +5,7 @@ from __future__ import annotations
 import hashlib
 import json
 import logging
+import os
 import shutil
 import tempfile
 from collections.abc import Callable
@@ -230,19 +231,88 @@ def _valid_archive(path: Path, episode: Episode, collection_id: int) -> bool:
 
 
 def _valid_cache(path: Path, episode: Episode) -> bool:
-    if not path.is_file():
-        return False
-    size = path.stat().st_size
-    return size > 0 and (episode.audio_bytes is None or size == episode.audio_bytes)
+    return _verified_audio(path, episode) is not None
+
+
+def _cache_sidecar(path: Path) -> Path:
+    return path.with_suffix(path.suffix + ".json")
+
+
+def _read_cache_metadata(path: Path) -> dict[str, Any] | None:
+    try:
+        payload = json.loads(path.read_text(encoding="utf-8"))
+        return payload if isinstance(payload, dict) else None
+    except (OSError, ValueError):
+        return None
+
+
+def _write_cache_metadata(path: Path, payload: dict[str, Any]) -> None:
+    descriptor, temporary_name = tempfile.mkstemp(
+        prefix=f".{path.name}.",
+        suffix=".tmp",
+        dir=path.parent,
+    )
+    temporary = Path(temporary_name)
+    try:
+        with os.fdopen(descriptor, "w", encoding="utf-8") as stream:
+            json.dump(payload, stream)
+            stream.write("\n")
+            stream.flush()
+            os.fsync(stream.fileno())
+        temporary.replace(path)
+    finally:
+        temporary.unlink(missing_ok=True)
+
+
+def _verified_audio(path: Path, episode: Episode) -> DownloadedAudio | None:
+    metadata = _read_cache_metadata(_cache_sidecar(path))
+    if metadata is None or not path.is_file():
+        return None
+    try:
+        size = path.stat().st_size
+        if (
+            size <= 0
+            or (episode.audio_bytes is not None and size != episode.audio_bytes)
+            or metadata.get("episode_id") != episode.id
+            or metadata.get("audio_url") != episode.audio_url
+            or metadata.get("byte_count") != size
+        ):
+            return None
+        with path.open("rb") as stream:
+            digest = hashlib.file_digest(stream, "sha256").hexdigest()
+        if metadata.get("sha256") != digest:
+            return None
+        return DownloadedAudio(path, size, digest)
+    except OSError:
+        return None
 
 
 def _cached_audio(paths: PipelinePaths, episode: Episode) -> DownloadedAudio:
     path = audio_path(paths.audio_cache, episode)
-    if not _valid_cache(path, episode):
-        raise ValueError(f"missing or invalid cached audio: {path}")
-    with path.open("rb") as stream:
-        digest = hashlib.file_digest(stream, "sha256").hexdigest()
-    return DownloadedAudio(path, path.stat().st_size, digest)
+    audio = _verified_audio(path, episode)
+    if audio is None:
+        raise ValueError(f"missing or unverified cached audio: {path}; run fetch or run to refresh")
+    return audio
+
+
+def _prepare_download(path: Path, episode: Episode) -> Path:
+    # Unverified finals must not reach download_episode's size-only cache shortcut.
+    if path.exists() or path.is_symlink():
+        path.unlink()
+    _cache_sidecar(path).unlink(missing_ok=True)
+    partial = path.with_suffix(path.suffix + ".part")
+    provenance = _cache_sidecar(partial)
+    expected = {
+        "episode_id": episode.id,
+        "audio_url": episode.audio_url,
+        "expected_bytes": episode.audio_bytes,
+    }
+    if _read_cache_metadata(provenance) != expected:
+        partial.unlink(missing_ok=True)
+        provenance.unlink(missing_ok=True)
+    path.parent.mkdir(parents=True, exist_ok=True)
+    _write_cache_metadata(provenance, expected)
+    return provenance
 
 
 def _workflow(
@@ -334,19 +404,28 @@ def _process_episode(
 ) -> None:
     stage = "cache" if mode == "transcribe" else "download"
     try:
-        if _valid_cache(audio_path(paths.audio_cache, episode), episode) or mode == "transcribe":
+        if mode == "transcribe":
             audio = _cached_audio(paths, episode)
         else:
-            state.mark_started(episode.id, EpisodeStatus.DOWNLOADING)
             cached = audio_path(paths.audio_cache, episode)
-            # The downloader permits any size when RSS omits length. An empty
-            # failed download must not prevent the next attempt from fetching.
-            if cached.is_file() and cached.stat().st_size == 0:
-                cached.unlink()
-            audio = download_episode(client, episode, paths.audio_cache)
-            summary.downloaded_bytes += audio.byte_count
-            if not _valid_cache(audio.path, episode):
-                raise ValueError(f"download produced invalid cached audio: {audio.path}")
+            audio = _verified_audio(cached, episode)
+            if audio is None:
+                state.mark_started(episode.id, EpisodeStatus.DOWNLOADING)
+                provenance = _prepare_download(cached, episode)
+                audio = download_episode(client, episode, paths.audio_cache)
+                summary.downloaded_bytes += audio.byte_count
+                if audio.byte_count <= 0:
+                    raise ValueError(f"download produced invalid cached audio: {audio.path}")
+                _write_cache_metadata(
+                    _cache_sidecar(audio.path),
+                    {
+                        "episode_id": episode.id,
+                        "audio_url": episode.audio_url,
+                        "byte_count": audio.byte_count,
+                        "sha256": audio.sha256,
+                    },
+                )
+                provenance.unlink()
         state.mark_started(episode.id, EpisodeStatus.DOWNLOADED)
         if mode == "fetch":
             summary.completed += 1
@@ -366,6 +445,7 @@ def _process_episode(
         state.mark_complete(episode.id)
         stage = "cleanup"
         shutil.rmtree(output)
+        _cache_sidecar(audio.path).unlink()
         audio.path.unlink()
         summary.deleted_cache += 1
         summary.completed += 1
