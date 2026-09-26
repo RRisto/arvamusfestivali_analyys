@@ -1,0 +1,4056 @@
+{
+  "schema_version": 1,
+  "episode": {
+    "id": "2258666744",
+    "rss_guid": "tag:soundcloud,2010:tracks/2258666744",
+    "title": "Rahvus: inimene",
+    "published_at": "2026-02-02T13:16:29Z",
+    "apple_collection_id": 1477431807,
+    "page_url": "https://soundcloud.com/arvamusfestival/rahvus-inimene-2",
+    "audio_url": "https://feeds.soundcloud.com/stream/2258666744-arvamusfestival-rahvus-inimene-2.mp3",
+    "audio_bytes": 166034284,
+    "audio_sha256": "d141a5e592a4f5cbd73ad5849a997336172287ef065ebc3cb44584b1aa72d501",
+    "duration_seconds": 4150.0
+  },
+  "transcription": {
+    "model": {
+      "name": "large",
+      "repository": "TalTechNLP/streaming-zipformer-large.et-en",
+      "revision": "2812262bd4fd5d4327dc09ca0e6c19e8a32a03d6",
+      "precision": "int8"
+    },
+    "runtime": {
+      "sherpa_onnx": "1.13.7",
+      "decoding_method": "modified_beam_search",
+      "threads": 4
+    },
+    "text": "Nii, täna ma tutvustan natukene ka, kuidas meil hakkab see asi välja nägema. Te ei saa jääda sinna nurga taha istuma. Me tule, teeme väiksed grupid, sõna saavad nii need, kes oskavad hästi eesti keelt, saavad sõna need, kes oskavad nii eesti kui vene keelt ja oskavad sõna, saavad isegi need, kes väga hästi eesti keelt ei oska. Kuna me teeme need grupid sellisel põhimõttel, et igas grupis oleks siis nii eesti kui vene keele oskajaid ja ka neid, kes oskavad mõlemat keelt. Ja Natalja vahepeal tõlgib, kui on vaja. Tere ka minu poolt, mina olen Natalja Kitam ja ma naudin seda hetke, sest ma ei pea midagi tegema, ma olen ka külaline, sest Airi tegi kõike, et see oli tema mõte, et korraldada sinna rutelu kõik need, kõik need mõtted on tema mõtted. Ei, see idee on Nikolai Pavlenkolt. Igatahes meil on, meil on see jagatud, aga ma paar sõna ütlen, et mis see multik inglisekeelne nimetus, universaalne võti kool on, et me tegeleme uute meetoditega, keeleõppes. Et fookuses meil on eesti keel, aga meil on ka inglise keele autogramma ehk siis grammatika automaat-, automatiseerimise kursus. Meil on huvitav labor Foneetika ehk siis kuidas võiks õpetada keelt läbi häälduse. Ja me oleme nii õnnelikud, et kõik meie õpilased on andekad. Kõik tahavad õppida ja siis, kui keegi ütleb, et inimesed ei taha eesti keelt õppida, siis ma imestan, et kust te neid olete näinud ja kui teie teate mingit inimest, kes ei taha eesti keelt õppida, saatke meie juurde. Tavaliselt see lõpeb ikka eesti keele õppega ja kultuurikümblusega. Infoväljakümblusega ja kultuurikümblusega. Ja me naudime suhtlemist. Mina olen ise, vot siin on see sõna rahvus, mul on väga raske siin öelda, et kes ma olen, ma, et minu ema on kreeklanna isa on eestlane. Ma räägin viies keeles. Valdan viit keelt pluss kaks keelt, ma saan neist aru ja, ja võin vastata. Ja ma arvan, et see on väga hea, hea teema, Mairi. Et me saaks praegu gruppides arutada, mitte mingit loengut pidada. Ei, gruppides arutada, rääkida omavahel ja kui teil on ka küsimusi pärast peale arutelu mulle, Airile, siis küsige julgelt. Ja alustame nii, aga alustuseks siis pean ütlema ka, et mina paljusid siit ei tunne, paljusid ma tunnen, aga miks ma paljusid ei tunne, põhjus on just selles, et külatelefon töötab väga hästi, et meil oli üks inimene, keda ma teadsin väga kindlalt, et ta tuleb siia ja juhtus niimoodi, et tal on täna vaja matustel olla. Ja siis ta otsis mulle kaks inimest, kes võiks tema asemel tulla nendest üks inimene sai tulla, teine ei saanud tulla, see teine inimene, kes ei saanud tulla, otsis kaks inimest, kes saaksid tulla nendest kahest inimesest, üks sai tulla, üks ei saanud tulla, tema otsis inimesed, kes saavad tulla. Nii et ühesõnaga ma olen väga tänulik kõigile, kes on lõpuks siia jõudnud. Aga me tahame siis ka täpsemalt teiega tuttavaks saada, et te räägiksite sellest hästi lühidalt, kes te olete ja mis teid selle teemaga seob, et kuidas te olete seotud eesti keele õppega muukeelsena või on teil lihtsalt näiteks tööalaselt olete seotud, töötate muukeelsete inimestega või, või lihtsalt teile meeldib muukeelsete inimestega suhelda, teeme nii, et kelle käes on pall, see räägib. Sa võid kohe tooli siiapoole keerata, sest me nagunii hakkame gruppe tegema. Tere, olen Dmitri, olen integratsiooni Sihtasutuse juhataja ja see on osa minu tööst, et ütled, et neid inimesi, kes vajaks tuge nii lõimumise kui ka eesti keele õppe puhul. Aitäh. Mina olen Xenja. Ma õpetan eesti keelt. Sa õpid, õpin eesti keele, eesti keelt Airika ja alustasin õppida eesti keelt räägi minuga Natalja Kitam aita teile. Suur tänu, see kurss oli väga hea. Ja ma abitan praegu, kui teil on vaja abi, küsin minu käest, palun. Minu assistent, assistent ja assistent on. Nii aitäh. Tere, olen Aleksei, olen Narva elanik, olen siin Narvas kunagi, mina ei mäleta ja millal. Miks veel? Ma rohkem aru saan eesti keelt kui räägin, siis Narvas pole praktikat. Okei, siis no mina olen täiskasvanute koolitaja ja kirjanik. Suurepärane, nii. Tere, minu nimi on Darja. Mu emakeel on vene keel, aga koolis ja siis pärast kooli õppisin eesti keelt, sest see mulle väga meeldib. Tööl kasutan peamiselt eesti keelt, aga ka inglise ja vene keelt ja tegelikult sain peaaegu kõiki oma töökohti tänu keeleoskusele. Suurepärane on tunda. Tere, minu nimi on Sofia, samamoodi, minu emakeel on vene keel, aga lapsepõlvest olen eesti keelt õppinud ja tööl ka kasutan eesti keelt väga palju. Suur tänu! Tere! Ma olen Svetlana, ma olen ka Narva elanik ja rohkem ma räägin vene ja inglise keel, kelle keeles, aga. Ma olen täiskasvanud õpetaja ka nagu Aleksei ja ma psühholoog ja arengukeskuse juhataja. Väga hea. No anna edasi vähemalt, kui sa ise ei taha rääkida. Anton, Anton, ei, ei, ei pasi. Räägi vene keeles, kui sa tahad, räägi. Anton. No hea küll, nii, Eduard. Tervist, mina olen Eduard, mina tulen Kohtla-Järvelt. Minu esimene keel on vene keel, koolis käisin, õppisin vene keeles, aga keele omandasin nii palju, et minust sai ka eesti keele õpetaja ja õpin doktorantuuris eesti keele lingvistikat, nii palju siis. Väga hea. Tere, mina olen Sirle. Mina nüüd olen puha kohalik, sündinud Eestis, kasvanud Eestis, rääkinud sünnist saadik eesti keelt ja siis ma olen eesti keele õpetaja ja siis välismaalastele ma olen nüüd kümme aastat õpetanud eesti keelt. Alustasime süürlastega, see oli väga huvitav kogemus, sest nemad rääkisid araabia keeles, mina rääkisin eesti keeles. Ja siis niimoodi nullkeele baasil hakkasimegi eesti keelt õppima. Noh, ja siis nüüd tuli järgmine laine ukrainlaseid, et noh, selle õpetamise kogemusega suurtele väikestele kõigile. Nii ma võin öelda vahele, et Sirle õpilane A la, see süürlane oli ka meile kutsutud, aga kahjuks ta ei saanud täna tulla, kuna ega nii hilja sai teada. Tere, minu nimi on Jelena ja minu emakeel on ukraina keel. Kuna minu lapsepõlv oli Ukrainas, aga Eestis ma käisin vene koolis, siis ma sain vene keelt õppida. Aga kui Eesti sai taasiseseisvuks, siis ma pidin otsustama, mis riigis ma tahan elada. Ja ma valisin Eesti ja selle tõttu ma õppisin eesti keelt ülikoolis ja edaspidi. Ja tänaseks ma töötan Ivika Mägi audismi koolis koolitajana ja teen loengut koolituse tugigruppi ja nõustamise mõlemas keeles. Suurepärane. Nii, kas selja taga on soeka veel rääkida? Tere, mina olen Natalja, ma olen Lasnamäelt. Aga kakskeelsest perest ma ütleks ja mind huvitab see teema ilmselt sellepärast, et ma arvan, et Eestis öelda, ei öelda välja nagu kuidas sa tunned ennast päriselt, kui sa oled kakskeelne või isegi kui sa oled nagu, kui su emakeel on vene keel, mind häirib see, ma tahaks sellest rääkida, ma hakkasin kirjutama raamatut sellest, mis on olla nagu, mis tunne on või nagu jah, mis nagu ideede keskel sa kasvad, kui sa kasvad nagu sellises kakskeelses peres naisena, sa oled vähemusgrupi esindaja ja, ja eriti kui sa oled kakskeelne pagan, sa ei kuulu mitte sinna ega sinna ja siis identiteet on nagu väga selline tähtis küsimus minu jaoks ja jah. Suur tänu sulle, nii Tõnu, soovid ka sõna. Ja. Tere, mina olen Tõnu. Mind kutsus siia Airi moderaator. Paar tundi tagasi. Ja natuke olen siin juhuslikult, aga nii palju, kui ma sellest teemast aru saan, ütleks nii palju, et mida nagu mina eestlasena tahaksin võib-olla õppida slaavlastelt või slaavi hingelt on see, et kuidas nagu noh, sellises ühistegevuses noh, nagu selline noh, nagu noh, selline meeleolu või selline ühtekuuluvus tekib noh, tõesti nipsu pealt niimoodi, et teinekord vaatad mingeid, mingit noortelaagreid, spordilaagrit ja see on neil noh, neil, eks ole. On nagu noh, niivõrd nagu olemas on ju, et ma, ma nagu tahaks ka, et, et kuidas, kuidas te teete seda või kuidas nad teevad seda. Et nagu selline mõte mul tuli nagu meelde, et jah. Nii aitäh, seal taga on üks neiu, kes soovite ka sõna. Tere, mina olen Mari. Mina olen teenusedisainer ja minu töö on panna ennast pidevalt teiste kingadesse. Ja olen aidanud läbi viia ka uuringut, et olen võtnud ühe väljakutse rändeteemasid natukene mõtestada, et kuidas meil Eestis nende teemadega on, nii et, aga peaaegu et puhas eestlane. Väga hea. Nii, kas seal taga vaipade peal soovitakse ka sõna. Tere, ma olen Eeva, mul ei ole ka mingit otsest suurt isiklikku seost selle teemaga, aga see on mingis mõttes meie kõigi teema, kui me elame siin ühiskonnas ja no ma olen õpetaja, nii et jah, mul on paad ukraina kolleegi ja kindlasti ka õpilasi, kelle emakeel ei ole eesti keel. Suurepärane. Nii, kas soovib veel keegi sõna? Anton, oled julguse kokku võtnud, tahad rääkida? Nii olgu, sundima ei hakka. Nii, soovite ka sõna. Nii, väga hea, aga nüüd on mul teile selline ülesanne, et teeme grupid, aga grupid on kahe reegli järgi. Esiteks grupis ei ole inimesi, keda te varem olete tundnud, kellega te varem olete kohtunud. Teiseks, igas grupis peab olema ühesõnaga võimalik leida ühine keel, kas parem on, kui grupis on nii eestlane, venelane kui ka inimene, kes oskab mõlemat keelt, aga peaasi, et te leiate ühise keele. Ja kui me seda küsimust pärast arutame, et keegi suudaks sellest grupist edastada selle info eesti keeles. Nii, võtke oma toolid, leidke. Kui suur see grupp võiks olla? Miinimum kolm inimest siis, aga ma arvan, et mitte üle viie, et ühesõnaga jah. Nii väga hea. Kaks minutit anname selleks, et vormistada gruppe ja aeg läks. Nii. Et tõstke julgesti oma toolid paika, kes on, kes on julgem, aga kindlasti jah, et valige just inimesi, keda te varem ei tunne, ma paluksin. Nii, sina ka. Nii. Sul ei ole inimesi, keda sa ei tunne jah? Nii väga hea, nii. Sina tead juba kõiki, jah? Nii. Miks ei ole, sa ju räägid eesti keelt. No siis vahetada. Nii Svete läheb kuhugi mujale ja Darja läheb kuhugi mujale, vahetus. Dmitrit ta tunneb. Nii et Darja on ema üldse ja ma mõtlen nagu need kaks rühma teeme. Kui seal on praegu neli ja siin on neli, et tehke niimoodi, et on kolm kolm ja nüüd on midagi veel. Nii, seal on neli. Või vahetame teiega kuidagi ära. Või jätame nii nagu on. Mulle asja mõte ongi see, et võimalikult palju saate uut infot. Siis Ksenia tuleb siia. Darja läheb sinna. Kas sealt grupist, seal on väga palju eestlasi, tulge palun keegi siiralt siia. Saadame sinna. Ja Sveta läheb sinna ja Ksenija läheb tul-, nii. Nii. Nii. Üks eestlane, palun siia gruppi, teie juurest. Ja, ja. Ja siia tehtud, tehtud, tehtud. Nii Xenia. Üks eestlane siia. Nii, teie saite paberi. Nii. Teie saite juba tegelikult, teil on jah? On olemas ka igal pool. Pastakad. Nii väga hea. Nii suurepärane ja nüüd me alustame siis põhiosaga. Et nagu ma aru saan, vist ei olegi meil vaja tõlkida, et aitab, kui ma räägin eesti keeles, kõik saavad aru. Absoluutselt. Tore, aga kui keegi millestki aru ei saa, siis tehke häält ja me tõlgime. Et siis tänapäeval ei ole maailmas ilmselt enam ühtegi riiki, kus oleks ainult üks rahvus või üks usund. Ja kuidas teha nii, et see oleks võimalikult vähe probleeme tekitaks ja sellest oleks maksimaalselt kasu. Palun arutlege oma grupi vahel, teil on viis minutit aega ja siis esitate suurele ringile oma vastused. Nii erinevad religioonid, erinevad rahvused. Ma võin teile küsimuse siia ette, siis. Okei, võimalik on vähe probleeme, võimalikult palju kasu. Üks. Palju aega sa annad, viis minutit esialgu ja siis me arutame suures ringis, et pange praegu kirja see peamine idee, mis teie arvates on kõige olulisem, mis annaks tulemuse. Nii ja aeg läks. Soovite vene keeles seda teksti? Tahate vene keeles seda? Ei, olemas. Väga hea, nii. Et Natalja, kuidas sulle endale tundub? Mis mulle tundub, et mida võiks teha, et võiks selle maakeele ära õppida ja selle maakeel võiks olla lingva franka ehk siis keel, millest me kõik räägime. Rahvusvaheline väga hea diplomaatiline. Jah, ärme ütleme teile ette, aga lihtsalt jah, meie arutame siin omavahel. Okei, aga väga. Mulle tundub, et me võime hakata tasakesi kuulama teie arvamusi. Nii, milles teie grupp jõudis siis üksmeelele? Ja meil oli siin erinevad mõtted, et me panime kirja, et inimesed peaks omavahel suhtlema, teineteisega rääkima, et ei tekiks mingeid suletud gruppe, kes teineteisega ei suhtle. Vaenukõne vähendamine avalikus ruumis, et ka ei tekiks mingeid eelarvamusi. Ka võib-olla küsida noorte käest, mida nemad selle teema kohta arvavad, sest nad kipuvad nägema maailma positiivsemates toonides ja värvides. Siis kindlasti on oluline ka haridustase, et selle tõstmine, eriti kui me vaatame, et inimesed näiteks tulevad vähem arenenud riigist teise riiki. Et siis peaks pöörama tähelepanu sellele, et noh mõlemad need grupid nendel oleks piisavalt hea haridustase selleks, et. Leida rohkem ühiskeelt. Ja siis ka riigi heaolutase tõstmine üldiselt peaks olema riigil prioriteedis, sest kui elu on halb, siis me ka suhtume negatiivsemalt erinevatesse asjadesse, mis võib-olla on natuke ebatavalised meie jaoks. Kas keegi tahab lisada? Suur tänu. Selles grupis, te jõudsite üksmeelele. Väga hea, nii järgmine grupp. Kas olete valmis? Me siin jagasime kogemusi ja oli siin kaks-kolm mõtet ja, ja ma lühidalt ütlen välja. Esiteks eriti kui inimene tuleb Eestisse, siis peaks olema selge kommunikatsioon nii riigi kui ühiskonna poolt, et mis on tema võimalused. Mis on oluline, mis võib olla kohustused, et ja kuidas ta saab osaleda ja olla kasulik ja ühiskonnale, et see kommunikatsioon ei ole alati selge ja eriti küsimus, kui inimesed tulevad ja näiteks eesti-inglise, vene keelt ei oska, et kuidas neid kohe siis niimoodi kaasata ja noh, selleks on oma programmid, aga siin kindlasti ühiskond tervikuna saab rohkem teha. Teine mõte, et. Et kui me vaatame teiste riikide kogemusi, siis on oluline, et, et on, on palju erinevaid kultuure. Nad elavad koos, aga ikkagi inimesi konkreetses riigis ühendab riigikeel ja selle riigi kultuuriruum, et sul on oma kultuur, aga me kõik oleme Eesti kultuuriruumis, eriti inimesed, kes tulevad Eestisse ja Euroopa kultuuriruumi ja et see on eriti ja aga väljakutseks on näiteks siin oli ka Narva kogemus, et, et kui inimesed terve elu elanud näiteks venekeelses keskkonnas, et, et kust see tuleb motivatsioon või selline nagu soov olla rohkem Eesti kultuuriruumis ja ja õppida eesti keelt näiteks, et see on nagu väljakutse ja siis ongi nagu, et meil on inimesi, kes pikalt elanud, ühed kogemused inimesed, kes tulevad riiki ja kohe nagu näevad võib-olla teistmoodi seda. Vot sellised mõtted meil, kas, kas on midagi. Suur tänu. Väga tore, head mõtted. Nii riigi tulemise teemal oli ka teil siin asjatundjaid, kes soovib rääkida teie grupist. Nii me jõudsime selleni, et ükskõik kui palju rahvused ühes või teises riigis on, siis ikkagi keskpunktis on see riigikeel, eks ole, et kes peaks kõike nii-öelda ühendama ja kui me räägime väikesest lastest, siis me leidsime, et hea, et nad oleks selle, see riigikeele nii-öelda ruumis, eks ole, juba liivakastis, eks ole, et et koolis keele õppimine on natuke juba hilja, eks ole, et aga kui me räägime siis täiskasvanutes, siis aluseks on ikkagi seesama motivatsioon on ju, et mis igaüks peab leidma endale, eks ole, et miks ma pean seda keelt õppima. Ja siis noh, nagu Sirle pakkus on ju, et ühesed huvid on ju, aga see on juba tagajärg, on ju, kõige tähtsam on see motivatsioon, et mul on vaja seda keelt õppida, eks ole, et igaüks leiab endale need põhjused, miks. Ja õrnalt meil käis ka läbi see, et, et kui sa ka nagu lapsena puutud kokku nagu noh, mingisuguse erinevusega või teistsugusega, millega noh sa pead või saad nagu kohaneda, et sa tegelikult noh arendab sind nagu noh, nagu vaimselt või, või noh, intellektuaalselt on ju. Et natuke rääkisime sellest ka, et just. Et see kindlasti rikastub ja areneb, arendab, eks ole. Suur tänu. Mulle tundus just see Natalja teema, et sa ütlesid, et sa ei tunne ennast ei siin ega seal olevat, aga kas sa nüüd tunned, et sa kuulud nii siia kui sinna? Minu tee selle küsimusega on olnud noh, see, ma mõtlen, see küsimus on olnud minuga terve mu elu ja ma arvan, et see jääbki nii olema, ma ei usu, et seda on võimalik kuidagi valida, sellepärast et minu kahjuks või õnneks lihtsalt ma. Ma proovin olla võimalikult nagu päris, kes ma olen igas hetkes, aga ma ei saa kogu aeg näidata enda üht, nagu vahepeal ma pean valima, mis poolt ma endast näitan, kas seda slaavi poolt rohkem. Ja vahepeal seda ei taheta siin näha mis iganes põhjustel on ja ei tunta huvi selle vastu, pigem kardetakse, kuigi ma olen sõbralik inimene, ma ei tea, miks seda karta. Noh, ma ei tea jah see sõltub, oleneb, iga aastaga ma tajun ennast kuidagi erinevalt, ma ei tea, ma ei oska vastata kahjuks. Ma loodan, et kunagi võib-olla ma jõuan vastuseni. Suur tänu, Airi, kas ma võin siia lisada ühte asja, et tegelikult sinna kunagi mina mõtlesin ja ma tulen siia. Et kust see viha tuleb, võõra viha, eks ju, et see on nagu üks niimoodi kokku pandud, kas taskus või juba välja tulnud. Ja kui me teeme ükshaaval need lahti ja see on, kas mul läheb hästi, Sufüüa sa ütlesid just, et, et see heaolu peaks olema hästi elatud. Ja kui mul ei lähe hästi, siis ma otsin, kes on süüdi ja tavaliselt, kes on süüdi, keda ma ei tea ja kes siia tulnud on ja miks nad siia tulid? Natalja mina ei otsiks süüdlast, ma otsiks lahendust. Seda küll, seda küll, aga kui me räägime, räägime probleemidest, et kindlasti lahendust, aga kas, kas mul läheb hästi ja kui läheb hästi, siis enam sellist viha ei ole, enam niimoodi lüüa ei saa, aga siin on veel täppe ja see, kas, kas seal ikkagi mõeldakse hästi selles mõttes, kas, kas mõeldakse selle immigratsiooniprobleemidele, kas ei lasta liiga palju neid sisse ja kas meid üldse, kas, kas see turvalisus, kas turvalisuse peale mõeldakse ja kui me usaldame neid, kes otsustavad, kui me valime neid, kes otsustas, siis, siis jällegi enam ei saa lüüa, on ju. Aga see keskmine on see, kas mul on sõpru, kas mul on sõpru, kontakte, kas ma tean Nataljat, laps, eriti lapsepõlvest, see on see, et kas minu keel, minu kultuur, meie siin riigis, jääb alles? Tänu sellele ja see viimane on, kas meedias seda narratiivi, kas sellist vaenu õhutamist ja, ja vaenlase sellise sümboolse vaenlase otsingut, kas seda ei ole ja kui kõik need tulevad lahti, siis enam ei ole? Siis saab juba. Natalja tahtsid öelda. Ma lihtsalt tahtsin lisada ja et, et minu jaoks see, et kas ma tunnen ennast hästi ja kas ma saan olla, kes ma olen, on alati sõltunud võib-olla sellest, et ma olen väga kogukondlik inimene, mina ei ole individuaalne selline, kes abisaja kõigega hakkama ja ma ei taha ka olla, see on võib-olla vastus sellele, miks slaavlased võib-olla kuidagi onju lähevad kokku kuidagi, ma ei tea, see on lihtsalt minus sees. Aga aga näiteks kui ma küsin enda käest, et kas mul on praegu hea olla ja vastus on, siis ma alati mõtlen edasi, et kas, kas minu inimestel on hea olla ja kui ma mõtlen, et minu inimesed, okei, kes on minu inimesed, on ju siis jah ausalt öeldes enamus mu eestlastest sõpradel on kõik hästi, aga kui ma mõtlen kõikidele teistele minu inimestele ja neil ei lähe tegelikult nii hästi, neil läheb palju keerulisemalt, siis mina ei saa ka õnnelik olla, ma ei saa olla rahul. Et see on see, miks mul on raske identiteediga, sest et see ei ole ainult mina, see on kõik mu inimesed. Ja kõigil ei lähe võrdselt, üldse ei lähe võrdselt, ei ole võrdne. Aitäh. Suur tänu, Natalja, aga nagu ma juba algul ütlesin, iga küsimuse jaoks vahetame me gruppe, meid ei ole küll nii palju, et kõigi grupi liikmeid saate vahetada, aga teeme nii, et vähemalt pool gruppi läheb ühele poole, pool gruppi teisele poole, nii et palun leidke endale uued paarilised. No jätke jah koha peale, jätke koha peale see leht, et siis lihtsalt on kohapeal olemas, muidu on pärast mõne koha. Ja meil on uued tulijad ka. Ühinege. Ühinege julgelt ja et väike. Nii kuidas iganes, aga proovige. Ühinege ükskõik mis gruppi. Nii. Ksenia, Sootab jah. Nii okei. Jõudsimegi selle järgmise teemani, kuhu me tahtsime jõuda. Integratsioon on kahepoolne protsess, kas eestlased tunnevad teistest rahvusest inimeste vastu huvi nende tegemiste vastu huvi ja tooge oma kogemustest positiivseid näiteid, me loodame praegu just nimelt positiivsete näidete peale negatiivseid näiteid, ma usun, et oskavad kõik tuua, aga kui teil on mingeid positiivseid näiteid, oleks tore. Et kuna meil lisandus üks härra vahepeal äkki tutvustate ennast natuke? Olen Ken, aga mis ma veel peaks ütlema? Mind seob uudishimu, ma arvan. Ma tegelikult hea meelega annaks teile mikrofoni, sest mulle meeldis see, see idee, et eestlased võib-olla on rohkem avatud, kui neile endale tundub. Tere, mina olen Aljona Suržikova, ma olen siin nagu kohalik elanik, see Paide arvamusfestival minu jaoks kõrvalküla ületus, et see kääru asub siin kõrval ja siis lihtsalt juhuslikult sõbrad kutsusid, et tule meile ja siis ma tulin nagu kuulama, mis siin toimub. Ja rääkisime integratsioonis, et see on kahepoolne protsess, siis ma siis kohe kuulsin esimene lause, et oo, eestlastel läheb ikka aega, et vastu võtta teisi inimesi, et need on ikka kinnisemad, aga ma arvan, et need asjad on muutunud ajaga, et eestlased on ka avatumaks muutunud ja inimesed on väga erinevad, sõltub nendest, kus kohas nad tulevad, kui palju keeli nad oskavad, kui palju riiki nad külastasid, kui, kui palju nad õppisid üldse elus, kui palju nad nägid, et see sõltub pigem mitte sellest, mis rahvuses nad on või mis kultuuris nad on. Et see on võib-olla juba selline taustainfo, aga ma ei tea, Ida-Virumaa memmed saavad samamoodi olla väga eba, ma ei tea, sõbralikud üksteise vastu kui nagu noh, teiste kultuuriinimesed võivad nende vastu ebasõbralikud olla või siis oma küla inimesed võivad nagu minna ja leida mingid probleemid, et see ei sõltu rahvusest, ma arvan. Aga eestlased, ma arvan, hakkasid kui Eesti sai iseseisvaks, siis nad kindlasti läksid elama erinevates riikides ja seal tekkisid ka sellised segaabielud ja kõik need erinevad kultuurid rohkem tuttavaks said neile ja ma arvan, et see enda nagu vana nagu mõtlemine, et eestlased on kinnised, et eestlased ei ole sõbralikud, see ei ole üldse tõde, et mina näen paljudes tegevustes, et kus riigis toimuvad need talgud nagu meil kuskil ei toimu, kõik koos saavad kokku ja teevad. Eestlased võib-olla ei räägi nii palju, aga teevad asju ja nad aitavad üksteise palju rohkem kui võib-olla isegi teised rahvused. Et slaavi rahvaste nagu mõte oli suur hing ja kõik see on blabla-bla, aga tegevused teevad rohkem nagu just noh, eestlased, et tõesti ma olen reisinud ja näinud noh, kuskil viiskümmend viis riiki, eks ma tean, millest ma räägin. Ja siis ma arvan, lihtsalt peab ennast rohkem hindama ja mõtlema, otsima tõesti need head näidet. Ma ei tea, oli see teemast. Suur tänu, väga hea, väga asjakohane kõik. Nii, kuulame, mida teie siin välja mõtlesite. Et ja natuke arutasime meie kogemusi. Siis oli erinevaid mõtteid selle, selle hirmu kohta, et mõned arvasid, et ja vahepeal tekibki tunne, et, et teineteist natuke kartakse, aga on ka palju häid kogemusi, ongi inimesi, näiteks Darja ütleb, et tal on suurem osa tema sõpradest on kõik eestlased ja nendel läheb nagu kõik hästi selle suhtlusega ja siin oli toodud ka teine näide, et kui me vaatame, kuidas inimesed eesti keelt valdavad, siis ka väga huvitav kuulata, kuidas inimesed teisest keeleruumist eesti keelt kasutavad, see mõnikord erineb sellest, kuidas emakeele valdaja ennast seda teeks ja siis võib-olla soovid ka mõned näited ise tuua. Ja see oli minu mõte, et ma just ütlesin, et see, kuidas Vladimir Svet räägib eesti keelt, et ma nagu alati väga huviga kuulan, et ta noh, ta on nagu väga andekas ja ta nagu räägib, ta räägib seda natuke teistmoodi onju, aga mul on nagu nii huvitav seda kuulata ja minu meelest noh, ta on inimene, kes arendab eesti keelt edasi onju. Ja umbes, et mul on üks tuttav kirjanik, kes on nagu eestlanna ja läks elama Inglismaale ja kirjutab seal inglise keeles. Ja noh, ja tema toimetaja ütleb, ütleb talle niimoodi, et jaa, ma saan aru, et noh, inglise keel ei ole su emakeel on ju. Aga sa teed seda kuidagi teistmoodi, et sa teed seda kuidagi värskelt on ju, ja et see on nagu nii huvitav, et meil on nii palju lugejaid, kes nagu tahaksid sellist sinu nagu teksti lugeda. Et noh, see oli nagu minu tähelepanek. Jah, aga eriti midagi lisada siin meil pole. No see oli juba väga hea ja põhjalik jutt, aitäh. Mulle tuli meelde, et Napokov oli kirjutanud oma lollita ka vist originaalis inglise keeles ja keegi ei uskunud, et ta ei ole inglane. Ma siin tegin märkmeid ja et kui keegi tahab, siis saab lisada jah, ma lühidalt võtan. Meil oli siin kolm mõtet, esimene on see, et eest, eestlasele tihti see, mis Võrus on ohtlik, tundub ja ole hea näide siin Paidest või Järvamaalt, et kus Türilt ja Türilt, et tulid Süüriast põgenikud, alguses kõik kartsid, aga siis, kui nad kunagi oma toitu näitasid ühel üritusel ja andsid proovida, siis see huvi tekkis väga suur ja tegelikult see tugi ka kohe tekkis ja arutelu ja siis on kaks sellist teemat on töökoht ja see erinevad nagu huvitegevused nagu Naiskodukaitse või rahvatants, et kus saabki nagu eestlastega teiste emakeelega inimestega kokku ja on toodud näited, kuidas esiteks eestlased olid väga toetavad, talusid vigu ja ütlesid, et ära karda ja parandasid ja kui midagi ei saanud aru, siis alati inimesed aitasid, et see tegelikult need positiivsed näited on väga palju, inimesed on tänulikud siin ja noogutavad kõrval, et et selline ikkagi hea kogemus on. Suur tänu ja juba te teate, vahetame kohti. Otsige endale jälle uued seltsilised, eriti soovitan nendel kohta vahetada, kes on kogu aeg sama tooli peal istunud. Sirutage selga ja minge kuhugi mujale, näiteks. Kuna meil tuli rahvast juurde, siis soovitan teha nüüd viiesed grupid, et praegu oli ühes grupis oli neli ja ühes oli kuus, et teeme viiesed grupid siis on enam-vähem võrdne. Oi-oi-oi. Nii kõik on uued kaaslased leidnud, väga hea. Nii ja meie järgmine küsimus on siis oma uue kodumaa keele, kultuuri ja traditsioonide tundimine ei tee elu mitte ainult lihtsamaks, vaid on ka märk austusest selle riigi vastu. Ja jälle tooge positiivseid näiteid, mismoodi kohaliku keele või traditsioonide tundmine on teie elu lihtsamaks teinud näiteks? Ja kui te olete kohalik, siis kas te olete märganud sellist inimest, kes niimoodi tegi? Et kuidas eestlasena teile tundub, kas aitab see, kui? See võib olla kool, see võib olla töö või vabatahtlik tegevus, ühistegevus. Nii meil on kahju teid selja taga, meie ajapiirang on peal. Nii Ragne, äkki lühidalt tutvustad ennast ja mis seob sind selle teemaga? No mina olen Ragne jah, et, et ma siin sattusin täitsa juhuslikult sellesse gruppi praegu. Aga väga põnev teema, no mind seob puhtalt see, et ma kuni seitsmenda eluaastani rääkisin ainult vene keelt. Nii et jah, täitsa üleminek, siin oli ka näide, et üleminek toimus puhtalt nii-öelda sõbra tasandi baasil on ju, et, et naabrid olid eestlased ja pidid kuidagi hakkama suhtlema ja aru saama üksteisest, nii et sealt see nii läks. Soovib selles grupis veel keegi sõna või Darja ütles või Ragna ütles kõik ära juba. Okei, nii. Me rääkisime peamiselt sellest, et kõik erinevused on väga väärtuslikud ja üldiselt erinevad eri kultuuriliste erinevuste vahetamine on kasulik mõlemale poolele väga, väga mitmel tasemel, et kas te jagate muusikat, toitu või midagi muud, see kõik rikastab meid kõiki. Ja üldiselt inimesed ei saa teineteisest aru, sellepärast et nad ei püüa süveneda sellesse, miks keegi teeb midagi nii või teine teeb, no aga kui Jelena tõi siin hea näide oma oma elust, sellest kuidas, kui süvened põhjustas siis on väga kerge teisest inimesest aru saada, et siis samamoodi ka kultuuri süvenemine aitab meist teineteisest aru saada. Väga hea, tõesti apolosi väärt nii ja ka kolmas grupp. Ja, et meie siis nagu see küsimus on, et kuidas see austus nagu siis tekiks tulijatel selle, selle maakultuuri vastu ja siin toodi välja, et et eestlaste, eestlased on sellised nagu rahulikud ja kuidagi nagu eemale viibi, eemal viibivad ja et tulijatel on üldse nagu noh, ma ei tea, raske nagu noh leida seda kokkupuutepunkti nagu, et nagu siin Ksenija tõi näiteks nagu Itaalia, et kus seda itaallaseks olemist on ju nagu noh, nagu kõik kohad täis, et sa nagu lähed tänavale, saad aru, et sa oled Itaalias on ju, aga jah, et umbes, et, et eestlased on selles mõttes väga rahumeel, noh nagu liiga rahulik või raske nende kohata nagu või kuidagi niimoodi. Ja siis tuli selline mõte, et, et kui tulijad on nagu suurest kultuuri või keeleruumist, ma ei tea, Hiina, Venemaa misiganes, et siis nad jäävad nagu rahulikult endi keskele, eks ole, et neil ei tekigi nagu sellist vajadust või soovi nagu selle koha pealse kultuuriga nagu kohtuda või või selle vastu mingit austust näidata. Ja samas ka see, et oleneb tõesti, et kus kohas siis inimene on tulnud ja kui talle see, see olemasolev keskkond nagu noh, kultuuriliselt nagu sobib või see haagib temaga, siis tal on ka nagu lihtsam noh, lihtsam seda kohanemist nagu läbi viia, seda austust nagu näidata. Et ja veel selline mõte, et, et, et kui me räägime siin Eestist, et võib-olla, et eestlased võiksid nagu ise noh, rohkem nagu pakkuda midagi nendele tulijatele ja veel siin Aleksei ütles, et et need tulijad tegelikult võiksid ise sisemiselt valmis olla, et et kui, et ka nemad ise võivad või, või peavad muutuma tegelikult, kui nad hakkavad neid noh, neid uusi tulijaid nagu vastu võtma või nendega lähemalt suht suhtlema, et see, et see tegelikult võib viia ka selleni, et sa pead nagu sisemiselt ise muutuma, et see on võib-olla nagu niisugune võib-olla sihuke hirmutav asi, et noh ja et niisugused momendid tulid välja meil siin. Suurepärane, aitäh ja järjekordselt vahetame gruppe. Kas ma võin siin natukene rääkida sellest? Aga teie vahetage gruppe juba. Lihtsalt mõtteainet, et see erinevus rikastab. Aga ainult siis, kui ta, kui nad ei ole väga, väga suured. Kas, kas olete sellega nõus, et mingi kokkupuute peaks olema, kui see erinevus on nii suur, siis on väga raske edasi minna, et ehk siis jällegi on vaja pingutada, ent leida see ühisosa. No aga igatahes suur tänu, aga. Võtke siit endale mälestus. Nii, jah, teil läheb juba juttu edasi, ilma küsimuseta, väga hea. Et kus seal on nüüd ainult kolm tükki jäänud. Sinna kedagi juurde. Aleksei, sa, sa olid juba seal saadames, Svetlana nüüd sinna, eks ole? Ah? Peate lahkuma. Oi kui kahju. Aga A oota, teile saab ka mälestuseks igatahes üks see. Võtke üks. Üks väike mälestus. Anna Svetlana siis. Nii, okei, aga tahab keegi veel sinna minna? Aitäh, nii. Et nüüd siis küsimus selle kohta, kuidas teistes riikides on see küsimus lahendatud, et kas teil on tuua positiivseid näiteid selle kohta, kuidas teistes riikides on rahvustevahelised probleemid või küsimused edukalt lahendatud? No nii. Kuidas on, kas olete valmis teistega oma muljeid jagama? No ühesõnaga juttu oli palju ja siis üks jutt oli see, et ikkagi nagu noorte jaoks selline koos õppimine ja pidutsemine on üks selline suur motivaator, et saadakse üksteisega tuttavaks, näiteks kui on erikeelsed sellised õppegrupid ja, ja et laulmine, et kui ühte maad esindab keegi vähemusrahvusest või teisest rahvusest laulja, et siis see kõigile meeldib ja kõigil on hea tunne sellega seoses. Ja siis ütles Dmitri, et, et tegelikult tema on palju maailmas ringi käinud, on mul õigus ja ja et pole näinud ühtegi maad, kus oleks asi ikkagi palju paremini lahendatud kui Eesti ehk siis, et väike lohutus ka. Mul tuleb, ma räägin ühe lihtsa näite, minu õde elab Luksemburgis ja ma küsisin tema laste käest, nad on seal elanud sünnist saati, et kui palju nad Luksemburgi keelt oskavad, neil on oma keel, et me keegi ei tea seda, kõik arvavad, et prantsuse või saksa keel on seal riigikeel ja siis nad oskasid kolme sõna, et sama palju kui mina, et moian on tere ja Adjeöö on sama, mis prantsuse keeles on, head aega ja, ja on aitäh, mis on ka sama, mis prantsuse keeles, ehk siis, et, et kolm sõna kümne aasta peale. No ja et sellega võrreldes ma loodan, et enamusel eestlastel on paremini läinud, aga Narvas võib-olla, et ka ei ole, nii. Natalja. Milline? Sul on mikrofon. Okei. Enne kui me jõuame positiivsete näitedeni, näideteni, sest et meil on siin üks, millest Natalja natuke hiljem räägib. Ma tahtsin tuua välja. Ah, ma ei tea, kas see on positiivne või ei, aga ühesõnaga kunagi ma mõtlesin selle peale, et Kambodžas olid seitsmekümnendatel punased chmeerid, nad lõikasid, see oli kambodžalased, kes lõikasid väike grupp rahvast, võib-olla suur, ma ei mäleta täpselt, aga nad lõikasid iseenda nagu rahvast nagu noh, tapsid. Tapsid oma rahvast. Jah ja siis no see oli väga vägivaldne ja siis kuidas Kambodža näiteks sellega tegeleb, on, et näiteks neil, neil on üks päev aastas, mille nime ma täpselt ei mäleta, kas see oli vihapäev või leinapäev, midagi sellist, millal nad lavastavad teatri või nagu draama, draamateatri moodi etendusi, kus nad mängivad läbi neid nii-öelda vägivaldseid hetki nende ajaloos. Sellest perioodist, punaste Kmeeride nagu perioodist on ju, ja see on see päev, millal kogu rahvas, kes noh, pealt vaatab, publik on ju, nad võivad nutta välja seda mingit põlvkonda traumat, mis neil ikka veel ju sees on. Nad võivad seda välja nutta, ma ei tea, välja karjuda, lasta mingi sellel emotsioonil, mis edasi kandub, kahjuks, noh välja endast endast ja see on nagu kontrollitud selline keskkond, millest seda välja lastakse ja mina mõtlesin, et meil Eestis võiks ka seda olla, sest et üks, üks nagu noh, mida mina tunnen, on see, et. Mu enda pere oli ka väga traumeeritud siis eelmise sajandi ajalooliste sündmuste tõttu ja meil ei ole olnud viisi leinata seda, võib-olla see Pirital see kommunismi ohvrite mälestusmärk. Jah, aga nagu rääkida sellest, see on nii tabuteema tegelikult ja siis ma mõtlesin selle peale ja et me meil võiks olla midagi taolist ka võib-olla ja siis Nataljal on hea näide ka. Nii olen käinud või voodinas, see on Serbia osa, väga rikas ja rikas ka erinevate kultuuride ja inimeste poole, seal on minu meeles kakskümmend kuus vähemusrahvust, kusjuures nende parlamendis neil on väike parlament, on kõik keeled esindatud ja see töö, parlamendi töö käibi nagu käibki niimoodi, et sünkroontõlge tuleb, kusjuures kõik räägivad serbia keelt vabalt, aga tõlgitakse ja sa võid ka esitada küsimusi oma emakeeles, neil on ju see nimekiri neist vähemusrahvustest. Ja mina küsisin, see oli kakskümmend, kaks tuhat üheksa masu, mitte ainult meil, aga no igal pool kriis ja mõtlesin, noh, see on ju nii kallis, et võiks ju kokku hoida. Nad ei saanud minu küsimusest aru. Ma ütlesin, kuidas, see on ju lugupidamine, see on lihtsalt see, see on üks see fakt. Ja see või jällegi hea näide minu meelest on see, et nad on kõik Serbia patrioodid ja seal on need kohad, kus näiteks ungarlased on, moodustavad enamuse, et serblased rahvusest serblased on vähemuses. Aga siis see on väga populaarne küsimus, et kes siis, kui on jalkamäng, et kelle, kelle poolt sa no ikkagi Serbia poolt kõik, kõik seal ei ole see küsimus ja neil on väga huvitavalt lahendatud kooli küsimus. Et koolis on, need on rahvuskoolid ja igal aastal laste vanemad otsustavad, kas see või teine aine, mis keeles on järgmisel aastal, see on jällegi tohutu, mis on issand jumal, kui, kui tohutu argunn, eks. Kujutan ette, kuigi. Aga nad said hakkama ja kõik räägivad puhtalt, serbia keelt, tunnevad oma juuri ja kultuuri ja räägivad ka oma keeles, eks ju. Kusjuures selles parlamendis ma unustasin, et seal on ju Horvaadid ja horvadia keelele ka tõlge. Kusjuures on umbes üks ja sama keel, lihtsalt on kirjut-, üks on ladina tähistiku, teine on aga ikkagi Horvaadia liin on olemas. Sest te olete siin, te olete meie oma. Üks näide sellest. Sorry, ma tahaks lisada lihtsalt, et ma unustasin kõige tähtsama asja minu enda selle jutu alguse juures see, et ma lihtsalt mõtlen, et üks põhjus võib-olla, miks me siin Eestis nii-öelda nii-öelda venelasi on ju, ei aktsepteeri, kui ma ütlen nii-öelda venelasi sellepärast, see on nagu sulgudes, sest et see võib olla ükskõik mis slaavi rahvuse onju esindaja, mitte venelane, aga me tembeldame venelaseks, mis on väga ignorantne minu meelest, aga ühesõnaga. Et nagu miks, miks meil nii palju võib-olla vastumeelsust just venelaste suhtes on, ongi see, et tegid meile kunagi haiged, on ju teine maailmasõda küüditamised ja nii edasi repressioonid, et nagu seda on vaja välja lasta selleks, et me saaks tegelikult venelasega kui nagu hingelt hingele inimeselt inimesega suhelda, minu meelest see nagu südamlikkus on, on blokeeritud selle valuga, mida on vaja välja lasta kontrollitud turvalises võib-olla keskkonnas. Aitäh. Ja ka venelased peaksid sellest teadma ja kusjuures mina tean, see on väga positiivne, näiteks mõni, kes on esimest korda lihtsalt vaatas seltsimees laps ja siis ta ütleb, kuulge, aga seda on juba kõikidel näidata. See on, seda on vaja näidata ja ma kusjuures see, kes ütles, ta on kooliõpetaja, ta on haritud inimene, aga ta ei ole teadnud, tema jaoks oli avastus, et sellised asjad, et, et nii juhtus, et see on reaalsus. Et ma arvan, et me peame need arhiivid avama ja koos need läbi vaatama, filmid võib-olla tõesti filmid ja aitaks siin kaasa. Et kui me räägime kultuuris, et me peaks nagu just ajaloo väga valusad momendid ka avama. Kindlasti. Väga hea nii ja viimane grupp. Meie jutt läks jooksma ja, ja jäimegi sinna pidama, et nendele süsteemidele, mis on väga paljudes riikides üles ehitatud, kuidas vastu võtta uusi tulijaid. Siin rääkisime ka Põhjamaadest ja Taanist ja Rootsist, jõudsime Austraaliani välja, et kuidas ikkagi esimesest hetkest, kui inimene saabub võõrasse riiki, tema ümber luuakse selline turvaline võrk, pakutakse teenuseid, soovitavalt ühe akna kaudu, mitte nagu Eestis, eks ju, sa pead jooksma, ma ei tea, ringi mitmes asutuses. Et kuidas linnavalitsus linnapea saadab isiklikku pöördumiskaardi, Welcome kaardi inimesele koju, kuidas naabrid korraldavad niinimetatud naabrivalvet, et sellel uuel sissetulijal oleks täiesti okei sisse elamine. Et või kuidas antakse terve package erinevate asjadega, et inimene nagu saaks aru, kus ta on ja, ja, ja mis ta tegema peab. Et selles mõttes, et selliseid hästi palju positiivseid näiteid on küll meie ümber olemas, et kuidas see juba see saabumise hetk, esimesed päevad, esimesed kuud oleksid väga toredad ja sealt juba tekib see kontakt, see usaldus ja asjad lähevad edasi juba palju paremini. Aitäh. Suur tänu, väga hea. Tänan teid kõiki ja nagu me täna nägime siin. Asjad võivad olla väga erinevate tahkude alt. Te võite näha seda praegu kolmnurgana. Te võite seda näha nelinurgana. Ja te võite seda näha isegi ümmargusena, et asjad, mõned asjad, mis eestlase jaoks võib-olla tunduvad kandilised, on võib-olla slaavlaste jaoks ümmargused või vastupidi. Et tõde on kuskil vahepeal, et kui eestlane väidab, et asi on nii, siis see ei tähenda, et see on teisest rahvusest elaniku jaoks nii. Aga ma tänan teid kõiki, palun tuleme nüüd kõik siia ühisesse ringi. Tuleme kõik siia kokku. Kui tohib, kui tohib, et võib-olla ei ole kuskil vahepeal, ta on tervikus. Just, ta on tervikus, vahepeal ei ole, tõsi on. Tervikus. Seisame, praegu seisame. Ma ütlen veel nii palju ära, et me teeme pärast kokkuvõtte nende paberite põhjal, mis teil kirjutasite, kes soovib endale seda kokkuvõtet, kirjutage sinna kuhugi paberi peale pärast oma meiliaadressi, eks ole, et siis ma saan teile jagada. Nii ja nüüd ma saadan ringi käima ühe pakiteri, teile võtke igaüks üks siit ja. Ja siis praegu sooviks teie kokkuvõtet, kuidas teile tundus, mida te tänasest päevast saite, mida te ootasite, mis jäi saamata, mida oleksite tahtnud veel kuulata ja võib-olla ka, mis nüüd edasi saab, kas soovite veel kokku saada või mis, mis me teeme? Tore arutelu oli ja alati hea kuulata uusi inimesi, kellega tutvusid hetk tagasi ja eriti siis, kui inimesed räägivad oma kogemusi, jagavad kogemusi ja, ja selline tore, siiras arutelu, et aitäh kõigile ja kindlasti on mõned mõtted tekkinud, aga on vaja ka natuke seedida. Okei, jah. Suur tänu arutelu jaoks teistele, et minu alati peamine mõte integratsiooni kohta ongi selline, et see ei ole ainult ühe inimese töö. Seda peavad tegema kõik osapooled selleks, et mingi tulemuseni jõuda. Jah, see oli no kõik mis räägiti sellest räägitakse juba aastaid või aastaid ja aastaid. Aga loodame, et kuidagi midagi muutub ka paremaks. No mul oli küll positiivne kogemus, et tulin, istusin niisama korraks maha, vaatasin, mõtlesin, kuulan natukene, kohe võeti omaks, mingit probleemi ei olnud, nii et see on selles mõttes oli selline positiivne integratsiooni kogemus, et oleks päriselus nii-öelda pikaajalisemad protsessid ka samamoodi. Ja et mind täitsa nagu hämmastas, mis ma sealt viimati kuulsin Natalja ja, ja, ja Natalja, Nata, sorry, ma ei näe su nime. Kaks Nataljat jah, ja, ja, ja just et ma sellist vaatenurka ma ei ole üldse nagu kuulnudki, et nagu et see mingi näidata välja oma mingit valu nagu need seal Kambodžas onju ja praegu ma nagu tunnen niimoodi, et okei, ma tulin nagu siia sellepärast, et Airi mind kutsus on ja ma tahtsin näidata, et näed, et ma tulengi, eks ole, on ju, et siin ma olen praegu ma nagu tunnen niimoodi, et ja noh, kogu see teema nagu noh, ma olen ju ka suht vana inimene või noh, kaua elanud ja näinud, mismoodi see asi on, aga praegu ma nagu tunnen, et kuule tegelt tõesti selle asja saaks nagu kuidagi paremaks teha. Ja see, mis ma ise nagu rääkisin on ju alguses onju, et kui sa suhtud nagu selle, suhtled nagu selle teistsugusega on ju, et sa tegelikult ise arened onju ja noh, et nii-öelda meil, kes me siin oleme, on ju, tegelikult on nagu vajadus võib-olla siis seda noh, võtta paremini vastu, sest see noh, aitab meid ennast nagu edasi on ju. Vao niimoodi võikski teha, võib-olla. Aitäh, et aitäh teile, et minu jaoks te olete kõik avastused üks, üks kosmosega inimene. Aitäh, te olete. Ja tänan Airit, et tema tegi seda tõesti nii, et see on teate iga, iga juhi unistus on see, kui lihtsalt kõik juhtub iseenesest. Ja see oli lihtsalt, lihtsalt tuled, tuled külalisena. Ja ma kindlasti tahaks teiega kohtuda ja kui teil on vähegi huvi, ükskõik mis tegevuse osas, mida meie teeme, meil on ka Erasmus pluss projekt, me oleme arendamas, mina olen aren-, meie arendame platvormi Sõnategu, kus me kontroll-, see on poliitiliste lubaduste monitooring, kas on tehtud või ei ole, kui tal on vähegi huvi selleks ja olete valmis panustama selleks, et Eestis oleks parem elu. Tere tulemast, et ma tahaks teiega seda edasi teha. Ma just täna hommikul rääkisin Sophiaga sellest, kuidas ma kardan grupitööd ja tiimitööd ja kõike seda, aga täna toredate inimeste keskis ei olnud nii hirmus. Aitäh ka selle töötoa eest, aitäh korraldamast, Airi ja Natalja. Ma tunnen, et ma olen kuidagi üsna kibestunud olnud, ma arvan, selle kogu teema osas ja see tekitab nii palju emotsioone, nii palju tundeid, mida nagu ei julge näidata tihti, sest et lihtsalt tundud veelgi võõram, siis ma arvan, ma arvan, aga, aga mul on hea meel, et vahepeal tekivad sellised üritused või võimalused või töötoad, kus saab rääkida ja kus saab kuulata ja mulle väga meeldis kuulata ka, aitäh. Ja no mina tulin hästi avatud meelega, mind ei olnud kutsutud ja mina tahaks võib-olla just sind tänada, et, et sinu lood kõnetasid, et ikkagi läbi kogemuse ja, ja väga palju jälle häid näiteid oli, nii et igasuguseid asju siit ja sealt jäi kõlama, nii et ja kui ma ise tavaliselt teen neid igasuguseid töötubasid, siis on ka vahel hea osaleda. Aitäh, aitäh Natalja. Kui me suhtlesime selle probleemi, probleemist varem, sellepärast ma mõtlesin keele ja kultuuri ja integratsiooni probleemi, probleemidest palju ja praegu ma mõtlen, et see on kogu maailma probleem, suur probleem, kelle ja kultuuri integratsiooniprotsessid ja võib-olla kui ma näitan, ma näen praegu Eestis, selle maa on väga perspektiivne ja rahvus on väga perspektiivne. Selles, et sa rahvus saab võtta erinevus kultuuri, erinevus kultuuri, erinevuse keele ja ma loodan, et tugev rahvus saab. Pöörduda selle probleemi tähelepanu ja. Selle protsesside puhul ja kui nad peavad ka enda noh, peavad minema. Tulevikus ja sest rahvus ja inimesed on väga head ja väga saavad aru. Aitäh ka minu poolt korraldajate ja väga hea korraldus ja kajastus ka, eks ole, et me ei jäänud hiljaks, et kõik on nii-öelda ilusti hea aja sees onju. Aga mine jällegi veendusin, et ilma motivatsioonita ei saa mitte midagi, eks ole. Aga sellest ka ei piisa, kui teisel pool on uks kinni, et ikkagi teisel pool ka peab uks lahti olema, eks ole, et kui sa koputad oma motivatsiooniga. Nii et kindlasti see integratsiooni küsimus on kahepoolne. Ja edu on ka nagu sellest sõltub. Ja muidu suured tänud osavõtjatele, eks ole, et Eesti, hästi kenad ja armsad inimesed, et olid nagu tore teie lugusid kuulata ja teiega arutada, aitäh. Minul oli ka väga huvitav ja mõtlemapanev kuulata, lihtsalt päris inimeste, päris lugusid. Aitäh Ja mina nüüd sattusin siia päris lõpu poole, aga, aga mul on hea meel, et see teema on, on arutlusel ja, ja siin ja, ja aitäh, et, et, et korraldate ja teete, sest see on ikkagi oluline, et et kuidas integratsioon nagu välja näeb ka nendele, kes juba on siin ja nendele, kes nüüd tulevikus tulevad, on ju, et see võib olla täiesti erinev nagu teekond on ju, et kuigi me siin mõtlesime, et, et võiks olla üks, üks toru nii-öelda, mille kaudu see inimene vastu võetakse, aga see inimene, kes siin täna juba pikalt on olnud, et, et seal on võib-olla hoopis mingi teine toru. Et, et selle peale ka mõeldakse, nii et aitäh. Täna hommikul osalesin mina panilistina ühes paneelis, kus moderaator oli venekeelne inimene ja panelistid olid neli venekeelset inimest. Ja me arutasime, kuidas kõnetada venekeelseid inimesi. Ja, ja arutasime ja arutasime omavahel ja arutasime ja arutasime eesti keeles, arutasime, et noh, tegemist oli poliitikutega ja, ja me siis arutasime, üritasime mingeid poliitilisi statemente seal teha ja nii edasi ja nii edasi. Ja, ja noh, mina rääkisin seal näiteks sellest, et me peame rohkem omavahel suhtlema, meil on vaja rohkem dialoogi. Muidu nagu tundus nagu Vene poliitikute mingi monoloog seal, et ja, ja tulen siia nüüd õhtul ja mida ma näen? Alles rääkisin, juba tehakse. Et selles mõttes töö käib, et see ongi kõige olulisem, et ei ole niimoodi, et siin nurgas eestlased arutavad, kuidas venelastega rääkida ja seal istuvad venelased ja arutavad, kuidas eestlastega rääkida. Et me peamegi kokku tulema ja peame omavahel rääkima ja kui on ebameeldivaid asju või probleeme, eks need tuleb ka rääkida, et aga kõige olulisem on see, et meid sa ei hoia nagu Natalja ei näita seda rusikat taskus, eks ju, vaid, vaid sa oled avatud kätega. Kui vehid vehi, eks ei ole probleemi. Et aga räägi inimestega, suhtle inimestega, pea dialoogi, leia seda partnerit kellega arutada ja ma tänan selle võimaluse eest, et meil täna oli võimalus siin siin seda dialoogi pidada ja saada uute inimestega tuttavaks ja, ja kuulata neid lugusid. Siis ma arvan, et kogu meie selle integratsiooniprotsesside võti peidubki selles, et me võimalikult palju räägime omavahel, mitte ei istu igaüks oma nurgas, see on oluline, aitäh selle kogemuse eest. Muidugi tänan ka kõiki osalejaid, eriti neid, kes viimasel hetkel said alles viimsel hetkel, aga väga edukalt. Mulle väga meeldis Eduardi mõte selle dialoogi kohta, sest tegelikult selle töötoa mõte oligi selles, et Nikolai Pavlenko hakkas mulle kõigepealt rääkima, et on vaja rääkida dialoogi vajalikkusest ja mina ütlesin, me ei räägi dialoogi vajalikkusest, me teeme selle dialoogi. Aga kahjuks Nikolai endal oli jah, tervis täna nii kehva, et ta ei jõudnud siia, aga igatahes ta saab selle salvestuse ja ma loodan, et ta jääb meiega rahule. Nii suur tänu veel kord kõigile ja tuletan siis meelde, kes tahab selle arutelu kokkuvõtet, kirjutage kuhugi nende paberite peale oma email. Ma saadan teile kokkuvõtte nendest ja loodame, et kohtume veel.",
+    "cues": [
+      {
+        "start_seconds": 10.88,
+        "end_seconds": 16.2,
+        "text": "Nii, täna ma tutvustan natukene ka, kuidas meil hakkab see asi välja nägema."
+      },
+      {
+        "start_seconds": 16.2,
+        "end_seconds": 19.0,
+        "text": "Te ei saa jääda sinna nurga taha istuma."
+      },
+      {
+        "start_seconds": 19.0,
+        "end_seconds": 25.08,
+        "text": "Me tule, teeme väiksed grupid, sõna saavad nii need, kes oskavad hästi eesti keelt, saa"
+      },
+      {
+        "start_seconds": 25.08,
+        "end_seconds": 29.44,
+        "text": "vad sõna need, kes oskavad nii eesti kui vene keelt ja oskavad sõna, saavad isegi need"
+      },
+      {
+        "start_seconds": 29.44,
+        "end_seconds": 31.76,
+        "text": ", kes väga hästi eesti keelt ei oska."
+      },
+      {
+        "start_seconds": 31.76,
+        "end_seconds": 37.2,
+        "text": "Kuna me teeme need grupid sellisel põhimõttel, et igas grupis oleks siis nii eesti kui"
+      },
+      {
+        "start_seconds": 37.2,
+        "end_seconds": 41.64,
+        "text": "vene keele oskajaid ja ka neid, kes oskavad mõlemat keelt."
+      },
+      {
+        "start_seconds": 41.64,
+        "end_seconds": 46.72,
+        "text": "Ja Natalja vahepeal tõlgib, kui on vaja."
+      },
+      {
+        "start_seconds": 46.72,
+        "end_seconds": 53.16,
+        "text": "Tere ka minu poolt, mina olen Natalja Kitam ja ma naudin seda hetke, sest ma ei pea midagi"
+      },
+      {
+        "start_seconds": 53.16,
+        "end_seconds": 59.96,
+        "text": "tegema, ma olen ka külaline, sest Airi tegi kõike, et see oli tema mõte, et korralda"
+      },
+      {
+        "start_seconds": 59.96,
+        "end_seconds": 64.0,
+        "text": "da sinna rutelu kõik need, kõik need mõtted on tema mõtted."
+      },
+      {
+        "start_seconds": 64.0,
+        "end_seconds": 67.6,
+        "text": "Ei, see idee on Nikolai Pavlenkolt."
+      },
+      {
+        "start_seconds": 67.6,
+        "end_seconds": 74.64,
+        "text": "Igatahes meil on, meil on see jagatud, aga ma paar sõna ütlen, et mis see multik"
+      },
+      {
+        "start_seconds": 74.64,
+        "end_seconds": 82.12,
+        "text": "inglisekeelne nimetus, universaalne võti kool on, et me tegeleme uute me"
+      },
+      {
+        "start_seconds": 82.12,
+        "end_seconds": 84.96,
+        "text": "etoditega, keeleõppes."
+      },
+      {
+        "start_seconds": 84.96,
+        "end_seconds": 92.12,
+        "text": "Et fookuses meil on eesti keel, aga meil on ka inglise keele autogra"
+      },
+      {
+        "start_seconds": 92.12,
+        "end_seconds": 96.28,
+        "text": "mma ehk siis grammatika automaat- , automatiseerimise kursus."
+      },
+      {
+        "start_seconds": 96.28,
+        "end_seconds": 104.52,
+        "text": "Meil on huvitav labor Foneetika ehk siis kuidas võiks õpetada keelt läbi häälduse."
+      },
+      {
+        "start_seconds": 104.52,
+        "end_seconds": 112.08,
+        "text": "Ja me oleme nii õnnelikud, et kõik meie õpilased on and"
+      },
+      {
+        "start_seconds": 112.08,
+        "end_seconds": 113.32,
+        "text": "ekad."
+      },
+      {
+        "start_seconds": 113.32,
+        "end_seconds": 118.76,
+        "text": "Kõik tahavad õppida ja siis, kui keegi ütleb, et inimesed ei taha eesti keelt õppida"
+      },
+      {
+        "start_seconds": 118.76,
+        "end_seconds": 123.8,
+        "text": ", siis ma imestan, et kust te neid olete näinud ja kui teie teate mingit inimest, kes"
+      },
+      {
+        "start_seconds": 123.8,
+        "end_seconds": 127.2,
+        "text": "ei taha eesti keelt õppida, saatke meie juurde."
+      },
+      {
+        "start_seconds": 127.2,
+        "end_seconds": 134.16,
+        "text": "Tavaliselt see lõpeb ikka eesti keele õppega ja kultuurikümblusega."
+      },
+      {
+        "start_seconds": 134.16,
+        "end_seconds": 138.52,
+        "text": "Infoväljakümblusega ja kultuurikümblusega."
+      },
+      {
+        "start_seconds": 138.52,
+        "end_seconds": 142.6,
+        "text": "Ja me naudime suhtlemist."
+      },
+      {
+        "start_seconds": 142.6,
+        "end_seconds": 149.68,
+        "text": "Mina olen ise, vot siin on see sõna rahvus, mul on väga raske siin öelda,"
+      },
+      {
+        "start_seconds": 149.68,
+        "end_seconds": 156.32,
+        "text": "et kes ma olen, ma, et minu ema on kreeklanna isa on eestlane."
+      },
+      {
+        "start_seconds": 156.32,
+        "end_seconds": 158.16,
+        "text": "Ma räägin viies keeles."
+      },
+      {
+        "start_seconds": 158.16,
+        "end_seconds": 167.04,
+        "text": "Valdan viit keelt pluss kaks keelt, ma saan neist aru ja, ja võin vastata."
+      },
+      {
+        "start_seconds": 167.04,
+        "end_seconds": 171.36,
+        "text": "Ja ma arvan, et see on väga hea, hea teema, Mairi."
+      },
+      {
+        "start_seconds": 171.36,
+        "end_seconds": 176.84,
+        "text": "Et me saaks praegu gruppides arutada, mitte mingit loengut pidada."
+      },
+      {
+        "start_seconds": 176.84,
+        "end_seconds": 184.28,
+        "text": "Ei, gruppides arutada, rääkida omavahel ja kui teil on ka küsimusi pärast peale arute"
+      },
+      {
+        "start_seconds": 184.28,
+        "end_seconds": 188.48,
+        "text": "lu mulle, Airile, siis küsige julgelt."
+      },
+      {
+        "start_seconds": 188.48,
+        "end_seconds": 195.88,
+        "text": "Ja alustame nii, aga alustuseks siis pean ütlema ka, et mina paljusid siit ei tunne"
+      },
+      {
+        "start_seconds": 195.88,
+        "end_seconds": 202.0,
+        "text": ", paljusid ma tunnen, aga miks ma paljusid ei tunne, põhjus on just selles, et külate"
+      },
+      {
+        "start_seconds": 202.0,
+        "end_seconds": 206.96,
+        "text": "lefon töötab väga hästi, et meil oli üks inimene, keda ma teadsin väga kindlalt, et ta"
+      },
+      {
+        "start_seconds": 206.96,
+        "end_seconds": 212.08,
+        "text": "tuleb siia ja juhtus niimoodi, et tal on täna vaja matustel olla."
+      },
+      {
+        "start_seconds": 212.08,
+        "end_seconds": 217.2,
+        "text": "Ja siis ta otsis mulle kaks inimest, kes võiks tema asemel tulla nendest üks inimene"
+      },
+      {
+        "start_seconds": 217.2,
+        "end_seconds": 222.8,
+        "text": "sai tulla, teine ei saanud tulla, see teine inimene, kes ei saanud tulla, otsis kaks"
+      },
+      {
+        "start_seconds": 222.8,
+        "end_seconds": 227.84,
+        "text": "inimest, kes saaksid tulla nendest kahest inimesest, üks sai tulla, üks ei saanud tulla"
+      },
+      {
+        "start_seconds": 227.84,
+        "end_seconds": 230.24,
+        "text": ", tema otsis inimesed, kes saavad tulla."
+      },
+      {
+        "start_seconds": 230.24,
+        "end_seconds": 234.72,
+        "text": "Nii et ühesõnaga ma olen väga tänulik kõigile, kes on lõpuks siia jõudnud."
+      },
+      {
+        "start_seconds": 234.72,
+        "end_seconds": 241.44,
+        "text": "Aga me tahame siis ka täpsemalt teiega tuttavaks saada, et te räägiksite sellest hästi"
+      },
+      {
+        "start_seconds": 241.44,
+        "end_seconds": 247.76,
+        "text": "lühidalt, kes te olete ja mis teid selle teemaga seob, et kuidas te olete seotud eest"
+      },
+      {
+        "start_seconds": 247.76,
+        "end_seconds": 254.24,
+        "text": "i keele õppega muukeelsena või on teil lihtsalt näiteks tööalaselt olete seotud, tööta"
+      },
+      {
+        "start_seconds": 254.24,
+        "end_seconds": 259.96,
+        "text": "te muukeelsete inimestega või, või lihtsalt teile meeldib muukeelsete inimestega suhe"
+      },
+      {
+        "start_seconds": 259.96,
+        "end_seconds": 266.88,
+        "text": "lda, teeme nii, et kelle käes on pall, see räägib."
+      },
+      {
+        "start_seconds": 266.88,
+        "end_seconds": 272.04,
+        "text": "Sa võid kohe tooli siiapoole keerata, sest me nagunii hakkame gruppe tegema."
+      },
+      {
+        "start_seconds": 272.04,
+        "end_seconds": 277.52,
+        "text": "Tere, olen Dmitri, olen integratsiooni Sihtasutuse juhataja ja see on osa minu tööst"
+      },
+      {
+        "start_seconds": 277.52,
+        "end_seconds": 284.88,
+        "text": ", et ütled, et neid inimesi, kes vajaks tuge nii lõimumise kui ka eesti keele"
+      },
+      {
+        "start_seconds": 284.88,
+        "end_seconds": 288.88,
+        "text": "õppe puhul."
+      },
+      {
+        "start_seconds": 288.88,
+        "end_seconds": 290.6,
+        "text": "Aitäh."
+      },
+      {
+        "start_seconds": 290.6,
+        "end_seconds": 292.92,
+        "text": "Mina olen Xenja."
+      },
+      {
+        "start_seconds": 292.92,
+        "end_seconds": 296.04,
+        "text": "Ma õpetan eesti keelt."
+      },
+      {
+        "start_seconds": 296.04,
+        "end_seconds": 304.2,
+        "text": "Sa õpid, õpin eesti keele, eesti keelt Airika ja alusta"
+      },
+      {
+        "start_seconds": 304.2,
+        "end_seconds": 311.52,
+        "text": "sin õppida eesti keelt räägi minuga Natalja Kitam a"
+      },
+      {
+        "start_seconds": 311.52,
+        "end_seconds": 313.36,
+        "text": "ita teile."
+      },
+      {
+        "start_seconds": 313.36,
+        "end_seconds": 321.08,
+        "text": "Suur tänu, see kurss oli väga hea."
+      },
+      {
+        "start_seconds": 321.08,
+        "end_seconds": 328.72,
+        "text": "Ja ma abitan praegu, kui teil on vaja abi,"
+      },
+      {
+        "start_seconds": 328.72,
+        "end_seconds": 331.52,
+        "text": "küsin minu käest, palun."
+      },
+      {
+        "start_seconds": 331.52,
+        "end_seconds": 334.72,
+        "text": "Minu assistent, assistent ja assistent on."
+      },
+      {
+        "start_seconds": 334.72,
+        "end_seconds": 335.72,
+        "text": "Nii aitäh."
+      },
+      {
+        "start_seconds": 335.72,
+        "end_seconds": 342.28,
+        "text": "Tere, olen Aleksei, olen Narva elanik, olen siin Narvas kunagi, mina ei mäleta ja mi"
+      },
+      {
+        "start_seconds": 342.28,
+        "end_seconds": 347.0,
+        "text": "llal."
+      },
+      {
+        "start_seconds": 347.0,
+        "end_seconds": 349.64,
+        "text": "Miks veel?"
+      },
+      {
+        "start_seconds": 349.64,
+        "end_seconds": 359.56,
+        "text": "Ma rohkem aru saan eesti keelt kui räägin, siis Narvas pole praktikat."
+      },
+      {
+        "start_seconds": 359.56,
+        "end_seconds": 365.72,
+        "text": "Okei, siis no mina olen täiskasvanute koolitaja ja kirjanik."
+      },
+      {
+        "start_seconds": 365.72,
+        "end_seconds": 372.96,
+        "text": "Suurepärane, nii."
+      },
+      {
+        "start_seconds": 372.96,
+        "end_seconds": 376.48,
+        "text": "Tere, minu nimi on Darja."
+      },
+      {
+        "start_seconds": 376.48,
+        "end_seconds": 382.76,
+        "text": "Mu emakeel on vene keel, aga koolis ja siis pärast kooli õppisin eesti keelt, sest see"
+      },
+      {
+        "start_seconds": 382.76,
+        "end_seconds": 384.32,
+        "text": "mulle väga meeldib."
+      },
+      {
+        "start_seconds": 384.32,
+        "end_seconds": 391.72,
+        "text": "Tööl kasutan peamiselt eesti keelt, aga ka inglise ja vene keelt ja"
+      },
+      {
+        "start_seconds": 391.72,
+        "end_seconds": 395.68,
+        "text": "tegelikult sain peaaegu kõiki oma töökohti tänu keeleoskusele."
+      },
+      {
+        "start_seconds": 395.68,
+        "end_seconds": 398.56,
+        "text": "Suurepärane on tunda."
+      },
+      {
+        "start_seconds": 398.56,
+        "end_seconds": 405.6,
+        "text": "Tere, minu nimi on Sofia, samamoodi, minu emakeel on vene keel, aga lapsepõlvest olen"
+      },
+      {
+        "start_seconds": 405.6,
+        "end_seconds": 410.68,
+        "text": "eesti keelt õppinud ja tööl ka kasutan eesti keelt väga palju."
+      },
+      {
+        "start_seconds": 410.68,
+        "end_seconds": 415.4,
+        "text": "Suur tänu!"
+      },
+      {
+        "start_seconds": 415.4,
+        "end_seconds": 416.2,
+        "text": "Tere!"
+      },
+      {
+        "start_seconds": 416.2,
+        "end_seconds": 423.8,
+        "text": "Ma olen Svetlana, ma olen ka Narva elanik ja rohkem ma räägin"
+      },
+      {
+        "start_seconds": 423.8,
+        "end_seconds": 431.64,
+        "text": "vene ja inglise keel, kelle keeles, aga."
+      },
+      {
+        "start_seconds": 431.64,
+        "end_seconds": 438.84,
+        "text": "Ma olen täiskasvanud õpetaja ka nagu Aleksei ja ma psühholoog ja arengukesku"
+      },
+      {
+        "start_seconds": 438.84,
+        "end_seconds": 440.8,
+        "text": "se juhataja."
+      },
+      {
+        "start_seconds": 440.8,
+        "end_seconds": 445.04,
+        "text": "Väga hea."
+      },
+      {
+        "start_seconds": 445.04,
+        "end_seconds": 451.44,
+        "text": "No anna edasi vähemalt, kui sa ise ei taha rääkida."
+      },
+      {
+        "start_seconds": 451.44,
+        "end_seconds": 454.52,
+        "text": "Anton, Anton, ei, ei, ei pasi."
+      },
+      {
+        "start_seconds": 454.52,
+        "end_seconds": 457.92,
+        "text": "Räägi vene keeles, kui sa tahad, räägi."
+      },
+      {
+        "start_seconds": 457.92,
+        "end_seconds": 460.04,
+        "text": "Anton."
+      },
+      {
+        "start_seconds": 460.04,
+        "end_seconds": 463.64,
+        "text": "No hea küll, nii, Eduard."
+      },
+      {
+        "start_seconds": 463.64,
+        "end_seconds": 466.32,
+        "text": "Tervist, mina olen Eduard, mina tulen Kohtla-Järvelt."
+      },
+      {
+        "start_seconds": 466.32,
+        "end_seconds": 470.92,
+        "text": "Minu esimene keel on vene keel, koolis käisin, õppisin vene keeles, aga keele omanda"
+      },
+      {
+        "start_seconds": 470.92,
+        "end_seconds": 476.8,
+        "text": "sin nii palju, et minust sai ka eesti keele õpetaja ja õpin doktorantuuris eesti keele"
+      },
+      {
+        "start_seconds": 476.8,
+        "end_seconds": 479.4,
+        "text": "lingvistikat, nii palju siis."
+      },
+      {
+        "start_seconds": 479.4,
+        "end_seconds": 481.56,
+        "text": "Väga hea."
+      },
+      {
+        "start_seconds": 481.56,
+        "end_seconds": 484.08,
+        "text": "Tere, mina olen Sirle."
+      },
+      {
+        "start_seconds": 484.08,
+        "end_seconds": 490.24,
+        "text": "Mina nüüd olen puha kohalik, sündinud Eestis, kasvanud Eestis, rääkinud sünnist saad"
+      },
+      {
+        "start_seconds": 490.24,
+        "end_seconds": 495.12,
+        "text": "ik eesti keelt ja siis ma olen eesti keele õpetaja ja siis välismaalastele ma olen nüüd"
+      },
+      {
+        "start_seconds": 495.12,
+        "end_seconds": 497.36,
+        "text": "kümme aastat õpetanud eesti keelt."
+      },
+      {
+        "start_seconds": 497.36,
+        "end_seconds": 501.52,
+        "text": "Alustasime süürlastega, see oli väga huvitav kogemus, sest nemad rääkisid araabia keele"
+      },
+      {
+        "start_seconds": 501.52,
+        "end_seconds": 503.56,
+        "text": "s, mina rääkisin eesti keeles."
+      },
+      {
+        "start_seconds": 503.56,
+        "end_seconds": 506.92,
+        "text": "Ja siis niimoodi nullkeele baasil hakkasimegi eesti keelt õppima."
+      },
+      {
+        "start_seconds": 506.92,
+        "end_seconds": 512.68,
+        "text": "Noh, ja siis nüüd tuli järgmine laine ukrainlaseid, et noh, selle õpetamise kogemuse"
+      },
+      {
+        "start_seconds": 512.68,
+        "end_seconds": 516.24,
+        "text": "ga suurtele väikestele kõigile."
+      },
+      {
+        "start_seconds": 516.24,
+        "end_seconds": 521.6,
+        "text": "Nii ma võin öelda vahele, et Sirle õpilane A la, see süürlane oli ka meile kutsutud,"
+      },
+      {
+        "start_seconds": 521.6,
+        "end_seconds": 527.2,
+        "text": "aga kahjuks ta ei saanud täna tulla, kuna ega nii hilja sai teada."
+      },
+      {
+        "start_seconds": 527.2,
+        "end_seconds": 534.52,
+        "text": "Tere, minu nimi on Jelena ja minu emakeel on ukraina keel."
+      },
+      {
+        "start_seconds": 534.52,
+        "end_seconds": 541.08,
+        "text": "Kuna minu lapsepõlv oli Ukrainas, aga Eestis ma käisin vene koolis, siis ma sain vene"
+      },
+      {
+        "start_seconds": 541.08,
+        "end_seconds": 542.32,
+        "text": "keelt õppida."
+      },
+      {
+        "start_seconds": 542.32,
+        "end_seconds": 548.68,
+        "text": "Aga kui Eesti sai taasiseseisvuks, siis ma pidin otsustama, mis riigis ma tahan elada"
+      },
+      {
+        "start_seconds": 548.68,
+        "end_seconds": 549.76,
+        "text": "."
+      },
+      {
+        "start_seconds": 549.76,
+        "end_seconds": 555.6,
+        "text": "Ja ma valisin Eesti ja selle tõttu ma õppisin eesti keelt ülikoolis ja edaspidi."
+      },
+      {
+        "start_seconds": 555.6,
+        "end_seconds": 562.08,
+        "text": "Ja tänaseks ma töötan Ivika Mägi audismi koolis koolitajana ja teen loengut koolituse"
+      },
+      {
+        "start_seconds": 562.08,
+        "end_seconds": 566.0,
+        "text": "tugigruppi ja nõustamise mõlemas keeles."
+      },
+      {
+        "start_seconds": 566.0,
+        "end_seconds": 567.16,
+        "text": "Suurepärane."
+      },
+      {
+        "start_seconds": 567.16,
+        "end_seconds": 571.4,
+        "text": "Nii, kas selja taga on soeka veel rääkida?"
+      },
+      {
+        "start_seconds": 571.4,
+        "end_seconds": 576.16,
+        "text": "Tere, mina olen Natalja, ma olen Lasnamäelt."
+      },
+      {
+        "start_seconds": 576.16,
+        "end_seconds": 583.32,
+        "text": "Aga kakskeelsest perest ma ütleks ja mind huvitab see teema ilmselt sellepärast,"
+      },
+      {
+        "start_seconds": 583.32,
+        "end_seconds": 589.08,
+        "text": "et ma arvan, et Eestis öelda, ei öelda välja nagu kuidas sa tunned ennast päriselt, kui"
+      },
+      {
+        "start_seconds": 589.08,
+        "end_seconds": 594.76,
+        "text": "sa oled kakskeelne või isegi kui sa oled nagu, kui su emakeel on vene keel, mind häi"
+      },
+      {
+        "start_seconds": 594.76,
+        "end_seconds": 599.8,
+        "text": "rib see, ma tahaks sellest rääkida, ma hakkasin kirjutama raamatut sellest, mis on olla"
+      },
+      {
+        "start_seconds": 599.8,
+        "end_seconds": 607.64,
+        "text": "nagu, mis tunne on või nagu jah, mis nagu ideede keskel sa kasvad, kui sa kasvad nagu"
+      },
+      {
+        "start_seconds": 607.64,
+        "end_seconds": 614.8,
+        "text": "sellises kakskeelses peres naisena, sa oled vähemusgrupi esindaja ja, ja eriti kui"
+      },
+      {
+        "start_seconds": 614.8,
+        "end_seconds": 619.84,
+        "text": "sa oled kakskeelne pagan, sa ei kuulu mitte sinna ega sinna ja siis identiteet on nagu"
+      },
+      {
+        "start_seconds": 619.84,
+        "end_seconds": 625.48,
+        "text": "väga selline tähtis küsimus minu jaoks ja jah."
+      },
+      {
+        "start_seconds": 625.48,
+        "end_seconds": 629.24,
+        "text": "Suur tänu sulle, nii Tõnu, soovid ka sõna."
+      },
+      {
+        "start_seconds": 629.24,
+        "end_seconds": 632.64,
+        "text": "Ja."
+      },
+      {
+        "start_seconds": 632.64,
+        "end_seconds": 634.76,
+        "text": "Tere, mina olen Tõnu."
+      },
+      {
+        "start_seconds": 634.76,
+        "end_seconds": 637.64,
+        "text": "Mind kutsus siia Airi moderaator."
+      },
+      {
+        "start_seconds": 637.64,
+        "end_seconds": 640.4,
+        "text": "Paar tundi tagasi."
+      },
+      {
+        "start_seconds": 640.4,
+        "end_seconds": 645.08,
+        "text": "Ja natuke olen siin juhuslikult, aga nii palju, kui ma sellest teemast aru saan, ütle"
+      },
+      {
+        "start_seconds": 645.08,
+        "end_seconds": 652.52,
+        "text": "ks nii palju, et mida nagu mina eestlasena tahaksin võib-olla õppi"
+      },
+      {
+        "start_seconds": 652.52,
+        "end_seconds": 659.48,
+        "text": "da slaavlastelt või slaavi hingelt on see, et kuidas nagu noh, sellises ühistegevuses"
+      },
+      {
+        "start_seconds": 659.48,
+        "end_seconds": 666.16,
+        "text": "noh, nagu selline noh, nagu noh, selline meeleolu või selline ühtekuuluvus tekib noh"
+      },
+      {
+        "start_seconds": 666.16,
+        "end_seconds": 671.04,
+        "text": ", tõesti nipsu pealt niimoodi, et teinekord vaatad mingeid, mingit noortelaagreid, sp"
+      },
+      {
+        "start_seconds": 671.04,
+        "end_seconds": 675.0,
+        "text": "ordilaagrit ja see on neil noh, neil, eks ole."
+      },
+      {
+        "start_seconds": 675.0,
+        "end_seconds": 679.96,
+        "text": "On nagu noh, niivõrd nagu olemas on ju, et ma, ma nagu tahaks ka, et, et kuidas, kuidas"
+      },
+      {
+        "start_seconds": 679.96,
+        "end_seconds": 682.04,
+        "text": "te teete seda või kuidas nad teevad seda."
+      },
+      {
+        "start_seconds": 682.04,
+        "end_seconds": 686.44,
+        "text": "Et nagu selline mõte mul tuli nagu meelde, et jah."
+      },
+      {
+        "start_seconds": 686.44,
+        "end_seconds": 695.12,
+        "text": "Nii aitäh, seal taga on üks neiu, kes soovite ka sõna."
+      },
+      {
+        "start_seconds": 695.12,
+        "end_seconds": 696.48,
+        "text": "Tere, mina olen Mari."
+      },
+      {
+        "start_seconds": 696.48,
+        "end_seconds": 702.12,
+        "text": "Mina olen teenusedisainer ja minu töö on panna ennast pidevalt teiste kingadesse."
+      },
+      {
+        "start_seconds": 702.12,
+        "end_seconds": 709.84,
+        "text": "Ja olen aidanud läbi viia ka uuringut, et olen võtnud ühe väljakutse rändeteemasid natukene"
+      },
+      {
+        "start_seconds": 709.84,
+        "end_seconds": 716.32,
+        "text": "mõtestada, et kuidas meil Eestis nende teemadega on, nii et, aga peaaegu et puhas eest"
+      },
+      {
+        "start_seconds": 716.32,
+        "end_seconds": 717.56,
+        "text": "lane."
+      },
+      {
+        "start_seconds": 717.56,
+        "end_seconds": 718.2,
+        "text": "Väga hea."
+      },
+      {
+        "start_seconds": 718.2,
+        "end_seconds": 723.04,
+        "text": "Nii, kas seal taga vaipade peal soovitakse ka sõna."
+      },
+      {
+        "start_seconds": 723.04,
+        "end_seconds": 728.04,
+        "text": "Tere, ma olen Eeva, mul ei ole ka mingit otsest suurt isiklikku seost selle teemaga,"
+      },
+      {
+        "start_seconds": 728.04,
+        "end_seconds": 732.88,
+        "text": "aga see on mingis mõttes meie kõigi teema, kui me elame siin ühiskonnas ja no ma olen"
+      },
+      {
+        "start_seconds": 732.88,
+        "end_seconds": 737.4,
+        "text": "õpetaja, nii et jah, mul on paad ukraina kolleegi ja kindlasti ka õpilasi, kelle ema"
+      },
+      {
+        "start_seconds": 737.4,
+        "end_seconds": 739.24,
+        "text": "keel ei ole eesti keel."
+      },
+      {
+        "start_seconds": 739.24,
+        "end_seconds": 740.76,
+        "text": "Suurepärane."
+      },
+      {
+        "start_seconds": 740.76,
+        "end_seconds": 743.24,
+        "text": "Nii, kas soovib veel keegi sõna?"
+      },
+      {
+        "start_seconds": 743.24,
+        "end_seconds": 747.52,
+        "text": "Anton, oled julguse kokku võtnud, tahad rääkida?"
+      },
+      {
+        "start_seconds": 747.52,
+        "end_seconds": 749.84,
+        "text": "Nii olgu, sundima ei hakka."
+      },
+      {
+        "start_seconds": 749.84,
+        "end_seconds": 753.68,
+        "text": "Nii, soovite ka sõna."
+      },
+      {
+        "start_seconds": 753.68,
+        "end_seconds": 760.32,
+        "text": "Nii, väga hea, aga nüüd on mul teile selline ülesanne, et teeme grupid, aga grupid on"
+      },
+      {
+        "start_seconds": 760.32,
+        "end_seconds": 761.72,
+        "text": "kahe reegli järgi."
+      },
+      {
+        "start_seconds": 761.72,
+        "end_seconds": 767.52,
+        "text": "Esiteks grupis ei ole inimesi, keda te varem olete tundnud, kellega te varem olete kohtu"
+      },
+      {
+        "start_seconds": 767.52,
+        "end_seconds": 768.04,
+        "text": "nud."
+      },
+      {
+        "start_seconds": 768.04,
+        "end_seconds": 774.8,
+        "text": "Teiseks, igas grupis peab olema ühesõnaga võimalik leida ühine keel, kas parem on, kui"
+      },
+      {
+        "start_seconds": 774.8,
+        "end_seconds": 779.4,
+        "text": "grupis on nii eestlane, venelane kui ka inimene, kes oskab mõlemat keelt, aga peaasi"
+      },
+      {
+        "start_seconds": 779.4,
+        "end_seconds": 781.52,
+        "text": ", et te leiate ühise keele."
+      },
+      {
+        "start_seconds": 781.52,
+        "end_seconds": 788.28,
+        "text": "Ja kui me seda küsimust pärast arutame, et keegi suudaks sellest grupist edastada selle"
+      },
+      {
+        "start_seconds": 788.28,
+        "end_seconds": 790.12,
+        "text": "info eesti keeles."
+      },
+      {
+        "start_seconds": 790.12,
+        "end_seconds": 792.64,
+        "text": "Nii, võtke oma toolid, leidke."
+      },
+      {
+        "start_seconds": 792.64,
+        "end_seconds": 795.76,
+        "text": "Kui suur see grupp võiks olla?"
+      },
+      {
+        "start_seconds": 795.76,
+        "end_seconds": 801.6,
+        "text": "Miinimum kolm inimest siis, aga ma arvan, et mitte üle viie, et ühesõnaga jah."
+      },
+      {
+        "start_seconds": 801.6,
+        "end_seconds": 803.24,
+        "text": "Nii väga hea."
+      },
+      {
+        "start_seconds": 803.24,
+        "end_seconds": 809.36,
+        "text": "Kaks minutit anname selleks, et vormistada gruppe ja aeg läks."
+      },
+      {
+        "start_seconds": 809.36,
+        "end_seconds": 810.28,
+        "text": "Nii."
+      },
+      {
+        "start_seconds": 810.28,
+        "end_seconds": 816.92,
+        "text": "Et tõstke julgesti oma toolid paika, kes on, kes on julgem, aga kindlasti jah, et vali"
+      },
+      {
+        "start_seconds": 816.92,
+        "end_seconds": 825.28,
+        "text": "ge just inimesi, keda te varem ei tunne, ma paluksin."
+      },
+      {
+        "start_seconds": 825.28,
+        "end_seconds": 828.28,
+        "text": "Nii, sina ka."
+      },
+      {
+        "start_seconds": 828.28,
+        "end_seconds": 829.76,
+        "text": "Nii."
+      },
+      {
+        "start_seconds": 829.76,
+        "end_seconds": 833.28,
+        "text": "Sul ei ole inimesi, keda sa ei tunne jah?"
+      },
+      {
+        "start_seconds": 833.28,
+        "end_seconds": 839.48,
+        "text": "Nii väga hea, nii."
+      },
+      {
+        "start_seconds": 839.48,
+        "end_seconds": 841.84,
+        "text": "Sina tead juba kõiki, jah?"
+      },
+      {
+        "start_seconds": 841.84,
+        "end_seconds": 856.8,
+        "text": "Nii."
+      },
+      {
+        "start_seconds": 856.8,
+        "end_seconds": 863.0,
+        "text": "Miks ei ole, sa ju räägid eesti keelt."
+      },
+      {
+        "start_seconds": 863.0,
+        "end_seconds": 873.04,
+        "text": "No siis vahetada."
+      },
+      {
+        "start_seconds": 873.04,
+        "end_seconds": 879.2,
+        "text": "Nii Svete läheb kuhugi mujale ja Darja läheb kuhugi mujale, vahetus."
+      },
+      {
+        "start_seconds": 879.2,
+        "end_seconds": 883.96,
+        "text": "Dmitrit ta tunneb."
+      },
+      {
+        "start_seconds": 883.96,
+        "end_seconds": 898.36,
+        "text": "Nii et Darja on ema üldse ja ma mõtlen nagu need kaks rühma teeme."
+      },
+      {
+        "start_seconds": 898.36,
+        "end_seconds": 903.56,
+        "text": "Kui seal on praegu neli ja siin on neli, et tehke niimoodi, et on kolm kolm ja nüüd on"
+      },
+      {
+        "start_seconds": 903.56,
+        "end_seconds": 904.52,
+        "text": "midagi veel."
+      },
+      {
+        "start_seconds": 904.52,
+        "end_seconds": 906.88,
+        "text": "Nii, seal on neli."
+      },
+      {
+        "start_seconds": 906.88,
+        "end_seconds": 909.68,
+        "text": "Või vahetame teiega kuidagi ära."
+      },
+      {
+        "start_seconds": 909.68,
+        "end_seconds": 913.6,
+        "text": "Või jätame nii nagu on."
+      },
+      {
+        "start_seconds": 913.6,
+        "end_seconds": 919.2,
+        "text": "Mulle asja mõte ongi see, et võimalikult palju saate uut infot."
+      },
+      {
+        "start_seconds": 919.2,
+        "end_seconds": 922.92,
+        "text": "Siis Ksenia tuleb siia."
+      },
+      {
+        "start_seconds": 922.92,
+        "end_seconds": 924.0,
+        "text": "Darja läheb sinna."
+      },
+      {
+        "start_seconds": 924.0,
+        "end_seconds": 928.36,
+        "text": "Kas sealt grupist, seal on väga palju eestlasi, tulge palun keegi siiralt siia."
+      },
+      {
+        "start_seconds": 928.36,
+        "end_seconds": 929.52,
+        "text": "Saadame sinna."
+      },
+      {
+        "start_seconds": 929.52,
+        "end_seconds": 934.88,
+        "text": "Ja Sveta läheb sinna ja Ksenija läheb tul- , nii."
+      },
+      {
+        "start_seconds": 934.88,
+        "end_seconds": 937.4,
+        "text": "Nii."
+      },
+      {
+        "start_seconds": 937.4,
+        "end_seconds": 938.48,
+        "text": "Nii."
+      },
+      {
+        "start_seconds": 938.48,
+        "end_seconds": 942.08,
+        "text": "Üks eestlane, palun siia gruppi, teie juurest."
+      },
+      {
+        "start_seconds": 942.08,
+        "end_seconds": 946.64,
+        "text": "Ja, ja."
+      },
+      {
+        "start_seconds": 946.64,
+        "end_seconds": 950.04,
+        "text": "Ja siia tehtud, tehtud, tehtud."
+      },
+      {
+        "start_seconds": 950.04,
+        "end_seconds": 951.76,
+        "text": "Nii Xenia."
+      },
+      {
+        "start_seconds": 951.76,
+        "end_seconds": 955.12,
+        "text": "Üks eestlane siia."
+      },
+      {
+        "start_seconds": 955.12,
+        "end_seconds": 957.76,
+        "text": "Nii, teie saite paberi."
+      },
+      {
+        "start_seconds": 957.76,
+        "end_seconds": 967.4,
+        "text": "Nii."
+      },
+      {
+        "start_seconds": 967.4,
+        "end_seconds": 971.6,
+        "text": "Teie saite juba tegelikult, teil on jah?"
+      },
+      {
+        "start_seconds": 971.6,
+        "end_seconds": 973.52,
+        "text": "On olemas ka igal pool."
+      },
+      {
+        "start_seconds": 973.52,
+        "end_seconds": 975.6,
+        "text": "Pastakad."
+      },
+      {
+        "start_seconds": 975.6,
+        "end_seconds": 977.52,
+        "text": "Nii väga hea."
+      },
+      {
+        "start_seconds": 977.52,
+        "end_seconds": 983.48,
+        "text": "Nii suurepärane ja nüüd me alustame siis põhiosaga."
+      },
+      {
+        "start_seconds": 983.48,
+        "end_seconds": 989.8,
+        "text": "Et nagu ma aru saan, vist ei olegi meil vaja tõlkida, et aitab, kui ma räägin eesti keele"
+      },
+      {
+        "start_seconds": 989.8,
+        "end_seconds": 990.76,
+        "text": "s, kõik saavad aru."
+      },
+      {
+        "start_seconds": 990.76,
+        "end_seconds": 991.68,
+        "text": "Absoluutselt."
+      },
+      {
+        "start_seconds": 991.68,
+        "end_seconds": 1002.68,
+        "text": "Tore, aga kui keegi millestki aru ei saa, siis tehke häält ja me tõlgime."
+      },
+      {
+        "start_seconds": 1002.68,
+        "end_seconds": 1009.32,
+        "text": "Et siis tänapäeval ei ole maailmas ilmselt enam ühtegi riiki, kus oleks ainult üks rahvus"
+      },
+      {
+        "start_seconds": 1009.32,
+        "end_seconds": 1012.24,
+        "text": "või üks usund."
+      },
+      {
+        "start_seconds": 1012.24,
+        "end_seconds": 1018.88,
+        "text": "Ja kuidas teha nii, et see oleks võimalikult vähe probleeme tekitaks ja sellest oleks"
+      },
+      {
+        "start_seconds": 1018.88,
+        "end_seconds": 1020.52,
+        "text": "maksimaalselt kasu."
+      },
+      {
+        "start_seconds": 1020.52,
+        "end_seconds": 1025.24,
+        "text": "Palun arutlege oma grupi vahel, teil on viis minutit aega ja siis esitate suurele ri"
+      },
+      {
+        "start_seconds": 1025.24,
+        "end_seconds": 1027.28,
+        "text": "ngile oma vastused."
+      },
+      {
+        "start_seconds": 1027.28,
+        "end_seconds": 1030.4,
+        "text": "Nii erinevad religioonid, erinevad rahvused."
+      },
+      {
+        "start_seconds": 1030.4,
+        "end_seconds": 1043.04,
+        "text": "Ma võin teile küsimuse siia ette, siis."
+      },
+      {
+        "start_seconds": 1043.04,
+        "end_seconds": 1047.96,
+        "text": "Okei, võimalik on vähe probleeme, võimalikult palju kasu."
+      },
+      {
+        "start_seconds": 1047.96,
+        "end_seconds": 1050.96,
+        "text": "Üks."
+      },
+      {
+        "start_seconds": 1050.96,
+        "end_seconds": 1056.28,
+        "text": "Palju aega sa annad, viis minutit esialgu ja siis me arutame suures ringis, et pange"
+      },
+      {
+        "start_seconds": 1056.28,
+        "end_seconds": 1063.56,
+        "text": "praegu kirja see peamine idee, mis teie arvates on kõige olulisem, mis annaks tule"
+      },
+      {
+        "start_seconds": 1063.56,
+        "end_seconds": 1066.24,
+        "text": "muse."
+      },
+      {
+        "start_seconds": 1066.24,
+        "end_seconds": 1067.68,
+        "text": "Nii ja aeg läks."
+      },
+      {
+        "start_seconds": 1067.68,
+        "end_seconds": 1070.76,
+        "text": "Soovite vene keeles seda teksti?"
+      },
+      {
+        "start_seconds": 1070.76,
+        "end_seconds": 1073.44,
+        "text": "Tahate vene keeles seda?"
+      },
+      {
+        "start_seconds": 1073.44,
+        "end_seconds": 1077.16,
+        "text": "Ei, olemas."
+      },
+      {
+        "start_seconds": 1077.16,
+        "end_seconds": 1081.84,
+        "text": "Väga hea, nii."
+      },
+      {
+        "start_seconds": 1081.84,
+        "end_seconds": 1085.76,
+        "text": "Et Natalja, kuidas sulle endale tundub?"
+      },
+      {
+        "start_seconds": 1085.76,
+        "end_seconds": 1093.16,
+        "text": "Mis mulle tundub, et mida võiks teha, et võiks selle maakeele ära"
+      },
+      {
+        "start_seconds": 1093.16,
+        "end_seconds": 1099.48,
+        "text": "õppida ja selle maakeel võiks olla lingva franka ehk siis keel, millest me kõik räägime"
+      },
+      {
+        "start_seconds": 1099.48,
+        "end_seconds": 1101.64,
+        "text": "."
+      },
+      {
+        "start_seconds": 1101.64,
+        "end_seconds": 1107.0,
+        "text": "Rahvusvaheline väga hea diplomaatiline."
+      },
+      {
+        "start_seconds": 1107.0,
+        "end_seconds": 1117.68,
+        "text": "Jah, ärme ütleme teile ette, aga lihtsalt jah, meie arutame siin omavahel."
+      },
+      {
+        "start_seconds": 1117.68,
+        "end_seconds": 1124.52,
+        "text": "Okei, aga väga."
+      },
+      {
+        "start_seconds": 1124.52,
+        "end_seconds": 1131.76,
+        "text": "Mulle tundub, et me võime hakata tasakesi kuulama teie arvamusi."
+      },
+      {
+        "start_seconds": 1131.76,
+        "end_seconds": 1135.56,
+        "text": "Nii, milles teie grupp jõudis siis üksmeelele?"
+      },
+      {
+        "start_seconds": 1135.56,
+        "end_seconds": 1142.8,
+        "text": "Ja meil oli siin erinevad mõtted, et me panime kirja, et inimesed peaks omavahel suht"
+      },
+      {
+        "start_seconds": 1142.8,
+        "end_seconds": 1149.28,
+        "text": "lema, teineteisega rääkima, et ei tekiks mingeid suletud gruppe, kes teineteisega ei"
+      },
+      {
+        "start_seconds": 1149.28,
+        "end_seconds": 1151.0,
+        "text": "suhtle."
+      },
+      {
+        "start_seconds": 1151.0,
+        "end_seconds": 1158.8,
+        "text": "Vaenukõne vähendamine avalikus ruumis, et ka ei tekiks mingeid eelarvamusi."
+      },
+      {
+        "start_seconds": 1158.8,
+        "end_seconds": 1164.08,
+        "text": "Ka võib-olla küsida noorte käest, mida nemad selle teema kohta arvavad, sest nad kipu"
+      },
+      {
+        "start_seconds": 1164.08,
+        "end_seconds": 1170.24,
+        "text": "vad nägema maailma positiivsemates toonides ja värvides."
+      },
+      {
+        "start_seconds": 1170.24,
+        "end_seconds": 1176.76,
+        "text": "Siis kindlasti on oluline ka haridustase, et selle tõstmine, eriti kui me vaatame, et"
+      },
+      {
+        "start_seconds": 1176.76,
+        "end_seconds": 1181.68,
+        "text": "inimesed näiteks tulevad vähem arenenud riigist teise riiki."
+      },
+      {
+        "start_seconds": 1181.68,
+        "end_seconds": 1188.76,
+        "text": "Et siis peaks pöörama tähelepanu sellele, et noh mõlemad need"
+      },
+      {
+        "start_seconds": 1188.76,
+        "end_seconds": 1194.68,
+        "text": "grupid nendel oleks piisavalt hea haridustase selleks, et."
+      },
+      {
+        "start_seconds": 1194.68,
+        "end_seconds": 1197.84,
+        "text": "Leida rohkem ühiskeelt."
+      },
+      {
+        "start_seconds": 1197.84,
+        "end_seconds": 1204.52,
+        "text": "Ja siis ka riigi heaolutase tõstmine üldiselt peaks olema riigil prioriteedis, sest kui"
+      },
+      {
+        "start_seconds": 1204.52,
+        "end_seconds": 1212.24,
+        "text": "elu on halb, siis me ka suhtume negatiivsemalt erinevatesse asjadesse, mis võib"
+      },
+      {
+        "start_seconds": 1212.24,
+        "end_seconds": 1216.88,
+        "text": "-olla on natuke ebatavalised meie jaoks."
+      },
+      {
+        "start_seconds": 1216.88,
+        "end_seconds": 1218.0,
+        "text": "Kas keegi tahab lisada?"
+      },
+      {
+        "start_seconds": 1218.0,
+        "end_seconds": 1220.12,
+        "text": "Suur tänu."
+      },
+      {
+        "start_seconds": 1220.12,
+        "end_seconds": 1223.08,
+        "text": "Selles grupis, te jõudsite üksmeelele."
+      },
+      {
+        "start_seconds": 1223.08,
+        "end_seconds": 1225.84,
+        "text": "Väga hea, nii järgmine grupp."
+      },
+      {
+        "start_seconds": 1225.84,
+        "end_seconds": 1241.68,
+        "text": "Kas olete valmis?"
+      },
+      {
+        "start_seconds": 1241.68,
+        "end_seconds": 1251.2,
+        "text": "Me siin jagasime kogemusi ja oli siin kaks"
+      },
+      {
+        "start_seconds": 1251.2,
+        "end_seconds": 1255.44,
+        "text": "-kolm mõtet ja, ja ma lühidalt ütlen välja."
+      },
+      {
+        "start_seconds": 1255.44,
+        "end_seconds": 1262.84,
+        "text": "Esiteks eriti kui inimene tuleb Eestisse, siis peaks olema selge ko"
+      },
+      {
+        "start_seconds": 1262.84,
+        "end_seconds": 1271.28,
+        "text": "mmunikatsioon nii riigi kui ühiskonna poolt, et mis on tema võimalused."
+      },
+      {
+        "start_seconds": 1271.28,
+        "end_seconds": 1278.6,
+        "text": "Mis on oluline, mis võib olla kohustused, et ja kuidas ta saab osaleda ja olla kas"
+      },
+      {
+        "start_seconds": 1278.6,
+        "end_seconds": 1284.52,
+        "text": "ulik ja ühiskonnale, et see kommunikatsioon ei ole alati selge ja eriti küsimus, kui"
+      },
+      {
+        "start_seconds": 1284.52,
+        "end_seconds": 1291.56,
+        "text": "inimesed tulevad ja näiteks eesti-inglise, vene keelt ei oska, et kuidas neid kohe siis"
+      },
+      {
+        "start_seconds": 1291.56,
+        "end_seconds": 1296.44,
+        "text": "niimoodi kaasata ja noh, selleks on oma programmid, aga siin kindlasti ühiskond tervi"
+      },
+      {
+        "start_seconds": 1296.44,
+        "end_seconds": 1298.16,
+        "text": "kuna saab rohkem teha."
+      },
+      {
+        "start_seconds": 1298.16,
+        "end_seconds": 1301.24,
+        "text": "Teine mõte, et."
+      },
+      {
+        "start_seconds": 1301.24,
+        "end_seconds": 1308.64,
+        "text": "Et kui me vaatame teiste riikide kogemusi, siis on oluline, et, et on, on"
+      },
+      {
+        "start_seconds": 1308.64,
+        "end_seconds": 1310.8,
+        "text": "palju erinevaid kultuure."
+      },
+      {
+        "start_seconds": 1310.8,
+        "end_seconds": 1318.24,
+        "text": "Nad elavad koos, aga ikkagi inimesi konkreetses riigis ühendab riigike"
+      },
+      {
+        "start_seconds": 1318.24,
+        "end_seconds": 1324.84,
+        "text": "el ja selle riigi kultuuriruum, et sul on oma kultuur, aga me kõik oleme Eesti kultuuri"
+      },
+      {
+        "start_seconds": 1324.84,
+        "end_seconds": 1331.48,
+        "text": "ruumis, eriti inimesed, kes tulevad Eestisse ja Euroopa kultuuriruumi ja et see on eri"
+      },
+      {
+        "start_seconds": 1331.48,
+        "end_seconds": 1338.92,
+        "text": "ti ja aga väljakutseks on näiteks siin oli ka Narva kogemus, et,"
+      },
+      {
+        "start_seconds": 1338.92,
+        "end_seconds": 1345.48,
+        "text": "et kui inimesed terve elu elanud näiteks venekeelses keskkonnas, et, et kust see tuleb"
+      },
+      {
+        "start_seconds": 1345.48,
+        "end_seconds": 1352.24,
+        "text": "motivatsioon või selline nagu soov olla rohkem Eesti kultuuriruumis ja ja õppida eest"
+      },
+      {
+        "start_seconds": 1352.24,
+        "end_seconds": 1357.6,
+        "text": "i keelt näiteks, et see on nagu väljakutse ja siis ongi nagu, et meil on inimesi, kes"
+      },
+      {
+        "start_seconds": 1357.6,
+        "end_seconds": 1364.28,
+        "text": "pikalt elanud, ühed kogemused inimesed, kes tulevad riiki ja kohe nagu näevad võib-olla"
+      },
+      {
+        "start_seconds": 1364.28,
+        "end_seconds": 1365.44,
+        "text": "teistmoodi seda."
+      },
+      {
+        "start_seconds": 1365.44,
+        "end_seconds": 1372.0,
+        "text": "Vot sellised mõtted meil, kas, kas on midagi."
+      },
+      {
+        "start_seconds": 1372.0,
+        "end_seconds": 1372.84,
+        "text": "Suur tänu."
+      },
+      {
+        "start_seconds": 1372.84,
+        "end_seconds": 1374.8,
+        "text": "Väga tore, head mõtted."
+      },
+      {
+        "start_seconds": 1374.8,
+        "end_seconds": 1379.32,
+        "text": "Nii riigi tulemise teemal oli ka teil siin asjatundjaid, kes soovib rääkida teie gru"
+      },
+      {
+        "start_seconds": 1379.32,
+        "end_seconds": 1383.16,
+        "text": "pist."
+      },
+      {
+        "start_seconds": 1383.16,
+        "end_seconds": 1389.72,
+        "text": "Nii me jõudsime selleni, et ükskõik kui palju rahvused ühes või teises riigis on, siis"
+      },
+      {
+        "start_seconds": 1389.72,
+        "end_seconds": 1396.24,
+        "text": "ikkagi keskpunktis on see riigikeel, eks ole, et kes peaks kõike nii-öelda ühendama ja"
+      },
+      {
+        "start_seconds": 1396.24,
+        "end_seconds": 1401.84,
+        "text": "kui me räägime väikesest lastest, siis me leidsime, et hea, et nad oleks selle, see riigi"
+      },
+      {
+        "start_seconds": 1401.84,
+        "end_seconds": 1409.56,
+        "text": "keele nii-öelda ruumis, eks ole, juba liivakastis, eks ole, et et koolis keele"
+      },
+      {
+        "start_seconds": 1409.56,
+        "end_seconds": 1415.68,
+        "text": "õppimine on natuke juba hilja, eks ole, et aga kui me räägime siis täiskasvanutes, siis"
+      },
+      {
+        "start_seconds": 1415.68,
+        "end_seconds": 1420.96,
+        "text": "aluseks on ikkagi seesama motivatsioon on ju, et mis igaüks peab leidma endale, eks ole"
+      },
+      {
+        "start_seconds": 1420.96,
+        "end_seconds": 1423.64,
+        "text": ", et miks ma pean seda keelt õppima."
+      },
+      {
+        "start_seconds": 1423.64,
+        "end_seconds": 1428.76,
+        "text": "Ja siis noh, nagu Sirle pakkus on ju, et ühesed huvid on ju, aga see on juba tagajärg"
+      },
+      {
+        "start_seconds": 1428.76,
+        "end_seconds": 1433.36,
+        "text": ", on ju, kõige tähtsam on see motivatsioon, et mul on vaja seda keelt õppida, eks ole"
+      },
+      {
+        "start_seconds": 1433.36,
+        "end_seconds": 1440.72,
+        "text": ", et igaüks leiab endale need põhjused, miks."
+      },
+      {
+        "start_seconds": 1440.72,
+        "end_seconds": 1445.96,
+        "text": "Ja õrnalt meil käis ka läbi see, et, et kui sa ka nagu lapsena puutud kokku nagu noh"
+      },
+      {
+        "start_seconds": 1445.96,
+        "end_seconds": 1452.2,
+        "text": ", mingisuguse erinevusega või teistsugusega, millega noh sa pead või saad nagu kohane"
+      },
+      {
+        "start_seconds": 1452.2,
+        "end_seconds": 1457.96,
+        "text": "da, et sa tegelikult noh arendab sind nagu noh, nagu vaimselt või, või noh, intellek"
+      },
+      {
+        "start_seconds": 1457.96,
+        "end_seconds": 1459.48,
+        "text": "tuaalselt on ju."
+      },
+      {
+        "start_seconds": 1459.48,
+        "end_seconds": 1463.68,
+        "text": "Et natuke rääkisime sellest ka, et just."
+      },
+      {
+        "start_seconds": 1463.68,
+        "end_seconds": 1471.36,
+        "text": "Et see kindlasti rikastub ja areneb, arendab, eks ole."
+      },
+      {
+        "start_seconds": 1471.36,
+        "end_seconds": 1474.24,
+        "text": "Suur tänu."
+      },
+      {
+        "start_seconds": 1474.24,
+        "end_seconds": 1479.64,
+        "text": "Mulle tundus just see Natalja teema, et sa ütlesid, et sa ei tunne ennast ei siin ega"
+      },
+      {
+        "start_seconds": 1479.64,
+        "end_seconds": 1487.44,
+        "text": "seal olevat, aga kas sa nüüd tunned, et sa kuulud nii siia kui sinna?"
+      },
+      {
+        "start_seconds": 1487.44,
+        "end_seconds": 1492.28,
+        "text": "Minu tee selle küsimusega on olnud noh, see, ma mõtlen, see küsimus on olnud minuga terve"
+      },
+      {
+        "start_seconds": 1492.28,
+        "end_seconds": 1498.76,
+        "text": "mu elu ja ma arvan, et see jääbki nii olema, ma ei usu, et seda on võimalik kuidagi vali"
+      },
+      {
+        "start_seconds": 1498.76,
+        "end_seconds": 1503.8,
+        "text": "da, sellepärast et minu kahjuks või õnneks lihtsalt ma."
+      },
+      {
+        "start_seconds": 1503.8,
+        "end_seconds": 1509.28,
+        "text": "Ma proovin olla võimalikult nagu päris, kes ma olen igas hetkes, aga ma ei saa kogu aeg"
+      },
+      {
+        "start_seconds": 1509.28,
+        "end_seconds": 1514.0,
+        "text": "näidata enda üht, nagu vahepeal ma pean valima, mis poolt ma endast näitan, kas seda"
+      },
+      {
+        "start_seconds": 1514.0,
+        "end_seconds": 1516.48,
+        "text": "slaavi poolt rohkem."
+      },
+      {
+        "start_seconds": 1516.48,
+        "end_seconds": 1522.8,
+        "text": "Ja vahepeal seda ei taheta siin näha mis iganes põhjustel on ja ei tunta huvi selle vastu"
+      },
+      {
+        "start_seconds": 1522.8,
+        "end_seconds": 1528.52,
+        "text": ", pigem kardetakse, kuigi ma olen sõbralik inimene, ma ei tea, miks seda karta."
+      },
+      {
+        "start_seconds": 1528.52,
+        "end_seconds": 1535.36,
+        "text": "Noh, ma ei tea jah see sõltub, oleneb, iga aastaga ma tajun ennast kuidagi erinevalt"
+      },
+      {
+        "start_seconds": 1535.36,
+        "end_seconds": 1538.4,
+        "text": ", ma ei tea, ma ei oska vastata kahjuks."
+      },
+      {
+        "start_seconds": 1538.4,
+        "end_seconds": 1542.48,
+        "text": "Ma loodan, et kunagi võib-olla ma jõuan vastuseni."
+      },
+      {
+        "start_seconds": 1542.48,
+        "end_seconds": 1549.96,
+        "text": "Suur tänu, Airi, kas ma võin siia lisada ühte asja, et tegelikult sinna kunagi mina mõtle"
+      },
+      {
+        "start_seconds": 1549.96,
+        "end_seconds": 1553.56,
+        "text": "sin ja ma tulen siia."
+      },
+      {
+        "start_seconds": 1553.56,
+        "end_seconds": 1560.4,
+        "text": "Et kust see viha tuleb, võõra viha, eks ju, et see on nagu üks niimoodi kokku pandud"
+      },
+      {
+        "start_seconds": 1560.4,
+        "end_seconds": 1563.72,
+        "text": ", kas taskus või juba välja tulnud."
+      },
+      {
+        "start_seconds": 1563.72,
+        "end_seconds": 1570.2,
+        "text": "Ja kui me teeme ükshaaval need lahti ja see on, kas mul läheb hästi, Sufüüa sa ütlesid"
+      },
+      {
+        "start_seconds": 1570.2,
+        "end_seconds": 1573.52,
+        "text": "just, et, et see heaolu peaks olema hästi elatud."
+      },
+      {
+        "start_seconds": 1573.52,
+        "end_seconds": 1579.88,
+        "text": "Ja kui mul ei lähe hästi, siis ma otsin, kes on süüdi ja tavaliselt, kes on süüdi, ke"
+      },
+      {
+        "start_seconds": 1579.88,
+        "end_seconds": 1584.32,
+        "text": "da ma ei tea ja kes siia tulnud on ja miks nad siia tulid?"
+      },
+      {
+        "start_seconds": 1584.32,
+        "end_seconds": 1587.72,
+        "text": "Natalja mina ei otsiks süüdlast, ma otsiks lahendust."
+      },
+      {
+        "start_seconds": 1587.72,
+        "end_seconds": 1594.32,
+        "text": "Seda küll, seda küll, aga kui me räägime, räägime probleemidest, et kindlasti lahendus"
+      },
+      {
+        "start_seconds": 1594.32,
+        "end_seconds": 1601.32,
+        "text": "t, aga kas, kas mul läheb hästi ja kui läheb hästi, siis enam sellist viha ei ole, enam"
+      },
+      {
+        "start_seconds": 1601.32,
+        "end_seconds": 1607.92,
+        "text": "niimoodi lüüa ei saa, aga siin on veel täppe ja see, kas, kas seal ikkagi mõeldakse hästi"
+      },
+      {
+        "start_seconds": 1607.92,
+        "end_seconds": 1612.96,
+        "text": "selles mõttes, kas, kas mõeldakse selle immigratsiooniprobleemidele, kas ei lasta lii"
+      },
+      {
+        "start_seconds": 1612.96,
+        "end_seconds": 1617.8,
+        "text": "ga palju neid sisse ja kas meid üldse, kas, kas see turvalisus, kas turvalisuse peale"
+      },
+      {
+        "start_seconds": 1617.8,
+        "end_seconds": 1623.28,
+        "text": "mõeldakse ja kui me usaldame neid, kes otsustavad, kui me valime neid, kes otsustas,"
+      },
+      {
+        "start_seconds": 1623.28,
+        "end_seconds": 1626.08,
+        "text": "siis, siis jällegi enam ei saa lüüa, on ju."
+      },
+      {
+        "start_seconds": 1626.08,
+        "end_seconds": 1632.52,
+        "text": "Aga see keskmine on see, kas mul on sõpru, kas mul on sõpru, kontakte, kas ma tean Na"
+      },
+      {
+        "start_seconds": 1632.52,
+        "end_seconds": 1640.64,
+        "text": "taljat, laps, eriti lapsepõlvest, see on see, et kas minu ke"
+      },
+      {
+        "start_seconds": 1640.64,
+        "end_seconds": 1647.48,
+        "text": "el, minu kultuur, meie siin riigis, jääb alles?"
+      },
+      {
+        "start_seconds": 1647.48,
+        "end_seconds": 1654.8,
+        "text": "Tänu sellele ja see viimane on, kas meedias seda narratiivi, kas"
+      },
+      {
+        "start_seconds": 1654.8,
+        "end_seconds": 1661.32,
+        "text": "sellist vaenu õhutamist ja, ja vaenlase sellise sümboolse vaenlase otsingut, kas seda"
+      },
+      {
+        "start_seconds": 1661.32,
+        "end_seconds": 1666.68,
+        "text": "ei ole ja kui kõik need tulevad lahti, siis enam ei ole?"
+      },
+      {
+        "start_seconds": 1666.68,
+        "end_seconds": 1671.12,
+        "text": "Siis saab juba."
+      },
+      {
+        "start_seconds": 1671.12,
+        "end_seconds": 1676.28,
+        "text": "Natalja tahtsid öelda."
+      },
+      {
+        "start_seconds": 1676.28,
+        "end_seconds": 1681.32,
+        "text": "Ma lihtsalt tahtsin lisada ja et, et minu jaoks see, et kas ma tunnen ennast hästi ja"
+      },
+      {
+        "start_seconds": 1681.32,
+        "end_seconds": 1686.36,
+        "text": "kas ma saan olla, kes ma olen, on alati sõltunud võib-olla sellest, et ma olen väga kogu"
+      },
+      {
+        "start_seconds": 1686.36,
+        "end_seconds": 1690.72,
+        "text": "kondlik inimene, mina ei ole individuaalne selline, kes abisaja kõigega hakkama ja ma"
+      },
+      {
+        "start_seconds": 1690.72,
+        "end_seconds": 1696.84,
+        "text": "ei taha ka olla, see on võib-olla vastus sellele, miks slaavlased võib-olla kuidagi on"
+      },
+      {
+        "start_seconds": 1696.84,
+        "end_seconds": 1699.88,
+        "text": "ju lähevad kokku kuidagi, ma ei tea, see on lihtsalt minus sees."
+      },
+      {
+        "start_seconds": 1699.88,
+        "end_seconds": 1707.0,
+        "text": "Aga aga näiteks kui ma küsin enda käest, et kas mul on praegu hea olla ja vastus on,"
+      },
+      {
+        "start_seconds": 1707.0,
+        "end_seconds": 1711.32,
+        "text": "siis ma alati mõtlen edasi, et kas, kas minu inimestel on hea olla ja kui ma mõtlen,"
+      },
+      {
+        "start_seconds": 1711.32,
+        "end_seconds": 1716.92,
+        "text": "et minu inimesed, okei, kes on minu inimesed, on ju siis jah ausalt öeldes enamus mu"
+      },
+      {
+        "start_seconds": 1716.92,
+        "end_seconds": 1722.2,
+        "text": "eestlastest sõpradel on kõik hästi, aga kui ma mõtlen kõikidele teistele minu inimeste"
+      },
+      {
+        "start_seconds": 1722.2,
+        "end_seconds": 1725.36,
+        "text": "le ja neil ei lähe tegelikult nii hästi, neil läheb palju keerulisemalt, siis mina ei"
+      },
+      {
+        "start_seconds": 1725.36,
+        "end_seconds": 1727.76,
+        "text": "saa ka õnnelik olla, ma ei saa olla rahul."
+      },
+      {
+        "start_seconds": 1727.76,
+        "end_seconds": 1732.12,
+        "text": "Et see on see, miks mul on raske identiteediga, sest et see ei ole ainult mina, see on"
+      },
+      {
+        "start_seconds": 1732.12,
+        "end_seconds": 1733.4,
+        "text": "kõik mu inimesed."
+      },
+      {
+        "start_seconds": 1733.4,
+        "end_seconds": 1737.36,
+        "text": "Ja kõigil ei lähe võrdselt, üldse ei lähe võrdselt, ei ole võrdne."
+      },
+      {
+        "start_seconds": 1737.36,
+        "end_seconds": 1738.92,
+        "text": "Aitäh."
+      },
+      {
+        "start_seconds": 1738.92,
+        "end_seconds": 1743.52,
+        "text": "Suur tänu, Natalja, aga nagu ma juba algul ütlesin, iga küsimuse jaoks vahetame me g"
+      },
+      {
+        "start_seconds": 1743.52,
+        "end_seconds": 1748.08,
+        "text": "ruppe, meid ei ole küll nii palju, et kõigi grupi liikmeid saate vahetada, aga teeme"
+      },
+      {
+        "start_seconds": 1748.08,
+        "end_seconds": 1752.64,
+        "text": "nii, et vähemalt pool gruppi läheb ühele poole, pool gruppi teisele poole, nii et pa"
+      },
+      {
+        "start_seconds": 1752.64,
+        "end_seconds": 1758.36,
+        "text": "lun leidke endale uued paarilised."
+      },
+      {
+        "start_seconds": 1758.36,
+        "end_seconds": 1764.72,
+        "text": "No jätke jah koha peale, jätke koha peale see leht, et siis lihtsalt on kohapeal olemas"
+      },
+      {
+        "start_seconds": 1764.72,
+        "end_seconds": 1765.84,
+        "text": ", muidu on pärast mõne koha."
+      },
+      {
+        "start_seconds": 1765.84,
+        "end_seconds": 1768.68,
+        "text": "Ja meil on uued tulijad ka."
+      },
+      {
+        "start_seconds": 1768.68,
+        "end_seconds": 1770.24,
+        "text": "Ühinege."
+      },
+      {
+        "start_seconds": 1770.24,
+        "end_seconds": 1778.16,
+        "text": "Ühinege julgelt ja et väike."
+      },
+      {
+        "start_seconds": 1778.16,
+        "end_seconds": 1781.4,
+        "text": "Nii kuidas iganes, aga proovige."
+      },
+      {
+        "start_seconds": 1781.4,
+        "end_seconds": 1786.96,
+        "text": "Ühinege ükskõik mis gruppi."
+      },
+      {
+        "start_seconds": 1786.96,
+        "end_seconds": 1790.84,
+        "text": "Nii."
+      },
+      {
+        "start_seconds": 1790.84,
+        "end_seconds": 1792.8,
+        "text": "Ksenia, Sootab jah."
+      },
+      {
+        "start_seconds": 1792.8,
+        "end_seconds": 1794.6,
+        "text": "Nii okei."
+      },
+      {
+        "start_seconds": 1794.6,
+        "end_seconds": 1797.96,
+        "text": "Jõudsimegi selle järgmise teemani, kuhu me tahtsime jõuda."
+      },
+      {
+        "start_seconds": 1797.96,
+        "end_seconds": 1803.04,
+        "text": "Integratsioon on kahepoolne protsess, kas eestlased tunnevad teistest rahvusest inimeste"
+      },
+      {
+        "start_seconds": 1803.04,
+        "end_seconds": 1809.0,
+        "text": "vastu huvi nende tegemiste vastu huvi ja tooge oma kogemustest positiivseid näiteid,"
+      },
+      {
+        "start_seconds": 1809.0,
+        "end_seconds": 1813.52,
+        "text": "me loodame praegu just nimelt positiivsete näidete peale negatiivseid näiteid, ma us"
+      },
+      {
+        "start_seconds": 1813.52,
+        "end_seconds": 1818.56,
+        "text": "un, et oskavad kõik tuua, aga kui teil on mingeid positiivseid näiteid, oleks tore."
+      },
+      {
+        "start_seconds": 1818.56,
+        "end_seconds": 1824.0,
+        "text": "Et kuna meil lisandus üks härra vahepeal äkki tutvustate ennast natuke?"
+      },
+      {
+        "start_seconds": 1824.0,
+        "end_seconds": 1829.8,
+        "text": "Olen Ken, aga mis ma veel peaks ütlema?"
+      },
+      {
+        "start_seconds": 1829.8,
+        "end_seconds": 1835.56,
+        "text": "Mind seob uudishimu, ma arvan."
+      },
+      {
+        "start_seconds": 1835.56,
+        "end_seconds": 1842.72,
+        "text": "Ma tegelikult hea meelega annaks teile mikrofoni, sest mulle meeldis see, see idee, et"
+      },
+      {
+        "start_seconds": 1842.72,
+        "end_seconds": 1851.52,
+        "text": "eestlased võib-olla on rohkem avatud, kui neile endale tundub."
+      },
+      {
+        "start_seconds": 1851.52,
+        "end_seconds": 1857.8,
+        "text": "Tere, mina olen Aljona Suržikova, ma olen siin nagu kohalik elanik, see Paide arvamus"
+      },
+      {
+        "start_seconds": 1857.8,
+        "end_seconds": 1864.68,
+        "text": "festival minu jaoks kõrvalküla ületus, et see kääru asub siin kõrval ja siis lihtsalt"
+      },
+      {
+        "start_seconds": 1864.68,
+        "end_seconds": 1869.32,
+        "text": "juhuslikult sõbrad kutsusid, et tule meile ja siis ma tulin nagu kuulama, mis siin toimu"
+      },
+      {
+        "start_seconds": 1869.32,
+        "end_seconds": 1870.08,
+        "text": "b."
+      },
+      {
+        "start_seconds": 1870.08,
+        "end_seconds": 1875.08,
+        "text": "Ja rääkisime integratsioonis, et see on kahepoolne protsess, siis ma siis kohe kuulsin"
+      },
+      {
+        "start_seconds": 1875.08,
+        "end_seconds": 1880.8,
+        "text": "esimene lause, et oo, eestlastel läheb ikka aega, et vastu võtta teisi inimesi, et need"
+      },
+      {
+        "start_seconds": 1880.8,
+        "end_seconds": 1886.56,
+        "text": "on ikka kinnisemad, aga ma arvan, et need asjad on muutunud ajaga, et eestlased on ka"
+      },
+      {
+        "start_seconds": 1886.56,
+        "end_seconds": 1891.68,
+        "text": "avatumaks muutunud ja inimesed on väga erinevad, sõltub nendest, kus kohas nad tulevad"
+      },
+      {
+        "start_seconds": 1891.68,
+        "end_seconds": 1896.32,
+        "text": ", kui palju keeli nad oskavad, kui palju riiki nad külastasid, kui, kui palju nad õppi"
+      },
+      {
+        "start_seconds": 1896.32,
+        "end_seconds": 1901.0,
+        "text": "sid üldse elus, kui palju nad nägid, et see sõltub pigem mitte sellest, mis rahvuses"
+      },
+      {
+        "start_seconds": 1901.0,
+        "end_seconds": 1903.36,
+        "text": "nad on või mis kultuuris nad on."
+      },
+      {
+        "start_seconds": 1903.36,
+        "end_seconds": 1910.28,
+        "text": "Et see on võib-olla juba selline taustainfo, aga ma ei tea, Ida-Virumaa memmed saavad"
+      },
+      {
+        "start_seconds": 1910.28,
+        "end_seconds": 1917.16,
+        "text": "samamoodi olla väga eba, ma ei tea, sõbralikud üksteise vastu kui nagu noh, teiste ku"
+      },
+      {
+        "start_seconds": 1917.16,
+        "end_seconds": 1922.0,
+        "text": "ltuuriinimesed võivad nende vastu ebasõbralikud olla või siis oma küla inimesed võivad"
+      },
+      {
+        "start_seconds": 1922.0,
+        "end_seconds": 1927.84,
+        "text": "nagu minna ja leida mingid probleemid, et see ei sõltu rahvusest, ma arvan."
+      },
+      {
+        "start_seconds": 1927.84,
+        "end_seconds": 1934.48,
+        "text": "Aga eestlased, ma arvan, hakkasid kui Eesti sai iseseisvaks, siis nad kindlasti läks"
+      },
+      {
+        "start_seconds": 1934.48,
+        "end_seconds": 1942.24,
+        "text": "id elama erinevates riikides ja seal tekkisid ka sellised segaabielud ja kõik need"
+      },
+      {
+        "start_seconds": 1942.24,
+        "end_seconds": 1952.0,
+        "text": "erinevad kultuurid rohkem tuttavaks said neile ja ma arvan, et see"
+      },
+      {
+        "start_seconds": 1952.0,
+        "end_seconds": 1957.28,
+        "text": "enda nagu vana nagu mõtlemine, et eestlased on kinnised, et eestlased ei ole sõbraliku"
+      },
+      {
+        "start_seconds": 1957.28,
+        "end_seconds": 1962.72,
+        "text": "d, see ei ole üldse tõde, et mina näen paljudes tegevustes, et kus riigis toimuvad need"
+      },
+      {
+        "start_seconds": 1962.72,
+        "end_seconds": 1967.12,
+        "text": "talgud nagu meil kuskil ei toimu, kõik koos saavad kokku ja teevad."
+      },
+      {
+        "start_seconds": 1967.12,
+        "end_seconds": 1971.28,
+        "text": "Eestlased võib-olla ei räägi nii palju, aga teevad asju ja nad aitavad üksteise palju"
+      },
+      {
+        "start_seconds": 1971.28,
+        "end_seconds": 1973.8,
+        "text": "rohkem kui võib-olla isegi teised rahvused."
+      },
+      {
+        "start_seconds": 1973.8,
+        "end_seconds": 1978.72,
+        "text": "Et slaavi rahvaste nagu mõte oli suur hing ja kõik see on blabla-bla, aga tegevused tee"
+      },
+      {
+        "start_seconds": 1978.72,
+        "end_seconds": 1985.28,
+        "text": "vad rohkem nagu just noh, eestlased, et tõesti ma olen reisinud ja näinud noh, kuskil"
+      },
+      {
+        "start_seconds": 1985.28,
+        "end_seconds": 1989.88,
+        "text": "viiskümmend viis riiki, eks ma tean, millest ma räägin."
+      },
+      {
+        "start_seconds": 1989.88,
+        "end_seconds": 1996.32,
+        "text": "Ja siis ma arvan, lihtsalt peab ennast rohkem hindama ja mõtlema, otsima tõesti need"
+      },
+      {
+        "start_seconds": 1996.32,
+        "end_seconds": 1998.96,
+        "text": "head näidet."
+      },
+      {
+        "start_seconds": 1998.96,
+        "end_seconds": 2001.44,
+        "text": "Ma ei tea, oli see teemast."
+      },
+      {
+        "start_seconds": 2001.44,
+        "end_seconds": 2004.52,
+        "text": "Suur tänu, väga hea, väga asjakohane kõik."
+      },
+      {
+        "start_seconds": 2004.52,
+        "end_seconds": 2012.0,
+        "text": "Nii, kuulame, mida teie siin välja mõtlesite."
+      },
+      {
+        "start_seconds": 2012.0,
+        "end_seconds": 2017.4,
+        "text": "Et ja natuke arutasime meie kogemusi."
+      },
+      {
+        "start_seconds": 2017.4,
+        "end_seconds": 2023.08,
+        "text": "Siis oli erinevaid mõtteid selle, selle hirmu kohta, et mõned arvasid, et ja vahepeal"
+      },
+      {
+        "start_seconds": 2023.08,
+        "end_seconds": 2030.32,
+        "text": "tekibki tunne, et, et teineteist natuke kartakse,"
+      },
+      {
+        "start_seconds": 2030.32,
+        "end_seconds": 2037.12,
+        "text": "aga on ka palju häid kogemusi, ongi inimesi, näiteks Darja ütleb, et tal on suurem osa"
+      },
+      {
+        "start_seconds": 2037.12,
+        "end_seconds": 2044.88,
+        "text": "tema sõpradest on kõik eestlased ja nendel läheb nagu kõik hästi"
+      },
+      {
+        "start_seconds": 2044.88,
+        "end_seconds": 2052.16,
+        "text": "selle suhtlusega ja siin oli toodud ka teine näide, et kui me vaatame"
+      },
+      {
+        "start_seconds": 2052.16,
+        "end_seconds": 2059.36,
+        "text": ", kuidas inimesed eesti keelt valdavad, siis ka väga huvitav kuulata, kuidas inimesed"
+      },
+      {
+        "start_seconds": 2059.36,
+        "end_seconds": 2066.68,
+        "text": "teisest keeleruumist eesti keelt kasutavad, see mõnikord erineb sellest, kuidas ema"
+      },
+      {
+        "start_seconds": 2066.68,
+        "end_seconds": 2072.96,
+        "text": "keele valdaja ennast seda teeks ja siis võib-olla soovid ka mõned näited ise tuua."
+      },
+      {
+        "start_seconds": 2072.96,
+        "end_seconds": 2077.64,
+        "text": "Ja see oli minu mõte, et ma just ütlesin, et see, kuidas Vladimir Svet räägib eesti ke"
+      },
+      {
+        "start_seconds": 2077.64,
+        "end_seconds": 2082.88,
+        "text": "elt, et ma nagu alati väga huviga kuulan, et ta noh, ta on nagu väga andekas ja ta nagu"
+      },
+      {
+        "start_seconds": 2082.88,
+        "end_seconds": 2088.0,
+        "text": "räägib, ta räägib seda natuke teistmoodi onju, aga mul on nagu nii huvitav seda kuula"
+      },
+      {
+        "start_seconds": 2088.0,
+        "end_seconds": 2092.04,
+        "text": "ta ja minu meelest noh, ta on inimene, kes arendab eesti keelt edasi onju."
+      },
+      {
+        "start_seconds": 2092.04,
+        "end_seconds": 2097.28,
+        "text": "Ja umbes, et mul on üks tuttav kirjanik, kes on nagu eestlanna ja läks elama Inglismaa"
+      },
+      {
+        "start_seconds": 2097.28,
+        "end_seconds": 2099.56,
+        "text": "le ja kirjutab seal inglise keeles."
+      },
+      {
+        "start_seconds": 2099.56,
+        "end_seconds": 2104.44,
+        "text": "Ja noh, ja tema toimetaja ütleb, ütleb talle niimoodi, et jaa, ma saan aru, et noh, ing"
+      },
+      {
+        "start_seconds": 2104.44,
+        "end_seconds": 2106.92,
+        "text": "lise keel ei ole su emakeel on ju."
+      },
+      {
+        "start_seconds": 2106.92,
+        "end_seconds": 2111.52,
+        "text": "Aga sa teed seda kuidagi teistmoodi, et sa teed seda kuidagi värskelt on ju, ja et see"
+      },
+      {
+        "start_seconds": 2111.52,
+        "end_seconds": 2115.36,
+        "text": "on nagu nii huvitav, et meil on nii palju lugejaid, kes nagu tahaksid sellist sinu nagu"
+      },
+      {
+        "start_seconds": 2115.36,
+        "end_seconds": 2116.32,
+        "text": "teksti lugeda."
+      },
+      {
+        "start_seconds": 2116.32,
+        "end_seconds": 2120.4,
+        "text": "Et noh, see oli nagu minu tähelepanek."
+      },
+      {
+        "start_seconds": 2120.4,
+        "end_seconds": 2123.6,
+        "text": "Jah, aga eriti midagi lisada siin meil pole."
+      },
+      {
+        "start_seconds": 2123.6,
+        "end_seconds": 2127.16,
+        "text": "No see oli juba väga hea ja põhjalik jutt, aitäh."
+      },
+      {
+        "start_seconds": 2127.16,
+        "end_seconds": 2132.24,
+        "text": "Mulle tuli meelde, et Napokov oli kirjutanud oma lollita ka vist originaalis inglise"
+      },
+      {
+        "start_seconds": 2132.24,
+        "end_seconds": 2139.64,
+        "text": "keeles ja keegi ei uskunud, et ta ei ole inglane."
+      },
+      {
+        "start_seconds": 2139.64,
+        "end_seconds": 2146.76,
+        "text": "Ma siin tegin märkmeid ja et kui keegi tahab, siis saab lisada jah, ma lüh"
+      },
+      {
+        "start_seconds": 2146.76,
+        "end_seconds": 2149.2,
+        "text": "idalt võtan."
+      },
+      {
+        "start_seconds": 2149.2,
+        "end_seconds": 2156.6,
+        "text": "Meil oli siin kolm mõtet, esimene on see, et eest, eestla"
+      },
+      {
+        "start_seconds": 2156.6,
+        "end_seconds": 2163.64,
+        "text": "sele tihti see, mis Võrus on ohtlik, tundub ja ole hea näide siin Paidest või Järvama"
+      },
+      {
+        "start_seconds": 2163.64,
+        "end_seconds": 2171.16,
+        "text": "alt, et kus Türilt ja Türilt, et tulid Süüriast põgeniku"
+      },
+      {
+        "start_seconds": 2171.16,
+        "end_seconds": 2177.92,
+        "text": "d, alguses kõik kartsid, aga siis, kui nad kunagi oma toitu näitasid ühel üritusel ja"
+      },
+      {
+        "start_seconds": 2177.92,
+        "end_seconds": 2183.64,
+        "text": "andsid proovida, siis see huvi tekkis väga suur ja tegelikult see tugi ka kohe tekki"
+      },
+      {
+        "start_seconds": 2183.64,
+        "end_seconds": 2191.08,
+        "text": "s ja arutelu ja siis on kaks sellist teemat on töökoht ja see erinev"
+      },
+      {
+        "start_seconds": 2191.08,
+        "end_seconds": 2198.44,
+        "text": "ad nagu huvitegevused nagu Naiskodukaitse või rahvatants, et kus saabki nagu eestlaste"
+      },
+      {
+        "start_seconds": 2198.44,
+        "end_seconds": 2205.84,
+        "text": "ga teiste emakeelega inimestega kokku ja on toodud näited, kuidas esi"
+      },
+      {
+        "start_seconds": 2205.84,
+        "end_seconds": 2213.56,
+        "text": "teks eestlased olid väga toetavad, talusid vigu ja ütlesid, et ära karda ja para"
+      },
+      {
+        "start_seconds": 2213.56,
+        "end_seconds": 2220.44,
+        "text": "ndasid ja kui midagi ei saanud aru, siis alati inimesed aitasid, et see tegelikult need"
+      },
+      {
+        "start_seconds": 2220.44,
+        "end_seconds": 2226.72,
+        "text": "positiivsed näited on väga palju, inimesed on tänulikud siin ja noogutavad kõrval, et"
+      },
+      {
+        "start_seconds": 2226.72,
+        "end_seconds": 2233.4,
+        "text": "et selline ikkagi hea kogemus on."
+      },
+      {
+        "start_seconds": 2233.4,
+        "end_seconds": 2237.64,
+        "text": "Suur tänu ja juba te teate, vahetame kohti."
+      },
+      {
+        "start_seconds": 2237.64,
+        "end_seconds": 2243.04,
+        "text": "Otsige endale jälle uued seltsilised, eriti soovitan nendel kohta vahetada, kes on kogu"
+      },
+      {
+        "start_seconds": 2243.04,
+        "end_seconds": 2244.96,
+        "text": "aeg sama tooli peal istunud."
+      },
+      {
+        "start_seconds": 2244.96,
+        "end_seconds": 2252.28,
+        "text": "Sirutage selga ja minge kuhugi mujale, näiteks."
+      },
+      {
+        "start_seconds": 2252.28,
+        "end_seconds": 2256.28,
+        "text": "Kuna meil tuli rahvast juurde, siis soovitan teha nüüd viiesed grupid, et praegu oli"
+      },
+      {
+        "start_seconds": 2256.28,
+        "end_seconds": 2260.8,
+        "text": "ühes grupis oli neli ja ühes oli kuus, et teeme viiesed grupid siis on enam-vähem võrd"
+      },
+      {
+        "start_seconds": 2260.8,
+        "end_seconds": 2261.2,
+        "text": "ne."
+      },
+      {
+        "start_seconds": 2261.2,
+        "end_seconds": 2278.44,
+        "text": "Oi-oi-oi."
+      },
+      {
+        "start_seconds": 2278.44,
+        "end_seconds": 2282.32,
+        "text": "Nii kõik on uued kaaslased leidnud, väga hea."
+      },
+      {
+        "start_seconds": 2282.32,
+        "end_seconds": 2287.6,
+        "text": "Nii ja meie järgmine küsimus on siis oma uue kodumaa keele, kultuuri ja traditsiooni"
+      },
+      {
+        "start_seconds": 2287.6,
+        "end_seconds": 2291.76,
+        "text": "de tundimine ei tee elu mitte ainult lihtsamaks, vaid on ka märk austusest selle riigi"
+      },
+      {
+        "start_seconds": 2291.76,
+        "end_seconds": 2292.52,
+        "text": "vastu."
+      },
+      {
+        "start_seconds": 2292.52,
+        "end_seconds": 2297.6,
+        "text": "Ja jälle tooge positiivseid näiteid, mismoodi kohaliku keele või traditsioonide tund"
+      },
+      {
+        "start_seconds": 2297.6,
+        "end_seconds": 2302.16,
+        "text": "mine on teie elu lihtsamaks teinud näiteks?"
+      },
+      {
+        "start_seconds": 2302.16,
+        "end_seconds": 2307.08,
+        "text": "Ja kui te olete kohalik, siis kas te olete märganud sellist inimest, kes niimoodi tegi"
+      },
+      {
+        "start_seconds": 2307.08,
+        "end_seconds": 2307.68,
+        "text": "?"
+      },
+      {
+        "start_seconds": 2307.68,
+        "end_seconds": 2313.44,
+        "text": "Et kuidas eestlasena teile tundub, kas aitab see, kui?"
+      },
+      {
+        "start_seconds": 2313.44,
+        "end_seconds": 2320.6,
+        "text": "See võib olla kool, see võib olla töö või vabatahtlik tegevus, ühiste"
+      },
+      {
+        "start_seconds": 2320.6,
+        "end_seconds": 2325.84,
+        "text": "gevus."
+      },
+      {
+        "start_seconds": 2325.84,
+        "end_seconds": 2328.76,
+        "text": "Nii meil on kahju teid selja taga, meie ajapiirang on peal."
+      },
+      {
+        "start_seconds": 2328.76,
+        "end_seconds": 2334.08,
+        "text": "Nii Ragne, äkki lühidalt tutvustad ennast ja mis seob sind selle teemaga?"
+      },
+      {
+        "start_seconds": 2334.08,
+        "end_seconds": 2338.68,
+        "text": "No mina olen Ragne jah, et, et ma siin sattusin täitsa juhuslikult sellesse gruppi praegu"
+      },
+      {
+        "start_seconds": 2338.68,
+        "end_seconds": 2339.36,
+        "text": "."
+      },
+      {
+        "start_seconds": 2339.36,
+        "end_seconds": 2344.72,
+        "text": "Aga väga põnev teema, no mind seob puhtalt see, et ma kuni seitsmenda eluaastani rääkis"
+      },
+      {
+        "start_seconds": 2344.72,
+        "end_seconds": 2346.92,
+        "text": "in ainult vene keelt."
+      },
+      {
+        "start_seconds": 2346.92,
+        "end_seconds": 2354.0,
+        "text": "Nii et jah, täitsa üleminek, siin oli ka näide, et üleminek toimus puh"
+      },
+      {
+        "start_seconds": 2354.0,
+        "end_seconds": 2360.0,
+        "text": "talt nii-öelda sõbra tasandi baasil on ju, et, et naabrid olid eestlased ja pidid kuidagi"
+      },
+      {
+        "start_seconds": 2360.0,
+        "end_seconds": 2370.08,
+        "text": "hakkama suhtlema ja aru saama üksteisest, nii et sealt see nii läks."
+      },
+      {
+        "start_seconds": 2370.08,
+        "end_seconds": 2374.92,
+        "text": "Soovib selles grupis veel keegi sõna või Darja ütles või Ragna ütles kõik ära juba."
+      },
+      {
+        "start_seconds": 2374.92,
+        "end_seconds": 2383.36,
+        "text": "Okei, nii."
+      },
+      {
+        "start_seconds": 2383.36,
+        "end_seconds": 2392.56,
+        "text": "Me rääkisime peamiselt sellest, et kõik erinevused on väga väärtuslikud ja ül"
+      },
+      {
+        "start_seconds": 2392.56,
+        "end_seconds": 2400.04,
+        "text": "diselt erinevad eri kultuuriliste erinevuste vahetamine on kasulik mõlemale poole"
+      },
+      {
+        "start_seconds": 2400.04,
+        "end_seconds": 2407.72,
+        "text": "le väga, väga mitmel tasemel, et kas te jagate muusikat, toitu või midagi"
+      },
+      {
+        "start_seconds": 2407.72,
+        "end_seconds": 2411.96,
+        "text": "muud, see kõik rikastab meid kõiki."
+      },
+      {
+        "start_seconds": 2411.96,
+        "end_seconds": 2419.08,
+        "text": "Ja üldiselt inimesed ei saa teineteisest aru, sellepärast et nad ei püüa süveneda selles"
+      },
+      {
+        "start_seconds": 2419.08,
+        "end_seconds": 2426.12,
+        "text": "se, miks keegi teeb midagi nii või teine teeb, no aga kui"
+      },
+      {
+        "start_seconds": 2426.12,
+        "end_seconds": 2433.4,
+        "text": "Jelena tõi siin hea näide oma oma elust, sellest kuidas, kui süve"
+      },
+      {
+        "start_seconds": 2433.4,
+        "end_seconds": 2440.72,
+        "text": "ned põhjustas siis on väga kerge teisest inimesest aru saada, et siis samamoodi ka"
+      },
+      {
+        "start_seconds": 2440.72,
+        "end_seconds": 2448.96,
+        "text": "kultuuri süvenemine aitab meist teineteisest aru saada."
+      },
+      {
+        "start_seconds": 2448.96,
+        "end_seconds": 2456.32,
+        "text": "Väga hea, tõesti apolosi väärt nii ja ka kolmas grupp."
+      },
+      {
+        "start_seconds": 2456.32,
+        "end_seconds": 2463.2,
+        "text": "Ja, et meie siis nagu see küsimus on, et kuidas see austus nagu siis tekiks tulijate"
+      },
+      {
+        "start_seconds": 2463.2,
+        "end_seconds": 2470.44,
+        "text": "l selle, selle maakultuuri vastu ja siin toodi välja, et et eestlaste, eestlased on sellise"
+      },
+      {
+        "start_seconds": 2470.44,
+        "end_seconds": 2477.2,
+        "text": "d nagu rahulikud ja kuidagi nagu eemale viibi, eemal viibivad ja et tulijatel on üldse"
+      },
+      {
+        "start_seconds": 2477.2,
+        "end_seconds": 2484.04,
+        "text": "nagu noh, ma ei tea, raske nagu noh leida seda kokkupuutepunkti nagu, et nagu siin K"
+      },
+      {
+        "start_seconds": 2484.04,
+        "end_seconds": 2489.16,
+        "text": "senija tõi näiteks nagu Itaalia, et kus seda itaallaseks olemist on ju nagu noh, nagu"
+      },
+      {
+        "start_seconds": 2489.16,
+        "end_seconds": 2493.24,
+        "text": "kõik kohad täis, et sa nagu lähed tänavale, saad aru, et sa oled Itaalias on ju, aga"
+      },
+      {
+        "start_seconds": 2493.24,
+        "end_seconds": 2497.92,
+        "text": "jah, et umbes, et, et eestlased on selles mõttes väga rahumeel, noh nagu liiga rahulik"
+      },
+      {
+        "start_seconds": 2497.92,
+        "end_seconds": 2501.6,
+        "text": "või raske nende kohata nagu või kuidagi niimoodi."
+      },
+      {
+        "start_seconds": 2501.6,
+        "end_seconds": 2507.96,
+        "text": "Ja siis tuli selline mõte, et, et kui tulijad on nagu suurest kultuuri või keeleruumist"
+      },
+      {
+        "start_seconds": 2507.96,
+        "end_seconds": 2515.28,
+        "text": ", ma ei tea, Hiina, Venemaa misiganes, et siis nad jäävad nagu rahulikult endi kesk"
+      },
+      {
+        "start_seconds": 2515.28,
+        "end_seconds": 2519.48,
+        "text": "ele, eks ole, et neil ei tekigi nagu sellist vajadust või soovi nagu selle koha peal"
+      },
+      {
+        "start_seconds": 2519.48,
+        "end_seconds": 2524.68,
+        "text": "se kultuuriga nagu kohtuda või või selle vastu mingit austust näidata."
+      },
+      {
+        "start_seconds": 2524.68,
+        "end_seconds": 2529.92,
+        "text": "Ja samas ka see, et oleneb tõesti, et kus kohas siis inimene on tulnud ja kui talle see"
+      },
+      {
+        "start_seconds": 2529.92,
+        "end_seconds": 2535.32,
+        "text": ", see olemasolev keskkond nagu noh, kultuuriliselt nagu sobib või see haagib temaga,"
+      },
+      {
+        "start_seconds": 2535.32,
+        "end_seconds": 2541.16,
+        "text": "siis tal on ka nagu lihtsam noh, lihtsam seda kohanemist nagu läbi viia, seda austust"
+      },
+      {
+        "start_seconds": 2541.16,
+        "end_seconds": 2542.88,
+        "text": "nagu näidata."
+      },
+      {
+        "start_seconds": 2542.88,
+        "end_seconds": 2549.8,
+        "text": "Et ja veel selline mõte, et, et, et kui me räägime siin Eestist, et võib-olla, et eest"
+      },
+      {
+        "start_seconds": 2549.8,
+        "end_seconds": 2555.52,
+        "text": "lased võiksid nagu ise noh, rohkem nagu pakkuda midagi nendele tulijatele ja veel siin"
+      },
+      {
+        "start_seconds": 2555.52,
+        "end_seconds": 2563.28,
+        "text": "Aleksei ütles, et et need tulijad tegelikult võiksid ise sisemiselt valmis olla, et et"
+      },
+      {
+        "start_seconds": 2563.28,
+        "end_seconds": 2569.48,
+        "text": "kui, et ka nemad ise võivad või, või peavad muutuma tegelikult, kui nad hakkavad neid"
+      },
+      {
+        "start_seconds": 2569.48,
+        "end_seconds": 2574.68,
+        "text": "noh, neid uusi tulijaid nagu vastu võtma või nendega lähemalt suht suhtlema, et see,"
+      },
+      {
+        "start_seconds": 2574.68,
+        "end_seconds": 2578.44,
+        "text": "et see tegelikult võib viia ka selleni, et sa pead nagu sisemiselt ise muutuma, et see"
+      },
+      {
+        "start_seconds": 2578.44,
+        "end_seconds": 2583.12,
+        "text": "on võib-olla nagu niisugune võib-olla sihuke hirmutav asi, et noh ja et niisugused mo"
+      },
+      {
+        "start_seconds": 2583.12,
+        "end_seconds": 2587.68,
+        "text": "mendid tulid välja meil siin."
+      },
+      {
+        "start_seconds": 2587.68,
+        "end_seconds": 2592.64,
+        "text": "Suurepärane, aitäh ja järjekordselt vahetame gruppe."
+      },
+      {
+        "start_seconds": 2592.64,
+        "end_seconds": 2595.12,
+        "text": "Kas ma võin siin natukene rääkida sellest?"
+      },
+      {
+        "start_seconds": 2595.12,
+        "end_seconds": 2597.12,
+        "text": "Aga teie vahetage gruppe juba."
+      },
+      {
+        "start_seconds": 2597.12,
+        "end_seconds": 2602.88,
+        "text": "Lihtsalt mõtteainet, et see erinevus rikastab."
+      },
+      {
+        "start_seconds": 2602.88,
+        "end_seconds": 2608.08,
+        "text": "Aga ainult siis, kui ta, kui nad ei ole väga, väga suured."
+      },
+      {
+        "start_seconds": 2608.08,
+        "end_seconds": 2614.28,
+        "text": "Kas, kas olete sellega nõus, et mingi kokkupuute peaks olema, kui see erinevus on nii"
+      },
+      {
+        "start_seconds": 2614.28,
+        "end_seconds": 2620.36,
+        "text": "suur, siis on väga raske edasi minna, et ehk siis jällegi on vaja pingutada, ent lei"
+      },
+      {
+        "start_seconds": 2620.36,
+        "end_seconds": 2622.08,
+        "text": "da see ühisosa."
+      },
+      {
+        "start_seconds": 2622.08,
+        "end_seconds": 2624.16,
+        "text": "No aga igatahes suur tänu, aga."
+      },
+      {
+        "start_seconds": 2624.16,
+        "end_seconds": 2636.64,
+        "text": "Võtke siit endale mälestus."
+      },
+      {
+        "start_seconds": 2636.64,
+        "end_seconds": 2642.2,
+        "text": "Nii, jah, teil läheb juba juttu edasi, ilma küsimuseta, väga hea."
+      },
+      {
+        "start_seconds": 2642.2,
+        "end_seconds": 2646.0,
+        "text": "Et kus seal on nüüd ainult kolm tükki jäänud."
+      },
+      {
+        "start_seconds": 2646.0,
+        "end_seconds": 2648.76,
+        "text": "Sinna kedagi juurde."
+      },
+      {
+        "start_seconds": 2648.76,
+        "end_seconds": 2654.72,
+        "text": "Aleksei, sa, sa olid juba seal saadames, Svetlana nüüd sinna, eks ole?"
+      },
+      {
+        "start_seconds": 2654.72,
+        "end_seconds": 2657.64,
+        "text": "Ah?"
+      },
+      {
+        "start_seconds": 2657.64,
+        "end_seconds": 2658.84,
+        "text": "Peate lahkuma."
+      },
+      {
+        "start_seconds": 2658.84,
+        "end_seconds": 2661.76,
+        "text": "Oi kui kahju."
+      },
+      {
+        "start_seconds": 2661.76,
+        "end_seconds": 2672.32,
+        "text": "Aga A oota, teile saab ka mälestuseks igatahes üks see."
+      },
+      {
+        "start_seconds": 2672.32,
+        "end_seconds": 2675.6,
+        "text": "Võtke üks."
+      },
+      {
+        "start_seconds": 2675.6,
+        "end_seconds": 2677.76,
+        "text": "Üks väike mälestus."
+      },
+      {
+        "start_seconds": 2677.76,
+        "end_seconds": 2681.36,
+        "text": "Anna Svetlana siis."
+      },
+      {
+        "start_seconds": 2681.36,
+        "end_seconds": 2687.72,
+        "text": "Nii, okei, aga tahab keegi veel sinna minna?"
+      },
+      {
+        "start_seconds": 2687.72,
+        "end_seconds": 2694.88,
+        "text": "Aitäh, nii."
+      },
+      {
+        "start_seconds": 2694.88,
+        "end_seconds": 2701.24,
+        "text": "Et nüüd siis küsimus selle kohta, kuidas teistes riikides on see küsimus lahendatud,"
+      },
+      {
+        "start_seconds": 2701.24,
+        "end_seconds": 2707.44,
+        "text": "et kas teil on tuua positiivseid näiteid selle kohta, kuidas teistes riikides on rahvus"
+      },
+      {
+        "start_seconds": 2707.44,
+        "end_seconds": 2716.8,
+        "text": "tevahelised probleemid või küsimused edukalt lahendatud?"
+      },
+      {
+        "start_seconds": 2716.8,
+        "end_seconds": 2719.16,
+        "text": "No nii."
+      },
+      {
+        "start_seconds": 2719.16,
+        "end_seconds": 2726.44,
+        "text": "Kuidas on, kas olete valmis teistega oma muljeid jagama?"
+      },
+      {
+        "start_seconds": 2726.44,
+        "end_seconds": 2734.24,
+        "text": "No ühesõnaga juttu oli palju ja siis üks jutt oli see, et ikkagi"
+      },
+      {
+        "start_seconds": 2734.24,
+        "end_seconds": 2741.56,
+        "text": "nagu noorte jaoks selline koos õppimine ja pidutsemine on üks selline suur mo"
+      },
+      {
+        "start_seconds": 2741.56,
+        "end_seconds": 2749.88,
+        "text": "tivaator, et saadakse üksteisega tuttavaks, näiteks kui on erikeelsed sellised õppe"
+      },
+      {
+        "start_seconds": 2749.88,
+        "end_seconds": 2757.16,
+        "text": "grupid ja, ja et laulmine, et kui ühte maad esindab keegi vähemusrahvusest"
+      },
+      {
+        "start_seconds": 2757.16,
+        "end_seconds": 2762.0,
+        "text": "või teisest rahvusest laulja, et siis see kõigile meeldib ja kõigil on hea tunne sellega"
+      },
+      {
+        "start_seconds": 2762.0,
+        "end_seconds": 2762.92,
+        "text": "seoses."
+      },
+      {
+        "start_seconds": 2762.92,
+        "end_seconds": 2767.8,
+        "text": "Ja siis ütles Dmitri, et, et tegelikult tema on palju maailmas ringi käinud, on mul õ"
+      },
+      {
+        "start_seconds": 2767.8,
+        "end_seconds": 2773.4,
+        "text": "igus ja ja et pole näinud ühtegi maad, kus oleks asi ikkagi palju paremini lahendatud"
+      },
+      {
+        "start_seconds": 2773.4,
+        "end_seconds": 2778.64,
+        "text": "kui Eesti ehk siis, et väike lohutus ka."
+      },
+      {
+        "start_seconds": 2778.64,
+        "end_seconds": 2784.88,
+        "text": "Mul tuleb, ma räägin ühe lihtsa näite, minu õde elab Luksemburgis ja ma küsisin tema"
+      },
+      {
+        "start_seconds": 2784.88,
+        "end_seconds": 2790.28,
+        "text": "laste käest, nad on seal elanud sünnist saati, et kui palju nad Luksemburgi keelt oska"
+      },
+      {
+        "start_seconds": 2790.28,
+        "end_seconds": 2794.92,
+        "text": "vad, neil on oma keel, et me keegi ei tea seda, kõik arvavad, et prantsuse või saksa"
+      },
+      {
+        "start_seconds": 2794.92,
+        "end_seconds": 2799.44,
+        "text": "keel on seal riigikeel ja siis nad oskasid kolme sõna, et sama palju kui mina, et mo"
+      },
+      {
+        "start_seconds": 2799.44,
+        "end_seconds": 2805.48,
+        "text": "ian on tere ja Adjeöö on sama, mis prantsuse keeles on, head aega ja, ja on aitäh, mis"
+      },
+      {
+        "start_seconds": 2805.48,
+        "end_seconds": 2811.92,
+        "text": "on ka sama, mis prantsuse keeles, ehk siis, et, et kolm sõna kümne aasta peale."
+      },
+      {
+        "start_seconds": 2811.92,
+        "end_seconds": 2819.0,
+        "text": "No ja et sellega võrreldes ma loodan, et enamusel eestlastel on paremini läinud, aga"
+      },
+      {
+        "start_seconds": 2819.0,
+        "end_seconds": 2822.44,
+        "text": "Narvas võib-olla, et ka ei ole, nii."
+      },
+      {
+        "start_seconds": 2822.44,
+        "end_seconds": 2825.36,
+        "text": "Natalja."
+      },
+      {
+        "start_seconds": 2825.36,
+        "end_seconds": 2826.24,
+        "text": "Milline?"
+      },
+      {
+        "start_seconds": 2826.24,
+        "end_seconds": 2827.2,
+        "text": "Sul on mikrofon."
+      },
+      {
+        "start_seconds": 2827.2,
+        "end_seconds": 2841.24,
+        "text": "Okei."
+      },
+      {
+        "start_seconds": 2841.24,
+        "end_seconds": 2846.96,
+        "text": "Enne kui me jõuame positiivsete näitedeni, näideteni, sest et meil on siin üks, mille"
+      },
+      {
+        "start_seconds": 2846.96,
+        "end_seconds": 2849.4,
+        "text": "st Natalja natuke hiljem räägib."
+      },
+      {
+        "start_seconds": 2849.4,
+        "end_seconds": 2851.88,
+        "text": "Ma tahtsin tuua välja."
+      },
+      {
+        "start_seconds": 2851.88,
+        "end_seconds": 2856.44,
+        "text": "Ah, ma ei tea, kas see on positiivne või ei, aga ühesõnaga kunagi ma mõtlesin selle peale"
+      },
+      {
+        "start_seconds": 2856.44,
+        "end_seconds": 2864.0,
+        "text": ", et Kambodžas olid seitsmekümnendatel punased chmeerid, nad lõikasid, see oli"
+      },
+      {
+        "start_seconds": 2864.0,
+        "end_seconds": 2869.36,
+        "text": "kambodžalased, kes lõikasid väike grupp rahvast, võib-olla suur, ma ei mäleta täpselt"
+      },
+      {
+        "start_seconds": 2869.36,
+        "end_seconds": 2873.52,
+        "text": ", aga nad lõikasid iseenda nagu rahvast nagu noh, tapsid."
+      },
+      {
+        "start_seconds": 2873.52,
+        "end_seconds": 2874.76,
+        "text": "Tapsid oma rahvast."
+      },
+      {
+        "start_seconds": 2874.76,
+        "end_seconds": 2881.88,
+        "text": "Jah ja siis no see oli väga vägivaldne ja siis kuidas Kambodž"
+      },
+      {
+        "start_seconds": 2881.88,
+        "end_seconds": 2888.08,
+        "text": "a näiteks sellega tegeleb, on, et näiteks neil, neil on üks päev aastas, mille nime ma"
+      },
+      {
+        "start_seconds": 2888.08,
+        "end_seconds": 2893.0,
+        "text": "täpselt ei mäleta, kas see oli vihapäev või leinapäev, midagi sellist, millal nad la"
+      },
+      {
+        "start_seconds": 2893.0,
+        "end_seconds": 2900.6,
+        "text": "vastavad teatri või nagu draama, draamateatri moodi etendusi, kus nad mängivad läbi neid"
+      },
+      {
+        "start_seconds": 2900.6,
+        "end_seconds": 2903.72,
+        "text": "nii-öelda vägivaldseid hetki nende ajaloos."
+      },
+      {
+        "start_seconds": 2903.72,
+        "end_seconds": 2908.28,
+        "text": "Sellest perioodist, punaste Kmeeride nagu perioodist on ju, ja see on see päev, mill"
+      },
+      {
+        "start_seconds": 2908.28,
+        "end_seconds": 2913.08,
+        "text": "al kogu rahvas, kes noh, pealt vaatab, publik on ju, nad võivad nutta välja seda mingi"
+      },
+      {
+        "start_seconds": 2913.08,
+        "end_seconds": 2917.2,
+        "text": "t põlvkonda traumat, mis neil ikka veel ju sees on."
+      },
+      {
+        "start_seconds": 2917.2,
+        "end_seconds": 2922.08,
+        "text": "Nad võivad seda välja nutta, ma ei tea, välja karjuda, lasta mingi sellel emotsiooni"
+      },
+      {
+        "start_seconds": 2922.08,
+        "end_seconds": 2928.08,
+        "text": "l, mis edasi kandub, kahjuks, noh välja endast endast ja see on nagu kontrollitud selline"
+      },
+      {
+        "start_seconds": 2928.08,
+        "end_seconds": 2933.12,
+        "text": "keskkond, millest seda välja lastakse ja mina mõtlesin, et meil Eestis võiks ka seda"
+      },
+      {
+        "start_seconds": 2933.12,
+        "end_seconds": 2937.48,
+        "text": "olla, sest et üks, üks nagu noh, mida mina tunnen, on see, et."
+      },
+      {
+        "start_seconds": 2937.48,
+        "end_seconds": 2944.36,
+        "text": "Mu enda pere oli ka väga traumeeritud siis eelmise sajandi ajalooliste sündmuste tõt"
+      },
+      {
+        "start_seconds": 2944.36,
+        "end_seconds": 2949.72,
+        "text": "tu ja meil ei ole olnud viisi leinata seda, võib-olla see Pirital see kommunismi ohv"
+      },
+      {
+        "start_seconds": 2949.72,
+        "end_seconds": 2952.0,
+        "text": "rite mälestusmärk."
+      },
+      {
+        "start_seconds": 2952.0,
+        "end_seconds": 2957.8,
+        "text": "Jah, aga nagu rääkida sellest, see on nii tabuteema tegelikult ja siis ma mõtlesin selle"
+      },
+      {
+        "start_seconds": 2957.8,
+        "end_seconds": 2964.4,
+        "text": "peale ja et me meil võiks olla midagi taolist ka võib-olla ja siis Nataljal on hea nä"
+      },
+      {
+        "start_seconds": 2964.4,
+        "end_seconds": 2966.44,
+        "text": "ide ka."
+      },
+      {
+        "start_seconds": 2966.44,
+        "end_seconds": 2974.08,
+        "text": "Nii olen käinud või voodinas, see on Serbia osa, väga rikas ja rikas"
+      },
+      {
+        "start_seconds": 2974.08,
+        "end_seconds": 2979.16,
+        "text": "ka erinevate kultuuride ja inimeste poole, seal on minu meeles kakskümmend kuus vähe"
+      },
+      {
+        "start_seconds": 2979.16,
+        "end_seconds": 2986.36,
+        "text": "musrahvust, kusjuures nende parlamendis neil on väike parlament, on kõik keeled esinda"
+      },
+      {
+        "start_seconds": 2986.36,
+        "end_seconds": 2993.6,
+        "text": "tud ja see töö, parlamendi töö käibi nagu käibki niimoodi, et sünkroontõlge tuleb, kus"
+      },
+      {
+        "start_seconds": 2993.6,
+        "end_seconds": 3001.16,
+        "text": "juures kõik räägivad serbia keelt vabalt, aga tõlgitakse ja sa võid ka esitada"
+      },
+      {
+        "start_seconds": 3001.16,
+        "end_seconds": 3008.12,
+        "text": "küsimusi oma emakeeles, neil on ju see nimekiri neist vähemusrahvustest."
+      },
+      {
+        "start_seconds": 3008.12,
+        "end_seconds": 3014.76,
+        "text": "Ja mina küsisin, see oli kakskümmend, kaks tuhat üheksa masu, mitte ainult meil, aga"
+      },
+      {
+        "start_seconds": 3014.76,
+        "end_seconds": 3019.92,
+        "text": "no igal pool kriis ja mõtlesin, noh, see on ju nii kallis, et võiks ju kokku hoida."
+      },
+      {
+        "start_seconds": 3019.92,
+        "end_seconds": 3022.8,
+        "text": "Nad ei saanud minu küsimusest aru."
+      },
+      {
+        "start_seconds": 3022.8,
+        "end_seconds": 3028.44,
+        "text": "Ma ütlesin, kuidas, see on ju lugupidamine, see on lihtsalt see, see on üks see fakt"
+      },
+      {
+        "start_seconds": 3028.44,
+        "end_seconds": 3029.16,
+        "text": "."
+      },
+      {
+        "start_seconds": 3029.16,
+        "end_seconds": 3036.6,
+        "text": "Ja see või jällegi hea näide minu meelest on see, et nad on kõik Serbia patrioodid ja"
+      },
+      {
+        "start_seconds": 3036.6,
+        "end_seconds": 3044.0,
+        "text": "seal on need kohad, kus näiteks ungarlased on, moodustavad enamuse, et serblased rahvus"
+      },
+      {
+        "start_seconds": 3044.0,
+        "end_seconds": 3046.48,
+        "text": "est serblased on vähemuses."
+      },
+      {
+        "start_seconds": 3046.48,
+        "end_seconds": 3053.0,
+        "text": "Aga siis see on väga populaarne küsimus, et kes siis, kui on jalkamäng, et kelle, kelle"
+      },
+      {
+        "start_seconds": 3053.0,
+        "end_seconds": 3058.72,
+        "text": "poolt sa no ikkagi Serbia poolt kõik, kõik seal ei ole see küsimus ja neil on väga huvitav"
+      },
+      {
+        "start_seconds": 3058.72,
+        "end_seconds": 3061.2,
+        "text": "alt lahendatud kooli küsimus."
+      },
+      {
+        "start_seconds": 3061.2,
+        "end_seconds": 3068.6,
+        "text": "Et koolis on, need on rahvuskoolid ja igal aastal laste va"
+      },
+      {
+        "start_seconds": 3068.6,
+        "end_seconds": 3074.44,
+        "text": "nemad otsustavad, kas see või teine aine, mis keeles on järgmisel aastal, see on jälle"
+      },
+      {
+        "start_seconds": 3074.44,
+        "end_seconds": 3079.04,
+        "text": "gi tohutu, mis on issand jumal, kui, kui tohutu argunn, eks."
+      },
+      {
+        "start_seconds": 3079.04,
+        "end_seconds": 3081.16,
+        "text": "Kujutan ette, kuigi."
+      },
+      {
+        "start_seconds": 3081.16,
+        "end_seconds": 3088.64,
+        "text": "Aga nad said hakkama ja kõik räägivad puhtalt, serbia keelt, tunnevad oma juuri ja"
+      },
+      {
+        "start_seconds": 3088.64,
+        "end_seconds": 3091.64,
+        "text": "kultuuri ja räägivad ka oma keeles, eks ju."
+      },
+      {
+        "start_seconds": 3091.64,
+        "end_seconds": 3096.76,
+        "text": "Kusjuures selles parlamendis ma unustasin, et seal on ju Horvaadid ja horvadia keele"
+      },
+      {
+        "start_seconds": 3096.76,
+        "end_seconds": 3098.56,
+        "text": "le ka tõlge."
+      },
+      {
+        "start_seconds": 3098.56,
+        "end_seconds": 3104.48,
+        "text": "Kusjuures on umbes üks ja sama keel, lihtsalt on kirjut- , üks on ladina tähistiku, teine"
+      },
+      {
+        "start_seconds": 3104.48,
+        "end_seconds": 3107.92,
+        "text": "on aga ikkagi Horvaadia liin on olemas."
+      },
+      {
+        "start_seconds": 3107.92,
+        "end_seconds": 3111.12,
+        "text": "Sest te olete siin, te olete meie oma."
+      },
+      {
+        "start_seconds": 3111.12,
+        "end_seconds": 3114.28,
+        "text": "Üks näide sellest."
+      },
+      {
+        "start_seconds": 3114.28,
+        "end_seconds": 3118.36,
+        "text": "Sorry, ma tahaks lisada lihtsalt, et ma unustasin kõige tähtsama asja minu enda selle"
+      },
+      {
+        "start_seconds": 3118.36,
+        "end_seconds": 3125.48,
+        "text": "jutu alguse juures see, et ma lihtsalt mõtlen, et üks põhjus võib-olla, miks me siin"
+      },
+      {
+        "start_seconds": 3125.48,
+        "end_seconds": 3130.0,
+        "text": "Eestis nii-öelda nii-öelda venelasi on ju, ei aktsepteeri, kui ma ütlen nii-öelda ve"
+      },
+      {
+        "start_seconds": 3130.0,
+        "end_seconds": 3134.76,
+        "text": "nelasi sellepärast, see on nagu sulgudes, sest et see võib olla ükskõik mis slaavi rahvus"
+      },
+      {
+        "start_seconds": 3134.76,
+        "end_seconds": 3139.12,
+        "text": "e onju esindaja, mitte venelane, aga me tembeldame venelaseks, mis on väga ignorantne"
+      },
+      {
+        "start_seconds": 3139.12,
+        "end_seconds": 3141.84,
+        "text": "minu meelest, aga ühesõnaga."
+      },
+      {
+        "start_seconds": 3141.84,
+        "end_seconds": 3146.0,
+        "text": "Et nagu miks, miks meil nii palju võib-olla vastumeelsust just venelaste suhtes on, ongi"
+      },
+      {
+        "start_seconds": 3146.0,
+        "end_seconds": 3152.16,
+        "text": "see, et tegid meile kunagi haiged, on ju teine maailmasõda küüditamised ja nii edasi"
+      },
+      {
+        "start_seconds": 3152.16,
+        "end_seconds": 3155.96,
+        "text": "repressioonid, et nagu seda on vaja välja lasta selleks, et me saaks tegelikult vene"
+      },
+      {
+        "start_seconds": 3155.96,
+        "end_seconds": 3160.28,
+        "text": "lasega kui nagu hingelt hingele inimeselt inimesega suhelda, minu meelest see nagu sü"
+      },
+      {
+        "start_seconds": 3160.28,
+        "end_seconds": 3166.32,
+        "text": "damlikkus on, on blokeeritud selle valuga, mida on vaja välja lasta kontrollitud tur"
+      },
+      {
+        "start_seconds": 3166.32,
+        "end_seconds": 3168.12,
+        "text": "valises võib-olla keskkonnas."
+      },
+      {
+        "start_seconds": 3168.12,
+        "end_seconds": 3168.96,
+        "text": "Aitäh."
+      },
+      {
+        "start_seconds": 3168.96,
+        "end_seconds": 3174.44,
+        "text": "Ja ka venelased peaksid sellest teadma ja kusjuures mina tean, see on väga positiivne"
+      },
+      {
+        "start_seconds": 3174.44,
+        "end_seconds": 3178.8,
+        "text": ", näiteks mõni, kes on esimest korda lihtsalt vaatas seltsimees laps ja siis ta ütle"
+      },
+      {
+        "start_seconds": 3178.8,
+        "end_seconds": 3181.96,
+        "text": "b, kuulge, aga seda on juba kõikidel näidata."
+      },
+      {
+        "start_seconds": 3181.96,
+        "end_seconds": 3189.2,
+        "text": "See on, seda on vaja näidata ja ma kusjuures see, kes ütles, ta on kooliõ"
+      },
+      {
+        "start_seconds": 3189.2,
+        "end_seconds": 3194.44,
+        "text": "petaja, ta on haritud inimene, aga ta ei ole teadnud, tema jaoks oli avastus, et sellise"
+      },
+      {
+        "start_seconds": 3194.44,
+        "end_seconds": 3198.16,
+        "text": "d asjad, et, et nii juhtus, et see on reaalsus."
+      },
+      {
+        "start_seconds": 3198.16,
+        "end_seconds": 3204.36,
+        "text": "Et ma arvan, et me peame need arhiivid avama ja koos need läbi vaatama, filmid võib-"
+      },
+      {
+        "start_seconds": 3204.36,
+        "end_seconds": 3208.72,
+        "text": "olla tõesti filmid ja aitaks siin kaasa."
+      },
+      {
+        "start_seconds": 3208.72,
+        "end_seconds": 3215.88,
+        "text": "Et kui me räägime kultuuris, et me peaks nagu just ajaloo väga va"
+      },
+      {
+        "start_seconds": 3215.88,
+        "end_seconds": 3218.4,
+        "text": "lusad momendid ka avama."
+      },
+      {
+        "start_seconds": 3218.4,
+        "end_seconds": 3220.36,
+        "text": "Kindlasti."
+      },
+      {
+        "start_seconds": 3220.36,
+        "end_seconds": 3227.32,
+        "text": "Väga hea nii ja viimane grupp."
+      },
+      {
+        "start_seconds": 3227.32,
+        "end_seconds": 3233.28,
+        "text": "Meie jutt läks jooksma ja, ja jäimegi sinna pidama, et nendele süsteemidele, mis on väga"
+      },
+      {
+        "start_seconds": 3233.28,
+        "end_seconds": 3237.32,
+        "text": "paljudes riikides üles ehitatud, kuidas vastu võtta uusi tulijaid."
+      },
+      {
+        "start_seconds": 3237.32,
+        "end_seconds": 3242.52,
+        "text": "Siin rääkisime ka Põhjamaadest ja Taanist ja Rootsist, jõudsime Austraaliani välja, et"
+      },
+      {
+        "start_seconds": 3242.52,
+        "end_seconds": 3248.48,
+        "text": "kuidas ikkagi esimesest hetkest, kui inimene saabub võõrasse riiki, tema ümber luuakse"
+      },
+      {
+        "start_seconds": 3248.48,
+        "end_seconds": 3254.4,
+        "text": "selline turvaline võrk, pakutakse teenuseid, soovitavalt ühe akna kaudu, mitte nagu Eestis"
+      },
+      {
+        "start_seconds": 3254.4,
+        "end_seconds": 3257.48,
+        "text": ", eks ju, sa pead jooksma, ma ei tea, ringi mitmes asutuses."
+      },
+      {
+        "start_seconds": 3257.48,
+        "end_seconds": 3264.08,
+        "text": "Et kuidas linnavalitsus linnapea saadab isiklikku pöördumiskaardi, Welcome kaardi inimese"
+      },
+      {
+        "start_seconds": 3264.08,
+        "end_seconds": 3269.0,
+        "text": "le koju, kuidas naabrid korraldavad niinimetatud naabrivalvet, et sellel uuel sissetu"
+      },
+      {
+        "start_seconds": 3269.0,
+        "end_seconds": 3273.04,
+        "text": "lijal oleks täiesti okei sisse elamine."
+      },
+      {
+        "start_seconds": 3273.04,
+        "end_seconds": 3280.36,
+        "text": "Et või kuidas antakse terve package erinevate asjadega, et inimene nagu"
+      },
+      {
+        "start_seconds": 3280.36,
+        "end_seconds": 3283.04,
+        "text": "saaks aru, kus ta on ja, ja, ja mis ta tegema peab."
+      },
+      {
+        "start_seconds": 3283.04,
+        "end_seconds": 3289.92,
+        "text": "Et selles mõttes, et selliseid hästi palju positiivseid näiteid on küll meie ümber olemas"
+      },
+      {
+        "start_seconds": 3289.92,
+        "end_seconds": 3296.4,
+        "text": ", et kuidas see juba see saabumise hetk, esimesed päevad, esimesed kuud oleksid väga"
+      },
+      {
+        "start_seconds": 3296.4,
+        "end_seconds": 3302.84,
+        "text": "toredad ja sealt juba tekib see kontakt, see usaldus ja asjad lähevad edasi juba palju"
+      },
+      {
+        "start_seconds": 3302.84,
+        "end_seconds": 3303.56,
+        "text": "paremini."
+      },
+      {
+        "start_seconds": 3303.56,
+        "end_seconds": 3305.88,
+        "text": "Aitäh."
+      },
+      {
+        "start_seconds": 3305.88,
+        "end_seconds": 3307.52,
+        "text": "Suur tänu, väga hea."
+      },
+      {
+        "start_seconds": 3307.52,
+        "end_seconds": 3313.48,
+        "text": "Tänan teid kõiki ja nagu me täna nägime siin."
+      },
+      {
+        "start_seconds": 3313.48,
+        "end_seconds": 3316.52,
+        "text": "Asjad võivad olla väga erinevate tahkude alt."
+      },
+      {
+        "start_seconds": 3316.52,
+        "end_seconds": 3319.72,
+        "text": "Te võite näha seda praegu kolmnurgana."
+      },
+      {
+        "start_seconds": 3319.72,
+        "end_seconds": 3323.52,
+        "text": "Te võite seda näha nelinurgana."
+      },
+      {
+        "start_seconds": 3323.52,
+        "end_seconds": 3329.92,
+        "text": "Ja te võite seda näha isegi ümmargusena, et asjad, mõned asjad, mis eestlase jaoks võib"
+      },
+      {
+        "start_seconds": 3329.92,
+        "end_seconds": 3335.08,
+        "text": "-olla tunduvad kandilised, on võib-olla slaavlaste jaoks ümmargused või vastupidi."
+      },
+      {
+        "start_seconds": 3335.08,
+        "end_seconds": 3341.04,
+        "text": "Et tõde on kuskil vahepeal, et kui eestlane väidab, et asi on nii, siis see ei tähenda"
+      },
+      {
+        "start_seconds": 3341.04,
+        "end_seconds": 3346.0,
+        "text": ", et see on teisest rahvusest elaniku jaoks nii."
+      },
+      {
+        "start_seconds": 3346.0,
+        "end_seconds": 3352.96,
+        "text": "Aga ma tänan teid kõiki, palun tuleme nüüd kõik siia ühisesse ringi."
+      },
+      {
+        "start_seconds": 3352.96,
+        "end_seconds": 3354.44,
+        "text": "Tuleme kõik siia kokku."
+      },
+      {
+        "start_seconds": 3354.44,
+        "end_seconds": 3359.6,
+        "text": "Kui tohib, kui tohib, et võib-olla ei ole kuskil vahepeal, ta on tervikus."
+      },
+      {
+        "start_seconds": 3359.6,
+        "end_seconds": 3363.12,
+        "text": "Just, ta on tervikus, vahepeal ei ole, tõsi on."
+      },
+      {
+        "start_seconds": 3363.12,
+        "end_seconds": 3364.04,
+        "text": "Tervikus."
+      },
+      {
+        "start_seconds": 3364.04,
+        "end_seconds": 3365.84,
+        "text": "Seisame, praegu seisame."
+      },
+      {
+        "start_seconds": 3365.84,
+        "end_seconds": 3371.8,
+        "text": "Ma ütlen veel nii palju ära, et me teeme pärast kokkuvõtte nende paberite põhjal, mis"
+      },
+      {
+        "start_seconds": 3371.8,
+        "end_seconds": 3377.96,
+        "text": "teil kirjutasite, kes soovib endale seda kokkuvõtet, kirjutage sinna kuhugi paberi peale"
+      },
+      {
+        "start_seconds": 3377.96,
+        "end_seconds": 3387.32,
+        "text": "pärast oma meiliaadressi, eks ole, et siis ma saan teile jagada."
+      },
+      {
+        "start_seconds": 3387.32,
+        "end_seconds": 3394.76,
+        "text": "Nii ja nüüd ma saadan ringi käima ühe pakiteri, teile võtke igaüks üks"
+      },
+      {
+        "start_seconds": 3394.76,
+        "end_seconds": 3397.92,
+        "text": "siit ja."
+      },
+      {
+        "start_seconds": 3397.92,
+        "end_seconds": 3405.16,
+        "text": "Ja siis praegu sooviks teie kokkuvõtet, kuidas teile tundus, mida te tänasest päevast"
+      },
+      {
+        "start_seconds": 3405.16,
+        "end_seconds": 3413.0,
+        "text": "saite, mida te ootasite, mis jäi saamata, mida oleksite tahtnud veel kuulata ja"
+      },
+      {
+        "start_seconds": 3413.0,
+        "end_seconds": 3418.84,
+        "text": "võib-olla ka, mis nüüd edasi saab, kas soovite veel kokku saada või mis, mis me teeme"
+      },
+      {
+        "start_seconds": 3418.84,
+        "end_seconds": 3422.32,
+        "text": "?"
+      },
+      {
+        "start_seconds": 3422.32,
+        "end_seconds": 3429.8,
+        "text": "Tore arutelu oli ja alati hea kuulata uusi inimesi, kellega"
+      },
+      {
+        "start_seconds": 3429.8,
+        "end_seconds": 3437.6,
+        "text": "tutvusid hetk tagasi ja eriti siis, kui inimesed räägivad oma kogemusi,"
+      },
+      {
+        "start_seconds": 3437.6,
+        "end_seconds": 3446.64,
+        "text": "jagavad kogemusi ja, ja selline tore, siiras arutelu, et aitäh kõigile ja"
+      },
+      {
+        "start_seconds": 3446.64,
+        "end_seconds": 3454.16,
+        "text": "kindlasti on mõned mõtted tekkinud, aga on vaja ka natuke seedida."
+      },
+      {
+        "start_seconds": 3454.16,
+        "end_seconds": 3455.16,
+        "text": "Okei, jah."
+      },
+      {
+        "start_seconds": 3455.16,
+        "end_seconds": 3462.2,
+        "text": "Suur tänu arutelu jaoks teistele, et minu alati peamine mõte integratsiooni kohta ongi"
+      },
+      {
+        "start_seconds": 3462.2,
+        "end_seconds": 3467.72,
+        "text": "selline, et see ei ole ainult ühe inimese töö."
+      },
+      {
+        "start_seconds": 3467.72,
+        "end_seconds": 3475.24,
+        "text": "Seda peavad tegema kõik osapooled selleks, et mingi tulemuseni jõuda."
+      },
+      {
+        "start_seconds": 3475.24,
+        "end_seconds": 3482.68,
+        "text": "Jah, see oli no kõik mis räägiti sellest räägitakse juba aastaid või aastaid"
+      },
+      {
+        "start_seconds": 3482.68,
+        "end_seconds": 3483.88,
+        "text": "ja aastaid."
+      },
+      {
+        "start_seconds": 3483.88,
+        "end_seconds": 3490.08,
+        "text": "Aga loodame, et kuidagi midagi muutub ka paremaks."
+      },
+      {
+        "start_seconds": 3490.08,
+        "end_seconds": 3497.64,
+        "text": "No mul oli küll positiivne kogemus, et tulin, istusin niisama korraks maha, vaata"
+      },
+      {
+        "start_seconds": 3497.64,
+        "end_seconds": 3503.0,
+        "text": "sin, mõtlesin, kuulan natukene, kohe võeti omaks, mingit probleemi ei olnud, nii et see"
+      },
+      {
+        "start_seconds": 3503.0,
+        "end_seconds": 3508.88,
+        "text": "on selles mõttes oli selline positiivne integratsiooni kogemus, et oleks päriselus nii"
+      },
+      {
+        "start_seconds": 3508.88,
+        "end_seconds": 3514.24,
+        "text": "-öelda pikaajalisemad protsessid ka samamoodi."
+      },
+      {
+        "start_seconds": 3514.24,
+        "end_seconds": 3520.52,
+        "text": "Ja et mind täitsa nagu hämmastas, mis ma sealt viimati kuulsin Natalja ja, ja, ja Na"
+      },
+      {
+        "start_seconds": 3520.52,
+        "end_seconds": 3524.32,
+        "text": "talja, Nata, sorry, ma ei näe su nime."
+      },
+      {
+        "start_seconds": 3524.32,
+        "end_seconds": 3530.76,
+        "text": "Kaks Nataljat jah, ja, ja, ja just et ma sellist vaatenurka ma ei ole üldse nagu kuul"
+      },
+      {
+        "start_seconds": 3530.76,
+        "end_seconds": 3536.96,
+        "text": "nudki, et nagu et see mingi näidata välja oma mingit valu nagu need seal Kambodžas on"
+      },
+      {
+        "start_seconds": 3536.96,
+        "end_seconds": 3542.04,
+        "text": "ju ja praegu ma nagu tunnen niimoodi, et okei, ma tulin nagu siia sellepärast, et Ai"
+      },
+      {
+        "start_seconds": 3542.04,
+        "end_seconds": 3546.88,
+        "text": "ri mind kutsus on ja ma tahtsin näidata, et näed, et ma tulengi, eks ole, on ju, et siin"
+      },
+      {
+        "start_seconds": 3546.88,
+        "end_seconds": 3553.48,
+        "text": "ma olen praegu ma nagu tunnen niimoodi, et ja noh, kogu see teema nagu noh, ma olen ju"
+      },
+      {
+        "start_seconds": 3553.48,
+        "end_seconds": 3558.24,
+        "text": "ka suht vana inimene või noh, kaua elanud ja näinud, mismoodi see asi on, aga praegu"
+      },
+      {
+        "start_seconds": 3558.24,
+        "end_seconds": 3563.04,
+        "text": "ma nagu tunnen, et kuule tegelt tõesti selle asja saaks nagu kuidagi paremaks teha."
+      },
+      {
+        "start_seconds": 3563.04,
+        "end_seconds": 3568.0,
+        "text": "Ja see, mis ma ise nagu rääkisin on ju alguses onju, et kui sa suhtud nagu selle, suht"
+      },
+      {
+        "start_seconds": 3568.0,
+        "end_seconds": 3573.96,
+        "text": "led nagu selle teistsugusega on ju, et sa tegelikult ise arened onju ja noh, et nii-"
+      },
+      {
+        "start_seconds": 3573.96,
+        "end_seconds": 3578.92,
+        "text": "öelda meil, kes me siin oleme, on ju, tegelikult on nagu vajadus võib-olla siis seda"
+      },
+      {
+        "start_seconds": 3578.92,
+        "end_seconds": 3583.6,
+        "text": "noh, võtta paremini vastu, sest see noh, aitab meid ennast nagu edasi on ju."
+      },
+      {
+        "start_seconds": 3583.6,
+        "end_seconds": 3587.28,
+        "text": "Vao niimoodi võikski teha, võib-olla."
+      },
+      {
+        "start_seconds": 3587.28,
+        "end_seconds": 3594.56,
+        "text": "Aitäh, et aitäh teile, et minu jaoks te olete kõik avastused üks, üks kosmose"
+      },
+      {
+        "start_seconds": 3594.56,
+        "end_seconds": 3595.76,
+        "text": "ga inimene."
+      },
+      {
+        "start_seconds": 3595.76,
+        "end_seconds": 3597.84,
+        "text": "Aitäh, te olete."
+      },
+      {
+        "start_seconds": 3597.84,
+        "end_seconds": 3605.2,
+        "text": "Ja tänan Airit, et tema tegi seda tõesti nii, et see on teate iga,"
+      },
+      {
+        "start_seconds": 3605.2,
+        "end_seconds": 3610.64,
+        "text": "iga juhi unistus on see, kui lihtsalt kõik juhtub iseenesest."
+      },
+      {
+        "start_seconds": 3610.64,
+        "end_seconds": 3615.36,
+        "text": "Ja see oli lihtsalt, lihtsalt tuled, tuled külalisena."
+      },
+      {
+        "start_seconds": 3615.36,
+        "end_seconds": 3622.92,
+        "text": "Ja ma kindlasti tahaks teiega kohtuda ja kui teil on vähegi huvi, ükskõik mis"
+      },
+      {
+        "start_seconds": 3622.92,
+        "end_seconds": 3629.24,
+        "text": "tegevuse osas, mida meie teeme, meil on ka Erasmus pluss projekt, me oleme arendamas"
+      },
+      {
+        "start_seconds": 3629.24,
+        "end_seconds": 3634.96,
+        "text": ", mina olen aren- , meie arendame platvormi Sõnategu, kus me kontroll- , see on poli"
+      },
+      {
+        "start_seconds": 3634.96,
+        "end_seconds": 3640.68,
+        "text": "itiliste lubaduste monitooring, kas on tehtud või ei ole, kui tal on vähegi huvi selle"
+      },
+      {
+        "start_seconds": 3640.68,
+        "end_seconds": 3646.92,
+        "text": "ks ja olete valmis panustama selleks, et Eestis oleks parem elu."
+      },
+      {
+        "start_seconds": 3646.92,
+        "end_seconds": 3653.2,
+        "text": "Tere tulemast, et ma tahaks teiega seda edasi teha."
+      },
+      {
+        "start_seconds": 3653.2,
+        "end_seconds": 3659.48,
+        "text": "Ma just täna hommikul rääkisin Sophiaga sellest, kuidas ma kardan grupitööd ja tiimi"
+      },
+      {
+        "start_seconds": 3659.48,
+        "end_seconds": 3667.96,
+        "text": "tööd ja kõike seda, aga täna toredate inimeste keskis ei olnud nii hirmus."
+      },
+      {
+        "start_seconds": 3667.96,
+        "end_seconds": 3673.68,
+        "text": "Aitäh ka selle töötoa eest, aitäh korraldamast, Airi ja Natalja."
+      },
+      {
+        "start_seconds": 3673.68,
+        "end_seconds": 3679.44,
+        "text": "Ma tunnen, et ma olen kuidagi üsna kibestunud olnud, ma arvan, selle kogu teema osas"
+      },
+      {
+        "start_seconds": 3679.44,
+        "end_seconds": 3683.8,
+        "text": "ja see tekitab nii palju emotsioone, nii palju tundeid, mida nagu ei julge näidata ti"
+      },
+      {
+        "start_seconds": 3683.8,
+        "end_seconds": 3689.96,
+        "text": "hti, sest et lihtsalt tundud veelgi võõram, siis ma arvan, ma arvan, aga, aga mul on"
+      },
+      {
+        "start_seconds": 3689.96,
+        "end_seconds": 3694.96,
+        "text": "hea meel, et vahepeal tekivad sellised üritused või võimalused või töötoad, kus saab"
+      },
+      {
+        "start_seconds": 3694.96,
+        "end_seconds": 3700.32,
+        "text": "rääkida ja kus saab kuulata ja mulle väga meeldis kuulata ka, aitäh."
+      },
+      {
+        "start_seconds": 3700.32,
+        "end_seconds": 3706.0,
+        "text": "Ja no mina tulin hästi avatud meelega, mind ei olnud kutsutud ja mina tahaks võib-olla"
+      },
+      {
+        "start_seconds": 3706.0,
+        "end_seconds": 3713.52,
+        "text": "just sind tänada, et, et sinu lood kõnetasid, et ikkagi läbi kogemuse ja, ja väga palju"
+      },
+      {
+        "start_seconds": 3713.52,
+        "end_seconds": 3720.52,
+        "text": "jälle häid näiteid oli, nii et igasuguseid asju siit ja sealt jäi kõlama, nii et ja kui"
+      },
+      {
+        "start_seconds": 3720.52,
+        "end_seconds": 3727.52,
+        "text": "ma ise tavaliselt teen neid igasuguseid töötubasid, siis on ka vahel hea osaleda."
+      },
+      {
+        "start_seconds": 3727.52,
+        "end_seconds": 3733.2,
+        "text": "Aitäh, aitäh Natalja."
+      },
+      {
+        "start_seconds": 3733.2,
+        "end_seconds": 3741.56,
+        "text": "Kui me suhtlesime selle probleemi, probleemist varem,"
+      },
+      {
+        "start_seconds": 3741.56,
+        "end_seconds": 3749.96,
+        "text": "sellepärast ma mõtlesin keele ja kultuuri ja integratsiooni probleemi,"
+      },
+      {
+        "start_seconds": 3749.96,
+        "end_seconds": 3759.48,
+        "text": "probleemidest palju ja praegu ma mõtlen, et"
+      },
+      {
+        "start_seconds": 3759.48,
+        "end_seconds": 3767.12,
+        "text": "see on kogu maailma probleem, suur probleem, kelle"
+      },
+      {
+        "start_seconds": 3767.12,
+        "end_seconds": 3775.0,
+        "text": "ja kultuuri integratsiooniprotsessid ja võib-olla kui"
+      },
+      {
+        "start_seconds": 3775.0,
+        "end_seconds": 3782.2,
+        "text": "ma näitan, ma näen praegu Eestis, selle ma"
+      },
+      {
+        "start_seconds": 3782.2,
+        "end_seconds": 3789.44,
+        "text": "a on väga perspektiivne ja rahvus on väga perspektiivne."
+      },
+      {
+        "start_seconds": 3789.44,
+        "end_seconds": 3797.16,
+        "text": "Selles, et sa rahvus saab võtta erinevus kultuuri,"
+      },
+      {
+        "start_seconds": 3797.16,
+        "end_seconds": 3804.88,
+        "text": "erinevus kultuuri, erinevuse keele ja ma loodan, et tugev"
+      },
+      {
+        "start_seconds": 3804.88,
+        "end_seconds": 3810.92,
+        "text": "rahvus saab."
+      },
+      {
+        "start_seconds": 3810.92,
+        "end_seconds": 3827.24,
+        "text": "Pöörduda selle probleemi tähelepanu ja."
+      },
+      {
+        "start_seconds": 3827.24,
+        "end_seconds": 3836.64,
+        "text": "Selle protsesside puhul ja kui nad"
+      },
+      {
+        "start_seconds": 3836.64,
+        "end_seconds": 3844.76,
+        "text": "peavad ka enda noh, peavad"
+      },
+      {
+        "start_seconds": 3844.76,
+        "end_seconds": 3867.52,
+        "text": "minema."
+      },
+      {
+        "start_seconds": 3867.52,
+        "end_seconds": 3875.2,
+        "text": "Tulevikus ja sest rahvus ja inimesed on väga head ja väga saa"
+      },
+      {
+        "start_seconds": 3875.2,
+        "end_seconds": 3881.88,
+        "text": "vad aru."
+      },
+      {
+        "start_seconds": 3881.88,
+        "end_seconds": 3888.48,
+        "text": "Aitäh ka minu poolt korraldajate ja väga hea korraldus ja kajastus ka, eks ole, et me"
+      },
+      {
+        "start_seconds": 3888.48,
+        "end_seconds": 3893.28,
+        "text": "ei jäänud hiljaks, et kõik on nii-öelda ilusti hea aja sees onju."
+      },
+      {
+        "start_seconds": 3893.28,
+        "end_seconds": 3899.96,
+        "text": "Aga mine jällegi veendusin, et ilma motivatsioonita ei saa mitte midagi, eks ole."
+      },
+      {
+        "start_seconds": 3899.96,
+        "end_seconds": 3905.8,
+        "text": "Aga sellest ka ei piisa, kui teisel pool on uks kinni, et ikkagi teisel pool ka peab"
+      },
+      {
+        "start_seconds": 3905.8,
+        "end_seconds": 3910.0,
+        "text": "uks lahti olema, eks ole, et kui sa koputad oma motivatsiooniga."
+      },
+      {
+        "start_seconds": 3910.0,
+        "end_seconds": 3915.52,
+        "text": "Nii et kindlasti see integratsiooni küsimus on kahepoolne."
+      },
+      {
+        "start_seconds": 3915.52,
+        "end_seconds": 3919.12,
+        "text": "Ja edu on ka nagu sellest sõltub."
+      },
+      {
+        "start_seconds": 3919.12,
+        "end_seconds": 3924.48,
+        "text": "Ja muidu suured tänud osavõtjatele, eks ole, et Eesti, hästi kenad ja armsad inimesed"
+      },
+      {
+        "start_seconds": 3924.48,
+        "end_seconds": 3930.24,
+        "text": ", et olid nagu tore teie lugusid kuulata ja teiega arutada, aitäh."
+      },
+      {
+        "start_seconds": 3930.24,
+        "end_seconds": 3935.72,
+        "text": "Minul oli ka väga huvitav ja mõtlemapanev kuulata, lihtsalt päris inimeste, päris lu"
+      },
+      {
+        "start_seconds": 3935.72,
+        "end_seconds": 3936.96,
+        "text": "gusid."
+      },
+      {
+        "start_seconds": 3936.96,
+        "end_seconds": 3945.24,
+        "text": "Aitäh Ja mina nüüd sattusin siia päris lõpu poole, aga, aga mul on hea meel, et see teema"
+      },
+      {
+        "start_seconds": 3945.24,
+        "end_seconds": 3951.64,
+        "text": "on, on arutlusel ja, ja siin ja, ja aitäh, et, et, et korraldate ja teete, sest see on"
+      },
+      {
+        "start_seconds": 3951.64,
+        "end_seconds": 3958.16,
+        "text": "ikkagi oluline, et et kuidas integratsioon nagu välja näeb ka nendele, kes juba on siin"
+      },
+      {
+        "start_seconds": 3958.16,
+        "end_seconds": 3962.28,
+        "text": "ja nendele, kes nüüd tulevikus tulevad, on ju, et see võib olla täiesti erinev nagu tee"
+      },
+      {
+        "start_seconds": 3962.28,
+        "end_seconds": 3966.44,
+        "text": "kond on ju, et kuigi me siin mõtlesime, et, et võiks olla üks, üks toru nii-öelda, mille"
+      },
+      {
+        "start_seconds": 3966.44,
+        "end_seconds": 3971.16,
+        "text": "kaudu see inimene vastu võetakse, aga see inimene, kes siin täna juba pikalt on olnud"
+      },
+      {
+        "start_seconds": 3971.16,
+        "end_seconds": 3973.96,
+        "text": ", et, et seal on võib-olla hoopis mingi teine toru."
+      },
+      {
+        "start_seconds": 3973.96,
+        "end_seconds": 3979.56,
+        "text": "Et, et selle peale ka mõeldakse, nii et aitäh."
+      },
+      {
+        "start_seconds": 3979.56,
+        "end_seconds": 3987.04,
+        "text": "Täna hommikul osalesin mina panilistina ühes paneelis, kus"
+      },
+      {
+        "start_seconds": 3987.04,
+        "end_seconds": 3993.12,
+        "text": "moderaator oli venekeelne inimene ja panelistid olid neli venekeelset inimest."
+      },
+      {
+        "start_seconds": 3993.12,
+        "end_seconds": 3998.4,
+        "text": "Ja me arutasime, kuidas kõnetada venekeelseid inimesi."
+      },
+      {
+        "start_seconds": 3998.4,
+        "end_seconds": 4004.4,
+        "text": "Ja, ja arutasime ja arutasime omavahel ja arutasime ja arutasime eesti keeles, aruta"
+      },
+      {
+        "start_seconds": 4004.4,
+        "end_seconds": 4009.24,
+        "text": "sime, et noh, tegemist oli poliitikutega ja, ja me siis arutasime, üritasime mingeid"
+      },
+      {
+        "start_seconds": 4009.24,
+        "end_seconds": 4013.24,
+        "text": "poliitilisi statemente seal teha ja nii edasi ja nii edasi."
+      },
+      {
+        "start_seconds": 4013.24,
+        "end_seconds": 4018.48,
+        "text": "Ja, ja noh, mina rääkisin seal näiteks sellest, et me peame rohkem omavahel suhtlema"
+      },
+      {
+        "start_seconds": 4018.48,
+        "end_seconds": 4020.36,
+        "text": ", meil on vaja rohkem dialoogi."
+      },
+      {
+        "start_seconds": 4020.36,
+        "end_seconds": 4024.96,
+        "text": "Muidu nagu tundus nagu Vene poliitikute mingi monoloog seal, et ja, ja tulen siia nüüd"
+      },
+      {
+        "start_seconds": 4024.96,
+        "end_seconds": 4027.12,
+        "text": "õhtul ja mida ma näen?"
+      },
+      {
+        "start_seconds": 4027.12,
+        "end_seconds": 4030.76,
+        "text": "Alles rääkisin, juba tehakse."
+      },
+      {
+        "start_seconds": 4030.76,
+        "end_seconds": 4036.04,
+        "text": "Et selles mõttes töö käib, et see ongi kõige olulisem, et ei ole niimoodi, et siin nu"
+      },
+      {
+        "start_seconds": 4036.04,
+        "end_seconds": 4040.2,
+        "text": "rgas eestlased arutavad, kuidas venelastega rääkida ja seal istuvad venelased ja aru"
+      },
+      {
+        "start_seconds": 4040.2,
+        "end_seconds": 4042.68,
+        "text": "tavad, kuidas eestlastega rääkida."
+      },
+      {
+        "start_seconds": 4042.68,
+        "end_seconds": 4047.2,
+        "text": "Et me peamegi kokku tulema ja peame omavahel rääkima ja kui on ebameeldivaid asju või"
+      },
+      {
+        "start_seconds": 4047.2,
+        "end_seconds": 4051.04,
+        "text": "probleeme, eks need tuleb ka rääkida, et aga kõige olulisem on see, et meid sa ei ho"
+      },
+      {
+        "start_seconds": 4051.04,
+        "end_seconds": 4057.6,
+        "text": "ia nagu Natalja ei näita seda rusikat taskus, eks ju, vaid, vaid sa oled avatud kätega"
+      },
+      {
+        "start_seconds": 4057.6,
+        "end_seconds": 4057.84,
+        "text": "."
+      },
+      {
+        "start_seconds": 4057.84,
+        "end_seconds": 4060.48,
+        "text": "Kui vehid vehi, eks ei ole probleemi."
+      },
+      {
+        "start_seconds": 4060.48,
+        "end_seconds": 4065.48,
+        "text": "Et aga räägi inimestega, suhtle inimestega, pea dialoogi, leia seda partnerit kellega"
+      },
+      {
+        "start_seconds": 4065.48,
+        "end_seconds": 4070.16,
+        "text": "arutada ja ma tänan selle võimaluse eest, et meil täna oli võimalus siin siin seda di"
+      },
+      {
+        "start_seconds": 4070.16,
+        "end_seconds": 4075.12,
+        "text": "aloogi pidada ja saada uute inimestega tuttavaks ja, ja kuulata neid lugusid."
+      },
+      {
+        "start_seconds": 4075.12,
+        "end_seconds": 4079.44,
+        "text": "Siis ma arvan, et kogu meie selle integratsiooniprotsesside võti peidubki selles, et"
+      },
+      {
+        "start_seconds": 4079.44,
+        "end_seconds": 4084.24,
+        "text": "me võimalikult palju räägime omavahel, mitte ei istu igaüks oma nurgas, see on oluline"
+      },
+      {
+        "start_seconds": 4084.24,
+        "end_seconds": 4086.84,
+        "text": ", aitäh selle kogemuse eest."
+      },
+      {
+        "start_seconds": 4086.84,
+        "end_seconds": 4093.24,
+        "text": "Muidugi tänan ka kõiki osalejaid, eriti neid, kes viimasel hetkel said alles viimsel"
+      },
+      {
+        "start_seconds": 4093.24,
+        "end_seconds": 4096.92,
+        "text": "hetkel, aga väga edukalt."
+      },
+      {
+        "start_seconds": 4096.92,
+        "end_seconds": 4102.6,
+        "text": "Mulle väga meeldis Eduardi mõte selle dialoogi kohta, sest tegelikult selle töötoa mõ"
+      },
+      {
+        "start_seconds": 4102.6,
+        "end_seconds": 4107.6,
+        "text": "te oligi selles, et Nikolai Pavlenko hakkas mulle kõigepealt rääkima, et on vaja rääkida"
+      },
+      {
+        "start_seconds": 4107.6,
+        "end_seconds": 4112.2,
+        "text": "dialoogi vajalikkusest ja mina ütlesin, me ei räägi dialoogi vajalikkusest, me teeme"
+      },
+      {
+        "start_seconds": 4112.2,
+        "end_seconds": 4113.56,
+        "text": "selle dialoogi."
+      },
+      {
+        "start_seconds": 4113.56,
+        "end_seconds": 4119.24,
+        "text": "Aga kahjuks Nikolai endal oli jah, tervis täna nii kehva, et ta ei jõudnud siia, aga"
+      },
+      {
+        "start_seconds": 4119.24,
+        "end_seconds": 4123.76,
+        "text": "igatahes ta saab selle salvestuse ja ma loodan, et ta jääb meiega rahule."
+      },
+      {
+        "start_seconds": 4123.76,
+        "end_seconds": 4129.0,
+        "text": "Nii suur tänu veel kord kõigile ja tuletan siis meelde, kes tahab selle arutelu kokku"
+      },
+      {
+        "start_seconds": 4129.0,
+        "end_seconds": 4132.08,
+        "text": "võtet, kirjutage kuhugi nende paberite peale oma email."
+      },
+      {
+        "start_seconds": 4132.08,
+        "end_seconds": 4150.857,
+        "text": "Ma saadan teile kokkuvõtte nendest ja loodame, et kohtume veel."
+      }
+    ]
+  }
+}

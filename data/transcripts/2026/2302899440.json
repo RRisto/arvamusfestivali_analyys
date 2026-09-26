@@ -1,0 +1,3746 @@
+{
+  "schema_version": 1,
+  "episode": {
+    "id": "2302899440",
+    "rss_guid": "tag:soundcloud,2010:tracks/2302899440",
+    "title": "Rohetehnoloogiad – puhta tööstuse ja julgeoleku alustala_",
+    "published_at": "2026-04-15T08:35:40Z",
+    "apple_collection_id": 1477431807,
+    "page_url": "https://soundcloud.com/arvamusfestival/rohetehnoloogiad-puhta-toostuse-ja-julgeoleku-alustala-8",
+    "audio_url": "https://feeds.soundcloud.com/stream/2302899440-arvamusfestival-rohetehnoloogiad-puhta-toostuse-ja-julgeoleku-alustala-8.mp3",
+    "audio_bytes": 136588015,
+    "audio_sha256": "b8e91ab9f0ecb8cb5e63ddea0385513ab00fa37abf0fbb621e575775457dc470",
+    "duration_seconds": 3414.0
+  },
+  "transcription": {
+    "model": {
+      "name": "large",
+      "repository": "TalTechNLP/streaming-zipformer-large.et-en",
+      "revision": "2812262bd4fd5d4327dc09ca0e6c19e8a32a03d6",
+      "precision": "int8"
+    },
+    "runtime": {
+      "sherpa_onnx": "1.13.7",
+      "decoding_method": "modified_beam_search",
+      "threads": 4
+    },
+    "text": "Aga kena, kell on saanud kaksteist ja natukene peale, et alustame siis meie järgmise aruteluga, milleks on rohetehnoloogiat kui puhta tööstuse ja julgeoleku alustala. Ja esmalt, tere tulemast kõigile, kes te siin ilusal päeval olete Paidesse kohale jõudnud ja tervitan juba etteruttavalt ka kõiki, kes kuulavad meid kunagi mingil ajahetkel siis salvestusest. Minu nimi on Anni Raie ja töötan mina keskkonnainvesteeringute Keskuses ja Keskkonnainvesteeringute keskuses me pöörame tähelepanu väga laiale sihtrühmale. Alates lasteaia, laste ja koolinoorte keskkonnateadlikkusest kuni suurtööstuste ja looduskaitseliste projektideni välja. Ja ka roheinnovatsioon ja laiemalt iduettevõtted on meil kindlasti suures fookuses ja soovime siis neile võimalusi luua ja uksi avada. Ja seda arutelu me siis täna korraldame koostöös Eesti Rohetehnoloogia Liiduga, kes ongi esindus ja katusorganisatsioon Eesti eesrindlikele rohetehnoloogia ja roheinnovatsiooni organisatsioonidele. Ja kui me mõtleme tänasest ajastust, siis me elame sellisel põneval ajal, kus ühelt poolt justkui meil on niisugune tohutu potentsiaal ja võimekus paremad ja laiemad teadmised ja oskused kui kunagi varem. Aga teisalt iseäranis just niisuguse viie aasta jooksul oleme me olnud tohutus kriiside pöörises. Ja eks need kriisid on tinginud meil sellise turvatunde puudumise geopoliitilise ebastabiilsuse ja mis seal salata, ka suurema fookuse siis sellise kaitse, sõltumatuse ja, ja julgeoleku teemadele. Ja võib-olla märkasite ka siin nädala alguses tuli välja uudis, kuidas valitsus on siis koondanud erinevate ministeeriumite vahenditest pea kakssada miljonit eurot, et suunata need siis julgeolekusse ja, ja kaitsesektorisse. Ja kliimaministeerium andis siis seal kõige suurema panuse, kaheksakümmend viis miljonit, siis kliimarahadest suundus kaitse, kaitse valdkonda. Aga noh, ega selles mõttes, kui me siin oleme viimased kümme aastat on ju kliimateemad olnud fookuses, kõik rohekokkulepped ja asjad, et ega me ei saa ju sellest tegelikult ka tänasel päeval mööda vaadata, et ega see jätkusuutlikkuse ja kliimakatastroof, mis meid siin ootab, et ega ta ei ole tegelikult kuskile kadunud. Ja näiteks ka maailma majandusfoorum, et nemad annavad igal aastal välja sellist nii-öelda prognoosi või ennustust, millised on need suurimad globaalsed riskid, mis meid siis ohustavad nii kahe aasta kui ka siis kümne aasta lõikes. Ja järgmise kahe aasta lõikes leiame siis sellised kliima ja keskkonnariske kaks tükki. Et esimene nendest on ekstreemsed ilmastikuolud, et noh, tõenäoliselt oleme ka siin Eestis omal nahal neid kogenud, kas siis põua või siis üleujutuste näol, mis siin on järjest sagenenud ja noh, kliima soojenemine ka, et ma näen, et osad inimesed istuvad meil täna siin saunalaval lausa, et võib-olla siis ka tulevikus saab õues saunalaval istuda, kui kliima, kliima on siis nii soojaks soojaks läinud. Ja teine kahe aasta risk on reostus. Ja kui me vaatame kümne aasta perspektiivi nüüd sellest majandusfoorumi ennustusest, siis seal on lausa pooled ehk viis riski, on seotud siis kliimakeskkonna ja elurikkuse kaoga. Ehk et kliima tegelikult endiselt peab olema meie fookuses, sest ega kui meil ei ole seda head keskkonda, kus elada ja majandada, siis ega õigupoolest meil ei olegi ju midagi siin, siin maailmas. Ja ma usun ise ka väga siiralt, et kui me tahame olla sõltumatud ja konkurentsivõimelised, et me ei saa tegelikult rohetehnoloogiaid lahterdada kuidagi eraldi mingisse niši kaupa või et nad on kuidagi nagu luksus, et ta ikkagi peab olema horisontaalne läbi valdkondade, noh suur rõõm on näha, et tegelikult see suund on ka sinna, sinna liikumas ja eks ta saab olema meie uueks baasinfraks. Ja iseäranis seda suunda on märganud ka Euroopa Liit, kes siis eelmisel aastal tuli välja sellise uue poliitikatsükli ja kontseptsiooniga nagu puhta tööstuse lepe. Ja see lepe siis toobki kokku kaks olulist valdkonda, energiamahukat suurtööstused ja puhast tehnoloogiat ja soovib siis nende vahel siis sellist koostööd ja sünergiat soodustada. Ja ega ka Eesti tasandil, kuigi koalitsioonileppes siis konkurentsi ja kaitseteemad on fookuses, siis samamoodi selle rohelise tööstuse või puhta tööstuse leppega, et tegelikult ka ministeeriumi poolt on oodata mitmeid uusi algatusi ja meetmeid ka sellesse sektorisse. Ja täna siin toredate panelistidega, siis soovimegi arutada, et kuidas rohetehnoloogiad saavad olla siis sillaks seal, kus kohtuvad julgeolek, sõltumatus ja ka, ja ka puhtam majandus. Ja uurime ka seda, et mida siis tuleks teha siin meil Eestis ja milliseid otsuseid vastu võtta, et see sektor ikkagi pigem kasvaks, mitte, mitte, mitte ei känguks. Ja meil on siin selleks kolm suurepärase taustaga panelisti. Neil on kõigil küll veidikene erinev taust, kuid seda enam nad suudavad tuua seda põnevust meile siia arutelu läbi erinevate vaatenurkade. Minu kõrval istub Alar Saluste, kes töötab Ragen-Sellsis osa projektijuhina ja Alaril on tõesti aastatepikkune kogemus, kuidas tõhusalt ressursse kasutada. Ja samamoodi justkui mulle tundub, et sa oled nagu ühe jalaga sellises innovaatilises algatuses ja projektis ja teise jalaga sellises traditsioonilises tööstuses. Ehk tegelikult sa oskad näha ka neid tööstuse piire, eks ole, et, et kus me võib-olla sellise suure rohepöörde, kohati ka soovmõtlemisega oleme ja et mis tegelikult siis on võimalik ka tööstuse tasandil ära teha. Siin keskel istub Maris Riim, kes on Swedbanki jätkusuutlikkuse juht. Ja noh, kui me räägime rohetehnoloogiatest, innovatsioonist, muutuste tegemisest, siis kindlasti üks võtmetegur seal on finantseerimine ja ressursid, et sellest me üle ega ümber ei saa. Aga muidugi innovatsioonist rääkides, et kus siis läheb piir selle toetava kapitali ja tegelikult ka riskitaluvuse vahel, et, et kui nüüd rahastaja vaates seda vaadata, et seda siis Maris saab meile kenasti avada. Ja meil on siin ka Tiina Konson, kes töötab ettevõtluse ja innovatsiooni sihtasutuses, toidu ja puiduressursside fookusvaldkonna juhina. Ja Tiina siis tõepoolest igapäevaselt siis rohetehnoloogia arengusuundi Eestis riigi tasandil kujundab ja tal on ka lai akadeemiline taust, nii et tegelikult teab ka akadeemia vaatest, et kust ja kuidas innovatsioon siis sünnib ja, ja tekib. Aga kui me nüüd siin arutelu juurde suundumegi, siis Tiina, ma alustakski võib-olla sinult ja küsiks, et me oleme ka varasemates vestlustes sinuga arutanud seda, et, et kuidagi tunnetuslikult ühiskonnas, et kui öelda rohetehnoloogia, et siis tunnetatakse seda kui midagi sellist kauget, kättesaamatut, võib-olla ka niisugust nagu ulmelist ja futuristlikku. Et kas tegelikult rohetehnoloogia peab alati kätkama endas niisugust innovaatilist aspekti ja seda just ka selles vaates, et kui me mõtleme just nagu traditsioonilise tööstuse siis muudatuste ja rohestamise peale et tegelikult võib olla nemad tahaksid üldse nagu selliseid nii-öelda madalal rippuvaid vilju, mis on väga lihtsad lahendused, mis ei pruugi üldse olla sellised kõrgtehnoloogilised lahendused. Et kuidas meil on nagu võimalik seda rohetehnoloogia mõistet laiendada ja võib-olla ka tekitada Eestis riigi tasandil selliseid uusi ärimudeleid sinna, sinna juurde. Ja et rohetehnoloogia kindlasti ei pea olema alati radikaalne innovatsioon. Ja mida ma siis pean silmas radikaalse innovatsiooni all, ma võin tuua siis paar head näidet. Et näiteks palmiõli tootmine on väga suure jalajäljega ja ettevõte Äio on siis loonud sellise lahenduse, et saepurust on siis võimalik toota toiduks tarvitatavaid rasvasid ja valkusid. Ja see, see on siis nagu näiteks radikaalne innovatsioon, et noh, see on piltlikult siis öeldes saepurust, et tegelikult see puit võetakse molekulideks lahti, muundatakse teistsugusteks molekulideks ja siis need molekulid on võimalik siis kasutada siis toidutööstuses näiteks kosmeetikatööstuses, kemikaalides, et palmiõli kasutusalasi on väga palju. Teine selline radikaalse innovatsiooni näide on võib-olla siis teisest sektorist, et põlevkivi me oleme kasutanud ikka eks energeetikas, aga Tallinna Tehnikaülikooli teadlased on leidnud ka siis sellise viisi, kuidas põlevkivist on võimalik toota ka kemikaale. Digor Voksüülhappeid ja neid on samamoodi võimalik väga paljudel erinevates sektorites siis kasutada, et näiteks siis ravimitööstuses, kosmeetikatööstuses, materjalitööstuses ja samamoodi siis tegelikult selliseid lahendusi globaalselt otsitaksegi, et kui põlevkivi enam põletada ei tohi, et siis sellel oleks mingisugune alternatiiv. Aga sellised näited on siis radikaalsest innovatsioonist. Et tegelikult see võib olla ka midagi, näiteks olemasoleva tehnoloogia uuenduslik kasutusviis, et kui me oleme harjunud kvaliteetset puitu tselluloositööstuses kasutama, siis tegelikult näiteks innovatsioon oleks leida, kuidas ehitus lammutusjäätmeid kasutada siis tselluloosi tootmises või ligiliini tootmises näiteks, et see oleks siis ka majanduslikult mõistlik seda ressurssi niimoodi kasutada näiteks. Ja siis võib olla ka süsteemne muutus energeetika või transpordisektoris, et näiteks asendame siis diiselrongid elektrirongidega, et kõik see tegelikult on ja sobib eks ole sinna rohepöörde konteksti hästi ja miks ettevõtted sellega peavad tegelema, ongi ju tegelikult see, et süsinikukvoodi hind kasvab ja üks hetk nad lihtsalt ei ole konkurentsivõimelised, kui nad kasvatavad sisenditena siis fossiilset päritolu materjale, et tegelikult ettevõtted täna peavadki tegelema sellega, et nad vähendaksid siis sõltuvust fossiilsetest sisenditest, olgu see siis energeetika, olgu see siis materjalid, kemikaalid, mida nad kasutavad ja nii edasi ja ka ringmajanduspõhimõtted, et kõik see ju ka samamoodi vähendab jalajälge. Ja tegelikult täna sellega ka tegeletakse, sest et noh, Eestis siseturg on meil väga väike, aga aga ja me sõltume väga palju siis välisturgude nõuetest ja seal tegelikult juba vaadatakse toodete jalajälgu, mistõttu ettevõtted sellega ka tegelevad. Ja riigi vaatest, et mida me saaksimegi siis teisiti teha, on tegelikult see, et me ei saa lahendada ära kõiki globaalseid muresid ja kui me neid kõiki hakkame lahendama, siis me lahendame siis kümnest probleemist võib-olla igalt ühelt natukene, aga me peaksime fokusseerima kindlate probleemide lahendamist, mis on Eesti kontekstis olulised ja need peaksid olemagi vaadatud selle järgi, et millised ressursid meil siin on. Et näiteks puiduressurss, see on meil tegelikult täna kasutamata. Me ekspordime ümarpalki, pelleteid, mis on madala lisandväärtusega tooted, kasutame puitu energeetikas, kus siis süsinik vabaneb eks ole kiiresti tagasi atmosfääri ja vaid kaksteist, ei neliteist protsenti puidust umbes läheb siis selliste kestvustoodete või siis kõrgema lisandväärtusega toodete tootmiseks. Et tegelikult Eesti kontekstis oleks oluline ikkagi see väärindada siin kohapeal majanduse vaatest, siis oleks oluline ja samamoodi, eks ole põlevkivi, et kui me seda energeetikas enam kasutada ei saa, Eesti põlevkivi on väga unikaalse koostisega, et sealt on võimalik kemikaal näiteks toota, et siis sellega võiks tegeleda ja ja siis need ongi minu mõtted põhimõtteliselt, et ma ei tea, kas läks see monoloog vist väga pikaks juba. Ja aitäh, väga head ja asjakohased mõtted. Ja tegelikult sinu sõnavõtust ma püüdsingi kinni ikkagi selle ringse majandusmudeli. Ja ma tulekski siit Alari juurde, et Alar, sa oled oma sõnavõttudes ja ülesastumises korduvalt maininud, et me ei saa endale lubada raiskavat majandusmudelit. Ja olen sellega enam kui nõus, eriti siin Eestis, kus meil ruumi napib, ressurssi napib, inimesi napib, eks ole. Ja oma osa projektis, kus te ka tegelikult väärindate seda sama põlevkivituhka, millest ka Tiina siin rääkis, et tegelikult te näete ka laiemalt suurt potentsiaali ka kogu Euroopa sellise materjalikriisi lahendamiseks, mis on kindlasti üks väärt ja suur samm sellise sõltumatuse ja julgeoleku tagamisel. Aga kui nüüd rääkida sellest, et ega need sellised innovaatilised lahendused kipuvad suurtööstustesse ikkagi väga visalt tulema, et kus sa näed nagu seal kahe sellise ütleme sellise rolli vahel seistes ja laveerides, et kus need takistused siis tegelikult on, kust need kaikad meil kodarates on, et miks see innovatsioon ei taha sinna juurduda? Ma arvan, et seal on, ütleme, kui me võtame ringmajanduse, siis seal on üks, need väljakutsed on mõlemal pool, nii neid, kes proovivad arendada ringmajanduslahendusi kui nende pool, kes proovivad rakendada. Võib-olla esimene asi, mida ma olen ka palju öelnud, et, et kui sa hakkad tegema ringmajandusse projekti või teed ringmajandust oma tootmise sisse viia, siis seda ei tohi teha sellepärast, et sa saaks öelda, et ja ma teen ringmajandust, vaid see peab reaalselt mingit probleemi lahendama. Sellisel juhul, kui tal mingit probleemi lahendab, siis ta ka suure tõenäosusega tasub ära. Ehk siis see on palju vastuvõtlikum nii-öelda tavatööstusele. Et see võib olla näide on ka sellest, et kuna, kuna me päris palju jäätmesektoris on ju toimetame, siis lihtsalt võttes mingid jäätmed need ära purustades ja proovides neid kuhugi sisse segada. Ja noh, see on põhimõtteliselt ringmajandus, aga, aga selle tulemusena on see, et, et see ikkagi see toode, mille sa siis toodad selle kvaliteedi, et hoida seda kvaliteeti, seal on piir ees, kui palju sa seda toorainet saad kasutada, et näiteks sa saadki ainult kümme protsenti seda sinna sisse segada. See tegelikult ei lahenda ära probleemi. Kui näiteks probleem on see, et noh, ma ei tea, võib-olla liiga saastavad on need toorained, millest sa oma toodet toodad. Ja teiselt poolt kindlasti, kui, kui hakata niimoodi alternatiivseid toormeid või, või siis ka mingeid alternatiivsemaid tehnoloogiaid rakendama, siis tänane seadusandlus on Euroopa Liidus ja, ja ka Eestis üles ehitatud niisuguse lineaarmajandusele, et seal tuleb päris palju kaikaid kodaratesse, kui sa proovid teha asju natuke teistmoodi. Eks neist saab mööda ja, ja neid saab ka nii-öelda selgitades tööd tehes ja sinna saab ka nagu, selle asja saab toimima. Aga see võtab lihtsalt hästi palju aega. Ja see on ka üks võib-olla rohepöörde sellistest minu arust väljakutsetest, et me oleme proovinud nagu vanatööstust kinni panna ja siis loota, et uus tekib asemele, et tegelikult nii päris ei saa, sest võib-olla mõne vana tehase laen on veel Swedbankile maksmata ja ja et see on kõik omavahel seotud, et see üleminek peaks olema sujuvam ja, ja nagu Anni ütles, et, et seal peaks olema rohkem integratsiooni. Võib-olla Eestis on ka veel üks väljakutse selles, et, et kui meil ei ole tegelikult väga head tööstussünergiat ehk meil ei ole nagu selliseid tööstusparke, kus, kus ütleme, üks tehas toodab teisele tooret, millest saab nii-öelda, millest saab järjest suurema lisandväärtusega toode on ju, kuni see jõuab jaeturule. Meil on üpris nii palju, kui seda tööstust on, see on üpris hajali laiali. Ja, ja see kindlasti niisugune sünergia aitab, et ma tean paari näidet, et näiteks niisugune suhteliselt radikaalne innovatsioon, et oota CO kahest siis äädikat. Üks ettevõte ehitas selle demotehase Taani, aga tööstuslikku tehast nad ehitavad Ameerikasse sel põhjusel, et seal on suured tööstuspargid, kus neil neil lisaks CO kahele vaja ka vesinikku. Et kus neil on nii-öelda torus kõik olemas, neil on CO kaks olemas, neil on vesinik olemas, neil on energia olemas, kõik ühes kohas. Ja kui sa teed uusi tehnoloogiaid, seal riskid on, on suured ja kui sa lisad veel selle juurde, et sa pead endale kõik ka ise kohale vedama, siis see nii-öelda vähendab seda tõenäosust ja et sa saad pangast laenu või, või sa saad EIS'ist toetust. Ja aitäh. Ja väga toredalt tõid juba Swedbanki siia sisse, kui ka sellise rohepöördeveduri või, või mingis mõttes ka siis ka see rahastuse poole pealt ka piirangud. Et jah, et kui me tahame need ideed reaalseks muuta, siis paratamatult selleks on meil vaja raha. Et Maris, kuidas te Swedbankis üldse hindate tänast sellist rohetehnoloogiate turu atraktiivsust? Et ja just selles vaates ka, et, et mis teil nagu tekitab nende vastu usaldust ja mis pigem ka võib-olla lammutab seda, et kui me räägime sellisest nagu innovatsiooni ja rohetehnoloogiate siis tekitamisest või maaletoomisest, et ühelt poolt nagu suurtööstustele on meeletu sihuke poliitiline, ühiskondlik surve, aga samas jällegi need innovaatilised lahendused, nagu ka Alar ütles, et nad ei ole alati sellised sirgjoonelised, et see võtab aega, et kõik saaks nagu toimuda ja rohkem seda sünergiat peaks seal olema. Et kuidas te siis nagu rahastaja vaatest kogu seda kompotti vaatate, kui näiteks see plaan, mis algselt, millega algselt tuldi raha küsima, see võib lõpuks olla kaheksandat, üheksandat või kümnendat nägu. Hakkan siit ühtepidi kuskilt minema, kui sa küsid, et mis on investori või laenuandja jaoks atraktiivne, siis tõenäoliselt kõige atraktiivsem, millest me alustame, on üldse tootlus. Et, et ta vaatab, et see projekt on tema jaoks tootlik, laenu andmise puhul on selleks siis, määratakse see hind kohe alguses ära, see on laenuintress, aga investoril siis ta loodab, et ta saab sealt mingit kasvu, eks ole. Ja, ja noh, investorite ja võib-olla laenuandja vahe on ka see, et investorid on, kes on riskiinvestorid, on valmis ka kõrgemat riski võtma ja võib-olla mingitesse uutesse innovatsioonidesse raha panema ja, ja panga puhul on see riskiisu veidi madalam, et, et seal vaadatakse ikkagi juba pikaajaliselt, püütakse pikaajaliselt ära hinnata, et, et kas see siis on tootlik projekt või mitte, aga noh, see on muidugi ka ettevõtte enda huvi ju algusest peale, et kui ta midagi tegema hakkab, et siis see ikkagi ka ennast ära tasuks. Aga noh, seda atraktiivsust natukene investori ja panga osas suunab ikkagi Euroopa Liit oma regulatsioonidega, sest et ka meie peame näiteks raporteerima enda rohelaenude hulka ja osakaalu ja, ja mida rohkem meil neid oma portfellis on, siis seda parem. Aga sellegipoolest lihtsalt ainult sellepärast, et tegemist on mingisuguse rohetehnoloogiaga või, või keskkonnasäästliku tegevusega automaatselt sellepärast kohe laenu ei anda, ei anta. Et, et klienti või seda projekti vaadatakse ikkagi terviklikult nii tema finantsvõimekust või seda finantsplaani selle projektiga, mida ta plaanib teha, ka seda, kuidas ettevõtet juhitakse, kui läbipaistev ta on ja, ja, ja, ja sinna kõik need muud komponendid, mis selle, mis sellega kaasnes võivad käia. Aga jah, kõige olulisem on ikkagi see, see riski hindamine, et ühest küljest võibki võtta, et see üks risk on tegelikult seesama tehnoloogia või, või see innovatsioon, et innovatsioon, kui ta on mingisugune väga uus asi, mis on korralikult testimata, siis selle, seda on väga keeruline hinnata. Et seal tekib küll ka see investeeringu garantii, mida me siin siin ühes eelnevas vestluses rääkisime ka võib-olla Tiina pärast sellest natukene veel räägib, et, et kes siis selle garantii annab, et kui ikkagi see innovatsioon nüüd lõpuks ei tööta. Aga, aga teine pool, see risk võib olla ka hoopis vastupidine, et kui ettevõte tegelikult ei taha areneda, kui ta ei taha teha neid muudatusi oma ettevõtte, kas siis tehnoloogias või, või noh, kasvõi need väikesed muutused, millest siin Alar ka rääkis, et et sa pead ajaga kaasas käima, sest et muidu sa ei ole konkurentsivõimeline, et lihtsalt selle vana, nii nagu me oleme alati teinud, et selle pealt ikkagi enam ei jookse. Ja, ja tuleb tegelikult ajaga kaasas käia, et lihtsalt tuleb leida panga, pank vaatab ka seda, et see tasakaal oleks ikkagi olemas ja pigem ikkagi suunatakse neid uusi lahendusi võtma, mis oleksid nii väiksema jalajäljega kui ka siis käiks siis ajaga, ajaga ja trendidega ja konkurentsiga kaasas. Et kindlasti, kindlasti see, see soov sinnapoole suunata on ja, ja see selles mõttes ikkagi atraktiivne on, et jah. Mis praegu hetkel rohkem, ma arvan, et ei lisagi peamine mõte. Okei, aga ma võtaks kohe sõnasabast kinni, sa mainisid seda riski hindamist ja seda on väga raske teha, kui innovatsioon on tegelikult testimata. Et ma ei tea, Tiina, sa võid mulle vastu vaielda või kaasa kiita, aga mulle tundub, et meil Eestis tegelikult selliseid nii-öelda liivakaste ja testkeskkondi on pigem nagu vähe. Et kuidas või mismoodi tegelikult siis neid uuelaadseid tehnoloogiaid siis tegelikult testida ja see, kas see innovatsioon, kas ta töötab, kas see lahendus kuskil nagu mingi praktilises keskkonnas, kas ta on nagu elujõuline ja, ja kuidas te nagu võib-olla ka sellise riigi toetuse vaates seda nagu vaatate, et. Et testkeskkondi, eks mingeid testkeskkondi kindlasti ülikoolide juures on, aga iga erineva valdkonna jaoks Eestisse tekitada testkeskkondi, ega see ka mõistlik ei ole. Et valdkondi on lihtsalt nii palju ja neid keskkondi oleks siis nii palju vaja ja nende kasutusala või noh, neid ei kasutataks nii palju, eks ole, et mõistlik on kasutada teiste riikides olevaid keskkondi. Eks ole, sinna minek kallis ja nii edasi, aga meil on see toetustes lubatud, et sa kasutadki ju välispartnereid. Et on arendusosak rakendusuuringute toetuse kaudu sa saadki välispartneri teenuseid kasutada, et see kõik on lubatud ja saadki kasutada, aga noh, sa pead ise teadma siis, et kuhu sa testima lähed ja mida sa testima lähed, ma usun, et see, kes seda tehnoloogiat arendab, teabki ise tegelikult paremini, et selles suhtes, et innovatsiooniagentuur võib-olla ei teagi nii palju kui see, kes arendab, eks ole. Ja, ja see kõik on toetatav, et saab kasutada neid meie toetusi selleks. Okei, ja ma saan aru, et justkui nagu panga kui rahastaja vaatest, et ta annabki sellise lisagarantii, et kui see toetus on juba varem küsitud selle testimiseks. Jah, noh, põhimõtteliselt küll, et kui seal on ikkagi keegi veel, kes tegelikult on selle projektiga nagu läbi analüüsinud ja ta on kinnitanud, et see on midagi relevantset, eks ole, ja ja töötav ja toimiv asi ja, ja teisest küljest ei jää see pank, see risk ka üksi pangale, et või siis pangal, mis on veel nagu see tagala, on see, et et see finantseering on ka tulnud veel lisaks kuskilt mujalt, et klient ei ole tegelikult sellega üksinda, et ta on tegelikult väga hästi tagatud. Okei, aga mis siis tegelikult saab, oletame, et ettevõte on saanud nii riiklikku toetust kui ka pangalaenu ja tegelikult see roheinnovatsioon ei tööta. Mis me siis teeme, mis siis saab? Ma kohe siis haaran siit jälle sõna, et EIS'il on uus strateegia aastaks kaks tuhat kakskümmend kuus kuni kaks tuhat kaheksa planeerimisel ja meil on tegelikult siis suund liikuda toetuste juurest siis või tähendab suurendada osakaalu siis finantsinstrumentide osakaalu, suurendada, eks ole. Et näiteks pakkuge, pakkudagi garantiid innovatsioonile, et, et ja pluss veel siis on uus see meede innovatsioonilaen, et innovatsioonilaen siis saaks olema selline, millega on võimalik näiteks endale tema tootmist luua, et ühe kui sinu tehnoloogia valmidustase on juba jõudnud teatud etappi, siis sa enam toetust küsida ei saa. Aga siis põhimõtteliselt ongi, et mis ma siis nüüd, mille eest ma siis seda testin nüüd, eks. Demo tootmise jaoks on see siis nagu kavandatud ja, ja see siis näekski välja niimoodi, et kui selgub mingitel asjaoludel, et see innovatsioon ikkagist ei ole majanduslikult mõistlik ei ole seda, eks ole, lõpuni teha, et siis tegelikult see laen, laenu nagu tagasi maksma ei pea, et see siis taandatakse nagu grandiks või toetuseks, et aga noh, et see ei saa olla nii, et sa siis lõpus ütled, et kuule, et ma nüüd ikkagist saan, et see peab ikka alguse poole selguma sul. Okei, et see võtab justkui nagu pinge maha, aga tegelikult siis selle tehnoloogia või innovatsiooni arendajatel, eks ole. Et, et kuidas või mis nagu seda luua, et nad julgeksid see riskijulgus nendel endal on ka palju suurem, et seda riski võtta, et minna tegelikult mingite innovaatilist lahendust tegema. Aga Alar, kas teil on mingeid selliseid ämbreid kolistatud, kui nüüd projektidest rääkida, et osa projekt ju ka tegelikult väga innovaatiline ja te teete väga ägedat asja, aga kas on nagu mingeid selliseid tagasilööke ka olnud, et et see innovatsioon noh, ilmselt teekond samamoodi polnud ju sirgjooneline, eks ole? Mina eks ikka on, et me algselt plaanisime tegelikult, me ei plaaninud teha, ehitada demotehast, et me praegu siin Narva ehitame demotehast. Plaanisime ehitada ühe sellise suurema piloodi, noh, sellise pool käsitöölise piloodi, et toota siis seda toodet, mis me toodame sadestatud kaltsiumkarbonaat ja seal on niisugune väljakutse, et kliendid tahavad enne, kui, kui, kui mets tehase jaoks seda lukku panna, nii-öelda sellist nagu müüki. Nad tahavad tihtipeale testida näiteks kaks-neli-viis-kümme tonni toodet ja noh, laboris ei tooda sellises koguses, selleks on vaja ikkagi siukest pooltööstuslikku tootmist, tahtsime teha pilooti, mis oleks, töötaks hästi vähe tunde aastas. Ei, see oleks kindlasti seda toetanud. Aga siis tuli välja, et kuna, kuna seaduses on siis erinevad punktid, mis sätestavad jäätmete keemiliste termilist töötlemist, siis me oleks pidanud näiteks tegema eriplaneeringu selle jaoks, et ehitada pilooti, et üldse teada saada, kas me üldse tahame teha seda projekti. Ja noh, see oli kindlasti üks, kus me pidime plaani muutma ja noh, lõpuks me otsustasimegi siis teha piisavalt väikse sellise demo tehase, mis siis või väljakutse oligi seal, et kuna ta, kuna ta hetke tootmine, kuigi neid tunde aastas on vähe, siis hetke tootmine on väga kõrge, siis me me ehitasime tema tehase, mille hetke tootmine on väike, aga siis me teeme neid tunde rohkem. Eks ta lõppkokkuvõttes tuleb kallim, aga, aga ta on ikkagi mõistlikum lahendus, kui teha pikalt lube ja otsida asukohta ja kui seda teha, et tänane demo tehas ongi tuhande ruudu peal tuleb iivi ja tööstusinkubaatorisse Narva, kõik tuleb tuppa. Ehk siis juba olemasolevasse hoonesse. Ja ikkagi lähedale teie toormele? Ja. Et kas see oli noh, see ilmselt see ongi määrav selleks asukoha valikuks, eks ole? Ei no tema teose puhul mitte tegelikult tema teose puhul oligi see probleem, et ei Eestis ei olegi väga kohta, kuhu, kuhu sellist, selliseid näiteks sellist tehast ehitada, et Iivi jäänud inkubaator on üks esimesi selliseid valmis kohti, kus sa saad oma demo tootmist teha. Et me vaatasime teisi asukohti ka, aga seal oleks pidanud väga palju olemasolevat infrastruktuuri ümber ehitama. Et seega ei ole mõistlik, kuna, kuna see demo tootmine, noh, meil on eesmärgiks öeldud, et niimoodi maksimaalselt viis aastat seda käitame, et siis ei ole mõtet seda infrat sinna ümber või täitsa uut maja ehitada ei ole ka nagu väga mõistlik. Et see protsent kuludest läheb suureks. Aga kui me räägimegi sellistest ringsetest lahendustest, kas või sellest samast põlevkivituhast, et seda tegelikult saaks ju kasutada ka väga mitmel teisel val- teises valdkonnas, näiteks teedeehituses. Aga me oleme ka omavahel põrgatanud, et see ei ole mõistlik, et kuidagi nagu ta on nii kallis, et tuua seda ja viia siis laiali seda toormet siis üle Eesti või, või veel kaugemale. Et aga keegi peab ju selle kulu siis nagu kinni maksma, et me justkui tahame neid ringseid lahendusi, aga samas jälle niisugune nokk kinni, saba lahti, et nad on ju palju kallimad. Et kuidas nüüd sellele läheneda, et kes siis selle kulu tegelikult kinni peaks maksma, et kas riik peaks selle õla alla panema või on see eraettevõtete selline nagu risk, et tuleb regulatsioonidest? Ma korra täpsustan, et vist mitte põlevkivituhk, vaid see aheraine, mis jääb. Aheraine spetsialistiga ikka räägime. On teil mõtteid selles osas? Ma tean, et sul oli selles osas mingi hea, hea mõte või, või õigemini sa tead seda valu? Ja ma arvan, see, ütleme põhiline väljakutse ongi selles, et et kui me täna, kui me kasutame neid teisaseid toormeid või, või siis või jäätmeid mingi asja tootmiseks, siis need, kui me toodame mingit noh, produkti näiteks killustikku, antud juhul, et tee alla panna teetammi alla, siis selle killustiku enda hind on nii väike, et tegelikult see ei kata seda kulu ära, et, et näiteks Ida-Virumaalt vedada, ma ei tea, Võrru tee ehituseks seda killustikku, et palju odavam on tuua seda kas karjäärist või võtta mingisugust alternatiivset, kas liiva või kruusa kuskilt sealtsamast kõrvalt, tee kõrvalt karjäärist. Et selle vastu ei saa, et seal ütleme, ringmajanduse puhul see on seesama asi, mis ma enne rääkisin, et et sa pead vaatama alati sügavamale, sa pead vaatama, mis probleemi sa lahendad, et et kui me võtame selle killustiku, noh, mis probleeme me lahendame, et kas me lahendame seda probleemi, et seda jääb meil kuskil üle ja see on suures hunnikus seda ei kasutata või me tahame lahendada probleemi, et meil oleks teed paremad või või odavamad, see võib ka olla vahel väljakutse. Ja siit tulebki natuke nagu see, see panga mõtlemine samamoodi välja, et need ühest küljest seda ka toetamaks, et, et ettevõte peab ka nagu finantsiliselt ikkagi toime tulema, et see, et tal on nagu hea tahe ja, ja teha nii-öelda, nii-öelda õiget asja, siis see peab olema tema jaoks ka nagu finantsiliselt ikkagi mõistlik. Et nüüd, kes selle siis aitaks nii-öelda laiali jagada, et ettevõtted sealt kuskilt nii-öelda siis nüüd hoopis materjalipangast need, need materjalid kätte saaks, et seda me ei teagi, kas riik nagu sellist rolli endale üldse võtaks või, või siis tahab võtta. Et ma just ise siin mõtlen, et noh, et see aherainemägi, et selle eest on ilmselt juba ka tasutud ja ta lihtsalt seal on, eks ole. Et siis tegelikult suurt vajadust nagu kellelgi ei ole, et seda sealt ära kaotada, et, et kui nüüd oleks eesmärk, et kaotame selle maja ära on ju, et siis. Aga noh, see oleks ebamõistlik eesmärk, et miks, miks seda peaks tegema, eks ole. Selle vahe on lihtsalt see, et üks on see, et me kaevame maa alt juurde ja teine on see, et ta on juba seal maa peal olemas onju. Jah, no eile ma olin ühes huvitavas arutelus, kus me rääkisime fosforiidi kaevandamise hinnast ja siis eks seal see, sealt kõlas täpselt sama asi siis välja, et, et noh, me peaks vaatama, et mis see koguhind on sellel protsessil, et. Et kui, kui meil täna on kuskil mingid jäätmed hunnikus ja kui, kui nende ülalpidamine võtab nii-öelda maksumaksja raha iga aasta, sa pead tegema uuringuid, sa pead hoidma seda ümbrust puhtana, et ta ei rikuks ära põhjavett või, või ma ei tea, ei õhku ära ei rikuks, on ju siis sellisel juhul nende jäätmete taaskasutamine, seal on nagu mõlemal pool kasu, et kui see on nii-öelda kaotad ära selle jäätmehunniku, siis võidab ka, ma ei tea riik või kelle iganes oma see jäätmehunnik on finantsiliselt sellega, sellelt poolt ja kui sa siis selle kasutad millekski, on ju, siis võidab ka teist, teiselt poolt, kes iganes seda kasutab, sest esmast tooret ei ole nii palju vaja. Aga jah, et siin ütleme killustiku puhul on nagu võrdlus, et kui me teeme augu maa sisse tee kõrvale versus vedamiskulu Ida-Virumaalt on ju näiteks. Noh, kui me, kui me ei ehita teed just Ida-Virumaal, kui me ehitame, ma ei tea Saaremaal või kuskil kaugemal kohas. Et tegelikult me ikkagi jõuame ringiga tagasi, et, et need ringmajanduslikud lahendused, nad saavad tegelikult toimida pigem lokaalselt, et ikkagi see tooraine peab olema sul lähedal ja ta peab nagu loogiliselt sobituma sellesse mudelisse on ju, et et mulle tundub, et niisugune nagu, et kui me räägime sõltumatusest või sellisest ka ülemaailmastumisest, et tegelikult noh, väga raske, et samamoodi, et kuidas plastikud sinna laevadega transporditakse Rootsi, eks ole, ja samamoodi siis ka see aheraine näide, eks ole, et, et Ida-Virumaalt Saaremaale on ju, et ilmselt me ikkagi nagu, kui me oleme teel sõltumatusele, et kas me saame ikkagi päris sõltumatud olla, et mulle tundub, et ei saa, et me peame ikkagi valima, et noh, kogu maailma ju ära ei päästa ja kõiki materjale maailmas me ju väärindada ja ise toota ei, ei suuda ka ringmajanduse teel. Aga Tiina siin mainis juba ka ülikooli ja nende ülikoole ja nende innovatsiooni keskuseid. Ja kui me võib-olla astume nüüd sammu tagasi äkki sellele ruudule üks, et kust üldse tegelikult need rohetehnoloogiad ja innovaatilised ideed tekivad? Et te olete nüüd selle teemaga siin kokku puutunud praktiliselt ja ka ülikooli kaudu, et kas nad tekivad kuidagi ülikooli koridorides, et tehakse mingi avastus või tuleb ettevõtja oma ideega, et mul on siin nüüd selline plastikumägi, et mida sellest teha saaks ja kas seal on ka mingeid puudujääke sellise nagu teadus-arendus ja ettevõtted, ülikoolide akadeemia koostöös? Noh, see võib olla nii ja naa, eks ole, et väga palju tehakse siis teadusuuringuid, mis ongi siis nagu selline alusteadus ja, ja mõnede noh, ülikool ju ikkagist õpetab tudengeid, et tehakse palju lõputöid, eks ole. Ja need ei ole tihtipeale rakendusliku väljundiga. Rakendusliku väljundiga on kindlasti pigem siis kas doktoritööd või siis ja pigem just tööstusdoktorandid, et ka selline võimalus on, et sa võtadki tööstusdoktorandi, kes sinu jaoks nagu midagi lahendab, eks ole. Aga ülikooli mõte ju ikkagist on tegeleda ka alusuuringutega ja, ja tihtipeale seda innovatsiooni või, või sihukest rakenduslikku väljundit sealt kohe ei tulegi, et, et kirjutatakse ikkagist neid töid nagu sahtlisse. Mõned tulevad kümne aasta pärast välja, mõned kahekümne aasta pärast, mõned ei tule kunagi, eks ole, mõned kuuekümne aasta pärast, et mine tea, millal, eks ole. Aga see, selle noh, nagu aasta-aastalt on see tegelikult paremaks muutunud, et on loodud erinevaid selliseid või noh, seda probleemi siis teadvustatud, et näiteks Tallinna Tehnikaülikoolis on siis tööstuskeemialabor, mis siis ettevõtluse heaks töötab, eks. Ja, ja on loodud ka nüüd fookus tippkeskused, mille kaudu siis tegelikult loodetakse ka seda saavutada, et rohkem olekski sellist rakendusliku väljundiga tegevusi võib-olla. Aga kuidas sulle tundub, et kas ettevõtted on tegelikult valmis akadeemiaga koostööd tegema? Et kas neil on mingeid erioskuseid selleks vaja või et kas see on lihtsalt see, et ma tulengi ülikooli teaduskonda, ütlen, et ma tahaks teha seda? Päris nii vist ikkagi ei ole, et kõige parem lahendus olekski see, et kui ettevõttel endal on mingisugune probleem, mida ta tahab lahendada, et siis ta esialgu võtab selle tööstusdoktorandi endale ja vaatab, et kas, kas on võimalik siis seda probleemi nagu kuidagi lahendada, eks ole. Et tihtipeale selgub, et võib-olla Eestis ei ole sellist kompetentsi, mida ta otsib, et tal on vaja sealt väliskompetentsi. Ja tegelikult noh, sa saad või väga tihti on ka selliseid olukordi, kus siis lõpuks ju ettevõte valibki suure Euroopa grandi, et läheb kuskile konsortsiumisse ja hakkab seda teemat hoopis sealtkaudu uurima, kuna juba on niisugune toimiv võrgustik moodustunud, et üksi kõike teha on nagu raske. Kuidas osa projektiga, kuidas sündis teil? Me tegelikult see projekt sünd-, sündis niimoodi, et üks doktoritöö, või vabandust, magistritöö tehti KTH ülikoolis, see on siis kuninglik tehnikaülikool Rootsis ja see töö eesmärk oli vaadata või tähendab see sai see mõte sai üldse sellest alguse, et Ragn-Sells grupina vaatas kõigis oma riikides, et mis on kõige suuremad jäätmeprobleemid on ju ja kui keegi Eesti kontorist küsis, et mis on Eestis nagu noh, mahuliselt kõige suurem jäätmeprobleem. No mis on põlevkivituhk on ju noh, meil on umbes pool miljardit tonni ladestatud seda tuhka. Ja, ja toona veel iga aasta ladestati ka ikkagi üle viie miljoni tonni ja sealt tuli mõte, et vaadata, okei, mida põlevkivituhaga teha saab. Ja tegelikult seesama näide, et, et ütleme Taltechi sahtlisse toodetud üks bakalaureusetöö ja vist üks magistritöö, olid need, mis andsid nagu mõtted selle saadestatud kaltsiumkarbonaadi poole minna. Ja noh, sealt edasi siis me tegime siis ise katseid ja siis oleme edasist tehnoloogia arendust siis koos Taltechiga teinud viimased ütleme kuus aastat. Et seal on kindlasti sellise aluspõhja loomine ongi ülikooli põhi, põhiline mõte, aga, aga ma arvan, et suur väljakutse on võib-olla selles, et kuidas seda lihtsalt sõnastada, on see, et kui sa tahad oma projekti ellu viia lõpuks nagu tahad, et, et sellest oleks midagi nagu sellist, mis toodab sulle raha. Sa lähed panka või, või sa küsid panga käest, et noh, mis tingimused oled, et kui ma laenu saaksin ja pangast öeldakse enam-vähem Rahvli, nii et noh, et mis kell ja kui palju. Et sa pead oskama sellele küsimusele vastata algusest peale, et kuna sa hakkad raha teenima ja kui palju ja sellest sõltub see, kas see on üldse tehtav. Nüüd, kui sa lähed ülikooli ja küsid teadlase käest, et mis kell ja kui palju, siis ta ei oska seda öelda, sest ta ei ole treenitud selle jaoks, ta on treenitud hoopis millegi muu jaoks. Et seal on natuke mõlemalt poolt on nagu puudu, et selles mõttes, et noh, ülikoolis ei ole kedagi, kes oskaks äri, äri noh, kes peakski tegelikult äriplaani tegema mingisugusele, et tood sinna potsiku materjali, ütled, et ma tahan sellest raha teha. Noh, ülikool oskab sulle väga hästi kirjeldada, et kui sa manipuleerid seda materjali ühte või teistpidi, mis siis juhtub, aga see, mis kell ja kui palju, selle peaks ikkagi nagu ettevõtja ise suutma ära ennustada, isegi kui see ennustus on, on väga ebatäpne, siis see on ikkagi nagu alguses on see, see nii-öelda filtreerib mingid mõtted ära. Et seda on kindlasti Eestis puudu, et ma olen ise näinud mõlemalt poolt seda, et, et nii kunagi töötades ülikoolis kui ka kui ka nii-öelda arendajana, et, et kui minnakse ülikooli, siis tekibki pettumus mõlemal poolel. Et viiakse sinna minek ja öeldakse, tehke, aga sellest lõpuks ei tule mitte midagi, sest mõlemad pooled tegelikult väga hästi aru ei saanud, et mida kumbki tahtis ja, ja mis siis tehti. Tiina, kas sul oli kommentaar selle kohta? Ei, ma lihtsalt mõtlesin, et lisan veel selle, et ega tegelikult ju teadussüsteem ongi üles ehitatud selle teaduse tegemise peale, et selline rakenduslik või noh, et kui siis üks hetk professor mõtleb, et teeb spin-off'i, läheb, käib, eks ole, erasektoris ära ja tuleb tagasi, ega ta siis enam tagasi ei tule, et siis ongi see, tee on lõppenud. Et sul on vaja publikatsioone, sa pead juhendama ainult niimoodi sa oled hea teadlane, et kui seal oleks lisaks siis see, et sul see ettevõtluskogemus annaks nagu sulle midagi juurde, siis sa sellega ka tegeleks, aga täna ta ei anna. Ja võib-olla see publikatsiooni teema on ka üks nüanss veel. Et kui mina ütleme, maksan miljon eurot Taltechile uuringu eest, siis ma tegelikult ei taha või tähendab, ma ei tea alguses üldse, mis sellest saab, kas sellest saab äri või ei saa, mis need tulemused meil tähendavad, siis ma tegelikult nagu olen väga ettevaatlik, ma ei taha, et keegi mitte kunagi seda avalikustaks, ma maksan selle eest, ma tahan, et see oleks minu oma, ma panen selle oma sahtlisse. Sest võib-olla kunagi sellest on abi otsustamisel, kas midagi teha või mitte teha, sest vahel otsus mitte teha on ka hea otsus. Et, et seal on ka see väljakutse, okei, kui asi jõuab patentideni, nagu meie puhul, siis tõesti on nendel teadlastel, kes on seal kaasas olnud, nad saavad patentide pealt publitseerida, patendid ise vist on, võrduvad kahe publikatsiooniga on ju, see on nagu hea. Aga tihtipeale ei pruugi jõuda see patendini ja noh, patendini on ka tee pikk. Et see võib niisugune kolm kuni viis aastat võtta. Eriti kui me räägime nagu Euroopa tasandile veel hullem maailma tasandil, eks ole. See on ühtlane süsteem, ega selles mõttes seal on see väljakutse on igal pool sama. Ehk jah, et võib tunduda, et neid teadustöid justkui tehakse ülikoolides tohutult palju ja väga palju kirjutatakse sahtlisse ja mis, nagu mõte sellel on, aga noh, tegelikult osa projekte on ju hea näide sellest, et kuidas nagu tegelikult sellisest sahtlisse kirjutatud üliõpilastööst sai siis tegelikult selline toimiv äge rohetehnoloogiline lahendus. Aga okei, Alar nüüd leidis need koostöös Akadeemiaga nüüd need tulemused sealt uurimustööd sahtlist ja läks akadeemiasse ja pani nüüd pani trag-Sells Grupiga pead kokku ja tegid nüüd need umbsed enam-vähem arvutused ja tuleb nüüd panka nende enam-vähem arvutustega, mis ei pruugi täpsed olla. Et kuidas, kas te vaatate ka nagu mingeid suuremaid trende, kui te neid otsuseid teete, et kui me just räägime praegu, et võib-olla keskkonnateemadel see fookus on julgeolekule nihkunud, et kas te võtate ka neid arvesse, selliseid suuremaid riske ja teema fookuseid? Noh, loomulikult pank, pangal peabki olema see pikaajaline vaade ja neid trende tuleb seal ka arvestada ja seesama tegelikult, mida see päris alguses välja tõid, see riskiaruanne, mida siis maailma majandusfoorum igal aastal ka välja annab, et, et ka neid jälgitakse. Aga noh, teisest küljest pank on lõpuks finantseerija ja, ja ma ütleks, et pigem on ikkagi üsna suur usaldus nagu kliendi enda juures, sest et ega pank ei suuda igas sektoris olla ekspert, et see, et üldiselt ikkagi see ettevõtja teab oma seda sektorit kõige paremini, tulebki see Ragn-Sells osa, tema on selle nagu lõplikult läbi analüüsinud, teadlastega töötanud, finantsplaani valmis teinud. Mis, mis õigus on meil tulla ütlema, et, et see on vale, et noh, millele me toetume, eks ju. Et tegelikult mingil määral on seal ikkagi see, see usalduse küsimus ka, et et tundub õige. Et kindlasti ei ole pank see, kes siis ütleb, et see ei sobi. Et ikkagi te hindate spetsialistide eelnevalt tehtud tööd, eks ole, et kui nad on ikkagi hinnanud, et see on elujõuline ettevõtmine, et siis pigem teie poolt. Pigem Nagu näeme seda, et, et ta on, et panga suurem roll seal nii-öelda vestluses või arutelus tekib siis, kui näiteks mõni ettevõte üldse ei ütleb, et see ei ole mulle oluline teema ja ma ei tegele sellega, ma jätkan sama vanaviisi, et siis me peame hoopis nügima neid nendel teemadel rohkem mõtlema ja võib-olla otsite kuskilt efektiivsust, võib-olla hoopis energiatõhusust juba, mis iseenesest aitab nii jalajälge vähendada kui ka ettevõttele siis ka rahalist efektiivsust tuua. Aga, aga just see, et kui keegi juba nagu tahab teha, siis seda nagu kritiseerima minna, noh siis peaks ikkagi mingi väga tugev alus selleks olema. No seda enam, et ilmselt ega te ju pangast teil ka iga ala spetsialiste ju ei ole täpselt, et teil on ikkagi selline nagu makrovaade, eks ole, et, et mis tulevik toob. Aga jah, lihtsalt eeldame, et, et annab materjalid ja need analüüsid olemas ja me saame nendega tutvuda. Just, Tiina. Mulle meenus veel üks hea meede, mille abil on võimalik siis ettevõttel harjutada siis koostööd teadlastega, et selle nimi on Innovatsioonihange. Seda annab Riigikantselei ja avaliku sektori asutused saavad siis neid innovatsioonihankeid teha, siis ma tutvustan siis ühte projekti näiteks kuidas Fiben oli liigniini kasutati siis, et Fibenoli liigniinil on suur negatiivne jalajälg, kuna ta on siis, eks ole puidust tulnud ja EPD järgi siis see jalajälg oli hästi negatiivne eks. Ja siis Viimsi vald hankis endale siis teedeehituses sellise teejupikese, kus siis koostöös teadlastega, see oli siis nagu mitmes etapis, kõigepealt siis koostöös teadlastega vaadati, et kas on võimalik süsinikneutraalset teed konstrueerida, selgus, et on küll võimalik, et kui teha siis nii ja naa, eks ole, et asendada sealt mingi osa sellest bituumenist liigniiniga, kasutada, eks ole, elektrienergial tootav töötavaid seal mingeid seadmeid ja nii edasi eks ole, ma täpselt ei tea neid asju. Ja ühesõnaga siis Viimsi vald siis hankis selle tee selliselt, eks. Et kui ma nüüd mõtlen näiteks Alari peale, et kuidas tema saaks seda innovatsioonihanget eks ole kasutada, siis kui näiteks on mingi X vald, kes hangiks endale näiteks süsinikneutraalse lasteaia ehitamist, on ju, siis samamoodi koostöös teadlastega mõeldakse välja see kontseptsioon, kuidas siis seda karbonaati näiteks betoonis, fillerina või kus pinnakattematerjalides, ma ei tea, kas te olete arvutanud sellele jalajälje ka välja või. Ja, ja oleme ikka. Potentsiaalselt see, see jalajälg on negatiivne, see kõlab halvasti, aga see on hea lihtsalt, ma ütlen publikule. Et CO kahe jalajälg on negatiivne, see tähendab, et sa nagu seod rohkem. Me oleme arvutanud, et see on umbes kõige paremal juhul on umbes miinus nelisada kilogrammi tonni kohta. Sest et tema tootmisel ju seotakse süsiniku selles mõttes on ta negatiivne, eks ole, et ta on võtnud eks ole, atmosfäärist süsinikdioksiidi vähemaks. Ja noh, seda saab kasutada ju akendest, põrandates, värvides, bakapaberis, kuigi seda paberi suunda me ei arenda, kuna paber kahjuks ei ole või kahjuks või õnneks ei ole nagu väga jätkusuutlik suund enam ka ärilises mõttes ja, ja põhimõtteliselt lasteaeda saaks päris palju erinevaid asju, saaks selle värvida, kui sa ehitada puidust ja panna, kasutada materjale, et see oleks jah, reaalselt võimalik ja võib-olla kõige suurem väljakutse on selle ehitamise jalajälg. Jah, et Eestis on ehitamise jalajälg tõesti suur, et aga siis olekski teadlaste abiga võimalik see kontseptsioon kokku panna, et näha juba need probleemkohad, et millega tuleb tegeleda. Sellega tegeletaksegi ka juba ehituse jalajälge mõõta ja. Ja, et ja väga tore, et te tõite siin välja ka selle justkui nagu sellise paradoksi või anomaalia, et me kuidagi nagu surume akadeemikuid ja teadlasi ikkagi tegem- tegelema ettevõtlusega ja me justkui nagu näeme, et tegelikult need spin-off'id algatused mis ülikoolides teaduskondadest tulevad, et need peaks justkui saama nagu ettevõteteks. Aga olen siin hästi nõus meie president Alar Karisega, kes ka startup Dayl sellel aastal vallutas südant selle pärast veidi, et kui kõik teadlased lähevad nüüd ettevõtjateks ja tegema siis oma teadusavastuste põhjal ettevõtteid, et kes meil siis tegelikult teadust teeb? Et see on tore, et, et riik on tegelikult õla alla pannud ka läbi innovatsioonihangete siis sellele, et igaüks saab oma liistude juurde jääda ja teha seda hästi, mida nad väga hästi oskavad, eks ole, et ettevõtjad oma ärimudeleid sinna juurde töötada ja siis teadlased siis teha neid väärt avastusi, et ettevõtted saaks, saaks toimida. Ja muidugi see innovatsioonihange, et see on ka üks viis, et kuidas siis nagu ettevõtteid toetada sellele teekonnal, et kuidas need rohe, rohetehnoloogiad sünnivad, et noh, kui me võtame siin mingisuguste suurkorporatsioonide näited, siis ega noh, seal ilmselt on ressurssi, et sellega töötada varem aasta-kaks-kolm oma oma nagu siis finantside eest, eks ole, ja siis minna juba võimendust küsima. Aga kui me räägime startup'idest ja väiksematest ettevõtetest, kel, kes võib-olla ei ole veel nii palju seda raha jõudnud tõsta, et siis nemad tihtipeale nagu ka Tiina mainis, pöörduvad siis mõne suurema Euroopa Liidu projekti siis konsortsiumisse või, või grantidesse. Ja olen kuulnud väga palju ettevõtjatelt, et tegelikult niisugust nii riigi kui ka laiemalt Euroopa Liidu üldse avaliku sektori toetust peljatakse just selles mõttes, et ta on hästi bürokraatiamahukas ja kui me räägime ka võib-olla Euroopa Liidu toetustest, siis noh, tegelikult selle toetusprojekti kirjutamine ise on täiesti eraldi kapatsiteet, eks ole, rääkimata sellest, et kuidas seda siis projekti lõpuks ka ellu viia ja seal seal aru anda. Et ja ma saan aru, et panga vaates tegelikult annab ta samas boonuspunkte, kui ettevõte on saanud mingi sellise välise toetuse, et kas seal on vahet ka, et kas ta on riigi või siis Euroopa Liidu toetus laiemalt, et kas te nagu vaatate ka seda, et, et millisest nagu võimendusallikast on siis toodud see, see toetus, et kas seal on ka kuidagi mingit vahet? Ei, otseselt ei ole, et noh, ma pigem nagu tookski selle, et, et seal lihtsalt see vaade, et nagu finantsiliselt kindlasti on jällegi kindlam selle laenu andmisel, et et, et kliendil on veel mingisugune lisarahastus sealjuures on ju, et aga ja noh, võib-olla ta on ka nagu tõsiseltvõetavam, kui ta on selle kogu selle bürokraatia läbi käinud, on ju, et ja ma päris nagu noh, selle pealt üks otsustaja muidugi ka jälle ei tehta, et ma lihtsalt ütlengi, et see on niisugune nagu lisanüanss sealjuures, aga ta kindlasti positiivne on jah. Okei, tore, et ühesõnaga tasub ikka ettevõtetel see retk ette võtta ja osaleda ka siis Euroopa Liidu otserahastuse konsortsiumites. Et on igatepidi kasulik, et üks asi nagu rahastuse mõttes, aga teine asi ka sellise nähtavuse mõttes, et paljud, kes on nagu sinna Euroopa innovatsioonifondis osalenud, räägivad, et just see nähtavus on, on väga-väga hea seoses sellega ja jääd rohkem ka riskiinvestoritele ja, ja teistele rahastajatele toetuseandjatele silma. Aga ma võib-olla lõpetuseks küsiks veel siis ka sellise asja, et oleme siin täna rääkinud puhast tehnoloogiatest ja rohetehnoloogiatest, et üks asi on jah, see, et me ei pääse nagu sellest üle ega ümber, et seda on vaja teha. Aga kuidas teile tundub, kas sihuke tiitlid, rohe ja jätkusuutlik, kas need on üldse tänapäeval enam konkurentsieelis või on ta juba tegelikult hügieenifaktor? Et kas me saame eraldi üldse nagu rääkida rohetehnoloogiate elluviimisest kui sellisest või, või tegelikult juba on see hügieenifaktor, et kui me kuskilt midagi toodame, teeme, tekitame, et see on juba jätkusuutlik eos. Kas on sellel üldse vahet? Ja mulle tundub, et see vahe on juba puhtalt sellepärast, et eestlased on allergilised nendele sõnadele. Et juba sellepärast ei tohi neid sõnu kasutada ja noh, siin ju viimased uuringud näitavad ka, et me oleme lisaks ka Euroopas ikkagi kõige skeptilisemad, mis on hästi-hästi kurb. Aga ettevõtetega, ka panga poolt noh, erinevate sektoritega suheldes on väga hästi näha seda, et et mõnikord nad juba ongi teinud need mõned innovatsioonid või, või need tehnoloogilised muudatused ära, aga nad ei pane sellele külge sõna jätkusuutlikkus või, või energiatõhusus või, või, või midagi sellist. Et nende jaoks on see lihtsalt mingi uus tehnoloogia, mis aitab neil ettevõttel edasi areneda, efektiivsust luua, ükskõik mis, mis sfääris ja, ja, ja see ongi ja noh, see ongi see hügieen siis on ju, et, et mu isiklik arvamus on, et me tõepoolest ei peaks sellele kõigele seda märki külge panema, et see pigem peaks olema selline loomulik areng sellise säästlikuma ja mitte raiskava majanduse poole siis. Ja ilmselt see oleneb ka turust, eks ole, et kui välisturgudele minna, siis te siin olete ka ettevõtted nõustanud Alar ka võib-olla ise siin välisturgudega ekspordipotentsiaale uurinud ja, ja vaadanud, et kas seal on see vahe sees või oleneb see riigist või kuidas see on. Ma arvan, et seal see seis on võib-olla niimoodi, et, et kui me räägime Eestist, siis meie noh, meil on kuskil on ju üheksa klienti üle maailma. Ja, ja need, kes siis meie toodet kasutavad, et toota jaekaupu, mida siis inimesed ostavad poest. Nad ütlevad seda, et noh, et see sellist, kui sa kirjutad sinna rohe, roheliselt toodetud või taaskasutatud või et sa sellest premiumit küsida ei saa. Et kui sul on kaks identset toodet samade omadustega, ühel on pealkirjas, et see on näiteks sada protsenti taaskasutatud materjalidest toodetud siis kui see hind on võrdne, siis inimesed pigem võtavad selle taaskasutatud seal nad tahavad nagu head teha, aga kui seal on hinnas vahe, siis nad ei võta seda toodet, et noh, premium me selle eest ei saa. Ja noh, ütleme võib-olla globaalsemalt ongi see, et, et see just suuremad korporatsioonid kindlasti mõtlevad ette täna, et nad näevad, et võib-olla nüüd võib-olla nad alguses nägid, et, et viie aasta pärast onju. Aga, aga võib-olla sellises keskpikas vaates ikkagi, kui nad ei valmistu selleks, et kui nad ei leia neid alternatiivseid asju, siis neil läheb keeruliseks, et ma tean, et tegelikult see kõik algab rahast, et väga paljudel ettevõtetel on osad nii-öelda krediidilaenutingimused ja ka investeerimislaenu tingimused seotud sellega, et kui palju nad siis kas taaskasutatud materjale või kui, kui palju nad oma süsiniku jalajälge vähendavad. Et nad peavad seda kvooti nii-öelda täitma, sest muidu nende intress muutub. No see on, see on see süstenability link klone, mis on need suured laenud, mis ongi mingisuguse eesmärgiga seotud, et on lubanud, et ta täidab selle eesmärgi ja kui ta seda eesmärki siis ei täida, siis see intress muutub ja see on juba algselt lepingusse niimoodi kirjutatud jah. Jah, et tegelikult jah, et tundub, et jah, et eelis ta ei anna, aga selleks, et oma ettevõtet arendada ja edasi liikuda, et tegelikult jätkusuutlikkus ja rohe peab seal sees endiselt, endiselt olema. Kas meil on küsimusi, arvamusi publikust? Kui koroona ajal liikusime veebikoosolekutesse, siis öeldi, et tuleb anda seitse sekundit, et siis inimesed nagu seedivad seda, et, et neile anti nüüd ka sõna. Et ootame siis seitse sekundit. Ei soovi keegi küsida? Okei, tore, aga siis jah, et lõpetasime natukene varem, aga ilm on kena ja kaunis, nii et minge nautige seda, enne kui järgmised arutelud algavad ja suur aitäh siis meie panelistidele teemat avamast ja mõtteid avamast. Ja rohe siis jah, tõesti endiselt oluline, Green Industrial deal ka Eestis ikka endiselt fookuses ja ei ole mitte kuskile siis me kliima ja roheteemadega kadunud. Aitäh.",
+    "cues": [
+      {
+        "start_seconds": 11.8,
+        "end_seconds": 17.8,
+        "text": "Aga kena, kell on saanud kaksteist ja natukene peale, et alustame siis meie järgmise"
+      },
+      {
+        "start_seconds": 17.8,
+        "end_seconds": 24.04,
+        "text": "aruteluga, milleks on rohetehnoloogiat kui puhta tööstuse ja julgeoleku alustala."
+      },
+      {
+        "start_seconds": 24.04,
+        "end_seconds": 29.4,
+        "text": "Ja esmalt, tere tulemast kõigile, kes te siin ilusal päeval olete Paidesse kohale jõud"
+      },
+      {
+        "start_seconds": 29.4,
+        "end_seconds": 34.6,
+        "text": "nud ja tervitan juba etteruttavalt ka kõiki, kes kuulavad meid kunagi mingil ajahetke"
+      },
+      {
+        "start_seconds": 34.6,
+        "end_seconds": 36.6,
+        "text": "l siis salvestusest."
+      },
+      {
+        "start_seconds": 36.6,
+        "end_seconds": 42.44,
+        "text": "Minu nimi on Anni Raie ja töötan mina keskkonnainvesteeringute Keskuses ja Keskkonna"
+      },
+      {
+        "start_seconds": 42.44,
+        "end_seconds": 47.0,
+        "text": "investeeringute keskuses me pöörame tähelepanu väga laiale sihtrühmale."
+      },
+      {
+        "start_seconds": 47.0,
+        "end_seconds": 52.56,
+        "text": "Alates lasteaia, laste ja koolinoorte keskkonnateadlikkusest kuni suurtööstuste ja loo"
+      },
+      {
+        "start_seconds": 52.56,
+        "end_seconds": 55.2,
+        "text": "duskaitseliste projektideni välja."
+      },
+      {
+        "start_seconds": 55.2,
+        "end_seconds": 62.12,
+        "text": "Ja ka roheinnovatsioon ja laiemalt iduettevõtted on meil kindlasti suures fookuses ja"
+      },
+      {
+        "start_seconds": 62.12,
+        "end_seconds": 65.8,
+        "text": "soovime siis neile võimalusi luua ja uksi avada."
+      },
+      {
+        "start_seconds": 65.8,
+        "end_seconds": 71.16,
+        "text": "Ja seda arutelu me siis täna korraldame koostöös Eesti Rohetehnoloogia Liiduga, kes ongi"
+      },
+      {
+        "start_seconds": 71.16,
+        "end_seconds": 76.64,
+        "text": "esindus ja katusorganisatsioon Eesti eesrindlikele rohetehnoloogia ja roheinnovatsiooni"
+      },
+      {
+        "start_seconds": 76.64,
+        "end_seconds": 78.92,
+        "text": "organisatsioonidele."
+      },
+      {
+        "start_seconds": 78.92,
+        "end_seconds": 86.2,
+        "text": "Ja kui me mõtleme tänasest ajastust, siis me elame sellisel põneval ajal, kus ühelt poolt"
+      },
+      {
+        "start_seconds": 86.2,
+        "end_seconds": 91.44,
+        "text": "justkui meil on niisugune tohutu potentsiaal ja võimekus paremad ja laiemad teadmise"
+      },
+      {
+        "start_seconds": 91.44,
+        "end_seconds": 93.76,
+        "text": "d ja oskused kui kunagi varem."
+      },
+      {
+        "start_seconds": 93.76,
+        "end_seconds": 98.8,
+        "text": "Aga teisalt iseäranis just niisuguse viie aasta jooksul oleme me olnud tohutus kriis"
+      },
+      {
+        "start_seconds": 98.8,
+        "end_seconds": 100.64,
+        "text": "ide pöörises."
+      },
+      {
+        "start_seconds": 100.64,
+        "end_seconds": 105.72,
+        "text": "Ja eks need kriisid on tinginud meil sellise turvatunde puudumise geopoliitilise eba"
+      },
+      {
+        "start_seconds": 105.72,
+        "end_seconds": 110.84,
+        "text": "stabiilsuse ja mis seal salata, ka suurema fookuse siis sellise kaitse, sõltumatuse ja"
+      },
+      {
+        "start_seconds": 110.84,
+        "end_seconds": 113.28,
+        "text": ", ja julgeoleku teemadele."
+      },
+      {
+        "start_seconds": 113.28,
+        "end_seconds": 118.76,
+        "text": "Ja võib-olla märkasite ka siin nädala alguses tuli välja uudis, kuidas valitsus on siis"
+      },
+      {
+        "start_seconds": 118.76,
+        "end_seconds": 124.04,
+        "text": "koondanud erinevate ministeeriumite vahenditest pea kakssada miljonit eurot, et suuna"
+      },
+      {
+        "start_seconds": 124.04,
+        "end_seconds": 127.56,
+        "text": "ta need siis julgeolekusse ja, ja kaitsesektorisse."
+      },
+      {
+        "start_seconds": 127.56,
+        "end_seconds": 131.96,
+        "text": "Ja kliimaministeerium andis siis seal kõige suurema panuse, kaheksakümmend viis miljon"
+      },
+      {
+        "start_seconds": 131.96,
+        "end_seconds": 137.04,
+        "text": "it, siis kliimarahadest suundus kaitse, kaitse valdkonda."
+      },
+      {
+        "start_seconds": 137.04,
+        "end_seconds": 140.8,
+        "text": "Aga noh, ega selles mõttes, kui me siin oleme viimased kümme aastat on ju kliimateema"
+      },
+      {
+        "start_seconds": 140.8,
+        "end_seconds": 145.48,
+        "text": "d olnud fookuses, kõik rohekokkulepped ja asjad, et ega me ei saa ju sellest tegelikult"
+      },
+      {
+        "start_seconds": 145.48,
+        "end_seconds": 150.76,
+        "text": "ka tänasel päeval mööda vaadata, et ega see jätkusuutlikkuse ja kliimakatastroof, mis"
+      },
+      {
+        "start_seconds": 150.76,
+        "end_seconds": 154.44,
+        "text": "meid siin ootab, et ega ta ei ole tegelikult kuskile kadunud."
+      },
+      {
+        "start_seconds": 154.44,
+        "end_seconds": 160.04,
+        "text": "Ja näiteks ka maailma majandusfoorum, et nemad annavad igal aastal välja sellist nii"
+      },
+      {
+        "start_seconds": 160.04,
+        "end_seconds": 165.32,
+        "text": "-öelda prognoosi või ennustust, millised on need suurimad globaalsed riskid, mis meid"
+      },
+      {
+        "start_seconds": 165.32,
+        "end_seconds": 169.64,
+        "text": "siis ohustavad nii kahe aasta kui ka siis kümne aasta lõikes."
+      },
+      {
+        "start_seconds": 169.64,
+        "end_seconds": 175.48,
+        "text": "Ja järgmise kahe aasta lõikes leiame siis sellised kliima ja keskkonnariske kaks tük"
+      },
+      {
+        "start_seconds": 175.48,
+        "end_seconds": 175.88,
+        "text": "ki."
+      },
+      {
+        "start_seconds": 175.88,
+        "end_seconds": 181.4,
+        "text": "Et esimene nendest on ekstreemsed ilmastikuolud, et noh, tõenäoliselt oleme ka siin Eestis"
+      },
+      {
+        "start_seconds": 181.4,
+        "end_seconds": 186.32,
+        "text": "omal nahal neid kogenud, kas siis põua või siis üleujutuste näol, mis siin on järjest"
+      },
+      {
+        "start_seconds": 186.32,
+        "end_seconds": 190.2,
+        "text": "sagenenud ja noh, kliima soojenemine ka, et ma näen, et osad inimesed istuvad meil täna"
+      },
+      {
+        "start_seconds": 190.2,
+        "end_seconds": 194.56,
+        "text": "siin saunalaval lausa, et võib-olla siis ka tulevikus saab õues saunalaval istuda, kui"
+      },
+      {
+        "start_seconds": 194.56,
+        "end_seconds": 197.56,
+        "text": "kliima, kliima on siis nii soojaks soojaks läinud."
+      },
+      {
+        "start_seconds": 197.56,
+        "end_seconds": 200.36,
+        "text": "Ja teine kahe aasta risk on reostus."
+      },
+      {
+        "start_seconds": 200.36,
+        "end_seconds": 205.2,
+        "text": "Ja kui me vaatame kümne aasta perspektiivi nüüd sellest majandusfoorumi ennustusest,"
+      },
+      {
+        "start_seconds": 205.2,
+        "end_seconds": 210.64,
+        "text": "siis seal on lausa pooled ehk viis riski, on seotud siis kliimakeskkonna ja elurikku"
+      },
+      {
+        "start_seconds": 210.64,
+        "end_seconds": 212.48,
+        "text": "se kaoga."
+      },
+      {
+        "start_seconds": 212.48,
+        "end_seconds": 217.28,
+        "text": "Ehk et kliima tegelikult endiselt peab olema meie fookuses, sest ega kui meil ei ole"
+      },
+      {
+        "start_seconds": 217.28,
+        "end_seconds": 222.72,
+        "text": "seda head keskkonda, kus elada ja majandada, siis ega õigupoolest meil ei olegi ju midagi"
+      },
+      {
+        "start_seconds": 222.72,
+        "end_seconds": 224.48,
+        "text": "siin, siin maailmas."
+      },
+      {
+        "start_seconds": 224.48,
+        "end_seconds": 229.28,
+        "text": "Ja ma usun ise ka väga siiralt, et kui me tahame olla sõltumatud ja konkurentsivõime"
+      },
+      {
+        "start_seconds": 229.28,
+        "end_seconds": 234.0,
+        "text": "lised, et me ei saa tegelikult rohetehnoloogiaid lahterdada kuidagi eraldi mingisse ni"
+      },
+      {
+        "start_seconds": 234.0,
+        "end_seconds": 238.6,
+        "text": "ši kaupa või et nad on kuidagi nagu luksus, et ta ikkagi peab olema horisontaalne läbi"
+      },
+      {
+        "start_seconds": 238.6,
+        "end_seconds": 242.52,
+        "text": "valdkondade, noh suur rõõm on näha, et tegelikult see suund on ka sinna, sinna liiku"
+      },
+      {
+        "start_seconds": 242.52,
+        "end_seconds": 246.2,
+        "text": "mas ja eks ta saab olema meie uueks baasinfraks."
+      },
+      {
+        "start_seconds": 246.2,
+        "end_seconds": 251.36,
+        "text": "Ja iseäranis seda suunda on märganud ka Euroopa Liit, kes siis eelmisel aastal tuli välja"
+      },
+      {
+        "start_seconds": 251.36,
+        "end_seconds": 256.28,
+        "text": "sellise uue poliitikatsükli ja kontseptsiooniga nagu puhta tööstuse lepe."
+      },
+      {
+        "start_seconds": 256.28,
+        "end_seconds": 262.16,
+        "text": "Ja see lepe siis toobki kokku kaks olulist valdkonda, energiamahukat suurtööstused ja"
+      },
+      {
+        "start_seconds": 262.16,
+        "end_seconds": 268.04,
+        "text": "puhast tehnoloogiat ja soovib siis nende vahel siis sellist koostööd ja sünergiat so"
+      },
+      {
+        "start_seconds": 268.04,
+        "end_seconds": 269.64,
+        "text": "odustada."
+      },
+      {
+        "start_seconds": 269.64,
+        "end_seconds": 274.16,
+        "text": "Ja ega ka Eesti tasandil, kuigi koalitsioonileppes siis konkurentsi ja kaitseteemad on"
+      },
+      {
+        "start_seconds": 274.16,
+        "end_seconds": 279.68,
+        "text": "fookuses, siis samamoodi selle rohelise tööstuse või puhta tööstuse leppega, et tegelikult"
+      },
+      {
+        "start_seconds": 279.68,
+        "end_seconds": 284.4,
+        "text": "ka ministeeriumi poolt on oodata mitmeid uusi algatusi ja meetmeid ka sellesse sektor"
+      },
+      {
+        "start_seconds": 284.4,
+        "end_seconds": 285.68,
+        "text": "isse."
+      },
+      {
+        "start_seconds": 285.68,
+        "end_seconds": 290.44,
+        "text": "Ja täna siin toredate panelistidega, siis soovimegi arutada, et kuidas rohetehnoloogi"
+      },
+      {
+        "start_seconds": 290.44,
+        "end_seconds": 297.76,
+        "text": "ad saavad olla siis sillaks seal, kus kohtuvad julgeolek, sõltumatus ja ka, ja"
+      },
+      {
+        "start_seconds": 297.76,
+        "end_seconds": 299.56,
+        "text": "ka puhtam majandus."
+      },
+      {
+        "start_seconds": 299.56,
+        "end_seconds": 303.88,
+        "text": "Ja uurime ka seda, et mida siis tuleks teha siin meil Eestis ja milliseid otsuseid vastu"
+      },
+      {
+        "start_seconds": 303.88,
+        "end_seconds": 308.48,
+        "text": "võtta, et see sektor ikkagi pigem kasvaks, mitte, mitte, mitte ei känguks."
+      },
+      {
+        "start_seconds": 308.48,
+        "end_seconds": 312.76,
+        "text": "Ja meil on siin selleks kolm suurepärase taustaga panelisti."
+      },
+      {
+        "start_seconds": 312.76,
+        "end_seconds": 317.12,
+        "text": "Neil on kõigil küll veidikene erinev taust, kuid seda enam nad suudavad tuua seda põ"
+      },
+      {
+        "start_seconds": 317.12,
+        "end_seconds": 320.88,
+        "text": "nevust meile siia arutelu läbi erinevate vaatenurkade."
+      },
+      {
+        "start_seconds": 320.88,
+        "end_seconds": 326.88,
+        "text": "Minu kõrval istub Alar Saluste, kes töötab Ragen-Sellsis osa projektijuhina ja Alari"
+      },
+      {
+        "start_seconds": 326.88,
+        "end_seconds": 331.68,
+        "text": "l on tõesti aastatepikkune kogemus, kuidas tõhusalt ressursse kasutada."
+      },
+      {
+        "start_seconds": 331.68,
+        "end_seconds": 335.52,
+        "text": "Ja samamoodi justkui mulle tundub, et sa oled nagu ühe jalaga sellises innovaatilise"
+      },
+      {
+        "start_seconds": 335.52,
+        "end_seconds": 339.36,
+        "text": "s algatuses ja projektis ja teise jalaga sellises traditsioonilises tööstuses."
+      },
+      {
+        "start_seconds": 339.36,
+        "end_seconds": 343.32,
+        "text": "Ehk tegelikult sa oskad näha ka neid tööstuse piire, eks ole, et, et kus me võib-olla"
+      },
+      {
+        "start_seconds": 343.32,
+        "end_seconds": 348.36,
+        "text": "sellise suure rohepöörde, kohati ka soovmõtlemisega oleme ja et mis tegelikult siis on"
+      },
+      {
+        "start_seconds": 348.36,
+        "end_seconds": 351.6,
+        "text": "võimalik ka tööstuse tasandil ära teha."
+      },
+      {
+        "start_seconds": 351.6,
+        "end_seconds": 356.04,
+        "text": "Siin keskel istub Maris Riim, kes on Swedbanki jätkusuutlikkuse juht."
+      },
+      {
+        "start_seconds": 356.04,
+        "end_seconds": 360.44,
+        "text": "Ja noh, kui me räägime rohetehnoloogiatest, innovatsioonist, muutuste tegemisest, siis"
+      },
+      {
+        "start_seconds": 360.44,
+        "end_seconds": 365.68,
+        "text": "kindlasti üks võtmetegur seal on finantseerimine ja ressursid, et sellest me üle ega"
+      },
+      {
+        "start_seconds": 365.68,
+        "end_seconds": 366.92,
+        "text": "ümber ei saa."
+      },
+      {
+        "start_seconds": 366.92,
+        "end_seconds": 371.52,
+        "text": "Aga muidugi innovatsioonist rääkides, et kus siis läheb piir selle toetava kapitali ja"
+      },
+      {
+        "start_seconds": 371.52,
+        "end_seconds": 375.92,
+        "text": "tegelikult ka riskitaluvuse vahel, et, et kui nüüd rahastaja vaates seda vaadata, et"
+      },
+      {
+        "start_seconds": 375.92,
+        "end_seconds": 378.64,
+        "text": "seda siis Maris saab meile kenasti avada."
+      },
+      {
+        "start_seconds": 378.64,
+        "end_seconds": 383.36,
+        "text": "Ja meil on siin ka Tiina Konson, kes töötab ettevõtluse ja innovatsiooni sihtasutuses"
+      },
+      {
+        "start_seconds": 383.36,
+        "end_seconds": 386.92,
+        "text": ", toidu ja puiduressursside fookusvaldkonna juhina."
+      },
+      {
+        "start_seconds": 386.92,
+        "end_seconds": 391.92,
+        "text": "Ja Tiina siis tõepoolest igapäevaselt siis rohetehnoloogia arengusuundi Eestis riigi"
+      },
+      {
+        "start_seconds": 391.92,
+        "end_seconds": 397.16,
+        "text": "tasandil kujundab ja tal on ka lai akadeemiline taust, nii et tegelikult teab ka aka"
+      },
+      {
+        "start_seconds": 397.16,
+        "end_seconds": 402.08,
+        "text": "deemia vaatest, et kust ja kuidas innovatsioon siis sünnib ja, ja tekib."
+      },
+      {
+        "start_seconds": 402.08,
+        "end_seconds": 407.12,
+        "text": "Aga kui me nüüd siin arutelu juurde suundumegi, siis Tiina, ma alustakski võib-olla si"
+      },
+      {
+        "start_seconds": 407.12,
+        "end_seconds": 413.08,
+        "text": "nult ja küsiks, et me oleme ka varasemates vestlustes sinuga arutanud seda, et, et kuidagi"
+      },
+      {
+        "start_seconds": 413.08,
+        "end_seconds": 417.08,
+        "text": "tunnetuslikult ühiskonnas, et kui öelda rohetehnoloogia, et siis tunnetatakse seda kui"
+      },
+      {
+        "start_seconds": 417.08,
+        "end_seconds": 421.64,
+        "text": "midagi sellist kauget, kättesaamatut, võib-olla ka niisugust nagu ulmelist ja futuri"
+      },
+      {
+        "start_seconds": 421.64,
+        "end_seconds": 422.24,
+        "text": "stlikku."
+      },
+      {
+        "start_seconds": 422.24,
+        "end_seconds": 427.24,
+        "text": "Et kas tegelikult rohetehnoloogia peab alati kätkama endas niisugust innovaatilist a"
+      },
+      {
+        "start_seconds": 427.24,
+        "end_seconds": 432.28,
+        "text": "spekti ja seda just ka selles vaates, et kui me mõtleme just nagu traditsioonilise töö"
+      },
+      {
+        "start_seconds": 432.28,
+        "end_seconds": 437.76,
+        "text": "stuse siis muudatuste ja rohestamise peale et tegelikult võib olla nemad tahaksid üldse"
+      },
+      {
+        "start_seconds": 437.76,
+        "end_seconds": 441.76,
+        "text": "nagu selliseid nii-öelda madalal rippuvaid vilju, mis on väga lihtsad lahendused, mis"
+      },
+      {
+        "start_seconds": 441.76,
+        "end_seconds": 444.44,
+        "text": "ei pruugi üldse olla sellised kõrgtehnoloogilised lahendused."
+      },
+      {
+        "start_seconds": 444.44,
+        "end_seconds": 448.48,
+        "text": "Et kuidas meil on nagu võimalik seda rohetehnoloogia mõistet laiendada ja võib-olla ka"
+      },
+      {
+        "start_seconds": 448.48,
+        "end_seconds": 453.12,
+        "text": "tekitada Eestis riigi tasandil selliseid uusi ärimudeleid sinna, sinna juurde."
+      },
+      {
+        "start_seconds": 453.12,
+        "end_seconds": 458.28,
+        "text": "Ja et rohetehnoloogia kindlasti ei pea olema alati radikaalne innovatsioon."
+      },
+      {
+        "start_seconds": 458.28,
+        "end_seconds": 463.2,
+        "text": "Ja mida ma siis pean silmas radikaalse innovatsiooni all, ma võin tuua siis paar hea"
+      },
+      {
+        "start_seconds": 463.2,
+        "end_seconds": 464.76,
+        "text": "d näidet."
+      },
+      {
+        "start_seconds": 464.76,
+        "end_seconds": 472.44,
+        "text": "Et näiteks palmiõli tootmine on väga suure jalajäljega ja ettevõte Äio on siis"
+      },
+      {
+        "start_seconds": 472.44,
+        "end_seconds": 479.44,
+        "text": "loonud sellise lahenduse, et saepurust on siis võimalik toota toiduks tarvitatavaid ra"
+      },
+      {
+        "start_seconds": 479.44,
+        "end_seconds": 481.64,
+        "text": "svasid ja valkusid."
+      },
+      {
+        "start_seconds": 481.64,
+        "end_seconds": 486.88,
+        "text": "Ja see, see on siis nagu näiteks radikaalne innovatsioon, et noh, see on piltlikult siis"
+      },
+      {
+        "start_seconds": 486.88,
+        "end_seconds": 491.4,
+        "text": "öeldes saepurust, et tegelikult see puit võetakse molekulideks lahti, muundatakse teist"
+      },
+      {
+        "start_seconds": 491.4,
+        "end_seconds": 498.68,
+        "text": "sugusteks molekulideks ja siis need molekulid on võimalik siis kasutada siis toidutöö"
+      },
+      {
+        "start_seconds": 498.68,
+        "end_seconds": 505.64,
+        "text": "stuses näiteks kosmeetikatööstuses, kemikaalides, et palmiõli kasutusalasi on väga palju"
+      },
+      {
+        "start_seconds": 505.64,
+        "end_seconds": 506.28,
+        "text": "."
+      },
+      {
+        "start_seconds": 506.28,
+        "end_seconds": 513.52,
+        "text": "Teine selline radikaalse innovatsiooni näide on võib-olla siis teisest sektorist, et"
+      },
+      {
+        "start_seconds": 513.52,
+        "end_seconds": 520.32,
+        "text": "põlevkivi me oleme kasutanud ikka eks energeetikas, aga Tallinna Tehnikaülikooli tead"
+      },
+      {
+        "start_seconds": 520.32,
+        "end_seconds": 524.44,
+        "text": "lased on leidnud ka siis sellise viisi, kuidas põlevkivist on võimalik toota ka kemi"
+      },
+      {
+        "start_seconds": 524.44,
+        "end_seconds": 525.6,
+        "text": "kaale."
+      },
+      {
+        "start_seconds": 525.6,
+        "end_seconds": 533.88,
+        "text": "Digor Voksüülhappeid ja neid on samamoodi võimalik väga paljudel erinevates se"
+      },
+      {
+        "start_seconds": 533.88,
+        "end_seconds": 540.88,
+        "text": "ktorites siis kasutada, et näiteks siis ravimitööstuses, kosmeetikatööstuses, materja"
+      },
+      {
+        "start_seconds": 540.88,
+        "end_seconds": 547.16,
+        "text": "litööstuses ja samamoodi siis tegelikult selliseid lahendusi globaalselt otsitaksegi"
+      },
+      {
+        "start_seconds": 547.16,
+        "end_seconds": 553.0,
+        "text": ", et kui põlevkivi enam põletada ei tohi, et siis sellel oleks mingisugune alternati"
+      },
+      {
+        "start_seconds": 553.0,
+        "end_seconds": 553.68,
+        "text": "iv."
+      },
+      {
+        "start_seconds": 553.68,
+        "end_seconds": 558.08,
+        "text": "Aga sellised näited on siis radikaalsest innovatsioonist."
+      },
+      {
+        "start_seconds": 558.08,
+        "end_seconds": 565.08,
+        "text": "Et tegelikult see võib olla ka midagi, näiteks olemasoleva tehnoloogia uuenduslik kasutus"
+      },
+      {
+        "start_seconds": 565.08,
+        "end_seconds": 571.44,
+        "text": "viis, et kui me oleme harjunud kvaliteetset puitu tselluloositööstuses kasutama, siis"
+      },
+      {
+        "start_seconds": 571.44,
+        "end_seconds": 575.6,
+        "text": "tegelikult näiteks innovatsioon oleks leida, kuidas ehitus lammutusjäätmeid kasutada"
+      },
+      {
+        "start_seconds": 575.6,
+        "end_seconds": 579.88,
+        "text": "siis tselluloosi tootmises või ligiliini tootmises näiteks, et see oleks siis ka majandus"
+      },
+      {
+        "start_seconds": 579.88,
+        "end_seconds": 585.0,
+        "text": "likult mõistlik seda ressurssi niimoodi kasutada näiteks."
+      },
+      {
+        "start_seconds": 585.0,
+        "end_seconds": 592.32,
+        "text": "Ja siis võib olla ka süsteemne muutus energeetika või transpordisektoris, et näiteks"
+      },
+      {
+        "start_seconds": 592.32,
+        "end_seconds": 599.44,
+        "text": "asendame siis diiselrongid elektrirongidega, et kõik see tegelikult on ja sobib eks ole"
+      },
+      {
+        "start_seconds": 599.44,
+        "end_seconds": 605.12,
+        "text": "sinna rohepöörde konteksti hästi ja miks ettevõtted sellega peavad tegelema, ongi ju"
+      },
+      {
+        "start_seconds": 605.12,
+        "end_seconds": 610.56,
+        "text": "tegelikult see, et süsinikukvoodi hind kasvab ja üks hetk nad lihtsalt ei ole konkure"
+      },
+      {
+        "start_seconds": 610.56,
+        "end_seconds": 617.08,
+        "text": "ntsivõimelised, kui nad kasvatavad sisenditena siis fossiilset päritolu materjale, et"
+      },
+      {
+        "start_seconds": 617.08,
+        "end_seconds": 622.92,
+        "text": "tegelikult ettevõtted täna peavadki tegelema sellega, et nad vähendaksid siis sõltuvus"
+      },
+      {
+        "start_seconds": 622.92,
+        "end_seconds": 629.76,
+        "text": "t fossiilsetest sisenditest, olgu see siis energeetika, olgu see siis materjalid, ke"
+      },
+      {
+        "start_seconds": 629.76,
+        "end_seconds": 635.92,
+        "text": "mikaalid, mida nad kasutavad ja nii edasi ja ka ringmajanduspõhimõtted, et kõik see ju"
+      },
+      {
+        "start_seconds": 635.92,
+        "end_seconds": 638.76,
+        "text": "ka samamoodi vähendab jalajälge."
+      },
+      {
+        "start_seconds": 638.76,
+        "end_seconds": 645.28,
+        "text": "Ja tegelikult täna sellega ka tegeletakse, sest et noh, Eestis siseturg on meil väga"
+      },
+      {
+        "start_seconds": 645.28,
+        "end_seconds": 652.6,
+        "text": "väike, aga aga ja me sõltume väga palju siis välisturgude nõuetest ja seal"
+      },
+      {
+        "start_seconds": 652.6,
+        "end_seconds": 656.8,
+        "text": "tegelikult juba vaadatakse toodete jalajälgu, mistõttu ettevõtted sellega ka tegelevad"
+      },
+      {
+        "start_seconds": 656.8,
+        "end_seconds": 657.32,
+        "text": "."
+      },
+      {
+        "start_seconds": 657.32,
+        "end_seconds": 664.28,
+        "text": "Ja riigi vaatest, et mida me saaksimegi siis teisiti teha, on tegelikult see, et me ei"
+      },
+      {
+        "start_seconds": 664.28,
+        "end_seconds": 670.88,
+        "text": "saa lahendada ära kõiki globaalseid muresid ja kui me neid kõiki hakkame lahendama, siis"
+      },
+      {
+        "start_seconds": 670.88,
+        "end_seconds": 675.36,
+        "text": "me lahendame siis kümnest probleemist võib-olla igalt ühelt natukene, aga me peaksime"
+      },
+      {
+        "start_seconds": 675.36,
+        "end_seconds": 681.24,
+        "text": "fokusseerima kindlate probleemide lahendamist, mis on Eesti kontekstis olulised ja need"
+      },
+      {
+        "start_seconds": 681.24,
+        "end_seconds": 686.72,
+        "text": "peaksid olemagi vaadatud selle järgi, et millised ressursid meil siin on."
+      },
+      {
+        "start_seconds": 686.72,
+        "end_seconds": 692.56,
+        "text": "Et näiteks puiduressurss, see on meil tegelikult täna kasutamata."
+      },
+      {
+        "start_seconds": 692.56,
+        "end_seconds": 698.96,
+        "text": "Me ekspordime ümarpalki, pelleteid, mis on madala lisandväärtusega tooted, kasutame pu"
+      },
+      {
+        "start_seconds": 698.96,
+        "end_seconds": 705.0,
+        "text": "itu energeetikas, kus siis süsinik vabaneb eks ole kiiresti tagasi atmosfääri ja vaid"
+      },
+      {
+        "start_seconds": 705.0,
+        "end_seconds": 709.84,
+        "text": "kaksteist, ei neliteist protsenti puidust umbes läheb siis selliste kestvustoodete või"
+      },
+      {
+        "start_seconds": 709.84,
+        "end_seconds": 712.6,
+        "text": "siis kõrgema lisandväärtusega toodete tootmiseks."
+      },
+      {
+        "start_seconds": 712.6,
+        "end_seconds": 718.72,
+        "text": "Et tegelikult Eesti kontekstis oleks oluline ikkagi see väärindada siin kohapeal majandus"
+      },
+      {
+        "start_seconds": 718.72,
+        "end_seconds": 724.4,
+        "text": "e vaatest, siis oleks oluline ja samamoodi, eks ole põlevkivi, et kui me seda energe"
+      },
+      {
+        "start_seconds": 724.4,
+        "end_seconds": 729.12,
+        "text": "etikas enam kasutada ei saa, Eesti põlevkivi on väga unikaalse koostisega, et sealt on"
+      },
+      {
+        "start_seconds": 729.12,
+        "end_seconds": 736.36,
+        "text": "võimalik kemikaal näiteks toota, et siis sellega võiks tegeleda ja ja siis need ongi"
+      },
+      {
+        "start_seconds": 736.36,
+        "end_seconds": 741.2,
+        "text": "minu mõtted põhimõtteliselt, et ma ei tea, kas läks see monoloog vist väga pikaks juba"
+      },
+      {
+        "start_seconds": 741.2,
+        "end_seconds": 741.44,
+        "text": "."
+      },
+      {
+        "start_seconds": 741.44,
+        "end_seconds": 744.84,
+        "text": "Ja aitäh, väga head ja asjakohased mõtted."
+      },
+      {
+        "start_seconds": 744.84,
+        "end_seconds": 750.36,
+        "text": "Ja tegelikult sinu sõnavõtust ma püüdsingi kinni ikkagi selle ringse majandusmudeli."
+      },
+      {
+        "start_seconds": 750.36,
+        "end_seconds": 754.8,
+        "text": "Ja ma tulekski siit Alari juurde, et Alar, sa oled oma sõnavõttudes ja ülesastumises"
+      },
+      {
+        "start_seconds": 754.8,
+        "end_seconds": 759.04,
+        "text": "korduvalt maininud, et me ei saa endale lubada raiskavat majandusmudelit."
+      },
+      {
+        "start_seconds": 759.04,
+        "end_seconds": 764.64,
+        "text": "Ja olen sellega enam kui nõus, eriti siin Eestis, kus meil ruumi napib, ressurssi na"
+      },
+      {
+        "start_seconds": 764.64,
+        "end_seconds": 766.72,
+        "text": "pib, inimesi napib, eks ole."
+      },
+      {
+        "start_seconds": 766.72,
+        "end_seconds": 771.08,
+        "text": "Ja oma osa projektis, kus te ka tegelikult väärindate seda sama põlevkivituhka, mille"
+      },
+      {
+        "start_seconds": 771.08,
+        "end_seconds": 776.2,
+        "text": "st ka Tiina siin rääkis, et tegelikult te näete ka laiemalt suurt potentsiaali ka kogu"
+      },
+      {
+        "start_seconds": 776.2,
+        "end_seconds": 781.0,
+        "text": "Euroopa sellise materjalikriisi lahendamiseks, mis on kindlasti üks väärt ja suur sa"
+      },
+      {
+        "start_seconds": 781.0,
+        "end_seconds": 783.88,
+        "text": "mm sellise sõltumatuse ja julgeoleku tagamisel."
+      },
+      {
+        "start_seconds": 783.88,
+        "end_seconds": 788.76,
+        "text": "Aga kui nüüd rääkida sellest, et ega need sellised innovaatilised lahendused kipuvad"
+      },
+      {
+        "start_seconds": 788.76,
+        "end_seconds": 795.0,
+        "text": "suurtööstustesse ikkagi väga visalt tulema, et kus sa näed nagu seal kahe sellise ütleme"
+      },
+      {
+        "start_seconds": 795.0,
+        "end_seconds": 798.92,
+        "text": "sellise rolli vahel seistes ja laveerides, et kus need takistused siis tegelikult on"
+      },
+      {
+        "start_seconds": 798.92,
+        "end_seconds": 802.28,
+        "text": ", kust need kaikad meil kodarates on, et miks see innovatsioon ei taha sinna juurduda"
+      },
+      {
+        "start_seconds": 802.28,
+        "end_seconds": 803.28,
+        "text": "?"
+      },
+      {
+        "start_seconds": 803.28,
+        "end_seconds": 808.72,
+        "text": "Ma arvan, et seal on, ütleme, kui me võtame ringmajanduse, siis seal on üks, need välja"
+      },
+      {
+        "start_seconds": 808.72,
+        "end_seconds": 813.0,
+        "text": "kutsed on mõlemal pool, nii neid, kes proovivad arendada ringmajanduslahendusi kui nende"
+      },
+      {
+        "start_seconds": 813.0,
+        "end_seconds": 815.88,
+        "text": "pool, kes proovivad rakendada."
+      },
+      {
+        "start_seconds": 815.88,
+        "end_seconds": 820.64,
+        "text": "Võib-olla esimene asi, mida ma olen ka palju öelnud, et, et kui sa hakkad tegema ring"
+      },
+      {
+        "start_seconds": 820.64,
+        "end_seconds": 824.76,
+        "text": "majandusse projekti või teed ringmajandust oma tootmise sisse viia, siis seda ei tohi"
+      },
+      {
+        "start_seconds": 824.76,
+        "end_seconds": 829.12,
+        "text": "teha sellepärast, et sa saaks öelda, et ja ma teen ringmajandust, vaid see peab reaal"
+      },
+      {
+        "start_seconds": 829.12,
+        "end_seconds": 831.52,
+        "text": "selt mingit probleemi lahendama."
+      },
+      {
+        "start_seconds": 831.52,
+        "end_seconds": 836.16,
+        "text": "Sellisel juhul, kui tal mingit probleemi lahendab, siis ta ka suure tõenäosusega tasu"
+      },
+      {
+        "start_seconds": 836.16,
+        "end_seconds": 837.0,
+        "text": "b ära."
+      },
+      {
+        "start_seconds": 837.0,
+        "end_seconds": 841.64,
+        "text": "Ehk siis see on palju vastuvõtlikum nii-öelda tavatööstusele."
+      },
+      {
+        "start_seconds": 841.64,
+        "end_seconds": 846.64,
+        "text": "Et see võib olla näide on ka sellest, et kuna, kuna me päris palju jäätmesektoris on"
+      },
+      {
+        "start_seconds": 846.64,
+        "end_seconds": 853.12,
+        "text": "ju toimetame, siis lihtsalt võttes mingid jäätmed need ära purustades ja proovides neid"
+      },
+      {
+        "start_seconds": 853.12,
+        "end_seconds": 854.92,
+        "text": "kuhugi sisse segada."
+      },
+      {
+        "start_seconds": 854.92,
+        "end_seconds": 859.28,
+        "text": "Ja noh, see on põhimõtteliselt ringmajandus, aga, aga selle tulemusena on see, et, et"
+      },
+      {
+        "start_seconds": 859.28,
+        "end_seconds": 864.08,
+        "text": "see ikkagi see toode, mille sa siis toodad selle kvaliteedi, et hoida seda kvaliteeti"
+      },
+      {
+        "start_seconds": 864.08,
+        "end_seconds": 868.04,
+        "text": ", seal on piir ees, kui palju sa seda toorainet saad kasutada, et näiteks sa saadki ainult"
+      },
+      {
+        "start_seconds": 868.04,
+        "end_seconds": 870.48,
+        "text": "kümme protsenti seda sinna sisse segada."
+      },
+      {
+        "start_seconds": 870.48,
+        "end_seconds": 873.32,
+        "text": "See tegelikult ei lahenda ära probleemi."
+      },
+      {
+        "start_seconds": 873.32,
+        "end_seconds": 879.08,
+        "text": "Kui näiteks probleem on see, et noh, ma ei tea, võib-olla liiga saastavad on need too"
+      },
+      {
+        "start_seconds": 879.08,
+        "end_seconds": 882.16,
+        "text": "rained, millest sa oma toodet toodad."
+      },
+      {
+        "start_seconds": 882.16,
+        "end_seconds": 887.28,
+        "text": "Ja teiselt poolt kindlasti, kui, kui hakata niimoodi alternatiivseid toormeid või, või"
+      },
+      {
+        "start_seconds": 887.28,
+        "end_seconds": 894.08,
+        "text": "siis ka mingeid alternatiivsemaid tehnoloogiaid rakendama, siis tänane seadusandlus on"
+      },
+      {
+        "start_seconds": 894.08,
+        "end_seconds": 898.36,
+        "text": "Euroopa Liidus ja, ja ka Eestis üles ehitatud niisuguse lineaarmajandusele, et seal tuleb"
+      },
+      {
+        "start_seconds": 898.36,
+        "end_seconds": 902.72,
+        "text": "päris palju kaikaid kodaratesse, kui sa proovid teha asju natuke teistmoodi."
+      },
+      {
+        "start_seconds": 902.72,
+        "end_seconds": 909.36,
+        "text": "Eks neist saab mööda ja, ja neid saab ka nii-öelda selgitades tööd tehes ja sinna saab"
+      },
+      {
+        "start_seconds": 909.36,
+        "end_seconds": 911.36,
+        "text": "ka nagu, selle asja saab toimima."
+      },
+      {
+        "start_seconds": 911.36,
+        "end_seconds": 913.56,
+        "text": "Aga see võtab lihtsalt hästi palju aega."
+      },
+      {
+        "start_seconds": 913.56,
+        "end_seconds": 920.88,
+        "text": "Ja see on ka üks võib-olla rohepöörde sellistest minu"
+      },
+      {
+        "start_seconds": 920.88,
+        "end_seconds": 925.32,
+        "text": "arust väljakutsetest, et me oleme proovinud nagu vanatööstust kinni panna ja siis loo"
+      },
+      {
+        "start_seconds": 925.32,
+        "end_seconds": 929.36,
+        "text": "ta, et uus tekib asemele, et tegelikult nii päris ei saa, sest võib-olla mõne vana teha"
+      },
+      {
+        "start_seconds": 929.36,
+        "end_seconds": 935.16,
+        "text": "se laen on veel Swedbankile maksmata ja ja et see on kõik omavahel seotud, et see üle"
+      },
+      {
+        "start_seconds": 935.16,
+        "end_seconds": 940.04,
+        "text": "minek peaks olema sujuvam ja, ja nagu Anni ütles, et, et seal peaks olema rohkem inte"
+      },
+      {
+        "start_seconds": 940.04,
+        "end_seconds": 941.08,
+        "text": "gratsiooni."
+      },
+      {
+        "start_seconds": 941.08,
+        "end_seconds": 946.88,
+        "text": "Võib-olla Eestis on ka veel üks väljakutse selles, et, et kui meil ei ole tegelikult"
+      },
+      {
+        "start_seconds": 946.88,
+        "end_seconds": 952.12,
+        "text": "väga head tööstussünergiat ehk meil ei ole nagu selliseid tööstusparke, kus, kus ütleme"
+      },
+      {
+        "start_seconds": 952.12,
+        "end_seconds": 957.88,
+        "text": ", üks tehas toodab teisele tooret, millest saab nii-öelda, millest saab järjest suure"
+      },
+      {
+        "start_seconds": 957.88,
+        "end_seconds": 962.16,
+        "text": "ma lisandväärtusega toode on ju, kuni see jõuab jaeturule."
+      },
+      {
+        "start_seconds": 962.16,
+        "end_seconds": 967.32,
+        "text": "Meil on üpris nii palju, kui seda tööstust on, see on üpris hajali laiali."
+      },
+      {
+        "start_seconds": 967.32,
+        "end_seconds": 972.72,
+        "text": "Ja, ja see kindlasti niisugune sünergia aitab, et ma tean paari näidet, et näiteks nii"
+      },
+      {
+        "start_seconds": 972.72,
+        "end_seconds": 979.92,
+        "text": "sugune suhteliselt radikaalne innovatsioon, et oota CO kahest siis äädikat."
+      },
+      {
+        "start_seconds": 979.92,
+        "end_seconds": 987.24,
+        "text": "Üks ettevõte ehitas selle demotehase Taani, aga tööstuslikku tehast nad ehitavad"
+      },
+      {
+        "start_seconds": 987.24,
+        "end_seconds": 992.08,
+        "text": "Ameerikasse sel põhjusel, et seal on suured tööstuspargid, kus neil neil lisaks CO kahe"
+      },
+      {
+        "start_seconds": 992.08,
+        "end_seconds": 994.28,
+        "text": "le vaja ka vesinikku."
+      },
+      {
+        "start_seconds": 994.28,
+        "end_seconds": 998.8,
+        "text": "Et kus neil on nii-öelda torus kõik olemas, neil on CO kaks olemas, neil on vesinik olemas"
+      },
+      {
+        "start_seconds": 998.8,
+        "end_seconds": 1001.28,
+        "text": ", neil on energia olemas, kõik ühes kohas."
+      },
+      {
+        "start_seconds": 1001.28,
+        "end_seconds": 1005.4,
+        "text": "Ja kui sa teed uusi tehnoloogiaid, seal riskid on, on suured ja kui sa lisad veel selle"
+      },
+      {
+        "start_seconds": 1005.4,
+        "end_seconds": 1010.32,
+        "text": "juurde, et sa pead endale kõik ka ise kohale vedama, siis see nii-öelda vähendab seda"
+      },
+      {
+        "start_seconds": 1010.32,
+        "end_seconds": 1019.28,
+        "text": "tõenäosust ja et sa saad pangast laenu või, või sa saad EIS'ist toetust."
+      },
+      {
+        "start_seconds": 1019.28,
+        "end_seconds": 1020.88,
+        "text": "Ja aitäh."
+      },
+      {
+        "start_seconds": 1020.88,
+        "end_seconds": 1025.6,
+        "text": "Ja väga toredalt tõid juba Swedbanki siia sisse, kui ka sellise rohepöördeveduri või"
+      },
+      {
+        "start_seconds": 1025.6,
+        "end_seconds": 1030.4,
+        "text": ", või mingis mõttes ka siis ka see rahastuse poole pealt ka piirangud."
+      },
+      {
+        "start_seconds": 1030.4,
+        "end_seconds": 1035.04,
+        "text": "Et jah, et kui me tahame need ideed reaalseks muuta, siis paratamatult selleks on meil"
+      },
+      {
+        "start_seconds": 1035.04,
+        "end_seconds": 1036.0,
+        "text": "vaja raha."
+      },
+      {
+        "start_seconds": 1036.0,
+        "end_seconds": 1041.0,
+        "text": "Et Maris, kuidas te Swedbankis üldse hindate tänast sellist rohetehnoloogiate turu a"
+      },
+      {
+        "start_seconds": 1041.0,
+        "end_seconds": 1042.2,
+        "text": "traktiivsust?"
+      },
+      {
+        "start_seconds": 1042.2,
+        "end_seconds": 1046.96,
+        "text": "Et ja just selles vaates ka, et, et mis teil nagu tekitab nende vastu usaldust ja mis"
+      },
+      {
+        "start_seconds": 1046.96,
+        "end_seconds": 1051.72,
+        "text": "pigem ka võib-olla lammutab seda, et kui me räägime sellisest nagu innovatsiooni ja ro"
+      },
+      {
+        "start_seconds": 1051.72,
+        "end_seconds": 1055.92,
+        "text": "hetehnoloogiate siis tekitamisest või maaletoomisest, et ühelt poolt nagu suurtööstus"
+      },
+      {
+        "start_seconds": 1055.92,
+        "end_seconds": 1060.8,
+        "text": "tele on meeletu sihuke poliitiline, ühiskondlik surve, aga samas jällegi need innova"
+      },
+      {
+        "start_seconds": 1060.8,
+        "end_seconds": 1064.2,
+        "text": "atilised lahendused, nagu ka Alar ütles, et nad ei ole alati sellised sirgjoonelised"
+      },
+      {
+        "start_seconds": 1064.2,
+        "end_seconds": 1068.8,
+        "text": ", et see võtab aega, et kõik saaks nagu toimuda ja rohkem seda sünergiat peaks seal olema"
+      },
+      {
+        "start_seconds": 1068.8,
+        "end_seconds": 1068.92,
+        "text": "."
+      },
+      {
+        "start_seconds": 1068.92,
+        "end_seconds": 1073.48,
+        "text": "Et kuidas te siis nagu rahastaja vaatest kogu seda kompotti vaatate, kui näiteks see"
+      },
+      {
+        "start_seconds": 1073.48,
+        "end_seconds": 1077.28,
+        "text": "plaan, mis algselt, millega algselt tuldi raha küsima, see võib lõpuks olla kaheksanda"
+      },
+      {
+        "start_seconds": 1077.28,
+        "end_seconds": 1081.0,
+        "text": "t, üheksandat või kümnendat nägu."
+      },
+      {
+        "start_seconds": 1081.0,
+        "end_seconds": 1086.16,
+        "text": "Hakkan siit ühtepidi kuskilt minema, kui sa küsid, et mis on investori või laenuandja"
+      },
+      {
+        "start_seconds": 1086.16,
+        "end_seconds": 1090.4,
+        "text": "jaoks atraktiivne, siis tõenäoliselt kõige atraktiivsem, millest me alustame, on üldse"
+      },
+      {
+        "start_seconds": 1090.4,
+        "end_seconds": 1091.32,
+        "text": "tootlus."
+      },
+      {
+        "start_seconds": 1091.32,
+        "end_seconds": 1095.8,
+        "text": "Et, et ta vaatab, et see projekt on tema jaoks tootlik, laenu andmise puhul on selle"
+      },
+      {
+        "start_seconds": 1095.8,
+        "end_seconds": 1100.28,
+        "text": "ks siis, määratakse see hind kohe alguses ära, see on laenuintress, aga investoril siis"
+      },
+      {
+        "start_seconds": 1100.28,
+        "end_seconds": 1105.36,
+        "text": "ta loodab, et ta saab sealt mingit kasvu, eks ole."
+      },
+      {
+        "start_seconds": 1105.36,
+        "end_seconds": 1110.28,
+        "text": "Ja, ja noh, investorite ja võib-olla laenuandja vahe on ka see, et investorid on, kes"
+      },
+      {
+        "start_seconds": 1110.28,
+        "end_seconds": 1114.36,
+        "text": "on riskiinvestorid, on valmis ka kõrgemat riski võtma ja võib-olla mingitesse uutesse"
+      },
+      {
+        "start_seconds": 1114.36,
+        "end_seconds": 1120.52,
+        "text": "innovatsioonidesse raha panema ja, ja panga puhul on see riskiisu veidi madalam, et,"
+      },
+      {
+        "start_seconds": 1120.52,
+        "end_seconds": 1124.68,
+        "text": "et seal vaadatakse ikkagi juba pikaajaliselt, püütakse pikaajaliselt ära hinnata, et"
+      },
+      {
+        "start_seconds": 1124.68,
+        "end_seconds": 1128.36,
+        "text": ", et kas see siis on tootlik projekt või mitte, aga noh, see on muidugi ka ettevõtte"
+      },
+      {
+        "start_seconds": 1128.36,
+        "end_seconds": 1133.12,
+        "text": "enda huvi ju algusest peale, et kui ta midagi tegema hakkab, et siis see ikkagi ka ennast"
+      },
+      {
+        "start_seconds": 1133.12,
+        "end_seconds": 1134.6,
+        "text": "ära tasuks."
+      },
+      {
+        "start_seconds": 1134.6,
+        "end_seconds": 1139.84,
+        "text": "Aga noh, seda atraktiivsust natukene investori ja panga osas suunab ikkagi Euroopa Li"
+      },
+      {
+        "start_seconds": 1139.84,
+        "end_seconds": 1145.68,
+        "text": "it oma regulatsioonidega, sest et ka meie peame näiteks raporteerima enda rohelaenud"
+      },
+      {
+        "start_seconds": 1145.68,
+        "end_seconds": 1151.68,
+        "text": "e hulka ja osakaalu ja, ja mida rohkem meil neid oma portfellis on, siis seda parem."
+      },
+      {
+        "start_seconds": 1151.68,
+        "end_seconds": 1156.16,
+        "text": "Aga sellegipoolest lihtsalt ainult sellepärast, et tegemist on mingisuguse rohetehnoloogi"
+      },
+      {
+        "start_seconds": 1156.16,
+        "end_seconds": 1160.76,
+        "text": "aga või, või keskkonnasäästliku tegevusega automaatselt sellepärast kohe laenu ei and"
+      },
+      {
+        "start_seconds": 1160.76,
+        "end_seconds": 1162.04,
+        "text": "a, ei anta."
+      },
+      {
+        "start_seconds": 1162.04,
+        "end_seconds": 1166.4,
+        "text": "Et, et klienti või seda projekti vaadatakse ikkagi terviklikult nii tema finantsvõime"
+      },
+      {
+        "start_seconds": 1166.4,
+        "end_seconds": 1171.6,
+        "text": "kust või seda finantsplaani selle projektiga, mida ta plaanib teha, ka seda, kuidas ette"
+      },
+      {
+        "start_seconds": 1171.6,
+        "end_seconds": 1177.04,
+        "text": "võtet juhitakse, kui läbipaistev ta on ja, ja, ja, ja sinna kõik need muud komponendi"
+      },
+      {
+        "start_seconds": 1177.04,
+        "end_seconds": 1179.64,
+        "text": "d, mis selle, mis sellega kaasnes võivad käia."
+      },
+      {
+        "start_seconds": 1179.64,
+        "end_seconds": 1185.6,
+        "text": "Aga jah, kõige olulisem on ikkagi see, see riski hindamine, et ühest küljest võibki võtta"
+      },
+      {
+        "start_seconds": 1185.6,
+        "end_seconds": 1191.48,
+        "text": ", et see üks risk on tegelikult seesama tehnoloogia või, või see innovatsioon, et in"
+      },
+      {
+        "start_seconds": 1191.48,
+        "end_seconds": 1196.68,
+        "text": "novatsioon, kui ta on mingisugune väga uus asi, mis on korralikult testimata, siis selle"
+      },
+      {
+        "start_seconds": 1196.68,
+        "end_seconds": 1198.56,
+        "text": ", seda on väga keeruline hinnata."
+      },
+      {
+        "start_seconds": 1198.56,
+        "end_seconds": 1203.08,
+        "text": "Et seal tekib küll ka see investeeringu garantii, mida me siin siin ühes eelnevas ve"
+      },
+      {
+        "start_seconds": 1203.08,
+        "end_seconds": 1207.96,
+        "text": "stluses rääkisime ka võib-olla Tiina pärast sellest natukene veel räägib, et, et kes"
+      },
+      {
+        "start_seconds": 1207.96,
+        "end_seconds": 1212.6,
+        "text": "siis selle garantii annab, et kui ikkagi see innovatsioon nüüd lõpuks ei tööta."
+      },
+      {
+        "start_seconds": 1212.6,
+        "end_seconds": 1217.72,
+        "text": "Aga, aga teine pool, see risk võib olla ka hoopis vastupidine, et kui ettevõte tegelikult"
+      },
+      {
+        "start_seconds": 1217.72,
+        "end_seconds": 1222.84,
+        "text": "ei taha areneda, kui ta ei taha teha neid muudatusi oma ettevõtte, kas siis tehnoloogi"
+      },
+      {
+        "start_seconds": 1222.84,
+        "end_seconds": 1227.84,
+        "text": "as või, või noh, kasvõi need väikesed muutused, millest siin Alar ka rääkis, et et sa"
+      },
+      {
+        "start_seconds": 1227.84,
+        "end_seconds": 1232.52,
+        "text": "pead ajaga kaasas käima, sest et muidu sa ei ole konkurentsivõimeline, et lihtsalt selle"
+      },
+      {
+        "start_seconds": 1232.52,
+        "end_seconds": 1237.2,
+        "text": "vana, nii nagu me oleme alati teinud, et selle pealt ikkagi enam ei jookse."
+      },
+      {
+        "start_seconds": 1237.2,
+        "end_seconds": 1241.44,
+        "text": "Ja, ja tuleb tegelikult ajaga kaasas käia, et lihtsalt tuleb leida panga, pank vaata"
+      },
+      {
+        "start_seconds": 1241.44,
+        "end_seconds": 1245.72,
+        "text": "b ka seda, et see tasakaal oleks ikkagi olemas ja pigem ikkagi suunatakse neid uusi lahendus"
+      },
+      {
+        "start_seconds": 1245.72,
+        "end_seconds": 1251.28,
+        "text": "i võtma, mis oleksid nii väiksema jalajäljega kui ka siis käiks siis ajaga, ajaga ja"
+      },
+      {
+        "start_seconds": 1251.28,
+        "end_seconds": 1254.08,
+        "text": "trendidega ja konkurentsiga kaasas."
+      },
+      {
+        "start_seconds": 1254.08,
+        "end_seconds": 1260.8,
+        "text": "Et kindlasti, kindlasti see, see soov sinnapoole suunata on ja, ja see selles mõttes"
+      },
+      {
+        "start_seconds": 1260.8,
+        "end_seconds": 1267.84,
+        "text": "ikkagi atraktiivne on, et jah."
+      },
+      {
+        "start_seconds": 1267.84,
+        "end_seconds": 1270.68,
+        "text": "Mis praegu hetkel rohkem, ma arvan, et ei lisagi peamine mõte."
+      },
+      {
+        "start_seconds": 1270.68,
+        "end_seconds": 1276.36,
+        "text": "Okei, aga ma võtaks kohe sõnasabast kinni, sa mainisid seda riski hindamist ja seda on"
+      },
+      {
+        "start_seconds": 1276.36,
+        "end_seconds": 1279.64,
+        "text": "väga raske teha, kui innovatsioon on tegelikult testimata."
+      },
+      {
+        "start_seconds": 1279.64,
+        "end_seconds": 1283.92,
+        "text": "Et ma ei tea, Tiina, sa võid mulle vastu vaielda või kaasa kiita, aga mulle tundub, et"
+      },
+      {
+        "start_seconds": 1283.92,
+        "end_seconds": 1288.36,
+        "text": "meil Eestis tegelikult selliseid nii-öelda liivakaste ja testkeskkondi on pigem nagu"
+      },
+      {
+        "start_seconds": 1288.36,
+        "end_seconds": 1289.04,
+        "text": "vähe."
+      },
+      {
+        "start_seconds": 1289.04,
+        "end_seconds": 1293.48,
+        "text": "Et kuidas või mismoodi tegelikult siis neid uuelaadseid tehnoloogiaid siis tegelikult"
+      },
+      {
+        "start_seconds": 1293.48,
+        "end_seconds": 1297.48,
+        "text": "testida ja see, kas see innovatsioon, kas ta töötab, kas see lahendus kuskil nagu mingi"
+      },
+      {
+        "start_seconds": 1297.48,
+        "end_seconds": 1301.92,
+        "text": "praktilises keskkonnas, kas ta on nagu elujõuline ja, ja kuidas te nagu võib-olla ka"
+      },
+      {
+        "start_seconds": 1301.92,
+        "end_seconds": 1305.96,
+        "text": "sellise riigi toetuse vaates seda nagu vaatate, et."
+      },
+      {
+        "start_seconds": 1305.96,
+        "end_seconds": 1313.24,
+        "text": "Et testkeskkondi, eks mingeid testkeskkondi kindlasti ülikoolide juures on, aga iga erinev"
+      },
+      {
+        "start_seconds": 1313.24,
+        "end_seconds": 1317.64,
+        "text": "a valdkonna jaoks Eestisse tekitada testkeskkondi, ega see ka mõistlik ei ole."
+      },
+      {
+        "start_seconds": 1317.64,
+        "end_seconds": 1322.0,
+        "text": "Et valdkondi on lihtsalt nii palju ja neid keskkondi oleks siis nii palju vaja ja nende"
+      },
+      {
+        "start_seconds": 1322.0,
+        "end_seconds": 1326.52,
+        "text": "kasutusala või noh, neid ei kasutataks nii palju, eks ole, et mõistlik on kasutada teist"
+      },
+      {
+        "start_seconds": 1326.52,
+        "end_seconds": 1329.64,
+        "text": "e riikides olevaid keskkondi."
+      },
+      {
+        "start_seconds": 1329.64,
+        "end_seconds": 1336.92,
+        "text": "Eks ole, sinna minek kallis ja nii edasi, aga meil on see toetustes lubatud, et sa kasuta"
+      },
+      {
+        "start_seconds": 1336.92,
+        "end_seconds": 1339.36,
+        "text": "dki ju välispartnereid."
+      },
+      {
+        "start_seconds": 1339.36,
+        "end_seconds": 1346.76,
+        "text": "Et on arendusosak rakendusuuringute toetuse kaudu sa saadki"
+      },
+      {
+        "start_seconds": 1346.76,
+        "end_seconds": 1351.6,
+        "text": "välispartneri teenuseid kasutada, et see kõik on lubatud ja saadki kasutada, aga noh"
+      },
+      {
+        "start_seconds": 1351.6,
+        "end_seconds": 1355.36,
+        "text": ", sa pead ise teadma siis, et kuhu sa testima lähed ja mida sa testima lähed, ma usun"
+      },
+      {
+        "start_seconds": 1355.36,
+        "end_seconds": 1361.68,
+        "text": ", et see, kes seda tehnoloogiat arendab, teabki ise tegelikult paremini, et selles suht"
+      },
+      {
+        "start_seconds": 1361.68,
+        "end_seconds": 1367.4,
+        "text": "es, et innovatsiooniagentuur võib-olla ei teagi nii palju kui see, kes arendab, eks ole"
+      },
+      {
+        "start_seconds": 1367.4,
+        "end_seconds": 1368.04,
+        "text": "."
+      },
+      {
+        "start_seconds": 1368.04,
+        "end_seconds": 1375.2,
+        "text": "Ja, ja see kõik on toetatav, et saab kasutada neid meie toetusi selleks."
+      },
+      {
+        "start_seconds": 1375.2,
+        "end_seconds": 1379.2,
+        "text": "Okei, ja ma saan aru, et justkui nagu panga kui rahastaja vaatest, et ta annabki sellise"
+      },
+      {
+        "start_seconds": 1379.2,
+        "end_seconds": 1384.16,
+        "text": "lisagarantii, et kui see toetus on juba varem küsitud selle testimiseks."
+      },
+      {
+        "start_seconds": 1384.16,
+        "end_seconds": 1387.92,
+        "text": "Jah, noh, põhimõtteliselt küll, et kui seal on ikkagi keegi veel, kes tegelikult on selle"
+      },
+      {
+        "start_seconds": 1387.92,
+        "end_seconds": 1392.92,
+        "text": "projektiga nagu läbi analüüsinud ja ta on kinnitanud, et see on midagi relevantset, eks"
+      },
+      {
+        "start_seconds": 1392.92,
+        "end_seconds": 1398.08,
+        "text": "ole, ja ja töötav ja toimiv asi ja, ja teisest küljest ei jää see pank, see risk ka üks"
+      },
+      {
+        "start_seconds": 1398.08,
+        "end_seconds": 1403.56,
+        "text": "i pangale, et või siis pangal, mis on veel nagu see tagala, on see, et et see finantse"
+      },
+      {
+        "start_seconds": 1403.56,
+        "end_seconds": 1406.64,
+        "text": "ering on ka tulnud veel lisaks kuskilt mujalt, et klient ei ole tegelikult sellega üks"
+      },
+      {
+        "start_seconds": 1406.64,
+        "end_seconds": 1409.36,
+        "text": "inda, et ta on tegelikult väga hästi tagatud."
+      },
+      {
+        "start_seconds": 1409.36,
+        "end_seconds": 1413.96,
+        "text": "Okei, aga mis siis tegelikult saab, oletame, et ettevõte on saanud nii riiklikku toet"
+      },
+      {
+        "start_seconds": 1413.96,
+        "end_seconds": 1418.0,
+        "text": "ust kui ka pangalaenu ja tegelikult see roheinnovatsioon ei tööta."
+      },
+      {
+        "start_seconds": 1418.0,
+        "end_seconds": 1421.6,
+        "text": "Mis me siis teeme, mis siis saab?"
+      },
+      {
+        "start_seconds": 1421.6,
+        "end_seconds": 1428.08,
+        "text": "Ma kohe siis haaran siit jälle sõna, et EIS'il on uus strateegia aastaks kaks tuhat kakskümmend"
+      },
+      {
+        "start_seconds": 1428.08,
+        "end_seconds": 1434.68,
+        "text": "kuus kuni kaks tuhat kaheksa planeerimisel ja meil on tegelikult siis suund liikuda to"
+      },
+      {
+        "start_seconds": 1434.68,
+        "end_seconds": 1440.84,
+        "text": "etuste juurest siis või tähendab suurendada osakaalu siis finantsinstrumentide osaka"
+      },
+      {
+        "start_seconds": 1440.84,
+        "end_seconds": 1442.64,
+        "text": "alu, suurendada, eks ole."
+      },
+      {
+        "start_seconds": 1442.64,
+        "end_seconds": 1449.92,
+        "text": "Et näiteks pakkuge, pakkudagi garantiid innovatsioonile"
+      },
+      {
+        "start_seconds": 1449.92,
+        "end_seconds": 1457.92,
+        "text": ", et, et ja pluss veel siis on uus see meede"
+      },
+      {
+        "start_seconds": 1457.92,
+        "end_seconds": 1463.48,
+        "text": "innovatsioonilaen, et innovatsioonilaen siis saaks olema selline, millega on võimalik"
+      },
+      {
+        "start_seconds": 1463.48,
+        "end_seconds": 1470.24,
+        "text": "näiteks endale tema tootmist luua, et ühe kui sinu tehnoloogia valmidustase on juba jõud"
+      },
+      {
+        "start_seconds": 1470.24,
+        "end_seconds": 1473.64,
+        "text": "nud teatud etappi, siis sa enam toetust küsida ei saa."
+      },
+      {
+        "start_seconds": 1473.64,
+        "end_seconds": 1478.2,
+        "text": "Aga siis põhimõtteliselt ongi, et mis ma siis nüüd, mille eest ma siis seda testin nüüd"
+      },
+      {
+        "start_seconds": 1478.2,
+        "end_seconds": 1479.12,
+        "text": ", eks."
+      },
+      {
+        "start_seconds": 1479.12,
+        "end_seconds": 1484.84,
+        "text": "Demo tootmise jaoks on see siis nagu kavandatud ja, ja see siis näekski välja niimoodi"
+      },
+      {
+        "start_seconds": 1484.84,
+        "end_seconds": 1492.24,
+        "text": ", et kui selgub mingitel asjaoludel, et see innovatsioon ikkagist"
+      },
+      {
+        "start_seconds": 1492.24,
+        "end_seconds": 1499.2,
+        "text": "ei ole majanduslikult mõistlik ei ole seda, eks ole, lõpuni teha, et siis tegelikult"
+      },
+      {
+        "start_seconds": 1499.2,
+        "end_seconds": 1506.36,
+        "text": "see laen, laenu nagu tagasi maksma ei pea, et see siis taandatakse nagu"
+      },
+      {
+        "start_seconds": 1506.36,
+        "end_seconds": 1511.2,
+        "text": "grandiks või toetuseks, et aga noh, et see ei saa olla nii, et sa siis lõpus ütled, et"
+      },
+      {
+        "start_seconds": 1511.2,
+        "end_seconds": 1515.68,
+        "text": "kuule, et ma nüüd ikkagist saan, et see peab ikka alguse poole selguma sul."
+      },
+      {
+        "start_seconds": 1515.68,
+        "end_seconds": 1520.08,
+        "text": "Okei, et see võtab justkui nagu pinge maha, aga tegelikult siis selle tehnoloogia või"
+      },
+      {
+        "start_seconds": 1520.08,
+        "end_seconds": 1522.32,
+        "text": "innovatsiooni arendajatel, eks ole."
+      },
+      {
+        "start_seconds": 1522.32,
+        "end_seconds": 1526.52,
+        "text": "Et, et kuidas või mis nagu seda luua, et nad julgeksid see riskijulgus nendel endal on"
+      },
+      {
+        "start_seconds": 1526.52,
+        "end_seconds": 1531.6,
+        "text": "ka palju suurem, et seda riski võtta, et minna tegelikult mingite innovaatilist lahendus"
+      },
+      {
+        "start_seconds": 1531.6,
+        "end_seconds": 1533.56,
+        "text": "t tegema."
+      },
+      {
+        "start_seconds": 1533.56,
+        "end_seconds": 1538.92,
+        "text": "Aga Alar, kas teil on mingeid selliseid ämbreid kolistatud, kui nüüd projektidest rääkida"
+      },
+      {
+        "start_seconds": 1538.92,
+        "end_seconds": 1543.4,
+        "text": ", et osa projekt ju ka tegelikult väga innovaatiline ja te teete väga ägedat asja, aga"
+      },
+      {
+        "start_seconds": 1543.4,
+        "end_seconds": 1547.4,
+        "text": "kas on nagu mingeid selliseid tagasilööke ka olnud, et et see innovatsioon noh, ilmselt"
+      },
+      {
+        "start_seconds": 1547.4,
+        "end_seconds": 1551.12,
+        "text": "teekond samamoodi polnud ju sirgjooneline, eks ole?"
+      },
+      {
+        "start_seconds": 1551.12,
+        "end_seconds": 1557.28,
+        "text": "Mina eks ikka on, et me algselt plaanisime tegelikult, me ei plaaninud teha, ehitada"
+      },
+      {
+        "start_seconds": 1557.28,
+        "end_seconds": 1561.16,
+        "text": "demotehast, et me praegu siin Narva ehitame demotehast."
+      },
+      {
+        "start_seconds": 1561.16,
+        "end_seconds": 1567.56,
+        "text": "Plaanisime ehitada ühe sellise suurema piloodi, noh, sellise pool käsitöölise piloodi"
+      },
+      {
+        "start_seconds": 1567.56,
+        "end_seconds": 1571.6,
+        "text": ", et toota siis seda toodet, mis me toodame sadestatud kaltsiumkarbonaat ja seal on nii"
+      },
+      {
+        "start_seconds": 1571.6,
+        "end_seconds": 1576.4,
+        "text": "sugune väljakutse, et kliendid tahavad enne, kui, kui, kui mets tehase jaoks seda lu"
+      },
+      {
+        "start_seconds": 1576.4,
+        "end_seconds": 1579.96,
+        "text": "kku panna, nii-öelda sellist nagu müüki."
+      },
+      {
+        "start_seconds": 1579.96,
+        "end_seconds": 1586.04,
+        "text": "Nad tahavad tihtipeale testida näiteks kaks-neli-viis-kümme tonni toodet ja noh, lab"
+      },
+      {
+        "start_seconds": 1586.04,
+        "end_seconds": 1591.16,
+        "text": "oris ei tooda sellises koguses, selleks on vaja ikkagi siukest pooltööstuslikku toot"
+      },
+      {
+        "start_seconds": 1591.16,
+        "end_seconds": 1597.76,
+        "text": "mist, tahtsime teha pilooti, mis oleks, töötaks hästi vähe tunde aastas."
+      },
+      {
+        "start_seconds": 1597.76,
+        "end_seconds": 1600.68,
+        "text": "Ei, see oleks kindlasti seda toetanud."
+      },
+      {
+        "start_seconds": 1600.68,
+        "end_seconds": 1606.76,
+        "text": "Aga siis tuli välja, et kuna, kuna seaduses on siis erinevad punktid, mis sätestavad"
+      },
+      {
+        "start_seconds": 1606.76,
+        "end_seconds": 1612.44,
+        "text": "jäätmete keemiliste termilist töötlemist, siis me oleks pidanud näiteks tegema eripla"
+      },
+      {
+        "start_seconds": 1612.44,
+        "end_seconds": 1617.16,
+        "text": "neeringu selle jaoks, et ehitada pilooti, et üldse teada saada, kas me üldse tahame teha"
+      },
+      {
+        "start_seconds": 1617.16,
+        "end_seconds": 1618.84,
+        "text": "seda projekti."
+      },
+      {
+        "start_seconds": 1618.84,
+        "end_seconds": 1625.56,
+        "text": "Ja noh, see oli kindlasti üks, kus me pidime plaani muutma ja noh, lõpuks me otsusta"
+      },
+      {
+        "start_seconds": 1625.56,
+        "end_seconds": 1631.96,
+        "text": "simegi siis teha piisavalt väikse sellise demo tehase, mis siis või väljakutse oligi"
+      },
+      {
+        "start_seconds": 1631.96,
+        "end_seconds": 1637.16,
+        "text": "seal, et kuna ta, kuna ta hetke tootmine, kuigi neid tunde aastas on vähe, siis hetke"
+      },
+      {
+        "start_seconds": 1637.16,
+        "end_seconds": 1641.92,
+        "text": "tootmine on väga kõrge, siis me me ehitasime tema tehase, mille hetke tootmine on väike"
+      },
+      {
+        "start_seconds": 1641.92,
+        "end_seconds": 1644.24,
+        "text": ", aga siis me teeme neid tunde rohkem."
+      },
+      {
+        "start_seconds": 1644.24,
+        "end_seconds": 1650.08,
+        "text": "Eks ta lõppkokkuvõttes tuleb kallim, aga, aga ta on ikkagi mõistlikum lahendus, kui teha"
+      },
+      {
+        "start_seconds": 1650.08,
+        "end_seconds": 1655.08,
+        "text": "pikalt lube ja otsida asukohta ja kui seda teha, et tänane demo tehas ongi tuhande ru"
+      },
+      {
+        "start_seconds": 1655.08,
+        "end_seconds": 1661.72,
+        "text": "udu peal tuleb iivi ja tööstusinkubaatorisse Narva, kõik tuleb tuppa."
+      },
+      {
+        "start_seconds": 1661.72,
+        "end_seconds": 1665.36,
+        "text": "Ehk siis juba olemasolevasse hoonesse."
+      },
+      {
+        "start_seconds": 1665.36,
+        "end_seconds": 1667.92,
+        "text": "Ja ikkagi lähedale teie toormele?"
+      },
+      {
+        "start_seconds": 1667.92,
+        "end_seconds": 1668.68,
+        "text": "Ja."
+      },
+      {
+        "start_seconds": 1668.68,
+        "end_seconds": 1672.08,
+        "text": "Et kas see oli noh, see ilmselt see ongi määrav selleks asukoha valikuks, eks ole?"
+      },
+      {
+        "start_seconds": 1672.08,
+        "end_seconds": 1678.24,
+        "text": "Ei no tema teose puhul mitte tegelikult tema teose puhul oligi see probleem, et ei Eestis"
+      },
+      {
+        "start_seconds": 1678.24,
+        "end_seconds": 1683.08,
+        "text": "ei olegi väga kohta, kuhu, kuhu sellist, selliseid näiteks sellist tehast ehitada, et"
+      },
+      {
+        "start_seconds": 1683.08,
+        "end_seconds": 1688.04,
+        "text": "Iivi jäänud inkubaator on üks esimesi selliseid valmis kohti, kus sa saad oma demo too"
+      },
+      {
+        "start_seconds": 1688.04,
+        "end_seconds": 1690.24,
+        "text": "tmist teha."
+      },
+      {
+        "start_seconds": 1690.24,
+        "end_seconds": 1694.92,
+        "text": "Et me vaatasime teisi asukohti ka, aga seal oleks pidanud väga palju olemasolevat in"
+      },
+      {
+        "start_seconds": 1694.92,
+        "end_seconds": 1697.16,
+        "text": "frastruktuuri ümber ehitama."
+      },
+      {
+        "start_seconds": 1697.16,
+        "end_seconds": 1701.04,
+        "text": "Et seega ei ole mõistlik, kuna, kuna see demo tootmine, noh, meil on eesmärgiks öeldu"
+      },
+      {
+        "start_seconds": 1701.04,
+        "end_seconds": 1705.28,
+        "text": "d, et niimoodi maksimaalselt viis aastat seda käitame, et siis ei ole mõtet seda inf"
+      },
+      {
+        "start_seconds": 1705.28,
+        "end_seconds": 1709.2,
+        "text": "rat sinna ümber või täitsa uut maja ehitada ei ole ka nagu väga mõistlik."
+      },
+      {
+        "start_seconds": 1709.2,
+        "end_seconds": 1714.04,
+        "text": "Et see protsent kuludest läheb suureks."
+      },
+      {
+        "start_seconds": 1714.04,
+        "end_seconds": 1718.6,
+        "text": "Aga kui me räägimegi sellistest ringsetest lahendustest, kas või sellest samast põle"
+      },
+      {
+        "start_seconds": 1718.6,
+        "end_seconds": 1724.04,
+        "text": "vkivituhast, et seda tegelikult saaks ju kasutada ka väga mitmel teisel val- teises val"
+      },
+      {
+        "start_seconds": 1724.04,
+        "end_seconds": 1725.72,
+        "text": "dkonnas, näiteks teedeehituses."
+      },
+      {
+        "start_seconds": 1725.72,
+        "end_seconds": 1729.48,
+        "text": "Aga me oleme ka omavahel põrgatanud, et see ei ole mõistlik, et kuidagi nagu ta on nii"
+      },
+      {
+        "start_seconds": 1729.48,
+        "end_seconds": 1734.32,
+        "text": "kallis, et tuua seda ja viia siis laiali seda toormet siis üle Eesti või, või veel ka"
+      },
+      {
+        "start_seconds": 1734.32,
+        "end_seconds": 1735.32,
+        "text": "ugemale."
+      },
+      {
+        "start_seconds": 1735.32,
+        "end_seconds": 1738.8,
+        "text": "Et aga keegi peab ju selle kulu siis nagu kinni maksma, et me justkui tahame neid ring"
+      },
+      {
+        "start_seconds": 1738.8,
+        "end_seconds": 1742.0,
+        "text": "seid lahendusi, aga samas jälle niisugune nokk kinni, saba lahti, et nad on ju palju"
+      },
+      {
+        "start_seconds": 1742.0,
+        "end_seconds": 1743.2,
+        "text": "kallimad."
+      },
+      {
+        "start_seconds": 1743.2,
+        "end_seconds": 1747.8,
+        "text": "Et kuidas nüüd sellele läheneda, et kes siis selle kulu tegelikult kinni peaks maksma"
+      },
+      {
+        "start_seconds": 1747.8,
+        "end_seconds": 1752.12,
+        "text": ", et kas riik peaks selle õla alla panema või on see eraettevõtete selline nagu risk"
+      },
+      {
+        "start_seconds": 1752.12,
+        "end_seconds": 1753.64,
+        "text": ", et tuleb regulatsioonidest?"
+      },
+      {
+        "start_seconds": 1753.64,
+        "end_seconds": 1759.08,
+        "text": "Ma korra täpsustan, et vist mitte põlevkivituhk, vaid see aheraine, mis jääb."
+      },
+      {
+        "start_seconds": 1759.08,
+        "end_seconds": 1762.8,
+        "text": "Aheraine spetsialistiga ikka räägime."
+      },
+      {
+        "start_seconds": 1762.8,
+        "end_seconds": 1764.16,
+        "text": "On teil mõtteid selles osas?"
+      },
+      {
+        "start_seconds": 1764.16,
+        "end_seconds": 1768.6,
+        "text": "Ma tean, et sul oli selles osas mingi hea, hea mõte või, või õigemini sa tead seda val"
+      },
+      {
+        "start_seconds": 1768.6,
+        "end_seconds": 1769.84,
+        "text": "u?"
+      },
+      {
+        "start_seconds": 1769.84,
+        "end_seconds": 1777.24,
+        "text": "Ja ma arvan, see, ütleme põhiline väljakutse ongi selles, et et kui me täna, kui me kasuta"
+      },
+      {
+        "start_seconds": 1777.24,
+        "end_seconds": 1785.76,
+        "text": "me neid teisaseid toormeid või, või siis või jäätmeid mingi asja tootmiseks, siis need"
+      },
+      {
+        "start_seconds": 1785.76,
+        "end_seconds": 1792.36,
+        "text": ", kui me toodame mingit noh, produkti näiteks killustikku, antud juhul, et tee alla panna"
+      },
+      {
+        "start_seconds": 1792.36,
+        "end_seconds": 1798.12,
+        "text": "teetammi alla, siis selle killustiku enda hind on nii väike, et tegelikult see ei ka"
+      },
+      {
+        "start_seconds": 1798.12,
+        "end_seconds": 1804.2,
+        "text": "ta seda kulu ära, et, et näiteks Ida-Virumaalt vedada, ma ei tea, Võrru tee ehituseks"
+      },
+      {
+        "start_seconds": 1804.2,
+        "end_seconds": 1811.24,
+        "text": "seda killustikku, et palju odavam on tuua seda kas karjäärist või võtta mingisugust a"
+      },
+      {
+        "start_seconds": 1811.24,
+        "end_seconds": 1816.92,
+        "text": "lternatiivset, kas liiva või kruusa kuskilt sealtsamast kõrvalt, tee kõrvalt karjäär"
+      },
+      {
+        "start_seconds": 1816.92,
+        "end_seconds": 1818.6,
+        "text": "ist."
+      },
+      {
+        "start_seconds": 1818.6,
+        "end_seconds": 1824.4,
+        "text": "Et selle vastu ei saa, et seal ütleme, ringmajanduse puhul see on seesama asi, mis ma"
+      },
+      {
+        "start_seconds": 1824.4,
+        "end_seconds": 1828.84,
+        "text": "enne rääkisin, et et sa pead vaatama alati sügavamale, sa pead vaatama, mis probleem"
+      },
+      {
+        "start_seconds": 1828.84,
+        "end_seconds": 1835.36,
+        "text": "i sa lahendad, et et kui me võtame selle killustiku, noh, mis probleeme me lahendame"
+      },
+      {
+        "start_seconds": 1835.36,
+        "end_seconds": 1839.04,
+        "text": ", et kas me lahendame seda probleemi, et seda jääb meil kuskil üle ja see on suures hu"
+      },
+      {
+        "start_seconds": 1839.04,
+        "end_seconds": 1844.52,
+        "text": "nnikus seda ei kasutata või me tahame lahendada probleemi, et meil oleks teed paremad"
+      },
+      {
+        "start_seconds": 1844.52,
+        "end_seconds": 1851.4,
+        "text": "või või odavamad, see võib ka olla vahel väljakutse."
+      },
+      {
+        "start_seconds": 1851.4,
+        "end_seconds": 1855.84,
+        "text": "Ja siit tulebki natuke nagu see, see panga mõtlemine samamoodi välja, et need ühest kü"
+      },
+      {
+        "start_seconds": 1855.84,
+        "end_seconds": 1862.6,
+        "text": "ljest seda ka toetamaks, et, et ettevõte peab ka nagu finantsiliselt ikkagi toime tule"
+      },
+      {
+        "start_seconds": 1862.6,
+        "end_seconds": 1867.52,
+        "text": "ma, et see, et tal on nagu hea tahe ja, ja teha nii-öelda, nii-öelda õiget asja, siis"
+      },
+      {
+        "start_seconds": 1867.52,
+        "end_seconds": 1870.56,
+        "text": "see peab olema tema jaoks ka nagu finantsiliselt ikkagi mõistlik."
+      },
+      {
+        "start_seconds": 1870.56,
+        "end_seconds": 1875.68,
+        "text": "Et nüüd, kes selle siis aitaks nii-öelda laiali jagada, et ettevõtted sealt kuskilt nii"
+      },
+      {
+        "start_seconds": 1875.68,
+        "end_seconds": 1882.28,
+        "text": "-öelda siis nüüd hoopis materjalipangast need, need materjalid kätte saaks, et seda me"
+      },
+      {
+        "start_seconds": 1882.28,
+        "end_seconds": 1887.16,
+        "text": "ei teagi, kas riik nagu sellist rolli endale üldse võtaks või, või siis tahab võtta."
+      },
+      {
+        "start_seconds": 1887.16,
+        "end_seconds": 1892.68,
+        "text": "Et ma just ise siin mõtlen, et noh, et see aherainemägi, et selle eest on ilmselt juba"
+      },
+      {
+        "start_seconds": 1892.68,
+        "end_seconds": 1895.36,
+        "text": "ka tasutud ja ta lihtsalt seal on, eks ole."
+      },
+      {
+        "start_seconds": 1895.36,
+        "end_seconds": 1901.04,
+        "text": "Et siis tegelikult suurt vajadust nagu kellelgi ei ole, et seda sealt ära kaotada, et"
+      },
+      {
+        "start_seconds": 1901.04,
+        "end_seconds": 1904.32,
+        "text": ", et kui nüüd oleks eesmärk, et kaotame selle maja ära on ju, et siis."
+      },
+      {
+        "start_seconds": 1904.32,
+        "end_seconds": 1908.84,
+        "text": "Aga noh, see oleks ebamõistlik eesmärk, et miks, miks seda peaks tegema, eks ole."
+      },
+      {
+        "start_seconds": 1908.84,
+        "end_seconds": 1912.6,
+        "text": "Selle vahe on lihtsalt see, et üks on see, et me kaevame maa alt juurde ja teine on see"
+      },
+      {
+        "start_seconds": 1912.6,
+        "end_seconds": 1914.92,
+        "text": ", et ta on juba seal maa peal olemas onju."
+      },
+      {
+        "start_seconds": 1914.92,
+        "end_seconds": 1920.48,
+        "text": "Jah, no eile ma olin ühes huvitavas arutelus, kus me rääkisime fosforiidi kaevandamise"
+      },
+      {
+        "start_seconds": 1920.48,
+        "end_seconds": 1926.2,
+        "text": "hinnast ja siis eks seal see, sealt kõlas täpselt sama asi siis välja, et, et noh, me"
+      },
+      {
+        "start_seconds": 1926.2,
+        "end_seconds": 1930.48,
+        "text": "peaks vaatama, et mis see koguhind on sellel protsessil, et."
+      },
+      {
+        "start_seconds": 1930.48,
+        "end_seconds": 1937.8,
+        "text": "Et kui, kui meil täna on kuskil mingid jäätmed hunnikus ja kui, kui nende ülalpi"
+      },
+      {
+        "start_seconds": 1937.8,
+        "end_seconds": 1944.32,
+        "text": "damine võtab nii-öelda maksumaksja raha iga aasta, sa pead tegema uuringuid, sa pead"
+      },
+      {
+        "start_seconds": 1944.32,
+        "end_seconds": 1949.0,
+        "text": "hoidma seda ümbrust puhtana, et ta ei rikuks ära põhjavett või, või ma ei tea, ei õh"
+      },
+      {
+        "start_seconds": 1949.0,
+        "end_seconds": 1954.04,
+        "text": "ku ära ei rikuks, on ju siis sellisel juhul nende jäätmete taaskasutamine, seal on nagu"
+      },
+      {
+        "start_seconds": 1954.04,
+        "end_seconds": 1959.48,
+        "text": "mõlemal pool kasu, et kui see on nii-öelda kaotad ära selle jäätmehunniku, siis võida"
+      },
+      {
+        "start_seconds": 1959.48,
+        "end_seconds": 1964.8,
+        "text": "b ka, ma ei tea riik või kelle iganes oma see jäätmehunnik on finantsiliselt sellega"
+      },
+      {
+        "start_seconds": 1964.8,
+        "end_seconds": 1969.04,
+        "text": ", sellelt poolt ja kui sa siis selle kasutad millekski, on ju, siis võidab ka teist,"
+      },
+      {
+        "start_seconds": 1969.04,
+        "end_seconds": 1974.44,
+        "text": "teiselt poolt, kes iganes seda kasutab, sest esmast tooret ei ole nii palju vaja."
+      },
+      {
+        "start_seconds": 1974.44,
+        "end_seconds": 1979.68,
+        "text": "Aga jah, et siin ütleme killustiku puhul on nagu võrdlus, et kui me teeme augu maa sisse"
+      },
+      {
+        "start_seconds": 1979.68,
+        "end_seconds": 1984.8,
+        "text": "tee kõrvale versus vedamiskulu Ida-Virumaalt on ju näiteks."
+      },
+      {
+        "start_seconds": 1984.8,
+        "end_seconds": 1987.96,
+        "text": "Noh, kui me, kui me ei ehita teed just Ida-Virumaal, kui me ehitame, ma ei tea Saare"
+      },
+      {
+        "start_seconds": 1987.96,
+        "end_seconds": 1991.52,
+        "text": "maal või kuskil kaugemal kohas."
+      },
+      {
+        "start_seconds": 1991.52,
+        "end_seconds": 1995.72,
+        "text": "Et tegelikult me ikkagi jõuame ringiga tagasi, et, et need ringmajanduslikud lahendus"
+      },
+      {
+        "start_seconds": 1995.72,
+        "end_seconds": 2000.64,
+        "text": "ed, nad saavad tegelikult toimida pigem lokaalselt, et ikkagi see tooraine peab olema"
+      },
+      {
+        "start_seconds": 2000.64,
+        "end_seconds": 2005.64,
+        "text": "sul lähedal ja ta peab nagu loogiliselt sobituma sellesse mudelisse on ju, et et mulle"
+      },
+      {
+        "start_seconds": 2005.64,
+        "end_seconds": 2009.24,
+        "text": "tundub, et niisugune nagu, et kui me räägime sõltumatusest või sellisest ka ülemaail"
+      },
+      {
+        "start_seconds": 2009.24,
+        "end_seconds": 2012.48,
+        "text": "mastumisest, et tegelikult noh, väga raske, et samamoodi, et kuidas plastikud sinna la"
+      },
+      {
+        "start_seconds": 2012.48,
+        "end_seconds": 2017.72,
+        "text": "evadega transporditakse Rootsi, eks ole, ja samamoodi siis ka see aheraine näide, eks"
+      },
+      {
+        "start_seconds": 2017.72,
+        "end_seconds": 2022.32,
+        "text": "ole, et, et Ida-Virumaalt Saaremaale on ju, et ilmselt me ikkagi nagu, kui me oleme tee"
+      },
+      {
+        "start_seconds": 2022.32,
+        "end_seconds": 2026.08,
+        "text": "l sõltumatusele, et kas me saame ikkagi päris sõltumatud olla, et mulle tundub, et ei"
+      },
+      {
+        "start_seconds": 2026.08,
+        "end_seconds": 2029.2,
+        "text": "saa, et me peame ikkagi valima, et noh, kogu maailma ju ära ei päästa ja kõiki mater"
+      },
+      {
+        "start_seconds": 2029.2,
+        "end_seconds": 2035.6,
+        "text": "jale maailmas me ju väärindada ja ise toota ei, ei suuda ka ringmajanduse teel."
+      },
+      {
+        "start_seconds": 2035.6,
+        "end_seconds": 2041.44,
+        "text": "Aga Tiina siin mainis juba ka ülikooli ja nende ülikoole ja nende innovatsiooni kesk"
+      },
+      {
+        "start_seconds": 2041.44,
+        "end_seconds": 2042.44,
+        "text": "useid."
+      },
+      {
+        "start_seconds": 2042.44,
+        "end_seconds": 2048.12,
+        "text": "Ja kui me võib-olla astume nüüd sammu tagasi äkki sellele ruudule üks, et kust üldse"
+      },
+      {
+        "start_seconds": 2048.12,
+        "end_seconds": 2052.72,
+        "text": "tegelikult need rohetehnoloogiad ja innovaatilised ideed tekivad?"
+      },
+      {
+        "start_seconds": 2052.72,
+        "end_seconds": 2056.52,
+        "text": "Et te olete nüüd selle teemaga siin kokku puutunud praktiliselt ja ka ülikooli kaudu"
+      },
+      {
+        "start_seconds": 2056.52,
+        "end_seconds": 2061.04,
+        "text": ", et kas nad tekivad kuidagi ülikooli koridorides, et tehakse mingi avastus või tuleb"
+      },
+      {
+        "start_seconds": 2061.04,
+        "end_seconds": 2066.2,
+        "text": "ettevõtja oma ideega, et mul on siin nüüd selline plastikumägi, et mida sellest teha"
+      },
+      {
+        "start_seconds": 2066.2,
+        "end_seconds": 2070.4,
+        "text": "saaks ja kas seal on ka mingeid puudujääke sellise nagu teadus-arendus ja ettevõtted"
+      },
+      {
+        "start_seconds": 2070.4,
+        "end_seconds": 2075.16,
+        "text": ", ülikoolide akadeemia koostöös?"
+      },
+      {
+        "start_seconds": 2075.16,
+        "end_seconds": 2082.52,
+        "text": "Noh, see võib olla nii ja naa, eks ole, et väga palju tehakse siis teadusuuringu"
+      },
+      {
+        "start_seconds": 2082.52,
+        "end_seconds": 2089.32,
+        "text": "id, mis ongi siis nagu selline alusteadus ja, ja mõnede noh, ülikool ju ikkagist õpe"
+      },
+      {
+        "start_seconds": 2089.32,
+        "end_seconds": 2094.24,
+        "text": "tab tudengeid, et tehakse palju lõputöid, eks ole."
+      },
+      {
+        "start_seconds": 2094.24,
+        "end_seconds": 2097.96,
+        "text": "Ja need ei ole tihtipeale rakendusliku väljundiga."
+      },
+      {
+        "start_seconds": 2097.96,
+        "end_seconds": 2105.4,
+        "text": "Rakendusliku väljundiga on kindlasti pigem siis kas doktoritööd või siis ja pigem"
+      },
+      {
+        "start_seconds": 2105.4,
+        "end_seconds": 2109.92,
+        "text": "just tööstusdoktorandid, et ka selline võimalus on, et sa võtadki tööstusdoktorandi,"
+      },
+      {
+        "start_seconds": 2109.92,
+        "end_seconds": 2112.84,
+        "text": "kes sinu jaoks nagu midagi lahendab, eks ole."
+      },
+      {
+        "start_seconds": 2112.84,
+        "end_seconds": 2118.88,
+        "text": "Aga ülikooli mõte ju ikkagist on tegeleda ka alusuuringutega ja, ja tihtipeale seda in"
+      },
+      {
+        "start_seconds": 2118.88,
+        "end_seconds": 2125.04,
+        "text": "novatsiooni või, või sihukest rakenduslikku väljundit sealt kohe ei tulegi, et, et kirjuta"
+      },
+      {
+        "start_seconds": 2125.04,
+        "end_seconds": 2128.52,
+        "text": "takse ikkagist neid töid nagu sahtlisse."
+      },
+      {
+        "start_seconds": 2128.52,
+        "end_seconds": 2132.4,
+        "text": "Mõned tulevad kümne aasta pärast välja, mõned kahekümne aasta pärast, mõned ei tule kuna"
+      },
+      {
+        "start_seconds": 2132.4,
+        "end_seconds": 2137.36,
+        "text": "gi, eks ole, mõned kuuekümne aasta pärast, et mine tea, millal, eks ole."
+      },
+      {
+        "start_seconds": 2137.36,
+        "end_seconds": 2144.52,
+        "text": "Aga see, selle noh, nagu aasta-aastalt on see tegelikult parema"
+      },
+      {
+        "start_seconds": 2144.52,
+        "end_seconds": 2151.8,
+        "text": "ks muutunud, et on loodud erinevaid selliseid või noh, seda probleemi siis"
+      },
+      {
+        "start_seconds": 2151.8,
+        "end_seconds": 2156.56,
+        "text": "teadvustatud, et näiteks Tallinna Tehnikaülikoolis on siis tööstuskeemialabor, mis siis"
+      },
+      {
+        "start_seconds": 2156.56,
+        "end_seconds": 2159.36,
+        "text": "ettevõtluse heaks töötab, eks."
+      },
+      {
+        "start_seconds": 2159.36,
+        "end_seconds": 2164.84,
+        "text": "Ja, ja on loodud ka nüüd fookus tippkeskused, mille kaudu siis tegelikult loodetakse"
+      },
+      {
+        "start_seconds": 2164.84,
+        "end_seconds": 2172.04,
+        "text": "ka seda saavutada, et rohkem olekski sellist rakendusliku väljundiga tegevusi võib-"
+      },
+      {
+        "start_seconds": 2172.04,
+        "end_seconds": 2173.56,
+        "text": "olla."
+      },
+      {
+        "start_seconds": 2173.56,
+        "end_seconds": 2177.52,
+        "text": "Aga kuidas sulle tundub, et kas ettevõtted on tegelikult valmis akadeemiaga koostööd"
+      },
+      {
+        "start_seconds": 2177.52,
+        "end_seconds": 2178.2,
+        "text": "tegema?"
+      },
+      {
+        "start_seconds": 2178.2,
+        "end_seconds": 2181.92,
+        "text": "Et kas neil on mingeid erioskuseid selleks vaja või et kas see on lihtsalt see, et ma"
+      },
+      {
+        "start_seconds": 2181.92,
+        "end_seconds": 2187.64,
+        "text": "tulengi ülikooli teaduskonda, ütlen, et ma tahaks teha seda?"
+      },
+      {
+        "start_seconds": 2187.64,
+        "end_seconds": 2193.04,
+        "text": "Päris nii vist ikkagi ei ole, et kõige parem lahendus olekski see, et kui ettevõttel"
+      },
+      {
+        "start_seconds": 2193.04,
+        "end_seconds": 2196.6,
+        "text": "endal on mingisugune probleem, mida ta tahab lahendada, et siis ta esialgu võtab selle"
+      },
+      {
+        "start_seconds": 2196.6,
+        "end_seconds": 2201.4,
+        "text": "tööstusdoktorandi endale ja vaatab, et kas, kas on võimalik siis seda probleemi nagu"
+      },
+      {
+        "start_seconds": 2201.4,
+        "end_seconds": 2203.28,
+        "text": "kuidagi lahendada, eks ole."
+      },
+      {
+        "start_seconds": 2203.28,
+        "end_seconds": 2207.6,
+        "text": "Et tihtipeale selgub, et võib-olla Eestis ei ole sellist kompetentsi, mida ta otsib,"
+      },
+      {
+        "start_seconds": 2207.6,
+        "end_seconds": 2210.16,
+        "text": "et tal on vaja sealt väliskompetentsi."
+      },
+      {
+        "start_seconds": 2210.16,
+        "end_seconds": 2217.16,
+        "text": "Ja tegelikult noh, sa saad või väga tihti on ka selliseid olukordi, kus siis lõpuks ju"
+      },
+      {
+        "start_seconds": 2217.16,
+        "end_seconds": 2224.44,
+        "text": "ettevõte valibki suure Euroopa grandi, et läheb kuskil"
+      },
+      {
+        "start_seconds": 2224.44,
+        "end_seconds": 2228.64,
+        "text": "e konsortsiumisse ja hakkab seda teemat hoopis sealtkaudu uurima, kuna juba on niisu"
+      },
+      {
+        "start_seconds": 2228.64,
+        "end_seconds": 2235.64,
+        "text": "gune toimiv võrgustik moodustunud, et üksi kõike teha on nagu raske."
+      },
+      {
+        "start_seconds": 2235.64,
+        "end_seconds": 2239.56,
+        "text": "Kuidas osa projektiga, kuidas sündis teil?"
+      },
+      {
+        "start_seconds": 2239.56,
+        "end_seconds": 2245.76,
+        "text": "Me tegelikult see projekt sünd- , sündis niimoodi, et üks doktoritöö, või vabandust,"
+      },
+      {
+        "start_seconds": 2245.76,
+        "end_seconds": 2254.32,
+        "text": "magistritöö tehti KTH ülikoolis, see on siis kuninglik tehnikaülikool Rootsis ja see"
+      },
+      {
+        "start_seconds": 2254.32,
+        "end_seconds": 2258.76,
+        "text": "töö eesmärk oli vaadata või tähendab see sai see mõte sai üldse sellest alguse, et Ra"
+      },
+      {
+        "start_seconds": 2258.76,
+        "end_seconds": 2263.56,
+        "text": "gn-Sells grupina vaatas kõigis oma riikides, et mis on kõige suuremad jäätmeprobleem"
+      },
+      {
+        "start_seconds": 2263.56,
+        "end_seconds": 2268.16,
+        "text": "id on ju ja kui keegi Eesti kontorist küsis, et mis on Eestis nagu noh, mahuliselt kõige"
+      },
+      {
+        "start_seconds": 2268.16,
+        "end_seconds": 2269.92,
+        "text": "suurem jäätmeprobleem."
+      },
+      {
+        "start_seconds": 2269.92,
+        "end_seconds": 2274.6,
+        "text": "No mis on põlevkivituhk on ju noh, meil on umbes pool miljardit tonni ladestatud seda"
+      },
+      {
+        "start_seconds": 2274.6,
+        "end_seconds": 2276.16,
+        "text": "tuhka."
+      },
+      {
+        "start_seconds": 2276.16,
+        "end_seconds": 2284.12,
+        "text": "Ja, ja toona veel iga aasta ladestati ka ikkagi üle viie miljoni tonni ja seal"
+      },
+      {
+        "start_seconds": 2284.12,
+        "end_seconds": 2287.52,
+        "text": "t tuli mõte, et vaadata, okei, mida põlevkivituhaga teha saab."
+      },
+      {
+        "start_seconds": 2287.52,
+        "end_seconds": 2294.4,
+        "text": "Ja tegelikult seesama näide, et, et ütleme Taltechi sahtlisse toodetud üks bakalaure"
+      },
+      {
+        "start_seconds": 2294.4,
+        "end_seconds": 2300.32,
+        "text": "usetöö ja vist üks magistritöö, olid need, mis andsid nagu mõtted selle saadestatud ka"
+      },
+      {
+        "start_seconds": 2300.32,
+        "end_seconds": 2302.36,
+        "text": "ltsiumkarbonaadi poole minna."
+      },
+      {
+        "start_seconds": 2302.36,
+        "end_seconds": 2307.96,
+        "text": "Ja noh, sealt edasi siis me tegime siis ise katseid ja siis oleme edasist tehnoloogi"
+      },
+      {
+        "start_seconds": 2307.96,
+        "end_seconds": 2314.48,
+        "text": "a arendust siis koos Taltechiga teinud viimased ütleme kuus aastat."
+      },
+      {
+        "start_seconds": 2314.48,
+        "end_seconds": 2321.72,
+        "text": "Et seal on kindlasti sellise aluspõhja loomine ongi ülikooli põhi, põhiline mõ"
+      },
+      {
+        "start_seconds": 2321.72,
+        "end_seconds": 2326.48,
+        "text": "te, aga, aga ma arvan, et suur väljakutse on võib-olla selles, et kuidas seda lihtsalt"
+      },
+      {
+        "start_seconds": 2326.48,
+        "end_seconds": 2333.92,
+        "text": "sõnastada, on see, et kui sa tahad oma projekti ellu viia lõpuks nagu tahad, et, et sellest"
+      },
+      {
+        "start_seconds": 2333.92,
+        "end_seconds": 2338.16,
+        "text": "oleks midagi nagu sellist, mis toodab sulle raha."
+      },
+      {
+        "start_seconds": 2338.16,
+        "end_seconds": 2343.8,
+        "text": "Sa lähed panka või, või sa küsid panga käest, et noh, mis tingimused oled, et kui ma"
+      },
+      {
+        "start_seconds": 2343.8,
+        "end_seconds": 2349.4,
+        "text": "laenu saaksin ja pangast öeldakse enam-vähem Rahvli, nii et noh, et mis kell ja kui palju"
+      },
+      {
+        "start_seconds": 2349.4,
+        "end_seconds": 2350.28,
+        "text": "."
+      },
+      {
+        "start_seconds": 2350.28,
+        "end_seconds": 2356.88,
+        "text": "Et sa pead oskama sellele küsimusele vastata algusest peale, et kuna sa hakkad raha tee"
+      },
+      {
+        "start_seconds": 2356.88,
+        "end_seconds": 2362.16,
+        "text": "nima ja kui palju ja sellest sõltub see, kas see on üldse tehtav."
+      },
+      {
+        "start_seconds": 2362.16,
+        "end_seconds": 2366.52,
+        "text": "Nüüd, kui sa lähed ülikooli ja küsid teadlase käest, et mis kell ja kui palju, siis ta"
+      },
+      {
+        "start_seconds": 2366.52,
+        "end_seconds": 2370.12,
+        "text": "ei oska seda öelda, sest ta ei ole treenitud selle jaoks, ta on treenitud hoopis mille"
+      },
+      {
+        "start_seconds": 2370.12,
+        "end_seconds": 2371.68,
+        "text": "gi muu jaoks."
+      },
+      {
+        "start_seconds": 2371.68,
+        "end_seconds": 2377.2,
+        "text": "Et seal on natuke mõlemalt poolt on nagu puudu, et selles mõttes, et noh, ülikoolis ei"
+      },
+      {
+        "start_seconds": 2377.2,
+        "end_seconds": 2382.96,
+        "text": "ole kedagi, kes oskaks äri, äri noh, kes peakski tegelikult äriplaani tegema mingisuguse"
+      },
+      {
+        "start_seconds": 2382.96,
+        "end_seconds": 2387.28,
+        "text": "le, et tood sinna potsiku materjali, ütled, et ma tahan sellest raha teha."
+      },
+      {
+        "start_seconds": 2387.28,
+        "end_seconds": 2392.2,
+        "text": "Noh, ülikool oskab sulle väga hästi kirjeldada, et kui sa manipuleerid seda materjali"
+      },
+      {
+        "start_seconds": 2392.2,
+        "end_seconds": 2397.32,
+        "text": "ühte või teistpidi, mis siis juhtub, aga see, mis kell ja kui palju, selle peaks ikkagi"
+      },
+      {
+        "start_seconds": 2397.32,
+        "end_seconds": 2402.88,
+        "text": "nagu ettevõtja ise suutma ära ennustada, isegi kui see ennustus on, on väga ebatäpne"
+      },
+      {
+        "start_seconds": 2402.88,
+        "end_seconds": 2408.32,
+        "text": ", siis see on ikkagi nagu alguses on see, see nii-öelda filtreerib mingid mõtted ära"
+      },
+      {
+        "start_seconds": 2408.32,
+        "end_seconds": 2408.52,
+        "text": "."
+      },
+      {
+        "start_seconds": 2408.52,
+        "end_seconds": 2413.04,
+        "text": "Et seda on kindlasti Eestis puudu, et ma olen ise näinud mõlemalt poolt seda, et, et"
+      },
+      {
+        "start_seconds": 2413.04,
+        "end_seconds": 2419.08,
+        "text": "nii kunagi töötades ülikoolis kui ka kui ka nii-öelda arendajana, et, et kui minnakse"
+      },
+      {
+        "start_seconds": 2419.08,
+        "end_seconds": 2422.12,
+        "text": "ülikooli, siis tekibki pettumus mõlemal poolel."
+      },
+      {
+        "start_seconds": 2422.12,
+        "end_seconds": 2426.92,
+        "text": "Et viiakse sinna minek ja öeldakse, tehke, aga sellest lõpuks ei tule mitte midagi, sest"
+      },
+      {
+        "start_seconds": 2426.92,
+        "end_seconds": 2431.08,
+        "text": "mõlemad pooled tegelikult väga hästi aru ei saanud, et mida kumbki tahtis ja, ja mis"
+      },
+      {
+        "start_seconds": 2431.08,
+        "end_seconds": 2433.64,
+        "text": "siis tehti."
+      },
+      {
+        "start_seconds": 2433.64,
+        "end_seconds": 2435.48,
+        "text": "Tiina, kas sul oli kommentaar selle kohta?"
+      },
+      {
+        "start_seconds": 2435.48,
+        "end_seconds": 2439.8,
+        "text": "Ei, ma lihtsalt mõtlesin, et lisan veel selle, et ega tegelikult ju teadussüsteem ongi"
+      },
+      {
+        "start_seconds": 2439.8,
+        "end_seconds": 2445.76,
+        "text": "üles ehitatud selle teaduse tegemise peale, et selline rakenduslik või noh, et kui siis"
+      },
+      {
+        "start_seconds": 2445.76,
+        "end_seconds": 2449.96,
+        "text": "üks hetk professor mõtleb, et teeb spin-off'i, läheb, käib, eks ole, erasektoris ära"
+      },
+      {
+        "start_seconds": 2449.96,
+        "end_seconds": 2455.2,
+        "text": "ja tuleb tagasi, ega ta siis enam tagasi ei tule, et siis ongi see, tee on lõppenud."
+      },
+      {
+        "start_seconds": 2455.2,
+        "end_seconds": 2460.92,
+        "text": "Et sul on vaja publikatsioone, sa pead juhendama ainult niimoodi sa oled hea teadlane"
+      },
+      {
+        "start_seconds": 2460.92,
+        "end_seconds": 2467.76,
+        "text": ", et kui seal oleks lisaks siis see, et sul see ettevõtluskogemus annaks nagu sulle midagi"
+      },
+      {
+        "start_seconds": 2467.76,
+        "end_seconds": 2471.44,
+        "text": "juurde, siis sa sellega ka tegeleks, aga täna ta ei anna."
+      },
+      {
+        "start_seconds": 2471.44,
+        "end_seconds": 2476.0,
+        "text": "Ja võib-olla see publikatsiooni teema on ka üks nüanss veel."
+      },
+      {
+        "start_seconds": 2476.0,
+        "end_seconds": 2483.48,
+        "text": "Et kui mina ütleme, maksan miljon eurot Taltechile uuringu eest, siis ma"
+      },
+      {
+        "start_seconds": 2483.48,
+        "end_seconds": 2488.6,
+        "text": "tegelikult ei taha või tähendab, ma ei tea alguses üldse, mis sellest saab, kas sellest"
+      },
+      {
+        "start_seconds": 2488.6,
+        "end_seconds": 2493.0,
+        "text": "saab äri või ei saa, mis need tulemused meil tähendavad, siis ma tegelikult nagu olen"
+      },
+      {
+        "start_seconds": 2493.0,
+        "end_seconds": 2498.04,
+        "text": "väga ettevaatlik, ma ei taha, et keegi mitte kunagi seda avalikustaks, ma maksan selle"
+      },
+      {
+        "start_seconds": 2498.04,
+        "end_seconds": 2501.4,
+        "text": "eest, ma tahan, et see oleks minu oma, ma panen selle oma sahtlisse."
+      },
+      {
+        "start_seconds": 2501.4,
+        "end_seconds": 2506.44,
+        "text": "Sest võib-olla kunagi sellest on abi otsustamisel, kas midagi teha või mitte teha, sest"
+      },
+      {
+        "start_seconds": 2506.44,
+        "end_seconds": 2509.96,
+        "text": "vahel otsus mitte teha on ka hea otsus."
+      },
+      {
+        "start_seconds": 2509.96,
+        "end_seconds": 2515.6,
+        "text": "Et, et seal on ka see väljakutse, okei, kui asi jõuab patentideni, nagu meie puhul, siis"
+      },
+      {
+        "start_seconds": 2515.6,
+        "end_seconds": 2519.4,
+        "text": "tõesti on nendel teadlastel, kes on seal kaasas olnud, nad saavad patentide pealt pu"
+      },
+      {
+        "start_seconds": 2519.4,
+        "end_seconds": 2523.68,
+        "text": "blitseerida, patendid ise vist on, võrduvad kahe publikatsiooniga on ju, see on nagu"
+      },
+      {
+        "start_seconds": 2523.68,
+        "end_seconds": 2524.48,
+        "text": "hea."
+      },
+      {
+        "start_seconds": 2524.48,
+        "end_seconds": 2530.64,
+        "text": "Aga tihtipeale ei pruugi jõuda see patendini ja noh, patendini on ka tee pikk."
+      },
+      {
+        "start_seconds": 2530.64,
+        "end_seconds": 2535.56,
+        "text": "Et see võib niisugune kolm kuni viis aastat võtta."
+      },
+      {
+        "start_seconds": 2535.56,
+        "end_seconds": 2539.68,
+        "text": "Eriti kui me räägime nagu Euroopa tasandile veel hullem maailma tasandil, eks ole."
+      },
+      {
+        "start_seconds": 2539.68,
+        "end_seconds": 2545.6,
+        "text": "See on ühtlane süsteem, ega selles mõttes seal on see väljakutse on igal pool sama."
+      },
+      {
+        "start_seconds": 2545.6,
+        "end_seconds": 2550.48,
+        "text": "Ehk jah, et võib tunduda, et neid teadustöid justkui tehakse ülikoolides tohutult palju"
+      },
+      {
+        "start_seconds": 2550.48,
+        "end_seconds": 2554.24,
+        "text": "ja väga palju kirjutatakse sahtlisse ja mis, nagu mõte sellel on, aga noh, tegelikult"
+      },
+      {
+        "start_seconds": 2554.24,
+        "end_seconds": 2558.28,
+        "text": "osa projekte on ju hea näide sellest, et kuidas nagu tegelikult sellisest sahtlisse kirjuta"
+      },
+      {
+        "start_seconds": 2558.28,
+        "end_seconds": 2564.44,
+        "text": "tud üliõpilastööst sai siis tegelikult selline toimiv äge rohetehnoloogiline lahendus"
+      },
+      {
+        "start_seconds": 2564.44,
+        "end_seconds": 2564.76,
+        "text": "."
+      },
+      {
+        "start_seconds": 2564.76,
+        "end_seconds": 2571.4,
+        "text": "Aga okei, Alar nüüd leidis need koostöös Akadeemiaga nüüd need tulemused sealt uurimus"
+      },
+      {
+        "start_seconds": 2571.4,
+        "end_seconds": 2576.04,
+        "text": "tööd sahtlist ja läks akadeemiasse ja pani nüüd pani trag-Sells Grupiga pead kokku ja"
+      },
+      {
+        "start_seconds": 2576.04,
+        "end_seconds": 2580.56,
+        "text": "tegid nüüd need umbsed enam-vähem arvutused ja tuleb nüüd panka nende enam-vähem arvu"
+      },
+      {
+        "start_seconds": 2580.56,
+        "end_seconds": 2582.4,
+        "text": "tustega, mis ei pruugi täpsed olla."
+      },
+      {
+        "start_seconds": 2582.4,
+        "end_seconds": 2587.04,
+        "text": "Et kuidas, kas te vaatate ka nagu mingeid suuremaid trende, kui te neid otsuseid tee"
+      },
+      {
+        "start_seconds": 2587.04,
+        "end_seconds": 2590.76,
+        "text": "te, et kui me just räägime praegu, et võib-olla keskkonnateemadel see fookus on julge"
+      },
+      {
+        "start_seconds": 2590.76,
+        "end_seconds": 2596.12,
+        "text": "olekule nihkunud, et kas te võtate ka neid arvesse, selliseid suuremaid riske ja teema"
+      },
+      {
+        "start_seconds": 2596.12,
+        "end_seconds": 2597.6,
+        "text": "fookuseid?"
+      },
+      {
+        "start_seconds": 2597.6,
+        "end_seconds": 2602.28,
+        "text": "Noh, loomulikult pank, pangal peabki olema see pikaajaline vaade ja neid trende tuleb"
+      },
+      {
+        "start_seconds": 2602.28,
+        "end_seconds": 2606.28,
+        "text": "seal ka arvestada ja seesama tegelikult, mida see päris alguses välja tõid, see riski"
+      },
+      {
+        "start_seconds": 2606.28,
+        "end_seconds": 2610.88,
+        "text": "aruanne, mida siis maailma majandusfoorum igal aastal ka välja annab, et, et ka neid"
+      },
+      {
+        "start_seconds": 2610.88,
+        "end_seconds": 2612.2,
+        "text": "jälgitakse."
+      },
+      {
+        "start_seconds": 2612.2,
+        "end_seconds": 2618.96,
+        "text": "Aga noh, teisest küljest pank on lõpuks finantseerija ja, ja ma ütleks, et pigem on ikkagi"
+      },
+      {
+        "start_seconds": 2618.96,
+        "end_seconds": 2626.08,
+        "text": "üsna suur usaldus nagu kliendi enda juures, sest et ega pank ei suuda igas sektoris olla"
+      },
+      {
+        "start_seconds": 2626.08,
+        "end_seconds": 2631.48,
+        "text": "ekspert, et see, et üldiselt ikkagi see ettevõtja teab oma seda sektorit kõige parem"
+      },
+      {
+        "start_seconds": 2631.48,
+        "end_seconds": 2637.04,
+        "text": "ini, tulebki see Ragn-Sells osa, tema on selle nagu lõplikult läbi analüüsinud, tead"
+      },
+      {
+        "start_seconds": 2637.04,
+        "end_seconds": 2640.76,
+        "text": "lastega töötanud, finantsplaani valmis teinud."
+      },
+      {
+        "start_seconds": 2640.76,
+        "end_seconds": 2646.44,
+        "text": "Mis, mis õigus on meil tulla ütlema, et, et see on vale, et noh, millele me toetume,"
+      },
+      {
+        "start_seconds": 2646.44,
+        "end_seconds": 2647.2,
+        "text": "eks ju."
+      },
+      {
+        "start_seconds": 2647.2,
+        "end_seconds": 2653.24,
+        "text": "Et tegelikult mingil määral on seal ikkagi see, see usalduse küsimus ka, et et tundub"
+      },
+      {
+        "start_seconds": 2653.24,
+        "end_seconds": 2654.76,
+        "text": "õige."
+      },
+      {
+        "start_seconds": 2654.76,
+        "end_seconds": 2659.0,
+        "text": "Et kindlasti ei ole pank see, kes siis ütleb, et see ei sobi."
+      },
+      {
+        "start_seconds": 2659.0,
+        "end_seconds": 2663.4,
+        "text": "Et ikkagi te hindate spetsialistide eelnevalt tehtud tööd, eks ole, et kui nad on ikkagi"
+      },
+      {
+        "start_seconds": 2663.4,
+        "end_seconds": 2667.68,
+        "text": "hinnanud, et see on elujõuline ettevõtmine, et siis pigem teie poolt."
+      },
+      {
+        "start_seconds": 2667.68,
+        "end_seconds": 2672.76,
+        "text": "Pigem Nagu näeme seda, et, et ta on, et panga suurem roll seal nii-öelda vestluses või"
+      },
+      {
+        "start_seconds": 2672.76,
+        "end_seconds": 2677.32,
+        "text": "arutelus tekib siis, kui näiteks mõni ettevõte üldse ei ütleb, et see ei ole mulle oluline"
+      },
+      {
+        "start_seconds": 2677.32,
+        "end_seconds": 2681.16,
+        "text": "teema ja ma ei tegele sellega, ma jätkan sama vanaviisi, et siis me peame hoopis nügi"
+      },
+      {
+        "start_seconds": 2681.16,
+        "end_seconds": 2685.12,
+        "text": "ma neid nendel teemadel rohkem mõtlema ja võib-olla otsite kuskilt efektiivsust, võib"
+      },
+      {
+        "start_seconds": 2685.12,
+        "end_seconds": 2689.08,
+        "text": "-olla hoopis energiatõhusust juba, mis iseenesest aitab nii jalajälge vähendada kui ka"
+      },
+      {
+        "start_seconds": 2689.08,
+        "end_seconds": 2692.08,
+        "text": "ettevõttele siis ka rahalist efektiivsust tuua."
+      },
+      {
+        "start_seconds": 2692.08,
+        "end_seconds": 2696.48,
+        "text": "Aga, aga just see, et kui keegi juba nagu tahab teha, siis seda nagu kritiseerima minna"
+      },
+      {
+        "start_seconds": 2696.48,
+        "end_seconds": 2699.6,
+        "text": ", noh siis peaks ikkagi mingi väga tugev alus selleks olema."
+      },
+      {
+        "start_seconds": 2699.6,
+        "end_seconds": 2704.0,
+        "text": "No seda enam, et ilmselt ega te ju pangast teil ka iga ala spetsialiste ju ei ole täpselt"
+      },
+      {
+        "start_seconds": 2704.0,
+        "end_seconds": 2708.0,
+        "text": ", et teil on ikkagi selline nagu makrovaade, eks ole, et, et mis tulevik toob."
+      },
+      {
+        "start_seconds": 2708.0,
+        "end_seconds": 2711.4,
+        "text": "Aga jah, lihtsalt eeldame, et, et annab materjalid ja need analüüsid olemas ja me saa"
+      },
+      {
+        "start_seconds": 2711.4,
+        "end_seconds": 2713.0,
+        "text": "me nendega tutvuda."
+      },
+      {
+        "start_seconds": 2713.0,
+        "end_seconds": 2714.6,
+        "text": "Just, Tiina."
+      },
+      {
+        "start_seconds": 2714.6,
+        "end_seconds": 2721.48,
+        "text": "Mulle meenus veel üks hea meede, mille abil on võimalik siis ettevõttel harjutada siis"
+      },
+      {
+        "start_seconds": 2721.48,
+        "end_seconds": 2726.6,
+        "text": "koostööd teadlastega, et selle nimi on Innovatsioonihange."
+      },
+      {
+        "start_seconds": 2726.6,
+        "end_seconds": 2733.28,
+        "text": "Seda annab Riigikantselei ja avaliku sektori asutused saavad siis neid innovatsiooni"
+      },
+      {
+        "start_seconds": 2733.28,
+        "end_seconds": 2741.16,
+        "text": "hankeid teha, siis ma tutvustan siis ühte projekti näiteks kuidas"
+      },
+      {
+        "start_seconds": 2741.16,
+        "end_seconds": 2748.28,
+        "text": "Fiben oli liigniini kasutati siis, et Fibenoli liigniinil on suur negatiivne jalajäl"
+      },
+      {
+        "start_seconds": 2748.28,
+        "end_seconds": 2755.4,
+        "text": "g, kuna ta on siis, eks ole puidust tulnud ja EPD järgi siis see jalajälg oli hästi"
+      },
+      {
+        "start_seconds": 2755.4,
+        "end_seconds": 2757.28,
+        "text": "negatiivne eks."
+      },
+      {
+        "start_seconds": 2757.28,
+        "end_seconds": 2764.64,
+        "text": "Ja siis Viimsi vald hankis endale siis teedeehituses sellise teeju"
+      },
+      {
+        "start_seconds": 2764.64,
+        "end_seconds": 2770.84,
+        "text": "pikese, kus siis koostöös teadlastega, see oli siis nagu mitmes etapis, kõigepealt siis"
+      },
+      {
+        "start_seconds": 2770.84,
+        "end_seconds": 2778.6,
+        "text": "koostöös teadlastega vaadati, et kas on võimalik süsinikneutraalset teed"
+      },
+      {
+        "start_seconds": 2778.6,
+        "end_seconds": 2784.0,
+        "text": "konstrueerida, selgus, et on küll võimalik, et kui teha siis nii ja naa, eks ole, et"
+      },
+      {
+        "start_seconds": 2784.0,
+        "end_seconds": 2790.92,
+        "text": "asendada sealt mingi osa sellest bituumenist liigniiniga, kasutada, eks ole, elektri"
+      },
+      {
+        "start_seconds": 2790.92,
+        "end_seconds": 2795.32,
+        "text": "energial tootav töötavaid seal mingeid seadmeid ja nii edasi eks ole, ma täpselt ei tea"
+      },
+      {
+        "start_seconds": 2795.32,
+        "end_seconds": 2796.88,
+        "text": "neid asju."
+      },
+      {
+        "start_seconds": 2796.88,
+        "end_seconds": 2801.8,
+        "text": "Ja ühesõnaga siis Viimsi vald siis hankis selle tee selliselt, eks."
+      },
+      {
+        "start_seconds": 2801.8,
+        "end_seconds": 2806.84,
+        "text": "Et kui ma nüüd mõtlen näiteks Alari peale, et kuidas tema saaks seda innovatsiooniha"
+      },
+      {
+        "start_seconds": 2806.84,
+        "end_seconds": 2815.52,
+        "text": "nget eks ole kasutada, siis kui näiteks on mingi X vald, kes hangiks endale näiteks"
+      },
+      {
+        "start_seconds": 2815.52,
+        "end_seconds": 2822.64,
+        "text": "süsinikneutraalse lasteaia ehitamist, on ju, siis samamoodi koostöös teadlastega mõ"
+      },
+      {
+        "start_seconds": 2822.64,
+        "end_seconds": 2827.32,
+        "text": "eldakse välja see kontseptsioon, kuidas siis seda karbonaati näiteks betoonis, filleri"
+      },
+      {
+        "start_seconds": 2827.32,
+        "end_seconds": 2832.36,
+        "text": "na või kus pinnakattematerjalides, ma ei tea, kas te olete arvutanud sellele jalajäl"
+      },
+      {
+        "start_seconds": 2832.36,
+        "end_seconds": 2833.8,
+        "text": "je ka välja või."
+      },
+      {
+        "start_seconds": 2833.8,
+        "end_seconds": 2836.32,
+        "text": "Ja, ja oleme ikka."
+      },
+      {
+        "start_seconds": 2836.32,
+        "end_seconds": 2840.8,
+        "text": "Potentsiaalselt see, see jalajälg on negatiivne, see kõlab halvasti, aga see on hea lihtsalt"
+      },
+      {
+        "start_seconds": 2840.8,
+        "end_seconds": 2842.12,
+        "text": ", ma ütlen publikule."
+      },
+      {
+        "start_seconds": 2842.12,
+        "end_seconds": 2848.48,
+        "text": "Et CO kahe jalajälg on negatiivne, see tähendab, et sa nagu seod rohkem."
+      },
+      {
+        "start_seconds": 2848.48,
+        "end_seconds": 2853.72,
+        "text": "Me oleme arvutanud, et see on umbes kõige paremal juhul on umbes miinus nelisada kilo"
+      },
+      {
+        "start_seconds": 2853.72,
+        "end_seconds": 2856.04,
+        "text": "grammi tonni kohta."
+      },
+      {
+        "start_seconds": 2856.04,
+        "end_seconds": 2860.4,
+        "text": "Sest et tema tootmisel ju seotakse süsiniku selles mõttes on ta negatiivne, eks ole,"
+      },
+      {
+        "start_seconds": 2860.4,
+        "end_seconds": 2865.0,
+        "text": "et ta on võtnud eks ole, atmosfäärist süsinikdioksiidi vähemaks."
+      },
+      {
+        "start_seconds": 2865.0,
+        "end_seconds": 2872.08,
+        "text": "Ja noh, seda saab kasutada ju akendest, põrandates, värvides, ba"
+      },
+      {
+        "start_seconds": 2872.08,
+        "end_seconds": 2877.6,
+        "text": "kapaberis, kuigi seda paberi suunda me ei arenda, kuna paber kahjuks ei ole või kahju"
+      },
+      {
+        "start_seconds": 2877.6,
+        "end_seconds": 2885.12,
+        "text": "ks või õnneks ei ole nagu väga jätkusuutlik suund enam ka ärilises mõttes ja, ja"
+      },
+      {
+        "start_seconds": 2885.12,
+        "end_seconds": 2889.04,
+        "text": "põhimõtteliselt lasteaeda saaks päris palju erinevaid asju, saaks selle värvida, kui"
+      },
+      {
+        "start_seconds": 2889.04,
+        "end_seconds": 2895.8,
+        "text": "sa ehitada puidust ja panna, kasutada materjale, et see oleks jah, reaalselt võimalik"
+      },
+      {
+        "start_seconds": 2895.8,
+        "end_seconds": 2900.04,
+        "text": "ja võib-olla kõige suurem väljakutse on selle ehitamise jalajälg."
+      },
+      {
+        "start_seconds": 2900.04,
+        "end_seconds": 2905.96,
+        "text": "Jah, et Eestis on ehitamise jalajälg tõesti suur, et aga siis olekski teadlaste abiga"
+      },
+      {
+        "start_seconds": 2905.96,
+        "end_seconds": 2910.36,
+        "text": "võimalik see kontseptsioon kokku panna, et näha juba need probleemkohad, et millega tuleb"
+      },
+      {
+        "start_seconds": 2910.36,
+        "end_seconds": 2912.0,
+        "text": "tegeleda."
+      },
+      {
+        "start_seconds": 2912.0,
+        "end_seconds": 2917.8,
+        "text": "Sellega tegeletaksegi ka juba ehituse jalajälge mõõta ja."
+      },
+      {
+        "start_seconds": 2917.8,
+        "end_seconds": 2923.84,
+        "text": "Ja, et ja väga tore, et te tõite siin välja ka selle justkui nagu sellise paradoksi või"
+      },
+      {
+        "start_seconds": 2923.84,
+        "end_seconds": 2929.0,
+        "text": "anomaalia, et me kuidagi nagu surume akadeemikuid ja teadlasi ikkagi tegem- tegelema"
+      },
+      {
+        "start_seconds": 2929.0,
+        "end_seconds": 2933.16,
+        "text": "ettevõtlusega ja me justkui nagu näeme, et tegelikult need spin-off'id algatused mis"
+      },
+      {
+        "start_seconds": 2933.16,
+        "end_seconds": 2937.2,
+        "text": "ülikoolides teaduskondadest tulevad, et need peaks justkui saama nagu ettevõteteks."
+      },
+      {
+        "start_seconds": 2937.2,
+        "end_seconds": 2941.92,
+        "text": "Aga olen siin hästi nõus meie president Alar Karisega, kes ka startup Dayl sellel aasta"
+      },
+      {
+        "start_seconds": 2941.92,
+        "end_seconds": 2946.16,
+        "text": "l vallutas südant selle pärast veidi, et kui kõik teadlased lähevad nüüd ettevõtjate"
+      },
+      {
+        "start_seconds": 2946.16,
+        "end_seconds": 2949.48,
+        "text": "ks ja tegema siis oma teadusavastuste põhjal ettevõtteid, et kes meil siis tegelikult"
+      },
+      {
+        "start_seconds": 2949.48,
+        "end_seconds": 2950.48,
+        "text": "teadust teeb?"
+      },
+      {
+        "start_seconds": 2950.48,
+        "end_seconds": 2953.88,
+        "text": "Et see on tore, et, et riik on tegelikult õla alla pannud ka läbi innovatsioonihange"
+      },
+      {
+        "start_seconds": 2953.88,
+        "end_seconds": 2957.84,
+        "text": "te siis sellele, et igaüks saab oma liistude juurde jääda ja teha seda hästi, mida nad"
+      },
+      {
+        "start_seconds": 2957.84,
+        "end_seconds": 2962.76,
+        "text": "väga hästi oskavad, eks ole, et ettevõtjad oma ärimudeleid sinna juurde töötada ja siis"
+      },
+      {
+        "start_seconds": 2962.76,
+        "end_seconds": 2968.04,
+        "text": "teadlased siis teha neid väärt avastusi, et ettevõtted saaks, saaks toimida."
+      },
+      {
+        "start_seconds": 2968.04,
+        "end_seconds": 2972.0,
+        "text": "Ja muidugi see innovatsioonihange, et see on ka üks viis, et kuidas siis nagu ettevõ"
+      },
+      {
+        "start_seconds": 2972.0,
+        "end_seconds": 2976.24,
+        "text": "tteid toetada sellele teekonnal, et kuidas need rohe, rohetehnoloogiad sünnivad, et noh"
+      },
+      {
+        "start_seconds": 2976.24,
+        "end_seconds": 2980.76,
+        "text": ", kui me võtame siin mingisuguste suurkorporatsioonide näited, siis ega noh, seal ilmselt"
+      },
+      {
+        "start_seconds": 2980.76,
+        "end_seconds": 2986.8,
+        "text": "on ressurssi, et sellega töötada varem aasta-kaks-kolm oma oma nagu siis finantside eest"
+      },
+      {
+        "start_seconds": 2986.8,
+        "end_seconds": 2989.52,
+        "text": ", eks ole, ja siis minna juba võimendust küsima."
+      },
+      {
+        "start_seconds": 2989.52,
+        "end_seconds": 2992.96,
+        "text": "Aga kui me räägime startup'idest ja väiksematest ettevõtetest, kel, kes võib-olla ei"
+      },
+      {
+        "start_seconds": 2992.96,
+        "end_seconds": 2997.48,
+        "text": "ole veel nii palju seda raha jõudnud tõsta, et siis nemad tihtipeale nagu ka Tiina ma"
+      },
+      {
+        "start_seconds": 2997.48,
+        "end_seconds": 3001.72,
+        "text": "inis, pöörduvad siis mõne suurema Euroopa Liidu projekti siis konsortsiumisse või, või"
+      },
+      {
+        "start_seconds": 3001.72,
+        "end_seconds": 3003.0,
+        "text": "grantidesse."
+      },
+      {
+        "start_seconds": 3003.0,
+        "end_seconds": 3006.96,
+        "text": "Ja olen kuulnud väga palju ettevõtjatelt, et tegelikult niisugust nii riigi kui ka la"
+      },
+      {
+        "start_seconds": 3006.96,
+        "end_seconds": 3011.96,
+        "text": "iemalt Euroopa Liidu üldse avaliku sektori toetust peljatakse just selles mõttes, et"
+      },
+      {
+        "start_seconds": 3011.96,
+        "end_seconds": 3016.24,
+        "text": "ta on hästi bürokraatiamahukas ja kui me räägime ka võib-olla Euroopa Liidu toetustest"
+      },
+      {
+        "start_seconds": 3016.24,
+        "end_seconds": 3020.96,
+        "text": ", siis noh, tegelikult selle toetusprojekti kirjutamine ise on täiesti eraldi kapatsi"
+      },
+      {
+        "start_seconds": 3020.96,
+        "end_seconds": 3025.04,
+        "text": "teet, eks ole, rääkimata sellest, et kuidas seda siis projekti lõpuks ka ellu viia ja"
+      },
+      {
+        "start_seconds": 3025.04,
+        "end_seconds": 3027.2,
+        "text": "seal seal aru anda."
+      },
+      {
+        "start_seconds": 3027.2,
+        "end_seconds": 3031.4,
+        "text": "Et ja ma saan aru, et panga vaates tegelikult annab ta samas boonuspunkte, kui ettevõ"
+      },
+      {
+        "start_seconds": 3031.4,
+        "end_seconds": 3035.4,
+        "text": "te on saanud mingi sellise välise toetuse, et kas seal on vahet ka, et kas ta on riigi"
+      },
+      {
+        "start_seconds": 3035.4,
+        "end_seconds": 3039.12,
+        "text": "või siis Euroopa Liidu toetus laiemalt, et kas te nagu vaatate ka seda, et, et millise"
+      },
+      {
+        "start_seconds": 3039.12,
+        "end_seconds": 3044.32,
+        "text": "st nagu võimendusallikast on siis toodud see, see toetus, et kas seal on ka kuidagi mingi"
+      },
+      {
+        "start_seconds": 3044.32,
+        "end_seconds": 3045.12,
+        "text": "t vahet?"
+      },
+      {
+        "start_seconds": 3045.12,
+        "end_seconds": 3050.16,
+        "text": "Ei, otseselt ei ole, et noh, ma pigem nagu tookski selle, et, et seal lihtsalt see va"
+      },
+      {
+        "start_seconds": 3050.16,
+        "end_seconds": 3055.96,
+        "text": "ade, et nagu finantsiliselt kindlasti on jällegi kindlam selle laenu andmisel, et et"
+      },
+      {
+        "start_seconds": 3055.96,
+        "end_seconds": 3063.24,
+        "text": ", et kliendil on veel mingisugune lisarahastus sealjuures on ju, et aga ja noh, võib"
+      },
+      {
+        "start_seconds": 3063.24,
+        "end_seconds": 3067.08,
+        "text": "-olla ta on ka nagu tõsiseltvõetavam, kui ta on selle kogu selle bürokraatia läbi käi"
+      },
+      {
+        "start_seconds": 3067.08,
+        "end_seconds": 3072.08,
+        "text": "nud, on ju, et ja ma päris nagu noh, selle pealt üks otsustaja muidugi ka jälle ei te"
+      },
+      {
+        "start_seconds": 3072.08,
+        "end_seconds": 3075.08,
+        "text": "hta, et ma lihtsalt ütlengi, et see on niisugune nagu lisanüanss sealjuures, aga ta kindlasti"
+      },
+      {
+        "start_seconds": 3075.08,
+        "end_seconds": 3076.88,
+        "text": "positiivne on jah."
+      },
+      {
+        "start_seconds": 3076.88,
+        "end_seconds": 3081.72,
+        "text": "Okei, tore, et ühesõnaga tasub ikka ettevõtetel see retk ette võtta ja osaleda ka siis"
+      },
+      {
+        "start_seconds": 3081.72,
+        "end_seconds": 3084.08,
+        "text": "Euroopa Liidu otserahastuse konsortsiumites."
+      },
+      {
+        "start_seconds": 3084.08,
+        "end_seconds": 3088.68,
+        "text": "Et on igatepidi kasulik, et üks asi nagu rahastuse mõttes, aga teine asi ka sellise nä"
+      },
+      {
+        "start_seconds": 3088.68,
+        "end_seconds": 3092.92,
+        "text": "htavuse mõttes, et paljud, kes on nagu sinna Euroopa innovatsioonifondis osalenud, räägi"
+      },
+      {
+        "start_seconds": 3092.92,
+        "end_seconds": 3097.44,
+        "text": "vad, et just see nähtavus on, on väga-väga hea seoses sellega ja jääd rohkem ka riski"
+      },
+      {
+        "start_seconds": 3097.44,
+        "end_seconds": 3101.64,
+        "text": "investoritele ja, ja teistele rahastajatele toetuseandjatele silma."
+      },
+      {
+        "start_seconds": 3101.64,
+        "end_seconds": 3105.04,
+        "text": "Aga ma võib-olla lõpetuseks küsiks veel siis ka sellise asja, et oleme siin täna rää"
+      },
+      {
+        "start_seconds": 3105.04,
+        "end_seconds": 3108.36,
+        "text": "kinud puhast tehnoloogiatest ja rohetehnoloogiatest, et üks asi on jah, see, et me ei"
+      },
+      {
+        "start_seconds": 3108.36,
+        "end_seconds": 3111.28,
+        "text": "pääse nagu sellest üle ega ümber, et seda on vaja teha."
+      },
+      {
+        "start_seconds": 3111.28,
+        "end_seconds": 3115.6,
+        "text": "Aga kuidas teile tundub, kas sihuke tiitlid, rohe ja jätkusuutlik, kas need on üldse"
+      },
+      {
+        "start_seconds": 3115.6,
+        "end_seconds": 3119.08,
+        "text": "tänapäeval enam konkurentsieelis või on ta juba tegelikult hügieenifaktor?"
+      },
+      {
+        "start_seconds": 3119.08,
+        "end_seconds": 3123.8,
+        "text": "Et kas me saame eraldi üldse nagu rääkida rohetehnoloogiate elluviimisest kui sellise"
+      },
+      {
+        "start_seconds": 3123.8,
+        "end_seconds": 3129.4,
+        "text": "st või, või tegelikult juba on see hügieenifaktor, et kui me kuskilt midagi toodame,"
+      },
+      {
+        "start_seconds": 3129.4,
+        "end_seconds": 3133.92,
+        "text": "teeme, tekitame, et see on juba jätkusuutlik eos."
+      },
+      {
+        "start_seconds": 3133.92,
+        "end_seconds": 3136.32,
+        "text": "Kas on sellel üldse vahet?"
+      },
+      {
+        "start_seconds": 3136.32,
+        "end_seconds": 3140.6,
+        "text": "Ja mulle tundub, et see vahe on juba puhtalt sellepärast, et eestlased on allergilised"
+      },
+      {
+        "start_seconds": 3140.6,
+        "end_seconds": 3143.08,
+        "text": "nendele sõnadele."
+      },
+      {
+        "start_seconds": 3143.08,
+        "end_seconds": 3146.92,
+        "text": "Et juba sellepärast ei tohi neid sõnu kasutada ja noh, siin ju viimased uuringud näita"
+      },
+      {
+        "start_seconds": 3146.92,
+        "end_seconds": 3151.2,
+        "text": "vad ka, et me oleme lisaks ka Euroopas ikkagi kõige skeptilisemad, mis on hästi-hästi"
+      },
+      {
+        "start_seconds": 3151.2,
+        "end_seconds": 3152.16,
+        "text": "kurb."
+      },
+      {
+        "start_seconds": 3152.16,
+        "end_seconds": 3156.8,
+        "text": "Aga ettevõtetega, ka panga poolt noh, erinevate sektoritega suheldes on väga hästi nä"
+      },
+      {
+        "start_seconds": 3156.8,
+        "end_seconds": 3163.12,
+        "text": "ha seda, et et mõnikord nad juba ongi teinud need mõned innovatsioonid või, või need"
+      },
+      {
+        "start_seconds": 3163.12,
+        "end_seconds": 3166.96,
+        "text": "tehnoloogilised muudatused ära, aga nad ei pane sellele külge sõna jätkusuutlikkus või"
+      },
+      {
+        "start_seconds": 3166.96,
+        "end_seconds": 3170.84,
+        "text": ", või energiatõhusus või, või, või midagi sellist."
+      },
+      {
+        "start_seconds": 3170.84,
+        "end_seconds": 3175.08,
+        "text": "Et nende jaoks on see lihtsalt mingi uus tehnoloogia, mis aitab neil ettevõttel edasi"
+      },
+      {
+        "start_seconds": 3175.08,
+        "end_seconds": 3180.52,
+        "text": "areneda, efektiivsust luua, ükskõik mis, mis sfääris ja, ja, ja see ongi ja noh, see"
+      },
+      {
+        "start_seconds": 3180.52,
+        "end_seconds": 3184.8,
+        "text": "ongi see hügieen siis on ju, et, et mu isiklik arvamus on, et me tõepoolest ei peaks"
+      },
+      {
+        "start_seconds": 3184.8,
+        "end_seconds": 3189.48,
+        "text": "sellele kõigele seda märki külge panema, et see pigem peaks olema selline loomulik are"
+      },
+      {
+        "start_seconds": 3189.48,
+        "end_seconds": 3194.24,
+        "text": "ng sellise säästlikuma ja mitte raiskava majanduse poole siis."
+      },
+      {
+        "start_seconds": 3194.24,
+        "end_seconds": 3198.72,
+        "text": "Ja ilmselt see oleneb ka turust, eks ole, et kui välisturgudele minna, siis te siin ole"
+      },
+      {
+        "start_seconds": 3198.72,
+        "end_seconds": 3203.36,
+        "text": "te ka ettevõtted nõustanud Alar ka võib-olla ise siin välisturgudega ekspordipotentsi"
+      },
+      {
+        "start_seconds": 3203.36,
+        "end_seconds": 3207.52,
+        "text": "aale uurinud ja, ja vaadanud, et kas seal on see vahe sees või oleneb see riigist või"
+      },
+      {
+        "start_seconds": 3207.52,
+        "end_seconds": 3209.72,
+        "text": "kuidas see on."
+      },
+      {
+        "start_seconds": 3209.72,
+        "end_seconds": 3214.6,
+        "text": "Ma arvan, et seal see seis on võib-olla niimoodi, et, et kui me räägime Eestist, siis"
+      },
+      {
+        "start_seconds": 3214.6,
+        "end_seconds": 3220.32,
+        "text": "meie noh, meil on kuskil on ju üheksa klienti üle maailma."
+      },
+      {
+        "start_seconds": 3220.32,
+        "end_seconds": 3226.92,
+        "text": "Ja, ja need, kes siis meie toodet kasutavad, et toota jaekaupu, mida siis inimesed o"
+      },
+      {
+        "start_seconds": 3226.92,
+        "end_seconds": 3228.16,
+        "text": "stavad poest."
+      },
+      {
+        "start_seconds": 3228.16,
+        "end_seconds": 3232.52,
+        "text": "Nad ütlevad seda, et noh, et see sellist, kui sa kirjutad sinna rohe, roheliselt too"
+      },
+      {
+        "start_seconds": 3232.52,
+        "end_seconds": 3236.92,
+        "text": "detud või taaskasutatud või et sa sellest premiumit küsida ei saa."
+      },
+      {
+        "start_seconds": 3236.92,
+        "end_seconds": 3243.2,
+        "text": "Et kui sul on kaks identset toodet samade omadustega, ühel on pealkirjas, et see on näiteks"
+      },
+      {
+        "start_seconds": 3243.2,
+        "end_seconds": 3249.4,
+        "text": "sada protsenti taaskasutatud materjalidest toodetud siis kui see hind on võrdne, siis"
+      },
+      {
+        "start_seconds": 3249.4,
+        "end_seconds": 3255.2,
+        "text": "inimesed pigem võtavad selle taaskasutatud seal nad tahavad nagu head teha, aga kui seal"
+      },
+      {
+        "start_seconds": 3255.2,
+        "end_seconds": 3261.56,
+        "text": "on hinnas vahe, siis nad ei võta seda toodet, et noh, premium me selle eest ei saa."
+      },
+      {
+        "start_seconds": 3261.56,
+        "end_seconds": 3269.12,
+        "text": "Ja noh, ütleme võib-olla globaalsemalt ongi see, et, et see just"
+      },
+      {
+        "start_seconds": 3269.12,
+        "end_seconds": 3275.4,
+        "text": "suuremad korporatsioonid kindlasti mõtlevad ette täna, et nad näevad, et võib-olla nüüd"
+      },
+      {
+        "start_seconds": 3275.4,
+        "end_seconds": 3279.12,
+        "text": "võib-olla nad alguses nägid, et, et viie aasta pärast onju."
+      },
+      {
+        "start_seconds": 3279.12,
+        "end_seconds": 3285.6,
+        "text": "Aga, aga võib-olla sellises keskpikas vaates ikkagi, kui nad ei valmistu selleks, et"
+      },
+      {
+        "start_seconds": 3285.6,
+        "end_seconds": 3291.08,
+        "text": "kui nad ei leia neid alternatiivseid asju, siis neil läheb keeruliseks, et ma tean, et"
+      },
+      {
+        "start_seconds": 3291.08,
+        "end_seconds": 3297.88,
+        "text": "tegelikult see kõik algab rahast, et väga paljudel ettevõtetel on osad nii-öelda kre"
+      },
+      {
+        "start_seconds": 3297.88,
+        "end_seconds": 3304.68,
+        "text": "diidilaenutingimused ja ka investeerimislaenu tingimused seotud sellega, et kui palju"
+      },
+      {
+        "start_seconds": 3304.68,
+        "end_seconds": 3309.2,
+        "text": "nad siis kas taaskasutatud materjale või kui, kui palju nad oma süsiniku jalajälge vähe"
+      },
+      {
+        "start_seconds": 3309.2,
+        "end_seconds": 3309.88,
+        "text": "ndavad."
+      },
+      {
+        "start_seconds": 3309.88,
+        "end_seconds": 3317.48,
+        "text": "Et nad peavad seda kvooti nii-öelda täitma, sest muidu nende intress muutub."
+      },
+      {
+        "start_seconds": 3317.48,
+        "end_seconds": 3322.12,
+        "text": "No see on, see on see süstenability link klone, mis on need suured laenud, mis ongi mingisuguse"
+      },
+      {
+        "start_seconds": 3322.12,
+        "end_seconds": 3326.44,
+        "text": "eesmärgiga seotud, et on lubanud, et ta täidab selle eesmärgi ja kui ta seda eesmärk"
+      },
+      {
+        "start_seconds": 3326.44,
+        "end_seconds": 3329.96,
+        "text": "i siis ei täida, siis see intress muutub ja see on juba algselt lepingusse niimoodi kirjuta"
+      },
+      {
+        "start_seconds": 3329.96,
+        "end_seconds": 3333.28,
+        "text": "tud jah."
+      },
+      {
+        "start_seconds": 3333.28,
+        "end_seconds": 3338.08,
+        "text": "Jah, et tegelikult jah, et tundub, et jah, et eelis ta ei anna, aga selleks, et oma ette"
+      },
+      {
+        "start_seconds": 3338.08,
+        "end_seconds": 3342.52,
+        "text": "võtet arendada ja edasi liikuda, et tegelikult jätkusuutlikkus ja rohe peab seal see"
+      },
+      {
+        "start_seconds": 3342.52,
+        "end_seconds": 3346.44,
+        "text": "s endiselt, endiselt olema."
+      },
+      {
+        "start_seconds": 3346.44,
+        "end_seconds": 3355.88,
+        "text": "Kas meil on küsimusi, arvamusi publikust?"
+      },
+      {
+        "start_seconds": 3355.88,
+        "end_seconds": 3359.64,
+        "text": "Kui koroona ajal liikusime veebikoosolekutesse, siis öeldi, et tuleb anda seitse seku"
+      },
+      {
+        "start_seconds": 3359.64,
+        "end_seconds": 3363.48,
+        "text": "ndit, et siis inimesed nagu seedivad seda, et, et neile anti nüüd ka sõna."
+      },
+      {
+        "start_seconds": 3363.48,
+        "end_seconds": 3371.12,
+        "text": "Et ootame siis seitse sekundit."
+      },
+      {
+        "start_seconds": 3371.12,
+        "end_seconds": 3376.28,
+        "text": "Ei soovi keegi küsida?"
+      },
+      {
+        "start_seconds": 3376.28,
+        "end_seconds": 3381.6,
+        "text": "Okei, tore, aga siis jah, et lõpetasime natukene varem, aga ilm on kena ja kaunis, nii"
+      },
+      {
+        "start_seconds": 3381.6,
+        "end_seconds": 3386.4,
+        "text": "et minge nautige seda, enne kui järgmised arutelud algavad ja suur aitäh siis meie pa"
+      },
+      {
+        "start_seconds": 3386.4,
+        "end_seconds": 3389.88,
+        "text": "nelistidele teemat avamast ja mõtteid avamast."
+      },
+      {
+        "start_seconds": 3389.88,
+        "end_seconds": 3395.08,
+        "text": "Ja rohe siis jah, tõesti endiselt oluline, Green Industrial deal ka Eestis ikka endi"
+      },
+      {
+        "start_seconds": 3395.08,
+        "end_seconds": 3399.6,
+        "text": "selt fookuses ja ei ole mitte kuskile siis me kliima ja roheteemadega kadunud."
+      },
+      {
+        "start_seconds": 3399.6,
+        "end_seconds": 3414.7,
+        "text": "Aitäh."
+      }
+    ]
+  }
+}

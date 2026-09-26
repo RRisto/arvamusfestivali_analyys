@@ -1,0 +1,411 @@
+{
+  "schema_version": 1,
+  "episode": {
+    "id": "2258666735",
+    "rss_guid": "tag:soundcloud,2010:tracks/2258666735",
+    "title": "Milliseid lasteraamatuid tahame – lastega ja lastele",
+    "published_at": "2026-02-02T13:16:29Z",
+    "apple_collection_id": 1477431807,
+    "page_url": "https://soundcloud.com/arvamusfestival/milliseid-lasteraamatuid-tahame-lastega-ja-lastele-5",
+    "audio_url": "https://feeds.soundcloud.com/stream/2258666735-arvamusfestival-milliseid-lasteraamatuid-tahame-lastega-ja-lastele-5.mp3",
+    "audio_bytes": 15349550,
+    "audio_sha256": "6129ebed1fb981e5a86eb831f6c17c2ca84397bec9ef64568f48ae8bb089dc5f",
+    "duration_seconds": 383.0
+  },
+  "transcription": {
+    "model": {
+      "name": "large",
+      "repository": "TalTechNLP/streaming-zipformer-large.et-en",
+      "revision": "2812262bd4fd5d4327dc09ca0e6c19e8a32a03d6",
+      "precision": "int8"
+    },
+    "runtime": {
+      "sherpa_onnx": "1.13.7",
+      "decoding_method": "modified_beam_search",
+      "threads": 4
+    },
+    "text": "Tere tulemast arvamusfestivalile. Olete jõudnud arutellu, milliseid lasteraamatuid tahame, mille toovad teieni lastekaitse liit ja meie säravad lapse õiguste saadikud. Mina olen Tuule, samuti lapse õiguste saadik ja Eesti esindaja ühes organisatsioonis nimega EuroCeld. Tänane arutelu on eriline, sest sõna saavad lapsed ise, ehk siis teie. Te räägite, milliseid raamatuid teid päriselt kõnetavad ja mis aitaks teil rohkem lugemishuvi tunda. Arutelu, aruteluringe viivad läbi lapseõiguste saadikud Miia Mai, Mirjam ja meie kaks Martat koos teiste kirjandushuviliste noortega. Arutelud toimuvad erinevates vormides, et igaühe hääl saaks kõlada. Kallid täiskasvanud, kes te veel siin pisut olete. Palume teid tagasi kell üksteist nelikümmend viis, mil teeme päeva mõtetest kokkuvõtte ja jagame laste ettepanekuid. Tule kuulama ja kaasa mõtlema, sest just siin sünnivad mõtteid, mis võivad muuta kogu laste kirjandusmaailma. Nii, ja nüüd palume siis täiskasvanutel lahkuda ja hakkavad töötoad. Nii väga tore, et te olete kõik siia keskele tagasi jõudnud ja tore näha, et täiskasvanud on ka enda tee tagasi siia alasse leidnud. Nüüd ma annan mikrofoni järjest meie grupijuhtidele ja nad jagavad siis kolme mõtet enda ringist, mis neile enim silma jäid ja tutvustavad natukene, mis me tegime. Ja ehk siis mina olen Marta ja minu töötoas oli siis eesmärk panna kirja, et mis võiks selle raamatu alguses kohe toimuda, et siis kindlasti oleks piisavalt põnev, et tahaks ikkagi edasi ka lugeda. Ja peamiselt toodigi välja siis see, et alguses võiks kohe olla mingisugune sündmus ja see võiks olla kuidagi võib-olla hirmus, natuke kurb ja, ja siis seda sealt nagu edasi liikuda, aga et peamine on see, et lõpp oleks alati ikkagi õnnelik, et keegi nagu nutuga raamatut kinni panna ei tahaks. Ja üks asi, mis ma märkasin, et väga paljudele meeldis see mõte, et see kogu sündmustik toimuks siis sünnipäeval. Et see oli kuidagi huvitav ja kohe väga-väga paljudel tuli see just välja, et, et tahaks, et toimuks sünnipäeval ja, ja siis sealt liikuda edasi arvutimängudesse ja internetimaailma. Ja jah, see minu poolt, ma arvan kõik. Mina olen Miia-Mai ja minu grupis arutasime siis, et mis saaks siis, kui raamatuid ei oleks, millised oleks emotsioonid ja kuidas sa siis ennast nagu tunneksid. Mulle jäi silma see, et enamus vastasid, et kui raamatuid ei oleks, siis nad oleks kurvad, neil oleks igav ja ei oleks mitte midagi teha. Ja et kui raamatud oleks, siis oleks palju parem ja nad oleks rõõmsad ja see minu poolt kõik. Tere, olen Mirjam ja minu töötoa teema oli. Milliseid raamatuid tahaksime juurde, et missugused teemad võiksid olla? Et põhikalt mulle jäi väga silma, et igas grupis pakuti, et võiks olla rohkem kriminulle ja mitte just selliseid, kus nagu midagi varastatakse, vaid sellised, kus on niisugused pigem mõrvamüsteeriumid või noh, midagi sellist natukene põnevamat. Ja siis jäi veel selline asi, et ühes grupis mainiti, et võiks olla selline asi, et tehakse nagu, kirjeldatakse mingisuguse objekti elu, näiteks see ei ole nagu inimene, vaid see on nagu näiteks kartul, kivi, noh mida iganes. Lihtsalt siukene, et noh, saad teada, kuidas niisugune elutu asi mõtleb. Ja oligi niisugune, et lõpus võiks olla mingisugune niisugune plot vist või niisugune üllatus, et ei ole lihtsalt, et ma arvasin seda juba ette, vaid tulebki niisugune nagu põnev lõpp. Et see jäi mulle väga silma. Aitäh. Tere, minu nimi on Kaumard ja minu töötoas siis me saime välja mõelda uusi raamatutegelasi, keda me sooviksime. Ja minu, minule jäi väga silma see, et tavaliselt need uued raamatutegelased olid ikkagi siuksed, kas esemed või loomad, et inimesi oli seal tõesti väga vähe. Et just sooviti siukseid erilisi loomasid või siis näiteks üldse objekte. Et alati ei peagi see tegelane olema inimene. Lisaks mulle jäi ka silma see, et alati ei pea see tegelane olema mingi superkangelane, midagi väga erilist printsessi või võiks olla ka täiesti tavaline inimene, nagu me kõik, et ei pea alati olema midagi väga suurt või erilist või tahakski lugeda mingit sihukese tavalise inimese lugu. Ja lisaks ma alguses küsisin ka lemmik raamatute kohta ja mulle jäi väga silma niisugune asi, et väga palju kõlasid vanad Eesti raamatud, kus olid need lemmiktegelased siis pärit, mis oli mulle väga üllatav ja väga tore, et sellistest vanadest Eesti lasteraamatutest oli lemmiktegelasi. Ma arvan, et see on kõik. Nii, ja nüüd me sooviksime teha ühispildi kõikide lastega, kes arutelus osaleksid ja et kohe peale seda ühispilti te lähte tagasi enda viimastesse arutelupunktidesse, ehk siis ma ei tea, kes oli Miia Maiga seal, lähevad tagasi sinna, meil on teile väiksed kingitused ja tahaksime teha viimase tagasiside, ehk siis palume teid kõiki siia ala vahete ühispildi jaoks ja siis kindlasti ärge minge ära, vaid minge viimasesse gruppi tagasi. Aitäh, mina omalt poolt tänan teid kõiki.",
+    "cues": [
+      {
+        "start_seconds": 10.88,
+        "end_seconds": 13.44,
+        "text": "Tere tulemast arvamusfestivalile."
+      },
+      {
+        "start_seconds": 13.44,
+        "end_seconds": 19.48,
+        "text": "Olete jõudnud arutellu, milliseid lasteraamatuid tahame, mille toovad teieni lastekaitse"
+      },
+      {
+        "start_seconds": 19.48,
+        "end_seconds": 22.44,
+        "text": "liit ja meie säravad lapse õiguste saadikud."
+      },
+      {
+        "start_seconds": 22.44,
+        "end_seconds": 28.16,
+        "text": "Mina olen Tuule, samuti lapse õiguste saadik ja Eesti esindaja ühes organisatsioonis"
+      },
+      {
+        "start_seconds": 28.16,
+        "end_seconds": 30.48,
+        "text": "nimega EuroCeld."
+      },
+      {
+        "start_seconds": 30.48,
+        "end_seconds": 35.88,
+        "text": "Tänane arutelu on eriline, sest sõna saavad lapsed ise, ehk siis teie."
+      },
+      {
+        "start_seconds": 35.88,
+        "end_seconds": 41.48,
+        "text": "Te räägite, milliseid raamatuid teid päriselt kõnetavad ja mis aitaks teil rohkem lu"
+      },
+      {
+        "start_seconds": 41.48,
+        "end_seconds": 44.0,
+        "text": "gemishuvi tunda."
+      },
+      {
+        "start_seconds": 44.0,
+        "end_seconds": 50.32,
+        "text": "Arutelu, aruteluringe viivad läbi lapseõiguste saadikud Miia Mai, Mirjam ja meie kaks"
+      },
+      {
+        "start_seconds": 50.32,
+        "end_seconds": 55.28,
+        "text": "Martat koos teiste kirjandushuviliste noortega."
+      },
+      {
+        "start_seconds": 55.28,
+        "end_seconds": 60.8,
+        "text": "Arutelud toimuvad erinevates vormides, et igaühe hääl saaks kõlada."
+      },
+      {
+        "start_seconds": 60.8,
+        "end_seconds": 64.04,
+        "text": "Kallid täiskasvanud, kes te veel siin pisut olete."
+      },
+      {
+        "start_seconds": 64.04,
+        "end_seconds": 69.48,
+        "text": "Palume teid tagasi kell üksteist nelikümmend viis, mil teeme päeva mõtetest kokkuvõt"
+      },
+      {
+        "start_seconds": 69.48,
+        "end_seconds": 72.64,
+        "text": "te ja jagame laste ettepanekuid."
+      },
+      {
+        "start_seconds": 72.64,
+        "end_seconds": 77.72,
+        "text": "Tule kuulama ja kaasa mõtlema, sest just siin sünnivad mõtteid, mis võivad muuta kogu"
+      },
+      {
+        "start_seconds": 77.72,
+        "end_seconds": 80.04,
+        "text": "laste kirjandusmaailma."
+      },
+      {
+        "start_seconds": 80.04,
+        "end_seconds": 89.6,
+        "text": "Nii, ja nüüd palume siis täiskasvanutel lahkuda ja hakkavad töötoad."
+      },
+      {
+        "start_seconds": 89.6,
+        "end_seconds": 94.4,
+        "text": "Nii väga tore, et te olete kõik siia keskele tagasi jõudnud ja tore näha, et täiskas"
+      },
+      {
+        "start_seconds": 94.4,
+        "end_seconds": 99.72,
+        "text": "vanud on ka enda tee tagasi siia alasse leidnud."
+      },
+      {
+        "start_seconds": 99.72,
+        "end_seconds": 107.16,
+        "text": "Nüüd ma annan mikrofoni järjest meie grupijuhtidele ja nad jagavad siis kolme mõtet enda"
+      },
+      {
+        "start_seconds": 107.16,
+        "end_seconds": 112.64,
+        "text": "ringist, mis neile enim silma jäid ja tutvustavad natukene, mis me tegime."
+      },
+      {
+        "start_seconds": 112.64,
+        "end_seconds": 119.92,
+        "text": "Ja ehk siis mina olen Marta ja minu töötoas oli siis eesmärk panna kirja"
+      },
+      {
+        "start_seconds": 119.92,
+        "end_seconds": 125.84,
+        "text": ", et mis võiks selle raamatu alguses kohe toimuda, et siis kindlasti oleks piisavalt"
+      },
+      {
+        "start_seconds": 125.84,
+        "end_seconds": 128.88,
+        "text": "põnev, et tahaks ikkagi edasi ka lugeda."
+      },
+      {
+        "start_seconds": 128.88,
+        "end_seconds": 134.28,
+        "text": "Ja peamiselt toodigi välja siis see, et alguses võiks kohe olla mingisugune sündmus ja"
+      },
+      {
+        "start_seconds": 134.28,
+        "end_seconds": 140.2,
+        "text": "see võiks olla kuidagi võib-olla hirmus, natuke kurb ja, ja siis seda sealt nagu edasi"
+      },
+      {
+        "start_seconds": 140.2,
+        "end_seconds": 146.16,
+        "text": "liikuda, aga et peamine on see, et lõpp oleks alati ikkagi õnnelik, et keegi nagu nu"
+      },
+      {
+        "start_seconds": 146.16,
+        "end_seconds": 149.24,
+        "text": "tuga raamatut kinni panna ei tahaks."
+      },
+      {
+        "start_seconds": 149.24,
+        "end_seconds": 155.6,
+        "text": "Ja üks asi, mis ma märkasin, et väga paljudele meeldis see mõte, et see kogu sündmus"
+      },
+      {
+        "start_seconds": 155.6,
+        "end_seconds": 158.52,
+        "text": "tik toimuks siis sünnipäeval."
+      },
+      {
+        "start_seconds": 158.52,
+        "end_seconds": 165.8,
+        "text": "Et see oli kuidagi huvitav ja kohe väga-väga paljudel tuli see just välja, et, et taha"
+      },
+      {
+        "start_seconds": 165.8,
+        "end_seconds": 171.48,
+        "text": "ks, et toimuks sünnipäeval ja, ja siis sealt liikuda edasi arvutimängudesse ja inter"
+      },
+      {
+        "start_seconds": 171.48,
+        "end_seconds": 172.88,
+        "text": "netimaailma."
+      },
+      {
+        "start_seconds": 172.88,
+        "end_seconds": 177.08,
+        "text": "Ja jah, see minu poolt, ma arvan kõik."
+      },
+      {
+        "start_seconds": 177.08,
+        "end_seconds": 184.76,
+        "text": "Mina olen Miia-Mai ja minu grupis arutasime siis, et mis saaks siis, kui raamatu"
+      },
+      {
+        "start_seconds": 184.76,
+        "end_seconds": 191.72,
+        "text": "id ei oleks, millised oleks emotsioonid ja kuidas sa siis ennast nagu tunneksid."
+      },
+      {
+        "start_seconds": 191.72,
+        "end_seconds": 198.92,
+        "text": "Mulle jäi silma see, et enamus vastasid, et kui raamatuid ei oleks, siis nad oleks ku"
+      },
+      {
+        "start_seconds": 198.92,
+        "end_seconds": 202.4,
+        "text": "rvad, neil oleks igav ja ei oleks mitte midagi teha."
+      },
+      {
+        "start_seconds": 202.4,
+        "end_seconds": 209.6,
+        "text": "Ja et kui raamatud oleks, siis oleks palju parem ja nad oleks rõõmsad ja see"
+      },
+      {
+        "start_seconds": 209.6,
+        "end_seconds": 212.2,
+        "text": "minu poolt kõik."
+      },
+      {
+        "start_seconds": 212.2,
+        "end_seconds": 216.64,
+        "text": "Tere, olen Mirjam ja minu töötoa teema oli."
+      },
+      {
+        "start_seconds": 216.64,
+        "end_seconds": 223.48,
+        "text": "Milliseid raamatuid tahaksime juurde, et missugused teemad võiksid olla?"
+      },
+      {
+        "start_seconds": 223.48,
+        "end_seconds": 228.16,
+        "text": "Et põhikalt mulle jäi väga silma, et igas grupis pakuti, et võiks olla rohkem kriminu"
+      },
+      {
+        "start_seconds": 228.16,
+        "end_seconds": 233.12,
+        "text": "lle ja mitte just selliseid, kus nagu midagi varastatakse, vaid sellised, kus on nii"
+      },
+      {
+        "start_seconds": 233.12,
+        "end_seconds": 238.32,
+        "text": "sugused pigem mõrvamüsteeriumid või noh, midagi sellist natukene põnevamat."
+      },
+      {
+        "start_seconds": 238.32,
+        "end_seconds": 246.0,
+        "text": "Ja siis jäi veel selline asi, et ühes grupis mainiti, et võiks olla selline asi, et teha"
+      },
+      {
+        "start_seconds": 246.0,
+        "end_seconds": 250.8,
+        "text": "kse nagu, kirjeldatakse mingisuguse objekti elu, näiteks see ei ole nagu inimene, vaid"
+      },
+      {
+        "start_seconds": 250.8,
+        "end_seconds": 253.56,
+        "text": "see on nagu näiteks kartul, kivi, noh mida iganes."
+      },
+      {
+        "start_seconds": 253.56,
+        "end_seconds": 258.28,
+        "text": "Lihtsalt siukene, et noh, saad teada, kuidas niisugune elutu asi mõtleb."
+      },
+      {
+        "start_seconds": 258.28,
+        "end_seconds": 264.6,
+        "text": "Ja oligi niisugune, et lõpus võiks olla mingisugune niisugune plot vist või niisugune"
+      },
+      {
+        "start_seconds": 264.6,
+        "end_seconds": 269.2,
+        "text": "üllatus, et ei ole lihtsalt, et ma arvasin seda juba ette, vaid tulebki niisugune nagu"
+      },
+      {
+        "start_seconds": 269.2,
+        "end_seconds": 270.2,
+        "text": "põnev lõpp."
+      },
+      {
+        "start_seconds": 270.2,
+        "end_seconds": 272.0,
+        "text": "Et see jäi mulle väga silma."
+      },
+      {
+        "start_seconds": 272.0,
+        "end_seconds": 274.28,
+        "text": "Aitäh."
+      },
+      {
+        "start_seconds": 274.28,
+        "end_seconds": 280.88,
+        "text": "Tere, minu nimi on Kaumard ja minu töötoas siis me saime välja mõelda uusi raamatute"
+      },
+      {
+        "start_seconds": 280.88,
+        "end_seconds": 282.96,
+        "text": "gelasi, keda me sooviksime."
+      },
+      {
+        "start_seconds": 282.96,
+        "end_seconds": 287.84,
+        "text": "Ja minu, minule jäi väga silma see, et tavaliselt need uued raamatutegelased olid ikkagi"
+      },
+      {
+        "start_seconds": 287.84,
+        "end_seconds": 292.56,
+        "text": "siuksed, kas esemed või loomad, et inimesi oli seal tõesti väga vähe."
+      },
+      {
+        "start_seconds": 292.56,
+        "end_seconds": 297.72,
+        "text": "Et just sooviti siukseid erilisi loomasid või siis näiteks üldse objekte."
+      },
+      {
+        "start_seconds": 297.72,
+        "end_seconds": 300.56,
+        "text": "Et alati ei peagi see tegelane olema inimene."
+      },
+      {
+        "start_seconds": 300.56,
+        "end_seconds": 306.28,
+        "text": "Lisaks mulle jäi ka silma see, et alati ei pea see tegelane olema mingi superkangela"
+      },
+      {
+        "start_seconds": 306.28,
+        "end_seconds": 311.96,
+        "text": "ne, midagi väga erilist printsessi või võiks olla ka täiesti tavaline inimene, nagu me"
+      },
+      {
+        "start_seconds": 311.96,
+        "end_seconds": 317.44,
+        "text": "kõik, et ei pea alati olema midagi väga suurt või erilist või tahakski lugeda mingit"
+      },
+      {
+        "start_seconds": 317.44,
+        "end_seconds": 321.04,
+        "text": "sihukese tavalise inimese lugu."
+      },
+      {
+        "start_seconds": 321.04,
+        "end_seconds": 326.0,
+        "text": "Ja lisaks ma alguses küsisin ka lemmik raamatute kohta ja mulle jäi väga silma niisu"
+      },
+      {
+        "start_seconds": 326.0,
+        "end_seconds": 331.28,
+        "text": "gune asi, et väga palju kõlasid vanad Eesti raamatud, kus olid need lemmiktegelased siis"
+      },
+      {
+        "start_seconds": 331.28,
+        "end_seconds": 335.6,
+        "text": "pärit, mis oli mulle väga üllatav ja väga tore, et sellistest vanadest Eesti lastera"
+      },
+      {
+        "start_seconds": 335.6,
+        "end_seconds": 338.28,
+        "text": "amatutest oli lemmiktegelasi."
+      },
+      {
+        "start_seconds": 338.28,
+        "end_seconds": 344.64,
+        "text": "Ma arvan, et see on kõik."
+      },
+      {
+        "start_seconds": 344.64,
+        "end_seconds": 349.44,
+        "text": "Nii, ja nüüd me sooviksime teha ühispildi kõikide lastega, kes arutelus osaleksid ja"
+      },
+      {
+        "start_seconds": 349.44,
+        "end_seconds": 354.84,
+        "text": "et kohe peale seda ühispilti te lähte tagasi enda viimastesse arutelupunktidesse, ehk"
+      },
+      {
+        "start_seconds": 354.84,
+        "end_seconds": 359.16,
+        "text": "siis ma ei tea, kes oli Miia Maiga seal, lähevad tagasi sinna, meil on teile väiksed"
+      },
+      {
+        "start_seconds": 359.16,
+        "end_seconds": 363.44,
+        "text": "kingitused ja tahaksime teha viimase tagasiside, ehk siis palume teid kõiki siia ala"
+      },
+      {
+        "start_seconds": 363.44,
+        "end_seconds": 368.64,
+        "text": "vahete ühispildi jaoks ja siis kindlasti ärge minge ära, vaid minge viimasesse gruppi"
+      },
+      {
+        "start_seconds": 368.64,
+        "end_seconds": 369.48,
+        "text": "tagasi."
+      },
+      {
+        "start_seconds": 369.48,
+        "end_seconds": 383.739,
+        "text": "Aitäh, mina omalt poolt tänan teid kõiki."
+      }
+    ]
+  }
+}

@@ -1,0 +1,2721 @@
+{
+  "schema_version": 1,
+  "episode": {
+    "id": "2310594914",
+    "rss_guid": "tag:soundcloud,2010:tracks/2310594914",
+    "title": "Õpetaja ajamasinas. Õpetaja missioon ja rollid erinevates tulevikustsenaariumides aastaks 2035",
+    "published_at": "2026-04-28T06:19:49Z",
+    "apple_collection_id": 1477431807,
+    "page_url": "https://soundcloud.com/arvamusfestival/opetaja-ajamasinas-opetaja-missioon-ja-rollid-erinevates-tulevikustsenaariumides-aastaks-2035-4",
+    "audio_url": "https://feeds.soundcloud.com/stream/2310594914-arvamusfestival-opetaja-ajamasinas-opetaja-missioon-ja-rollid-erinevates-tulevikustsenaariumides-aastaks-2035-4.mp3",
+    "audio_bytes": 114939819,
+    "audio_sha256": "9b27c9be6e3175fac2ab2341bdf6de0fe5993f2e6f36374e859584b8e744ea76",
+    "duration_seconds": 2873.0
+  },
+  "transcription": {
+    "model": {
+      "name": "large",
+      "repository": "TalTechNLP/streaming-zipformer-large.et-en",
+      "revision": "2812262bd4fd5d4327dc09ca0e6c19e8a32a03d6",
+      "precision": "int8"
+    },
+    "runtime": {
+      "sherpa_onnx": "1.13.7",
+      "decoding_method": "modified_beam_search",
+      "threads": 4
+    },
+    "text": "Alustame siis hariduse tulevikuala teise päeva kõige viimast sündmust. Ma korraks võtan selle võimaluse, et võtta see kaks päeva kokku, et enda tutvustuseks ka, et Annika Räim on minu nimi ja minu tänane töökoht on targa tuleviku fondis, mis on siis sihtasutus, mille on asutanud Swedbank ja, ja asutaja on sellesse sihtasutusse paigutanud siis kümme miljonit eurot, mida me Eesti üldhariduse edendamiseks siis projektidele pilootidele, programmidele, kes meie juurde tulevad, taotlema ka siis välja anname, et meil on esimene hästi värske, me alustasime tegelikult päris tegevust selle aasta veebruarist ja meil on olnud esimene taotlusvoor ja, ja selle vooru esimesed kuus projekti on ka toetuse saanud, nii et et ma pole üheski üheski paneelis veel seda öelnud, aga nüüd ma kasutan võimalust ikkagi ka veel, ütlen, et et praegu on just taotluste esitamise aeg kuni septembri lõpuni, et tutvuge targa tulevikufond.ee. Et me oleme tõesti valmis nõuga ja mitte ainult rahaga, vaid ka nõustamisega aitama tegelikult ka neid toetuseid sõnastada ja mitte küsimus ei ole selles nagu bürokraatlikus mõttes, kuidas, vaid, vaid just neid unistusi kuidagi kirja panna, et mis see siis on, mis te päriselt tahate teha. Nii et see on see, mida ma igapäevaselt teen, aga siin Arvamusfestivalil on tõesti sellel aastal minu vastutus olnud hariduse tulevikuala loomine sisu mõttes. Ja see ala on siis toimetanud siin eile ja me toimetame täna. Ja võib-olla nüüd, kus me oleme viimasesse etappi jõudnud, on hea korraks enda ja teie jaoks see üle käia, et me alustasime eile sellise vestlusringiga, kus vastati küsimusele, mis on üldse Eesti hariduse eesmärk. Seejärel räägiti sellest, et kas koolijuht on tippjuht ja sisustati seda maailma, siis me rääkisime koolivõrgust, et milline on see koolivõrk Eestis, kus on tark laps toetatud, kus haridusvõrk on koostöine ja siis me jõudsime tänasesse päeva, kus hommikul me rääkisime sellest, et kas Eesti suudab oma tarkust ehk läbi teaduse tekkinud tarkust rahaks teha. Enne seda vestlusringi oli meil siis kohtumine, kus räägiti tiihüppest ja nüüd on siis tulevik, hariduse tulevikuala viimane sündmus, mis on õpetaja ajamasinas, kus meil on siis neli stsenaariumi võimalikku ja Madleenia Johanna, keda ma kohe tutvustan, on öelnud, et need ei ole utoopilised stsenaariumid, vaid need on täiesti võimalikult teostuvad stsenaariumid kümne aasta pärast ja need on ära kirjeldatud ja me, me teeme selle poolteist tundi siis tavapäratult võib-olla ehk nagu mõnedele siin varasemalt ütlesin, ei ole paneliste, ei ole esinejaid, vaid te kõik olete kutsutud päriselt kaasa lööma selle nelja stsenaariumi raames õpetaja rolli kirjeldama. Seetõttu on meil ka need neli lauda. Vaadates natuke ringi, ma arvan, et nibin-nabin kõik ka selle laua ümber enne nelja laua ümber jagunevad ja ennast võivad sinna niimoodi siis nagu lähedal väga lähedale asetada, aga kui see ei juhtu, siis olete lihtsalt ka teretulnud kaasa mõtlema natuke eemalt veni, kuidas teile sobib, aga igal juhul on, on selline võimalus täna päriselt ja praktiliselt kaasa lüüa ja selle tulem, mis selle tulemusel sünnib juba siis Johanna ja Madleen teile räägivad. Nii et tegemist on siis tõesti tulevikku vaatamisega kõige otsesemas mõttes, võib-olla kõige otsesemas üldse selle kahe päeva jooksul ja ja ma loodan, et see, mis me teile pakume, teile meeldib ja inspireerib. Aga ja juba mitu korda olen teid eesnimepidi tutvustanud, aga ütlen veelkord Johanna ja Madleen Eesti tuleviku-uuringute Instituudist, kes on siis professionaalid just selles, kuidas me võiksime tuleviku peale mõelda, kasutades erinevaid tuleviku disaini metoodikaid ja mis järeldusi siis nendest teha, nii et me usaldame ennast siis teie juhendamise alla. Nii kahju, et kõike kuulnud, mis ma kõike rääkisin, Kadri, aga igal juhul hakkame siis neid õpetaja profiile looma koos ja sõna on teil, loodan, et tulete aktiivselt kaasa, kes tahab kuulata, oled ka teretulnud, aga aktiivne, ma arvan, kaasatulek on see kõige põnevam osa asjast. Suur aitäh, Annika ja aitäh meid täna siia kutsumast, tõesti nagu me koolis räägime ju tagurpidi klassiruumist, siis täna meil on ka tagurpidi arutelu. Meie räägime natukene alguses ja siis meie head kaasamõtlejad, noored koolist on siin arutelusid juhtimas neljas erinevas lauas ja palume siis pärast meie lühikese ettekande lõppu kõikidel leida koht ühe laua ääres. Alguses paar sõna tuleviku mõtlemisest, siis sellest, et mis stsenaariumid meil täna arutelu all on, siis mis me teeme ja siis juba hakkame ise tulevikku looma. Nii, tervitus ka minu poolt, mina olen siis Madleen Eesti Tuleviku-uuringute Instituudi meetodi juht ja mul on siis au ühe slaidi juures natukene rääkida, mis see tulevikumõtlemine on. Ja kuidas seda tehakse. Väga pikka loengut ei pea, lihtsalt ütlen ära, et tegemist ei ole ennustamisega. See on distsipliin, see on mõtteviis, see on metoodika, mille keskmes on siis võimaliku tuleviku ja me ütleme isegi võimalike tulevikke, sest tulevikke võib olla rohkem kui üks, nende ettekujutamine. Küll aga ei ole see niimoodi, et me lihtsalt nagu unistame või, või näeme und, kujutame midagi fantastilist ette. Tuleviku mõtlemine algab sellest, mis on juba täna olemas, ehk siis me ütleme, et tulevikumõtlemise nii-öelda tooraine, millest me neid tulevikuvisioone loome, on signaalid tänasest trendid, mida me enda ümber näeme, suuremad megatrendid, mis siis kutsuvad esile suuri muutusi ja meie ülesanne on siis olla tähelepanelik, neid märgata ja nende põhjal hakata ette kujutama, milline see tulevik võiks siis välja näha ja millised inimesed seal tulevikus tegutsevad, kuidas nad seal elavad, mismoodi kommunikeeruvad, töötavad ja nii edasi. Ideaalis võiksime tulevikku vaadata kuskil kümne aasta kaugusesse, see on selline hea distants, kus asjad on turvalises kauguses meist, me julgeme mõelda, võib-olla ka nii-öelda kastist välja ja natuke hullumeelselt. Samas on see aga selline hoomatav distants, et ta ei ole ikkagi kuskil väga-väga kaugel ja seetõttu ka täna, kui me arutleme õpetaja tuleviku ja õpetaja tuleviku rollide üle, siis olemegi võtnud sihiks aasta kaks tuhat kolmkümmend viis ja hakkame siis ühiselt sinna vaatama. Nii instituudist ka. Eesti Tuleviku-uuringute Instituut on tegelikult asutatud üheksakümne esimesel aastal. Üks asutajaid, Erik Terk usaldas umbes aasta tagasi selle instituudi Johanna ja siis mina liitusin meie kätte. Ta tegelikult hoiab meil pilku peal, et mida me siis ikkagi täpsemalt teeme, osaleb meie sündmustel ja siiamaani ta ei ole väga protesteerinud, ehk siis meie oleme natuke üle aasta seda instituuti vedanud ja meie eesmärk on tutvustada seda valdkonda, aidata kaasa tuleviku mõtlemise tundmisele, nende meetodite kasutamisele erinevates organisatsioonides, ettevõtetes, avalikus sektoris, sest me ise väga usume, et sellisel moel on võimalik teha tulevikukindlamaid otsuseid juba täna ja, ja panna oma strateegiad paika nagu pikemad eesmärki, pikemat sihti silmas pidades. Nii et olete kutsutud vaatama meie sotsiaalmeediakanaleid, kodulehte, vaatama, mis sündmused meil tulekul on ja, ja igati siis kaasa mõtlema. Aga läheme siis selle tänase kõige põnevama teema juurde, milline on Eesti koolihariduse, koolihariduse süsteemi tulevik, milline see võiks välja näha aastal kaks tuhat kolmkümmend viis ja me oleme väga tänulikud skaalainfaktile ja heateo haridusfondile, Kadrile saame lehvitada selle teema algatamise eest ja käimalükkamise eest, kus nendega koos alustasime siis stsenaariumide tegemist ja stsenaariumid lõime läbi kahe töötoa sisendi, need toimusid mais ja juunis. Meil oli kambas palju haridusjuhte, meil olid õpetajad, meil olid ka gümnasistid, meil olid lihtsalt haridusvaldkonna eksperdid ja nendest töötubades me üritasime mõista, et millised on siis praegused suundumused koolihariduse valdkonnas, mis on need asjad, mis on määramatused, mis on suure mõjuga, aga hakkavad seda valdkonda kõvasti mõjutama. Ja ka juba jõudsime nendest töötubadest selleni, et kuhu siis täna rõhku panna ja võib-olla taustaks on huvitav öelda ka seda, et esimene variant stsenaariumidest keskendus paljuski TEI teemadele, mis siis eelmises arutelus olid ju kesksel kohal, aga kui me analüüsisime läbivaid märksõnu nendes töötubades, siis me jõudsime praeguse nii-öelda teljestikuni, see on siis tuleviku terminoloogia ehk see nelja stsenaariumini, mida me siis palume teil täna analüüsida, mõelda kaasa nende stsenaariumide sees ja olgu märkusena öeldud ka, et see ei ole lõpp-produkt, kui keegi tunneb, et tahaks veel kaasa rääkida, neid täiendada, detailsemaks teha. Andke meile märku, et töö nendega käib ja ülejäänud aasta instituudil on ka mõeldud siis ka näiteks noortega läbi mõelda, et mida need stsenaariumid tänase jaoks tähendavad. Aga mis need suured, ma ei tea, neid näe vist väga hästi siia ekraanile, aga millised arengud siis Eestis praegu vastakuti koolisüsteemi meie pilgu läbi või nende töötubade ja erinevate trendianalüüside tulemusel võiksid siis kujundada? Ühest küljest me näeme, et on pikaajaline autonoomse kooli traditsioon, kuid me noppisime välja töötoast, et ka vastassuunaline areng on võimalik. Me näeme riigigümnaasiumeid, me näeme muret sellepärast, et Eestil rahvastik on vähenemas, maapiirkondades vähem inimesi, mis toob ka surve efektiivsusele ja toob ka sellise tõenäolise arengu, et see kontroll läheb rohkem riigi kätte. Ehk koolid võivad ka kaotada oma autonoomia, oma ühetaolisuse oma näo. Kindlasti õpetajatena olete vägagi kursis nii-öelda see õppevormi arutelude üle, et kui, kuivõrd, kuidas seda korraldada. Ja me nägime sellist vastandumist nii-öelda traditsiooniline klassiruum, mis roll siis õpetajal on, et kas stsenaariumides mängivad väga erinevalt välja ehk õpilane kui teadmiste vastuvõtja ja teisalt õpilane kui siis selline autonoomia tegutseja väga iseseisev inimene, seal on ka erinevaid termineid, mida kasutatakse, mis meil algselt olid siis selline. On ühtluskooli terminid, siis on seal see, mis see noh, ise. Isejuhtiv õpe, hästi palju selliseid huvitavaid märksõnu, mida me üritasime stsenaariumides vältida, sest me saime aru, et neid tegelikult mõistetakse erinevalt. Me näeme ka praeguses koolisüsteemis päris kõrget ebavõrdsust, meil on eliitkoolide süsteem ja viimased hiljutised uuringud on näidanud, et ka piirkondlik ebavõrdsus on suhteliselt kõrge, sealt võib ja tõenäoliselt ka tekib surve sellele, et see haridustase peaks olema ühtlasem. Ja muidugi hiljutine arutelu siis tehnoloogiakasutuse üle, kas laialdane tehisharu kasutamine, mis vormis, kas erinevatel platvormidel, kas see on vabakooliti või siis see võiks olla ette antud või ma näen ka väga tugevat signaali, et me ei taha üldse tehnoloogiat, just oli, märkasin ühte arutelu, kus toodi välja kõik erinevad Eesti koolid, mis nutiseadmeid ei luba kasutada ja on ka siis teistes riikides selliseid poliitikaid. Ehk kui hüpata nüüd nende stsenaariumide juurde ja väga soovitan teil siis ka laudadel olevat materjali kasutada, et võtta paar minutit neid läbi lugeda, enne kui te arutama hakkate, siis stsenaariumi raamistikus meil kerkisid esile kaks telge. Esimene oli siis haridussüsteemi korraldus, me näeme, et järgmise kümne aasta jooksul tõenäoliselt tekib suhteliselt suur surve, kas siis selle efektiivsuse tagamiseks, standardite juurutamiseks, kas näiteks õpetajate jagamiseks erinevate koolide vahel, surve liikuda ära oma omanäolise kooli idee juurest rohkem riigikontrolli, mis ei tähenda see, mis ei ole ükski stsenaarium ei ole otseselt halb ega otseselt hea, nad osad on lihtsalt sarnasemad tänasele päevale ja osad on teistsugusemad ehk rohkem riigi juhitud koole, rohkem ühtseid lähenemisi, vähem koolide autonoomiat. Aga teisest otsast muidugi omanäolise kooli jätkumine ja see trend võib ka süveneda, et tekibki üha rohkem eripäraseid koole, erineva fookuse, erineva spetsialiseerumisega ja on veel suurem autonoomia. Ja teisest küljest siis küsimus sellest, et milline see õppekorraldus koolides on, et ka seal võib-olla siis rohkem välistest teguritest tingituna ühest küljest me nimetasime seda siis koos rajal ehk pigem selline traditsiooniline klassiruum, pigem see, et me näeme, et õpetaja on ikkagist klassi ees ja kas jällegi tingitud sellest, et me ei saa väga sellist personaalset lähenemist igaühele pakkuda. Võib-olla me ei oska neid tehnoloogilisi lahendusi rakendada. Et see koos rajal on niisugune kambakesi üsna sama joontpidi versus siis kõrge õpilase autonoomia ehk igaüks omal ajal oleme ju päris palju kuulnud isiklikest õpiradadest, personaliseeritud õppest ja nii edasi. Ehk see seal siis ka stsenaariumides meie jaoks erisuunalised väga olulised arengud olid ja need neli stsenaariumit tulid siis esiteks ühtne siht ja isiklik teekond, kus me näeme riigipoolset suuremat rolli võtmist nendes stsenaariumides. Kuid kus kasutame siis näiteks tehisintellekti ja tehnoloogilisi lahendusi, et õpilased saaksid omas tempos, aga sama sihi suunas liikuda. Teiseks loovuse vabariik, kus koolidel on väga kõrge autonoomia ja ka väga tugev, väga tugevalt siis suunatakse õpilasi enda huvide järgi õppima, mis siis ilmselt võiks olla stsenaariumis, tekib, kui tekib väga suur mure näiteks vaimse tervise pärast, saavutuspüüdja pärast, siis selles maailmas on meil väga palju väga erinäolisi koole, kus me soodustame siis sellist isiklike õpilase heaolu ja eneseväljendust, aga siis ka isiklikke huvide õppimist, mis iseenesest võib kõlada väga idealistlikult, aga võib kaasa tuua ka selle kõikidel sellist ressurssi ja võimalust ei ole. Kolmandaks siis suur võidujooks, kus on fookus ikkagist akadeemilistel tulemustel, aga koolidel on kõrge autonoomia ehk meil on konkurents koolide vahel, meil on palju eliitkoole, aga meil on ka näiteks erakoolid, mis siis aitavad tulemusi kas tagada või siis erakoolid, mis pakuvad alternatiive sellisele akadeemiliselt orienteeritud riiklikule süsteemile. Et mina näiteks ei taha noh, hüpoteetiliselt näiteks, et minu laps kuskil väga kõrge pingega koolis käib, et ma otsin talle teistsuguse lähenemisega kooli. Ehk selles stsenaariumis siis küsimus, et kas, kas kõik sinna stardirajale mahuvad ja mis saab siis õpilaste heaolust ja neljandaks üks teie kõigile, kus koolide autonoomia väheneb, riiklik roll suureneb, rohkem üksteist standardid ja siis ka selline traditsioonilise klassiruumi ja õppe jätkumine. Aga lugege palun ka need kirjeldused nendelt lehtedelt läbi, et seal on ka selline taust kirjas, et kuidas see stsenaarium tekib ja saate süvitsi minna ja arutada, et mis te nendest arvate. Madele räägiks nüüd, kuidas me edasi toimetame ja siis saamegi laudade juurde koguneda. Nii, jah. Meil on kavas siis selline eksperiment ja väga loodame teie peale, sest ütleme, kui tavaline formaat on, on selline, et panelistid võtavad põhiliselt asja enda kanda, et siis loodame, et te töötate kaasa, nii et olete töötuppa sattunud ja kes tunneb, et ta ikka kohe üldse ei taha, et siis tutvuge lihtsalt materjalidega, tulge kuulake, mis teised arutavad ja, ja pärast siis kuulame ühiselt kokkuvõtteid. Ja plaan on nüüd selline. Et kuna meil on neli stsenaariumi, siis me oleme tekitanud ka neli laudkonda. Igas laudkonnas on siis oma stsenaarium. Stsenaariumid on siin suurelt väljas, aga me trükkisime välja ka sellised A4 formaadis, mis te saate kasvõi koju kaasa võtta ja natukene lugeda. Et siin on siis kirjas ka see, et kuidas me selle stsenaariumi juurde jõudsime, sest nii nagu me rääkisime, mingi asi lihtsalt kuskilt ei teki, vaid tal on alati mingi põhjus. Nii siis teine nii-öelda materjal toetamaks meie ettevõtmist, tegime iga stsenaariumi kohta ka sellise svot'i ehk siis heade ja, ja võib-olla nii, mitte nii heade tagajärgede väikese ülevaate ja esimese asjana palumegi, et kui te olete siin grupeerunud, et võib-olla vaatate-tutvute materjalidega, mõtlete ka selle svoti peale, sest nagu Johanna ütles, siis igal stsenaariumil on nii positiivsed kui negatiivsed tagajärjed, ükski nendest ei ole läbinisti hea või halb, kuigi võib-olla esimesel pilgul võib niimoodi tunduda. Ja seda siis natukene teeme, mõtleme ja, ja siis jõuame nagu selle põhiteema juurde, mis on õpetaja tulevikus ja nüüd ongi, meil on neli eri eristsenaariumit. Me oleme loonud õpetaja persoona, Laura Tamm, kes on bioloogiaõpetaja, kes kaks tuhat kakskümmend viis ehk siis sel sügisel alustab tööd Põltsamaal Tartus, Tartus alustab, nii ta mõtles ümber ja, ja me natukene kirjeldasime teda, no mis on tema nagu unistused, eesmärgid, soovid, milliste mõtetega ta oma karjääri alustab ja siis me mõtleme, et nüüd on aasta kaks tuhat kolmkümmend viis. Laura on juba kümme aastat töötanud, ta on juba päris staažikas ja on selline väike harjutus, et milline on see õpetajapäev. Nüüd väga detaili ei lähe, kuna meie formaat seda ka ei luba, aga mõtleme näiteks, et hommikul, kuidas ta tundi ette valmistab selles stsenaariumis, siis kuidas ta oma õppeainet annab, seal on suunavad küsimused ja, ja meie noored koolijuhid aitavad teil nende küsimuste raames siis mõtiskleda, siis mida tehakse õpetajate toas aastal kaks tuhat kolmkümmend viis, millest räägitakse, mis muresid jagatakse, kuidas õpetajaid toetatakse ja siis lõpuks õhtul, kui Laura siis jõuab koju, mõtleb oma elu üle järele, mõtleb, mis siis veel võiks saavutada, kuhu edasi liikuda, et selline väike päevakirjeldus ja nii meil tulebki väga huvitav pilt meie ühise tegevuse tulemusena, kus meie tänane tubli bioloogiaõpetaja, kes süsteemi nii-öelda siseneb. Et kuidas siis ta nendes erinevates stsenaariumites kümne aasta pärast tegutseb ja, ja sealt siis vaatame, arutame ja mõtleme, et võib-olla me leiame ka mingi ühise sellise ideaalse stsenaariumi, mingisuguse suuna mõne õpetaja nagu rollide kirjelduse, mis võiks olla Eesti jaoks kõige parem. Vot. Ma ütlen viimase asjana seda enne arutama hakkamist, et tihtipeale me võtame selliseid arutelusid ikkagi väga tõsiselt, siin ei ole õigeid ega valesid vastuseid, et tulge julgelt nüüd nende laudade äärde, vaadake, mis stsenaariumid olete saanud ja jagage mõtteid ja kui te ei ole nõus oma kaasarutleja mõtetega, see on okei, see on okei, et põrgatame ja üritame mõista, et mis me nende stsenaariumidest arvame ja igaüks, palun leiab endale nüüd laua. Jah, ja haarake neid väikseid A neljasid, kus on stsenaariumid, kirjeldus, Svot, persoona kirjeldus, tutvuge materjalidega ja siis läheb juba arutamiseks, et kõigepealt natuke mõelge selle stsenaariumi peale, kas see tundub realistlik, on ta soovitud, on ta midagi täitsa uskumatut ja nii edasi. Mina jälgin aega siis ja kes, vaadake siin suurelt on ka need stsenaariumid väljas. Nii tähelepanu, tähelepanu, nüüd on soojendus tehtud. Võtke soojendusstressid seljast ja tooge esile siis, seal on sellised persoonapõhjad nii-öelda õpetajapäev. Ühe inimese päev tulevikus, selle kirjeldamist kasutatakse väga palju nii disainis kui tuleviku mõtlemises. Nii et see on selline hea harjutus ja siin, kui me käisime Johannaga ja kuulasime, mida te arutate, siis jäi kuskilt kõrva, et mõni stsenaarium on võib-olla selles mõttes väheambitsioonikas, et ei ole arvesse võetud tehisharu mõju, siis ma ütleks selle peale nii, et, et üks meetod, mida tuleviku mõtlemises kasutatakse, on vaata tagasi, et vaadata edasi. Tavaliselt, kui sa tahad kümme aastat edasi vaadata, siis vaatad kakskümmend aastat tagasi ja kui te mõtlete seda kahtekümmend aastat näiteks hetkeks tagasi ja kuidas internet näiteks arenes või mingisugused muud tehnoloogiad, et kas selle, nende tehnoloogiate mõjul on näiteks õppimine ja Eesti kool väga palju muutunud, et lihtsalt ma viskan õhku hüpoteesi, et võib-olla see tehisharu noh, siin on juba tohutud arengud, organoid, Intelligence ja nii edasi, et võib-olla kõik see toimub, aga siiski meie kool on nii sitke, et väga ei muutu, et kõik on võimalik, aga nüüd ja vaatame seda õpetajat, tema nimi on Laura. Nüüd see aasta ta alustab, aga kujutame ette, et meil on nüüd käes see stsenaarium, te natukene tutvusite, arutlesite selle üle. Ja ongi siis ülesanne mõelda, milline tema päev on aastal kaks tuhat kolmkümmend viis. Seal ei pea päris sellist nagu päeviku stiilis tegema, aga märksõnadega mõtleme just, kuidas ta õpetab, kuidas ta ette valmistab, mida õpetajad omavahel räägivad, arutavad, mis on nende väljakutsed ja mis tema unistused ja, ja edasised siis mõtted on. Ja jällegi teie tublid juhid haaravad need suured A2 põhjad, kuhu saab siis märksõnu kirja panna ja, ja pärast meie teeme siis sellest kokkuvõtte vist jah, nii. Niimoodi kallid osalejad, nüüd oleme jõudnud sinnamaani, et teeme ühise arutelu. Johanna liigub ringi siis ühe grupi juurest teise juurde ja, ja vaatame, kuhu te siis omadega jõudsite, et teised siis kuulevad ka, mis need alternatiivsed stsenaariumid, kuidas need jooksid siin ja, ja kuidas see mõte jooksis teistel. Ja ma lähen, kas mind on kuulda? Ei ole kuulda. Ma lähen numbrite järgi üks, kaks, kolm, neli ja ma väga soovitan kuulata, sellepärast et pärast jagamist, pärast jagamist me hääletame, võite juba mõttes hoida, et mis on teie meelest kõige eelistatum stsenaarium ja mis on kõige tõenäolisem, vot selline hääletus tuleb, aga selleks, et hääletada, peate olema nende stsenaariumidega hästi kursis ja selleks me kuulame teisi ja saate siis seda tausta sealt lugeda ja kaasa mõelda, ehk siis stsenaarium number üks, kus meil oli ühtne siht ja isiklik teekond, ehk kus riigi roll kasvab, aga õpilased on suhteliselt autonoomsed. Ja teie tiimist ma ootan siis umbes kolm minutit peegeldust, mis te sellest stsenaariumist arvasite, kas te seda täiendasite kuidagi ja kuidas Laural selles maailmas läheb? Aitäh. Meie hinnangul see on kõige ebareaalsem stsenaarium, see on nagu kõige vastandlikum sellele, milline on nagu praegust olnud see hariduspoliitika selles stsenaariumis on mitmeid positiivseid elemente. Suure tõenäosusega Laura aastal kaks tuhat kolmkümmend viis enam koolis ei tööta, ta on lahkunud, sest et õpetaja kui eksperdi sellise nagu individuaalsete omadustega rollikuju eeskuju õpilastel, see on kadunud, kuna õppetöö tundub vist toimivat väga suuresti selliste noh, veebikeskkondades kontrollitud, kes on nende standardiseeritud asjadena, et, et õpetaja kui selline ei oma tähtsust, vaid ta on lihtsalt jälgib, et kas tehisarv on kõigest sellest päriselt aru saanud, mida see õpilane on nagu teha tahtnud ja, ja teinud. Et, et suureks probleemiks me näeme, et kujuneb veel sellise stsenaariumi realiseerumisel süveneb veel õpilaste selliste sotsiaalsete oskuste pärssumine, individualiseerumine, distantseerumine üksteisest, suutmatus, oskamatus üksteisega koostööd teha ja, ja nii edasi, et, et see ühtse grupi hoidmine, mille osaks on ka õpetaja, et, et seda me tunnetame, et, et see on nagu kadumas. Kas ma sain olulisema öeldud? Et suure tõenäosusega, vähemalt ma ise, kui ma oleksin see õpetaja, siis ma töötaksin oma firmas, luues neid õpistsenaariumeid ja müües neid siis riigile, et kuidas õpe võiks toimida, aga ma ise õpetajana ei oleks seal. Aga ma ütlengi peegelduseks selle, et äkki see on see maailm, kus tehnoloogia on nii hea, et meil ei olegi õpetajat vaja. Noh, see on provokatsioon muidugi, eks ju, aga, aga see on üks idee, mis ju ka praegu väga laialt levib. Jah, väga õige märkus, et siis, siis ei ole vaja õpilastel sotsiaalseid oskuseid. Vabandust, vabandust, et natukene mingites eri kohtades see asi võiks ju selliselt toimida nagu näiteks kood/Jõhvi ju paljuski selliselt ongi, õpilased ise loovad selle ülesande lahenduse, millele nad on üheskoos asunud, on ju, aga see on teatud spetsiifilistes lõikudes, aga kui me räägime koolist kui ühiskonna alustalast, siis seda me ei saavuta, siis me saame väga individuaalselt elavad üksteisega mitte suhelda oskavad introvertsed hirmunud inimesest, ma kardan, et. Olgu, me peame veel arutama, kuidas seda stsenaariumit siis tasakaalukamaks teha või usutavamaks. Väga hästi, aitäh, võtame stsenaariumi kaks, kust olete. Kaks on seal taga nurgas ja see on siis loovuse vabariik, kus meil on omanäoline, omanäoline kool ja igaüks oma rajal ehk siis palju erinevaid, erineva fookusega koole ja siis ka õpilastel väga suur autonoomia. Mis te sellest stsenaariumist arvasite ja mida Laura seal maailmas teeb? Ja et me võtsime siis sellise positiivse vaate sellele, et kümne aasta pärast Laura hommikul ärkab üles. Kõigepealt võtab aja endale, ei hakka kõigepealt mõtlema töömõtteid, vaid väike selline, kes siis teeb oma joogaharjutusi, kes hingamisharjutusi, kes joob rahulikult kohvi. Teisena ta alles hakkab tegema siis häälestust oma tööks. Koolipäev näeks siis välja selline, et õpetaja roll on pigem dialoog coaching, väestav ja edasiviiv selline jooksev eneseanalüüsi toetav töövorm, et õpilased saaksid ise oma tööprotsessi hinnata ja, ja selline tänapäevane hindamisvorm oleks täiesti kadunud. Siis lõunapausi ajal ei räägita ainult tööst, vaid lõunapaus võetakse õpetajatel siis päriselt tööst välja lülitamiseks. Päriselt puhkuse jaoks ja saab siis koolis valida erinevate tubade vahel, et kes tahab täiesti vaikust, on siis võib-olla kas siis värvidega eraldatud, et et selline sen ruum, vaikuseruum või siis. Või siis, kes tahavad suhelda, on nendel siis omaette ruum olemas. Ja ise abi saada jah, et on võimalused ka siis selleks teatud ruumi loomisel. Nii. Väga oluline aspekt selles on see, et kontakttunde oleks vähem, oleneb nüüd koolist, oleneb klassi suurustest viisteist kuni kaheksateist kontakttundi nädalas, et saaks ülejäänud ajast teha ka teiste õpetajatega koostööd, et see koostöö kvaliteet ja tundide planeerimine, mis oli muidu siia hommikusse võib-olla mõeldud, et tundide planeerimine ja koostöö kohtade leidmine oleks siis tööpäeva sees, mitte kiirelt kümneminutiliste vahetundide jooksul. Üks oluline osa on siis juhtkonna usaldus ja toetus, et juhtkonnad annaksid õpetajale autonoomsuse ja usalduse, et õpetajad saavad ise selle koostöö ajal leitud. Koostööd tehtud, et ei oleks neid rangeid reguleerimiskohti, et õpetajate vastu usaldus oleks olulisel kohal. Nüüd need ja kuidas siis toetab süsteem õpetajat, et on erinevad toad, on mentorlus, on regulaarsed kovisioonid, on õpetajatele siis kergesti kättesaadav psühholoogiline tugi, vähem kontakttundes, mida ma juba mainisin. Ja. Vahendid on olemas. Kõik vahendid on olemas ja kui me praegu teeme meeletult oma vahendeid loomevahendeid, loome õppevahendeid, muretseme siis füüsilisi vahendeid, eriti veel sellele eestikeelsele haridusele üleminekul. Meil on õppekava, me peame sellest õppekavast midagi tegema, mingeid vahendeid ei ole, ei. Ühesõnaga, et kes on võib-olla selle keeleõppega rohkem kokku puutunud, teavad, et see aasta valmistatakse ette päris palju siis erinevate ülikoolidega koostöös õppevahendeid, aga, aga kümne aasta pärast on meil kõik asjad olemas nii õppevahendid, mida peab õppekava täitmiseks tegema kui ka materjalid kui ka LKK õppematerjalid. Nii ja et kuidas siis õpetaja saab omale oma töö jaoks tagasisidet. Et ta saab regulaarselt õpilastelt tagasisidet ja õpipartnerite oma õpipartnerite kaudu. Laura on kümne aasta pärast, ei ole enam vahendite otsija ja looja ja ise katsetaja, vaid ta on leidnud endale sellise stabiilsuse. Fookus on sisulisel tööl ja ei ole enam, võib-olla saab rohkem leida ka aega siis teiste toetamiseks uute õpetajate toetamiseks ja rohkem keskenduda õpilastele, mitte materjalide otsimisele. Aitäh, te olete sellise visiooni stsenaariumi teinud, kas selles maailmas oli midagi negatiivset ka tema elus? Ja et on ikka ohud, ohud on ka, et selline kümne aasta pärast võivad olla ikkagi süveneda sotsiaalne kihistumine ehk siis, et see haridus ei ole kõigile ühtemoodi kättesaadav, sealt ka siis võib-olla kõrghariduse mitte kättesaadavus, sealt omakorda siis võivad siis need täiskasvanud inimesed rohkem sotsiaalabi vajada, standardite hägustumine, et kuidas me ikkagi siis ühest koolist teise liigume, mitte siis ainult võib-olla gümnaasium, ülikool, vaid ka juba seal vahepealsetel astmetel ühest koolist teise liikumine, õpetajate professionaalsuse puudumine, et kui meil tänapäeval on õpetajaid puudu, siis see visioon nõuab ka rohkem professionaalseid õpetajaid. Väga hästi, aitäh, et me saame täiendada neid stsenaariumeid selle põhjal, aga ma lähen nüüd tiimi number kolm juurde. Ja teie maailmas on siis niimoodi, et suur võidujooks meil on omanäolised koolid, aga suhteliselt sama rada igal õpilasel, väga akadeemilisele saavutusele orienteeritud maailm. Võiks öelda, et natuke nagu see rada, kus me praegu oleme. Loodetavasti võib-olla ma ei tea, mis te sellest arendasite, ühesõnaga ma küsin teilt, et kuidas te seda stsenaariumit siis täiendasite, mis te sellest arvasite ja, ja kuidas siis Laura päev selles maailmas välja näeb? Ja me jõudsime järeldusele, et see tulevik on käes, see on praegu ja ütleme, negatiivses mõttes või noh, natuke positiivsed ka, et Laura põleb läbi ja läheb koolist ära või vähemalt võib-olla see Põltsamaa koolist leiab endale mõne innovaatilisema kooli noh, võib-olla Põltsamaa on innovaatiline või siis hoopis temast saab eestvedaja koolis ja hakkab neid muutusi seal siis juhtima, aga Laura päev näeb välja siis umbes selline, et ta kindlasti kasutab tehisintellekti, materjalide loomisel, panebki õpilasi kasutama, tal on väga-väga põhjalik plaan, et eesmärkideni jõuda. Kuid ta siiski sealjuures proovib olla ka selles mõttes innovaatiline, et mitte langeda niivõrd sinna traditsioonilisse õpetamisesse, aga sellegipoolest on teadmiste kureerija, kuid ta kasutab erinevaid metoodikaid, praktikumõppekäike, kuid need kõik lõpevad ikkagi kontrolliga, teadmiste siis kontrolliga. Ja ta annab põhjaliku tagasisidet, kasutab tehisintellekti tagasiside andmisel ning õpetajate toas selleks, et selle suure pinge juures õpetajad jääksid kooli, on meil nõustajad, kes käivad nõustamas neid, suhtlevad, kuid see tavapärane õpetajate toa jutt jääb. Lisaks on tehnoloogiline tugi õpetajate toas ning päev lõpeb siis sellega, et Laura saab väga-väga palju tagasisidet klassiruumides on kaamerad, ehk siis ta saab ise kogu aeg analüüsida, kes magas, kes ei õppinud. Saab analüüsida või tehisintellekt intellekti abil siis kuidas õpilased selles tunnis neid teadmisi omandasid, kas nad omandasid koolides töötavad andmeanalüütikud, kes koguvad iga päevi ka tund neid andmeid, analüüsivad, annavad tagasisidet. See kõik viib selleni, et see vähem naudingud õpetajal, see entusiasm, sära ei ole enam silmis ning Laura mugavustsoonis, ta teeb nii, nagu asjad töötavad, see julgus võib-olla katsetada ja proovida on vähenenud, kuid meil on see siiras usk, et natuke ikkagi seda, seda on. Vot ja jah, muutusi süsteemis ei ole, see viib kõik selle naudingu kadumiseni, kas te tahate täiendada? Aitäh. Aitäh, natuke hirmuäratav olukord, me oleme kahest õpetajast juba ilma jäänud, üks läks erasektorisse ja teine põdes läbi, põles läbi. Kuidas meil neljandas maailmas on, teil on siis stsenaarium nimega üks tee kõigile, kus on siis riigi roll suurenenud? Aga siis ka õppekorraldus pigem traditsiooniline või kuidas muutsite seda stsenaariumit ja kuidas siis Laura elu välja näeb? Mul on selline tunne, et me jääme ka kolmandast õpetajast kohe-kohe ilma, et kas me ikka räägime sellest, aga kui kokkuvõtlikult võtta, siis Laura elu on lill. See tähendabki seda, kunas on tsentraliseeritud, kõik on riigi poolt ette antud, sealhulgas kontrolltööd, kunas me räägime siin ka sellest olukorrast, kus on väga palju mindud üle distantsõppe vormile ehk see tähendabki, seda on e-õppe võimalus, e-õppe siis kõik on ette valmistatud ka riigi poolt, see tähendabki seda, et see Laura, kes seal koolis on, ei pea ise enam mõtlema, et alt on ära võetud see algselt kooli minev loovus, mida ta tegelikult väga nagu soovis. Ja kuna seda elu küll on lill selle poole pealt, et tal jääb aega rohkem enda isiklikku elutarbeks, on ta vaimne tervis aga väga kriitilises joones juba sellepärast, et teda kogu aeg on kontrollitakse, teda pidevalt möödetakse. Lisaks sellele, kui meil vaadatakse praegu koolisüsteemis rohkem PISA tulemusi, siis seal vaadatakse ka juba neid väikseid kontrolltöösid, et kui hästi üle terve riigiliselt teatakse, kuidas siis turvas on siis teatud piirkondades õppetasemelt siis saavutatud. Hommik Laura algabki samamoodi võib-olla selline kohvi joomisega, võib-olla ka mediteerib, et oma vaimset tervist hoida selles kriitilises piiris, et seda mitte mingi hinna eest veelgi hullemaks teha. Ja ja tal, ta lähebki kooli, ta võtab lahti täpselt selle süsteemi, mis tal on ette antud kuskil ja selle tunniga ta ka pihta alustab, sellepärast et tuletan meelde, et üle terve Eesti on see lihtsalt ette antud, sest et haridus Eestis peab olema selle stsenaariumi järgi igal pool ühtne ja ühtselt mõõdetav ehk see tähendabki seda, et turba tulemused peavad olema õppetulemused igal pool sarnased ja kui need on halvad, siis õpetaja saab kahjuks vastu päid ja jalgu. Algselt, kui ta kooli läks, siis tema loovus oli väga suur, see on tal jäänud tahaplaanile. Tal ei ole võimalik õpilastele anda edasi inimlikke oskusi, sellepärast et selles stsenaariumis jäävad tahaplaanile kõik nii emotsionaal kui sotsiaalsed oskused, sellepärast et selles süsteemis sa pead justkui lähenema sellise väikse robotina. Õpetajate toas räägivad sellest, et küll olid need head vanad ajad kümme aastat tagasi, et kui meil oli olemas autonoomia, me saime teha, mida tahtsime, me saime oma tunni niimoodi ette valmistada, et me saaksime ainult neid õpiväljundit lõpuks saavutatud, ei pea olema ninaõpikus kinni, et nüüd paraku see on ära kadunud. Kindlasti selle aja jooksul on rohkem muutunud, kunas kaovad ära siis õppeprotsessis just need sotsiaalemotsionaalsed oskused. Siis see tähendabki, seda on kindlasti tõusnud õpilastelt käitumisraskused ja põhirõhk lähebki siis õpetajate toas nende õpilaste siis probleemide kaardistamiseks, murekohtade ja nendele siis lahenduste leidmiseks. Ja. I ai või diiassistendi rollist ja üldse sellest chati rollist ka on nii palju, et tema siis saab seda hindamisele tagasisidestamisel, õppematerjal ta sellega koostama ei pea, sellepärast et see on ka ette antud ja. Vaesel Laural on loovus kadunud, mida ma olen korduvalt juba ütlenud ja tal on igav, ta on justkui selline pisikene robot selles süsteemis ja tema töö ei ole enam nii tähendusrikas, kui see oli algselt siis, kui ta kooli läks. Nii nüüd ma olin hästi hüplik ühest kohast teise, kas keegi soovib meie grupist midagi juurde lisada? Ja tegelikult meie esimene kriteerium oli see, et Laura ei tööta koolis, sest ta ei saa oma loovust enam arendada, aga me leidsime väikse sellise infokillu sellest, et äkki ikkagi riigi poolt on ette antud, et võivad korraga ikkagi minna kuskile ettevõtetesse või päriselt sinna rabasse seda turvast nagu jälgima. Nii et me lootsime selle peale, et see võib-olla ikkagi hoiab seda Laura, kes seal koolis veel edasi. Suur aitäh nende peegelduste peale ma ei hakka küsima, et milline teie lemmikstsenaarium oli, aga teeme selle hääletuse, mis te arvate, milline on kõige tõenäolisem ja nüüd kõik, kes, kas siis arutasid kaasa või arutanud, on teretulnud kätt tõstma, kes ja palun valige igaüks üks stsenaarium ikkagist välja nendest neljast. Kes arvab, et stsenaariumi üks, kus meil on suurem riigi roll, siis hariduse korraldamisel ja individuaalne siis õppekorraldus arvab, et see on kõige tõenäolisem stsenaarium. Ühtne siht isiklik teekond. Üks, kas, kolm, neli, viis. Kuus-seitse, kaheksa, üheksa, kümme, umbes üksteist, kaksteist, kolmteist inimest, nii, keegi võib pea siis järge madle. Teine loovuse vabariik, kus me siis näeme, et omanäoline kool on põhiline siis viis, kuidas me haridust korraldame, siis koolide kõrge autonoomia ja ka õpilaste kõrge autonoomia ja noh, siin võtta ikkagist natuke arvesse, et kuigi Laura elu oli seal, tundus väga selline hea seal maailmas, siis selles stsenaariumis võib ka tekkida väga tõsiseid väljakutseid ebavõrdsusega, ebavõrdse tasemega koolides ja sellega, et kuidas me siis tulemusi hindame. Nii, kes arvab, et loovus ja vabariik on kõige tõenäolisem? Viis, kuus, seitse, kaheksa, üheksa, kümme, üksteist, üksteist, kaksteist. Nii, lähme edasi. Suur võidujooks. Autonoomse kooli selline hariduskorraldus jätkub, koolidele on suur vabadus oma sihti ja spetsialiseerumist valida ja on ka suur konkurents koolide vahel, aga õpetamine on pidev, pigem selline, ütleme nii-öelda traditsiooniline koos rajal. Jätkub, kes arvab, et see on kõige tõenäolisem stsenaarium? Kolm, neli, viis, kuus, seitse, kaheksa. Nii, siin ei ole koos rajal entusiaste. Olgu. Kaheksa, olgu, ja üks teie kõigile, kus siis riigi roll ja kesksete standardite roll hariduse korralduses kasvab, aga ka õppekorraldus jääb selliseks pigem traditsiooniliseks ja ühtseks. Üks tee kõigile, kes arvab, et see stsenaarium on kõige tõenäolisem. Selle poolt ei hääleta mitte keegi. Üks. Üks hääl, mis meil võitis? Esimene stsenaarium on siis praeguses pakkumises kõige tõenäolisem, tulema kümne aasta pärast siia tagasi ja vaatame, kuhu me jõudsime ja meie omalt poolt jätkame sellega, et neid stsenaariumeid täiendada. Noh, mina näen juba kohe seda vajadust, et ikkagist ka see visioon siia välja joonistada. See, et nad on kõik halvad, ei tähenda seda, et nad ei oleks tõenäolised, on ju, et nad annavad meile ka mingid pidepunktid kätte selle osas, et kuhu tähelepanu panna täna. Aga igal juhul suur-suur aitäh teile kõikidele, et te sellise tagurpidi arvamusfestivali sessiooni meiega kaasa tegite ja kui tuleviku teema teid kuidagi kõnetab, siis tulge meiega rääkima või hoiame siis virtuaalselt ühendust pärast ja aitäh siis ka meid kutsumast. Aitäh.",
+    "cues": [
+      {
+        "start_seconds": 11.36,
+        "end_seconds": 18.8,
+        "text": "Alustame siis hariduse tulevikuala teise päeva kõige viimast sündmust."
+      },
+      {
+        "start_seconds": 18.8,
+        "end_seconds": 24.56,
+        "text": "Ma korraks võtan selle võimaluse, et võtta see kaks päeva kokku, et enda tutvustuseks"
+      },
+      {
+        "start_seconds": 24.56,
+        "end_seconds": 30.92,
+        "text": "ka, et Annika Räim on minu nimi ja minu tänane töökoht on targa tuleviku fondis, mis"
+      },
+      {
+        "start_seconds": 30.92,
+        "end_seconds": 37.08,
+        "text": "on siis sihtasutus, mille on asutanud Swedbank ja, ja asutaja on sellesse sihtasutus"
+      },
+      {
+        "start_seconds": 37.08,
+        "end_seconds": 42.24,
+        "text": "se paigutanud siis kümme miljonit eurot, mida me Eesti üldhariduse edendamiseks siis"
+      },
+      {
+        "start_seconds": 42.24,
+        "end_seconds": 49.56,
+        "text": "projektidele pilootidele, programmidele, kes meie juurde tulevad, taotlema ka siis"
+      },
+      {
+        "start_seconds": 49.56,
+        "end_seconds": 53.96,
+        "text": "välja anname, et meil on esimene hästi värske, me alustasime tegelikult päris tegevus"
+      },
+      {
+        "start_seconds": 53.96,
+        "end_seconds": 58.24,
+        "text": "t selle aasta veebruarist ja meil on olnud esimene taotlusvoor ja, ja selle vooru esimese"
+      },
+      {
+        "start_seconds": 58.24,
+        "end_seconds": 63.44,
+        "text": "d kuus projekti on ka toetuse saanud, nii et et ma pole üheski üheski paneelis veel seda"
+      },
+      {
+        "start_seconds": 63.44,
+        "end_seconds": 68.32,
+        "text": "öelnud, aga nüüd ma kasutan võimalust ikkagi ka veel, ütlen, et et praegu on just ta"
+      },
+      {
+        "start_seconds": 68.32,
+        "end_seconds": 73.6,
+        "text": "otluste esitamise aeg kuni septembri lõpuni, et tutvuge targa tulevikufond."
+      },
+      {
+        "start_seconds": 73.6,
+        "end_seconds": 74.48,
+        "text": "ee."
+      },
+      {
+        "start_seconds": 74.48,
+        "end_seconds": 81.0,
+        "text": "Et me oleme tõesti valmis nõuga ja mitte ainult rahaga, vaid ka nõustamisega aitama tegelikult"
+      },
+      {
+        "start_seconds": 81.0,
+        "end_seconds": 85.48,
+        "text": "ka neid toetuseid sõnastada ja mitte küsimus ei ole selles nagu bürokraatlikus mõttes"
+      },
+      {
+        "start_seconds": 85.48,
+        "end_seconds": 89.32,
+        "text": ", kuidas, vaid, vaid just neid unistusi kuidagi kirja panna, et mis see siis on, mis"
+      },
+      {
+        "start_seconds": 89.32,
+        "end_seconds": 91.04,
+        "text": "te päriselt tahate teha."
+      },
+      {
+        "start_seconds": 91.04,
+        "end_seconds": 95.36,
+        "text": "Nii et see on see, mida ma igapäevaselt teen, aga siin Arvamusfestivalil on tõesti selle"
+      },
+      {
+        "start_seconds": 95.36,
+        "end_seconds": 100.52,
+        "text": "l aastal minu vastutus olnud hariduse tulevikuala loomine sisu mõttes."
+      },
+      {
+        "start_seconds": 100.52,
+        "end_seconds": 104.44,
+        "text": "Ja see ala on siis toimetanud siin eile ja me toimetame täna."
+      },
+      {
+        "start_seconds": 104.44,
+        "end_seconds": 108.6,
+        "text": "Ja võib-olla nüüd, kus me oleme viimasesse etappi jõudnud, on hea korraks enda ja teie"
+      },
+      {
+        "start_seconds": 108.6,
+        "end_seconds": 113.0,
+        "text": "jaoks see üle käia, et me alustasime eile sellise vestlusringiga, kus vastati küsimus"
+      },
+      {
+        "start_seconds": 113.0,
+        "end_seconds": 116.04,
+        "text": "ele, mis on üldse Eesti hariduse eesmärk."
+      },
+      {
+        "start_seconds": 116.04,
+        "end_seconds": 122.24,
+        "text": "Seejärel räägiti sellest, et kas koolijuht on tippjuht ja sisustati seda maailma, siis"
+      },
+      {
+        "start_seconds": 122.24,
+        "end_seconds": 128.4,
+        "text": "me rääkisime koolivõrgust, et milline on see koolivõrk Eestis, kus on tark laps toeta"
+      },
+      {
+        "start_seconds": 128.4,
+        "end_seconds": 134.24,
+        "text": "tud, kus haridusvõrk on koostöine ja siis me jõudsime tänasesse päeva, kus hommikul me"
+      },
+      {
+        "start_seconds": 134.24,
+        "end_seconds": 138.96,
+        "text": "rääkisime sellest, et kas Eesti suudab oma tarkust ehk läbi teaduse tekkinud tarkust"
+      },
+      {
+        "start_seconds": 138.96,
+        "end_seconds": 140.32,
+        "text": "rahaks teha."
+      },
+      {
+        "start_seconds": 140.32,
+        "end_seconds": 148.16,
+        "text": "Enne seda vestlusringi oli meil siis kohtumine, kus räägiti tiihüppest ja nüüd on siis"
+      },
+      {
+        "start_seconds": 148.16,
+        "end_seconds": 154.72,
+        "text": "tulevik, hariduse tulevikuala viimane sündmus, mis on õpetaja ajamasinas, kus meil on"
+      },
+      {
+        "start_seconds": 154.72,
+        "end_seconds": 159.64,
+        "text": "siis neli stsenaariumi võimalikku ja Madleenia Johanna, keda ma kohe tutvustan, on ö"
+      },
+      {
+        "start_seconds": 159.64,
+        "end_seconds": 163.8,
+        "text": "elnud, et need ei ole utoopilised stsenaariumid, vaid need on täiesti võimalikult te"
+      },
+      {
+        "start_seconds": 163.8,
+        "end_seconds": 170.56,
+        "text": "ostuvad stsenaariumid kümne aasta pärast ja need on ära kirjeldatud ja me, me teeme selle"
+      },
+      {
+        "start_seconds": 170.56,
+        "end_seconds": 175.68,
+        "text": "poolteist tundi siis tavapäratult võib-olla ehk nagu mõnedele siin varasemalt ütlesin"
+      },
+      {
+        "start_seconds": 175.68,
+        "end_seconds": 181.28,
+        "text": ", ei ole paneliste, ei ole esinejaid, vaid te kõik olete kutsutud päriselt kaasa löö"
+      },
+      {
+        "start_seconds": 181.28,
+        "end_seconds": 184.68,
+        "text": "ma selle nelja stsenaariumi raames õpetaja rolli kirjeldama."
+      },
+      {
+        "start_seconds": 184.68,
+        "end_seconds": 187.56,
+        "text": "Seetõttu on meil ka need neli lauda."
+      },
+      {
+        "start_seconds": 187.56,
+        "end_seconds": 192.72,
+        "text": "Vaadates natuke ringi, ma arvan, et nibin-nabin kõik ka selle laua ümber enne nelja la"
+      },
+      {
+        "start_seconds": 192.72,
+        "end_seconds": 198.16,
+        "text": "ua ümber jagunevad ja ennast võivad sinna niimoodi siis nagu lähedal väga lähedale a"
+      },
+      {
+        "start_seconds": 198.16,
+        "end_seconds": 203.04,
+        "text": "setada, aga kui see ei juhtu, siis olete lihtsalt ka teretulnud kaasa mõtlema natuke"
+      },
+      {
+        "start_seconds": 203.04,
+        "end_seconds": 208.16,
+        "text": "eemalt veni, kuidas teile sobib, aga igal juhul on, on selline võimalus täna pärisel"
+      },
+      {
+        "start_seconds": 208.16,
+        "end_seconds": 212.64,
+        "text": "t ja praktiliselt kaasa lüüa ja selle tulem, mis selle tulemusel sünnib juba siis Jo"
+      },
+      {
+        "start_seconds": 212.64,
+        "end_seconds": 214.64,
+        "text": "hanna ja Madleen teile räägivad."
+      },
+      {
+        "start_seconds": 214.64,
+        "end_seconds": 220.16,
+        "text": "Nii et tegemist on siis tõesti tulevikku vaatamisega kõige otsesemas mõttes, võib-olla"
+      },
+      {
+        "start_seconds": 220.16,
+        "end_seconds": 224.2,
+        "text": "kõige otsesemas üldse selle kahe päeva jooksul ja ja ma loodan, et see, mis me teile"
+      },
+      {
+        "start_seconds": 224.2,
+        "end_seconds": 226.64,
+        "text": "pakume, teile meeldib ja inspireerib."
+      },
+      {
+        "start_seconds": 226.64,
+        "end_seconds": 231.12,
+        "text": "Aga ja juba mitu korda olen teid eesnimepidi tutvustanud, aga ütlen veelkord Johanna"
+      },
+      {
+        "start_seconds": 231.12,
+        "end_seconds": 236.96,
+        "text": "ja Madleen Eesti tuleviku-uuringute Instituudist, kes on siis professionaalid just selles"
+      },
+      {
+        "start_seconds": 236.96,
+        "end_seconds": 242.48,
+        "text": ", kuidas me võiksime tuleviku peale mõelda, kasutades erinevaid tuleviku disaini met"
+      },
+      {
+        "start_seconds": 242.48,
+        "end_seconds": 247.44,
+        "text": "oodikaid ja mis järeldusi siis nendest teha, nii et me usaldame ennast siis teie juhe"
+      },
+      {
+        "start_seconds": 247.44,
+        "end_seconds": 248.36,
+        "text": "ndamise alla."
+      },
+      {
+        "start_seconds": 248.36,
+        "end_seconds": 252.96,
+        "text": "Nii kahju, et kõike kuulnud, mis ma kõike rääkisin, Kadri, aga igal juhul hakkame siis"
+      },
+      {
+        "start_seconds": 252.96,
+        "end_seconds": 258.12,
+        "text": "neid õpetaja profiile looma koos ja sõna on teil, loodan, et tulete aktiivselt kaasa"
+      },
+      {
+        "start_seconds": 258.12,
+        "end_seconds": 263.4,
+        "text": ", kes tahab kuulata, oled ka teretulnud, aga aktiivne, ma arvan, kaasatulek on see kõige"
+      },
+      {
+        "start_seconds": 263.4,
+        "end_seconds": 265.36,
+        "text": "põnevam osa asjast."
+      },
+      {
+        "start_seconds": 265.36,
+        "end_seconds": 270.52,
+        "text": "Suur aitäh, Annika ja aitäh meid täna siia kutsumast, tõesti nagu me koolis räägime ju"
+      },
+      {
+        "start_seconds": 270.52,
+        "end_seconds": 274.64,
+        "text": "tagurpidi klassiruumist, siis täna meil on ka tagurpidi arutelu."
+      },
+      {
+        "start_seconds": 274.64,
+        "end_seconds": 282.36,
+        "text": "Meie räägime natukene alguses ja siis meie head kaasamõtlejad, noored koolist on"
+      },
+      {
+        "start_seconds": 282.36,
+        "end_seconds": 288.2,
+        "text": "siin arutelusid juhtimas neljas erinevas lauas ja palume siis pärast meie lühikese ette"
+      },
+      {
+        "start_seconds": 288.2,
+        "end_seconds": 293.16,
+        "text": "kande lõppu kõikidel leida koht ühe laua ääres."
+      },
+      {
+        "start_seconds": 293.16,
+        "end_seconds": 298.04,
+        "text": "Alguses paar sõna tuleviku mõtlemisest, siis sellest, et mis stsenaariumid meil täna"
+      },
+      {
+        "start_seconds": 298.04,
+        "end_seconds": 308.08,
+        "text": "arutelu all on, siis mis me teeme ja siis juba hakkame ise tulevikku looma."
+      },
+      {
+        "start_seconds": 308.08,
+        "end_seconds": 313.76,
+        "text": "Nii, tervitus ka minu poolt, mina olen siis Madleen Eesti Tuleviku-uuringute Institu"
+      },
+      {
+        "start_seconds": 313.76,
+        "end_seconds": 320.44,
+        "text": "udi meetodi juht ja mul on siis au ühe slaidi juures natukene rääkida, mis see tulevik"
+      },
+      {
+        "start_seconds": 320.44,
+        "end_seconds": 322.68,
+        "text": "umõtlemine on."
+      },
+      {
+        "start_seconds": 322.68,
+        "end_seconds": 325.12,
+        "text": "Ja kuidas seda tehakse."
+      },
+      {
+        "start_seconds": 325.12,
+        "end_seconds": 332.04,
+        "text": "Väga pikka loengut ei pea, lihtsalt ütlen ära, et tegemist ei ole ennustamisega."
+      },
+      {
+        "start_seconds": 332.04,
+        "end_seconds": 339.52,
+        "text": "See on distsipliin, see on mõtteviis, see on metoodika, mille keskmes on siis võimalik"
+      },
+      {
+        "start_seconds": 339.52,
+        "end_seconds": 346.16,
+        "text": "u tuleviku ja me ütleme isegi võimalike tulevikke, sest tulevikke võib olla rohkem kui"
+      },
+      {
+        "start_seconds": 346.16,
+        "end_seconds": 349.32,
+        "text": "üks, nende ettekujutamine."
+      },
+      {
+        "start_seconds": 349.32,
+        "end_seconds": 355.44,
+        "text": "Küll aga ei ole see niimoodi, et me lihtsalt nagu unistame või, või näeme und, kujuta"
+      },
+      {
+        "start_seconds": 355.44,
+        "end_seconds": 358.6,
+        "text": "me midagi fantastilist ette."
+      },
+      {
+        "start_seconds": 358.6,
+        "end_seconds": 365.04,
+        "text": "Tuleviku mõtlemine algab sellest, mis on juba täna olemas, ehk siis me ütleme, et tulevik"
+      },
+      {
+        "start_seconds": 365.04,
+        "end_seconds": 372.24,
+        "text": "umõtlemise nii-öelda tooraine, millest me neid tulevikuvisioone loome, on si"
+      },
+      {
+        "start_seconds": 372.24,
+        "end_seconds": 379.0,
+        "text": "gnaalid tänasest trendid, mida me enda ümber näeme, suuremad megatrendid, mis siis ku"
+      },
+      {
+        "start_seconds": 379.0,
+        "end_seconds": 386.56,
+        "text": "tsuvad esile suuri muutusi ja meie ülesanne on siis olla tähelepanelik, neid märgata"
+      },
+      {
+        "start_seconds": 386.56,
+        "end_seconds": 393.88,
+        "text": "ja nende põhjal hakata ette kujutama, milline see tulevik võiks siis välja näha ja millise"
+      },
+      {
+        "start_seconds": 393.88,
+        "end_seconds": 400.72,
+        "text": "d inimesed seal tulevikus tegutsevad, kuidas nad seal elavad, mismoodi kommunikeeruvad"
+      },
+      {
+        "start_seconds": 400.72,
+        "end_seconds": 403.72,
+        "text": ", töötavad ja nii edasi."
+      },
+      {
+        "start_seconds": 403.72,
+        "end_seconds": 411.52,
+        "text": "Ideaalis võiksime tulevikku vaadata kuskil kümne aasta kaugusesse, see on selline hea"
+      },
+      {
+        "start_seconds": 411.52,
+        "end_seconds": 417.4,
+        "text": "distants, kus asjad on turvalises kauguses meist, me julgeme mõelda, võib-olla ka nii"
+      },
+      {
+        "start_seconds": 417.4,
+        "end_seconds": 420.52,
+        "text": "-öelda kastist välja ja natuke hullumeelselt."
+      },
+      {
+        "start_seconds": 420.52,
+        "end_seconds": 426.68,
+        "text": "Samas on see aga selline hoomatav distants, et ta ei ole ikkagi kuskil väga-väga kau"
+      },
+      {
+        "start_seconds": 426.68,
+        "end_seconds": 434.2,
+        "text": "gel ja seetõttu ka täna, kui me arutleme õpetaja tuleviku ja õpetaja tuleviku"
+      },
+      {
+        "start_seconds": 434.2,
+        "end_seconds": 440.2,
+        "text": "rollide üle, siis olemegi võtnud sihiks aasta kaks tuhat kolmkümmend viis ja hakkame"
+      },
+      {
+        "start_seconds": 440.2,
+        "end_seconds": 444.56,
+        "text": "siis ühiselt sinna vaatama."
+      },
+      {
+        "start_seconds": 444.56,
+        "end_seconds": 446.72,
+        "text": "Nii instituudist ka."
+      },
+      {
+        "start_seconds": 446.72,
+        "end_seconds": 452.0,
+        "text": "Eesti Tuleviku-uuringute Instituut on tegelikult asutatud üheksakümne esimesel aasta"
+      },
+      {
+        "start_seconds": 452.0,
+        "end_seconds": 452.88,
+        "text": "l."
+      },
+      {
+        "start_seconds": 452.88,
+        "end_seconds": 460.56,
+        "text": "Üks asutajaid, Erik Terk usaldas umbes aasta tagasi selle in"
+      },
+      {
+        "start_seconds": 460.56,
+        "end_seconds": 466.6,
+        "text": "stituudi Johanna ja siis mina liitusin meie kätte."
+      },
+      {
+        "start_seconds": 466.6,
+        "end_seconds": 471.92,
+        "text": "Ta tegelikult hoiab meil pilku peal, et mida me siis ikkagi täpsemalt teeme, osaleb meie"
+      },
+      {
+        "start_seconds": 471.92,
+        "end_seconds": 478.2,
+        "text": "sündmustel ja siiamaani ta ei ole väga protesteerinud, ehk siis meie oleme natuke üle"
+      },
+      {
+        "start_seconds": 478.2,
+        "end_seconds": 485.92,
+        "text": "aasta seda instituuti vedanud ja meie eesmärk on tutvustada seda valdkonda, aidata kaasa"
+      },
+      {
+        "start_seconds": 485.92,
+        "end_seconds": 493.08,
+        "text": "tuleviku mõtlemise tundmisele, nende meetodite kasutamisele erinevates organisatsiooni"
+      },
+      {
+        "start_seconds": 493.08,
+        "end_seconds": 500.92,
+        "text": "des, ettevõtetes, avalikus sektoris, sest me ise väga usume, et sellisel moel on võimalik"
+      },
+      {
+        "start_seconds": 500.92,
+        "end_seconds": 507.92,
+        "text": "teha tulevikukindlamaid otsuseid juba täna ja, ja panna oma strateegiad paika nagu pi"
+      },
+      {
+        "start_seconds": 507.92,
+        "end_seconds": 511.76,
+        "text": "kemad eesmärki, pikemat sihti silmas pidades."
+      },
+      {
+        "start_seconds": 511.76,
+        "end_seconds": 518.8,
+        "text": "Nii et olete kutsutud vaatama meie sotsiaalmeediakanaleid, kodulehte, vaatama, mis sü"
+      },
+      {
+        "start_seconds": 518.8,
+        "end_seconds": 526.32,
+        "text": "ndmused meil tulekul on ja, ja igati siis kaasa mõtlema."
+      },
+      {
+        "start_seconds": 526.32,
+        "end_seconds": 532.24,
+        "text": "Aga läheme siis selle tänase kõige põnevama teema juurde, milline on Eesti kooliharidus"
+      },
+      {
+        "start_seconds": 532.24,
+        "end_seconds": 537.68,
+        "text": "e, koolihariduse süsteemi tulevik, milline see võiks välja näha aastal kaks tuhat kolm"
+      },
+      {
+        "start_seconds": 537.68,
+        "end_seconds": 544.08,
+        "text": "kümmend viis ja me oleme väga tänulikud skaalainfaktile ja heateo haridusfondile, Ka"
+      },
+      {
+        "start_seconds": 544.08,
+        "end_seconds": 551.68,
+        "text": "drile saame lehvitada selle teema algatamise eest ja käimalükkamise eest"
+      },
+      {
+        "start_seconds": 551.68,
+        "end_seconds": 559.04,
+        "text": ", kus nendega koos alustasime siis stsenaariumide tegemist ja stsenaarium"
+      },
+      {
+        "start_seconds": 559.04,
+        "end_seconds": 566.16,
+        "text": "id lõime läbi kahe töötoa sisendi, need toimusid mais ja juunis."
+      },
+      {
+        "start_seconds": 566.16,
+        "end_seconds": 573.04,
+        "text": "Meil oli kambas palju haridusjuhte, meil olid õpetajad, meil olid ka gümnasistid, meil"
+      },
+      {
+        "start_seconds": 573.04,
+        "end_seconds": 578.0,
+        "text": "olid lihtsalt haridusvaldkonna eksperdid ja nendest töötubades me üritasime mõista, et"
+      },
+      {
+        "start_seconds": 578.0,
+        "end_seconds": 583.72,
+        "text": "millised on siis praegused suundumused koolihariduse valdkonnas, mis on need asjad, mis"
+      },
+      {
+        "start_seconds": 583.72,
+        "end_seconds": 589.24,
+        "text": "on määramatused, mis on suure mõjuga, aga hakkavad seda valdkonda kõvasti mõjutama."
+      },
+      {
+        "start_seconds": 589.24,
+        "end_seconds": 595.92,
+        "text": "Ja ka juba jõudsime nendest töötubadest selleni, et kuhu siis täna rõhku panna ja võib"
+      },
+      {
+        "start_seconds": 595.92,
+        "end_seconds": 601.52,
+        "text": "-olla taustaks on huvitav öelda ka seda, et esimene variant stsenaariumidest keskendus"
+      },
+      {
+        "start_seconds": 601.52,
+        "end_seconds": 607.56,
+        "text": "paljuski TEI teemadele, mis siis eelmises arutelus olid ju kesksel kohal, aga kui me"
+      },
+      {
+        "start_seconds": 607.56,
+        "end_seconds": 614.72,
+        "text": "analüüsisime läbivaid märksõnu nendes töötubades, siis me jõudsime praeguse nii-"
+      },
+      {
+        "start_seconds": 614.72,
+        "end_seconds": 621.92,
+        "text": "öelda teljestikuni, see on siis tuleviku terminoloogia ehk see nelja stsenaariumini,"
+      },
+      {
+        "start_seconds": 621.92,
+        "end_seconds": 627.72,
+        "text": "mida me siis palume teil täna analüüsida, mõelda kaasa nende stsenaariumide sees ja o"
+      },
+      {
+        "start_seconds": 627.72,
+        "end_seconds": 631.88,
+        "text": "lgu märkusena öeldud ka, et see ei ole lõpp-produkt, kui keegi tunneb, et tahaks veel"
+      },
+      {
+        "start_seconds": 631.88,
+        "end_seconds": 634.6,
+        "text": "kaasa rääkida, neid täiendada, detailsemaks teha."
+      },
+      {
+        "start_seconds": 634.6,
+        "end_seconds": 639.76,
+        "text": "Andke meile märku, et töö nendega käib ja ülejäänud aasta instituudil on ka mõeldud siis"
+      },
+      {
+        "start_seconds": 639.76,
+        "end_seconds": 644.88,
+        "text": "ka näiteks noortega läbi mõelda, et mida need stsenaariumid tänase jaoks tähendavad."
+      },
+      {
+        "start_seconds": 644.88,
+        "end_seconds": 650.6,
+        "text": "Aga mis need suured, ma ei tea, neid näe vist väga hästi siia ekraanile, aga millise"
+      },
+      {
+        "start_seconds": 650.6,
+        "end_seconds": 657.8,
+        "text": "d arengud siis Eestis praegu vastakuti koolisüsteemi meie pilgu läbi või nende töötu"
+      },
+      {
+        "start_seconds": 657.8,
+        "end_seconds": 663.76,
+        "text": "bade ja erinevate trendianalüüside tulemusel võiksid siis kujundada?"
+      },
+      {
+        "start_seconds": 663.76,
+        "end_seconds": 669.96,
+        "text": "Ühest küljest me näeme, et on pikaajaline autonoomse kooli traditsioon, kuid me noppi"
+      },
+      {
+        "start_seconds": 669.96,
+        "end_seconds": 674.56,
+        "text": "sime välja töötoast, et ka vastassuunaline areng on võimalik."
+      },
+      {
+        "start_seconds": 674.56,
+        "end_seconds": 678.68,
+        "text": "Me näeme riigigümnaasiumeid, me näeme muret sellepärast, et Eestil rahvastik on vähe"
+      },
+      {
+        "start_seconds": 678.68,
+        "end_seconds": 684.96,
+        "text": "nemas, maapiirkondades vähem inimesi, mis toob ka surve efektiivsusele ja toob ka sellise"
+      },
+      {
+        "start_seconds": 684.96,
+        "end_seconds": 691.44,
+        "text": "tõenäolise arengu, et see kontroll läheb rohkem riigi kätte."
+      },
+      {
+        "start_seconds": 691.44,
+        "end_seconds": 697.92,
+        "text": "Ehk koolid võivad ka kaotada oma autonoomia, oma ühetaolisuse oma näo."
+      },
+      {
+        "start_seconds": 697.92,
+        "end_seconds": 705.16,
+        "text": "Kindlasti õpetajatena olete vägagi kursis nii-öelda see õppev"
+      },
+      {
+        "start_seconds": 705.16,
+        "end_seconds": 710.4,
+        "text": "ormi arutelude üle, et kui, kuivõrd, kuidas seda korraldada."
+      },
+      {
+        "start_seconds": 710.4,
+        "end_seconds": 715.6,
+        "text": "Ja me nägime sellist vastandumist nii-öelda traditsiooniline klassiruum, mis roll siis"
+      },
+      {
+        "start_seconds": 715.6,
+        "end_seconds": 720.56,
+        "text": "õpetajal on, et kas stsenaariumides mängivad väga erinevalt välja ehk õpilane kui tead"
+      },
+      {
+        "start_seconds": 720.56,
+        "end_seconds": 726.76,
+        "text": "miste vastuvõtja ja teisalt õpilane kui siis selline autonoomia tegutseja väga isese"
+      },
+      {
+        "start_seconds": 726.76,
+        "end_seconds": 732.6,
+        "text": "isev inimene, seal on ka erinevaid termineid, mida kasutatakse, mis meil algselt olid"
+      },
+      {
+        "start_seconds": 732.6,
+        "end_seconds": 736.0,
+        "text": "siis selline."
+      },
+      {
+        "start_seconds": 736.0,
+        "end_seconds": 742.36,
+        "text": "On ühtluskooli terminid, siis on seal see, mis see noh, ise."
+      },
+      {
+        "start_seconds": 742.36,
+        "end_seconds": 747.68,
+        "text": "Isejuhtiv õpe, hästi palju selliseid huvitavaid märksõnu, mida me üritasime stsenaari"
+      },
+      {
+        "start_seconds": 747.68,
+        "end_seconds": 753.36,
+        "text": "umides vältida, sest me saime aru, et neid tegelikult mõistetakse erinevalt."
+      },
+      {
+        "start_seconds": 753.36,
+        "end_seconds": 760.36,
+        "text": "Me näeme ka praeguses koolisüsteemis päris kõrget ebavõrdsust, meil on eliitkoolide süsteem"
+      },
+      {
+        "start_seconds": 760.36,
+        "end_seconds": 766.64,
+        "text": "ja viimased hiljutised uuringud on näidanud, et ka piirkondlik ebavõrdsus on suhteliselt"
+      },
+      {
+        "start_seconds": 766.64,
+        "end_seconds": 772.32,
+        "text": "kõrge, sealt võib ja tõenäoliselt ka tekib surve sellele, et see haridustase peaks olema"
+      },
+      {
+        "start_seconds": 772.32,
+        "end_seconds": 774.2,
+        "text": "ühtlasem."
+      },
+      {
+        "start_seconds": 774.2,
+        "end_seconds": 780.84,
+        "text": "Ja muidugi hiljutine arutelu siis tehnoloogiakasutuse üle, kas laialdane tehisharu kasuta"
+      },
+      {
+        "start_seconds": 780.84,
+        "end_seconds": 786.68,
+        "text": "mine, mis vormis, kas erinevatel platvormidel, kas see on vabakooliti või siis see võiks"
+      },
+      {
+        "start_seconds": 786.68,
+        "end_seconds": 793.04,
+        "text": "olla ette antud või ma näen ka väga tugevat signaali, et me ei taha üldse tehnoloogi"
+      },
+      {
+        "start_seconds": 793.04,
+        "end_seconds": 797.64,
+        "text": "at, just oli, märkasin ühte arutelu, kus toodi välja kõik erinevad Eesti koolid, mis"
+      },
+      {
+        "start_seconds": 797.64,
+        "end_seconds": 802.92,
+        "text": "nutiseadmeid ei luba kasutada ja on ka siis teistes riikides selliseid poliitikaid."
+      },
+      {
+        "start_seconds": 802.92,
+        "end_seconds": 807.96,
+        "text": "Ehk kui hüpata nüüd nende stsenaariumide juurde ja väga soovitan teil siis ka laudadel"
+      },
+      {
+        "start_seconds": 807.96,
+        "end_seconds": 812.56,
+        "text": "olevat materjali kasutada, et võtta paar minutit neid läbi lugeda, enne kui te arutama"
+      },
+      {
+        "start_seconds": 812.56,
+        "end_seconds": 820.08,
+        "text": "hakkate, siis stsenaariumi raamistikus meil kerkisid esile kaks"
+      },
+      {
+        "start_seconds": 820.08,
+        "end_seconds": 821.92,
+        "text": "telge."
+      },
+      {
+        "start_seconds": 821.92,
+        "end_seconds": 828.36,
+        "text": "Esimene oli siis haridussüsteemi korraldus, me näeme, et järgmise kümne aasta jooksul"
+      },
+      {
+        "start_seconds": 828.36,
+        "end_seconds": 834.32,
+        "text": "tõenäoliselt tekib suhteliselt suur surve, kas siis selle efektiivsuse tagamiseks, s"
+      },
+      {
+        "start_seconds": 834.32,
+        "end_seconds": 839.8,
+        "text": "tandardite juurutamiseks, kas näiteks õpetajate jagamiseks erinevate koolide vahel, su"
+      },
+      {
+        "start_seconds": 839.8,
+        "end_seconds": 846.2,
+        "text": "rve liikuda ära oma omanäolise kooli idee juurest rohkem riigikontrolli, mis ei tähe"
+      },
+      {
+        "start_seconds": 846.2,
+        "end_seconds": 850.72,
+        "text": "nda see, mis ei ole ükski stsenaarium ei ole otseselt halb ega otseselt hea, nad osa"
+      },
+      {
+        "start_seconds": 850.72,
+        "end_seconds": 857.68,
+        "text": "d on lihtsalt sarnasemad tänasele päevale ja osad on teistsugusemad ehk rohkem riigi"
+      },
+      {
+        "start_seconds": 857.68,
+        "end_seconds": 864.8,
+        "text": "juhitud koole, rohkem ühtseid lähenemisi, vähem koolide autonoomiat."
+      },
+      {
+        "start_seconds": 864.8,
+        "end_seconds": 869.16,
+        "text": "Aga teisest otsast muidugi omanäolise kooli jätkumine ja see trend võib ka süveneda,"
+      },
+      {
+        "start_seconds": 869.16,
+        "end_seconds": 876.64,
+        "text": "et tekibki üha rohkem eripäraseid koole, erineva fookuse, erineva spetsialiseerumise"
+      },
+      {
+        "start_seconds": 876.64,
+        "end_seconds": 880.88,
+        "text": "ga ja on veel suurem autonoomia."
+      },
+      {
+        "start_seconds": 880.88,
+        "end_seconds": 888.0,
+        "text": "Ja teisest küljest siis küsimus sellest, et milline see õppekorraldus koolides on, et"
+      },
+      {
+        "start_seconds": 888.0,
+        "end_seconds": 894.2,
+        "text": "ka seal võib-olla siis rohkem välistest teguritest tingituna ühest küljest me nimeta"
+      },
+      {
+        "start_seconds": 894.2,
+        "end_seconds": 900.76,
+        "text": "sime seda siis koos rajal ehk pigem selline traditsiooniline klassiruum, pigem see, et"
+      },
+      {
+        "start_seconds": 900.76,
+        "end_seconds": 906.72,
+        "text": "me näeme, et õpetaja on ikkagist klassi ees ja kas jällegi tingitud sellest, et me ei"
+      },
+      {
+        "start_seconds": 906.72,
+        "end_seconds": 910.32,
+        "text": "saa väga sellist personaalset lähenemist igaühele pakkuda."
+      },
+      {
+        "start_seconds": 910.32,
+        "end_seconds": 914.08,
+        "text": "Võib-olla me ei oska neid tehnoloogilisi lahendusi rakendada."
+      },
+      {
+        "start_seconds": 914.08,
+        "end_seconds": 921.4,
+        "text": "Et see koos rajal on niisugune kambakesi üsna sama joontpidi versus siis kõrge õpi"
+      },
+      {
+        "start_seconds": 921.4,
+        "end_seconds": 926.92,
+        "text": "lase autonoomia ehk igaüks omal ajal oleme ju päris palju kuulnud isiklikest õpirada"
+      },
+      {
+        "start_seconds": 926.92,
+        "end_seconds": 929.68,
+        "text": "dest, personaliseeritud õppest ja nii edasi."
+      },
+      {
+        "start_seconds": 929.68,
+        "end_seconds": 936.36,
+        "text": "Ehk see seal siis ka stsenaariumides meie jaoks erisuunalised väga olulised arengud olid"
+      },
+      {
+        "start_seconds": 936.36,
+        "end_seconds": 943.52,
+        "text": "ja need neli stsenaariumit tulid siis esiteks ühtne siht ja isiklik teekond,"
+      },
+      {
+        "start_seconds": 943.52,
+        "end_seconds": 950.4,
+        "text": "kus me näeme riigipoolset suuremat rolli võtmist nendes stsenaariumides."
+      },
+      {
+        "start_seconds": 950.4,
+        "end_seconds": 956.28,
+        "text": "Kuid kus kasutame siis näiteks tehisintellekti ja tehnoloogilisi lahendusi, et õpilased"
+      },
+      {
+        "start_seconds": 956.28,
+        "end_seconds": 961.44,
+        "text": "saaksid omas tempos, aga sama sihi suunas liikuda."
+      },
+      {
+        "start_seconds": 961.44,
+        "end_seconds": 970.12,
+        "text": "Teiseks loovuse vabariik, kus koolidel on väga kõrge autonoomia ja ka väga tugev,"
+      },
+      {
+        "start_seconds": 970.12,
+        "end_seconds": 978.4,
+        "text": "väga tugevalt siis suunatakse õpilasi enda huvide järgi õppima,"
+      },
+      {
+        "start_seconds": 978.4,
+        "end_seconds": 985.08,
+        "text": "mis siis ilmselt võiks olla stsenaariumis, tekib, kui tekib väga suur mure näiteks va"
+      },
+      {
+        "start_seconds": 985.08,
+        "end_seconds": 992.36,
+        "text": "imse tervise pärast, saavutuspüüdja pärast, siis selles maailmas on meil väga palju väga"
+      },
+      {
+        "start_seconds": 992.36,
+        "end_seconds": 999.68,
+        "text": "erinäolisi koole, kus me soodustame siis sellist isiklike õpila"
+      },
+      {
+        "start_seconds": 999.68,
+        "end_seconds": 1005.8,
+        "text": "se heaolu ja eneseväljendust, aga siis ka isiklikke huvide õppimist, mis iseenesest võib"
+      },
+      {
+        "start_seconds": 1005.8,
+        "end_seconds": 1010.08,
+        "text": "kõlada väga idealistlikult, aga võib kaasa tuua ka selle kõikidel sellist ressurssi ja"
+      },
+      {
+        "start_seconds": 1010.08,
+        "end_seconds": 1011.84,
+        "text": "võimalust ei ole."
+      },
+      {
+        "start_seconds": 1011.84,
+        "end_seconds": 1018.68,
+        "text": "Kolmandaks siis suur võidujooks, kus on fookus ikkagist akadeemilistel tulemustel, aga"
+      },
+      {
+        "start_seconds": 1018.68,
+        "end_seconds": 1025.0,
+        "text": "koolidel on kõrge autonoomia ehk meil on konkurents koolide vahel, meil on palju eli"
+      },
+      {
+        "start_seconds": 1025.0,
+        "end_seconds": 1030.44,
+        "text": "itkoole, aga meil on ka näiteks erakoolid, mis siis aitavad tulemusi kas tagada või siis"
+      },
+      {
+        "start_seconds": 1030.44,
+        "end_seconds": 1035.12,
+        "text": "erakoolid, mis pakuvad alternatiive sellisele akadeemiliselt orienteeritud riiklikule"
+      },
+      {
+        "start_seconds": 1035.12,
+        "end_seconds": 1036.04,
+        "text": "süsteemile."
+      },
+      {
+        "start_seconds": 1036.04,
+        "end_seconds": 1041.68,
+        "text": "Et mina näiteks ei taha noh, hüpoteetiliselt näiteks, et minu laps kuskil väga kõrge"
+      },
+      {
+        "start_seconds": 1041.68,
+        "end_seconds": 1047.72,
+        "text": "pingega koolis käib, et ma otsin talle teistsuguse lähenemisega kooli."
+      },
+      {
+        "start_seconds": 1047.72,
+        "end_seconds": 1053.16,
+        "text": "Ehk selles stsenaariumis siis küsimus, et kas, kas kõik sinna stardirajale mahuvad ja"
+      },
+      {
+        "start_seconds": 1053.16,
+        "end_seconds": 1059.12,
+        "text": "mis saab siis õpilaste heaolust ja neljandaks üks teie kõigile, kus koolide autonoomi"
+      },
+      {
+        "start_seconds": 1059.12,
+        "end_seconds": 1064.76,
+        "text": "a väheneb, riiklik roll suureneb, rohkem üksteist standardid ja siis ka selline tradi"
+      },
+      {
+        "start_seconds": 1064.76,
+        "end_seconds": 1068.68,
+        "text": "tsioonilise klassiruumi ja õppe jätkumine."
+      },
+      {
+        "start_seconds": 1068.68,
+        "end_seconds": 1073.16,
+        "text": "Aga lugege palun ka need kirjeldused nendelt lehtedelt läbi, et seal on ka selline ta"
+      },
+      {
+        "start_seconds": 1073.16,
+        "end_seconds": 1077.92,
+        "text": "ust kirjas, et kuidas see stsenaarium tekib ja saate süvitsi minna ja arutada, et mis"
+      },
+      {
+        "start_seconds": 1077.92,
+        "end_seconds": 1079.12,
+        "text": "te nendest arvate."
+      },
+      {
+        "start_seconds": 1079.12,
+        "end_seconds": 1083.8,
+        "text": "Madele räägiks nüüd, kuidas me edasi toimetame ja siis saamegi laudade juurde kogune"
+      },
+      {
+        "start_seconds": 1083.8,
+        "end_seconds": 1086.08,
+        "text": "da."
+      },
+      {
+        "start_seconds": 1086.08,
+        "end_seconds": 1089.28,
+        "text": "Nii, jah."
+      },
+      {
+        "start_seconds": 1089.28,
+        "end_seconds": 1096.52,
+        "text": "Meil on kavas siis selline eksperiment ja väga loodame teie peale, sest ütleme,"
+      },
+      {
+        "start_seconds": 1096.52,
+        "end_seconds": 1103.96,
+        "text": "kui tavaline formaat on, on selline, et panelistid võtavad põhiliselt asja enda ka"
+      },
+      {
+        "start_seconds": 1103.96,
+        "end_seconds": 1110.2,
+        "text": "nda, et siis loodame, et te töötate kaasa, nii et olete töötuppa sattunud ja kes tunne"
+      },
+      {
+        "start_seconds": 1110.2,
+        "end_seconds": 1114.64,
+        "text": "b, et ta ikka kohe üldse ei taha, et siis tutvuge lihtsalt materjalidega, tulge kuula"
+      },
+      {
+        "start_seconds": 1114.64,
+        "end_seconds": 1119.84,
+        "text": "ke, mis teised arutavad ja, ja pärast siis kuulame ühiselt kokkuvõtteid."
+      },
+      {
+        "start_seconds": 1119.84,
+        "end_seconds": 1124.72,
+        "text": "Ja plaan on nüüd selline."
+      },
+      {
+        "start_seconds": 1124.72,
+        "end_seconds": 1131.24,
+        "text": "Et kuna meil on neli stsenaariumi, siis me oleme tekitanud ka neli laudkonda."
+      },
+      {
+        "start_seconds": 1131.24,
+        "end_seconds": 1135.04,
+        "text": "Igas laudkonnas on siis oma stsenaarium."
+      },
+      {
+        "start_seconds": 1135.04,
+        "end_seconds": 1140.96,
+        "text": "Stsenaariumid on siin suurelt väljas, aga me trükkisime välja ka sellised A4 formaadi"
+      },
+      {
+        "start_seconds": 1140.96,
+        "end_seconds": 1144.96,
+        "text": "s, mis te saate kasvõi koju kaasa võtta ja natukene lugeda."
+      },
+      {
+        "start_seconds": 1144.96,
+        "end_seconds": 1149.48,
+        "text": "Et siin on siis kirjas ka see, et kuidas me selle stsenaariumi juurde jõudsime, sest"
+      },
+      {
+        "start_seconds": 1149.48,
+        "end_seconds": 1156.8,
+        "text": "nii nagu me rääkisime, mingi asi lihtsalt kuskilt ei teki, vaid tal on alati mingi põhjus"
+      },
+      {
+        "start_seconds": 1156.8,
+        "end_seconds": 1157.4,
+        "text": "."
+      },
+      {
+        "start_seconds": 1157.4,
+        "end_seconds": 1164.48,
+        "text": "Nii siis teine nii-öelda materjal toetamaks meie ettevõtmist, tegime iga stsenaa"
+      },
+      {
+        "start_seconds": 1164.48,
+        "end_seconds": 1171.88,
+        "text": "riumi kohta ka sellise svot'i ehk siis heade ja, ja võib-olla nii,"
+      },
+      {
+        "start_seconds": 1171.88,
+        "end_seconds": 1179.16,
+        "text": "mitte nii heade tagajärgede väikese ülevaate ja esimese asjana palumegi, et kui"
+      },
+      {
+        "start_seconds": 1179.16,
+        "end_seconds": 1186.72,
+        "text": "te olete siin grupeerunud, et võib-olla vaatate-tutvute materjalidega, mõtlete ka"
+      },
+      {
+        "start_seconds": 1186.72,
+        "end_seconds": 1193.36,
+        "text": "selle svoti peale, sest nagu Johanna ütles, siis igal stsenaariumil on nii positiivse"
+      },
+      {
+        "start_seconds": 1193.36,
+        "end_seconds": 1199.8,
+        "text": "d kui negatiivsed tagajärjed, ükski nendest ei ole läbinisti hea või halb, kuigi võib"
+      },
+      {
+        "start_seconds": 1199.8,
+        "end_seconds": 1202.28,
+        "text": "-olla esimesel pilgul võib niimoodi tunduda."
+      },
+      {
+        "start_seconds": 1202.28,
+        "end_seconds": 1208.64,
+        "text": "Ja seda siis natukene teeme, mõtleme ja, ja siis jõuame nagu selle põhiteema juurde,"
+      },
+      {
+        "start_seconds": 1208.64,
+        "end_seconds": 1214.6,
+        "text": "mis on õpetaja tulevikus ja nüüd ongi, meil on neli eri eristsenaariumit."
+      },
+      {
+        "start_seconds": 1214.6,
+        "end_seconds": 1222.24,
+        "text": "Me oleme loonud õpetaja persoona, Laura Tamm, kes on bioloogiaõpetaja, kes kaks tuhat"
+      },
+      {
+        "start_seconds": 1222.24,
+        "end_seconds": 1229.84,
+        "text": "kakskümmend viis ehk siis sel sügisel alustab tööd Põltsamaal Tartus"
+      },
+      {
+        "start_seconds": 1229.84,
+        "end_seconds": 1237.16,
+        "text": ", Tartus alustab, nii ta mõtles ümber ja, ja me natukene kirjeldasime teda, no"
+      },
+      {
+        "start_seconds": 1237.16,
+        "end_seconds": 1243.68,
+        "text": "mis on tema nagu unistused, eesmärgid, soovid, milliste mõtetega ta oma karjääri alusta"
+      },
+      {
+        "start_seconds": 1243.68,
+        "end_seconds": 1249.56,
+        "text": "b ja siis me mõtleme, et nüüd on aasta kaks tuhat kolmkümmend viis."
+      },
+      {
+        "start_seconds": 1249.56,
+        "end_seconds": 1256.4,
+        "text": "Laura on juba kümme aastat töötanud, ta on juba päris staažikas ja on selline väike ha"
+      },
+      {
+        "start_seconds": 1256.4,
+        "end_seconds": 1259.16,
+        "text": "rjutus, et milline on see õpetajapäev."
+      },
+      {
+        "start_seconds": 1259.16,
+        "end_seconds": 1264.72,
+        "text": "Nüüd väga detaili ei lähe, kuna meie formaat seda ka ei luba, aga mõtleme näiteks, et"
+      },
+      {
+        "start_seconds": 1264.72,
+        "end_seconds": 1270.52,
+        "text": "hommikul, kuidas ta tundi ette valmistab selles stsenaariumis, siis kuidas ta oma õppe"
+      },
+      {
+        "start_seconds": 1270.52,
+        "end_seconds": 1277.56,
+        "text": "ainet annab, seal on suunavad küsimused ja, ja meie noored koolijuhid aitavad teil nende"
+      },
+      {
+        "start_seconds": 1277.56,
+        "end_seconds": 1285.0,
+        "text": "küsimuste raames siis mõtiskleda, siis mida tehakse õpetajate toas aastal kaks tuhat"
+      },
+      {
+        "start_seconds": 1285.0,
+        "end_seconds": 1292.04,
+        "text": "kolmkümmend viis, millest räägitakse, mis muresid jagatakse, kuidas õpetajaid toetatakse"
+      },
+      {
+        "start_seconds": 1292.04,
+        "end_seconds": 1299.32,
+        "text": "ja siis lõpuks õhtul, kui Laura siis jõuab koju, mõtleb oma elu üle järele,"
+      },
+      {
+        "start_seconds": 1299.32,
+        "end_seconds": 1305.56,
+        "text": "mõtleb, mis siis veel võiks saavutada, kuhu edasi liikuda, et selline väike päevakir"
+      },
+      {
+        "start_seconds": 1305.56,
+        "end_seconds": 1312.16,
+        "text": "jeldus ja nii meil tulebki väga huvitav pilt meie ühise tegevuse tulemusena, kus meie"
+      },
+      {
+        "start_seconds": 1312.16,
+        "end_seconds": 1317.56,
+        "text": "tänane tubli bioloogiaõpetaja, kes süsteemi nii-öelda siseneb."
+      },
+      {
+        "start_seconds": 1317.56,
+        "end_seconds": 1325.08,
+        "text": "Et kuidas siis ta nendes erinevates stsenaariumites kümne aasta pärast tegutseb ja"
+      },
+      {
+        "start_seconds": 1325.08,
+        "end_seconds": 1330.44,
+        "text": ", ja sealt siis vaatame, arutame ja mõtleme, et võib-olla me leiame ka mingi ühise sellise"
+      },
+      {
+        "start_seconds": 1330.44,
+        "end_seconds": 1337.6,
+        "text": "ideaalse stsenaariumi, mingisuguse suuna mõne õpetaja nagu rollide kirjelduse,"
+      },
+      {
+        "start_seconds": 1337.6,
+        "end_seconds": 1340.12,
+        "text": "mis võiks olla Eesti jaoks kõige parem."
+      },
+      {
+        "start_seconds": 1340.12,
+        "end_seconds": 1341.72,
+        "text": "Vot."
+      },
+      {
+        "start_seconds": 1341.72,
+        "end_seconds": 1345.6,
+        "text": "Ma ütlen viimase asjana seda enne arutama hakkamist, et tihtipeale me võtame sellise"
+      },
+      {
+        "start_seconds": 1345.6,
+        "end_seconds": 1351.24,
+        "text": "id arutelusid ikkagi väga tõsiselt, siin ei ole õigeid ega valesid vastuseid, et tul"
+      },
+      {
+        "start_seconds": 1351.24,
+        "end_seconds": 1356.96,
+        "text": "ge julgelt nüüd nende laudade äärde, vaadake, mis stsenaariumid olete saanud ja jaga"
+      },
+      {
+        "start_seconds": 1356.96,
+        "end_seconds": 1362.96,
+        "text": "ge mõtteid ja kui te ei ole nõus oma kaasarutleja mõtetega, see on okei, see on okei"
+      },
+      {
+        "start_seconds": 1362.96,
+        "end_seconds": 1368.16,
+        "text": ", et põrgatame ja üritame mõista, et mis me nende stsenaariumidest arvame ja igaüks,"
+      },
+      {
+        "start_seconds": 1368.16,
+        "end_seconds": 1371.52,
+        "text": "palun leiab endale nüüd laua."
+      },
+      {
+        "start_seconds": 1371.52,
+        "end_seconds": 1378.12,
+        "text": "Jah, ja haarake neid väikseid A neljasid, kus on stsenaariumid, kirjeldus, Svot, per"
+      },
+      {
+        "start_seconds": 1378.12,
+        "end_seconds": 1385.2,
+        "text": "soona kirjeldus, tutvuge materjalidega ja siis läheb juba arutamiseks, et kõigepealt"
+      },
+      {
+        "start_seconds": 1385.2,
+        "end_seconds": 1391.24,
+        "text": "natuke mõelge selle stsenaariumi peale, kas see tundub realistlik, on ta soovitud, on"
+      },
+      {
+        "start_seconds": 1391.24,
+        "end_seconds": 1394.72,
+        "text": "ta midagi täitsa uskumatut ja nii edasi."
+      },
+      {
+        "start_seconds": 1394.72,
+        "end_seconds": 1404.0,
+        "text": "Mina jälgin aega siis ja kes, vaadake siin suurelt on ka need stsenaariumid väljas."
+      },
+      {
+        "start_seconds": 1404.0,
+        "end_seconds": 1409.44,
+        "text": "Nii tähelepanu, tähelepanu, nüüd on soojendus tehtud."
+      },
+      {
+        "start_seconds": 1409.44,
+        "end_seconds": 1416.56,
+        "text": "Võtke soojendusstressid seljast ja tooge esile siis, seal on sellised pers"
+      },
+      {
+        "start_seconds": 1416.56,
+        "end_seconds": 1421.28,
+        "text": "oonapõhjad nii-öelda õpetajapäev."
+      },
+      {
+        "start_seconds": 1421.28,
+        "end_seconds": 1428.08,
+        "text": "Ühe inimese päev tulevikus, selle kirjeldamist kasutatakse väga palju nii disainis kui"
+      },
+      {
+        "start_seconds": 1428.08,
+        "end_seconds": 1429.56,
+        "text": "tuleviku mõtlemises."
+      },
+      {
+        "start_seconds": 1429.56,
+        "end_seconds": 1435.28,
+        "text": "Nii et see on selline hea harjutus ja siin, kui me käisime Johannaga ja kuulasime, mida"
+      },
+      {
+        "start_seconds": 1435.28,
+        "end_seconds": 1443.04,
+        "text": "te arutate, siis jäi kuskilt kõrva, et mõni stsenaarium on võib-olla selles"
+      },
+      {
+        "start_seconds": 1443.04,
+        "end_seconds": 1449.48,
+        "text": "mõttes väheambitsioonikas, et ei ole arvesse võetud tehisharu mõju, siis ma ütleks selle"
+      },
+      {
+        "start_seconds": 1449.48,
+        "end_seconds": 1455.88,
+        "text": "peale nii, et, et üks meetod, mida tuleviku mõtlemises kasutatakse, on vaata tagasi,"
+      },
+      {
+        "start_seconds": 1455.88,
+        "end_seconds": 1457.68,
+        "text": "et vaadata edasi."
+      },
+      {
+        "start_seconds": 1457.68,
+        "end_seconds": 1462.56,
+        "text": "Tavaliselt, kui sa tahad kümme aastat edasi vaadata, siis vaatad kakskümmend aastat tagasi"
+      },
+      {
+        "start_seconds": 1462.56,
+        "end_seconds": 1469.24,
+        "text": "ja kui te mõtlete seda kahtekümmend aastat näiteks hetkeks tagasi ja kuidas internet"
+      },
+      {
+        "start_seconds": 1469.24,
+        "end_seconds": 1475.32,
+        "text": "näiteks arenes või mingisugused muud tehnoloogiad, et kas selle, nende tehnoloogiate"
+      },
+      {
+        "start_seconds": 1475.32,
+        "end_seconds": 1481.0,
+        "text": "mõjul on näiteks õppimine ja Eesti kool väga palju muutunud, et lihtsalt ma viskan õ"
+      },
+      {
+        "start_seconds": 1481.0,
+        "end_seconds": 1488.08,
+        "text": "hku hüpoteesi, et võib-olla see tehisharu noh, siin on juba tohutud arengud,"
+      },
+      {
+        "start_seconds": 1488.08,
+        "end_seconds": 1494.72,
+        "text": "organoid, Intelligence ja nii edasi, et võib-olla kõik see toimub, aga siiski meie ko"
+      },
+      {
+        "start_seconds": 1494.72,
+        "end_seconds": 1502.16,
+        "text": "ol on nii sitke, et väga ei muutu, et kõik on võimalik, aga nüüd ja vaatame seda õpetaja"
+      },
+      {
+        "start_seconds": 1502.16,
+        "end_seconds": 1505.16,
+        "text": "t, tema nimi on Laura."
+      },
+      {
+        "start_seconds": 1505.16,
+        "end_seconds": 1510.8,
+        "text": "Nüüd see aasta ta alustab, aga kujutame ette, et meil on nüüd käes see stsenaarium, te"
+      },
+      {
+        "start_seconds": 1510.8,
+        "end_seconds": 1514.28,
+        "text": "natukene tutvusite, arutlesite selle üle."
+      },
+      {
+        "start_seconds": 1514.28,
+        "end_seconds": 1521.68,
+        "text": "Ja ongi siis ülesanne mõelda, milline tema päev on aastal kaks tuhat"
+      },
+      {
+        "start_seconds": 1521.68,
+        "end_seconds": 1522.84,
+        "text": "kolmkümmend viis."
+      },
+      {
+        "start_seconds": 1522.84,
+        "end_seconds": 1529.32,
+        "text": "Seal ei pea päris sellist nagu päeviku stiilis tegema, aga märksõnadega mõtleme just"
+      },
+      {
+        "start_seconds": 1529.32,
+        "end_seconds": 1535.2,
+        "text": ", kuidas ta õpetab, kuidas ta ette valmistab, mida õpetajad omavahel räägivad, aruta"
+      },
+      {
+        "start_seconds": 1535.2,
+        "end_seconds": 1540.88,
+        "text": "vad, mis on nende väljakutsed ja mis tema unistused ja, ja edasised siis mõtted on."
+      },
+      {
+        "start_seconds": 1540.88,
+        "end_seconds": 1548.36,
+        "text": "Ja jällegi teie tublid juhid haaravad need suured A2 põhjad, kuhu saab siis"
+      },
+      {
+        "start_seconds": 1548.36,
+        "end_seconds": 1559.4,
+        "text": "märksõnu kirja panna ja, ja pärast meie teeme siis sellest kokkuvõtte vist jah, nii."
+      },
+      {
+        "start_seconds": 1559.4,
+        "end_seconds": 1567.04,
+        "text": "Niimoodi kallid osalejad, nüüd oleme jõudnud sinnamaani, et teeme ühise arutelu."
+      },
+      {
+        "start_seconds": 1567.04,
+        "end_seconds": 1573.4,
+        "text": "Johanna liigub ringi siis ühe grupi juurest teise juurde ja, ja vaatame, kuhu te siis"
+      },
+      {
+        "start_seconds": 1573.4,
+        "end_seconds": 1579.64,
+        "text": "omadega jõudsite, et teised siis kuulevad ka, mis need alternatiivsed stsenaariumid,"
+      },
+      {
+        "start_seconds": 1579.64,
+        "end_seconds": 1583.4,
+        "text": "kuidas need jooksid siin ja, ja kuidas see mõte jooksis teistel."
+      },
+      {
+        "start_seconds": 1583.4,
+        "end_seconds": 1586.56,
+        "text": "Ja ma lähen, kas mind on kuulda?"
+      },
+      {
+        "start_seconds": 1586.56,
+        "end_seconds": 1589.0,
+        "text": "Ei ole kuulda."
+      },
+      {
+        "start_seconds": 1589.0,
+        "end_seconds": 1594.92,
+        "text": "Ma lähen numbrite järgi üks, kaks, kolm, neli ja ma väga soovitan kuulata, sellepärast"
+      },
+      {
+        "start_seconds": 1594.92,
+        "end_seconds": 1601.32,
+        "text": "et pärast jagamist, pärast jagamist me hääletame, võite juba mõttes hoida, et mis on"
+      },
+      {
+        "start_seconds": 1601.32,
+        "end_seconds": 1607.52,
+        "text": "teie meelest kõige eelistatum stsenaarium ja mis on kõige tõenäolisem, vot selline hääl"
+      },
+      {
+        "start_seconds": 1607.52,
+        "end_seconds": 1611.68,
+        "text": "etus tuleb, aga selleks, et hääletada, peate olema nende stsenaariumidega hästi kurs"
+      },
+      {
+        "start_seconds": 1611.68,
+        "end_seconds": 1617.92,
+        "text": "is ja selleks me kuulame teisi ja saate siis seda tausta sealt lugeda ja kaasa mõelda"
+      },
+      {
+        "start_seconds": 1617.92,
+        "end_seconds": 1623.28,
+        "text": ", ehk siis stsenaarium number üks, kus meil oli ühtne siht ja isiklik teekond, ehk kus"
+      },
+      {
+        "start_seconds": 1623.28,
+        "end_seconds": 1628.24,
+        "text": "riigi roll kasvab, aga õpilased on suhteliselt autonoomsed."
+      },
+      {
+        "start_seconds": 1628.24,
+        "end_seconds": 1634.04,
+        "text": "Ja teie tiimist ma ootan siis umbes kolm minutit peegeldust, mis te sellest stsenaari"
+      },
+      {
+        "start_seconds": 1634.04,
+        "end_seconds": 1638.52,
+        "text": "umist arvasite, kas te seda täiendasite kuidagi ja kuidas Laural selles maailmas läheb"
+      },
+      {
+        "start_seconds": 1638.52,
+        "end_seconds": 1640.76,
+        "text": "?"
+      },
+      {
+        "start_seconds": 1640.76,
+        "end_seconds": 1642.76,
+        "text": "Aitäh."
+      },
+      {
+        "start_seconds": 1642.76,
+        "end_seconds": 1649.32,
+        "text": "Meie hinnangul see on kõige ebareaalsem stsenaarium, see on nagu kõige vastandlikum selle"
+      },
+      {
+        "start_seconds": 1649.32,
+        "end_seconds": 1655.24,
+        "text": "le, milline on nagu praegust olnud see hariduspoliitika selles stsenaariumis on mitme"
+      },
+      {
+        "start_seconds": 1655.24,
+        "end_seconds": 1658.92,
+        "text": "id positiivseid elemente."
+      },
+      {
+        "start_seconds": 1658.92,
+        "end_seconds": 1664.64,
+        "text": "Suure tõenäosusega Laura aastal kaks tuhat kolmkümmend viis enam koolis ei tööta, ta"
+      },
+      {
+        "start_seconds": 1664.64,
+        "end_seconds": 1672.36,
+        "text": "on lahkunud, sest et õpetaja kui eksperdi sellise nagu in"
+      },
+      {
+        "start_seconds": 1672.36,
+        "end_seconds": 1679.52,
+        "text": "dividuaalsete omadustega rollikuju eeskuju õpilastel,"
+      },
+      {
+        "start_seconds": 1679.52,
+        "end_seconds": 1686.6,
+        "text": "see on kadunud, kuna õppetöö tundub vist toimivat väga suuresti selliste noh, vee"
+      },
+      {
+        "start_seconds": 1686.6,
+        "end_seconds": 1692.2,
+        "text": "bikeskkondades kontrollitud, kes on nende standardiseeritud asjadena, et, et õpetaja"
+      },
+      {
+        "start_seconds": 1692.2,
+        "end_seconds": 1698.24,
+        "text": "kui selline ei oma tähtsust, vaid ta on lihtsalt jälgib, et kas tehisarv on kõigest sellest"
+      },
+      {
+        "start_seconds": 1698.24,
+        "end_seconds": 1702.48,
+        "text": "päriselt aru saanud, mida see õpilane on nagu teha tahtnud ja, ja teinud."
+      },
+      {
+        "start_seconds": 1702.48,
+        "end_seconds": 1708.96,
+        "text": "Et, et suureks probleemiks me näeme, et kujuneb veel sellise stsenaariumi realiseeru"
+      },
+      {
+        "start_seconds": 1708.96,
+        "end_seconds": 1715.28,
+        "text": "misel süveneb veel õpilaste selliste sotsiaalsete oskuste pärssumine, individualisee"
+      },
+      {
+        "start_seconds": 1715.28,
+        "end_seconds": 1720.08,
+        "text": "rumine, distantseerumine üksteisest, suutmatus, oskamatus üksteisega koostööd teha ja"
+      },
+      {
+        "start_seconds": 1720.08,
+        "end_seconds": 1727.28,
+        "text": ", ja nii edasi, et, et see ühtse grupi hoidmine, mille osaks on ka õpetaja, et"
+      },
+      {
+        "start_seconds": 1727.28,
+        "end_seconds": 1731.36,
+        "text": ", et seda me tunnetame, et, et see on nagu kadumas."
+      },
+      {
+        "start_seconds": 1731.36,
+        "end_seconds": 1734.24,
+        "text": "Kas ma sain olulisema öeldud?"
+      },
+      {
+        "start_seconds": 1734.24,
+        "end_seconds": 1740.2,
+        "text": "Et suure tõenäosusega, vähemalt ma ise, kui ma oleksin see õpetaja, siis ma töötaksin"
+      },
+      {
+        "start_seconds": 1740.2,
+        "end_seconds": 1748.16,
+        "text": "oma firmas, luues neid õpistsenaariumeid ja müües neid siis riigile, et kuidas"
+      },
+      {
+        "start_seconds": 1748.16,
+        "end_seconds": 1752.68,
+        "text": "õpe võiks toimida, aga ma ise õpetajana ei oleks seal."
+      },
+      {
+        "start_seconds": 1752.68,
+        "end_seconds": 1758.6,
+        "text": "Aga ma ütlengi peegelduseks selle, et äkki see on see maailm, kus tehnoloogia on nii"
+      },
+      {
+        "start_seconds": 1758.6,
+        "end_seconds": 1761.44,
+        "text": "hea, et meil ei olegi õpetajat vaja."
+      },
+      {
+        "start_seconds": 1761.44,
+        "end_seconds": 1766.56,
+        "text": "Noh, see on provokatsioon muidugi, eks ju, aga, aga see on üks idee, mis ju ka praegu"
+      },
+      {
+        "start_seconds": 1766.56,
+        "end_seconds": 1773.6,
+        "text": "väga laialt levib."
+      },
+      {
+        "start_seconds": 1773.6,
+        "end_seconds": 1787.32,
+        "text": "Jah, väga õige märkus, et siis, siis ei ole vaja õpilastel sotsiaalseid oskuseid."
+      },
+      {
+        "start_seconds": 1787.32,
+        "end_seconds": 1794.48,
+        "text": "Vabandust, vabandust, et natukene mingites eri kohtades see asi võiks ju selliselt"
+      },
+      {
+        "start_seconds": 1794.48,
+        "end_seconds": 1799.68,
+        "text": "toimida nagu näiteks kood/Jõhvi ju paljuski selliselt ongi, õpilased ise loovad selle"
+      },
+      {
+        "start_seconds": 1799.68,
+        "end_seconds": 1804.56,
+        "text": "ülesande lahenduse, millele nad on üheskoos asunud, on ju, aga see on teatud spetsii"
+      },
+      {
+        "start_seconds": 1804.56,
+        "end_seconds": 1809.8,
+        "text": "filistes lõikudes, aga kui me räägime koolist kui ühiskonna alustalast, siis seda me"
+      },
+      {
+        "start_seconds": 1809.8,
+        "end_seconds": 1815.92,
+        "text": "ei saavuta, siis me saame väga individuaalselt elavad üksteisega mitte suhelda oskavad"
+      },
+      {
+        "start_seconds": 1815.92,
+        "end_seconds": 1821.44,
+        "text": "introvertsed hirmunud inimesest, ma kardan, et."
+      },
+      {
+        "start_seconds": 1821.44,
+        "end_seconds": 1825.32,
+        "text": "Olgu, me peame veel arutama, kuidas seda stsenaariumit siis tasakaalukamaks teha või"
+      },
+      {
+        "start_seconds": 1825.32,
+        "end_seconds": 1826.32,
+        "text": "usutavamaks."
+      },
+      {
+        "start_seconds": 1826.32,
+        "end_seconds": 1831.08,
+        "text": "Väga hästi, aitäh, võtame stsenaariumi kaks, kust olete."
+      },
+      {
+        "start_seconds": 1831.08,
+        "end_seconds": 1836.56,
+        "text": "Kaks on seal taga nurgas ja see on siis loovuse vabariik, kus meil on omanäoline, oma"
+      },
+      {
+        "start_seconds": 1836.56,
+        "end_seconds": 1843.76,
+        "text": "näoline kool ja igaüks oma rajal ehk siis palju erinevaid, erineva fookusega koole ja"
+      },
+      {
+        "start_seconds": 1843.76,
+        "end_seconds": 1847.36,
+        "text": "siis ka õpilastel väga suur autonoomia."
+      },
+      {
+        "start_seconds": 1847.36,
+        "end_seconds": 1854.16,
+        "text": "Mis te sellest stsenaariumist arvasite ja mida Laura seal maailmas teeb?"
+      },
+      {
+        "start_seconds": 1854.16,
+        "end_seconds": 1861.32,
+        "text": "Ja et me võtsime siis sellise positiivse vaate sellele, et kümne aasta pärast Laura"
+      },
+      {
+        "start_seconds": 1861.32,
+        "end_seconds": 1863.12,
+        "text": "hommikul ärkab üles."
+      },
+      {
+        "start_seconds": 1863.12,
+        "end_seconds": 1871.36,
+        "text": "Kõigepealt võtab aja endale, ei hakka kõigepealt mõtlema töömõtteid, vaid"
+      },
+      {
+        "start_seconds": 1871.36,
+        "end_seconds": 1875.96,
+        "text": "väike selline, kes siis teeb oma joogaharjutusi, kes hingamisharjutusi, kes joob rahu"
+      },
+      {
+        "start_seconds": 1875.96,
+        "end_seconds": 1877.28,
+        "text": "likult kohvi."
+      },
+      {
+        "start_seconds": 1877.28,
+        "end_seconds": 1884.0,
+        "text": "Teisena ta alles hakkab tegema siis häälestust oma tööks."
+      },
+      {
+        "start_seconds": 1884.0,
+        "end_seconds": 1891.24,
+        "text": "Koolipäev näeks siis välja selline, et õpetaja roll on pigem dialoog coaching,"
+      },
+      {
+        "start_seconds": 1891.24,
+        "end_seconds": 1898.6,
+        "text": "väestav ja edasiviiv selline jooksev eneseanalüüsi toetav töövorm,"
+      },
+      {
+        "start_seconds": 1898.6,
+        "end_seconds": 1905.32,
+        "text": "et õpilased saaksid ise oma tööprotsessi hinnata ja, ja selline tänapäevane hindamis"
+      },
+      {
+        "start_seconds": 1905.32,
+        "end_seconds": 1908.24,
+        "text": "vorm oleks täiesti kadunud."
+      },
+      {
+        "start_seconds": 1908.24,
+        "end_seconds": 1914.88,
+        "text": "Siis lõunapausi ajal ei räägita ainult tööst, vaid lõunapaus võetakse õpetajatel siis"
+      },
+      {
+        "start_seconds": 1914.88,
+        "end_seconds": 1918.08,
+        "text": "päriselt tööst välja lülitamiseks."
+      },
+      {
+        "start_seconds": 1918.08,
+        "end_seconds": 1924.52,
+        "text": "Päriselt puhkuse jaoks ja saab siis koolis valida erinevate tubade vahel, et kes taha"
+      },
+      {
+        "start_seconds": 1924.52,
+        "end_seconds": 1929.68,
+        "text": "b täiesti vaikust, on siis võib-olla kas siis värvidega eraldatud, et et selline sen"
+      },
+      {
+        "start_seconds": 1929.68,
+        "end_seconds": 1935.76,
+        "text": "ruum, vaikuseruum või siis."
+      },
+      {
+        "start_seconds": 1935.76,
+        "end_seconds": 1943.28,
+        "text": "Või siis, kes tahavad suhelda, on nendel siis omaette ruum olemas."
+      },
+      {
+        "start_seconds": 1943.28,
+        "end_seconds": 1948.56,
+        "text": "Ja ise abi saada jah, et on võimalused ka siis selleks teatud ruumi loomisel."
+      },
+      {
+        "start_seconds": 1948.56,
+        "end_seconds": 1952.0,
+        "text": "Nii."
+      },
+      {
+        "start_seconds": 1952.0,
+        "end_seconds": 1958.28,
+        "text": "Väga oluline aspekt selles on see, et kontakttunde oleks vähem, oleneb nüüd koolist,"
+      },
+      {
+        "start_seconds": 1958.28,
+        "end_seconds": 1963.4,
+        "text": "oleneb klassi suurustest viisteist kuni kaheksateist kontakttundi nädalas, et saaks üle"
+      },
+      {
+        "start_seconds": 1963.4,
+        "end_seconds": 1968.0,
+        "text": "jäänud ajast teha ka teiste õpetajatega koostööd, et see koostöö kvaliteet ja tundide"
+      },
+      {
+        "start_seconds": 1968.0,
+        "end_seconds": 1972.92,
+        "text": "planeerimine, mis oli muidu siia hommikusse võib-olla mõeldud, et tundide planeerimine"
+      },
+      {
+        "start_seconds": 1972.92,
+        "end_seconds": 1978.16,
+        "text": "ja koostöö kohtade leidmine oleks siis tööpäeva sees, mitte kiirelt kümneminutiliste"
+      },
+      {
+        "start_seconds": 1978.16,
+        "end_seconds": 1981.28,
+        "text": "vahetundide jooksul."
+      },
+      {
+        "start_seconds": 1981.28,
+        "end_seconds": 1988.6,
+        "text": "Üks oluline osa on siis juhtkonna usaldus ja toetus, et juhtkonnad annaksid õpetajale"
+      },
+      {
+        "start_seconds": 1988.6,
+        "end_seconds": 1995.12,
+        "text": "autonoomsuse ja usalduse, et õpetajad saavad ise selle koostöö ajal leitud."
+      },
+      {
+        "start_seconds": 1995.12,
+        "end_seconds": 2003.24,
+        "text": "Koostööd tehtud, et ei oleks neid rangeid reguleerimiskohti, et õpetaja"
+      },
+      {
+        "start_seconds": 2003.24,
+        "end_seconds": 2007.4,
+        "text": "te vastu usaldus oleks olulisel kohal."
+      },
+      {
+        "start_seconds": 2007.4,
+        "end_seconds": 2014.72,
+        "text": "Nüüd need ja kuidas siis toetab süsteem õpetajat, et on erinevad toad"
+      },
+      {
+        "start_seconds": 2014.72,
+        "end_seconds": 2022.0,
+        "text": ", on mentorlus, on regulaarsed kovisioonid, on õpetajatele siis kergesti kätte"
+      },
+      {
+        "start_seconds": 2022.0,
+        "end_seconds": 2027.56,
+        "text": "saadav psühholoogiline tugi, vähem kontakttundes, mida ma juba mainisin."
+      },
+      {
+        "start_seconds": 2027.56,
+        "end_seconds": 2032.28,
+        "text": "Ja."
+      },
+      {
+        "start_seconds": 2032.28,
+        "end_seconds": 2033.4,
+        "text": "Vahendid on olemas."
+      },
+      {
+        "start_seconds": 2033.4,
+        "end_seconds": 2040.08,
+        "text": "Kõik vahendid on olemas ja kui me praegu teeme meeletult oma vahendeid loomevahendeid"
+      },
+      {
+        "start_seconds": 2040.08,
+        "end_seconds": 2046.24,
+        "text": ", loome õppevahendeid, muretseme siis füüsilisi vahendeid, eriti veel sellele eestike"
+      },
+      {
+        "start_seconds": 2046.24,
+        "end_seconds": 2048.4,
+        "text": "elsele haridusele üleminekul."
+      },
+      {
+        "start_seconds": 2048.4,
+        "end_seconds": 2054.0,
+        "text": "Meil on õppekava, me peame sellest õppekavast midagi tegema, mingeid vahendeid ei ole"
+      },
+      {
+        "start_seconds": 2054.0,
+        "end_seconds": 2055.32,
+        "text": ", ei."
+      },
+      {
+        "start_seconds": 2055.32,
+        "end_seconds": 2061.52,
+        "text": "Ühesõnaga, et kes on võib-olla selle keeleõppega rohkem kokku puutunud, teavad, et see"
+      },
+      {
+        "start_seconds": 2061.52,
+        "end_seconds": 2067.4,
+        "text": "aasta valmistatakse ette päris palju siis erinevate ülikoolidega koostöös õppevahende"
+      },
+      {
+        "start_seconds": 2067.4,
+        "end_seconds": 2072.08,
+        "text": "id, aga, aga kümne aasta pärast on meil kõik asjad olemas nii õppevahendid, mida peab"
+      },
+      {
+        "start_seconds": 2072.08,
+        "end_seconds": 2077.84,
+        "text": "õppekava täitmiseks tegema kui ka materjalid kui ka LKK õppematerjalid."
+      },
+      {
+        "start_seconds": 2077.84,
+        "end_seconds": 2083.24,
+        "text": "Nii ja et kuidas siis õpetaja saab omale oma töö jaoks tagasisidet."
+      },
+      {
+        "start_seconds": 2083.24,
+        "end_seconds": 2090.04,
+        "text": "Et ta saab regulaarselt õpilastelt tagasisidet ja õpipartnerite oma õpipartnerite ka"
+      },
+      {
+        "start_seconds": 2090.04,
+        "end_seconds": 2093.68,
+        "text": "udu."
+      },
+      {
+        "start_seconds": 2093.68,
+        "end_seconds": 2100.32,
+        "text": "Laura on kümne aasta pärast, ei ole enam vahendite otsija ja looja ja ise katsetaja,"
+      },
+      {
+        "start_seconds": 2100.32,
+        "end_seconds": 2103.28,
+        "text": "vaid ta on leidnud endale sellise stabiilsuse."
+      },
+      {
+        "start_seconds": 2103.28,
+        "end_seconds": 2110.2,
+        "text": "Fookus on sisulisel tööl ja ei ole enam, võib-olla saab rohkem leida ka aega siis teist"
+      },
+      {
+        "start_seconds": 2110.2,
+        "end_seconds": 2116.32,
+        "text": "e toetamiseks uute õpetajate toetamiseks ja rohkem keskenduda õpilastele, mitte mater"
+      },
+      {
+        "start_seconds": 2116.32,
+        "end_seconds": 2118.96,
+        "text": "jalide otsimisele."
+      },
+      {
+        "start_seconds": 2118.96,
+        "end_seconds": 2123.28,
+        "text": "Aitäh, te olete sellise visiooni stsenaariumi teinud, kas selles maailmas oli midagi"
+      },
+      {
+        "start_seconds": 2123.28,
+        "end_seconds": 2125.84,
+        "text": "negatiivset ka tema elus?"
+      },
+      {
+        "start_seconds": 2125.84,
+        "end_seconds": 2133.24,
+        "text": "Ja et on ikka ohud, ohud on ka, et selline kümne aasta pärast võivad olla ikkagi sü"
+      },
+      {
+        "start_seconds": 2133.24,
+        "end_seconds": 2138.36,
+        "text": "veneda sotsiaalne kihistumine ehk siis, et see haridus ei ole kõigile ühtemoodi kätte"
+      },
+      {
+        "start_seconds": 2138.36,
+        "end_seconds": 2144.04,
+        "text": "saadav, sealt ka siis võib-olla kõrghariduse mitte kättesaadavus, sealt omakorda siis"
+      },
+      {
+        "start_seconds": 2144.04,
+        "end_seconds": 2149.88,
+        "text": "võivad siis need täiskasvanud inimesed rohkem sotsiaalabi vajada, standardite hägustu"
+      },
+      {
+        "start_seconds": 2149.88,
+        "end_seconds": 2154.8,
+        "text": "mine, et kuidas me ikkagi siis ühest koolist teise liigume, mitte siis ainult võib-olla"
+      },
+      {
+        "start_seconds": 2154.8,
+        "end_seconds": 2159.92,
+        "text": "gümnaasium, ülikool, vaid ka juba seal vahepealsetel astmetel ühest koolist teise lii"
+      },
+      {
+        "start_seconds": 2159.92,
+        "end_seconds": 2165.6,
+        "text": "kumine, õpetajate professionaalsuse puudumine, et kui meil tänapäeval on õpetajaid puudu"
+      },
+      {
+        "start_seconds": 2165.6,
+        "end_seconds": 2172.2,
+        "text": ", siis see visioon nõuab ka rohkem professionaalseid õpetajaid."
+      },
+      {
+        "start_seconds": 2172.2,
+        "end_seconds": 2176.2,
+        "text": "Väga hästi, aitäh, et me saame täiendada neid stsenaariumeid selle põhjal, aga ma lähe"
+      },
+      {
+        "start_seconds": 2176.2,
+        "end_seconds": 2178.68,
+        "text": "n nüüd tiimi number kolm juurde."
+      },
+      {
+        "start_seconds": 2178.68,
+        "end_seconds": 2185.68,
+        "text": "Ja teie maailmas on siis niimoodi, et suur võidujooks meil on omanäolised koolid, aga"
+      },
+      {
+        "start_seconds": 2185.68,
+        "end_seconds": 2191.8,
+        "text": "suhteliselt sama rada igal õpilasel, väga akadeemilisele saavutusele orienteeritud ma"
+      },
+      {
+        "start_seconds": 2191.8,
+        "end_seconds": 2192.64,
+        "text": "ailm."
+      },
+      {
+        "start_seconds": 2192.64,
+        "end_seconds": 2196.64,
+        "text": "Võiks öelda, et natuke nagu see rada, kus me praegu oleme."
+      },
+      {
+        "start_seconds": 2196.64,
+        "end_seconds": 2201.28,
+        "text": "Loodetavasti võib-olla ma ei tea, mis te sellest arendasite, ühesõnaga ma küsin teilt"
+      },
+      {
+        "start_seconds": 2201.28,
+        "end_seconds": 2206.6,
+        "text": ", et kuidas te seda stsenaariumit siis täiendasite, mis te sellest arvasite ja, ja kuidas"
+      },
+      {
+        "start_seconds": 2206.6,
+        "end_seconds": 2211.0,
+        "text": "siis Laura päev selles maailmas välja näeb?"
+      },
+      {
+        "start_seconds": 2211.0,
+        "end_seconds": 2217.88,
+        "text": "Ja me jõudsime järeldusele, et see tulevik on käes, see on praegu ja ütleme, negatiivse"
+      },
+      {
+        "start_seconds": 2217.88,
+        "end_seconds": 2222.84,
+        "text": "s mõttes või noh, natuke positiivsed ka, et Laura põleb läbi ja läheb koolist ära või"
+      },
+      {
+        "start_seconds": 2222.84,
+        "end_seconds": 2227.28,
+        "text": "vähemalt võib-olla see Põltsamaa koolist leiab endale mõne innovaatilisema kooli noh"
+      },
+      {
+        "start_seconds": 2227.28,
+        "end_seconds": 2231.68,
+        "text": ", võib-olla Põltsamaa on innovaatiline või siis hoopis temast saab eestvedaja koolis"
+      },
+      {
+        "start_seconds": 2231.68,
+        "end_seconds": 2238.08,
+        "text": "ja hakkab neid muutusi seal siis juhtima, aga Laura päev näeb välja siis umbes selline"
+      },
+      {
+        "start_seconds": 2238.08,
+        "end_seconds": 2245.0,
+        "text": ", et ta kindlasti kasutab tehisintellekti, materjalide loomisel, panebki õpilasi kasuta"
+      },
+      {
+        "start_seconds": 2245.0,
+        "end_seconds": 2250.68,
+        "text": "ma, tal on väga-väga põhjalik plaan, et eesmärkideni jõuda."
+      },
+      {
+        "start_seconds": 2250.68,
+        "end_seconds": 2254.68,
+        "text": "Kuid ta siiski sealjuures proovib olla ka selles mõttes innovaatiline, et mitte lange"
+      },
+      {
+        "start_seconds": 2254.68,
+        "end_seconds": 2261.64,
+        "text": "da niivõrd sinna traditsioonilisse õpetamisesse, aga sellegipoolest on teadmiste kure"
+      },
+      {
+        "start_seconds": 2261.64,
+        "end_seconds": 2266.6,
+        "text": "erija, kuid ta kasutab erinevaid metoodikaid, praktikumõppekäike, kuid need kõik lõpe"
+      },
+      {
+        "start_seconds": 2266.6,
+        "end_seconds": 2271.4,
+        "text": "vad ikkagi kontrolliga, teadmiste siis kontrolliga."
+      },
+      {
+        "start_seconds": 2271.4,
+        "end_seconds": 2279.04,
+        "text": "Ja ta annab põhjaliku tagasisidet, kasutab tehisintellekti tagasiside andmisel ning"
+      },
+      {
+        "start_seconds": 2279.04,
+        "end_seconds": 2284.72,
+        "text": "õpetajate toas selleks, et selle suure pinge juures õpetajad jääksid kooli, on meil nõu"
+      },
+      {
+        "start_seconds": 2284.72,
+        "end_seconds": 2290.64,
+        "text": "stajad, kes käivad nõustamas neid, suhtlevad, kuid see tavapärane õpetajate toa jutt"
+      },
+      {
+        "start_seconds": 2290.64,
+        "end_seconds": 2291.32,
+        "text": "jääb."
+      },
+      {
+        "start_seconds": 2291.32,
+        "end_seconds": 2299.16,
+        "text": "Lisaks on tehnoloogiline tugi õpetajate toas ning päev lõpeb siis sellega, et La"
+      },
+      {
+        "start_seconds": 2299.16,
+        "end_seconds": 2304.16,
+        "text": "ura saab väga-väga palju tagasisidet klassiruumides on kaamerad, ehk siis ta saab ise"
+      },
+      {
+        "start_seconds": 2304.16,
+        "end_seconds": 2309.36,
+        "text": "kogu aeg analüüsida, kes magas, kes ei õppinud."
+      },
+      {
+        "start_seconds": 2309.36,
+        "end_seconds": 2314.2,
+        "text": "Saab analüüsida või tehisintellekt intellekti abil siis kuidas õpilased selles tunni"
+      },
+      {
+        "start_seconds": 2314.2,
+        "end_seconds": 2320.96,
+        "text": "s neid teadmisi omandasid, kas nad omandasid koolides töötavad andmeanalüütikud, kes"
+      },
+      {
+        "start_seconds": 2320.96,
+        "end_seconds": 2327.04,
+        "text": "koguvad iga päevi ka tund neid andmeid, analüüsivad, annavad tagasisidet."
+      },
+      {
+        "start_seconds": 2327.04,
+        "end_seconds": 2333.84,
+        "text": "See kõik viib selleni, et see vähem naudingud õpetajal, see entusiasm, sära ei ole enam"
+      },
+      {
+        "start_seconds": 2333.84,
+        "end_seconds": 2340.8,
+        "text": "silmis ning Laura mugavustsoonis, ta teeb nii, nagu asjad töötavad, see julgus võib-"
+      },
+      {
+        "start_seconds": 2340.8,
+        "end_seconds": 2345.16,
+        "text": "olla katsetada ja proovida on vähenenud, kuid meil on see siiras usk, et natuke ikkagi"
+      },
+      {
+        "start_seconds": 2345.16,
+        "end_seconds": 2346.72,
+        "text": "seda, seda on."
+      },
+      {
+        "start_seconds": 2346.72,
+        "end_seconds": 2353.68,
+        "text": "Vot ja jah, muutusi süsteemis ei ole, see viib kõik selle naudingu kadumiseni, kas te"
+      },
+      {
+        "start_seconds": 2353.68,
+        "end_seconds": 2357.56,
+        "text": "tahate täiendada?"
+      },
+      {
+        "start_seconds": 2357.56,
+        "end_seconds": 2359.28,
+        "text": "Aitäh."
+      },
+      {
+        "start_seconds": 2359.28,
+        "end_seconds": 2363.96,
+        "text": "Aitäh, natuke hirmuäratav olukord, me oleme kahest õpetajast juba ilma jäänud, üks läks"
+      },
+      {
+        "start_seconds": 2363.96,
+        "end_seconds": 2367.36,
+        "text": "erasektorisse ja teine põdes läbi, põles läbi."
+      },
+      {
+        "start_seconds": 2367.36,
+        "end_seconds": 2372.88,
+        "text": "Kuidas meil neljandas maailmas on, teil on siis stsenaarium nimega üks tee kõigile, kus"
+      },
+      {
+        "start_seconds": 2372.88,
+        "end_seconds": 2375.68,
+        "text": "on siis riigi roll suurenenud?"
+      },
+      {
+        "start_seconds": 2375.68,
+        "end_seconds": 2379.84,
+        "text": "Aga siis ka õppekorraldus pigem traditsiooniline või kuidas muutsite seda stsenaarium"
+      },
+      {
+        "start_seconds": 2379.84,
+        "end_seconds": 2382.84,
+        "text": "it ja kuidas siis Laura elu välja näeb?"
+      },
+      {
+        "start_seconds": 2382.84,
+        "end_seconds": 2387.48,
+        "text": "Mul on selline tunne, et me jääme ka kolmandast õpetajast kohe-kohe ilma, et kas me ikka"
+      },
+      {
+        "start_seconds": 2387.48,
+        "end_seconds": 2393.08,
+        "text": "räägime sellest, aga kui kokkuvõtlikult võtta, siis Laura elu on lill."
+      },
+      {
+        "start_seconds": 2393.08,
+        "end_seconds": 2399.84,
+        "text": "See tähendabki seda, kunas on tsentraliseeritud, kõik on riigi poolt ette antud, seal"
+      },
+      {
+        "start_seconds": 2399.84,
+        "end_seconds": 2405.16,
+        "text": "hulgas kontrolltööd, kunas me räägime siin ka sellest olukorrast, kus on väga palju mi"
+      },
+      {
+        "start_seconds": 2405.16,
+        "end_seconds": 2412.32,
+        "text": "ndud üle distantsõppe vormile ehk see tähendabki, seda on e-õppe võimalus, e-õppe siis"
+      },
+      {
+        "start_seconds": 2412.32,
+        "end_seconds": 2417.04,
+        "text": "kõik on ette valmistatud ka riigi poolt, see tähendabki seda, et see Laura, kes seal"
+      },
+      {
+        "start_seconds": 2417.04,
+        "end_seconds": 2422.16,
+        "text": "koolis on, ei pea ise enam mõtlema, et alt on ära võetud see algselt kooli minev loo"
+      },
+      {
+        "start_seconds": 2422.16,
+        "end_seconds": 2426.28,
+        "text": "vus, mida ta tegelikult väga nagu soovis."
+      },
+      {
+        "start_seconds": 2426.28,
+        "end_seconds": 2432.08,
+        "text": "Ja kuna seda elu küll on lill selle poole pealt, et tal jääb aega rohkem enda isiklikku"
+      },
+      {
+        "start_seconds": 2432.08,
+        "end_seconds": 2439.24,
+        "text": "elutarbeks, on ta vaimne tervis aga väga kriitilises joones juba sellepärast, et te"
+      },
+      {
+        "start_seconds": 2439.24,
+        "end_seconds": 2444.2,
+        "text": "da kogu aeg on kontrollitakse, teda pidevalt möödetakse."
+      },
+      {
+        "start_seconds": 2444.2,
+        "end_seconds": 2448.6,
+        "text": "Lisaks sellele, kui meil vaadatakse praegu koolisüsteemis rohkem PISA tulemusi, siis"
+      },
+      {
+        "start_seconds": 2448.6,
+        "end_seconds": 2452.8,
+        "text": "seal vaadatakse ka juba neid väikseid kontrolltöösid, et kui hästi üle terve riigiliselt"
+      },
+      {
+        "start_seconds": 2452.8,
+        "end_seconds": 2461.44,
+        "text": "teatakse, kuidas siis turvas on siis teatud piirkondades õppetasemelt siis saavutatud"
+      },
+      {
+        "start_seconds": 2461.44,
+        "end_seconds": 2462.16,
+        "text": "."
+      },
+      {
+        "start_seconds": 2462.16,
+        "end_seconds": 2467.88,
+        "text": "Hommik Laura algabki samamoodi võib-olla selline kohvi joomisega, võib-olla ka medite"
+      },
+      {
+        "start_seconds": 2467.88,
+        "end_seconds": 2472.12,
+        "text": "erib, et oma vaimset tervist hoida selles kriitilises piiris, et seda mitte mingi hinna"
+      },
+      {
+        "start_seconds": 2472.12,
+        "end_seconds": 2474.48,
+        "text": "eest veelgi hullemaks teha."
+      },
+      {
+        "start_seconds": 2474.48,
+        "end_seconds": 2480.88,
+        "text": "Ja ja tal, ta lähebki kooli, ta võtab lahti täpselt selle süsteemi, mis tal on ette an"
+      },
+      {
+        "start_seconds": 2480.88,
+        "end_seconds": 2485.6,
+        "text": "tud kuskil ja selle tunniga ta ka pihta alustab, sellepärast et tuletan meelde, et üle"
+      },
+      {
+        "start_seconds": 2485.6,
+        "end_seconds": 2490.04,
+        "text": "terve Eesti on see lihtsalt ette antud, sest et haridus Eestis peab olema selle stse"
+      },
+      {
+        "start_seconds": 2490.04,
+        "end_seconds": 2495.48,
+        "text": "naariumi järgi igal pool ühtne ja ühtselt mõõdetav ehk see tähendabki seda, et turba"
+      },
+      {
+        "start_seconds": 2495.48,
+        "end_seconds": 2502.2,
+        "text": "tulemused peavad olema õppetulemused igal pool sarnased ja kui need on halvad, siis õpetaja"
+      },
+      {
+        "start_seconds": 2502.2,
+        "end_seconds": 2505.64,
+        "text": "saab kahjuks vastu päid ja jalgu."
+      },
+      {
+        "start_seconds": 2505.64,
+        "end_seconds": 2510.88,
+        "text": "Algselt, kui ta kooli läks, siis tema loovus oli väga suur, see on tal jäänud tahapla"
+      },
+      {
+        "start_seconds": 2510.88,
+        "end_seconds": 2511.76,
+        "text": "anile."
+      },
+      {
+        "start_seconds": 2511.76,
+        "end_seconds": 2516.84,
+        "text": "Tal ei ole võimalik õpilastele anda edasi inimlikke oskusi, sellepärast et selles stse"
+      },
+      {
+        "start_seconds": 2516.84,
+        "end_seconds": 2521.72,
+        "text": "naariumis jäävad tahaplaanile kõik nii emotsionaal kui sotsiaalsed oskused, sellepärast"
+      },
+      {
+        "start_seconds": 2521.72,
+        "end_seconds": 2531.28,
+        "text": "et selles süsteemis sa pead justkui lähenema sellise väikse robotina."
+      },
+      {
+        "start_seconds": 2531.28,
+        "end_seconds": 2537.68,
+        "text": "Õpetajate toas räägivad sellest, et küll olid need head vanad ajad kümme aastat tagasi"
+      },
+      {
+        "start_seconds": 2537.68,
+        "end_seconds": 2542.48,
+        "text": ", et kui meil oli olemas autonoomia, me saime teha, mida tahtsime, me saime oma tunni"
+      },
+      {
+        "start_seconds": 2542.48,
+        "end_seconds": 2547.76,
+        "text": "niimoodi ette valmistada, et me saaksime ainult neid õpiväljundit lõpuks saavutatud,"
+      },
+      {
+        "start_seconds": 2547.76,
+        "end_seconds": 2552.08,
+        "text": "ei pea olema ninaõpikus kinni, et nüüd paraku see on ära kadunud."
+      },
+      {
+        "start_seconds": 2552.08,
+        "end_seconds": 2558.28,
+        "text": "Kindlasti selle aja jooksul on rohkem muutunud, kunas kaovad ära siis õppeprotsessis"
+      },
+      {
+        "start_seconds": 2558.28,
+        "end_seconds": 2560.72,
+        "text": "just need sotsiaalemotsionaalsed oskused."
+      },
+      {
+        "start_seconds": 2560.72,
+        "end_seconds": 2565.76,
+        "text": "Siis see tähendabki, seda on kindlasti tõusnud õpilastelt käitumisraskused ja põhirõ"
+      },
+      {
+        "start_seconds": 2565.76,
+        "end_seconds": 2572.44,
+        "text": "hk lähebki siis õpetajate toas nende õpilaste siis probleemide kaardistamiseks, mure"
+      },
+      {
+        "start_seconds": 2572.44,
+        "end_seconds": 2577.52,
+        "text": "kohtade ja nendele siis lahenduste leidmiseks."
+      },
+      {
+        "start_seconds": 2577.52,
+        "end_seconds": 2581.92,
+        "text": "Ja."
+      },
+      {
+        "start_seconds": 2581.92,
+        "end_seconds": 2588.04,
+        "text": "I ai või diiassistendi rollist ja üldse sellest chati rollist ka on nii palju, et tema"
+      },
+      {
+        "start_seconds": 2588.04,
+        "end_seconds": 2593.68,
+        "text": "siis saab seda hindamisele tagasisidestamisel, õppematerjal ta sellega koostama ei pea"
+      },
+      {
+        "start_seconds": 2593.68,
+        "end_seconds": 2601.64,
+        "text": ", sellepärast et see on ka ette antud ja."
+      },
+      {
+        "start_seconds": 2601.64,
+        "end_seconds": 2607.6,
+        "text": "Vaesel Laural on loovus kadunud, mida ma olen korduvalt juba ütlenud ja tal on igav,"
+      },
+      {
+        "start_seconds": 2607.6,
+        "end_seconds": 2614.88,
+        "text": "ta on justkui selline pisikene robot selles süsteemis ja tema töö ei ole enam nii tä"
+      },
+      {
+        "start_seconds": 2614.88,
+        "end_seconds": 2618.24,
+        "text": "hendusrikas, kui see oli algselt siis, kui ta kooli läks."
+      },
+      {
+        "start_seconds": 2618.24,
+        "end_seconds": 2622.28,
+        "text": "Nii nüüd ma olin hästi hüplik ühest kohast teise, kas keegi soovib meie grupist midagi"
+      },
+      {
+        "start_seconds": 2622.28,
+        "end_seconds": 2626.76,
+        "text": "juurde lisada?"
+      },
+      {
+        "start_seconds": 2626.76,
+        "end_seconds": 2630.2,
+        "text": "Ja tegelikult meie esimene kriteerium oli see, et Laura ei tööta koolis, sest ta ei saa"
+      },
+      {
+        "start_seconds": 2630.2,
+        "end_seconds": 2636.92,
+        "text": "oma loovust enam arendada, aga me leidsime väikse sellise infokillu sellest, et äkki"
+      },
+      {
+        "start_seconds": 2636.92,
+        "end_seconds": 2640.72,
+        "text": "ikkagi riigi poolt on ette antud, et võivad korraga ikkagi minna kuskile ettevõtetesse"
+      },
+      {
+        "start_seconds": 2640.72,
+        "end_seconds": 2643.32,
+        "text": "või päriselt sinna rabasse seda turvast nagu jälgima."
+      },
+      {
+        "start_seconds": 2643.32,
+        "end_seconds": 2646.64,
+        "text": "Nii et me lootsime selle peale, et see võib-olla ikkagi hoiab seda Laura, kes seal kooli"
+      },
+      {
+        "start_seconds": 2646.64,
+        "end_seconds": 2649.32,
+        "text": "s veel edasi."
+      },
+      {
+        "start_seconds": 2649.32,
+        "end_seconds": 2653.76,
+        "text": "Suur aitäh nende peegelduste peale ma ei hakka küsima, et milline teie lemmikstsenaa"
+      },
+      {
+        "start_seconds": 2653.76,
+        "end_seconds": 2659.52,
+        "text": "rium oli, aga teeme selle hääletuse, mis te arvate, milline on kõige tõenäolisem ja nüüd"
+      },
+      {
+        "start_seconds": 2659.52,
+        "end_seconds": 2666.12,
+        "text": "kõik, kes, kas siis arutasid kaasa või arutanud, on teretulnud kätt tõstma, kes ja pa"
+      },
+      {
+        "start_seconds": 2666.12,
+        "end_seconds": 2670.08,
+        "text": "lun valige igaüks üks stsenaarium ikkagist välja nendest neljast."
+      },
+      {
+        "start_seconds": 2670.08,
+        "end_seconds": 2676.16,
+        "text": "Kes arvab, et stsenaariumi üks, kus meil on suurem riigi roll, siis hariduse korralda"
+      },
+      {
+        "start_seconds": 2676.16,
+        "end_seconds": 2682.08,
+        "text": "misel ja individuaalne siis õppekorraldus arvab, et see on kõige tõenäolisem stsenaa"
+      },
+      {
+        "start_seconds": 2682.08,
+        "end_seconds": 2684.24,
+        "text": "rium."
+      },
+      {
+        "start_seconds": 2684.24,
+        "end_seconds": 2688.0,
+        "text": "Ühtne siht isiklik teekond."
+      },
+      {
+        "start_seconds": 2688.0,
+        "end_seconds": 2691.4,
+        "text": "Üks, kas, kolm, neli, viis."
+      },
+      {
+        "start_seconds": 2691.4,
+        "end_seconds": 2698.16,
+        "text": "Kuus-seitse, kaheksa, üheksa, kümme, umbes üksteist, kaksteist, kolmteist inimest, nii"
+      },
+      {
+        "start_seconds": 2698.16,
+        "end_seconds": 2701.64,
+        "text": ", keegi võib pea siis järge madle."
+      },
+      {
+        "start_seconds": 2701.64,
+        "end_seconds": 2709.64,
+        "text": "Teine loovuse vabariik, kus me siis näeme, et omanäoline kool on põhiline siis"
+      },
+      {
+        "start_seconds": 2709.64,
+        "end_seconds": 2714.32,
+        "text": "viis, kuidas me haridust korraldame, siis koolide kõrge autonoomia ja ka õpilaste kõrge"
+      },
+      {
+        "start_seconds": 2714.32,
+        "end_seconds": 2718.2,
+        "text": "autonoomia ja noh, siin võtta ikkagist natuke arvesse, et kuigi Laura elu oli seal, tu"
+      },
+      {
+        "start_seconds": 2718.2,
+        "end_seconds": 2723.56,
+        "text": "ndus väga selline hea seal maailmas, siis selles stsenaariumis võib ka tekkida väga tõ"
+      },
+      {
+        "start_seconds": 2723.56,
+        "end_seconds": 2729.08,
+        "text": "siseid väljakutseid ebavõrdsusega, ebavõrdse tasemega koolides ja sellega, et kuidas"
+      },
+      {
+        "start_seconds": 2729.08,
+        "end_seconds": 2730.88,
+        "text": "me siis tulemusi hindame."
+      },
+      {
+        "start_seconds": 2730.88,
+        "end_seconds": 2738.6,
+        "text": "Nii, kes arvab, et loovus ja vabariik on kõige tõenäolisem?"
+      },
+      {
+        "start_seconds": 2738.6,
+        "end_seconds": 2745.88,
+        "text": "Viis, kuus, seitse, kaheksa, üheksa, kümme, üksteist, üksteist, kaksteist."
+      },
+      {
+        "start_seconds": 2745.88,
+        "end_seconds": 2747.4,
+        "text": "Nii, lähme edasi."
+      },
+      {
+        "start_seconds": 2747.4,
+        "end_seconds": 2750.16,
+        "text": "Suur võidujooks."
+      },
+      {
+        "start_seconds": 2750.16,
+        "end_seconds": 2755.68,
+        "text": "Autonoomse kooli selline hariduskorraldus jätkub, koolidele on suur vabadus oma sihti"
+      },
+      {
+        "start_seconds": 2755.68,
+        "end_seconds": 2762.36,
+        "text": "ja spetsialiseerumist valida ja on ka suur konkurents koolide vahel, aga õpetamine on"
+      },
+      {
+        "start_seconds": 2762.36,
+        "end_seconds": 2767.68,
+        "text": "pidev, pigem selline, ütleme nii-öelda traditsiooniline koos rajal."
+      },
+      {
+        "start_seconds": 2767.68,
+        "end_seconds": 2774.08,
+        "text": "Jätkub, kes arvab, et see on kõige tõenäolisem stsenaarium?"
+      },
+      {
+        "start_seconds": 2774.08,
+        "end_seconds": 2779.56,
+        "text": "Kolm, neli, viis, kuus, seitse, kaheksa."
+      },
+      {
+        "start_seconds": 2779.56,
+        "end_seconds": 2784.32,
+        "text": "Nii, siin ei ole koos rajal entusiaste."
+      },
+      {
+        "start_seconds": 2784.32,
+        "end_seconds": 2787.44,
+        "text": "Olgu."
+      },
+      {
+        "start_seconds": 2787.44,
+        "end_seconds": 2794.68,
+        "text": "Kaheksa, olgu, ja üks teie kõigile, kus siis riigi roll ja kesksete standardite"
+      },
+      {
+        "start_seconds": 2794.68,
+        "end_seconds": 2800.0,
+        "text": "roll hariduse korralduses kasvab, aga ka õppekorraldus jääb selliseks pigem traditsiooni"
+      },
+      {
+        "start_seconds": 2800.0,
+        "end_seconds": 2801.96,
+        "text": "liseks ja ühtseks."
+      },
+      {
+        "start_seconds": 2801.96,
+        "end_seconds": 2808.12,
+        "text": "Üks tee kõigile, kes arvab, et see stsenaarium on kõige tõenäolisem."
+      },
+      {
+        "start_seconds": 2808.12,
+        "end_seconds": 2810.96,
+        "text": "Selle poolt ei hääleta mitte keegi."
+      },
+      {
+        "start_seconds": 2810.96,
+        "end_seconds": 2813.32,
+        "text": "Üks."
+      },
+      {
+        "start_seconds": 2813.32,
+        "end_seconds": 2816.76,
+        "text": "Üks hääl, mis meil võitis?"
+      },
+      {
+        "start_seconds": 2816.76,
+        "end_seconds": 2823.24,
+        "text": "Esimene stsenaarium on siis praeguses pakkumises kõige tõenäolisem, tulema kümne aasta"
+      },
+      {
+        "start_seconds": 2823.24,
+        "end_seconds": 2827.4,
+        "text": "pärast siia tagasi ja vaatame, kuhu me jõudsime ja meie omalt poolt jätkame sellega,"
+      },
+      {
+        "start_seconds": 2827.4,
+        "end_seconds": 2828.84,
+        "text": "et neid stsenaariumeid täiendada."
+      },
+      {
+        "start_seconds": 2828.84,
+        "end_seconds": 2833.0,
+        "text": "Noh, mina näen juba kohe seda vajadust, et ikkagist ka see visioon siia välja joonis"
+      },
+      {
+        "start_seconds": 2833.0,
+        "end_seconds": 2833.52,
+        "text": "tada."
+      },
+      {
+        "start_seconds": 2833.52,
+        "end_seconds": 2837.44,
+        "text": "See, et nad on kõik halvad, ei tähenda seda, et nad ei oleks tõenäolised, on ju, et nad"
+      },
+      {
+        "start_seconds": 2837.44,
+        "end_seconds": 2842.52,
+        "text": "annavad meile ka mingid pidepunktid kätte selle osas, et kuhu tähelepanu panna täna."
+      },
+      {
+        "start_seconds": 2842.52,
+        "end_seconds": 2848.04,
+        "text": "Aga igal juhul suur-suur aitäh teile kõikidele, et te sellise tagurpidi arvamusfesti"
+      },
+      {
+        "start_seconds": 2848.04,
+        "end_seconds": 2854.16,
+        "text": "vali sessiooni meiega kaasa tegite ja kui tuleviku teema teid kuidagi kõnetab, siis tu"
+      },
+      {
+        "start_seconds": 2854.16,
+        "end_seconds": 2859.72,
+        "text": "lge meiega rääkima või hoiame siis virtuaalselt ühendust pärast ja aitäh siis ka meid"
+      },
+      {
+        "start_seconds": 2859.72,
+        "end_seconds": 2860.44,
+        "text": "kutsumast."
+      },
+      {
+        "start_seconds": 2860.44,
+        "end_seconds": 2873.495,
+        "text": "Aitäh."
+      }
+    ]
+  }
+}

@@ -1,0 +1,3916 @@
+{
+  "schema_version": 1,
+  "episode": {
+    "id": "2267420993",
+    "rss_guid": "tag:soundcloud,2010:tracks/2267420993",
+    "title": "Mõõdame eurodes, mitte tihumeetrites",
+    "published_at": "2026-02-16T09:53:14Z",
+    "apple_collection_id": 1477431807,
+    "page_url": "https://soundcloud.com/arvamusfestival/moodame-eurodes-mitte-tihumeetrites-4",
+    "audio_url": "https://feeds.soundcloud.com/stream/2267420993-arvamusfestival-moodame-eurodes-mitte-tihumeetrites-4.mp3",
+    "audio_bytes": 148627329,
+    "audio_sha256": "91c890cf17e37d411124b9b90368553b9da208fad69e63f3a0b5e693b2241c85",
+    "duration_seconds": 3715.0
+  },
+  "transcription": {
+    "model": {
+      "name": "large",
+      "repository": "TalTechNLP/streaming-zipformer-large.et-en",
+      "revision": "2812262bd4fd5d4327dc09ca0e6c19e8a32a03d6",
+      "precision": "int8"
+    },
+    "runtime": {
+      "sherpa_onnx": "1.13.7",
+      "decoding_method": "modified_beam_search",
+      "threads": 4
+    },
+    "text": "Ja tere kõik arvukad külalised, kes on saabunud seda debatti kuulama. Et Arvamusfestivali soe ilm on ilmselt järveveeni soojaks keetnud, et inimesed on ujuma läinud või kuhugi, aga pole hullu, pole hullu, me hakkame nüüd arutama metsa teemadel, kuigi noh, siin alal on juba kaks päeva seda tehtud suuresti. Ja praeguse, tänase selle debati siis pealkiri on\"Räägime euros, mitte tihumeetris. Ja selle pealkiri ma pakun nüüd kohe alguses välja ja nüüd, kui ma hiljem seda kontseptsiooni täpsustasin, siis võib-olla pole kõige ideaalsem, ideaalsem pealkiri üldse. Igatahes, minu nimi on Robert Reismann. Konsultatsiooniettevõttest Tuum ja minu taust on puidusektoris puidutööstuses. Ja, ja selle arutelu suur point on siis see, et ma tahaks vastust küsimusele, kas on võimalik leida tasakaal keskkonnakaitse ja puidutööstuse huvide vahel. Et me oleme kümme aastat suuresti seda metsadebatti veeretanud. Mõlemad osapooled on oma kaevikutesse kinni jäänud ja mulle tundub, et me oleme natuke kinni sellesse jäänud. Ja täna neile küsimustele aitavad vastuseid leida kolm külalist. Zuzu Izmailova, riigikogu liige sotsiaaldemokraadid, Andrus Pedai, Eesti ettevõtluskõrgkool Mainor rektor. Ja Fredi Kaasik. Termoori aktsiaselts, Reola tehase juht. Ja kui te nüüd lubate auväärt külalised, siis ma annaks teile kõigile natuke sõna, et ennast tutvustada lähemalt, pikemalt. Oi jah, no mis siin ikka tutvustada, et kõigepealt tervitan kõigi sugulasi, kes siin täna on kogunenud, aitäh, et te tulite. Aga jah, et võib-olla minu see aktiivsesse poliitikasse sissetulek algaski tegelikult vägagi metsateemaga seonduvalt. Et see oli, kui ma nüüd ei eksi, see oli kaks tuhat viisteist, kaks tuhat kuusteist aastal, kui oli. Oli see lendorava teema nagu kuidagi jõudis minuni ja siis sealtkaudu nagu ma võtsin selle, võtsin selle teema endale ja, ja hakkasin vaatama ka, et mis meil nagu metsadega toimub, et siis see, siis ma tulingi poliitikasse ja ma ütlen ausalt, et. Et sellest ajast saati minu arust me oleme suht pidevalt samamoodi rääkinud nendest teemadest. Kahjuks. Et vahepeal tundus, et on, oli nagu mingi progress just nagu poliitilise poole pealt ja nagu ühiskonnas oli ka see valmisolek nagu tundus, et on olemas. Meil on isegi täna kliimaministeerium, kliimaministrit küll enam ei ole, aga ma näen, et nagu need otsused, mis tulevad poliitiliselt tasandilt, on nagu veidi ikkagi nagu teevad minu arust nagu vähikäiku, kuigi samas nagu maailma trendid ikkagi liiguvad minu arust sinna suunas, et me peame oma ressursse kestlikumalt majandama. Ja, ja ma olen täna siin selle ootusega, et meil tekib asjasse puutuvate inimestega selline hea arutelu, et võib-olla, millest ka mina ise saan sellist positiivset energiat juurde, sest ma ütlen, et ausalt, et vahel vahepeal ikka vajuvad need käed üsna rüppe. Andrus. Tere kõigile ja Andrus Põde ja siis Eesti Ettevõtluskõrgkooli Maine rektor ja viimased kaks aastat sellel kohal enne kakskümmend pluss aastat tööstuses tugevalt elektroonika autotööstuses Elkotechis juhtisin Nuki ja müüki kogu Euroopa regioonis, olin väga lähedalt seotud Nokia tegemistega. Olin väga lähedal sellele, kui Nokia kaks tuhat kuus, kaks tuhat seitse pani oma tootmise Eestis kinni selleks, et tarneahel optimeerida viis tootmise Eestis, siis Ungarisse. See oli väga kaasaegne insener tehniliselt kõrgel tasemel tootmine, väga kahju, et, et sellised asjad nii kergelt Eestist on, on ära läinud, et, et mul on jah, selline tugev, tugev tootmisvaade peale seda ma olin PKC grupis, vastutasin siis globaalsed müügi müügi eest Volvo Grupile ja, ja, ja samamoodi olin suurte otsuste lähedal, kui kaks tuhat kuusteist PKC Grupp otsustas panna kinni tehased Haapsalus ja, ja Keilas üle tuhande töökoha läks kaduma samamoodi väga, ma ütleks buyering systems kõrgelt tehnoloogiliselt kõrgel tasemel tootmine pandi jällegi Eestis kinni, et me oleme kaotanud Eestis tugevalt tootmist ja, ja viimase kahekümne aasta jooksul asemel ei ole tulnud, et siin nüüd ettevõtluskõrgkool Mainori juhina ma just näen ka kõrgkoolide rolli selles, et, et parandada juhtimiskvaliteeti meie siis tudengitel, kes, kes meie kooli lõpetavad ja läbi selle tuua siis ja võimaldada kaasaegse tootmise ikkagi elus hoidmist ja, ja juurdetoomist Eestisse, et, et, et tugevalt sihukese tugeva tootmise taustaga ja, ja, ja, ja hoian selle suuna lippu kõrgel. Jah, aitäh, Freddie. Nojah, mina olen selles mõttes, et ma olen metsas sündinud, et kui ma mõtlen nüüd nagu seda oma metsaajalugu tagasi, siis mul esimene meenutus metsast on see, et ma olin nelja aastane tatikas ja oma kaheksa aastase vennaga talvel eksisime metsa ära ja ikka üsna hulga aeg olin metsas. Et kui meid üles leiti ja ütleme, sellest ajast saati on, ütleme, mets on minu jaoks nagu ühelt poolt nagu austus metsa vastu ja teiselt poolt see, et, et metsast, metsast ja metsaga on kogu ülejäänud elu mul seotud olnud, nii et. Ja täna olen ma siis ütleme viisteist aastat puidutööstuses olnud. Ja, ja näinud igasuguseid erinevaid, ütleme siis tasandeid selles mõttes, et ei, ei ole mina läinud kuskile kohe juhtima, vaid tegelikult tal on kõik madalad tasemed läbi teinud selleks, et aru saada. Ja ühelt poolt ütleme siis kohe alguses ülikoolist minnes mul ei öeldudki, et hakka seda tegema, onju, ehk et ma olen, ma olen selle metsatööstuse sees on nüüd terve selle aja ja ei kavatse ära minna, sest et noh, ütleme kuidagi südamekutse on kogu see, see metsa, metsaga toimetamine ja metsast nii-öelda väärtuse väljavõtmine ja kui sina ütlesid Robert enne, et see nagu ebaõnnestunud, võib-olla ebaõnnestunud pealkiri, siis ma ütleks, et väga õnnestunud pealkiri, sest et. Kuidagi on, on nii läinud, et räägitakse nendest mahtudest, aga tegelikult on ju see, et, et mina mõtlen niipidi, et kui see puu on juba maha võetud, siis mis me teeme selleks, et absoluutselt kõik saaks ära kasutatud ja, ja kui me saame sellele, leiame sellele lahenduse, siis, siis võivadki need raiemahud väheneda, aga see on minu jaoks on see nagu natuke nagu leevi teema, et, et, et peaks nagu teistpidi seda asja vaatama. Nii et jah, selline mees, ma olen. Aitäh. Jah, ja siis minu, minu siis eesmärk oligi täna siin arutada võib-olla seda, et mida peab Eesti puidutööstus tegema. Et toota suuremat lisandväärtust, et me saaksime vähema ressursiga toota Eestile ettevõtjatele, riigile, ühiskonnale rohkem raha. Kuidas me sinna jõuame, kas see on üldse võimalik, kas me üldse tahame seda? Ja ma arvan, et Freddi, kuna sa just viimati nüüd rääkisid ka siis äkki, äkki teedki sina ka otsa lahti sellest, et anna väike ülevaade, mis on praegu Eesti puidutööstuses nagu, mis on hästi, halvasti, räägi veid toimeloogikast. No Eesti metsa, metsatööstuses siis, ütleme nagu ma ütlesin, et raiemahtude üle käib hirmus arutelu, aga tegelikult on niimoodi, et kui me võtame nagu puidu kui materjali, siis jämedalt võttes, pool on palk, kakskümmend viis protsenti on paber ja, ja ülejäänud on siis ladvad, kõik muud asjad ehk see, mis puudutab palki, tüve jämedat otsa, sellega ma ütleks, et Eestis ei ole väga halvasti, sest et sellest suudetakse teha tooteid, sellest suudetakse anda, sellele suudetakse anta, anda mõistlik lisandväärtus. Ja, ja, ja selle, selle koha pealt ma ütleks, et Eesti puidutööstus ei ole tegelikult nagu halb, et mõtleme, kui me mõtleme liimkomponendid, talad, asjad, maailmatasemel asjad, mis Eestis tehakse. Kui me nüüd lähme nüüd sammu edasi, mis puudutab paberipuitu ja mis puudutab nagu raidmeid, siis seal on tegelikult ju asjad nagu halvasti. Et meil on Eestis ju tugevad, tugev paberipuidutootja on olemas, kes tegelikult olude tahtel või olude sunnil vahepeal peab oma tehast sulgema, selleks et, et üldse toime tulla, kuigi nad on juba, ma ei tea, aasta, aastaid kolm või neli on puhtalt miinust teinud või nii-öelda tugevaid miinuseid teinud, siis seal on probleem, et tegelikult seda otsa väärindada me täna ei suuda. Ja, ja ma ei näe ka väga, ma ei näe ka väga sellist mingisugust tahet, et seda kuidagi lahendada, et sellest küll räägitakse, et, et peaks ikka olema ja peaks tegema, aga kui me sinnani jõuame, siis tegelikult kukub see kaardimaja kokku. Et kuidagi läheb nagu sellesse, et selleks, et suurt tehast üleval pidada, peaksime veel rohkem raiuma. Ma, ma ei ole seda meelt, ma mõtlen, et see on, et kas kellegi pea sees toimub nagu seesama see euroarvutus on nagu paigast ära, et, et keegi ei ole huvitatud palki purustama selleks, et tast teha mingisugust odava, otsa toodet või ütleme odava asjaga kokku panna. Keegi ei ole huvitatud sellest. See peab olema enda või rahakoti peale tige inimene, metsaomanik või kes iganes. Et, et see, see osa, mis meil täna üle on, ma ütlen, et RMK algatus, et, et sellist nii-öelda lisandväärtust juurde luua, tuua. Tegid oma selle nii-öelda nagu siis noh pakkumise, et kes, kui palju mahtu sellest väheväärtuslikust ostab. Väga mõistlik tegu, see on esimene nii-öelda samm. Aga, aga see kaugel on veel nii-öelda lahendus on ju. Et, et, et see on ainult selle noh väikene alge selleks, et see kuidagi saaks toimuda ja ma ütlengi, et muus mõttes palk on hästi kasutatud. Paber noh natso much, on ju ja raidmed on täiesti selline teema, et ei tohi neid põletada, ei tohi neid, ei, ei tohi neid kuskile keemiatööstusse anda, et see on selline nagu valus teema ja, ja noh ma tean ka, millest see, no ütleme, ma tajun, millest see tuleb, aga ma võib-olla jõuame sinna nagu arutelu käigus praegu kohe ei hakka neid kaarte avama. Aitäh. Andrus, sina kui, sina, kui ütleme tööstust ja tarneahelaid nagu laiemalt tundev inimene, kes on ka sel teemal kirjutanud ja arvanud. Mis, mis on Eesti, Eesti tööstuse, mitte ainult puidutööstus, vaid kogu Eesti tööstuse takistus, et, et ütleme maailmas läbi lüüa. Et, et olla edukas ka kaugetel turgudel, et, et, et müüa, et toota ja müüa kallist keerulist toodet. Kas, kas, kas sa näed selliseid takistusi praegu või, või kuidas sa seda teemat käsitleksid? No ilmselt siin on, siin on probleem jah, et mitmed suured globaalsed tootmisettevõtted on Eestist lahkunud. Või siis ei ole teinud siia investeeringuid. Viimane hea näide on, on eelmisest aastast, kui Ericsson pidi tegema saja kuuekümne miljoni eurose investeeringu Ülemiste linnakusse, et teha uus tehas, avada Eestis, mis oleks olnud tõeliselt võimas saavutus ja, ja, ja seda ootasid nii Ericssoni inimesed, tootmisinimesed üle maailma, et tõesti kaasaegne tehas luuakse linnaruumi, aga see otsus jäeti ära ikkagi, et nad ei teinud seda tehast, et sellest on nagu väga-väga kahju. Ja, ja-ja praegu ega meil ei olegi tööstuses selliseid tugevaid lipulaevu, täna hommikul ma vaatasin just Eesti ekspordistatistikat aastast kaks tuhat kakskümmend kolm, kes on Eesti suurimad eksportijad. Esimesel kohal Eesti Energia. Siis Tallink teisel kohal, PRT kolmandal kohal, neljandal kohal Graanul Invest, kes müüb, mina saan aru, suhteliselt väärindamata puitu Eestist välja väga edukalt. Ja viiendal kohal alles on Ericsson Eesti, kes siis on nii-öelda esindab kõrgtehnoloogilist tööstust, et, et, et me peaks riigi vaates selgelt meelitama suurettevõtteid ikkagi tagasi Eestisse ja, ja, ja läbi selle looma siis uusi töökohti ja, ja andma tööd nendele inseneridele, keda siin, kellest, kellest ka praegu väga palju juttu olnud, et Eesti vajab uus insenere, et, et nad vajavad tõsise väljakutsega töökohti ja need on ikkagi need töökohad peavad olema rahvusvahelised, et need ei ole kohalikud enam. Zuzu, riigikogu liige, keskkonnakomisjoni lii-, liige samuti. Kuidas sa näed seda poliitilise poole pealt, kas Eestis praegu, kas Eestis üldse on poliitilist tahet leida siin ühisosa, sest et praegu läheb see metsateema hästi ruttu vastandumiseks. Täpselt nii nagu ta on kogu aeg olnud, eks ju, ühel pool on looduskaitse, teisel pool on töösturid. Kuidas sa näed, kas, kas kuskil, kas praegu püütakse leida ühisosa? No ma kõigepealt jätkaks siit selle, mida sina rääkisid, et, et miks meil siis ei ole seda kõrgetasemelist tööstust siin, et noh, minu, mina, no aga mida me oleme selleks riigina teinud, et ta meil siin oleks? Et no tegelikult me ei ole midagi teinud ja selles mõttes, et meie seadusandlus on ikkagi praegu selline, mis ikkagi soosib seda pigem saastavat. Kui siis vähem saastavat ja kõrgtehnoloogilist tööstust. Meil on, energia on ikkagi üsnagi kallis, mis on tööstusele väga-väga oluline, ikkagi selline mõõdupuu, mille, mille pealt ta vaatab, kas ta nagu üldse tuleb kuhugi või ei tule. Ja kui vaadata seda poliitilist nagu tausta, siis miks peaks täna üks välisinvestor siia tulema? Riiki, mis on, jagab ühist piiri sõjardiga, kus on kallis energia, kus valitsus on, noh, pigem nagu selline oligarhia poole kaldu. Ja, ja minu arust see ei ole nagu lääne kultuurile kuidagi omane ja, ja see väga ei kutsu, ma ütleks. Ma julgen seda niimoodi öelda. Aga see küsimus, mis on mulle, et kas me otsime seda ühisosa nagu poliitilisel tasandil, mulle tundub, et ka me ei otsi seda poliitilisel tasandil, ma tundsin seda viimati, see oli kaks tuhat kakskümmend kolm aasta riigikogu valimiste eel, kus mulle tundus, et mingi, mingi selline asi on nagu muutumas ühiskonnas. Et see hoiak, et, et oli kuidagi selge, mida inimesed tahavad ja minu arust seda tahet väljendati, väljendasid ka valijad valimistel. Valiti neid liberaalseid erakondi, kellel olid väga tugevad keskkonna ja kliimateemalised sõnumid. Ja täna on nendest erakondadest alles valitsuses kaks tükki ja nad mõlemad on loobunud oma kliimalubadustest. Ja, ja seega on mul väga raske näha, et, et vähemalt poliitilisel tasandil seda konsensust või seda ühisosa keegi otsiks. Ja, ja paraku see on meie reaalsus, et me oleme siin täna teiega olukorras, kus meil on riigikogus ja üldse nagu poliitilises nagu mõttes aktiivne üks erakond, kes on nende, kes on oma valijale ja oma lubaduste eest nagu seismas siiani ja ei ole andnud ära neid teemasid, mis ükskõik, mis ettekäändel eks, et aga, aga me nagu on selline tunne, et me peame jälle nagu hakkama ehitama seda, et mida me justkui nagu ehitasime ja kui me justkui jõudsime kuhugi, et me peame hakkama seda uuesti tegema, et ma näen Silvia on siin ja, ja, ja et me nagu ikka ikka aasta, aasta lähevad, aastad lähevad, aga me ikka räägime sama juttu. See on nagu natuke masendav. Ja mul on ka tegelikult selline tunne, et me täna räägime ja siis me võime seda siin kümne aasta pärast teha siukse reunion'i, kus me räägime. Ma segan sulle korra vahele, et vaata, mida ma näen nagu, milles ma näen muutust, et, et tegelikult ka majandus ja tööstuse inimesed ka nagu saavad aru, milles probleem on. Aga poliitikud ei saa millegipärast, et seal on nagu see mingi klikk neid ettevõtjaid, kes nagu näevad, et on väga tore seal kohtuda peaministriga, teiste ministritega seal selles ette ettevõtlusnõukojas või kuidas nad seda nimetavad on ju ja teha mingeid seal, rääkida mingeid jutte ja, ja neile võib-olla nende ettevõtetel ongi see kasulik. Aga, aga ma näen ka seda praegu, kuidas teised ettevõtjad nagu Eestis, vaatame energeetika valdkonnas või, või mis iganes vaadet, kuulge, mis toimub? Aasta on kaks tuhat kakskümmend viis, me oleme Euroopa Liidu liikmesriik, mis meil siin valitsuses toimub, mis, mis asi see, mis nagu noh mingi vähikäik on nagu sisse lükatud, et sellest on muidugi kahju ja, ja meie majandus loomulikult kaotab sellest. Aitäh. Fredi, sa tegelikult enne juba päris palju käsitlesid seda Eesti puidutööstuse struktuuri, et meil on viiskümmend protsenti on palk, kakskümmend viis oli paber ja ülejäänud oli siis raidmed. Kas, kas see meie praegune, ütleme, see raiemahu suurus või no ütleme, see tase, kus me oleme, kas see, kas see veits on tingitud ka nagu sellest meie puidustruktuurist ehk siis kas see probleem toimib ka tagurpidi? Kuna meil on palju suuri saeveskeid, kellel on vaja tooret, palju suuri pelletitehaseid, mis on juba olemas. Kas see omakorda sunnib meid rohkem tootma võib-olla mõistlik oleks? Noh, ma pigem võib-olla mõtleks nii, et, et need on täna asjad, mis on, mis on nagu lihtsad teha. Ja, ja ütleme graanulit on suhteliselt lihtne toota, on ju, et saematerjali on suhteliselt lihtne lõigata on ju. Ja, ja see muutus noh, kõik ootavad, et keegi teine peab hakkama muutuma, et, et ma, ma pigem ütleks niipidi, et see on, see on hea asi, kui, kui töösturid ise saavad sellest aru, et me tegelikult peame sellest ressursist rohkem välja võtma. A'la kas ta on siis puidukeemia, noh ütleme mina ise samamoodi olen ju puidutööstusest, kus meie nii-öelda nagu juhtpõhimõte on see, et me termotöötleme selle puidu ehk me tegelikult, mis me nüüd läbi termotöötluse teeme, et, et noh, ilmselt kõik ei, ei tea, mida termotöötlus tähendab, see on, on sisuliselt ju puidu kuumutamine. Ainult temperatuur, ainult niiskus ja, ja see puidu sees puidustruktuuris on struktuursed muutused, suhkur puidu sees, pruunistub, see suhkur ei ole enam söödav bakteritele ja, ja mikroorganismidele ja läbi selle see puit kestab, no me julgeme väita, poolteist korda kauem. Ehk et see on üks võimalik viis, kuidas sisuliselt hakkad nüüd jadast tagasi tulema, siis, siis kui, kui puit kestab poolteist korda kauem, siis seda peab saagima poolteist korda vähem. Seda peab metsast langetama poolteist korda vähem ja, ja selle vastu, selle langetamise vastu ka võitlema poolteist korda vähem. Ehk tegelikult nagu jadast tagasi minna, täiesti loogiline asi, mida teha ja mul on hea meel, et ma olen ise sellises ettevõttes, kes tegelikult on ära tajunud selle, et see on üks võimalik viis. Maht ei ole, ei ole võimalik viisat. Et teeme nii palju kui jõuame, et teeme nii kvaliteetset, kvaliteetset, teeme nii kallist toodet kui võimalik on ja see on see pääsetee. Et, et jah, see on, see on see, mis ma, ma, kas ma ei tea, kas ma küsimusele vastasin, aga ma kuidagi nagu jõudsin selle jutuga. Me, me oleme siin niikuinii täna selle, selle lava viimane arutelu, et me ei pea ülijäigad olema küsimustega. Zuzu, sa tahtsid midagi öelda? Ja vot see mahu ja siis selle väärindamise nagu see, et kuidas siis säästa loodust või seda puitu on ju ja säästlikumalt kasutada. Et minu arust siin on nagu selles mõttes, et ma olen sinuga täiesti nõus, et, et noh, nii, nii sa säästadki neid ressursse, aga mis annab selle hoova selleks? Mulle tundub, on ikkagi see poliitiline otsus, see kokkulepe. Kui palju me saame raiuda ja, ja siis see võib-olla avakski need kanalid nende ettevõtete peades. Et oota, me saame nii palju, aga äkki me siis peaksime kuidagi teistmoodi selle puiduga nagu ümber käima. Sest mulle tundub, et teistmoodi ei tule seda noh nii kaua, kuni see puit lihtsalt saab otsa. Ma nagu ma ei näe seda varianti vaata. Et, et tahaks ju loota, et see, see toimub kuidagi teistmoodi, aga, aga noh, ühelt poolt ma olen nagu nõus, et, et kui meil on ressurssi vähem, siis, siis paneb ärimees pea tööle, on ju, et, et kuidas, kuidas sellest nagu rohkem kätte saada. Aga noh, tahaks, et see oleks nii, et, et, et kõik on, kõik on hästi, hästi nii-öelda säästlikud ja, aga noh, samas on nii, et noh, nende säästmise juttudega on, on ka nagu üks selline, selline paradoks on, et need, kes palju võib-olla säästmisest räägivad, need tegelikult need duši all vesi jookseb kogu aeg, on ju, et see on selline nagu ma ei taha öelda, et see on, et, et kõik on absoluutselt sellised, aga, aga kui me tahaksime, et, et see asi toimib, siis jah, justkui reguleerida, et kui palju tohib, kui palju ei tohi. Ja me ei ole ilmselt ühiskonnaga, ühiskonnana valmis elama sellise nii-öelda na'la kümne käsu järgi, et kasutan nii palju kui sul vaja on, on ju. Et, et kui me saaksime niimoodi teha, siis oleks jube tore, aga täna vist veel ilmselt mitte ja võib-olla sada aastat veel mitte, on ju. Ja seda siin nagu seda mõtet mõeldes mul oli ka kogu aeg see, see asi kuklas, et. Me võime siin ju oletame, et me võtame kasutusele mingid meetmed, et lisandväärtust, kõrge lisandväärtusega puidutööstust nagu ergutada, siis tegelikult lõpuks on, me tegutseme ikkagi vabas turumajanduses ja metsaomanikud saavad suuresti teha oma metsaga, mis nad soovivad. Ja, ja raha paneb rattad käima. Andrus, sa, sa rääkisid juba sellest, et üks põhjus, miks meile lisandväärtus ei tõuse Eestis, on see, et, et välismaised suurettevõtjad siia miski ei meelita. Ja kas on veel midagi, kas sul, kas sa tunned veel midagi, kas me, kus me jääme vajaka võrreldes välismaiste konkurentidega? No kõrgkooli rektorina mul on, mul on siin kahe aastaga nüüd kujunenud selge arusaam, et, et meil on probleeme just nimelt selle tarkuse sissetoomisega ka. Et, et riigi poolt on tehtud väga palju piiranguid välistudengite riiki tulekul. Targad välistudengid, kes tuleks, tuleks siia õppima ja panustaks tegelikult kohalikku majandusse väga tugevalt. Seda on kõik, kõik kogu statistika näidanud kenasti. Et, et välistudengite osakaal Eesti tudengite siis üldarvus on, on selgelt langenud. Covidi järgselt ta langes siis üle Euroopa igal pool, ta on taastunud, enamus Euroopa riikides, Eestis kusjuures ei ole, me oleme jätkuvalt, jätkuvalt põhjas ja teeme väga raskeks headel välistudengitel Eestisse õppima tuleku. Et, et, et see on ka meie ettevõtlusele probleem, et, et tõesti koolid ei suuda anda neid samu häid insenere ja, ja häid tugevaid ärijuhte, kellel oleks ka mingisugune globaalne vaade juba olemas ja globaalset kontaktid, et, et arendada siis sellist noh, ettevõtte edukuse kriteerium minu jaoks on just tema ekspordivõimekus. Nii et, et arendada seda ekspordivõimekust, et Eesti kohalik turg, see ei ole päris turg ikkagi, et, et ta on nii väike, et seda on nagu nimetatud ka Eestit kui, kui asukohta, et, et me ei saa siin võtta nagu turgu. Küll aga me saame siin globaalsele turule teha tarku asju ja selleks meil on vaja tarku inimesi ja, ja me peame siin ka riigina vaatama, et tõesti meil on võimalused seda tarkust võimalikult palju toota. Fredi, sina küpsetad puitu kaugetele eksootilistele turgudele. Kuidas, kuidas sa tunned seal, et Eesti, Eesti või Eesti ettevõtete kuvand seal on, kas, kas, kas meil on mingeid nagu põhimõttelisi probleeme seal kaugel tegutsemiseks? No, kuna mina olen sellisest tehasest, kus on noh, minu tehases on kuskil sada seitsekümmend inimest. Ja, ja me teemegi nagu peamiselt saunamaterjale, mis tähendab siis seda, et, et saunaturu mõistes teispool maakera, saun on, on inimeste jaoks mingisugune noh asi, et, et noh, kas see on siis nagu väga rikaste inimeste mure on ju, et noh, kui sa kellelegi ütled, ma ei tea, kasvõi Inglismaal ütled, et kuule, et mul nagu saun mul kaks või kolm tükki, onju. Vaadatakse sind sellise pilguga, et sa oled ilmselt oligarh või mingisugune noh, seda tüüpi vend onju. Aga tegelikult täiesti normaalne, igalühel on, on selline kopsikusaun ja kõik asjad olemas, on ju. Ehk et, et kui sa ütled nagu kuvandi mõistes, siis, siis pigem nii-öelda Eesti, Soome, meid võetakse kui väga tõsiseltvõetavaid eksperte selles, selles osas. Me teame, mis saun on. Me teame, mis materjalist seda tehakse ja mul on alati nagu üks selline nii-öelda nagu nali ka nii-öelda välisturgudele, Uruguay klient näiteks käis meil noh, et, et ma küsiks niimoodi, et mis asja on selle Uruguail seal saunaga, on ju, aga tegelikult klient käis ja siis küsis igast erinevaid küsimusi, et mis siis, ma ei tea puidul juhtub ja mis on ja ütlesin mõrad tulevad sisse. Siis ta oli nagu niimoodi, no mõrad tulevad sisse, ma ütlesin, et aga mis alternatiiv on, on ju, et, et sa võid omale noh, täitsa tõsise näoga rääkisin, et sa võid omale raudlavaga teha, ühtegi mõra ei tulnud sisse. Ütlesin, et aga kuum on istuda. Ja noh, saad aru, et tegelikult ei ole nagu selles, selles nii-öelda puidu, selles sektoris, kus mina olen, seal ei ole puidule alternatiivi. Ja, ja ta ei ole ka kuidagi keskkonnasäästlikum kui kuskil teisel pool maakera kopad müttavad, on ju. Ja, ja see C on juba ammu üles ära läinud, selleks hetkeks. Nii et noh, selline kuvand Eesti puidutööstuses pigem on ikkagi hea maailmas ja, ja, ja just seesama ekspordi jutt on ju, et, et lõpuks siin siseringis mina annan sulle, sina annad mulle raha ja, ja lõpuks, mida siis sellest nii-öelda nagu riik rikkamaks saab? Ehk et kui me eksporti ei suuda kasvatada, siis väljast raha sisse ei tule ja, ja me võime siin keerutada sedasama supikest niikaua kui me tahame ja mõtleme, et jube hästi on, tõstame üksteisele makse ja raiskame aega on ju, et, et noh, selles mõttes päriselt ma, mina ei näe täna nagu tahet, räägitakse sellest, et, et tööstus peaks, peaks turgutama. Ma ei, ma ei näe seda tahet, sest et see on lihtsalt sõnakõlks on ju ja siis nii-öelda nagu selle varjus pisendatakse seda, et, et ma ei tea puidukeemiatehas läheb Lätti, mis seal ikka on ju noh, et tegelikult te peate ju aru saama, et, et see on, see on päris suur kaotus, et ma saan aru, et, et ühelt poolt on, on Kirjaneni nimi on kõigil nii-öelda hammaste vahel, aga kui ta päriselt tahab mingit asja teha, siis, siis kui riik võtab seisukoha, et see on nagu väike kaotus, et me loodame, et äkki hakatakse seal hoopis seda Pärnu küljel puskarit tegema, mis lendas ka vastu taevast on ju ehk noh. Ma ei, ma ei saa sellest aru ja, ja, ja see, see on täna nagu tõsine mure, et ekspordi vaates on ainult selline soe õhk. Zuzu, me hakkame nüüd lõpule jõudma selle esimese osaga, kus me võib-olla hetkeolukorda kokku võtame, kaardistame. Kas midagi jäi rääkimata, kas midagi, kas meil on mingi pimenurk, poliitiline või mittepoliitiline, millest me praegu üldse ei rääkinud? No kindlasti on mingi, mingid asjad, mida me ei rääkinud praegu, aga ma ei tea, kui sa niimoodi küsid, siis me ei praegu küll niimoodi kohe öelda, et nagu selles vaates, et tööstus ja, ja ma ei tea, võib-olla nagu see maksupoliitika on nagu ka teema, aga ma ei tea, kas me tahame sinna täna minna. Ma arvan, et siis me lähme selle aruteluga täitsa ummikusse, las jääb, las jääb maksuekspertide hooleks. Lugupeetud pealtvaatajad ja lugupeetud publik, ma näen siin, ma näen siit, et mõned puidukeemia vennad on siin rahva seas, metsakaitsjad. Kas kellelgi on vahepeal küsimusi tekkinud või kas, kes tahaks mõnda mõtet esitada? Näib, et sugugi mitte. Ma ei tea, liigume edasi järgmise osani, et liigume, liigume lahenduste, lahenduste poole, et. Andrus, kuidas sa, kuidas sa tunned, milliseid muudatusi me peaksime tegema Eesti majanduses, hariduses, mis iganes. Et, et seda probleemi lahendada, et me saaksime rohkem lisa-, kõrgema lisandväärtusega ettevõtteid siia, võib-olla tööstusettevõtjaid just? Jah, see on, on keeruline kompleksne küsimus, et kui siin hea lahendus oleks, siis ta kindlasti töötaks juba, et siin tõenäoliselt ikkagi me peaks sinna maksumaailma ka minema vaatama, et, et välisettevõtted tahaks tulla, nad ikkagi vaatavad selle riigi maksukeskkonda, kuhu nad on minemas. Nii et, et siin, siin oleks neil ikkagi hea, hea, lihtne, lihtne opereerida. Positiivne on see, et, et inseneriharidust on, on viimasel ajal tõesti tugevalt propageeritud, selle tähtsus. Tehnikaülikool on siin nagu hästi olnud eestvedaja, ma tooks siia kõrvale just nimelt ka selle juhtimishariduse tähtsuse, et ja, ja seesama võrdlus, et, et ükski hea insener ei tee head tööd ilma selle tugeva ärijuhita, kes siis teda nii-öelda aitab õigele suunale ja aitab. Ta on mõtteid ikkagi päriselt majanduslikult kasulikult turule tuua, et, et sageli inseneride lahendused, ma ise tööstusele on näinud, on, on väga head, aga kui sa hakkad sinna rahanumbreid kõrvale panema, siis see tõenäoliselt ei lenda. Et, et, et heas koostöös tugeva ärijuhi ja tugeva inseneri vahel sünnivad, sünnivad head lahendused, et, et, et siin on meil kindlasti, kindlasti potentsiaali. Fredi kuidas, kuidas teil tootearendusega nagu on, et kas, kas see, kuidas ise tunned, et kas tuleb peale piisavalt spetsialiste, kes, kes sulle järjest keerulisemaid asju välja mõtlevad? Ütleks, et ma seda mingisugust suurt puudujääki just enda vaatest ei tunne, sest ütleme, kui me teeme mis iganes profiillauda, siis, siis selles mõttes, et see selle profiillaua joonistamine ei ole iseenesest midagi keerulist. Kui me räägime nüüd seda, et meil on ka, meil on ka väga grupi vaates ka väga high-end valmis saunad, mis on siis nii-öelda üle maailma suurtesse spaadesse. Noh, siis on, seal läheb juba keerukus suuremaks. Esiteks tehnika absoluutselt kõik asjad, mis seal sees on. Täna on sellega ka veel hästi, aga ühelt poolt on nagu, ühelt poolt on see, et see insenerihariduse selline nii-öelda boost'imine. Mulle tundub, et täna endiselt ikkagi oleme hiljaks jäänud, sest et ütleme, kui me täna insenere vaatame, siis mul ei pruugi olla kõige täpsemad andmed, aga, aga minu mäletamist möödas oli kuskil seitsekümmend protsenti, kas on juba elu sellises nii-öelda nagu tööelu viimases otsas ehk et kui me ju uusi peale ei tule, siis, siis hakkab see varsti pooma meid ja see on ainult üks pooja selle asja juures, et, et tööstus saaks areneda sellisena, nagu ta, nagu me ootame, on ju ühiskondlik ootus on. Et aga ma täna nagu ise ei, ei taju seda. Mina pigem mõtlen seda sellisena, et, et mida ma täna teha saan, on see, et need inimesed, kes täna on otsustamise sellises nii-öelda otsustamis lävel noh, kasvõi hea näitena mingisugused avatud tehaste päev, mis Tartumaal esimest korda toimus. Ma olin kohe kahe käega poolt, sest ma ütlesin, et kui me täna ei tegele nende inimestega, kes hakkavad tööturule kuskile minema siis me noh, siis see tegelikult see Youtuber on olla palju lihtsam, on ju, et me peame kuidagi need noored inimesed tõmbama paati, mitte ootama, et äkki äkki nad ise otsustavad ja tegelikult jama on seal veel selles ka, et, et noore inimese eest tihtipeale otsus tahab teha ju vanem ja kui vanem noh, minu jaoks selline huvitav asi, et, et käisid seal klassid, on ju ja, ja kui see viiekümne aastane naisterahvas ütleb, et tema on ka esimest korda tehases, siis kuidas tema saab rääkida, et, et tööstus on midagi nii-öelda nagu huvitavat. Noh, õpetaja lõpuks ei taha ju loll ka näida, on ju, et ma ei tea sellest asjast, ehk et tegelikult on lihtsam nendest teemadest mööda minna. Ja, ja ma mõtlesin, et ma väga austan, et sa, sa ütlesid ära, et ma ei ole käinud ja, ja, ja ma ei teagi sellest midagi, tegelikult on, on vaja, ise on vaja hakata liigutama, mitte oodata, et äkki keegi kuskil teine teeb selle selles suunas mingid sammud. Et me kõik teame kõigist asjadest liiga vähe, kaasa arvatud tööstusest, et see on keeruline neid toimeloogikaid on suht- raske aru saada. Ja just kui ma meediast loen neid teemasid, siis need kajastused on sellised. Noh, ma nüüd, ma ei taha poolt valida, aga mulle tundub, et nad on vähe informeeritud kohati. No pealiskaudsed, selles mõttes, et on, on nad nagu teadlikke inimesi on vähe ja, ja kui sa mitteteadliku inimese käest küsid arvamust, siis tal on lihtsam olla kõigele vastu. Et, et siis sa ei ole mingit vastutust kaob sinult ära, sest sa ei, ma ei tea sellest midagi, noh ei, ei ole vaja teha, aga et, et, et kas nagu, et kas see tööstus, noh tööstus ei ole kindlasti kõige seksikam asi maailmas on ju, aga kas see tööstus, et mida te meile siis annab, on ju, et noh, tegelikult see on üks asi, miks, mis mulle tundub, et, et on nagu hästi-hästi selgitamata ja ma päris täpselt ei tea, kas seda selgitama peaks, et kui seda hakkab mingisugune ettevõtte juht selgitama, et tööstus on sellepärast hea, et, et ah mis sa oled lihtsalt tahnena, on ju. Kus tegelikult peaks olema ka üks loogiline koht poliitikute vaatest, meil on seda tööstust selleks vaja, et maksta ära õpetajate palgad, see on nii-öelda reaalne sissetulek sellesse, aga see on kuidagi samasugune asi, et pealiskaudsus on üsna, üsna valdav. Zuzu, sa oled ju keskkonnateemadel sihuke häälekas, häälekas poliitik. Kuidas, kuidas sina kui sellise, kuidas nüüd öelda suunitlusega inimene suhtud neisse tööstuse probleemidesse, kuidas sa näed seda, et. Et, et me justkui, justkui praegu räägime tööstuse tugevdamisest, võimestamisest? No kui nagu kaasa mõelda, siis noh, ma olen seda oma peas ikka ka mõelnud ja ja no minu arust on päris suureks probleemiks ka needsamad tööstusettevõtete esindajad, kes nagu sõna võtavad, et nad võivad ju ühes teemas olla nagu kompetentsed, aga, aga ka nemad on muudes teemades pealiskaudsed ja. Ma ei tahtnud küll Kirjaneni isiku küsimust nagu siin tõstatada, aga, aga no tema lihtsalt väga hea näide selle, selle puhul, et. Et, et see, kuidas ta räägib ja mida ta ütleb, et see on lihtsalt nagu eemale tõukav väga paljudele, et kuigi ta mingis osas võib-olla nagu teeb õiget asja ja oleks hea ikkagi leida see ühisosa ja nagu koos edasi minna, siis siis ta nagu ka näitab oma põlgust välja keskkonnakaitse suhtes üldiselt ja see on nagu see probleem, et kui meil oleksid sellised töösturid, kellel on selline suhtumine nagu nendel inimestel siin. Ma arvan, oleks palju nagu kiiremini võimalik edasi liikuda selle ühisosa ja selle kokkuleppe poole, et, et meie tööstus oleks kõrgel tasemel ja loodus oleks kaitstud. Eks ma selleks ju Fredi välja otsisingi. Ma saan aru jah, mida sa tegid. Jah. Andrus, kui, kui palju see muutus sõltub tarbijaskonnast ja avalikust arvamusest? Ma siin võib-olla kalduks kergelt kõrvale oma vastuses ja, ja veidi, veidi lihtsalt unistaks natukene, et, et, et ühelt poolt ma tooks selle välja, mu viimane tööstus, ma olin tihedalt seotud plastitööstusega, autotööstusele, siis suurtele klientidele. Ja, ja selgelt seal on, on tekkimas trend, kus tugevalt tuleb vähendada kogu selle fossiilse maailma kasutamist siis uutes autodes. Ja noh, plast on, on paraku, on nagu selgelt väga fossiilse taustaga. Ja, ja noh, taaskasutus on siin üks lahendus kindlasti. Aga, aga seesama puidu väärindamine ja, ja-ja puidu kasutamine tööstuslikult uute materjalide loomisel võiks olla üks selline hea alternatiiv Eestile. Et see kindlasti on väga keerukas, väga teadusmahukas. Hetkel maailmas on, teevad tugevat revolutsiooni kvantarvutid, tugevat arengut, kvantarvutite puhul on öeldud ka seda, et üks valdkond, kus nad kindlasti väga hästi annavad või kiiresti hakkavad tulemusi andma lisaks teistele on uued materjalid, uute materjalide loomine. Ja siin on ka nüüd ma ütleks Eesti valitsusele kerge sihuke küsimärk on nagu minu, minu silmis õhus, et, et ma vaatan naaberriike, siis kõikidel riikidel on kvantarvuti arendamise suunalised töörühmad riigi tasemel loodud. Eestis seda kahjuks ei ole. Et, et, et seesama kvantarvuti, esimene kvantarvuti Eestis, sellesuunaline töö, aitaks kaasa uute materjalide loomisel, aitaks kaasa leida lahendusi sellesama puidu paremaks väärindamiseks ja, ja uute materjalide, täiesti uute materjalide, millest meil ei ole aimugi hetkel veel, mida saaks puidu põhjal teha ja luua. Ja, ja kuna Eestis seda ressurssi on palju, siis see võiks olla üks niisugune hea fookus meile ja, ja läbi selle tulla turule siis plasti asendavate materjalidega, mis tegelikult põhinevad puidul, et, et sellist, sellist unistamist jah, ma korraks tõin siia sisse. Väga-väga lahe unistamine minu arust ja ja praegu siin hästi palju mõtlesin jälle, et nagu mis see siis lahendus meil oleks nagu, et kuidas me siis saaksime? No me oleme ju, ma ei tea, ma ei tea, viisteist, oih vabandust, viisteist aastat räägime nagu sedasama juttu ja ja, ja no me ei ole meil neid materjali tootmisi siin ja kõike seda. Ja, ja vaata siin oli paar nädalat tagasi oli see uudis, et meil eurobaromeetri järgi oleme kõige nagu kliima, ma ei tea, kuidas see sõnastus seal oli, aga. Ükskõiksem äkki. Ja et nagu et väga keeruline on teha selliseid või noh poliitikuid sundida midagi tegema, kui nagu inimesed nagu ka ei nõua. Et kuidas sa teed seda? Nagu väga kehv olukord, ma ütleks, et ja-ja sa küsisid ennem selle hariduse kohta ka noh jah, ja seda haridust, haridust oleks vaja ka nagu rohkem suunata sinnapoole, aga, aga see on ka, see on nagu pikema vinnaga lahendus. Et, et inimesed peavad lihtsalt need, kes on teadlikud, keskkonnateadlikud, need peavad lihtsalt veel nõudlikumad olema. Ühes salgauuringus see, see pole küll super värske, see on paari aasta tagune, tegelikult peaaegu seitsekümmend protsenti eestlasi soovib raiemahu vähendamist. Aga see on nende prioriteetsete teemade hulgas nii madalal kohal. Ehk siis nad ei nõua seda. Ja noh, ma arvan, et see ongi suuresti vastus, vast- küsimus ja vastus korraga. Ja ja sellepärast meil ongi selline olukord võimalik, et meil on valitsus, millel on umbes mingi kolmteist protsenti toetust ja, ja ta saab tegutseda, et keegi ei ole nõudmas muutust. Jah. Pridi, millest sina unistad? Puidutööstuse raamistikus? Mõtlen, et see unistada on tore, onju, et aga kui ma mõtlen puidutööstuse vaatest, et noh, ma olen, maal kasvanud inimene, mul on, ma olen, olen talust pärit. Mida iganes, palju lapsi. Mul on, ma olen metsas nagu, ma olen metsaga väga tihedalt sellises nii-öelda nagu sidemes olnud eluaeg. Ja, ja täna ma, ma ei tunne mingisugust sellist nagu muret või vastutust, et, et kas mina, kas mina olen kuidagi selles, sellega seotud, et, et, et raiutakse rohkem või vähem. Mina ütleks, et, et minu unistus on see, et, et inimeste metsateadlikkus üleüldse, puidu väärindasime teadlik, väärindamise teadlikkus kasvaks. See oleks, see oleks kõige parem asi, sest et, et ma ütlen, et kui meil ei ole teadlikke inimesi ja meil ei ole ka tegelikult üks väga suur asi, meil ei ole ka metsaomanike endid on ju ehk et, et kas see mets on juba esivanemate poolt või kellegi teise poolt mis iganes põhjustel siis ära müüdud, tehtud, sul ei ole mingit seost metsaga. Et kui sa elad nii-öelda täna korteris ja, ja keegi hakkab sulle mingit metsateemat ajama, siis nad tegelikult sa võib-olla nagu ei kliki üldse selle teemaga, et nad mõtled, et okei, kus, kuidas minu puutepunkt on, lähen grillima. RMK platsile, et kui see on ainukese nii-öelda puutepunkt, siis tegelikult, siis mina ütlen, et see on väga halb puutepunkt. Et tegelikult metsateadlik inimeste kasvatamine, see on üks, üks võimalus seesama lava, kus me siin praegu oleme, on ju, et, et kes tahavad uusi teadmisi saada, liiga palju ei ole neid inimesi. Aga siiski neid mõned üksikud on võib-olla lihtsalt ajastus on, on, on selline. Et ja, ja nendest teemadest ma saan aru, et teie suusu olete sellest rääkinud viisteist aastat, kuidas peaks midagi muutma, kuidas peaks tegema? Ja oleks jõudu veel rääkida nii pikalt, on ju, et, et noh, tegelikult on, kui me nüüd nagu viskame mütsi nurka, mõtleme, ah niikuinii midagi ei muutu. Et siis, siis, siis võiks ju mõelda nii, nagu mul vend naljatades alati ütleb selle, kogu selle, selle maailma saastamise kohta, ütleb, et noh, sisuliselt on ju nii, et, et maailma ajaloos, et inimkonna ajaloos on, see on, on üks asi, aga maailma ajaloos on see inimeste eksisteerimine maailm maakeral. Üks, lihtsalt üks räpane episood on ju, ehk et niikuinii saab see üks, ükskord otsa. Et aga, aga noh, ma ütlen, et unistustest, kui ma lähen tagasi unistustesse, et lihtsalt teadlik inimene oleks rohkem ja see teadlikkus kasvaks läbi selle nõudmine ka, et me tahame mingeid muutusi, me tahame, et seda, seda olemasolevat ressurssi kasutatakse mõistlikult. Noh, see tuleb läbi selle, mitte selle, et üksikud teevad lärmi, üksikud võitlevad vastu ja siis on suur seda kriitilist nii-öelda massi seal vahel ei ole, mis aitaks seda, seda nagu balanssi luua, see on nagu jama. No minu arust oleks väga palju abi, kui, kui ettevõtjad rohkem räägiksid nendel teemadel ka, sest et no ma tunnen ise ka seda, et, et, et kui sa nagu keskkonnasäästlikkusest ja, või kasvõi ressursside säästlikum, säästlikumaks kasutamisest räägid, siis nagu see ikka päris kiiresti tuleb see mingi keskkonnaaktivisti silt peale ära ja siis nagu see, see vestlus on läbi sisuliselt. Aga kui sa oled ettevõtja, kui sa oled mees, kellel on raha ja sa räägid sellistel teemadel, siis sind kuulatakse palju rohkem. Nii et, andke minna, mehed. Aitäh, see on väga hea ja uus põnev nurk. Et mees, ma juba olen, nüüd oleks raha vaja, onju. Andrus, kuidas sulle tundub, kuidas teadlikkust tõsta? Jah, siin kuulasin, siis tuli, tuli just veidi mõtteid ka, et. Me ilmselt tõesti vajame fookust sellel targal ja kaasaegsel, kaasajastatud metsapoliitikal, et, et, et meil on tulemas peale tehisintellekt, kuskil kaugel, aga, aga ta tuleb väga jõudsate sammudega. Ja siit on mu enda üks sihuke hüpotees, mis isegi teadusartikli vormis on, olen, olen kirjutanud, et, et inimesed meie ehk sihuke süsinikul põhinevad organismid, me olemegi selle intellekti edasiviimisel, esindame ühte etappi. Galaktilise intellekti arengus ja see etapp mingi hetk on lõppemas, aga intellekti areng jätkub nüüd juba nii-öelda räni ja Siliconbased intelligence vedamisel ehk seesama tehisintellekt mingi hetk haldab palju suuremat keerukust, kui meie inimestena suudame hallata. Ja-ja ta viib seda intellekti arengut sealt edasi, et, et, et mis me praegu saame teha, tõesti on, on ajakohastada oma metsa ja ressursside kasutamispoliitikat korralikult ja teha seda siis tulevikkuvaatavalt, et, et, et siin, siin on vaja tarkust muidugi jah. Kas, kas publikul on nüüd küsimusi vahepeal? Ja Mati. Mul ei ole niivõrd otseselt küsimus, aga see on kõige arukam paneel, mida ma täna kuulanud olen. Ja täiesti masendavat nime inimesi kuulab ja ma olen kõiki kuulanud täna, et üks asi mulle tohutult meeldib ettevõtjate jutt, aga millest ma näen puudust, on see, et kui me praeguses tempos edasi raiume, polegi muud kui kirjani ärini, sest eelmises paneelis oli ka, kuidas näidati tabeleid. Kõik see saekaatrite materjal saab otsa. Mets otsa ei saa, aga meil saab see materjal otsa, me teeme nii palju vigu ja probleemi tuum on selles, et me ei kõnele ausalt. Kui ma kuulasin eelmisi paneelikõnelejaid, siis kui taust oli metsameestel, siis kõrvad jooksid sita vett, sest ma teadsin, kus nad valetavad. Aga noh, sekkuda ei saa, kuulad, kõrvad lontis siin. Aga kas lamb lihtsalt valus kuulata, Aveliina Helm tegi siin väga tungivaid parandusi, kui väga teine pool metsatööstuses eluaeg töötanud. Sõna otseses mõttes valetas, noh. Et, et ja, ja eriti valus oli kuulata sutti. Ma olen üksi, ma ei saa millega midagi teha. Sa oled keskkonnaminister ja sa räägid avalikkusele, et sa ei saa mitte midagi teha, ma ei julge otsustada. Mina ei taha otsustada, oli suti sõnum. Et seda oli nagu väga valus kuulata, et kuule mees, miks sa üldse ministriks hakkasid. Et ma olen hästi kriitiline alati oma väljaütlemistes ja väga harva kiidan, aga vot neid kahte meest ma kiidan ja Zusud ma kiidan ikka nagunii. Et, et selles mõttes, et pange jõuliselt edasi ja palun kuulake suusud ka, et tõesti võtke avalikult sõna, see oleks nagu väga võimas, kui te kasvõi üks või kaks artiklit aastas kirjutaksite, see annaks looduskaitsjatele mingi kandepinna. Et kasvõi üks-kaks artiklit, kaks oleks parem kui üks. Et sealt tuleb kolmas juba ja, ja niimoodi me suudaksime tegelikult seda laeva pöörata ja inimesed lähevadki selle poole, kus on ikkagi rikkus. Ja kui me näeme loodusrikkust ikkagi oma ühiskonna suurima varana, siis me saavutame ka lahendused, aitäh. Ma vabandan, et mul küsimust ei olnud. Aitäh. Freddie, kas soovid resoneerida publikuga? Ja no selles mõttes, kuidas ma resoneerin, et iseenesest ongi ju, ma nüüd ei taha nagu tekitada olukord, et, et, et mina justkui tööstuse esindajana. Et jällegi tekkis nagu natukese olukorras, et, et, et oleks, oleks nagu, et no justkui nagu looduskaitseteemad räägime. Noh, mina ei tulnud siia looduskaitseteemadel rääkima, mina tulin sellest rääkima. Et mida me peaks tegema selleks, et, et tänasest metsast rohkem kätte saada, nii et, nii et noh, mina ütlen, et raiemaht on, jääb, mis iganes, kas ta on ülespoole, allapoole. Ta jääb niikuinii, aga et kas, kas see, millega, mida me seal metsas teeme, kuidas me sellest nii-öelda nagu riigina rikkamaks saame, see on küsimus. Ja, ja sellega olen, ma olen nõus, et palgimets saab otsa või nii-öelda nagu taandub. Seda enam me peame selle peale täna mõtlema ja, ja ma arvan, et me ei tohiks nagu natuke on selline ühiskondlik vastandumine, radikaliseerimine, et noh, tegelikult kui sa vaatad kuskilt artiklist ühe või teise inimese nime, siis sul tegelikult on juba noh, salamisi on sellest eel-, sellest Arvamusfestivali vaatest on juba eelarvamus, on ju, et, et, et noh, et ütleme, sul tekib mingi eelarvamus ja seda on väga keeruline peast pühkida, on ju, et seda ei tohiks tekitada nii ühe kui teise poole pealt. Ehk et sa, kui sa võtad nii-öelda täiesti neutraalselt neid asju, siis, siis tööstus ei ole alati halb ja mina ütlen, et ka looduskaitse on alati halb, et see kesktee leidmine ongi keeruline ja, ja niikaua tuleb seda keskteed otsida, kui kui vaja on, et ma ei tea, kas, kas me jõuame, kas enne saavad võib-olla elud otsa, aga, aga alati jääb see paradoks, aga selline radikaliseerumine ühelt või teiselt poolt, see ei tee mitte kellelegi head, et, et. Aga aga radikaliseerumine või selline äärmuslikkus, see ongi ju, prevaleerib sellises olukorras, kus need, kes on keskel, ei räägi või noh nad ei anna nagu, nende häält ei ole kuulda, et siis ongi, tekibki see mulje, et on justkui kaks äärmust. Ja, ja see oligi see minu unistus, et kuidas see teadlikkust sellesse eestlasesse teadlikkust tagasi tõsta, on ju, et, et see aitaks meid päris palju edasi, aga, aga ma täna. Noh, ma ei näe nagu tegelikult teed, et kust see teadlikkus peaks tõusma, kui, kui tegelikult järjest kaugemale minnakse sellest metsast, et, et noh, ütleme see külatädikene temal oli mingi arvamus sellest asjast, et võtame siit nii palju kui vaja, mida iganes. Aga, aga täna on nii-öelda need, neid külad või ütleme, neid nii-öelda talumetsasid, neid ju väga palju enam ei ole, on ju. Ehk et pigem on, on need liikunud erakätesse ja me ütleme, et on riigimetsa ja eramets, aga tegelikult see eramets on ka ikka suurelt jaolt kontsernide mets. Mulle tundub, et me oleme natuke jõudnud kuidagi loogilise lõpuni. Me oleme umbes täpselt tund aega rääkinud. Võib-olla siin nagu kunstlikult venitada, seda pole enam mõtet. Ma annaksin kõigile teile kolmele lõpusõnad. Ja siis ma arvan, et lähme naudime festivali juba edasi. Zuzu. No mina tänan omalt poolt ja ma soovin jõudu kõigi, kõigile looduskaitsjatele. Sest et ma tean, teil on väga keeruline ja, ja üldse keskkonnateadlikel inimestel on väga keeruline. Teades seda, mis seisus on meie planeedi ökosüsteem. Ja kuivõrd aeglaselt või üldsegi nagu mittetoimivalt suhtub meie, meie poliitiline ladvik sellesse teemasse, et seda enam on see keeruline. Ja ma tänan sind, Robert, et sa selle teema siin täna niimoodi tõstatasid ja et mul on hea meel nüüd olla tuttav teiega. Ja viimase asjana ma küsiks, et kuulge, see terrass on minu arust, need lauad on tagurpidi pandud. Et, et mina tean seda, et minul on puidumehed rääkinud, et terrassilaud tuleb panna teistpidi soon allapoole, seal on mitu põhjust, aga üks põhjus on see ka, et siis läheb vesi kiiremini ära ja terrass püsib kauem ilus. Me oleme suurepärasel arutelul, kuna see on Fredi igapäevatööd, oskab sellest rääkida. Ja selles mõttes, et see terrass on täpselt tegelikult õieti, et, et seda profiili niipidi toodetaksegi on ju. Et kui sa tahad siledat profiili, siis seda on ka olemas. Aga, aga see on sellepärast, et sa tegelikult ei libiseks siin peal, onju. Et. Ma tean, see on igikestev, see vaidlus. Jah, aga, aga ma vähemalt olen positiivne, et kuna see on mitu korda kasutatud vähemalt, et see, see lava ei ole see ehitatud ainult sellepärast, et meie saaks siin jutustada omavahel, et, et selles mõttes pange ju nii võidapidi tahate ja tegelikult ja peaasi, et sa ise õnnelik oled, et see on nagu kõige-kõige olulisem. Ja et see, see, see konkreetselt see lava on olnud ka siin paar aastat tagasi teatud sihuke vastuolude küüsis, kuna see oli RMK lava, on ka meediast läbi käinud, aga ma ei tea, tundub, tundub ju päris korralik. Andrus? Jah, mina tänan samamoodi meie publikut ja Robert, sind selle, selle laheda, laheda vestluse kokkukutsumise eest. Minu, kes ma olen suhteliselt metsakauge ikkagi, minu jaoks oli see väga sihuke positiivne ja samamoodi silmiavar, avav vestlus hetkel siin. Et, et ma näen ka nüüd ja mõistan paremini seda vajadust, et me vajame ilmselt selgelt sihukest head tulevikku vaatavat poliitikat metsaalal. Mets teatavasti kasvab kiiresti, mul on, mul on suvekodu Lahemaal, metsas, mets tuleb mürinal peale ja, ja tõepoolest ta ei kao mitte kuhugi ja-ja. Ja, ja see toimub mujal samamoodi, et, et me peame, peame siin riigina oskama seda, seda ressurssi hästi kasutada. Aitäh. Freddie, kas sa soovid lõpetada Therassi jutuga või tahad veel midagi öelda? Ei, mul, mul on ikkagi mõned muud mõtted selle lõpetuseks, et. Et mida ma, ma enne nüüd rääkisin nendest unistustest, mida tegelikult veel hädasti oleks vaja? Munadega poliitikuid oleks vaja, selles mõttes. Alati on, alati on neid asju, mis on ebamugavad ja ebameeldivad ja, ja see on, see on tõenäoliselt üks põhjus ka, mis, miks, miks väga paljud targad ja, ja, ja osavad ja, ja ütleme siis nagu haritud inimesed ei, ei kipu poliitikasse. Sest selles mõttes, et see tähelepanu, see kõik see toredus, mis sealt tuleb ei, ei kaalu seda üle ja et ma, ma ütleks, et ma, ma täna väga tahaks. Vot väga tahaks minna täna, aga, aga mis kuradi pärast, on ju. Ehk et see on, see on selline nagu halb asi kus olla ja, ja, ja, ja selle kõige juures kogu selles metsanduse ja kõige muu vaates ma ütlen, et, et meil on nagu majandustsüklid ja meil on nagu see valimistsüklid, mis tegelikult hakkavad üksteist tõukama, on ju. Et tänases vaates keegi ei tahagi neid, neid, neid otsuseid teha nagu, nagu öeldakse, et, et, et Sutt ütleb, ma olen üksinda, onju, et nad tegelikult no kurat, keegi peab nagu see munadega olema, on ju. Mingid asjad tuleb ära otsustada, midagi tuleb teha ja tuleb selgitada ka see, miks me midagi teeme ja miks meil seda vaja on, kui meil on vaja mingisugust tööstust edendada, siis see ei ole lihtsalt jutu jätkuks, et räägime sellest ja käime konverentsidel ja muudkui jutustama, et peaks ikka tegema, onju. Et tegelikult tuleb hakata liigutama ja, ja isegi siis ma ütleks, et kui, kui mina täna oleksin nagu poliitikas ja ma tean, et see on mu viimane, viimane aeg, neli aastat, nelja aasta pärast mind ei valita tagasi. Olen vanamees, tõmban piipu, mõtlen, et, et kurat, suure asja tegin ära, on ju ja see on palju parem tunne kui see, et ma tegelikult hoian, hoian, hoian ja valimiste ees koogutan, onju. Ja siis jälle proovin midagi öelda ja siis jälle tõmban tagasi. No sa ei jõua mitte kusagile niimoodi, et ma ütleks. Selliseid tõsiseid tükke oleks vaja. Väga, väga head seisukohad ja ma siin ütleks, et täpselt sama jutt, mis sa just rääkisid nii-öelda selle munadega meeste juhtimise kohta kehtiks ka Eesti kõrghariduse juhtimisel sama moodi, et, et tõesti siin on vaja ka oluliselt tugevat ja selgemat ja tulevikku vaatavat vaadet. Kuna siin räägiti munadest ja meestest, siis ma arvan, et Zuzu peaks, Zu peaks ikkagi siin korra veel sõna võtma. Aitäh, muide selle Arvamusfestivali logoks on ka munad minu arust. Ja, ja selles mõttes mul on nagu hea kuulda, et siin räägiti, et munadega mehi on vaja, et see tähendab, et munadega naised meil on juba olemas, et väga hea, et. Super, aitäh, aitäh kõigile, kes tulid, tulid kuulama. Arvamusfestivali puhul, kui ma seda lavasin kokku panin, siis kohalikud Paide inimesed jalutasid mööda ja pahandasid mõned, et mis te siin käite ja arvate, midagi sellest ei muutu ju. Mina arvan, et Arvamusfestival on natuke nagu podcast'i kuulamine. Sa kuulad tund aega, saad veits targemaks ja võib-olla sellest tarkusest midagi kunagi sünnib kuskil. Veel kord, suur tänu tulemast ja aitäh. Aitäh.",
+    "cues": [
+      {
+        "start_seconds": 11.12,
+        "end_seconds": 16.64,
+        "text": "Ja tere kõik arvukad külalised, kes on saabunud seda debatti kuulama."
+      },
+      {
+        "start_seconds": 16.64,
+        "end_seconds": 22.48,
+        "text": "Et Arvamusfestivali soe ilm on ilmselt järveveeni soojaks keetnud, et inimesed on uju"
+      },
+      {
+        "start_seconds": 22.48,
+        "end_seconds": 27.4,
+        "text": "ma läinud või kuhugi, aga pole hullu, pole hullu, me hakkame nüüd arutama metsa teema"
+      },
+      {
+        "start_seconds": 27.4,
+        "end_seconds": 30.92,
+        "text": "del, kuigi noh, siin alal on juba kaks päeva seda tehtud suuresti."
+      },
+      {
+        "start_seconds": 30.92,
+        "end_seconds": 38.36,
+        "text": "Ja praeguse, tänase selle debati siis pealkiri on \"Räägime euros, mitte tihumeetris"
+      },
+      {
+        "start_seconds": 38.36,
+        "end_seconds": 39.08,
+        "text": "."
+      },
+      {
+        "start_seconds": 39.08,
+        "end_seconds": 44.28,
+        "text": "Ja selle pealkiri ma pakun nüüd kohe alguses välja ja nüüd, kui ma hiljem seda kontse"
+      },
+      {
+        "start_seconds": 44.28,
+        "end_seconds": 49.6,
+        "text": "ptsiooni täpsustasin, siis võib-olla pole kõige ideaalsem, ideaalsem pealkiri üldse."
+      },
+      {
+        "start_seconds": 49.6,
+        "end_seconds": 52.96,
+        "text": "Igatahes, minu nimi on Robert Reismann."
+      },
+      {
+        "start_seconds": 52.96,
+        "end_seconds": 60.6,
+        "text": "Konsultatsiooniettevõttest Tuum ja minu taust on puidusektoris puidutööstuses."
+      },
+      {
+        "start_seconds": 60.6,
+        "end_seconds": 66.4,
+        "text": "Ja, ja selle arutelu suur point on siis see, et ma tahaks vastust küsimusele, kas on"
+      },
+      {
+        "start_seconds": 66.4,
+        "end_seconds": 71.68,
+        "text": "võimalik leida tasakaal keskkonnakaitse ja puidutööstuse huvide vahel."
+      },
+      {
+        "start_seconds": 71.68,
+        "end_seconds": 76.96,
+        "text": "Et me oleme kümme aastat suuresti seda metsadebatti veeretanud."
+      },
+      {
+        "start_seconds": 76.96,
+        "end_seconds": 81.52,
+        "text": "Mõlemad osapooled on oma kaevikutesse kinni jäänud ja mulle tundub, et me oleme natuke"
+      },
+      {
+        "start_seconds": 81.52,
+        "end_seconds": 83.88,
+        "text": "kinni sellesse jäänud."
+      },
+      {
+        "start_seconds": 83.88,
+        "end_seconds": 89.44,
+        "text": "Ja täna neile küsimustele aitavad vastuseid leida kolm külalist."
+      },
+      {
+        "start_seconds": 89.44,
+        "end_seconds": 95.64,
+        "text": "Zuzu Izmailova, riigikogu liige sotsiaaldemokraadid, Andrus Pedai, Eesti ettevõtlusk"
+      },
+      {
+        "start_seconds": 95.64,
+        "end_seconds": 97.48,
+        "text": "õrgkool Mainor rektor."
+      },
+      {
+        "start_seconds": 97.48,
+        "end_seconds": 98.68,
+        "text": "Ja Fredi Kaasik."
+      },
+      {
+        "start_seconds": 98.68,
+        "end_seconds": 102.48,
+        "text": "Termoori aktsiaselts, Reola tehase juht."
+      },
+      {
+        "start_seconds": 102.48,
+        "end_seconds": 106.68,
+        "text": "Ja kui te nüüd lubate auväärt külalised, siis ma annaks teile kõigile natuke sõna, et"
+      },
+      {
+        "start_seconds": 106.68,
+        "end_seconds": 110.8,
+        "text": "ennast tutvustada lähemalt, pikemalt."
+      },
+      {
+        "start_seconds": 110.8,
+        "end_seconds": 118.0,
+        "text": "Oi jah, no mis siin ikka tutvustada, et kõigepealt tervitan kõigi sugulasi, kes siin"
+      },
+      {
+        "start_seconds": 118.0,
+        "end_seconds": 121.24,
+        "text": "täna on kogunenud, aitäh, et te tulite."
+      },
+      {
+        "start_seconds": 121.24,
+        "end_seconds": 128.56,
+        "text": "Aga jah, et võib-olla minu see aktiivsesse poliitikasse sissetulek algaski"
+      },
+      {
+        "start_seconds": 128.56,
+        "end_seconds": 132.88,
+        "text": "tegelikult vägagi metsateemaga seonduvalt."
+      },
+      {
+        "start_seconds": 132.88,
+        "end_seconds": 138.84,
+        "text": "Et see oli, kui ma nüüd ei eksi, see oli kaks tuhat viisteist, kaks tuhat kuusteist aasta"
+      },
+      {
+        "start_seconds": 138.84,
+        "end_seconds": 140.88,
+        "text": "l, kui oli."
+      },
+      {
+        "start_seconds": 140.88,
+        "end_seconds": 146.68,
+        "text": "Oli see lendorava teema nagu kuidagi jõudis minuni ja siis sealtkaudu nagu ma võtsin"
+      },
+      {
+        "start_seconds": 146.68,
+        "end_seconds": 151.76,
+        "text": "selle, võtsin selle teema endale ja, ja hakkasin vaatama ka, et mis meil nagu metsadega"
+      },
+      {
+        "start_seconds": 151.76,
+        "end_seconds": 157.88,
+        "text": "toimub, et siis see, siis ma tulingi poliitikasse ja ma ütlen ausalt, et."
+      },
+      {
+        "start_seconds": 157.88,
+        "end_seconds": 164.2,
+        "text": "Et sellest ajast saati minu arust me oleme suht pidevalt samamoodi rääkinud nendest teema"
+      },
+      {
+        "start_seconds": 164.2,
+        "end_seconds": 164.96,
+        "text": "dest."
+      },
+      {
+        "start_seconds": 164.96,
+        "end_seconds": 166.16,
+        "text": "Kahjuks."
+      },
+      {
+        "start_seconds": 166.16,
+        "end_seconds": 170.56,
+        "text": "Et vahepeal tundus, et on, oli nagu mingi progress just nagu poliitilise poole pealt"
+      },
+      {
+        "start_seconds": 170.56,
+        "end_seconds": 174.88,
+        "text": "ja nagu ühiskonnas oli ka see valmisolek nagu tundus, et on olemas."
+      },
+      {
+        "start_seconds": 174.88,
+        "end_seconds": 181.0,
+        "text": "Meil on isegi täna kliimaministeerium, kliimaministrit küll enam ei ole, aga ma näen"
+      },
+      {
+        "start_seconds": 181.0,
+        "end_seconds": 185.08,
+        "text": ", et nagu need otsused, mis tulevad poliitiliselt tasandilt, on nagu veidi ikkagi nagu"
+      },
+      {
+        "start_seconds": 185.08,
+        "end_seconds": 191.0,
+        "text": "teevad minu arust nagu vähikäiku, kuigi samas nagu maailma trendid ikkagi liiguvad minu"
+      },
+      {
+        "start_seconds": 191.0,
+        "end_seconds": 197.28,
+        "text": "arust sinna suunas, et me peame oma ressursse kestlikumalt majandama."
+      },
+      {
+        "start_seconds": 197.28,
+        "end_seconds": 204.2,
+        "text": "Ja, ja ma olen täna siin selle ootusega, et meil tekib asjasse puutuvate inimestega selline"
+      },
+      {
+        "start_seconds": 204.2,
+        "end_seconds": 209.28,
+        "text": "hea arutelu, et võib-olla, millest ka mina ise saan sellist positiivset energiat juurde"
+      },
+      {
+        "start_seconds": 209.28,
+        "end_seconds": 215.28,
+        "text": ", sest ma ütlen, et ausalt, et vahel vahepeal ikka vajuvad need käed üsna rüppe."
+      },
+      {
+        "start_seconds": 215.28,
+        "end_seconds": 217.6,
+        "text": "Andrus."
+      },
+      {
+        "start_seconds": 217.6,
+        "end_seconds": 225.48,
+        "text": "Tere kõigile ja Andrus Põde ja siis Eesti Ettevõtluskõrgkooli Maine rektor ja viimase"
+      },
+      {
+        "start_seconds": 225.48,
+        "end_seconds": 232.0,
+        "text": "d kaks aastat sellel kohal enne kakskümmend pluss aastat tööstuses tugevalt elektroo"
+      },
+      {
+        "start_seconds": 232.0,
+        "end_seconds": 238.2,
+        "text": "nika autotööstuses Elkotechis juhtisin Nuki ja müüki kogu Euroopa regioonis, olin väga"
+      },
+      {
+        "start_seconds": 238.2,
+        "end_seconds": 240.64,
+        "text": "lähedalt seotud Nokia tegemistega."
+      },
+      {
+        "start_seconds": 240.64,
+        "end_seconds": 246.36,
+        "text": "Olin väga lähedal sellele, kui Nokia kaks tuhat kuus, kaks tuhat seitse pani oma too"
+      },
+      {
+        "start_seconds": 246.36,
+        "end_seconds": 252.92,
+        "text": "tmise Eestis kinni selleks, et tarneahel optimeerida viis tootmise Eestis, siis Unga"
+      },
+      {
+        "start_seconds": 252.92,
+        "end_seconds": 256.36,
+        "text": "risse."
+      },
+      {
+        "start_seconds": 256.36,
+        "end_seconds": 263.72,
+        "text": "See oli väga kaasaegne insener tehniliselt kõrgel tasemel tootmine,"
+      },
+      {
+        "start_seconds": 263.72,
+        "end_seconds": 269.84,
+        "text": "väga kahju, et, et sellised asjad nii kergelt Eestist on, on ära läinud, et, et mul on"
+      },
+      {
+        "start_seconds": 269.84,
+        "end_seconds": 276.92,
+        "text": "jah, selline tugev, tugev tootmisvaade peale seda ma olin PKC grupis, vastutasin siis"
+      },
+      {
+        "start_seconds": 276.92,
+        "end_seconds": 283.32,
+        "text": "globaalsed müügi müügi eest Volvo Grupile ja, ja, ja samamoodi olin suurte otsuste lähe"
+      },
+      {
+        "start_seconds": 283.32,
+        "end_seconds": 289.92,
+        "text": "dal, kui kaks tuhat kuusteist PKC Grupp otsustas panna kinni tehased Haapsalus ja, ja"
+      },
+      {
+        "start_seconds": 289.92,
+        "end_seconds": 297.92,
+        "text": "Keilas üle tuhande töökoha läks kaduma samamoodi väga, ma ütleks buyering systems"
+      },
+      {
+        "start_seconds": 297.92,
+        "end_seconds": 303.56,
+        "text": "kõrgelt tehnoloogiliselt kõrgel tasemel tootmine pandi jällegi Eestis kinni, et me oleme"
+      },
+      {
+        "start_seconds": 303.56,
+        "end_seconds": 308.84,
+        "text": "kaotanud Eestis tugevalt tootmist ja, ja viimase kahekümne aasta jooksul asemel ei ole"
+      },
+      {
+        "start_seconds": 308.84,
+        "end_seconds": 316.12,
+        "text": "tulnud, et siin nüüd ettevõtluskõrgkool Mainori juhina ma just näen ka kõrgkoolide"
+      },
+      {
+        "start_seconds": 316.12,
+        "end_seconds": 323.52,
+        "text": "rolli selles, et, et parandada juhtimiskvaliteeti meie siis tudengitel"
+      },
+      {
+        "start_seconds": 323.52,
+        "end_seconds": 330.12,
+        "text": ", kes, kes meie kooli lõpetavad ja läbi selle tuua siis ja võimaldada kaasaegse toot"
+      },
+      {
+        "start_seconds": 330.12,
+        "end_seconds": 337.0,
+        "text": "mise ikkagi elus hoidmist ja, ja juurdetoomist Eestisse, et, et, et tugevalt sihukese"
+      },
+      {
+        "start_seconds": 337.0,
+        "end_seconds": 343.08,
+        "text": "tugeva tootmise taustaga ja, ja, ja, ja hoian selle suuna lippu kõrgel."
+      },
+      {
+        "start_seconds": 343.08,
+        "end_seconds": 345.24,
+        "text": "Jah, aitäh, Freddie."
+      },
+      {
+        "start_seconds": 345.24,
+        "end_seconds": 350.12,
+        "text": "Nojah, mina olen selles mõttes, et ma olen metsas sündinud, et kui ma mõtlen nüüd nagu"
+      },
+      {
+        "start_seconds": 350.12,
+        "end_seconds": 356.32,
+        "text": "seda oma metsaajalugu tagasi, siis mul esimene meenutus metsast on see, et ma olin nelja"
+      },
+      {
+        "start_seconds": 356.32,
+        "end_seconds": 363.44,
+        "text": "aastane tatikas ja oma kaheksa aastase vennaga talvel eksisime met"
+      },
+      {
+        "start_seconds": 363.44,
+        "end_seconds": 367.48,
+        "text": "sa ära ja ikka üsna hulga aeg olin metsas."
+      },
+      {
+        "start_seconds": 367.48,
+        "end_seconds": 372.2,
+        "text": "Et kui meid üles leiti ja ütleme, sellest ajast saati on, ütleme, mets on minu jaoks"
+      },
+      {
+        "start_seconds": 372.2,
+        "end_seconds": 378.6,
+        "text": "nagu ühelt poolt nagu austus metsa vastu ja teiselt poolt see, et, et metsast, metsa"
+      },
+      {
+        "start_seconds": 378.6,
+        "end_seconds": 384.2,
+        "text": "st ja metsaga on kogu ülejäänud elu mul seotud olnud, nii et."
+      },
+      {
+        "start_seconds": 384.2,
+        "end_seconds": 388.8,
+        "text": "Ja täna olen ma siis ütleme viisteist aastat puidutööstuses olnud."
+      },
+      {
+        "start_seconds": 388.8,
+        "end_seconds": 395.92,
+        "text": "Ja, ja näinud igasuguseid erinevaid, ütleme siis tasandeid selles mõttes, et ei"
+      },
+      {
+        "start_seconds": 395.92,
+        "end_seconds": 400.72,
+        "text": ", ei ole mina läinud kuskile kohe juhtima, vaid tegelikult tal on kõik madalad taseme"
+      },
+      {
+        "start_seconds": 400.72,
+        "end_seconds": 402.8,
+        "text": "d läbi teinud selleks, et aru saada."
+      },
+      {
+        "start_seconds": 402.8,
+        "end_seconds": 407.52,
+        "text": "Ja ühelt poolt ütleme siis kohe alguses ülikoolist minnes mul ei öeldudki, et hakka seda"
+      },
+      {
+        "start_seconds": 407.52,
+        "end_seconds": 413.28,
+        "text": "tegema, onju, ehk et ma olen, ma olen selle metsatööstuse sees on nüüd terve selle aja"
+      },
+      {
+        "start_seconds": 413.28,
+        "end_seconds": 418.72,
+        "text": "ja ei kavatse ära minna, sest et noh, ütleme kuidagi südamekutse on kogu see, see me"
+      },
+      {
+        "start_seconds": 418.72,
+        "end_seconds": 424.44,
+        "text": "tsa, metsaga toimetamine ja metsast nii-öelda väärtuse väljavõtmine ja kui sina ütle"
+      },
+      {
+        "start_seconds": 424.44,
+        "end_seconds": 428.88,
+        "text": "sid Robert enne, et see nagu ebaõnnestunud, võib-olla ebaõnnestunud pealkiri, siis ma"
+      },
+      {
+        "start_seconds": 428.88,
+        "end_seconds": 433.68,
+        "text": "ütleks, et väga õnnestunud pealkiri, sest et."
+      },
+      {
+        "start_seconds": 433.68,
+        "end_seconds": 438.32,
+        "text": "Kuidagi on, on nii läinud, et räägitakse nendest mahtudest, aga tegelikult on ju see"
+      },
+      {
+        "start_seconds": 438.32,
+        "end_seconds": 444.44,
+        "text": ", et, et mina mõtlen niipidi, et kui see puu on juba maha võetud, siis mis me teeme selle"
+      },
+      {
+        "start_seconds": 444.44,
+        "end_seconds": 450.76,
+        "text": "ks, et absoluutselt kõik saaks ära kasutatud ja, ja kui me saame sellele, leiame selle"
+      },
+      {
+        "start_seconds": 450.76,
+        "end_seconds": 455.2,
+        "text": "le lahenduse, siis, siis võivadki need raiemahud väheneda, aga see on minu jaoks on see"
+      },
+      {
+        "start_seconds": 455.2,
+        "end_seconds": 460.88,
+        "text": "nagu natuke nagu leevi teema, et, et, et peaks nagu teistpidi seda asja vaatama."
+      },
+      {
+        "start_seconds": 460.88,
+        "end_seconds": 464.0,
+        "text": "Nii et jah, selline mees, ma olen."
+      },
+      {
+        "start_seconds": 464.0,
+        "end_seconds": 465.92,
+        "text": "Aitäh."
+      },
+      {
+        "start_seconds": 465.92,
+        "end_seconds": 470.48,
+        "text": "Jah, ja siis minu, minu siis eesmärk oligi täna siin arutada võib-olla seda, et mida"
+      },
+      {
+        "start_seconds": 470.48,
+        "end_seconds": 473.72,
+        "text": "peab Eesti puidutööstus tegema."
+      },
+      {
+        "start_seconds": 473.72,
+        "end_seconds": 481.4,
+        "text": "Et toota suuremat lisandväärtust, et me saaksime vähema ressursiga toota Eesti"
+      },
+      {
+        "start_seconds": 481.4,
+        "end_seconds": 485.04,
+        "text": "le ettevõtjatele, riigile, ühiskonnale rohkem raha."
+      },
+      {
+        "start_seconds": 485.04,
+        "end_seconds": 490.24,
+        "text": "Kuidas me sinna jõuame, kas see on üldse võimalik, kas me üldse tahame seda?"
+      },
+      {
+        "start_seconds": 490.24,
+        "end_seconds": 494.6,
+        "text": "Ja ma arvan, et Freddi, kuna sa just viimati nüüd rääkisid ka siis äkki, äkki teedki"
+      },
+      {
+        "start_seconds": 494.6,
+        "end_seconds": 499.8,
+        "text": "sina ka otsa lahti sellest, et anna väike ülevaade, mis on praegu Eesti puidutööstus"
+      },
+      {
+        "start_seconds": 499.8,
+        "end_seconds": 505.6,
+        "text": "es nagu, mis on hästi, halvasti, räägi veid toimeloogikast."
+      },
+      {
+        "start_seconds": 505.6,
+        "end_seconds": 512.2,
+        "text": "No Eesti metsa, metsatööstuses siis, ütleme nagu ma ütlesin, et raiemahtude üle käib"
+      },
+      {
+        "start_seconds": 512.2,
+        "end_seconds": 518.08,
+        "text": "hirmus arutelu, aga tegelikult on niimoodi, et kui me võtame nagu puidu kui materjali"
+      },
+      {
+        "start_seconds": 518.08,
+        "end_seconds": 525.36,
+        "text": ", siis jämedalt võttes, pool on palk, kakskümmend viis protsenti on paber ja,"
+      },
+      {
+        "start_seconds": 525.36,
+        "end_seconds": 532.6,
+        "text": "ja ülejäänud on siis ladvad, kõik muud asjad ehk see, mis puudutab palki,"
+      },
+      {
+        "start_seconds": 532.6,
+        "end_seconds": 537.2,
+        "text": "tüve jämedat otsa, sellega ma ütleks, et Eestis ei ole väga halvasti, sest et sellest"
+      },
+      {
+        "start_seconds": 537.2,
+        "end_seconds": 542.12,
+        "text": "suudetakse teha tooteid, sellest suudetakse anda, sellele suudetakse anta, anda mõist"
+      },
+      {
+        "start_seconds": 542.12,
+        "end_seconds": 545.32,
+        "text": "lik lisandväärtus."
+      },
+      {
+        "start_seconds": 545.32,
+        "end_seconds": 550.44,
+        "text": "Ja, ja, ja selle, selle koha pealt ma ütleks, et Eesti puidutööstus ei ole tegelikult"
+      },
+      {
+        "start_seconds": 550.44,
+        "end_seconds": 556.4,
+        "text": "nagu halb, et mõtleme, kui me mõtleme liimkomponendid, talad, asjad, maailmatasemel asjad"
+      },
+      {
+        "start_seconds": 556.4,
+        "end_seconds": 558.88,
+        "text": ", mis Eestis tehakse."
+      },
+      {
+        "start_seconds": 558.88,
+        "end_seconds": 563.64,
+        "text": "Kui me nüüd lähme nüüd sammu edasi, mis puudutab paberipuitu ja mis puudutab nagu ra"
+      },
+      {
+        "start_seconds": 563.64,
+        "end_seconds": 567.92,
+        "text": "idmeid, siis seal on tegelikult ju asjad nagu halvasti."
+      },
+      {
+        "start_seconds": 567.92,
+        "end_seconds": 577.44,
+        "text": "Et meil on Eestis ju tugevad, tugev paberipuidutootja on olemas, kes tegelikult"
+      },
+      {
+        "start_seconds": 577.44,
+        "end_seconds": 582.68,
+        "text": "olude tahtel või olude sunnil vahepeal peab oma tehast sulgema, selleks et, et üldse"
+      },
+      {
+        "start_seconds": 582.68,
+        "end_seconds": 588.56,
+        "text": "toime tulla, kuigi nad on juba, ma ei tea, aasta, aastaid kolm või neli on puhtalt mi"
+      },
+      {
+        "start_seconds": 588.56,
+        "end_seconds": 594.36,
+        "text": "inust teinud või nii-öelda tugevaid miinuseid teinud, siis seal on probleem, et tegelikult"
+      },
+      {
+        "start_seconds": 594.36,
+        "end_seconds": 598.28,
+        "text": "seda otsa väärindada me täna ei suuda."
+      },
+      {
+        "start_seconds": 598.28,
+        "end_seconds": 605.76,
+        "text": "Ja, ja ma ei näe ka väga, ma ei näe ka väga sellist mingisugust tahet, et seda"
+      },
+      {
+        "start_seconds": 605.76,
+        "end_seconds": 609.68,
+        "text": "kuidagi lahendada, et sellest küll räägitakse, et, et peaks ikka olema ja peaks tegema"
+      },
+      {
+        "start_seconds": 609.68,
+        "end_seconds": 614.6,
+        "text": ", aga kui me sinnani jõuame, siis tegelikult kukub see kaardimaja kokku."
+      },
+      {
+        "start_seconds": 614.6,
+        "end_seconds": 619.6,
+        "text": "Et kuidagi läheb nagu sellesse, et selleks, et suurt tehast üleval pidada, peaksime veel"
+      },
+      {
+        "start_seconds": 619.6,
+        "end_seconds": 621.6,
+        "text": "rohkem raiuma."
+      },
+      {
+        "start_seconds": 621.6,
+        "end_seconds": 627.96,
+        "text": "Ma, ma ei ole seda meelt, ma mõtlen, et see on, et kas kellegi pea sees toimub nagu see"
+      },
+      {
+        "start_seconds": 627.96,
+        "end_seconds": 635.0,
+        "text": "sama see euroarvutus on nagu paigast ära, et, et keegi ei ole huvitatud palki purustama"
+      },
+      {
+        "start_seconds": 635.0,
+        "end_seconds": 639.44,
+        "text": "selleks, et tast teha mingisugust odava, otsa toodet või ütleme odava asjaga kokku panna"
+      },
+      {
+        "start_seconds": 639.44,
+        "end_seconds": 639.6,
+        "text": "."
+      },
+      {
+        "start_seconds": 639.6,
+        "end_seconds": 641.0,
+        "text": "Keegi ei ole huvitatud sellest."
+      },
+      {
+        "start_seconds": 641.0,
+        "end_seconds": 645.8,
+        "text": "See peab olema enda või rahakoti peale tige inimene, metsaomanik või kes iganes."
+      },
+      {
+        "start_seconds": 645.8,
+        "end_seconds": 652.04,
+        "text": "Et, et see, see osa, mis meil täna üle on, ma ütlen, et RMK algatus, et, et sellist nii"
+      },
+      {
+        "start_seconds": 652.04,
+        "end_seconds": 655.52,
+        "text": "-öelda lisandväärtust juurde luua, tuua."
+      },
+      {
+        "start_seconds": 655.52,
+        "end_seconds": 662.64,
+        "text": "Tegid oma selle nii-öelda nagu siis noh pakkumise, et kes, kui palju mahtu sellest vähe"
+      },
+      {
+        "start_seconds": 662.64,
+        "end_seconds": 663.92,
+        "text": "väärtuslikust ostab."
+      },
+      {
+        "start_seconds": 663.92,
+        "end_seconds": 666.48,
+        "text": "Väga mõistlik tegu, see on esimene nii-öelda samm."
+      },
+      {
+        "start_seconds": 666.48,
+        "end_seconds": 669.28,
+        "text": "Aga, aga see kaugel on veel nii-öelda lahendus on ju."
+      },
+      {
+        "start_seconds": 669.28,
+        "end_seconds": 676.12,
+        "text": "Et, et, et see on ainult selle noh väikene alge selleks, et see kuidagi saaks toimuda"
+      },
+      {
+        "start_seconds": 676.12,
+        "end_seconds": 681.04,
+        "text": "ja ma ütlengi, et muus mõttes palk on hästi kasutatud."
+      },
+      {
+        "start_seconds": 681.04,
+        "end_seconds": 686.92,
+        "text": "Paber noh natso much, on ju ja raidmed on täiesti selline teema, et ei tohi neid põle"
+      },
+      {
+        "start_seconds": 686.92,
+        "end_seconds": 693.36,
+        "text": "tada, ei tohi neid, ei, ei tohi neid kuskile keemiatööstusse anda, et see on selline"
+      },
+      {
+        "start_seconds": 693.36,
+        "end_seconds": 699.16,
+        "text": "nagu valus teema ja, ja noh ma tean ka, millest see, no ütleme, ma tajun, millest see"
+      },
+      {
+        "start_seconds": 699.16,
+        "end_seconds": 703.32,
+        "text": "tuleb, aga ma võib-olla jõuame sinna nagu arutelu käigus praegu kohe ei hakka neid ka"
+      },
+      {
+        "start_seconds": 703.32,
+        "end_seconds": 704.96,
+        "text": "arte avama."
+      },
+      {
+        "start_seconds": 704.96,
+        "end_seconds": 706.16,
+        "text": "Aitäh."
+      },
+      {
+        "start_seconds": 706.16,
+        "end_seconds": 713.36,
+        "text": "Andrus, sina kui, sina, kui ütleme tööstust ja tarneahelaid nagu laiemalt tunde"
+      },
+      {
+        "start_seconds": 713.36,
+        "end_seconds": 717.0,
+        "text": "v inimene, kes on ka sel teemal kirjutanud ja arvanud."
+      },
+      {
+        "start_seconds": 717.0,
+        "end_seconds": 723.44,
+        "text": "Mis, mis on Eesti, Eesti tööstuse, mitte ainult puidutööstus, vaid kogu Eesti tööstuse"
+      },
+      {
+        "start_seconds": 723.44,
+        "end_seconds": 729.48,
+        "text": "takistus, et, et ütleme maailmas läbi lüüa."
+      },
+      {
+        "start_seconds": 729.48,
+        "end_seconds": 734.84,
+        "text": "Et, et olla edukas ka kaugetel turgudel, et, et, et müüa, et toota ja müüa kallist ke"
+      },
+      {
+        "start_seconds": 734.84,
+        "end_seconds": 735.8,
+        "text": "erulist toodet."
+      },
+      {
+        "start_seconds": 735.8,
+        "end_seconds": 739.64,
+        "text": "Kas, kas, kas sa näed selliseid takistusi praegu või, või kuidas sa seda teemat käsi"
+      },
+      {
+        "start_seconds": 739.64,
+        "end_seconds": 743.28,
+        "text": "tleksid?"
+      },
+      {
+        "start_seconds": 743.28,
+        "end_seconds": 750.48,
+        "text": "No ilmselt siin on, siin on probleem jah, et mitmed suured globaalsed tootmiset"
+      },
+      {
+        "start_seconds": 750.48,
+        "end_seconds": 754.28,
+        "text": "tevõtted on Eestist lahkunud."
+      },
+      {
+        "start_seconds": 754.28,
+        "end_seconds": 756.96,
+        "text": "Või siis ei ole teinud siia investeeringuid."
+      },
+      {
+        "start_seconds": 756.96,
+        "end_seconds": 763.4,
+        "text": "Viimane hea näide on, on eelmisest aastast, kui Ericsson pidi tegema saja kuuekümne miljon"
+      },
+      {
+        "start_seconds": 763.4,
+        "end_seconds": 770.16,
+        "text": "i eurose investeeringu Ülemiste linnakusse, et teha uus tehas, avada Eestis, mis oleks"
+      },
+      {
+        "start_seconds": 770.16,
+        "end_seconds": 777.76,
+        "text": "olnud tõeliselt võimas saavutus ja, ja, ja seda ootasid nii Ericssoni inimesed,"
+      },
+      {
+        "start_seconds": 777.76,
+        "end_seconds": 782.36,
+        "text": "tootmisinimesed üle maailma, et tõesti kaasaegne tehas luuakse linnaruumi, aga see otsus"
+      },
+      {
+        "start_seconds": 782.36,
+        "end_seconds": 787.0,
+        "text": "jäeti ära ikkagi, et nad ei teinud seda tehast, et sellest on nagu väga-väga kahju."
+      },
+      {
+        "start_seconds": 787.0,
+        "end_seconds": 794.2,
+        "text": "Ja, ja-ja praegu ega meil ei olegi tööstuses selliseid tugevaid lipula"
+      },
+      {
+        "start_seconds": 794.2,
+        "end_seconds": 798.44,
+        "text": "evu, täna hommikul ma vaatasin just Eesti ekspordistatistikat aastast kaks tuhat kakskümmend"
+      },
+      {
+        "start_seconds": 798.44,
+        "end_seconds": 800.92,
+        "text": "kolm, kes on Eesti suurimad eksportijad."
+      },
+      {
+        "start_seconds": 800.92,
+        "end_seconds": 805.16,
+        "text": "Esimesel kohal Eesti Energia."
+      },
+      {
+        "start_seconds": 805.16,
+        "end_seconds": 812.24,
+        "text": "Siis Tallink teisel kohal, PRT kolmandal kohal, neljandal kohal G"
+      },
+      {
+        "start_seconds": 812.24,
+        "end_seconds": 818.16,
+        "text": "raanul Invest, kes müüb, mina saan aru, suhteliselt väärindamata puitu Eestist välja"
+      },
+      {
+        "start_seconds": 818.16,
+        "end_seconds": 819.04,
+        "text": "väga edukalt."
+      },
+      {
+        "start_seconds": 819.04,
+        "end_seconds": 823.72,
+        "text": "Ja viiendal kohal alles on Ericsson Eesti, kes siis on nii-öelda esindab kõrgtehnoloogi"
+      },
+      {
+        "start_seconds": 823.72,
+        "end_seconds": 831.2,
+        "text": "list tööstust, et, et, et me peaks riigi vaates selgelt meelitama suurettevõtteid ikkagi"
+      },
+      {
+        "start_seconds": 831.2,
+        "end_seconds": 838.68,
+        "text": "tagasi Eestisse ja, ja, ja läbi selle looma siis uusi töökohti ja"
+      },
+      {
+        "start_seconds": 838.68,
+        "end_seconds": 844.0,
+        "text": ", ja andma tööd nendele inseneridele, keda siin, kellest, kellest ka praegu väga palju"
+      },
+      {
+        "start_seconds": 844.0,
+        "end_seconds": 850.24,
+        "text": "juttu olnud, et Eesti vajab uus insenere, et, et nad vajavad tõsise väljakutsega töö"
+      },
+      {
+        "start_seconds": 850.24,
+        "end_seconds": 855.0,
+        "text": "kohti ja need on ikkagi need töökohad peavad olema rahvusvahelised, et need ei ole koha"
+      },
+      {
+        "start_seconds": 855.0,
+        "end_seconds": 857.84,
+        "text": "likud enam."
+      },
+      {
+        "start_seconds": 857.84,
+        "end_seconds": 863.12,
+        "text": "Zuzu, riigikogu liige, keskkonnakomisjoni lii- , liige samuti."
+      },
+      {
+        "start_seconds": 863.12,
+        "end_seconds": 867.12,
+        "text": "Kuidas sa näed seda poliitilise poole pealt, kas Eestis praegu, kas Eestis üldse on po"
+      },
+      {
+        "start_seconds": 867.12,
+        "end_seconds": 873.28,
+        "text": "liitilist tahet leida siin ühisosa, sest et praegu läheb see metsateema hästi ruttu vasta"
+      },
+      {
+        "start_seconds": 873.28,
+        "end_seconds": 874.48,
+        "text": "ndumiseks."
+      },
+      {
+        "start_seconds": 874.48,
+        "end_seconds": 877.16,
+        "text": "Täpselt nii nagu ta on kogu aeg olnud, eks ju, ühel pool on looduskaitse, teisel pool"
+      },
+      {
+        "start_seconds": 877.16,
+        "end_seconds": 879.68,
+        "text": "on töösturid."
+      },
+      {
+        "start_seconds": 879.68,
+        "end_seconds": 886.88,
+        "text": "Kuidas sa näed, kas, kas kuskil, kas praegu püütakse leida ühisosa?"
+      },
+      {
+        "start_seconds": 886.88,
+        "end_seconds": 893.72,
+        "text": "No ma kõigepealt jätkaks siit selle, mida sina rääkisid, et, et miks meil siis ei ole"
+      },
+      {
+        "start_seconds": 893.72,
+        "end_seconds": 900.96,
+        "text": "seda kõrgetasemelist tööstust siin, et noh, minu, mina, no aga mida me oleme selle"
+      },
+      {
+        "start_seconds": 900.96,
+        "end_seconds": 903.8,
+        "text": "ks riigina teinud, et ta meil siin oleks?"
+      },
+      {
+        "start_seconds": 903.8,
+        "end_seconds": 908.44,
+        "text": "Et no tegelikult me ei ole midagi teinud ja selles mõttes, et meie seadusandlus on ikkagi"
+      },
+      {
+        "start_seconds": 908.44,
+        "end_seconds": 912.68,
+        "text": "praegu selline, mis ikkagi soosib seda pigem saastavat."
+      },
+      {
+        "start_seconds": 912.68,
+        "end_seconds": 916.72,
+        "text": "Kui siis vähem saastavat ja kõrgtehnoloogilist tööstust."
+      },
+      {
+        "start_seconds": 916.72,
+        "end_seconds": 923.8,
+        "text": "Meil on, energia on ikkagi üsnagi kallis, mis on tööstusele väga-"
+      },
+      {
+        "start_seconds": 923.8,
+        "end_seconds": 930.96,
+        "text": "väga oluline, ikkagi selline mõõdupuu, mille, mille pealt ta vaatab, kas"
+      },
+      {
+        "start_seconds": 930.96,
+        "end_seconds": 933.16,
+        "text": "ta nagu üldse tuleb kuhugi või ei tule."
+      },
+      {
+        "start_seconds": 933.16,
+        "end_seconds": 941.0,
+        "text": "Ja kui vaadata seda poliitilist nagu tausta, siis miks peaks täna üks"
+      },
+      {
+        "start_seconds": 941.0,
+        "end_seconds": 944.0,
+        "text": "välisinvestor siia tulema?"
+      },
+      {
+        "start_seconds": 944.0,
+        "end_seconds": 951.2,
+        "text": "Riiki, mis on, jagab ühist piiri sõjardiga, kus on kallis e"
+      },
+      {
+        "start_seconds": 951.2,
+        "end_seconds": 958.72,
+        "text": "nergia, kus valitsus on, noh, pigem nagu selline"
+      },
+      {
+        "start_seconds": 958.72,
+        "end_seconds": 961.92,
+        "text": "oligarhia poole kaldu."
+      },
+      {
+        "start_seconds": 961.92,
+        "end_seconds": 968.64,
+        "text": "Ja, ja minu arust see ei ole nagu lääne kultuurile kuidagi omane ja, ja see väga ei ku"
+      },
+      {
+        "start_seconds": 968.64,
+        "end_seconds": 969.84,
+        "text": "tsu, ma ütleks."
+      },
+      {
+        "start_seconds": 969.84,
+        "end_seconds": 972.56,
+        "text": "Ma julgen seda niimoodi öelda."
+      },
+      {
+        "start_seconds": 972.56,
+        "end_seconds": 978.12,
+        "text": "Aga see küsimus, mis on mulle, et kas me otsime seda ühisosa nagu poliitilisel tasandi"
+      },
+      {
+        "start_seconds": 978.12,
+        "end_seconds": 984.32,
+        "text": "l, mulle tundub, et ka me ei otsi seda poliitilisel tasandil, ma tundsin seda viimati"
+      },
+      {
+        "start_seconds": 984.32,
+        "end_seconds": 988.72,
+        "text": ", see oli kaks tuhat kakskümmend kolm aasta riigikogu valimiste eel, kus mulle tundus"
+      },
+      {
+        "start_seconds": 988.72,
+        "end_seconds": 993.12,
+        "text": ", et mingi, mingi selline asi on nagu muutumas ühiskonnas."
+      },
+      {
+        "start_seconds": 993.12,
+        "end_seconds": 999.24,
+        "text": "Et see hoiak, et, et oli kuidagi selge, mida inimesed tahavad ja minu arust seda tahe"
+      },
+      {
+        "start_seconds": 999.24,
+        "end_seconds": 1004.0,
+        "text": "t väljendati, väljendasid ka valijad valimistel."
+      },
+      {
+        "start_seconds": 1004.0,
+        "end_seconds": 1009.32,
+        "text": "Valiti neid liberaalseid erakondi, kellel olid väga tugevad keskkonna ja kliimateema"
+      },
+      {
+        "start_seconds": 1009.32,
+        "end_seconds": 1010.92,
+        "text": "lised sõnumid."
+      },
+      {
+        "start_seconds": 1010.92,
+        "end_seconds": 1018.0,
+        "text": "Ja täna on nendest erakondadest alles valitsuses kaks tükki ja nad mõlemad on loob"
+      },
+      {
+        "start_seconds": 1018.0,
+        "end_seconds": 1020.24,
+        "text": "unud oma kliimalubadustest."
+      },
+      {
+        "start_seconds": 1020.24,
+        "end_seconds": 1024.84,
+        "text": "Ja, ja seega on mul väga raske näha, et, et vähemalt poliitilisel tasandil seda konse"
+      },
+      {
+        "start_seconds": 1024.84,
+        "end_seconds": 1027.44,
+        "text": "nsust või seda ühisosa keegi otsiks."
+      },
+      {
+        "start_seconds": 1027.44,
+        "end_seconds": 1034.44,
+        "text": "Ja, ja paraku see on meie reaalsus, et me oleme siin täna teiega olukorras, kus meil"
+      },
+      {
+        "start_seconds": 1034.44,
+        "end_seconds": 1040.64,
+        "text": "on riigikogus ja üldse nagu poliitilises nagu mõttes aktiivne üks erakond, kes on nende"
+      },
+      {
+        "start_seconds": 1040.64,
+        "end_seconds": 1047.08,
+        "text": ", kes on oma valijale ja oma lubaduste eest nagu seismas siiani ja ei ole andnud ära"
+      },
+      {
+        "start_seconds": 1047.08,
+        "end_seconds": 1054.92,
+        "text": "neid teemasid, mis ükskõik, mis ettekäändel eks, et aga, aga me"
+      },
+      {
+        "start_seconds": 1054.92,
+        "end_seconds": 1058.8,
+        "text": "nagu on selline tunne, et me peame jälle nagu hakkama ehitama seda, et mida me justku"
+      },
+      {
+        "start_seconds": 1058.8,
+        "end_seconds": 1062.76,
+        "text": "i nagu ehitasime ja kui me justkui jõudsime kuhugi, et me peame hakkama seda uuesti tegema"
+      },
+      {
+        "start_seconds": 1062.76,
+        "end_seconds": 1069.2,
+        "text": ", et ma näen Silvia on siin ja, ja, ja et me nagu ikka ikka aasta, aasta lähevad, aasta"
+      },
+      {
+        "start_seconds": 1069.2,
+        "end_seconds": 1071.4,
+        "text": "d lähevad, aga me ikka räägime sama juttu."
+      },
+      {
+        "start_seconds": 1071.4,
+        "end_seconds": 1074.56,
+        "text": "See on nagu natuke masendav."
+      },
+      {
+        "start_seconds": 1074.56,
+        "end_seconds": 1077.56,
+        "text": "Ja mul on ka tegelikult selline tunne, et me täna räägime ja siis me võime seda siin"
+      },
+      {
+        "start_seconds": 1077.56,
+        "end_seconds": 1081.44,
+        "text": "kümne aasta pärast teha siukse reunion'i, kus me räägime."
+      },
+      {
+        "start_seconds": 1081.44,
+        "end_seconds": 1087.2,
+        "text": "Ma segan sulle korra vahele, et vaata, mida ma näen nagu, milles ma näen muutust, et"
+      },
+      {
+        "start_seconds": 1087.2,
+        "end_seconds": 1091.8,
+        "text": ", et tegelikult ka majandus ja tööstuse inimesed ka nagu saavad aru, milles probleem"
+      },
+      {
+        "start_seconds": 1091.8,
+        "end_seconds": 1092.48,
+        "text": "on."
+      },
+      {
+        "start_seconds": 1092.48,
+        "end_seconds": 1096.56,
+        "text": "Aga poliitikud ei saa millegipärast, et seal on nagu see mingi klikk neid ettevõtjaid"
+      },
+      {
+        "start_seconds": 1096.56,
+        "end_seconds": 1102.48,
+        "text": ", kes nagu näevad, et on väga tore seal kohtuda peaministriga, teiste ministritega seal"
+      },
+      {
+        "start_seconds": 1102.48,
+        "end_seconds": 1106.56,
+        "text": "selles ette ettevõtlusnõukojas või kuidas nad seda nimetavad on ju ja teha mingeid seal"
+      },
+      {
+        "start_seconds": 1106.56,
+        "end_seconds": 1110.6,
+        "text": ", rääkida mingeid jutte ja, ja neile võib-olla nende ettevõtetel ongi see kasulik."
+      },
+      {
+        "start_seconds": 1110.6,
+        "end_seconds": 1115.92,
+        "text": "Aga, aga ma näen ka seda praegu, kuidas teised ettevõtjad nagu Eestis, vaatame energe"
+      },
+      {
+        "start_seconds": 1115.92,
+        "end_seconds": 1120.04,
+        "text": "etika valdkonnas või, või mis iganes vaadet, kuulge, mis toimub?"
+      },
+      {
+        "start_seconds": 1120.04,
+        "end_seconds": 1125.56,
+        "text": "Aasta on kaks tuhat kakskümmend viis, me oleme Euroopa Liidu liikmesriik, mis meil siin"
+      },
+      {
+        "start_seconds": 1125.56,
+        "end_seconds": 1130.88,
+        "text": "valitsuses toimub, mis, mis asi see, mis nagu noh mingi vähikäik on nagu sisse lükatud"
+      },
+      {
+        "start_seconds": 1130.88,
+        "end_seconds": 1135.88,
+        "text": ", et sellest on muidugi kahju ja, ja meie majandus loomulikult kaotab sellest."
+      },
+      {
+        "start_seconds": 1135.88,
+        "end_seconds": 1136.96,
+        "text": "Aitäh."
+      },
+      {
+        "start_seconds": 1136.96,
+        "end_seconds": 1141.16,
+        "text": "Fredi, sa tegelikult enne juba päris palju käsitlesid seda Eesti puidutööstuse struk"
+      },
+      {
+        "start_seconds": 1141.16,
+        "end_seconds": 1146.0,
+        "text": "tuuri, et meil on viiskümmend protsenti on palk, kakskümmend viis oli paber ja ülejä"
+      },
+      {
+        "start_seconds": 1146.0,
+        "end_seconds": 1148.2,
+        "text": "änud oli siis raidmed."
+      },
+      {
+        "start_seconds": 1148.2,
+        "end_seconds": 1154.64,
+        "text": "Kas, kas see meie praegune, ütleme, see raiemahu suurus või no ütleme, see tase, kus"
+      },
+      {
+        "start_seconds": 1154.64,
+        "end_seconds": 1158.72,
+        "text": "me oleme, kas see, kas see veits on tingitud ka nagu sellest meie puidustruktuurist ehk"
+      },
+      {
+        "start_seconds": 1158.72,
+        "end_seconds": 1161.52,
+        "text": "siis kas see probleem toimib ka tagurpidi?"
+      },
+      {
+        "start_seconds": 1161.52,
+        "end_seconds": 1167.48,
+        "text": "Kuna meil on palju suuri saeveskeid, kellel on vaja tooret, palju suuri pelletitehase"
+      },
+      {
+        "start_seconds": 1167.48,
+        "end_seconds": 1169.28,
+        "text": "id, mis on juba olemas."
+      },
+      {
+        "start_seconds": 1169.28,
+        "end_seconds": 1177.0,
+        "text": "Kas see omakorda sunnib meid rohkem tootma võib-olla mõistlik oleks?"
+      },
+      {
+        "start_seconds": 1177.0,
+        "end_seconds": 1184.16,
+        "text": "Noh, ma pigem võib-olla mõtleks nii, et, et need on täna asjad, mis on,"
+      },
+      {
+        "start_seconds": 1184.16,
+        "end_seconds": 1186.68,
+        "text": "mis on nagu lihtsad teha."
+      },
+      {
+        "start_seconds": 1186.68,
+        "end_seconds": 1193.24,
+        "text": "Ja, ja ütleme graanulit on suhteliselt lihtne toota, on ju, et saematerjali on suhte"
+      },
+      {
+        "start_seconds": 1193.24,
+        "end_seconds": 1194.92,
+        "text": "liselt lihtne lõigata on ju."
+      },
+      {
+        "start_seconds": 1194.92,
+        "end_seconds": 1202.04,
+        "text": "Ja, ja see muutus noh, kõik ootavad, et keegi teine peab hakkama muutuma, et, et ma"
+      },
+      {
+        "start_seconds": 1202.04,
+        "end_seconds": 1207.68,
+        "text": ", ma pigem ütleks niipidi, et see on, see on hea asi, kui, kui töösturid ise saavad sellest"
+      },
+      {
+        "start_seconds": 1207.68,
+        "end_seconds": 1211.96,
+        "text": "aru, et me tegelikult peame sellest ressursist rohkem välja võtma."
+      },
+      {
+        "start_seconds": 1211.96,
+        "end_seconds": 1217.8,
+        "text": "A'la kas ta on siis puidukeemia, noh ütleme mina ise samamoodi olen ju puidutööstusest"
+      },
+      {
+        "start_seconds": 1217.8,
+        "end_seconds": 1224.24,
+        "text": ", kus meie nii-öelda nagu juhtpõhimõte on see, et me termotöötleme selle puidu ehk me"
+      },
+      {
+        "start_seconds": 1224.24,
+        "end_seconds": 1229.88,
+        "text": "tegelikult, mis me nüüd läbi termotöötluse teeme, et, et noh, ilmselt kõik ei, ei tea"
+      },
+      {
+        "start_seconds": 1229.88,
+        "end_seconds": 1235.88,
+        "text": ", mida termotöötlus tähendab, see on, on sisuliselt ju puidu kuumutamine."
+      },
+      {
+        "start_seconds": 1235.88,
+        "end_seconds": 1242.84,
+        "text": "Ainult temperatuur, ainult niiskus ja, ja see puidu sees puidustruktuuris on struktu"
+      },
+      {
+        "start_seconds": 1242.84,
+        "end_seconds": 1249.4,
+        "text": "ursed muutused, suhkur puidu sees, pruunistub, see suhkur ei ole enam söödav bakteri"
+      },
+      {
+        "start_seconds": 1249.4,
+        "end_seconds": 1256.52,
+        "text": "tele ja, ja mikroorganismidele ja läbi selle see puit kestab, no me julgeme"
+      },
+      {
+        "start_seconds": 1256.52,
+        "end_seconds": 1258.56,
+        "text": "väita, poolteist korda kauem."
+      },
+      {
+        "start_seconds": 1258.56,
+        "end_seconds": 1264.76,
+        "text": "Ehk et see on üks võimalik viis, kuidas sisuliselt hakkad nüüd jadast tagasi tulema,"
+      },
+      {
+        "start_seconds": 1264.76,
+        "end_seconds": 1270.24,
+        "text": "siis, siis kui, kui puit kestab poolteist korda kauem, siis seda peab saagima poolteist"
+      },
+      {
+        "start_seconds": 1270.24,
+        "end_seconds": 1271.44,
+        "text": "korda vähem."
+      },
+      {
+        "start_seconds": 1271.44,
+        "end_seconds": 1276.68,
+        "text": "Seda peab metsast langetama poolteist korda vähem ja, ja selle vastu, selle langetamise"
+      },
+      {
+        "start_seconds": 1276.68,
+        "end_seconds": 1278.56,
+        "text": "vastu ka võitlema poolteist korda vähem."
+      },
+      {
+        "start_seconds": 1278.56,
+        "end_seconds": 1284.16,
+        "text": "Ehk tegelikult nagu jadast tagasi minna, täiesti loogiline asi, mida teha ja mul on hea"
+      },
+      {
+        "start_seconds": 1284.16,
+        "end_seconds": 1289.72,
+        "text": "meel, et ma olen ise sellises ettevõttes, kes tegelikult on ära tajunud selle, et see"
+      },
+      {
+        "start_seconds": 1289.72,
+        "end_seconds": 1291.92,
+        "text": "on üks võimalik viis."
+      },
+      {
+        "start_seconds": 1291.92,
+        "end_seconds": 1294.92,
+        "text": "Maht ei ole, ei ole võimalik viisat."
+      },
+      {
+        "start_seconds": 1294.92,
+        "end_seconds": 1300.12,
+        "text": "Et teeme nii palju kui jõuame, et teeme nii kvaliteetset, kvaliteetset, teeme nii ka"
+      },
+      {
+        "start_seconds": 1300.12,
+        "end_seconds": 1304.0,
+        "text": "llist toodet kui võimalik on ja see on see pääsetee."
+      },
+      {
+        "start_seconds": 1304.0,
+        "end_seconds": 1309.36,
+        "text": "Et, et jah, see on, see on see, mis ma, ma, kas ma ei tea, kas ma küsimusele vastasin"
+      },
+      {
+        "start_seconds": 1309.36,
+        "end_seconds": 1312.04,
+        "text": ", aga ma kuidagi nagu jõudsin selle jutuga."
+      },
+      {
+        "start_seconds": 1312.04,
+        "end_seconds": 1316.8,
+        "text": "Me, me oleme siin niikuinii täna selle, selle lava viimane arutelu, et me ei pea üli"
+      },
+      {
+        "start_seconds": 1316.8,
+        "end_seconds": 1318.6,
+        "text": "jäigad olema küsimustega."
+      },
+      {
+        "start_seconds": 1318.6,
+        "end_seconds": 1320.04,
+        "text": "Zuzu, sa tahtsid midagi öelda?"
+      },
+      {
+        "start_seconds": 1320.04,
+        "end_seconds": 1326.28,
+        "text": "Ja vot see mahu ja siis selle väärindamise nagu see, et kuidas siis säästa loodust või"
+      },
+      {
+        "start_seconds": 1326.28,
+        "end_seconds": 1329.28,
+        "text": "seda puitu on ju ja säästlikumalt kasutada."
+      },
+      {
+        "start_seconds": 1329.28,
+        "end_seconds": 1336.4,
+        "text": "Et minu arust siin on nagu selles mõttes, et ma olen sinuga täiesti nõus, et, et noh"
+      },
+      {
+        "start_seconds": 1336.4,
+        "end_seconds": 1342.92,
+        "text": ", nii, nii sa säästadki neid ressursse, aga mis annab selle hoova selleks?"
+      },
+      {
+        "start_seconds": 1342.92,
+        "end_seconds": 1347.24,
+        "text": "Mulle tundub, on ikkagi see poliitiline otsus, see kokkulepe."
+      },
+      {
+        "start_seconds": 1347.24,
+        "end_seconds": 1354.88,
+        "text": "Kui palju me saame raiuda ja, ja siis see võib-olla avakski need kanalid nende ette"
+      },
+      {
+        "start_seconds": 1354.88,
+        "end_seconds": 1356.44,
+        "text": "võtete peades."
+      },
+      {
+        "start_seconds": 1356.44,
+        "end_seconds": 1361.16,
+        "text": "Et oota, me saame nii palju, aga äkki me siis peaksime kuidagi teistmoodi selle puid"
+      },
+      {
+        "start_seconds": 1361.16,
+        "end_seconds": 1362.6,
+        "text": "uga nagu ümber käima."
+      },
+      {
+        "start_seconds": 1362.6,
+        "end_seconds": 1369.84,
+        "text": "Sest mulle tundub, et teistmoodi ei tule seda noh nii kaua, kuni see puit lihtsalt saab"
+      },
+      {
+        "start_seconds": 1369.84,
+        "end_seconds": 1370.4,
+        "text": "otsa."
+      },
+      {
+        "start_seconds": 1370.4,
+        "end_seconds": 1372.96,
+        "text": "Ma nagu ma ei näe seda varianti vaata."
+      },
+      {
+        "start_seconds": 1372.96,
+        "end_seconds": 1376.8,
+        "text": "Et, et tahaks ju loota, et see, see toimub kuidagi teistmoodi, aga, aga noh, ühelt poolt"
+      },
+      {
+        "start_seconds": 1376.8,
+        "end_seconds": 1382.04,
+        "text": "ma olen nagu nõus, et, et kui meil on ressurssi vähem, siis, siis paneb ärimees pea töö"
+      },
+      {
+        "start_seconds": 1382.04,
+        "end_seconds": 1386.36,
+        "text": "le, on ju, et, et kuidas, kuidas sellest nagu rohkem kätte saada."
+      },
+      {
+        "start_seconds": 1386.36,
+        "end_seconds": 1393.28,
+        "text": "Aga noh, tahaks, et see oleks nii, et, et, et kõik on, kõik on hästi, hästi nii-öelda"
+      },
+      {
+        "start_seconds": 1393.28,
+        "end_seconds": 1401.16,
+        "text": "säästlikud ja, aga noh, samas on nii, et noh, nende säästmise juttudega on, on ka nagu"
+      },
+      {
+        "start_seconds": 1401.16,
+        "end_seconds": 1405.72,
+        "text": "üks selline, selline paradoks on, et need, kes palju võib-olla säästmisest räägivad,"
+      },
+      {
+        "start_seconds": 1405.72,
+        "end_seconds": 1411.4,
+        "text": "need tegelikult need duši all vesi jookseb kogu aeg, on ju, et see on selline nagu ma"
+      },
+      {
+        "start_seconds": 1411.4,
+        "end_seconds": 1416.04,
+        "text": "ei taha öelda, et see on, et, et kõik on absoluutselt sellised, aga, aga kui me taha"
+      },
+      {
+        "start_seconds": 1416.04,
+        "end_seconds": 1421.92,
+        "text": "ksime, et, et see asi toimib, siis jah, justkui reguleerida, et kui palju tohib, kui"
+      },
+      {
+        "start_seconds": 1421.92,
+        "end_seconds": 1423.72,
+        "text": "palju ei tohi."
+      },
+      {
+        "start_seconds": 1423.72,
+        "end_seconds": 1428.88,
+        "text": "Ja me ei ole ilmselt ühiskonnaga, ühiskonnana valmis elama sellise nii-öelda na'la kümne"
+      },
+      {
+        "start_seconds": 1428.88,
+        "end_seconds": 1431.76,
+        "text": "käsu järgi, et kasutan nii palju kui sul vaja on, on ju."
+      },
+      {
+        "start_seconds": 1431.76,
+        "end_seconds": 1436.48,
+        "text": "Et, et kui me saaksime niimoodi teha, siis oleks jube tore, aga täna vist veel ilmselt"
+      },
+      {
+        "start_seconds": 1436.48,
+        "end_seconds": 1439.36,
+        "text": "mitte ja võib-olla sada aastat veel mitte, on ju."
+      },
+      {
+        "start_seconds": 1439.36,
+        "end_seconds": 1445.24,
+        "text": "Ja seda siin nagu seda mõtet mõeldes mul oli ka kogu aeg see, see asi kuklas, et."
+      },
+      {
+        "start_seconds": 1445.24,
+        "end_seconds": 1450.68,
+        "text": "Me võime siin ju oletame, et me võtame kasutusele mingid meetmed, et lisandväärtust,"
+      },
+      {
+        "start_seconds": 1450.68,
+        "end_seconds": 1454.48,
+        "text": "kõrge lisandväärtusega puidutööstust nagu ergutada, siis tegelikult lõpuks on, me te"
+      },
+      {
+        "start_seconds": 1454.48,
+        "end_seconds": 1458.4,
+        "text": "gutseme ikkagi vabas turumajanduses ja metsaomanikud saavad suuresti teha oma metsaga"
+      },
+      {
+        "start_seconds": 1458.4,
+        "end_seconds": 1459.92,
+        "text": ", mis nad soovivad."
+      },
+      {
+        "start_seconds": 1459.92,
+        "end_seconds": 1463.2,
+        "text": "Ja, ja raha paneb rattad käima."
+      },
+      {
+        "start_seconds": 1463.2,
+        "end_seconds": 1467.16,
+        "text": "Andrus, sa, sa rääkisid juba sellest, et üks põhjus, miks meile lisandväärtus ei tõuse"
+      },
+      {
+        "start_seconds": 1467.16,
+        "end_seconds": 1473.32,
+        "text": "Eestis, on see, et, et välismaised suurettevõtjad siia miski ei meelita."
+      },
+      {
+        "start_seconds": 1473.32,
+        "end_seconds": 1477.12,
+        "text": "Ja kas on veel midagi, kas sul, kas sa tunned veel midagi, kas me, kus me jääme vaja"
+      },
+      {
+        "start_seconds": 1477.12,
+        "end_seconds": 1481.08,
+        "text": "ka võrreldes välismaiste konkurentidega?"
+      },
+      {
+        "start_seconds": 1481.08,
+        "end_seconds": 1488.56,
+        "text": "No kõrgkooli rektorina mul on, mul on siin kahe aastaga nüüd kujunenud selge aru"
+      },
+      {
+        "start_seconds": 1488.56,
+        "end_seconds": 1494.6,
+        "text": "saam, et, et meil on probleeme just nimelt selle tarkuse sissetoomisega ka."
+      },
+      {
+        "start_seconds": 1494.6,
+        "end_seconds": 1500.92,
+        "text": "Et, et riigi poolt on tehtud väga palju piiranguid välistudengite riiki tulekul."
+      },
+      {
+        "start_seconds": 1500.92,
+        "end_seconds": 1505.52,
+        "text": "Targad välistudengid, kes tuleks, tuleks siia õppima ja panustaks tegelikult kohalikku"
+      },
+      {
+        "start_seconds": 1505.52,
+        "end_seconds": 1507.24,
+        "text": "majandusse väga tugevalt."
+      },
+      {
+        "start_seconds": 1507.24,
+        "end_seconds": 1511.04,
+        "text": "Seda on kõik, kõik kogu statistika näidanud kenasti."
+      },
+      {
+        "start_seconds": 1511.04,
+        "end_seconds": 1517.08,
+        "text": "Et, et välistudengite osakaal Eesti tudengite siis üldarvus on, on selgelt langenud."
+      },
+      {
+        "start_seconds": 1517.08,
+        "end_seconds": 1521.84,
+        "text": "Covidi järgselt ta langes siis üle Euroopa igal pool, ta on taastunud, enamus Euroopa"
+      },
+      {
+        "start_seconds": 1521.84,
+        "end_seconds": 1527.8,
+        "text": "riikides, Eestis kusjuures ei ole, me oleme jätkuvalt, jätkuvalt põhjas ja teeme väga"
+      },
+      {
+        "start_seconds": 1527.8,
+        "end_seconds": 1531.84,
+        "text": "raskeks headel välistudengitel Eestisse õppima tuleku."
+      },
+      {
+        "start_seconds": 1531.84,
+        "end_seconds": 1539.28,
+        "text": "Et, et, et see on ka meie ettevõtlusele probleem, et, et tõesti koolid ei suuda anda"
+      },
+      {
+        "start_seconds": 1539.28,
+        "end_seconds": 1544.52,
+        "text": "neid samu häid insenere ja, ja häid tugevaid ärijuhte, kellel oleks ka mingisugune g"
+      },
+      {
+        "start_seconds": 1544.52,
+        "end_seconds": 1551.16,
+        "text": "lobaalne vaade juba olemas ja globaalset kontaktid, et, et arendada siis sellist noh"
+      },
+      {
+        "start_seconds": 1551.16,
+        "end_seconds": 1555.4,
+        "text": ", ettevõtte edukuse kriteerium minu jaoks on just tema ekspordivõimekus."
+      },
+      {
+        "start_seconds": 1555.4,
+        "end_seconds": 1561.36,
+        "text": "Nii et, et arendada seda ekspordivõimekust, et Eesti kohalik turg, see ei ole päris tu"
+      },
+      {
+        "start_seconds": 1561.36,
+        "end_seconds": 1566.0,
+        "text": "rg ikkagi, et, et ta on nii väike, et seda on nagu nimetatud ka Eestit kui, kui asukoht"
+      },
+      {
+        "start_seconds": 1566.0,
+        "end_seconds": 1568.16,
+        "text": "a, et, et me ei saa siin võtta nagu turgu."
+      },
+      {
+        "start_seconds": 1568.16,
+        "end_seconds": 1572.76,
+        "text": "Küll aga me saame siin globaalsele turule teha tarku asju ja selleks meil on vaja ta"
+      },
+      {
+        "start_seconds": 1572.76,
+        "end_seconds": 1578.56,
+        "text": "rku inimesi ja, ja me peame siin ka riigina vaatama, et tõesti meil on võimalused seda"
+      },
+      {
+        "start_seconds": 1578.56,
+        "end_seconds": 1581.32,
+        "text": "tarkust võimalikult palju toota."
+      },
+      {
+        "start_seconds": 1581.32,
+        "end_seconds": 1584.96,
+        "text": "Fredi, sina küpsetad puitu kaugetele eksootilistele turgudele."
+      },
+      {
+        "start_seconds": 1584.96,
+        "end_seconds": 1589.32,
+        "text": "Kuidas, kuidas sa tunned seal, et Eesti, Eesti või Eesti ettevõtete kuvand seal on, kas"
+      },
+      {
+        "start_seconds": 1589.32,
+        "end_seconds": 1596.16,
+        "text": ", kas, kas meil on mingeid nagu põhimõttelisi probleeme seal kaugel tegutsemiseks?"
+      },
+      {
+        "start_seconds": 1596.16,
+        "end_seconds": 1603.48,
+        "text": "No, kuna mina olen sellisest tehasest, kus on noh, minu tehases on kuskil sada"
+      },
+      {
+        "start_seconds": 1603.48,
+        "end_seconds": 1605.28,
+        "text": "seitsekümmend inimest."
+      },
+      {
+        "start_seconds": 1605.28,
+        "end_seconds": 1611.08,
+        "text": "Ja, ja me teemegi nagu peamiselt saunamaterjale, mis tähendab siis seda, et, et sauna"
+      },
+      {
+        "start_seconds": 1611.08,
+        "end_seconds": 1618.32,
+        "text": "turu mõistes teispool maakera, saun on, on inimeste jaoks mingisugune noh asi, et, et"
+      },
+      {
+        "start_seconds": 1618.32,
+        "end_seconds": 1622.08,
+        "text": "noh, kas see on siis nagu väga rikaste inimeste mure on ju, et noh, kui sa kellelegi"
+      },
+      {
+        "start_seconds": 1622.08,
+        "end_seconds": 1626.64,
+        "text": "ütled, ma ei tea, kasvõi Inglismaal ütled, et kuule, et mul nagu saun mul kaks või kolm"
+      },
+      {
+        "start_seconds": 1626.64,
+        "end_seconds": 1628.92,
+        "text": "tükki, onju."
+      },
+      {
+        "start_seconds": 1628.92,
+        "end_seconds": 1632.84,
+        "text": "Vaadatakse sind sellise pilguga, et sa oled ilmselt oligarh või mingisugune noh, seda"
+      },
+      {
+        "start_seconds": 1632.84,
+        "end_seconds": 1633.92,
+        "text": "tüüpi vend onju."
+      },
+      {
+        "start_seconds": 1633.92,
+        "end_seconds": 1638.8,
+        "text": "Aga tegelikult täiesti normaalne, igalühel on, on selline kopsikusaun ja kõik asjad olemas"
+      },
+      {
+        "start_seconds": 1638.8,
+        "end_seconds": 1639.52,
+        "text": ", on ju."
+      },
+      {
+        "start_seconds": 1639.52,
+        "end_seconds": 1645.52,
+        "text": "Ehk et, et kui sa ütled nagu kuvandi mõistes, siis, siis pigem nii-öelda Eesti, Soome"
+      },
+      {
+        "start_seconds": 1645.52,
+        "end_seconds": 1651.96,
+        "text": ", meid võetakse kui väga tõsiseltvõetavaid eksperte selles, selles osas."
+      },
+      {
+        "start_seconds": 1651.96,
+        "end_seconds": 1654.24,
+        "text": "Me teame, mis saun on."
+      },
+      {
+        "start_seconds": 1654.24,
+        "end_seconds": 1660.48,
+        "text": "Me teame, mis materjalist seda tehakse ja mul on alati nagu üks selline nii-öelda nagu"
+      },
+      {
+        "start_seconds": 1660.48,
+        "end_seconds": 1666.56,
+        "text": "nali ka nii-öelda välisturgudele, Uruguay klient näiteks käis meil noh, et, et ma küsi"
+      },
+      {
+        "start_seconds": 1666.56,
+        "end_seconds": 1670.28,
+        "text": "ks niimoodi, et mis asja on selle Uruguail seal saunaga, on ju, aga tegelikult klient"
+      },
+      {
+        "start_seconds": 1670.28,
+        "end_seconds": 1674.36,
+        "text": "käis ja siis küsis igast erinevaid küsimusi, et mis siis, ma ei tea puidul juhtub ja"
+      },
+      {
+        "start_seconds": 1674.36,
+        "end_seconds": 1677.28,
+        "text": "mis on ja ütlesin mõrad tulevad sisse."
+      },
+      {
+        "start_seconds": 1677.28,
+        "end_seconds": 1680.68,
+        "text": "Siis ta oli nagu niimoodi, no mõrad tulevad sisse, ma ütlesin, et aga mis alternatii"
+      },
+      {
+        "start_seconds": 1680.68,
+        "end_seconds": 1685.24,
+        "text": "v on, on ju, et, et sa võid omale noh, täitsa tõsise näoga rääkisin, et sa võid omale"
+      },
+      {
+        "start_seconds": 1685.24,
+        "end_seconds": 1688.44,
+        "text": "raudlavaga teha, ühtegi mõra ei tulnud sisse."
+      },
+      {
+        "start_seconds": 1688.44,
+        "end_seconds": 1690.56,
+        "text": "Ütlesin, et aga kuum on istuda."
+      },
+      {
+        "start_seconds": 1690.56,
+        "end_seconds": 1696.56,
+        "text": "Ja noh, saad aru, et tegelikult ei ole nagu selles, selles nii-öelda puidu, selles se"
+      },
+      {
+        "start_seconds": 1696.56,
+        "end_seconds": 1699.6,
+        "text": "ktoris, kus mina olen, seal ei ole puidule alternatiivi."
+      },
+      {
+        "start_seconds": 1699.6,
+        "end_seconds": 1703.8,
+        "text": "Ja, ja ta ei ole ka kuidagi keskkonnasäästlikum kui kuskil teisel pool maakera kopad"
+      },
+      {
+        "start_seconds": 1703.8,
+        "end_seconds": 1704.64,
+        "text": "müttavad, on ju."
+      },
+      {
+        "start_seconds": 1704.64,
+        "end_seconds": 1707.64,
+        "text": "Ja, ja see C on juba ammu üles ära läinud, selleks hetkeks."
+      },
+      {
+        "start_seconds": 1707.64,
+        "end_seconds": 1715.0,
+        "text": "Nii et noh, selline kuvand Eesti puidutööstuses pigem on ikkagi hea maailmas ja,"
+      },
+      {
+        "start_seconds": 1715.0,
+        "end_seconds": 1721.08,
+        "text": "ja, ja just seesama ekspordi jutt on ju, et, et lõpuks siin siseringis mina annan sul"
+      },
+      {
+        "start_seconds": 1721.08,
+        "end_seconds": 1726.6,
+        "text": "le, sina annad mulle raha ja, ja lõpuks, mida siis sellest nii-öelda nagu riik rikka"
+      },
+      {
+        "start_seconds": 1726.6,
+        "end_seconds": 1727.16,
+        "text": "maks saab?"
+      },
+      {
+        "start_seconds": 1727.16,
+        "end_seconds": 1733.0,
+        "text": "Ehk et kui me eksporti ei suuda kasvatada, siis väljast raha sisse ei tule ja, ja me"
+      },
+      {
+        "start_seconds": 1733.0,
+        "end_seconds": 1737.16,
+        "text": "võime siin keerutada sedasama supikest niikaua kui me tahame ja mõtleme, et jube hästi"
+      },
+      {
+        "start_seconds": 1737.16,
+        "end_seconds": 1744.16,
+        "text": "on, tõstame üksteisele makse ja raiskame aega on ju, et, et noh, selles mõttes päris"
+      },
+      {
+        "start_seconds": 1744.16,
+        "end_seconds": 1750.4,
+        "text": "elt ma, mina ei näe täna nagu tahet, räägitakse sellest, et, et tööstus peaks, peaks"
+      },
+      {
+        "start_seconds": 1750.4,
+        "end_seconds": 1751.16,
+        "text": "turgutama."
+      },
+      {
+        "start_seconds": 1751.16,
+        "end_seconds": 1756.0,
+        "text": "Ma ei, ma ei näe seda tahet, sest et see on lihtsalt sõnakõlks on ju ja siis nii-öelda"
+      },
+      {
+        "start_seconds": 1756.0,
+        "end_seconds": 1763.12,
+        "text": "nagu selle varjus pisendatakse seda, et, et ma ei tea puidukeemiatehas läheb"
+      },
+      {
+        "start_seconds": 1763.12,
+        "end_seconds": 1767.84,
+        "text": "Lätti, mis seal ikka on ju noh, et tegelikult te peate ju aru saama, et, et see on, see"
+      },
+      {
+        "start_seconds": 1767.84,
+        "end_seconds": 1774.96,
+        "text": "on päris suur kaotus, et ma saan aru, et, et ühelt poolt on, on Kirjaneni nimi on"
+      },
+      {
+        "start_seconds": 1774.96,
+        "end_seconds": 1778.96,
+        "text": "kõigil nii-öelda hammaste vahel, aga kui ta päriselt tahab mingit asja teha, siis, siis"
+      },
+      {
+        "start_seconds": 1778.96,
+        "end_seconds": 1783.28,
+        "text": "kui riik võtab seisukoha, et see on nagu väike kaotus, et me loodame, et äkki hakata"
+      },
+      {
+        "start_seconds": 1783.28,
+        "end_seconds": 1787.96,
+        "text": "kse seal hoopis seda Pärnu küljel puskarit tegema, mis lendas ka vastu taevast on ju"
+      },
+      {
+        "start_seconds": 1787.96,
+        "end_seconds": 1790.08,
+        "text": "ehk noh."
+      },
+      {
+        "start_seconds": 1790.08,
+        "end_seconds": 1796.32,
+        "text": "Ma ei, ma ei saa sellest aru ja, ja, ja see, see on täna nagu tõsine mure, et ekspordi"
+      },
+      {
+        "start_seconds": 1796.32,
+        "end_seconds": 1801.2,
+        "text": "vaates on ainult selline soe õhk."
+      },
+      {
+        "start_seconds": 1801.2,
+        "end_seconds": 1805.56,
+        "text": "Zuzu, me hakkame nüüd lõpule jõudma selle esimese osaga, kus me võib-olla hetkeolukord"
+      },
+      {
+        "start_seconds": 1805.56,
+        "end_seconds": 1808.0,
+        "text": "a kokku võtame, kaardistame."
+      },
+      {
+        "start_seconds": 1808.0,
+        "end_seconds": 1812.16,
+        "text": "Kas midagi jäi rääkimata, kas midagi, kas meil on mingi pimenurk, poliitiline või mitte"
+      },
+      {
+        "start_seconds": 1812.16,
+        "end_seconds": 1816.96,
+        "text": "poliitiline, millest me praegu üldse ei rääkinud?"
+      },
+      {
+        "start_seconds": 1816.96,
+        "end_seconds": 1821.24,
+        "text": "No kindlasti on mingi, mingid asjad, mida me ei rääkinud praegu, aga ma ei tea, kui sa"
+      },
+      {
+        "start_seconds": 1821.24,
+        "end_seconds": 1826.88,
+        "text": "niimoodi küsid, siis me ei praegu küll niimoodi kohe öelda, et nagu selles vaates, et"
+      },
+      {
+        "start_seconds": 1826.88,
+        "end_seconds": 1834.28,
+        "text": "tööstus ja, ja ma ei tea, võib-olla nagu see maksupoliitika"
+      },
+      {
+        "start_seconds": 1834.28,
+        "end_seconds": 1838.2,
+        "text": "on nagu ka teema, aga ma ei tea, kas me tahame sinna täna minna."
+      },
+      {
+        "start_seconds": 1838.2,
+        "end_seconds": 1843.4,
+        "text": "Ma arvan, et siis me lähme selle aruteluga täitsa ummikusse, las jääb, las jääb maks"
+      },
+      {
+        "start_seconds": 1843.4,
+        "end_seconds": 1847.24,
+        "text": "uekspertide hooleks."
+      },
+      {
+        "start_seconds": 1847.24,
+        "end_seconds": 1853.36,
+        "text": "Lugupeetud pealtvaatajad ja lugupeetud publik, ma näen siin, ma näen siit, et mõned pu"
+      },
+      {
+        "start_seconds": 1853.36,
+        "end_seconds": 1857.04,
+        "text": "idukeemia vennad on siin rahva seas, metsakaitsjad."
+      },
+      {
+        "start_seconds": 1857.04,
+        "end_seconds": 1863.16,
+        "text": "Kas kellelgi on vahepeal küsimusi tekkinud või kas, kes tahaks mõnda mõtet esitada?"
+      },
+      {
+        "start_seconds": 1863.16,
+        "end_seconds": 1866.48,
+        "text": "Näib, et sugugi mitte."
+      },
+      {
+        "start_seconds": 1866.48,
+        "end_seconds": 1871.2,
+        "text": "Ma ei tea, liigume edasi järgmise osani, et liigume, liigume lahenduste, lahenduste poole"
+      },
+      {
+        "start_seconds": 1871.2,
+        "end_seconds": 1872.44,
+        "text": ", et."
+      },
+      {
+        "start_seconds": 1872.44,
+        "end_seconds": 1879.24,
+        "text": "Andrus, kuidas sa, kuidas sa tunned, milliseid muudatusi me peaksime tegema Eesti majandus"
+      },
+      {
+        "start_seconds": 1879.24,
+        "end_seconds": 1882.12,
+        "text": "es, hariduses, mis iganes."
+      },
+      {
+        "start_seconds": 1882.12,
+        "end_seconds": 1886.56,
+        "text": "Et, et seda probleemi lahendada, et me saaksime rohkem lisa- , kõrgema lisandväärtuse"
+      },
+      {
+        "start_seconds": 1886.56,
+        "end_seconds": 1891.68,
+        "text": "ga ettevõtteid siia, võib-olla tööstusettevõtjaid just?"
+      },
+      {
+        "start_seconds": 1891.68,
+        "end_seconds": 1895.48,
+        "text": "Jah, see on, on keeruline kompleksne küsimus, et kui siin hea lahendus oleks, siis ta"
+      },
+      {
+        "start_seconds": 1895.48,
+        "end_seconds": 1899.56,
+        "text": "kindlasti töötaks juba, et siin tõenäoliselt ikkagi me peaks sinna maksumaailma ka mine"
+      },
+      {
+        "start_seconds": 1899.56,
+        "end_seconds": 1903.76,
+        "text": "ma vaatama, et, et välisettevõtted tahaks tulla, nad ikkagi vaatavad selle riigi maks"
+      },
+      {
+        "start_seconds": 1903.76,
+        "end_seconds": 1905.6,
+        "text": "ukeskkonda, kuhu nad on minemas."
+      },
+      {
+        "start_seconds": 1905.6,
+        "end_seconds": 1913.12,
+        "text": "Nii et, et siin, siin oleks neil ikkagi hea, hea, lihtne, lihtne opereerida."
+      },
+      {
+        "start_seconds": 1913.12,
+        "end_seconds": 1917.64,
+        "text": "Positiivne on see, et, et inseneriharidust on, on viimasel ajal tõesti tugevalt propa"
+      },
+      {
+        "start_seconds": 1917.64,
+        "end_seconds": 1918.92,
+        "text": "geeritud, selle tähtsus."
+      },
+      {
+        "start_seconds": 1918.92,
+        "end_seconds": 1925.0,
+        "text": "Tehnikaülikool on siin nagu hästi olnud eestvedaja, ma tooks siia kõrvale just nimelt"
+      },
+      {
+        "start_seconds": 1925.0,
+        "end_seconds": 1930.64,
+        "text": "ka selle juhtimishariduse tähtsuse, et ja, ja seesama võrdlus, et, et ükski hea inse"
+      },
+      {
+        "start_seconds": 1930.64,
+        "end_seconds": 1934.6,
+        "text": "ner ei tee head tööd ilma selle tugeva ärijuhita, kes siis teda nii-öelda aitab õige"
+      },
+      {
+        "start_seconds": 1934.6,
+        "end_seconds": 1936.24,
+        "text": "le suunale ja aitab."
+      },
+      {
+        "start_seconds": 1936.24,
+        "end_seconds": 1943.36,
+        "text": "Ta on mõtteid ikkagi päriselt majanduslikult kasulikult turule tuua, et, et sage"
+      },
+      {
+        "start_seconds": 1943.36,
+        "end_seconds": 1947.72,
+        "text": "li inseneride lahendused, ma ise tööstusele on näinud, on, on väga head, aga kui sa hakka"
+      },
+      {
+        "start_seconds": 1947.72,
+        "end_seconds": 1952.32,
+        "text": "d sinna rahanumbreid kõrvale panema, siis see tõenäoliselt ei lenda."
+      },
+      {
+        "start_seconds": 1952.32,
+        "end_seconds": 1958.2,
+        "text": "Et, et, et heas koostöös tugeva ärijuhi ja tugeva inseneri vahel sünnivad, sünnivad hea"
+      },
+      {
+        "start_seconds": 1958.2,
+        "end_seconds": 1964.48,
+        "text": "d lahendused, et, et, et siin on meil kindlasti, kindlasti potentsiaali."
+      },
+      {
+        "start_seconds": 1964.48,
+        "end_seconds": 1968.48,
+        "text": "Fredi kuidas, kuidas teil tootearendusega nagu on, et kas, kas see, kuidas ise tunne"
+      },
+      {
+        "start_seconds": 1968.48,
+        "end_seconds": 1973.68,
+        "text": "d, et kas tuleb peale piisavalt spetsialiste, kes, kes sulle järjest keerulisemaid asju"
+      },
+      {
+        "start_seconds": 1973.68,
+        "end_seconds": 1977.6,
+        "text": "välja mõtlevad?"
+      },
+      {
+        "start_seconds": 1977.6,
+        "end_seconds": 1985.4,
+        "text": "Ütleks, et ma seda mingisugust suurt puudujääki just enda vaatest ei tunne, sest ütleme"
+      },
+      {
+        "start_seconds": 1985.4,
+        "end_seconds": 1990.24,
+        "text": ", kui me teeme mis iganes profiillauda, siis, siis selles mõttes, et see selle profi"
+      },
+      {
+        "start_seconds": 1990.24,
+        "end_seconds": 1994.76,
+        "text": "illaua joonistamine ei ole iseenesest midagi keerulist."
+      },
+      {
+        "start_seconds": 1994.76,
+        "end_seconds": 2002.08,
+        "text": "Kui me räägime nüüd seda, et meil on ka, meil on ka väga grupi vaates ka väga hi"
+      },
+      {
+        "start_seconds": 2002.08,
+        "end_seconds": 2009.32,
+        "text": "gh-end valmis saunad, mis on siis nii-öelda üle maailma suurtesse spaadesse."
+      },
+      {
+        "start_seconds": 2009.32,
+        "end_seconds": 2012.28,
+        "text": "Noh, siis on, seal läheb juba keerukus suuremaks."
+      },
+      {
+        "start_seconds": 2012.28,
+        "end_seconds": 2018.64,
+        "text": "Esiteks tehnika absoluutselt kõik asjad, mis seal sees on."
+      },
+      {
+        "start_seconds": 2018.64,
+        "end_seconds": 2025.08,
+        "text": "Täna on sellega ka veel hästi, aga ühelt poolt on nagu, ühelt poolt on see, et see in"
+      },
+      {
+        "start_seconds": 2025.08,
+        "end_seconds": 2028.52,
+        "text": "senerihariduse selline nii-öelda boost'imine."
+      },
+      {
+        "start_seconds": 2028.52,
+        "end_seconds": 2034.88,
+        "text": "Mulle tundub, et täna endiselt ikkagi oleme hiljaks jäänud, sest et ütleme, kui me täna"
+      },
+      {
+        "start_seconds": 2034.88,
+        "end_seconds": 2040.88,
+        "text": "insenere vaatame, siis mul ei pruugi olla kõige täpsemad andmed, aga, aga minu mäleta"
+      },
+      {
+        "start_seconds": 2040.88,
+        "end_seconds": 2045.6,
+        "text": "mist möödas oli kuskil seitsekümmend protsenti, kas on juba elu sellises nii-öelda nagu"
+      },
+      {
+        "start_seconds": 2045.6,
+        "end_seconds": 2050.4,
+        "text": "tööelu viimases otsas ehk et kui me ju uusi peale ei tule, siis, siis hakkab see var"
+      },
+      {
+        "start_seconds": 2050.4,
+        "end_seconds": 2056.24,
+        "text": "sti pooma meid ja see on ainult üks pooja selle asja juures, et, et tööstus saaks are"
+      },
+      {
+        "start_seconds": 2056.24,
+        "end_seconds": 2061.6,
+        "text": "neda sellisena, nagu ta, nagu me ootame, on ju ühiskondlik ootus on."
+      },
+      {
+        "start_seconds": 2061.6,
+        "end_seconds": 2066.24,
+        "text": "Et aga ma täna nagu ise ei, ei taju seda."
+      },
+      {
+        "start_seconds": 2066.24,
+        "end_seconds": 2072.08,
+        "text": "Mina pigem mõtlen seda sellisena, et, et mida ma täna teha saan, on see, et need inimesed"
+      },
+      {
+        "start_seconds": 2072.08,
+        "end_seconds": 2078.76,
+        "text": ", kes täna on otsustamise sellises nii-öelda otsustamis lävel noh, kasvõi hea näitena"
+      },
+      {
+        "start_seconds": 2078.76,
+        "end_seconds": 2082.4,
+        "text": "mingisugused avatud tehaste päev, mis Tartumaal esimest korda toimus."
+      },
+      {
+        "start_seconds": 2082.4,
+        "end_seconds": 2086.2,
+        "text": "Ma olin kohe kahe käega poolt, sest ma ütlesin, et kui me täna ei tegele nende inimeste"
+      },
+      {
+        "start_seconds": 2086.2,
+        "end_seconds": 2091.92,
+        "text": "ga, kes hakkavad tööturule kuskile minema siis me noh, siis see tegelikult see Youtu"
+      },
+      {
+        "start_seconds": 2091.92,
+        "end_seconds": 2096.96,
+        "text": "ber on olla palju lihtsam, on ju, et me peame kuidagi need noored inimesed tõmbama pa"
+      },
+      {
+        "start_seconds": 2096.96,
+        "end_seconds": 2102.28,
+        "text": "ati, mitte ootama, et äkki äkki nad ise otsustavad ja tegelikult jama on seal veel selles"
+      },
+      {
+        "start_seconds": 2102.28,
+        "end_seconds": 2108.92,
+        "text": "ka, et, et noore inimese eest tihtipeale otsus tahab teha ju vanem ja kui vanem noh,"
+      },
+      {
+        "start_seconds": 2108.92,
+        "end_seconds": 2114.4,
+        "text": "minu jaoks selline huvitav asi, et, et käisid seal klassid, on ju ja, ja kui see viie"
+      },
+      {
+        "start_seconds": 2114.4,
+        "end_seconds": 2119.2,
+        "text": "kümne aastane naisterahvas ütleb, et tema on ka esimest korda tehases, siis kuidas tema"
+      },
+      {
+        "start_seconds": 2119.2,
+        "end_seconds": 2123.6,
+        "text": "saab rääkida, et, et tööstus on midagi nii-öelda nagu huvitavat."
+      },
+      {
+        "start_seconds": 2123.6,
+        "end_seconds": 2128.64,
+        "text": "Noh, õpetaja lõpuks ei taha ju loll ka näida, on ju, et ma ei tea sellest asjast, ehk"
+      },
+      {
+        "start_seconds": 2128.64,
+        "end_seconds": 2131.32,
+        "text": "et tegelikult on lihtsam nendest teemadest mööda minna."
+      },
+      {
+        "start_seconds": 2131.32,
+        "end_seconds": 2135.36,
+        "text": "Ja, ja ma mõtlesin, et ma väga austan, et sa, sa ütlesid ära, et ma ei ole käinud ja"
+      },
+      {
+        "start_seconds": 2135.36,
+        "end_seconds": 2140.68,
+        "text": ", ja, ja ma ei teagi sellest midagi, tegelikult on, on vaja, ise on vaja hakata liigu"
+      },
+      {
+        "start_seconds": 2140.68,
+        "end_seconds": 2144.92,
+        "text": "tama, mitte oodata, et äkki keegi kuskil teine teeb selle selles suunas mingid sammu"
+      },
+      {
+        "start_seconds": 2144.92,
+        "end_seconds": 2149.56,
+        "text": "d."
+      },
+      {
+        "start_seconds": 2149.56,
+        "end_seconds": 2153.08,
+        "text": "Et me kõik teame kõigist asjadest liiga vähe, kaasa arvatud tööstusest, et see on ke"
+      },
+      {
+        "start_seconds": 2153.08,
+        "end_seconds": 2156.56,
+        "text": "eruline neid toimeloogikaid on suht- raske aru saada."
+      },
+      {
+        "start_seconds": 2156.56,
+        "end_seconds": 2163.04,
+        "text": "Ja just kui ma meediast loen neid teemasid, siis need kajastused on sellised."
+      },
+      {
+        "start_seconds": 2163.04,
+        "end_seconds": 2166.08,
+        "text": "Noh, ma nüüd, ma ei taha poolt valida, aga mulle tundub, et nad on vähe informeeritud"
+      },
+      {
+        "start_seconds": 2166.08,
+        "end_seconds": 2166.56,
+        "text": "kohati."
+      },
+      {
+        "start_seconds": 2166.56,
+        "end_seconds": 2174.0,
+        "text": "No pealiskaudsed, selles mõttes, et on, on nad nagu teadlikke inimesi on vähe ja, ja"
+      },
+      {
+        "start_seconds": 2174.0,
+        "end_seconds": 2178.52,
+        "text": "kui sa mitteteadliku inimese käest küsid arvamust, siis tal on lihtsam olla kõigele vastu"
+      },
+      {
+        "start_seconds": 2178.52,
+        "end_seconds": 2179.68,
+        "text": "."
+      },
+      {
+        "start_seconds": 2179.68,
+        "end_seconds": 2184.16,
+        "text": "Et, et siis sa ei ole mingit vastutust kaob sinult ära, sest sa ei, ma ei tea sellest"
+      },
+      {
+        "start_seconds": 2184.16,
+        "end_seconds": 2190.64,
+        "text": "midagi, noh ei, ei ole vaja teha, aga et, et, et kas nagu, et kas see tööstus, noh töö"
+      },
+      {
+        "start_seconds": 2190.64,
+        "end_seconds": 2195.44,
+        "text": "stus ei ole kindlasti kõige seksikam asi maailmas on ju, aga kas see tööstus, et mida"
+      },
+      {
+        "start_seconds": 2195.44,
+        "end_seconds": 2200.64,
+        "text": "te meile siis annab, on ju, et noh, tegelikult see on üks asi, miks, mis mulle tundub"
+      },
+      {
+        "start_seconds": 2200.64,
+        "end_seconds": 2206.2,
+        "text": ", et, et on nagu hästi-hästi selgitamata ja ma päris täpselt ei tea, kas seda selgitama"
+      },
+      {
+        "start_seconds": 2206.2,
+        "end_seconds": 2210.48,
+        "text": "peaks, et kui seda hakkab mingisugune ettevõtte juht selgitama, et tööstus on sellepärast"
+      },
+      {
+        "start_seconds": 2210.48,
+        "end_seconds": 2214.92,
+        "text": "hea, et, et ah mis sa oled lihtsalt tahnena, on ju."
+      },
+      {
+        "start_seconds": 2214.92,
+        "end_seconds": 2220.0,
+        "text": "Kus tegelikult peaks olema ka üks loogiline koht poliitikute vaatest, meil on seda töö"
+      },
+      {
+        "start_seconds": 2220.0,
+        "end_seconds": 2225.84,
+        "text": "stust selleks vaja, et maksta ära õpetajate palgad, see on nii-öelda reaalne sissetu"
+      },
+      {
+        "start_seconds": 2225.84,
+        "end_seconds": 2231.8,
+        "text": "lek sellesse, aga see on kuidagi samasugune asi, et pealiskaudsus on üsna, üsna valda"
+      },
+      {
+        "start_seconds": 2231.8,
+        "end_seconds": 2233.28,
+        "text": "v."
+      },
+      {
+        "start_seconds": 2233.28,
+        "end_seconds": 2238.84,
+        "text": "Zuzu, sa oled ju keskkonnateemadel sihuke häälekas, häälekas poliitik."
+      },
+      {
+        "start_seconds": 2238.84,
+        "end_seconds": 2244.68,
+        "text": "Kuidas, kuidas sina kui sellise, kuidas nüüd öelda suunitlusega inimene suhtud neisse"
+      },
+      {
+        "start_seconds": 2244.68,
+        "end_seconds": 2249.28,
+        "text": "tööstuse probleemidesse, kuidas sa näed seda, et."
+      },
+      {
+        "start_seconds": 2249.28,
+        "end_seconds": 2256.64,
+        "text": "Et, et me justkui, justkui praegu räägime tööstuse tugevdamisest, võimestamisest?"
+      },
+      {
+        "start_seconds": 2256.64,
+        "end_seconds": 2264.04,
+        "text": "No kui nagu kaasa mõelda, siis noh, ma olen seda oma peas ikka ka mõelnud ja ja no"
+      },
+      {
+        "start_seconds": 2264.04,
+        "end_seconds": 2268.92,
+        "text": "minu arust on päris suureks probleemiks ka needsamad tööstusettevõtete esindajad, kes"
+      },
+      {
+        "start_seconds": 2268.92,
+        "end_seconds": 2275.76,
+        "text": "nagu sõna võtavad, et nad võivad ju ühes teemas olla nagu kompetentsed, aga, aga ka ne"
+      },
+      {
+        "start_seconds": 2275.76,
+        "end_seconds": 2278.64,
+        "text": "mad on muudes teemades pealiskaudsed ja."
+      },
+      {
+        "start_seconds": 2278.64,
+        "end_seconds": 2285.6,
+        "text": "Ma ei tahtnud küll Kirjaneni isiku küsimust nagu siin tõstatada, aga, aga no tema lihtsalt"
+      },
+      {
+        "start_seconds": 2285.6,
+        "end_seconds": 2289.6,
+        "text": "väga hea näide selle, selle puhul, et."
+      },
+      {
+        "start_seconds": 2289.6,
+        "end_seconds": 2296.68,
+        "text": "Et, et see, kuidas ta räägib ja mida ta ütleb, et see on lihtsalt nagu eema"
+      },
+      {
+        "start_seconds": 2296.68,
+        "end_seconds": 2303.24,
+        "text": "le tõukav väga paljudele, et kuigi ta mingis osas võib-olla nagu teeb õiget asja ja oleks"
+      },
+      {
+        "start_seconds": 2303.24,
+        "end_seconds": 2309.36,
+        "text": "hea ikkagi leida see ühisosa ja nagu koos edasi minna, siis siis ta nagu ka näitab oma"
+      },
+      {
+        "start_seconds": 2309.36,
+        "end_seconds": 2316.32,
+        "text": "põlgust välja keskkonnakaitse suhtes üldiselt ja see on nagu see probleem, et kui meil"
+      },
+      {
+        "start_seconds": 2316.32,
+        "end_seconds": 2323.04,
+        "text": "oleksid sellised töösturid, kellel on selline suhtumine nagu nendel inimestel siin."
+      },
+      {
+        "start_seconds": 2323.04,
+        "end_seconds": 2328.56,
+        "text": "Ma arvan, oleks palju nagu kiiremini võimalik edasi liikuda selle ühisosa ja selle kokku"
+      },
+      {
+        "start_seconds": 2328.56,
+        "end_seconds": 2334.96,
+        "text": "leppe poole, et, et meie tööstus oleks kõrgel tasemel ja loodus oleks kaitstud."
+      },
+      {
+        "start_seconds": 2334.96,
+        "end_seconds": 2338.08,
+        "text": "Eks ma selleks ju Fredi välja otsisingi."
+      },
+      {
+        "start_seconds": 2338.08,
+        "end_seconds": 2341.28,
+        "text": "Ma saan aru jah, mida sa tegid."
+      },
+      {
+        "start_seconds": 2341.28,
+        "end_seconds": 2344.76,
+        "text": "Jah."
+      },
+      {
+        "start_seconds": 2344.76,
+        "end_seconds": 2355.2,
+        "text": "Andrus, kui, kui palju see muutus sõltub tarbijaskonnast ja avalikust arvamusest?"
+      },
+      {
+        "start_seconds": 2355.2,
+        "end_seconds": 2361.56,
+        "text": "Ma siin võib-olla kalduks kergelt kõrvale oma vastuses ja, ja veidi, veidi lihtsalt un"
+      },
+      {
+        "start_seconds": 2361.56,
+        "end_seconds": 2366.12,
+        "text": "istaks natukene, et, et, et ühelt poolt ma tooks selle välja, mu viimane tööstus, ma"
+      },
+      {
+        "start_seconds": 2366.12,
+        "end_seconds": 2371.4,
+        "text": "olin tihedalt seotud plastitööstusega, autotööstusele, siis suurtele klientidele."
+      },
+      {
+        "start_seconds": 2371.4,
+        "end_seconds": 2377.88,
+        "text": "Ja, ja selgelt seal on, on tekkimas trend, kus tugevalt tuleb vähendada kogu selle fo"
+      },
+      {
+        "start_seconds": 2377.88,
+        "end_seconds": 2381.32,
+        "text": "ssiilse maailma kasutamist siis uutes autodes."
+      },
+      {
+        "start_seconds": 2381.32,
+        "end_seconds": 2386.6,
+        "text": "Ja noh, plast on, on paraku, on nagu selgelt väga fossiilse taustaga."
+      },
+      {
+        "start_seconds": 2386.6,
+        "end_seconds": 2390.56,
+        "text": "Ja, ja noh, taaskasutus on siin üks lahendus kindlasti."
+      },
+      {
+        "start_seconds": 2390.56,
+        "end_seconds": 2398.56,
+        "text": "Aga, aga seesama puidu väärindamine ja, ja-ja puidu kasutamine tööstuslikult"
+      },
+      {
+        "start_seconds": 2398.56,
+        "end_seconds": 2404.48,
+        "text": "uute materjalide loomisel võiks olla üks selline hea alternatiiv Eestile."
+      },
+      {
+        "start_seconds": 2404.48,
+        "end_seconds": 2407.96,
+        "text": "Et see kindlasti on väga keerukas, väga teadusmahukas."
+      },
+      {
+        "start_seconds": 2407.96,
+        "end_seconds": 2414.48,
+        "text": "Hetkel maailmas on, teevad tugevat revolutsiooni kvantarvutid, tugevat arengut, kvan"
+      },
+      {
+        "start_seconds": 2414.48,
+        "end_seconds": 2421.48,
+        "text": "tarvutite puhul on öeldud ka seda, et üks valdkond, kus nad kindlasti väga hästi anna"
+      },
+      {
+        "start_seconds": 2421.48,
+        "end_seconds": 2427.04,
+        "text": "vad või kiiresti hakkavad tulemusi andma lisaks teistele on uued materjalid, uute ma"
+      },
+      {
+        "start_seconds": 2427.04,
+        "end_seconds": 2428.36,
+        "text": "terjalide loomine."
+      },
+      {
+        "start_seconds": 2428.36,
+        "end_seconds": 2434.24,
+        "text": "Ja siin on ka nüüd ma ütleks Eesti valitsusele kerge sihuke küsimärk on nagu minu, minu"
+      },
+      {
+        "start_seconds": 2434.24,
+        "end_seconds": 2441.0,
+        "text": "silmis õhus, et, et ma vaatan naaberriike, siis kõikidel riikidel on kvantarvuti are"
+      },
+      {
+        "start_seconds": 2441.0,
+        "end_seconds": 2445.48,
+        "text": "ndamise suunalised töörühmad riigi tasemel loodud."
+      },
+      {
+        "start_seconds": 2445.48,
+        "end_seconds": 2447.44,
+        "text": "Eestis seda kahjuks ei ole."
+      },
+      {
+        "start_seconds": 2447.44,
+        "end_seconds": 2453.92,
+        "text": "Et, et, et seesama kvantarvuti, esimene kvantarvuti Eestis, sellesuunaline töö, aita"
+      },
+      {
+        "start_seconds": 2453.92,
+        "end_seconds": 2459.6,
+        "text": "ks kaasa uute materjalide loomisel, aitaks kaasa leida lahendusi sellesama puidu parem"
+      },
+      {
+        "start_seconds": 2459.6,
+        "end_seconds": 2463.64,
+        "text": "aks väärindamiseks ja, ja uute materjalide, täiesti uute materjalide, millest meil ei"
+      },
+      {
+        "start_seconds": 2463.64,
+        "end_seconds": 2467.36,
+        "text": "ole aimugi hetkel veel, mida saaks puidu põhjal teha ja luua."
+      },
+      {
+        "start_seconds": 2467.36,
+        "end_seconds": 2471.4,
+        "text": "Ja, ja kuna Eestis seda ressurssi on palju, siis see võiks olla üks niisugune hea fo"
+      },
+      {
+        "start_seconds": 2471.4,
+        "end_seconds": 2477.88,
+        "text": "okus meile ja, ja läbi selle tulla turule siis plasti asendavate materjalidega, mis tegelikult"
+      },
+      {
+        "start_seconds": 2477.88,
+        "end_seconds": 2482.84,
+        "text": "põhinevad puidul, et, et sellist, sellist unistamist jah, ma korraks tõin siia sisse"
+      },
+      {
+        "start_seconds": 2482.84,
+        "end_seconds": 2484.48,
+        "text": "."
+      },
+      {
+        "start_seconds": 2484.48,
+        "end_seconds": 2489.88,
+        "text": "Väga-väga lahe unistamine minu arust ja ja praegu siin hästi palju mõtlesin jälle, et"
+      },
+      {
+        "start_seconds": 2489.88,
+        "end_seconds": 2493.8,
+        "text": "nagu mis see siis lahendus meil oleks nagu, et kuidas me siis saaksime?"
+      },
+      {
+        "start_seconds": 2493.8,
+        "end_seconds": 2497.6,
+        "text": "No me oleme ju, ma ei tea, ma ei tea, viisteist, oih vabandust, viisteist aastat räägime"
+      },
+      {
+        "start_seconds": 2497.6,
+        "end_seconds": 2503.64,
+        "text": "nagu sedasama juttu ja ja, ja no me ei ole meil neid materjali tootmisi siin ja kõik"
+      },
+      {
+        "start_seconds": 2503.64,
+        "end_seconds": 2505.12,
+        "text": "e seda."
+      },
+      {
+        "start_seconds": 2505.12,
+        "end_seconds": 2510.28,
+        "text": "Ja, ja vaata siin oli paar nädalat tagasi oli see uudis, et meil eurobaromeetri järgi"
+      },
+      {
+        "start_seconds": 2510.28,
+        "end_seconds": 2514.6,
+        "text": "oleme kõige nagu kliima, ma ei tea, kuidas see sõnastus seal oli, aga."
+      },
+      {
+        "start_seconds": 2514.6,
+        "end_seconds": 2515.72,
+        "text": "Ükskõiksem äkki."
+      },
+      {
+        "start_seconds": 2515.72,
+        "end_seconds": 2522.96,
+        "text": "Ja et nagu et väga keeruline on teha selliseid või noh poliitiku"
+      },
+      {
+        "start_seconds": 2522.96,
+        "end_seconds": 2527.36,
+        "text": "id sundida midagi tegema, kui nagu inimesed nagu ka ei nõua."
+      },
+      {
+        "start_seconds": 2527.36,
+        "end_seconds": 2530.04,
+        "text": "Et kuidas sa teed seda?"
+      },
+      {
+        "start_seconds": 2530.04,
+        "end_seconds": 2535.52,
+        "text": "Nagu väga kehv olukord, ma ütleks, et ja-ja sa küsisid ennem selle hariduse kohta ka"
+      },
+      {
+        "start_seconds": 2535.52,
+        "end_seconds": 2542.72,
+        "text": "noh jah, ja seda haridust, haridust oleks vaja ka nagu rohkem suunata sinnapoole, aga"
+      },
+      {
+        "start_seconds": 2542.72,
+        "end_seconds": 2548.32,
+        "text": ", aga see on ka, see on nagu pikema vinnaga lahendus."
+      },
+      {
+        "start_seconds": 2548.32,
+        "end_seconds": 2553.72,
+        "text": "Et, et inimesed peavad lihtsalt need, kes on teadlikud, keskkonnateadlikud, need pea"
+      },
+      {
+        "start_seconds": 2553.72,
+        "end_seconds": 2556.6,
+        "text": "vad lihtsalt veel nõudlikumad olema."
+      },
+      {
+        "start_seconds": 2556.6,
+        "end_seconds": 2561.12,
+        "text": "Ühes salgauuringus see, see pole küll super värske, see on paari aasta tagune, tegelikult"
+      },
+      {
+        "start_seconds": 2561.12,
+        "end_seconds": 2564.52,
+        "text": "peaaegu seitsekümmend protsenti eestlasi soovib raiemahu vähendamist."
+      },
+      {
+        "start_seconds": 2564.52,
+        "end_seconds": 2568.0,
+        "text": "Aga see on nende prioriteetsete teemade hulgas nii madalal kohal."
+      },
+      {
+        "start_seconds": 2568.0,
+        "end_seconds": 2570.28,
+        "text": "Ehk siis nad ei nõua seda."
+      },
+      {
+        "start_seconds": 2570.28,
+        "end_seconds": 2575.2,
+        "text": "Ja noh, ma arvan, et see ongi suuresti vastus, vast- küsimus ja vastus korraga."
+      },
+      {
+        "start_seconds": 2575.2,
+        "end_seconds": 2580.12,
+        "text": "Ja ja sellepärast meil ongi selline olukord võimalik, et meil on valitsus, millel on"
+      },
+      {
+        "start_seconds": 2580.12,
+        "end_seconds": 2586.08,
+        "text": "umbes mingi kolmteist protsenti toetust ja, ja ta saab tegutseda, et keegi ei ole nõu"
+      },
+      {
+        "start_seconds": 2586.08,
+        "end_seconds": 2590.16,
+        "text": "dmas muutust."
+      },
+      {
+        "start_seconds": 2590.16,
+        "end_seconds": 2599.04,
+        "text": "Jah."
+      },
+      {
+        "start_seconds": 2599.04,
+        "end_seconds": 2600.68,
+        "text": "Pridi, millest sina unistad?"
+      },
+      {
+        "start_seconds": 2600.68,
+        "end_seconds": 2609.44,
+        "text": "Puidutööstuse raamistikus?"
+      },
+      {
+        "start_seconds": 2609.44,
+        "end_seconds": 2617.36,
+        "text": "Mõtlen, et see unistada on tore, onju, et aga kui ma mõtlen puidutööstuse vaatest,"
+      },
+      {
+        "start_seconds": 2617.36,
+        "end_seconds": 2624.48,
+        "text": "et noh, ma olen, maal kasvanud inimene, mul on"
+      },
+      {
+        "start_seconds": 2624.48,
+        "end_seconds": 2627.96,
+        "text": ", ma olen, olen talust pärit."
+      },
+      {
+        "start_seconds": 2627.96,
+        "end_seconds": 2629.76,
+        "text": "Mida iganes, palju lapsi."
+      },
+      {
+        "start_seconds": 2629.76,
+        "end_seconds": 2635.64,
+        "text": "Mul on, ma olen metsas nagu, ma olen metsaga väga tihedalt sellises nii-öelda nagu si"
+      },
+      {
+        "start_seconds": 2635.64,
+        "end_seconds": 2637.6,
+        "text": "demes olnud eluaeg."
+      },
+      {
+        "start_seconds": 2637.6,
+        "end_seconds": 2644.76,
+        "text": "Ja, ja täna ma, ma ei tunne mingisugust sellist nagu muret või vastutust, et"
+      },
+      {
+        "start_seconds": 2644.76,
+        "end_seconds": 2650.96,
+        "text": ", et kas mina, kas mina olen kuidagi selles, sellega seotud, et, et, et raiutakse rohkem"
+      },
+      {
+        "start_seconds": 2650.96,
+        "end_seconds": 2652.24,
+        "text": "või vähem."
+      },
+      {
+        "start_seconds": 2652.24,
+        "end_seconds": 2659.64,
+        "text": "Mina ütleks, et, et minu unistus on see, et, et inimeste metsateadlikkus üleüldse, pu"
+      },
+      {
+        "start_seconds": 2659.64,
+        "end_seconds": 2664.12,
+        "text": "idu väärindasime teadlik, väärindamise teadlikkus kasvaks."
+      },
+      {
+        "start_seconds": 2664.12,
+        "end_seconds": 2669.72,
+        "text": "See oleks, see oleks kõige parem asi, sest et, et ma ütlen, et kui meil ei ole teadlik"
+      },
+      {
+        "start_seconds": 2669.72,
+        "end_seconds": 2675.64,
+        "text": "ke inimesi ja meil ei ole ka tegelikult üks väga suur asi, meil ei ole ka metsaomani"
+      },
+      {
+        "start_seconds": 2675.64,
+        "end_seconds": 2682.92,
+        "text": "ke endid on ju ehk et, et kas see mets on juba esivanemate poolt või kellegi"
+      },
+      {
+        "start_seconds": 2682.92,
+        "end_seconds": 2688.44,
+        "text": "teise poolt mis iganes põhjustel siis ära müüdud, tehtud, sul ei ole mingit seost me"
+      },
+      {
+        "start_seconds": 2688.44,
+        "end_seconds": 2689.12,
+        "text": "tsaga."
+      },
+      {
+        "start_seconds": 2689.12,
+        "end_seconds": 2694.16,
+        "text": "Et kui sa elad nii-öelda täna korteris ja, ja keegi hakkab sulle mingit metsateemat aja"
+      },
+      {
+        "start_seconds": 2694.16,
+        "end_seconds": 2697.72,
+        "text": "ma, siis nad tegelikult sa võib-olla nagu ei kliki üldse selle teemaga, et nad mõtle"
+      },
+      {
+        "start_seconds": 2697.72,
+        "end_seconds": 2701.76,
+        "text": "d, et okei, kus, kuidas minu puutepunkt on, lähen grillima."
+      },
+      {
+        "start_seconds": 2701.76,
+        "end_seconds": 2707.48,
+        "text": "RMK platsile, et kui see on ainukese nii-öelda puutepunkt, siis tegelikult, siis mina"
+      },
+      {
+        "start_seconds": 2707.48,
+        "end_seconds": 2709.96,
+        "text": "ütlen, et see on väga halb puutepunkt."
+      },
+      {
+        "start_seconds": 2709.96,
+        "end_seconds": 2715.0,
+        "text": "Et tegelikult metsateadlik inimeste kasvatamine, see on üks, üks võimalus seesama la"
+      },
+      {
+        "start_seconds": 2715.0,
+        "end_seconds": 2719.48,
+        "text": "va, kus me siin praegu oleme, on ju, et, et kes tahavad uusi teadmisi saada, liiga palju"
+      },
+      {
+        "start_seconds": 2719.48,
+        "end_seconds": 2720.44,
+        "text": "ei ole neid inimesi."
+      },
+      {
+        "start_seconds": 2720.44,
+        "end_seconds": 2725.8,
+        "text": "Aga siiski neid mõned üksikud on võib-olla lihtsalt ajastus on, on, on selline."
+      },
+      {
+        "start_seconds": 2725.8,
+        "end_seconds": 2731.28,
+        "text": "Et ja, ja nendest teemadest ma saan aru, et teie suusu olete sellest rääkinud viisteist"
+      },
+      {
+        "start_seconds": 2731.28,
+        "end_seconds": 2735.56,
+        "text": "aastat, kuidas peaks midagi muutma, kuidas peaks tegema?"
+      },
+      {
+        "start_seconds": 2735.56,
+        "end_seconds": 2739.64,
+        "text": "Ja oleks jõudu veel rääkida nii pikalt, on ju, et, et noh, tegelikult on, kui me nüüd"
+      },
+      {
+        "start_seconds": 2739.64,
+        "end_seconds": 2743.68,
+        "text": "nagu viskame mütsi nurka, mõtleme, ah niikuinii midagi ei muutu."
+      },
+      {
+        "start_seconds": 2743.68,
+        "end_seconds": 2749.48,
+        "text": "Et siis, siis, siis võiks ju mõelda nii, nagu mul vend naljatades alati ütleb selle,"
+      },
+      {
+        "start_seconds": 2749.48,
+        "end_seconds": 2755.48,
+        "text": "kogu selle, selle maailma saastamise kohta, ütleb, et noh, sisuliselt on ju nii, et,"
+      },
+      {
+        "start_seconds": 2755.48,
+        "end_seconds": 2760.24,
+        "text": "et maailma ajaloos, et inimkonna ajaloos on, see on, on üks asi, aga maailma ajaloos"
+      },
+      {
+        "start_seconds": 2760.24,
+        "end_seconds": 2763.56,
+        "text": "on see inimeste eksisteerimine maailm maakeral."
+      },
+      {
+        "start_seconds": 2763.56,
+        "end_seconds": 2769.32,
+        "text": "Üks, lihtsalt üks räpane episood on ju, ehk et niikuinii saab see üks, ükskord otsa."
+      },
+      {
+        "start_seconds": 2769.32,
+        "end_seconds": 2773.84,
+        "text": "Et aga, aga noh, ma ütlen, et unistustest, kui ma lähen tagasi unistustesse, et lihtsalt"
+      },
+      {
+        "start_seconds": 2773.84,
+        "end_seconds": 2780.28,
+        "text": "teadlik inimene oleks rohkem ja see teadlikkus kasvaks läbi selle nõudmine ka, et me"
+      },
+      {
+        "start_seconds": 2780.28,
+        "end_seconds": 2785.88,
+        "text": "tahame mingeid muutusi, me tahame, et seda, seda olemasolevat ressurssi kasutatakse mõ"
+      },
+      {
+        "start_seconds": 2785.88,
+        "end_seconds": 2787.36,
+        "text": "istlikult."
+      },
+      {
+        "start_seconds": 2787.36,
+        "end_seconds": 2793.6,
+        "text": "Noh, see tuleb läbi selle, mitte selle, et üksikud teevad lärmi, üksikud võitlevad vastu"
+      },
+      {
+        "start_seconds": 2793.6,
+        "end_seconds": 2798.56,
+        "text": "ja siis on suur seda kriitilist nii-öelda massi seal vahel ei ole, mis aitaks seda, seda"
+      },
+      {
+        "start_seconds": 2798.56,
+        "end_seconds": 2801.52,
+        "text": "nagu balanssi luua, see on nagu jama."
+      },
+      {
+        "start_seconds": 2801.52,
+        "end_seconds": 2808.04,
+        "text": "No minu arust oleks väga palju abi, kui, kui ettevõtjad rohkem räägiksid nendel teema"
+      },
+      {
+        "start_seconds": 2808.04,
+        "end_seconds": 2813.92,
+        "text": "del ka, sest et no ma tunnen ise ka seda, et, et, et kui sa nagu keskkonnasäästlikku"
+      },
+      {
+        "start_seconds": 2813.92,
+        "end_seconds": 2819.32,
+        "text": "sest ja, või kasvõi ressursside säästlikum, säästlikumaks kasutamisest räägid, siis nagu"
+      },
+      {
+        "start_seconds": 2819.32,
+        "end_seconds": 2825.88,
+        "text": "see ikka päris kiiresti tuleb see mingi keskkonnaaktivisti silt peale ära ja siis nagu"
+      },
+      {
+        "start_seconds": 2825.88,
+        "end_seconds": 2828.92,
+        "text": "see, see vestlus on läbi sisuliselt."
+      },
+      {
+        "start_seconds": 2828.92,
+        "end_seconds": 2836.2,
+        "text": "Aga kui sa oled ettevõtja, kui sa oled mees, kellel on raha ja sa räägi"
+      },
+      {
+        "start_seconds": 2836.2,
+        "end_seconds": 2839.12,
+        "text": "d sellistel teemadel, siis sind kuulatakse palju rohkem."
+      },
+      {
+        "start_seconds": 2839.12,
+        "end_seconds": 2843.44,
+        "text": "Nii et, andke minna, mehed."
+      },
+      {
+        "start_seconds": 2843.44,
+        "end_seconds": 2847.36,
+        "text": "Aitäh, see on väga hea ja uus põnev nurk."
+      },
+      {
+        "start_seconds": 2847.36,
+        "end_seconds": 2853.96,
+        "text": "Et mees, ma juba olen, nüüd oleks raha vaja, onju."
+      },
+      {
+        "start_seconds": 2853.96,
+        "end_seconds": 2858.88,
+        "text": "Andrus, kuidas sulle tundub, kuidas teadlikkust tõsta?"
+      },
+      {
+        "start_seconds": 2858.88,
+        "end_seconds": 2867.96,
+        "text": "Jah, siin kuulasin, siis tuli, tuli just veidi mõtteid ka, et."
+      },
+      {
+        "start_seconds": 2867.96,
+        "end_seconds": 2875.4,
+        "text": "Me ilmselt tõesti vajame fookust sellel targal ja kaasaegsel, kaasajastatud metsapoliitik"
+      },
+      {
+        "start_seconds": 2875.4,
+        "end_seconds": 2882.48,
+        "text": "al, et, et, et meil on tulemas peale tehisintellekt, kuskil kauge"
+      },
+      {
+        "start_seconds": 2882.48,
+        "end_seconds": 2885.92,
+        "text": "l, aga, aga ta tuleb väga jõudsate sammudega."
+      },
+      {
+        "start_seconds": 2885.92,
+        "end_seconds": 2893.04,
+        "text": "Ja siit on mu enda üks sihuke hüpotees, mis isegi teadusartikli"
+      },
+      {
+        "start_seconds": 2893.04,
+        "end_seconds": 2899.36,
+        "text": "vormis on, olen, olen kirjutanud, et, et inimesed meie ehk sihuke süsinikul põhinevad"
+      },
+      {
+        "start_seconds": 2899.36,
+        "end_seconds": 2904.4,
+        "text": "organismid, me olemegi selle intellekti edasiviimisel, esindame ühte etappi."
+      },
+      {
+        "start_seconds": 2904.4,
+        "end_seconds": 2910.24,
+        "text": "Galaktilise intellekti arengus ja see etapp mingi hetk on lõppemas, aga intellekti are"
+      },
+      {
+        "start_seconds": 2910.24,
+        "end_seconds": 2916.52,
+        "text": "ng jätkub nüüd juba nii-öelda räni ja Siliconbased intelligence vedamisel ehk seesama"
+      },
+      {
+        "start_seconds": 2916.52,
+        "end_seconds": 2920.8,
+        "text": "tehisintellekt mingi hetk haldab palju suuremat keerukust, kui meie inimestena suuda"
+      },
+      {
+        "start_seconds": 2920.8,
+        "end_seconds": 2921.72,
+        "text": "me hallata."
+      },
+      {
+        "start_seconds": 2921.72,
+        "end_seconds": 2926.92,
+        "text": "Ja-ja ta viib seda intellekti arengut sealt edasi, et, et, et mis me praegu saame teha"
+      },
+      {
+        "start_seconds": 2926.92,
+        "end_seconds": 2932.48,
+        "text": ", tõesti on, on ajakohastada oma metsa ja ressursside kasutamispoliitikat korralikult"
+      },
+      {
+        "start_seconds": 2932.48,
+        "end_seconds": 2938.36,
+        "text": "ja teha seda siis tulevikkuvaatavalt, et, et, et siin, siin on vaja tarkust muidugi jah"
+      },
+      {
+        "start_seconds": 2938.36,
+        "end_seconds": 2942.12,
+        "text": "."
+      },
+      {
+        "start_seconds": 2942.12,
+        "end_seconds": 2948.12,
+        "text": "Kas, kas publikul on nüüd küsimusi vahepeal?"
+      },
+      {
+        "start_seconds": 2948.12,
+        "end_seconds": 2953.6,
+        "text": "Ja Mati."
+      },
+      {
+        "start_seconds": 2953.6,
+        "end_seconds": 2958.56,
+        "text": "Mul ei ole niivõrd otseselt küsimus, aga see on kõige arukam paneel, mida ma täna kuula"
+      },
+      {
+        "start_seconds": 2958.56,
+        "end_seconds": 2960.0,
+        "text": "nud olen."
+      },
+      {
+        "start_seconds": 2960.0,
+        "end_seconds": 2967.72,
+        "text": "Ja täiesti masendavat nime inimesi kuulab ja ma olen kõiki kuulanud täna, et üks asi"
+      },
+      {
+        "start_seconds": 2967.72,
+        "end_seconds": 2974.72,
+        "text": "mulle tohutult meeldib ettevõtjate jutt, aga millest ma näen puudust, on see, et kui"
+      },
+      {
+        "start_seconds": 2974.72,
+        "end_seconds": 2981.32,
+        "text": "me praeguses tempos edasi raiume, polegi muud kui kirjani ärini, sest eelmises paneel"
+      },
+      {
+        "start_seconds": 2981.32,
+        "end_seconds": 2983.96,
+        "text": "is oli ka, kuidas näidati tabeleid."
+      },
+      {
+        "start_seconds": 2983.96,
+        "end_seconds": 2987.76,
+        "text": "Kõik see saekaatrite materjal saab otsa."
+      },
+      {
+        "start_seconds": 2987.76,
+        "end_seconds": 2994.32,
+        "text": "Mets otsa ei saa, aga meil saab see materjal otsa, me teeme nii palju vigu ja probleem"
+      },
+      {
+        "start_seconds": 2994.32,
+        "end_seconds": 2997.8,
+        "text": "i tuum on selles, et me ei kõnele ausalt."
+      },
+      {
+        "start_seconds": 2997.8,
+        "end_seconds": 3002.96,
+        "text": "Kui ma kuulasin eelmisi paneelikõnelejaid, siis kui taust oli metsameestel, siis kõr"
+      },
+      {
+        "start_seconds": 3002.96,
+        "end_seconds": 3006.8,
+        "text": "vad jooksid sita vett, sest ma teadsin, kus nad valetavad."
+      },
+      {
+        "start_seconds": 3006.8,
+        "end_seconds": 3011.92,
+        "text": "Aga noh, sekkuda ei saa, kuulad, kõrvad lontis siin."
+      },
+      {
+        "start_seconds": 3011.92,
+        "end_seconds": 3017.88,
+        "text": "Aga kas lamb lihtsalt valus kuulata, Aveliina Helm tegi siin väga tungivaid parandus"
+      },
+      {
+        "start_seconds": 3017.88,
+        "end_seconds": 3024.68,
+        "text": "i, kui väga teine pool metsatööstuses eluaeg töötanud."
+      },
+      {
+        "start_seconds": 3024.68,
+        "end_seconds": 3027.2,
+        "text": "Sõna otseses mõttes valetas, noh."
+      },
+      {
+        "start_seconds": 3027.2,
+        "end_seconds": 3032.12,
+        "text": "Et, et ja, ja eriti valus oli kuulata sutti."
+      },
+      {
+        "start_seconds": 3032.12,
+        "end_seconds": 3035.32,
+        "text": "Ma olen üksi, ma ei saa millega midagi teha."
+      },
+      {
+        "start_seconds": 3035.32,
+        "end_seconds": 3041.28,
+        "text": "Sa oled keskkonnaminister ja sa räägid avalikkusele, et sa ei saa mitte midagi teha,"
+      },
+      {
+        "start_seconds": 3041.28,
+        "end_seconds": 3042.8,
+        "text": "ma ei julge otsustada."
+      },
+      {
+        "start_seconds": 3042.8,
+        "end_seconds": 3046.12,
+        "text": "Mina ei taha otsustada, oli suti sõnum."
+      },
+      {
+        "start_seconds": 3046.12,
+        "end_seconds": 3051.16,
+        "text": "Et seda oli nagu väga valus kuulata, et kuule mees, miks sa üldse ministriks hakkasid"
+      },
+      {
+        "start_seconds": 3051.16,
+        "end_seconds": 3052.36,
+        "text": "."
+      },
+      {
+        "start_seconds": 3052.36,
+        "end_seconds": 3059.4,
+        "text": "Et ma olen hästi kriitiline alati oma väljaütlemistes ja väga harva kiidan, aga vot neid"
+      },
+      {
+        "start_seconds": 3059.4,
+        "end_seconds": 3063.72,
+        "text": "kahte meest ma kiidan ja Zusud ma kiidan ikka nagunii."
+      },
+      {
+        "start_seconds": 3063.72,
+        "end_seconds": 3069.48,
+        "text": "Et, et selles mõttes, et pange jõuliselt edasi ja palun kuulake suusud ka, et tõesti"
+      },
+      {
+        "start_seconds": 3069.48,
+        "end_seconds": 3074.24,
+        "text": "võtke avalikult sõna, see oleks nagu väga võimas, kui te kasvõi üks või kaks artikli"
+      },
+      {
+        "start_seconds": 3074.24,
+        "end_seconds": 3079.68,
+        "text": "t aastas kirjutaksite, see annaks looduskaitsjatele mingi kandepinna."
+      },
+      {
+        "start_seconds": 3079.68,
+        "end_seconds": 3084.6,
+        "text": "Et kasvõi üks-kaks artiklit, kaks oleks parem kui üks."
+      },
+      {
+        "start_seconds": 3084.6,
+        "end_seconds": 3090.12,
+        "text": "Et sealt tuleb kolmas juba ja, ja niimoodi me suudaksime tegelikult seda laeva pööra"
+      },
+      {
+        "start_seconds": 3090.12,
+        "end_seconds": 3094.84,
+        "text": "ta ja inimesed lähevadki selle poole, kus on ikkagi rikkus."
+      },
+      {
+        "start_seconds": 3094.84,
+        "end_seconds": 3100.36,
+        "text": "Ja kui me näeme loodusrikkust ikkagi oma ühiskonna suurima varana, siis me saavutame"
+      },
+      {
+        "start_seconds": 3100.36,
+        "end_seconds": 3102.08,
+        "text": "ka lahendused, aitäh."
+      },
+      {
+        "start_seconds": 3102.08,
+        "end_seconds": 3104.72,
+        "text": "Ma vabandan, et mul küsimust ei olnud."
+      },
+      {
+        "start_seconds": 3104.72,
+        "end_seconds": 3106.64,
+        "text": "Aitäh."
+      },
+      {
+        "start_seconds": 3106.64,
+        "end_seconds": 3111.76,
+        "text": "Freddie, kas soovid resoneerida publikuga?"
+      },
+      {
+        "start_seconds": 3111.76,
+        "end_seconds": 3117.0,
+        "text": "Ja no selles mõttes, kuidas ma resoneerin, et iseenesest ongi ju, ma nüüd ei taha nagu"
+      },
+      {
+        "start_seconds": 3117.0,
+        "end_seconds": 3123.4,
+        "text": "tekitada olukord, et, et, et mina justkui tööstuse esindajana."
+      },
+      {
+        "start_seconds": 3123.4,
+        "end_seconds": 3129.44,
+        "text": "Et jällegi tekkis nagu natukese olukorras, et, et, et oleks, oleks nagu, et no justku"
+      },
+      {
+        "start_seconds": 3129.44,
+        "end_seconds": 3131.2,
+        "text": "i nagu looduskaitseteemad räägime."
+      },
+      {
+        "start_seconds": 3131.2,
+        "end_seconds": 3135.0,
+        "text": "Noh, mina ei tulnud siia looduskaitseteemadel rääkima, mina tulin sellest rääkima."
+      },
+      {
+        "start_seconds": 3135.0,
+        "end_seconds": 3140.24,
+        "text": "Et mida me peaks tegema selleks, et, et tänasest metsast rohkem kätte saada, nii et,"
+      },
+      {
+        "start_seconds": 3140.24,
+        "end_seconds": 3146.28,
+        "text": "nii et noh, mina ütlen, et raiemaht on, jääb, mis iganes, kas ta on ülespoole, allapool"
+      },
+      {
+        "start_seconds": 3146.28,
+        "end_seconds": 3146.56,
+        "text": "e."
+      },
+      {
+        "start_seconds": 3146.56,
+        "end_seconds": 3153.36,
+        "text": "Ta jääb niikuinii, aga et kas, kas see, millega, mida me seal metsas teeme, kuidas me"
+      },
+      {
+        "start_seconds": 3153.36,
+        "end_seconds": 3158.72,
+        "text": "sellest nii-öelda nagu riigina rikkamaks saame, see on küsimus."
+      },
+      {
+        "start_seconds": 3158.72,
+        "end_seconds": 3165.44,
+        "text": "Ja, ja sellega olen, ma olen nõus, et palgimets saab otsa või nii-öelda nagu taandub"
+      },
+      {
+        "start_seconds": 3165.44,
+        "end_seconds": 3165.52,
+        "text": "."
+      },
+      {
+        "start_seconds": 3165.52,
+        "end_seconds": 3171.96,
+        "text": "Seda enam me peame selle peale täna mõtlema ja, ja ma arvan, et me ei tohiks nagu natuke"
+      },
+      {
+        "start_seconds": 3171.96,
+        "end_seconds": 3177.28,
+        "text": "on selline ühiskondlik vastandumine, radikaliseerimine, et noh, tegelikult kui sa vaata"
+      },
+      {
+        "start_seconds": 3177.28,
+        "end_seconds": 3182.56,
+        "text": "d kuskilt artiklist ühe või teise inimese nime, siis sul tegelikult on juba noh, sala"
+      },
+      {
+        "start_seconds": 3182.56,
+        "end_seconds": 3187.88,
+        "text": "misi on sellest eel- , sellest Arvamusfestivali vaatest on juba eelarvamus, on ju, et"
+      },
+      {
+        "start_seconds": 3187.88,
+        "end_seconds": 3192.8,
+        "text": ", et, et noh, et ütleme, sul tekib mingi eelarvamus ja seda on väga keeruline peast p"
+      },
+      {
+        "start_seconds": 3192.8,
+        "end_seconds": 3197.32,
+        "text": "ühkida, on ju, et seda ei tohiks tekitada nii ühe kui teise poole pealt."
+      },
+      {
+        "start_seconds": 3197.32,
+        "end_seconds": 3204.68,
+        "text": "Ehk et sa, kui sa võtad nii-öelda täiesti neutraalselt neid asju, siis, siis tööstus"
+      },
+      {
+        "start_seconds": 3204.68,
+        "end_seconds": 3209.96,
+        "text": "ei ole alati halb ja mina ütlen, et ka looduskaitse on alati halb, et see kesktee le"
+      },
+      {
+        "start_seconds": 3209.96,
+        "end_seconds": 3217.32,
+        "text": "idmine ongi keeruline ja, ja niikaua tuleb seda keskteed otsida, kui kui vaja"
+      },
+      {
+        "start_seconds": 3217.32,
+        "end_seconds": 3223.44,
+        "text": "on, et ma ei tea, kas, kas me jõuame, kas enne saavad võib-olla elud otsa, aga, aga alati"
+      },
+      {
+        "start_seconds": 3223.44,
+        "end_seconds": 3227.08,
+        "text": "jääb see paradoks, aga selline radikaliseerumine ühelt või teiselt poolt, see ei tee"
+      },
+      {
+        "start_seconds": 3227.08,
+        "end_seconds": 3229.64,
+        "text": "mitte kellelegi head, et, et."
+      },
+      {
+        "start_seconds": 3229.64,
+        "end_seconds": 3234.56,
+        "text": "Aga aga radikaliseerumine või selline äärmuslikkus, see ongi ju, prevaleerib sellise"
+      },
+      {
+        "start_seconds": 3234.56,
+        "end_seconds": 3239.84,
+        "text": "s olukorras, kus need, kes on keskel, ei räägi või noh nad ei anna nagu, nende häält"
+      },
+      {
+        "start_seconds": 3239.84,
+        "end_seconds": 3244.4,
+        "text": "ei ole kuulda, et siis ongi, tekibki see mulje, et on justkui kaks äärmust."
+      },
+      {
+        "start_seconds": 3244.4,
+        "end_seconds": 3249.8,
+        "text": "Ja, ja see oligi see minu unistus, et kuidas see teadlikkust sellesse eestlasesse tead"
+      },
+      {
+        "start_seconds": 3249.8,
+        "end_seconds": 3255.96,
+        "text": "likkust tagasi tõsta, on ju, et, et see aitaks meid päris palju edasi, aga, aga ma täna"
+      },
+      {
+        "start_seconds": 3255.96,
+        "end_seconds": 3257.44,
+        "text": "."
+      },
+      {
+        "start_seconds": 3257.44,
+        "end_seconds": 3264.48,
+        "text": "Noh, ma ei näe nagu tegelikult teed, et kust see teadlikkus peaks tõusma, kui, kui tegelikult"
+      },
+      {
+        "start_seconds": 3264.48,
+        "end_seconds": 3271.32,
+        "text": "järjest kaugemale minnakse sellest metsast, et, et noh, ütleme see külatädikene tema"
+      },
+      {
+        "start_seconds": 3271.32,
+        "end_seconds": 3275.4,
+        "text": "l oli mingi arvamus sellest asjast, et võtame siit nii palju kui vaja, mida iganes."
+      },
+      {
+        "start_seconds": 3275.4,
+        "end_seconds": 3281.12,
+        "text": "Aga, aga täna on nii-öelda need, neid külad või ütleme, neid nii-öelda talumetsasid,"
+      },
+      {
+        "start_seconds": 3281.12,
+        "end_seconds": 3283.08,
+        "text": "neid ju väga palju enam ei ole, on ju."
+      },
+      {
+        "start_seconds": 3283.08,
+        "end_seconds": 3288.56,
+        "text": "Ehk et pigem on, on need liikunud erakätesse ja me ütleme, et on riigimetsa ja erame"
+      },
+      {
+        "start_seconds": 3288.56,
+        "end_seconds": 3297.08,
+        "text": "ts, aga tegelikult see eramets on ka ikka suurelt jaolt kontsernide mets."
+      },
+      {
+        "start_seconds": 3297.08,
+        "end_seconds": 3300.52,
+        "text": "Mulle tundub, et me oleme natuke jõudnud kuidagi loogilise lõpuni."
+      },
+      {
+        "start_seconds": 3300.52,
+        "end_seconds": 3302.56,
+        "text": "Me oleme umbes täpselt tund aega rääkinud."
+      },
+      {
+        "start_seconds": 3302.56,
+        "end_seconds": 3306.24,
+        "text": "Võib-olla siin nagu kunstlikult venitada, seda pole enam mõtet."
+      },
+      {
+        "start_seconds": 3306.24,
+        "end_seconds": 3309.48,
+        "text": "Ma annaksin kõigile teile kolmele lõpusõnad."
+      },
+      {
+        "start_seconds": 3309.48,
+        "end_seconds": 3314.2,
+        "text": "Ja siis ma arvan, et lähme naudime festivali juba edasi."
+      },
+      {
+        "start_seconds": 3314.2,
+        "end_seconds": 3315.96,
+        "text": "Zuzu."
+      },
+      {
+        "start_seconds": 3315.96,
+        "end_seconds": 3322.4,
+        "text": "No mina tänan omalt poolt ja ma soovin jõudu kõigi, kõigile looduskaitsjatele."
+      },
+      {
+        "start_seconds": 3322.4,
+        "end_seconds": 3327.88,
+        "text": "Sest et ma tean, teil on väga keeruline ja, ja üldse keskkonnateadlikel inimestel on"
+      },
+      {
+        "start_seconds": 3327.88,
+        "end_seconds": 3329.96,
+        "text": "väga keeruline."
+      },
+      {
+        "start_seconds": 3329.96,
+        "end_seconds": 3335.52,
+        "text": "Teades seda, mis seisus on meie planeedi ökosüsteem."
+      },
+      {
+        "start_seconds": 3335.52,
+        "end_seconds": 3343.12,
+        "text": "Ja kuivõrd aeglaselt või üldsegi nagu mitte"
+      },
+      {
+        "start_seconds": 3343.12,
+        "end_seconds": 3350.36,
+        "text": "toimivalt suhtub meie, meie poliitiline ladvik sellesse teemasse, et seda enam on"
+      },
+      {
+        "start_seconds": 3350.36,
+        "end_seconds": 3352.12,
+        "text": "see keeruline."
+      },
+      {
+        "start_seconds": 3352.12,
+        "end_seconds": 3358.36,
+        "text": "Ja ma tänan sind, Robert, et sa selle teema siin täna niimoodi tõstatasid ja et mul on"
+      },
+      {
+        "start_seconds": 3358.36,
+        "end_seconds": 3361.08,
+        "text": "hea meel nüüd olla tuttav teiega."
+      },
+      {
+        "start_seconds": 3361.08,
+        "end_seconds": 3366.72,
+        "text": "Ja viimase asjana ma küsiks, et kuulge, see terrass on minu arust, need lauad on tagu"
+      },
+      {
+        "start_seconds": 3366.72,
+        "end_seconds": 3368.96,
+        "text": "rpidi pandud."
+      },
+      {
+        "start_seconds": 3368.96,
+        "end_seconds": 3373.84,
+        "text": "Et, et mina tean seda, et minul on puidumehed rääkinud, et terrassilaud tuleb panna teist"
+      },
+      {
+        "start_seconds": 3373.84,
+        "end_seconds": 3378.48,
+        "text": "pidi soon allapoole, seal on mitu põhjust, aga üks põhjus on see ka, et siis läheb ve"
+      },
+      {
+        "start_seconds": 3378.48,
+        "end_seconds": 3381.48,
+        "text": "si kiiremini ära ja terrass püsib kauem ilus."
+      },
+      {
+        "start_seconds": 3381.48,
+        "end_seconds": 3386.04,
+        "text": "Me oleme suurepärasel arutelul, kuna see on Fredi igapäevatööd, oskab sellest rääkida"
+      },
+      {
+        "start_seconds": 3386.04,
+        "end_seconds": 3387.16,
+        "text": "."
+      },
+      {
+        "start_seconds": 3387.16,
+        "end_seconds": 3392.44,
+        "text": "Ja selles mõttes, et see terrass on täpselt tegelikult õieti, et, et seda profiili nii"
+      },
+      {
+        "start_seconds": 3392.44,
+        "end_seconds": 3393.84,
+        "text": "pidi toodetaksegi on ju."
+      },
+      {
+        "start_seconds": 3393.84,
+        "end_seconds": 3397.16,
+        "text": "Et kui sa tahad siledat profiili, siis seda on ka olemas."
+      },
+      {
+        "start_seconds": 3397.16,
+        "end_seconds": 3400.84,
+        "text": "Aga, aga see on sellepärast, et sa tegelikult ei libiseks siin peal, onju."
+      },
+      {
+        "start_seconds": 3400.84,
+        "end_seconds": 3401.76,
+        "text": "Et."
+      },
+      {
+        "start_seconds": 3401.76,
+        "end_seconds": 3404.92,
+        "text": "Ma tean, see on igikestev, see vaidlus."
+      },
+      {
+        "start_seconds": 3404.92,
+        "end_seconds": 3410.24,
+        "text": "Jah, aga, aga ma vähemalt olen positiivne, et kuna see on mitu korda kasutatud vähemalt"
+      },
+      {
+        "start_seconds": 3410.24,
+        "end_seconds": 3414.28,
+        "text": ", et see, see lava ei ole see ehitatud ainult sellepärast, et meie saaks siin jutustada"
+      },
+      {
+        "start_seconds": 3414.28,
+        "end_seconds": 3420.0,
+        "text": "omavahel, et, et selles mõttes pange ju nii võidapidi tahate ja tegelikult ja peaasi"
+      },
+      {
+        "start_seconds": 3420.0,
+        "end_seconds": 3423.6,
+        "text": ", et sa ise õnnelik oled, et see on nagu kõige-kõige olulisem."
+      },
+      {
+        "start_seconds": 3423.6,
+        "end_seconds": 3428.12,
+        "text": "Ja et see, see, see konkreetselt see lava on olnud ka siin paar aastat tagasi teatud"
+      },
+      {
+        "start_seconds": 3428.12,
+        "end_seconds": 3433.2,
+        "text": "sihuke vastuolude küüsis, kuna see oli RMK lava, on ka meediast läbi käinud, aga ma ei"
+      },
+      {
+        "start_seconds": 3433.2,
+        "end_seconds": 3436.72,
+        "text": "tea, tundub, tundub ju päris korralik."
+      },
+      {
+        "start_seconds": 3436.72,
+        "end_seconds": 3438.96,
+        "text": "Andrus?"
+      },
+      {
+        "start_seconds": 3438.96,
+        "end_seconds": 3446.52,
+        "text": "Jah, mina tänan samamoodi meie publikut ja Robert, sind selle, selle laheda,"
+      },
+      {
+        "start_seconds": 3446.52,
+        "end_seconds": 3449.88,
+        "text": "laheda vestluse kokkukutsumise eest."
+      },
+      {
+        "start_seconds": 3449.88,
+        "end_seconds": 3454.16,
+        "text": "Minu, kes ma olen suhteliselt metsakauge ikkagi, minu jaoks oli see väga sihuke posi"
+      },
+      {
+        "start_seconds": 3454.16,
+        "end_seconds": 3458.28,
+        "text": "tiivne ja samamoodi silmiavar, avav vestlus hetkel siin."
+      },
+      {
+        "start_seconds": 3458.28,
+        "end_seconds": 3462.76,
+        "text": "Et, et ma näen ka nüüd ja mõistan paremini seda vajadust, et me vajame ilmselt selge"
+      },
+      {
+        "start_seconds": 3462.76,
+        "end_seconds": 3466.48,
+        "text": "lt sihukest head tulevikku vaatavat poliitikat metsaalal."
+      },
+      {
+        "start_seconds": 3466.48,
+        "end_seconds": 3472.88,
+        "text": "Mets teatavasti kasvab kiiresti, mul on, mul on suvekodu Lahemaal, metsas, mets tuleb"
+      },
+      {
+        "start_seconds": 3472.88,
+        "end_seconds": 3478.16,
+        "text": "mürinal peale ja, ja tõepoolest ta ei kao mitte kuhugi ja-ja."
+      },
+      {
+        "start_seconds": 3478.16,
+        "end_seconds": 3485.28,
+        "text": "Ja, ja see toimub mujal samamoodi, et, et me peame, peame siin riigina oskama seda, seda"
+      },
+      {
+        "start_seconds": 3485.28,
+        "end_seconds": 3488.08,
+        "text": "ressurssi hästi kasutada."
+      },
+      {
+        "start_seconds": 3488.08,
+        "end_seconds": 3488.68,
+        "text": "Aitäh."
+      },
+      {
+        "start_seconds": 3488.68,
+        "end_seconds": 3492.08,
+        "text": "Freddie, kas sa soovid lõpetada Therassi jutuga või tahad veel midagi öelda?"
+      },
+      {
+        "start_seconds": 3492.08,
+        "end_seconds": 3498.4,
+        "text": "Ei, mul, mul on ikkagi mõned muud mõtted selle lõpetuseks, et."
+      },
+      {
+        "start_seconds": 3498.4,
+        "end_seconds": 3505.6,
+        "text": "Et mida ma, ma enne nüüd rääkisin nendest unistustest, mida tegelikult veel häda"
+      },
+      {
+        "start_seconds": 3505.6,
+        "end_seconds": 3508.64,
+        "text": "sti oleks vaja?"
+      },
+      {
+        "start_seconds": 3508.64,
+        "end_seconds": 3513.28,
+        "text": "Munadega poliitikuid oleks vaja, selles mõttes."
+      },
+      {
+        "start_seconds": 3513.28,
+        "end_seconds": 3520.08,
+        "text": "Alati on, alati on neid asju, mis on ebamugavad ja ebameeldivad ja, ja see on, see on"
+      },
+      {
+        "start_seconds": 3520.08,
+        "end_seconds": 3527.32,
+        "text": "tõenäoliselt üks põhjus ka, mis, miks, miks väga paljud targad ja, ja, ja osavad"
+      },
+      {
+        "start_seconds": 3527.32,
+        "end_seconds": 3533.44,
+        "text": "ja, ja ütleme siis nagu haritud inimesed ei, ei kipu poliitikasse."
+      },
+      {
+        "start_seconds": 3533.44,
+        "end_seconds": 3540.56,
+        "text": "Sest selles mõttes, et see tähelepanu, see kõik see toredus, mis sealt tuleb ei,"
+      },
+      {
+        "start_seconds": 3540.56,
+        "end_seconds": 3545.64,
+        "text": "ei kaalu seda üle ja et ma, ma ütleks, et ma, ma täna väga tahaks."
+      },
+      {
+        "start_seconds": 3545.64,
+        "end_seconds": 3549.36,
+        "text": "Vot väga tahaks minna täna, aga, aga mis kuradi pärast, on ju."
+      },
+      {
+        "start_seconds": 3549.36,
+        "end_seconds": 3556.72,
+        "text": "Ehk et see on, see on selline nagu halb asi kus olla ja, ja, ja, ja"
+      },
+      {
+        "start_seconds": 3556.72,
+        "end_seconds": 3563.16,
+        "text": "selle kõige juures kogu selles metsanduse ja kõige muu vaates ma ütlen, et, et meil on"
+      },
+      {
+        "start_seconds": 3563.16,
+        "end_seconds": 3569.6,
+        "text": "nagu majandustsüklid ja meil on nagu see valimistsüklid, mis tegelikult hakkavad üks"
+      },
+      {
+        "start_seconds": 3569.6,
+        "end_seconds": 3571.68,
+        "text": "teist tõukama, on ju."
+      },
+      {
+        "start_seconds": 3571.68,
+        "end_seconds": 3578.56,
+        "text": "Et tänases vaates keegi ei tahagi neid, neid, neid otsuseid teha nagu, nagu öeldakse"
+      },
+      {
+        "start_seconds": 3578.56,
+        "end_seconds": 3583.24,
+        "text": ", et, et, et Sutt ütleb, ma olen üksinda, onju, et nad tegelikult no kurat, keegi peab"
+      },
+      {
+        "start_seconds": 3583.24,
+        "end_seconds": 3584.68,
+        "text": "nagu see munadega olema, on ju."
+      },
+      {
+        "start_seconds": 3584.68,
+        "end_seconds": 3589.44,
+        "text": "Mingid asjad tuleb ära otsustada, midagi tuleb teha ja tuleb selgitada ka see, miks me"
+      },
+      {
+        "start_seconds": 3589.44,
+        "end_seconds": 3596.08,
+        "text": "midagi teeme ja miks meil seda vaja on, kui meil on vaja mingisugust tööstust edenda"
+      },
+      {
+        "start_seconds": 3596.08,
+        "end_seconds": 3600.24,
+        "text": "da, siis see ei ole lihtsalt jutu jätkuks, et räägime sellest ja käime konverentsidel"
+      },
+      {
+        "start_seconds": 3600.24,
+        "end_seconds": 3602.92,
+        "text": "ja muudkui jutustama, et peaks ikka tegema, onju."
+      },
+      {
+        "start_seconds": 3602.92,
+        "end_seconds": 3608.12,
+        "text": "Et tegelikult tuleb hakata liigutama ja, ja isegi siis ma ütleks, et kui, kui mina täna"
+      },
+      {
+        "start_seconds": 3608.12,
+        "end_seconds": 3612.4,
+        "text": "oleksin nagu poliitikas ja ma tean, et see on mu viimane, viimane aeg, neli aastat, nelja"
+      },
+      {
+        "start_seconds": 3612.4,
+        "end_seconds": 3614.16,
+        "text": "aasta pärast mind ei valita tagasi."
+      },
+      {
+        "start_seconds": 3614.16,
+        "end_seconds": 3618.52,
+        "text": "Olen vanamees, tõmban piipu, mõtlen, et, et kurat, suure asja tegin ära, on ju ja see"
+      },
+      {
+        "start_seconds": 3618.52,
+        "end_seconds": 3622.6,
+        "text": "on palju parem tunne kui see, et ma tegelikult hoian, hoian, hoian ja valimiste ees ko"
+      },
+      {
+        "start_seconds": 3622.6,
+        "end_seconds": 3623.36,
+        "text": "ogutan, onju."
+      },
+      {
+        "start_seconds": 3623.36,
+        "end_seconds": 3626.88,
+        "text": "Ja siis jälle proovin midagi öelda ja siis jälle tõmban tagasi."
+      },
+      {
+        "start_seconds": 3626.88,
+        "end_seconds": 3632.36,
+        "text": "No sa ei jõua mitte kusagile niimoodi, et ma ütleks."
+      },
+      {
+        "start_seconds": 3632.36,
+        "end_seconds": 3635.0,
+        "text": "Selliseid tõsiseid tükke oleks vaja."
+      },
+      {
+        "start_seconds": 3635.0,
+        "end_seconds": 3639.84,
+        "text": "Väga, väga head seisukohad ja ma siin ütleks, et täpselt sama jutt, mis sa just rääkis"
+      },
+      {
+        "start_seconds": 3639.84,
+        "end_seconds": 3644.6,
+        "text": "id nii-öelda selle munadega meeste juhtimise kohta kehtiks ka Eesti kõrghariduse juh"
+      },
+      {
+        "start_seconds": 3644.6,
+        "end_seconds": 3649.96,
+        "text": "timisel sama moodi, et, et tõesti siin on vaja ka oluliselt tugevat ja selgemat ja tulevik"
+      },
+      {
+        "start_seconds": 3649.96,
+        "end_seconds": 3651.52,
+        "text": "ku vaatavat vaadet."
+      },
+      {
+        "start_seconds": 3651.52,
+        "end_seconds": 3655.68,
+        "text": "Kuna siin räägiti munadest ja meestest, siis ma arvan, et Zuzu peaks, Zu peaks ikkagi"
+      },
+      {
+        "start_seconds": 3655.68,
+        "end_seconds": 3658.48,
+        "text": "siin korra veel sõna võtma."
+      },
+      {
+        "start_seconds": 3658.48,
+        "end_seconds": 3664.4,
+        "text": "Aitäh, muide selle Arvamusfestivali logoks on ka munad minu arust."
+      },
+      {
+        "start_seconds": 3664.4,
+        "end_seconds": 3669.96,
+        "text": "Ja, ja selles mõttes mul on nagu hea kuulda, et siin räägiti, et munadega mehi on vaja"
+      },
+      {
+        "start_seconds": 3669.96,
+        "end_seconds": 3676.2,
+        "text": ", et see tähendab, et munadega naised meil on juba olemas, et väga hea, et."
+      },
+      {
+        "start_seconds": 3676.2,
+        "end_seconds": 3679.64,
+        "text": "Super, aitäh, aitäh kõigile, kes tulid, tulid kuulama."
+      },
+      {
+        "start_seconds": 3679.64,
+        "end_seconds": 3683.48,
+        "text": "Arvamusfestivali puhul, kui ma seda lavasin kokku panin, siis kohalikud Paide inimesed"
+      },
+      {
+        "start_seconds": 3683.48,
+        "end_seconds": 3688.52,
+        "text": "jalutasid mööda ja pahandasid mõned, et mis te siin käite ja arvate, midagi sellest ei"
+      },
+      {
+        "start_seconds": 3688.52,
+        "end_seconds": 3689.36,
+        "text": "muutu ju."
+      },
+      {
+        "start_seconds": 3689.36,
+        "end_seconds": 3692.6,
+        "text": "Mina arvan, et Arvamusfestival on natuke nagu podcast'i kuulamine."
+      },
+      {
+        "start_seconds": 3692.6,
+        "end_seconds": 3696.52,
+        "text": "Sa kuulad tund aega, saad veits targemaks ja võib-olla sellest tarkusest midagi kuna"
+      },
+      {
+        "start_seconds": 3696.52,
+        "end_seconds": 3698.92,
+        "text": "gi sünnib kuskil."
+      },
+      {
+        "start_seconds": 3698.92,
+        "end_seconds": 3701.8,
+        "text": "Veel kord, suur tänu tulemast ja aitäh."
+      },
+      {
+        "start_seconds": 3701.8,
+        "end_seconds": 3715.683,
+        "text": "Aitäh."
+      }
+    ]
+  }
+}
