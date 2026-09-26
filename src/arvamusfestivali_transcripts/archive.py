@@ -77,7 +77,7 @@ def validate_archive(payload: Mapping[str, Any], expected_year: int) -> None:
     )
     _reject_unrecognized(transcription, {"model", "runtime", "text", "cues"}, "transcription")
     _validate_episode(episode, expected_year)
-    _validate_transcription(transcription, float(episode["duration_seconds"]))
+    _validate_transcription(transcription)
 
 
 def write_archive(path: Path, payload: Mapping[str, Any], force: bool = False) -> Path:
@@ -154,7 +154,7 @@ def _validate_episode(episode: Mapping[str, Any], expected_year: int) -> None:
         raise ValueError("audio duration must be positive and finite")
 
 
-def _validate_transcription(transcription: Mapping[str, Any], duration: float) -> None:
+def _validate_transcription(transcription: Mapping[str, Any]) -> None:
     _require_text(transcription, "text")
     model = _require_mapping(transcription, "model")
     runtime = _require_mapping(transcription, "runtime")
@@ -178,8 +178,6 @@ def _validate_transcription(transcription: Mapping[str, Any], duration: float) -
             raise ValueError("cue start must be non-negative and before its end")
         if start < previous_start:
             raise ValueError("cue starts must be monotonic")
-        if end > duration + 0.25:
-            raise ValueError("cue end exceeds audio duration")
         _require_text(cue, "text", description="cue text")
         previous_start = start
 

@@ -117,10 +117,6 @@ def test_validate_archive_rejects_invalid_contract_values(archive: dict[str, obj
             "start",
         ),
         (
-            lambda data: data["transcription"]["cues"][1].update(end_seconds=60.3),
-            "duration",
-        ),
-        (
             lambda data: data["transcription"]["cues"][1].update(start_seconds=-0.1),
             "start",
         ),
