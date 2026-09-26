@@ -39,6 +39,13 @@ def _positive_limit(value: str) -> int:
     return limit
 
 
+def _positive_parallelism(value: str) -> int:
+    parallelism = int(value)
+    if parallelism <= 0:
+        raise argparse.ArgumentTypeError("parallelism must be positive")
+    return parallelism
+
+
 def _episode_id(value: str) -> str:
     if not value.isascii() or not value.isdigit():
         raise argparse.ArgumentTypeError("episode ID must be numeric")
@@ -50,6 +57,12 @@ def _add_common_arguments(parser: argparse.ArgumentParser) -> None:
     parser.add_argument("--root", type=Path, default=Path.cwd(), help="archive root directory")
     parser.add_argument("--episode-id", type=_episode_id, help="one numeric SoundCloud episode ID")
     parser.add_argument("--limit", type=_positive_limit, help="maximum pending episodes to process")
+    parser.add_argument(
+        "--parallelism",
+        type=_positive_parallelism,
+        default=1,
+        help="episodes to process concurrently (default: 1)",
+    )
     parser.add_argument(
         "--force", action="store_true", help="replace an existing transcript archive"
     )
@@ -148,6 +161,7 @@ def main(argv: Sequence[str] | None = None) -> int:
             "catalog_snapshot": args.catalog_snapshot,
             "episode_id": args.episode_id,
             "limit": args.limit,
+            "parallelism": args.parallelism,
             "force": args.force,
             "dry_run": args.dry_run,
         }

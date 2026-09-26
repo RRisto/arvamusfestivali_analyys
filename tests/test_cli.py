@@ -19,6 +19,8 @@ def test_run_command_accepts_year_and_acceptance_limit() -> None:
             "2026",
             "--limit",
             "1",
+            "--parallelism",
+            "4",
             "--transcriber-script",
             "C:/skills/transcribe.py",
         ]
@@ -27,6 +29,7 @@ def test_run_command_accepts_year_and_acceptance_limit() -> None:
     assert args.command == "run"
     assert args.year == 2026
     assert args.limit == 1
+    assert args.parallelism == 4
 
 
 def test_main_returns_one_when_any_episode_fails(monkeypatch: pytest.MonkeyPatch) -> None:
@@ -145,9 +148,24 @@ def test_main_dispatches_fetch_and_prints_the_complete_summary(
 
     monkeypatch.setattr(cli, "fetch_year", fetch)
 
-    assert cli.main(["fetch", "--year", "2026", "--root", str(tmp_path), "--dry-run"]) == 0
+    assert (
+        cli.main(
+            [
+                "fetch",
+                "--year",
+                "2026",
+                "--root",
+                str(tmp_path),
+                "--parallelism",
+                "3",
+                "--dry-run",
+            ]
+        )
+        == 0
+    )
     assert received["year"] == 2026
     assert received["paths"].root == tmp_path
+    assert received["parallelism"] == 3
     assert capsys.readouterr().out == (
         "selected=1 skipped=2 completed=1 failed=0 downloaded_bytes=86222137 deleted_cache=0\n"
     )
@@ -246,6 +264,14 @@ def test_main_forwards_frozen_snapshot_to_run_without_cli_discovery(
 def test_main_rejects_nonpositive_limits(argument: str, capsys: pytest.CaptureFixture[str]) -> None:
     assert cli.main(["fetch", "--year", "2026", "--limit", argument]) == 2
     assert "limit must be positive" in capsys.readouterr().err
+
+
+@pytest.mark.parametrize("argument", ["0", "-1"])
+def test_main_rejects_nonpositive_parallelism(
+    argument: str, capsys: pytest.CaptureFixture[str]
+) -> None:
+    assert cli.main(["fetch", "--year", "2026", "--parallelism", argument]) == 2
+    assert "parallelism must be positive" in capsys.readouterr().err
 
 
 @pytest.mark.parametrize("episode_id", ["abc", "12-34", "../12"])

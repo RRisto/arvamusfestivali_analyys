@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import hashlib
 import json
+import threading
 from dataclasses import replace
 from datetime import UTC, datetime
 from pathlib import Path
@@ -191,6 +192,46 @@ def test_streaming_continues_after_failure_and_retries_cached_audio(tmp_path, se
     assert (retried.selected, retried.skipped, retried.completed) == (1, 1, 1)
     assert (retried.downloaded_bytes, retried.deleted_cache) == (0, 1)
     assert len(services.requests) == 2
+
+
+def test_parallelism_processes_multiple_episodes_concurrently(
+    tmp_path, services, episode
+):
+    paths = PipelinePaths.from_root(tmp_path)
+    second = replace(episode, id="456", audio_url="https://example.test/456.mp3")
+    snapshot = save_catalog(paths, [episode, second])
+    rendezvous = threading.Barrier(2)
+    original_transcribe = services.transcribe
+
+    def transcribe_together(audio_path, output_dir, script_path):
+        rendezvous.wait(timeout=2)
+        return original_transcribe(audio_path, output_dir, script_path)
+
+    dependencies = replace(services.dependencies(), transcriber=transcribe_together)
+    summary = run_year(
+        year=2026,
+        paths=paths,
+        transcriber_script=paths.root / "scripts/transcribe.py",
+        dependencies=dependencies,
+        catalog_snapshot=snapshot,
+        parallelism=2,
+    )
+
+    assert (summary.selected, summary.completed, summary.failed) == (2, 2, 0)
+    assert summary.downloaded_bytes == 10
+    assert summary.deleted_cache == 2
+    with PipelineState(paths.state_db) as state:
+        assert state.status_for("123").status == EpisodeStatus.COMPLETE
+        assert state.status_for("456").status == EpisodeStatus.COMPLETE
+
+
+@pytest.mark.parametrize("parallelism", [0, -1])
+def test_parallelism_must_be_positive(tmp_path, services, episode, parallelism):
+    paths = PipelinePaths.from_root(tmp_path)
+    snapshot = save_catalog(paths, [episode])
+
+    with pytest.raises(ValueError, match="parallelism must be positive"):
+        run_frozen(paths, services, snapshot, parallelism=parallelism)
 
 
 def test_dry_run_selects_but_does_not_create_state_or_audio(tmp_path, services, episode):

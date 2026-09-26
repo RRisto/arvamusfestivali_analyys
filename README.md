@@ -28,10 +28,19 @@ transcription skill must use a uv executable outside `PATH`.
 
 ## Operations
 
-`run` downloads one episode at a time, invokes the local transcriber, validates its
-output, and writes `data/transcripts/<year>/<soundcloud-id>.json`. It resumes safely:
-existing valid archives are skipped unless `--force` is supplied. Retry an episode
-after fixing its cause with the same command plus `--episode-id`:
+`run` downloads an episode, invokes the local transcriber, validates its output, and
+writes `data/transcripts/<year>/<soundcloud-id>.json`. It resumes safely: existing
+valid archives are skipped unless `--force` is supplied. Process several episodes
+concurrently with `--parallelism`; each worker uses the transcriber's default four
+CPU threads, so `--parallelism 4` is appropriate for a 16-vCPU machine:
+
+```powershell
+uv run arvamusfestivali-transcripts run --year 2026 --parallelism 4 --catalog-snapshot data/catalog/<timestamp>-2026.json --transcriber-script C:\Users\risto\projects\skils_plugins\plugins\estonian-audio-transcription\skills\estonian-audio-transcription\scripts\transcribe.py
+```
+
+The default remains `--parallelism 1`. Each worker uses an independent HTTP client,
+state-database connection, and engine-output directory. Retry an episode after fixing
+its cause with the same command plus `--episode-id`:
 
 ```powershell
 uv run arvamusfestivali-transcripts run --year 2026 --episode-id 2400217815 --transcriber-script C:\Users\risto\projects\skils_plugins\plugins\estonian-audio-transcription\skills\estonian-audio-transcription\scripts\transcribe.py
@@ -39,8 +48,8 @@ uv run arvamusfestivali-transcripts run --year 2026 --episode-id 2400217815 --tr
 
 `fetch` only builds the verified audio cache; `transcribe` only consumes verified
 cached audio and a saved catalog. All commands support `--root`, `--limit`,
-`--episode-id`, `--force`, and `--dry-run` as applicable. Year values are accepted
-from 2019 through the current UTC year.
+`--episode-id`, `--parallelism`, `--force`, and `--dry-run` as applicable. Year values
+are accepted from 2019 through the current UTC year.
 
 For a reproducible run, pass `--catalog-snapshot data/catalog/<timestamp>-2026.json`.
 For `run`, this frozen snapshot must match `--year`; it prevents Apple and RSS

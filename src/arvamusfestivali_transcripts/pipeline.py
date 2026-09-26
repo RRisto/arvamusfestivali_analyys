@@ -9,6 +9,7 @@ import os
 import shutil
 import tempfile
 from collections.abc import Callable
+from concurrent.futures import ThreadPoolExecutor
 from contextlib import nullcontext
 from dataclasses import dataclass
 from datetime import UTC, datetime
@@ -84,6 +85,7 @@ def run_year(
     catalog_snapshot: Path | None = None,
     episode_id: str | None = None,
     limit: int | None = None,
+    parallelism: int = 1,
     force: bool = False,
     dry_run: bool = False,
 ) -> RunSummary:
@@ -97,6 +99,7 @@ def run_year(
         catalog_snapshot,
         episode_id,
         limit,
+        parallelism,
         force,
         dry_run,
         transcriber_script,
@@ -112,6 +115,7 @@ def fetch_year(
     catalog_snapshot: Path | None = None,
     episode_id: str | None = None,
     limit: int | None = None,
+    parallelism: int = 1,
     force: bool = False,
     dry_run: bool = False,
 ) -> RunSummary:
@@ -125,6 +129,7 @@ def fetch_year(
         catalog_snapshot,
         episode_id,
         limit,
+        parallelism,
         force,
         dry_run,
         None,
@@ -141,6 +146,7 @@ def transcribe_year(
     catalog_snapshot: Path | None = None,
     episode_id: str | None = None,
     limit: int | None = None,
+    parallelism: int = 1,
     force: bool = False,
     dry_run: bool = False,
 ) -> RunSummary:
@@ -154,6 +160,7 @@ def transcribe_year(
         catalog_snapshot,
         episode_id,
         limit,
+        parallelism,
         force,
         dry_run,
         transcriber_script,
@@ -324,12 +331,15 @@ def _workflow(
     catalog_snapshot: Path | None,
     episode_id: str | None,
     limit: int | None,
+    parallelism: int,
     force: bool,
     dry_run: bool,
     transcriber_script: Path | None,
 ) -> RunSummary:
     if limit is not None and limit <= 0:
         raise ValueError("limit must be positive")
+    if parallelism <= 0:
+        raise ValueError("parallelism must be positive")
     dependencies = dependencies or PipelineDependencies()
     if catalog_snapshot is not None:
         snapshot = _load_snapshot(catalog_snapshot)
@@ -370,11 +380,16 @@ def _workflow(
     with PipelineState(paths.state_db) as state:
         for episode in snapshot.episodes:
             state.record_discovered(episode.id, year)
-        if not selected:
-            return summary
-        client_context = dependencies.client_factory() if mode != "transcribe" else nullcontext()
-        with client_context as client:
-            for episode in selected:
+    if not selected:
+        return summary
+
+    def process(episode: Episode) -> RunSummary:
+        episode_summary = RunSummary()
+        with PipelineState(paths.state_db) as state:
+            client_context = (
+                dependencies.client_factory() if mode != "transcribe" else nullcontext()
+            )
+            with client_context as client:
                 _process_episode(
                     episode,
                     snapshot,
@@ -385,9 +400,26 @@ def _workflow(
                     dependencies,
                     transcriber_script,
                     force,
-                    summary,
+                    episode_summary,
                 )
+        return episode_summary
+
+    if parallelism == 1:
+        results = map(process, selected)
+        for result in results:
+            _merge_summary(summary, result)
+    else:
+        with ThreadPoolExecutor(max_workers=parallelism) as executor:
+            for result in executor.map(process, selected):
+                _merge_summary(summary, result)
     return summary
+
+
+def _merge_summary(total: RunSummary, episode: RunSummary) -> None:
+    total.completed += episode.completed
+    total.failed += episode.failed
+    total.downloaded_bytes += episode.downloaded_bytes
+    total.deleted_cache += episode.deleted_cache
 
 
 def _process_episode(
