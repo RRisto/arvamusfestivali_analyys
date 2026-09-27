@@ -1,0 +1,4001 @@
+{
+  "schema_version": 1,
+  "episode": {
+    "id": "2397264573",
+    "rss_guid": "tag:soundcloud,2010:tracks/2397264573",
+    "title": "Kas oleme tehisaru nimel valmis ohverdama oma inimõigused_",
+    "published_at": "2026-09-09T11:49:50Z",
+    "apple_collection_id": 1477431807,
+    "page_url": "https://soundcloud.com/arvamusfestival/kas-oleme-tehisaru-nimel-valmis-ohverdama-oma-inimoigused-8",
+    "audio_url": "https://feeds.soundcloud.com/stream/2397264573-arvamusfestival-kas-oleme-tehisaru-nimel-valmis-ohverdama-oma-inimoigused-8.mp3",
+    "audio_bytes": 82797798,
+    "audio_sha256": "14227d50ffca4d0ff4e2ce59790dc135a24294b45274ed7cea7285b68789f382",
+    "duration_seconds": 5174.0
+  },
+  "transcription": {
+    "model": {
+      "name": "large",
+      "repository": "TalTechNLP/streaming-zipformer-large.et-en",
+      "revision": "2812262bd4fd5d4327dc09ca0e6c19e8a32a03d6",
+      "precision": "int8"
+    },
+    "runtime": {
+      "sherpa_onnx": "1.13.7",
+      "decoding_method": "modified_beam_search",
+      "threads": 4
+    },
+    "text": "Mul on hea meel taas kord sisse juhatada üks järjekordne Tõnis Aru puudutav teema, need on siin ridamisi ja päris mitmel alal. Ma alustaks võib-olla sellest on hästi selline mustvalge küsimus, millel on väga raske veel ühest vastust anda. Ma töötan väga paljude ettevõtetega organisatsioonidega, seal ma tihtipeale näen ja kuna minu fookus on appi finantsvaldkonnad, et väga hoolikalt hoitakse andmeid ja, ja piiratakse, ei taheta ligipääsusid anda. Aga teisalt ma näen ka nende samade inimeste nii-öelda kasutus oma kuulajaid, mida nad isiklikul tasandil teevad ja seal nad annavad väga palju andmeid, eks ju, ma küsin, kes, kuidas on kasutanud, siis tihti tulevad, mis on väga loogiline, tulevad esimesena, et isiklikud kasutuslood, kes küsib niisama, kes küsib aia kujundamise kohta, kes küsib oma tervise kohta. Ja, ja tihti nad ei mõtle sellele, et kuhu need andmed sealt võiksid edasi minna. Et ma arvan, et siin on alati selline kaks poolt nendes teemades. Aga kui kasutajate neid funktsioone kui Google'i otsingumootorit, siis lõppkokkuvõttes see pilt selleks kokku pannakse see, see annab nagu üsna palju, et see, see andmete andmine on niimoodi kildhaaval, eks ju, et lõpuks saab selle suurema pildi kokku. Nii et, et seal on nagu väga palju Ja aitäh kuulamast ja tulemast ja kutsumast. Üks on võib-olla see kõige õiguslik pool, selline riide pool. Aga selles osas ega see AI ei küsi, milliseid andmeid ta võtab. Me sageli ei tea, mille peal ta on treenitud. Et kuidas me oleme neid andnud, kes on neid võtnud, kuidas nad on sinna jõudnud ja sageli seda üldse ei tea. See, kui me konkreetselt anname neid sinna sisse, see loomulikult mõjutab jälle seda, kuidas ta meile reageerib. Aga see on personaliseerumise küsimus. Et mida ta meist nüüd juurde õpib, aga sisuliselt mina ei kasuta. See on meie jaoks hoomamatu. Seda me üldsegi ei tea. Mis andmed seal on, nii et iga hetk, kui me neid tegelikult anname, me ei tea, mis nendega tulevikus juhtub. See on kahtlemata ka üks, üks probleem, mis tasub võib rääkida just vaadates seda, et, et mis tegelikult minu õigustega juhtub ja mis hetkel ja kas me seda üldse märkan. Ja teine on siis võib-olla tõesti see inimlik aspekt, et kui kaugele ma ise lähen andes või samastades seda AI-d teise inimesega ja tal ju usaldades oma muresid ja, ja tegelikult personifitseerides seda, et ma just olin reisilt ja ja kuulasin tagasitulekul, et huvitavat intervjuud see ongi see, mida chat ja kõik teised nüüd tulevikus tegema. Et kuna tegelikult inimene päriselt ei hooma, millega ta seal mängib, siis nende jaoks ongi nüüd olulisem oma klient endaga siduda ja tegelikult nende eesmärk ongi seda teenust muuta nii isikupäraseks, et sa ei saaks sellest loobuda. Nii-öelda, et see ongi eesmärk omaette. Et see on minu AI, see teenindab nüüd hommikust õhtuni. Ja noh, selles, sellel alal ma ei ole ekspert, aga ma arvan, et siin on väga palju arutelusid, kus on jällegi selle ala eksperte, et kuidas see vaimselt meile mõjub, kui sisuliselt ikkagi keskuspartneriks on vestlusrobot, mis võib väga meeldivalt või isikustatult vastata, aga ta teeb seda lõpuks ikkagi ühenäolisuse arvutustele ja saadud info põhjal. Kuidas inimesed kasutavad ja need on tõenäolised kogemused on kuskil seal allpool. Aga üsna top kolmes on see, et ma lihtsalt kasutan vestluspartnerina, ma räägin, mis me täna juhtume, siis ma küsin oma tunnete kohta, küsin emotsioonide kohta ja kuna tõesti see mudel on üles ehitatud selliselt, et ta on alati kasutajale meele järgi, siis tähendabki seda, et ta vastab justkui seda, mida sa ootad, sest ta teab, olge, et ma oskaks seda ette ja mustada ja, ja selliselt tekibki tunne, et oh, mul on sõber, kes väga hästi teab, mida ma mõtlen, mida mõtleb kaasa. Ja, ja siin oli ju eelmine aasta olukord, kus chatked mudel muutus, nad algata ikkagi regulaarselt muudavad, uuendavad mudeleid, aga oli hästi suur muudatus GPT neli hoo pealt läks viie peale ja, ja see tõi kaasa nii suure pahameele sotsiaalmeedias inimesed olid frustreeritud, väga kurvad, sest nende sõber oli kadunud sellepärast, et meil oli palju sõbralikum kui viis ja siis peab igal mudelil on oma siuksed baasjuhendid, eks ju, instruktsioonid ja, ja viie puhul siis nii-öelda keerati maha seda meeldivust ja, ja seetõttu inimesed olid väga-väga kurvad. Ja, ja siis kompanii ja nii nagu sa ütled, eks ju, seal tahab seda, et, et me kasutaksime neid, siis me kõiki selle neli loo tagasi mingiks ajaks õppida, et okei, ajutiselt võtke siis kasutage edasi. Et mingi hetk proovisid uuesti ära võtta, ikka tuli selle ikka pandi see tagasi, noh, tänaseks, eks ju seda enam ei ole. Aga, aga see on tõesti, see on, see on päris suur osa, kus juba kasutatakse nii palju. Nagu vanust, kus sa ka ei saa seda muuta. Nii et ja kindlasti need krediidiküsimused on head näited ka, kui te lähete välismaale elama, siis te olete korraga välismaalane, siis te ka kindlasti jääte kohe sinna skoori. Ja kui te ei ole kindlasti mingit delikaatsed andmed, mida te ei väljastaks. Et ja, ja samas me näeme, kui me näeme näiteks kasutust--- politsei poolt, need ju ei küsi, milliseid andmeid nad võtavad. Nad võtavad, saaks meediast nad võtavad igalt poolt, kes te olete olnud, kes, kes te olete, kust te tulete? Võib-olla te, teil on juba kord olnud probleeme mingite arvete äramaksmisega ja selle alusel tehakse siis täiesti profiil ja ja lõpuks jõuab see näiteks mõni politseiasutuse või järelevalve asutuse lauale. Et ma arvan, ütleb meile kenasti, kui, kui siin nüüd positiivne just meie politseilt, kas nad alati siis kasutavad ja vastus oli, et me ei vasta küsimusele, ma arvan, sellest tegelikult piisab, et teada, mis see vastus on. Sest need võimalused on olemas, need võimalused on olemas ja, ja sisuliselt me teame seda ka, kui te täna näiteks tahate reisida USA-sse ja palute viisat, siis teile seal taotlused või eestlase öeldakse ju selgelt, et arvestage sellega, et te peate andma lube, me tohime telgida üles otsima midagi olnud läbi vaadata nii, et ükskõik, kus te olete vahepeal oma infot andnud ja teie lapsukestest ja, ja ma arvan, et me ise seda üldse ei taju, ei hooma ja osaliselt me ei saa seda mõjutada. Et, et mingid andmed nagu meie vanuse, sugustaatus on tõesti avalikud. Loomulikult me peaksime selle üle mõtlema, et mida me, kuhu paneme. Ma ütlen just siin kahtlemata on kõiksugu näiteid noortest inimestest, kellel pärast võib-olla on väga piinlik, et, et see on kahtlemata üks punkt, samas ei tohiks unustada seda, et rääkides sellest, mis meie andmetest ja nendest tehisintellektidest saavad. Et meil manageeri seda täna. Me ei manageeri seda, me ei saa seda tegelikult sellega piirata, et neid auto. Ma sulgesin oma Facebook konto minule mingit probleemi seal kellelgi ei ole minu andmeid. Nii et see ei vasta täna tõele, me ei tea ka, kus nad on, nii et ma arvan, et väga oluliseks on muutunud see välja, kui läbipaistev ja arusaadav see tegelikult on ja mida meile selgitatakse, mis ulatuses me saame nõuda tegelikult selgitustega üldse seda hoomata, mis toimub, et see, ma arvan, oluline. Ma olen just tahtsin korraks siit sõna üle võtta selle läbipaistvuse osas, et mitte jätta väga sihukest negatiivset muljet kõigest sellest, sest näiteks oma krediidi hindamise näide ei ole üldse midagi uut, eks ju, et pangad hindavad su krediidivõimekust, seda on aastaid-aastakümneid, võib-olla juba tänaseks tehtud, eks ju. Seal taga on tavapäraselt masinõppe algoritm, ehk siis seal on mingi mudel, mis vaatabki, et jah, teatud vanusest võib-olla inimesed ongi rohkem võlgu, teatud ametikohtadel, teatud palgatasemest. See on kõik väga okei ja see ongi palkade töö, eks ju, hinnata, et kes on siis nii-öelda tugevamad kliendid, kes on nõrgemad kliendid nende hinnastamine kõik töö käib selle alusel, eks ju. Aga, aga klassikaline masinõppe mudel on läbipaistev, eks ju, seal on täpselt teada, mis need parameetrid on, mille alusel nad hindavad pank, peab suutma seda sulle öelda, eks ju, et ma jään sulle laenu, ta suudab seda sulle põhjendada. Täna, mis probleemiks on, eks ju, et väga paljud teevad neid asju suurte keelemudelitega, sest sealt keele õpetajad seminari, millega iganes ja need ei ole enam deterministlikud süsteemid, eks ju, sinna sa ei näe siis ja seal sul ei ole seda ravivastust, ehk et jällegi tuleb eristada, eks ju neid, neid lahendusi, mida me kasutame ja kõik see nii-öelda generatiivselt kaasa selle, et igaüks oskab üldse olla seal kõigil hindaja ja ma võin, ma ei tea, pakun, müün auto, sa peaks hakkama ka hindama krediiti. Aga võib-olla ma teen seda lihtsalt chat-ga, eks ju, siis ma tegelikult ei suuda seda öelda. Nii et võib-olla inimesed peavad selle peale siis olema ka, eks nad kõige targemad ja ja ka neid küsimusi küsima teenusepakkujatelt. Absoluutselt, tegelikult eks ju, suurtel mudel on lihtsalt üks süsteem, neid on AID koosneb väga paljudest lahendustest, eks ju see, mis ma valisin masinõppel, on üks lahendus, suured keelemudelid on lihtsalt üks niisugune masinõpe nii-öelda lahenduse all foorum, kus on võetud siis väga palju teksti kogu internetist kättesaadav info, me väga teame, et seal on ka palju nii-öelda salajastatud infot, eks ju, kõik suur raamatute sisu, ajakirjade sisu, paljudel sotsiaalmeedia sisu, mida on, mida on kokku kogutud ja selle alusel on seda mudelit treenitud, eks ju. Mitte niivõrd detail esines, kuidas mudel detailselt töötab, eks ju, aga, aga seal on nii-öelda tõenäosus, et peale ehk siis ta enam-vähem teab mingitest teemadest kõike. Nüüd see on kõigepealt on algselt treenitud. Iga kord, kui me kasutame, siis kui meil mingeid sätteid ja seadeid ei muuda, siis kõik, mis me sinna paneme, mis me räägime enda kohta, mis me räägime enda ettevõtte kohta, mille kohta me küsime, läheb ka sinna mudeli treenimisse ja ega ma jaganki enda sotsiaalmeediasse info ja ka nagu tõesti tõsi, mida kõike ma sinna saan panna, sellega kõik kaudu tegelikult treenitakse, eks ju. On need avalikud süsteemid suunatud süsteemid, on platvormid, mis saavad ka ligi sotsiaalmeediale, eks ju, näiteks Iraanlased teada-tuntud, temal on nii-öelda SpaceX, temal on siis Xa ja et siis treenitud siis X-i ehk siis Twitter ehk näiteks küsida, mida inimesed mingist teemast arvavad, sest seal on X-i andmed. Samal ajal näiteks meta Facebook, Instagram, nende andmetel ei saa klassikalised keelemudelid kõik, eks ju, sealt justkui ma ei saa küsida, et mida postitas, et just ütleme ette ei saa sinna ligi. Nii et, et seal on hästi palju nüansse, hästi palju detaile, aga tõsiselt jah, kui mõjuta või reageeri nendele nupukesega, et palun ära kasutamine andmeid, siis kõik tegelikult läheb sinna mudeli algoritmi ja sellega nad lähevad siis kogu aeg targemaks, saavad eks ju teada, mida eestlased teevad, mida inimesed mõtlevad ja nii edasi. Aga mis on üks, mida me saame teha nende poistetust või nende nende südametega, mida me nüüd jagada, teil on alati seal paremal üleval, kui kuskil on see olnud. See tähendab seda, et see vestlus läheb nii-öelda justkui poolavalikuks ja neid andmele just tal siin suuremale kantroopikule ehk siis kloudi puhul kõik, kes olid vajutanud seda söönuppu, üks hetk ilmusid Google'i otsingutesse ehk siis kui ma küsisin seal, räägi mulle niisugustest terviseandmetes, siis mul hakkas tulema järjest erinevate inimeste neid küsimusi, kus nad olid kenasti jaganud kõik kogu aeg terviseandmeid ja nii edasi. Nagu neid kogemata tegelikult neid tegema, kui me ei tea neid süsteeme, me ei tea, mida me tegelikult nupud ja, ja jagame seda mitte jagamised kaasa toovad. Samas kõik, kes selle teemaga on rohkem tegelenud, võib-olla ka rahvusvahelistel konverentsidel olnud, teavad, et meil on tegelikult päris hästi. Meil Euroopa liidus ongi seadusi, mis reguleerivad seda andmekaitsemääruse, mis reguleerib isikuandmete kaitsmist kui ka sellised seadused Euroopa Liidu tasandil stableerivad, mida ettevõtjad tohivad teha. Palju pole räägitud ka sellest, et kuidas on kohtuotsuseid tehtud, kas komisjon on otsuseid teinud siin suurte digihiidude vastu, mis on väga palju pahameelt tekitanud, ka USA-s, USA presidendiks. Et ja ka rääkides tehisintellektist, tehisintellekti määrus, eks need ikkagi suurelt osalt on olnud jõustunud just päästjate jõustus ikka kohustus üldiselt avaldada. Kes siis seda tehisintellekti kasutab parajasti kui mõni ettevõtja mõni said seda kasutab neid sellest teavitama. Nii et loomulikult ja siin on paljude seda kriitikat olnud ja ikka kõlab ikka ja jälle seda kriitikat ja kahtlemata selles nõustuma. Et, et teatud ulatuses see piir peab innovatsioonile ja siis ongi see, et see suur vaidlus, et kuidas selle Euroopaga on, et kas me siin Euroopa Liidus oleme sellised vananenud idanenud ja ei jõua järgi innovaatilistele riikidele nagu Hiina, kes võiksid olla meile eeskujuks, kuidas nad võib-olla igas asjas ei ole meile eeskujuks, ma arvan, et see on väga oluline, et meil kindlasti ei ole vastust kõikidele nendele küsimustele, aga ma arvan, et väga oluline on, et me arutame neid küsimusi tegelikult, et mul on huvitav kogemus oli just möödunud õppeaastal ühe, ühe tudengiga USA-st, kes meil ülikoolis õppis ja kes mulle ütles, et ei tea, kui priviligeeritud te olete küll õnnelikult te olete, et tõesti tegelikult ta nii on ja et see tekitab meis vaidlusi, sest kahtlemata ma arvan, et riikidel on siin roll, mida me olime juba peaaegu ära unustanud või mida me kipumegi ära unustama seni kui kõik on korras. Ma arvan, me nägime seda väga ilusti pandeemia ajal. Et see, kui majandus on korras ja muid muresid väga ei ole, keegi ei mõtle selle peale, et riik on olemas ja niipea kui asjad lähevad kuidagi treeni ja mingit paanika tekib, siis vaadatakse otse üle, kus on poliitikud ja kus on otsustav isik ja kus keegi meid nüüd, mida nüüd teha. Ja, ja tegelikult meil on seda riigi rolli meie selles, et kaitsta neid põhimõtteid, mis meile on meie ühiskondades olulised, ma arvan, väga vaja, sest tõesti see, ma arvan, selle, selle innovatsiooni ja, ja majandus probleemide sulgemine tunneme seda kõike. Ja ma arvan, et see on ka arusaadav ja kahtlemata on ettevõtjatel ka väga suur huvi kõike kasutada ja samas teatud ulatuses on, on see oluline, aga me peamegi siin kaaluma ja ma arvan, et see on oluline seda arutada, et kus on see piir, sest tegelikult seda piiri ju ei ole, et me seame seda kunstlikult ainult, et ainult seadused ütlevad seda, et kas võib olla minule isikuandmeid tohib mingis ulatuses kasutada või mitte, et, et sisuliselt tehniliselt on täna kõik võimalused olemas, et kõik läheb müüki, kõik läheb kasutusse ja seda näitavad ka otsused, eks ole, välisettevõtjate vastu, et ainult siis, kui neid piire ületatakse, siis võivadki trahvid tulla. Nii et ega, ega sellist loomulikku piiri seal ei olegi, see on ainult see, mis on neile nii tähtis, millised andmed, millised eraelu, mida me ei taha, eks ole, kus on, kus on see term. Aga me kõik teame, me teame neid inimesi, kes neid küsimusi ei jaga oma sotsmeedias me teame neid, kes väga vabalt jagavad kõike. Sisuliselt ei ole nii, et kõike tohib minul lehelt võtta. Samas on see küsimus täpselt, kellega ma olen jaganud, kuidas ma olen seda kvalifitseerinud. Enamus inimesi ei mõtle selle üle üldse järgi, kui nad midagi postitavad. Pärast võib-olla tekib tunne, et oi-oi-oi, mis sellega nüüd oli. Aga ikkagi meil on täna üleval seadused ja regulatsioonid, mis peaksid seda ikkagi ennetama. Et lihtsalt minu Facebook kontost kõike võtta ei tohiks. Samas, mis toimub ja mis juhtub selle kohta on meil näiteks piisavalt, et kui asjad ikkagi untsu lähevad või kui just näeme, mida ikkagi sellised väga, väga ulatuslikud ja võimekad mudelid oskavad ja ja teenused nagu näiteks kõik need, mis on seotud täna isikute tuvastamisega, tuvastamisega ja muud sellised, et tegelikult praktiliselt igaüks on kuskil üles leitud. Aga tegelikult see tähendab selline teine pool, millega meie oleme kokku puutunud. Et see on nii-öelda riigi ja kodanike vahel. Et kui me nagu riigina liigume sinna suunas, et me tahame, et meil oleks kõige teadlikum elanikkond ja ja riik oleks ka teisalu baasilt toetatud ja nii edasi ja nii edasi, et see tekitab meie vaates nagu oleks selle küsimuse, et kas, kas sellest saab kõik, kõik inimesed saavad sellest osa ja ja need siin ütleme toime ka tekitada sellise raporti, kus me vaatasime digi digi nagu laiemalt küll, et kuidas vanemad inimesed üldsegi saavad endast digiharjustest osa, mille, mille üle me oleme riigile väga uhked ja seal on nagu väga suured puudujäägid, et sellist üleüldist nagu üle koordineeritud riigipoolset korraldust, kuidas me siis abistama neid inimesi, kas kõik peavad nagu kasutama digilahendust, kas kõik peavad tehnilise lahenduse näiteks kasutama, kui nad suhtlevad riigiga, et kui peaks jääma ikkagi see inimeselt inimesele suhtumis või riik inimene suhtlus ka alles, et see hea näide oli justiitsministeeriumi juturobot siis tasuta õigusabi hakkas asendama ja kogu selle ümber käinud asju, mis eelmisel aastal olid. Tegelikult me ei saa või minu meelest ei tohiks nagu eeldada seda, et kõik inimesed peavad nagu selliseid lahendusi suhtumisel riigiga kasutama selle koha ja mingitel põhjustel ei tabata. Muidugi uus aasta, Inglismaalt tuleb hästi palju neid uuringuid ja seal on hästi selgelt näha, et, et see tippkasutusel see niisugune kakskümmend viis kuni kolmkümmend viis vanus, noortel võib-olla natukene vähem, aga peaaegu sama palju ja vanuseid gruppides edasi läheb kogu aeg madalamaks, eks ju. Et selge on see, et, et see aeg osutus toob seda digilehe veelgi enam lauale ja eks ma näen seda samamoodi organisatsioonide ees ja ettevõtetes, kus on noored tiimid kasutusel nii palju suurem, kus on vanemad töötajad, see kasutus on palju madalam ja, ja paraku see võlub nii-öelda tavakasutusesse, ettevõtluses, ettevõtetes samamoodi, eks ju, sest need inimesed, kes kasutavad, muutuvad efektiivsemaks oma igapäevatöös ja, ja kes vähem kasutavad, on siis vähem efektiivset õppe, võrreldes nende teistega ehk siis ka sealt tekib seda nii-öelda kohati see tabavõrdsust, eks ju, et see on küll, eks ju võib-olla organisatsiooni juhtkonna otsustada, et kuidas ta sinna panustab ja kui palju ta siis hoolite. Aga, aga väga palju sõltub ka sellest, kuidas inimene tahab üldse seda muutust ja inimestele meeldivad väga-väga ei meeldi see muudatus maailm ja see, et kõik muutub ja et siis võib-olla noored on selles mõttes ka vastuvõtlikud nendele muudatustele. Samas ma ei alahindaks noori, meil oli ka just küsitlusi ja tegelikult minu ülikooli ka näitab, et, et meie kõige vähem kriitiline IT kasutaja kõiksugu digikasutajad on, on mingi nelikümmend pluss, nelikümmend viiskümmend ja ma võin seda kinnitada, et tegelikult noortel on tänapäeva nende teadlikkus kõikide nende tellimustega kaasnevatest ohtudest ka. Ja, ja kriitiline hindamisvõime on ta palju parem muidugi nende oskused ka. Ja tõesti kahjuks meil on minult tihti küsitud ja ma olen kahtlane kahjuks saanud panustada sellesse. Ei ole ka minu ala, et meil on vähe olnud uuringuid vanemaealise elanikkonna kohta, aga meil üks on olnud selline oma mäletamist Tallinna Ülikoolis ikkagi on näidanud, et loomulikult seda mahajäämust on seal päris palju ja kahtlemata, miks meil võib-olla sellel ei ole olnud ka nii palju kajapinda võrreldes teiste vähemalt Lääne-Euroopa riikidega, on ju see, et meie vanemaealine elanikkond on seni olnud keskmiselt, ütleme ka vähemjõulisem ja võib-olla vähemjõulisem ka kahtlemata oma poliitiliste nõudmiste läbisurumisel sel moel, aga ka meil. Selles mõttes, et mingi hetk jõuab see igaühele ja siis jõuab ikka uusi lahendusi ja kindlasti nii, et võib-olla võib mõni arvata, et see hetkel mind ei puuduta, see on natuke nagu, nagu see jutt sellest, et miks kunagi meie isikukoodilt olid avalikult meie sünniaastatega, et noh, kõik, kes ümber laua istusid, olid kakskümmend. Nüüd nad seda enam ei ole. Kas igaüks peab nägema, meil on sünniaastad kohe, kui ta soovib mulle palju õnne mingit poemüüja, aga nii ta on. Nii et ma arvan, et see tõesti arvestada sellega, et meil on ühiskond täielikult väga erinevas vanuses ja kõik me läbime iga vanuse ja mingil hetkel on oluline justkui selle kokkuhoidva ühiskonna nimel, sest muidu meil läheb osa ühiskonnast välja. Aga, aga see, mis, millest me oleme pigem see, et riigiteenused ja riigi riik enda suhtluses siis kodanikega, et et kui see on liikunud liikmeslike poole, mis toob endale kaasa selle, et siis kaob ära see inimeselt inimesele suhtlemine, et see seda meil on nagu probleemi, et seal peaks olema ikkagi tagada see inimene, inimesega suhtlemine jääb alles ka, et seal ei saa, riik ei saa välistada seda, et kõik ühteviisi kasutavad, siis esimesel kombel digilahendusi ja mis iganes. Et ma arvan, et meie ühiskonna lõhestumine on üks väga oluline probleem, siin Eestis meil ka ja me peaksime keerulise järjekorras tegelema, kui me tahame, et me käiks siin rõõmsalt kokku ja eks me elame, nii et jah, see võib küll öelda, et jää siis välja. Aga esiteks ma arvan, et siin on veel üks teine aspekt ja tulen veelkord tagasi nende noorte juurde, et see on ka loomulikult ju psühholoogiline küsimus, et mingi hetk see on täpselt see, et jah, ma võin ju küsida, aga arstiabi chatist ja ma tean, olen seda arsti väga kannatavad selle all, et igaüks arvab nüüd, et me oleme ise tarka arst ja ja kui tulevad advokaadi juurde, siis on ka juba kõik läbi üheksandanud ja ütlevad ka, mida nad kohe nõuavad. Aga samas nad pöörduvad ikkagi sinna me teame seda kõik, miks me seda teeme, sest me oleme inimesed. Me teame seda inimlikku kontakti, me tahame kuskilt seda tagasisidet saada, et, et ja see on see moment, see on see, ma arvan, jääb paktidega on seda võib-olla tihti olnud, et võib-olla ka seni kui muret ei ole, ei ole probleemi, aga siin ma katsun kuskile helistada, ma katsun kellegagi kätte saada, ma ei tea, pandi midagi kinni või tellimus ei toimi, lendrid. Kuskil ei ole enam kedagi, tahaks kellega rääkida. Kuskil ei ole, helistage sinna ja kirjutage email'i, kolme kuu pärast saate vastuse. Mitte keegi teie väga ei suuda, kui ebameeldiv see on, kui meil hakkab seda juhtuma meie riigiga, siis inimeste usk riiki kaob väga kiiresti ja see on tegelikult ka meie üks üliõpilaste olnud, et meil on kõik nii väike, et me saame alati vastata, kui vaadata, mis nende digilahendustega suurtes riikides tihti juhtub, ongi tõesti see, et enam ei ole inimest ja inimesed satuvad mingist asja täiesti absurdsetesse keeristusse. Ja, ja, ja see mõjub väga otseselt inimese usku, tema riiki kui korraga, ma ei tea, ehitusluba, mingi lapsetoetus ei saa kuhugi mitte kuskilt ei ole enam mitte kedagi, kellele vastatakse ja sulle ainult kogu aeg keritakse neid samu vastuseid kuskil popis. Selles mõttes, et, et see on natuke selline valikute küsimus täna, eks ju ja ma arvan, sellele kombinatsioon või sellest, et mis tööriistu me kasutame, kust, kust riigist on need tööriistad ostame, eks ju, miks me just sellised valikud teeme, väga palju ka räägitakse sellest, et täna kõik õpetajaid, seminare ei too kümned suured mudelid on ju kõik USA-s eks ju kasutame teiste riikide mudeleid, sest Euroopas ei ole enda, miks Euroopas ei ole, Euroopa ei taha täna või ei ole võimalik nii palju investeerida. Samal ajal me ju kasutame ikka, eks ju, me selle võrra justkui anname selle kasutuse raha ka Euroopast väljapoole ja, ja meil ei tule võib-olla ka seda positiivset efekti siis nii palju me justkui saaksime ringi lõpustuse seda raha jällegi anda siis kasutusse Euroopasse sisse nii nagu täna ju USA ka teeb, eks ju nad juba räägivad sellest, eks ju, kas natuke piiratud või mitte. Eks ju, et tahetakse anda ka nendest tehnoloogiaettevõtetest osa, eks ju riigile, et justkui sealtkaudu seda, seda rahavoogu tagasi saada. Aga, aga jaa, ma olen väga nõus, me oleme hästi suures osas täna või selles hetkes, kus digilõhe kasvab ja, ja ma arvan, et riigi roll täna on võimalikult proovida siis seda kokku tõmmata, on ta siis läbi koolituste, on ta tõesti läbi selle, et, et see nii-öelda inimkontaktini roll jääb, eks ju alles, et me ei prooviks siis kõike ära automatiseerida, et meil on ikkagi võimalik seda teenust pakkuda ka nii-öelda vanaviisi. Aga, aga noh, ka kõik näitajad, eks ju näitavad seda, et, et mida noorem põlvkond peale tuleb, seda vähem tema tahab, seda kontakti inimlikku, eks ju. Mis tähendab, et me samal ajal investeerima ka nendesse tehnoloogilistesse lahendustesse, et kui ma lähen sinna Eesti.ee lehele see chatbot'ide käest midagi küsin, kas ta päriselt oskaks ka vastata, eks ju, mitte ei ütleks, et vabandust, ma ei saa aru, eks ju, mida täna. Olen nii-öelda täna selles pilootprojektis sees väga palju praegu räägitakse ka sellest uuest hankest, millega tahetakse siis uusi kommenteerida ja eks seal on ka teatud kriitilisus selgelt nende suunas õigustatud, aga ma isiklikult hästi usun sellesse visiooni, et meil on vaja seda teadlikkust tõsta, töötades ise, ise mittetulek inimeste ära koolitanud. Ma näen, kui palju need inimesed muutuvad juba nagu rõõmsamaks selles osas, et meil on mingi võimalus tekkinud efektiivsuse tõstmiseks ja mingeid igavaid tegevusi ära automatiseerida ja, ja see on üks võib-olla tööalaselt, aga ka isiklikul tasandil need oskused ja, ja noh, läbi selle, et ma õpetan ka Arengu õpetan, mina õpetan, eks ju finantsi seda valdkonda üldse, kuidas see digitaalselt käituda turvaliselt, eks ju, palju laiem skoop tegelikult. Et siis tahaks ikkagi nagu päris inimesega rääkida. Et, et see on nagu okei loomulikult, et me õpime. Et, et see, et saab pidevalt oleksid ikkagi nagu kursis sellega, mis toimub, see, see vajab nagu väga palju nii-öelda pidevat õppimist. Võib-olla mingil hetkel. Kuidagi kõrvale. Et, et kui mul siis on vaja nagu soome mingisuguse ametiasutuse--- et see, see on see hetk mulle tundub, et kui ma iseenda niimoodi tulevikus, et siis hakkaks midagi jubedadele käima, et siis ma muutuks selliseks pahulaks vanainimeseks, kes käib nagu põhimõtte pärast, käib kuskil ukse taga kohaliku omavalitsus ja koputab ja kuulab kokku selleks. Et kuna tõesti see, et kas see on ainult lõhestumine, ma arvan, meil on nii palju tõesti põhimõttelisi küsimusi, mis tekivad peavad meie ühiskonnas pingeid, et see ei ole ainult see, et ühed on sellised, teised on väljas vaid kasvõi see, kuidas igapäevaselt mõjub, kellel on lapsed, kes lõpetab, kuidas need õpioskused iga aastaga muutuvad. Kahjuks pigem allapoole. Samas, et kuidas meie siis kohaneme sellega, mis ulatuses meil on vaja, mis ulatuses mitte. Et ma arvan, meil on vaja seda mõtestada ja siin, et, et ühiskond käriseb, et see ei ole ainult üks lõhe, vaid neid lõhes vertikaalsed ja horisontaalseid ja igapoolseid. Ja seetõttu on hästi oluline, et me nendega tegeleks ja, ja ma arvan, et see on see küsimus, millele meil tasuks kindlasti tähelepanu pöörata ja mida me ka näeme, et meil on, nii-öelda me oleme väga edukalt selle piiririigi logoga sõudnud, nüüd me tahame väga edukalt selle AI logoga edasi sõuda, aga nad vahest kipume unustama, et need on tööriistad, need on tööriistad, need on mõtestamine, nende mõtestamine ja kasutamine on meie endi vastutaval ja milliseid väärtusi ja mis raames me soovime seda teha, seda otsustame me ise. Selles mõttes on ka selline, et see on tore, et me saame kõik demoniseerida seda granti. Aga siin me näeme, kohe teeme siin arvuti lahti ja küsime chatilt, et anna mulle siis palun järgmine teekond nägema, sõidan ruumi ja kuhu ma lendan või ma ei tea, kust ma saan kõige soodsamat kasutama seda kui jalajälg on tohutu, väga mõnus on. Nii et jah, me peame õppima sellega elama, käituma, arvestama sellega, et see mõjutab meie elukeskkonda ja õppima ka seda, et ta mõjutab igat meie tegevust, mitte midagi ei ole objektiivne, iga info, mida me sealt saame, on täpselt meile suunatud. Kes tahab, võtab oma, ma ei tea, tuttavaid või lapse näiteks mingi sotskonda või vaatab, mis infot nemad saavad, see on hoopis teistsugune teie omast, sest me kõik teavad, kes te olete ja kõik teavad, kes mina olen ja siis ma saan ma ei tea, mis kutsupilte või mulle loomad meeldivad ja siis nad teavad, mis lause su lapsed umbes on, mingi hetk jäävad mängureklaamid ära, eks ole. Nii et need on need olulised punktid ja ma arvan, et kakskümmend viis tõi meile tegelikult väga kena sellise hetke ja Eesti ühiskonna ümber mõtlemise andmete teemal, kus kärkis üles kõiksugu küsimusi, et korraga tuli välja, et mingid kaamerad on üleval, politsei kasutamisest on mugav, kuskil ei ole mingit regulatsiooni ja siis tuli korraga välja, et kuskilt olid, oli palgasaladus rändama läinud juhuslikult ajakirjanikud ja õiguskantslerid hakkasid nuuskima. Vastuseks oli, aga vaadake, see on soodne ja haigusvõimalused olid olemas, balantiiri kohta, et tal üldse infot ei saaks. Minu arvates oleks riigikogu riigil kohustus sellistele küsimustele vastata ja vajadusel nad ära reguleerida. Tulemusena riigikogus kunagi ei ole arutatud inimestega, ei ole arutatud. Ja ma julgeksin väita, et see on toonud inim-, paljudes inimestes ümbermõtlemise ja ümbermõtlemise selles osas, et mida seal riik tegelikult teeb ja mitte positiivses suhtes. Nii et ma arvan, et see, et meie riik ja, ja ka poliitika ja meie ise loomulikult see, see alati poliitikute sõimamine ei, ei, ei ole lahendus, sest me tegelikult ise neid valime ja kui meile ei meeldi, siis me seame kas ennast ise üle või valima muid. Nii et meie oleme sama Eesti vastutuses, et küsida küsimusi, mis on ebameeldivad, ebamugavad ja mis nõuavad vastamist. Et see on igaühe meie südametunnistustel ja nii me saamegi ka luua seda kõige pädevamat digi kasvõi Grandi ja ma ei tea veel, mis riiki, mis oleks kõige enam inimeste õiguste, õigusi austab ja nendega arvestab ja ma arvan, et see osa on meil pikka aega jäänud tagaplaanile. Meil on kogu aeg olnud see, et me peame kuskile jõudma, mul on endal, olen istunud aruteludes, kus sulle ikkagi öeldakse, et jah, aga, aga vaata, mida Tiina teeb ja, ja me peaksime ka neid nägema, et ma arvan, et see on kindlasti võimalus, aga siis peaks ühiskonnaga kokku leppima, et siis me peaks ka vastama ühiskonnamudel olema. Sest ja, ja siin, kui seda ei ole, siis me peaksime neid muid küsimusi läbi arutama. Ma arvan, et lõpuks tegelikult võidab sellest ka riik. Sest see, et me ei usaldus riigi vastu ei kao, on hetkel väga-väga tähtsal kohal, me ei mõtle võib-olla selle peale, aga me näeme seda teiste riikide näitel ka, et tõesti kõik need tehismudelid on väga võimsad ja kui riik tegelikult neid katsu vähemalt kuulata, vaadata inimestele selgitada, mis toimub, siis võib vabandust teha. Loomulikult kasutada ka meie mõttes nagu headeks tegevusteks, et inimõiguste võrdsuse õiguse edendamiseks meie enda töö siis ka selleks, et siis oleks efektiivsem nendes lahenduse, mis aitab siis meil selliseid avalikus portaalides olevaid töökuulutusi läbi kammida ja leida diskrimineerivat sõnastusi ehk et see on muidu ülesanne, mis meil on olnud kogu aeg seaduses kirjas, et võrdõige kodaniku kantselei peaks seda tegema. Siis see selle üles täitmine jäi kuidagi alati selliseks, noh, kui aeg on siis teeme praktikas siis võib-olla mingisugune kolm-neli korda aastas, võib-olla keegi vaatab isegi juhuslikult üle neid tööportaale siis nüüd selle kamme, mis on meie eest ära ja siis teise rakendus ja leiab sealt iga nädal ikkagi üle viiekümne sellise kuulutuse, mis on siis võrdse kohtumisega vastuolus, et kus on kasutatud sellist diskrimineerivaid nõudeid, näiteks kandidaatidele olnud selline ebaõige, nii et et see kindlasti teeb meie tööd nagu lihtsamaks mingite asjade tuvastamise toob loomulikult ka tööd juurde jällegi, et seda tehnikat ja seda siis menetlema hakkab. Et seal peaks olema seesama klient, kes järgmisele ettevõttele mulle vaadake, andke meile selgitust nende jaoks selgitus ja siis ei vaata veel üle põhjendusi. Ma võin siin ainult kinnitada, et meil on sarnane kogemus olnud sotsiaalhoolekande valdkonnas, kus meie küll tegime sellise juriidilise poole ära, aga sisuliselt hinnati võimalust siis töödelda andmeid selliselt, et saaks teada kohalikud omavalitsused. Et kes üle kuuekümne viie aastastest vajab abi, aga ei ole seda ise küsimas teinud. Ja lõpuks kohalikud omavalitsused ka ütlesid, et teate, et meil on nii vähe töötajaid, et ikka tõite meile küll kõiki neid andmeid siin suunada, aga mitte keegi ei jõua nende inimeste juurde ja seni, kui meil ei ole inimesi, kes hooldavad neid, milleniga tegelevad, ei ole teil mingit mõtet neid andmeid ette suuta. Nii et lõpuks meil ikkagi jõuame selle juurde tagasi, et see ei pruugi isegi teadmine ei pruugi meid aidata, kui me ei ole lahendanud seda probleemi, et kust me leiame selle raha, et seda inimest leida või kuidagi seda toetada. Või on see osa täna kokku leppimata? Seda reguleerib täna tehisintellekti määrus ja, ja seal on siis hästi oluline aru saada, kummal poolel saavad arendaja oled sa siis, kui ei saa, eks ju, arendab suuri mudeleid, näiteks saab GPT, aga arendajaks muutub see meil siis, kui sa võtad näiteks teebki õpetaja mudeli ja paned enda toote sisse täna väga palju räägitakse iPhode'imisest, on räägitud imelihtne uusi rakendusi ehitada. Mõtlen, et on hea äriidee on hakata pakkuma teenust ettevõtetele ja selle teenuse sees me kasutame AID, siis ma olen juba pakkuja ja siis mul on päris palju erinevaid nõudeid, mis tuleb tehisintellekti määrusest ja teisalt on siis ka kasutajatel ehk siis enamik meist, kes me lihtsalt telefonis on meil chat-i õpetaja. Me oleme kasutajad ja, ja seal on siis ka, eks ju omaette nõude, et eelkõige just nagu organisatsioonide tasemel, et kui ettevõtted kasutavad, siis neil on seal kohustused ja kõige suurem osa võib-olla, mis on organisatsioonide poole pealt üldse laiemalt, et see ongi see tehisintellektiiv teadlikkus või, või oskus, eks ju seda kasutada. Et kui ma näiteks tööandjana annan inimestele võtta nüüd kasutajale, et sa pead igapäevaselt kasutama, siis mul on ka kohustus oma töötajaid koolitada selles osas, nad peavad oskama seda kasutada, nad peavad teadma, mida siis jäänud tähendab, nad peavad teadma, et see mudel võib eksida, see mudel läheb üldse meie lisaks siis eks ju on ka arendajatele üldse laiemalt siis eks ju seal ka erinevad riskitasemed ja seal on siis ka keelatud tase kõrgeriskitase ja, ja siis nii-öelda madala riskitase ja keelatud tase tõesti näiteks on Euroopa Liidus täna öeldud, et ei tohi kasutada tehisintellekti selliseks nii-öelda. Et ma ikkagi öelda ja jälgige seda, mida keegi teeb, kus ma käin poes, mida ma ostan umbes ja, ja selle pealt siis mul ei oska mingeid skoori panna. Et sellised tegevused on täna näiteks keelatud ja osad on siis kõrge riskiga ja näiteks on kõrge riskiga, et seal on päris palju nüansse. Aga kui sinna süveneda, siis--- üsnagi loogiline, eks ju, et mina kannata, kui me saime keelatud või isegi--- nõuded, mis on praegu õigustatud, eks me tahame ikkagi olla sellises ühiskonnas, mis ei aktsepteeri. Aga, aga ütleme nii-öelda andmete kogumise mõttes ettevõtete puhul ma võin rääkida koguda eraisikute puhul reguleerib siis GDP peale seda, mida nad tohivad kasutada koguda ja mida mitte. Aga eks ju, me teame ka täna seda, et GDP järelevalve on üsna madal selles mõttes, et väga vähe on neid olukordi, kus on neid ettevõtteid trahvitud ja kui keegi linnas USA-s on loodud ettevõte pakub meile teenust on ka üsna raske talle minna sinna trahvi tegema, et selleks, et ta nüüd minu andmeid kogu ja, ja tegelikult ei näita mulle, mida ta sellega teeb ja siis kasutajana, mul ongi lihtsalt otsuse koht, et kas ma loen läbi, et kakskümmend viis lehekülge neid tingimusi seal ja otsustan või mis me nimesi teeme, tahan lihtsalt seda rakendust kasutada, ma vajutan okei ja ja annan oma andmed selleks. Mina alguseks ja ma arvan, et see sõltub hästi palju organisatsiooni suurusest ja juba sellest varasemast teadlikkusest. Et kui ma teen koostööd suurte ettevõtetega, Eesti seksu võib olla niisugune sajast, paarisajast juba on justkui suurettevõte, eks ju, nemad on juba varem selle peale mõelnud, sest meil on täpselt kliendid, meil on mingid teenused, neil on oma maine, nad on varem selle peale mõelnud. Aga, aga eks ju, väga palju on neid väikeettevõtjaid, kelle jaoks ei ole see absoluutselt oluline teema ja, ja siis tulebki ka neid rakendusi, neid teenusepakkujaid väga-väga palju, kes panevad ja jagavad oma nii-öelda tööriistu, mis võib olla erinevate asja, aga, aga nad ei ütle seal, eks ju, võib-olla ka privaatsustingimusi neil polegi nagu üldse kodulehel seda infot. Mina, olles teadlik kasutaja, kunagi ei lähe sellist teenust ostma, eks ju, aga jällegi keskmine kasutaja, kes ei ole selle kursuse, eks ju ei peagi kõiki neid seadusi teadma, tema jälle pimesi läheb ja usaldab sinna oma andmed, kus siis viimasel ajal ka päris palju poleemikat tekitanud erinevaid, ma ei tea, finantsrakendused, kuhu öeldakse, et võta oma konto välja, võta lae üles, saad teada, mis su keskmise näiteks on ja nii edasi. Noh, ei tasu ikkagi seda teha, eks ju, aga, aga nemad tervisekontroll võtavad ka päris hea äriidee on ju ja see on ka see, mida me näeme, kus me oleme täielikult ka tagasi ja selle juures, et kui palju me investeerime sellesse järelevalvesse. Et meil on seni olnud Andmekaitse inspektsioon ja igas Euroopa Liidu liikmesriigis ei ole järelevalve niivõrd tagasihoidlik kui meil, et see oleneb ka sellest, et kuivõrd palju liikmesriike otsustab investeerida ja panustada nendesse inimestesse töötajatesse ja võimekusse ja nüüd meil just tekkis tegelikult ju tehisintellekti järelevalve osas uus nii-öelda ülesanne töötajale, millega ta hakkab nüüd rinda pistma täiesti uskumatult suur ülesanne selle üle valvata, sest tegelikult ta tõepoolest nii on ja see ei ole ju suurusest, et selle keeruka tehisintellekti määrusega ma pean arvestama ja, ja ma pean arvestama, mida ma tohin teha ja mitte ja tegelikult mis on samas ka väga oluline, et kes vastutab selle eest ja kui ma hakkan seda mudima ja ja paiskama kõikidele kasutamiseks, siis ma ka korraga vastutan. Ja ja see saab olema jah, väga-väga põnev, see on üks, see on tulemas Pärves Euroopa Liidus ja vaatame, kuidas meie siin Eestis ja meie teletaarsemaga hakkama saab. Et mitte ainult, et kuskil on kirjas mingid regulatsioonid, mida keegi ei järgi, vaid loomulikult nende mõju sõltub sellest, et kes jõuab nende järgi valvata ja nõuda sisse, et neid täidetaks neid nõudeid. Et tegelikult jah, reeglid on olemas, eriti ka rääkides just sellest, et tegelikult meil on see vastutus ka, et nähtud, et kui sa toodad ja siis, kui sa võtad või töölt ise hakkad kasutama ja avalikkusele hakkab pakkuma omal mingeid tehisintellekti mudeleid, siis saab ka vastutad selle eest, mida sa teed ja sa pead ise seda kontrollima. Valiku töö raames meil oli selline just lõppes kaheaastane suur projekt, kui me vaatasime ka siis riigi poolt pakutatavaid tehnilise ohu rakendusi erinevaid siis analüüsisime, kui palju on nendes rakendustes. Me tegeleme seda projekti koos TalTechi ja justiitsministeeriumiga Eestist, et ma vaatasin, et kui kui palju siis on selliseid inimõiguste perspektiivi mitte rakenduse arendamisel sees juba. Aga et üks võib-olla selline oluline õppekoht, mis ta sealt projekti juures saime, et oligi tegelikult see, et ega selle peale nii väga palju ikkagi mõelda kui tellitakse neid rakendusspetsialist sedasorti riskihindamist. See ei tule nagu väga loomulikult ikka veel aidata, et et seda tuleb suruda ja seda teadmist siis, et me peaksime need riskid läbi mängima, et seda peab tekitama. Mul on hea meel, et siin tuleb väga palju küsimusi, nii et ma võtan siit järgmise, et kuidas peaksime leidma kompromissi inimese otsustuskorralduse enda andmete suhtes ning suurte järelevalvesüsteemide näiteks palati vahel ohverdamata innovatsiooni ja riigi julgeolekut, turvalisust ja nii edasi. Esmalt on teadlikkus ja arutelu kõige algus, et seni, kui me ei tea, mis toimub ja infot ei liigu, siis me ei saa ju millelegi rääkida. Mida see kahekümne viies aasta ka näitas on, et muidugi me oleme kõik mugavad, sest seni, kui kõik toimib, keegi väga ei viitsi tegeleda. Ja, ja siin on jällegi küsitud meie kui valija ja siis sellest lähtuvalt siis riigikoguga. Et tegelikult ju see, et millised kaamerad, kus üles pannakse, kunas, kui kaugele me sellega lähme, kas me kasutame balan tervise ulatuses, mis ulatuses me saame teada sellest, mis info liigub? See on ju asi, mis peaks kuskil meil kirjas olema ja mis peaks olema ühiskonnas läbi arutatud, me kõik moodustame osa sellest ühiskonnas ja meil on kõigil vastutus selles küsimuses. Ja mitte ainult valitsuse ja sisuliselt, aga mitte ainult riigikogule, mida me palju näeme ja see ei ole tegelikult Eesti omapära, kuigi meie riigikorraldus on, on üsna, ütleme selline valitsuskesk, aga me näeme, et tervikuna see andmete töötlus sealt liigubki nii-öelda see riigivõim rohkem täitevvõimu suunas ja ära nii-öelda seadusandja poolelt meie täna ongi see, et me nõuame nii-öelda seda avalikku arutelu, et me saaksime kaasa rääkida, sest muidu ongi nii, et pärast tuleb välja, et see võimalus oli olemas ja me kasutasime seda. Ja veel kord, ma nõustun sellega, et teatud vastutusest loomulikult piirab innovatsiooni ja see ongi küsimus, et kas me tahame seda või me ei taha seda ja siin me peaksimegi neid väärtusotsuseid just langetama. Ja need peaksid minu arvates peegeldama enamuse ühiskonna otsust ja me näeme näiteks ju ka erinevusi riikides, see on ju okei, me teame, et meie oleme alati innovaatlikud ja alati, aga suur osa meie ühiskonnast. Me kindlasti ühiskonnana oleme avatud maad innovatsioonile kui näiteks me toome alati hea meelega vastunäitena Saksamaa ja neil on ka omad kogemused, miks ma arvan, meil on tõesti vähem põhjust. Meid on üks koma kolm miljonit, meil on vähem riske, meil on turvaline riik. Näiteks kui ma lähen Kolumbiasse ja räägin sellest, kuidas meil ruumiandmed on avalikud inimesed hirmuvad tänavalt. Et te kujutate ette, mis juhtuks siis järgmisel hommikul, kui tal Kolumbias oleks ruumiandmete ja omandi ja kinnistu kohta avalikud ja et sellest oli see case, et näiteks võis näitas ümbersõitu ühele noorele poisile, kuna oli ummiklinnas, aga ei näidanud, et ta peab läbi sõitma väga ohtlikutest linnaosadest ja siin poiss sealt elu sealt välja ei tulnud. Nii et teistest riikidest on teistsugused ohud meie teatud lahendused ei saa nii hõlpsasti kasutada Saksa näide ka, miks nad on kummalised, miks nad meie arvates on sellised näide? Nemad on õppinud Väimari vabariigis, mis siis oli enne õudset Aadu aega ja see oli meil esimene toime bürokraatia ja seal tekitati väga palju mõistlikke andmestikke ja korrastati kõik see asi ära. Muuhulgas näiteks registreeriti kõik usklikud vastavalt oma usule ja tehti suured andmetegud ja kõik oli kapoteekidega olemas ka juba enne digiriiki. Ja siis tuli selline äramismees nagu Hitler ja tal oli väga hea vaadata, lihtsalt tegi kartoteegi lahti ja hakkas nende andmete järgi kõiki juute sealt välja sõeluma, nii et ta ei pidanud neid kuskilt otsima, aga ta teadis, kes elab, mis korteris ja kus. Nii et ma arvan, et see selgitab meile ka, miks sakslastel on osa inimestel teistsugune suhtumine sellesse, et kuidas riik saab andmeid. See ei pruugi olla meie ajalugu. Aga me peame ka mõistma teisi, nii et ma arvan, et meie jaoks on meie arutelusid oluline, meie peame kokku leppima, mida meie tahame, aga see peab läbipaistvamaks muutuma. Ja, ja teatud ulatuses ta võib piirata ka innovatsiooni. Samas ma oleksin ka ettevaatlik ja tegelikult tagantpiirid ja kindlalt, see ei tähenda seda, mida ma arvan, see ei ole nii lihtne, nagu see arutelu alati öeldakse, kui me seda ei kasuta või kui me seda ei piira, siis me kohe homme hommikul on siin täielik kaaslane Arhia tänavatel ja me hakkame üksteist ära tahtma. Siin on küsimus ka kriteeriumites, finantseeritutest, finantseerituses, mida me peame, milliseid hämara need informatsiooni ja infovahetuse ja teadlikkus, see on siin see oluline asi, eks ole, et me peaksime, mis toimub. Need on väga populaarsed on need väga negatiivse pealkirjaga uudised, sest need meile klikitakse ja tihti inimesed on väga sellise valikulise lugemisega ja nad loevadki neid pealkirju nagu süvene teemadesse. Ja kui seal mainitaksegi, eks ju, on mingisugune asutus, millel on ligipääs andmetel ja keegi ei tea, mis sellega tehakse, siis see mõjubki ka hästi negatiivselt, eks ju. Ja, ja võib-olla süveneb veelgi sinna, et jah, tegelikult need andmetel juba ammu kogutud teatud tõesti erinevate kasutavad juba varem, aga, aga küsimus on lihtsalt sellest läbipaistvuses minu jaoks, et kui palju me sellest räägime, kui palju, eks ju, inimesed ise huvi tunnevad, kui palju nad küsivad selle kohta ja, ja mida rohkem meil ühiskonnas neid küsimusi küsime, seda loodetavasti läheb see ka läbipaistvamaks. Ja, ja selle üle saame ka neid usaldada ja eks ju, kui küsimus usaldada, kes, kes seal siis otsustajad eesotsas on, et USA on ju väga-väga arenev riik, eks ju, aga nüüd juba tükk aega on seal eesotsas üks härra, kes, kelle initsiatiivid ei ole üldse teada, eks ju, mis, mis tema eesmärgid on ja mis ta tahab nende suurte ettevõtetega teha, mille jaoks need andmeid kasutada. Ja, ja noh, siis me jõuame alati selle valimiste teemasse, et keda me nii palju me järgmiseks eesotsas tuli Eestis, sest me väga paljud otsused sõltuvad teatud inimestest ja, ja meil on siis see võimalus seda valikut ka teha. Nimelt ka aktsiaseltsibokside seadustamine käib täie voola. Kuidas saab inimene otsuseid vaidlustada, kui ta ei mõista neid? Ta peab olema see, see info, kui see otsus tuleb, siis peab olema see info, kuhu poole info, et see on tehtud automaatse nii-öelda otsusena ja ja see põhimõte, et siis tal on võimalik selle tegeliku inimeseni jõuda, kuidas nagu praktikas toimub, seda mina küll ei tea, et seda me oleme näinud, et me teame lihtsalt teiste riikide kogemustest kus, kus sellised probleemid on olnud, et ma arvan, et ma loodan, et meil Eestis nagu sellistest asjadest oleme natukene õppinud siis juba ka, et mis on teistes riikides toimunud. Et sellisel juhul me ei korda. Jah, et ja tõepoolest, siin on ka küsimus, et kuidas nende automaatotsustega on. Samas kahtlemata ka siin ei saa öelda, et noh, juhatab keelatud ja siin on meil palju võimalusi. Küsimus on, et kui see otsus ära tuleb ja seda on palju, et esiteks on mul edaspidi põhimõtteline selgituskohustus. See ei tähenda, et lihtsalt ma pean ära näitama, et on automatiseeritud otsused. See on küsimus. Andmestik ja ma pean näitama, kust see tegelikult see info on võetud täpselt, mida siin ka enne mainiti. Ja loomulikult me saame ka näha, kuidas see hakkab töötama ka täielikult meil peaksid edasi kehtima need haldus, halduse põhimõtted, ka see, et ma saan seda vaidlustada ja seeläbi siis jõuan ka inimeseni, et nii-öelda kõik need teemad, mida me enne ütlesime, see peab olema läbipaistev, nii et ma ise mõistan ka seda, et see on automaatne otsus. Ma pean mõistma, mis alusel see on tehtud ja kust need andmed on võetud, see on üldse küsimus, mis tegelikult puudutab kõiki neid automaatotsuseid, mis on ka seni olnud, mis on väga oluline punkt, mida me oleme varem palju rääkinud, et see peaks olema selgem inimestele. Et tihti ongi, korraga tuleb välja, et ohoo, et kellelgi oli minu andmed ja ja kust nad võtsid või võeti ja, ja siin on meie arvates ülikooli poolelt oleme siin mitmete kritiseerinud, et tegelikult ei ole see piisavalt läbipaistvalt ka seaduse tasandil reguleeritud, et kunas peab tegelikult ära näitama, et mingi, mis on kogudele omavahel seotud või, või et kust, kust tegelikult see info jookseb. Ja kui ma siis jõuaksin igal juhul ka inimeseni ja küsimus on ja oluline on kahtlemata haldusmenetluses ka see, et me jõuaks kuskile mujale kui kohtusse, sest me teame, mida see tähendab, kui ta inimese suunate sõbralikult kohtusse, siis üheksakümmend üheksa protsenti inimestest sinna ei jõua, sest nad kardavad kohtuprotsessi, nad teavad, et nende rahakott seda ei, välja ei kannata ja nad ei saa oma õigusi tegelikult reaalselt efektiivselt kaitsta. Siin on alles teadlikkuse küsimus, eks ju, kuidas me seda sõnumit formuleerime selle konkreetse näite peale seni täpselt kurs, aga eks neid pealkiri tuleb päris palju, et proua mingi automatiseerida otsuseid teha kiiremini. Nüüd küsimus on selles, et kas ma lihtsalt nii-öelda liigun kuskil vaikselt mingisuguse rakenduse, mida on hea lihtne teha ja millega me saame kakskümmend viis inimest nii-öelda ära koondada ja anda selle rolli AI-le või me tegelikult teeme, mida teevad väga paljud arendajad, paljud ettevõtted me kasutame neid, et teha lihtsalt seda, mis võib olla varem on jäänud tegemata, aga me teeme seda kiiremalt, me tegime selle näide, eks ju, et me oleme mingeid tegevusi edasi lükanud, ümber kasutame seda abi tehnoloogiat ära, et, et see nii-öelda rakendus valmis teha või saaks seda kiiremini, efektiivsemalt, soodsamalt ja ma saan siis ka ikkagi seda lahendust pakkuda nii nagu ta on turvaline, läbipaistev ja nii nagu need süsteemid peaksid olema versus, et keegi kuskil nii-öelda põlve otsas neid jätab selle, eks ju ja täna ei tea, sest tihti jällegi liiga põhjalikult ei räägita nendest süsteemidest, neid võib-olla ei tutvustata. Tundub, et ka palju on sellist, noh tuleb mingi idee, paneme kohe meediasse ja, ja siis läheb see kihama, eks ju, kogu see ühiskond. Et ma arvan, et see on oluline, et me räägiksime lihtsalt palju rohkem nendest teemadest, et mis need vahendid on, et inimesed saaksid aru, sest see ongi väga keeruline, need tehnoloogiad ongi väga keerulised ja, ja tuleb mitte ainult eks ju, kui koolitaja või, või erinevates rollides, spetsialistid, vaid nende laiemateks ka enda kogu aeg selgitama, et mis me täna teeme. Nii nagu keskmine inimene sellest aru saaks, eks ju ja mina täpselt samamoodi ise kõiksugused seadusi. Tõlgendan enda jaoks A ja eks ju, tal on kontekst ja ja proovime aru saada, mis, mis seal sees on. Peavad suutma kirjutada nagu sellises keeles. Et sellest ka teised aru saavad. Ja ma arvan, et seetõttu meil on ka siin oluline just Eestis seda arutelu edendada väga hea võimalus siin, eks ole, ja nagu me näeme, teema on igal pool üleval. Nagu sa just mainisid, Print siin ka Arvamusfestivalil ja ma arvan, et tõesti tegelikult Eesti inimeste teadlikkus on tõusnud ja kui ma vaatan veelkord, korraks pean võib-olla selle juurde tagasi tulema, aga minu arvates just nimelt kahekümne aastane eestlane on sageli palju teadlikum kui keskmine neljakümne, viie, neljakümne viie aastane sellest andmetöötlusest ja sellega seotud ohtudest. Et aga, aga, aga just seda, sest sa enne ka küsisid, et mida me garanteerides reeglid teevad, eks ju, et sisuliselt, see on väga võimsad nii-öelda infosüsteemid, mis pakuvad infot näiteks võimalike kurjategijate kohta migratsiooniküsimustes, katsuvatele inimesi jälgida. Küsimus on, et, et mida nad siis vaatavad ja see on see kriitika olnud ja siin me oleme nüüd selle Euroopa nii-öelda ka lahenduse poolel ja ohtlik on siin kahtlemata, et alati sageli on kõik need lahendused kantud parimatest eesmärkidest. Et mida me tahame, tahame kuritegevust, selgemat, selgemalt teada, et, et ohud ei valitse kuskil. Samas see tähendab, et me peame muutma selleks kõik inimesed täiesti läbipaistvaks ja kas see tagab meile vabama ühiskonna, kui ei ole nagu enam seda ruumi. See on oht, ma olen ja see, sellepärast me arutamegi seda chat kontrolli. Et, et ka teil põrgus peaks olema alati silutatud parimad mõtted. Ja eesmärkidest. Eeldatavasti on meil kõigil vaja natuke ruumi, et ma arvan, vähemalt meie oleme seni oma ühiskonnast nii aru saanud, et öelda midagi, mida ei tohi öelda, ületada kiirust vahest, kuigi seda ei tohi. Ja teha, ma ei tea, ninas noppida kui naaber ei vaata. Et kui palju sellest vabadusest meile jääb? See on oluline küsimus ja ma arvan, et me tunnetame ja tunneme seda kõiki, et võib-olla see sajaprotsendiline kindlus, mida näiteks mina pakub. Et kui te ei ole midagi kinni maksnud, kuna seda ületab ta teed, siis teisalt järgmine kuu olema raske, eks ole, suhelda näiteks ametitega, et saada teatud toetust. Aga jällegi, kui mõelda näiteks sellise Euroopa Liidu asjade teema peale minna veel kaugemale, siis kasu on, et meil on siin Arvamusfestivalil avamist ja siis teisel laval on arutelud ja kõik muu selline või? Seesama chat kontrolli teema jätkuks korraks veel, et siis see, et me täna sellele määrusega keelustame ära selle--- siis Euroopa tasandil, ma arvan, et ükski liikmesriik ei ole selle vastu. Ja ega me sellele loodetavasti siis ka selle kontrolli ei saa olla selline, et selle põhjal ükskõik keegi võib sealt võtta ja mida sealt otsida ja mis järeldusi teha. Aga samal ajal, kui meil on vaja sealt ikkagi kurjategijaid otsida, siis me ju tegelikult tahaksime võimalikult palju andmeid ära kasutada ja, ja nüüd see küsimus ongi nende alamtasemete osalt madalama riskiga või keskmise riskiga, seal on päris palju antud ka liikmesriigi enda kätte, eks ju, sellesama järelevalve kaudu ja, ja seda me kindlasti saame nende diskussioonidega mõjutada, sest, sest üldsuse arvamus ikkagi loodetavasti praegu on läinud ja loodetavasti tulevikus läheb ka arvesse, eks ju. Tahaks küsida selle--- kohta, mis siis mida nad ütlesid isiklikult oleks nõus loobutama oma õigustest, et jätta üldse laenas alles tehisintellekt, et oleks nüüd valmis tehisintellekti enam üldse ei ole või siis läheb alles, aga te peate midagi oma enda õigustest loovutama, mis see oleks? Aga intrigeeriv küsimus, aitäh. Midagi kindlasti, ma arvan selles mõttes, et juba praegu, kui me, kui ma kasutan ja mina olen väga aktiivne kasutaja, annan sinna päris palju andmeid, teen seda teadlikult, usaldades siis neid ettevõtteid, eks ju. Ja, ja ma arvan, et seeläbi, kui keegi kuskil otsustabki chat kontroll, mis iganes lahendused tulevad kasutusele. Ma teadlikult olen juba võtnud selle riski, eks, et justkui see nii-öelda isiku, isiklike andmete jagamise, võib-olla see õigus või kohustus on mul siis ikka sellega juba ära antud, et ma juba tegelikult olen natuke teadlikud selle otsuse teinud. Kahtlemata, aga ma mõtlengi, et oma õigustest loobumine on seesama autonoomia, see, et me oleme kõik loobunud tükikesest oma ebaelust, vahest vabatahtlikult paisates seda kuskile, vahest võib-olla vähem vabatahtlikult, sest riik ütleb, et teatud andmed on avalikud. Kui ma näiteks soovin kuuluda erakonda, sellest ma nüüd seda ei kommenteeri. Või pigem märgid, et, et selles osas ma ei, ei arva, et see oleks väga õiguspärane ja kooskõlas kehtiva õigusega, aga rüteesi on ruumiandmeid ja nii igal juhul need on avalikud. Samas ma arvan, et küsimus ongi selles autonoomias, et kui kaugele ja on mul tunne, et ma ise kontrollin seda, kui kaugele ma jagan seda, et ma tahtsin neid andmeid jagada ja, ja ma tean, et ma tegin seda, ma hüppasingi ujukates seal ringi ja, ja näitasin oma maskotte ja lapsi. Ja siis tekib see, et kunagi, kui ma saan aru, et võib-olla ma ei tahtnud neid jagada, siis hakati tegema mingeid järeldusi sellest või ma ei tea, kommenteerisin midagi lollist ja seal sotsiaalmeedias ja lõpuks koputatakse minu uksele. Nii et ma arvan, et seal on see piir mida me siis tunneme ja see on samas ka see, miks on oluline, et me istume nii siin Arvamusfestivalil kui ka Brüsselis kui ka, ma ei tea, kuskil Lõuna-Itaalias ja igal pool ja arutama neid teemasid, sest üldjuhul me ei tunne, et me annaksime oma õigusi ära, kui me kuidagi anname oma andmeid ära või neid töödeldakse ja ei juhtugi midagi. Ja need andmed ongi vaja, mida ise ütleb, et need andmed on vaja selleks, ma ei tea, et autod liiguksid kiiremini, et meie saaksime toredamaid vastuseid chatilt, et me saaksime jagada sõpradega kuskil Facebookis oma elamusi, mida iganes või noorem generatsioon siis teistes meediakanalites. Et, et aga siin me tunneme, et meil on see autonoomia selle üle ja siis tuleb see, et kus me tunneme, et võib-olla nad võeti ja tehti nendega midagi ja järelevalve on hoopis teine kui see positiivne, mida mina tahtsin saavutada, siis korraga on öeldud, et ma ütlesin midagi, mis ei olnud lubatud. Ma võib-olla jõudsin kuskile liiga kiiresti, see tähendab, et ma olen kiirust ületanud ja, ja me tunneme alles väga palju hiljem, et, et sellega, et me kogu aeg jagame andmeid, kaasneb mingi võimalik õiguste piiramine ja üldiselt need ei toimu samaaegselt, kui mind politsei võtab tänaval kinni, siis ma tunnen õigusel piiratud, ma hakkan neid kohe sisse nõudma, andmetöötluse puhul on see väga tõsine moodi ja teistlaadi see võimalik rikkumine, see toimub märkamatult ja see toimub võib-olla hoopis hiljem, rääkides kasvõi näiteks mingist tehisintellektist, mis kraabid dokumendilt infot. Me ei teagi, kust ja lõpuks tuleb välja hoopis midagi muud. Nii et seetõttu ma arvan, et siin see teadlikkuse tõstmine, see arutelu sellest, et kuhumaani ma tahan olla autonoomne selles, et ma tohin oma andmeid ära anda, mis on ka osa minu vabadusest, et ma loobungi oma elu kaitsest ja privaatsusest, et kuhu ma tahan, et see läheks ja kuhu jõuaks ja selles on tänapäeval vaja riigi abi, sest ettevõtjal ei ole seda vastutust, see on arusaadav ja tal ei ole selle eest huvi. Et, et ma andsin enda õiguse täna siis võib-olla kahekümne aasta pärast ma mõtlen teistmoodi. Selle ilusa mõtte ilusa lõpetada, et lootuses, et võib-olla tulevikus saab kustutada üldse niimoodi, et nad kustuksid.",
+    "cues": [
+      {
+        "start_seconds": 20.48,
+        "end_seconds": 26.48,
+        "text": "Mul on hea meel taas kord sisse juhatada üks järjekordne Tõnis Aru puudutav teema, need"
+      },
+      {
+        "start_seconds": 26.48,
+        "end_seconds": 133.16,
+        "text": "on siin ridamisi ja päris mitmel alal."
+      },
+      {
+        "start_seconds": 133.16,
+        "end_seconds": 137.72,
+        "text": "Ma alustaks võib-olla sellest on hästi selline mustvalge küsimus, millel on väga raske"
+      },
+      {
+        "start_seconds": 137.72,
+        "end_seconds": 139.68,
+        "text": "veel ühest vastust anda."
+      },
+      {
+        "start_seconds": 139.68,
+        "end_seconds": 144.36,
+        "text": "Ma töötan väga paljude ettevõtetega organisatsioonidega, seal ma tihtipeale näen ja kuna"
+      },
+      {
+        "start_seconds": 144.36,
+        "end_seconds": 149.72,
+        "text": "minu fookus on appi finantsvaldkonnad, et väga hoolikalt hoitakse andmeid ja, ja pii"
+      },
+      {
+        "start_seconds": 149.72,
+        "end_seconds": 152.6,
+        "text": "ratakse, ei taheta ligipääsusid anda."
+      },
+      {
+        "start_seconds": 152.6,
+        "end_seconds": 158.0,
+        "text": "Aga teisalt ma näen ka nende samade inimeste nii-öelda kasutus oma kuulajaid, mida nad"
+      },
+      {
+        "start_seconds": 158.0,
+        "end_seconds": 162.56,
+        "text": "isiklikul tasandil teevad ja seal nad annavad väga palju andmeid, eks ju, ma küsin, kes"
+      },
+      {
+        "start_seconds": 162.56,
+        "end_seconds": 166.72,
+        "text": ", kuidas on kasutanud, siis tihti tulevad, mis on väga loogiline, tulevad esimesena,"
+      },
+      {
+        "start_seconds": 166.72,
+        "end_seconds": 171.44,
+        "text": "et isiklikud kasutuslood, kes küsib niisama, kes küsib aia kujundamise kohta, kes küsi"
+      },
+      {
+        "start_seconds": 171.44,
+        "end_seconds": 172.88,
+        "text": "b oma tervise kohta."
+      },
+      {
+        "start_seconds": 172.88,
+        "end_seconds": 177.32,
+        "text": "Ja, ja tihti nad ei mõtle sellele, et kuhu need andmed sealt võiksid edasi minna."
+      },
+      {
+        "start_seconds": 177.32,
+        "end_seconds": 208.24,
+        "text": "Et ma arvan, et siin on alati selline kaks poolt nendes teemades."
+      },
+      {
+        "start_seconds": 208.24,
+        "end_seconds": 213.56,
+        "text": "Aga kui kasutajate neid funktsioone kui Google'i otsingumootorit, siis lõppkokkuvõttes"
+      },
+      {
+        "start_seconds": 213.56,
+        "end_seconds": 218.68,
+        "text": "see pilt selleks kokku pannakse see, see annab nagu üsna palju, et see, see andmete and"
+      },
+      {
+        "start_seconds": 218.68,
+        "end_seconds": 251.52,
+        "text": "mine on niimoodi kildhaaval, eks ju, et lõpuks saab selle suurema pildi kokku."
+      },
+      {
+        "start_seconds": 251.52,
+        "end_seconds": 259.12,
+        "text": "Nii et, et seal on nagu väga"
+      },
+      {
+        "start_seconds": 259.12,
+        "end_seconds": 271.6,
+        "text": "palju Ja aitäh kuulamast ja tulemast ja kutsumast."
+      },
+      {
+        "start_seconds": 271.6,
+        "end_seconds": 277.52,
+        "text": "Üks on võib-olla see kõige õiguslik pool, selline riide pool."
+      },
+      {
+        "start_seconds": 277.52,
+        "end_seconds": 283.56,
+        "text": "Aga selles osas ega see AI ei küsi, milliseid andmeid ta võtab."
+      },
+      {
+        "start_seconds": 283.56,
+        "end_seconds": 286.8,
+        "text": "Me sageli ei tea, mille peal ta on treenitud."
+      },
+      {
+        "start_seconds": 286.8,
+        "end_seconds": 292.44,
+        "text": "Et kuidas me oleme neid andnud, kes on neid võtnud, kuidas nad on sinna jõudnud ja sa"
+      },
+      {
+        "start_seconds": 292.44,
+        "end_seconds": 294.4,
+        "text": "geli seda üldse ei tea."
+      },
+      {
+        "start_seconds": 294.4,
+        "end_seconds": 300.28,
+        "text": "See, kui me konkreetselt anname neid sinna sisse, see loomulikult mõjutab jälle seda"
+      },
+      {
+        "start_seconds": 300.28,
+        "end_seconds": 302.72,
+        "text": ", kuidas ta meile reageerib."
+      },
+      {
+        "start_seconds": 302.72,
+        "end_seconds": 305.68,
+        "text": "Aga see on personaliseerumise küsimus."
+      },
+      {
+        "start_seconds": 305.68,
+        "end_seconds": 311.04,
+        "text": "Et mida ta meist nüüd juurde õpib, aga sisuliselt mina ei kasuta."
+      },
+      {
+        "start_seconds": 311.04,
+        "end_seconds": 313.4,
+        "text": "See on meie jaoks hoomamatu."
+      },
+      {
+        "start_seconds": 313.4,
+        "end_seconds": 315.28,
+        "text": "Seda me üldsegi ei tea."
+      },
+      {
+        "start_seconds": 315.28,
+        "end_seconds": 319.68,
+        "text": "Mis andmed seal on, nii et iga hetk, kui me neid tegelikult anname, me ei tea, mis nende"
+      },
+      {
+        "start_seconds": 319.68,
+        "end_seconds": 321.48,
+        "text": "ga tulevikus juhtub."
+      },
+      {
+        "start_seconds": 321.48,
+        "end_seconds": 326.32,
+        "text": "See on kahtlemata ka üks, üks probleem, mis tasub võib rääkida just vaadates seda, et"
+      },
+      {
+        "start_seconds": 326.32,
+        "end_seconds": 332.16,
+        "text": ", et mis tegelikult minu õigustega juhtub ja mis hetkel ja kas me seda üldse märkan."
+      },
+      {
+        "start_seconds": 332.16,
+        "end_seconds": 339.64,
+        "text": "Ja teine on siis võib-olla tõesti see inimlik aspekt, et kui kaugele ma ise lähe"
+      },
+      {
+        "start_seconds": 339.64,
+        "end_seconds": 346.92,
+        "text": "n andes või samastades seda AI-d teise inimesega ja tal ju usalda"
+      },
+      {
+        "start_seconds": 346.92,
+        "end_seconds": 354.32,
+        "text": "des oma muresid ja, ja tegelikult personifitseerides seda, et ma just olin re"
+      },
+      {
+        "start_seconds": 354.32,
+        "end_seconds": 366.72,
+        "text": "isilt ja ja kuulasin tagasitulekul, et huvitavat intervjuud see ongi"
+      },
+      {
+        "start_seconds": 366.72,
+        "end_seconds": 371.6,
+        "text": "see, mida chat ja kõik teised nüüd tulevikus tegema."
+      },
+      {
+        "start_seconds": 371.6,
+        "end_seconds": 379.0,
+        "text": "Et kuna tegelikult inimene päriselt ei hooma, millega ta seal mängib, siis nende jaoks"
+      },
+      {
+        "start_seconds": 379.0,
+        "end_seconds": 386.72,
+        "text": "ongi nüüd olulisem oma klient endaga siduda ja tegelikult nende eesmärk ongi"
+      },
+      {
+        "start_seconds": 386.72,
+        "end_seconds": 392.64,
+        "text": "seda teenust muuta nii isikupäraseks, et sa ei saaks sellest loobuda."
+      },
+      {
+        "start_seconds": 392.64,
+        "end_seconds": 395.64,
+        "text": "Nii-öelda, et see ongi eesmärk omaette."
+      },
+      {
+        "start_seconds": 395.64,
+        "end_seconds": 399.76,
+        "text": "Et see on minu AI, see teenindab nüüd hommikust õhtuni."
+      },
+      {
+        "start_seconds": 399.76,
+        "end_seconds": 404.64,
+        "text": "Ja noh, selles, sellel alal ma ei ole ekspert, aga ma arvan, et siin on väga palju aru"
+      },
+      {
+        "start_seconds": 404.64,
+        "end_seconds": 410.56,
+        "text": "telusid, kus on jällegi selle ala eksperte, et kuidas see vaimselt meile mõjub, kui si"
+      },
+      {
+        "start_seconds": 410.56,
+        "end_seconds": 418.36,
+        "text": "suliselt ikkagi keskuspartneriks on vestlusrobot, mis võib väga meeldivalt või"
+      },
+      {
+        "start_seconds": 418.36,
+        "end_seconds": 424.52,
+        "text": "isikustatult vastata, aga ta teeb seda lõpuks ikkagi ühenäolisuse arvutustele ja saa"
+      },
+      {
+        "start_seconds": 424.52,
+        "end_seconds": 452.12,
+        "text": "dud info põhjal."
+      },
+      {
+        "start_seconds": 452.12,
+        "end_seconds": 461.48,
+        "text": "Kuidas inimesed kasutavad ja need on tõenäolised kogemused on kuskil seal allpool."
+      },
+      {
+        "start_seconds": 461.48,
+        "end_seconds": 466.56,
+        "text": "Aga üsna top kolmes on see, et ma lihtsalt kasutan vestluspartnerina, ma räägin, mis"
+      },
+      {
+        "start_seconds": 466.56,
+        "end_seconds": 471.72,
+        "text": "me täna juhtume, siis ma küsin oma tunnete kohta, küsin emotsioonide kohta ja kuna tõesti"
+      },
+      {
+        "start_seconds": 471.72,
+        "end_seconds": 476.88,
+        "text": "see mudel on üles ehitatud selliselt, et ta on alati kasutajale meele järgi, siis tähendab"
+      },
+      {
+        "start_seconds": 476.88,
+        "end_seconds": 482.08,
+        "text": "ki seda, et ta vastab justkui seda, mida sa ootad, sest ta teab, olge, et ma oskaks seda"
+      },
+      {
+        "start_seconds": 482.08,
+        "end_seconds": 487.12,
+        "text": "ette ja mustada ja, ja selliselt tekibki tunne, et oh, mul on sõber, kes väga hästi tea"
+      },
+      {
+        "start_seconds": 487.12,
+        "end_seconds": 489.68,
+        "text": "b, mida ma mõtlen, mida mõtleb kaasa."
+      },
+      {
+        "start_seconds": 489.68,
+        "end_seconds": 497.04,
+        "text": "Ja, ja siin oli ju eelmine aasta olukord, kus chatked mudel muutus, nad algata ikkagi"
+      },
+      {
+        "start_seconds": 497.04,
+        "end_seconds": 501.8,
+        "text": "regulaarselt muudavad, uuendavad mudeleid, aga oli hästi suur muudatus GPT neli hoo peal"
+      },
+      {
+        "start_seconds": 501.8,
+        "end_seconds": 508.8,
+        "text": "t läks viie peale ja, ja see tõi kaasa nii suure pahameele sotsiaalmeedias inimesed olid"
+      },
+      {
+        "start_seconds": 508.8,
+        "end_seconds": 514.88,
+        "text": "frustreeritud, väga kurvad, sest nende sõber oli kadunud sellepärast, et meil oli palju"
+      },
+      {
+        "start_seconds": 514.88,
+        "end_seconds": 520.04,
+        "text": "sõbralikum kui viis ja siis peab igal mudelil on oma siuksed baasjuhendid, eks ju, in"
+      },
+      {
+        "start_seconds": 520.04,
+        "end_seconds": 525.44,
+        "text": "struktsioonid ja, ja viie puhul siis nii-öelda keerati maha seda meeldivust ja, ja see"
+      },
+      {
+        "start_seconds": 525.44,
+        "end_seconds": 527.72,
+        "text": "tõttu inimesed olid väga-väga kurvad."
+      },
+      {
+        "start_seconds": 527.72,
+        "end_seconds": 533.44,
+        "text": "Ja, ja siis kompanii ja nii nagu sa ütled, eks ju, seal tahab seda, et, et me kasuta"
+      },
+      {
+        "start_seconds": 533.44,
+        "end_seconds": 537.6,
+        "text": "ksime neid, siis me kõiki selle neli loo tagasi mingiks ajaks õppida, et okei, ajuti"
+      },
+      {
+        "start_seconds": 537.6,
+        "end_seconds": 539.36,
+        "text": "selt võtke siis kasutage edasi."
+      },
+      {
+        "start_seconds": 539.36,
+        "end_seconds": 544.24,
+        "text": "Et mingi hetk proovisid uuesti ära võtta, ikka tuli selle ikka pandi see tagasi, noh"
+      },
+      {
+        "start_seconds": 544.24,
+        "end_seconds": 546.72,
+        "text": ", tänaseks, eks ju seda enam ei ole."
+      },
+      {
+        "start_seconds": 546.72,
+        "end_seconds": 551.04,
+        "text": "Aga, aga see on tõesti, see on, see on päris suur osa, kus juba kasutatakse nii palju"
+      },
+      {
+        "start_seconds": 551.04,
+        "end_seconds": 726.72,
+        "text": "."
+      },
+      {
+        "start_seconds": 726.72,
+        "end_seconds": 729.84,
+        "text": "Nagu vanust, kus sa ka ei saa seda muuta."
+      },
+      {
+        "start_seconds": 729.84,
+        "end_seconds": 737.04,
+        "text": "Nii et ja kindlasti need krediidiküsimused on head näited ka, kui te lähete"
+      },
+      {
+        "start_seconds": 737.04,
+        "end_seconds": 741.52,
+        "text": "välismaale elama, siis te olete korraga välismaalane, siis te ka kindlasti jääte kohe"
+      },
+      {
+        "start_seconds": 741.52,
+        "end_seconds": 743.04,
+        "text": "sinna skoori."
+      },
+      {
+        "start_seconds": 743.04,
+        "end_seconds": 748.96,
+        "text": "Ja kui te ei ole kindlasti mingit delikaatsed andmed, mida te ei väljastaks."
+      },
+      {
+        "start_seconds": 748.96,
+        "end_seconds": 757.56,
+        "text": "Et ja, ja samas me näeme, kui me näeme näiteks kasutust --- po"
+      },
+      {
+        "start_seconds": 757.56,
+        "end_seconds": 762.64,
+        "text": "litsei poolt, need ju ei küsi, milliseid andmeid nad võtavad."
+      },
+      {
+        "start_seconds": 762.64,
+        "end_seconds": 767.96,
+        "text": "Nad võtavad, saaks meediast nad võtavad igalt poolt, kes te olete olnud, kes, kes te"
+      },
+      {
+        "start_seconds": 767.96,
+        "end_seconds": 770.96,
+        "text": "olete, kust te tulete?"
+      },
+      {
+        "start_seconds": 770.96,
+        "end_seconds": 776.4,
+        "text": "Võib-olla te, teil on juba kord olnud probleeme mingite arvete äramaksmisega ja selle"
+      },
+      {
+        "start_seconds": 776.4,
+        "end_seconds": 784.08,
+        "text": "alusel tehakse siis täiesti profiil ja ja lõpuks jõuab see näiteks mõni"
+      },
+      {
+        "start_seconds": 784.08,
+        "end_seconds": 787.32,
+        "text": "politseiasutuse või järelevalve asutuse lauale."
+      },
+      {
+        "start_seconds": 787.32,
+        "end_seconds": 792.96,
+        "text": "Et ma arvan, ütleb meile kenasti, kui, kui siin nüüd positiivne just meie politseilt"
+      },
+      {
+        "start_seconds": 792.96,
+        "end_seconds": 798.24,
+        "text": ", kas nad alati siis kasutavad ja vastus oli, et me ei vasta küsimusele, ma arvan, sellest"
+      },
+      {
+        "start_seconds": 798.24,
+        "end_seconds": 801.96,
+        "text": "tegelikult piisab, et teada, mis see vastus on."
+      },
+      {
+        "start_seconds": 801.96,
+        "end_seconds": 806.76,
+        "text": "Sest need võimalused on olemas, need võimalused on olemas ja, ja sisuliselt me teame"
+      },
+      {
+        "start_seconds": 806.76,
+        "end_seconds": 814.12,
+        "text": "seda ka, kui te täna näiteks tahate reisida USA-sse ja palute viisat, siis teile"
+      },
+      {
+        "start_seconds": 814.12,
+        "end_seconds": 818.36,
+        "text": "seal taotlused või eestlase öeldakse ju selgelt, et arvestage sellega, et te peate and"
+      },
+      {
+        "start_seconds": 818.36,
+        "end_seconds": 824.56,
+        "text": "ma lube, me tohime telgida üles otsima midagi olnud läbi vaadata nii, et ükskõik, kus"
+      },
+      {
+        "start_seconds": 824.56,
+        "end_seconds": 832.72,
+        "text": "te olete vahepeal oma infot andnud ja teie lapsukestest ja, ja ma arvan, et me ise seda"
+      },
+      {
+        "start_seconds": 832.72,
+        "end_seconds": 837.76,
+        "text": "üldse ei taju, ei hooma ja osaliselt me ei saa seda mõjutada."
+      },
+      {
+        "start_seconds": 837.76,
+        "end_seconds": 845.04,
+        "text": "Et, et mingid andmed nagu meie vanuse, sugustaatus on tõesti avalikud."
+      },
+      {
+        "start_seconds": 845.04,
+        "end_seconds": 851.92,
+        "text": "Loomulikult me peaksime selle üle mõtlema, et mida me, kuhu paneme."
+      },
+      {
+        "start_seconds": 851.92,
+        "end_seconds": 857.28,
+        "text": "Ma ütlen just siin kahtlemata on kõiksugu näiteid noortest inimestest, kellel pärast"
+      },
+      {
+        "start_seconds": 857.28,
+        "end_seconds": 861.92,
+        "text": "võib-olla on väga piinlik, et, et see on kahtlemata üks punkt, samas ei tohiks unustada"
+      },
+      {
+        "start_seconds": 861.92,
+        "end_seconds": 867.56,
+        "text": "seda, et rääkides sellest, mis meie andmetest ja nendest tehisintellektidest saavad."
+      },
+      {
+        "start_seconds": 867.56,
+        "end_seconds": 869.88,
+        "text": "Et meil manageeri seda täna."
+      },
+      {
+        "start_seconds": 869.88,
+        "end_seconds": 874.44,
+        "text": "Me ei manageeri seda, me ei saa seda tegelikult sellega piirata, et neid auto."
+      },
+      {
+        "start_seconds": 874.44,
+        "end_seconds": 879.52,
+        "text": "Ma sulgesin oma Facebook konto minule mingit probleemi seal kellelgi ei ole minu and"
+      },
+      {
+        "start_seconds": 879.52,
+        "end_seconds": 880.4,
+        "text": "meid."
+      },
+      {
+        "start_seconds": 880.4,
+        "end_seconds": 886.6,
+        "text": "Nii et see ei vasta täna tõele, me ei tea ka, kus nad on, nii et ma arvan, et väga olulise"
+      },
+      {
+        "start_seconds": 886.6,
+        "end_seconds": 891.68,
+        "text": "ks on muutunud see välja, kui läbipaistev ja arusaadav see tegelikult on ja mida meil"
+      },
+      {
+        "start_seconds": 891.68,
+        "end_seconds": 896.44,
+        "text": "e selgitatakse, mis ulatuses me saame nõuda tegelikult selgitustega üldse seda hooma"
+      },
+      {
+        "start_seconds": 896.44,
+        "end_seconds": 901.28,
+        "text": "ta, mis toimub, et see, ma arvan, oluline."
+      },
+      {
+        "start_seconds": 901.28,
+        "end_seconds": 906.08,
+        "text": "Ma olen just tahtsin korraks siit sõna üle võtta selle läbipaistvuse osas, et mitte jä"
+      },
+      {
+        "start_seconds": 906.08,
+        "end_seconds": 911.52,
+        "text": "tta väga sihukest negatiivset muljet kõigest sellest, sest näiteks oma krediidi hinda"
+      },
+      {
+        "start_seconds": 911.52,
+        "end_seconds": 916.2,
+        "text": "mise näide ei ole üldse midagi uut, eks ju, et pangad hindavad su krediidivõimekust,"
+      },
+      {
+        "start_seconds": 916.2,
+        "end_seconds": 919.76,
+        "text": "seda on aastaid-aastakümneid, võib-olla juba tänaseks tehtud, eks ju."
+      },
+      {
+        "start_seconds": 919.76,
+        "end_seconds": 924.48,
+        "text": "Seal taga on tavapäraselt masinõppe algoritm, ehk siis seal on mingi mudel, mis vaata"
+      },
+      {
+        "start_seconds": 924.48,
+        "end_seconds": 929.8,
+        "text": "bki, et jah, teatud vanusest võib-olla inimesed ongi rohkem võlgu, teatud ametikohta"
+      },
+      {
+        "start_seconds": 929.8,
+        "end_seconds": 931.84,
+        "text": "del, teatud palgatasemest."
+      },
+      {
+        "start_seconds": 931.84,
+        "end_seconds": 936.48,
+        "text": "See on kõik väga okei ja see ongi palkade töö, eks ju, hinnata, et kes on siis nii-öelda"
+      },
+      {
+        "start_seconds": 936.48,
+        "end_seconds": 940.92,
+        "text": "tugevamad kliendid, kes on nõrgemad kliendid nende hinnastamine kõik töö käib selle a"
+      },
+      {
+        "start_seconds": 940.92,
+        "end_seconds": 942.16,
+        "text": "lusel, eks ju."
+      },
+      {
+        "start_seconds": 942.16,
+        "end_seconds": 947.08,
+        "text": "Aga, aga klassikaline masinõppe mudel on läbipaistev, eks ju, seal on täpselt teada,"
+      },
+      {
+        "start_seconds": 947.08,
+        "end_seconds": 951.76,
+        "text": "mis need parameetrid on, mille alusel nad hindavad pank, peab suutma seda sulle öelda"
+      },
+      {
+        "start_seconds": 951.76,
+        "end_seconds": 955.76,
+        "text": ", eks ju, et ma jään sulle laenu, ta suudab seda sulle põhjendada."
+      },
+      {
+        "start_seconds": 955.76,
+        "end_seconds": 960.76,
+        "text": "Täna, mis probleemiks on, eks ju, et väga paljud teevad neid asju suurte keelemudeli"
+      },
+      {
+        "start_seconds": 960.76,
+        "end_seconds": 965.4,
+        "text": "tega, sest sealt keele õpetajad seminari, millega iganes ja need ei ole enam determi"
+      },
+      {
+        "start_seconds": 965.4,
+        "end_seconds": 969.8,
+        "text": "nistlikud süsteemid, eks ju, sinna sa ei näe siis ja seal sul ei ole seda ravivastus"
+      },
+      {
+        "start_seconds": 969.8,
+        "end_seconds": 975.48,
+        "text": "t, ehk et jällegi tuleb eristada, eks ju neid, neid lahendusi, mida me kasutame ja kõik"
+      },
+      {
+        "start_seconds": 975.48,
+        "end_seconds": 981.6,
+        "text": "see nii-öelda generatiivselt kaasa selle, et igaüks oskab üldse olla seal kõigil hinda"
+      },
+      {
+        "start_seconds": 981.6,
+        "end_seconds": 986.28,
+        "text": "ja ja ma võin, ma ei tea, pakun, müün auto, sa peaks hakkama ka hindama krediiti."
+      },
+      {
+        "start_seconds": 986.28,
+        "end_seconds": 990.0,
+        "text": "Aga võib-olla ma teen seda lihtsalt chat-ga, eks ju, siis ma tegelikult ei suuda seda"
+      },
+      {
+        "start_seconds": 990.0,
+        "end_seconds": 990.56,
+        "text": "öelda."
+      },
+      {
+        "start_seconds": 990.56,
+        "end_seconds": 995.2,
+        "text": "Nii et võib-olla inimesed peavad selle peale siis olema ka, eks nad kõige targemad ja"
+      },
+      {
+        "start_seconds": 995.2,
+        "end_seconds": 1016.12,
+        "text": "ja ka neid küsimusi küsima teenusepakkujatelt."
+      },
+      {
+        "start_seconds": 1016.12,
+        "end_seconds": 1023.0,
+        "text": "Absoluutselt, tegelikult eks ju, suurtel mudel on lihtsalt üks süsteem, neid on AID koos"
+      },
+      {
+        "start_seconds": 1023.0,
+        "end_seconds": 1027.2,
+        "text": "neb väga paljudest lahendustest, eks ju see, mis ma valisin masinõppel, on üks lahendus"
+      },
+      {
+        "start_seconds": 1027.2,
+        "end_seconds": 1032.56,
+        "text": ", suured keelemudelid on lihtsalt üks niisugune masinõpe nii-öelda lahenduse all foor"
+      },
+      {
+        "start_seconds": 1032.56,
+        "end_seconds": 1037.92,
+        "text": "um, kus on võetud siis väga palju teksti kogu internetist kättesaadav info, me väga tea"
+      },
+      {
+        "start_seconds": 1037.92,
+        "end_seconds": 1042.16,
+        "text": "me, et seal on ka palju nii-öelda salajastatud infot, eks ju, kõik suur raamatute si"
+      },
+      {
+        "start_seconds": 1042.16,
+        "end_seconds": 1047.12,
+        "text": "su, ajakirjade sisu, paljudel sotsiaalmeedia sisu, mida on, mida on kokku kogutud ja"
+      },
+      {
+        "start_seconds": 1047.12,
+        "end_seconds": 1049.76,
+        "text": "selle alusel on seda mudelit treenitud, eks ju."
+      },
+      {
+        "start_seconds": 1049.76,
+        "end_seconds": 1054.52,
+        "text": "Mitte niivõrd detail esines, kuidas mudel detailselt töötab, eks ju, aga, aga seal on"
+      },
+      {
+        "start_seconds": 1054.52,
+        "end_seconds": 1059.2,
+        "text": "nii-öelda tõenäosus, et peale ehk siis ta enam-vähem teab mingitest teemadest kõike."
+      },
+      {
+        "start_seconds": 1059.2,
+        "end_seconds": 1061.8,
+        "text": "Nüüd see on kõigepealt on algselt treenitud."
+      },
+      {
+        "start_seconds": 1061.8,
+        "end_seconds": 1068.0,
+        "text": "Iga kord, kui me kasutame, siis kui meil mingeid sätteid ja seadeid ei muuda, siis kõik"
+      },
+      {
+        "start_seconds": 1068.0,
+        "end_seconds": 1072.0,
+        "text": ", mis me sinna paneme, mis me räägime enda kohta, mis me räägime enda ettevõtte kohta"
+      },
+      {
+        "start_seconds": 1072.0,
+        "end_seconds": 1077.44,
+        "text": ", mille kohta me küsime, läheb ka sinna mudeli treenimisse ja ega ma jaganki enda sotsiaal"
+      },
+      {
+        "start_seconds": 1077.44,
+        "end_seconds": 1081.84,
+        "text": "meediasse info ja ka nagu tõesti tõsi, mida kõike ma sinna saan panna, sellega kõik ka"
+      },
+      {
+        "start_seconds": 1081.84,
+        "end_seconds": 1084.6,
+        "text": "udu tegelikult treenitakse, eks ju."
+      },
+      {
+        "start_seconds": 1084.6,
+        "end_seconds": 1089.44,
+        "text": "On need avalikud süsteemid suunatud süsteemid, on platvormid, mis saavad ka ligi sotsiaal"
+      },
+      {
+        "start_seconds": 1089.44,
+        "end_seconds": 1096.16,
+        "text": "meediale, eks ju, näiteks Iraanlased teada-tuntud, temal on nii-öelda SpaceX, temal on"
+      },
+      {
+        "start_seconds": 1096.16,
+        "end_seconds": 1103.36,
+        "text": "siis Xa ja et siis treenitud siis X-i ehk siis Twitter ehk näiteks küsida, mida inimesed"
+      },
+      {
+        "start_seconds": 1103.36,
+        "end_seconds": 1106.4,
+        "text": "mingist teemast arvavad, sest seal on X-i andmed."
+      },
+      {
+        "start_seconds": 1106.4,
+        "end_seconds": 1113.16,
+        "text": "Samal ajal näiteks meta Facebook, Instagram, nende andmetel ei saa klassikalised keele"
+      },
+      {
+        "start_seconds": 1113.16,
+        "end_seconds": 1118.28,
+        "text": "mudelid kõik, eks ju, sealt justkui ma ei saa küsida, et mida postitas, et just ütleme"
+      },
+      {
+        "start_seconds": 1118.28,
+        "end_seconds": 1119.84,
+        "text": "ette ei saa sinna ligi."
+      },
+      {
+        "start_seconds": 1119.84,
+        "end_seconds": 1125.16,
+        "text": "Nii et, et seal on hästi palju nüansse, hästi palju detaile, aga tõsiselt jah, kui mõju"
+      },
+      {
+        "start_seconds": 1125.16,
+        "end_seconds": 1130.4,
+        "text": "ta või reageeri nendele nupukesega, et palun ära kasutamine andmeid, siis kõik tegelikult"
+      },
+      {
+        "start_seconds": 1130.4,
+        "end_seconds": 1134.16,
+        "text": "läheb sinna mudeli algoritmi ja sellega nad lähevad siis kogu aeg targemaks, saavad eks"
+      },
+      {
+        "start_seconds": 1134.16,
+        "end_seconds": 1162.92,
+        "text": "ju teada, mida eestlased teevad, mida inimesed mõtlevad ja nii edasi."
+      },
+      {
+        "start_seconds": 1162.92,
+        "end_seconds": 1167.8,
+        "text": "Aga mis on üks, mida me saame teha nende poistetust või nende nende südametega, mida"
+      },
+      {
+        "start_seconds": 1167.8,
+        "end_seconds": 1171.88,
+        "text": "me nüüd jagada, teil on alati seal paremal üleval, kui kuskil on see olnud."
+      },
+      {
+        "start_seconds": 1171.88,
+        "end_seconds": 1177.0,
+        "text": "See tähendab seda, et see vestlus läheb nii-öelda justkui poolavalikuks ja neid andme"
+      },
+      {
+        "start_seconds": 1177.0,
+        "end_seconds": 1182.36,
+        "text": "le just tal siin suuremale kantroopikule ehk siis kloudi puhul kõik, kes olid vajuta"
+      },
+      {
+        "start_seconds": 1182.36,
+        "end_seconds": 1187.36,
+        "text": "nud seda söönuppu, üks hetk ilmusid Google'i otsingutesse ehk siis kui ma küsisin seal"
+      },
+      {
+        "start_seconds": 1187.36,
+        "end_seconds": 1192.08,
+        "text": ", räägi mulle niisugustest terviseandmetes, siis mul hakkas tulema järjest erinevate"
+      },
+      {
+        "start_seconds": 1192.08,
+        "end_seconds": 1196.24,
+        "text": "inimeste neid küsimusi, kus nad olid kenasti jaganud kõik kogu aeg terviseandmeid ja"
+      },
+      {
+        "start_seconds": 1196.24,
+        "end_seconds": 1196.96,
+        "text": "nii edasi."
+      },
+      {
+        "start_seconds": 1196.96,
+        "end_seconds": 1200.96,
+        "text": "Nagu neid kogemata tegelikult neid tegema, kui me ei tea neid süsteeme, me ei tea, mida"
+      },
+      {
+        "start_seconds": 1200.96,
+        "end_seconds": 1224.6,
+        "text": "me tegelikult nupud ja, ja jagame seda mitte jagamised kaasa toovad."
+      },
+      {
+        "start_seconds": 1224.6,
+        "end_seconds": 1231.8,
+        "text": "Samas kõik, kes selle teemaga on rohkem tegelenud, võib-olla ka rahvusvahelistel"
+      },
+      {
+        "start_seconds": 1231.8,
+        "end_seconds": 1239.08,
+        "text": "konverentsidel olnud, teavad, et meil on tegelikult päris hästi."
+      },
+      {
+        "start_seconds": 1239.08,
+        "end_seconds": 1246.32,
+        "text": "Meil Euroopa liidus ongi seadusi, mis reguleerivad seda andmekaitsemääruse,"
+      },
+      {
+        "start_seconds": 1246.32,
+        "end_seconds": 1252.36,
+        "text": "mis reguleerib isikuandmete kaitsmist kui ka sellised seadused Euroopa Liidu tasandi"
+      },
+      {
+        "start_seconds": 1252.36,
+        "end_seconds": 1255.76,
+        "text": "l stableerivad, mida ettevõtjad tohivad teha."
+      },
+      {
+        "start_seconds": 1255.76,
+        "end_seconds": 1261.08,
+        "text": "Palju pole räägitud ka sellest, et kuidas on kohtuotsuseid tehtud, kas komisjon on otsus"
+      },
+      {
+        "start_seconds": 1261.08,
+        "end_seconds": 1267.0,
+        "text": "eid teinud siin suurte digihiidude vastu, mis on väga palju pahameelt tekitanud, ka U"
+      },
+      {
+        "start_seconds": 1267.0,
+        "end_seconds": 1270.16,
+        "text": "SA-s, USA presidendiks."
+      },
+      {
+        "start_seconds": 1270.16,
+        "end_seconds": 1277.96,
+        "text": "Et ja ka rääkides tehisintellektist, tehisintellekti määrus, eks need ikkagi suure"
+      },
+      {
+        "start_seconds": 1277.96,
+        "end_seconds": 1286.76,
+        "text": "lt osalt on olnud jõustunud just päästjate jõustus ikka kohustus üldiselt avaldada."
+      },
+      {
+        "start_seconds": 1286.76,
+        "end_seconds": 1293.04,
+        "text": "Kes siis seda tehisintellekti kasutab parajasti kui mõni ettevõtja mõni said seda kasuta"
+      },
+      {
+        "start_seconds": 1293.04,
+        "end_seconds": 1296.08,
+        "text": "b neid sellest teavitama."
+      },
+      {
+        "start_seconds": 1296.08,
+        "end_seconds": 1302.48,
+        "text": "Nii et loomulikult ja siin on paljude seda kriitikat olnud ja ikka kõlab ikka ja jälle"
+      },
+      {
+        "start_seconds": 1302.48,
+        "end_seconds": 1307.64,
+        "text": "seda kriitikat ja kahtlemata selles nõustuma."
+      },
+      {
+        "start_seconds": 1307.64,
+        "end_seconds": 1313.92,
+        "text": "Et, et teatud ulatuses see piir peab innovatsioonile ja siis ongi see, et see suur vaid"
+      },
+      {
+        "start_seconds": 1313.92,
+        "end_seconds": 1319.16,
+        "text": "lus, et kuidas selle Euroopaga on, et kas me siin Euroopa Liidus oleme sellised vana"
+      },
+      {
+        "start_seconds": 1319.16,
+        "end_seconds": 1326.12,
+        "text": "nenud idanenud ja ei jõua järgi innovaatilistele riikidele nagu Hiina, kes võiksid olla"
+      },
+      {
+        "start_seconds": 1326.12,
+        "end_seconds": 1331.32,
+        "text": "meile eeskujuks, kuidas nad võib-olla igas asjas ei ole meile eeskujuks, ma arvan, et"
+      },
+      {
+        "start_seconds": 1331.32,
+        "end_seconds": 1337.24,
+        "text": "see on väga oluline, et meil kindlasti ei ole vastust kõikidele nendele küsimustele,"
+      },
+      {
+        "start_seconds": 1337.24,
+        "end_seconds": 1345.12,
+        "text": "aga ma arvan, et väga oluline on, et me arutame neid küsimusi tegelikult, et mul"
+      },
+      {
+        "start_seconds": 1345.12,
+        "end_seconds": 1352.44,
+        "text": "on huvitav kogemus oli just möödunud õppeaastal ühe, ühe tudengiga USA-st,"
+      },
+      {
+        "start_seconds": 1352.44,
+        "end_seconds": 1358.16,
+        "text": "kes meil ülikoolis õppis ja kes mulle ütles, et ei tea, kui priviligeeritud te olete"
+      },
+      {
+        "start_seconds": 1358.16,
+        "end_seconds": 1364.84,
+        "text": "küll õnnelikult te olete, et tõesti tegelikult ta nii on ja et see tekitab meis vaid"
+      },
+      {
+        "start_seconds": 1364.84,
+        "end_seconds": 1372.36,
+        "text": "lusi, sest kahtlemata ma arvan, et riikidel on siin ro"
+      },
+      {
+        "start_seconds": 1372.36,
+        "end_seconds": 1378.8,
+        "text": "ll, mida me olime juba peaaegu ära unustanud või mida me kipumegi ära unustama seni kui"
+      },
+      {
+        "start_seconds": 1378.8,
+        "end_seconds": 1379.48,
+        "text": "kõik on korras."
+      },
+      {
+        "start_seconds": 1379.48,
+        "end_seconds": 1383.04,
+        "text": "Ma arvan, me nägime seda väga ilusti pandeemia ajal."
+      },
+      {
+        "start_seconds": 1383.04,
+        "end_seconds": 1387.84,
+        "text": "Et see, kui majandus on korras ja muid muresid väga ei ole, keegi ei mõtle selle peale"
+      },
+      {
+        "start_seconds": 1387.84,
+        "end_seconds": 1393.16,
+        "text": ", et riik on olemas ja niipea kui asjad lähevad kuidagi treeni ja mingit paanika teki"
+      },
+      {
+        "start_seconds": 1393.16,
+        "end_seconds": 1397.88,
+        "text": "b, siis vaadatakse otse üle, kus on poliitikud ja kus on otsustav isik ja kus keegi me"
+      },
+      {
+        "start_seconds": 1397.88,
+        "end_seconds": 1400.4,
+        "text": "id nüüd, mida nüüd teha."
+      },
+      {
+        "start_seconds": 1400.4,
+        "end_seconds": 1408.08,
+        "text": "Ja, ja tegelikult meil on seda riigi rolli meie selles, et kaitsta neid"
+      },
+      {
+        "start_seconds": 1408.08,
+        "end_seconds": 1414.24,
+        "text": "põhimõtteid, mis meile on meie ühiskondades olulised, ma arvan, väga vaja, sest tõesti"
+      },
+      {
+        "start_seconds": 1414.24,
+        "end_seconds": 1421.92,
+        "text": "see, ma arvan, selle, selle innovatsiooni ja, ja majandus probleemide"
+      },
+      {
+        "start_seconds": 1421.92,
+        "end_seconds": 1424.04,
+        "text": "sulgemine tunneme seda kõike."
+      },
+      {
+        "start_seconds": 1424.04,
+        "end_seconds": 1429.68,
+        "text": "Ja ma arvan, et see on ka arusaadav ja kahtlemata on ettevõtjatel ka väga suur huvi kõik"
+      },
+      {
+        "start_seconds": 1429.68,
+        "end_seconds": 1436.0,
+        "text": "e kasutada ja samas teatud ulatuses on, on see oluline, aga me peamegi siin kaaluma ja"
+      },
+      {
+        "start_seconds": 1436.0,
+        "end_seconds": 1442.04,
+        "text": "ma arvan, et see on oluline seda arutada, et kus on see piir, sest tegelikult seda pi"
+      },
+      {
+        "start_seconds": 1442.04,
+        "end_seconds": 1446.6,
+        "text": "iri ju ei ole, et me seame seda kunstlikult ainult, et ainult seadused ütlevad seda,"
+      },
+      {
+        "start_seconds": 1446.6,
+        "end_seconds": 1452.32,
+        "text": "et kas võib olla minule isikuandmeid tohib mingis ulatuses kasutada või mitte, et, et"
+      },
+      {
+        "start_seconds": 1452.32,
+        "end_seconds": 1457.56,
+        "text": "sisuliselt tehniliselt on täna kõik võimalused olemas, et kõik läheb müüki, kõik läheb"
+      },
+      {
+        "start_seconds": 1457.56,
+        "end_seconds": 1464.28,
+        "text": "kasutusse ja seda näitavad ka otsused, eks ole, välisettevõtjate vastu, et ainult siis"
+      },
+      {
+        "start_seconds": 1464.28,
+        "end_seconds": 1468.2,
+        "text": ", kui neid piire ületatakse, siis võivadki trahvid tulla."
+      },
+      {
+        "start_seconds": 1468.2,
+        "end_seconds": 1473.68,
+        "text": "Nii et ega, ega sellist loomulikku piiri seal ei olegi, see on ainult see, mis on neil"
+      },
+      {
+        "start_seconds": 1473.68,
+        "end_seconds": 1479.12,
+        "text": "e nii tähtis, millised andmed, millised eraelu, mida me ei taha, eks ole, kus on, kus"
+      },
+      {
+        "start_seconds": 1479.12,
+        "end_seconds": 1491.84,
+        "text": "on see term."
+      },
+      {
+        "start_seconds": 1491.84,
+        "end_seconds": 1496.04,
+        "text": "Aga me kõik teame, me teame neid inimesi, kes neid küsimusi ei jaga oma sotsmeedias me"
+      },
+      {
+        "start_seconds": 1496.04,
+        "end_seconds": 1499.96,
+        "text": "teame neid, kes väga vabalt jagavad kõike."
+      },
+      {
+        "start_seconds": 1499.96,
+        "end_seconds": 1504.36,
+        "text": "Sisuliselt ei ole nii, et kõike tohib minul lehelt võtta."
+      },
+      {
+        "start_seconds": 1504.36,
+        "end_seconds": 1508.92,
+        "text": "Samas on see küsimus täpselt, kellega ma olen jaganud, kuidas ma olen seda kvalifitse"
+      },
+      {
+        "start_seconds": 1508.92,
+        "end_seconds": 1509.44,
+        "text": "erinud."
+      },
+      {
+        "start_seconds": 1509.44,
+        "end_seconds": 1514.0,
+        "text": "Enamus inimesi ei mõtle selle üle üldse järgi, kui nad midagi postitavad."
+      },
+      {
+        "start_seconds": 1514.0,
+        "end_seconds": 1518.12,
+        "text": "Pärast võib-olla tekib tunne, et oi-oi-oi, mis sellega nüüd oli."
+      },
+      {
+        "start_seconds": 1518.12,
+        "end_seconds": 1525.32,
+        "text": "Aga ikkagi meil on täna üleval seadused ja regulatsioonid, mis peaksid seda"
+      },
+      {
+        "start_seconds": 1525.32,
+        "end_seconds": 1528.08,
+        "text": "ikkagi ennetama."
+      },
+      {
+        "start_seconds": 1528.08,
+        "end_seconds": 1532.2,
+        "text": "Et lihtsalt minu Facebook kontost kõike võtta ei tohiks."
+      },
+      {
+        "start_seconds": 1532.2,
+        "end_seconds": 1536.96,
+        "text": "Samas, mis toimub ja mis juhtub selle kohta on meil näiteks piisavalt, et kui asjad ikkagi"
+      },
+      {
+        "start_seconds": 1536.96,
+        "end_seconds": 1542.92,
+        "text": "untsu lähevad või kui just näeme, mida ikkagi sellised väga, väga ulatuslikud ja või"
+      },
+      {
+        "start_seconds": 1542.92,
+        "end_seconds": 1550.44,
+        "text": "mekad mudelid oskavad ja ja teenused nagu näiteks kõik need, mis on"
+      },
+      {
+        "start_seconds": 1550.44,
+        "end_seconds": 1558.4,
+        "text": "seotud täna isikute tuvastamisega, tuvastamisega ja muud sellised, et tegelikult"
+      },
+      {
+        "start_seconds": 1558.4,
+        "end_seconds": 1579.56,
+        "text": "praktiliselt igaüks on kuskil üles leitud."
+      },
+      {
+        "start_seconds": 1579.56,
+        "end_seconds": 1586.56,
+        "text": "Aga tegelikult see tähendab selline teine pool, millega meie oleme kokku puutunud."
+      },
+      {
+        "start_seconds": 1586.56,
+        "end_seconds": 1592.48,
+        "text": "Et see on nii-öelda riigi ja kodanike vahel."
+      },
+      {
+        "start_seconds": 1592.48,
+        "end_seconds": 1602.08,
+        "text": "Et kui me nagu riigina liigume sinna suunas, et me tahame, et meil oleks kõige tead"
+      },
+      {
+        "start_seconds": 1602.08,
+        "end_seconds": 1610.36,
+        "text": "likum elanikkond ja ja riik oleks ka teisalu baasilt"
+      },
+      {
+        "start_seconds": 1610.36,
+        "end_seconds": 1614.88,
+        "text": "toetatud ja nii edasi ja nii edasi, et see tekitab meie vaates nagu oleks selle küsimus"
+      },
+      {
+        "start_seconds": 1614.88,
+        "end_seconds": 1620.96,
+        "text": "e, et kas, kas sellest saab kõik, kõik inimesed saavad sellest osa ja ja need siin ütleme"
+      },
+      {
+        "start_seconds": 1620.96,
+        "end_seconds": 1628.2,
+        "text": "toime ka tekitada sellise raporti, kus me vaatasime digi digi nagu laiemalt küll,"
+      },
+      {
+        "start_seconds": 1628.2,
+        "end_seconds": 1634.28,
+        "text": "et kuidas vanemad inimesed üldsegi saavad endast digiharjustest osa, mille, mille üle"
+      },
+      {
+        "start_seconds": 1634.28,
+        "end_seconds": 1640.6,
+        "text": "me oleme riigile väga uhked ja seal on nagu väga suured puudujäägid, et sellist üleü"
+      },
+      {
+        "start_seconds": 1640.6,
+        "end_seconds": 1646.12,
+        "text": "ldist nagu üle koordineeritud riigipoolset korraldust, kuidas me siis abistama neid inimesi"
+      },
+      {
+        "start_seconds": 1646.12,
+        "end_seconds": 1651.36,
+        "text": ", kas kõik peavad nagu kasutama digilahendust, kas kõik peavad tehnilise lahenduse näiteks"
+      },
+      {
+        "start_seconds": 1651.36,
+        "end_seconds": 1657.44,
+        "text": "kasutama, kui nad suhtlevad riigiga, et kui peaks jääma ikkagi see inimeselt inimese"
+      },
+      {
+        "start_seconds": 1657.44,
+        "end_seconds": 1663.72,
+        "text": "le suhtumis või riik inimene suhtlus ka alles, et see hea näide oli justiitsministeerium"
+      },
+      {
+        "start_seconds": 1663.72,
+        "end_seconds": 1670.52,
+        "text": "i juturobot siis tasuta õigusabi hakkas asendama ja kogu selle ümber käinud asju, mis"
+      },
+      {
+        "start_seconds": 1670.52,
+        "end_seconds": 1674.28,
+        "text": "eelmisel aastal olid."
+      },
+      {
+        "start_seconds": 1674.28,
+        "end_seconds": 1680.44,
+        "text": "Tegelikult me ei saa või minu meelest ei tohiks nagu eeldada seda, et kõik inimesed pea"
+      },
+      {
+        "start_seconds": 1680.44,
+        "end_seconds": 1688.64,
+        "text": "vad nagu selliseid lahendusi suhtumisel riigiga kasutama selle koha ja"
+      },
+      {
+        "start_seconds": 1688.64,
+        "end_seconds": 1720.96,
+        "text": "mingitel põhjustel ei tabata."
+      },
+      {
+        "start_seconds": 1720.96,
+        "end_seconds": 1726.2,
+        "text": "Muidugi uus aasta, Inglismaalt tuleb hästi palju neid uuringuid ja seal on hästi selge"
+      },
+      {
+        "start_seconds": 1726.2,
+        "end_seconds": 1731.92,
+        "text": "lt näha, et, et see tippkasutusel see niisugune kakskümmend viis kuni kolmkümmend viis"
+      },
+      {
+        "start_seconds": 1731.92,
+        "end_seconds": 1737.24,
+        "text": "vanus, noortel võib-olla natukene vähem, aga peaaegu sama palju ja vanuseid gruppides"
+      },
+      {
+        "start_seconds": 1737.24,
+        "end_seconds": 1739.36,
+        "text": "edasi läheb kogu aeg madalamaks, eks ju."
+      },
+      {
+        "start_seconds": 1739.36,
+        "end_seconds": 1746.88,
+        "text": "Et selge on see, et, et see aeg osutus toob seda digilehe veelgi enam lauale"
+      },
+      {
+        "start_seconds": 1746.88,
+        "end_seconds": 1752.68,
+        "text": "ja eks ma näen seda samamoodi organisatsioonide ees ja ettevõtetes, kus on noored ti"
+      },
+      {
+        "start_seconds": 1752.68,
+        "end_seconds": 1759.24,
+        "text": "imid kasutusel nii palju suurem, kus on vanemad töötajad, see kasutus on palju madala"
+      },
+      {
+        "start_seconds": 1759.24,
+        "end_seconds": 1765.32,
+        "text": "m ja, ja paraku see võlub nii-öelda tavakasutusesse, ettevõtluses, ettevõtetes samamoodi"
+      },
+      {
+        "start_seconds": 1765.32,
+        "end_seconds": 1770.6,
+        "text": ", eks ju, sest need inimesed, kes kasutavad, muutuvad efektiivsemaks oma igapäevatöö"
+      },
+      {
+        "start_seconds": 1770.6,
+        "end_seconds": 1775.84,
+        "text": "s ja, ja kes vähem kasutavad, on siis vähem efektiivset õppe, võrreldes nende teistega"
+      },
+      {
+        "start_seconds": 1775.84,
+        "end_seconds": 1780.48,
+        "text": "ehk siis ka sealt tekib seda nii-öelda kohati see tabavõrdsust, eks ju, et see on küll"
+      },
+      {
+        "start_seconds": 1780.48,
+        "end_seconds": 1784.76,
+        "text": ", eks ju võib-olla organisatsiooni juhtkonna otsustada, et kuidas ta sinna panustab ja"
+      },
+      {
+        "start_seconds": 1784.76,
+        "end_seconds": 1786.52,
+        "text": "kui palju ta siis hoolite."
+      },
+      {
+        "start_seconds": 1786.52,
+        "end_seconds": 1791.24,
+        "text": "Aga, aga väga palju sõltub ka sellest, kuidas inimene tahab üldse seda muutust ja inimeste"
+      },
+      {
+        "start_seconds": 1791.24,
+        "end_seconds": 1796.68,
+        "text": "le meeldivad väga-väga ei meeldi see muudatus maailm ja see, et kõik muutub ja et siis"
+      },
+      {
+        "start_seconds": 1796.68,
+        "end_seconds": 1801.36,
+        "text": "võib-olla noored on selles mõttes ka vastuvõtlikud nendele muudatustele."
+      },
+      {
+        "start_seconds": 1801.36,
+        "end_seconds": 1808.2,
+        "text": "Samas ma ei alahindaks noori, meil oli ka just küsitlusi ja tegelikult minu ülikooli"
+      },
+      {
+        "start_seconds": 1808.2,
+        "end_seconds": 1816.36,
+        "text": "ka näitab, et, et meie kõige vähem kriitiline I"
+      },
+      {
+        "start_seconds": 1816.36,
+        "end_seconds": 1822.08,
+        "text": "T kasutaja kõiksugu digikasutajad on, on mingi nelikümmend pluss, nelikümmend viiskümmend"
+      },
+      {
+        "start_seconds": 1822.08,
+        "end_seconds": 1828.88,
+        "text": "ja ma võin seda kinnitada, et tegelikult noortel on tänapäeva nende teadlikkus kõikide"
+      },
+      {
+        "start_seconds": 1828.88,
+        "end_seconds": 1833.28,
+        "text": "nende tellimustega kaasnevatest ohtudest ka."
+      },
+      {
+        "start_seconds": 1833.28,
+        "end_seconds": 1838.24,
+        "text": "Ja, ja kriitiline hindamisvõime on ta palju parem muidugi nende oskused ka."
+      },
+      {
+        "start_seconds": 1838.24,
+        "end_seconds": 1844.8,
+        "text": "Ja tõesti kahjuks meil on minult tihti küsitud ja ma olen kahtlane kahjuks saanud pa"
+      },
+      {
+        "start_seconds": 1844.8,
+        "end_seconds": 1847.84,
+        "text": "nustada sellesse."
+      },
+      {
+        "start_seconds": 1847.84,
+        "end_seconds": 1853.68,
+        "text": "Ei ole ka minu ala, et meil on vähe olnud uuringuid vanemaealise elanikkonna kohta, aga"
+      },
+      {
+        "start_seconds": 1853.68,
+        "end_seconds": 1860.6,
+        "text": "meil üks on olnud selline oma mäletamist Tallinna Ülikoolis ikkagi on näidanud, et loomulikult"
+      },
+      {
+        "start_seconds": 1860.6,
+        "end_seconds": 1866.64,
+        "text": "seda mahajäämust on seal päris palju ja kahtlemata, miks meil võib-olla sellel ei ole"
+      },
+      {
+        "start_seconds": 1866.64,
+        "end_seconds": 1871.96,
+        "text": "olnud ka nii palju kajapinda võrreldes teiste vähemalt Lääne-Euroopa riikidega, on ju"
+      },
+      {
+        "start_seconds": 1871.96,
+        "end_seconds": 1879.32,
+        "text": "see, et meie vanemaealine elanikkond on seni olnud keskmiselt, ütleme ka vähemjõulise"
+      },
+      {
+        "start_seconds": 1879.32,
+        "end_seconds": 1886.12,
+        "text": "m ja võib-olla vähemjõulisem ka kahtlemata oma poliitiliste nõudmiste läbisurumisel sel"
+      },
+      {
+        "start_seconds": 1886.12,
+        "end_seconds": 1892.96,
+        "text": "moel, aga ka meil."
+      },
+      {
+        "start_seconds": 1892.96,
+        "end_seconds": 1900.16,
+        "text": "Selles mõttes, et mingi hetk jõuab see igaühele ja siis jõuab ikka uusi lahendusi ja"
+      },
+      {
+        "start_seconds": 1900.16,
+        "end_seconds": 1905.28,
+        "text": "kindlasti nii, et võib-olla võib mõni arvata, et see hetkel mind ei puuduta, see on natuke"
+      },
+      {
+        "start_seconds": 1905.28,
+        "end_seconds": 1912.56,
+        "text": "nagu, nagu see jutt sellest, et miks kunagi meie isikukoodilt olid ava"
+      },
+      {
+        "start_seconds": 1912.56,
+        "end_seconds": 1918.52,
+        "text": "likult meie sünniaastatega, et noh, kõik, kes ümber laua istusid, olid kakskümmend."
+      },
+      {
+        "start_seconds": 1918.52,
+        "end_seconds": 1921.32,
+        "text": "Nüüd nad seda enam ei ole."
+      },
+      {
+        "start_seconds": 1921.32,
+        "end_seconds": 1926.2,
+        "text": "Kas igaüks peab nägema, meil on sünniaastad kohe, kui ta soovib mulle palju õnne mingi"
+      },
+      {
+        "start_seconds": 1926.2,
+        "end_seconds": 1928.76,
+        "text": "t poemüüja, aga nii ta on."
+      },
+      {
+        "start_seconds": 1928.76,
+        "end_seconds": 1934.88,
+        "text": "Nii et ma arvan, et see tõesti arvestada sellega, et meil on ühiskond täielikult väga"
+      },
+      {
+        "start_seconds": 1934.88,
+        "end_seconds": 1942.4,
+        "text": "erinevas vanuses ja kõik me läbime iga vanuse ja mingil hetkel on oluline justkui selle"
+      },
+      {
+        "start_seconds": 1942.4,
+        "end_seconds": 1980.16,
+        "text": "kokkuhoidva ühiskonna nimel, sest muidu meil läheb osa ühiskonnast välja."
+      },
+      {
+        "start_seconds": 1980.16,
+        "end_seconds": 1986.8,
+        "text": "Aga, aga see, mis, millest me oleme pigem see, et riigiteenused ja riigi riik enda suht"
+      },
+      {
+        "start_seconds": 1986.8,
+        "end_seconds": 1994.2,
+        "text": "luses siis kodanikega, et et kui see on liikunud liikmeslike"
+      },
+      {
+        "start_seconds": 1994.2,
+        "end_seconds": 2000.0,
+        "text": "poole, mis toob endale kaasa selle, et siis kaob ära see inimeselt inimesele suhtlemine"
+      },
+      {
+        "start_seconds": 2000.0,
+        "end_seconds": 2006.88,
+        "text": ", et see seda meil on nagu probleemi, et seal peaks olema ikkagi tagada see inimene,"
+      },
+      {
+        "start_seconds": 2006.88,
+        "end_seconds": 2012.48,
+        "text": "inimesega suhtlemine jääb alles ka, et seal ei saa, riik ei saa välistada seda, et kõik"
+      },
+      {
+        "start_seconds": 2012.48,
+        "end_seconds": 2026.56,
+        "text": "ühteviisi kasutavad, siis esimesel kombel digilahendusi ja mis iganes."
+      },
+      {
+        "start_seconds": 2026.56,
+        "end_seconds": 2032.8,
+        "text": "Et ma arvan, et meie ühiskonna lõhestumine on üks väga oluline probleem, siin Eestis"
+      },
+      {
+        "start_seconds": 2032.8,
+        "end_seconds": 2038.64,
+        "text": "meil ka ja me peaksime keerulise järjekorras tegelema, kui me tahame, et me käiks siin"
+      },
+      {
+        "start_seconds": 2038.64,
+        "end_seconds": 2043.4,
+        "text": "rõõmsalt kokku ja eks me elame, nii et jah, see võib küll öelda, et jää siis välja."
+      },
+      {
+        "start_seconds": 2043.4,
+        "end_seconds": 2048.72,
+        "text": "Aga esiteks ma arvan, et siin on veel üks teine aspekt ja tulen veelkord tagasi nende"
+      },
+      {
+        "start_seconds": 2048.72,
+        "end_seconds": 2056.0,
+        "text": "noorte juurde, et see on ka loomulikult ju psühholoogiline küsimus, et mingi hetk see"
+      },
+      {
+        "start_seconds": 2056.0,
+        "end_seconds": 2062.52,
+        "text": "on täpselt see, et jah, ma võin ju küsida, aga arstiabi chatist ja ma tean, olen seda"
+      },
+      {
+        "start_seconds": 2062.52,
+        "end_seconds": 2068.28,
+        "text": "arsti väga kannatavad selle all, et igaüks arvab nüüd, et me oleme ise tarka arst ja"
+      },
+      {
+        "start_seconds": 2068.28,
+        "end_seconds": 2072.96,
+        "text": "ja kui tulevad advokaadi juurde, siis on ka juba kõik läbi üheksandanud ja ütlevad ka"
+      },
+      {
+        "start_seconds": 2072.96,
+        "end_seconds": 2074.72,
+        "text": ", mida nad kohe nõuavad."
+      },
+      {
+        "start_seconds": 2074.72,
+        "end_seconds": 2079.24,
+        "text": "Aga samas nad pöörduvad ikkagi sinna me teame seda kõik, miks me seda teeme, sest me"
+      },
+      {
+        "start_seconds": 2079.24,
+        "end_seconds": 2080.08,
+        "text": "oleme inimesed."
+      },
+      {
+        "start_seconds": 2080.08,
+        "end_seconds": 2085.68,
+        "text": "Me teame seda inimlikku kontakti, me tahame kuskilt seda tagasisidet saada, et, et ja"
+      },
+      {
+        "start_seconds": 2085.68,
+        "end_seconds": 2090.48,
+        "text": "see on see moment, see on see, ma arvan, jääb paktidega on seda võib-olla tihti olnud"
+      },
+      {
+        "start_seconds": 2090.48,
+        "end_seconds": 2094.24,
+        "text": ", et võib-olla ka seni kui muret ei ole, ei ole probleemi, aga siin ma katsun kuskil"
+      },
+      {
+        "start_seconds": 2094.24,
+        "end_seconds": 2098.96,
+        "text": "e helistada, ma katsun kellegagi kätte saada, ma ei tea, pandi midagi kinni või telli"
+      },
+      {
+        "start_seconds": 2098.96,
+        "end_seconds": 2100.92,
+        "text": "mus ei toimi, lendrid."
+      },
+      {
+        "start_seconds": 2100.92,
+        "end_seconds": 2104.56,
+        "text": "Kuskil ei ole enam kedagi, tahaks kellega rääkida."
+      },
+      {
+        "start_seconds": 2104.56,
+        "end_seconds": 2109.48,
+        "text": "Kuskil ei ole, helistage sinna ja kirjutage email'i, kolme kuu pärast saate vastuse."
+      },
+      {
+        "start_seconds": 2109.48,
+        "end_seconds": 2114.48,
+        "text": "Mitte keegi teie väga ei suuda, kui ebameeldiv see on, kui meil hakkab seda juhtuma meie"
+      },
+      {
+        "start_seconds": 2114.48,
+        "end_seconds": 2121.72,
+        "text": "riigiga, siis inimeste usk riiki kaob väga kiiresti ja see on tegelikult ka meie üks"
+      },
+      {
+        "start_seconds": 2121.72,
+        "end_seconds": 2126.08,
+        "text": "üliõpilaste olnud, et meil on kõik nii väike, et me saame alati vastata, kui vaadata"
+      },
+      {
+        "start_seconds": 2126.08,
+        "end_seconds": 2131.28,
+        "text": ", mis nende digilahendustega suurtes riikides tihti juhtub, ongi tõesti see, et enam"
+      },
+      {
+        "start_seconds": 2131.28,
+        "end_seconds": 2138.72,
+        "text": "ei ole inimest ja inimesed satuvad mingist asja täiesti absurdsetesse keeristusse."
+      },
+      {
+        "start_seconds": 2138.72,
+        "end_seconds": 2145.64,
+        "text": "Ja, ja, ja see mõjub väga otseselt inimese usku, tema riiki kui korraga, ma ei tea, e"
+      },
+      {
+        "start_seconds": 2145.64,
+        "end_seconds": 2151.92,
+        "text": "hitusluba, mingi lapsetoetus ei saa kuhugi mitte kuskilt ei ole enam mitte kedagi, kelle"
+      },
+      {
+        "start_seconds": 2151.92,
+        "end_seconds": 2179.88,
+        "text": "le vastatakse ja sulle ainult kogu aeg keritakse neid samu vastuseid kuskil popis."
+      },
+      {
+        "start_seconds": 2179.88,
+        "end_seconds": 2186.24,
+        "text": "Selles mõttes, et, et see on natuke selline valikute küsimus täna, eks ju ja ma arvan"
+      },
+      {
+        "start_seconds": 2186.24,
+        "end_seconds": 2191.64,
+        "text": ", sellele kombinatsioon või sellest, et mis tööriistu me kasutame, kust, kust riigist"
+      },
+      {
+        "start_seconds": 2191.64,
+        "end_seconds": 2196.64,
+        "text": "on need tööriistad ostame, eks ju, miks me just sellised valikud teeme, väga palju ka"
+      },
+      {
+        "start_seconds": 2196.64,
+        "end_seconds": 2202.92,
+        "text": "räägitakse sellest, et täna kõik õpetajaid, seminare ei too kümned suured mudelid on"
+      },
+      {
+        "start_seconds": 2202.92,
+        "end_seconds": 2208.68,
+        "text": "ju kõik USA-s eks ju kasutame teiste riikide mudeleid, sest Euroopas ei ole enda, miks"
+      },
+      {
+        "start_seconds": 2208.68,
+        "end_seconds": 2213.8,
+        "text": "Euroopas ei ole, Euroopa ei taha täna või ei ole võimalik nii palju investeerida."
+      },
+      {
+        "start_seconds": 2213.8,
+        "end_seconds": 2220.2,
+        "text": "Samal ajal me ju kasutame ikka, eks ju, me selle võrra justkui anname selle kasutuse"
+      },
+      {
+        "start_seconds": 2220.2,
+        "end_seconds": 2226.0,
+        "text": "raha ka Euroopast väljapoole ja, ja meil ei tule võib-olla ka seda positiivset efekti"
+      },
+      {
+        "start_seconds": 2226.0,
+        "end_seconds": 2231.04,
+        "text": "siis nii palju me justkui saaksime ringi lõpustuse seda raha jällegi anda siis kasutus"
+      },
+      {
+        "start_seconds": 2231.04,
+        "end_seconds": 2236.92,
+        "text": "se Euroopasse sisse nii nagu täna ju USA ka teeb, eks ju nad juba räägivad sellest, eks"
+      },
+      {
+        "start_seconds": 2236.92,
+        "end_seconds": 2238.96,
+        "text": "ju, kas natuke piiratud või mitte."
+      },
+      {
+        "start_seconds": 2238.96,
+        "end_seconds": 2242.92,
+        "text": "Eks ju, et tahetakse anda ka nendest tehnoloogiaettevõtetest osa, eks ju riigile, et"
+      },
+      {
+        "start_seconds": 2242.92,
+        "end_seconds": 2246.48,
+        "text": "justkui sealtkaudu seda, seda rahavoogu tagasi saada."
+      },
+      {
+        "start_seconds": 2246.48,
+        "end_seconds": 2252.6,
+        "text": "Aga, aga jaa, ma olen väga nõus, me oleme hästi suures osas täna või selles hetkes, kus"
+      },
+      {
+        "start_seconds": 2252.6,
+        "end_seconds": 2259.92,
+        "text": "digilõhe kasvab ja, ja ma arvan, et riigi roll täna on võimalikult proovida siis seda"
+      },
+      {
+        "start_seconds": 2259.92,
+        "end_seconds": 2265.24,
+        "text": "kokku tõmmata, on ta siis läbi koolituste, on ta tõesti läbi selle, et, et see nii-öelda"
+      },
+      {
+        "start_seconds": 2265.24,
+        "end_seconds": 2270.72,
+        "text": "inimkontaktini roll jääb, eks ju alles, et me ei prooviks siis kõike ära automatiseerida"
+      },
+      {
+        "start_seconds": 2270.72,
+        "end_seconds": 2275.28,
+        "text": ", et meil on ikkagi võimalik seda teenust pakkuda ka nii-öelda vanaviisi."
+      },
+      {
+        "start_seconds": 2275.28,
+        "end_seconds": 2280.12,
+        "text": "Aga, aga noh, ka kõik näitajad, eks ju näitavad seda, et, et mida noorem põlvkond peale"
+      },
+      {
+        "start_seconds": 2280.12,
+        "end_seconds": 2283.24,
+        "text": "tuleb, seda vähem tema tahab, seda kontakti inimlikku, eks ju."
+      },
+      {
+        "start_seconds": 2283.24,
+        "end_seconds": 2287.6,
+        "text": "Mis tähendab, et me samal ajal investeerima ka nendesse tehnoloogilistesse lahenduste"
+      },
+      {
+        "start_seconds": 2287.6,
+        "end_seconds": 2290.24,
+        "text": "sse, et kui ma lähen sinna Eesti."
+      },
+      {
+        "start_seconds": 2290.24,
+        "end_seconds": 2294.64,
+        "text": "ee lehele see chatbot'ide käest midagi küsin, kas ta päriselt oskaks ka vastata, eks"
+      },
+      {
+        "start_seconds": 2294.64,
+        "end_seconds": 2324.48,
+        "text": "ju, mitte ei ütleks, et vabandust, ma ei saa aru, eks ju, mida täna."
+      },
+      {
+        "start_seconds": 2324.48,
+        "end_seconds": 2329.32,
+        "text": "Olen nii-öelda täna selles pilootprojektis sees väga palju praegu räägitakse ka sellest"
+      },
+      {
+        "start_seconds": 2329.32,
+        "end_seconds": 2335.84,
+        "text": "uuest hankest, millega tahetakse siis uusi kommenteerida ja eks seal on ka teatud kri"
+      },
+      {
+        "start_seconds": 2335.84,
+        "end_seconds": 2341.76,
+        "text": "itilisus selgelt nende suunas õigustatud, aga ma isiklikult hästi usun sellesse visioon"
+      },
+      {
+        "start_seconds": 2341.76,
+        "end_seconds": 2347.68,
+        "text": "i, et meil on vaja seda teadlikkust tõsta, töötades ise, ise mittetulek inimeste ära"
+      },
+      {
+        "start_seconds": 2347.68,
+        "end_seconds": 2348.56,
+        "text": "koolitanud."
+      },
+      {
+        "start_seconds": 2348.56,
+        "end_seconds": 2355.64,
+        "text": "Ma näen, kui palju need inimesed muutuvad juba nagu rõõmsamaks selles osas, et meil on"
+      },
+      {
+        "start_seconds": 2355.64,
+        "end_seconds": 2361.08,
+        "text": "mingi võimalus tekkinud efektiivsuse tõstmiseks ja mingeid igavaid tegevusi ära auto"
+      },
+      {
+        "start_seconds": 2361.08,
+        "end_seconds": 2366.12,
+        "text": "matiseerida ja, ja see on üks võib-olla tööalaselt, aga ka isiklikul tasandil need o"
+      },
+      {
+        "start_seconds": 2366.12,
+        "end_seconds": 2371.4,
+        "text": "skused ja, ja noh, läbi selle, et ma õpetan ka Arengu õpetan, mina õpetan, eks ju fi"
+      },
+      {
+        "start_seconds": 2371.4,
+        "end_seconds": 2376.64,
+        "text": "nantsi seda valdkonda üldse, kuidas see digitaalselt käituda turvaliselt, eks ju, palju"
+      },
+      {
+        "start_seconds": 2376.64,
+        "end_seconds": 2422.24,
+        "text": "laiem skoop tegelikult."
+      },
+      {
+        "start_seconds": 2422.24,
+        "end_seconds": 2424.6,
+        "text": "Et siis tahaks ikkagi nagu päris inimesega rääkida."
+      },
+      {
+        "start_seconds": 2424.6,
+        "end_seconds": 2431.76,
+        "text": "Et, et see on nagu okei loomulikult, et me õpime."
+      },
+      {
+        "start_seconds": 2431.76,
+        "end_seconds": 2437.16,
+        "text": "Et, et see, et saab pidevalt oleksid ikkagi nagu kursis sellega, mis toimub, see, see"
+      },
+      {
+        "start_seconds": 2437.16,
+        "end_seconds": 2441.36,
+        "text": "vajab nagu väga palju nii-öelda pidevat õppimist."
+      },
+      {
+        "start_seconds": 2441.36,
+        "end_seconds": 2456.48,
+        "text": "Võib-olla mingil hetkel."
+      },
+      {
+        "start_seconds": 2456.48,
+        "end_seconds": 2457.96,
+        "text": "Kuidagi kõrvale."
+      },
+      {
+        "start_seconds": 2457.96,
+        "end_seconds": 2465.12,
+        "text": "Et, et kui mul siis on vaja nagu soome mingisuguse ametiasutuse --- et see, see on see"
+      },
+      {
+        "start_seconds": 2465.12,
+        "end_seconds": 2469.96,
+        "text": "hetk mulle tundub, et kui ma iseenda niimoodi tulevikus, et siis hakkaks midagi jube"
+      },
+      {
+        "start_seconds": 2469.96,
+        "end_seconds": 2476.64,
+        "text": "dadele käima, et siis ma muutuks selliseks pahulaks vanainimeseks, kes käib nagu põhi"
+      },
+      {
+        "start_seconds": 2476.64,
+        "end_seconds": 2483.56,
+        "text": "mõtte pärast, käib kuskil ukse taga kohaliku omavalitsus ja koputab ja kuulab kokku selle"
+      },
+      {
+        "start_seconds": 2483.56,
+        "end_seconds": 2496.44,
+        "text": "ks."
+      },
+      {
+        "start_seconds": 2496.44,
+        "end_seconds": 2503.72,
+        "text": "Et kuna tõesti see, et kas see on ainult lõhestumine, ma arvan, meil"
+      },
+      {
+        "start_seconds": 2503.72,
+        "end_seconds": 2508.96,
+        "text": "on nii palju tõesti põhimõttelisi küsimusi, mis tekivad peavad meie ühiskonnas pinge"
+      },
+      {
+        "start_seconds": 2508.96,
+        "end_seconds": 2513.92,
+        "text": "id, et see ei ole ainult see, et ühed on sellised, teised on väljas vaid kasvõi see,"
+      },
+      {
+        "start_seconds": 2513.92,
+        "end_seconds": 2521.2,
+        "text": "kuidas igapäevaselt mõjub, kellel on lapsed, kes lõpetab, kuidas need õpioskused iga"
+      },
+      {
+        "start_seconds": 2521.2,
+        "end_seconds": 2523.36,
+        "text": "aastaga muutuvad."
+      },
+      {
+        "start_seconds": 2523.36,
+        "end_seconds": 2524.92,
+        "text": "Kahjuks pigem allapoole."
+      },
+      {
+        "start_seconds": 2524.92,
+        "end_seconds": 2529.84,
+        "text": "Samas, et kuidas meie siis kohaneme sellega, mis ulatuses meil on vaja, mis ulatuses"
+      },
+      {
+        "start_seconds": 2529.84,
+        "end_seconds": 2530.88,
+        "text": "mitte."
+      },
+      {
+        "start_seconds": 2530.88,
+        "end_seconds": 2535.52,
+        "text": "Et ma arvan, meil on vaja seda mõtestada ja siin, et, et ühiskond käriseb, et see ei"
+      },
+      {
+        "start_seconds": 2535.52,
+        "end_seconds": 2541.72,
+        "text": "ole ainult üks lõhe, vaid neid lõhes vertikaalsed ja horisontaalseid ja igapoolseid."
+      },
+      {
+        "start_seconds": 2541.72,
+        "end_seconds": 2549.2,
+        "text": "Ja seetõttu on hästi oluline, et me nendega tegeleks ja, ja ma arvan, et see on see"
+      },
+      {
+        "start_seconds": 2549.2,
+        "end_seconds": 2555.84,
+        "text": "küsimus, millele meil tasuks kindlasti tähelepanu pöörata ja mida me ka näeme, et meil"
+      },
+      {
+        "start_seconds": 2555.84,
+        "end_seconds": 2561.92,
+        "text": "on, nii-öelda me oleme väga edukalt selle piiririigi logoga sõudnud, nüüd me tahame väga"
+      },
+      {
+        "start_seconds": 2561.92,
+        "end_seconds": 2569.24,
+        "text": "edukalt selle AI logoga edasi sõuda, aga nad vahest kipume unus"
+      },
+      {
+        "start_seconds": 2569.24,
+        "end_seconds": 2575.4,
+        "text": "tama, et need on tööriistad, need on tööriistad, need on mõtestamine, nende mõtestamine"
+      },
+      {
+        "start_seconds": 2575.4,
+        "end_seconds": 2581.8,
+        "text": "ja kasutamine on meie endi vastutaval ja milliseid väärtusi ja mis raames me soovime"
+      },
+      {
+        "start_seconds": 2581.8,
+        "end_seconds": 2584.12,
+        "text": "seda teha, seda otsustame me ise."
+      },
+      {
+        "start_seconds": 2584.12,
+        "end_seconds": 2588.4,
+        "text": "Selles mõttes on ka selline, et see on tore, et me saame kõik demoniseerida seda gra"
+      },
+      {
+        "start_seconds": 2588.4,
+        "end_seconds": 2589.12,
+        "text": "nti."
+      },
+      {
+        "start_seconds": 2589.12,
+        "end_seconds": 2594.96,
+        "text": "Aga siin me näeme, kohe teeme siin arvuti lahti ja küsime chatilt, et anna mulle siis"
+      },
+      {
+        "start_seconds": 2594.96,
+        "end_seconds": 2599.08,
+        "text": "palun järgmine teekond nägema, sõidan ruumi ja kuhu ma lendan või ma ei tea, kust ma"
+      },
+      {
+        "start_seconds": 2599.08,
+        "end_seconds": 2606.4,
+        "text": "saan kõige soodsamat kasutama seda kui jalajälg on tohutu, väga mõnus on."
+      },
+      {
+        "start_seconds": 2606.4,
+        "end_seconds": 2613.68,
+        "text": "Nii et jah, me peame õppima sellega elama, käituma, arvestama sellega, et see mõju"
+      },
+      {
+        "start_seconds": 2613.68,
+        "end_seconds": 2620.88,
+        "text": "tab meie elukeskkonda ja õppima ka seda, et ta mõjutab igat meie tegevust, mitte midagi"
+      },
+      {
+        "start_seconds": 2620.88,
+        "end_seconds": 2626.16,
+        "text": "ei ole objektiivne, iga info, mida me sealt saame, on täpselt meile suunatud."
+      },
+      {
+        "start_seconds": 2626.16,
+        "end_seconds": 2631.48,
+        "text": "Kes tahab, võtab oma, ma ei tea, tuttavaid või lapse näiteks mingi sotskonda või vaata"
+      },
+      {
+        "start_seconds": 2631.48,
+        "end_seconds": 2636.64,
+        "text": "b, mis infot nemad saavad, see on hoopis teistsugune teie omast, sest me kõik teavad"
+      },
+      {
+        "start_seconds": 2636.64,
+        "end_seconds": 2641.12,
+        "text": ", kes te olete ja kõik teavad, kes mina olen ja siis ma saan ma ei tea, mis kutsupil"
+      },
+      {
+        "start_seconds": 2641.12,
+        "end_seconds": 2645.52,
+        "text": "te või mulle loomad meeldivad ja siis nad teavad, mis lause su lapsed umbes on, mingi"
+      },
+      {
+        "start_seconds": 2645.52,
+        "end_seconds": 2648.56,
+        "text": "hetk jäävad mängureklaamid ära, eks ole."
+      },
+      {
+        "start_seconds": 2648.56,
+        "end_seconds": 2656.2,
+        "text": "Nii et need on need olulised punktid ja ma arvan, et kakskümmend viis tõi meile tegelikult"
+      },
+      {
+        "start_seconds": 2656.2,
+        "end_seconds": 2663.52,
+        "text": "väga kena sellise hetke ja Eesti ühiskonna ümber mõtlemise andmete teema"
+      },
+      {
+        "start_seconds": 2663.52,
+        "end_seconds": 2670.28,
+        "text": "l, kus kärkis üles kõiksugu küsimusi, et korraga tuli välja, et mingid kaamerad on üle"
+      },
+      {
+        "start_seconds": 2670.28,
+        "end_seconds": 2676.48,
+        "text": "val, politsei kasutamisest on mugav, kuskil ei ole mingit regulatsiooni ja siis tuli"
+      },
+      {
+        "start_seconds": 2676.48,
+        "end_seconds": 2683.84,
+        "text": "korraga välja, et kuskilt olid, oli palgasaladus rändama läinud juhuslikult aja"
+      },
+      {
+        "start_seconds": 2683.84,
+        "end_seconds": 2688.04,
+        "text": "kirjanikud ja õiguskantslerid hakkasid nuuskima."
+      },
+      {
+        "start_seconds": 2688.04,
+        "end_seconds": 2695.08,
+        "text": "Vastuseks oli, aga vaadake, see on soodne ja haigusvõimalused olid olemas, balantiiri"
+      },
+      {
+        "start_seconds": 2695.08,
+        "end_seconds": 2698.24,
+        "text": "kohta, et tal üldse infot ei saaks."
+      },
+      {
+        "start_seconds": 2698.24,
+        "end_seconds": 2703.2,
+        "text": "Minu arvates oleks riigikogu riigil kohustus sellistele küsimustele vastata ja vajadus"
+      },
+      {
+        "start_seconds": 2703.2,
+        "end_seconds": 2705.48,
+        "text": "el nad ära reguleerida."
+      },
+      {
+        "start_seconds": 2705.48,
+        "end_seconds": 2711.76,
+        "text": "Tulemusena riigikogus kunagi ei ole arutatud inimestega, ei ole arutatud."
+      },
+      {
+        "start_seconds": 2711.76,
+        "end_seconds": 2719.2,
+        "text": "Ja ma julgeksin väita, et see on toonud inim- , paljudes inimestes ümbermõtlemise"
+      },
+      {
+        "start_seconds": 2719.2,
+        "end_seconds": 2724.48,
+        "text": "ja ümbermõtlemise selles osas, et mida seal riik tegelikult teeb ja mitte positiivse"
+      },
+      {
+        "start_seconds": 2724.48,
+        "end_seconds": 2725.44,
+        "text": "s suhtes."
+      },
+      {
+        "start_seconds": 2725.44,
+        "end_seconds": 2732.04,
+        "text": "Nii et ma arvan, et see, et meie riik ja, ja ka poliitika ja meie ise loomulikult see"
+      },
+      {
+        "start_seconds": 2732.04,
+        "end_seconds": 2737.92,
+        "text": ", see alati poliitikute sõimamine ei, ei, ei ole lahendus, sest me tegelikult ise neid"
+      },
+      {
+        "start_seconds": 2737.92,
+        "end_seconds": 2742.0,
+        "text": "valime ja kui meile ei meeldi, siis me seame kas ennast ise üle või valima muid."
+      },
+      {
+        "start_seconds": 2742.0,
+        "end_seconds": 2746.64,
+        "text": "Nii et meie oleme sama Eesti vastutuses, et küsida küsimusi, mis on ebameeldivad, eba"
+      },
+      {
+        "start_seconds": 2746.64,
+        "end_seconds": 2749.12,
+        "text": "mugavad ja mis nõuavad vastamist."
+      },
+      {
+        "start_seconds": 2749.12,
+        "end_seconds": 2755.96,
+        "text": "Et see on igaühe meie südametunnistustel ja nii me saamegi ka luua seda kõige pädeva"
+      },
+      {
+        "start_seconds": 2755.96,
+        "end_seconds": 2763.96,
+        "text": "mat digi kasvõi Grandi ja ma ei tea veel, mis riiki, mis oleks kõige enam inimeste"
+      },
+      {
+        "start_seconds": 2763.96,
+        "end_seconds": 2771.28,
+        "text": "õiguste, õigusi austab ja nendega arvestab ja ma arvan, et see osa on meil pi"
+      },
+      {
+        "start_seconds": 2771.28,
+        "end_seconds": 2773.88,
+        "text": "kka aega jäänud tagaplaanile."
+      },
+      {
+        "start_seconds": 2773.88,
+        "end_seconds": 2779.72,
+        "text": "Meil on kogu aeg olnud see, et me peame kuskile jõudma, mul on endal, olen istunud aru"
+      },
+      {
+        "start_seconds": 2779.72,
+        "end_seconds": 2785.68,
+        "text": "teludes, kus sulle ikkagi öeldakse, et jah, aga, aga vaata, mida Tiina teeb ja, ja me"
+      },
+      {
+        "start_seconds": 2785.68,
+        "end_seconds": 2789.52,
+        "text": "peaksime ka neid nägema, et ma arvan, et see on kindlasti võimalus, aga siis peaks ühis"
+      },
+      {
+        "start_seconds": 2789.52,
+        "end_seconds": 2793.24,
+        "text": "konnaga kokku leppima, et siis me peaks ka vastama ühiskonnamudel olema."
+      },
+      {
+        "start_seconds": 2793.24,
+        "end_seconds": 2798.12,
+        "text": "Sest ja, ja siin, kui seda ei ole, siis me peaksime neid muid küsimusi läbi arutama."
+      },
+      {
+        "start_seconds": 2798.12,
+        "end_seconds": 2801.52,
+        "text": "Ma arvan, et lõpuks tegelikult võidab sellest ka riik."
+      },
+      {
+        "start_seconds": 2801.52,
+        "end_seconds": 2808.08,
+        "text": "Sest see, et me ei usaldus riigi vastu ei kao, on hetkel väga-väga tähtsal kohal, me"
+      },
+      {
+        "start_seconds": 2808.08,
+        "end_seconds": 2813.32,
+        "text": "ei mõtle võib-olla selle peale, aga me näeme seda teiste riikide näitel ka, et tõesti"
+      },
+      {
+        "start_seconds": 2813.32,
+        "end_seconds": 2819.24,
+        "text": "kõik need tehismudelid on väga võimsad ja kui riik tegelikult neid katsu vähemalt kuula"
+      },
+      {
+        "start_seconds": 2819.24,
+        "end_seconds": 2852.92,
+        "text": "ta, vaadata inimestele selgitada, mis toimub, siis võib vabandust teha."
+      },
+      {
+        "start_seconds": 2852.92,
+        "end_seconds": 2858.72,
+        "text": "Loomulikult kasutada ka meie mõttes nagu headeks tegevusteks, et inimõiguste võrdsuse"
+      },
+      {
+        "start_seconds": 2858.72,
+        "end_seconds": 2868.56,
+        "text": "õiguse edendamiseks meie enda töö siis ka selleks, et siis oleks"
+      },
+      {
+        "start_seconds": 2868.56,
+        "end_seconds": 2875.96,
+        "text": "efektiivsem nendes lahenduse, mis aitab siis meil sellise"
+      },
+      {
+        "start_seconds": 2875.96,
+        "end_seconds": 2883.08,
+        "text": "id avalikus portaalides olevaid töökuulutusi läbi kammida ja le"
+      },
+      {
+        "start_seconds": 2883.08,
+        "end_seconds": 2889.72,
+        "text": "ida diskrimineerivat sõnastusi ehk et see on muidu ülesanne, mis meil on olnud kogu aeg"
+      },
+      {
+        "start_seconds": 2889.72,
+        "end_seconds": 2900.12,
+        "text": "seaduses kirjas, et võrdõige kodaniku kantselei peaks seda tegema."
+      },
+      {
+        "start_seconds": 2900.12,
+        "end_seconds": 2905.96,
+        "text": "Siis see selle üles täitmine jäi kuidagi alati selliseks, noh, kui aeg on siis teeme"
+      },
+      {
+        "start_seconds": 2905.96,
+        "end_seconds": 2910.76,
+        "text": "praktikas siis võib-olla mingisugune kolm-neli korda aastas, võib-olla keegi vaatab isegi"
+      },
+      {
+        "start_seconds": 2910.76,
+        "end_seconds": 2917.84,
+        "text": "juhuslikult üle neid tööportaale siis nüüd selle kam"
+      },
+      {
+        "start_seconds": 2917.84,
+        "end_seconds": 2925.2,
+        "text": "me, mis on meie eest ära ja siis teise rakendus ja leiab sealt iga nädal ikkagi üle"
+      },
+      {
+        "start_seconds": 2925.2,
+        "end_seconds": 2932.48,
+        "text": "viiekümne sellise kuulutuse, mis on siis võrdse kohtumisega vastuolus"
+      },
+      {
+        "start_seconds": 2932.48,
+        "end_seconds": 2939.8,
+        "text": ", et kus on kasutatud sellist diskrimineerivaid nõudeid, näiteks kandidaatidele olnud"
+      },
+      {
+        "start_seconds": 2939.8,
+        "end_seconds": 2945.76,
+        "text": "selline ebaõige, nii et et see kindlasti teeb meie tööd nagu lihtsamaks mingite asjad"
+      },
+      {
+        "start_seconds": 2945.76,
+        "end_seconds": 2950.64,
+        "text": "e tuvastamise toob loomulikult ka tööd juurde jällegi, et seda tehnikat ja seda siis"
+      },
+      {
+        "start_seconds": 2950.64,
+        "end_seconds": 2981.16,
+        "text": "menetlema hakkab."
+      },
+      {
+        "start_seconds": 2981.16,
+        "end_seconds": 2987.36,
+        "text": "Et seal peaks olema seesama klient, kes järgmisele ettevõttele mulle vaadake, andke meil"
+      },
+      {
+        "start_seconds": 2987.36,
+        "end_seconds": 3000.36,
+        "text": "e selgitust nende jaoks selgitus ja siis ei vaata veel üle põhjendusi."
+      },
+      {
+        "start_seconds": 3000.36,
+        "end_seconds": 3006.68,
+        "text": "Ma võin siin ainult kinnitada, et meil on sarnane kogemus olnud sotsiaalhoolekande val"
+      },
+      {
+        "start_seconds": 3006.68,
+        "end_seconds": 3015.2,
+        "text": "dkonnas, kus meie küll tegime sellise juriidilise poole ära, aga sisuliselt hinnati"
+      },
+      {
+        "start_seconds": 3015.2,
+        "end_seconds": 3022.72,
+        "text": "võimalust siis töödelda andmeid selliselt, et saaks teada kohalikud omavalitsused."
+      },
+      {
+        "start_seconds": 3022.72,
+        "end_seconds": 3030.0,
+        "text": "Et kes üle kuuekümne viie aastastest vajab abi, aga ei ole seda ise küsi"
+      },
+      {
+        "start_seconds": 3030.0,
+        "end_seconds": 3031.72,
+        "text": "mas teinud."
+      },
+      {
+        "start_seconds": 3031.72,
+        "end_seconds": 3036.44,
+        "text": "Ja lõpuks kohalikud omavalitsused ka ütlesid, et teate, et meil on nii vähe töötajaid"
+      },
+      {
+        "start_seconds": 3036.44,
+        "end_seconds": 3040.88,
+        "text": ", et ikka tõite meile küll kõiki neid andmeid siin suunada, aga mitte keegi ei jõua nende"
+      },
+      {
+        "start_seconds": 3040.88,
+        "end_seconds": 3045.4,
+        "text": "inimeste juurde ja seni, kui meil ei ole inimesi, kes hooldavad neid, milleniga tegele"
+      },
+      {
+        "start_seconds": 3045.4,
+        "end_seconds": 3049.28,
+        "text": "vad, ei ole teil mingit mõtet neid andmeid ette suuta."
+      },
+      {
+        "start_seconds": 3049.28,
+        "end_seconds": 3055.88,
+        "text": "Nii et lõpuks meil ikkagi jõuame selle juurde tagasi, et see ei pruugi isegi teadmine"
+      },
+      {
+        "start_seconds": 3055.88,
+        "end_seconds": 3060.4,
+        "text": "ei pruugi meid aidata, kui me ei ole lahendanud seda probleemi, et kust me leiame selle"
+      },
+      {
+        "start_seconds": 3060.4,
+        "end_seconds": 3085.08,
+        "text": "raha, et seda inimest leida või kuidagi seda toetada."
+      },
+      {
+        "start_seconds": 3085.08,
+        "end_seconds": 3108.56,
+        "text": "Või on see osa täna kokku leppimata?"
+      },
+      {
+        "start_seconds": 3108.56,
+        "end_seconds": 3113.4,
+        "text": "Seda reguleerib täna tehisintellekti määrus ja, ja seal on siis hästi oluline aru saada"
+      },
+      {
+        "start_seconds": 3113.4,
+        "end_seconds": 3117.72,
+        "text": ", kummal poolel saavad arendaja oled sa siis, kui ei saa, eks ju, arendab suuri mude"
+      },
+      {
+        "start_seconds": 3117.72,
+        "end_seconds": 3122.76,
+        "text": "leid, näiteks saab GPT, aga arendajaks muutub see meil siis, kui sa võtad näiteks tee"
+      },
+      {
+        "start_seconds": 3122.76,
+        "end_seconds": 3127.52,
+        "text": "bki õpetaja mudeli ja paned enda toote sisse täna väga palju räägitakse iPhode'imise"
+      },
+      {
+        "start_seconds": 3127.52,
+        "end_seconds": 3130.96,
+        "text": "st, on räägitud imelihtne uusi rakendusi ehitada."
+      },
+      {
+        "start_seconds": 3130.96,
+        "end_seconds": 3136.32,
+        "text": "Mõtlen, et on hea äriidee on hakata pakkuma teenust ettevõtetele ja selle teenuse see"
+      },
+      {
+        "start_seconds": 3136.32,
+        "end_seconds": 3141.2,
+        "text": "s me kasutame AID, siis ma olen juba pakkuja ja siis mul on päris palju erinevaid nõu"
+      },
+      {
+        "start_seconds": 3141.2,
+        "end_seconds": 3146.0,
+        "text": "deid, mis tuleb tehisintellekti määrusest ja teisalt on siis ka kasutajatel ehk siis"
+      },
+      {
+        "start_seconds": 3146.0,
+        "end_seconds": 3149.92,
+        "text": "enamik meist, kes me lihtsalt telefonis on meil chat-i õpetaja."
+      },
+      {
+        "start_seconds": 3149.92,
+        "end_seconds": 3155.56,
+        "text": "Me oleme kasutajad ja, ja seal on siis ka, eks ju omaette nõude, et eelkõige just nagu"
+      },
+      {
+        "start_seconds": 3155.56,
+        "end_seconds": 3159.92,
+        "text": "organisatsioonide tasemel, et kui ettevõtted kasutavad, siis neil on seal kohustused"
+      },
+      {
+        "start_seconds": 3159.92,
+        "end_seconds": 3165.36,
+        "text": "ja kõige suurem osa võib-olla, mis on organisatsioonide poole pealt üldse laiemalt, et"
+      },
+      {
+        "start_seconds": 3165.36,
+        "end_seconds": 3171.08,
+        "text": "see ongi see tehisintellektiiv teadlikkus või, või oskus, eks ju seda kasutada."
+      },
+      {
+        "start_seconds": 3171.08,
+        "end_seconds": 3176.6,
+        "text": "Et kui ma näiteks tööandjana annan inimestele võtta nüüd kasutajale, et sa pead igapäeva"
+      },
+      {
+        "start_seconds": 3176.6,
+        "end_seconds": 3181.08,
+        "text": "selt kasutama, siis mul on ka kohustus oma töötajaid koolitada selles osas, nad peavad"
+      },
+      {
+        "start_seconds": 3181.08,
+        "end_seconds": 3185.76,
+        "text": "oskama seda kasutada, nad peavad teadma, mida siis jäänud tähendab, nad peavad teadma"
+      },
+      {
+        "start_seconds": 3185.76,
+        "end_seconds": 3193.2,
+        "text": ", et see mudel võib eksida, see mudel läheb üldse meie lisaks siis eks ju on ka are"
+      },
+      {
+        "start_seconds": 3193.2,
+        "end_seconds": 3198.16,
+        "text": "ndajatele üldse laiemalt siis eks ju seal ka erinevad riskitasemed ja seal on siis ka"
+      },
+      {
+        "start_seconds": 3198.16,
+        "end_seconds": 3203.44,
+        "text": "keelatud tase kõrgeriskitase ja, ja siis nii-öelda madala riskitase ja keelatud tase"
+      },
+      {
+        "start_seconds": 3203.44,
+        "end_seconds": 3208.88,
+        "text": "tõesti näiteks on Euroopa Liidus täna öeldud, et ei tohi kasutada tehisintellekti sellise"
+      },
+      {
+        "start_seconds": 3208.88,
+        "end_seconds": 3214.96,
+        "text": "ks nii-öelda."
+      },
+      {
+        "start_seconds": 3214.96,
+        "end_seconds": 3222.08,
+        "text": "Et ma ikkagi öelda ja jälgige seda, mida keegi teeb, kus ma käin poes, mida ma ostan"
+      },
+      {
+        "start_seconds": 3222.08,
+        "end_seconds": 3225.2,
+        "text": "umbes ja, ja selle pealt siis mul ei oska mingeid skoori panna."
+      },
+      {
+        "start_seconds": 3225.2,
+        "end_seconds": 3230.8,
+        "text": "Et sellised tegevused on täna näiteks keelatud ja osad on siis kõrge riskiga ja näiteks"
+      },
+      {
+        "start_seconds": 3230.8,
+        "end_seconds": 3237.8,
+        "text": "on kõrge riskiga, et seal on päris palju nüansse."
+      },
+      {
+        "start_seconds": 3237.8,
+        "end_seconds": 3243.52,
+        "text": "Aga kui sinna süveneda, siis --- üsnagi loogiline, eks ju, et mina kannata, kui me sa"
+      },
+      {
+        "start_seconds": 3243.52,
+        "end_seconds": 3248.08,
+        "text": "ime keelatud või isegi --- nõuded, mis on praegu õigustatud, eks me tahame ikkagi olla"
+      },
+      {
+        "start_seconds": 3248.08,
+        "end_seconds": 3252.24,
+        "text": "sellises ühiskonnas, mis ei aktsepteeri."
+      },
+      {
+        "start_seconds": 3252.24,
+        "end_seconds": 3258.32,
+        "text": "Aga, aga ütleme nii-öelda andmete kogumise mõttes ettevõtete puhul ma võin rääkida kogu"
+      },
+      {
+        "start_seconds": 3258.32,
+        "end_seconds": 3263.76,
+        "text": "da eraisikute puhul reguleerib siis GDP peale seda, mida nad tohivad kasutada koguda"
+      },
+      {
+        "start_seconds": 3263.76,
+        "end_seconds": 3264.96,
+        "text": "ja mida mitte."
+      },
+      {
+        "start_seconds": 3264.96,
+        "end_seconds": 3271.12,
+        "text": "Aga eks ju, me teame ka täna seda, et GDP järelevalve on üsna madal selles mõttes, et"
+      },
+      {
+        "start_seconds": 3271.12,
+        "end_seconds": 3276.48,
+        "text": "väga vähe on neid olukordi, kus on neid ettevõtteid trahvitud ja kui keegi linnas US"
+      },
+      {
+        "start_seconds": 3276.48,
+        "end_seconds": 3282.48,
+        "text": "A-s on loodud ettevõte pakub meile teenust on ka üsna raske talle minna sinna trahvi"
+      },
+      {
+        "start_seconds": 3282.48,
+        "end_seconds": 3288.48,
+        "text": "tegema, et selleks, et ta nüüd minu andmeid kogu ja, ja tegelikult ei näita mulle, mida"
+      },
+      {
+        "start_seconds": 3288.48,
+        "end_seconds": 3293.84,
+        "text": "ta sellega teeb ja siis kasutajana, mul ongi lihtsalt otsuse koht, et kas ma loen läbi"
+      },
+      {
+        "start_seconds": 3293.84,
+        "end_seconds": 3298.96,
+        "text": ", et kakskümmend viis lehekülge neid tingimusi seal ja otsustan või mis me nimesi tee"
+      },
+      {
+        "start_seconds": 3298.96,
+        "end_seconds": 3303.08,
+        "text": "me, tahan lihtsalt seda rakendust kasutada, ma vajutan okei ja ja annan oma andmed selle"
+      },
+      {
+        "start_seconds": 3303.08,
+        "end_seconds": 3329.52,
+        "text": "ks."
+      },
+      {
+        "start_seconds": 3329.52,
+        "end_seconds": 3334.44,
+        "text": "Mina alguseks ja ma arvan, et see sõltub hästi palju organisatsiooni suurusest ja juba"
+      },
+      {
+        "start_seconds": 3334.44,
+        "end_seconds": 3336.36,
+        "text": "sellest varasemast teadlikkusest."
+      },
+      {
+        "start_seconds": 3336.36,
+        "end_seconds": 3340.84,
+        "text": "Et kui ma teen koostööd suurte ettevõtetega, Eesti seksu võib olla niisugune sajast,"
+      },
+      {
+        "start_seconds": 3340.84,
+        "end_seconds": 3345.32,
+        "text": "paarisajast juba on justkui suurettevõte, eks ju, nemad on juba varem selle peale mõ"
+      },
+      {
+        "start_seconds": 3345.32,
+        "end_seconds": 3350.56,
+        "text": "elnud, sest meil on täpselt kliendid, meil on mingid teenused, neil on oma maine, nad"
+      },
+      {
+        "start_seconds": 3350.56,
+        "end_seconds": 3352.16,
+        "text": "on varem selle peale mõelnud."
+      },
+      {
+        "start_seconds": 3352.16,
+        "end_seconds": 3357.24,
+        "text": "Aga, aga eks ju, väga palju on neid väikeettevõtjaid, kelle jaoks ei ole see absoluu"
+      },
+      {
+        "start_seconds": 3357.24,
+        "end_seconds": 3362.32,
+        "text": "tselt oluline teema ja, ja siis tulebki ka neid rakendusi, neid teenusepakkujaid väga"
+      },
+      {
+        "start_seconds": 3362.32,
+        "end_seconds": 3368.84,
+        "text": "-väga palju, kes panevad ja jagavad oma nii-öelda tööriistu, mis võib olla erinevate"
+      },
+      {
+        "start_seconds": 3368.84,
+        "end_seconds": 3373.32,
+        "text": "asja, aga, aga nad ei ütle seal, eks ju, võib-olla ka privaatsustingimusi neil polegi"
+      },
+      {
+        "start_seconds": 3373.32,
+        "end_seconds": 3375.6,
+        "text": "nagu üldse kodulehel seda infot."
+      },
+      {
+        "start_seconds": 3375.6,
+        "end_seconds": 3380.8,
+        "text": "Mina, olles teadlik kasutaja, kunagi ei lähe sellist teenust ostma, eks ju, aga jälle"
+      },
+      {
+        "start_seconds": 3380.8,
+        "end_seconds": 3385.72,
+        "text": "gi keskmine kasutaja, kes ei ole selle kursuse, eks ju ei peagi kõiki neid seadusi tead"
+      },
+      {
+        "start_seconds": 3385.72,
+        "end_seconds": 3390.84,
+        "text": "ma, tema jälle pimesi läheb ja usaldab sinna oma andmed, kus siis viimasel ajal ka päris"
+      },
+      {
+        "start_seconds": 3390.84,
+        "end_seconds": 3394.84,
+        "text": "palju poleemikat tekitanud erinevaid, ma ei tea, finantsrakendused, kuhu öeldakse, et"
+      },
+      {
+        "start_seconds": 3394.84,
+        "end_seconds": 3400.52,
+        "text": "võta oma konto välja, võta lae üles, saad teada, mis su keskmise näiteks on ja nii edasi"
+      },
+      {
+        "start_seconds": 3400.52,
+        "end_seconds": 3401.0,
+        "text": "."
+      },
+      {
+        "start_seconds": 3401.0,
+        "end_seconds": 3406.08,
+        "text": "Noh, ei tasu ikkagi seda teha, eks ju, aga, aga nemad tervisekontroll võtavad ka päris"
+      },
+      {
+        "start_seconds": 3406.08,
+        "end_seconds": 3411.92,
+        "text": "hea äriidee on ju ja see on ka see, mida me näeme, kus me oleme täielikult ka tagasi"
+      },
+      {
+        "start_seconds": 3411.92,
+        "end_seconds": 3418.24,
+        "text": "ja selle juures, et kui palju me investeerime sellesse järelevalvesse."
+      },
+      {
+        "start_seconds": 3418.24,
+        "end_seconds": 3424.52,
+        "text": "Et meil on seni olnud Andmekaitse inspektsioon ja igas Euroopa Liidu liikmesriigis ei"
+      },
+      {
+        "start_seconds": 3424.52,
+        "end_seconds": 3430.56,
+        "text": "ole järelevalve niivõrd tagasihoidlik kui meil, et see oleneb ka sellest, et kuivõrd"
+      },
+      {
+        "start_seconds": 3430.56,
+        "end_seconds": 3437.4,
+        "text": "palju liikmesriike otsustab investeerida ja panustada nendesse inimestesse töötajate"
+      },
+      {
+        "start_seconds": 3437.4,
+        "end_seconds": 3443.56,
+        "text": "sse ja võimekusse ja nüüd meil just tekkis tegelikult ju tehisintellekti järelevalve"
+      },
+      {
+        "start_seconds": 3443.56,
+        "end_seconds": 3451.56,
+        "text": "osas uus nii-öelda ülesanne töötajale, millega ta hakkab nüüd rinda pistma täiesti"
+      },
+      {
+        "start_seconds": 3451.56,
+        "end_seconds": 3457.6,
+        "text": "uskumatult suur ülesanne selle üle valvata, sest tegelikult ta tõepoolest nii on ja see"
+      },
+      {
+        "start_seconds": 3457.6,
+        "end_seconds": 3465.2,
+        "text": "ei ole ju suurusest, et selle keeruka tehisintellekti määrusega ma pean arvestama ja"
+      },
+      {
+        "start_seconds": 3465.2,
+        "end_seconds": 3471.4,
+        "text": ", ja ma pean arvestama, mida ma tohin teha ja mitte ja tegelikult mis on samas ka väga"
+      },
+      {
+        "start_seconds": 3471.4,
+        "end_seconds": 3477.28,
+        "text": "oluline, et kes vastutab selle eest ja kui ma hakkan seda mudima ja ja paiskama kõik"
+      },
+      {
+        "start_seconds": 3477.28,
+        "end_seconds": 3481.0,
+        "text": "idele kasutamiseks, siis ma ka korraga vastutan."
+      },
+      {
+        "start_seconds": 3481.0,
+        "end_seconds": 3487.52,
+        "text": "Ja ja see saab olema jah, väga-väga põnev, see on üks, see on tulemas Pärves Euroopa"
+      },
+      {
+        "start_seconds": 3487.52,
+        "end_seconds": 3493.96,
+        "text": "Liidus ja vaatame, kuidas meie siin Eestis ja meie teletaarsemaga hakkama saab."
+      },
+      {
+        "start_seconds": 3493.96,
+        "end_seconds": 3499.8,
+        "text": "Et mitte ainult, et kuskil on kirjas mingid regulatsioonid, mida keegi ei järgi, vaid"
+      },
+      {
+        "start_seconds": 3499.8,
+        "end_seconds": 3507.2,
+        "text": "loomulikult nende mõju sõltub sellest, et kes jõuab nende järgi valvata ja nõuda sisse"
+      },
+      {
+        "start_seconds": 3507.2,
+        "end_seconds": 3510.08,
+        "text": ", et neid täidetaks neid nõudeid."
+      },
+      {
+        "start_seconds": 3510.08,
+        "end_seconds": 3516.6,
+        "text": "Et tegelikult jah, reeglid on olemas, eriti ka rääkides just sellest, et tegelikult meil"
+      },
+      {
+        "start_seconds": 3516.6,
+        "end_seconds": 3523.12,
+        "text": "on see vastutus ka, et nähtud, et kui sa toodad ja siis, kui sa võtad või töölt ise hakka"
+      },
+      {
+        "start_seconds": 3523.12,
+        "end_seconds": 3530.24,
+        "text": "d kasutama ja avalikkusele hakkab pakkuma omal mingeid tehisintellekti mudeleid, siis"
+      },
+      {
+        "start_seconds": 3530.24,
+        "end_seconds": 3538.08,
+        "text": "saab ka vastutad selle eest, mida sa teed ja sa pead ise seda kontrollima."
+      },
+      {
+        "start_seconds": 3538.08,
+        "end_seconds": 3543.52,
+        "text": "Valiku töö raames meil oli selline just lõppes kaheaastane suur projekt, kui me vaata"
+      },
+      {
+        "start_seconds": 3543.52,
+        "end_seconds": 3550.44,
+        "text": "sime ka siis riigi poolt pakutatavaid tehnilise ohu rakendusi erinevaid siis analüüsi"
+      },
+      {
+        "start_seconds": 3550.44,
+        "end_seconds": 3553.4,
+        "text": "sime, kui palju on nendes rakendustes."
+      },
+      {
+        "start_seconds": 3553.4,
+        "end_seconds": 3558.56,
+        "text": "Me tegeleme seda projekti koos TalTechi ja justiitsministeeriumiga Eestist, et ma vaata"
+      },
+      {
+        "start_seconds": 3558.56,
+        "end_seconds": 3569.32,
+        "text": "sin, et kui kui palju siis on selliseid inimõiguste perspektiivi mitte ra"
+      },
+      {
+        "start_seconds": 3569.32,
+        "end_seconds": 3582.28,
+        "text": "kenduse arendamisel sees juba."
+      },
+      {
+        "start_seconds": 3582.28,
+        "end_seconds": 3588.68,
+        "text": "Aga et üks võib-olla selline oluline õppekoht, mis ta sealt projekti juures saime, et"
+      },
+      {
+        "start_seconds": 3588.68,
+        "end_seconds": 3594.88,
+        "text": "oligi tegelikult see, et ega selle peale nii väga palju ikkagi mõelda kui tellitakse"
+      },
+      {
+        "start_seconds": 3594.88,
+        "end_seconds": 3599.4,
+        "text": "neid rakendusspetsialist sedasorti riskihindamist."
+      },
+      {
+        "start_seconds": 3599.4,
+        "end_seconds": 3606.44,
+        "text": "See ei tule nagu väga loomulikult ikka veel aidata, et et seda tuleb suruda ja seda tead"
+      },
+      {
+        "start_seconds": 3606.44,
+        "end_seconds": 3613.48,
+        "text": "mist siis, et me peaksime need riskid läbi mängima, et seda peab tekitama."
+      },
+      {
+        "start_seconds": 3613.48,
+        "end_seconds": 3617.96,
+        "text": "Mul on hea meel, et siin tuleb väga palju küsimusi, nii et ma võtan siit järgmise, et"
+      },
+      {
+        "start_seconds": 3617.96,
+        "end_seconds": 3623.52,
+        "text": "kuidas peaksime leidma kompromissi inimese otsustuskorralduse enda andmete suhtes ning"
+      },
+      {
+        "start_seconds": 3623.52,
+        "end_seconds": 3628.56,
+        "text": "suurte järelevalvesüsteemide näiteks palati vahel ohverdamata innovatsiooni ja riigi"
+      },
+      {
+        "start_seconds": 3628.56,
+        "end_seconds": 3637.48,
+        "text": "julgeolekut, turvalisust ja nii edasi."
+      },
+      {
+        "start_seconds": 3637.48,
+        "end_seconds": 3643.8,
+        "text": "Esmalt on teadlikkus ja arutelu kõige algus, et seni, kui me ei tea, mis toimub ja info"
+      },
+      {
+        "start_seconds": 3643.8,
+        "end_seconds": 3647.44,
+        "text": "t ei liigu, siis me ei saa ju millelegi rääkida."
+      },
+      {
+        "start_seconds": 3647.44,
+        "end_seconds": 3654.28,
+        "text": "Mida see kahekümne viies aasta ka näitas on, et muidugi me oleme kõik mugavad, sest se"
+      },
+      {
+        "start_seconds": 3654.28,
+        "end_seconds": 3658.92,
+        "text": "ni, kui kõik toimib, keegi väga ei viitsi tegeleda."
+      },
+      {
+        "start_seconds": 3658.92,
+        "end_seconds": 3665.04,
+        "text": "Ja, ja siin on jällegi küsitud meie kui valija ja siis sellest lähtuvalt siis riigiko"
+      },
+      {
+        "start_seconds": 3665.04,
+        "end_seconds": 3666.0,
+        "text": "guga."
+      },
+      {
+        "start_seconds": 3666.0,
+        "end_seconds": 3673.2,
+        "text": "Et tegelikult ju see, et millised kaamerad, kus üles pannakse, kunas, kui kaugele me"
+      },
+      {
+        "start_seconds": 3673.2,
+        "end_seconds": 3680.52,
+        "text": "sellega lähme, kas me kasutame balan tervise ulatuses, mis ulatuses me saame tea"
+      },
+      {
+        "start_seconds": 3680.52,
+        "end_seconds": 3683.84,
+        "text": "da sellest, mis info liigub?"
+      },
+      {
+        "start_seconds": 3683.84,
+        "end_seconds": 3689.4,
+        "text": "See on ju asi, mis peaks kuskil meil kirjas olema ja mis peaks olema ühiskonnas läbi"
+      },
+      {
+        "start_seconds": 3689.4,
+        "end_seconds": 3695.24,
+        "text": "arutatud, me kõik moodustame osa sellest ühiskonnas ja meil on kõigil vastutus selles"
+      },
+      {
+        "start_seconds": 3695.24,
+        "end_seconds": 3696.72,
+        "text": "küsimuses."
+      },
+      {
+        "start_seconds": 3696.72,
+        "end_seconds": 3704.0,
+        "text": "Ja mitte ainult valitsuse ja sisuliselt, aga mitte ainult riigikogule, mida me"
+      },
+      {
+        "start_seconds": 3704.0,
+        "end_seconds": 3710.8,
+        "text": "palju näeme ja see ei ole tegelikult Eesti omapära, kuigi meie riigikorraldus on, on"
+      },
+      {
+        "start_seconds": 3710.8,
+        "end_seconds": 3718.08,
+        "text": "üsna, ütleme selline valitsuskesk, aga me näeme, et tervikuna see"
+      },
+      {
+        "start_seconds": 3718.08,
+        "end_seconds": 3726.28,
+        "text": "andmete töötlus sealt liigubki nii-öelda see riigivõim rohkem täitevvõimu suunas ja ära"
+      },
+      {
+        "start_seconds": 3726.28,
+        "end_seconds": 3731.96,
+        "text": "nii-öelda seadusandja poolelt meie täna ongi see, et me nõuame nii-öelda seda avalikku"
+      },
+      {
+        "start_seconds": 3731.96,
+        "end_seconds": 3736.84,
+        "text": "arutelu, et me saaksime kaasa rääkida, sest muidu ongi nii, et pärast tuleb välja, et"
+      },
+      {
+        "start_seconds": 3736.84,
+        "end_seconds": 3740.88,
+        "text": "see võimalus oli olemas ja me kasutasime seda."
+      },
+      {
+        "start_seconds": 3740.88,
+        "end_seconds": 3748.4,
+        "text": "Ja veel kord, ma nõustun sellega, et teatud vastutusest loomulikult piirab innovatsiooni"
+      },
+      {
+        "start_seconds": 3748.4,
+        "end_seconds": 3753.92,
+        "text": "ja see ongi küsimus, et kas me tahame seda või me ei taha seda ja siin me peaksimegi"
+      },
+      {
+        "start_seconds": 3753.92,
+        "end_seconds": 3756.28,
+        "text": "neid väärtusotsuseid just langetama."
+      },
+      {
+        "start_seconds": 3756.28,
+        "end_seconds": 3763.84,
+        "text": "Ja need peaksid minu arvates peegeldama enamuse ühiskonna otsust"
+      },
+      {
+        "start_seconds": 3763.84,
+        "end_seconds": 3769.12,
+        "text": "ja me näeme näiteks ju ka erinevusi riikides, see on ju okei, me teame, et meie oleme"
+      },
+      {
+        "start_seconds": 3769.12,
+        "end_seconds": 3773.84,
+        "text": "alati innovaatlikud ja alati, aga suur osa meie ühiskonnast."
+      },
+      {
+        "start_seconds": 3773.84,
+        "end_seconds": 3780.56,
+        "text": "Me kindlasti ühiskonnana oleme avatud maad innovatsioonile kui näiteks me toome alati"
+      },
+      {
+        "start_seconds": 3780.56,
+        "end_seconds": 3788.04,
+        "text": "hea meelega vastunäitena Saksamaa ja neil on ka omad kogemused, miks ma"
+      },
+      {
+        "start_seconds": 3788.04,
+        "end_seconds": 3790.28,
+        "text": "arvan, meil on tõesti vähem põhjust."
+      },
+      {
+        "start_seconds": 3790.28,
+        "end_seconds": 3796.08,
+        "text": "Meid on üks koma kolm miljonit, meil on vähem riske, meil on turvaline riik."
+      },
+      {
+        "start_seconds": 3796.08,
+        "end_seconds": 3800.76,
+        "text": "Näiteks kui ma lähen Kolumbiasse ja räägin sellest, kuidas meil ruumiandmed on avaliku"
+      },
+      {
+        "start_seconds": 3800.76,
+        "end_seconds": 3803.32,
+        "text": "d inimesed hirmuvad tänavalt."
+      },
+      {
+        "start_seconds": 3803.32,
+        "end_seconds": 3807.72,
+        "text": "Et te kujutate ette, mis juhtuks siis järgmisel hommikul, kui tal Kolumbias oleks ru"
+      },
+      {
+        "start_seconds": 3807.72,
+        "end_seconds": 3815.52,
+        "text": "umiandmete ja omandi ja kinnistu kohta avalikud ja et sellest oli see case, et näiteks"
+      },
+      {
+        "start_seconds": 3815.52,
+        "end_seconds": 3821.44,
+        "text": "võis näitas ümbersõitu ühele noorele poisile, kuna oli ummiklinnas, aga ei näidanud,"
+      },
+      {
+        "start_seconds": 3821.44,
+        "end_seconds": 3826.96,
+        "text": "et ta peab läbi sõitma väga ohtlikutest linnaosadest ja siin poiss sealt elu sealt välja"
+      },
+      {
+        "start_seconds": 3826.96,
+        "end_seconds": 3828.32,
+        "text": "ei tulnud."
+      },
+      {
+        "start_seconds": 3828.32,
+        "end_seconds": 3835.2,
+        "text": "Nii et teistest riikidest on teistsugused ohud meie teatud lahendused ei saa nii hõl"
+      },
+      {
+        "start_seconds": 3835.2,
+        "end_seconds": 3842.2,
+        "text": "psasti kasutada Saksa näide ka, miks nad on kummalised, miks nad meie arvates on sellise"
+      },
+      {
+        "start_seconds": 3842.2,
+        "end_seconds": 3844.52,
+        "text": "d näide?"
+      },
+      {
+        "start_seconds": 3844.52,
+        "end_seconds": 3852.44,
+        "text": "Nemad on õppinud Väimari vabariigis, mis siis oli enne õudset Aadu aega ja"
+      },
+      {
+        "start_seconds": 3852.44,
+        "end_seconds": 3857.56,
+        "text": "see oli meil esimene toime bürokraatia ja seal tekitati väga palju mõistlikke andmesti"
+      },
+      {
+        "start_seconds": 3857.56,
+        "end_seconds": 3860.6,
+        "text": "kke ja korrastati kõik see asi ära."
+      },
+      {
+        "start_seconds": 3860.6,
+        "end_seconds": 3866.64,
+        "text": "Muuhulgas näiteks registreeriti kõik usklikud vastavalt oma usule ja tehti suured and"
+      },
+      {
+        "start_seconds": 3866.64,
+        "end_seconds": 3871.76,
+        "text": "metegud ja kõik oli kapoteekidega olemas ka juba enne digiriiki."
+      },
+      {
+        "start_seconds": 3871.76,
+        "end_seconds": 3877.44,
+        "text": "Ja siis tuli selline äramismees nagu Hitler ja tal oli väga hea vaadata, lihtsalt tegi"
+      },
+      {
+        "start_seconds": 3877.44,
+        "end_seconds": 3883.32,
+        "text": "kartoteegi lahti ja hakkas nende andmete järgi kõiki juute sealt välja sõeluma, nii et"
+      },
+      {
+        "start_seconds": 3883.32,
+        "end_seconds": 3887.88,
+        "text": "ta ei pidanud neid kuskilt otsima, aga ta teadis, kes elab, mis korteris ja kus."
+      },
+      {
+        "start_seconds": 3887.88,
+        "end_seconds": 3892.0,
+        "text": "Nii et ma arvan, et see selgitab meile ka, miks sakslastel on osa inimestel teistsugu"
+      },
+      {
+        "start_seconds": 3892.0,
+        "end_seconds": 3896.04,
+        "text": "ne suhtumine sellesse, et kuidas riik saab andmeid."
+      },
+      {
+        "start_seconds": 3896.04,
+        "end_seconds": 3900.2,
+        "text": "See ei pruugi olla meie ajalugu."
+      },
+      {
+        "start_seconds": 3900.2,
+        "end_seconds": 3905.32,
+        "text": "Aga me peame ka mõistma teisi, nii et ma arvan, et meie jaoks on meie arutelusid oluline"
+      },
+      {
+        "start_seconds": 3905.32,
+        "end_seconds": 3910.44,
+        "text": ", meie peame kokku leppima, mida meie tahame, aga see peab läbipaistvamaks muutuma."
+      },
+      {
+        "start_seconds": 3910.44,
+        "end_seconds": 3914.4,
+        "text": "Ja, ja teatud ulatuses ta võib piirata ka innovatsiooni."
+      },
+      {
+        "start_seconds": 3914.4,
+        "end_seconds": 3919.88,
+        "text": "Samas ma oleksin ka ettevaatlik ja tegelikult tagantpiirid ja kindlalt, see ei tähenda"
+      },
+      {
+        "start_seconds": 3919.88,
+        "end_seconds": 3925.12,
+        "text": "seda, mida ma arvan, see ei ole nii lihtne, nagu see arutelu alati öeldakse, kui me seda"
+      },
+      {
+        "start_seconds": 3925.12,
+        "end_seconds": 3931.4,
+        "text": "ei kasuta või kui me seda ei piira, siis me kohe homme hommikul on siin täielik kaas"
+      },
+      {
+        "start_seconds": 3931.4,
+        "end_seconds": 3935.36,
+        "text": "lane Arhia tänavatel ja me hakkame üksteist ära tahtma."
+      },
+      {
+        "start_seconds": 3935.36,
+        "end_seconds": 3941.2,
+        "text": "Siin on küsimus ka kriteeriumites, finantseeritutest, finantseerituses, mida me peame"
+      },
+      {
+        "start_seconds": 3941.2,
+        "end_seconds": 3946.48,
+        "text": ", milliseid hämara need informatsiooni ja infovahetuse ja teadlikkus, see on siin see"
+      },
+      {
+        "start_seconds": 3946.48,
+        "end_seconds": 3983.36,
+        "text": "oluline asi, eks ole, et me peaksime, mis toimub."
+      },
+      {
+        "start_seconds": 3983.36,
+        "end_seconds": 3987.96,
+        "text": "Need on väga populaarsed on need väga negatiivse pealkirjaga uudised, sest need meil"
+      },
+      {
+        "start_seconds": 3987.96,
+        "end_seconds": 3992.76,
+        "text": "e klikitakse ja tihti inimesed on väga sellise valikulise lugemisega ja nad loevadki"
+      },
+      {
+        "start_seconds": 3992.76,
+        "end_seconds": 3994.92,
+        "text": "neid pealkirju nagu süvene teemadesse."
+      },
+      {
+        "start_seconds": 3994.92,
+        "end_seconds": 3999.4,
+        "text": "Ja kui seal mainitaksegi, eks ju, on mingisugune asutus, millel on ligipääs andmetel"
+      },
+      {
+        "start_seconds": 3999.4,
+        "end_seconds": 4003.52,
+        "text": "ja keegi ei tea, mis sellega tehakse, siis see mõjubki ka hästi negatiivselt, eks ju"
+      },
+      {
+        "start_seconds": 4003.52,
+        "end_seconds": 4003.88,
+        "text": "."
+      },
+      {
+        "start_seconds": 4003.88,
+        "end_seconds": 4008.36,
+        "text": "Ja, ja võib-olla süveneb veelgi sinna, et jah, tegelikult need andmetel juba ammu kogu"
+      },
+      {
+        "start_seconds": 4008.36,
+        "end_seconds": 4014.84,
+        "text": "tud teatud tõesti erinevate kasutavad juba varem, aga, aga küsimus on lihtsalt sellest"
+      },
+      {
+        "start_seconds": 4014.84,
+        "end_seconds": 4019.96,
+        "text": "läbipaistvuses minu jaoks, et kui palju me sellest räägime, kui palju, eks ju, inimesed"
+      },
+      {
+        "start_seconds": 4019.96,
+        "end_seconds": 4025.36,
+        "text": "ise huvi tunnevad, kui palju nad küsivad selle kohta ja, ja mida rohkem meil ühiskonna"
+      },
+      {
+        "start_seconds": 4025.36,
+        "end_seconds": 4029.48,
+        "text": "s neid küsimusi küsime, seda loodetavasti läheb see ka läbipaistvamaks."
+      },
+      {
+        "start_seconds": 4029.48,
+        "end_seconds": 4034.76,
+        "text": "Ja, ja selle üle saame ka neid usaldada ja eks ju, kui küsimus usaldada, kes, kes seal"
+      },
+      {
+        "start_seconds": 4034.76,
+        "end_seconds": 4041.32,
+        "text": "siis otsustajad eesotsas on, et USA on ju väga-väga arenev riik, eks ju, aga nüüd juba"
+      },
+      {
+        "start_seconds": 4041.32,
+        "end_seconds": 4046.16,
+        "text": "tükk aega on seal eesotsas üks härra, kes, kelle initsiatiivid ei ole üldse teada, eks"
+      },
+      {
+        "start_seconds": 4046.16,
+        "end_seconds": 4051.96,
+        "text": "ju, mis, mis tema eesmärgid on ja mis ta tahab nende suurte ettevõtetega teha, mille"
+      },
+      {
+        "start_seconds": 4051.96,
+        "end_seconds": 4054.12,
+        "text": "jaoks need andmeid kasutada."
+      },
+      {
+        "start_seconds": 4054.12,
+        "end_seconds": 4058.6,
+        "text": "Ja, ja noh, siis me jõuame alati selle valimiste teemasse, et keda me nii palju me järgmise"
+      },
+      {
+        "start_seconds": 4058.6,
+        "end_seconds": 4065.84,
+        "text": "ks eesotsas tuli Eestis, sest me väga paljud otsused sõltuvad teatud inimestest ja"
+      },
+      {
+        "start_seconds": 4065.84,
+        "end_seconds": 4074.0,
+        "text": ", ja meil on siis see võimalus seda valikut ka teha."
+      },
+      {
+        "start_seconds": 4074.0,
+        "end_seconds": 4084.32,
+        "text": "Nimelt ka aktsiaseltsibokside seadustamine käib täie voola."
+      },
+      {
+        "start_seconds": 4084.32,
+        "end_seconds": 4098.68,
+        "text": "Kuidas saab inimene otsuseid vaidlustada, kui ta ei mõista neid?"
+      },
+      {
+        "start_seconds": 4098.68,
+        "end_seconds": 4105.88,
+        "text": "Ta peab olema see, see info, kui see otsus tuleb, siis peab olema see info, kuhu poole"
+      },
+      {
+        "start_seconds": 4105.88,
+        "end_seconds": 4113.12,
+        "text": "info, et see on tehtud automaatse nii-öelda otsusena ja ja see"
+      },
+      {
+        "start_seconds": 4113.12,
+        "end_seconds": 4118.68,
+        "text": "põhimõte, et siis tal on võimalik selle tegeliku inimeseni jõuda, kuidas nagu prakti"
+      },
+      {
+        "start_seconds": 4118.68,
+        "end_seconds": 4122.72,
+        "text": "kas toimub, seda mina küll ei tea, et seda me oleme näinud, et me teame lihtsalt teist"
+      },
+      {
+        "start_seconds": 4122.72,
+        "end_seconds": 4135.8,
+        "text": "e riikide kogemustest kus, kus sellised probleemid on olnud, et ma"
+      },
+      {
+        "start_seconds": 4135.8,
+        "end_seconds": 4142.2,
+        "text": "arvan, et ma loodan, et meil Eestis nagu sellistest asjadest oleme natukene õppinud siis"
+      },
+      {
+        "start_seconds": 4142.2,
+        "end_seconds": 4144.8,
+        "text": "juba ka, et mis on teistes riikides toimunud."
+      },
+      {
+        "start_seconds": 4144.8,
+        "end_seconds": 4148.08,
+        "text": "Et sellisel juhul me ei korda."
+      },
+      {
+        "start_seconds": 4148.08,
+        "end_seconds": 4155.12,
+        "text": "Jah, et ja tõepoolest, siin on ka küsimus, et kuidas nende automaatotsustega on."
+      },
+      {
+        "start_seconds": 4155.12,
+        "end_seconds": 4161.16,
+        "text": "Samas kahtlemata ka siin ei saa öelda, et noh, juhatab keelatud ja siin on meil palju"
+      },
+      {
+        "start_seconds": 4161.16,
+        "end_seconds": 4162.16,
+        "text": "võimalusi."
+      },
+      {
+        "start_seconds": 4162.16,
+        "end_seconds": 4167.76,
+        "text": "Küsimus on, et kui see otsus ära tuleb ja seda on palju, et esiteks on mul edaspidi põhi"
+      },
+      {
+        "start_seconds": 4167.76,
+        "end_seconds": 4169.64,
+        "text": "mõtteline selgituskohustus."
+      },
+      {
+        "start_seconds": 4169.64,
+        "end_seconds": 4174.72,
+        "text": "See ei tähenda, et lihtsalt ma pean ära näitama, et on automatiseeritud otsused."
+      },
+      {
+        "start_seconds": 4174.72,
+        "end_seconds": 4176.08,
+        "text": "See on küsimus."
+      },
+      {
+        "start_seconds": 4176.08,
+        "end_seconds": 4180.68,
+        "text": "Andmestik ja ma pean näitama, kust see tegelikult see info on võetud täpselt, mida siin"
+      },
+      {
+        "start_seconds": 4180.68,
+        "end_seconds": 4183.92,
+        "text": "ka enne mainiti."
+      },
+      {
+        "start_seconds": 4183.92,
+        "end_seconds": 4189.28,
+        "text": "Ja loomulikult me saame ka näha, kuidas see hakkab töötama ka täielikult meil peaksid"
+      },
+      {
+        "start_seconds": 4189.28,
+        "end_seconds": 4195.92,
+        "text": "edasi kehtima need haldus, halduse põhimõtted, ka see, et ma saan seda vaidlustada ja"
+      },
+      {
+        "start_seconds": 4195.92,
+        "end_seconds": 4202.0,
+        "text": "seeläbi siis jõuan ka inimeseni, et nii-öelda kõik need teemad, mida me enne ütlesime"
+      },
+      {
+        "start_seconds": 4202.0,
+        "end_seconds": 4207.6,
+        "text": ", see peab olema läbipaistev, nii et ma ise mõistan ka seda, et see on automaatne otsus"
+      },
+      {
+        "start_seconds": 4207.6,
+        "end_seconds": 4208.0,
+        "text": "."
+      },
+      {
+        "start_seconds": 4208.0,
+        "end_seconds": 4213.2,
+        "text": "Ma pean mõistma, mis alusel see on tehtud ja kust need andmed on võetud, see on üldse"
+      },
+      {
+        "start_seconds": 4213.2,
+        "end_seconds": 4219.44,
+        "text": "küsimus, mis tegelikult puudutab kõiki neid automaatotsuseid, mis on ka seni olnud, mis"
+      },
+      {
+        "start_seconds": 4219.44,
+        "end_seconds": 4224.16,
+        "text": "on väga oluline punkt, mida me oleme varem palju rääkinud, et see peaks olema selgem"
+      },
+      {
+        "start_seconds": 4224.16,
+        "end_seconds": 4225.36,
+        "text": "inimestele."
+      },
+      {
+        "start_seconds": 4225.36,
+        "end_seconds": 4230.56,
+        "text": "Et tihti ongi, korraga tuleb välja, et ohoo, et kellelgi oli minu andmed ja ja kust nad"
+      },
+      {
+        "start_seconds": 4230.56,
+        "end_seconds": 4236.72,
+        "text": "võtsid või võeti ja, ja siin on meie arvates ülikooli poolelt oleme siin mitmete kri"
+      },
+      {
+        "start_seconds": 4236.72,
+        "end_seconds": 4242.92,
+        "text": "tiseerinud, et tegelikult ei ole see piisavalt läbipaistvalt ka seaduse tasandil regu"
+      },
+      {
+        "start_seconds": 4242.92,
+        "end_seconds": 4249.12,
+        "text": "leeritud, et kunas peab tegelikult ära näitama, et mingi, mis on kogudele omavahel seotud"
+      },
+      {
+        "start_seconds": 4249.12,
+        "end_seconds": 4252.2,
+        "text": "või, või et kust, kust tegelikult see info jookseb."
+      },
+      {
+        "start_seconds": 4252.2,
+        "end_seconds": 4258.96,
+        "text": "Ja kui ma siis jõuaksin igal juhul ka inimeseni ja küsimus on ja oluline on kahtlema"
+      },
+      {
+        "start_seconds": 4258.96,
+        "end_seconds": 4264.36,
+        "text": "ta haldusmenetluses ka see, et me jõuaks kuskile mujale kui kohtusse, sest me teame,"
+      },
+      {
+        "start_seconds": 4264.36,
+        "end_seconds": 4269.84,
+        "text": "mida see tähendab, kui ta inimese suunate sõbralikult kohtusse, siis üheksakümmend üheksa"
+      },
+      {
+        "start_seconds": 4269.84,
+        "end_seconds": 4274.6,
+        "text": "protsenti inimestest sinna ei jõua, sest nad kardavad kohtuprotsessi, nad teavad, et"
+      },
+      {
+        "start_seconds": 4274.6,
+        "end_seconds": 4281.04,
+        "text": "nende rahakott seda ei, välja ei kannata ja nad ei saa oma õigusi tegelikult reaalselt"
+      },
+      {
+        "start_seconds": 4281.04,
+        "end_seconds": 4289.64,
+        "text": "efektiivselt kaitsta."
+      },
+      {
+        "start_seconds": 4289.64,
+        "end_seconds": 4295.04,
+        "text": "Siin on alles teadlikkuse küsimus, eks ju, kuidas me seda sõnumit formuleerime selle"
+      },
+      {
+        "start_seconds": 4295.04,
+        "end_seconds": 4299.64,
+        "text": "konkreetse näite peale seni täpselt kurs, aga eks neid pealkiri tuleb päris palju, et"
+      },
+      {
+        "start_seconds": 4299.64,
+        "end_seconds": 4302.8,
+        "text": "proua mingi automatiseerida otsuseid teha kiiremini."
+      },
+      {
+        "start_seconds": 4302.8,
+        "end_seconds": 4307.44,
+        "text": "Nüüd küsimus on selles, et kas ma lihtsalt nii-öelda liigun kuskil vaikselt mingisuguse"
+      },
+      {
+        "start_seconds": 4307.44,
+        "end_seconds": 4312.64,
+        "text": "rakenduse, mida on hea lihtne teha ja millega me saame kakskümmend viis inimest nii-"
+      },
+      {
+        "start_seconds": 4312.64,
+        "end_seconds": 4318.24,
+        "text": "öelda ära koondada ja anda selle rolli AI-le või me tegelikult teeme, mida teevad väga"
+      },
+      {
+        "start_seconds": 4318.24,
+        "end_seconds": 4323.44,
+        "text": "paljud arendajad, paljud ettevõtted me kasutame neid, et teha lihtsalt seda, mis võib"
+      },
+      {
+        "start_seconds": 4323.44,
+        "end_seconds": 4328.08,
+        "text": "olla varem on jäänud tegemata, aga me teeme seda kiiremalt, me tegime selle näide, eks"
+      },
+      {
+        "start_seconds": 4328.08,
+        "end_seconds": 4333.28,
+        "text": "ju, et me oleme mingeid tegevusi edasi lükanud, ümber kasutame seda abi tehnoloogiat"
+      },
+      {
+        "start_seconds": 4333.28,
+        "end_seconds": 4338.16,
+        "text": "ära, et, et see nii-öelda rakendus valmis teha või saaks seda kiiremini, efektiivsema"
+      },
+      {
+        "start_seconds": 4338.16,
+        "end_seconds": 4342.64,
+        "text": "lt, soodsamalt ja ma saan siis ka ikkagi seda lahendust pakkuda nii nagu ta on turva"
+      },
+      {
+        "start_seconds": 4342.64,
+        "end_seconds": 4348.44,
+        "text": "line, läbipaistev ja nii nagu need süsteemid peaksid olema versus, et keegi kuskil nii"
+      },
+      {
+        "start_seconds": 4348.44,
+        "end_seconds": 4354.12,
+        "text": "-öelda põlve otsas neid jätab selle, eks ju ja täna ei tea, sest tihti jällegi liiga"
+      },
+      {
+        "start_seconds": 4354.12,
+        "end_seconds": 4357.56,
+        "text": "põhjalikult ei räägita nendest süsteemidest, neid võib-olla ei tutvustata."
+      },
+      {
+        "start_seconds": 4357.56,
+        "end_seconds": 4362.48,
+        "text": "Tundub, et ka palju on sellist, noh tuleb mingi idee, paneme kohe meediasse ja, ja siis"
+      },
+      {
+        "start_seconds": 4362.48,
+        "end_seconds": 4364.88,
+        "text": "läheb see kihama, eks ju, kogu see ühiskond."
+      },
+      {
+        "start_seconds": 4364.88,
+        "end_seconds": 4368.72,
+        "text": "Et ma arvan, et see on oluline, et me räägiksime lihtsalt palju rohkem nendest teema"
+      },
+      {
+        "start_seconds": 4368.72,
+        "end_seconds": 4372.92,
+        "text": "dest, et mis need vahendid on, et inimesed saaksid aru, sest see ongi väga keeruline"
+      },
+      {
+        "start_seconds": 4372.92,
+        "end_seconds": 4378.08,
+        "text": ", need tehnoloogiad ongi väga keerulised ja, ja tuleb mitte ainult eks ju, kui kooli"
+      },
+      {
+        "start_seconds": 4378.08,
+        "end_seconds": 4383.76,
+        "text": "taja või, või erinevates rollides, spetsialistid, vaid nende laiemateks ka enda kogu"
+      },
+      {
+        "start_seconds": 4383.76,
+        "end_seconds": 4421.4,
+        "text": "aeg selgitama, et mis me täna teeme."
+      },
+      {
+        "start_seconds": 4421.4,
+        "end_seconds": 4425.84,
+        "text": "Nii nagu keskmine inimene sellest aru saaks, eks ju ja mina täpselt samamoodi ise kõik"
+      },
+      {
+        "start_seconds": 4425.84,
+        "end_seconds": 4427.56,
+        "text": "sugused seadusi."
+      },
+      {
+        "start_seconds": 4427.56,
+        "end_seconds": 4431.84,
+        "text": "Tõlgendan enda jaoks A ja eks ju, tal on kontekst ja ja proovime aru saada, mis, mis"
+      },
+      {
+        "start_seconds": 4431.84,
+        "end_seconds": 4480.64,
+        "text": "seal sees on."
+      },
+      {
+        "start_seconds": 4480.64,
+        "end_seconds": 4482.88,
+        "text": "Peavad suutma kirjutada nagu sellises keeles."
+      },
+      {
+        "start_seconds": 4482.88,
+        "end_seconds": 4506.6,
+        "text": "Et sellest ka teised aru saavad."
+      },
+      {
+        "start_seconds": 4506.6,
+        "end_seconds": 4513.76,
+        "text": "Ja ma arvan, et seetõttu meil on ka siin oluline just Eestis seda arutelu edendada väga"
+      },
+      {
+        "start_seconds": 4513.76,
+        "end_seconds": 4519.2,
+        "text": "hea võimalus siin, eks ole, ja nagu me näeme, teema on igal pool üleval."
+      },
+      {
+        "start_seconds": 4519.2,
+        "end_seconds": 4524.4,
+        "text": "Nagu sa just mainisid, Print siin ka Arvamusfestivalil ja ma arvan, et tõesti tegelikult"
+      },
+      {
+        "start_seconds": 4524.4,
+        "end_seconds": 4529.36,
+        "text": "Eesti inimeste teadlikkus on tõusnud ja kui ma vaatan veelkord, korraks pean võib-olla"
+      },
+      {
+        "start_seconds": 4529.36,
+        "end_seconds": 4533.84,
+        "text": "selle juurde tagasi tulema, aga minu arvates just nimelt kahekümne aastane eestlane on"
+      },
+      {
+        "start_seconds": 4533.84,
+        "end_seconds": 4538.88,
+        "text": "sageli palju teadlikum kui keskmine neljakümne, viie, neljakümne viie aastane sellest"
+      },
+      {
+        "start_seconds": 4538.88,
+        "end_seconds": 4542.48,
+        "text": "andmetöötlusest ja sellega seotud ohtudest."
+      },
+      {
+        "start_seconds": 4542.48,
+        "end_seconds": 4549.24,
+        "text": "Et aga, aga, aga just seda, sest sa enne ka küsisid, et mida me garanteerides reeglid"
+      },
+      {
+        "start_seconds": 4549.24,
+        "end_seconds": 4556.4,
+        "text": "teevad, eks ju, et sisuliselt, see on väga võimsad nii-öelda infosüsteemid,"
+      },
+      {
+        "start_seconds": 4556.4,
+        "end_seconds": 4562.28,
+        "text": "mis pakuvad infot näiteks võimalike kurjategijate kohta migratsiooniküsimustes, katsu"
+      },
+      {
+        "start_seconds": 4562.28,
+        "end_seconds": 4563.96,
+        "text": "vatele inimesi jälgida."
+      },
+      {
+        "start_seconds": 4563.96,
+        "end_seconds": 4569.0,
+        "text": "Küsimus on, et, et mida nad siis vaatavad ja see on see kriitika olnud ja siin me oleme"
+      },
+      {
+        "start_seconds": 4569.0,
+        "end_seconds": 4580.6,
+        "text": "nüüd selle Euroopa nii-öelda ka lahenduse poolel ja ohtlik on siin kahtlemata, et alati"
+      },
+      {
+        "start_seconds": 4580.6,
+        "end_seconds": 4585.68,
+        "text": "sageli on kõik need lahendused kantud parimatest eesmärkidest."
+      },
+      {
+        "start_seconds": 4585.68,
+        "end_seconds": 4592.92,
+        "text": "Et mida me tahame, tahame kuritegevust, selgemat, selgemalt teada, et, et"
+      },
+      {
+        "start_seconds": 4592.92,
+        "end_seconds": 4595.88,
+        "text": "ohud ei valitse kuskil."
+      },
+      {
+        "start_seconds": 4595.88,
+        "end_seconds": 4602.28,
+        "text": "Samas see tähendab, et me peame muutma selleks kõik inimesed täiesti läbipaistvaks ja"
+      },
+      {
+        "start_seconds": 4602.28,
+        "end_seconds": 4607.48,
+        "text": "kas see tagab meile vabama ühiskonna, kui ei ole nagu enam seda ruumi."
+      },
+      {
+        "start_seconds": 4607.48,
+        "end_seconds": 4612.84,
+        "text": "See on oht, ma olen ja see, sellepärast me arutamegi seda chat kontrolli."
+      },
+      {
+        "start_seconds": 4612.84,
+        "end_seconds": 4619.76,
+        "text": "Et, et ka teil põrgus peaks olema alati silutatud parimad mõtted."
+      },
+      {
+        "start_seconds": 4619.76,
+        "end_seconds": 4623.6,
+        "text": "Ja eesmärkidest."
+      },
+      {
+        "start_seconds": 4623.6,
+        "end_seconds": 4629.8,
+        "text": "Eeldatavasti on meil kõigil vaja natuke ruumi, et ma arvan, vähemalt meie oleme seni"
+      },
+      {
+        "start_seconds": 4629.8,
+        "end_seconds": 4635.76,
+        "text": "oma ühiskonnast nii aru saanud, et öelda midagi, mida ei tohi öelda, ületada kiirust"
+      },
+      {
+        "start_seconds": 4635.76,
+        "end_seconds": 4638.08,
+        "text": "vahest, kuigi seda ei tohi."
+      },
+      {
+        "start_seconds": 4638.08,
+        "end_seconds": 4642.04,
+        "text": "Ja teha, ma ei tea, ninas noppida kui naaber ei vaata."
+      },
+      {
+        "start_seconds": 4642.04,
+        "end_seconds": 4646.44,
+        "text": "Et kui palju sellest vabadusest meile jääb?"
+      },
+      {
+        "start_seconds": 4646.44,
+        "end_seconds": 4651.12,
+        "text": "See on oluline küsimus ja ma arvan, et me tunnetame ja tunneme seda kõiki, et võib-olla"
+      },
+      {
+        "start_seconds": 4651.12,
+        "end_seconds": 4657.52,
+        "text": "see sajaprotsendiline kindlus, mida näiteks mina pakub."
+      },
+      {
+        "start_seconds": 4657.52,
+        "end_seconds": 4662.56,
+        "text": "Et kui te ei ole midagi kinni maksnud, kuna seda ületab ta teed, siis teisalt järgmine"
+      },
+      {
+        "start_seconds": 4662.56,
+        "end_seconds": 4668.36,
+        "text": "kuu olema raske, eks ole, suhelda näiteks ametitega, et saada teatud toetust."
+      },
+      {
+        "start_seconds": 4668.36,
+        "end_seconds": 4673.32,
+        "text": "Aga jällegi, kui mõelda näiteks sellise Euroopa Liidu asjade teema peale minna veel ka"
+      },
+      {
+        "start_seconds": 4673.32,
+        "end_seconds": 4680.48,
+        "text": "ugemale, siis kasu on, et meil on siin Arvamusfestivalil avamist ja"
+      },
+      {
+        "start_seconds": 4680.48,
+        "end_seconds": 4737.28,
+        "text": "siis teisel laval on arutelud ja kõik muu selline või?"
+      },
+      {
+        "start_seconds": 4737.28,
+        "end_seconds": 4742.8,
+        "text": "Seesama chat kontrolli teema jätkuks korraks veel, et siis see, et me täna sellele m"
+      },
+      {
+        "start_seconds": 4742.8,
+        "end_seconds": 4748.84,
+        "text": "äärusega keelustame ära selle --- siis Euroopa tasandil, ma arvan, et ükski liikmesri"
+      },
+      {
+        "start_seconds": 4748.84,
+        "end_seconds": 4750.52,
+        "text": "ik ei ole selle vastu."
+      },
+      {
+        "start_seconds": 4750.52,
+        "end_seconds": 4755.4,
+        "text": "Ja ega me sellele loodetavasti siis ka selle kontrolli ei saa olla selline, et selle"
+      },
+      {
+        "start_seconds": 4755.4,
+        "end_seconds": 4760.36,
+        "text": "põhjal ükskõik keegi võib sealt võtta ja mida sealt otsida ja mis järeldusi teha."
+      },
+      {
+        "start_seconds": 4760.36,
+        "end_seconds": 4765.12,
+        "text": "Aga samal ajal, kui meil on vaja sealt ikkagi kurjategijaid otsida, siis me ju tegelikult"
+      },
+      {
+        "start_seconds": 4765.12,
+        "end_seconds": 4770.28,
+        "text": "tahaksime võimalikult palju andmeid ära kasutada ja, ja nüüd see küsimus ongi nende a"
+      },
+      {
+        "start_seconds": 4770.28,
+        "end_seconds": 4775.44,
+        "text": "lamtasemete osalt madalama riskiga või keskmise riskiga, seal on päris palju antud ka"
+      },
+      {
+        "start_seconds": 4775.44,
+        "end_seconds": 4780.16,
+        "text": "liikmesriigi enda kätte, eks ju, sellesama järelevalve kaudu ja, ja seda me kindlasti"
+      },
+      {
+        "start_seconds": 4780.16,
+        "end_seconds": 4785.4,
+        "text": "saame nende diskussioonidega mõjutada, sest, sest üldsuse arvamus ikkagi loodetavasti"
+      },
+      {
+        "start_seconds": 4785.4,
+        "end_seconds": 4801.48,
+        "text": "praegu on läinud ja loodetavasti tulevikus läheb ka arvesse, eks ju."
+      },
+      {
+        "start_seconds": 4801.48,
+        "end_seconds": 4806.76,
+        "text": "Tahaks küsida selle --- kohta, mis siis mida nad ütlesid isiklikult oleks nõus loobu"
+      },
+      {
+        "start_seconds": 4806.76,
+        "end_seconds": 4813.2,
+        "text": "tama oma õigustest, et jätta üldse laenas alles tehisintellekt, et oleks nüüd valmis"
+      },
+      {
+        "start_seconds": 4813.2,
+        "end_seconds": 4817.76,
+        "text": "tehisintellekti enam üldse ei ole või siis läheb alles, aga te peate midagi oma enda"
+      },
+      {
+        "start_seconds": 4817.76,
+        "end_seconds": 4825.6,
+        "text": "õigustest loovutama, mis see oleks?"
+      },
+      {
+        "start_seconds": 4825.6,
+        "end_seconds": 4831.56,
+        "text": "Aga intrigeeriv küsimus, aitäh."
+      },
+      {
+        "start_seconds": 4831.56,
+        "end_seconds": 4836.64,
+        "text": "Midagi kindlasti, ma arvan selles mõttes, et juba praegu, kui me, kui ma kasutan ja mina"
+      },
+      {
+        "start_seconds": 4836.64,
+        "end_seconds": 4843.8,
+        "text": "olen väga aktiivne kasutaja, annan sinna päris palju andmeid, teen seda teadlikult, us"
+      },
+      {
+        "start_seconds": 4843.8,
+        "end_seconds": 4846.4,
+        "text": "aldades siis neid ettevõtteid, eks ju."
+      },
+      {
+        "start_seconds": 4846.4,
+        "end_seconds": 4852.76,
+        "text": "Ja, ja ma arvan, et seeläbi, kui keegi kuskil otsustabki chat kontroll, mis iganes lahendus"
+      },
+      {
+        "start_seconds": 4852.76,
+        "end_seconds": 4854.08,
+        "text": "ed tulevad kasutusele."
+      },
+      {
+        "start_seconds": 4854.08,
+        "end_seconds": 4858.48,
+        "text": "Ma teadlikult olen juba võtnud selle riski, eks, et justkui see nii-öelda isiku, isik"
+      },
+      {
+        "start_seconds": 4858.48,
+        "end_seconds": 4863.44,
+        "text": "like andmete jagamise, võib-olla see õigus või kohustus on mul siis ikka sellega juba"
+      },
+      {
+        "start_seconds": 4863.44,
+        "end_seconds": 4889.24,
+        "text": "ära antud, et ma juba tegelikult olen natuke teadlikud selle otsuse teinud."
+      },
+      {
+        "start_seconds": 4889.24,
+        "end_seconds": 4896.44,
+        "text": "Kahtlemata, aga ma mõtlengi, et oma õigustest loobumine on seesama auton"
+      },
+      {
+        "start_seconds": 4896.44,
+        "end_seconds": 4903.84,
+        "text": "oomia, see, et me oleme kõik loobunud tükikesest oma ebaelust, vahest vabata"
+      },
+      {
+        "start_seconds": 4903.84,
+        "end_seconds": 4909.76,
+        "text": "htlikult paisates seda kuskile, vahest võib-olla vähem vabatahtlikult, sest riik ütle"
+      },
+      {
+        "start_seconds": 4909.76,
+        "end_seconds": 4913.08,
+        "text": "b, et teatud andmed on avalikud."
+      },
+      {
+        "start_seconds": 4913.08,
+        "end_seconds": 4921.04,
+        "text": "Kui ma näiteks soovin kuuluda erakonda, sellest ma nüüd seda ei kommenteeri."
+      },
+      {
+        "start_seconds": 4921.04,
+        "end_seconds": 4926.28,
+        "text": "Või pigem märgid, et, et selles osas ma ei, ei arva, et see oleks väga õiguspärane ja"
+      },
+      {
+        "start_seconds": 4926.28,
+        "end_seconds": 4932.48,
+        "text": "kooskõlas kehtiva õigusega, aga rüteesi on ruumiandmeid ja nii igal juhul need on ava"
+      },
+      {
+        "start_seconds": 4932.48,
+        "end_seconds": 4933.44,
+        "text": "likud."
+      },
+      {
+        "start_seconds": 4933.44,
+        "end_seconds": 4941.04,
+        "text": "Samas ma arvan, et küsimus ongi selles autonoomias, et kui kaugele ja on mul"
+      },
+      {
+        "start_seconds": 4941.04,
+        "end_seconds": 4946.8,
+        "text": "tunne, et ma ise kontrollin seda, kui kaugele ma jagan seda, et ma tahtsin neid andme"
+      },
+      {
+        "start_seconds": 4946.8,
+        "end_seconds": 4954.12,
+        "text": "id jagada ja, ja ma tean, et ma tegin seda, ma hüppasingi ujukates seal ri"
+      },
+      {
+        "start_seconds": 4954.12,
+        "end_seconds": 4958.96,
+        "text": "ngi ja, ja näitasin oma maskotte ja lapsi."
+      },
+      {
+        "start_seconds": 4958.96,
+        "end_seconds": 4963.84,
+        "text": "Ja siis tekib see, et kunagi, kui ma saan aru, et võib-olla ma ei tahtnud neid jagada"
+      },
+      {
+        "start_seconds": 4963.84,
+        "end_seconds": 4970.28,
+        "text": ", siis hakati tegema mingeid järeldusi sellest või ma ei tea, kommenteerisin midagi lo"
+      },
+      {
+        "start_seconds": 4970.28,
+        "end_seconds": 4975.04,
+        "text": "llist ja seal sotsiaalmeedias ja lõpuks koputatakse minu uksele."
+      },
+      {
+        "start_seconds": 4975.04,
+        "end_seconds": 4983.76,
+        "text": "Nii et ma arvan, et seal on see piir mida me siis tunneme ja see on samas ka see"
+      },
+      {
+        "start_seconds": 4983.76,
+        "end_seconds": 4990.2,
+        "text": ", miks on oluline, et me istume nii siin Arvamusfestivalil kui ka Brüsselis kui ka, ma"
+      },
+      {
+        "start_seconds": 4990.2,
+        "end_seconds": 4998.12,
+        "text": "ei tea, kuskil Lõuna-Itaalias ja igal pool ja arutama neid teemasid, sest ül"
+      },
+      {
+        "start_seconds": 4998.12,
+        "end_seconds": 5006.52,
+        "text": "djuhul me ei tunne, et me annaksime oma õigusi ära, kui me kuidagi anna"
+      },
+      {
+        "start_seconds": 5006.52,
+        "end_seconds": 5010.56,
+        "text": "me oma andmeid ära või neid töödeldakse ja ei juhtugi midagi."
+      },
+      {
+        "start_seconds": 5010.56,
+        "end_seconds": 5015.8,
+        "text": "Ja need andmed ongi vaja, mida ise ütleb, et need andmed on vaja selleks, ma ei tea,"
+      },
+      {
+        "start_seconds": 5015.8,
+        "end_seconds": 5021.52,
+        "text": "et autod liiguksid kiiremini, et meie saaksime toredamaid vastuseid chatilt, et me saa"
+      },
+      {
+        "start_seconds": 5021.52,
+        "end_seconds": 5028.44,
+        "text": "ksime jagada sõpradega kuskil Facebookis oma elamusi, mida iganes või noorem generat"
+      },
+      {
+        "start_seconds": 5028.44,
+        "end_seconds": 5031.72,
+        "text": "sioon siis teistes meediakanalites."
+      },
+      {
+        "start_seconds": 5031.72,
+        "end_seconds": 5037.32,
+        "text": "Et, et aga siin me tunneme, et meil on see autonoomia selle üle ja siis tuleb see, et"
+      },
+      {
+        "start_seconds": 5037.32,
+        "end_seconds": 5042.84,
+        "text": "kus me tunneme, et võib-olla nad võeti ja tehti nendega midagi ja järelevalve on hoopis"
+      },
+      {
+        "start_seconds": 5042.84,
+        "end_seconds": 5047.32,
+        "text": "teine kui see positiivne, mida mina tahtsin saavutada, siis korraga on öeldud, et ma"
+      },
+      {
+        "start_seconds": 5047.32,
+        "end_seconds": 5049.36,
+        "text": "ütlesin midagi, mis ei olnud lubatud."
+      },
+      {
+        "start_seconds": 5049.36,
+        "end_seconds": 5054.16,
+        "text": "Ma võib-olla jõudsin kuskile liiga kiiresti, see tähendab, et ma olen kiirust ületanud"
+      },
+      {
+        "start_seconds": 5054.16,
+        "end_seconds": 5061.52,
+        "text": "ja, ja me tunneme alles väga palju hiljem, et, et sellega, et me kogu aeg jagame"
+      },
+      {
+        "start_seconds": 5061.52,
+        "end_seconds": 5068.48,
+        "text": "andmeid, kaasneb mingi võimalik õiguste piiramine ja üldiselt need ei toimu samaaegselt"
+      },
+      {
+        "start_seconds": 5068.48,
+        "end_seconds": 5072.48,
+        "text": ", kui mind politsei võtab tänaval kinni, siis ma tunnen õigusel piiratud, ma hakkan neid"
+      },
+      {
+        "start_seconds": 5072.48,
+        "end_seconds": 5078.88,
+        "text": "kohe sisse nõudma, andmetöötluse puhul on see väga tõsine moodi ja teistlaadi see võimalik"
+      },
+      {
+        "start_seconds": 5078.88,
+        "end_seconds": 5085.36,
+        "text": "rikkumine, see toimub märkamatult ja see toimub võib-olla hoopis hiljem, rääkides kas"
+      },
+      {
+        "start_seconds": 5085.36,
+        "end_seconds": 5090.0,
+        "text": "või näiteks mingist tehisintellektist, mis kraabid dokumendilt infot."
+      },
+      {
+        "start_seconds": 5090.0,
+        "end_seconds": 5093.84,
+        "text": "Me ei teagi, kust ja lõpuks tuleb välja hoopis midagi muud."
+      },
+      {
+        "start_seconds": 5093.84,
+        "end_seconds": 5101.16,
+        "text": "Nii et seetõttu ma arvan, et siin see teadlikkuse tõstmine, see arutelu sellest, et kuhu"
+      },
+      {
+        "start_seconds": 5101.16,
+        "end_seconds": 5107.56,
+        "text": "maani ma tahan olla autonoomne selles, et ma tohin oma andmeid ära anda, mis on ka osa"
+      },
+      {
+        "start_seconds": 5107.56,
+        "end_seconds": 5114.36,
+        "text": "minu vabadusest, et ma loobungi oma elu kaitsest ja privaatsusest, et kuhu ma tahan,"
+      },
+      {
+        "start_seconds": 5114.36,
+        "end_seconds": 5120.4,
+        "text": "et see läheks ja kuhu jõuaks ja selles on tänapäeval vaja riigi abi, sest ettevõtjal"
+      },
+      {
+        "start_seconds": 5120.4,
+        "end_seconds": 5130.92,
+        "text": "ei ole seda vastutust, see on arusaadav ja tal ei ole selle eest huvi."
+      },
+      {
+        "start_seconds": 5130.92,
+        "end_seconds": 5137.08,
+        "text": "Et, et ma andsin enda õiguse täna siis võib-olla kahekümne aasta pärast ma mõtlen teist"
+      },
+      {
+        "start_seconds": 5137.08,
+        "end_seconds": 5149.72,
+        "text": "moodi."
+      },
+      {
+        "start_seconds": 5149.72,
+        "end_seconds": 5154.44,
+        "text": "Selle ilusa mõtte ilusa lõpetada, et lootuses, et võib-olla tulevikus saab kustutada"
+      },
+      {
+        "start_seconds": 5154.44,
+        "end_seconds": 5174.798,
+        "text": "üldse niimoodi, et nad kustuksid."
+      }
+    ]
+  }
+}

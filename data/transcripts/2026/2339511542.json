@@ -1,0 +1,4096 @@
+{
+  "schema_version": 1,
+  "episode": {
+    "id": "2339511542",
+    "rss_guid": "tag:soundcloud,2010:tracks/2339511542",
+    "title": "Marshall Plan 2.0_ Estonia, Ukraine and the Path Forward (1)",
+    "published_at": "2026-06-15T08:22:05Z",
+    "apple_collection_id": 1477431807,
+    "page_url": "https://soundcloud.com/arvamusfestival/marshall-plan-20_estonia-ukraine-and-the-path-forward-1-5",
+    "audio_url": "https://feeds.soundcloud.com/stream/2339511542-arvamusfestival-marshall-plan-20_estonia-ukraine-and-the-path-forward-1-5.mp3",
+    "audio_bytes": 222911215,
+    "audio_sha256": "805cb9467e48262869da758a8b0f241de14569e2eb846fd452b3913afadbca27",
+    "duration_seconds": 5572.0
+  },
+  "transcription": {
+    "model": {
+      "name": "large",
+      "repository": "TalTechNLP/streaming-zipformer-large.et-en",
+      "revision": "2812262bd4fd5d4327dc09ca0e6c19e8a32a03d6",
+      "precision": "int8"
+    },
+    "runtime": {
+      "sherpa_onnx": "1.13.7",
+      "decoding_method": "modified_beam_search",
+      "threads": 4
+    },
+    "text": "Tervist kõigile, kes on tulnud meie arutelu jälgima ja võib-olla switch now to English because we have ambassador of Ukraine amongst us. So we will have a panel in English. These days if everyone is following the news on the meetings upcoming and maybe in United States. And of course, this debate on reconstruction of Ukraine and the Marshall plan has been there since the very early days of the beginning. And we are here to discuss where we are how to do this and maybe a little bit more on the business side of things rather thanther than anything else because we will also have a discussion after us with on the development financing and there will be specially also can also contribute on where we are with the development corporation at large. But first of all, maybe we'll introduce ourselves. I'm cleany advertis. Corporation Agency. Tervist, my name is Maksim Kannanenko. Enjoy Wale it last? So, could have to know and everybody. My name is PRX Pinzol. I working as an associate Partner in that advisory Company Civita in Estonia. What is my relations with Ukraine? Hello, everyone. My name is Annika and I am from Estonian Woodhouse Association. I am the General Manager at this Association, and I am representing the Estonia timber construction companies and our relations with the Ukraine actually comes from that Estonian our companies, our member companies have today differsed experiences in rebuilding Ukraine. Good afternoon, I'm Lucas Ilves. I'm advisor for artificial Intelligence and Digital transformation to the Deputy Prime Minister of Ukraine. And I'm not Ukrainian, but I, you know, like some other people I really have the privilege now of embedding in the Ukrainian government and splitting my time between Tallin and Keyve. So this is the panel and we did not assume that everyone who knows actually what the principles are of the postwar or actually during the wriconstruction. So maybe this is an opportunity may be for because this is a call actually from President Zelenskõi. So I asked Maxim to introduce this to us and also address the pertinent or the elephant in the room issue because everybody is no reading the news and seeing that President Trump will meet, president Putin in Alaska next Friday. So this is a how we start. Thank you very much, Maxim, but as I said that very beginning, I'd like to give you an opportunity also to since this is the hottest issue of the day about all the rumors about discussions that are going to happen now in Alaska. So maybe we are not going to discuss all this negotiations, et cetera here on the TV screens, but maybe just as an opportunity of having maxims presence. Thank you so much, Glen to the really concerned to be ancient also about this last developments. Okei, thank you and well, I'll take the opportunity to return to the original discussions and, of course, you may raise a hand as housekeeping rules, I think we are quite happy to see questions. And of course, you can show that whole amazing things Ukraine has achieved over only very, very last few years. I don't think anyone has now an argument they cannot build a digital society if they want to, because Ukraina is now number five in the global ranking of digital societies were three, I think, still. And you have been quite close to it. So maybe you can elaborate on this front. Thank you. I will start with a sort of personal note. When I left a public service in Estonia last year, my colleagues Ukraine who might work with very closely from, really from the escalation of the war in two thous twenty-two, said, come and work with us. Come join us. And I left at the opportunity for two reasons. One, of course, because like, I think pretty much any Estonian if there's a way to help Ukraine you want to. But also to be very franking to be very selfish because it was probably the most interesting thing I could do professionally because basically what, I mean, you know the story of what's happened in warfare, right? Ukraine has had more innovation as pushed more innovation in robotics and drones in warfare in three, four years than all of NATO combined in the previous thirty. Clean already talked about digital government where really the work was already done two thousand fourteen to nineteen, but from two thousand nineteen with president Zelensky and the team that he brought into government, Ukraine has become one of the best digital transformers of the public sector in the world. And the stuff we're working on right now really is the coolest stuff in the world. And it's by no means limited to those sectors. I mean, the model that Ukrainas set up is to be very good at turning adversity. And, of course the ingenuity of Ukrainians and others working in Ukraine into really high impact frontier innovation. So we now have the govern to Ukraine from the beginning of this here has an innovation strategy where you've identified on key sectors includes drones and autonomous vehicles and includes govtech, but also areas like healthcare and medicine, green technology, agrotech, and so on, where the ambition is to do everything you can from the government side as an ecosystem developer to make Ukraine the best place in the world to do frontier applied innovation. And I think if you wanted to kind of define it at a very ambitious level, it's not just to be the shield of Europe and of the West as the ambassad, but it's also to be the innovation lab. And unless be cleared as a lot of work that has to be done for that. Most of, I mean, part of that work is being done by Ukraine. I mean, it's Ukraine and government has to set up the regulator environment has to create the possibility. There's a lot of innovation, Ukraine a lot of people who have to start building products. But the huge opportunity space in huge need for the rest of the world to come in. And let's think about that if it's always good when you have an opportunity to think about complements. Ukraine has sense of virgincy has an ability to move quickly, but there's a couple of resources that Ukraine is short on, that Ukraine very much needs to reach this ambition. The first of those is capital, needs the investments of the world, and this is not talking about donations and aid. We're talking about proper capital that wants to have a return on investment. Every kind, you know, higher risk venture capital, the sort of more structural institutional capital, bonds, the whole sort of Panapley. The second is the talent and the know-how of the world's most innovative teams and companies across the world. So there's a huge ability, you know, and an opportunity there for people working on stuff in the lab ambitions commercially to come to Ukraine and deploy that. Now, most obviously that's the case in the military, right? I mean, I think Estonians know the stories of how Estonian companies working on defense, you know, they go to Ukraine and you get a twenty-four-hour feedback cycle. But this is also going to be true in a lot of these other sectors that we've talked about. And it's not just because the government has an eye strategy. Everyone can do an eye strategy on a material level, it's because that same adversity is going to be there. Ukraine has massive challenges also and reconstruction, health care, right? Hundreds of thousands of veterans, two hundred thousand mps. If you think about the mental health challenges for society coming out of war massive agriculture, the need to sort of continue to be a bread basket to the world, anything around energy and environment, you're going to have to rebuild the, you know, the energy grid, not that it's all been destroyed, but you have enough destroyed enough capital coming and you have a chance to rebuild, you know, the newest best energy grid in Europe. So what my prediction and my hope is, but this is something that's going to acquire all of us to participate is that Ukraine can continue doing in peace time what it's done in more time which is to be the innovation lab for the collective west. And so it's not going to finish and saying it's not an accent that the name of this innovation strategy that we announce the beginning of this year is he win-win in innovation strategy. So there's clearly a lot for Ukraine to win from bringing the rest of the world into reconstruction and doing and really doing innovation as we do it. But there's also a lot for the rest of the world to in. Now, I think about all the challenges that Europe talks about with its economic competitiveness and so on, then the invitation to Europe is let Ukraine be the engine for your innovation. But I know that in your previous life, you have also been the EU ner person and quite closely seen, you know, what do you is blamed for like GDPR and all this kind of nice things. And as ambassador said, Ukraine is now taking also Europe as it's one of the principles of reconstruction. Do you see any contradiction in this, in this devor? And do you see really inside some of those discussions, this is taken seriously. And unlike when Estonia joined, where the question was, okay, but the day you join you have to be full of compliant, there's a roadmap where a lot of the EU regulation has to be adopted now. I won't lie and say that this is never a source of tension. I once had one of the sort of policy where technical people come to me and say, EUAI act, it's a disaster. Can we not do it? And I was like, I bet news for you, you know? Ukraine people decides to join the EU. This is part of the deal. But this is, of course, I mean, I would say Ukraine is going to be the twenty-eighth country dealing with these trade-offs of how the sort of regula turn environment of the single market works. So there's also no deep tragedy there. And my message actually, to my Ukrainian colleagues is constantly okay, you're not yet a member state, but it's really for everyone dealing with this process to start thinking like their member state behind the table, not just pat, you do have to frankly, you know, in the essession country alting what the commission tells you, but also to sort of have very strong opinions where the regulation doesn't work which needs to be changes start talking about that. Because I also think that unlike where Estonia was in two thousand four, I think if Ukraine today has opinions on you legislation, those are interesting, and I think sincerely the people worrying about how do we make Europe more competitive want to hear that. And I think those are different perspective there. So yeah, there's a bit of a die. They've there and they're definitely some areas of regulation where maybe if Ukraine were doing things completely on their own, may be a little bit more deregulatory. But I also think that they're learning how you sort of work within that process and the upsides also very clear, which is the market access in being part of Europe. I would also have a long list of issues where I wish Ukraine with change you religiouslation also along the way. I'll give that later too, but Anika, you are working in the area, which is not perhaps toward once the go around you Ukraine, you can see still a lot of Soviet Union in especially construction area. So how do you see those principles and opportunities of reconstruction of reconstructing Ukraine, it's not like coding different country. Indead, it's not like coding, but I was still pull some parallels because the innovation should also come in the construction sector that I am then representing the regulations and everything, the approach needs to be changed, the mindset needs to be also changed and this is today like really great opportunity to Ukraine to be the leader in this fields. And you Luke much more forward, much could be done even more. So your company has been in Ukraine, I think, for the longest around the table before the war and having quite a successful model of business and doing things, including advising government of Ukraine for a long period of time. So how do you see this now? Do you also feel a difference of, you know, attitude before the war and now after? Yeah, thank you. Yes, our company have been acting in Ukraine. I don't twenty years, I think, or something like that. So along time before the war. I would say that before the war, we had their only, I don't know, ten, fifteen people working, but not right now, almost one hundred. And so on. So from the industry side, we definitely see that as Lucas mentioned that defense industry is number one, there is a huge demand, but also the relate of competence from different countries. But also other fields really strive for this innovation and development specially, for example, healthcare, education, the resulso the big, big market for that industry, but also construction. One company came to us in during one project and vision, not to just build up again kind of ordinary houses at the city sense again, but just to establish a really new smart and innovation area of Ukraine. And something that have been never done before and actually this is a really great opportunity for all other remember states definitely for Estonian companies to really partner up and do something that have been done never before. And this is opportunity right now there. And that we see actually in our every day work in Civitan. This discussion is not happening in the void because I think very recently in the Ukraine reconstruction conference in Rome, I think it was a greed or asked also by President Zelensky of Estonia to host, Ukraine reconstruction Conference in two thousand twenty-seven. So I think this is a very, very big challenge for such a small country to host and also a great honor. And of course, president of Ukraine has asked for marshal plan now to be discussed and not only like, you know, one side offering the money and the other side doing the building. But doing this in collaboraty way. So Maxim, what should be done maybe differently than what we do today? And should we actually rebuild during the war? Maybe we should just give you minitarian assistance and wait until next Friday. A good question. For this very important decision to cost Ukrainian reconstruction conference into thousand twenty-seven. I know that Estonia likes challenges so that will be one more. But of course, now this construction conferences it is more about the future, more about something, more about plants and projects. And I would like to mention several more principles, if I may obvious reconstruction and recovery. And second thing is funding of financing. Of course, we will be really grateful to our international partners to provide us financial assistance in the mershall plan. In reversode, pea, I mean, it's the call is to, you know, work both and what would make it easier for Estonians to work in, I mean, based on your experience in doing projects with the authorities, you also Annica, what would make it easier for you to do this together? You mean what would make easier to start. Instruction, reconstruction process from because, you know, at one and these Ukraine in really big need and there is the call from president Zelenski to do this together. What would make it easier based on this experience, you know, to make that never easier for Estonian companies, Estonian Angels, maybe see for society consultances, everyone. Yeah, that is definitely several challenges while you want you start doing something in Ukraine, you need to keep in mind that there is differently the high risk kind of market, risks are for example, related to the war, but also quite complicated, local, administrative processes. Maybe some legislation, but we are not used to and so on. Also the local business culture is really different. But based on our own experience and also based that study that I already mentioned. Maybe the key element is to do things to get our with some local partner. And this is really important think to Geep in mind that just individually enter the market, if you don't have any experience, it's really hard, actually. Share the risks and so on. Like that. And this local partner also helps Estonian companies and then Estonian Businessist to navigate in the Ukraine market. Annika, you are also doing this during the war. So does it also give you an edge during this during the war? I mean, it gives a Ukrainians hope and also is psychologically very important to be present. But what do you see? Exactly, I, I suited believe and when you're asking to we need the mortial plan and when we should like execute that then my answer will be that we should have this as soon as possible and we showed act already today. The new regulations, the new platforms, the digital society, construction regulations, the even the factories it takes so much time and energy. So the sooner that we start de better and the sooner they war ends as well, they better, but we should wait until they end of the war. And what also were like to emphasize that indeed Ukraine, Ukraine itself needs a strategy, but all the rest of the world, also should have a strategy with Ukraine. So actually, the core is actually collaboration and throughout this collaboration, we can learn our companies today already have learned so much about shelters as well, but not only. My answer is, yes, absolutely start now. And I think one of the frustrating things for the Ukrainian government has been a lot of the sort of big capital saying, oh, we definitely want to come in, but we're going to wait. Just to be very direct. I mean, you know, the kind of unspoken question of people's minds, well, if I build something, we'll get blown up. To reader it with the ambased, said, Ukraine is a very big country. Shitlement, which is by no means at the Western end of the country is as far from the active front line as we are right now from Oslo. Just the picture that, right? And furthermore, while we do read about the sometimes hundreds and hundreds of Shaheads and drones and missiles it get launched, Ukraine is very good at air defense. They're not imperfect and yes, Ukraine needs all the patriot batteries they can get, but eighty-five to ninety percent of those things get intercepted. And so, you know, if you want to go and build a really expensive infrastructure object, you know, near Donetz, maybe you want to wit till this more clarity, but if you're thinking about building something, big infrastructural, expensive and shithemat or in Levive or building a factor. I mean, yes, I would be naive to say there is zero risk or that the risk is identical to a country at peace, but it is a manageable risk at something you can factor into the project. So one hundred percent start building and investing not just, of course, a text off in the software. I mean, that's sort of go to the thing, but also the hard physical stuff the, you know, the networks and the electrons and the Adams not just the bits in the bites today. I see actually animal, Indi Ordience have worked with Ukrain and Estonian company is both ways. I don't know if Lember you can give, I don't know if you want to come in and Shera your experience with the audience and maybe encourage also because you have worked extensively with Ukraine and Estonian companies working together. Hello, Hello Kellen and thank you for the word. So we have been working in Ukraines since two thousand seventeen and we have training Ukrainian companies about how to do export. So I think that what we have seen is that I'm so happy that we had a few years before the full-scale invasion to just train thousands of companies. So it means that they adopted the understanding of bit of Western mindset, about how to do businesse abroad and also about the flexibility that is needed. So the SMI sector really managed world during the induring the full-scane invasion in export, keeping the export level almost at the same level like pre-wall and now it's growing. But that means we have really found thousands of companies really interested in export in working with Europeans and also different countries and I always have the call that we should do it together and help them as not as a market in Europe because we are not for Ukraine market, but we can be a breach for Europe or to any other countries. And I would really recommend everyone. So it means that building of the relationship now, I think it's so important because again, it takes time, it takes time even among I was students. But to build the trust as we are stilling here. And then use everyone who is already there, use us with one hundred persons there or all the Estonians who are there and building something actively. Everyone is ready to recommend someone whom you could trust and to the business and I'm exceptually, especially happy who one of our students who has been now signing the third contract with Steve building a shelter probably. Again, one of the students when he just asked that, okay, I would try to participate in Estonian public prokuiment, how would I do it and then we went it through by detailed, helped to find a partner and then really my recommendation for him was that when it the works of starts, now you need to prove that you can actually do it. In some US time, we have billions from United States, from France, from Germany, from anywhere, and it's so difficult to get their brains and you need a partner locally. So thank you, Glenn. Thank you very much. Anu Males from Visionist Institute. But turning around the camera and turning, of course, back here, PR you have studied this now. I mean, it is all nice words that we say and you actually have now recently studied us by for a ministry. Let me also remind that for the expert priorities, Ukraine is not actually priority for our export markets, for Estonian companies officially. It is a priority for development corporation, but not business, business. Yes, thank you. It's bring where we, from one hand, studied what are the Ukrainian market needs? What is actually the potential localitar and from the other side, what is kind of knowledge and already existing goods and services, especially innovative goods and services. And this way we kind of tried to map this two sides together and find what would be the greatest potential that Estonians could keep to Ukraine. These were defense, of course, and construction. But also education, cleantech, and ICT. But some words also about the results or kind of outcome, maybe the first point take in mind or every Estonian business you'd keep in mind that Ukraine is a really high risk, but high word environment. This means that risks are there. But of course there are some other risks that I also mentioned previously, like, quite complex administrative processis, not so familiar legislation and so on. But from the other hand, if you really recognize this risk and have a good plan in place how to mitigate this, there is several programs in place where really help you to minimaze these risk. So this is my kind of one outcome from the report or from the study that be aware of the risks, but you will be definitely higher voard also. The partner really helps you to recognize, local business rules because they are actually different and we have used to hear in Estonia. And I would say that I have heard tens and tens of different stories and really interesting once actually, how Estonian partners have find the cood and reliable and trustful partner there. And these stories all different actually. But this shows that you just need to be active, need to participate in different network events, some business trips, there is several business or industry associations in Estonia, our chamber of commercies very active. And also the Ukraine side shows up really good and high interest to really how to say in you videoly deal with Estonian company, who show up the interest. Or customer somewhere or whatever you need actually, you just need to show up the interest. This is maybe the other point. Ukrainians don't kind of expect just kind of simple sail or just export to Ukraine. They can do its themselves also very innovative things. And they are really to developed actually. They are bright-minded, smart people, they are interested to build up their own country. So they don't expect that someone comes outside and say it, okei, we are no here and help you. They really want to do some innovation together. Of course, the study is fully awailable in Estonian as well as in English and the forty ministri's website, so there is, I think, then pages of recommendations and suggestions if you are interested in this, and I am sure our four ministry colleagues usin as the embassing key of if you don't have connections, this is what we do for daily basis and get paid for. So and we've worked very closely with woodhouse Estonia, to do also that? So maybe Annika? Unfortunate, I haven't seen that yet or but what I actually wanted to really like compliment that, oh, now I, forgot the main, main idea what did I want to addren, but you really think? Or highlight. Oh shoot. In Ukraine digital Society because Trembita is actually helped to be build by or help being build a lot with Estonian experience, but also ecovernent Academy and then Cybernetica Estonian companies have been very, very closely involved. I mean, the other practical place where we see that, of course, a huge amount today's in defense. And it's not, I think it's important, you know, in modern businesses complicated and complex that there's many, many different layers at which that engagement can occur can occur at the level of finding someone who might buy a good a services. It could occur, you know, in the form of a partner with whom to build something together. It can occur in the form of someone you might invest in. We've got a bridge really for more than a decade doing startup accelerate is bring capital there that's now been transformed into this defense technology bridge. So unfortunately, for better for us today, if you want to build a successful European defense technology company, you still need some kind of establishment in the EU because I think from the Ukrainian government perspectively, they want those establishments to be in Ukraine, but that is what it is today. So there's als of this those that Estonia's become the place or the hub for Ukrainian death tech, but use planning to expport to Europe in the world to have their European establishment, to have some of their work that isn't occurring Ukraine really be focused. And that's not just sort of the traditional subcontracting work or custom work that's building much more interesting commercial ecosystems. And I think that's what I hope that we're going to see in other sectors too, that you're going to see a real blending. And anything is a good precedent for this. In the nineties, you know, Estonia was, I think much more chaotic business environment than Ukrainians today. And hundreds and hundreds of thins and sweets personally, and of course, finish and Swedish capital and companies came here. And there wasn't a practical and pragmatic aspect of we see opportunity risks, but also returns, but it was also a sense of mission. Let's go and help this place become a well-developed innovative, you know, clean business environment. And that was a real win-win. I don't think that today Estonia would be as wealth as it is or have the kind of business environment that we do without that involvement, but also the finish in the Swedish capitals than well in those people have built really successful businesses. And that's a kind of dynamic. Of course, not only with Estonia, but that I would hope to see in general between Ukraine and the countries in Europe that really go in there and put their efforts in. But just again, to make the point, there are many, many different layers of interaction. So the first step is just to go and be there and see who's there and discover, you know, interesting partners and this one last element I'd add and then then I'll shut up. As your thought come back to you? Just a little bit. I give you thirty more seconds. So when I was working, this is about government, but it's, I think true Alts on the private sector, when I was working, when I was still in my previous position, they starting government, we were doing some projects with Ukrainian government. We had this reflection that we would have a meeting. And what we were still discussing the meeting notes and, you know, who's going to do what Ukrainians would right back and say, we've done everything we agreed what's next. And so the joke I would make is, look in the nineties, Estonians looked at Skandinavians and Western Europeans and made fun of how slow and bureaucratic they are. And today, as an Estonian, I feel like a scan the Navian, when I'm working with Ukrainians. I mean, the iteration speed and the hunger to move quickly is really big, and part, I mean, yes, we talk about Ukraine maybe in our needing to learn Western business practices or whatnot. I hope they don't learn too much because I also hope this, I mean, part of working in Ukraine is that you get some of that energy and it spills over to you. And so it's not just like what are you do in Ukraine. What are the effects on your teams and your organization here from working with these partners and it can have a really catalyzing effect. You know, when you're working with someone a very different environment, really smart people as everyone's been saying, but frankly, moving faster, that can speedw up again, too. So it's not just what can you do in Ukraine, but how can that partnership transform you more broadly? Just before the world, I make our construction sites were full of Ukrainians. It's not the secret. So mutual relationship in construction sector, at least was already there, even though now it's, of course, more complicated and more complicated for the mail of Ukraine to work in here, et cetera. But it was there already. So when shall we have the first factory, wood house building opened in Ukraine to establish its presence and capitalize on some of that experience and knowledge that we already have. This is like our roll goal and dream to get there and today as well, we have Ukrainians who work interfactories and it was really proud moment for the Ukrainians to actually to build the kindergarden modules the first rekonstructional project for Ukraine. Remember me Taiwan, et later compliment is the really represent also the wide companies perhaps are not feeling to make the investments or why they are, how to say, careful to do collaboration with Ukraines is that really, there are so much fast today going around but the processes it takes time the reforms take time, but all those examples, the kindergarden, the orphan homes ja partner building that is going to be built, et ei tohi olla giv disecurents for the companies. But now transfer directed to your question than we need to companies name of the company eventually is to earn money, right? And the more risk-free it is, they better. Then there will be factories in Ukraine as well. And it's not just like nice, it is a nice dream, but it is really realistic because the companies are considering this. There is the other aspect as well. One thing is to rebuild back Ukraine when the war opens and we can rebuild all the building stock. But actually in the bigger plan and scope, it's also possibility to export from Ukraine to for us, like, also good moment to use, but before that we need to how to say find the fundings and money and kick-off so we are today in the making the baby steps and receiving the first experiences from the market and how to do collaboration and find trustful partnersham you should not be worried, et uut house Estonia fors would pipeline ins in Ukraine. But I'm sure you have had discussions with Ukrainian companies exporting and Estonian companies establishing presence in Ukraine and what kind of conversations are you having and what do you hear back? Oh, first a full I have to say that I hardly appreciate what Estonian components I already do in Ukraine. And when I'm meeting my colleagues international partners, I'm always telling that help Estonians help Ukraine. You don't, maybe you don't have the courage to go on the ground in Ukraine to do something by yourself, but you have fans, you have money, please use this money to help Estonians to multiplicades already implement in Ukraine and it would be of great help and assistance already. But what is really important. Poolish plumbers and Estonian architects who are supposed to do the same. I may be, but I just recently we had visit of Ukraina minister of the culture. So he investment could be also be very important, but also health care as it was mentioned. So my one time, my invitation is to come to Ukraine to beginnir business already now. And of course, use private partners mentioned here I will not enimerate them, but I would like to drow your attention to the fact that Ukraina government, Ukraina minister also ready to step in and to help to find reliable partners and contacts because we have digital services like program, which is called. One way of course, to work in Ukraine is also Step's calls of proposals are, of course, over subscribed, but if you want to try and test out something, many people do, we are our subscribed, four times this year. But one way of entering and trying out is also, is also through us we do this once a year and do see this in the autum. But coming back to you Lucas, I mean, you are one of those who are doing this now, also through us, but we mentioned that the very beginning that Ukrain is now trying to do this innovation strategy and trying to replicate its story of digital transformation now in fourteen areas, in two of those areas, Estonians are working, one is education technology and the other one is AI, which Lucas is on. But I mean, since you are in the machine, do you think that this can be replicated, the productivity goals if Ukrainians are now really starts working on agritect, there will be a new chondere or how would you say someone name. Lucas do you see that now happening? I mean, Ukraine has gone through a massive transformation, really in the last decade. I mean, the society that Ukrainians have built since a euro Maidan is nothing like what you had before in terms of business environment, a lot of corruption. But these things also take a long time. We're talking about a large society, mindset shifts, generational question. So there's no pretending here that there aren't still going to be challenges there and it's primarily Ukrainians that are going to have to do that work. Now to get to them are practical question of the sectors and the sector transformation. Let me sort of tell you some, give you some factors to think about here. The first thing, of course, is just let's look at the fence. A lot of the innovation there has huge spill over effects into other sectors. So everything that's been done in autonomous vehicle and robotics quickly moves into a whole bunch of other areas. Health care, for instance, right? One of the areas of massive innovation has been around prosthetics. Ukraine can produce sort of top grade quality prosthetic limbs at half to a quarter of the price per unit of their Western competitors and there's already a lot of export going on. And that's for a tragic reason, right? That's because the global market, as it were, foresthetic limbs, half of that is now Ukraine. It's actually not true that in terms of people who need it is a lot more in Russia, but there's not much of a market there. And but you also then have the competence that comes out of building all these mil tech solutions. The same thing, let's go into agriculture, right? You're going to have a lot of companies with really good capabilities in terms of building cheap drones, managing fleets of drones, using those to gather intelligence that are going to be building really interesting products to do, you know, drone-based fertilization, mundering agricultural lands, orchestration of the farming process using a lot of robotics there. And we can go through all the sectors and tells him us. First of all just because of the sort of innovation that's been put together and those direct innovation of the products and the services, but there's also the teams that have come out of this. And I think you'll have a dynamic similar to what you have in Israel where the teams that come out of the military may go into something completely unrelated to the military, but they have that go here and they have that sense of purpose. They have that discipline, that lets some very quickly build big new products. So that's the first sort of, I think positive factor that will make that possible. The second positive factor that will contribute to that is just, I mean, there's a basic truism of business, which Estonia rarely gets to sort of experience, which is that activity does follow money flows. And I think in any pretty much any scenare that's going to be a huge money flow into Ukraine because of the reconstruction and the half trillion of damages. And there's clearly a wide variation, how big that is. You could have a very pessimistic scenario. You can have an optimistic scenario of what that is and what the mix of public and private money is. But the fact that matter is there's going to be a huge amount of activity going on anyways, right? And so then the tricky question is, is that activity sort of lower value out and, okay, let's just kind of cookie cutter, you know, we're going to build something that way we built in France or an Estonia today, or is it going to be innovative? That's sort of is the tricky part. But the volume itself is going to be there that creates a space for doing things innovatedly and differently and lets you scale up quickly. And then the last bit is will, right, of people to actually do things differently. And I think it's there. I mean, when you talk to public sector to ministries, like prett much every ministry, the people there, they think a bit like Estonians, right? They're like, okay, how can we set up our regular turnment a different way so that this can all happen? And you see that also in the companies that are really quite hungry to start doing this. So I think they're also, you know, there are some challenges. The first challenge, it's been mentioned several times as a breaucracy. Ukraine actually, you know, has somes of the bureaucratic state, probably from the zarist Aristile, sort of interested of things being very procedural, that's also changing very quickly. We're working on some AI stuff to make that change even faster. So I guess a good news there is it's not a free-frall. I mean Ukraines are actually very like place a lot of emphasis on things need to being done correctly by the book. And sort of being compliant. So we're not talking about going to the Wild west. It's sort of full of like, you know, lack of clear, you know, business practices sometimes even like that needs to be shaking up a little bit. That's one challenge. Obviously the obvious challengers having enough people, having the capital. And I think if you were to look at scenarios today, the really big sort of open question and the ambassador is kind of pointed this already is how will Ukrainians themselves vote with their feet when the war comes to an end. And there's very much two directions that the flow of people could go. You could have a negative scenaria, you now have millions of Ukrainians in Europe. That means it pretty much every family has a foothold somewhere in Europe, right? And so things look really bad to Ukrainians, many, many, many who may be now are staying in part because they have a male on the families and the military can't leave. You could imagine them leaving. You know, you could imagine every Ukrainian family member here this, you know, jobs, they know opportunities, you know, they have an apartment they've rented some, you know, they could move here in Poland, it would be, you know, the order of magnitude is much bigger. And you could also have the other possibility, which is much more optimistic, which is that not all. I think, but many of the Ukrainians actually do vote with their feet and they go back and they see opportunities and they see jobs. And so when I speak with Ukrainians abroad and I asked some very upfront, you know, which is it going to be? And they say to meronestly, look, it's going to depend on what the piece looks like and what things look like. I mean, as individuals, they're all going to sort of be rational actors to some extent. And this, I think, is we can say nice messages about how we have to work on this and we do. But of course, no individual investments going to clearly determine that. I think for me, that is really the biggest question mark, the dynamics of how the piece happens and how the first year two play out are really going to determine what the direction of flow, what the Netflow of people is. And I think that's the kind of, that's the thing that we all can work on, but we can't no one could say with one hundred day will go well or will go poorly. That's, I think, the uncertainty in the world right now around that. Anyone a question or a comment from the audience if any. Please. You get the microphone from just the second. Yeah, but we are on, I think there are audience beside that camera. Hi, if you allow me to shift a little bit from the business opportunities to rather security guarantees related to marsha plan. Thank you so much for this question. One security conditions are mat. So many people are not common back because of this unsecurity of the effect that War is ragion on and now becomes to your question about security guarantees because one thing is to reach whatever kind of sisfire or stops a war at some point and second thing is to bring lost him real last in piis and hea, of course, he understand that it will not happen without security guaranties but this time real security guaranties because what Budapest memorandum it was not a real security guarantee. And I think that it was maybe the biggest mistake of Ukraine in nineteen nineteen ninety-four to science this document. It was not didn't have this technology and it was not possible to use somehow this nuclear weapons. But our mistake was that we believed in this peaceful times, we decided to because nuclear web on, veeapons was not the only security guarantee we have the almost biggest conventional armeen Europe andnud even strateegiation is using against us today was given by Ukrainas because it was based in Ukraina, eks ju. They're completely and acceptable because we perceive our army is the main secured to guarantee, but it is not sufficient from many perspectives. You know that the risk coalition of Vilin and Estonia actually because already manifested intention to joins this collecian villam of many European countries are really ready to come to Ukraine after sisfire is achieved or preliminar pieces achieved and suve security by its presents and military presence cure to guaranti, et sanktsionecually because it's not apanishments we applied to the Russian föderation because of this agression against Ukraine. So marshall plan and economic assistance will be one of the most important secutes to guaranties and actually we have already signed security agreement Estonia and Estonia took how to say samm commitments in this security agreement to provide help and the systems to four years. But I think that this mechanism revised and provide toine the comprehensive system of security guaranties political military and economical and it will be it will contribute inevitably to the security on the European continent. Okei, we have few minutes left. I asked from Lucas and hope to draw from there. I know that, of course, we speak here nice words about Ukraine and where our hearts and mines are with Ukraine, but at the same time, we also see on a daily base is the difficulties. The construction companies are having at the site from the project management, from the supervision of construction to building things. And how can we scale this upsode that so that the reconstruction effort in construction would not go sidewis and would go more the European ways? How can we get like in Estonia after the nineties, get European companies, Candinavian companies as Lucas was saying entering and actually transporting a country as much may be as the legislation that the civil servants drew up based on the Western Experience because I think there is truth in it that the company's did as much as generating a business transparent, corruption free environment as did maybe the civil servants and maybe the security police. So what can be due to scale this up because I know how hard sometimes this is actually on a project-based and actually on the construction site. It's really not yet in the same place as Lucas and his ICT area. Idee it is not in that place, but I will say like experience, experience, experience and still, we have to stand that the war is still ongoing. But when it will ends, then I will be, there will be huge drive of the company's also then entering on the Ukrainian market and soil and then scaling up the business. But you have to start today indeed. And today, what is missing, the funding is missing. We all understand the money that these now in Ukraine in child go in the other segments that are much more crucial like the defense. But from the European side, we should make the investments already today to kick of the projects, perhaps in the Western part of Ukraine. I'm sure be the answer to the next question. Do you see, I mean, there's a lot of, of course, there's a lot of consultancy government to government, especially happening currently trying to Europeanize the country and trying to transpose those experiences, technologies and knowledge in a very, very rapid way. But how can we improve? Because this will be the challenge because we don't want to wait Ukraine to wait for its European door next twenty years or fifty years like Turkey or becoming a joke, like you will discuss this during, the Turkish presidency. So how can we speed this up and do this collective effort? Yes, that the kind of miljard or question, right? Not the one I suggested. Okay, okay. I told to learning that Estonian company's definitely ready. What we make this study in when we interviewed tens and tens of them and I really see the deep interest to enter the market, to find the partners in Ukraine. But then the company has okay, but who will paid for that? What is a money? And what the situation that we saw that Estonian companies are quite small SMS, there are a lot of investment programs available in Europe and around the world that are actually targeted in Ukraine market. But maybe the problem is that they are meant for the really huge investments. And Estonian companies are two small for that. One opportunity is to be subcontractor for some other European company. For example, find someone from Germany, from France, for so on and to kind of be part of that chain, but still get this opportunity, get this funding. So what else, I would say that what we can do is to use more that situation that maybe STEV and utter association and this also Estonian of Chamber of commercial also kind of started in Ukraine that many code example projects already there. And I really feel that Ukraine people and company see Estonians are kind of bit more kind of advanced or kind of how to say in the better position compared to the compared to the other countries. They really understand or kind of see us that we have experience the same situation that they have right now. And this is definitely one advantage that we have. And we really need to use it. For example, in Cavita, we have had similar studies for other countries also. We have done the similar study for Polan, for example. The same thing to Sweden. There is a really huge action plan in Finland how to establish business in Ukraine. So that is other countries that are bit more ready than we are, but I would say that we are that it wanted that Ukrainian CS more kind of as products, let's say so. Very close. Oh, then are you both. Since you are two, so you can. Thanks. They also want to jab that the second thing is that, yes, it's a high risk business to now set up a factory in Ukraine. It's doable, right? You can find a partner, you can do it, this is what we all like expecting and hoping for. But you also have to understand like today, for example, in our sector, we are in a crisis as well. So we cannot allow us to do these type of two risky business. Today, they are two thin. Okei, since wear out of time, I'll draw three points. First, I think everyone here as everyone who wants to work in Ukraine in the future, the first question, I think, after the war inside Ukraine and outside Ukraine will be, what have you been doing these three years lately? So better, better to be on the right side of that question and help you Ukraine now and work in there. It will give you also an age and it want together and as you say brotherhood and sisterhood and emotionally, this is the most rewarding job maybe I've ever done, for example. The second thing I wanted to ask to pay around of applause to or panel and of course, especially to Maximkonnanenko for his service in Estonia for the last years and wishing well for the future. So thank you very much, and see you next time.",
+    "cues": [
+      {
+        "start_seconds": 11.12,
+        "end_seconds": 16.2,
+        "text": "Tervist kõigile, kes on tulnud meie arutelu jälgima ja võib-olla switch now to Engli"
+      },
+      {
+        "start_seconds": 16.2,
+        "end_seconds": 19.52,
+        "text": "sh because we have ambassador of Ukraine amongst us."
+      },
+      {
+        "start_seconds": 19.52,
+        "end_seconds": 36.48,
+        "text": "So we will have a panel in English."
+      },
+      {
+        "start_seconds": 36.48,
+        "end_seconds": 42.96,
+        "text": "These days if everyone is following the news on the meetings upcoming and maybe in U"
+      },
+      {
+        "start_seconds": 42.96,
+        "end_seconds": 44.44,
+        "text": "nited States."
+      },
+      {
+        "start_seconds": 44.44,
+        "end_seconds": 49.08,
+        "text": "And of course, this debate on reconstruction of Ukraine and the Marshall plan has be"
+      },
+      {
+        "start_seconds": 49.08,
+        "end_seconds": 51.56,
+        "text": "en there since the very early days of the beginning."
+      },
+      {
+        "start_seconds": 51.56,
+        "end_seconds": 56.72,
+        "text": "And we are here to discuss where we are how to do this and maybe a little bit more on"
+      },
+      {
+        "start_seconds": 56.72,
+        "end_seconds": 63.08,
+        "text": "the business side of things rather thanther than anything else because we will also have"
+      },
+      {
+        "start_seconds": 63.08,
+        "end_seconds": 68.96,
+        "text": "a discussion after us with on the development financing and there will be specially a"
+      },
+      {
+        "start_seconds": 68.96,
+        "end_seconds": 85.92,
+        "text": "lso can also contribute on where we are with the development corporation at large."
+      },
+      {
+        "start_seconds": 85.92,
+        "end_seconds": 89.16,
+        "text": "But first of all, maybe we'll introduce ourselves."
+      },
+      {
+        "start_seconds": 89.16,
+        "end_seconds": 91.64,
+        "text": "I'm cleany advertis."
+      },
+      {
+        "start_seconds": 91.64,
+        "end_seconds": 96.88,
+        "text": "Corporation Agency."
+      },
+      {
+        "start_seconds": 96.88,
+        "end_seconds": 110.72,
+        "text": "Tervist, my name is Maksim Kannanenko."
+      },
+      {
+        "start_seconds": 110.72,
+        "end_seconds": 116.36,
+        "text": "Enjoy Wale it last?"
+      },
+      {
+        "start_seconds": 116.36,
+        "end_seconds": 118.84,
+        "text": "So, could have to know and everybody."
+      },
+      {
+        "start_seconds": 118.84,
+        "end_seconds": 120.56,
+        "text": "My name is PRX Pinzol."
+      },
+      {
+        "start_seconds": 120.56,
+        "end_seconds": 126.72,
+        "text": "I working as an associate Partner in that advisory Company Civita in Estonia."
+      },
+      {
+        "start_seconds": 126.72,
+        "end_seconds": 168.04,
+        "text": "What is my relations with Ukraine?"
+      },
+      {
+        "start_seconds": 168.04,
+        "end_seconds": 169.72,
+        "text": "Hello, everyone."
+      },
+      {
+        "start_seconds": 169.72,
+        "end_seconds": 174.92,
+        "text": "My name is Annika and I am from Estonian Woodhouse Association."
+      },
+      {
+        "start_seconds": 174.92,
+        "end_seconds": 180.96,
+        "text": "I am the General Manager at this Association, and I am representing the Estonia timber"
+      },
+      {
+        "start_seconds": 180.96,
+        "end_seconds": 187.12,
+        "text": "construction companies and our relations with the Ukraine actually comes from that E"
+      },
+      {
+        "start_seconds": 187.12,
+        "end_seconds": 194.12,
+        "text": "stonian our companies, our member companies have today differsed experiences in rebu"
+      },
+      {
+        "start_seconds": 194.12,
+        "end_seconds": 196.52,
+        "text": "ilding Ukraine."
+      },
+      {
+        "start_seconds": 196.52,
+        "end_seconds": 198.44,
+        "text": "Good afternoon, I'm Lucas Ilves."
+      },
+      {
+        "start_seconds": 198.44,
+        "end_seconds": 203.52,
+        "text": "I'm advisor for artificial Intelligence and Digital transformation to the Deputy Pri"
+      },
+      {
+        "start_seconds": 203.52,
+        "end_seconds": 205.48,
+        "text": "me Minister of Ukraine."
+      },
+      {
+        "start_seconds": 205.48,
+        "end_seconds": 210.44,
+        "text": "And I'm not Ukrainian, but I, you know, like some other people I really have the pri"
+      },
+      {
+        "start_seconds": 210.44,
+        "end_seconds": 214.64,
+        "text": "vilege now of embedding in the Ukrainian government and splitting my time between Ta"
+      },
+      {
+        "start_seconds": 214.64,
+        "end_seconds": 217.0,
+        "text": "llin and Keyve."
+      },
+      {
+        "start_seconds": 217.0,
+        "end_seconds": 222.44,
+        "text": "So this is the panel and we did not assume that everyone who knows actually what the"
+      },
+      {
+        "start_seconds": 222.44,
+        "end_seconds": 227.4,
+        "text": "principles are of the postwar or actually during the wriconstruction."
+      },
+      {
+        "start_seconds": 227.4,
+        "end_seconds": 232.64,
+        "text": "So maybe this is an opportunity may be for because this is a call actually from Presid"
+      },
+      {
+        "start_seconds": 232.64,
+        "end_seconds": 233.84,
+        "text": "ent Zelenskõi."
+      },
+      {
+        "start_seconds": 233.84,
+        "end_seconds": 240.92,
+        "text": "So I asked Maxim to introduce this to us and also address the pertinent or the elep"
+      },
+      {
+        "start_seconds": 240.92,
+        "end_seconds": 247.24,
+        "text": "hant in the room issue because everybody is no reading the news and seeing that Presid"
+      },
+      {
+        "start_seconds": 247.24,
+        "end_seconds": 256.44,
+        "text": "ent Trump will meet, president Putin in Alaska next Friday."
+      },
+      {
+        "start_seconds": 256.44,
+        "end_seconds": 634.4,
+        "text": "So this is a how we start."
+      },
+      {
+        "start_seconds": 634.4,
+        "end_seconds": 639.72,
+        "text": "Thank you very much, Maxim, but as I said that very beginning, I'd like to give you an"
+      },
+      {
+        "start_seconds": 639.72,
+        "end_seconds": 647.28,
+        "text": "opportunity also to since this is the hottest issue of the day about all the rumors"
+      },
+      {
+        "start_seconds": 647.28,
+        "end_seconds": 669.48,
+        "text": "about discussions that are going to happen now in Alaska."
+      },
+      {
+        "start_seconds": 669.48,
+        "end_seconds": 675.64,
+        "text": "So maybe we are not going to discuss all this negotiations, et cetera here on the TV"
+      },
+      {
+        "start_seconds": 675.64,
+        "end_seconds": 684.4,
+        "text": "screens, but maybe just as an opportunity of having maxims presence."
+      },
+      {
+        "start_seconds": 684.4,
+        "end_seconds": 691.32,
+        "text": "Thank you so much, Glen to the really concerned to be ancient also about this last de"
+      },
+      {
+        "start_seconds": 691.32,
+        "end_seconds": 883.92,
+        "text": "velopments."
+      },
+      {
+        "start_seconds": 883.92,
+        "end_seconds": 889.92,
+        "text": "Okei, thank you and well, I'll take the opportunity to return to the original discus"
+      },
+      {
+        "start_seconds": 889.92,
+        "end_seconds": 895.28,
+        "text": "sions and, of course, you may raise a hand as housekeeping rules, I think we are qui"
+      },
+      {
+        "start_seconds": 895.28,
+        "end_seconds": 919.36,
+        "text": "te happy to see questions."
+      },
+      {
+        "start_seconds": 919.36,
+        "end_seconds": 926.64,
+        "text": "And of course, you can show that whole amazing things Ukraine has achieved over on"
+      },
+      {
+        "start_seconds": 926.64,
+        "end_seconds": 928.04,
+        "text": "ly very, very last few years."
+      },
+      {
+        "start_seconds": 928.04,
+        "end_seconds": 932.36,
+        "text": "I don't think anyone has now an argument they cannot build a digital society if they"
+      },
+      {
+        "start_seconds": 932.36,
+        "end_seconds": 938.32,
+        "text": "want to, because Ukraina is now number five in the global ranking of digital societi"
+      },
+      {
+        "start_seconds": 938.32,
+        "end_seconds": 942.44,
+        "text": "es were three, I think, still."
+      },
+      {
+        "start_seconds": 942.44,
+        "end_seconds": 944.84,
+        "text": "And you have been quite close to it."
+      },
+      {
+        "start_seconds": 944.84,
+        "end_seconds": 948.6,
+        "text": "So maybe you can elaborate on this front."
+      },
+      {
+        "start_seconds": 948.6,
+        "end_seconds": 949.44,
+        "text": "Thank you."
+      },
+      {
+        "start_seconds": 949.44,
+        "end_seconds": 951.48,
+        "text": "I will start with a sort of personal note."
+      },
+      {
+        "start_seconds": 951.48,
+        "end_seconds": 956.32,
+        "text": "When I left a public service in Estonia last year, my colleagues Ukraine who might wo"
+      },
+      {
+        "start_seconds": 956.32,
+        "end_seconds": 960.76,
+        "text": "rk with very closely from, really from the escalation of the war in two thous twenty"
+      },
+      {
+        "start_seconds": 960.76,
+        "end_seconds": 962.0,
+        "text": "-two, said, come and work with us."
+      },
+      {
+        "start_seconds": 962.0,
+        "end_seconds": 963.0,
+        "text": "Come join us."
+      },
+      {
+        "start_seconds": 963.0,
+        "end_seconds": 965.16,
+        "text": "And I left at the opportunity for two reasons."
+      },
+      {
+        "start_seconds": 965.16,
+        "end_seconds": 968.8,
+        "text": "One, of course, because like, I think pretty much any Estonian if there's a way to he"
+      },
+      {
+        "start_seconds": 968.8,
+        "end_seconds": 970.16,
+        "text": "lp Ukraine you want to."
+      },
+      {
+        "start_seconds": 970.16,
+        "end_seconds": 974.2,
+        "text": "But also to be very franking to be very selfish because it was probably the most inter"
+      },
+      {
+        "start_seconds": 974.2,
+        "end_seconds": 980.68,
+        "text": "esting thing I could do professionally because basically what, I mean, you know the st"
+      },
+      {
+        "start_seconds": 980.68,
+        "end_seconds": 982.64,
+        "text": "ory of what's happened in warfare, right?"
+      },
+      {
+        "start_seconds": 982.64,
+        "end_seconds": 987.68,
+        "text": "Ukraine has had more innovation as pushed more innovation in robotics and drones in w"
+      },
+      {
+        "start_seconds": 987.68,
+        "end_seconds": 993.04,
+        "text": "arfare in three, four years than all of NATO combined in the previous thirty."
+      },
+      {
+        "start_seconds": 993.04,
+        "end_seconds": 998.76,
+        "text": "Clean already talked about digital government where really the work was already done"
+      },
+      {
+        "start_seconds": 998.76,
+        "end_seconds": 1002.0,
+        "text": "two thousand fourteen to nineteen, but from two thousand nineteen with president Zele"
+      },
+      {
+        "start_seconds": 1002.0,
+        "end_seconds": 1006.8,
+        "text": "nsky and the team that he brought into government, Ukraine has become one of the best"
+      },
+      {
+        "start_seconds": 1006.8,
+        "end_seconds": 1009.64,
+        "text": "digital transformers of the public sector in the world."
+      },
+      {
+        "start_seconds": 1009.64,
+        "end_seconds": 1014.64,
+        "text": "And the stuff we're working on right now really is the coolest stuff in the world."
+      },
+      {
+        "start_seconds": 1014.64,
+        "end_seconds": 1017.0,
+        "text": "And it's by no means limited to those sectors."
+      },
+      {
+        "start_seconds": 1017.0,
+        "end_seconds": 1021.56,
+        "text": "I mean, the model that Ukrainas set up is to be very good at turning adversity."
+      },
+      {
+        "start_seconds": 1021.56,
+        "end_seconds": 1027.68,
+        "text": "And, of course the ingenuity of Ukrainians and others working in Ukraine into really"
+      },
+      {
+        "start_seconds": 1027.68,
+        "end_seconds": 1029.32,
+        "text": "high impact frontier innovation."
+      },
+      {
+        "start_seconds": 1029.32,
+        "end_seconds": 1033.36,
+        "text": "So we now have the govern to Ukraine from the beginning of this here has an innovation"
+      },
+      {
+        "start_seconds": 1033.36,
+        "end_seconds": 1038.64,
+        "text": "strategy where you've identified on key sectors includes drones and autonomous vehic"
+      },
+      {
+        "start_seconds": 1038.64,
+        "end_seconds": 1043.44,
+        "text": "les and includes govtech, but also areas like healthcare and medicine, green technolo"
+      },
+      {
+        "start_seconds": 1043.44,
+        "end_seconds": 1048.68,
+        "text": "gy, agrotech, and so on, where the ambition is to do everything you can from the gover"
+      },
+      {
+        "start_seconds": 1048.68,
+        "end_seconds": 1054.08,
+        "text": "nment side as an ecosystem developer to make Ukraine the best place in the world to do"
+      },
+      {
+        "start_seconds": 1054.08,
+        "end_seconds": 1056.04,
+        "text": "frontier applied innovation."
+      },
+      {
+        "start_seconds": 1056.04,
+        "end_seconds": 1060.04,
+        "text": "And I think if you wanted to kind of define it at a very ambitious level, it's not just"
+      },
+      {
+        "start_seconds": 1060.04,
+        "end_seconds": 1064.08,
+        "text": "to be the shield of Europe and of the West as the ambassad, but it's also to be the in"
+      },
+      {
+        "start_seconds": 1064.08,
+        "end_seconds": 1065.28,
+        "text": "novation lab."
+      },
+      {
+        "start_seconds": 1065.28,
+        "end_seconds": 1068.8,
+        "text": "And unless be cleared as a lot of work that has to be done for that."
+      },
+      {
+        "start_seconds": 1068.8,
+        "end_seconds": 1071.8,
+        "text": "Most of, I mean, part of that work is being done by Ukraine."
+      },
+      {
+        "start_seconds": 1071.8,
+        "end_seconds": 1076.32,
+        "text": "I mean, it's Ukraine and government has to set up the regulator environment has to c"
+      },
+      {
+        "start_seconds": 1076.32,
+        "end_seconds": 1077.52,
+        "text": "reate the possibility."
+      },
+      {
+        "start_seconds": 1077.52,
+        "end_seconds": 1081.2,
+        "text": "There's a lot of innovation, Ukraine a lot of people who have to start building produ"
+      },
+      {
+        "start_seconds": 1081.2,
+        "end_seconds": 1082.04,
+        "text": "cts."
+      },
+      {
+        "start_seconds": 1082.04,
+        "end_seconds": 1086.6,
+        "text": "But the huge opportunity space in huge need for the rest of the world to come in."
+      },
+      {
+        "start_seconds": 1086.6,
+        "end_seconds": 1089.56,
+        "text": "And let's think about that if it's always good when you have an opportunity to think"
+      },
+      {
+        "start_seconds": 1089.56,
+        "end_seconds": 1090.64,
+        "text": "about complements."
+      },
+      {
+        "start_seconds": 1090.64,
+        "end_seconds": 1094.76,
+        "text": "Ukraine has sense of virgincy has an ability to move quickly, but there's a couple of"
+      },
+      {
+        "start_seconds": 1094.76,
+        "end_seconds": 1100.24,
+        "text": "resources that Ukraine is short on, that Ukraine very much needs to reach this ambition"
+      },
+      {
+        "start_seconds": 1100.24,
+        "end_seconds": 1100.48,
+        "text": "."
+      },
+      {
+        "start_seconds": 1100.48,
+        "end_seconds": 1105.6,
+        "text": "The first of those is capital, needs the investments of the world, and this is not tal"
+      },
+      {
+        "start_seconds": 1105.6,
+        "end_seconds": 1107.2,
+        "text": "king about donations and aid."
+      },
+      {
+        "start_seconds": 1107.2,
+        "end_seconds": 1111.56,
+        "text": "We're talking about proper capital that wants to have a return on investment."
+      },
+      {
+        "start_seconds": 1111.56,
+        "end_seconds": 1116.44,
+        "text": "Every kind, you know, higher risk venture capital, the sort of more structural insti"
+      },
+      {
+        "start_seconds": 1116.44,
+        "end_seconds": 1119.88,
+        "text": "tutional capital, bonds, the whole sort of Panapley."
+      },
+      {
+        "start_seconds": 1119.88,
+        "end_seconds": 1126.96,
+        "text": "The second is the talent and the know-how of the world'"
+      },
+      {
+        "start_seconds": 1126.96,
+        "end_seconds": 1130.0,
+        "text": "s most innovative teams and companies across the world."
+      },
+      {
+        "start_seconds": 1130.0,
+        "end_seconds": 1133.96,
+        "text": "So there's a huge ability, you know, and an opportunity there for people working on s"
+      },
+      {
+        "start_seconds": 1133.96,
+        "end_seconds": 1139.24,
+        "text": "tuff in the lab ambitions commercially to come to Ukraine and deploy that."
+      },
+      {
+        "start_seconds": 1139.24,
+        "end_seconds": 1141.48,
+        "text": "Now, most obviously that's the case in the military, right?"
+      },
+      {
+        "start_seconds": 1141.48,
+        "end_seconds": 1145.52,
+        "text": "I mean, I think Estonians know the stories of how Estonian companies working on defe"
+      },
+      {
+        "start_seconds": 1145.52,
+        "end_seconds": 1149.92,
+        "text": "nse, you know, they go to Ukraine and you get a twenty-four-hour feedback cycle."
+      },
+      {
+        "start_seconds": 1149.92,
+        "end_seconds": 1153.92,
+        "text": "But this is also going to be true in a lot of these other sectors that we've talked about"
+      },
+      {
+        "start_seconds": 1153.92,
+        "end_seconds": 1154.08,
+        "text": "."
+      },
+      {
+        "start_seconds": 1154.08,
+        "end_seconds": 1157.12,
+        "text": "And it's not just because the government has an eye strategy."
+      },
+      {
+        "start_seconds": 1157.12,
+        "end_seconds": 1161.96,
+        "text": "Everyone can do an eye strategy on a material level, it's because that same adversit"
+      },
+      {
+        "start_seconds": 1161.96,
+        "end_seconds": 1163.56,
+        "text": "y is going to be there."
+      },
+      {
+        "start_seconds": 1163.56,
+        "end_seconds": 1168.0,
+        "text": "Ukraine has massive challenges also and reconstruction, health care, right?"
+      },
+      {
+        "start_seconds": 1168.0,
+        "end_seconds": 1171.28,
+        "text": "Hundreds of thousands of veterans, two hundred thousand mps."
+      },
+      {
+        "start_seconds": 1171.28,
+        "end_seconds": 1175.48,
+        "text": "If you think about the mental health challenges for society coming out of war massive"
+      },
+      {
+        "start_seconds": 1175.48,
+        "end_seconds": 1181.52,
+        "text": "agriculture, the need to sort of continue to be a bread basket to the world, anything"
+      },
+      {
+        "start_seconds": 1181.52,
+        "end_seconds": 1185.52,
+        "text": "around energy and environment, you're going to have to rebuild the, you know, the ene"
+      },
+      {
+        "start_seconds": 1185.52,
+        "end_seconds": 1189.28,
+        "text": "rgy grid, not that it's all been destroyed, but you have enough destroyed enough capi"
+      },
+      {
+        "start_seconds": 1189.28,
+        "end_seconds": 1193.8,
+        "text": "tal coming and you have a chance to rebuild, you know, the newest best energy grid in"
+      },
+      {
+        "start_seconds": 1193.8,
+        "end_seconds": 1194.88,
+        "text": "Europe."
+      },
+      {
+        "start_seconds": 1194.88,
+        "end_seconds": 1198.8,
+        "text": "So what my prediction and my hope is, but this is something that's going to acquire all"
+      },
+      {
+        "start_seconds": 1198.8,
+        "end_seconds": 1203.08,
+        "text": "of us to participate is that Ukraine can continue doing in peace time what it's done"
+      },
+      {
+        "start_seconds": 1203.08,
+        "end_seconds": 1207.44,
+        "text": "in more time which is to be the innovation lab for the collective west."
+      },
+      {
+        "start_seconds": 1207.44,
+        "end_seconds": 1211.0,
+        "text": "And so it's not going to finish and saying it's not an accent that the name of this in"
+      },
+      {
+        "start_seconds": 1211.0,
+        "end_seconds": 1214.56,
+        "text": "novation strategy that we announce the beginning of this year is he win-win in innova"
+      },
+      {
+        "start_seconds": 1214.56,
+        "end_seconds": 1215.48,
+        "text": "tion strategy."
+      },
+      {
+        "start_seconds": 1215.48,
+        "end_seconds": 1219.32,
+        "text": "So there's clearly a lot for Ukraine to win from bringing the rest of the world into"
+      },
+      {
+        "start_seconds": 1219.32,
+        "end_seconds": 1222.92,
+        "text": "reconstruction and doing and really doing innovation as we do it."
+      },
+      {
+        "start_seconds": 1222.92,
+        "end_seconds": 1225.24,
+        "text": "But there's also a lot for the rest of the world to in."
+      },
+      {
+        "start_seconds": 1225.24,
+        "end_seconds": 1228.8,
+        "text": "Now, I think about all the challenges that Europe talks about with its economic comp"
+      },
+      {
+        "start_seconds": 1228.8,
+        "end_seconds": 1234.16,
+        "text": "etitiveness and so on, then the invitation to Europe is let Ukraine be the engine for"
+      },
+      {
+        "start_seconds": 1234.16,
+        "end_seconds": 1236.72,
+        "text": "your innovation."
+      },
+      {
+        "start_seconds": 1236.72,
+        "end_seconds": 1243.36,
+        "text": "But I know that in your previous life, you have also been the EU ner person and quite"
+      },
+      {
+        "start_seconds": 1243.36,
+        "end_seconds": 1248.24,
+        "text": "closely seen, you know, what do you is blamed for like GDPR and all this kind of nice"
+      },
+      {
+        "start_seconds": 1248.24,
+        "end_seconds": 1248.84,
+        "text": "things."
+      },
+      {
+        "start_seconds": 1248.84,
+        "end_seconds": 1255.88,
+        "text": "And as ambassador said, Ukraine is now taking also Europe as it's one of the princip"
+      },
+      {
+        "start_seconds": 1255.88,
+        "end_seconds": 1257.4,
+        "text": "les of reconstruction."
+      },
+      {
+        "start_seconds": 1257.4,
+        "end_seconds": 1262.44,
+        "text": "Do you see any contradiction in this, in this devor?"
+      },
+      {
+        "start_seconds": 1262.44,
+        "end_seconds": 1277.08,
+        "text": "And do you see really inside some of those discussions, this is taken seriously."
+      },
+      {
+        "start_seconds": 1277.08,
+        "end_seconds": 1281.72,
+        "text": "And unlike when Estonia joined, where the question was, okay, but the day you join you"
+      },
+      {
+        "start_seconds": 1281.72,
+        "end_seconds": 1285.24,
+        "text": "have to be full of compliant, there's a roadmap where a lot of the EU regulation has"
+      },
+      {
+        "start_seconds": 1285.24,
+        "end_seconds": 1287.4,
+        "text": "to be adopted now."
+      },
+      {
+        "start_seconds": 1287.4,
+        "end_seconds": 1290.6,
+        "text": "I won't lie and say that this is never a source of tension."
+      },
+      {
+        "start_seconds": 1290.6,
+        "end_seconds": 1295.56,
+        "text": "I once had one of the sort of policy where technical people come to me and say, EUAI"
+      },
+      {
+        "start_seconds": 1295.56,
+        "end_seconds": 1296.88,
+        "text": "act, it's a disaster."
+      },
+      {
+        "start_seconds": 1296.88,
+        "end_seconds": 1297.68,
+        "text": "Can we not do it?"
+      },
+      {
+        "start_seconds": 1297.68,
+        "end_seconds": 1300.48,
+        "text": "And I was like, I bet news for you, you know?"
+      },
+      {
+        "start_seconds": 1300.48,
+        "end_seconds": 1302.88,
+        "text": "Ukraine people decides to join the EU."
+      },
+      {
+        "start_seconds": 1302.88,
+        "end_seconds": 1304.6,
+        "text": "This is part of the deal."
+      },
+      {
+        "start_seconds": 1304.6,
+        "end_seconds": 1307.88,
+        "text": "But this is, of course, I mean, I would say Ukraine is going to be the twenty-eighth"
+      },
+      {
+        "start_seconds": 1307.88,
+        "end_seconds": 1312.0,
+        "text": "country dealing with these trade-offs of how the sort of regula turn environment of the"
+      },
+      {
+        "start_seconds": 1312.0,
+        "end_seconds": 1312.76,
+        "text": "single market works."
+      },
+      {
+        "start_seconds": 1312.76,
+        "end_seconds": 1315.08,
+        "text": "So there's also no deep tragedy there."
+      },
+      {
+        "start_seconds": 1315.08,
+        "end_seconds": 1318.56,
+        "text": "And my message actually, to my Ukrainian colleagues is constantly okay, you're not y"
+      },
+      {
+        "start_seconds": 1318.56,
+        "end_seconds": 1322.56,
+        "text": "et a member state, but it's really for everyone dealing with this process to start think"
+      },
+      {
+        "start_seconds": 1322.56,
+        "end_seconds": 1327.0,
+        "text": "ing like their member state behind the table, not just pat, you do have to frankly, you"
+      },
+      {
+        "start_seconds": 1327.0,
+        "end_seconds": 1331.96,
+        "text": "know, in the essession country alting what the commission tells you, but also to sor"
+      },
+      {
+        "start_seconds": 1331.96,
+        "end_seconds": 1335.76,
+        "text": "t of have very strong opinions where the regulation doesn't work which needs to be c"
+      },
+      {
+        "start_seconds": 1335.76,
+        "end_seconds": 1337.16,
+        "text": "hanges start talking about that."
+      },
+      {
+        "start_seconds": 1337.16,
+        "end_seconds": 1340.88,
+        "text": "Because I also think that unlike where Estonia was in two thousand four, I think if U"
+      },
+      {
+        "start_seconds": 1340.88,
+        "end_seconds": 1344.92,
+        "text": "kraine today has opinions on you legislation, those are interesting, and I think sin"
+      },
+      {
+        "start_seconds": 1344.92,
+        "end_seconds": 1349.32,
+        "text": "cerely the people worrying about how do we make Europe more competitive want to hear"
+      },
+      {
+        "start_seconds": 1349.32,
+        "end_seconds": 1349.48,
+        "text": "that."
+      },
+      {
+        "start_seconds": 1349.48,
+        "end_seconds": 1351.68,
+        "text": "And I think those are different perspective there."
+      },
+      {
+        "start_seconds": 1351.68,
+        "end_seconds": 1353.16,
+        "text": "So yeah, there's a bit of a die."
+      },
+      {
+        "start_seconds": 1353.16,
+        "end_seconds": 1358.88,
+        "text": "They've there and they're definitely some areas of regulation where maybe if Ukraine"
+      },
+      {
+        "start_seconds": 1358.88,
+        "end_seconds": 1363.08,
+        "text": "were doing things completely on their own, may be a little bit more deregulatory."
+      },
+      {
+        "start_seconds": 1363.08,
+        "end_seconds": 1367.28,
+        "text": "But I also think that they're learning how you sort of work within that process and the"
+      },
+      {
+        "start_seconds": 1367.28,
+        "end_seconds": 1371.12,
+        "text": "upsides also very clear, which is the market access in being part of Europe."
+      },
+      {
+        "start_seconds": 1371.12,
+        "end_seconds": 1375.76,
+        "text": "I would also have a long list of issues where I wish Ukraine with change you religio"
+      },
+      {
+        "start_seconds": 1375.76,
+        "end_seconds": 1377.56,
+        "text": "uslation also along the way."
+      },
+      {
+        "start_seconds": 1377.56,
+        "end_seconds": 1382.0,
+        "text": "I'll give that later too, but Anika, you are working in the area, which is not perha"
+      },
+      {
+        "start_seconds": 1382.0,
+        "end_seconds": 1389.2,
+        "text": "ps toward once the go around you Ukraine, you can see still a lot of Soviet Uni"
+      },
+      {
+        "start_seconds": 1389.2,
+        "end_seconds": 1392.08,
+        "text": "on in especially construction area."
+      },
+      {
+        "start_seconds": 1392.08,
+        "end_seconds": 1397.56,
+        "text": "So how do you see those principles and opportunities of reconstruction of reconstruc"
+      },
+      {
+        "start_seconds": 1397.56,
+        "end_seconds": 1402.96,
+        "text": "ting Ukraine, it's not like coding different country."
+      },
+      {
+        "start_seconds": 1402.96,
+        "end_seconds": 1410.04,
+        "text": "Indead, it's not like coding, but I was still pull some parallels because the innova"
+      },
+      {
+        "start_seconds": 1410.04,
+        "end_seconds": 1415.04,
+        "text": "tion should also come in the construction sector that I am then representing the regu"
+      },
+      {
+        "start_seconds": 1415.04,
+        "end_seconds": 1418.4,
+        "text": "lations and everything, the approach needs to be changed, the mindset needs to be al"
+      },
+      {
+        "start_seconds": 1418.4,
+        "end_seconds": 1423.0,
+        "text": "so changed and this is today like really great opportunity to Ukraine to be the lead"
+      },
+      {
+        "start_seconds": 1423.0,
+        "end_seconds": 1460.32,
+        "text": "er in this fields."
+      },
+      {
+        "start_seconds": 1460.32,
+        "end_seconds": 1466.52,
+        "text": "And you Luke much more forward, much could be done even more."
+      },
+      {
+        "start_seconds": 1466.52,
+        "end_seconds": 1474.24,
+        "text": "So your company has been in Ukraine, I think, for the longest around the"
+      },
+      {
+        "start_seconds": 1474.24,
+        "end_seconds": 1481.4,
+        "text": "table before the war and having quite a successful model of business and doing thing"
+      },
+      {
+        "start_seconds": 1481.4,
+        "end_seconds": 1485.76,
+        "text": "s, including advising government of Ukraine for a long period of time."
+      },
+      {
+        "start_seconds": 1485.76,
+        "end_seconds": 1487.84,
+        "text": "So how do you see this now?"
+      },
+      {
+        "start_seconds": 1487.84,
+        "end_seconds": 1495.68,
+        "text": "Do you also feel a difference of, you know, attitude before the war and now after"
+      },
+      {
+        "start_seconds": 1495.68,
+        "end_seconds": 1495.84,
+        "text": "?"
+      },
+      {
+        "start_seconds": 1495.84,
+        "end_seconds": 1497.12,
+        "text": "Yeah, thank you."
+      },
+      {
+        "start_seconds": 1497.12,
+        "end_seconds": 1500.8,
+        "text": "Yes, our company have been acting in Ukraine."
+      },
+      {
+        "start_seconds": 1500.8,
+        "end_seconds": 1503.56,
+        "text": "I don't twenty years, I think, or something like that."
+      },
+      {
+        "start_seconds": 1503.56,
+        "end_seconds": 1508.36,
+        "text": "So along time before the war."
+      },
+      {
+        "start_seconds": 1508.36,
+        "end_seconds": 1515.24,
+        "text": "I would say that before the war, we had their only, I don't know, ten, fifteen people"
+      },
+      {
+        "start_seconds": 1515.24,
+        "end_seconds": 1550.72,
+        "text": "working, but not right now, almost one hundred."
+      },
+      {
+        "start_seconds": 1550.72,
+        "end_seconds": 1552.36,
+        "text": "And so on."
+      },
+      {
+        "start_seconds": 1552.36,
+        "end_seconds": 1559.44,
+        "text": "So from the industry side, we definitely see that as Lucas me"
+      },
+      {
+        "start_seconds": 1559.44,
+        "end_seconds": 1566.72,
+        "text": "ntioned that defense industry is number one, there is a huge demand, but also"
+      },
+      {
+        "start_seconds": 1566.72,
+        "end_seconds": 1571.24,
+        "text": "the relate of competence from different countries."
+      },
+      {
+        "start_seconds": 1571.24,
+        "end_seconds": 1580.16,
+        "text": "But also other fields really strive for this innovation and development"
+      },
+      {
+        "start_seconds": 1580.16,
+        "end_seconds": 1587.2,
+        "text": "specially, for example, healthcare, education, the resulso the big, big market for that"
+      },
+      {
+        "start_seconds": 1587.2,
+        "end_seconds": 1590.6,
+        "text": "industry, but also construction."
+      },
+      {
+        "start_seconds": 1590.6,
+        "end_seconds": 1597.8,
+        "text": "One company came to us in during one project and vision, not to just b"
+      },
+      {
+        "start_seconds": 1597.8,
+        "end_seconds": 1605.04,
+        "text": "uild up again kind of ordinary houses at the city sense again, but just to"
+      },
+      {
+        "start_seconds": 1605.04,
+        "end_seconds": 1616.84,
+        "text": "establish a really new smart and innovation area of Ukraine."
+      },
+      {
+        "start_seconds": 1616.84,
+        "end_seconds": 1621.68,
+        "text": "And something that have been never done before and actually this is a really great o"
+      },
+      {
+        "start_seconds": 1621.68,
+        "end_seconds": 1627.16,
+        "text": "pportunity for all other remember states definitely for Estonian companies to really"
+      },
+      {
+        "start_seconds": 1627.16,
+        "end_seconds": 1632.96,
+        "text": "partner up and do something that have been done never before."
+      },
+      {
+        "start_seconds": 1632.96,
+        "end_seconds": 1635.64,
+        "text": "And this is opportunity right now there."
+      },
+      {
+        "start_seconds": 1635.64,
+        "end_seconds": 1640.96,
+        "text": "And that we see actually in our every day work in Civitan."
+      },
+      {
+        "start_seconds": 1640.96,
+        "end_seconds": 1646.96,
+        "text": "This discussion is not happening in the void because I think very recently in the Uk"
+      },
+      {
+        "start_seconds": 1646.96,
+        "end_seconds": 1652.68,
+        "text": "raine reconstruction conference in Rome, I think it was a greed or asked also by Pre"
+      },
+      {
+        "start_seconds": 1652.68,
+        "end_seconds": 1657.2,
+        "text": "sident Zelensky of Estonia to host, Ukraine reconstruction Conference in two thousand"
+      },
+      {
+        "start_seconds": 1657.2,
+        "end_seconds": 1658.88,
+        "text": "twenty-seven."
+      },
+      {
+        "start_seconds": 1658.88,
+        "end_seconds": 1663.36,
+        "text": "So I think this is a very, very big challenge for such a small country to host and a"
+      },
+      {
+        "start_seconds": 1663.36,
+        "end_seconds": 1690.08,
+        "text": "lso a great honor."
+      },
+      {
+        "start_seconds": 1690.08,
+        "end_seconds": 1697.32,
+        "text": "And of course, president of Ukraine has asked for marshal plan now to be discussed and"
+      },
+      {
+        "start_seconds": 1697.32,
+        "end_seconds": 1701.12,
+        "text": "not only like, you know, one side offering the money and the other side doing the bu"
+      },
+      {
+        "start_seconds": 1701.12,
+        "end_seconds": 1701.88,
+        "text": "ilding."
+      },
+      {
+        "start_seconds": 1701.88,
+        "end_seconds": 1704.84,
+        "text": "But doing this in collaboraty way."
+      },
+      {
+        "start_seconds": 1704.84,
+        "end_seconds": 1710.24,
+        "text": "So Maxim, what should be done maybe differently than what we do today?"
+      },
+      {
+        "start_seconds": 1710.24,
+        "end_seconds": 1712.68,
+        "text": "And should we actually rebuild during the war?"
+      },
+      {
+        "start_seconds": 1712.68,
+        "end_seconds": 1719.04,
+        "text": "Maybe we should just give you minitarian assistance and wait until next Friday."
+      },
+      {
+        "start_seconds": 1719.04,
+        "end_seconds": 1722.28,
+        "text": "A good question."
+      },
+      {
+        "start_seconds": 1722.28,
+        "end_seconds": 1728.16,
+        "text": "For this very important decision to cost Ukrainian reconstruction conference into tho"
+      },
+      {
+        "start_seconds": 1728.16,
+        "end_seconds": 1732.8,
+        "text": "usand twenty-seven."
+      },
+      {
+        "start_seconds": 1732.8,
+        "end_seconds": 1738.72,
+        "text": "I know that Estonia likes challenges so that will be one more."
+      },
+      {
+        "start_seconds": 1738.72,
+        "end_seconds": 1745.28,
+        "text": "But of course, now this construction conferences it is more about the future, more about"
+      },
+      {
+        "start_seconds": 1745.28,
+        "end_seconds": 1914.92,
+        "text": "something, more about plants and projects."
+      },
+      {
+        "start_seconds": 1914.92,
+        "end_seconds": 1920.04,
+        "text": "And I would like to mention several more principles, if I may obvious reconstruction"
+      },
+      {
+        "start_seconds": 1920.04,
+        "end_seconds": 1980.88,
+        "text": "and recovery."
+      },
+      {
+        "start_seconds": 1980.88,
+        "end_seconds": 1984.16,
+        "text": "And second thing is funding of financing."
+      },
+      {
+        "start_seconds": 1984.16,
+        "end_seconds": 1990.2,
+        "text": "Of course, we will be really grateful to our international partners to provide us fi"
+      },
+      {
+        "start_seconds": 1990.2,
+        "end_seconds": 2046.72,
+        "text": "nancial assistance in the mershall plan."
+      },
+      {
+        "start_seconds": 2046.72,
+        "end_seconds": 2053.52,
+        "text": "In reversode, pea, I mean, it's the call is to, you know, work both and what would ma"
+      },
+      {
+        "start_seconds": 2053.52,
+        "end_seconds": 2059.2,
+        "text": "ke it easier for Estonians to work in, I mean, based on your experience in doing pro"
+      },
+      {
+        "start_seconds": 2059.2,
+        "end_seconds": 2066.6,
+        "text": "jects with the authorities, you also Annica, what would make it easier for you to do"
+      },
+      {
+        "start_seconds": 2066.6,
+        "end_seconds": 2069.16,
+        "text": "this together?"
+      },
+      {
+        "start_seconds": 2069.16,
+        "end_seconds": 2072.48,
+        "text": "You mean what would make easier to start."
+      },
+      {
+        "start_seconds": 2072.48,
+        "end_seconds": 2077.6,
+        "text": "Instruction, reconstruction process from because, you know, at one and these Ukraine"
+      },
+      {
+        "start_seconds": 2077.6,
+        "end_seconds": 2083.44,
+        "text": "in really big need and there is the call from president Zelenski to do this together"
+      },
+      {
+        "start_seconds": 2083.44,
+        "end_seconds": 2083.56,
+        "text": "."
+      },
+      {
+        "start_seconds": 2083.56,
+        "end_seconds": 2089.56,
+        "text": "What would make it easier based on this experience, you know, to make that never easi"
+      },
+      {
+        "start_seconds": 2089.56,
+        "end_seconds": 2096.44,
+        "text": "er for Estonian companies, Estonian Angels, maybe see for society consultances, ever"
+      },
+      {
+        "start_seconds": 2096.44,
+        "end_seconds": 2097.6,
+        "text": "yone."
+      },
+      {
+        "start_seconds": 2097.6,
+        "end_seconds": 2104.72,
+        "text": "Yeah, that is definitely several challenges while you want you start doing something"
+      },
+      {
+        "start_seconds": 2104.72,
+        "end_seconds": 2111.4,
+        "text": "in Ukraine, you need to keep in mind that there is differently the high risk kind of"
+      },
+      {
+        "start_seconds": 2111.4,
+        "end_seconds": 2118.64,
+        "text": "market, risks are for example, related to the war, but also quite co"
+      },
+      {
+        "start_seconds": 2118.64,
+        "end_seconds": 2123.92,
+        "text": "mplicated, local, administrative processes."
+      },
+      {
+        "start_seconds": 2123.92,
+        "end_seconds": 2128.72,
+        "text": "Maybe some legislation, but we are not used to and so on."
+      },
+      {
+        "start_seconds": 2128.72,
+        "end_seconds": 2132.36,
+        "text": "Also the local business culture is really different."
+      },
+      {
+        "start_seconds": 2132.36,
+        "end_seconds": 2139.28,
+        "text": "But based on our own experience and also based that study that I already mentioned."
+      },
+      {
+        "start_seconds": 2139.28,
+        "end_seconds": 2146.0,
+        "text": "Maybe the key element is to do things to get our with some local partner."
+      },
+      {
+        "start_seconds": 2146.0,
+        "end_seconds": 2153.44,
+        "text": "And this is really important think to Geep in mind that just"
+      },
+      {
+        "start_seconds": 2153.44,
+        "end_seconds": 2158.32,
+        "text": "individually enter the market, if you don't have any experience, it's really hard, a"
+      },
+      {
+        "start_seconds": 2158.32,
+        "end_seconds": 2199.76,
+        "text": "ctually."
+      },
+      {
+        "start_seconds": 2199.76,
+        "end_seconds": 2209.52,
+        "text": "Share the risks and so on."
+      },
+      {
+        "start_seconds": 2209.52,
+        "end_seconds": 2210.8,
+        "text": "Like that."
+      },
+      {
+        "start_seconds": 2210.8,
+        "end_seconds": 2217.84,
+        "text": "And this local partner also helps Estonian companies and then Estonian Businessist to"
+      },
+      {
+        "start_seconds": 2217.84,
+        "end_seconds": 2222.88,
+        "text": "navigate in the Ukraine market."
+      },
+      {
+        "start_seconds": 2222.88,
+        "end_seconds": 2227.24,
+        "text": "Annika, you are also doing this during the war."
+      },
+      {
+        "start_seconds": 2227.24,
+        "end_seconds": 2231.04,
+        "text": "So does it also give you an edge during this during the war?"
+      },
+      {
+        "start_seconds": 2231.04,
+        "end_seconds": 2235.12,
+        "text": "I mean, it gives a Ukrainians hope and also is psychologically very important to be p"
+      },
+      {
+        "start_seconds": 2235.12,
+        "end_seconds": 2236.28,
+        "text": "resent."
+      },
+      {
+        "start_seconds": 2236.28,
+        "end_seconds": 2238.76,
+        "text": "But what do you see?"
+      },
+      {
+        "start_seconds": 2238.76,
+        "end_seconds": 2245.48,
+        "text": "Exactly, I, I suited believe and when you're asking to we need the mortial plan and when"
+      },
+      {
+        "start_seconds": 2245.48,
+        "end_seconds": 2250.88,
+        "text": "we should like execute that then my answer will be that we should have this as soon a"
+      },
+      {
+        "start_seconds": 2250.88,
+        "end_seconds": 2273.92,
+        "text": "s possible and we showed act already today."
+      },
+      {
+        "start_seconds": 2273.92,
+        "end_seconds": 2279.76,
+        "text": "The new regulations, the new platforms, the digital society, construction regulation"
+      },
+      {
+        "start_seconds": 2279.76,
+        "end_seconds": 2285.92,
+        "text": "s, the even the factories it takes so much time and energy."
+      },
+      {
+        "start_seconds": 2285.92,
+        "end_seconds": 2293.08,
+        "text": "So the sooner that we start de better and the sooner they war ends a"
+      },
+      {
+        "start_seconds": 2293.08,
+        "end_seconds": 2297.76,
+        "text": "s well, they better, but we should wait until they end of the war."
+      },
+      {
+        "start_seconds": 2297.76,
+        "end_seconds": 2304.84,
+        "text": "And what also were like to emphasize that indeed Ukraine, Ukraine itse"
+      },
+      {
+        "start_seconds": 2304.84,
+        "end_seconds": 2312.0,
+        "text": "lf needs a strategy, but all the rest of the world, also should have a strategy with"
+      },
+      {
+        "start_seconds": 2312.0,
+        "end_seconds": 2328.0,
+        "text": "Ukraine."
+      },
+      {
+        "start_seconds": 2328.0,
+        "end_seconds": 2334.24,
+        "text": "So actually, the core is actually collaboration and throughout this collaboration, we"
+      },
+      {
+        "start_seconds": 2334.24,
+        "end_seconds": 2341.4,
+        "text": "can learn our companies today already have learned so much about s"
+      },
+      {
+        "start_seconds": 2341.4,
+        "end_seconds": 2376.76,
+        "text": "helters as well, but not only."
+      },
+      {
+        "start_seconds": 2376.76,
+        "end_seconds": 2378.96,
+        "text": "My answer is, yes, absolutely start now."
+      },
+      {
+        "start_seconds": 2378.96,
+        "end_seconds": 2382.12,
+        "text": "And I think one of the frustrating things for the Ukrainian government has been a lo"
+      },
+      {
+        "start_seconds": 2382.12,
+        "end_seconds": 2385.72,
+        "text": "t of the sort of big capital saying, oh, we definitely want to come in, but we're go"
+      },
+      {
+        "start_seconds": 2385.72,
+        "end_seconds": 2388.6,
+        "text": "ing to wait."
+      },
+      {
+        "start_seconds": 2388.6,
+        "end_seconds": 2389.72,
+        "text": "Just to be very direct."
+      },
+      {
+        "start_seconds": 2389.72,
+        "end_seconds": 2394.04,
+        "text": "I mean, you know, the kind of unspoken question of people's minds, well, if I build so"
+      },
+      {
+        "start_seconds": 2394.04,
+        "end_seconds": 2396.32,
+        "text": "mething, we'll get blown up."
+      },
+      {
+        "start_seconds": 2396.32,
+        "end_seconds": 2399.16,
+        "text": "To reader it with the ambased, said, Ukraine is a very big country."
+      },
+      {
+        "start_seconds": 2399.16,
+        "end_seconds": 2404.16,
+        "text": "Shitlement, which is by no means at the Western end of the country is as far from the"
+      },
+      {
+        "start_seconds": 2404.16,
+        "end_seconds": 2408.36,
+        "text": "active front line as we are right now from Oslo."
+      },
+      {
+        "start_seconds": 2408.36,
+        "end_seconds": 2410.88,
+        "text": "Just the picture that, right?"
+      },
+      {
+        "start_seconds": 2410.88,
+        "end_seconds": 2415.68,
+        "text": "And furthermore, while we do read about the sometimes hundreds and hundreds of Shahe"
+      },
+      {
+        "start_seconds": 2415.68,
+        "end_seconds": 2420.2,
+        "text": "ads and drones and missiles it get launched, Ukraine is very good at air defense."
+      },
+      {
+        "start_seconds": 2420.2,
+        "end_seconds": 2423.76,
+        "text": "They're not imperfect and yes, Ukraine needs all the patriot batteries they can get,"
+      },
+      {
+        "start_seconds": 2423.76,
+        "end_seconds": 2427.84,
+        "text": "but eighty-five to ninety percent of those things get intercepted."
+      },
+      {
+        "start_seconds": 2427.84,
+        "end_seconds": 2432.44,
+        "text": "And so, you know, if you want to go and build a really expensive infrastructure obje"
+      },
+      {
+        "start_seconds": 2432.44,
+        "end_seconds": 2438.84,
+        "text": "ct, you know, near Donetz, maybe you want to wit till this more clarity, but if you'"
+      },
+      {
+        "start_seconds": 2438.84,
+        "end_seconds": 2444.6,
+        "text": "re thinking about building something, big infrastructural, expensive and shithemat or"
+      },
+      {
+        "start_seconds": 2444.6,
+        "end_seconds": 2446.2,
+        "text": "in Levive or building a factor."
+      },
+      {
+        "start_seconds": 2446.2,
+        "end_seconds": 2451.64,
+        "text": "I mean, yes, I would be naive to say there is zero risk or that the risk is identical"
+      },
+      {
+        "start_seconds": 2451.64,
+        "end_seconds": 2455.32,
+        "text": "to a country at peace, but it is a manageable risk at something you can factor into the"
+      },
+      {
+        "start_seconds": 2455.32,
+        "end_seconds": 2455.84,
+        "text": "project."
+      },
+      {
+        "start_seconds": 2455.84,
+        "end_seconds": 2461.12,
+        "text": "So one hundred percent start building and investing not just, of course, a text off in"
+      },
+      {
+        "start_seconds": 2461.12,
+        "end_seconds": 2461.6,
+        "text": "the software."
+      },
+      {
+        "start_seconds": 2461.6,
+        "end_seconds": 2465.92,
+        "text": "I mean, that's sort of go to the thing, but also the hard physical stuff the, you know"
+      },
+      {
+        "start_seconds": 2465.92,
+        "end_seconds": 2471.56,
+        "text": ", the networks and the electrons and the Adams not just the bits in the bites today."
+      },
+      {
+        "start_seconds": 2471.56,
+        "end_seconds": 2476.04,
+        "text": "I see actually animal, Indi Ordience have worked with Ukrain and Estonian company is"
+      },
+      {
+        "start_seconds": 2476.04,
+        "end_seconds": 2476.56,
+        "text": "both ways."
+      },
+      {
+        "start_seconds": 2476.56,
+        "end_seconds": 2480.32,
+        "text": "I don't know if Lember you can give, I don't know if you want to come in and Shera you"
+      },
+      {
+        "start_seconds": 2480.32,
+        "end_seconds": 2486.12,
+        "text": "r experience with the audience and maybe encourage also because you have worked exte"
+      },
+      {
+        "start_seconds": 2486.12,
+        "end_seconds": 2493.32,
+        "text": "nsively with Ukraine and Estonian companies working together."
+      },
+      {
+        "start_seconds": 2493.32,
+        "end_seconds": 2497.32,
+        "text": "Hello, Hello Kellen and thank you for the word."
+      },
+      {
+        "start_seconds": 2497.32,
+        "end_seconds": 2501.76,
+        "text": "So we have been working in Ukraines since two thousand seventeen and we have training"
+      },
+      {
+        "start_seconds": 2501.76,
+        "end_seconds": 2506.16,
+        "text": "Ukrainian companies about how to do export."
+      },
+      {
+        "start_seconds": 2506.16,
+        "end_seconds": 2511.72,
+        "text": "So I think that what we have seen is that I'm so happy that we had a few years before"
+      },
+      {
+        "start_seconds": 2511.72,
+        "end_seconds": 2516.32,
+        "text": "the full-scale invasion to just train thousands of companies."
+      },
+      {
+        "start_seconds": 2516.32,
+        "end_seconds": 2522.44,
+        "text": "So it means that they adopted the understanding of bit of Western mindset, about how"
+      },
+      {
+        "start_seconds": 2522.44,
+        "end_seconds": 2528.08,
+        "text": "to do businesse abroad and also about the flexibility that is needed."
+      },
+      {
+        "start_seconds": 2528.08,
+        "end_seconds": 2534.08,
+        "text": "So the SMI sector really managed world during the induring the full-scane invasion in"
+      },
+      {
+        "start_seconds": 2534.08,
+        "end_seconds": 2539.36,
+        "text": "export, keeping the export level almost at the same level like pre-wall and now it's"
+      },
+      {
+        "start_seconds": 2539.36,
+        "end_seconds": 2541.16,
+        "text": "growing."
+      },
+      {
+        "start_seconds": 2541.16,
+        "end_seconds": 2548.44,
+        "text": "But that means we have really found thousands of companies really interested in ex"
+      },
+      {
+        "start_seconds": 2548.44,
+        "end_seconds": 2555.36,
+        "text": "port in working with Europeans and also different countries and I always have the ca"
+      },
+      {
+        "start_seconds": 2555.36,
+        "end_seconds": 2561.68,
+        "text": "ll that we should do it together and help them as not as a market in Europe because we"
+      },
+      {
+        "start_seconds": 2561.68,
+        "end_seconds": 2566.56,
+        "text": "are not for Ukraine market, but we can be a breach for Europe or to any other countri"
+      },
+      {
+        "start_seconds": 2566.56,
+        "end_seconds": 2567.04,
+        "text": "es."
+      },
+      {
+        "start_seconds": 2567.04,
+        "end_seconds": 2583.24,
+        "text": "And I would really recommend everyone."
+      },
+      {
+        "start_seconds": 2583.24,
+        "end_seconds": 2588.32,
+        "text": "So it means that building of the relationship now, I think it's so important because"
+      },
+      {
+        "start_seconds": 2588.32,
+        "end_seconds": 2594.4,
+        "text": "again, it takes time, it takes time even among I was students."
+      },
+      {
+        "start_seconds": 2594.4,
+        "end_seconds": 2606.56,
+        "text": "But to build the trust as we are stilling here."
+      },
+      {
+        "start_seconds": 2606.56,
+        "end_seconds": 2613.52,
+        "text": "And then use everyone who is already there, use us with one hundred persons there or"
+      },
+      {
+        "start_seconds": 2613.52,
+        "end_seconds": 2616.8,
+        "text": "all the Estonians who are there and building something actively."
+      },
+      {
+        "start_seconds": 2616.8,
+        "end_seconds": 2623.68,
+        "text": "Everyone is ready to recommend someone whom you could trust and to the business and I"
+      },
+      {
+        "start_seconds": 2623.68,
+        "end_seconds": 2629.12,
+        "text": "'m exceptually, especially happy who one of our students who has been now signing the"
+      },
+      {
+        "start_seconds": 2629.12,
+        "end_seconds": 2634.04,
+        "text": "third contract with Steve building a shelter probably."
+      },
+      {
+        "start_seconds": 2634.04,
+        "end_seconds": 2639.4,
+        "text": "Again, one of the students when he just asked that, okay, I would try to participate"
+      },
+      {
+        "start_seconds": 2639.4,
+        "end_seconds": 2644.16,
+        "text": "in Estonian public prokuiment, how would I do it and then we went it through by deta"
+      },
+      {
+        "start_seconds": 2644.16,
+        "end_seconds": 2649.76,
+        "text": "iled, helped to find a partner and then really my recommendation for him was that when"
+      },
+      {
+        "start_seconds": 2649.76,
+        "end_seconds": 2663.8,
+        "text": "it the works of starts, now you need to prove that you can actually do it."
+      },
+      {
+        "start_seconds": 2663.8,
+        "end_seconds": 2669.8,
+        "text": "In some US time, we have billions from United States, from France, from Germany, from"
+      },
+      {
+        "start_seconds": 2669.8,
+        "end_seconds": 2675.24,
+        "text": "anywhere, and it's so difficult to get their brains and you need a partner locally."
+      },
+      {
+        "start_seconds": 2675.24,
+        "end_seconds": 2676.72,
+        "text": "So thank you, Glenn."
+      },
+      {
+        "start_seconds": 2676.72,
+        "end_seconds": 2677.84,
+        "text": "Thank you very much."
+      },
+      {
+        "start_seconds": 2677.84,
+        "end_seconds": 2680.36,
+        "text": "Anu Males from Visionist Institute."
+      },
+      {
+        "start_seconds": 2680.36,
+        "end_seconds": 2684.96,
+        "text": "But turning around the camera and turning, of course, back here, PR you have studied"
+      },
+      {
+        "start_seconds": 2684.96,
+        "end_seconds": 2685.52,
+        "text": "this now."
+      },
+      {
+        "start_seconds": 2685.52,
+        "end_seconds": 2690.88,
+        "text": "I mean, it is all nice words that we say and you actually have now recently studied us"
+      },
+      {
+        "start_seconds": 2690.88,
+        "end_seconds": 2696.72,
+        "text": "by for a ministry."
+      },
+      {
+        "start_seconds": 2696.72,
+        "end_seconds": 2703.88,
+        "text": "Let me also remind that for the expert priorities, Ukraine is not actually priority"
+      },
+      {
+        "start_seconds": 2703.88,
+        "end_seconds": 2706.88,
+        "text": "for our export markets, for Estonian companies officially."
+      },
+      {
+        "start_seconds": 2706.88,
+        "end_seconds": 2719.6,
+        "text": "It is a priority for development corporation, but not business, business."
+      },
+      {
+        "start_seconds": 2719.6,
+        "end_seconds": 2725.56,
+        "text": "Yes, thank you."
+      },
+      {
+        "start_seconds": 2725.56,
+        "end_seconds": 2732.72,
+        "text": "It's bring where we, from one hand, studied what are the Ukrainian market needs?"
+      },
+      {
+        "start_seconds": 2732.72,
+        "end_seconds": 2740.08,
+        "text": "What is actually the potential localitar and from the other side, what is kind of"
+      },
+      {
+        "start_seconds": 2740.08,
+        "end_seconds": 2746.56,
+        "text": "knowledge and already existing goods and services, especially innovative goods and se"
+      },
+      {
+        "start_seconds": 2746.56,
+        "end_seconds": 2753.56,
+        "text": "rvices."
+      },
+      {
+        "start_seconds": 2753.56,
+        "end_seconds": 2760.96,
+        "text": "And this way we kind of tried to map this two sides to"
+      },
+      {
+        "start_seconds": 2760.96,
+        "end_seconds": 2767.76,
+        "text": "gether and find what would be the greatest potential that Estonians could keep to Uk"
+      },
+      {
+        "start_seconds": 2767.76,
+        "end_seconds": 2787.24,
+        "text": "raine."
+      },
+      {
+        "start_seconds": 2787.24,
+        "end_seconds": 2790.68,
+        "text": "These were defense, of course, and construction."
+      },
+      {
+        "start_seconds": 2790.68,
+        "end_seconds": 2813.96,
+        "text": "But also education, cleantech, and ICT."
+      },
+      {
+        "start_seconds": 2813.96,
+        "end_seconds": 2821.36,
+        "text": "But some words also about the results or kind of outcome, maybe the fi"
+      },
+      {
+        "start_seconds": 2821.36,
+        "end_seconds": 2828.52,
+        "text": "rst point take in mind or every Estonian business you'"
+      },
+      {
+        "start_seconds": 2828.52,
+        "end_seconds": 2836.32,
+        "text": "d keep in mind that Ukraine is a really high risk, but high word environment."
+      },
+      {
+        "start_seconds": 2836.32,
+        "end_seconds": 2873.6,
+        "text": "This means that risks are there."
+      },
+      {
+        "start_seconds": 2873.6,
+        "end_seconds": 2879.6,
+        "text": "But of course there are some other risks that I also mentioned previously, like, qui"
+      },
+      {
+        "start_seconds": 2879.6,
+        "end_seconds": 2886.88,
+        "text": "te complex administrative processis, not so familiar legislation and so"
+      },
+      {
+        "start_seconds": 2886.88,
+        "end_seconds": 2888.2,
+        "text": "on."
+      },
+      {
+        "start_seconds": 2888.2,
+        "end_seconds": 2894.56,
+        "text": "But from the other hand, if you really recognize this risk and have a good plan in pla"
+      },
+      {
+        "start_seconds": 2894.56,
+        "end_seconds": 2901.8,
+        "text": "ce how to mitigate this, there is several programs in place"
+      },
+      {
+        "start_seconds": 2901.8,
+        "end_seconds": 2919.96,
+        "text": "where really help you to minimaze these risk."
+      },
+      {
+        "start_seconds": 2919.96,
+        "end_seconds": 2927.0,
+        "text": "So this is my kind of one outcome from the report or from the study that be aware of"
+      },
+      {
+        "start_seconds": 2927.0,
+        "end_seconds": 2945.48,
+        "text": "the risks, but you will be definitely higher voard also."
+      },
+      {
+        "start_seconds": 2945.48,
+        "end_seconds": 2953.0,
+        "text": "The partner really helps you to recognize, local business rules because"
+      },
+      {
+        "start_seconds": 2953.0,
+        "end_seconds": 2958.12,
+        "text": "they are actually different and we have used to hear in Estonia."
+      },
+      {
+        "start_seconds": 2958.12,
+        "end_seconds": 2965.2,
+        "text": "And I would say that I have heard tens and tens of dif"
+      },
+      {
+        "start_seconds": 2965.2,
+        "end_seconds": 2972.16,
+        "text": "ferent stories and really interesting once actually, how Estonian partners have find"
+      },
+      {
+        "start_seconds": 2972.16,
+        "end_seconds": 2976.04,
+        "text": "the cood and reliable and trustful partner there."
+      },
+      {
+        "start_seconds": 2976.04,
+        "end_seconds": 2979.72,
+        "text": "And these stories all different actually."
+      },
+      {
+        "start_seconds": 2979.72,
+        "end_seconds": 2986.56,
+        "text": "But this shows that you just need to be active, need to participate in different net"
+      },
+      {
+        "start_seconds": 2986.56,
+        "end_seconds": 2993.72,
+        "text": "work events, some business trips, there is several business or in"
+      },
+      {
+        "start_seconds": 2993.72,
+        "end_seconds": 2999.32,
+        "text": "dustry associations in Estonia, our chamber of commercies very active."
+      },
+      {
+        "start_seconds": 2999.32,
+        "end_seconds": 3006.6,
+        "text": "And also the Ukraine side shows up really good and high interest to re"
+      },
+      {
+        "start_seconds": 3006.6,
+        "end_seconds": 3022.48,
+        "text": "ally how to say in you videoly deal with Estonian company, who show up the interest."
+      },
+      {
+        "start_seconds": 3022.48,
+        "end_seconds": 3028.04,
+        "text": "Or customer somewhere or whatever you need actually, you just need to show up the in"
+      },
+      {
+        "start_seconds": 3028.04,
+        "end_seconds": 3029.44,
+        "text": "terest."
+      },
+      {
+        "start_seconds": 3029.44,
+        "end_seconds": 3042.32,
+        "text": "This is maybe the other point."
+      },
+      {
+        "start_seconds": 3042.32,
+        "end_seconds": 3049.92,
+        "text": "Ukrainians don't kind of expect just kind of simple sail or just export to Ukraine."
+      },
+      {
+        "start_seconds": 3049.92,
+        "end_seconds": 3053.72,
+        "text": "They can do its themselves also very innovative things."
+      },
+      {
+        "start_seconds": 3053.72,
+        "end_seconds": 3056.4,
+        "text": "And they are really to developed actually."
+      },
+      {
+        "start_seconds": 3056.4,
+        "end_seconds": 3061.96,
+        "text": "They are bright-minded, smart people, they are interested to build up their own coun"
+      },
+      {
+        "start_seconds": 3061.96,
+        "end_seconds": 3062.48,
+        "text": "try."
+      },
+      {
+        "start_seconds": 3062.48,
+        "end_seconds": 3069.28,
+        "text": "So they don't expect that someone comes outside and say it, okei, we are no here and"
+      },
+      {
+        "start_seconds": 3069.28,
+        "end_seconds": 3070.24,
+        "text": "help you."
+      },
+      {
+        "start_seconds": 3070.24,
+        "end_seconds": 3101.48,
+        "text": "They really want to do some innovation together."
+      },
+      {
+        "start_seconds": 3101.48,
+        "end_seconds": 3106.16,
+        "text": "Of course, the study is fully awailable in Estonian as well as in English and the for"
+      },
+      {
+        "start_seconds": 3106.16,
+        "end_seconds": 3111.0,
+        "text": "ty ministri's website, so there is, I think, then pages of recommendations and sugge"
+      },
+      {
+        "start_seconds": 3111.0,
+        "end_seconds": 3116.28,
+        "text": "stions if you are interested in this, and I am sure our four ministry colleagues usin"
+      },
+      {
+        "start_seconds": 3116.28,
+        "end_seconds": 3121.92,
+        "text": "as the embassing key of if you don't have connections, this is what we do for daily ba"
+      },
+      {
+        "start_seconds": 3121.92,
+        "end_seconds": 3123.88,
+        "text": "sis and get paid for."
+      },
+      {
+        "start_seconds": 3123.88,
+        "end_seconds": 3128.68,
+        "text": "So and we've worked very closely with woodhouse Estonia, to do also that?"
+      },
+      {
+        "start_seconds": 3128.68,
+        "end_seconds": 3131.56,
+        "text": "So maybe Annika?"
+      },
+      {
+        "start_seconds": 3131.56,
+        "end_seconds": 3138.6,
+        "text": "Unfortunate, I haven't seen that yet or but what I actually wanted to real"
+      },
+      {
+        "start_seconds": 3138.6,
+        "end_seconds": 3146.12,
+        "text": "ly like compliment that, oh, now I, forgot the main, main idea what"
+      },
+      {
+        "start_seconds": 3146.12,
+        "end_seconds": 3148.52,
+        "text": "did I want to addren, but you really think?"
+      },
+      {
+        "start_seconds": 3148.52,
+        "end_seconds": 3150.16,
+        "text": "Or highlight."
+      },
+      {
+        "start_seconds": 3150.16,
+        "end_seconds": 3170.08,
+        "text": "Oh shoot."
+      },
+      {
+        "start_seconds": 3170.08,
+        "end_seconds": 3175.92,
+        "text": "In Ukraine digital Society because Trembita is actually helped to be build by or hel"
+      },
+      {
+        "start_seconds": 3175.92,
+        "end_seconds": 3181.72,
+        "text": "p being build a lot with Estonian experience, but also ecovernent Academy and then C"
+      },
+      {
+        "start_seconds": 3181.72,
+        "end_seconds": 3204.2,
+        "text": "ybernetica Estonian companies have been very, very closely involved."
+      },
+      {
+        "start_seconds": 3204.2,
+        "end_seconds": 3207.16,
+        "text": "I mean, the other practical place where we see that, of course, a huge amount today'"
+      },
+      {
+        "start_seconds": 3207.16,
+        "end_seconds": 3208.16,
+        "text": "s in defense."
+      },
+      {
+        "start_seconds": 3208.16,
+        "end_seconds": 3213.0,
+        "text": "And it's not, I think it's important, you know, in modern businesses complicated and"
+      },
+      {
+        "start_seconds": 3213.0,
+        "end_seconds": 3216.76,
+        "text": "complex that there's many, many different layers at which that engagement can occur can"
+      },
+      {
+        "start_seconds": 3216.76,
+        "end_seconds": 3221.32,
+        "text": "occur at the level of finding someone who might buy a good a services."
+      },
+      {
+        "start_seconds": 3221.32,
+        "end_seconds": 3226.12,
+        "text": "It could occur, you know, in the form of a partner with whom to build something toge"
+      },
+      {
+        "start_seconds": 3226.12,
+        "end_seconds": 3226.48,
+        "text": "ther."
+      },
+      {
+        "start_seconds": 3226.48,
+        "end_seconds": 3230.36,
+        "text": "It can occur in the form of someone you might invest in."
+      },
+      {
+        "start_seconds": 3230.36,
+        "end_seconds": 3235.16,
+        "text": "We've got a bridge really for more than a decade doing startup accelerate is bring ca"
+      },
+      {
+        "start_seconds": 3235.16,
+        "end_seconds": 3239.04,
+        "text": "pital there that's now been transformed into this defense technology bridge."
+      },
+      {
+        "start_seconds": 3239.04,
+        "end_seconds": 3243.6,
+        "text": "So unfortunately, for better for us today, if you want to build a successful European"
+      },
+      {
+        "start_seconds": 3243.6,
+        "end_seconds": 3247.16,
+        "text": "defense technology company, you still need some kind of establishment in the EU because"
+      },
+      {
+        "start_seconds": 3247.16,
+        "end_seconds": 3250.36,
+        "text": "I think from the Ukrainian government perspectively, they want those establishments to"
+      },
+      {
+        "start_seconds": 3250.36,
+        "end_seconds": 3252.72,
+        "text": "be in Ukraine, but that is what it is today."
+      },
+      {
+        "start_seconds": 3252.72,
+        "end_seconds": 3258.28,
+        "text": "So there's als of this those that Estonia's become the place or the hub for Ukrainian"
+      },
+      {
+        "start_seconds": 3258.28,
+        "end_seconds": 3265.32,
+        "text": "death tech, but use planning to expport to Europe in the world to have their European"
+      },
+      {
+        "start_seconds": 3265.32,
+        "end_seconds": 3269.8,
+        "text": "establishment, to have some of their work that isn't occurring Ukraine really be foc"
+      },
+      {
+        "start_seconds": 3269.8,
+        "end_seconds": 3270.12,
+        "text": "used."
+      },
+      {
+        "start_seconds": 3270.12,
+        "end_seconds": 3275.2,
+        "text": "And that's not just sort of the traditional subcontracting work or custom work that'"
+      },
+      {
+        "start_seconds": 3275.2,
+        "end_seconds": 3278.24,
+        "text": "s building much more interesting commercial ecosystems."
+      },
+      {
+        "start_seconds": 3278.24,
+        "end_seconds": 3281.2,
+        "text": "And I think that's what I hope that we're going to see in other sectors too, that you"
+      },
+      {
+        "start_seconds": 3281.2,
+        "end_seconds": 3282.56,
+        "text": "'re going to see a real blending."
+      },
+      {
+        "start_seconds": 3282.56,
+        "end_seconds": 3284.72,
+        "text": "And anything is a good precedent for this."
+      },
+      {
+        "start_seconds": 3284.72,
+        "end_seconds": 3290.32,
+        "text": "In the nineties, you know, Estonia was, I think much more chaotic business environment"
+      },
+      {
+        "start_seconds": 3290.32,
+        "end_seconds": 3292.56,
+        "text": "than Ukrainians today."
+      },
+      {
+        "start_seconds": 3292.56,
+        "end_seconds": 3297.16,
+        "text": "And hundreds and hundreds of thins and sweets personally, and of course, finish and S"
+      },
+      {
+        "start_seconds": 3297.16,
+        "end_seconds": 3300.0,
+        "text": "wedish capital and companies came here."
+      },
+      {
+        "start_seconds": 3300.0,
+        "end_seconds": 3305.32,
+        "text": "And there wasn't a practical and pragmatic aspect of we see opportunity risks, but a"
+      },
+      {
+        "start_seconds": 3305.32,
+        "end_seconds": 3307.84,
+        "text": "lso returns, but it was also a sense of mission."
+      },
+      {
+        "start_seconds": 3307.84,
+        "end_seconds": 3314.04,
+        "text": "Let's go and help this place become a well-developed innovative, you know, clean busin"
+      },
+      {
+        "start_seconds": 3314.04,
+        "end_seconds": 3315.4,
+        "text": "ess environment."
+      },
+      {
+        "start_seconds": 3315.4,
+        "end_seconds": 3317.32,
+        "text": "And that was a real win-win."
+      },
+      {
+        "start_seconds": 3317.32,
+        "end_seconds": 3321.04,
+        "text": "I don't think that today Estonia would be as wealth as it is or have the kind of busin"
+      },
+      {
+        "start_seconds": 3321.04,
+        "end_seconds": 3324.84,
+        "text": "ess environment that we do without that involvement, but also the finish in the Swed"
+      },
+      {
+        "start_seconds": 3324.84,
+        "end_seconds": 3328.32,
+        "text": "ish capitals than well in those people have built really successful businesses."
+      },
+      {
+        "start_seconds": 3328.32,
+        "end_seconds": 3329.8,
+        "text": "And that's a kind of dynamic."
+      },
+      {
+        "start_seconds": 3329.8,
+        "end_seconds": 3333.88,
+        "text": "Of course, not only with Estonia, but that I would hope to see in general between Uk"
+      },
+      {
+        "start_seconds": 3333.88,
+        "end_seconds": 3337.6,
+        "text": "raine and the countries in Europe that really go in there and put their efforts in."
+      },
+      {
+        "start_seconds": 3337.6,
+        "end_seconds": 3342.08,
+        "text": "But just again, to make the point, there are many, many different layers of interaction"
+      },
+      {
+        "start_seconds": 3342.08,
+        "end_seconds": 3342.72,
+        "text": "."
+      },
+      {
+        "start_seconds": 3342.72,
+        "end_seconds": 3347.68,
+        "text": "So the first step is just to go and be there and see who's there and discover, you know"
+      },
+      {
+        "start_seconds": 3347.68,
+        "end_seconds": 3352.36,
+        "text": ", interesting partners and this one last element I'd add and then then I'll shut up."
+      },
+      {
+        "start_seconds": 3352.36,
+        "end_seconds": 3354.36,
+        "text": "As your thought come back to you?"
+      },
+      {
+        "start_seconds": 3354.36,
+        "end_seconds": 3356.08,
+        "text": "Just a little bit."
+      },
+      {
+        "start_seconds": 3356.08,
+        "end_seconds": 3357.48,
+        "text": "I give you thirty more seconds."
+      },
+      {
+        "start_seconds": 3357.48,
+        "end_seconds": 3362.12,
+        "text": "So when I was working, this is about government, but it's, I think true Alts on the p"
+      },
+      {
+        "start_seconds": 3362.12,
+        "end_seconds": 3365.12,
+        "text": "rivate sector, when I was working, when I was still in my previous position, they st"
+      },
+      {
+        "start_seconds": 3365.12,
+        "end_seconds": 3370.28,
+        "text": "arting government, we were doing some projects with Ukrainian government."
+      },
+      {
+        "start_seconds": 3370.28,
+        "end_seconds": 3372.96,
+        "text": "We had this reflection that we would have a meeting."
+      },
+      {
+        "start_seconds": 3372.96,
+        "end_seconds": 3376.16,
+        "text": "And what we were still discussing the meeting notes and, you know, who's going to do"
+      },
+      {
+        "start_seconds": 3376.16,
+        "end_seconds": 3379.76,
+        "text": "what Ukrainians would right back and say, we've done everything we agreed what's nex"
+      },
+      {
+        "start_seconds": 3379.76,
+        "end_seconds": 3380.48,
+        "text": "t."
+      },
+      {
+        "start_seconds": 3380.48,
+        "end_seconds": 3385.6,
+        "text": "And so the joke I would make is, look in the nineties, Estonians looked at Skandinavi"
+      },
+      {
+        "start_seconds": 3385.6,
+        "end_seconds": 3389.2,
+        "text": "ans and Western Europeans and made fun of how slow and bureaucratic they are."
+      },
+      {
+        "start_seconds": 3389.2,
+        "end_seconds": 3394.28,
+        "text": "And today, as an Estonian, I feel like a scan the Navian, when I'm working with Ukra"
+      },
+      {
+        "start_seconds": 3394.28,
+        "end_seconds": 3394.8,
+        "text": "inians."
+      },
+      {
+        "start_seconds": 3394.8,
+        "end_seconds": 3399.48,
+        "text": "I mean, the iteration speed and the hunger to move quickly is really big, and part, I"
+      },
+      {
+        "start_seconds": 3399.48,
+        "end_seconds": 3403.84,
+        "text": "mean, yes, we talk about Ukraine maybe in our needing to learn Western business prac"
+      },
+      {
+        "start_seconds": 3403.84,
+        "end_seconds": 3405.32,
+        "text": "tices or whatnot."
+      },
+      {
+        "start_seconds": 3405.32,
+        "end_seconds": 3409.92,
+        "text": "I hope they don't learn too much because I also hope this, I mean, part of working in"
+      },
+      {
+        "start_seconds": 3409.92,
+        "end_seconds": 3412.96,
+        "text": "Ukraine is that you get some of that energy and it spills over to you."
+      },
+      {
+        "start_seconds": 3412.96,
+        "end_seconds": 3415.08,
+        "text": "And so it's not just like what are you do in Ukraine."
+      },
+      {
+        "start_seconds": 3415.08,
+        "end_seconds": 3419.6,
+        "text": "What are the effects on your teams and your organization here from working with these"
+      },
+      {
+        "start_seconds": 3419.6,
+        "end_seconds": 3422.48,
+        "text": "partners and it can have a really catalyzing effect."
+      },
+      {
+        "start_seconds": 3422.48,
+        "end_seconds": 3425.56,
+        "text": "You know, when you're working with someone a very different environment, really smar"
+      },
+      {
+        "start_seconds": 3425.56,
+        "end_seconds": 3430.04,
+        "text": "t people as everyone's been saying, but frankly, moving faster, that can speedw up aga"
+      },
+      {
+        "start_seconds": 3430.04,
+        "end_seconds": 3430.4,
+        "text": "in, too."
+      },
+      {
+        "start_seconds": 3430.4,
+        "end_seconds": 3433.8,
+        "text": "So it's not just what can you do in Ukraine, but how can that partnership transform you"
+      },
+      {
+        "start_seconds": 3433.8,
+        "end_seconds": 3435.76,
+        "text": "more broadly?"
+      },
+      {
+        "start_seconds": 3435.76,
+        "end_seconds": 3439.68,
+        "text": "Just before the world, I make our construction sites were full of Ukrainians."
+      },
+      {
+        "start_seconds": 3439.68,
+        "end_seconds": 3440.84,
+        "text": "It's not the secret."
+      },
+      {
+        "start_seconds": 3440.84,
+        "end_seconds": 3446.48,
+        "text": "So mutual relationship in construction sector, at least was already there, even though"
+      },
+      {
+        "start_seconds": 3446.48,
+        "end_seconds": 3453.28,
+        "text": "now it's, of course, more complicated and more complicated for the mail of Ukraine to"
+      },
+      {
+        "start_seconds": 3453.28,
+        "end_seconds": 3454.36,
+        "text": "work in here, et cetera."
+      },
+      {
+        "start_seconds": 3454.36,
+        "end_seconds": 3456.64,
+        "text": "But it was there already."
+      },
+      {
+        "start_seconds": 3456.64,
+        "end_seconds": 3463.24,
+        "text": "So when shall we have the first factory, wood house building opened in Ukraine to es"
+      },
+      {
+        "start_seconds": 3463.24,
+        "end_seconds": 3469.12,
+        "text": "tablish its presence and capitalize on some of that experience and knowledge that we"
+      },
+      {
+        "start_seconds": 3469.12,
+        "end_seconds": 3470.72,
+        "text": "already have."
+      },
+      {
+        "start_seconds": 3470.72,
+        "end_seconds": 3478.0,
+        "text": "This is like our roll goal and dream to get there and to"
+      },
+      {
+        "start_seconds": 3478.0,
+        "end_seconds": 3483.92,
+        "text": "day as well, we have Ukrainians who work interfactories and it was really proud moment"
+      },
+      {
+        "start_seconds": 3483.92,
+        "end_seconds": 3490.4,
+        "text": "for the Ukrainians to actually to build the kindergarden modules the first rekonstru"
+      },
+      {
+        "start_seconds": 3490.4,
+        "end_seconds": 3510.72,
+        "text": "ctional project for Ukraine."
+      },
+      {
+        "start_seconds": 3510.72,
+        "end_seconds": 3518.2,
+        "text": "Remember me Taiwan, et later compliment is the really represent also the wide"
+      },
+      {
+        "start_seconds": 3518.2,
+        "end_seconds": 3524.6,
+        "text": "companies perhaps are not feeling to make the investments or why they are, how to sa"
+      },
+      {
+        "start_seconds": 3524.6,
+        "end_seconds": 3532.16,
+        "text": "y, careful to do collaboration with Ukraines is that"
+      },
+      {
+        "start_seconds": 3532.16,
+        "end_seconds": 3539.36,
+        "text": "really, there are so much fast today going around but the processes it ta"
+      },
+      {
+        "start_seconds": 3539.36,
+        "end_seconds": 3547.6,
+        "text": "kes time the reforms take time, but all those examples, the kindergarden, the or"
+      },
+      {
+        "start_seconds": 3547.6,
+        "end_seconds": 3555.44,
+        "text": "phan homes ja partner building that is going to be built, et ei tohi olla giv di"
+      },
+      {
+        "start_seconds": 3555.44,
+        "end_seconds": 3573.2,
+        "text": "securents for the companies."
+      },
+      {
+        "start_seconds": 3573.2,
+        "end_seconds": 3581.84,
+        "text": "But now transfer directed to your question than we need to companies"
+      },
+      {
+        "start_seconds": 3581.84,
+        "end_seconds": 3587.2,
+        "text": "name of the company eventually is to earn money, right?"
+      },
+      {
+        "start_seconds": 3587.2,
+        "end_seconds": 3630.28,
+        "text": "And the more risk-free it is, they better."
+      },
+      {
+        "start_seconds": 3630.28,
+        "end_seconds": 3633.32,
+        "text": "Then there will be factories in Ukraine as well."
+      },
+      {
+        "start_seconds": 3633.32,
+        "end_seconds": 3640.56,
+        "text": "And it's not just like nice, it is a nice dream, but it is really re"
+      },
+      {
+        "start_seconds": 3640.56,
+        "end_seconds": 3643.96,
+        "text": "alistic because the companies are considering this."
+      },
+      {
+        "start_seconds": 3643.96,
+        "end_seconds": 3645.96,
+        "text": "There is the other aspect as well."
+      },
+      {
+        "start_seconds": 3645.96,
+        "end_seconds": 3651.48,
+        "text": "One thing is to rebuild back Ukraine when the war opens and we can rebuild all the b"
+      },
+      {
+        "start_seconds": 3651.48,
+        "end_seconds": 3652.88,
+        "text": "uilding stock."
+      },
+      {
+        "start_seconds": 3652.88,
+        "end_seconds": 3659.68,
+        "text": "But actually in the bigger plan and scope, it's also possibility to export from Ukra"
+      },
+      {
+        "start_seconds": 3659.68,
+        "end_seconds": 3667.24,
+        "text": "ine to for us, like, also good mo"
+      },
+      {
+        "start_seconds": 3667.24,
+        "end_seconds": 3675.6,
+        "text": "ment to use, but before that we need to how to say find the"
+      },
+      {
+        "start_seconds": 3675.6,
+        "end_seconds": 3681.6,
+        "text": "fundings and money and kick-off so we are today in the making the baby steps and rece"
+      },
+      {
+        "start_seconds": 3681.6,
+        "end_seconds": 3688.76,
+        "text": "iving the first experiences from the market and how to do collaboration and fi"
+      },
+      {
+        "start_seconds": 3688.76,
+        "end_seconds": 3696.24,
+        "text": "nd trustful partnersham you should not be worried, et uut house Estonia fors would pi"
+      },
+      {
+        "start_seconds": 3696.24,
+        "end_seconds": 3698.64,
+        "text": "peline ins in Ukraine."
+      },
+      {
+        "start_seconds": 3698.64,
+        "end_seconds": 3704.76,
+        "text": "But I'm sure you have had discussions with Ukrainian companies exporting and Estonian"
+      },
+      {
+        "start_seconds": 3704.76,
+        "end_seconds": 3709.48,
+        "text": "companies establishing presence in Ukraine and what kind of conversations are you ha"
+      },
+      {
+        "start_seconds": 3709.48,
+        "end_seconds": 3712.48,
+        "text": "ving and what do you hear back?"
+      },
+      {
+        "start_seconds": 3712.48,
+        "end_seconds": 3719.68,
+        "text": "Oh, first a full I have to say that I hardly appreciate what Eston"
+      },
+      {
+        "start_seconds": 3719.68,
+        "end_seconds": 3722.56,
+        "text": "ian components I already do in Ukraine."
+      },
+      {
+        "start_seconds": 3722.56,
+        "end_seconds": 3730.2,
+        "text": "And when I'm meeting my colleagues international partners, I'm always telling"
+      },
+      {
+        "start_seconds": 3730.2,
+        "end_seconds": 3734.0,
+        "text": "that help Estonians help Ukraine."
+      },
+      {
+        "start_seconds": 3734.0,
+        "end_seconds": 3741.04,
+        "text": "You don't, maybe you don't have the courage to go on the ground in Ukraine to do some"
+      },
+      {
+        "start_seconds": 3741.04,
+        "end_seconds": 3749.0,
+        "text": "thing by yourself, but you have fans, you have money, please use this money to"
+      },
+      {
+        "start_seconds": 3749.0,
+        "end_seconds": 3756.2,
+        "text": "help Estonians to multiplicades already implement in Ukraine and it would"
+      },
+      {
+        "start_seconds": 3756.2,
+        "end_seconds": 3778.32,
+        "text": "be of great help and assistance already."
+      },
+      {
+        "start_seconds": 3778.32,
+        "end_seconds": 3837.28,
+        "text": "But what is really important."
+      },
+      {
+        "start_seconds": 3837.28,
+        "end_seconds": 3844.08,
+        "text": "Poolish plumbers and Estonian architects who are supposed to do the same."
+      },
+      {
+        "start_seconds": 3844.08,
+        "end_seconds": 3851.28,
+        "text": "I may be, but I just recently we had visit of Ukraina minister of the"
+      },
+      {
+        "start_seconds": 3851.28,
+        "end_seconds": 3928.36,
+        "text": "culture."
+      },
+      {
+        "start_seconds": 3928.36,
+        "end_seconds": 3935.2,
+        "text": "So he investment could be also be very important, but also health care as it was men"
+      },
+      {
+        "start_seconds": 3935.2,
+        "end_seconds": 3936.08,
+        "text": "tioned."
+      },
+      {
+        "start_seconds": 3936.08,
+        "end_seconds": 3942.4,
+        "text": "So my one time, my invitation is to come to Ukraine to beginnir business already now"
+      },
+      {
+        "start_seconds": 3942.4,
+        "end_seconds": 3942.52,
+        "text": "."
+      },
+      {
+        "start_seconds": 3942.52,
+        "end_seconds": 3949.76,
+        "text": "And of course, use private partners mentioned here I will not enimerate them,"
+      },
+      {
+        "start_seconds": 3949.76,
+        "end_seconds": 3956.84,
+        "text": "but I would like to drow your attention to the fact that Ukraina government, Uk"
+      },
+      {
+        "start_seconds": 3956.84,
+        "end_seconds": 3963.96,
+        "text": "raina minister also ready to step in and to help to find reliable partner"
+      },
+      {
+        "start_seconds": 3963.96,
+        "end_seconds": 4046.24,
+        "text": "s and contacts because we have digital services like program, which is called."
+      },
+      {
+        "start_seconds": 4046.24,
+        "end_seconds": 4051.8,
+        "text": "One way of course, to work in Ukraine is also Step's calls of proposals are, of cour"
+      },
+      {
+        "start_seconds": 4051.8,
+        "end_seconds": 4057.52,
+        "text": "se, over subscribed, but if you want to try and test out something, many people do, we"
+      },
+      {
+        "start_seconds": 4057.52,
+        "end_seconds": 4072.52,
+        "text": "are our subscribed, four times this year."
+      },
+      {
+        "start_seconds": 4072.52,
+        "end_seconds": 4077.76,
+        "text": "But one way of entering and trying out is also, is also through us we do this once a"
+      },
+      {
+        "start_seconds": 4077.76,
+        "end_seconds": 4083.24,
+        "text": "year and do see this in the autum."
+      },
+      {
+        "start_seconds": 4083.24,
+        "end_seconds": 4089.12,
+        "text": "But coming back to you Lucas, I mean, you are one of those who are doing this now, a"
+      },
+      {
+        "start_seconds": 4089.12,
+        "end_seconds": 4094.44,
+        "text": "lso through us, but we mentioned that the very beginning that Ukrain is now trying to"
+      },
+      {
+        "start_seconds": 4094.44,
+        "end_seconds": 4101.84,
+        "text": "do this innovation strategy and trying to replicate its story of digital transformation"
+      },
+      {
+        "start_seconds": 4101.84,
+        "end_seconds": 4106.44,
+        "text": "now in fourteen areas, in two of those areas, Estonians are working, one is education"
+      },
+      {
+        "start_seconds": 4106.44,
+        "end_seconds": 4110.8,
+        "text": "technology and the other one is AI, which Lucas is on."
+      },
+      {
+        "start_seconds": 4110.8,
+        "end_seconds": 4116.2,
+        "text": "But I mean, since you are in the machine, do you think that this can be replicated, the"
+      },
+      {
+        "start_seconds": 4116.2,
+        "end_seconds": 4122.84,
+        "text": "productivity goals if Ukrainians are now really starts working on agritect, there wi"
+      },
+      {
+        "start_seconds": 4122.84,
+        "end_seconds": 4133.2,
+        "text": "ll be a new chondere or how would you say someone name."
+      },
+      {
+        "start_seconds": 4133.2,
+        "end_seconds": 4147.56,
+        "text": "Lucas do you see that now happening?"
+      },
+      {
+        "start_seconds": 4147.56,
+        "end_seconds": 4152.36,
+        "text": "I mean, Ukraine has gone through a massive transformation, really in the last decade"
+      },
+      {
+        "start_seconds": 4152.36,
+        "end_seconds": 4152.44,
+        "text": "."
+      },
+      {
+        "start_seconds": 4152.44,
+        "end_seconds": 4158.56,
+        "text": "I mean, the society that Ukrainians have built since a euro Maidan is nothing like what"
+      },
+      {
+        "start_seconds": 4158.56,
+        "end_seconds": 4161.32,
+        "text": "you had before in terms of business environment, a lot of corruption."
+      },
+      {
+        "start_seconds": 4161.32,
+        "end_seconds": 4163.68,
+        "text": "But these things also take a long time."
+      },
+      {
+        "start_seconds": 4163.68,
+        "end_seconds": 4169.2,
+        "text": "We're talking about a large society, mindset shifts, generational question."
+      },
+      {
+        "start_seconds": 4169.2,
+        "end_seconds": 4172.88,
+        "text": "So there's no pretending here that there aren't still going to be challenges there and"
+      },
+      {
+        "start_seconds": 4172.88,
+        "end_seconds": 4175.76,
+        "text": "it's primarily Ukrainians that are going to have to do that work."
+      },
+      {
+        "start_seconds": 4175.76,
+        "end_seconds": 4181.12,
+        "text": "Now to get to them are practical question of the sectors and the sector transformation"
+      },
+      {
+        "start_seconds": 4181.12,
+        "end_seconds": 4181.4,
+        "text": "."
+      },
+      {
+        "start_seconds": 4181.4,
+        "end_seconds": 4184.56,
+        "text": "Let me sort of tell you some, give you some factors to think about here."
+      },
+      {
+        "start_seconds": 4184.56,
+        "end_seconds": 4188.92,
+        "text": "The first thing, of course, is just let's look at the fence."
+      },
+      {
+        "start_seconds": 4188.92,
+        "end_seconds": 4194.0,
+        "text": "A lot of the innovation there has huge spill over effects into other sectors."
+      },
+      {
+        "start_seconds": 4194.0,
+        "end_seconds": 4199.08,
+        "text": "So everything that's been done in autonomous vehicle and robotics quickly moves into"
+      },
+      {
+        "start_seconds": 4199.08,
+        "end_seconds": 4200.44,
+        "text": "a whole bunch of other areas."
+      },
+      {
+        "start_seconds": 4200.44,
+        "end_seconds": 4201.52,
+        "text": "Health care, for instance, right?"
+      },
+      {
+        "start_seconds": 4201.52,
+        "end_seconds": 4204.92,
+        "text": "One of the areas of massive innovation has been around prosthetics."
+      },
+      {
+        "start_seconds": 4204.92,
+        "end_seconds": 4210.92,
+        "text": "Ukraine can produce sort of top grade quality prosthetic limbs at half to a quarter of"
+      },
+      {
+        "start_seconds": 4210.92,
+        "end_seconds": 4215.0,
+        "text": "the price per unit of their Western competitors and there's already a lot of export go"
+      },
+      {
+        "start_seconds": 4215.0,
+        "end_seconds": 4215.68,
+        "text": "ing on."
+      },
+      {
+        "start_seconds": 4215.68,
+        "end_seconds": 4217.2,
+        "text": "And that's for a tragic reason, right?"
+      },
+      {
+        "start_seconds": 4217.2,
+        "end_seconds": 4221.16,
+        "text": "That's because the global market, as it were, foresthetic limbs, half of that is now"
+      },
+      {
+        "start_seconds": 4221.16,
+        "end_seconds": 4222.72,
+        "text": "Ukraine."
+      },
+      {
+        "start_seconds": 4222.72,
+        "end_seconds": 4227.2,
+        "text": "It's actually not true that in terms of people who need it is a lot more in Russia, but"
+      },
+      {
+        "start_seconds": 4227.2,
+        "end_seconds": 4231.08,
+        "text": "there's not much of a market there."
+      },
+      {
+        "start_seconds": 4231.08,
+        "end_seconds": 4237.8,
+        "text": "And but you also then have the competence that comes out of building all these mil te"
+      },
+      {
+        "start_seconds": 4237.8,
+        "end_seconds": 4238.28,
+        "text": "ch solutions."
+      },
+      {
+        "start_seconds": 4238.28,
+        "end_seconds": 4242.44,
+        "text": "The same thing, let's go into agriculture, right?"
+      },
+      {
+        "start_seconds": 4242.44,
+        "end_seconds": 4248.08,
+        "text": "You're going to have a lot of companies with really good capabilities in terms of bu"
+      },
+      {
+        "start_seconds": 4248.08,
+        "end_seconds": 4253.2,
+        "text": "ilding cheap drones, managing fleets of drones, using those to gather intelligence that"
+      },
+      {
+        "start_seconds": 4253.2,
+        "end_seconds": 4259.36,
+        "text": "are going to be building really interesting products to do, you know, drone-based fer"
+      },
+      {
+        "start_seconds": 4259.36,
+        "end_seconds": 4264.56,
+        "text": "tilization, mundering agricultural lands, orchestration of the farming process using"
+      },
+      {
+        "start_seconds": 4264.56,
+        "end_seconds": 4266.32,
+        "text": "a lot of robotics there."
+      },
+      {
+        "start_seconds": 4266.32,
+        "end_seconds": 4268.6,
+        "text": "And we can go through all the sectors and tells him us."
+      },
+      {
+        "start_seconds": 4268.6,
+        "end_seconds": 4272.4,
+        "text": "First of all just because of the sort of innovation that's been put together and tho"
+      },
+      {
+        "start_seconds": 4272.4,
+        "end_seconds": 4276.56,
+        "text": "se direct innovation of the products and the services, but there's also the teams that"
+      },
+      {
+        "start_seconds": 4276.56,
+        "end_seconds": 4277.28,
+        "text": "have come out of this."
+      },
+      {
+        "start_seconds": 4277.28,
+        "end_seconds": 4281.0,
+        "text": "And I think you'll have a dynamic similar to what you have in Israel where the teams"
+      },
+      {
+        "start_seconds": 4281.0,
+        "end_seconds": 4284.96,
+        "text": "that come out of the military may go into something completely unrelated to the mili"
+      },
+      {
+        "start_seconds": 4284.96,
+        "end_seconds": 4288.92,
+        "text": "tary, but they have that go here and they have that sense of purpose."
+      },
+      {
+        "start_seconds": 4288.92,
+        "end_seconds": 4292.36,
+        "text": "They have that discipline, that lets some very quickly build big new products."
+      },
+      {
+        "start_seconds": 4292.36,
+        "end_seconds": 4297.16,
+        "text": "So that's the first sort of, I think positive factor that will make that possible."
+      },
+      {
+        "start_seconds": 4297.16,
+        "end_seconds": 4301.12,
+        "text": "The second positive factor that will contribute to that is just, I mean, there's a ba"
+      },
+      {
+        "start_seconds": 4301.12,
+        "end_seconds": 4308.6,
+        "text": "sic truism of business, which Estonia rarely gets to sort of experience, which is that"
+      },
+      {
+        "start_seconds": 4308.6,
+        "end_seconds": 4310.76,
+        "text": "activity does follow money flows."
+      },
+      {
+        "start_seconds": 4310.76,
+        "end_seconds": 4316.2,
+        "text": "And I think in any pretty much any scenare that's going to be a huge money flow into"
+      },
+      {
+        "start_seconds": 4316.2,
+        "end_seconds": 4320.8,
+        "text": "Ukraine because of the reconstruction and the half trillion of damages."
+      },
+      {
+        "start_seconds": 4320.8,
+        "end_seconds": 4324.64,
+        "text": "And there's clearly a wide variation, how big that is."
+      },
+      {
+        "start_seconds": 4324.64,
+        "end_seconds": 4326.24,
+        "text": "You could have a very pessimistic scenario."
+      },
+      {
+        "start_seconds": 4326.24,
+        "end_seconds": 4329.84,
+        "text": "You can have an optimistic scenario of what that is and what the mix of public and p"
+      },
+      {
+        "start_seconds": 4329.84,
+        "end_seconds": 4331.04,
+        "text": "rivate money is."
+      },
+      {
+        "start_seconds": 4331.04,
+        "end_seconds": 4334.44,
+        "text": "But the fact that matter is there's going to be a huge amount of activity going on an"
+      },
+      {
+        "start_seconds": 4334.44,
+        "end_seconds": 4335.04,
+        "text": "yways, right?"
+      },
+      {
+        "start_seconds": 4335.04,
+        "end_seconds": 4339.6,
+        "text": "And so then the tricky question is, is that activity sort of lower value out and, oka"
+      },
+      {
+        "start_seconds": 4339.6,
+        "end_seconds": 4342.24,
+        "text": "y, let's just kind of cookie cutter, you know, we're going to build something that w"
+      },
+      {
+        "start_seconds": 4342.24,
+        "end_seconds": 4345.92,
+        "text": "ay we built in France or an Estonia today, or is it going to be innovative?"
+      },
+      {
+        "start_seconds": 4345.92,
+        "end_seconds": 4348.6,
+        "text": "That's sort of is the tricky part."
+      },
+      {
+        "start_seconds": 4348.6,
+        "end_seconds": 4352.48,
+        "text": "But the volume itself is going to be there that creates a space for doing things inn"
+      },
+      {
+        "start_seconds": 4352.48,
+        "end_seconds": 4355.0,
+        "text": "ovatedly and differently and lets you scale up quickly."
+      },
+      {
+        "start_seconds": 4355.0,
+        "end_seconds": 4358.6,
+        "text": "And then the last bit is will, right, of people to actually do things differently."
+      },
+      {
+        "start_seconds": 4358.6,
+        "end_seconds": 4359.72,
+        "text": "And I think it's there."
+      },
+      {
+        "start_seconds": 4359.72,
+        "end_seconds": 4365.52,
+        "text": "I mean, when you talk to public sector to ministries, like prett much every ministry"
+      },
+      {
+        "start_seconds": 4365.52,
+        "end_seconds": 4368.84,
+        "text": ", the people there, they think a bit like Estonians, right?"
+      },
+      {
+        "start_seconds": 4368.84,
+        "end_seconds": 4372.8,
+        "text": "They're like, okay, how can we set up our regular turnment a different way so that this"
+      },
+      {
+        "start_seconds": 4372.8,
+        "end_seconds": 4374.88,
+        "text": "can all happen?"
+      },
+      {
+        "start_seconds": 4374.88,
+        "end_seconds": 4378.96,
+        "text": "And you see that also in the companies that are really quite hungry to start doing this"
+      },
+      {
+        "start_seconds": 4378.96,
+        "end_seconds": 4379.56,
+        "text": "."
+      },
+      {
+        "start_seconds": 4379.56,
+        "end_seconds": 4384.0,
+        "text": "So I think they're also, you know, there are some challenges."
+      },
+      {
+        "start_seconds": 4384.0,
+        "end_seconds": 4388.0,
+        "text": "The first challenge, it's been mentioned several times as a breaucracy."
+      },
+      {
+        "start_seconds": 4388.0,
+        "end_seconds": 4393.76,
+        "text": "Ukraine actually, you know, has somes of the bureaucratic state, probably from the z"
+      },
+      {
+        "start_seconds": 4393.76,
+        "end_seconds": 4398.56,
+        "text": "arist Aristile, sort of interested of things being very procedural, that's also chang"
+      },
+      {
+        "start_seconds": 4398.56,
+        "end_seconds": 4399.56,
+        "text": "ing very quickly."
+      },
+      {
+        "start_seconds": 4399.56,
+        "end_seconds": 4403.2,
+        "text": "We're working on some AI stuff to make that change even faster."
+      },
+      {
+        "start_seconds": 4403.2,
+        "end_seconds": 4406.96,
+        "text": "So I guess a good news there is it's not a free-frall."
+      },
+      {
+        "start_seconds": 4406.96,
+        "end_seconds": 4412.48,
+        "text": "I mean Ukraines are actually very like place a lot of emphasis on things need to being"
+      },
+      {
+        "start_seconds": 4412.48,
+        "end_seconds": 4415.36,
+        "text": "done correctly by the book."
+      },
+      {
+        "start_seconds": 4415.36,
+        "end_seconds": 4416.8,
+        "text": "And sort of being compliant."
+      },
+      {
+        "start_seconds": 4416.8,
+        "end_seconds": 4418.92,
+        "text": "So we're not talking about going to the Wild west."
+      },
+      {
+        "start_seconds": 4418.92,
+        "end_seconds": 4423.48,
+        "text": "It's sort of full of like, you know, lack of clear, you know, business practices some"
+      },
+      {
+        "start_seconds": 4423.48,
+        "end_seconds": 4427.0,
+        "text": "times even like that needs to be shaking up a little bit."
+      },
+      {
+        "start_seconds": 4427.0,
+        "end_seconds": 4427.92,
+        "text": "That's one challenge."
+      },
+      {
+        "start_seconds": 4427.92,
+        "end_seconds": 4432.48,
+        "text": "Obviously the obvious challengers having enough people, having the capital."
+      },
+      {
+        "start_seconds": 4432.48,
+        "end_seconds": 4438.64,
+        "text": "And I think if you were to look at scenarios today, the really big sort of open ques"
+      },
+      {
+        "start_seconds": 4438.64,
+        "end_seconds": 4443.28,
+        "text": "tion and the ambassador is kind of pointed this already is how will Ukrainians themse"
+      },
+      {
+        "start_seconds": 4443.28,
+        "end_seconds": 4446.2,
+        "text": "lves vote with their feet when the war comes to an end."
+      },
+      {
+        "start_seconds": 4446.2,
+        "end_seconds": 4450.12,
+        "text": "And there's very much two directions that the flow of people could go."
+      },
+      {
+        "start_seconds": 4450.12,
+        "end_seconds": 4454.76,
+        "text": "You could have a negative scenaria, you now have millions of Ukrainians in Europe."
+      },
+      {
+        "start_seconds": 4454.76,
+        "end_seconds": 4458.32,
+        "text": "That means it pretty much every family has a foothold somewhere in Europe, right?"
+      },
+      {
+        "start_seconds": 4458.32,
+        "end_seconds": 4463.72,
+        "text": "And so things look really bad to Ukrainians, many, many, many who may be now are sta"
+      },
+      {
+        "start_seconds": 4463.72,
+        "end_seconds": 4468.08,
+        "text": "ying in part because they have a male on the families and the military can't leave."
+      },
+      {
+        "start_seconds": 4468.08,
+        "end_seconds": 4469.2,
+        "text": "You could imagine them leaving."
+      },
+      {
+        "start_seconds": 4469.2,
+        "end_seconds": 4473.68,
+        "text": "You know, you could imagine every Ukrainian family member here this, you know, jobs,"
+      },
+      {
+        "start_seconds": 4473.68,
+        "end_seconds": 4477.16,
+        "text": "they know opportunities, you know, they have an apartment they've rented some, you know"
+      },
+      {
+        "start_seconds": 4477.16,
+        "end_seconds": 4480.92,
+        "text": ", they could move here in Poland, it would be, you know, the order of magnitude is mu"
+      },
+      {
+        "start_seconds": 4480.92,
+        "end_seconds": 4481.84,
+        "text": "ch bigger."
+      },
+      {
+        "start_seconds": 4481.84,
+        "end_seconds": 4486.32,
+        "text": "And you could also have the other possibility, which is much more optimistic, which is"
+      },
+      {
+        "start_seconds": 4486.32,
+        "end_seconds": 4487.6,
+        "text": "that not all."
+      },
+      {
+        "start_seconds": 4487.6,
+        "end_seconds": 4490.8,
+        "text": "I think, but many of the Ukrainians actually do vote with their feet and they go back"
+      },
+      {
+        "start_seconds": 4490.8,
+        "end_seconds": 4493.32,
+        "text": "and they see opportunities and they see jobs."
+      },
+      {
+        "start_seconds": 4493.32,
+        "end_seconds": 4498.04,
+        "text": "And so when I speak with Ukrainians abroad and I asked some very upfront, you know, w"
+      },
+      {
+        "start_seconds": 4498.04,
+        "end_seconds": 4499.28,
+        "text": "hich is it going to be?"
+      },
+      {
+        "start_seconds": 4499.28,
+        "end_seconds": 4503.08,
+        "text": "And they say to meronestly, look, it's going to depend on what the piece looks like and"
+      },
+      {
+        "start_seconds": 4503.08,
+        "end_seconds": 4503.84,
+        "text": "what things look like."
+      },
+      {
+        "start_seconds": 4503.84,
+        "end_seconds": 4508.8,
+        "text": "I mean, as individuals, they're all going to sort of be rational actors to some extent"
+      },
+      {
+        "start_seconds": 4508.8,
+        "end_seconds": 4508.88,
+        "text": "."
+      },
+      {
+        "start_seconds": 4508.88,
+        "end_seconds": 4513.16,
+        "text": "And this, I think, is we can say nice messages about how we have to work on this and"
+      },
+      {
+        "start_seconds": 4513.16,
+        "end_seconds": 4514.04,
+        "text": "we do."
+      },
+      {
+        "start_seconds": 4514.04,
+        "end_seconds": 4517.6,
+        "text": "But of course, no individual investments going to clearly determine that."
+      },
+      {
+        "start_seconds": 4517.6,
+        "end_seconds": 4521.44,
+        "text": "I think for me, that is really the biggest question mark, the dynamics of how the pi"
+      },
+      {
+        "start_seconds": 4521.44,
+        "end_seconds": 4528.08,
+        "text": "ece happens and how the first year two play out are really going to determine what the"
+      },
+      {
+        "start_seconds": 4528.08,
+        "end_seconds": 4531.52,
+        "text": "direction of flow, what the Netflow of people is."
+      },
+      {
+        "start_seconds": 4531.52,
+        "end_seconds": 4537.24,
+        "text": "And I think that's the kind of, that's the thing that we all can work on, but we can"
+      },
+      {
+        "start_seconds": 4537.24,
+        "end_seconds": 4541.64,
+        "text": "'t no one could say with one hundred day will go well or will go poorly."
+      },
+      {
+        "start_seconds": 4541.64,
+        "end_seconds": 4545.52,
+        "text": "That's, I think, the uncertainty in the world right now around that."
+      },
+      {
+        "start_seconds": 4545.52,
+        "end_seconds": 4550.32,
+        "text": "Anyone a question or a comment from the audience if any."
+      },
+      {
+        "start_seconds": 4550.32,
+        "end_seconds": 4552.56,
+        "text": "Please."
+      },
+      {
+        "start_seconds": 4552.56,
+        "end_seconds": 4558.56,
+        "text": "You get the microphone from just the second."
+      },
+      {
+        "start_seconds": 4558.56,
+        "end_seconds": 4565.44,
+        "text": "Yeah, but we are on, I think there are audience beside that camera."
+      },
+      {
+        "start_seconds": 4565.44,
+        "end_seconds": 4572.44,
+        "text": "Hi, if you allow me to shift a little bit from the business opportunities to rather se"
+      },
+      {
+        "start_seconds": 4572.44,
+        "end_seconds": 4604.28,
+        "text": "curity guarantees related to marsha plan."
+      },
+      {
+        "start_seconds": 4604.28,
+        "end_seconds": 4629.84,
+        "text": "Thank you so much for this question."
+      },
+      {
+        "start_seconds": 4629.84,
+        "end_seconds": 4656.68,
+        "text": "One security conditions are mat."
+      },
+      {
+        "start_seconds": 4656.68,
+        "end_seconds": 4663.36,
+        "text": "So many people are not common back because of this unsecurity of the effect that War"
+      },
+      {
+        "start_seconds": 4663.36,
+        "end_seconds": 4670.56,
+        "text": "is ragion on and now becomes to your question about security guarante"
+      },
+      {
+        "start_seconds": 4670.56,
+        "end_seconds": 4679.44,
+        "text": "es because one thing is to reach whatever kind of sisfire or"
+      },
+      {
+        "start_seconds": 4679.44,
+        "end_seconds": 4686.8,
+        "text": "stops a war at some point and second thing is to bring lost hi"
+      },
+      {
+        "start_seconds": 4686.8,
+        "end_seconds": 4693.92,
+        "text": "m real last in piis and hea, of course, he"
+      },
+      {
+        "start_seconds": 4693.92,
+        "end_seconds": 4701.48,
+        "text": "understand that it will not happen without security guaranties but"
+      },
+      {
+        "start_seconds": 4701.48,
+        "end_seconds": 4708.6,
+        "text": "this time real security guaranties because what Budapest memorandum it was not a re"
+      },
+      {
+        "start_seconds": 4708.6,
+        "end_seconds": 4714.08,
+        "text": "al security guarantee."
+      },
+      {
+        "start_seconds": 4714.08,
+        "end_seconds": 4721.12,
+        "text": "And I think that it was maybe the biggest mistake of Ukraine in nineteen nineteen ni"
+      },
+      {
+        "start_seconds": 4721.12,
+        "end_seconds": 4736.48,
+        "text": "nety-four to science this document."
+      },
+      {
+        "start_seconds": 4736.48,
+        "end_seconds": 4743.8,
+        "text": "It was not didn't have this technology and it was not possible to"
+      },
+      {
+        "start_seconds": 4743.8,
+        "end_seconds": 4746.48,
+        "text": "use somehow this nuclear weapons."
+      },
+      {
+        "start_seconds": 4746.48,
+        "end_seconds": 4754.0,
+        "text": "But our mistake was that we believed in this peaceful times, we decided"
+      },
+      {
+        "start_seconds": 4754.0,
+        "end_seconds": 4762.64,
+        "text": "to because nuclear web on, veeapons was not the only security guarantee we have the"
+      },
+      {
+        "start_seconds": 4762.64,
+        "end_seconds": 4778.4,
+        "text": "almost biggest conventional armeen Europe andnud"
+      },
+      {
+        "start_seconds": 4778.4,
+        "end_seconds": 4785.6,
+        "text": "even strateegiation is using against us today was given by"
+      },
+      {
+        "start_seconds": 4785.6,
+        "end_seconds": 4814.36,
+        "text": "Ukrainas because it was based in Ukraina, eks ju."
+      },
+      {
+        "start_seconds": 4814.36,
+        "end_seconds": 4821.12,
+        "text": "They're completely and acceptable because we perceive our army is the main secured to"
+      },
+      {
+        "start_seconds": 4821.12,
+        "end_seconds": 4838.68,
+        "text": "guarantee, but it is not sufficient from many perspectives."
+      },
+      {
+        "start_seconds": 4838.68,
+        "end_seconds": 4845.88,
+        "text": "You know that the risk coalition of Vilin and Estonia actually because already mani"
+      },
+      {
+        "start_seconds": 4845.88,
+        "end_seconds": 4853.64,
+        "text": "fested intention to joins this collecian villam of many European countries are"
+      },
+      {
+        "start_seconds": 4853.64,
+        "end_seconds": 4861.16,
+        "text": "really ready to come to Ukraine after sisfire is achieved or p"
+      },
+      {
+        "start_seconds": 4861.16,
+        "end_seconds": 4868.28,
+        "text": "reliminar pieces achieved and suve security by its presents and military"
+      },
+      {
+        "start_seconds": 4868.28,
+        "end_seconds": 4876.88,
+        "text": "presence cure to guaranti, et sanktsionecually because"
+      },
+      {
+        "start_seconds": 4876.88,
+        "end_seconds": 4883.04,
+        "text": "it's not apanishments we applied to the Russian föderation because of this agression"
+      },
+      {
+        "start_seconds": 4883.04,
+        "end_seconds": 4928.8,
+        "text": "against Ukraine."
+      },
+      {
+        "start_seconds": 4928.8,
+        "end_seconds": 4936.04,
+        "text": "So marshall plan and economic assistance will be one of the most import"
+      },
+      {
+        "start_seconds": 4936.04,
+        "end_seconds": 4943.16,
+        "text": "ant secutes to guaranties and actually we have already signed security agreement E"
+      },
+      {
+        "start_seconds": 4943.16,
+        "end_seconds": 4952.12,
+        "text": "stonia and Estonia took how to say sa"
+      },
+      {
+        "start_seconds": 4952.12,
+        "end_seconds": 4959.44,
+        "text": "mm commitments in this security agreement to provide he"
+      },
+      {
+        "start_seconds": 4959.44,
+        "end_seconds": 4971.28,
+        "text": "lp and the systems to four years."
+      },
+      {
+        "start_seconds": 4971.28,
+        "end_seconds": 4978.4,
+        "text": "But I think that this mechanism revised and provide toine the compre"
+      },
+      {
+        "start_seconds": 4978.4,
+        "end_seconds": 4986.32,
+        "text": "hensive system of security guaranties political military and economical and it will be"
+      },
+      {
+        "start_seconds": 4986.32,
+        "end_seconds": 4993.48,
+        "text": "it will contribute inevitably to the security on the European continent."
+      },
+      {
+        "start_seconds": 4993.48,
+        "end_seconds": 4996.64,
+        "text": "Okei, we have few minutes left."
+      },
+      {
+        "start_seconds": 4996.64,
+        "end_seconds": 5004.32,
+        "text": "I asked from Lucas and hope to draw from there."
+      },
+      {
+        "start_seconds": 5004.32,
+        "end_seconds": 5009.12,
+        "text": "I know that, of course, we speak here nice words about Ukraine and where our hearts and"
+      },
+      {
+        "start_seconds": 5009.12,
+        "end_seconds": 5013.68,
+        "text": "mines are with Ukraine, but at the same time, we also see on a daily base is the dif"
+      },
+      {
+        "start_seconds": 5013.68,
+        "end_seconds": 5014.64,
+        "text": "ficulties."
+      },
+      {
+        "start_seconds": 5014.64,
+        "end_seconds": 5019.24,
+        "text": "The construction companies are having at the site from the project management, from the"
+      },
+      {
+        "start_seconds": 5019.24,
+        "end_seconds": 5022.88,
+        "text": "supervision of construction to building things."
+      },
+      {
+        "start_seconds": 5022.88,
+        "end_seconds": 5028.52,
+        "text": "And how can we scale this upsode that so that the reconstruction effort in construction"
+      },
+      {
+        "start_seconds": 5028.52,
+        "end_seconds": 5032.56,
+        "text": "would not go sidewis and would go more the European ways?"
+      },
+      {
+        "start_seconds": 5032.56,
+        "end_seconds": 5037.28,
+        "text": "How can we get like in Estonia after the nineties, get European companies, Candinavi"
+      },
+      {
+        "start_seconds": 5037.28,
+        "end_seconds": 5043.24,
+        "text": "an companies as Lucas was saying entering and actually transporting a country as much"
+      },
+      {
+        "start_seconds": 5043.24,
+        "end_seconds": 5048.44,
+        "text": "may be as the legislation that the civil servants drew up based on the Western Exper"
+      },
+      {
+        "start_seconds": 5048.44,
+        "end_seconds": 5053.24,
+        "text": "ience because I think there is truth in it that the company's did as much as generat"
+      },
+      {
+        "start_seconds": 5053.24,
+        "end_seconds": 5058.4,
+        "text": "ing a business transparent, corruption free environment as did maybe the civil serva"
+      },
+      {
+        "start_seconds": 5058.4,
+        "end_seconds": 5060.92,
+        "text": "nts and maybe the security police."
+      },
+      {
+        "start_seconds": 5060.92,
+        "end_seconds": 5066.6,
+        "text": "So what can be due to scale this up because I know how hard sometimes this is actual"
+      },
+      {
+        "start_seconds": 5066.6,
+        "end_seconds": 5069.92,
+        "text": "ly on a project-based and actually on the construction site."
+      },
+      {
+        "start_seconds": 5069.92,
+        "end_seconds": 5078.08,
+        "text": "It's really not yet in the same place as Lucas and his ICT area."
+      },
+      {
+        "start_seconds": 5078.08,
+        "end_seconds": 5084.84,
+        "text": "Idee it is not in that place, but I will say like experience, experience, experience"
+      },
+      {
+        "start_seconds": 5084.84,
+        "end_seconds": 5092.72,
+        "text": "and still, we have to stand that the war is still ongoing."
+      },
+      {
+        "start_seconds": 5092.72,
+        "end_seconds": 5099.96,
+        "text": "But when it will ends, then I will be, there will be hu"
+      },
+      {
+        "start_seconds": 5099.96,
+        "end_seconds": 5106.4,
+        "text": "ge drive of the company's also then entering on the Ukrainian market and soil and the"
+      },
+      {
+        "start_seconds": 5106.4,
+        "end_seconds": 5109.36,
+        "text": "n scaling up the business."
+      },
+      {
+        "start_seconds": 5109.36,
+        "end_seconds": 5112.72,
+        "text": "But you have to start today indeed."
+      },
+      {
+        "start_seconds": 5112.72,
+        "end_seconds": 5116.32,
+        "text": "And today, what is missing, the funding is missing."
+      },
+      {
+        "start_seconds": 5116.32,
+        "end_seconds": 5122.6,
+        "text": "We all understand the money that these now in Ukraine in child go in the other segment"
+      },
+      {
+        "start_seconds": 5122.6,
+        "end_seconds": 5128.76,
+        "text": "s that are much more crucial like the defense."
+      },
+      {
+        "start_seconds": 5128.76,
+        "end_seconds": 5136.48,
+        "text": "But from the European side, we should make the investments already"
+      },
+      {
+        "start_seconds": 5136.48,
+        "end_seconds": 5170.24,
+        "text": "today to kick of the projects, perhaps in the Western part of Ukraine."
+      },
+      {
+        "start_seconds": 5170.24,
+        "end_seconds": 5178.28,
+        "text": "I'm sure be the answer to the next question."
+      },
+      {
+        "start_seconds": 5178.28,
+        "end_seconds": 5181.76,
+        "text": "Do you see, I mean, there's a lot of, of course, there's a lot of consultancy govern"
+      },
+      {
+        "start_seconds": 5181.76,
+        "end_seconds": 5185.92,
+        "text": "ment to government, especially happening currently trying to Europeanize the country"
+      },
+      {
+        "start_seconds": 5185.92,
+        "end_seconds": 5192.24,
+        "text": "and trying to transpose those experiences, technologies and knowledge in a very, ver"
+      },
+      {
+        "start_seconds": 5192.24,
+        "end_seconds": 5193.64,
+        "text": "y rapid way."
+      },
+      {
+        "start_seconds": 5193.64,
+        "end_seconds": 5195.96,
+        "text": "But how can we improve?"
+      },
+      {
+        "start_seconds": 5195.96,
+        "end_seconds": 5200.76,
+        "text": "Because this will be the challenge because we don't want to wait Ukraine to wait for"
+      },
+      {
+        "start_seconds": 5200.76,
+        "end_seconds": 5207.68,
+        "text": "its European door next twenty years or fifty years like Turkey or becoming a joke, like"
+      },
+      {
+        "start_seconds": 5207.68,
+        "end_seconds": 5210.6,
+        "text": "you will discuss this during, the Turkish presidency."
+      },
+      {
+        "start_seconds": 5210.6,
+        "end_seconds": 5216.88,
+        "text": "So how can we speed this up and do this collective effort?"
+      },
+      {
+        "start_seconds": 5216.88,
+        "end_seconds": 5220.2,
+        "text": "Yes, that the kind of miljard or question, right?"
+      },
+      {
+        "start_seconds": 5220.2,
+        "end_seconds": 5222.32,
+        "text": "Not the one I suggested."
+      },
+      {
+        "start_seconds": 5222.32,
+        "end_seconds": 5224.72,
+        "text": "Okay, okay."
+      },
+      {
+        "start_seconds": 5224.72,
+        "end_seconds": 5229.56,
+        "text": "I told to learning that Estonian company's definitely ready."
+      },
+      {
+        "start_seconds": 5229.56,
+        "end_seconds": 5236.12,
+        "text": "What we make this study in when we interviewed tens and tens of them and I really see"
+      },
+      {
+        "start_seconds": 5236.12,
+        "end_seconds": 5242.56,
+        "text": "the deep interest to enter the market, to find the partners in Ukraine."
+      },
+      {
+        "start_seconds": 5242.56,
+        "end_seconds": 5246.76,
+        "text": "But then the company has okay, but who will paid for that?"
+      },
+      {
+        "start_seconds": 5246.76,
+        "end_seconds": 5252.88,
+        "text": "What is a money?"
+      },
+      {
+        "start_seconds": 5252.88,
+        "end_seconds": 5260.84,
+        "text": "And what the situation that we saw that Estonian companies are quite small S"
+      },
+      {
+        "start_seconds": 5260.84,
+        "end_seconds": 5268.0,
+        "text": "MS, there are a lot of investment programs available in"
+      },
+      {
+        "start_seconds": 5268.0,
+        "end_seconds": 5273.92,
+        "text": "Europe and around the world that are actually targeted in Ukraine market."
+      },
+      {
+        "start_seconds": 5273.92,
+        "end_seconds": 5281.12,
+        "text": "But maybe the problem is that they are meant for the re"
+      },
+      {
+        "start_seconds": 5281.12,
+        "end_seconds": 5291.64,
+        "text": "ally huge investments."
+      },
+      {
+        "start_seconds": 5291.64,
+        "end_seconds": 5296.32,
+        "text": "And Estonian companies are two small for that."
+      },
+      {
+        "start_seconds": 5296.32,
+        "end_seconds": 5304.08,
+        "text": "One opportunity is to be subcontractor for some other E"
+      },
+      {
+        "start_seconds": 5304.08,
+        "end_seconds": 5305.6,
+        "text": "uropean company."
+      },
+      {
+        "start_seconds": 5305.6,
+        "end_seconds": 5312.92,
+        "text": "For example, find someone from Germany, from France, for so on and to"
+      },
+      {
+        "start_seconds": 5312.92,
+        "end_seconds": 5326.08,
+        "text": "kind of be part of that chain, but still get this opportunity, get this funding."
+      },
+      {
+        "start_seconds": 5326.08,
+        "end_seconds": 5333.96,
+        "text": "So what else, I would say that what we can do is to use more"
+      },
+      {
+        "start_seconds": 5333.96,
+        "end_seconds": 5341.08,
+        "text": "that situation that maybe STEV and utter association and this also Estonian of C"
+      },
+      {
+        "start_seconds": 5341.08,
+        "end_seconds": 5348.28,
+        "text": "hamber of commercial also kind of started in Ukraine that many code ex"
+      },
+      {
+        "start_seconds": 5348.28,
+        "end_seconds": 5351.56,
+        "text": "ample projects already there."
+      },
+      {
+        "start_seconds": 5351.56,
+        "end_seconds": 5359.4,
+        "text": "And I really feel that Ukraine people and company see Estonians are kind of b"
+      },
+      {
+        "start_seconds": 5359.4,
+        "end_seconds": 5366.64,
+        "text": "it more kind of advanced or kind of how to say in the better position co"
+      },
+      {
+        "start_seconds": 5366.64,
+        "end_seconds": 5370.36,
+        "text": "mpared to the compared to the other countries."
+      },
+      {
+        "start_seconds": 5370.36,
+        "end_seconds": 5377.0,
+        "text": "They really understand or kind of see us that we have experience the same situation that"
+      },
+      {
+        "start_seconds": 5377.0,
+        "end_seconds": 5378.8,
+        "text": "they have right now."
+      },
+      {
+        "start_seconds": 5378.8,
+        "end_seconds": 5382.8,
+        "text": "And this is definitely one advantage that we have."
+      },
+      {
+        "start_seconds": 5382.8,
+        "end_seconds": 5385.0,
+        "text": "And we really need to use it."
+      },
+      {
+        "start_seconds": 5385.0,
+        "end_seconds": 5391.36,
+        "text": "For example, in Cavita, we have had similar studies for other countries also."
+      },
+      {
+        "start_seconds": 5391.36,
+        "end_seconds": 5395.2,
+        "text": "We have done the similar study for Polan, for example."
+      },
+      {
+        "start_seconds": 5395.2,
+        "end_seconds": 5399.32,
+        "text": "The same thing to Sweden."
+      },
+      {
+        "start_seconds": 5399.32,
+        "end_seconds": 5406.36,
+        "text": "There is a really huge action plan in Finland how to establish busines"
+      },
+      {
+        "start_seconds": 5406.36,
+        "end_seconds": 5407.6,
+        "text": "s in Ukraine."
+      },
+      {
+        "start_seconds": 5407.6,
+        "end_seconds": 5414.84,
+        "text": "So that is other countries that are bit mo"
+      },
+      {
+        "start_seconds": 5414.84,
+        "end_seconds": 5421.36,
+        "text": "re ready than we are, but I would say that we are that it wanted that Ukrainian CS mo"
+      },
+      {
+        "start_seconds": 5421.36,
+        "end_seconds": 5426.2,
+        "text": "re kind of as products, let's say so."
+      },
+      {
+        "start_seconds": 5426.2,
+        "end_seconds": 5429.52,
+        "text": "Very close."
+      },
+      {
+        "start_seconds": 5429.52,
+        "end_seconds": 5431.44,
+        "text": "Oh, then are you both."
+      },
+      {
+        "start_seconds": 5431.44,
+        "end_seconds": 5434.24,
+        "text": "Since you are two, so you can."
+      },
+      {
+        "start_seconds": 5434.24,
+        "end_seconds": 5437.28,
+        "text": "Thanks."
+      },
+      {
+        "start_seconds": 5437.28,
+        "end_seconds": 5445.12,
+        "text": "They also want to jab that the second thing is that, yes, it's a high risk business to"
+      },
+      {
+        "start_seconds": 5445.12,
+        "end_seconds": 5447.56,
+        "text": "now set up a factory in Ukraine."
+      },
+      {
+        "start_seconds": 5447.56,
+        "end_seconds": 5449.24,
+        "text": "It's doable, right?"
+      },
+      {
+        "start_seconds": 5449.24,
+        "end_seconds": 5452.88,
+        "text": "You can find a partner, you can do it, this is what we all like expecting and hoping"
+      },
+      {
+        "start_seconds": 5452.88,
+        "end_seconds": 5453.32,
+        "text": "for."
+      },
+      {
+        "start_seconds": 5453.32,
+        "end_seconds": 5458.12,
+        "text": "But you also have to understand like today, for example, in our sector, we are in a c"
+      },
+      {
+        "start_seconds": 5458.12,
+        "end_seconds": 5461.6,
+        "text": "risis as well."
+      },
+      {
+        "start_seconds": 5461.6,
+        "end_seconds": 5498.56,
+        "text": "So we cannot allow us to do these type of two risky business."
+      },
+      {
+        "start_seconds": 5498.56,
+        "end_seconds": 5501.76,
+        "text": "Today, they are two thin."
+      },
+      {
+        "start_seconds": 5501.76,
+        "end_seconds": 5505.68,
+        "text": "Okei, since wear out of time, I'll draw three points."
+      },
+      {
+        "start_seconds": 5505.68,
+        "end_seconds": 5511.2,
+        "text": "First, I think everyone here as everyone who wants to work in Ukraine in the future,"
+      },
+      {
+        "start_seconds": 5511.2,
+        "end_seconds": 5517.96,
+        "text": "the first question, I think, after the war inside Ukraine and outside Ukraine will be"
+      },
+      {
+        "start_seconds": 5517.96,
+        "end_seconds": 5521.48,
+        "text": ", what have you been doing these three years lately?"
+      },
+      {
+        "start_seconds": 5521.48,
+        "end_seconds": 5526.24,
+        "text": "So better, better to be on the right side of that question and help you Ukraine now and"
+      },
+      {
+        "start_seconds": 5526.24,
+        "end_seconds": 5527.36,
+        "text": "work in there."
+      },
+      {
+        "start_seconds": 5527.36,
+        "end_seconds": 5531.8,
+        "text": "It will give you also an age and it want together and as you say brotherhood and sis"
+      },
+      {
+        "start_seconds": 5531.8,
+        "end_seconds": 5536.68,
+        "text": "terhood and emotionally, this is the most rewarding job maybe I've ever done, for ex"
+      },
+      {
+        "start_seconds": 5536.68,
+        "end_seconds": 5537.32,
+        "text": "ample."
+      },
+      {
+        "start_seconds": 5537.32,
+        "end_seconds": 5543.16,
+        "text": "The second thing I wanted to ask to pay around of applause to or panel and of course"
+      },
+      {
+        "start_seconds": 5543.16,
+        "end_seconds": 5548.48,
+        "text": ", especially to Maximkonnanenko for his service in Estonia for the last years and wis"
+      },
+      {
+        "start_seconds": 5548.48,
+        "end_seconds": 5554.6,
+        "text": "hing well for the future."
+      },
+      {
+        "start_seconds": 5554.6,
+        "end_seconds": 5572.78,
+        "text": "So thank you very much, and see you next time."
+      }
+    ]
+  }
+}

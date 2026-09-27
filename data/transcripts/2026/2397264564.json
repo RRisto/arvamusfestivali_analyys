@@ -1,0 +1,3506 @@
+{
+  "schema_version": 1,
+  "episode": {
+    "id": "2397264564",
+    "rss_guid": "tag:soundcloud,2010:tracks/2397264564",
+    "title": "Küberturvalisus vs ettevõtlusvõime_ kus on tasakaal_",
+    "published_at": "2026-09-09T11:49:50Z",
+    "apple_collection_id": 1477431807,
+    "page_url": "https://soundcloud.com/arvamusfestival/kuberturvalisus-vs-ettevotlusvoime_kus-on-tasakaal-3",
+    "audio_url": "https://feeds.soundcloud.com/stream/2397264564-arvamusfestival-kuberturvalisus-vs-ettevotlusvoime_kus-on-tasakaal-3.mp3",
+    "audio_bytes": 86016084,
+    "audio_sha256": "713e31bb27fc805fd96835da737c9635b3534ef17605d2a69e544b8265d8a651",
+    "duration_seconds": 5375.0
+  },
+  "transcription": {
+    "model": {
+      "name": "large",
+      "repository": "TalTechNLP/streaming-zipformer-large.et-en",
+      "revision": "2812262bd4fd5d4327dc09ca0e6c19e8a32a03d6",
+      "precision": "int8"
+    },
+    "runtime": {
+      "sherpa_onnx": "1.13.7",
+      "decoding_method": "modified_beam_search",
+      "threads": 4
+    },
+    "text": "Tere tulemast kõigile töötavad hästi kõigile, kõigil on omad ja mina olen vets tänase vestluse moderaator ja ühtlasi töötan Eesti ühes küberturbettevõttes nimega Neverjak võib-olla paljudele, et nii-öelda tuttav ja siit ka lava peal vaadates siis ka väga palju koostööpartnereid meil siin lava peal. Et hakkame rääkima täna siis ilmselgelt turvalisusest ja just selles vaates, et on tulemas väga palju uusi regulatsioone ja, ja meie nagu fookus kogu vestluse vältel saabki olema see lause, mida kõik on ilmselt igalt poolt välja kuulnud. Et küberrisk on täna äririsk ja pole veel enam küsimuski, et see on liikunud ja peaks liikuma IT-valdkonna laualt siis juhtkonda. Aga tänase teema fookus on just meditsiinisektoril, sest olgem ausad, tervishoid on üks ründajate kõige suuremaid lemmikuid sihtmärke ja väga paljudel põhjustel. Esiteks meie andmete selline sensitiivsus ehk siis see, et, et kui tundlikud need andmed andmed ja teiseks kui palju sealt maavara kaudu saab ka siis ründajatele raha varastada. Aga nagu ma ütlesin, siis riik on nii koostöös Euroopaga kui ise väga palju ka uusi regulatsioone välja töötanud, et aidata meie andmeid kaitsta ja just sellest täna räägimegi, mis need uued regulatsioonid on ja kas need aitavad meid, vajavad endale segadusse, tekitavad peavalu ja pahandust või, või päriselt aitavad---. Aga et nad lähevad soojaks saada, mina tunnen teid küll kõik väga hästi ja teeme ringi. Saate korraks tere öelda. Ja, ja siis meie Google't saab näha ka seda, kui mitmekümne külgne meil see seltskond siin täna laval on, aga alustame riigist. Taavi. Mismoodi me näeme, et hakkame edasi liikuma ja võib-olla noh, lubada endale olla ka natuke siis kriitiline, siis väga suurte perioodide osas. Igapäevaselt töötan perearstina Tallinnas Tallinnas, tavalise suurusega perearstikeskuses, kus on viis nimistut, umbes kakskümmend viis töötajat ehk siis kvalifitseerub sellise väikeettevõtte alla kuuluva Eesti liberaalide Seltsi juhatusse ja juhatuse tasandil tuleb teemadega tegelenud ja riigi edasi argumenteerinud. Tänaselt selle võimaluse siis uuesti. Täiendada, muuta, eks ole, koostada, me olime selle protsessi sees ja ühe isiklikku kaela. Aga nagu öeldakse, close second ehk siis number kaks teema on kindlasti küberturber. Aga hakkame pihta, hakkame otsast pihta. Nagu ma ütlesin, meditsiinisektor kahjuks on meeletu surve all täna ei ole enam isegi küsimus selles, et kas keegi kuskil pihta saab, pigem millal ja kui suure pauguga ja sellepärast on nii Euroopa Liit kui Eesti välja töötanud uusi regulatsioone, et aidata. Aga ma küsin hästi sellise sissejuhatava küsimuse, et miks seda seadust üldse vaja on? Kui me vaatame üldsegi sellist tagasisidet ka nagu ettevõtjateks, siis suhtumine mitte ainult konkreetselt selle seaduse vastu, vaid üleüldse on pigem see, et riik tuleb jõuda järjekordsete nõuetega on midagi väga keerulist, aga arusaadav ei ole üldse arusaadav. Ja, ja kui me räägime küberturbest, siis, siis selles sektoris eriti. Et võib-olla alustakski selle küsimusega, et miks meil tegelikult üldse on küberturvalisuse seadustega ja vastata sellisele nagu, mida võiks tavaettevõtja võib küsida, kas see on eesmärk kontrollida või hoopis aidata neile mingi pärit turvalisuse taset päriselt tõsta ja võib-olla rohkem ka siis selle viis kahe direktiivide siis fookus ja räägime, et et Taavi nagu räägib meile alustuseks üldsegi lahti ka meil siin kuulajaid, et kuidas käib riigis üldse uue seaduse väljamõtlemine? Me kaitseme neid andmeid on huvitatud, eks ju, et meditsiini andmetest ja siis terviseandmed oleks kuidagi saadavad, müüdavad, ostetavad, rahastada. Paraku on see Euroopa Liidu poolt oli välja, mis on siis tõsiselt sisse mainitud eelnevalt. See tegelikult tekkis juba siis Riigikogus lugemise käigus tõesti selle plaani, mida seda nii-öelda sanktsioonidega, millal seda tööd täpselt ei tea, aga maksmise puhul, mispärast ta sinna sai. Ja noh, mõte on ju ikkagi selles, et mitte kiusata, mitte teha regulatsioone, mitte minna paberi väärimist, vaid ikkagi muuta seda valdkonda ja kõiki valdkondi, ehk siis kui me räägime, siis see oli siis. Sellest lähtuvalt tegelikult eelmine aasta lõpuks hakkas oktoobris kehtima siis esmase tuberneet, mille eesmärk oligi see, et perearstid nende seas ei peaks lugema seda miljonit. Ja üks suur, nagu me rääkisime perearstikeskuse esindaja kuskil ütleski, et inimesed ära tehtud, et küberturvalisuse tõusnud. Väga paljude inimeste jaoks üldse seadusloome kui selline protsess on hästi arusaamatu, keda kaasatakse, kust tulevad ideed, mida analüüsitakse ja on see nii-öelda ettekujutus, et see on mingi meeletult pikk protsess, kus keegi istub avaliku sektori asutuses oma kabinetis ja mõtleb midagi välja, olles ise seal lauda istunud, teab, et siin päris nii käib. Võib-olla sa seletad hästi lihtsalt ära seda, et kuidas te kaasate sellesse protsessi ka siis, kas siis erasektorit või vaadates siin täna seda, et, et tegemist on ise. Meil on õigusbüroosid suuri meditsiinikeskusi ja nii edasi, et kas, kas nagu küsitakse ka tuult? Tagasiside, mis meilile tuleb, näiteks ütleme, kui me ei ole mitte perearstikeskustega, sellepärast kokku, aga kõik see, mis meile tuleb, me tegelikult toetame selle läbi. Need ettepanekud tavaliselt me edastame ka riiklikuste ametisse, kes siis tegelikult võtame need ju kõigepealt ka siis, kui räägime esmaste ametist, kuidas see tuleb info, riigi infosüsteemiga valmis ja seal on siis ei ole neid ametnikud, saab ikkagi oma eriala spetsialistid, kes siis tegelikult koondavad kogu selle info siis nii-öelda väljas kokku, teevad selle esimese tehnikasse. Selle vormi tehnikaoloogiatehnikaoloogia väga selgelt ütleb ära, et, et kui sa teed niimoodi, siis sa oled küllalt turvaline, kui sa seda ei tee, siis sa räägid ei ole. Et siis meie roll investeerimisel tegelikult need samased nõuded panna sisse ühtesse vormi. Et, et selle ametniku istub ja mõtleb, et, et aga nüüd kiusaks. Aga tema ütles mulle eile niimoodi, et nüüd ma teen sellise asja ei, seda kohe kindlasti mitte. Et võite seda julgelt skännida, saate küsida küsimusi, aga kes soovib seda ise kõva häälega teha, siis võite käe püsti tõsta ikka ja siis saame kõik alati küsimusi. Aga, aga sa oled Taavi, just rääkisidki seda, et, et näidata, et kuidas riigikogu mõttes välja, et, et võiks perearstikeskused olla kaasatud ja nii-öelda sinna alla minna, et, et tegelikult kui me vaatame ka nagu meedias, siis on ka Eesti meediasse jõudnud ikkagi väga arvukalt neid lugusid, kuidas perearstikeskused on pihta saanud küberrünnakutest on kellelegi andmeid kaduma läinud ja tõesti ollakse hädaspidi, ma liiguks võib-olla, võib-olla Leedu juurde edasi ja, ja vaataks just selle pilguga, et, et kogu see kübervaldkond on väga palju inimesi, kes on töötanud meditsiinisektoris ka perearstina aastakümneid ja võib-olla mitte nii IT-teadlikud, võib-olla mitte nii suure nii-öelda sellise digikäekirja oskusega ja siis on järsku meil on nõuded, mis on ilmselgelt väga vajalikud ja, ja ka nemad toimetavad täna ju kõikides digisüsteemides. Aga, aga võib-olla sa räägid sellest, et kas tänane seadusandlus meditsiinisektoris ja vaadati sellest perearst, on see arusaadav? Kuidas on olnud selline tagasiside täna perearstikeskuste poolt ja, ja, ja mis, mis su tunnetus peres, kui me vaatame siin võib-olla näiteks paari viimasest kuud, siis, siis on olnud, et, et kuidas teil päriselt läheb? Ma kõigepealt tahaksin rääkida ka natuke nagu ajaloost, sest midagi ei hakanud nüüd ja kohe, kui tuli küberturvalisuse seaduse ja kui tuli, mis kaks perearstidele on andmekaitse ja nende patsientide andmetel olnud kogu aeg väga tähtsad, siis kui nad olid veel vananimetusega defikaatsed isikuandmed, need on ka need eririigilised isikuandmed. Vanasti räägiti rohkem andmekaitsest ja, ja nüüd on juurde tulnud see küberkaitse ja küberkaitse toetu meil vaja selleks, et andmeid kaitsta. Ja see oli kõige, kõigepealt võttis selle teema üle sotsiaalministeerium, mingi kaks tuhat viisteist, kuusteist, seitseteist või mis iganes, kui õpetajatega rääkima teadlikumalt ka küberturvalisusest. Ja, ja siis meie koostöös Riiaga Eesti Perearstide Selts, kõigil igasugused baasturbemeetmed, mis räägiti läbi siis haigekassaga ja meile pandi mingit isegi mingit rahanumbrite kaasa ja teie see perearstide teenuse lepinguga ja need me siis hakkasime, hakkasime rakendama ja siis tuli siis lauale küberturvalisuse seadus, siis tuli sotsiaalministeeriumist meile vaidluste järgi otsus, et et me nagu ei lähe selle seaduse alla, vaid meile tehakse valdkonna spetsiifilised reeglid, mida siis juhib sotsiaalministeerium ja sellest teadmises me siis elasime ja, ja, ja tegelastega koolitati siis. Nii, ja siis tuli siit tuli selle eelints langes meie peale ja millest noh, millest me ei saanud aru, mis lämmatas meie tegevust osas me ei osanud mitte kuskilt nagu pihta hakata ja. Et enamus perearste niisugused keskealised, paljud on pensioniealised ja kui nad on pensioniealised, siis nad ei hakka ülemääraseid nõudeid, nõudeid enda peale võtma, mis neid nii palju nagu unustab. Ütleb, et nad lõpetavad tegelikult selle teenindamise ära. Ja, ja siis me nagu mõtlesime, et, et kuidas me siis paremaks saab ja siis me istusime üle laua taga ja teise laua taga jätsime sama asjadest aru. Et alu meile nagu neid neid lihtsamaid nõudreid ja ma olen väga tänulik, et et kui nüüd te küsite kaugel me sellega oleme, et nüüd arutasime kõik need, oleme nüüd siin aastaga jõudnud ennem ära rakendama, see ajalugu on selline, et kõigil midagi nagu on, mõned rakendavad siiani neid baasturge meetmeid, teised on natuke kallimad, odavama raha eest ära rakendanud endale--- ja kolmandat on see kodu seal siis ühesõnaga, et olukord on selline nagu selline asi, et aga meil on nagu mingisugune plaan, mida me nagu praegu teeme ja koostöös PIAga ja ma arvan, et on satelli liiguvad selginemise suunas. Pigem tunduda see, et väga erineva profiili ja võimekusega asutused, asutustelt nõutakse sama hügieenitasandi meetmeid, mismoodi tihti üldse ei kohaldu, kes sellega tegeletakse, küsitakse. See, mida mina kuulen, et miks me seda jama vaja on, eks ole. Aga mis seal seda vaja on, me näeme kakskümmend, kolmkümmend aastat tagasi, eks ole. Mida mul väga väikesed, eks ole, alles kolmekümne kolmandaga, väiksed andsin dobinetti, eks ole, ütlesid niisugune ja nii edasi käsikirjaliselt tegi selle retsepti ja pani sinna toimiku riiulisse ja ainuke oht sisuliselt sellele siin all võiksid lekkida. Oli siis variant üks, arst kobises naabritädil ära, eks ole, et sul on mingisugune kurguhaigus, eks ole, põletik või variant kaks, eks ole, keegi murdis selle üle seal sisse, tulekahju oli ainult kolm. Ja need olid reaalsed puhtavad sellega, et, et sa läksid sinna, et oleks pidanud neid proovi kuskile viima ja, ja need olid reaalselt isikuandmetega, need olid kõik seal laua peal, perearstitoas polnud mitte ühtegi kaamerat asja ma istusid kümme minutit, ma oleks võinud kõik läbi lugeda, nii et kolmas projekt on käega. Nüüd kui me kakskümmend viisteist gümme aastat tagasi muutusime nagu digitaliseeritumaks ka tervishoiu organisatsioon, neil tekkis kohustus ju kõikidele arstidele panna kõik andmed digilukku on ju. Paar aastat tagasi käidi küberprojektide poolt meil sees võeti väga selgelt meeleaval sisuliselt, kui me oleme Eestis suured haiglad, eks ole, sa lähed sinna vastuvõtule elementaarset vereproovi ja tahab mingisugust asja teha. Tsiteerides kultusfilme üks miljon dollarit tegelikult summa jäi kokkuvõtlikult maksumile oma raha, muidu me need andmeid sulle tagasi ei anna. See kindlasti on juhtunud ja tegelikult see ongi see põhjus, et oleme nii digitaliseeritud praegu, me peamegi rakendama asju, mis kümme-viisteist aastat tagasi tundusid absurdsed ja me ei, me ei saa, me ei saa teisiti minna. Et tulles selle küsimuse juurde, siis mis su küsimus oli. Ja direktiiv on siis niisugune Euroopa Liidu seadus, mis tuleb siis Eesti seadusesse vastu võtta. Seda tegelikult tehaksegi valdkonniti ja suurusjäti ehk siis punkt üks, mille mingisugused kindlad valdkonnad, mille osas siis Euroopa Liidu seadusandja on pidanud neid piisavalt tähtsaks, et nad peavad mingit küberturbe nõudeid rakendama, noh näiteks jäätmekäilitus, no näiteks prügi ära viivad pilveteenuse osutajad, on ja, ja, ja Microsoft ja nii edasi. Avalik sektor, eks ole. Ja siis lisaks ongi see kirjas veel noh, jämedalt see, millest praegu siin juba räägiti ka, on see, et sa pead neid meetmeid rakendama, neid rangeid meetmeid üksnes siis, kui sa oled üldreeglina vähemalt keskmiselt suurettevõtte ehk siis sul on vähemalt, eks ole, seal viiskümmend, sada töötajat, eks ole. Käibe on ka vähemalt kümme pluss miljonit eurot. Mingisugune vahetegu seal on, aga tõsi on ka see, et kui sa osutad nii kriitilist teenust, et riik selleta ei saaks üldse hakkama. Näiteks pangad ja nii edasi, siis vahet ei ole. Miks su suurus on, sa paratamatult lähed sinna vormide alla, sest jälgima. Igasuguste normide alla läheb ka meil märksa suurem kui võib-olla mõni väike, väike perearstikeskus, et, et, et enne kui ma neid, meil on siin väga palju, aga kõik küsimused olnud, enne kui ma nendega edasi lähen, siis ma küsin hästi sellise konkreetse küsimuse sinult küll tõesti päriselt läheb täna seal, kes, kes sellisel suurel meditsiiniasutus on nagu Mywa on lihtsam on täna, sa võid öelda kõverturvalisus teie ettevõtte juhtkonna alal? Eestis ainukene, kes sellega nii suur on. Et ja kellel võib olla sellist nagu nii-öelda just suuremaid meeskonnatuge. Taktikat, milliseid meetmed tegelikult nagu rakendada. Et noh, siis ma ei näe, et see ongi keeruline, aga tegelikult on täpselt selline kuulda, et kas need seadust on vaja. Noh, küsimus ongi selles, et miks seda seadust vaja on, et, et sedasama seda teha, kust ja vastutust viia edasi, seda ei taheta võtta ettevõtte juhid ütlevad, et nemad sellega ei tegele. Küberturvalisus, küber mingi ruum, mida käega katsuda ei saa, midagi vaadata ei saa. Aga tegelikult ei pea mured ongi selles, et minu silmis oleks selline, et ettevõtted, kes osutavad teenust läbi siis, läbi võrgu, et rakendada kõikide ettevõtete järgi, mis siis. Oleks see küsimus kutsutatud üks niisugune pool aastat tagasi, siis tulebki mingisugune piir sellises mullis, et et kuna. Nemad ju väga selgelt kirjutavad sulle ette, mis sul tuleb, sul ei pea olema seda standardit iseenesest, aga siis järgmine küsimus on kohe see, et põhimõtteliselt standardile vastavad asjad, mida sa siis teed, selle jaoks, hoida turvalisem, eks. On väga palju kohti, kus, kus öeldakse ikkagi see, see on midagi justkui tegeleb, on ju ja, ja sealt seda edasist mõistmist, et, et ei ole. Et, et see on nagu, nagu päris huvitav ja et, et see tarne küsimus on nüüd tekib nagu nii-öelda üles, et see on minu meelest ainult positiivne. Et, et seda nii-öelda läbi suruda rohkem, et siis ta oli täitsa niimoodi serva teemaks, aga noh, ikka tuleb igale poole sisse, et siis igal pool. Teisest küljest peaks olema sekkunud kõik perearstikeskused hakkavad küsima neid samuseid nende teenusepakkujatelt neid nõudeid sinise peavad hakkama neid rakendama. Aga see on tõesti, see on üks selline koht, mida me oleme näinud. Ja ma arvan, et me ei saa võtta seda, ütleme siis teise kahe raames ettevõtmeseaduse loomisel kaks väga erinevat süsteem, üks on see ettevõte, millel Euroopa Liidu õigust ja direktiivi, teine asi on seotud siseriiklikult kuidagi erinevad ja sellepärast ei lisatal. Aitäh selgitamast. Minule ettevõtjana arvan, et tegelikult kolmanda vabandust meile ka väga ei huvita see, mida te saate või ei saa, aga lahendage minu jaoks asjad ära loogiliselt. Et nagu sa ütlesid, et meil on üks perearstidele pakuvad programme või neid prokura, kus me töötame, palju me toidame, neid haldame, töötleme neli suurt asutust. Perearstikeskusi on tuhat nelisada kakskümmend viis, kuskil mingisugune pealt neljasaja. Väga paljud on neist mingi nelja-viie töötajaga niisugused ühe nimistuga perearstikeskused. Meie perearstikeskus kakskümmend pluss töötajat on see venekeelsete keskmine väga ka ikkagi nagu väikeettevõte. Et kujutage ette, et minusugune keskealine kontrollima veebi suhteid ja läheb kontrollima sundlaadi ja läheb küsivad, et vabandage, kuidas teil seal, mis asi see on täitsa rakendatud oli. Et mul ei ole selleks tabelust. Mul ei ole IT-list kõrgharidust, ma olen õppinud arstiks, ma tean, kuidas on onu köharaviga, ma ostan siit võib-olla, et kui su kuused jäävad haigeks ja oskan sind enda proteesimisele saata, ma ei tea, mis sa nende proteesimise teekond, kui teil on lapsed kodus ja siis me jälgime nende laste tervist ja nii edasi. Aga et ma seda saatsin nagu teha, siis noh, ma tahaks, et me nagu teenusepakkujad. Et meie ei oleks need kontrolli, kontrollimehhanismid. Et ma saan aru sellest äriloogikast, et Merila rakendab neid mingisuguseid skandaid sellepärast, et neil mingid suured ühised rahvusvahelised koordinatsioonid nagu nõuavad, et see on nagu siuke iseregulatsioon. Aga perearstid on siin jah, natukene siukeses kakofoonilises seisus, et nad on küll ise ettevõtjad, aga nad on ise nagu väga piiratud ettevõtjad, et ma tegelikult tahaksin olla arst. Siin tuli tegelikult üks, kas ma võin võtta küsimuse meie publik tahab jubedalt edasi rääkida, nii et ma olen kuulnud, et meil oleks vajalik kahte tundi veel umbes, et me võime kõik need küsimused saaks üle käia, aga, aga väga, väga nagu meie jutu jätkuks küsibki sellist asja, et miks ei võiks olla perearstikeskusel keskselt riigi poolt loodud lahendust juba õpetaja jaoks, kas võiks, kas see võiks probleemi lahendada? Mina vastan. Oleme üritanud ka nagu kohaneda ja oma partneritega rääkida, rääkida Tervisekassaga, rääkida Sotsiaalministeeriumiga, et aidake nüüd, et kuidas me nüüd teeme, et riik on delegeerinud tõsiselt, kes vastutab, riik on diregeerinud vastutuse oma patsiendi andmete eest antud hetkel siis väikestele perearstikeskustele. Et me tahaksime mingisuguseid tsentraalseid lahendusi, me tahaks tegelikult minna sinna algusesse tagasi, kus lepiti kokku, et meile kehtestatakse valdkonna spetsiifilised reeglid. Et aga, ja siis me mõtlesime välja sellise asja, et, et tegelikult ma räägin vahepeal, et kuidas perearstikeskuseid rahastatakse. On selline kulumudel, kus on erinevad vead, millele, millele mis kulud, eks. Vanasti oli seal selline rida nagu arvuti töökoht, eks ju, mis koosneb siis toollaud ja arvuti. Et nüüd on sinna lisandunud ka rida küberturvalisust, see on nelikümmend üheksa eurot kuus inimeste kohta. Tegelikult selle üks asi, et, et sul on nüüd nagu arvuti, sul on siis mingisugune võrk, pildi pealt ta saab harjutama, et kes see seda harjutab, kas, kas see perearst ise siis peale tööpäeva lõpule pead pidi sinna kuhugi, kuhugi serveriruumi ja hakkab valdama ja, ja mingisuguseid dokumente kirjutama. Et, et aga, aga noh, meil on vaja kogu seda süsteemi pädeva haldusega ja, ja siis noh, nüüd on meil selline mõte, et tervisekassa on tegemas andet arvuti töökoha kanget, kus siis on võimalus juba, kus siis saavad turule tulla pakkujad, kes pakuvad arvutit koos haldusega ja kuna see on siis nagu hange, siis tekib ka juba mingisugune selline huvi võib-olla seda teenust nagu pakkuda võib-olla see hakkab ka seda hinda natukene nagu reguleerima, see ei ole enam nagu selline, et need IT-teenuse pakkujad, mis teatavasti ei ole väga odavad pakkujad, et et võib-olla see hind hakkab ka kuidagi nagu reguleerima, me väga loodame, et sellest midagi tuleb. Meil tegelikult hakkavad ikkagi peale küberturvalisuse seaduse järgi siis muudatused, vaatame üle, seda küsimust sisse võtta, nagu tegelikult Euroopa Liidu õigusega võtnud edasi. Et meie eesmärgiks ei ole jällegi kedagi kiusatatud, kui me näeme reaalselt, et see muudab asja paremaks ja see on tehtud, siis me teeksime seda, mis mulle meeldib, mulle meeldib, võib-olla valdkonna selline eraldi regulatsioon. Kas ikkagi on olemas pädevus, turnuse nõuded kirjutada? Perearstil on pädevuskontrolliga näiteks, kuidas neli või sünniautomaatselt need nõuded võiksid olla ühised kõige rohkem--- ressursse, et ega neid hallata. Baas, mis katab enamusega, on väga hea ja selle kõrvaldavasti siis sinna pealetulektsiis Eesti mudel minu meelest töötab nagu seda reformi ei läheks küll, siis vaadata neid tehnilisi lahendusi, et perearstikeskustel võiks olla siis keskse arvutitega pakkuja, mis lahendab neile väga palju probleemidega ja võib-olla lisame sinna siis selle tarkvara komponendi ehk needsamad keskseid vabalt, kes pakuvad perearstikeskuse siis tarkvara, et nemad juba oleksid ära, ma ütleks, et näiteks siis selle nagu selle lõviosa probleemist ära. Ma tooks ühe näite veel siin, et sa ütlesid, et paljud perearstikeskused on pihta saanud, kui paljud ei ütleks üksikud on, aga neid on. Et me ei ole sellest väga palju kuulnud, see lahendatakse ära, võib-olla mingit lühikest aega on, mingi perearstikeskuse IT-süsteemid maas. Aga kui on maas programmi arendaja, siis on maas kõik Eesti perearstid, siis me oleme tõesti niivõrd digitaliseeritud eelmine kevad, et peale kui terve tööpäeva üks suur arendaja suurarendaja süsteemiga maas, see tähendab, et ei teinud tööd noortekodu sektor väga suur osa Eesti perearstidest. Sellest asjast sõltuvad meie patsiendid on need üldiselt mõistlikud. Meil on olemas ka veel, meil on olemas pliiats, meil on olemas petuskoop, et, et saab nagu hakkama. Meil on olemas suhtlus mõned paberretseptid, tuletame meelde, kuidas neid nagu kirjutatakse ja, ja mõnele protsendile sai öeldud, et nagu see jama ükskord läbi saab, et siis saab võib-olla saab ehk homseks saab korda enne homset apteeki nagu mine, aga see tähendab seda, et ma pean kõike seda pärast nagu tagasi algama ja digitaliseerima kogu seda tegevust. Ma korra ütleks repliigi, et aitäh selles suhtes väga valgustav argi oli kuulda seda ja ma mõistan seda muret, eriti väikeste nii-öelda perearstikeskuste või nende perearstide puhul, kes toetavad üksinda. Mis palun selle küsimuse juurde, et sa mainisid seda, et arsti ülesandeks ei peakski olema küberturbest arusaamine, ma olen seda printsiibis nõus ja sellepärast mulle tihtipeale meeldib tõmmata seda paralleeli ja vabandage nüüd selle lotaalsuse eest või lihtsuse eest, aga küberturve on nagu veidike nagu raamatupidamine, eks ole. Et kui seal on ettevõte, eks ole, siis samamoodi nagu küberturbe eest juhatus lapse eest, aga tihtipeale, mis tehakse, ongi, võetakse see raamatupidamise teenus siis väljasprotsessi, eks ole, võetakse raamatupidaja, näiteks raamatupidamise teenusepakkuja, kellele makstakse raha selle eest, et mbrid oleks korras, eks ole, ja et siin Eesti Maksu-Tolliamet ei tuleks, eks ole pärast väärteomenetluse või mis iganes muu asjaga selle peal täpselt samamoodi, nii et ma arvan, et juba ettepanek siin puhul ka juhatus vastutab, eks ole, perearsti seoses paisutab, eks ole, aga ta peaks sellega tegelema, see on mingi teine pool jah nõus on see, kuhu see raha eest tuleb välja. Iseenesest tekib siis see küsimus, et okei, et ettevõtluse omadus väga-väga oluline asi, aga kas me peaks nagu mõtlema selle poole, et perearstid võib-olla peaksid tulema rohkem puuduma siis mingisugustesse keskustesse või iseenesest võimendaks seda võimekust osta seda IT ja küberturveteenuste sisse, sellest raha maksta ja muuhulgas omaks nagu paremat jõu olge teenusepakkujate suhtes, aga noh, see on niisugune nagu keerulisem arutelu, sellepärast et see piirab väga palju arsti ja perearsti vabadust, mitte üksinda kuskil väga kauges kohas, eks ole, üksinda on neid tehtud. Aga ma arvan ka, et, et see, kui me räägime mingist nagu diferentseerimisest ja natukene nagu teistmoodi. Siis üks variant on see, et kui me vaatame suurtes keskustes, kus tegelikult ongi juba noh, teatud koondamine juba toimunud, on ju kakskümmend kahekümne arstiga kliinik on ikkagi juba nagu nii-öelda Eesti mõistes noh, ma ütleks pigem võib-olla nagu nii-öelda keskmine või pigem suurettevõte mingeid mustrid ja väiksed kohad, kus on siis nii-öelda see väiksemad perearstid ehk et siin on kõik organiseeritud olema keskustest, kus turg justkui võiks seda asja nagu paika panna, et noh, meil on endal siin ju teenusepakkujad, kes, kes suudavad seda, seda nii-öelda pakkuda ja siis on meil aura, kus sul tõesti on turutõrge on, tuleb mõelda, et mis on siis see lahendus see, et seal pakkuda. Nüüd rääkides sellest võrdlusega taskuses finantsiite seda ju ka ei pea teadma on hästi keeruline. Aga noh, paratamatult oleme see baasosa on ju paratamatus see, et, et see lihtsalt peab olema nagu nii-öelda selle, selle juhtkonna ja selle ettevõtte siis laual. See on üks asi, mida näiteks meie peale ka selgelt oma klientidele ütlemegi, et et teie tegelete organistrite, teie tegelege oma tööga nagu ja meil nagu teeme kõik korda sellega, et te saaksite asju teha ja teda usaldatakse ja siin oli üks selline huvitav küsimus ka veel, et mida mina ise ka ei ole isegi mõelnud ja võib-olla küsiks publikult käed püsti ka, et kas ma tarbijana või siis patsiendina näen seda perearstikeskuse miks ei ole näiteks turbenõuded tõendatult rakendatud, et saaksin teha teadliku valiku, ehk siis kui me mõtleme, et see on nagu perearsti valikut, siis lihtsalt see, et mul võib-olla veab, et mind võetakse sinna nimistusse on ju minul tavaliselt on see niimoodi käinud, kui olen elukat vahetunud, saavad toreda kirja ja võib-olla anda ruumi kedagi kedagi juurde võtta. Aga kas meil siin book'ite seas on mõni inimene, kes on teinud perearsti valiku ja mõelnud või ma ei ütle, et otsuse selle täidavad, aga mõelnud sellele, kui ta valib perearsti, et kuidas perearstikeskus minu andmeid haldab. Aga see on jällegi, mis, millest me räägime konkurentsi, konkurentsieelist, et kui sa oled suur ja sa oled täitnud need reeglid, et tegelikult vaatame täna üleüldse arsti juures võib-olla käiaksegi rohkem era erakliinikutesse saad kiiremini vastuvõtule võib-olla teenuse kvaliteet on, on see, et sul on laiemad võimalused ja nii edasi, et, et tegelikult on ka kahju sellest, et kui siis jääb seal võib olla väga hea arsti juures käimata lihtsalt sellepärast, et tal on, tal on väike üks ja seda pole saanud endale seda, eks ole, mis on mõistamist. Aga natuke ei tahaks nagu tekitada nüüd perearstides mingit kolli, et inimesed on teisest küljest peaksid hakkama kartma, et, et nende andmed on kuidagi nagu mõne perearstikeskuse käes nagu õudselt, õudselt ohus, sest nagu ma alguses ütlesin, et midagi järgivad ja midagi, kõik on ikkagi nagu kuulnud ja andmed on meile olulised ja kui see kuidagi nagu kõlas ja me ei taha küberturvalisusest midagi kuulda, siis ma ei tahtnud seda niimoodi nagu, nagu öelda küll. Aga kõverturvalisuse reegleid, mitte rida nüüd on seal need esmased dokument. Et need on natuke küll seotud, aga, aga nad ikkagi lagunevad, need on niisugused organisatoorsed meetmed ja on ideelised meetmed ja need organisatoorsed meetmed võtame juhtkonnade osal teel hea meelega endale anda, me koolitame oma töötajaid, räägime neile kabinetis altpoolt, et siis nad peavad halvitama selle Windowsi ja nii edasi. Iga aasta meie töötajad teevad Riia tehtud küberturvalisuse testi, et ma arvan, et sellist selline käitumise main on nagu küll olemas. Aga, aga millega me nagu hätta jääme, et me, me jääme hätta seda tehnilise poolega ja ka meie teenused hakkavad internetiteenusepakkujad. Meil on see väärtus, et millised need reeglid on ja kuidas rakendada. Et mina ei taha, et, et minul see internetiteenuse pakkujaks nagu vorstimüüja, kes küsib minu käest, millist vorsti sa tahad, et kas sa tahad lastevorsti või sa pead kiiduvorsti. Ma tahan, et tema oleks nagu sihuke spetsialist, et mina arvan, et need silmad ja minu keskus on selline, meil on need nagu meetmed, ole hea, tee nii, et oleks küberturvalisem, et ma tahan minna selle küberturvalist teenust osutama IT-ettevõtte juurde ja öelda, et, et tee mulle nüüd seda. Me tahame sellised asjad näiteks nagu kaera lahendada. Meil on olemas digiplatvormid, üha rohkem õpetame meie patsiente, palun pöörduge pea, see on päris lihtne, aga seal lihtsalt tuleb sisse logida ja, ja teie andmed on nagu hoitud. Et me tegelikult natuke võitleme patsientidele, sest patsiendid tahavad nagu võimalikult ruttu teenust saada ja nad tahavad võimalikult kirjalikult võimalikult kaugelt saada, nad lihtsalt ise kirjutavad väga avatult kõigest, et meie pigem tõmbame pidulikult, et ärge sealt kirjutage. Sa saad sealt juba teha selle retsepti pikenduse ja sa ei pea meile üldse helistama, sa ei pea meile üldse kirjutama mitte midagi, lihtsalt pane sealtkaudu, sa lähed oma eelmise retsepte, et tegelikult ma arvan, et, et see, see on jõudmas, see on põlvkonna vahetuseni jõudmas ja loodetavasti lahendab lahendab suure probleemi. Ma ju tahtsid muidugi lisada. Meil on väga hea koostöö Riiaga tõlgitud ja, ja Riia ehk siis Riigi Infosüsteemide Amet erinevate tahab teha nüüd ühe perearstikeskuse väitel, kuidas neid nagu rakendatakse. Me leidsin, et nende perearstikeskuse ja, ja seal see töö käib ja, ja nüüd sellised me hakkame kokkuvõtteid tegema ja ma arvan, et see saab olema üks näidis ja siin oleme siit koolitustega koolitustega edasi, et siin on ikkagi nüansid, eks, et ja ma arvan, et need asjad hakkavad tasapisi paika jooksma. Üks teema, mis minul hindega on kogu meie küberhügieen, mis täna on ikkagi selles mõttes viie numbri vaadates siis kui jaanuaris sellel aastal kaotati rohkem nagu raha küberrünnakute tõttu kui eelmisel aastal kokku, siis muidugi nagu midagi on mäda ja midagi tegemata, eks ole. Et, et selles mõttes üks küsimus on siin täpselt tulnud ka sellega seoses, et, et õpetajatele näiteks kehtivad ranged keelenõuded, kas me peaksime arstidele seadma kohustuslikud kübernõuded ja oma äärmuslinnas siis küsimusele siis ja mitte vastavalt siis ma arvan, et lahti laskma me ei hakka midagi, aga, aga tegelikult üks üks teema, et sa tõid siin välja, et Riia pakub nii-öelda selliseid loenguid või et sa loed mingeid materjalid läbi vastata ja mõnele küsimusele, paraku ma arvan, et see ei ole piisav. Tuleb asjad teha läbi praktiliselt ja täna just, just--- ja tihtipeale ikkagi see, see pauk käib ära, sellepärast et keegi vajutas lihtsalt midagi valesti või, või jättis nõrga parooli ja nii edasi, et sellised, sellised lihtsad asjad, mis tegelikult aitavad meie nagu siis turvalisust tagada, et, et ma ei tea isegi kui, kui rääkida isegi nagu mitmeastmelisest autentimisest, et, et ma arvan, et see on ka nagu uus mõiste väga paljudele inimestele, kes meditsiini valdkonnas töötavad, siis võib-olla mul nagu laiem küsimus, et milliseid päevad me liigume ja see tegelikult ei ole seotud ainult ka meditsiinisektoriga, ma võiks tuua pikalisi veel teisi sektoreid, kus peaks see täpselt samamoodi olema rakendatud. Et ülikoolides kui see annab juba mingit eriala õppima, peaks olema küberturval rakendatud ühe ühe osana õppest, et ma ei tea täna arstiks õppides pole kuulnud, et, et käiakse, tehakse ühtpidi ühtegi küberandmekaitse. Ma ütleks, et juba seal peaks olema sees. Mulle tundub, et nii-öelda sunduslike meetmetega saab pool tööd juba ära teha. Kui sul on juba organisatsioonis sees sees, sul on kaheastmeline autentimine ehk siis see, et sa pead kahe asjaga sisse logima kohustuslikuks tehtud, see aitab juba palju. Võib-olla isegi see, et sul on see arvutiekraan nagu automaatselt lukku siis, kui sa jälle mõnda aega on kasutatud. Sellised asjad, eks ole minimaalse parooli nõuded, ma ei tea, kaheksa ühikut, eks ole, suudad väiketäht number see spetsial, eks ole, jääb veel juurde. Mingisugustest asjadest ma arvan, saavad kõik inimesed aru, kui me räägime asjadest, siis tõenäoliselt asjad saavad ka sellest aru, et ma ei tohi seda paberit, eks ole, võrdlema, et samamoodi ma ei tohi seda nagu ekraani peale ka jätta, eks ole, neid patsiendi andmeid, eelmise patsiendi andmeid, kui meil tuleb kuus patsient sisse, eks ole, kuigi need tüvesid tehakse, eks ole. Ma arvan, et see kõige keerulisem asi on see, et noh, me oleme nendest pettustest viimasel ajal hästi palju rääkinud on ju, on sellised petukirjad, mis tulevad siis emailiga, eks ole, kusjuures mõnikord on see, eks ole nagu tundub, et kolleeg saadabki mulle seda kirja, tegelikult tuleb see mingisugused suvalised meiliaadressilt, eks ole, mingid numbrid teada ja nii edasi. Ja siis tegelikult on ju ka need petukõned ka on ju, meil on ju selline meditsiininäitleja, aga jälle avalik informatsioon sellise ettevõtte---, kus helistati, oli sellist finantsjuht, helistati, tehti mingisugune ettekääne, ma ei mäleta, mis see täpselt oli, aga ilmselt ka midagi taoliste nagu tervisekaaslastele mingisugune üritus jäänud saamata. Et midagi väga praktilist, mis loodetavasti teeb selle kõik selleks, et seal saabki päriselt nagu läbi teha kõik intsidendid, nii et, et teinekord on see intsident arvutisse jõuab, siis ta intsidendiks ei muutu. Kas siis korteris või kaks korda aastas tuleb meie kõige suuremasse tuppa, mis meil on seal büroos on, eks ole, kõik peavad kohustuslikult kohal olema ja kes ei saa, peab järele vaatama, et on mingi inimene, kes lihtsalt selgitab ära, et mida võib teha, mida ei või teha ja tehakse igasugused nolongitsusteste ka, eks ole. Et see oleks nagu siin kuidagi selge, mida võib teha, kui see nagu jutt jääb kuskile noh, meedia tasandile, Maria on väga head tööd teinud, eks ole, mittevaatlikku. Aga, aga noh, tegelikult on ikkagi see, et, et nii-öelda perearstikeskused, eks ole ja kõik, kõik muu, eks ole, ettevõtted peavadki lõpuks selle lepingu otsi tegema, et keegi tuleb personaalselt ja räägib selle üle, kuhu see punaseks selgus. Et üks kord aastas, aga see koolitus ju enam liigub sinna, et sul ongi võib-olla iga päev, iga nädal tagant on mingi õngituskatse ja kui sa läbi mingi koolitus välja natuke üritan avada, et mis see termused meil on, ma kahtlustasin mingi kaks nende analoog. Nemad ostsid selle teenuse endale sisse ja lugesin nagu rääkis sellest nii-öelda kokkuvõttest, ütles ka, et, et kuidas need nagu reaalselt juhtkonna tasemel inimesed aitasid kakskümmend viis korda sellele lindile, kui öeldi, et, et klikki siia lingile, et, et siin kellegi auto võti sinna parklas kuskile maha kukkunud, et kas nad võivad olla sinu omad või on neil näiteks see, et, et, et sinu, et sa oled valitud kuu parimaks töötajaks, et ettevõtete omanik on siis maksab sinu chati kuu mingi tasu nüüd järgmise aasta jooksul, kes sa mõtled nagu, nagu juhtkonna tasemel kakskümmend viis korda vajutada sellele ühele samale lingile, et, et see on ikka päris valus. Õige tunne on sul siis, kui iga kord, kui sa meili saad, siis sa vaatad selle kaks korda otsa. Aga see vana hea ei jäi selle tulekuga nagu vanasti, me teeme võib-olla kolm, kolm või rohkem aastat tagasi, me olime unikaalsed positsioonis, et meil ei olnud nii palju ründeid, sellepärast et välismaa petturid ei räägi eesti keelt, aga see nii-öelda barjäär on tehis, aga kui nüüd täiesti ära ületatud. Oluline, et, et kui suur või väikese perearstikeskus on, et midagi on seal pikka võtta ja see ongi täpselt tehisintellekti nii-öelda tulemused tulevad kahjuks suureks. Ja siis ma otsustan, et see ei saa olla ja kustutan ära. Siin tuli üks kommentaar ka vahepeal, et digipädevused tegelikult algavad juba lasteaias, et tegelikult tuleks juba sinna sisse panna. Ja vastused. Täpselt samamoodi neid telefonikõnesid, neid kalastus emaile langeb täpselt samamoodi siin oli see küsimus, et ma ei tea, kõik need perearstid tuleks luba ära võtta hetkeks võivad kõigepealt todased ja nii edasi. Nende inimestega, kes meil siin on ja nende perearstidega, kes meil siin on, kui meil oleks perearstidest järjekord ukse taga, et me saaksime seda võib-olla teha, aga senikaua, kui meil seda järjekorda ei ole ja me peame olema väga õnnelikud pensionieas laste üle, kes on tegelikult väga hea arst. Aga ta ei vaja nagu kurja kontrolli ja suuri trahve, ta vajab selleks abi. Et ta vajab selleks teenusepakkujaid, kes talle ütlevad, et vaata, sa pead tegema niimoodi, et sa pead panema siia kaheksatähelise parooli või kaheksamärgilise parooli ja sa ei tohi oma G4 või, või rohkem messengeris oma patsientidega suhelda. Et ja, ja, ja mida me tahame ja me tahaks ka, et meil oleks abiks ka mingisuguse standardid, et anname mingi IT-lahendus, mis ütleb, et see on tehtud, see on tehtud, see on su kontrolli all nii edasi. Aga sellised standard Riia nagu ei taha teha, et nad tahavad, et, et kõik vajutaksid nagu jalgratast oma, oma keskuse tasemel. Et aga me nii palju omavahel ei erine, et, et me tegelikult, noh, need standardid siiski oleks nagu abiks või nagu mainid või näidised, et mis, et kuidas nagu peab olema ja kui ma sellest kõrvale kaldun, siin mingil põhjusel, et see on mulle kas mugavam või minu patsiendi näha või mis iganes ma väga põhjalikult mõtlen läbi ja räägin läbi oma IT-teenuse pakkujaga, et millega ma siis riskin, eks ju. Ma nagu mina töötan, et tegelikult mulle tuleb töö meil tuleb alates meil sisse, siis tegelikult teeme kontseptsiooni natuke häirivad sellest, ta lubas selle meili sisse, organisatsioon peaks olema see esimene filter. No aga siis ma tahangi minna selle oma interneti teenusepakkuja juurde ja ja sellise süsteemi luua, et, et ta ei lase neid sisse, kui ta muidugi iga päev, igaüks saab seal samas süsteemis kasutada oma isiklikult Gmailja, et, et see noh. Et, et ma tahaks, et minu teenusepakkuja interneti teenusepakkuja oleks nii teadlik, et tema ütleks mulle, et mitte mina lähen tema müüri. Et aga, aga me peame leidma mingisuguse kuldse keskel, mille eest on meie riigi rahast perearstidele, et mille eest on ka riik nagu makse noh, valmis maksma, et sedasama selle arvuti töökoha teenuse läbirääkimistel me oleme kaks aastat arutanud seda, mis see peaks olema, mis seal mitte. Aga logide teema, et, et mis peaks olema, mis mitte ja kõik maksab ja selles aruteludes selgus näiteks, et meie perearstikeskus mingi, mingi valdkond see oli suure, suureks hirmus kasutab ülemääraselt rangeid nõudeid võrreldes isegi mõne teise olulisema asutusega. Kas tal on senimaani peaaegu pooleteise tunni jooksul siis mõnus, aga alati ongi seesama kuusteist panna. Seal on ju vaheastmed kõik, eks mingisuguse sobiliku tasandi me peaksime kokku leppima siiski. Aga üks asi, mida ma veel tahaksin väga tahaksin tegelikult küsida on küberturvalisuse andmekaitsega. Kas andmekaitset on üldse kuidagi võimalik tagada ilma tugevamate turvaliselt turvalisuseta? See oli juba kaheksa aastat tagasi, eks ole, ja kui see jõustus, see Gerdpärane otse koonduv määrus Eesti Vabariiki pidas seda vastu võtma otse Brüsselis kehtimine ja ma mäletan, et siis, kui see juhtus, siis oli niisugune nagu kergelt suur paanika Eestis ja mujal ka, sellepärast et selline esimest korda, aga miks esimesest kordadest, kus määruses olid nii suured trahvid, seal oli kirjas, kui sa rikud määrust, siis sa maksad kuni kakskümmend miljonit eurot. Aga mis olid GDPR-i nii-öelda spetsiifika, oli see ja noh, siiamaani on see, et ta ei räägi tegelikult mitte üldse sellest, et kuidas asju turvaliselt teha ja sisuliselt ütleb seda, et noh, eks ole, ettevõttel ja perearstikeskusel ja tervishoiuteenuse osutajatel muuhulgas üleüldse igal ettevõttel, kellel on vähemalt üks füüsiline isikust töötaja, on vähemalt üks füüsilisest isikust kõik peaks seda järgima esitama hästi palju paberimajandust, eks ole, privaatsuspoliitikat, eks ole, need võtavad ta neid küpsise peale läinud, eks ole, et uute uuele veebilehe kohutavalt tüütu, et noh, need asjad on ja siis--- sisekorrad ja märgid. Kuidas seda päriselt siis nagu implementeerida. See probleem oligi see, et maailm ja selle sektoris, eks ole, nõuanded ja, ja kahe tuhande kaheksateistkümnendal aastal sealt edasi ehitati hästi palju paberitiigleid valmis siis ettevõtetes, eks ole. Koostati nii palju paberit, eks ole, mõnikord on korralik kirjutasid valmis õige siia, eks ole, ja siis öeldi, et teatud meil on nüüd andmekaitsega hästi. Tegelikult sellest ei ole kasu, kui sul on lihtsalt mingisugused bürokraatiad, eks ole, dokumendid, siis sa pead seda kasu ja noh, mis, mis nagu selle nii-öelda, mis koha tulekuga nüüd eks ole, muutus, ongi nüüd see pandi sellele asjale nagu sisu, et öeldi nüüd okei, et andmekaitse andmekaitse saab eraldi välja. Aga nüüd te peate päriselt, eks ole, rakendama, kas siis on kakskümmend seitse tuhat üks standardit, eks ole, mille käigus see siis paneb paika konkreetsed asjad, mida see kõige paroolid, särgid, värgid on ju või siis Eesti info tõlge standardid või siis on väiksemate puhul, eks ole. Et põhimõtteliselt ehk siis see asi muutub ja see point võiks koos käima, on see, et sul ei saa olla andmekaitset ilma küberturvalisuseta, sest see andmekaitsepaber ei kaitse siin mitte millegi eest, kui sul on kirjas see, et vaid ta tuleb, võib-olla, eks ole, sa oled päriselt tulemüüri ei ehita, siis tulevad ikka pahandused sisse. Kas riik või erasektor võiks pakkuda ka näiteks küberturvalisuse audit, et kohustuslikus korras, kui teenusepakkujaid täitleb tundlikke andmeid? Kas riik või erasektor võiks pakkuda, et, et on nagu kohustuslik, kus korras küberturvalisuse audit? Kõik protseduurid ja värgid ja siis tuleb keegi väljastpoolt, eks ole, kes vaatab, kas päriselt sai ka tehtud ja tegelikult teisi infoturbe siis teie puhul on ju sama loogika, eks ole, et keegi peab seda auditeerima väljastpoolt, et noh, ütleme nii, eriti suurtes organisatsioonides, et kui sa enda arust nagu nii mure hästi teed, eks ole, siis sellest ei, sellest ei piisa ja sellepärast ongi saanud tegelikult ka, ka sisse kirjutatud. Kui me räägime turvalisusest, siis seda nähakse ikkagi tihtipeale hästi suuri kuluna ja kui ma, kui, kui võtta seda keelt, et kas see on nüüd kulu või investeeringu oma, oma nii-öelda vastata. Et see on lihtsalt meetmeid nagu leevendada selliselt, et see on tõesti üks ja mitte investeeri, vaid saad kulutad sinna. Aga, aga siitkohalt poolt ma võtan, võtan selle sõna ära või võtan. Et kui me vaatame, vaatame küberturvalisuse nii-öelda mõju, siis läbi nende investeeringute tervishoiusektorile, siis kas parem küberturve tähendab tegelikult ka paratamatult kallimat tervishoiuteenust ja kes selle kinnimaksu võiks? Kas kõik kulud peaks kandma riik, haiglad või hoopis patsiendid, et kui mina tahan paremat, paremat, turvalisemad tervishoiuteenust ja minu andmed oleks tõesti tagatud, siis ma maksan võib-olla sotsiaalmaksu võiks jätab palju rohkem. Aga kui ma korra tuleks jälle nagu sinu pointi juurde, et meil tulevad valimised. Et kui kellelegi see viskaks, eks ole, uus kübertervalisuse seadus nagu mitte, mitte grammigi ei meeldi, et siis on see ka parlamendivalimiste üsna keeruline, et siis tuleks valida selle ja parlamendi poolt, mis ütleb, et ta läheb, astub Euroopa Liidust välja. On senini, mida viskaks ehk siis Euroopa Liidu seadus nõuab ja Eestis ei ole seda ülekullatud mitte mingisuguses viisis, eks ole, järgi see, mis tuleb Euroopa Liidust, meil ei ole sellega mitte midagi üldse peale hakata, et noh, tuleb siis täita. Kokkuvõtte küsimuse hoopis. Ja vaadates just ka tulevikku ja millega oluliselt kaasa võtta mõtteid, siis me peaksime kohtuma siin kolme aasta pärast, aastal kaks tuhat kakskümmend üheksa, siis mis oleks üks asi, mis peaks olema Eesti tervishoiu küberturvalisuse oluliselt parem kui täna ja võib-olla aidates teil sellele küsimusele vastata just et ühe lausega siis, mis on see kõige olulisem samm, mida me täna aastal kaks tuhat kakskümmend kuus peame täna tegema suur küberintsident ei muutuks patsienti ohutuse kriis, kes tahaks, et üks alguse võtta kolme aasta pärast Taavi istumisruumi siin sisse saab öelda mulle, et sa oled ikka riigis ja sa tegid selle ära, et, et, et need on olnud viimase kolme aasta fookus ja see on nagu päriselt hästi läinud. Tulevad, olgu need siis kas riiginõuded või siis meie enda poolt siseriiklikult tehtud, et need on kõik sellised, kus haigustajatele see tehtud, millal see hästi, me saame sellest aru, mida me tegema peame, mille me oleme seda teenusepakkujad, meil oleks tagastustoodang paigas, eks ju. Kuidas me sinna jõuame, see on see igapäevatöö, mida me, kuhu poole me kogu aeg nagu trügime. Et mul ei ole seda kuldlepit, mis, mis seda kohe nagu lahendaks, aga ma arvan, et väikesed sammud, mis me iga kord teeme, esmased toovad uue meetmete sageli selgemaks Eesti informatsiooni teeme paremaks. Mina tahaks niimoodi, et me ei peaks sellest üldse rääkima, sest nii nagu ma patsiendile anname mingid protseduuri tegema, et ma pean nagu käed puhtaks ja meie teekonna ju protseduuride panen kindlad kätte, eks ju. Ma ei too seda eraldi välja, ma ikka noh, ei kirjuta seda üles ja ma võtan need seina pealt kingad ja panen kätte, et see on ideene, eks ju. Et samamoodi ma võib-olla ei peaks enam pidev turvalisusest nagu rääkima, et seal on nagu integreeritud erinevate teenuste sisse. Et kui meil on perearstidele nagu kasutame ka mingit teenusepakkujate teenuseid, et need juba see, et küberturvalisus on sinna vaikimisi sisse kirjutatud, et neid organisatsiooni tasandil oleks, noh, enda väikese rakukese graafikeskuse tasandil oleks ka lihtsam rakendada, et oleks siiski mingid mallid või standardid, ei peaks kartma seda, et, et siis kõik teevad lihtsalt hinnati see tegelikult ei rakenda. Tegelikult rakendavad küll, aga inimesed peavad lihtsalt asjadest nagu aru saama ja, ja sellised mallid standardid on pigem abiks, et see on ka endal midagi nagu meelest ära ei lähe seda linnukesi, mõtled läbi. Ahah, et, et on tehtud, et inimestele meeldib tööd teha ja sellest tasu saada, innukamalt see tasu väiksem. Kui ma seda ei ole, siis ma arvan, et selleks ajaks võib-olla on tulnud mõni suur tulumaja trahvinud elada veel, eks ole, ma kujutan ette, et võib-olla tuleb mingisugune suuremal, suuremat sorti trahvi kaupa ära kellelegi, sest et ma rääkisin enne, eks ole, sellest GDPR-ist läksin isikumidega, siis üldmääruses ka, mis kaks tuhat kaheksateist eks ole juustes et mille üle inspektsioon. Aga Eestis ei ole siiamaani ja ma tuletan meelde kaks tuhat kaheksateist jõustus see, eks ole. Eestis ei ole siiamaani mitte ühtegi trahvi kiiret läbi rikkumise eest, mis on näiteks paarisajat eurot ilmselt oleks ilus ja andmekaitsega paratamatult Eestis on nõksade koguvad lood, eks ole, et ettevõtted, kes ei ole nagu väga suured, väga ei viitsi seda järgida. Sellepärast et mitte ühtegi trahvi ei olnud. Ma loodan, et küberturvalisuse seadus. Kas te arvate just, et mis asjadele spekuleerinud selle üle, et kas sellistes päris juhtumitest rääkimine innustab, millega teisi tegema ekstra samme või, või pigem mitte, et kas hirmutamistaktika läbi selle, et, et kellelgi on nagu väga pahasti läinud täna tegelikult toimiks. Et see, see ei ole täna see, et, et nagu nii endast nii-öelda sellise kokku panna. Et kui me vaatame siit, see on täna juba niisugune reaalsus, et, et, et, et vaatame, et sa oma lastest paned hästi palju videosid välja, on ju, sul on võimalik luua väga niisugune autentne kõnerobot mis sisuliselt nii-öelda suhtleb sinuga sinuga nii-öelda lapsega ja kui sa oled nii-öelda meeldis samasugustele ohtudele kaitstud. Et justkui see, kui me, kui me ei kuule neid reaalseid lugusid, mis meil on kõrval, siis ta tegelikult ei pruu kaduda, kuskohas see oht tegelikult peitub, mis seal tagajärg, kuidas ettevõtted pankrotistuvad, sellepärast et nad kaotasid majanduse, kuidas nad ei suutnud kahe kuu jooksul olla tootmispiiri taastada, see on oluline. Ma tahtsin vastata enda seisukohast ja ma arvan, et me tegelikult olime nende perearstide häält ka graafik on niivõrd kohutavalt suured, et mis seetõttu on nähtud, et, et need hirmutavad ja, ja see, et kui on kogu aeg mingi trahve, mingi karistus, see ei, ei pane paremini käituma, aga, aga ma olen väga nõus, et see isiklik kogemus see sellest rääkimine perearstid ka ei taha sellest rääkida, kui neil on juhtunud, et meil on piinlik, neil on paha, nad ei taha sellest rääkida, aga nad võtavad midagi nagu ette. Et tegelikult peab see normaliseerima, et kui midagi juhtub, et sellest võiks rääkida, peaks rääkima. Meditsiinitöötajate vastutuskindlustusega. Et mis, mis nüüd praegu on, et kui meditsiinitöötajad ei tea, et ilmselt ei tee seda nagu tahtlikult, eks ju. Siin on mingid asjad kokku langenud, mis juhtus, aga see tuleks nagu raporteerida. Ja, ja kui me hakkame raporteerima, siis me saame neid väikseid asju nagu lahendada. Et samamoodi võiks ka siin pikendada valitsusega olla. Selles mõttes väga suur see, et et ka nii-öelda tulud paneb mingil määral seda paika, et need teenused tuleb, tuleb nagu nii-öelda jälgida, et, et see, see, ma usun, et usuvad kaob nagu ära. Et siis hakatakse ka rohkem nagu rääkima, ma arvan. Täpselt nii, kellel sa oled üheksateist kolmkümmend. Ma loodan, et meie kuulajaid kutsub samamoodi ja aitäh meie seda arutelu pidada oma oma küsimustega, et, et mul oli hea lihtne. Ilusat õhtut.",
+    "cues": [
+      {
+        "start_seconds": 11.24,
+        "end_seconds": 18.56,
+        "text": "Tere tulemast kõigile töötavad hästi kõigile, kõigil on omad ja mina olen vets tänase"
+      },
+      {
+        "start_seconds": 18.56,
+        "end_seconds": 26.32,
+        "text": "vestluse moderaator ja ühtlasi töötan Eesti ühes küberturbettevõttes nimega Neverjak"
+      },
+      {
+        "start_seconds": 26.32,
+        "end_seconds": 33.36,
+        "text": "võib-olla paljudele, et nii-öelda tuttav ja siit ka lava peal vaadates siis ka väga palju"
+      },
+      {
+        "start_seconds": 33.36,
+        "end_seconds": 35.72,
+        "text": "koostööpartnereid meil siin lava peal."
+      },
+      {
+        "start_seconds": 35.72,
+        "end_seconds": 43.12,
+        "text": "Et hakkame rääkima täna siis ilmselgelt turvalisusest ja just selles vaates,"
+      },
+      {
+        "start_seconds": 43.12,
+        "end_seconds": 50.0,
+        "text": "et on tulemas väga palju uusi regulatsioone ja, ja meie nagu fookus kogu vestluse vä"
+      },
+      {
+        "start_seconds": 50.0,
+        "end_seconds": 54.68,
+        "text": "ltel saabki olema see lause, mida kõik on ilmselt igalt poolt välja kuulnud."
+      },
+      {
+        "start_seconds": 54.68,
+        "end_seconds": 62.08,
+        "text": "Et küberrisk on täna äririsk ja pole veel enam küsimuski, et see on liikunud ja peaks"
+      },
+      {
+        "start_seconds": 62.08,
+        "end_seconds": 66.6,
+        "text": "liikuma IT-valdkonna laualt siis juhtkonda."
+      },
+      {
+        "start_seconds": 66.6,
+        "end_seconds": 74.0,
+        "text": "Aga tänase teema fookus on just meditsiinisektoril, sest olgem ausad, tervishoid"
+      },
+      {
+        "start_seconds": 74.0,
+        "end_seconds": 79.68,
+        "text": "on üks ründajate kõige suuremaid lemmikuid sihtmärke ja väga paljudel põhjustel."
+      },
+      {
+        "start_seconds": 79.68,
+        "end_seconds": 85.8,
+        "text": "Esiteks meie andmete selline sensitiivsus ehk siis see, et, et kui tundlikud need and"
+      },
+      {
+        "start_seconds": 85.8,
+        "end_seconds": 91.36,
+        "text": "med andmed ja teiseks kui palju sealt maavara kaudu saab ka siis ründajatele raha va"
+      },
+      {
+        "start_seconds": 91.36,
+        "end_seconds": 92.48,
+        "text": "rastada."
+      },
+      {
+        "start_seconds": 92.48,
+        "end_seconds": 98.92,
+        "text": "Aga nagu ma ütlesin, siis riik on nii koostöös Euroopaga kui ise väga palju ka uusi re"
+      },
+      {
+        "start_seconds": 98.92,
+        "end_seconds": 104.28,
+        "text": "gulatsioone välja töötanud, et aidata meie andmeid kaitsta ja just sellest täna räägime"
+      },
+      {
+        "start_seconds": 104.28,
+        "end_seconds": 109.8,
+        "text": "gi, mis need uued regulatsioonid on ja kas need aitavad meid, vajavad endale segadus"
+      },
+      {
+        "start_seconds": 109.8,
+        "end_seconds": 115.88,
+        "text": "se, tekitavad peavalu ja pahandust või, või päriselt aitavad --- ."
+      },
+      {
+        "start_seconds": 115.88,
+        "end_seconds": 120.96,
+        "text": "Aga et nad lähevad soojaks saada, mina tunnen teid küll kõik väga hästi ja teeme ringi"
+      },
+      {
+        "start_seconds": 120.96,
+        "end_seconds": 121.16,
+        "text": "."
+      },
+      {
+        "start_seconds": 121.16,
+        "end_seconds": 123.56,
+        "text": "Saate korraks tere öelda."
+      },
+      {
+        "start_seconds": 123.56,
+        "end_seconds": 129.16,
+        "text": "Ja, ja siis meie Google't saab näha ka seda, kui mitmekümne külgne meil see seltskond"
+      },
+      {
+        "start_seconds": 129.16,
+        "end_seconds": 132.32,
+        "text": "siin täna laval on, aga alustame riigist."
+      },
+      {
+        "start_seconds": 132.32,
+        "end_seconds": 157.24,
+        "text": "Taavi."
+      },
+      {
+        "start_seconds": 157.24,
+        "end_seconds": 161.8,
+        "text": "Mismoodi me näeme, et hakkame edasi liikuma ja võib-olla noh, lubada endale olla ka natuke"
+      },
+      {
+        "start_seconds": 161.8,
+        "end_seconds": 169.64,
+        "text": "siis kriitiline, siis väga suurte perioodide osas."
+      },
+      {
+        "start_seconds": 169.64,
+        "end_seconds": 175.88,
+        "text": "Igapäevaselt töötan perearstina Tallinnas Tallinnas, tavalise suurusega perearstikes"
+      },
+      {
+        "start_seconds": 175.88,
+        "end_seconds": 182.16,
+        "text": "kuses, kus on viis nimistut, umbes kakskümmend viis töötajat ehk siis kvalifitseerub"
+      },
+      {
+        "start_seconds": 182.16,
+        "end_seconds": 189.76,
+        "text": "sellise väikeettevõtte alla kuuluva Eesti liberaalide Seltsi juhatusse"
+      },
+      {
+        "start_seconds": 189.76,
+        "end_seconds": 198.04,
+        "text": "ja juhatuse tasandil tuleb teemadega tegelenud ja riigi edasi ar"
+      },
+      {
+        "start_seconds": 198.04,
+        "end_seconds": 199.76,
+        "text": "gumenteerinud."
+      },
+      {
+        "start_seconds": 199.76,
+        "end_seconds": 235.24,
+        "text": "Tänaselt selle võimaluse siis uuesti."
+      },
+      {
+        "start_seconds": 235.24,
+        "end_seconds": 240.4,
+        "text": "Täiendada, muuta, eks ole, koostada, me olime selle protsessi sees ja ühe isiklikku ka"
+      },
+      {
+        "start_seconds": 240.4,
+        "end_seconds": 251.0,
+        "text": "ela."
+      },
+      {
+        "start_seconds": 251.0,
+        "end_seconds": 327.04,
+        "text": "Aga nagu öeldakse, close second ehk siis number kaks teema on kindlasti küberturber."
+      },
+      {
+        "start_seconds": 327.04,
+        "end_seconds": 329.76,
+        "text": "Aga hakkame pihta, hakkame otsast pihta."
+      },
+      {
+        "start_seconds": 329.76,
+        "end_seconds": 336.04,
+        "text": "Nagu ma ütlesin, meditsiinisektor kahjuks on meeletu surve all täna ei ole enam isegi"
+      },
+      {
+        "start_seconds": 336.04,
+        "end_seconds": 343.28,
+        "text": "küsimus selles, et kas keegi kuskil pihta saab, pigem millal ja kui suure pauguga ja"
+      },
+      {
+        "start_seconds": 343.28,
+        "end_seconds": 351.2,
+        "text": "sellepärast on nii Euroopa Liit kui Eesti välja töötanud uusi regulatsioone, et"
+      },
+      {
+        "start_seconds": 351.2,
+        "end_seconds": 352.76,
+        "text": "aidata."
+      },
+      {
+        "start_seconds": 352.76,
+        "end_seconds": 360.08,
+        "text": "Aga ma küsin hästi sellise sissejuhatava küsimuse, et miks seda seadust üldse vaja on"
+      },
+      {
+        "start_seconds": 360.08,
+        "end_seconds": 360.8,
+        "text": "?"
+      },
+      {
+        "start_seconds": 360.8,
+        "end_seconds": 365.92,
+        "text": "Kui me vaatame üldsegi sellist tagasisidet ka nagu ettevõtjateks, siis suhtumine mitte"
+      },
+      {
+        "start_seconds": 365.92,
+        "end_seconds": 369.8,
+        "text": "ainult konkreetselt selle seaduse vastu, vaid üleüldse on pigem see, et riik tuleb jõud"
+      },
+      {
+        "start_seconds": 369.8,
+        "end_seconds": 374.84,
+        "text": "a järjekordsete nõuetega on midagi väga keerulist, aga arusaadav ei ole üldse arusaa"
+      },
+      {
+        "start_seconds": 374.84,
+        "end_seconds": 375.72,
+        "text": "dav."
+      },
+      {
+        "start_seconds": 375.72,
+        "end_seconds": 381.24,
+        "text": "Ja, ja kui me räägime küberturbest, siis, siis selles sektoris eriti."
+      },
+      {
+        "start_seconds": 381.24,
+        "end_seconds": 387.36,
+        "text": "Et võib-olla alustakski selle küsimusega, et miks meil tegelikult üldse on küberturval"
+      },
+      {
+        "start_seconds": 387.36,
+        "end_seconds": 393.96,
+        "text": "isuse seadustega ja vastata sellisele nagu, mida võiks tavaettevõtja võib küsida, kas"
+      },
+      {
+        "start_seconds": 393.96,
+        "end_seconds": 399.84,
+        "text": "see on eesmärk kontrollida või hoopis aidata neile mingi pärit turvalisuse taset päris"
+      },
+      {
+        "start_seconds": 399.84,
+        "end_seconds": 407.24,
+        "text": "elt tõsta ja võib-olla rohkem ka siis selle viis kahe direktiivide siis fookus ja räägime"
+      },
+      {
+        "start_seconds": 407.24,
+        "end_seconds": 413.92,
+        "text": ", et et Taavi nagu räägib meile alustuseks üldsegi lahti ka meil siin kuulajaid, et kuidas"
+      },
+      {
+        "start_seconds": 413.92,
+        "end_seconds": 439.12,
+        "text": "käib riigis üldse uue seaduse väljamõtlemine?"
+      },
+      {
+        "start_seconds": 439.12,
+        "end_seconds": 445.52,
+        "text": "Me kaitseme neid andmeid on huvitatud, eks ju, et meditsiini andmetest ja siis tervi"
+      },
+      {
+        "start_seconds": 445.52,
+        "end_seconds": 451.52,
+        "text": "seandmed oleks kuidagi saadavad, müüdavad, ostetavad, rahastada."
+      },
+      {
+        "start_seconds": 451.52,
+        "end_seconds": 462.04,
+        "text": "Paraku on see Euroopa Liidu poolt oli välja, mis on siis tõ"
+      },
+      {
+        "start_seconds": 462.04,
+        "end_seconds": 486.48,
+        "text": "siselt sisse mainitud eelnevalt."
+      },
+      {
+        "start_seconds": 486.48,
+        "end_seconds": 490.52,
+        "text": "See tegelikult tekkis juba siis Riigikogus lugemise käigus tõesti selle plaani, mida"
+      },
+      {
+        "start_seconds": 490.52,
+        "end_seconds": 494.76,
+        "text": "seda nii-öelda sanktsioonidega, millal seda tööd täpselt ei tea, aga maksmise puhul,"
+      },
+      {
+        "start_seconds": 494.76,
+        "end_seconds": 501.84,
+        "text": "mispärast ta sinna sai."
+      },
+      {
+        "start_seconds": 501.84,
+        "end_seconds": 508.6,
+        "text": "Ja noh, mõte on ju ikkagi selles, et mitte kiusata, mitte teha regulatsioone, mitte minna"
+      },
+      {
+        "start_seconds": 508.6,
+        "end_seconds": 516.12,
+        "text": "paberi väärimist, vaid ikkagi muuta seda valdkonda ja kõiki valdkondi, ehk"
+      },
+      {
+        "start_seconds": 516.12,
+        "end_seconds": 543.4,
+        "text": "siis kui me räägime, siis see oli siis."
+      },
+      {
+        "start_seconds": 543.4,
+        "end_seconds": 548.2,
+        "text": "Sellest lähtuvalt tegelikult eelmine aasta lõpuks hakkas oktoobris kehtima siis esma"
+      },
+      {
+        "start_seconds": 548.2,
+        "end_seconds": 557.28,
+        "text": "se tuberneet, mille eesmärk oligi see, et perearstid nende seas ei peaks lugema seda"
+      },
+      {
+        "start_seconds": 557.28,
+        "end_seconds": 562.64,
+        "text": "miljonit."
+      },
+      {
+        "start_seconds": 562.64,
+        "end_seconds": 571.6,
+        "text": "Ja üks suur, nagu me rääkisime perearstikeskuse esindaja kuskil ütleski, et inimesed"
+      },
+      {
+        "start_seconds": 571.6,
+        "end_seconds": 625.76,
+        "text": "ära tehtud, et küberturvalisuse tõusnud."
+      },
+      {
+        "start_seconds": 625.76,
+        "end_seconds": 630.64,
+        "text": "Väga paljude inimeste jaoks üldse seadusloome kui selline protsess on hästi arusaama"
+      },
+      {
+        "start_seconds": 630.64,
+        "end_seconds": 636.92,
+        "text": "tu, keda kaasatakse, kust tulevad ideed, mida analüüsitakse ja on see nii-öelda ette"
+      },
+      {
+        "start_seconds": 636.92,
+        "end_seconds": 641.84,
+        "text": "kujutus, et see on mingi meeletult pikk protsess, kus keegi istub avaliku sektori asutus"
+      },
+      {
+        "start_seconds": 641.84,
+        "end_seconds": 647.04,
+        "text": "es oma kabinetis ja mõtleb midagi välja, olles ise seal lauda istunud, teab, et siin"
+      },
+      {
+        "start_seconds": 647.04,
+        "end_seconds": 648.0,
+        "text": "päris nii käib."
+      },
+      {
+        "start_seconds": 648.0,
+        "end_seconds": 654.12,
+        "text": "Võib-olla sa seletad hästi lihtsalt ära seda, et kuidas te kaasate sellesse protsess"
+      },
+      {
+        "start_seconds": 654.12,
+        "end_seconds": 660.6,
+        "text": "i ka siis, kas siis erasektorit või vaadates siin täna seda, et, et tegemist on ise."
+      },
+      {
+        "start_seconds": 660.6,
+        "end_seconds": 667.76,
+        "text": "Meil on õigusbüroosid suuri meditsiinikeskusi ja nii edasi, et kas, kas nagu küsitakse"
+      },
+      {
+        "start_seconds": 667.76,
+        "end_seconds": 687.4,
+        "text": "ka tuult?"
+      },
+      {
+        "start_seconds": 687.4,
+        "end_seconds": 691.32,
+        "text": "Tagasiside, mis meilile tuleb, näiteks ütleme, kui me ei ole mitte perearstikeskustega"
+      },
+      {
+        "start_seconds": 691.32,
+        "end_seconds": 696.28,
+        "text": ", sellepärast kokku, aga kõik see, mis meile tuleb, me tegelikult toetame selle läbi"
+      },
+      {
+        "start_seconds": 696.28,
+        "end_seconds": 697.08,
+        "text": "."
+      },
+      {
+        "start_seconds": 697.08,
+        "end_seconds": 701.76,
+        "text": "Need ettepanekud tavaliselt me edastame ka riiklikuste ametisse, kes siis tegelikult"
+      },
+      {
+        "start_seconds": 701.76,
+        "end_seconds": 706.0,
+        "text": "võtame need ju kõigepealt ka siis, kui räägime esmaste ametist, kuidas see tuleb info"
+      },
+      {
+        "start_seconds": 706.0,
+        "end_seconds": 713.2,
+        "text": ", riigi infosüsteemiga valmis ja seal on siis ei ole neid ametnikud, saab ikkagi oma"
+      },
+      {
+        "start_seconds": 713.2,
+        "end_seconds": 717.96,
+        "text": "eriala spetsialistid, kes siis tegelikult koondavad kogu selle info siis nii-öelda välja"
+      },
+      {
+        "start_seconds": 717.96,
+        "end_seconds": 726.44,
+        "text": "s kokku, teevad selle esimese te"
+      },
+      {
+        "start_seconds": 726.44,
+        "end_seconds": 735.76,
+        "text": "hnikasse."
+      },
+      {
+        "start_seconds": 735.76,
+        "end_seconds": 740.48,
+        "text": "Selle vormi tehnikaoloogiatehnikaoloogia väga selgelt ütleb ära, et, et kui sa teed niimoodi"
+      },
+      {
+        "start_seconds": 740.48,
+        "end_seconds": 744.08,
+        "text": ", siis sa oled küllalt turvaline, kui sa seda ei tee, siis sa räägid ei ole."
+      },
+      {
+        "start_seconds": 744.08,
+        "end_seconds": 748.68,
+        "text": "Et siis meie roll investeerimisel tegelikult need samased nõuded panna sisse ühtesse"
+      },
+      {
+        "start_seconds": 748.68,
+        "end_seconds": 750.12,
+        "text": "vormi."
+      },
+      {
+        "start_seconds": 750.12,
+        "end_seconds": 755.88,
+        "text": "Et, et selle ametniku istub ja mõtleb, et, et aga nüüd kiusaks."
+      },
+      {
+        "start_seconds": 755.88,
+        "end_seconds": 760.4,
+        "text": "Aga tema ütles mulle eile niimoodi, et nüüd ma teen sellise asja ei, seda kohe kindlasti"
+      },
+      {
+        "start_seconds": 760.4,
+        "end_seconds": 769.28,
+        "text": "mitte."
+      },
+      {
+        "start_seconds": 769.28,
+        "end_seconds": 774.92,
+        "text": "Et võite seda julgelt skännida, saate küsida küsimusi, aga kes soovib seda ise kõva hääl"
+      },
+      {
+        "start_seconds": 774.92,
+        "end_seconds": 780.84,
+        "text": "ega teha, siis võite käe püsti tõsta ikka ja siis saame kõik alati küsimusi."
+      },
+      {
+        "start_seconds": 780.84,
+        "end_seconds": 785.52,
+        "text": "Aga, aga sa oled Taavi, just rääkisidki seda, et, et näidata, et kuidas riigikogu mõttes"
+      },
+      {
+        "start_seconds": 785.52,
+        "end_seconds": 791.24,
+        "text": "välja, et, et võiks perearstikeskused olla kaasatud ja nii-öelda sinna alla minna, et"
+      },
+      {
+        "start_seconds": 791.24,
+        "end_seconds": 794.92,
+        "text": ", et tegelikult kui me vaatame ka nagu meedias, siis on ka Eesti meediasse jõudnud ikkagi"
+      },
+      {
+        "start_seconds": 794.92,
+        "end_seconds": 799.4,
+        "text": "väga arvukalt neid lugusid, kuidas perearstikeskused on pihta saanud küberrünnakutest"
+      },
+      {
+        "start_seconds": 799.4,
+        "end_seconds": 804.32,
+        "text": "on kellelegi andmeid kaduma läinud ja tõesti ollakse hädaspidi, ma liiguks võib-olla"
+      },
+      {
+        "start_seconds": 804.32,
+        "end_seconds": 811.68,
+        "text": ", võib-olla Leedu juurde edasi ja, ja vaataks just selle pilguga, et, et kogu"
+      },
+      {
+        "start_seconds": 811.68,
+        "end_seconds": 818.96,
+        "text": "see kübervaldkond on väga palju inimesi, kes on töötanud meditsiinisektoris ka"
+      },
+      {
+        "start_seconds": 818.96,
+        "end_seconds": 826.92,
+        "text": "perearstina aastakümneid ja võib-olla mitte nii IT-teadlikud, võib-olla mitte nii suure"
+      },
+      {
+        "start_seconds": 826.92,
+        "end_seconds": 832.92,
+        "text": "nii-öelda sellise digikäekirja oskusega ja siis on järsku meil on nõuded, mis on ilm"
+      },
+      {
+        "start_seconds": 832.92,
+        "end_seconds": 839.68,
+        "text": "selgelt väga vajalikud ja, ja ka nemad toimetavad täna ju kõikides digisüsteemides."
+      },
+      {
+        "start_seconds": 839.68,
+        "end_seconds": 845.92,
+        "text": "Aga, aga võib-olla sa räägid sellest, et kas tänane seadusandlus meditsiinisektoris ja"
+      },
+      {
+        "start_seconds": 845.92,
+        "end_seconds": 849.76,
+        "text": "vaadati sellest perearst, on see arusaadav?"
+      },
+      {
+        "start_seconds": 849.76,
+        "end_seconds": 856.6,
+        "text": "Kuidas on olnud selline tagasiside täna perearstikeskuste poolt ja, ja, ja mis, mis su"
+      },
+      {
+        "start_seconds": 856.6,
+        "end_seconds": 863.76,
+        "text": "tunnetus peres, kui me vaatame siin võib-olla näiteks paari viimasest kuud, siis,"
+      },
+      {
+        "start_seconds": 863.76,
+        "end_seconds": 868.72,
+        "text": "siis on olnud, et, et kuidas teil päriselt läheb?"
+      },
+      {
+        "start_seconds": 868.72,
+        "end_seconds": 874.28,
+        "text": "Ma kõigepealt tahaksin rääkida ka natuke nagu ajaloost, sest midagi ei hakanud nüüd ja"
+      },
+      {
+        "start_seconds": 874.28,
+        "end_seconds": 881.52,
+        "text": "kohe, kui tuli küberturvalisuse seaduse ja kui tuli, mis kaks perearstidele on andme"
+      },
+      {
+        "start_seconds": 881.52,
+        "end_seconds": 887.04,
+        "text": "kaitse ja nende patsientide andmetel olnud kogu aeg väga tähtsad, siis kui nad olid veel"
+      },
+      {
+        "start_seconds": 887.04,
+        "end_seconds": 892.4,
+        "text": "vananimetusega defikaatsed isikuandmed, need on ka need eririigilised isikuandmed."
+      },
+      {
+        "start_seconds": 892.4,
+        "end_seconds": 899.2,
+        "text": "Vanasti räägiti rohkem andmekaitsest ja, ja nüüd on juurde tulnud see küberkaitse ja"
+      },
+      {
+        "start_seconds": 899.2,
+        "end_seconds": 903.08,
+        "text": "küberkaitse toetu meil vaja selleks, et andmeid kaitsta."
+      },
+      {
+        "start_seconds": 903.08,
+        "end_seconds": 911.12,
+        "text": "Ja see oli kõige, kõigepealt võttis selle teema üle sotsiaalministeerium,"
+      },
+      {
+        "start_seconds": 911.12,
+        "end_seconds": 915.04,
+        "text": "mingi kaks tuhat viisteist, kuusteist, seitseteist või mis iganes, kui õpetajatega r"
+      },
+      {
+        "start_seconds": 915.04,
+        "end_seconds": 919.72,
+        "text": "ääkima teadlikumalt ka küberturvalisusest."
+      },
+      {
+        "start_seconds": 919.72,
+        "end_seconds": 925.92,
+        "text": "Ja, ja siis meie koostöös Riiaga Eesti Perearstide Selts, kõigil igasugused baasturb"
+      },
+      {
+        "start_seconds": 925.92,
+        "end_seconds": 933.12,
+        "text": "emeetmed, mis räägiti läbi siis haigekassaga ja meile pandi mingit isegi mingit"
+      },
+      {
+        "start_seconds": 933.12,
+        "end_seconds": 940.36,
+        "text": "rahanumbrite kaasa ja teie see perearstide teenuse lepinguga ja"
+      },
+      {
+        "start_seconds": 940.36,
+        "end_seconds": 946.88,
+        "text": "need me siis hakkasime, hakkasime rakendama ja siis tuli siis lauale küberturvalisuse"
+      },
+      {
+        "start_seconds": 946.88,
+        "end_seconds": 954.88,
+        "text": "seadus, siis tuli sotsiaalministeeriumist meile vaidluste järgi otsus, et et me nagu"
+      },
+      {
+        "start_seconds": 954.88,
+        "end_seconds": 959.52,
+        "text": "ei lähe selle seaduse alla, vaid meile tehakse valdkonna spetsiifilised reeglid, mida"
+      },
+      {
+        "start_seconds": 959.52,
+        "end_seconds": 964.12,
+        "text": "siis juhib sotsiaalministeerium ja sellest teadmises me siis elasime ja, ja, ja tege"
+      },
+      {
+        "start_seconds": 964.12,
+        "end_seconds": 966.88,
+        "text": "lastega koolitati siis."
+      },
+      {
+        "start_seconds": 966.88,
+        "end_seconds": 974.8,
+        "text": "Nii, ja siis tuli siit tuli selle eelints langes meie peale ja millest noh"
+      },
+      {
+        "start_seconds": 974.8,
+        "end_seconds": 981.36,
+        "text": ", millest me ei saanud aru, mis lämmatas meie tegevust osas me ei osanud mitte kuskil"
+      },
+      {
+        "start_seconds": 981.36,
+        "end_seconds": 1010.72,
+        "text": "t nagu pihta hakata ja."
+      },
+      {
+        "start_seconds": 1010.72,
+        "end_seconds": 1015.88,
+        "text": "Et enamus perearste niisugused keskealised, paljud on pensioniealised ja kui nad on p"
+      },
+      {
+        "start_seconds": 1015.88,
+        "end_seconds": 1020.92,
+        "text": "ensioniealised, siis nad ei hakka ülemääraseid nõudeid, nõudeid enda peale võtma, mis"
+      },
+      {
+        "start_seconds": 1020.92,
+        "end_seconds": 1022.4,
+        "text": "neid nii palju nagu unustab."
+      },
+      {
+        "start_seconds": 1022.4,
+        "end_seconds": 1026.84,
+        "text": "Ütleb, et nad lõpetavad tegelikult selle teenindamise ära."
+      },
+      {
+        "start_seconds": 1026.84,
+        "end_seconds": 1032.36,
+        "text": "Ja, ja siis me nagu mõtlesime, et, et kuidas me siis paremaks saab ja siis me istusime"
+      },
+      {
+        "start_seconds": 1032.36,
+        "end_seconds": 1037.44,
+        "text": "üle laua taga ja teise laua taga jätsime sama asjadest aru."
+      },
+      {
+        "start_seconds": 1037.44,
+        "end_seconds": 1049.76,
+        "text": "Et alu meile nagu neid neid lihtsamaid nõudreid ja ma olen väga tänulik, et et kui"
+      },
+      {
+        "start_seconds": 1049.76,
+        "end_seconds": 1055.8,
+        "text": "nüüd te küsite kaugel me sellega oleme, et nüüd arutasime kõik need, oleme nüüd siin"
+      },
+      {
+        "start_seconds": 1055.8,
+        "end_seconds": 1061.28,
+        "text": "aastaga jõudnud ennem ära rakendama, see ajalugu on selline, et kõigil midagi nagu on"
+      },
+      {
+        "start_seconds": 1061.28,
+        "end_seconds": 1068.12,
+        "text": ", mõned rakendavad siiani neid baasturge meetmeid, teised on natuke kallimad, odavama"
+      },
+      {
+        "start_seconds": 1068.12,
+        "end_seconds": 1075.24,
+        "text": "raha eest ära rakendanud endale --- ja kolmandat on see kodu seal siis ühesõnaga, et"
+      },
+      {
+        "start_seconds": 1075.24,
+        "end_seconds": 1080.0,
+        "text": "olukord on selline nagu selline asi, et aga meil on nagu mingisugune plaan, mida me nagu"
+      },
+      {
+        "start_seconds": 1080.0,
+        "end_seconds": 1086.68,
+        "text": "praegu teeme ja koostöös PIAga ja ma arvan, et on satelli liiguvad selginemise suunas"
+      },
+      {
+        "start_seconds": 1086.68,
+        "end_seconds": 1146.56,
+        "text": "."
+      },
+      {
+        "start_seconds": 1146.56,
+        "end_seconds": 1152.32,
+        "text": "Pigem tunduda see, et väga erineva profiili ja võimekusega asutused, asutustelt nõutakse"
+      },
+      {
+        "start_seconds": 1152.32,
+        "end_seconds": 1157.76,
+        "text": "sama hügieenitasandi meetmeid, mismoodi tihti üldse ei kohaldu, kes sellega tegeletakse"
+      },
+      {
+        "start_seconds": 1157.76,
+        "end_seconds": 1176.0,
+        "text": ", küsitakse."
+      },
+      {
+        "start_seconds": 1176.0,
+        "end_seconds": 1183.12,
+        "text": "See, mida mina kuulen, et miks me seda jama vaja on, eks ole."
+      },
+      {
+        "start_seconds": 1183.12,
+        "end_seconds": 1187.28,
+        "text": "Aga mis seal seda vaja on, me näeme kakskümmend, kolmkümmend aastat tagasi, eks ole."
+      },
+      {
+        "start_seconds": 1187.28,
+        "end_seconds": 1191.92,
+        "text": "Mida mul väga väikesed, eks ole, alles kolmekümne kolmandaga, väiksed andsin dobinet"
+      },
+      {
+        "start_seconds": 1191.92,
+        "end_seconds": 1198.8,
+        "text": "ti, eks ole, ütlesid niisugune ja nii edasi käsikirjaliselt tegi selle retsepti ja pa"
+      },
+      {
+        "start_seconds": 1198.8,
+        "end_seconds": 1205.12,
+        "text": "ni sinna toimiku riiulisse ja ainuke oht sisuliselt sellele siin all võiksid lekkida"
+      },
+      {
+        "start_seconds": 1205.12,
+        "end_seconds": 1205.16,
+        "text": "."
+      },
+      {
+        "start_seconds": 1205.16,
+        "end_seconds": 1210.96,
+        "text": "Oli siis variant üks, arst kobises naabritädil ära, eks ole, et sul on mingisugune ku"
+      },
+      {
+        "start_seconds": 1210.96,
+        "end_seconds": 1216.04,
+        "text": "rguhaigus, eks ole, põletik või variant kaks, eks ole, keegi murdis selle üle seal sisse"
+      },
+      {
+        "start_seconds": 1216.04,
+        "end_seconds": 1227.6,
+        "text": ", tulekahju oli ainult kolm."
+      },
+      {
+        "start_seconds": 1227.6,
+        "end_seconds": 1231.84,
+        "text": "Ja need olid reaalsed puhtavad sellega, et, et sa läksid sinna, et oleks pidanud neid"
+      },
+      {
+        "start_seconds": 1231.84,
+        "end_seconds": 1237.04,
+        "text": "proovi kuskile viima ja, ja need olid reaalselt isikuandmetega, need olid kõik seal la"
+      },
+      {
+        "start_seconds": 1237.04,
+        "end_seconds": 1242.24,
+        "text": "ua peal, perearstitoas polnud mitte ühtegi kaamerat asja ma istusid kümme minutit, ma"
+      },
+      {
+        "start_seconds": 1242.24,
+        "end_seconds": 1272.64,
+        "text": "oleks võinud kõik läbi lugeda, nii et kolmas projekt on käega."
+      },
+      {
+        "start_seconds": 1272.64,
+        "end_seconds": 1277.52,
+        "text": "Nüüd kui me kakskümmend viisteist gümme aastat tagasi muutusime nagu digitaliseeritu"
+      },
+      {
+        "start_seconds": 1277.52,
+        "end_seconds": 1281.92,
+        "text": "maks ka tervishoiu organisatsioon, neil tekkis kohustus ju kõikidele arstidele panna"
+      },
+      {
+        "start_seconds": 1281.92,
+        "end_seconds": 1309.08,
+        "text": "kõik andmed digilukku on ju."
+      },
+      {
+        "start_seconds": 1309.08,
+        "end_seconds": 1315.56,
+        "text": "Paar aastat tagasi käidi küberprojektide poolt meil sees võeti väga selgelt meeleaval"
+      },
+      {
+        "start_seconds": 1315.56,
+        "end_seconds": 1318.72,
+        "text": "sisuliselt, kui me oleme Eestis suured haiglad, eks ole, sa lähed sinna vastuvõtule ele"
+      },
+      {
+        "start_seconds": 1318.72,
+        "end_seconds": 1343.16,
+        "text": "mentaarset vereproovi ja tahab mingisugust asja teha."
+      },
+      {
+        "start_seconds": 1343.16,
+        "end_seconds": 1349.48,
+        "text": "Tsiteerides kultusfilme üks miljon dollarit tegelikult summa jäi kokkuvõtlikult maks"
+      },
+      {
+        "start_seconds": 1349.48,
+        "end_seconds": 1353.6,
+        "text": "umile oma raha, muidu me need andmeid sulle tagasi ei anna."
+      },
+      {
+        "start_seconds": 1353.6,
+        "end_seconds": 1358.24,
+        "text": "See kindlasti on juhtunud ja tegelikult see ongi see põhjus, et oleme nii digitaliseeritud"
+      },
+      {
+        "start_seconds": 1358.24,
+        "end_seconds": 1363.76,
+        "text": "praegu, me peamegi rakendama asju, mis kümme-viisteist aastat tagasi tundusid absurd"
+      },
+      {
+        "start_seconds": 1363.76,
+        "end_seconds": 1366.72,
+        "text": "sed ja me ei, me ei saa, me ei saa teisiti minna."
+      },
+      {
+        "start_seconds": 1366.72,
+        "end_seconds": 1388.6,
+        "text": "Et tulles selle küsimuse juurde, siis mis su küsimus oli."
+      },
+      {
+        "start_seconds": 1388.6,
+        "end_seconds": 1393.08,
+        "text": "Ja direktiiv on siis niisugune Euroopa Liidu seadus, mis tuleb siis Eesti seadusesse"
+      },
+      {
+        "start_seconds": 1393.08,
+        "end_seconds": 1399.72,
+        "text": "vastu võtta."
+      },
+      {
+        "start_seconds": 1399.72,
+        "end_seconds": 1404.92,
+        "text": "Seda tegelikult tehaksegi valdkonniti ja suurusjäti ehk siis punkt üks, mille mingisuguse"
+      },
+      {
+        "start_seconds": 1404.92,
+        "end_seconds": 1409.16,
+        "text": "d kindlad valdkonnad, mille osas siis Euroopa Liidu seadusandja on pidanud neid piis"
+      },
+      {
+        "start_seconds": 1409.16,
+        "end_seconds": 1414.4,
+        "text": "avalt tähtsaks, et nad peavad mingit küberturbe nõudeid rakendama, noh näiteks jäätme"
+      },
+      {
+        "start_seconds": 1414.4,
+        "end_seconds": 1420.92,
+        "text": "käilitus, no näiteks prügi ära viivad pilveteenuse osutajad, on ja, ja, ja Microsoft"
+      },
+      {
+        "start_seconds": 1420.92,
+        "end_seconds": 1421.72,
+        "text": "ja nii edasi."
+      },
+      {
+        "start_seconds": 1421.72,
+        "end_seconds": 1423.4,
+        "text": "Avalik sektor, eks ole."
+      },
+      {
+        "start_seconds": 1423.4,
+        "end_seconds": 1427.12,
+        "text": "Ja siis lisaks ongi see kirjas veel noh, jämedalt see, millest praegu siin juba räägi"
+      },
+      {
+        "start_seconds": 1427.12,
+        "end_seconds": 1432.08,
+        "text": "ti ka, on see, et sa pead neid meetmeid rakendama, neid rangeid meetmeid üksnes siis"
+      },
+      {
+        "start_seconds": 1432.08,
+        "end_seconds": 1437.04,
+        "text": ", kui sa oled üldreeglina vähemalt keskmiselt suurettevõtte ehk siis sul on vähemalt"
+      },
+      {
+        "start_seconds": 1437.04,
+        "end_seconds": 1440.76,
+        "text": ", eks ole, seal viiskümmend, sada töötajat, eks ole."
+      },
+      {
+        "start_seconds": 1440.76,
+        "end_seconds": 1443.4,
+        "text": "Käibe on ka vähemalt kümme pluss miljonit eurot."
+      },
+      {
+        "start_seconds": 1443.4,
+        "end_seconds": 1449.16,
+        "text": "Mingisugune vahetegu seal on, aga tõsi on ka see, et kui sa osutad nii kriitilist tee"
+      },
+      {
+        "start_seconds": 1449.16,
+        "end_seconds": 1453.88,
+        "text": "nust, et riik selleta ei saaks üldse hakkama."
+      },
+      {
+        "start_seconds": 1453.88,
+        "end_seconds": 1456.88,
+        "text": "Näiteks pangad ja nii edasi, siis vahet ei ole."
+      },
+      {
+        "start_seconds": 1456.88,
+        "end_seconds": 1463.84,
+        "text": "Miks su suurus on, sa paratamatult lähed sinna vormide alla, sest jälgima."
+      },
+      {
+        "start_seconds": 1463.84,
+        "end_seconds": 1470.96,
+        "text": "Igasuguste normide alla läheb ka meil märksa suurem kui võib-olla mõ"
+      },
+      {
+        "start_seconds": 1470.96,
+        "end_seconds": 1475.56,
+        "text": "ni väike, väike perearstikeskus, et, et, et enne kui ma neid, meil on siin väga palju"
+      },
+      {
+        "start_seconds": 1475.56,
+        "end_seconds": 1480.12,
+        "text": ", aga kõik küsimused olnud, enne kui ma nendega edasi lähen, siis ma küsin hästi sellise"
+      },
+      {
+        "start_seconds": 1480.12,
+        "end_seconds": 1486.32,
+        "text": "konkreetse küsimuse sinult küll tõesti päriselt läheb täna seal, kes, kes sellisel suure"
+      },
+      {
+        "start_seconds": 1486.32,
+        "end_seconds": 1492.84,
+        "text": "l meditsiiniasutus on nagu Mywa on lihtsam on täna, sa võid öelda kõverturvalisus teie"
+      },
+      {
+        "start_seconds": 1492.84,
+        "end_seconds": 1546.28,
+        "text": "ettevõtte juhtkonna alal?"
+      },
+      {
+        "start_seconds": 1546.28,
+        "end_seconds": 1549.04,
+        "text": "Eestis ainukene, kes sellega nii suur on."
+      },
+      {
+        "start_seconds": 1549.04,
+        "end_seconds": 1563.24,
+        "text": "Et ja kellel võib olla sellist nagu nii-öelda just suuremaid meeskonnatuge."
+      },
+      {
+        "start_seconds": 1563.24,
+        "end_seconds": 1567.04,
+        "text": "Taktikat, milliseid meetmed tegelikult nagu rakendada."
+      },
+      {
+        "start_seconds": 1567.04,
+        "end_seconds": 1574.36,
+        "text": "Et noh, siis ma ei näe, et see ongi keeruline, aga tegelikult on täpselt selline kuul"
+      },
+      {
+        "start_seconds": 1574.36,
+        "end_seconds": 1584.96,
+        "text": "da, et kas need seadust on vaja."
+      },
+      {
+        "start_seconds": 1584.96,
+        "end_seconds": 1590.12,
+        "text": "Noh, küsimus ongi selles, et miks seda seadust vaja on, et, et sedasama seda teha, kus"
+      },
+      {
+        "start_seconds": 1590.12,
+        "end_seconds": 1596.88,
+        "text": "t ja vastutust viia edasi, seda ei taheta võtta ettevõtte juhid ütlevad, et nemad sellega"
+      },
+      {
+        "start_seconds": 1596.88,
+        "end_seconds": 1598.2,
+        "text": "ei tegele."
+      },
+      {
+        "start_seconds": 1598.2,
+        "end_seconds": 1607.68,
+        "text": "Küberturvalisus, küber mingi ruum, mida käega katsuda ei saa, midagi vaadata ei saa."
+      },
+      {
+        "start_seconds": 1607.68,
+        "end_seconds": 1612.88,
+        "text": "Aga tegelikult ei pea mured ongi selles, et minu silmis oleks selline, et ettevõtted"
+      },
+      {
+        "start_seconds": 1612.88,
+        "end_seconds": 1620.48,
+        "text": ", kes osutavad teenust läbi siis, läbi võrgu, et rakendada kõikide"
+      },
+      {
+        "start_seconds": 1620.48,
+        "end_seconds": 1649.28,
+        "text": "ettevõtete järgi, mis siis."
+      },
+      {
+        "start_seconds": 1649.28,
+        "end_seconds": 1653.96,
+        "text": "Oleks see küsimus kutsutatud üks niisugune pool aastat tagasi, siis tulebki mingisugu"
+      },
+      {
+        "start_seconds": 1653.96,
+        "end_seconds": 1675.88,
+        "text": "ne piir sellises mullis, et et kuna."
+      },
+      {
+        "start_seconds": 1675.88,
+        "end_seconds": 1679.16,
+        "text": "Nemad ju väga selgelt kirjutavad sulle ette, mis sul tuleb, sul ei pea olema seda sta"
+      },
+      {
+        "start_seconds": 1679.16,
+        "end_seconds": 1684.4,
+        "text": "ndardit iseenesest, aga siis järgmine küsimus on kohe see, et põhimõtteliselt standa"
+      },
+      {
+        "start_seconds": 1684.4,
+        "end_seconds": 1719.32,
+        "text": "rdile vastavad asjad, mida sa siis teed, selle jaoks, hoida turvalisem, eks."
+      },
+      {
+        "start_seconds": 1719.32,
+        "end_seconds": 1723.48,
+        "text": "On väga palju kohti, kus, kus öeldakse ikkagi see, see on midagi justkui tegeleb, on"
+      },
+      {
+        "start_seconds": 1723.48,
+        "end_seconds": 1766.88,
+        "text": "ju ja, ja sealt seda edasist mõistmist, et, et ei ole."
+      },
+      {
+        "start_seconds": 1766.88,
+        "end_seconds": 1771.76,
+        "text": "Et, et see on nagu, nagu päris huvitav ja et, et see tarne küsimus on nüüd tekib nagu"
+      },
+      {
+        "start_seconds": 1771.76,
+        "end_seconds": 1839.6,
+        "text": "nii-öelda üles, et see on minu meelest ainult positiivne."
+      },
+      {
+        "start_seconds": 1839.6,
+        "end_seconds": 1844.88,
+        "text": "Et, et seda nii-öelda läbi suruda rohkem, et siis ta oli täitsa niimoodi serva teema"
+      },
+      {
+        "start_seconds": 1844.88,
+        "end_seconds": 1943.52,
+        "text": "ks, aga noh, ikka tuleb igale poole sisse, et siis igal pool."
+      },
+      {
+        "start_seconds": 1943.52,
+        "end_seconds": 1949.0,
+        "text": "Teisest küljest peaks olema sekkunud kõik perearstikeskused hakkavad küsima neid samus"
+      },
+      {
+        "start_seconds": 1949.0,
+        "end_seconds": 1954.8,
+        "text": "eid nende teenusepakkujatelt neid nõudeid sinise peavad hakkama neid rakendama."
+      },
+      {
+        "start_seconds": 1954.8,
+        "end_seconds": 1959.16,
+        "text": "Aga see on tõesti, see on üks selline koht, mida me oleme näinud."
+      },
+      {
+        "start_seconds": 1959.16,
+        "end_seconds": 1964.88,
+        "text": "Ja ma arvan, et me ei saa võtta seda, ütleme siis teise kahe raames ettevõtmeseaduse"
+      },
+      {
+        "start_seconds": 1964.88,
+        "end_seconds": 1969.28,
+        "text": "loomisel kaks väga erinevat süsteem, üks on see ettevõte, millel Euroopa Liidu õigust"
+      },
+      {
+        "start_seconds": 1969.28,
+        "end_seconds": 1975.8,
+        "text": "ja direktiivi, teine asi on seotud siseriiklikult kuidagi erinevad ja sellepärast ei"
+      },
+      {
+        "start_seconds": 1975.8,
+        "end_seconds": 1977.6,
+        "text": "lisatal."
+      },
+      {
+        "start_seconds": 1977.6,
+        "end_seconds": 1979.24,
+        "text": "Aitäh selgitamast."
+      },
+      {
+        "start_seconds": 1979.24,
+        "end_seconds": 1986.84,
+        "text": "Minule ettevõtjana arvan, et tegelikult kolmanda vabandust meile ka väga ei"
+      },
+      {
+        "start_seconds": 1986.84,
+        "end_seconds": 1992.04,
+        "text": "huvita see, mida te saate või ei saa, aga lahendage minu jaoks asjad ära loogiliselt"
+      },
+      {
+        "start_seconds": 1992.04,
+        "end_seconds": 1993.08,
+        "text": "."
+      },
+      {
+        "start_seconds": 1993.08,
+        "end_seconds": 2000.92,
+        "text": "Et nagu sa ütlesid, et meil on üks perearstidele pakuvad"
+      },
+      {
+        "start_seconds": 2000.92,
+        "end_seconds": 2007.68,
+        "text": "programme või neid prokura, kus me töötame, palju me toidame, neid haldame, töötleme"
+      },
+      {
+        "start_seconds": 2007.68,
+        "end_seconds": 2009.72,
+        "text": "neli suurt asutust."
+      },
+      {
+        "start_seconds": 2009.72,
+        "end_seconds": 2016.72,
+        "text": "Perearstikeskusi on tuhat nelisada kakskümmend viis, kuskil mingisugune pealt neljas"
+      },
+      {
+        "start_seconds": 2016.72,
+        "end_seconds": 2017.8,
+        "text": "aja."
+      },
+      {
+        "start_seconds": 2017.8,
+        "end_seconds": 2025.12,
+        "text": "Väga paljud on neist mingi nelja-viie töötajaga niisugused ühe nimistuga perear"
+      },
+      {
+        "start_seconds": 2025.12,
+        "end_seconds": 2026.24,
+        "text": "stikeskused."
+      },
+      {
+        "start_seconds": 2026.24,
+        "end_seconds": 2030.96,
+        "text": "Meie perearstikeskus kakskümmend pluss töötajat on see venekeelsete keskmine väga ka"
+      },
+      {
+        "start_seconds": 2030.96,
+        "end_seconds": 2033.36,
+        "text": "ikkagi nagu väikeettevõte."
+      },
+      {
+        "start_seconds": 2033.36,
+        "end_seconds": 2040.12,
+        "text": "Et kujutage ette, et minusugune keskealine kontrollima veebi suhteid ja läheb kontroll"
+      },
+      {
+        "start_seconds": 2040.12,
+        "end_seconds": 2045.44,
+        "text": "ima sundlaadi ja läheb küsivad, et vabandage, kuidas teil seal, mis asi see on täitsa"
+      },
+      {
+        "start_seconds": 2045.44,
+        "end_seconds": 2047.36,
+        "text": "rakendatud oli."
+      },
+      {
+        "start_seconds": 2047.36,
+        "end_seconds": 2051.36,
+        "text": "Et mul ei ole selleks tabelust."
+      },
+      {
+        "start_seconds": 2051.36,
+        "end_seconds": 2056.6,
+        "text": "Mul ei ole IT-list kõrgharidust, ma olen õppinud arstiks, ma tean, kuidas on onu köha"
+      },
+      {
+        "start_seconds": 2056.6,
+        "end_seconds": 2061.12,
+        "text": "raviga, ma ostan siit võib-olla, et kui su kuused jäävad haigeks ja oskan sind enda pro"
+      },
+      {
+        "start_seconds": 2061.12,
+        "end_seconds": 2065.64,
+        "text": "teesimisele saata, ma ei tea, mis sa nende proteesimise teekond, kui teil on lapsed kodu"
+      },
+      {
+        "start_seconds": 2065.64,
+        "end_seconds": 2069.88,
+        "text": "s ja siis me jälgime nende laste tervist ja nii edasi."
+      },
+      {
+        "start_seconds": 2069.88,
+        "end_seconds": 2077.96,
+        "text": "Aga et ma seda saatsin nagu teha, siis noh, ma tahaks, et me nagu teenusepakkujad."
+      },
+      {
+        "start_seconds": 2077.96,
+        "end_seconds": 2082.24,
+        "text": "Et meie ei oleks need kontrolli, kontrollimehhanismid."
+      },
+      {
+        "start_seconds": 2082.24,
+        "end_seconds": 2088.0,
+        "text": "Et ma saan aru sellest äriloogikast, et Merila rakendab neid mingisuguseid skandaid sellepärast"
+      },
+      {
+        "start_seconds": 2088.0,
+        "end_seconds": 2091.88,
+        "text": ", et neil mingid suured ühised rahvusvahelised koordinatsioonid nagu nõuavad, et see"
+      },
+      {
+        "start_seconds": 2091.88,
+        "end_seconds": 2095.36,
+        "text": "on nagu siuke iseregulatsioon."
+      },
+      {
+        "start_seconds": 2095.36,
+        "end_seconds": 2100.72,
+        "text": "Aga perearstid on siin jah, natukene siukeses kakofoonilises seisus, et nad on küll ise"
+      },
+      {
+        "start_seconds": 2100.72,
+        "end_seconds": 2105.36,
+        "text": "ettevõtjad, aga nad on ise nagu väga piiratud ettevõtjad, et ma tegelikult tahaksin olla"
+      },
+      {
+        "start_seconds": 2105.36,
+        "end_seconds": 2106.96,
+        "text": "arst."
+      },
+      {
+        "start_seconds": 2106.96,
+        "end_seconds": 2111.24,
+        "text": "Siin tuli tegelikult üks, kas ma võin võtta küsimuse meie publik tahab jubedalt edasi"
+      },
+      {
+        "start_seconds": 2111.24,
+        "end_seconds": 2114.72,
+        "text": "rääkida, nii et ma olen kuulnud, et meil oleks vajalik kahte tundi veel umbes, et me"
+      },
+      {
+        "start_seconds": 2114.72,
+        "end_seconds": 2120.56,
+        "text": "võime kõik need küsimused saaks üle käia, aga, aga väga, väga nagu meie jutu jätkuks"
+      },
+      {
+        "start_seconds": 2120.56,
+        "end_seconds": 2126.6,
+        "text": "küsibki sellist asja, et miks ei võiks olla perearstikeskusel keskselt riigi poolt loo"
+      },
+      {
+        "start_seconds": 2126.6,
+        "end_seconds": 2134.48,
+        "text": "dud lahendust juba õpetaja jaoks, kas võiks, kas see võiks probleemi lahendada?"
+      },
+      {
+        "start_seconds": 2134.48,
+        "end_seconds": 2139.52,
+        "text": "Mina vastan."
+      },
+      {
+        "start_seconds": 2139.52,
+        "end_seconds": 2144.8,
+        "text": "Oleme üritanud ka nagu kohaneda ja oma partneritega rääkida, rääkida Tervisekassaga,"
+      },
+      {
+        "start_seconds": 2144.8,
+        "end_seconds": 2149.52,
+        "text": "rääkida Sotsiaalministeeriumiga, et aidake nüüd, et kuidas me nüüd teeme, et riik on"
+      },
+      {
+        "start_seconds": 2149.52,
+        "end_seconds": 2155.88,
+        "text": "delegeerinud tõsiselt, kes vastutab, riik on diregeerinud vastutuse oma patsiendi and"
+      },
+      {
+        "start_seconds": 2155.88,
+        "end_seconds": 2160.72,
+        "text": "mete eest antud hetkel siis väikestele perearstikeskustele."
+      },
+      {
+        "start_seconds": 2160.72,
+        "end_seconds": 2164.68,
+        "text": "Et me tahaksime mingisuguseid tsentraalseid lahendusi, me tahaks tegelikult minna sinna"
+      },
+      {
+        "start_seconds": 2164.68,
+        "end_seconds": 2171.32,
+        "text": "algusesse tagasi, kus lepiti kokku, et meile kehtestatakse valdkonna spetsiifilised re"
+      },
+      {
+        "start_seconds": 2171.32,
+        "end_seconds": 2172.56,
+        "text": "eglid."
+      },
+      {
+        "start_seconds": 2172.56,
+        "end_seconds": 2179.84,
+        "text": "Et aga, ja siis me mõtlesime välja sellise asja, et, et tegelikult ma"
+      },
+      {
+        "start_seconds": 2179.84,
+        "end_seconds": 2184.04,
+        "text": "räägin vahepeal, et kuidas perearstikeskuseid rahastatakse."
+      },
+      {
+        "start_seconds": 2184.04,
+        "end_seconds": 2189.76,
+        "text": "On selline kulumudel, kus on erinevad vead, millele, millele mis kulud, eks."
+      },
+      {
+        "start_seconds": 2189.76,
+        "end_seconds": 2196.8,
+        "text": "Vanasti oli seal selline rida nagu arvuti töökoht, eks ju, mis koosneb siis toollaud"
+      },
+      {
+        "start_seconds": 2196.8,
+        "end_seconds": 2198.48,
+        "text": "ja arvuti."
+      },
+      {
+        "start_seconds": 2198.48,
+        "end_seconds": 2204.24,
+        "text": "Et nüüd on sinna lisandunud ka rida küberturvalisust, see on nelikümmend üheksa euro"
+      },
+      {
+        "start_seconds": 2204.24,
+        "end_seconds": 2216.72,
+        "text": "t kuus inimeste kohta."
+      },
+      {
+        "start_seconds": 2216.72,
+        "end_seconds": 2220.92,
+        "text": "Tegelikult selle üks asi, et, et sul on nüüd nagu arvuti, sul on siis mingisugune võ"
+      },
+      {
+        "start_seconds": 2220.92,
+        "end_seconds": 2226.0,
+        "text": "rk, pildi pealt ta saab harjutama, et kes see seda harjutab, kas, kas see perearst ise"
+      },
+      {
+        "start_seconds": 2226.0,
+        "end_seconds": 2231.44,
+        "text": "siis peale tööpäeva lõpule pead pidi sinna kuhugi, kuhugi serveriruumi ja hakkab val"
+      },
+      {
+        "start_seconds": 2231.44,
+        "end_seconds": 2234.48,
+        "text": "dama ja, ja mingisuguseid dokumente kirjutama."
+      },
+      {
+        "start_seconds": 2234.48,
+        "end_seconds": 2241.52,
+        "text": "Et, et aga, aga noh, meil on vaja kogu seda süsteemi pädeva haldusega ja, ja siis noh"
+      },
+      {
+        "start_seconds": 2241.52,
+        "end_seconds": 2248.88,
+        "text": ", nüüd on meil selline mõte, et tervisekassa on tegemas andet arvuti töökoha kang"
+      },
+      {
+        "start_seconds": 2248.88,
+        "end_seconds": 2255.4,
+        "text": "et, kus siis on võimalus juba, kus siis saavad turule tulla pakkujad, kes pakuvad arvu"
+      },
+      {
+        "start_seconds": 2255.4,
+        "end_seconds": 2261.76,
+        "text": "tit koos haldusega ja kuna see on siis nagu hange, siis tekib ka juba mingisugune selline"
+      },
+      {
+        "start_seconds": 2261.76,
+        "end_seconds": 2266.24,
+        "text": "huvi võib-olla seda teenust nagu pakkuda võib-olla see hakkab ka seda hinda natukene"
+      },
+      {
+        "start_seconds": 2266.24,
+        "end_seconds": 2271.0,
+        "text": "nagu reguleerima, see ei ole enam nagu selline, et need IT-teenuse pakkujad, mis tea"
+      },
+      {
+        "start_seconds": 2271.0,
+        "end_seconds": 2276.08,
+        "text": "tavasti ei ole väga odavad pakkujad, et et võib-olla see hind hakkab ka kuidagi nagu"
+      },
+      {
+        "start_seconds": 2276.08,
+        "end_seconds": 2300.96,
+        "text": "reguleerima, me väga loodame, et sellest midagi tuleb."
+      },
+      {
+        "start_seconds": 2300.96,
+        "end_seconds": 2307.96,
+        "text": "Meil tegelikult hakkavad ikkagi peale küberturvalisuse seaduse järgi siis muudatused"
+      },
+      {
+        "start_seconds": 2307.96,
+        "end_seconds": 2313.48,
+        "text": ", vaatame üle, seda küsimust sisse võtta, nagu tegelikult Euroopa Liidu õigusega võt"
+      },
+      {
+        "start_seconds": 2313.48,
+        "end_seconds": 2315.6,
+        "text": "nud edasi."
+      },
+      {
+        "start_seconds": 2315.6,
+        "end_seconds": 2320.56,
+        "text": "Et meie eesmärgiks ei ole jällegi kedagi kiusatatud, kui me näeme reaalselt, et see muud"
+      },
+      {
+        "start_seconds": 2320.56,
+        "end_seconds": 2324.28,
+        "text": "ab asja paremaks ja see on tehtud, siis me teeksime seda, mis mulle meeldib, mulle meeldi"
+      },
+      {
+        "start_seconds": 2324.28,
+        "end_seconds": 2331.36,
+        "text": "b, võib-olla valdkonna selline eraldi regulatsioon."
+      },
+      {
+        "start_seconds": 2331.36,
+        "end_seconds": 2336.04,
+        "text": "Kas ikkagi on olemas pädevus, turnuse nõuded kirjutada?"
+      },
+      {
+        "start_seconds": 2336.04,
+        "end_seconds": 2344.64,
+        "text": "Perearstil on pädevuskontrolliga näiteks, kuidas neli või sünniautomaatselt need"
+      },
+      {
+        "start_seconds": 2344.64,
+        "end_seconds": 2363.08,
+        "text": "nõuded võiksid olla ühised kõige rohkem --- re"
+      },
+      {
+        "start_seconds": 2363.08,
+        "end_seconds": 2366.08,
+        "text": "ssursse, et ega neid hallata."
+      },
+      {
+        "start_seconds": 2366.08,
+        "end_seconds": 2370.76,
+        "text": "Baas, mis katab enamusega, on väga hea ja selle kõrvaldavasti siis sinna pealetulektsi"
+      },
+      {
+        "start_seconds": 2370.76,
+        "end_seconds": 2377.4,
+        "text": "is Eesti mudel minu meelest töötab nagu seda reformi ei läheks küll, siis vaadata neid"
+      },
+      {
+        "start_seconds": 2377.4,
+        "end_seconds": 2382.16,
+        "text": "tehnilisi lahendusi, et perearstikeskustel võiks olla siis keskse arvutitega pakkuja"
+      },
+      {
+        "start_seconds": 2382.16,
+        "end_seconds": 2386.56,
+        "text": ", mis lahendab neile väga palju probleemidega ja võib-olla lisame sinna siis selle ta"
+      },
+      {
+        "start_seconds": 2386.56,
+        "end_seconds": 2391.88,
+        "text": "rkvara komponendi ehk needsamad keskseid vabalt, kes pakuvad perearstikeskuse siis ta"
+      },
+      {
+        "start_seconds": 2391.88,
+        "end_seconds": 2398.16,
+        "text": "rkvara, et nemad juba oleksid ära, ma ütleks, et näiteks siis selle nagu selle lõvio"
+      },
+      {
+        "start_seconds": 2398.16,
+        "end_seconds": 2399.84,
+        "text": "sa probleemist ära."
+      },
+      {
+        "start_seconds": 2399.84,
+        "end_seconds": 2406.4,
+        "text": "Ma tooks ühe näite veel siin, et sa ütlesid, et paljud perearstikeskused on pihta saanud"
+      },
+      {
+        "start_seconds": 2406.4,
+        "end_seconds": 2410.44,
+        "text": ", kui paljud ei ütleks üksikud on, aga neid on."
+      },
+      {
+        "start_seconds": 2410.44,
+        "end_seconds": 2414.4,
+        "text": "Et me ei ole sellest väga palju kuulnud, see lahendatakse ära, võib-olla mingit lühi"
+      },
+      {
+        "start_seconds": 2414.4,
+        "end_seconds": 2421.92,
+        "text": "kest aega on, mingi perearstikeskuse IT-süsteemid maas."
+      },
+      {
+        "start_seconds": 2421.92,
+        "end_seconds": 2429.12,
+        "text": "Aga kui on maas programmi arendaja, siis on maas kõik Eesti perearstid, siis me oleme"
+      },
+      {
+        "start_seconds": 2429.12,
+        "end_seconds": 2436.8,
+        "text": "tõesti niivõrd digitaliseeritud eelmine kevad, et peale kui terve tööpäeva"
+      },
+      {
+        "start_seconds": 2436.8,
+        "end_seconds": 2444.6,
+        "text": "üks suur arendaja suurarendaja süsteemiga maas, see tähendab, et ei teinud töö"
+      },
+      {
+        "start_seconds": 2444.6,
+        "end_seconds": 2471.24,
+        "text": "d noortekodu sektor väga suur osa Eesti perearstidest."
+      },
+      {
+        "start_seconds": 2471.24,
+        "end_seconds": 2475.96,
+        "text": "Sellest asjast sõltuvad meie patsiendid on need üldiselt mõistlikud."
+      },
+      {
+        "start_seconds": 2475.96,
+        "end_seconds": 2480.08,
+        "text": "Meil on olemas ka veel, meil on olemas pliiats, meil on olemas petuskoop, et, et saab"
+      },
+      {
+        "start_seconds": 2480.08,
+        "end_seconds": 2481.52,
+        "text": "nagu hakkama."
+      },
+      {
+        "start_seconds": 2481.52,
+        "end_seconds": 2486.32,
+        "text": "Meil on olemas suhtlus mõned paberretseptid, tuletame meelde, kuidas neid nagu kirjuta"
+      },
+      {
+        "start_seconds": 2486.32,
+        "end_seconds": 2491.28,
+        "text": "takse ja, ja mõnele protsendile sai öeldud, et nagu see jama ükskord läbi saab, et siis"
+      },
+      {
+        "start_seconds": 2491.28,
+        "end_seconds": 2497.44,
+        "text": "saab võib-olla saab ehk homseks saab korda enne homset apteeki nagu mine, aga see tähendab"
+      },
+      {
+        "start_seconds": 2497.44,
+        "end_seconds": 2502.12,
+        "text": "seda, et ma pean kõike seda pärast nagu tagasi algama ja digitaliseerima kogu seda tegevus"
+      },
+      {
+        "start_seconds": 2502.12,
+        "end_seconds": 2503.68,
+        "text": "t."
+      },
+      {
+        "start_seconds": 2503.68,
+        "end_seconds": 2508.56,
+        "text": "Ma korra ütleks repliigi, et aitäh selles suhtes väga valgustav argi oli kuulda seda"
+      },
+      {
+        "start_seconds": 2508.56,
+        "end_seconds": 2514.28,
+        "text": "ja ma mõistan seda muret, eriti väikeste nii-öelda perearstikeskuste või nende perear"
+      },
+      {
+        "start_seconds": 2514.28,
+        "end_seconds": 2517.12,
+        "text": "stide puhul, kes toetavad üksinda."
+      },
+      {
+        "start_seconds": 2517.12,
+        "end_seconds": 2521.96,
+        "text": "Mis palun selle küsimuse juurde, et sa mainisid seda, et arsti ülesandeks ei peakski"
+      },
+      {
+        "start_seconds": 2521.96,
+        "end_seconds": 2526.48,
+        "text": "olema küberturbest arusaamine, ma olen seda printsiibis nõus ja sellepärast mulle ti"
+      },
+      {
+        "start_seconds": 2526.48,
+        "end_seconds": 2532.52,
+        "text": "htipeale meeldib tõmmata seda paralleeli ja vabandage nüüd selle lotaalsuse eest või"
+      },
+      {
+        "start_seconds": 2532.52,
+        "end_seconds": 2536.52,
+        "text": "lihtsuse eest, aga küberturve on nagu veidike nagu raamatupidamine, eks ole."
+      },
+      {
+        "start_seconds": 2536.52,
+        "end_seconds": 2543.04,
+        "text": "Et kui seal on ettevõte, eks ole, siis samamoodi nagu küberturbe eest juhatus lapse eest"
+      },
+      {
+        "start_seconds": 2543.04,
+        "end_seconds": 2547.04,
+        "text": ", aga tihtipeale, mis tehakse, ongi, võetakse see raamatupidamise teenus siis väljas"
+      },
+      {
+        "start_seconds": 2547.04,
+        "end_seconds": 2551.12,
+        "text": "protsessi, eks ole, võetakse raamatupidaja, näiteks raamatupidamise teenusepakkuja, kelle"
+      },
+      {
+        "start_seconds": 2551.12,
+        "end_seconds": 2554.64,
+        "text": "le makstakse raha selle eest, et mbrid oleks korras, eks ole, ja et siin Eesti Maksu"
+      },
+      {
+        "start_seconds": 2554.64,
+        "end_seconds": 2559.12,
+        "text": "-Tolliamet ei tuleks, eks ole pärast väärteomenetluse või mis iganes muu asjaga selle"
+      },
+      {
+        "start_seconds": 2559.12,
+        "end_seconds": 2562.72,
+        "text": "peal täpselt samamoodi, nii et ma arvan, et juba ettepanek siin puhul ka juhatus vastu"
+      },
+      {
+        "start_seconds": 2562.72,
+        "end_seconds": 2566.48,
+        "text": "tab, eks ole, perearsti seoses paisutab, eks ole, aga ta peaks sellega tegelema, see"
+      },
+      {
+        "start_seconds": 2566.48,
+        "end_seconds": 2570.4,
+        "text": "on mingi teine pool jah nõus on see, kuhu see raha eest tuleb välja."
+      },
+      {
+        "start_seconds": 2570.4,
+        "end_seconds": 2575.36,
+        "text": "Iseenesest tekib siis see küsimus, et okei, et ettevõtluse omadus väga-väga oluline asi"
+      },
+      {
+        "start_seconds": 2575.36,
+        "end_seconds": 2579.6,
+        "text": ", aga kas me peaks nagu mõtlema selle poole, et perearstid võib-olla peaksid tulema rohkem"
+      },
+      {
+        "start_seconds": 2579.6,
+        "end_seconds": 2585.16,
+        "text": "puuduma siis mingisugustesse keskustesse või iseenesest võimendaks seda võimekust os"
+      },
+      {
+        "start_seconds": 2585.16,
+        "end_seconds": 2590.84,
+        "text": "ta seda IT ja küberturveteenuste sisse, sellest raha maksta ja muuhulgas omaks nagu parem"
+      },
+      {
+        "start_seconds": 2590.84,
+        "end_seconds": 2595.4,
+        "text": "at jõu olge teenusepakkujate suhtes, aga noh, see on niisugune nagu keerulisem arute"
+      },
+      {
+        "start_seconds": 2595.4,
+        "end_seconds": 2601.24,
+        "text": "lu, sellepärast et see piirab väga palju arsti ja perearsti vabadust, mitte üksinda kuskil"
+      },
+      {
+        "start_seconds": 2601.24,
+        "end_seconds": 2640.0,
+        "text": "väga kauges kohas, eks ole, üksinda on neid tehtud."
+      },
+      {
+        "start_seconds": 2640.0,
+        "end_seconds": 2644.84,
+        "text": "Aga ma arvan ka, et, et see, kui me räägime mingist nagu diferentseerimisest ja natukene"
+      },
+      {
+        "start_seconds": 2644.84,
+        "end_seconds": 2646.44,
+        "text": "nagu teistmoodi."
+      },
+      {
+        "start_seconds": 2646.44,
+        "end_seconds": 2649.72,
+        "text": "Siis üks variant on see, et kui me vaatame suurtes keskustes, kus tegelikult ongi juba"
+      },
+      {
+        "start_seconds": 2649.72,
+        "end_seconds": 2655.12,
+        "text": "noh, teatud koondamine juba toimunud, on ju kakskümmend kahekümne arstiga kliinik on"
+      },
+      {
+        "start_seconds": 2655.12,
+        "end_seconds": 2662.44,
+        "text": "ikkagi juba nagu nii-öelda Eesti mõistes noh, ma ütleks pigem võib-olla nagu nii-öelda"
+      },
+      {
+        "start_seconds": 2662.44,
+        "end_seconds": 2667.76,
+        "text": "keskmine või pigem suurettevõte mingeid mustrid ja väiksed kohad, kus on siis nii-öelda"
+      },
+      {
+        "start_seconds": 2667.76,
+        "end_seconds": 2672.84,
+        "text": "see väiksemad perearstid ehk et siin on kõik organiseeritud olema keskustest, kus tu"
+      },
+      {
+        "start_seconds": 2672.84,
+        "end_seconds": 2676.28,
+        "text": "rg justkui võiks seda asja nagu paika panna, et noh, meil on endal siin ju teenusepa"
+      },
+      {
+        "start_seconds": 2676.28,
+        "end_seconds": 2682.6,
+        "text": "kkujad, kes, kes suudavad seda, seda nii-öelda pakkuda ja siis on meil aura, kus sul"
+      },
+      {
+        "start_seconds": 2682.6,
+        "end_seconds": 2687.32,
+        "text": "tõesti on turutõrge on, tuleb mõelda, et mis on siis see lahendus see, et seal pakku"
+      },
+      {
+        "start_seconds": 2687.32,
+        "end_seconds": 2687.64,
+        "text": "da."
+      },
+      {
+        "start_seconds": 2687.64,
+        "end_seconds": 2694.96,
+        "text": "Nüüd rääkides sellest võrdlusega taskuses finantsiite"
+      },
+      {
+        "start_seconds": 2694.96,
+        "end_seconds": 2698.8,
+        "text": "seda ju ka ei pea teadma on hästi keeruline."
+      },
+      {
+        "start_seconds": 2698.8,
+        "end_seconds": 2704.8,
+        "text": "Aga noh, paratamatult oleme see baasosa on ju paratamatus see, et, et see lihtsalt peab"
+      },
+      {
+        "start_seconds": 2704.8,
+        "end_seconds": 2710.44,
+        "text": "olema nagu nii-öelda selle, selle juhtkonna ja selle ettevõtte siis laual."
+      },
+      {
+        "start_seconds": 2710.44,
+        "end_seconds": 2714.92,
+        "text": "See on üks asi, mida näiteks meie peale ka selgelt oma klientidele ütlemegi, et et teie"
+      },
+      {
+        "start_seconds": 2714.92,
+        "end_seconds": 2719.52,
+        "text": "tegelete organistrite, teie tegelege oma tööga nagu ja meil nagu teeme kõik korda sellega"
+      },
+      {
+        "start_seconds": 2719.52,
+        "end_seconds": 2724.2,
+        "text": ", et te saaksite asju teha ja teda usaldatakse ja siin oli üks selline huvitav küsimus"
+      },
+      {
+        "start_seconds": 2724.2,
+        "end_seconds": 2731.0,
+        "text": "ka veel, et mida mina ise ka ei ole isegi mõelnud ja võib-olla küsiks publikult käed"
+      },
+      {
+        "start_seconds": 2731.0,
+        "end_seconds": 2738.32,
+        "text": "püsti ka, et kas ma tarbijana või siis patsiendina näen seda pere"
+      },
+      {
+        "start_seconds": 2738.32,
+        "end_seconds": 2744.56,
+        "text": "arstikeskuse miks ei ole näiteks turbenõuded tõendatult rakendatud, et saaksin teha tead"
+      },
+      {
+        "start_seconds": 2744.56,
+        "end_seconds": 2749.0,
+        "text": "liku valiku, ehk siis kui me mõtleme, et see on nagu perearsti valikut, siis lihtsalt"
+      },
+      {
+        "start_seconds": 2749.0,
+        "end_seconds": 2753.04,
+        "text": "see, et mul võib-olla veab, et mind võetakse sinna nimistusse on ju minul tavaliselt"
+      },
+      {
+        "start_seconds": 2753.04,
+        "end_seconds": 2757.4,
+        "text": "on see niimoodi käinud, kui olen elukat vahetunud, saavad toreda kirja ja võib-olla and"
+      },
+      {
+        "start_seconds": 2757.4,
+        "end_seconds": 2759.8,
+        "text": "a ruumi kedagi kedagi juurde võtta."
+      },
+      {
+        "start_seconds": 2759.8,
+        "end_seconds": 2765.56,
+        "text": "Aga kas meil siin book'ite seas on mõni inimene, kes on teinud perearsti valiku ja mõ"
+      },
+      {
+        "start_seconds": 2765.56,
+        "end_seconds": 2770.6,
+        "text": "elnud või ma ei ütle, et otsuse selle täidavad, aga mõelnud sellele, kui ta valib pere"
+      },
+      {
+        "start_seconds": 2770.6,
+        "end_seconds": 2784.84,
+        "text": "arsti, et kuidas perearstikeskus minu andmeid haldab."
+      },
+      {
+        "start_seconds": 2784.84,
+        "end_seconds": 2789.56,
+        "text": "Aga see on jällegi, mis, millest me räägime konkurentsi, konkurentsieelist, et kui sa"
+      },
+      {
+        "start_seconds": 2789.56,
+        "end_seconds": 2794.04,
+        "text": "oled suur ja sa oled täitnud need reeglid, et tegelikult vaatame täna üleüldse arsti"
+      },
+      {
+        "start_seconds": 2794.04,
+        "end_seconds": 2799.36,
+        "text": "juures võib-olla käiaksegi rohkem era erakliinikutesse saad kiiremini vastuvõtule võib"
+      },
+      {
+        "start_seconds": 2799.36,
+        "end_seconds": 2804.08,
+        "text": "-olla teenuse kvaliteet on, on see, et sul on laiemad võimalused ja nii edasi, et, et"
+      },
+      {
+        "start_seconds": 2804.08,
+        "end_seconds": 2808.32,
+        "text": "tegelikult on ka kahju sellest, et kui siis jääb seal võib olla väga hea arsti juures"
+      },
+      {
+        "start_seconds": 2808.32,
+        "end_seconds": 2812.2,
+        "text": "käimata lihtsalt sellepärast, et tal on, tal on väike üks ja seda pole saanud endale"
+      },
+      {
+        "start_seconds": 2812.2,
+        "end_seconds": 2841.68,
+        "text": "seda, eks ole, mis on mõistamist."
+      },
+      {
+        "start_seconds": 2841.68,
+        "end_seconds": 2849.2,
+        "text": "Aga natuke ei tahaks nagu tekitada nüüd perearstides mingit kolli, et inimesed on"
+      },
+      {
+        "start_seconds": 2849.2,
+        "end_seconds": 2856.56,
+        "text": "teisest küljest peaksid hakkama kartma, et, et nende andmed on kuidagi nagu mõ"
+      },
+      {
+        "start_seconds": 2856.56,
+        "end_seconds": 2864.4,
+        "text": "ne perearstikeskuse käes nagu õudselt, õudselt ohus, sest nagu ma alguses ütlesin, et"
+      },
+      {
+        "start_seconds": 2864.4,
+        "end_seconds": 2870.72,
+        "text": "midagi järgivad ja midagi, kõik on ikkagi nagu kuulnud ja andmed on meile olulised ja"
+      },
+      {
+        "start_seconds": 2870.72,
+        "end_seconds": 2878.52,
+        "text": "kui see kuidagi nagu kõlas ja me ei taha küberturvalisusest midagi kuulda, siis ma"
+      },
+      {
+        "start_seconds": 2878.52,
+        "end_seconds": 2881.48,
+        "text": "ei tahtnud seda niimoodi nagu, nagu öelda küll."
+      },
+      {
+        "start_seconds": 2881.48,
+        "end_seconds": 2892.84,
+        "text": "Aga kõverturvalisuse reegleid, mitte rida nüüd on seal need esmased dokument."
+      },
+      {
+        "start_seconds": 2892.84,
+        "end_seconds": 2898.6,
+        "text": "Et need on natuke küll seotud, aga, aga nad ikkagi lagunevad, need on niisugused orga"
+      },
+      {
+        "start_seconds": 2898.6,
+        "end_seconds": 2906.44,
+        "text": "nisatoorsed meetmed ja on ideelised meetmed ja need organisatoorsed meetmed võta"
+      },
+      {
+        "start_seconds": 2906.44,
+        "end_seconds": 2914.28,
+        "text": "me juhtkonnade osal teel hea meelega endale anda, me koolitame oma töötajaid,"
+      },
+      {
+        "start_seconds": 2914.28,
+        "end_seconds": 2921.28,
+        "text": "räägime neile kabinetis altpoolt, et siis nad peavad halvitama selle Windowsi ja nii"
+      },
+      {
+        "start_seconds": 2921.28,
+        "end_seconds": 2923.88,
+        "text": "edasi."
+      },
+      {
+        "start_seconds": 2923.88,
+        "end_seconds": 2930.8,
+        "text": "Iga aasta meie töötajad teevad Riia tehtud küberturvalisuse testi, et ma arvan, et sellist"
+      },
+      {
+        "start_seconds": 2930.8,
+        "end_seconds": 2934.56,
+        "text": "selline käitumise main on nagu küll olemas."
+      },
+      {
+        "start_seconds": 2934.56,
+        "end_seconds": 2941.0,
+        "text": "Aga, aga millega me nagu hätta jääme, et me, me jääme hätta seda tehnilise poolega ja"
+      },
+      {
+        "start_seconds": 2941.0,
+        "end_seconds": 2944.2,
+        "text": "ka meie teenused hakkavad internetiteenusepakkujad."
+      },
+      {
+        "start_seconds": 2944.2,
+        "end_seconds": 2948.68,
+        "text": "Meil on see väärtus, et millised need reeglid on ja kuidas rakendada."
+      },
+      {
+        "start_seconds": 2948.68,
+        "end_seconds": 2953.16,
+        "text": "Et mina ei taha, et, et minul see internetiteenuse pakkujaks nagu vorstimüüja, kes küsi"
+      },
+      {
+        "start_seconds": 2953.16,
+        "end_seconds": 2956.8,
+        "text": "b minu käest, millist vorsti sa tahad, et kas sa tahad lastevorsti või sa pead kiidu"
+      },
+      {
+        "start_seconds": 2956.8,
+        "end_seconds": 2957.52,
+        "text": "vorsti."
+      },
+      {
+        "start_seconds": 2957.52,
+        "end_seconds": 2962.36,
+        "text": "Ma tahan, et tema oleks nagu sihuke spetsialist, et mina arvan, et need silmad ja minu"
+      },
+      {
+        "start_seconds": 2962.36,
+        "end_seconds": 2968.16,
+        "text": "keskus on selline, meil on need nagu meetmed, ole hea, tee nii, et oleks küberturvalise"
+      },
+      {
+        "start_seconds": 2968.16,
+        "end_seconds": 2975.36,
+        "text": "m, et ma tahan minna selle küberturvalist teenust osutama IT-ettevõtte juurde ja öelda"
+      },
+      {
+        "start_seconds": 2975.36,
+        "end_seconds": 3024.2,
+        "text": ", et, et tee mulle nüüd seda."
+      },
+      {
+        "start_seconds": 3024.2,
+        "end_seconds": 3027.96,
+        "text": "Me tahame sellised asjad näiteks nagu kaera lahendada."
+      },
+      {
+        "start_seconds": 3027.96,
+        "end_seconds": 3034.16,
+        "text": "Meil on olemas digiplatvormid, üha rohkem õpetame meie patsiente, palun pöörduge pea"
+      },
+      {
+        "start_seconds": 3034.16,
+        "end_seconds": 3039.28,
+        "text": ", see on päris lihtne, aga seal lihtsalt tuleb sisse logida ja, ja teie andmed on nagu"
+      },
+      {
+        "start_seconds": 3039.28,
+        "end_seconds": 3041.44,
+        "text": "hoitud."
+      },
+      {
+        "start_seconds": 3041.44,
+        "end_seconds": 3046.08,
+        "text": "Et me tegelikult natuke võitleme patsientidele, sest patsiendid tahavad nagu võimalikult"
+      },
+      {
+        "start_seconds": 3046.08,
+        "end_seconds": 3049.68,
+        "text": "ruttu teenust saada ja nad tahavad võimalikult kirjalikult võimalikult kaugelt saada"
+      },
+      {
+        "start_seconds": 3049.68,
+        "end_seconds": 3055.12,
+        "text": ", nad lihtsalt ise kirjutavad väga avatult kõigest, et meie pigem tõmbame pidulikult"
+      },
+      {
+        "start_seconds": 3055.12,
+        "end_seconds": 3067.56,
+        "text": ", et ärge sealt kirjutage."
+      },
+      {
+        "start_seconds": 3067.56,
+        "end_seconds": 3072.08,
+        "text": "Sa saad sealt juba teha selle retsepti pikenduse ja sa ei pea meile üldse helistama,"
+      },
+      {
+        "start_seconds": 3072.08,
+        "end_seconds": 3075.92,
+        "text": "sa ei pea meile üldse kirjutama mitte midagi, lihtsalt pane sealtkaudu, sa lähed oma"
+      },
+      {
+        "start_seconds": 3075.92,
+        "end_seconds": 3080.32,
+        "text": "eelmise retsepte, et tegelikult ma arvan, et, et see, see on jõudmas, see on põlvkonna"
+      },
+      {
+        "start_seconds": 3080.32,
+        "end_seconds": 3084.4,
+        "text": "vahetuseni jõudmas ja loodetavasti lahendab lahendab suure probleemi."
+      },
+      {
+        "start_seconds": 3084.4,
+        "end_seconds": 3158.76,
+        "text": "Ma ju tahtsid muidugi lisada."
+      },
+      {
+        "start_seconds": 3158.76,
+        "end_seconds": 3166.0,
+        "text": "Meil on väga hea koostöö Riiaga tõlgitud ja, ja Riia ehk siis Riigi Infosüsteemide"
+      },
+      {
+        "start_seconds": 3166.0,
+        "end_seconds": 3171.56,
+        "text": "Amet erinevate tahab teha nüüd ühe perearstikeskuse väitel, kuidas neid nagu rakenda"
+      },
+      {
+        "start_seconds": 3171.56,
+        "end_seconds": 3171.92,
+        "text": "takse."
+      },
+      {
+        "start_seconds": 3171.92,
+        "end_seconds": 3178.92,
+        "text": "Me leidsin, et nende perearstikeskuse ja, ja seal see töö käib ja, ja nüüd sellised me"
+      },
+      {
+        "start_seconds": 3178.92,
+        "end_seconds": 3182.96,
+        "text": "hakkame kokkuvõtteid tegema ja ma arvan, et see saab olema üks näidis ja siin oleme si"
+      },
+      {
+        "start_seconds": 3182.96,
+        "end_seconds": 3188.88,
+        "text": "it koolitustega koolitustega edasi, et siin on ikkagi nüansid, eks, et ja ma arvan, et"
+      },
+      {
+        "start_seconds": 3188.88,
+        "end_seconds": 3206.2,
+        "text": "need asjad hakkavad tasapisi paika jooksma."
+      },
+      {
+        "start_seconds": 3206.2,
+        "end_seconds": 3211.92,
+        "text": "Üks teema, mis minul hindega on kogu meie küberhügieen, mis täna on ikkagi selles mõttes"
+      },
+      {
+        "start_seconds": 3211.92,
+        "end_seconds": 3216.92,
+        "text": "viie numbri vaadates siis kui jaanuaris sellel aastal kaotati rohkem nagu raha küber"
+      },
+      {
+        "start_seconds": 3216.92,
+        "end_seconds": 3221.6,
+        "text": "rünnakute tõttu kui eelmisel aastal kokku, siis muidugi nagu midagi on mäda ja midagi"
+      },
+      {
+        "start_seconds": 3221.6,
+        "end_seconds": 3223.2,
+        "text": "tegemata, eks ole."
+      },
+      {
+        "start_seconds": 3223.2,
+        "end_seconds": 3228.68,
+        "text": "Et, et selles mõttes üks küsimus on siin täpselt tulnud ka sellega seoses, et, et õpetaja"
+      },
+      {
+        "start_seconds": 3228.68,
+        "end_seconds": 3233.96,
+        "text": "tele näiteks kehtivad ranged keelenõuded, kas me peaksime arstidele seadma kohustusliku"
+      },
+      {
+        "start_seconds": 3233.96,
+        "end_seconds": 3241.24,
+        "text": "d kübernõuded ja oma äärmuslinnas siis küsimusele siis ja mitte vastavalt"
+      },
+      {
+        "start_seconds": 3241.24,
+        "end_seconds": 3248.0,
+        "text": "siis ma arvan, et lahti laskma me ei hakka midagi, aga, aga tegelikult üks üks teema"
+      },
+      {
+        "start_seconds": 3248.0,
+        "end_seconds": 3254.04,
+        "text": ", et sa tõid siin välja, et Riia pakub nii-öelda selliseid loenguid või et sa loed mi"
+      },
+      {
+        "start_seconds": 3254.04,
+        "end_seconds": 3258.52,
+        "text": "ngeid materjalid läbi vastata ja mõnele küsimusele, paraku ma arvan, et see ei ole pi"
+      },
+      {
+        "start_seconds": 3258.52,
+        "end_seconds": 3259.76,
+        "text": "isav."
+      },
+      {
+        "start_seconds": 3259.76,
+        "end_seconds": 3270.44,
+        "text": "Tuleb asjad teha läbi praktiliselt ja täna just, just --- ja"
+      },
+      {
+        "start_seconds": 3270.44,
+        "end_seconds": 3275.52,
+        "text": "tihtipeale ikkagi see, see pauk käib ära, sellepärast et keegi vajutas lihtsalt midagi"
+      },
+      {
+        "start_seconds": 3275.52,
+        "end_seconds": 3280.32,
+        "text": "valesti või, või jättis nõrga parooli ja nii edasi, et sellised, sellised lihtsad asjad"
+      },
+      {
+        "start_seconds": 3280.32,
+        "end_seconds": 3287.44,
+        "text": ", mis tegelikult aitavad meie nagu siis turvalisust tagada, et, et ma ei tea isegi kui"
+      },
+      {
+        "start_seconds": 3287.44,
+        "end_seconds": 3291.72,
+        "text": ", kui rääkida isegi nagu mitmeastmelisest autentimisest, et, et ma arvan, et see on ka"
+      },
+      {
+        "start_seconds": 3291.72,
+        "end_seconds": 3295.24,
+        "text": "nagu uus mõiste väga paljudele inimestele, kes meditsiini valdkonnas töötavad, siis võib"
+      },
+      {
+        "start_seconds": 3295.24,
+        "end_seconds": 3300.76,
+        "text": "-olla mul nagu laiem küsimus, et milliseid päevad me liigume ja see tegelikult ei ole"
+      },
+      {
+        "start_seconds": 3300.76,
+        "end_seconds": 3305.68,
+        "text": "seotud ainult ka meditsiinisektoriga, ma võiks tuua pikalisi veel teisi sektoreid, kus"
+      },
+      {
+        "start_seconds": 3305.68,
+        "end_seconds": 3308.36,
+        "text": "peaks see täpselt samamoodi olema rakendatud."
+      },
+      {
+        "start_seconds": 3308.36,
+        "end_seconds": 3314.36,
+        "text": "Et ülikoolides kui see annab juba mingit eriala õppima, peaks olema küberturval rake"
+      },
+      {
+        "start_seconds": 3314.36,
+        "end_seconds": 3321.6,
+        "text": "ndatud ühe ühe osana õppest, et ma ei tea täna arstiks õppides pole kuulnud, et"
+      },
+      {
+        "start_seconds": 3321.6,
+        "end_seconds": 3333.84,
+        "text": ", et käiakse, tehakse ühtpidi ühtegi küberandmekaitse."
+      },
+      {
+        "start_seconds": 3333.84,
+        "end_seconds": 3342.72,
+        "text": "Ma ütleks, et juba seal peaks olema sees."
+      },
+      {
+        "start_seconds": 3342.72,
+        "end_seconds": 3348.32,
+        "text": "Mulle tundub, et nii-öelda sunduslike meetmetega saab pool tööd juba ära teha."
+      },
+      {
+        "start_seconds": 3348.32,
+        "end_seconds": 3352.84,
+        "text": "Kui sul on juba organisatsioonis sees sees, sul on kaheastmeline autentimine ehk siis"
+      },
+      {
+        "start_seconds": 3352.84,
+        "end_seconds": 3357.6,
+        "text": "see, et sa pead kahe asjaga sisse logima kohustuslikuks tehtud, see aitab juba palju"
+      },
+      {
+        "start_seconds": 3357.6,
+        "end_seconds": 3357.84,
+        "text": "."
+      },
+      {
+        "start_seconds": 3357.84,
+        "end_seconds": 3361.44,
+        "text": "Võib-olla isegi see, et sul on see arvutiekraan nagu automaatselt lukku siis, kui sa"
+      },
+      {
+        "start_seconds": 3361.44,
+        "end_seconds": 3362.92,
+        "text": "jälle mõnda aega on kasutatud."
+      },
+      {
+        "start_seconds": 3362.92,
+        "end_seconds": 3367.84,
+        "text": "Sellised asjad, eks ole minimaalse parooli nõuded, ma ei tea, kaheksa ühikut, eks ole"
+      },
+      {
+        "start_seconds": 3367.84,
+        "end_seconds": 3376.24,
+        "text": ", suudad väiketäht number see spetsial, eks ole, jääb veel juurde."
+      },
+      {
+        "start_seconds": 3376.24,
+        "end_seconds": 3379.4,
+        "text": "Mingisugustest asjadest ma arvan, saavad kõik inimesed aru, kui me räägime asjadest,"
+      },
+      {
+        "start_seconds": 3379.4,
+        "end_seconds": 3382.32,
+        "text": "siis tõenäoliselt asjad saavad ka sellest aru, et ma ei tohi seda paberit, eks ole, võrd"
+      },
+      {
+        "start_seconds": 3382.32,
+        "end_seconds": 3385.84,
+        "text": "lema, et samamoodi ma ei tohi seda nagu ekraani peale ka jätta, eks ole, neid patsie"
+      },
+      {
+        "start_seconds": 3385.84,
+        "end_seconds": 3388.52,
+        "text": "ndi andmeid, eelmise patsiendi andmeid, kui meil tuleb kuus patsient sisse, eks ole,"
+      },
+      {
+        "start_seconds": 3388.52,
+        "end_seconds": 3390.28,
+        "text": "kuigi need tüvesid tehakse, eks ole."
+      },
+      {
+        "start_seconds": 3390.28,
+        "end_seconds": 3394.56,
+        "text": "Ma arvan, et see kõige keerulisem asi on see, et noh, me oleme nendest pettustest viimase"
+      },
+      {
+        "start_seconds": 3394.56,
+        "end_seconds": 3398.8,
+        "text": "l ajal hästi palju rääkinud on ju, on sellised petukirjad, mis tulevad siis emailiga"
+      },
+      {
+        "start_seconds": 3398.8,
+        "end_seconds": 3403.08,
+        "text": ", eks ole, kusjuures mõnikord on see, eks ole nagu tundub, et kolleeg saadabki mulle"
+      },
+      {
+        "start_seconds": 3403.08,
+        "end_seconds": 3406.36,
+        "text": "seda kirja, tegelikult tuleb see mingisugused suvalised meiliaadressilt, eks ole, mingi"
+      },
+      {
+        "start_seconds": 3406.36,
+        "end_seconds": 3408.0,
+        "text": "d numbrid teada ja nii edasi."
+      },
+      {
+        "start_seconds": 3408.0,
+        "end_seconds": 3413.96,
+        "text": "Ja siis tegelikult on ju ka need petukõned ka on ju, meil on ju selline meditsiininä"
+      },
+      {
+        "start_seconds": 3413.96,
+        "end_seconds": 3421.72,
+        "text": "itleja, aga jälle avalik informatsioon sellise ettevõtte --- , kus helista"
+      },
+      {
+        "start_seconds": 3421.72,
+        "end_seconds": 3427.0,
+        "text": "ti, oli sellist finantsjuht, helistati, tehti mingisugune ettekääne, ma ei mäleta, mis"
+      },
+      {
+        "start_seconds": 3427.0,
+        "end_seconds": 3432.08,
+        "text": "see täpselt oli, aga ilmselt ka midagi taoliste nagu tervisekaaslastele mingisugune ü"
+      },
+      {
+        "start_seconds": 3432.08,
+        "end_seconds": 3462.68,
+        "text": "ritus jäänud saamata."
+      },
+      {
+        "start_seconds": 3462.68,
+        "end_seconds": 3468.76,
+        "text": "Et midagi väga praktilist, mis loodetavasti teeb selle kõik selleks, et seal saabki päris"
+      },
+      {
+        "start_seconds": 3468.76,
+        "end_seconds": 3473.84,
+        "text": "elt nagu läbi teha kõik intsidendid, nii et, et teinekord on see intsident arvutisse"
+      },
+      {
+        "start_seconds": 3473.84,
+        "end_seconds": 3488.88,
+        "text": "jõuab, siis ta intsidendiks ei muutu."
+      },
+      {
+        "start_seconds": 3488.88,
+        "end_seconds": 3493.56,
+        "text": "Kas siis korteris või kaks korda aastas tuleb meie kõige suuremasse tuppa, mis meil on"
+      },
+      {
+        "start_seconds": 3493.56,
+        "end_seconds": 3498.76,
+        "text": "seal büroos on, eks ole, kõik peavad kohustuslikult kohal olema ja kes ei saa, peab jä"
+      },
+      {
+        "start_seconds": 3498.76,
+        "end_seconds": 3502.92,
+        "text": "rele vaatama, et on mingi inimene, kes lihtsalt selgitab ära, et mida võib teha, mida"
+      },
+      {
+        "start_seconds": 3502.92,
+        "end_seconds": 3506.4,
+        "text": "ei või teha ja tehakse igasugused nolongitsusteste ka, eks ole."
+      },
+      {
+        "start_seconds": 3506.4,
+        "end_seconds": 3510.72,
+        "text": "Et see oleks nagu siin kuidagi selge, mida võib teha, kui see nagu jutt jääb kuskile"
+      },
+      {
+        "start_seconds": 3510.72,
+        "end_seconds": 3516.52,
+        "text": "noh, meedia tasandile, Maria on väga head tööd teinud, eks ole, mittevaatlikku."
+      },
+      {
+        "start_seconds": 3516.52,
+        "end_seconds": 3520.4,
+        "text": "Aga, aga noh, tegelikult on ikkagi see, et, et nii-öelda perearstikeskused, eks ole ja"
+      },
+      {
+        "start_seconds": 3520.4,
+        "end_seconds": 3524.28,
+        "text": "kõik, kõik muu, eks ole, ettevõtted peavadki lõpuks selle lepingu otsi tegema, et keegi"
+      },
+      {
+        "start_seconds": 3524.28,
+        "end_seconds": 3527.44,
+        "text": "tuleb personaalselt ja räägib selle üle, kuhu see punaseks selgus."
+      },
+      {
+        "start_seconds": 3527.44,
+        "end_seconds": 3534.12,
+        "text": "Et üks kord aastas, aga see koolitus ju enam liigub sinna, et sul ongi võib-olla iga"
+      },
+      {
+        "start_seconds": 3534.12,
+        "end_seconds": 3539.52,
+        "text": "päev, iga nädal tagant on mingi õngituskatse ja kui sa läbi mingi koolitus välja natuke"
+      },
+      {
+        "start_seconds": 3539.52,
+        "end_seconds": 3589.2,
+        "text": "üritan avada, et mis see termused meil on, ma kahtlustasin mingi kaks nende analoog."
+      },
+      {
+        "start_seconds": 3589.2,
+        "end_seconds": 3593.48,
+        "text": "Nemad ostsid selle teenuse endale sisse ja lugesin nagu rääkis sellest nii-öelda kokku"
+      },
+      {
+        "start_seconds": 3593.48,
+        "end_seconds": 3599.16,
+        "text": "võttest, ütles ka, et, et kuidas need nagu reaalselt juhtkonna tasemel inimesed aita"
+      },
+      {
+        "start_seconds": 3599.16,
+        "end_seconds": 3604.68,
+        "text": "sid kakskümmend viis korda sellele lindile, kui öeldi, et, et klikki siia lingile, et"
+      },
+      {
+        "start_seconds": 3604.68,
+        "end_seconds": 3609.8,
+        "text": ", et siin kellegi auto võti sinna parklas kuskile maha kukkunud, et kas nad võivad olla"
+      },
+      {
+        "start_seconds": 3609.8,
+        "end_seconds": 3615.68,
+        "text": "sinu omad või on neil näiteks see, et, et, et sinu, et sa oled valitud kuu parimaks tööta"
+      },
+      {
+        "start_seconds": 3615.68,
+        "end_seconds": 3622.48,
+        "text": "jaks, et ettevõtete omanik on siis maksab sinu chati kuu mingi tasu nüüd järgmise aasta"
+      },
+      {
+        "start_seconds": 3622.48,
+        "end_seconds": 3627.12,
+        "text": "jooksul, kes sa mõtled nagu, nagu juhtkonna tasemel kakskümmend viis korda vajutada selle"
+      },
+      {
+        "start_seconds": 3627.12,
+        "end_seconds": 3646.6,
+        "text": "le ühele samale lingile, et, et see on ikka päris valus."
+      },
+      {
+        "start_seconds": 3646.6,
+        "end_seconds": 3651.2,
+        "text": "Õige tunne on sul siis, kui iga kord, kui sa meili saad, siis sa vaatad selle kaks korda"
+      },
+      {
+        "start_seconds": 3651.2,
+        "end_seconds": 3679.56,
+        "text": "otsa."
+      },
+      {
+        "start_seconds": 3679.56,
+        "end_seconds": 3684.52,
+        "text": "Aga see vana hea ei jäi selle tulekuga nagu vanasti, me teeme võib-olla kolm, kolm või"
+      },
+      {
+        "start_seconds": 3684.52,
+        "end_seconds": 3687.52,
+        "text": "rohkem aastat tagasi, me olime unikaalsed positsioonis, et meil ei olnud nii palju r"
+      },
+      {
+        "start_seconds": 3687.52,
+        "end_seconds": 3692.68,
+        "text": "ündeid, sellepärast et välismaa petturid ei räägi eesti keelt, aga see nii-öelda bar"
+      },
+      {
+        "start_seconds": 3692.68,
+        "end_seconds": 3696.56,
+        "text": "jäär on tehis, aga kui nüüd täiesti ära ületatud."
+      },
+      {
+        "start_seconds": 3696.56,
+        "end_seconds": 3700.96,
+        "text": "Oluline, et, et kui suur või väikese perearstikeskus on, et midagi on seal pikka võtta"
+      },
+      {
+        "start_seconds": 3700.96,
+        "end_seconds": 3737.68,
+        "text": "ja see ongi täpselt tehisintellekti nii-öelda tulemused tulevad kahjuks suureks."
+      },
+      {
+        "start_seconds": 3737.68,
+        "end_seconds": 3742.4,
+        "text": "Ja siis ma otsustan, et see ei saa olla ja kustutan ära."
+      },
+      {
+        "start_seconds": 3742.4,
+        "end_seconds": 3746.36,
+        "text": "Siin tuli üks kommentaar ka vahepeal, et digipädevused tegelikult algavad juba laste"
+      },
+      {
+        "start_seconds": 3746.36,
+        "end_seconds": 3766.48,
+        "text": "aias, et tegelikult tuleks juba sinna sisse panna."
+      },
+      {
+        "start_seconds": 3766.48,
+        "end_seconds": 3806.12,
+        "text": "Ja vastused."
+      },
+      {
+        "start_seconds": 3806.12,
+        "end_seconds": 3815.04,
+        "text": "Täpselt samamoodi neid telefonikõnesid, neid kalastus emaile langeb täpselt samamoodi"
+      },
+      {
+        "start_seconds": 3815.04,
+        "end_seconds": 3818.84,
+        "text": "siin oli see küsimus, et ma ei tea, kõik need perearstid tuleks luba ära võtta hetke"
+      },
+      {
+        "start_seconds": 3818.84,
+        "end_seconds": 3823.44,
+        "text": "ks võivad kõigepealt todased ja nii edasi."
+      },
+      {
+        "start_seconds": 3823.44,
+        "end_seconds": 3827.28,
+        "text": "Nende inimestega, kes meil siin on ja nende perearstidega, kes meil siin on, kui meil"
+      },
+      {
+        "start_seconds": 3827.28,
+        "end_seconds": 3832.04,
+        "text": "oleks perearstidest järjekord ukse taga, et me saaksime seda võib-olla teha, aga seni"
+      },
+      {
+        "start_seconds": 3832.04,
+        "end_seconds": 3837.28,
+        "text": "kaua, kui meil seda järjekorda ei ole ja me peame olema väga õnnelikud pensionieas laste"
+      },
+      {
+        "start_seconds": 3837.28,
+        "end_seconds": 3842.92,
+        "text": "üle, kes on tegelikult väga hea arst."
+      },
+      {
+        "start_seconds": 3842.92,
+        "end_seconds": 3848.6,
+        "text": "Aga ta ei vaja nagu kurja kontrolli ja suuri trahve, ta vajab selleks abi."
+      },
+      {
+        "start_seconds": 3848.6,
+        "end_seconds": 3853.52,
+        "text": "Et ta vajab selleks teenusepakkujaid, kes talle ütlevad, et vaata, sa pead tegema niimoodi"
+      },
+      {
+        "start_seconds": 3853.52,
+        "end_seconds": 3859.32,
+        "text": ", et sa pead panema siia kaheksatähelise parooli või kaheksamärgilise parooli ja sa ei"
+      },
+      {
+        "start_seconds": 3859.32,
+        "end_seconds": 3864.96,
+        "text": "tohi oma G4 või, või rohkem messengeris oma patsientidega suhelda."
+      },
+      {
+        "start_seconds": 3864.96,
+        "end_seconds": 3870.76,
+        "text": "Et ja, ja, ja mida me tahame ja me tahaks ka, et meil oleks abiks ka mingisuguse sta"
+      },
+      {
+        "start_seconds": 3870.76,
+        "end_seconds": 3876.76,
+        "text": "ndardid, et anname mingi IT-lahendus, mis ütleb, et see on tehtud, see on tehtud, see"
+      },
+      {
+        "start_seconds": 3876.76,
+        "end_seconds": 3879.2,
+        "text": "on su kontrolli all nii edasi."
+      },
+      {
+        "start_seconds": 3879.2,
+        "end_seconds": 3883.76,
+        "text": "Aga sellised standard Riia nagu ei taha teha, et nad tahavad, et, et kõik vajutaksid"
+      },
+      {
+        "start_seconds": 3883.76,
+        "end_seconds": 3887.2,
+        "text": "nagu jalgratast oma, oma keskuse tasemel."
+      },
+      {
+        "start_seconds": 3887.2,
+        "end_seconds": 3893.24,
+        "text": "Et aga me nii palju omavahel ei erine, et, et me tegelikult, noh, need standardid siis"
+      },
+      {
+        "start_seconds": 3893.24,
+        "end_seconds": 3898.88,
+        "text": "ki oleks nagu abiks või nagu mainid või näidised, et mis, et kuidas nagu peab olema ja"
+      },
+      {
+        "start_seconds": 3898.88,
+        "end_seconds": 3903.16,
+        "text": "kui ma sellest kõrvale kaldun, siin mingil põhjusel, et see on mulle kas mugavam või"
+      },
+      {
+        "start_seconds": 3903.16,
+        "end_seconds": 3907.36,
+        "text": "minu patsiendi näha või mis iganes ma väga põhjalikult mõtlen läbi ja räägin läbi oma"
+      },
+      {
+        "start_seconds": 3907.36,
+        "end_seconds": 3942.4,
+        "text": "IT-teenuse pakkujaga, et millega ma siis riskin, eks ju."
+      },
+      {
+        "start_seconds": 3942.4,
+        "end_seconds": 3949.56,
+        "text": "Ma nagu mina töötan, et tegelikult mulle tuleb töö meil tuleb alates meil sisse, siis"
+      },
+      {
+        "start_seconds": 3949.56,
+        "end_seconds": 3954.32,
+        "text": "tegelikult teeme kontseptsiooni natuke häirivad sellest, ta lubas selle meili sisse,"
+      },
+      {
+        "start_seconds": 3954.32,
+        "end_seconds": 3972.8,
+        "text": "organisatsioon peaks olema see esimene filter."
+      },
+      {
+        "start_seconds": 3972.8,
+        "end_seconds": 3979.04,
+        "text": "No aga siis ma tahangi minna selle oma interneti teenusepakkuja juurde ja ja sellise"
+      },
+      {
+        "start_seconds": 3979.04,
+        "end_seconds": 3983.0,
+        "text": "süsteemi luua, et, et ta ei lase neid sisse, kui ta muidugi iga päev, igaüks saab seal"
+      },
+      {
+        "start_seconds": 3983.0,
+        "end_seconds": 3994.6,
+        "text": "samas süsteemis kasutada oma isiklikult Gmailja, et, et see noh."
+      },
+      {
+        "start_seconds": 3994.6,
+        "end_seconds": 3999.84,
+        "text": "Et, et ma tahaks, et minu teenusepakkuja interneti teenusepakkuja oleks nii teadlik,"
+      },
+      {
+        "start_seconds": 3999.84,
+        "end_seconds": 4044.16,
+        "text": "et tema ütleks mulle, et mitte mina lähen tema müüri."
+      },
+      {
+        "start_seconds": 4044.16,
+        "end_seconds": 4050.08,
+        "text": "Et aga, aga me peame leidma mingisuguse kuldse keskel, mille eest on meie riigi raha"
+      },
+      {
+        "start_seconds": 4050.08,
+        "end_seconds": 4055.96,
+        "text": "st perearstidele, et mille eest on ka riik nagu makse noh, valmis maksma, et sedasama"
+      },
+      {
+        "start_seconds": 4055.96,
+        "end_seconds": 4060.16,
+        "text": "selle arvuti töökoha teenuse läbirääkimistel me oleme kaks aastat arutanud seda, mis"
+      },
+      {
+        "start_seconds": 4060.16,
+        "end_seconds": 4061.64,
+        "text": "see peaks olema, mis seal mitte."
+      },
+      {
+        "start_seconds": 4061.64,
+        "end_seconds": 4067.52,
+        "text": "Aga logide teema, et, et mis peaks olema, mis mitte ja kõik maksab ja selles arutelu"
+      },
+      {
+        "start_seconds": 4067.52,
+        "end_seconds": 4075.08,
+        "text": "des selgus näiteks, et meie perearstikeskus mingi, mingi valdkond see oli"
+      },
+      {
+        "start_seconds": 4075.08,
+        "end_seconds": 4082.16,
+        "text": "suure, suureks hirmus kasutab ülemääraselt rangeid nõudeid võrre"
+      },
+      {
+        "start_seconds": 4082.16,
+        "end_seconds": 4093.0,
+        "text": "ldes isegi mõne teise olulisema asutusega."
+      },
+      {
+        "start_seconds": 4093.0,
+        "end_seconds": 4102.32,
+        "text": "Kas tal on senimaani peaaegu pooleteise tunni jooksul siis mõnus, aga alati"
+      },
+      {
+        "start_seconds": 4102.32,
+        "end_seconds": 4144.96,
+        "text": "ongi seesama kuusteist panna."
+      },
+      {
+        "start_seconds": 4144.96,
+        "end_seconds": 4149.28,
+        "text": "Seal on ju vaheastmed kõik, eks mingisuguse sobiliku tasandi me peaksime kokku leppi"
+      },
+      {
+        "start_seconds": 4149.28,
+        "end_seconds": 4150.8,
+        "text": "ma siiski."
+      },
+      {
+        "start_seconds": 4150.8,
+        "end_seconds": 4157.92,
+        "text": "Aga üks asi, mida ma veel tahaksin väga tahaksin tegelikult küsida on kübertu"
+      },
+      {
+        "start_seconds": 4157.92,
+        "end_seconds": 4174.36,
+        "text": "rvalisuse andmekaitsega."
+      },
+      {
+        "start_seconds": 4174.36,
+        "end_seconds": 4181.16,
+        "text": "Kas andmekaitset on üldse kuidagi võimalik tagada ilma tugevamate turvaliselt turval"
+      },
+      {
+        "start_seconds": 4181.16,
+        "end_seconds": 4191.12,
+        "text": "isuseta?"
+      },
+      {
+        "start_seconds": 4191.12,
+        "end_seconds": 4195.52,
+        "text": "See oli juba kaheksa aastat tagasi, eks ole, ja kui see jõustus, see Gerdpärane otse"
+      },
+      {
+        "start_seconds": 4195.52,
+        "end_seconds": 4200.0,
+        "text": "koonduv määrus Eesti Vabariiki pidas seda vastu võtma otse Brüsselis kehtimine ja ma"
+      },
+      {
+        "start_seconds": 4200.0,
+        "end_seconds": 4205.28,
+        "text": "mäletan, et siis, kui see juhtus, siis oli niisugune nagu kergelt suur paanika Eestis"
+      },
+      {
+        "start_seconds": 4205.28,
+        "end_seconds": 4212.16,
+        "text": "ja mujal ka, sellepärast et selline esimest korda, aga miks esimesest kordadest, kus"
+      },
+      {
+        "start_seconds": 4212.16,
+        "end_seconds": 4217.32,
+        "text": "määruses olid nii suured trahvid, seal oli kirjas, kui sa rikud määrust, siis sa maks"
+      },
+      {
+        "start_seconds": 4217.32,
+        "end_seconds": 4225.08,
+        "text": "ad kuni kakskümmend miljonit eurot."
+      },
+      {
+        "start_seconds": 4225.08,
+        "end_seconds": 4231.32,
+        "text": "Aga mis olid GDPR-i nii-öelda spetsiifika, oli see ja noh, siiamaani on see, et ta ei"
+      },
+      {
+        "start_seconds": 4231.32,
+        "end_seconds": 4236.28,
+        "text": "räägi tegelikult mitte üldse sellest, et kuidas asju turvaliselt teha ja sisuliselt ütle"
+      },
+      {
+        "start_seconds": 4236.28,
+        "end_seconds": 4240.68,
+        "text": "b seda, et noh, eks ole, ettevõttel ja perearstikeskusel ja tervishoiuteenuse osutaja"
+      },
+      {
+        "start_seconds": 4240.68,
+        "end_seconds": 4246.32,
+        "text": "tel muuhulgas üleüldse igal ettevõttel, kellel on vähemalt üks füüsiline isikust tööta"
+      },
+      {
+        "start_seconds": 4246.32,
+        "end_seconds": 4251.12,
+        "text": "ja, on vähemalt üks füüsilisest isikust kõik peaks seda järgima esitama hästi palju pa"
+      },
+      {
+        "start_seconds": 4251.12,
+        "end_seconds": 4256.04,
+        "text": "berimajandust, eks ole, privaatsuspoliitikat, eks ole, need võtavad ta neid küpsise peale"
+      },
+      {
+        "start_seconds": 4256.04,
+        "end_seconds": 4261.28,
+        "text": "läinud, eks ole, et uute uuele veebilehe kohutavalt tüütu, et noh, need asjad on ja siis"
+      },
+      {
+        "start_seconds": 4261.28,
+        "end_seconds": 4272.4,
+        "text": "--- sisekorrad ja märgid."
+      },
+      {
+        "start_seconds": 4272.4,
+        "end_seconds": 4275.88,
+        "text": "Kuidas seda päriselt siis nagu implementeerida."
+      },
+      {
+        "start_seconds": 4275.88,
+        "end_seconds": 4281.24,
+        "text": "See probleem oligi see, et maailm ja selle sektoris, eks ole, nõuanded ja, ja kahe tuhande"
+      },
+      {
+        "start_seconds": 4281.24,
+        "end_seconds": 4285.52,
+        "text": "kaheksateistkümnendal aastal sealt edasi ehitati hästi palju paberitiigleid valmis siis"
+      },
+      {
+        "start_seconds": 4285.52,
+        "end_seconds": 4288.64,
+        "text": "ettevõtetes, eks ole."
+      },
+      {
+        "start_seconds": 4288.64,
+        "end_seconds": 4292.8,
+        "text": "Koostati nii palju paberit, eks ole, mõnikord on korralik kirjutasid valmis õige siia"
+      },
+      {
+        "start_seconds": 4292.8,
+        "end_seconds": 4298.4,
+        "text": ", eks ole, ja siis öeldi, et teatud meil on nüüd andmekaitsega hästi."
+      },
+      {
+        "start_seconds": 4298.4,
+        "end_seconds": 4302.04,
+        "text": "Tegelikult sellest ei ole kasu, kui sul on lihtsalt mingisugused bürokraatiad, eks ole"
+      },
+      {
+        "start_seconds": 4302.04,
+        "end_seconds": 4306.6,
+        "text": ", dokumendid, siis sa pead seda kasu ja noh, mis, mis nagu selle nii-öelda, mis koha"
+      },
+      {
+        "start_seconds": 4306.6,
+        "end_seconds": 4312.36,
+        "text": "tulekuga nüüd eks ole, muutus, ongi nüüd see pandi sellele asjale nagu sisu, et öeldi"
+      },
+      {
+        "start_seconds": 4312.36,
+        "end_seconds": 4315.32,
+        "text": "nüüd okei, et andmekaitse andmekaitse saab eraldi välja."
+      },
+      {
+        "start_seconds": 4315.32,
+        "end_seconds": 4319.52,
+        "text": "Aga nüüd te peate päriselt, eks ole, rakendama, kas siis on kakskümmend seitse tuhat"
+      },
+      {
+        "start_seconds": 4319.52,
+        "end_seconds": 4323.56,
+        "text": "üks standardit, eks ole, mille käigus see siis paneb paika konkreetsed asjad, mida see"
+      },
+      {
+        "start_seconds": 4323.56,
+        "end_seconds": 4328.56,
+        "text": "kõige paroolid, särgid, värgid on ju või siis Eesti info tõlge standardid või siis on"
+      },
+      {
+        "start_seconds": 4328.56,
+        "end_seconds": 4329.68,
+        "text": "väiksemate puhul, eks ole."
+      },
+      {
+        "start_seconds": 4329.68,
+        "end_seconds": 4334.88,
+        "text": "Et põhimõtteliselt ehk siis see asi muutub ja see point võiks koos käima, on see, et"
+      },
+      {
+        "start_seconds": 4334.88,
+        "end_seconds": 4339.24,
+        "text": "sul ei saa olla andmekaitset ilma küberturvalisuseta, sest see andmekaitsepaber ei kaitse"
+      },
+      {
+        "start_seconds": 4339.24,
+        "end_seconds": 4343.84,
+        "text": "siin mitte millegi eest, kui sul on kirjas see, et vaid ta tuleb, võib-olla, eks ole"
+      },
+      {
+        "start_seconds": 4343.84,
+        "end_seconds": 4376.08,
+        "text": ", sa oled päriselt tulemüüri ei ehita, siis tulevad ikka pahandused sisse."
+      },
+      {
+        "start_seconds": 4376.08,
+        "end_seconds": 4381.04,
+        "text": "Kas riik või erasektor võiks pakkuda ka näiteks küberturvalisuse audit, et kohustusliku"
+      },
+      {
+        "start_seconds": 4381.04,
+        "end_seconds": 4388.84,
+        "text": "s korras, kui teenusepakkujaid täitleb tundlikke andmeid?"
+      },
+      {
+        "start_seconds": 4388.84,
+        "end_seconds": 4393.96,
+        "text": "Kas riik või erasektor võiks pakkuda, et, et on nagu kohustuslik, kus korras kübertu"
+      },
+      {
+        "start_seconds": 4393.96,
+        "end_seconds": 4416.8,
+        "text": "rvalisuse audit?"
+      },
+      {
+        "start_seconds": 4416.8,
+        "end_seconds": 4421.0,
+        "text": "Kõik protseduurid ja värgid ja siis tuleb keegi väljastpoolt, eks ole, kes vaatab, kas"
+      },
+      {
+        "start_seconds": 4421.0,
+        "end_seconds": 4424.88,
+        "text": "päriselt sai ka tehtud ja tegelikult teisi infoturbe siis teie puhul on ju sama loogi"
+      },
+      {
+        "start_seconds": 4424.88,
+        "end_seconds": 4429.48,
+        "text": "ka, eks ole, et keegi peab seda auditeerima väljastpoolt, et noh, ütleme nii, eriti suur"
+      },
+      {
+        "start_seconds": 4429.48,
+        "end_seconds": 4432.84,
+        "text": "tes organisatsioonides, et kui sa enda arust nagu nii mure hästi teed, eks ole, siis"
+      },
+      {
+        "start_seconds": 4432.84,
+        "end_seconds": 4437.48,
+        "text": "sellest ei, sellest ei piisa ja sellepärast ongi saanud tegelikult ka, ka sisse kirjuta"
+      },
+      {
+        "start_seconds": 4437.48,
+        "end_seconds": 4498.88,
+        "text": "tud."
+      },
+      {
+        "start_seconds": 4498.88,
+        "end_seconds": 4503.68,
+        "text": "Kui me räägime turvalisusest, siis seda nähakse ikkagi tihtipeale hästi suuri kuluna"
+      },
+      {
+        "start_seconds": 4503.68,
+        "end_seconds": 4510.36,
+        "text": "ja kui ma, kui, kui võtta seda keelt, et kas see on nüüd kulu või investeeringu oma,"
+      },
+      {
+        "start_seconds": 4510.36,
+        "end_seconds": 4567.08,
+        "text": "oma nii-öelda vastata."
+      },
+      {
+        "start_seconds": 4567.08,
+        "end_seconds": 4571.16,
+        "text": "Et see on lihtsalt meetmeid nagu leevendada selliselt, et see on tõesti üks ja mitte"
+      },
+      {
+        "start_seconds": 4571.16,
+        "end_seconds": 4586.88,
+        "text": "investeeri, vaid saad kulutad sinna."
+      },
+      {
+        "start_seconds": 4586.88,
+        "end_seconds": 4602.52,
+        "text": "Aga, aga siitkohalt poolt ma võtan, võtan selle sõna ära või võtan."
+      },
+      {
+        "start_seconds": 4602.52,
+        "end_seconds": 4610.16,
+        "text": "Et kui me vaatame, vaatame küberturvalisuse nii-öelda mõju,"
+      },
+      {
+        "start_seconds": 4610.16,
+        "end_seconds": 4615.32,
+        "text": "siis läbi nende investeeringute tervishoiusektorile, siis kas parem küberturve tähendab"
+      },
+      {
+        "start_seconds": 4615.32,
+        "end_seconds": 4624.84,
+        "text": "tegelikult ka paratamatult kallimat tervishoiuteenust ja kes selle kinnimaksu võiks?"
+      },
+      {
+        "start_seconds": 4624.84,
+        "end_seconds": 4630.72,
+        "text": "Kas kõik kulud peaks kandma riik, haiglad või hoopis patsiendid, et kui mina tahan parem"
+      },
+      {
+        "start_seconds": 4630.72,
+        "end_seconds": 4637.8,
+        "text": "at, paremat, turvalisemad tervishoiuteenust ja minu andmed oleks tõesti taga"
+      },
+      {
+        "start_seconds": 4637.8,
+        "end_seconds": 4649.36,
+        "text": "tud, siis ma maksan võib-olla sotsiaalmaksu võiks jätab palju rohkem."
+      },
+      {
+        "start_seconds": 4649.36,
+        "end_seconds": 4654.32,
+        "text": "Aga kui ma korra tuleks jälle nagu sinu pointi juurde, et meil tulevad valimised."
+      },
+      {
+        "start_seconds": 4654.32,
+        "end_seconds": 4660.08,
+        "text": "Et kui kellelegi see viskaks, eks ole, uus kübertervalisuse seadus nagu mitte, mitte"
+      },
+      {
+        "start_seconds": 4660.08,
+        "end_seconds": 4664.88,
+        "text": "grammigi ei meeldi, et siis on see ka parlamendivalimiste üsna keeruline, et siis tule"
+      },
+      {
+        "start_seconds": 4664.88,
+        "end_seconds": 4669.4,
+        "text": "ks valida selle ja parlamendi poolt, mis ütleb, et ta läheb, astub Euroopa Liidust välja"
+      },
+      {
+        "start_seconds": 4669.4,
+        "end_seconds": 4688.0,
+        "text": "."
+      },
+      {
+        "start_seconds": 4688.0,
+        "end_seconds": 4693.68,
+        "text": "On senini, mida viskaks ehk siis Euroopa Liidu seadus nõuab ja Eestis ei ole seda üle"
+      },
+      {
+        "start_seconds": 4693.68,
+        "end_seconds": 4698.52,
+        "text": "kullatud mitte mingisuguses viisis, eks ole, järgi see, mis tuleb Euroopa Liidust, meil"
+      },
+      {
+        "start_seconds": 4698.52,
+        "end_seconds": 4711.2,
+        "text": "ei ole sellega mitte midagi üldse peale hakata, et noh, tuleb siis täita."
+      },
+      {
+        "start_seconds": 4711.2,
+        "end_seconds": 4714.88,
+        "text": "Kokkuvõtte küsimuse hoopis."
+      },
+      {
+        "start_seconds": 4714.88,
+        "end_seconds": 4721.16,
+        "text": "Ja vaadates just ka tulevikku ja millega oluliselt kaasa võtta mõtteid, siis me peaks"
+      },
+      {
+        "start_seconds": 4721.16,
+        "end_seconds": 4726.8,
+        "text": "ime kohtuma siin kolme aasta pärast, aastal kaks tuhat kakskümmend üheksa, siis mis oleks"
+      },
+      {
+        "start_seconds": 4726.8,
+        "end_seconds": 4733.2,
+        "text": "üks asi, mis peaks olema Eesti tervishoiu küberturvalisuse oluliselt parem kui täna ja"
+      },
+      {
+        "start_seconds": 4733.2,
+        "end_seconds": 4738.4,
+        "text": "võib-olla aidates teil sellele küsimusele vastata just et ühe lausega siis, mis on see"
+      },
+      {
+        "start_seconds": 4738.4,
+        "end_seconds": 4744.04,
+        "text": "kõige olulisem samm, mida me täna aastal kaks tuhat kakskümmend kuus peame täna tegema"
+      },
+      {
+        "start_seconds": 4744.04,
+        "end_seconds": 4751.84,
+        "text": "suur küberintsident ei muutuks patsienti ohutuse kriis, kes"
+      },
+      {
+        "start_seconds": 4751.84,
+        "end_seconds": 4756.4,
+        "text": "tahaks, et üks alguse võtta kolme aasta pärast Taavi istumisruumi siin sisse saab öelda"
+      },
+      {
+        "start_seconds": 4756.4,
+        "end_seconds": 4761.2,
+        "text": "mulle, et sa oled ikka riigis ja sa tegid selle ära, et, et, et need on olnud viimase"
+      },
+      {
+        "start_seconds": 4761.2,
+        "end_seconds": 4778.24,
+        "text": "kolme aasta fookus ja see on nagu päriselt hästi läinud."
+      },
+      {
+        "start_seconds": 4778.24,
+        "end_seconds": 4783.04,
+        "text": "Tulevad, olgu need siis kas riiginõuded või siis meie enda poolt siseriiklikult tehtud"
+      },
+      {
+        "start_seconds": 4783.04,
+        "end_seconds": 4787.84,
+        "text": ", et need on kõik sellised, kus haigustajatele see tehtud, millal see hästi, me saame"
+      },
+      {
+        "start_seconds": 4787.84,
+        "end_seconds": 4791.88,
+        "text": "sellest aru, mida me tegema peame, mille me oleme seda teenusepakkujad, meil oleks ta"
+      },
+      {
+        "start_seconds": 4791.88,
+        "end_seconds": 4796.88,
+        "text": "gastustoodang paigas, eks ju."
+      },
+      {
+        "start_seconds": 4796.88,
+        "end_seconds": 4801.04,
+        "text": "Kuidas me sinna jõuame, see on see igapäevatöö, mida me, kuhu poole me kogu aeg nagu"
+      },
+      {
+        "start_seconds": 4801.04,
+        "end_seconds": 4802.84,
+        "text": "trügime."
+      },
+      {
+        "start_seconds": 4802.84,
+        "end_seconds": 4808.76,
+        "text": "Et mul ei ole seda kuldlepit, mis, mis seda kohe nagu lahendaks, aga ma arvan, et väike"
+      },
+      {
+        "start_seconds": 4808.76,
+        "end_seconds": 4814.24,
+        "text": "sed sammud, mis me iga kord teeme, esmased toovad uue meetmete sageli selgemaks Eesti"
+      },
+      {
+        "start_seconds": 4814.24,
+        "end_seconds": 4833.56,
+        "text": "informatsiooni teeme paremaks."
+      },
+      {
+        "start_seconds": 4833.56,
+        "end_seconds": 4840.68,
+        "text": "Mina tahaks niimoodi, et me ei peaks sellest üldse rääkima, sest nii nagu ma patsie"
+      },
+      {
+        "start_seconds": 4840.68,
+        "end_seconds": 4844.36,
+        "text": "ndile anname mingid protseduuri tegema, et ma pean nagu käed puhtaks ja meie teekonna"
+      },
+      {
+        "start_seconds": 4844.36,
+        "end_seconds": 4846.72,
+        "text": "ju protseduuride panen kindlad kätte, eks ju."
+      },
+      {
+        "start_seconds": 4846.72,
+        "end_seconds": 4851.24,
+        "text": "Ma ei too seda eraldi välja, ma ikka noh, ei kirjuta seda üles ja ma võtan need seina"
+      },
+      {
+        "start_seconds": 4851.24,
+        "end_seconds": 4853.96,
+        "text": "pealt kingad ja panen kätte, et see on ideene, eks ju."
+      },
+      {
+        "start_seconds": 4853.96,
+        "end_seconds": 4857.92,
+        "text": "Et samamoodi ma võib-olla ei peaks enam pidev turvalisusest nagu rääkima, et seal on"
+      },
+      {
+        "start_seconds": 4857.92,
+        "end_seconds": 4860.84,
+        "text": "nagu integreeritud erinevate teenuste sisse."
+      },
+      {
+        "start_seconds": 4860.84,
+        "end_seconds": 4867.96,
+        "text": "Et kui meil on perearstidele nagu kasutame ka mingit teenusepakku"
+      },
+      {
+        "start_seconds": 4867.96,
+        "end_seconds": 4875.44,
+        "text": "jate teenuseid, et need juba see, et küberturvalisus on sinna vaikimisi sisse kirjuta"
+      },
+      {
+        "start_seconds": 4875.44,
+        "end_seconds": 4882.6,
+        "text": "tud, et neid organisatsiooni tasandil oleks, noh, enda väikese rakukese"
+      },
+      {
+        "start_seconds": 4882.6,
+        "end_seconds": 4886.72,
+        "text": "graafikeskuse tasandil oleks ka lihtsam rakendada, et oleks siiski mingid mallid või"
+      },
+      {
+        "start_seconds": 4886.72,
+        "end_seconds": 4891.76,
+        "text": "standardid, ei peaks kartma seda, et, et siis kõik teevad lihtsalt hinnati see tegelikult"
+      },
+      {
+        "start_seconds": 4891.76,
+        "end_seconds": 4892.84,
+        "text": "ei rakenda."
+      },
+      {
+        "start_seconds": 4892.84,
+        "end_seconds": 4897.2,
+        "text": "Tegelikult rakendavad küll, aga inimesed peavad lihtsalt asjadest nagu aru saama ja,"
+      },
+      {
+        "start_seconds": 4897.2,
+        "end_seconds": 4901.48,
+        "text": "ja sellised mallid standardid on pigem abiks, et see on ka endal midagi nagu meelest"
+      },
+      {
+        "start_seconds": 4901.48,
+        "end_seconds": 4903.76,
+        "text": "ära ei lähe seda linnukesi, mõtled läbi."
+      },
+      {
+        "start_seconds": 4903.76,
+        "end_seconds": 4909.96,
+        "text": "Ahah, et, et on tehtud, et inimestele meeldib tööd teha ja sellest tasu saada, innuka"
+      },
+      {
+        "start_seconds": 4909.96,
+        "end_seconds": 4930.12,
+        "text": "malt see tasu väiksem."
+      },
+      {
+        "start_seconds": 4930.12,
+        "end_seconds": 4936.36,
+        "text": "Kui ma seda ei ole, siis ma arvan, et selleks ajaks võib-olla on tulnud mõni suur tu"
+      },
+      {
+        "start_seconds": 4936.36,
+        "end_seconds": 4941.28,
+        "text": "lumaja trahvinud elada veel, eks ole, ma kujutan ette, et võib-olla tuleb mingisugune"
+      },
+      {
+        "start_seconds": 4941.28,
+        "end_seconds": 4946.52,
+        "text": "suuremal, suuremat sorti trahvi kaupa ära kellelegi, sest et ma rääkisin enne, eks ole"
+      },
+      {
+        "start_seconds": 4946.52,
+        "end_seconds": 4950.44,
+        "text": ", sellest GDPR-ist läksin isikumidega, siis üldmääruses ka, mis kaks tuhat kaheksateist"
+      },
+      {
+        "start_seconds": 4950.44,
+        "end_seconds": 4958.84,
+        "text": "eks ole juustes et mille üle inspektsioon."
+      },
+      {
+        "start_seconds": 4958.84,
+        "end_seconds": 4962.96,
+        "text": "Aga Eestis ei ole siiamaani ja ma tuletan meelde kaks tuhat kaheksateist jõustus see"
+      },
+      {
+        "start_seconds": 4962.96,
+        "end_seconds": 4963.96,
+        "text": ", eks ole."
+      },
+      {
+        "start_seconds": 4963.96,
+        "end_seconds": 4968.96,
+        "text": "Eestis ei ole siiamaani mitte ühtegi trahvi kiiret läbi rikkumise eest, mis on näiteks"
+      },
+      {
+        "start_seconds": 4968.96,
+        "end_seconds": 4977.28,
+        "text": "paarisajat eurot ilmselt oleks ilus ja andmekaitsega paratamatult Eestis on nõksade kogu"
+      },
+      {
+        "start_seconds": 4977.28,
+        "end_seconds": 4981.4,
+        "text": "vad lood, eks ole, et ettevõtted, kes ei ole nagu väga suured, väga ei viitsi seda järgi"
+      },
+      {
+        "start_seconds": 4981.4,
+        "end_seconds": 4982.24,
+        "text": "da."
+      },
+      {
+        "start_seconds": 4982.24,
+        "end_seconds": 4983.76,
+        "text": "Sellepärast et mitte ühtegi trahvi ei olnud."
+      },
+      {
+        "start_seconds": 4983.76,
+        "end_seconds": 5009.92,
+        "text": "Ma loodan, et küberturvalisuse seadus."
+      },
+      {
+        "start_seconds": 5009.92,
+        "end_seconds": 5016.12,
+        "text": "Kas te arvate just, et mis asjadele spekuleerinud selle üle, et kas sellistes päris juhtu"
+      },
+      {
+        "start_seconds": 5016.12,
+        "end_seconds": 5023.16,
+        "text": "mitest rääkimine innustab, millega teisi tegema ekstra samme või, või pigem mitte, et"
+      },
+      {
+        "start_seconds": 5023.16,
+        "end_seconds": 5028.12,
+        "text": "kas hirmutamistaktika läbi selle, et, et kellelgi on nagu väga pahasti läinud täna tegelikult"
+      },
+      {
+        "start_seconds": 5028.12,
+        "end_seconds": 5051.56,
+        "text": "toimiks."
+      },
+      {
+        "start_seconds": 5051.56,
+        "end_seconds": 5064.08,
+        "text": "Et see, see ei ole täna see, et, et nagu nii"
+      },
+      {
+        "start_seconds": 5064.08,
+        "end_seconds": 5070.76,
+        "text": "endast nii-öelda sellise kokku panna."
+      },
+      {
+        "start_seconds": 5070.76,
+        "end_seconds": 5075.68,
+        "text": "Et kui me vaatame siit, see on täna juba niisugune reaalsus, et, et, et, et vaatame,"
+      },
+      {
+        "start_seconds": 5075.68,
+        "end_seconds": 5080.04,
+        "text": "et sa oma lastest paned hästi palju videosid välja, on ju, sul on võimalik luua väga"
+      },
+      {
+        "start_seconds": 5080.04,
+        "end_seconds": 5086.28,
+        "text": "niisugune autentne kõnerobot mis sisuliselt nii-öelda suhtleb sinuga sinuga nii-öelda"
+      },
+      {
+        "start_seconds": 5086.28,
+        "end_seconds": 5139.44,
+        "text": "lapsega ja kui sa oled nii-öelda meeldis samasugustele ohtudele kaitstud."
+      },
+      {
+        "start_seconds": 5139.44,
+        "end_seconds": 5144.96,
+        "text": "Et justkui see, kui me, kui me ei kuule neid reaalseid lugusid, mis meil on kõrval, siis"
+      },
+      {
+        "start_seconds": 5144.96,
+        "end_seconds": 5149.8,
+        "text": "ta tegelikult ei pruu kaduda, kuskohas see oht tegelikult peitub, mis seal tagajärg,"
+      },
+      {
+        "start_seconds": 5149.8,
+        "end_seconds": 5155.48,
+        "text": "kuidas ettevõtted pankrotistuvad, sellepärast et nad kaotasid majanduse, kuidas nad ei"
+      },
+      {
+        "start_seconds": 5155.48,
+        "end_seconds": 5166.88,
+        "text": "suutnud kahe kuu jooksul olla tootmispiiri taastada, see on oluline."
+      },
+      {
+        "start_seconds": 5166.88,
+        "end_seconds": 5173.24,
+        "text": "Ma tahtsin vastata enda seisukohast ja ma arvan, et me tegelikult olime nende perear"
+      },
+      {
+        "start_seconds": 5173.24,
+        "end_seconds": 5179.64,
+        "text": "stide häält ka graafik on niivõrd kohutavalt suured, et mis seetõttu on nähtud, et, et"
+      },
+      {
+        "start_seconds": 5179.64,
+        "end_seconds": 5186.8,
+        "text": "need hirmutavad ja, ja see, et kui on kogu aeg mingi trahve, mingi karistus, see ei"
+      },
+      {
+        "start_seconds": 5186.8,
+        "end_seconds": 5193.6,
+        "text": ", ei pane paremini käituma, aga, aga ma olen väga nõus, et see isiklik kogemus see sellest"
+      },
+      {
+        "start_seconds": 5193.6,
+        "end_seconds": 5199.72,
+        "text": "rääkimine perearstid ka ei taha sellest rääkida, kui neil on juhtunud, et meil on pi"
+      },
+      {
+        "start_seconds": 5199.72,
+        "end_seconds": 5204.08,
+        "text": "inlik, neil on paha, nad ei taha sellest rääkida, aga nad võtavad midagi nagu ette."
+      },
+      {
+        "start_seconds": 5204.08,
+        "end_seconds": 5208.16,
+        "text": "Et tegelikult peab see normaliseerima, et kui midagi juhtub, et sellest võiks rääkida"
+      },
+      {
+        "start_seconds": 5208.16,
+        "end_seconds": 5211.8,
+        "text": ", peaks rääkima."
+      },
+      {
+        "start_seconds": 5211.8,
+        "end_seconds": 5214.48,
+        "text": "Meditsiinitöötajate vastutuskindlustusega."
+      },
+      {
+        "start_seconds": 5214.48,
+        "end_seconds": 5222.2,
+        "text": "Et mis, mis nüüd praegu on, et kui meditsiinitöötajad ei tea, et ilmselt"
+      },
+      {
+        "start_seconds": 5222.2,
+        "end_seconds": 5224.68,
+        "text": "ei tee seda nagu tahtlikult, eks ju."
+      },
+      {
+        "start_seconds": 5224.68,
+        "end_seconds": 5230.16,
+        "text": "Siin on mingid asjad kokku langenud, mis juhtus, aga see tuleks nagu raporteerida."
+      },
+      {
+        "start_seconds": 5230.16,
+        "end_seconds": 5236.64,
+        "text": "Ja, ja kui me hakkame raporteerima, siis me saame neid väikseid asju nagu lahendada."
+      },
+      {
+        "start_seconds": 5236.64,
+        "end_seconds": 5267.04,
+        "text": "Et samamoodi võiks ka siin pikendada valitsusega olla."
+      },
+      {
+        "start_seconds": 5267.04,
+        "end_seconds": 5273.48,
+        "text": "Selles mõttes väga suur see, et et ka nii-öelda tulud paneb mingil määral seda paika"
+      },
+      {
+        "start_seconds": 5273.48,
+        "end_seconds": 5277.08,
+        "text": ", et need teenused tuleb, tuleb nagu nii-öelda jälgida, et, et see, see, ma usun, et"
+      },
+      {
+        "start_seconds": 5277.08,
+        "end_seconds": 5323.92,
+        "text": "usuvad kaob nagu ära."
+      },
+      {
+        "start_seconds": 5323.92,
+        "end_seconds": 5327.36,
+        "text": "Et siis hakatakse ka rohkem nagu rääkima, ma arvan."
+      },
+      {
+        "start_seconds": 5327.36,
+        "end_seconds": 5337.64,
+        "text": "Täpselt nii, kellel sa oled üheksateist kolmkümmend."
+      },
+      {
+        "start_seconds": 5337.64,
+        "end_seconds": 5343.16,
+        "text": "Ma loodan, et meie kuulajaid kutsub samamoodi ja aitäh meie seda arutelu pidada oma oma"
+      },
+      {
+        "start_seconds": 5343.16,
+        "end_seconds": 5363.6,
+        "text": "küsimustega, et, et mul oli hea lihtne."
+      },
+      {
+        "start_seconds": 5363.6,
+        "end_seconds": 5375.923,
+        "text": "Ilusat õhtut."
+      }
+    ]
+  }
+}

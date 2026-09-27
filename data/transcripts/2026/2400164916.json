@@ -1,0 +1,3736 @@
+{
+  "schema_version": 1,
+  "episode": {
+    "id": "2400164916",
+    "rss_guid": "tag:soundcloud,2010:tracks/2400164916",
+    "title": "Aga kes hoiab õpetajat_",
+    "published_at": "2026-09-14T11:29:05Z",
+    "apple_collection_id": 1477431807,
+    "page_url": "https://soundcloud.com/arvamusfestival/aga-kes-hoiab-opetajat-7",
+    "audio_url": "https://feeds.soundcloud.com/stream/2400164916-arvamusfestival-aga-kes-hoiab-opetajat-7.mp3",
+    "audio_bytes": 57766640,
+    "audio_sha256": "b10cbe995cec542a85661dae86abbcdf1f9b4351bbcc398955d239d6080a66ef",
+    "duration_seconds": 3610.0
+  },
+  "transcription": {
+    "model": {
+      "name": "large",
+      "repository": "TalTechNLP/streaming-zipformer-large.et-en",
+      "revision": "2812262bd4fd5d4327dc09ca0e6c19e8a32a03d6",
+      "precision": "int8"
+    },
+    "runtime": {
+      "sherpa_onnx": "1.13.7",
+      "decoding_method": "modified_beam_search",
+      "threads": 4
+    },
+    "text": "Soitšo draama. Aga kes hoiab õpetajat? Te olete kõik juba leidnud ühe toreda A-viis formaadis üks lehe ja selle üks lehe on pannud kokku kolm inimest, mina olen Kris Liiva. Mina olen Leila Berma ja meist täpselt keskel istub Triinu Pajuri ja meie oleme Eesti psühhodraama Instituudis viieteistkümnenda lennu ehk siis psühhodraama väljaõppe teises, teises astmes ja õpime seda, kuidas toetada inimesi selles, et nende elus oleks rohkem spontaansust, rohkem loovust ja et nad saaksid oma nahas olla õnnelikud. Ja meie tänase sotsiodraama eesmärk on uurida seda, mis meie ühiskonnas sotsodraama tähendabki sootsium ehk siis võõrsõna sootsium ühiskonna kohta ja draama, me uurime seoseid ja suhteid inimeste vahel, mis aitab Eesti õpetajal olla oma nahas õnnelikum, sest ma usun, et te olete nõus sellega, mis me kavasse kirjutasime, et. Sellele lapsele, kes päris sünnist saati kuni siis kooliminekuni on kas laste sõimes või lastehoius või lasteaias väga hea kaaslane sellel teel saab olla õpetaja, kes on hoitud. Et kui õpetaja ise on heas kohas, siis on heas kohas ka need lapsed, kes sealt, kes sealt kuni seitsmenda eluaastani tema kõrval teadmisi, oskusi ja eluks vajalikku saavad. Ja meie mõttekäik on selline, et kuna sotsodraama on tegevuslik trupitöö meetod, siis me uurime seda õpetajat ja õpetaja ümber olevaid rolle ja neid suhteid. Ja igalühel on siin oma arvamus ja kellegi arvamus ei ole vale ega õige ja sellepärast tahakski teha kõigepealt mõned kokkulepped. Ehk et oleme vastastikku lugupidavad, igalühel on õigus oma arvamusele selle kohta, mis õpetaja tööelu puudutab ja oleme palunud üksteisega ka sina peal, et oleks lihtsam suhelda. Ma loodan, et Eestis on see juba üsna tavapärane. Siis ma palun sellist asja, et me tõstame käe siis, kui on vaja vaikust, et kui näete, et käsi on püsti, tõstke teie ka käsi püsti ja siis hakkavad kõik nägema, et nüüd on see hetk, kus on vaja vahepeal hääl maha võtta. Ja siis on meil veel selline palve, et kuulame teist inimest ja kuulame võimalikult ilma hinnanguta sellele inimesele, sest tal on oma arvamus ja see arvamus on tema oma tema taustsüsteemis, et ärme hakka andma isegi mõttes hinnangut, et see ei ole minu arvates küll õige. Et need olid meie kokkulepped, kas midagi oli veel? Kokkulepete kohta ei ole, nii, aga siis me saame minna selle juurde, et saame tuttavaks. Sest muidu ei saa ühte sotsodraamat teha, nii et esimene samm on tuttavaks saamine. Tere ka minu poolt. Uurime, kus te olete tulnud ja paneme ma, Eesti kaardi, et Paide on siin, kus on Tartu, Tartu on siin. Ja, ja nad olid ühisel joonel Pärnuga. Pärnu on siin ja Tallinn on siin. Et leia see koht, kus sina oled täna tulnud. Küsige, suhelge. Kust? Nii. Nonii, nüüd me oleme kõik leidnud koha. Et te olete Paidest. Teie olete Tallinn, Harjumaa. Ja leia enda lähedalt kaks inimest ja vestle, tutvusta ennast, kes sa oled. Ja miks sa täna siia tulid? Tänan. Ja nüüd me teeme Skaala. Me teeme sellise skaala, kui kaua oled sa seotud alusharidusega või kuidas või kui kaua sa oled kokku puutunud alusharidusega? Ja siin on nullpunkt. Ja siin on lõpmatus. Ja teeme aastates. Ja sina, kes sa publikus oled ja tunned, et sa nüüd tahad meiega ühineda, tere tulemast. Teeme selle skaala selle peale. Igasaurus. Proovime teha rivi. Küsime siit algusest, mitu aastat. Null aastal. Oo, siin on meil nullpunkt. Keskel olev, kuidas mitu aastat sinul on? Kolmteist. Kolmteist vau. Nii, ja sina siin lõpus. Aa, selge. Väga palju. Me, me nii tahaks teada, kui palju on palju aastaid. Ma sissejuhatuses võin öelda seda, et mina läksin kooli tööle siis, kui mindi tööle pärast, kui peda lõpetati, ma olin kaheksateist, eks ju. Ja mul on noh, nelikümmend aastat tuleb ära peaaegu. Aga see on väga ilus aeg olnud, ma olen väga normaalne õpetaja. Nii. Ja nüüd me moodustame kolmikud. Kolm, kolm. Kolm ja ma mõtlen, et kas sina võiksid minna siia gruppi ja sina võiksid minna sinna teise gruppi. Nii ja nüüd nendes väikestes gruppides, olge head. Seitse minutit, jaga palun mõnest näitest olukorrast, kui sind on tööalaselt väärtustatud või hoitud või oled näinud, et kedagi väärtustatakse. Tuleta meelde, kas enda tööelu näide või kellegi teise oma, mida sa oled tähele pannud ja märganud ja, ja räägi sellest oma vestluskaaslastele. Seitse minutit, igaühel on siis selline poolteist, paar minutit rääkimiseks, olge head. Olge head! Olukord, kus sind on väärtustatud, sind on hoitud. Suur tänu ja mul on nüüd palve, nii nagu Leila ennem palus, et moodustaksite ühe rea skaalal näol, siis ma palun sama teha, aga nüüd on teine küsimus. Nullpunkt on siin, kus on ainult üks lille põõsas ja sada on siin, kus on kolm lillepõõsast see ots ja selle skaala peale palun leia endale koht. Kuidas sina täna tunned, kui palju sina oled väärtustatud kaldkriips hoitud oma tööalases elus? Leia see koht. Nullist sajani ja selle jaoks, et te oma õige koha teiste suhtes ehk siis sotsiomeetriliselt saaksite paika, suhelge omavahel, te peate suhtlema, sest muidu te ei tea. Palun suhelge omavahel, sest te leiate selle õige koha, kuidas te ennast täna tunnete? Kui väärtustatud või hoitud te tööalaselt olete? Nii kus see keskpunkt on kus on viiskümmend sina oled viiskümmend selge aga uurime siis Leila neid otspunkte kõigepealt keskpunkti saime paika. Uuri sina palun sealtpoolt ja mina võtan siis siitpoolt. Oot anname teise mikri ka. Konrad. Palun meile seda, heli. Nonii, mis number sul on? Kolmkümmend, kolmkümmend viis protsenti. Miks sa selle koha valisid? Sest ma ei tunne ennast väga hoitud igapäevaselt või ka suures plaanis ei juhtkonna poolt ega ka võib-olla ka siis töötajate poolt. Aitäh ja mis siin otsas on, mis sinu näidik? Kaheksakümmend üks. Kaheksakümmend üks. Ja nüüd ma küsin küsimuse, et mis aitaks sind sajani? Mis see on, kui sa mõtled, et, et see oleks sada? Kas saab? Ei saa. Et sinu jaoks see kaheksakümmend üks on maksimum? Aga. Aga Kris, mis, mis aitaks teid, et te saaksite ühe sammu edasi ühe numbri võrra edasi. No kaheksakümne ühest kahekümne, kaheksakümne kahe peale. Ma ei tea. Mõtle, mõtled mõtted selles osas? Ei, praegu ei tule. Miks mina olen alla võib-olla selle keskmise, on puhtalt sellepärast, et olles ise täna alusharidusteenuse pakkuja, siis mina otsisin seda väärtustuskohta nii-öelda Eesti ühiskondlikus mastaabis, et kuidas väärtustatakse täna näiteks erahariduse pakkujat. Et siin on päris mitmeid nagu punkte, millega saaksin ma märksa kõrgemale, kui ma nagu räägin sellise. Ehk siis, kui sa tajuksid ühiskonnas laiemat toetust alushariduse valdkonna tegijatele. Aitäh. Tahab veel keegi kommenteerida, mis aitaks tal ühe, vähemalt ühe sammu liikuda sajale lähemale? Ole hea. No ma võin kommenteerida, mina olen lasteasutuse juht. Ja kui nagu kollektiivis tajuda, et sa oled nagu austatud ja hoitud, siis nagu kohaliku omavalitsuse tasandil sa oled nähtamatu. Aitäh. Suur tänu teile. Me tahaksime nüüd, et te veel kord paigutute siin meie sotsodraama laval ja nüüd mõtleme õpetaja peale, lasteaiaõpetaja, lastehoiu õpetaja, abiõpetaja, kes iganes siis alushariduse valdkonnast õpetaja rolli kannab. Ja mõtleme nüüd nii, et on üks poolus ja seal on need õpetajad, kelle suhtes te arvate, et või seal on see ühesõnaga hinnang, et kui te arvate, et Eestis täna alushariduse valdkonnas tegutsevad õpetajad on hoitud, siis palun liikuge leila poole. See on üks poolus ja kui te arvate, et on vastupidi, siis liikuge palun minu poole ja vaatame, mis, kuidas meil see pooluste vahel paiknemine on. Eesti ühiskonnas ja Eesti ühiskonnas, kuidas sinu tunne. Mina õpetajana olen hoitud ja mina õpetajana ei ole hoitud. Leia oma poolus. Mina olen hoitud ja väärtustatud. Nii leia oma pool. Võib, võib alati võib. Kas meil on selline mesilassülem siin, ma saan aru, kõik keskel jah? Et lihtsalt sellist üks-null valikut ei saa teha, jah? Tundub, et ei saa. Aga oota, ma teen ühe eksperimendi. Teeme nii, et me ei ole skaalal, me ei ole numbrites, vaid ma pean valima, kas ma olen hoitud Eesti ühiskonnas õpetajana või jah, just nimelt must ja valge. Teeme nüüd mustvalgema. No nii jalgadega hääletamine andis väga selge ja ja väga kõneka tulemuse. Ja see on nii hea koht, kust nüüd ma usun, et me oleme piisavalt häälestunud selleks, et hakata uurima, mis siis teeb selle õpetaja hoituks ja miks te täna just sellise hinnangu andsite, me oleme praegu juba esimese pildistuse Eesti ühiskonnast. Teie vaatest saanud. Ja alustamegi siis sotsudraamaga ja uurime Eesti õpetajate rolli tänast ja homset. Palun nimetage õpetajahoitust ja väärtustatust mõjutavad rollid. Mõned juba kõlasid. Millised rollid? Näiteks vallavalitsus. Kes ütleb kulukoht? Mis see tähendab, mis see tähendab? Mis see tähendab jah? Suurem osa valla eelarvest läheb haridusele. Okei, aga siis see ikkagi see roll on vallavalitsuses erinevatel inimestel, sest nemad, nendest sõltub, kuidas õpetaja ennast tunneb. Saaks seda parem olla. Selge, see on üks vallavalitsuse võimalikke seisukohavõtte, mil, mis rolle veel? Vald, omavalitsus. Kui sa ütled riik, kas sa mõtled ministeeriumi või? Aitäh. Lapsevanemad. Kas see on imaginaarsel toolil õpetaja toolil, kes veel siin ümber on, kes on veel ümber õpetaja? Kolleegid, kuulsin õigesti? Aga juht oli ka. Ei, õpetaja tuleb ka siia. Kas juht-, juhtkond on? Kas on veel keegi oota seda paneb veel. Kas on veel mõni roll? Kes veel mõjutab? Nägite juba seda silti, ma just tahtsin viit-, viidata sellele, et, et sina ütlesid, eks ju, et ühiskonnas üldiselt see suhtumine kindlasti ajakirjanikud on need, kes seda, kes seda suhtumist kas võimendavad ühele poole või teisele poole. Kas on mõni roll veel, mida me ei ole puudutanud ja mis tundub, et on oluline ümber õpetaja olevatest inimestest? On varus seal ootavad? Enda pere jah, õpetaja, pere. Jaa, kõrgharidust andev asutus õpetajatele, ülikool, õpetaja, haridust andev ülikool, õpetaja oma pere. Ja pane see ülikool ka. Õpetajaharidust andev ülikool, paneme selle siia, näed siin on. Poliitikasse ka tõmmatud. Aga kas vallavalitsus on nagu poliitikast erinev või, või tahaks eraldi tuua? Aga sa tahaksid poliitikuid siis nagu? Sa mõtled riigi tasemel, siis Riigikogu liikmetest poliitikut või? Okei, siis paneme riigikogu liikmed ka. Ja paneme riigikogu liikme. Ja nõus, nõus, ministeeriumis on ametnikud, Riigikogus on poliitikud, nii et paneme riigikogu liikmed ka. Nii kas saime? Mitu rolli meil siis on? Lapsed? Üks, kaks, kolm, neli, viis, kuus, seitsekümmend kaheksa. Nonii tosinkond. Tosin kontrolli ümber õpetaja. Õpetaja on meil siin toolil. Aga õpetaja, õpetaja siin toolil tahab olla hoitud ja väärtustatud ja tänane pilt on see, et. Mis te seal ütlesite. Pilt on nukker. Nii, aga hakkame siis uurima, mis pildil on värvid, miks nad on sellised ja hakkame seda uurima hästi. Hästi lihtsa meetodiga ja see on sotsidraama meetod ja ma annan jälle Leila sulle üle. Et palun võta endale üks roll ja seisa selle paberi taha, mis sind kõige rohkem praegusel hetkel kõnetab? Kujutades ennast ette, kas siis õpetaja haridust andva ülikooli professorina või ministeeriumi ametnikuna või kogukonna liikmena või lasteaiajuhina või äkki oledki lasteaiajuht ja on sul väga lihtne selles rollis olla või vastupidi ei taha üldse see olla ja kujutad ennast hoopis vallavalitsuse liikmena ette. Ja kõik, kes istuvad siin sinna, kus siin, mis sind kõnetab kõige rohkem. Kõik, kes istuvad veel siin muruplatsil ja tunnevad, et tahavad kaasa lüüa, siis on see võimalus? Nii ja. Teeme nii, et nüüd, et sa leiad kõrvalt endale sellise, selle ühe rolli ja vest vestelge, et mida positiivset ja mida negatiivset nad saavad teha õpetaja väärtustamisel ja hoidmisel, mida negatiivset ja mida positiivset nad teevad, et õpetaja oleks hoitud ja väärtustatud. Teeme, mul on ettepanek, et kaks, kaks rolli suhtlevad omavahel. Juhtkond ja juhtkond ja vallavalitsus suhtlevad. Ja Riigikogu liikmed ja kolleegid. Lapsed ja lapsevanemad, õpetajaharidus, õpetaja pere. Nii, et saate seitse minutit, vaatame, kuidas meil on. Vestelda negatiivse ja positiivse osas. Et palun jagame, mis te nendes väikestes gruppides rääkisite? Ja mis? Mis vist on päris põnev, hakkaks otsast kohe peale ikkagi lastega. Mida lapsed saavad õpetaja hoituse nimel teha positiivset? No mina ütlen, et lapsed on alati avatud ja siirad. Nende eest õhkub väga palju positiivsust. Et lihtsalt laps olemine juba on, on see, mis hoituse tunnet loob, jah. Et kui on ka keerulise käitumisega lapsed, siis need tagamaad on tegelikult ju siiski, kas lapsevanema või pere või, või kogukonnas kaugemal. Et laps ise ei saa kunagi olla halb ega paha ja ta ei ole ka halvatujuline. No siis mulle tundub, et siis on väga oluline kuulata, mis lapsevanem saab teha või, või mida ta teeb, et see et oleks kas siis positiivne või negatiivne see tunnel. Nojah, nagu öeldakse, et sul on üks laps rühmas, aga siis sa korrutad selle veel kolmega, et sul tuleb kaks lapsevanemat ka, võib-olla rohkem veel. Et meie jagasime siin omavahel, et nüüd ka mingi kakskümmend viis aastat on kogemustel noh, ise lapsevanemana olles, et noh, kui palju on nagu lapsevanemad selles ajas muutunud. Milline siis on see lapsevanem, kes negatiivset toob, võtaks selle kõigepealt. No ütleme, et need vanemad, kellel on nagu väga-väga suured ootused lasteaia suhtes, et ja oma roll nagu lapse kasvatamise juures on, kipub ära ununema. Ehk siis see ootuste liiga kõrge, liiga kõrged ootused või, või mitte, mitte kokku lepitud ootused. Ja teistpidi kuidas lapsevanema toituse tunnet saavad luua? Koostöö, koostöö ja no hästi suur roll on nagu minu arust selles suhtes just suhtlemine, et õpetaja peab olema väga kõva suhtlemisekspert ja suhete looja ja hoidja. Et sellest kõik alguse nagu. Ja see on õpetaja enda vedamisel siis lapsevanemaga suur koostöö. Kas on kommentaare veel, mida ei tulnud? Kas on kommentaare veel, mis võiks tulla sealt lapse ja lapsevanema poolt? Mida kindlasti saaks teha, et õpetaja on hoitud või mida te teate, et tehakse, et see üldse nii ei ole? Kokkulepped nii rühmas kui kodus ja hästi selge kommunikatsioon, et õpetaja väga selgelt selgitaks, mis kokkulepped või kuidas see õppetöö käib, et tekiks vähem arusaamatusi, et, et just see ühesugune suund on väga oluline minu meelest. Aitäh siia jah. Aitäh. Nii, aga vaatame siis seda õpetajaharidust andvat kõrgkooli ja sealsete inimeste rollid ja siis õpetaja ja ministeeriumid. Ei, õpetaja pere. Haridus Eestis tegelikult selles mõttes päris huvitaval kombel on ju enam-vähem hästi, õpetajaid saab, koolitatakse päris mitmetes erinevates asutustes, on võimalik erinevates formaatides neid õppida, kas töö kõrvalt või, või, või kohe otse ülikoolist. Mis võib-olla vajab ka täna jääb on kiirem tänapäevastamine, olles ise kokku puutunud ülikooli teatud, teatud teemaga, mida ma püüdsime nagu sinna, et, et umbes nii, et need võiksid olla tugi ja aidata välja töötada, mis on väga oluline teema, siis, siis see oli kõik väga aeganõudev ja. Nad ütlesid, et võib-olla kunagi ja kui mõned doktorandid on juba teinud, siis, siis teeme ühesõnaga, et see ei ole liiga paindlik ja ei ole võib-olla ka kiire. Siin on ka küsimus, kas see peab nii olema, aga minu arvates võiks. Ja teine asi, et võib-olla seda erisust veel tuua, et, et erinevad pedagoogikaid me oleme küllaltki jäiga pedagoogilise suunitluse õpetaja, näiteks meil ei ole täna ei Waldorfi nii-öelda riiklikul tasemel ei õpetajate pedagoogikat kui Montessorit, et kindlasti võib-olla seda erisust natukene tuua sisse rohkem. Ja, ja mis on veel huvitav või mitte mitte huvitav, vaid võib-olla vajaks mudimist, on järelkoolitused, et, et neid järelkoolitusi täna teeb nagu seinast seina asutusi, et kas nad kõik on nagu kvaliteetsed, kas sealt saab piisavalt asju või et tehakse seda linnukese pärast, et lihtsalt õpetaja on ära käinud ja siis ütleb, et ah, ma olen seda küll juba piisavalt kuulanud. Ehk siis mitmekesisus ja kvaliteediseire, ütled sina. Aitäh. Ja, ja ma saan aru, et siin veel on soov ministeeriumi rolli kohta. Vaatasin, jäeti mulle täpselt. Ma kasutaksin tegelikult eelmise paneeli Montessori esindajate mõtet ja see on see, et õpetaja saab olema hoitud siis, kui alusharidus muutub hariduse osaks Eestis. Et nende, ma ei saanud sellest mõttest alguse aru, kui nad seda ütlesid, aga, aga tegelikult on see väga loogiline, et Eestis haridus algab esimesest klassist. Sest siis on see kohustuslik, sinna peavad kõik minema. Aga alusharidus on justkui mingi selline etapp, mis ei ole nii kohustuslik, sest et seda ei pea läbima. Et, et ma usun, et kui ministeerium tõstaks hariduse võrdsele pulgale teiste haridusastmetega, siis see kindlasti tuleks õpetaja hoidmisel abiks. Suur tänu, nii. Nii, aga mis, ära ei pea minema, jaa, võib ikka vabalt siin olla, ma korraks küsin ainult, et inimeste sisetunnet kraadida. Kas te tahaksite istuda? Me võime võtta kõik toolid ja istuda ringis, kuidas tunne on? Või olete, oleks ju? Või tahate seista, ühesõnaga, kes tahab, võib istuda, kes tahab, võib seista, nii et teeme praegu nii, et vaatame, kuidas seal hääletamine meil olemas on. Ja õpetaja pere. No see on väga subjektiivne teema, ma saan rääkida ainult endast. Ja olen õpetaja ja mul on pere. Et minul on lihtne, pean ütlema, sest minu pere toetab mind. Mina võin olla õhtuti kodus väsinud. Mul on kaks vanemat last, kes on juba kakskümmend ja kakskümmend üks ja siis on mul üks kuueaastane. Et see on nii, et kuidas ma siis ütlen, mina tunnen, et mind täna ka väärtustavad minu täiskasvanud lapsed, minu eriala, see on niimoodi toredasti välja tulnud, et ma olen sõpradega koos selliseid mänge teinud, kus on no noh, need kaardi, kaardi küsimuste abil erinevad mängud ja siis on selline asi välja tulnud, mis on minu jaoks väga tore, et nende enda sellised suunitlused on hoopis teised tänasel päeval. Aga ma näen, et tänapäeva noor hindab seda, et kuidas, kuidas sa jaksad ja kuidas sa suudad ja seda enam, et nad näevad minu aktiivset kuueaastast seal kodus oma väikest venda nii-öelda. Et ja just nimelt ka selline, see on ju esimene koht, kus ma ka ventileerin ennast, kui mul on raske päev olnud. Või kui on mured. Ja ega ma ei saa jätta ütlemata ja rõhutamata. Ka majandusliku poolt, sest et lasteaiaõpetaja, ma üldse ei taha hakata vinguma, virisema, kõik on väga hästi. Aga elu on kallis ja ma saan olla õpetaja oma mehe kõrval. Aitäh, kas keegi sooviks kommenteerida eelkõnelejat? Läheme siis edasi, teil oli vallavalitsus ja ajakirjanikud. Ei, mul oli vallavalitsus. Jah, ajakirjanikega olen ka kokku puutunud, ma võin paar sõna nende aadressil ka öelda. Aga kui nüüd rääkida vallavalitsuse negatiivsest küljest, siis nemad näevad lasteaedasid väga suure kulukohana, nad on heitnud ette, et ühe lapse lasteaia teekond võrdsustub siis summaarselt ühe sõiduauto hinnaga, mis nad sinna iga lapse peale sisse panevad. Ja, ja õudusunenägu on nende jaoks, kui jälle riiklikult õpetajate palk tõuseb, siis nad peaksid ju seda ühtlustama, et üheksakümmend protsenti õpetajate palk alammäärast oleks siis lasteaiaõpetajate palk ja väga paljud val-, vallavalitsused kardavad, et nad ei suuda enam seda tagada, kui veel juhtub, et see õpetajate palk veelgi rohkem tõuseb. Et suurim hirm neil on, et äkki peab palkasid tõstma ja eelarvet suurendama. Aga kindlasti on teistsuguseid omavalitsusi, kus ei ole nii suur hirm ja on, on, ollakse uhked oma lasteaedade üle ja toetatakse neid ja, ja nähakse siiski sellise positiivse asjana, et, et neil on lasteaiad, aga vallavalitsused on väga palju ikkagi seda lasteaeda nagu teenusepakkujat. Ja, ja on ka selliseid vallavalitsusi, kes mõtlevad rohkem siis seda, et, et lastevanematel oleks võimalikult mugav seda teenust saada. Et avame kõik lasteaiad suvel ka, et vanem saaks siis ka suvel kasutada seda teenust. Ja, ja igasuguseid põnevaid mõtteid on neil siis, et aga seda nad ei mõtle, kuidas siis lasteaednik puhata saab või, või kokk seal lasteaias, et kui me peame suvi läbi lahti hoidma lasteaedasid. Et kuidas üldse korraldada seda tööd. Aga ajakirjanikud on selgelt öelnud mulle, kui ma olen küsinud, et, et vahest on ju väga toredaid teemasid ka, mida kajastada positiivseid, siis nad on öelnud, et need ei müü, et kõige huvitavam ikka need teemad, kui midagi on halvasti. Et see toob lugejaid, et siis, kui keegi lasteaias kaduma läheb ja, ja peolel teisel, et siis sellest võib suure artikli vorpida, aga et kui mõni lasteaed teeb mingeid väga toreda asja, siis pigem ainult õpetajate leht kajastab seda, kui siis muu meedia. Et müüb siis lööv aja, lööv selline, lööv lugu, kus on midagi hirmsat juhtunud lasteaias. Kas teil on midagi lisa lisada siin ajakirjaniku ja vallavalitsuse rollile? Mina seisin juhtkonna eest. Ma tahaks rääkida ikkagi head. Et ma ei tea, meie majas vähemalt, juhtkonna liikmena, kus ma olen, on suur rõhk igapäevasest elust, me mõtleme, et kuidas teha nii, et õpetajal oleks hea, kuidas nad peaksid täitma vähem pabereid. Kuidas muuta nende koormust, väheke kergemaks, et leida asendajaid, et maksta õpetajatele asendustasusid. Et pidada neid meeles väikeste meenetega, kas õpetajate päeva, naistepäeval, jõuludel igasugustel muudel tähtpäevadel. Kuidas leida neile töörõivaid, jopesid, kummikuid, ma ei tea, mida kõike veel. Nii et selles mõttes. Ma arvan, et juhtkond saab palju teha ja hoian positiivset meelt. Läheme siit edasi. Nii minu teema oli see õppe ise, mida ära saaks teha, on ikkagi see tassi täitmine ja enda arendamine ja ja kohalolek hetkes ja samuti ka suhete juhtimine nii-öelda siis, sest õpetaja peab ju siduma kokku lapsed, pered, omavalitsuse lasteaia juhtkonna, et, et tal peab olema see suhete juhtimise oskus, et see võiks olla isegi, ma nüüd ei ole ise tegelikult ju õpetajaks õppinud, et mul on pedagoogilised kompetentsid ainult. Aga ma näen seda, mul on majandusalane magister, et ma näen, et olen erinevates lasteaedades käinud ja see nii-öelda muudatuste juhtimine, suhete juhtimine on väga kõikuva kvaliteediga, see tegelikult mõjutab õpetaja tööd päris palju. Et just, et isegi kui õpetaja on innovatiivne ja, ja soovib koos vanematega, hoolekoguga midagi teha, siis teinekord piirdubki see ainult selle sooviga, et see jääb ikkagi piiridesse kinni, et omavalitsus ei tule näiteks kaasa. Et, et see on nagu minu arust just see taustajõud on hästi oluline või ja õpetaja ise saabki siis sellega seoses järeldusi teha või siis iseennast arendada või vaadata mujale või või õppida juurde, et et hästi oluline on jah, et ise olla hästi enesekindel ja teada, mis sa teed, sest sina ju oled see eeskuju lastele ja peredele ja. Aitäh. Kas ma võin siit selle ühendava kaare tõmmata sinnapoole, kus räägiti sellest, et kui oluline roll on õpetajal lastevanematega suhte ja koostöösuhte ehitamisel ja siit tuleb minu arvates veel üks küsimus, et kui palju seal õpetajahariduse andmise ja saamise protsessis seda muudatuste juhtimist ja suhete juhtimist puudutatakse? Ja kui palju täiendõppes seda puudutatakse? No ütleme, et see ongi väga kõikuva kvaliteediga ja mis on minu jaoks ka oluline, et nii mõnigi õpetaja ei ole tegelikult aru saanud, kui oluline on õpetaja roll, et see lapse alushariduse noh, aeg, kui ta on väike, et see on nii väga oluline, igasugu sõna, igasugu tegu nagu siin on eelnevates paneelidest tulnud välja. Et see ei ole niisama, et ma lähen lihtsalt teen selle töö ära, et see on nagu kuritegelik isegi. Et minu meelest just see teadlikkus, et mis õpetaja töö tegelikult tähendab, võib-olla võiks seda rohkem rääkima lahti koolis või kuskil avalikus ruumis rohkem. No mulle tundub, et siis see ongi seesama asi, et mida me kuulsime sealt ministeeriumi rolli kohta, et kui tähtis see on väga hea. Mulle jääb mulje, et me oleme praktikud, õpetajad on praktikud, heal juhul õppejuht on praktik, siis on natuke halvemini kui enam laste direktor ei ole praktik, vaid ta on läinud sinna administratiivi ja selle majand, noh, selle no raha on oluline, aga lihtsalt paljusid asju saab teha väga hästi läbi rääkides ja väiksema kuluga. Ja siis see läheb sinna ülesse võib-olla ei ole enam seda praktikuid seal, et et noh, seal ongi see, et ikkagi need lõhestumine on minu meelest olemas. Aitäh, saime veel ühe seose ministeeriumiga siia juurde. Palun vabandust ministeeriumi esindajaga, noh, mina näen asju nagu altpoolt ja teinekord. Nii meil minul oli siis kolleegid ja, ja Riigikogu liikmed oli meil kahe peal või kolme peale tegelikult, kas oli midagi sarnast? No midagi ikka sarnast jah, et tuleb seda head märgata kolleegide enda puhul ka, et, et sa märkad, mida teine hästi teeb või millest ta nagu tugev on. Ja teiselt poolt märgata seda, kui kolleegil ei lähe hästi või ta tunnebki ennast stressis või, või see töö heaolu ei ole nii hea, et siis sa oskad märgata ja toetada ja, ja tuge pakkuda nagu enda poolt. Et see on see, kuidas sa nagu väärtustad ja, ja üks kolleeg, kes meil siin vahepeal oli, siis tema poolt tuligi just see, et kuidas negatiivselt on, et kuidas seal on siis need kas eelarvamused või, või see võimuvõitlus õpetajate kolleegide vahel, et, et noh, et mina olen vanem ja mina tean rohkem ja sina oled noori alles tulnud või, või vastupidi, et noor toob uusi teadmisi on ju ja, ja, ja vanad ei võta vastu, et, et selline, ei ole üksteise toetamist, vaid kuidagi just ärategemist üksteisele. See on see organisatsiooni kultuuri see varjatud osa, teadlik juht teab, millisest koosneb varjatud osa, ta käib kohvinurgas ja kuulab. Üks asi on see, mis on kokku lepitud, teine asi on see, mida siis salamisi toimetatakse, mis tegelikult näit-, määrabki ära selle organisatsiooni näo. Et seal tekivadki need noh, nagu ütleme sellised võimuvõitlused või töökius või sellised asjad või siis õpetaja on täiesti üksi jäetud, et see on kõik sellega seotud, kuidas need tegelikult hoiakud on, et need ei ole need, mis võib olla seina peal on üles kirjutatud, et et seal ongi see. Kas ma järeldan sellest, et sa ütled, et ka see, kuidas kolleegid omavahel on, et see on juhtides kinni? See on selles mõttes juhtides kinni, et juhid on ju eeskujuks nende kaudu tuleb see hoiak, mida me aktsepteerime, mida, mis on nulltolerants. Kui see jääb leigeks või ükskõikseks, siis on ju kohe dominantsetel inimestel nagu roheline tuli selles mõttes, et ah, ma võin ikkagi seal rühmavaikuses seda teha, et ega ta ju ei näe, noh, tekib niisugune nagu amoraalsuse mingid punktid sinna juurde, on ju, noh minu minu see kogemus või kui ma vaatlen nagu töökeskkondi või noh, lihtsalt puhtast huvist ka, et siis tulebki välja sellised mustrid, see ei ole ainult lasteaedades, see on ka tegelikult ju erasektoris, ükskõik kus on rohkem grupp inimesi koos, kus on tegemist organisatsiooniga, noh see on hea õnn, kui on väga head iseloomud kokku sattunud või selline väga selge eesmärk, aga vot seal ongi see, et kui eesmärgi fookus läheb paigast ära, et siis hakatakse kõige muuga tegelema, nii et noh, tegelikult on ju fookus ikkagi laste arendamine, laste heaolu. Et see muu on, ei tuleks üldse lubada nagu sellist kiusamist ja asju. Aitäh, nii, aga kolleegide kõrval on nüüd Riigikogu liikmed. Tere, et mina saan rääkida täna isiklikust kogemusest, kuna mina olen Eesti Lasteadlike Liidu esinaine, et siis ma puutun peaaegu igapäevaselt kokku, kas siis ministeeriumi esindajatega või siis Riigikogu liikmetega. Et ma ostisin sinisilmselt kaua aega, uskusin, et alusharidus ei ole poliitiline tee, niisugune valdkond. Ja siis oh üllatust, ilmselt te teate, et mingi neli aastat äkki vist, aga see aeg läheb ruttu, oli niisugune suur üleriigiline skandaal alushariduse õppekava ümber ja siis ma tajusin esimest korda, et et, et ma ei salli rumalust, et ma ei salli rumalust, mõtlematust ja lauslollust, et et mul on väga hea meel sellel ajal tagasi vaadata, et see näitas tegelikult seda, kui operatiivselt on lasteaednikud valmis panema seljad kokku ja hakkama tegema õiget asja, et et olid väga-väga palju kohtumisi Kristi Vinter, kantslerina tõesti müts maha tegi, tegi väga head tööd ja, ja väga palju häid dialooge oli ja, ja saime selle asjaga lõpuks määra, see asi pandi seisma. Ja, ja siis on üks asi veel, mis mind nagu hämmastab, on see, et et see alusharidus tuleb alati fookusesse siis, kui on valimised lähenemas. No ilmselt ka need hulkuvad kassid-koerad ja kosmoseteemad ja no kõik asjad, eks ju, et. Ja, ja nüüd potsatab ka ikka iga erakond potsatab mulle siis siis postkasti ühe kirja ja, ja palub siis uurida, et mis on nagu alushariduse kitsaskohad täna, mida nemad siis saaksid oma valimisplatvormi panna ja, ja minna siis sellega siis üldsuse ette ja ja ma ei tea siis odavat või kallis populaarsust koguda. Ja ega, ega neid teemasid, millega nagu Riigikogu otse saab nagu teha, et et ega neid väga palju ei ole, et valdavalt on see kohaliku omavalitsuse tasand, sisulised asjad ministeeriumist. Aga üks asi kindlasti, mis, mille taga on alati Riigikogu otsus, on, on, see on alusharidus õpetajate palk, et tahame või taha, ma ei tea, kuidas teiega, mina käin küll palga pärast ainult tööl, et kui nagu palka ei saaks, ma seda tööd ilmselt ei teeks. Et te ilmselt kõik teate, et see alusharidus õpetaja palgamiinimum on määratud riigi poolt, eks ju, Lasteadake Liit võitles selle eest üheksa aastat tagasi ja me saime selle paika pandud, sest et hästi suured käärid olid palga vahel. Ja ja õnneks oli siis ministeeriumis selline tore minister, kes juhtumisi ühel kohtumisel küsis, et aga, et kuidas te suhtute sellesse ettepanekusse, et me seome lasteaiaõpetaja palga kooli õpetaja palgaga ja see tähendas ka automaatselt seda, et kui kooliõpetajate palk tõuseb, et siis laste õpetajate palk tõuseb samamoodi. Ja nüüd on siis, kus Anneli oled seal oma vallavalitsusega, eks ju. Et kohalikud omavalitsused on nüüd väga selle vastu, et see seotus eksju jätkub. Et nad ütlevad, et see seotus on vaja lahti siduda ja iga jõulupaiku siis saame meie signaali, et jällegi on siis riigikogus küsimuse all, et selle, selle sidususe määruse peaks tegema kehtetuks. Õnneks on kaine mõistus praegu siis võitnud ja, ja kui me küsime, et miks te seda tahate nagu lahti siduda, et et nad nagu vastavad need omavalitsused, siis KOV-i esindajad, et et ärge muretsege, me tõstame nagunii seda palka, aga nad seome ta lihtsalt nagu lahti ja siis tekibki küsimus, et kui ta nagunii tõstate palka, et miks siis seda nagu lahti siduda, eks ju. Nii et see määrus on praegu nagu Riigikogu käes, et ma väga loodan, et see määrus kehtib veel ka veel ka edasi. Ja, ja noh, üks asi võib-olla, millele veel tähelepanu pöörata, on ka see, et, et kui on vaja, kui seesama, seesama, see palgateema, eks ju ka, et et meil on see toetusfond viisteist miljonit, mis ei ole minu meelest üle viie aasta suurenenud, et omavalitsusel oleks jõudu seda palka siis viia sellele tasemele. Ja nüüd eelmine või üle-eelmine aasta tuli üks miljon juurde, ma ei tea, kus kaevati igal juhul see leiti siis juurde, et riigil on kogu aeg väga vähe raha, et me ei saa sinna fondi raha juurde panna, aga mis minister ütles raha kohta? Raha on meil Eesti riigis S-tähega asi, eks ju, te ise teate ja minu lähisugulane töötab rahandusministeeriumis ja kinnitab seda, et et see on lihtsalt vaja üles leida. Ja, ja kindlasti ka see asi, et, et kui meil on vaja kuskil esineda püünel kõlavaid lauseid kõnepuldist öelda, siis on alusharidus loob tulevikku, et see on niisugune tüüpiline slogan, eks ju. Aga kui me lähme nagu tegudeni ja nagu päriselt mingisugust suuremat visiooni oleks vaja või või midagi nagu päriselt ära teha, et et siis on kõik nagu kadunud, et siis jäetakse ministeerium üksi, jäetakse vabaühendused üksi, õpetajad üksi, et et mina nagu ootan riigipoolset sellist päris nagu väärtustamist, mitte ei ole ainult raha, vaid et võid ka võiks ka mingi kindlam suurem visioon olla, et kuhu me liigume ja miks. Ehk siis sinu käest kuulsime seda, et positiivne on see, kui on olemas pikaajaline tulevikunägemus, kui lihtsalt ei käida järgmise valimistsükli eel kalastamas punkte, vaid tahetakse sisuliselt selle valdkonna arengu eesmärke kokku leppida ja neid siis ka ellu viia. See on siis positiivne pool ja kõik see, mis me kuulsime nende varjukülgedena, see on see, mida mitte teha. Väga hea. Nonii me vist oleme kõik kõik need erinevad rollid läbi käinud, mõni ei saanud. Siit nüüd otsest tähelepanu, aga mulle tundub, et need seosed olid olemas ka kogukond. Ja perekond on kogukonna väiksem element, eks ju, et võib-olla seal on ka samasugused teemad, nii et ma arvan, et me oleme valmis nüüd tegema kolmanda, neljanda isegi nüüd juba neljanda jah. Neljanda siis paiknemise. Et kui me vaatame neid rolle, neid on siis kaks, neli, kuus, kaheksa, kümme, kaksteist ikka endiselt tosin. Tosin rolli ümber õpetaja on, teeme nagu setu kuninga valimisel nüüd selle valiku, et reastame kõik inimesed, kes me siin muruplatsil oleme, selle rolli taha, kellest kõige rohkem sõltub, et õpetaja tunneb ennast väärtustatuna ja hoituna. Kaksteist rolli on ja lei-, leia see koht, kus sinu arvates on see olulisim mõju õpetaja rolli väärtustatusele. Siin on lapsevanemad, siin on omavalitsuse inimesed, ajakirjanikud, lasteasutuse juhid, õpetaja ise, kogukond. Liigi, ma loen need ette, riigikogu liikmed, õpetajahariduse andjad, ministeeriumi esindajad, õpetaja pere, lapsed ja kolleegid. Kel, kellel on suurim mõju sellele, et õpetaja alushariduse õpetaja tunneb ennast Eestis väärtustatuna ja hoituna, kellel on suurim mõju, leia see ja mine sinna niimoodi ritta. Leia see roll ja mine ritta. Kas sina tahaks ka tulla? Rita? Nii milline see on see roll? Nii kuidas meil siis on, praegu tundub, et. Kah-, kaheks korraga ei saa olla, saab ainult ühe valida. Nii, hakkame siis lugema, kas minu silmad ütlevad õigesti praegu, et siin lapsevanemal on kaks. Ei vallavalitsusel on üks, juhtkonnal on kolm, õpetaja ise on kokku viis, ministeerium mul on kolm ehk et õpetaja ise, Haridus- ja teadusministeerium ja juhtkond on siis meie edetabel, jah. Kas sa tahad riigikogu liikmed panna ministeeriumi juurde? Vaata, me just arutasime, et, et need justkui ei ole samad, et ametnikud ja poliitikud on ikkagi erinevad, kuidas eesmärgid on jah erinevad, sest poliit-. Ja selles mõttes küll, aga me võime, nad on seotud selgelt poliitikakujundajad ja ametnikud on seotud, aga ärme jäta neid päris, ärme neid päris kokku pane. Kuidas tundub see pilt? Juhtasutuse juhid, õpetajad ise ja ministeerium. Aga nüüd siin, siin ja praegu meile tundub niimoodi. Leila, mis me järgmisena teeme, kui me oleme saanud sellised read siia? Nüüd võiks vestelda selle rolli taha, rolli taga olijad, et miks te valisite selle, miks see on oluline? Miks see on mõjusam? Ja vallavalitsus ja lapsevanemad võiksid siis, et sa ei jääks üksi. Annan seitse minutit. Nii kõnekõma vist on, nii palju vaibumas, et teeme nüüd ühe püstijalaringi. Tõmbame kõik, jääge oma selle rollikaaslastega ühte kohta, aga püüame nagu ringi tõmmata siia kokku, tulge vallavalitsuse rollis olijad siiapoole. Jah, nii, aga nii, et oled, püsite oma rollide lähistel. Ja lähme siis väiksemast suuremani. Kas mul oli õigesti meeles, et vallavalitsus sai ühe ühe punkti, ole hea, mis on soovitus vallavalitsusele? Ma, ma ei tea, kuidas Eestis on praegu olukord, aga kindlasti oleks hea, kui igas omavalitsuses oleks kindlasti haridus ja kultuurikomisjon ja selle komisjoni liikmed ei peaks olema pensionile läinud ooperilauljad. Et seal võiksid siiski olla vastava haridusega inimesed ja eriti hea oleks veel, kui omavalitsuses oleks olemas ka eraldi alushariduse nõunik ja alushariduse taustaga ja siis me soovitan hästi kiiresti veel, et iga, iga vallavalitsuse töötaja võiks tulla kaks päeva lasteaias töötada. See on tõeliselt hea soovitus. Nii siis, kas minu mälu ütleb õigesti, et siis sealt järgmine oli lapsevanemad ja mis, mis mis on soovitus lapsevanema rollile? Tegelikult me täpselt sama soovitus, et kaks päeva lasteaias töötada. Siis väga palju. Probleemid läheks ära. Ehk siis ise seal keskel olemine. Nii ja siis oli järgmine roll. Ja see oli juhtkonna roll, eks, ja sinna tuli siis ja sama palju kui riigis poliitikakujundajate rollile inimesi taha ehk siis mõjus roll, mis on soovitus? Soovitus on siis ühine kommunikatsioon ja õpetajate kaasamine. Kellega ühine kommunikatsioon õpetajatega? Õpetajatega. Aitäh ja kaasamine kuhu? Otsustusprotsessidesse. Juhtimisse. Juhtimisse erinevate olukordade lahendamisse. Suur tänu nii ja enne kui me anname sõna õpetajale, siis nüüd ma tahaks teada, mis siis poliitikakujundajatele ja ametnikele soovitus on. Mis on sellele rollile soovitus? No meie ikkagi jõudsime sinnasamma tagasi, et, et kui meil ühiskonnas mingit haridusastmed on kokku lepitud, et need on kohustuslikud, siis meile tundus, et, et kui alusharidus ei ole kohustuslik, siis järelikult see tähendab, et see kuidagi on ühiskonnale vähem tähtis. Et me näeme, et alusharidus võiks muutuda kohustuslikuks, mis ei tähenda seda ilmtingimata, et iga laps peaks käima lasteaias. Võib-olla mõni laps saab selle kohustusliku alushariduse mingil muul moel, aga mis mis iganes seda ju ka arutati siin vahepeal, et, et toimub mingisugune hindamine või, või, või, või kuidas seda tehakse. Ma ei tea, mõni lapsevanem on ise pedagoog tugeva taustaga, kuidas iganes. Et aga et, et kui me ütleme, et alusharidus ei ole kohustus, kohustuslik, siis järelikult me ütleme, et see ei ole nii oluline, mis tähendab seda, et me ütleme, et ka õpetaja ei ole alushariduses nii oluline. Suur tänu ja kõige rohkem kõige mõjusam õpetaja hoituse jaoks on õpetaja ise meie tänase sellise sotsiodraama tulemuse. Põhiteema on ikkagi eneseväärtustamine selline täiskasvanulik hoiak ja teadlikkus iseenda võimetest, see on tee nagu enesearendusele ja, ja selle suhete kvaliteedile ka. Kui sa oled ise nii-öelda austav teiste suhtes ja, ja ei ole mingit hoiakute küüsis ja sa ei lase lahti nendest, et sa ei ole avatud maailmavaatega, et siis ma arvan, see on nagu kõige alus, et siis sa ka oskad öelda, et mis on murekoht näiteks rühmatöös. Julgus kindlasti läheb ju ka siis sinna alla, kui sa oled enesekindel ja enesega rahul, siis sa ju tead, mis on sinu soovid ja eesmärgid ja sa liigud nende poole. Ja see tegelikult ei olene sellest, et kas mu keskkond lapsepõlves on raske või keeruline, see on ikkagi inimloomuses kinni, et ma just enne rääkisime, et minu lapsepõlv oli väga raske. Et ma olin nagu pidingi täitsa ise hakkama saama, et mul ei olnud nagu toetavad vanemaid. Et olid, aga nad tegid, tegelesid kõige muuga ja see teadmine, et sa ise saad oma elu muuta, on tulnud mulle elu jooksul ja see on väga oluline. Et siis tuleb ka sealt kõik muu tööga rahulolu ja, ja parem laste õpetamise arendamise kvaliteet. Et suur-suur tänu, kas keegi tahab midagi täiendada? Kokkuvõte pigem. Enesejuhtimine ja peegel, peegelneuronid leiutati juba kolmkümmend aastat tagasi. Et kui me peame seda ju arvesse võtma, me ei saa sellest nagu mööda vaadata, et see, et klass on see, mis mina ikkagi olen ja kohe esimesest päevast, kui nad sealt uksest sisse astuvad, saab neid hakata mõjutama, kujundama ja ehk siis seda keskkonda, kus nad õpivad ja ette valmistada alati ka suhtlus iga õpilasega. Aitäh. Suur-suur tänu, me oleme jõudnud üsna heasse kohta ehk siis finišisirgele ja selle suitsu draama lõpetuseks on tähtis nüüd teada saada, mida igaüks võtab kaasa. Ja ma teeks nüüd nii, et ma panen sealtpoolt otsast, selle mikrofoni liikuma. Ütle üks mõte, mis sa võtad täna siit sellest pooleteisest tunnist kaasa ja siis anna edasi. See võib olla üks sõna, see võib olla üks mõte, aga hästi kontsentraat. Ma alustan, et meie, mina olen erasektori esindaja ja ühiskonnas püütakse jätta kuidagi seda muljet, et, et erasektor on kuidagi avaliku sektori vastu alushariduses, mis absoluutselt nii ei ole. Meie ainukene sõnum on see, et, et erasektoril võiks olla ka võimalus osa lüüa, osa saada alusharidusest ja kaasa lüüa ja mina võtan kaasa selle, et tegelikult praegu. Ma vabandust nimedega jään hätta, aga ma näen, et meil on ühisosasid väga palju õpetajatega munitsipaal-lasteaedades me tegelikult võitleme ühtede samade asjade eest. Et kui me paneme seljad kokku. Ma arvan, et erasektoril on nii mõndagi kaasa anda, et noh, näiteks seesama, et me siin täna oleme, on ju erasektori initsiatiiv, see võiks olla hoopis, ma ei tea, ministeerium või kes iganes, et, et me neid asju arutame. Et, et ühesõnaga mina võtan selle positiivse siit ringist kaasa, et meil on väga palju ühiseid teemasid, mida koos arutada. Ma siis teen kontsentreeritult. Alushariduse väärtustamine, läbipaistev rahastamine. Aitäh. Üks mõte, mille võtad kaasa. Alusharidus on oluline osa haridussüsteemis. Aitäh. Mina jõudsin siia natuke hilja ja ma sain kohe osa sellest ringist, seetõttu ei kuulnud ma seda eelnevat, ei oskagi praegu pakkuda. Aga sellest, millest sa osa said, mis sa sellest võtad kaasa? Ütleme positiivse suhtumise ja palju häid mõtteid. Aitäh. Üks mõte, mille võtad kaasa. Peeglisse on vaja vaadata. Aitäh. Kogemuste jagamine, teadlik koostöö iseenda ja teistega. Tuli see algus meelde, kui me mustvalgelt pidime neid pooli vahetama ja siis, kui ma nüüd siia õpetaja ise kohale seisin, et selle üle ma nüüd õhtul kodus mõtlen, ehk siis sa said tegelikult muuta seda perspektiivi, kuulen ma. Aitäh. Ma tegelikult täiendaksin vist seda mõtet, et alusharidus on väga oluline alusharidus on tegelikult kõige alus, ütleksin mina. Mina ütleks, et oluline ongi õpetajad märgata kõikide nende erinevate rollide, rolli poolt just et me märkaks ja tunnustaks ja ja peegel esimesel kohal ma sain aru. Ja. Aitäh, väärtused paika, aitäh. Jaa, et ma loen siit ekraani pealt, et aga kes siis hoiab õpetajat, et ennekõike õpetaja ise, et see on tegelikult üks kutsepädevusi ka, et iseennast hoida. Minul oli väga põnev sotsiodraama meetodit näha, et see oli huvitav ja siis ma ütleks sellise lause, mis on Eesti Lasteaednike Liidu moto, et väärtustades Eesti lasteaiaõpetajat. Aitäh. Võib-olla see, et seal ongi neid rolle nii palju, et see avardas silmavaadet natuke. Suur tänu, meie oleme teile väga tänulikud, et tulite, et jagasite mõtteid ja me anname teile kaasa siis selle üks lehe, kus mõlemal poolel on teil äkki hetk, kas õhtul teetassi juures või homme hommikul hommikukohvi juures käia need küsimused läbi ja enda jaoks veel kord siis seda selitada, mis te kuulsite, mis te jagasite ja usutavasti, siis sotsio draama ei olnud nii hirmutav, et kui järgmine kord me tuleme mõnda sellist formaati pakkuma, et siis olete valmis ka kaasa tulema nii et Leila ja Triinu ja Krissi poolt suur aitäh ja mõnusat arvamusfestivali jätku ja sisukaid arutelusid. Aitäh nüüd või siis ära arva",
+    "cues": [
+      {
+        "start_seconds": 11.8,
+        "end_seconds": 13.48,
+        "text": "Soitšo draama."
+      },
+      {
+        "start_seconds": 13.48,
+        "end_seconds": 15.2,
+        "text": "Aga kes hoiab õpetajat?"
+      },
+      {
+        "start_seconds": 15.2,
+        "end_seconds": 23.04,
+        "text": "Te olete kõik juba leidnud ühe toreda A-viis formaadis üks lehe ja"
+      },
+      {
+        "start_seconds": 23.04,
+        "end_seconds": 27.12,
+        "text": "selle üks lehe on pannud kokku kolm inimest, mina olen Kris Liiva."
+      },
+      {
+        "start_seconds": 27.12,
+        "end_seconds": 33.48,
+        "text": "Mina olen Leila Berma ja meist täpselt keskel istub Triinu Pajuri ja meie oleme Eesti"
+      },
+      {
+        "start_seconds": 33.48,
+        "end_seconds": 41.08,
+        "text": "psühhodraama Instituudis viieteistkümnenda lennu ehk siis psühhodraama välja"
+      },
+      {
+        "start_seconds": 41.08,
+        "end_seconds": 48.72,
+        "text": "õppe teises, teises astmes ja õpime seda, kuidas toetada inimesi selles"
+      },
+      {
+        "start_seconds": 48.72,
+        "end_seconds": 54.8,
+        "text": ", et nende elus oleks rohkem spontaansust, rohkem loovust ja et nad saaksid oma naha"
+      },
+      {
+        "start_seconds": 54.8,
+        "end_seconds": 57.08,
+        "text": "s olla õnnelikud."
+      },
+      {
+        "start_seconds": 57.08,
+        "end_seconds": 65.92,
+        "text": "Ja meie tänase sotsiodraama eesmärk on uurida seda"
+      },
+      {
+        "start_seconds": 65.92,
+        "end_seconds": 71.6,
+        "text": ", mis meie ühiskonnas sotsodraama tähendabki sootsium ehk siis võõrsõna sootsium ühis"
+      },
+      {
+        "start_seconds": 71.6,
+        "end_seconds": 79.16,
+        "text": "konna kohta ja draama, me uurime seoseid ja suhteid inimeste vahel, mis aitab Eesti õpetaja"
+      },
+      {
+        "start_seconds": 79.16,
+        "end_seconds": 84.8,
+        "text": "l olla oma nahas õnnelikum, sest ma usun, et te olete nõus sellega, mis me kavasse kirjuta"
+      },
+      {
+        "start_seconds": 84.8,
+        "end_seconds": 87.04,
+        "text": "sime, et."
+      },
+      {
+        "start_seconds": 87.04,
+        "end_seconds": 96.0,
+        "text": "Sellele lapsele, kes päris sünnist saati kuni siis kooliminekuni on kas"
+      },
+      {
+        "start_seconds": 96.0,
+        "end_seconds": 102.84,
+        "text": "laste sõimes või lastehoius või lasteaias väga hea kaaslane sellel teel saab olla õpetaja"
+      },
+      {
+        "start_seconds": 102.84,
+        "end_seconds": 104.32,
+        "text": ", kes on hoitud."
+      },
+      {
+        "start_seconds": 104.32,
+        "end_seconds": 110.36,
+        "text": "Et kui õpetaja ise on heas kohas, siis on heas kohas ka need lapsed, kes sealt, kes seal"
+      },
+      {
+        "start_seconds": 110.36,
+        "end_seconds": 117.48,
+        "text": "t kuni seitsmenda eluaastani tema kõrval teadmisi, oskusi ja eluks vajalikku saavad."
+      },
+      {
+        "start_seconds": 117.48,
+        "end_seconds": 123.92,
+        "text": "Ja meie mõttekäik on selline, et kuna sotsodraama on tegevuslik trupitöö meetod, siis"
+      },
+      {
+        "start_seconds": 123.92,
+        "end_seconds": 129.32,
+        "text": "me uurime seda õpetajat ja õpetaja ümber olevaid rolle ja neid suhteid."
+      },
+      {
+        "start_seconds": 129.32,
+        "end_seconds": 135.84,
+        "text": "Ja igalühel on siin oma arvamus ja kellegi arvamus ei ole vale ega õige ja sellepärast"
+      },
+      {
+        "start_seconds": 135.84,
+        "end_seconds": 138.52,
+        "text": "tahakski teha kõigepealt mõned kokkulepped."
+      },
+      {
+        "start_seconds": 138.52,
+        "end_seconds": 143.84,
+        "text": "Ehk et oleme vastastikku lugupidavad, igalühel on õigus oma arvamusele selle kohta, mis"
+      },
+      {
+        "start_seconds": 143.84,
+        "end_seconds": 150.88,
+        "text": "õpetaja tööelu puudutab ja oleme palunud üksteisega ka sina peal, et oleks liht"
+      },
+      {
+        "start_seconds": 150.88,
+        "end_seconds": 152.84,
+        "text": "sam suhelda."
+      },
+      {
+        "start_seconds": 152.84,
+        "end_seconds": 155.52,
+        "text": "Ma loodan, et Eestis on see juba üsna tavapärane."
+      },
+      {
+        "start_seconds": 155.52,
+        "end_seconds": 162.56,
+        "text": "Siis ma palun sellist asja, et me tõstame käe siis, kui on vaja vaikust, et kui näete"
+      },
+      {
+        "start_seconds": 162.56,
+        "end_seconds": 165.88,
+        "text": ", et käsi on püsti, tõstke teie ka käsi püsti ja siis hakkavad kõik nägema, et nüüd on"
+      },
+      {
+        "start_seconds": 165.88,
+        "end_seconds": 169.28,
+        "text": "see hetk, kus on vaja vahepeal hääl maha võtta."
+      },
+      {
+        "start_seconds": 169.28,
+        "end_seconds": 176.68,
+        "text": "Ja siis on meil veel selline palve, et kuulame teist inimest ja kuulame"
+      },
+      {
+        "start_seconds": 176.68,
+        "end_seconds": 182.48,
+        "text": "võimalikult ilma hinnanguta sellele inimesele, sest tal on oma arvamus ja see arvamus"
+      },
+      {
+        "start_seconds": 182.48,
+        "end_seconds": 189.56,
+        "text": "on tema oma tema taustsüsteemis, et ärme hakka andma isegi mõttes hinnangut, et see ei"
+      },
+      {
+        "start_seconds": 189.56,
+        "end_seconds": 191.52,
+        "text": "ole minu arvates küll õige."
+      },
+      {
+        "start_seconds": 191.52,
+        "end_seconds": 199.68,
+        "text": "Et need olid meie kokkulepped, kas midagi oli veel?"
+      },
+      {
+        "start_seconds": 199.68,
+        "end_seconds": 206.48,
+        "text": "Kokkulepete kohta ei ole, nii, aga siis me saame minna selle juurde, et saame tuttava"
+      },
+      {
+        "start_seconds": 206.48,
+        "end_seconds": 207.08,
+        "text": "ks."
+      },
+      {
+        "start_seconds": 207.08,
+        "end_seconds": 217.28,
+        "text": "Sest muidu ei saa ühte sotsodraamat teha, nii et esimene samm on tuttavaks saamine."
+      },
+      {
+        "start_seconds": 217.28,
+        "end_seconds": 219.88,
+        "text": "Tere ka minu poolt."
+      },
+      {
+        "start_seconds": 219.88,
+        "end_seconds": 227.84,
+        "text": "Uurime, kus te olete tulnud ja paneme ma, Eesti kaardi, et Paide on siin"
+      },
+      {
+        "start_seconds": 227.84,
+        "end_seconds": 231.76,
+        "text": ", kus on Tartu, Tartu on siin."
+      },
+      {
+        "start_seconds": 231.76,
+        "end_seconds": 234.72,
+        "text": "Ja, ja nad olid ühisel joonel Pärnuga."
+      },
+      {
+        "start_seconds": 234.72,
+        "end_seconds": 239.52,
+        "text": "Pärnu on siin ja Tallinn on siin."
+      },
+      {
+        "start_seconds": 239.52,
+        "end_seconds": 250.56,
+        "text": "Et leia see koht, kus sina oled täna tulnud."
+      },
+      {
+        "start_seconds": 250.56,
+        "end_seconds": 254.76,
+        "text": "Küsige, suhelge."
+      },
+      {
+        "start_seconds": 254.76,
+        "end_seconds": 260.08,
+        "text": "Kust?"
+      },
+      {
+        "start_seconds": 260.08,
+        "end_seconds": 263.8,
+        "text": "Nii."
+      },
+      {
+        "start_seconds": 263.8,
+        "end_seconds": 266.96,
+        "text": "Nonii, nüüd me oleme kõik leidnud koha."
+      },
+      {
+        "start_seconds": 266.96,
+        "end_seconds": 269.24,
+        "text": "Et te olete Paidest."
+      },
+      {
+        "start_seconds": 269.24,
+        "end_seconds": 275.24,
+        "text": "Teie olete Tallinn, Harjumaa."
+      },
+      {
+        "start_seconds": 275.24,
+        "end_seconds": 282.92,
+        "text": "Ja leia enda lähedalt kaks inimest ja vestle, tutvusta ennast, kes sa oled."
+      },
+      {
+        "start_seconds": 282.92,
+        "end_seconds": 291.68,
+        "text": "Ja miks sa täna siia tulid?"
+      },
+      {
+        "start_seconds": 291.68,
+        "end_seconds": 293.6,
+        "text": "Tänan."
+      },
+      {
+        "start_seconds": 293.6,
+        "end_seconds": 295.72,
+        "text": "Ja nüüd me teeme Skaala."
+      },
+      {
+        "start_seconds": 295.72,
+        "end_seconds": 303.44,
+        "text": "Me teeme sellise skaala, kui kaua oled sa seotud alusharidusega või kuidas või"
+      },
+      {
+        "start_seconds": 303.44,
+        "end_seconds": 307.68,
+        "text": "kui kaua sa oled kokku puutunud alusharidusega?"
+      },
+      {
+        "start_seconds": 307.68,
+        "end_seconds": 310.88,
+        "text": "Ja siin on nullpunkt."
+      },
+      {
+        "start_seconds": 310.88,
+        "end_seconds": 314.08,
+        "text": "Ja siin on lõpmatus."
+      },
+      {
+        "start_seconds": 314.08,
+        "end_seconds": 316.4,
+        "text": "Ja teeme aastates."
+      },
+      {
+        "start_seconds": 316.4,
+        "end_seconds": 321.56,
+        "text": "Ja sina, kes sa publikus oled ja tunned, et sa nüüd tahad meiega ühineda, tere tulema"
+      },
+      {
+        "start_seconds": 321.56,
+        "end_seconds": 327.56,
+        "text": "st."
+      },
+      {
+        "start_seconds": 327.56,
+        "end_seconds": 329.36,
+        "text": "Teeme selle skaala selle peale."
+      },
+      {
+        "start_seconds": 329.36,
+        "end_seconds": 333.52,
+        "text": "Igasaurus."
+      },
+      {
+        "start_seconds": 333.52,
+        "end_seconds": 344.52,
+        "text": "Proovime teha rivi."
+      },
+      {
+        "start_seconds": 344.52,
+        "end_seconds": 348.4,
+        "text": "Küsime siit algusest, mitu aastat."
+      },
+      {
+        "start_seconds": 348.4,
+        "end_seconds": 349.12,
+        "text": "Null aastal."
+      },
+      {
+        "start_seconds": 349.12,
+        "end_seconds": 352.96,
+        "text": "Oo, siin on meil nullpunkt."
+      },
+      {
+        "start_seconds": 352.96,
+        "end_seconds": 355.84,
+        "text": "Keskel olev, kuidas mitu aastat sinul on?"
+      },
+      {
+        "start_seconds": 355.84,
+        "end_seconds": 356.96,
+        "text": "Kolmteist."
+      },
+      {
+        "start_seconds": 356.96,
+        "end_seconds": 358.92,
+        "text": "Kolmteist vau."
+      },
+      {
+        "start_seconds": 358.92,
+        "end_seconds": 362.88,
+        "text": "Nii, ja sina siin lõpus."
+      },
+      {
+        "start_seconds": 362.88,
+        "end_seconds": 364.24,
+        "text": "Aa, selge."
+      },
+      {
+        "start_seconds": 364.24,
+        "end_seconds": 366.28,
+        "text": "Väga palju."
+      },
+      {
+        "start_seconds": 366.28,
+        "end_seconds": 369.6,
+        "text": "Me, me nii tahaks teada, kui palju on palju aastaid."
+      },
+      {
+        "start_seconds": 369.6,
+        "end_seconds": 374.88,
+        "text": "Ma sissejuhatuses võin öelda seda, et mina läksin kooli tööle siis, kui mindi tööle pärast"
+      },
+      {
+        "start_seconds": 374.88,
+        "end_seconds": 377.48,
+        "text": ", kui peda lõpetati, ma olin kaheksateist, eks ju."
+      },
+      {
+        "start_seconds": 377.48,
+        "end_seconds": 381.92,
+        "text": "Ja mul on noh, nelikümmend aastat tuleb ära peaaegu."
+      },
+      {
+        "start_seconds": 381.92,
+        "end_seconds": 387.04,
+        "text": "Aga see on väga ilus aeg olnud, ma olen väga normaalne õpetaja."
+      },
+      {
+        "start_seconds": 387.04,
+        "end_seconds": 389.16,
+        "text": "Nii."
+      },
+      {
+        "start_seconds": 389.16,
+        "end_seconds": 393.2,
+        "text": "Ja nüüd me moodustame kolmikud."
+      },
+      {
+        "start_seconds": 393.2,
+        "end_seconds": 397.08,
+        "text": "Kolm, kolm."
+      },
+      {
+        "start_seconds": 397.08,
+        "end_seconds": 403.36,
+        "text": "Kolm ja ma mõtlen, et kas sina võiksid minna siia gruppi ja sina võiksid minna sinna"
+      },
+      {
+        "start_seconds": 403.36,
+        "end_seconds": 406.52,
+        "text": "teise gruppi."
+      },
+      {
+        "start_seconds": 406.52,
+        "end_seconds": 411.24,
+        "text": "Nii ja nüüd nendes väikestes gruppides, olge head."
+      },
+      {
+        "start_seconds": 411.24,
+        "end_seconds": 418.76,
+        "text": "Seitse minutit, jaga palun mõnest näitest olukorrast,"
+      },
+      {
+        "start_seconds": 418.76,
+        "end_seconds": 424.96,
+        "text": "kui sind on tööalaselt väärtustatud või hoitud või oled näinud, et kedagi väärtustatakse"
+      },
+      {
+        "start_seconds": 424.96,
+        "end_seconds": 425.12,
+        "text": "."
+      },
+      {
+        "start_seconds": 425.12,
+        "end_seconds": 430.2,
+        "text": "Tuleta meelde, kas enda tööelu näide või kellegi teise oma, mida sa oled tähele pannud"
+      },
+      {
+        "start_seconds": 430.2,
+        "end_seconds": 435.72,
+        "text": "ja märganud ja, ja räägi sellest oma vestluskaaslastele."
+      },
+      {
+        "start_seconds": 435.72,
+        "end_seconds": 440.44,
+        "text": "Seitse minutit, igaühel on siis selline poolteist, paar minutit rääkimiseks, olge hea"
+      },
+      {
+        "start_seconds": 440.44,
+        "end_seconds": 444.92,
+        "text": "d."
+      },
+      {
+        "start_seconds": 444.92,
+        "end_seconds": 446.84,
+        "text": "Olge head!"
+      },
+      {
+        "start_seconds": 446.84,
+        "end_seconds": 456.56,
+        "text": "Olukord, kus sind on väärtustatud, sind on hoitud."
+      },
+      {
+        "start_seconds": 456.56,
+        "end_seconds": 464.04,
+        "text": "Suur tänu ja mul on nüüd palve, nii nagu Leila ennem palus, et moodustaksite ühe re"
+      },
+      {
+        "start_seconds": 464.04,
+        "end_seconds": 469.8,
+        "text": "a skaalal näol, siis ma palun sama teha, aga nüüd on teine küsimus."
+      },
+      {
+        "start_seconds": 469.8,
+        "end_seconds": 478.12,
+        "text": "Nullpunkt on siin, kus on ainult üks lille põõsas ja"
+      },
+      {
+        "start_seconds": 478.12,
+        "end_seconds": 484.36,
+        "text": "sada on siin, kus on kolm lillepõõsast see ots ja selle skaala peale palun leia enda"
+      },
+      {
+        "start_seconds": 484.36,
+        "end_seconds": 485.96,
+        "text": "le koht."
+      },
+      {
+        "start_seconds": 485.96,
+        "end_seconds": 493.6,
+        "text": "Kuidas sina täna tunned, kui palju sina oled väärtustatud kaldkriips hoitud oma töö"
+      },
+      {
+        "start_seconds": 493.6,
+        "end_seconds": 495.0,
+        "text": "alases elus?"
+      },
+      {
+        "start_seconds": 495.0,
+        "end_seconds": 498.08,
+        "text": "Leia see koht."
+      },
+      {
+        "start_seconds": 498.08,
+        "end_seconds": 504.68,
+        "text": "Nullist sajani ja selle jaoks, et te oma õige koha teiste suhtes ehk siis sotsiomeetri"
+      },
+      {
+        "start_seconds": 504.68,
+        "end_seconds": 513.08,
+        "text": "liselt saaksite paika, suhelge omavahel, te peate suhtlema, sest muidu te ei tea."
+      },
+      {
+        "start_seconds": 513.08,
+        "end_seconds": 519.0,
+        "text": "Palun suhelge omavahel, sest te leiate selle õige koha, kuidas te ennast täna tunnete"
+      },
+      {
+        "start_seconds": 519.0,
+        "end_seconds": 519.8,
+        "text": "?"
+      },
+      {
+        "start_seconds": 519.8,
+        "end_seconds": 538.28,
+        "text": "Kui väärtustatud või hoitud te tööalaselt olete?"
+      },
+      {
+        "start_seconds": 538.28,
+        "end_seconds": 545.56,
+        "text": "Nii kus see keskpunkt on kus on viiskümmend sina oled viiskümmend selge aga uurime siis"
+      },
+      {
+        "start_seconds": 545.56,
+        "end_seconds": 549.48,
+        "text": "Leila neid otspunkte kõigepealt keskpunkti saime paika."
+      },
+      {
+        "start_seconds": 549.48,
+        "end_seconds": 554.32,
+        "text": "Uuri sina palun sealtpoolt ja mina võtan siis siitpoolt."
+      },
+      {
+        "start_seconds": 554.32,
+        "end_seconds": 560.64,
+        "text": "Oot anname teise mikri ka."
+      },
+      {
+        "start_seconds": 560.64,
+        "end_seconds": 562.24,
+        "text": "Konrad."
+      },
+      {
+        "start_seconds": 562.24,
+        "end_seconds": 571.44,
+        "text": "Palun meile seda, heli."
+      },
+      {
+        "start_seconds": 571.44,
+        "end_seconds": 573.52,
+        "text": "Nonii, mis number sul on?"
+      },
+      {
+        "start_seconds": 573.52,
+        "end_seconds": 575.76,
+        "text": "Kolmkümmend, kolmkümmend viis protsenti."
+      },
+      {
+        "start_seconds": 575.76,
+        "end_seconds": 578.64,
+        "text": "Miks sa selle koha valisid?"
+      },
+      {
+        "start_seconds": 578.64,
+        "end_seconds": 584.72,
+        "text": "Sest ma ei tunne ennast väga hoitud igapäevaselt või ka suures plaanis ei juhtkonna poolt"
+      },
+      {
+        "start_seconds": 584.72,
+        "end_seconds": 587.96,
+        "text": "ega ka võib-olla ka siis töötajate poolt."
+      },
+      {
+        "start_seconds": 587.96,
+        "end_seconds": 592.88,
+        "text": "Aitäh ja mis siin otsas on, mis sinu näidik?"
+      },
+      {
+        "start_seconds": 592.88,
+        "end_seconds": 593.84,
+        "text": "Kaheksakümmend üks."
+      },
+      {
+        "start_seconds": 593.84,
+        "end_seconds": 595.52,
+        "text": "Kaheksakümmend üks."
+      },
+      {
+        "start_seconds": 595.52,
+        "end_seconds": 600.72,
+        "text": "Ja nüüd ma küsin küsimuse, et mis aitaks sind sajani?"
+      },
+      {
+        "start_seconds": 600.72,
+        "end_seconds": 604.64,
+        "text": "Mis see on, kui sa mõtled, et, et see oleks sada?"
+      },
+      {
+        "start_seconds": 604.64,
+        "end_seconds": 605.92,
+        "text": "Kas saab?"
+      },
+      {
+        "start_seconds": 605.92,
+        "end_seconds": 607.36,
+        "text": "Ei saa."
+      },
+      {
+        "start_seconds": 607.36,
+        "end_seconds": 610.04,
+        "text": "Et sinu jaoks see kaheksakümmend üks on maksimum?"
+      },
+      {
+        "start_seconds": 610.04,
+        "end_seconds": 612.52,
+        "text": "Aga."
+      },
+      {
+        "start_seconds": 612.52,
+        "end_seconds": 618.4,
+        "text": "Aga Kris, mis, mis aitaks teid, et te saaksite ühe sammu edasi ühe numbri võrra edasi"
+      },
+      {
+        "start_seconds": 618.4,
+        "end_seconds": 618.56,
+        "text": "."
+      },
+      {
+        "start_seconds": 618.56,
+        "end_seconds": 624.64,
+        "text": "No kaheksakümne ühest kahekümne, kaheksakümne kahe peale."
+      },
+      {
+        "start_seconds": 624.64,
+        "end_seconds": 625.76,
+        "text": "Ma ei tea."
+      },
+      {
+        "start_seconds": 625.76,
+        "end_seconds": 629.84,
+        "text": "Mõtle, mõtled mõtted selles osas?"
+      },
+      {
+        "start_seconds": 629.84,
+        "end_seconds": 634.96,
+        "text": "Ei, praegu ei tule."
+      },
+      {
+        "start_seconds": 634.96,
+        "end_seconds": 642.16,
+        "text": "Miks mina olen alla võib-olla selle keskmise, on puhtalt sellepärast, et olles ise täna"
+      },
+      {
+        "start_seconds": 642.16,
+        "end_seconds": 648.92,
+        "text": "alusharidusteenuse pakkuja, siis mina otsisin seda väärtustuskohta nii-öelda Eesti ühis"
+      },
+      {
+        "start_seconds": 648.92,
+        "end_seconds": 655.08,
+        "text": "kondlikus mastaabis, et kuidas väärtustatakse täna näiteks erahariduse pakkujat."
+      },
+      {
+        "start_seconds": 655.08,
+        "end_seconds": 661.32,
+        "text": "Et siin on päris mitmeid nagu punkte, millega saaksin ma märksa kõrgemale, kui ma nagu"
+      },
+      {
+        "start_seconds": 661.32,
+        "end_seconds": 662.24,
+        "text": "räägin sellise."
+      },
+      {
+        "start_seconds": 662.24,
+        "end_seconds": 669.32,
+        "text": "Ehk siis, kui sa tajuksid ühiskonnas laiemat toetust alushariduse valdkonna tegijate"
+      },
+      {
+        "start_seconds": 669.32,
+        "end_seconds": 670.32,
+        "text": "le."
+      },
+      {
+        "start_seconds": 670.32,
+        "end_seconds": 671.48,
+        "text": "Aitäh."
+      },
+      {
+        "start_seconds": 671.48,
+        "end_seconds": 676.6,
+        "text": "Tahab veel keegi kommenteerida, mis aitaks tal ühe, vähemalt ühe sammu liikuda sajale"
+      },
+      {
+        "start_seconds": 676.6,
+        "end_seconds": 677.32,
+        "text": "lähemale?"
+      },
+      {
+        "start_seconds": 677.32,
+        "end_seconds": 679.12,
+        "text": "Ole hea."
+      },
+      {
+        "start_seconds": 679.12,
+        "end_seconds": 682.92,
+        "text": "No ma võin kommenteerida, mina olen lasteasutuse juht."
+      },
+      {
+        "start_seconds": 682.92,
+        "end_seconds": 687.6,
+        "text": "Ja kui nagu kollektiivis tajuda, et sa oled nagu austatud ja hoitud, siis nagu kohaliku"
+      },
+      {
+        "start_seconds": 687.6,
+        "end_seconds": 690.92,
+        "text": "omavalitsuse tasandil sa oled nähtamatu."
+      },
+      {
+        "start_seconds": 690.92,
+        "end_seconds": 692.2,
+        "text": "Aitäh."
+      },
+      {
+        "start_seconds": 692.2,
+        "end_seconds": 694.28,
+        "text": "Suur tänu teile."
+      },
+      {
+        "start_seconds": 694.28,
+        "end_seconds": 701.76,
+        "text": "Me tahaksime nüüd, et te veel kord paigutute siin meie sotsodraama laval ja nüüd"
+      },
+      {
+        "start_seconds": 701.76,
+        "end_seconds": 708.96,
+        "text": "mõtleme õpetaja peale, lasteaiaõpetaja, lastehoiu õpetaja, abiõpetaja, kes igane"
+      },
+      {
+        "start_seconds": 708.96,
+        "end_seconds": 713.12,
+        "text": "s siis alushariduse valdkonnast õpetaja rolli kannab."
+      },
+      {
+        "start_seconds": 713.12,
+        "end_seconds": 720.8,
+        "text": "Ja mõtleme nüüd nii, et on üks poolus ja seal on need õpetajad"
+      },
+      {
+        "start_seconds": 720.8,
+        "end_seconds": 726.84,
+        "text": ", kelle suhtes te arvate, et või seal on see ühesõnaga hinnang, et kui te arvate, et"
+      },
+      {
+        "start_seconds": 726.84,
+        "end_seconds": 732.04,
+        "text": "Eestis täna alushariduse valdkonnas tegutsevad õpetajad on hoitud, siis palun liikuge"
+      },
+      {
+        "start_seconds": 732.04,
+        "end_seconds": 733.24,
+        "text": "leila poole."
+      },
+      {
+        "start_seconds": 733.24,
+        "end_seconds": 739.24,
+        "text": "See on üks poolus ja kui te arvate, et on vastupidi, siis liikuge palun minu poole ja"
+      },
+      {
+        "start_seconds": 739.24,
+        "end_seconds": 744.4,
+        "text": "vaatame, mis, kuidas meil see pooluste vahel paiknemine on."
+      },
+      {
+        "start_seconds": 744.4,
+        "end_seconds": 747.56,
+        "text": "Eesti ühiskonnas ja Eesti ühiskonnas, kuidas sinu tunne."
+      },
+      {
+        "start_seconds": 747.56,
+        "end_seconds": 751.36,
+        "text": "Mina õpetajana olen hoitud ja mina õpetajana ei ole hoitud."
+      },
+      {
+        "start_seconds": 751.36,
+        "end_seconds": 752.44,
+        "text": "Leia oma poolus."
+      },
+      {
+        "start_seconds": 752.44,
+        "end_seconds": 757.44,
+        "text": "Mina olen hoitud ja väärtustatud."
+      },
+      {
+        "start_seconds": 757.44,
+        "end_seconds": 760.0,
+        "text": "Nii leia oma pool."
+      },
+      {
+        "start_seconds": 760.0,
+        "end_seconds": 769.48,
+        "text": "Võib, võib alati võib."
+      },
+      {
+        "start_seconds": 769.48,
+        "end_seconds": 779.36,
+        "text": "Kas meil on selline mesilassülem siin, ma saan aru, kõik keskel jah?"
+      },
+      {
+        "start_seconds": 779.36,
+        "end_seconds": 786.12,
+        "text": "Et lihtsalt sellist üks-null valikut ei saa teha, jah?"
+      },
+      {
+        "start_seconds": 786.12,
+        "end_seconds": 788.64,
+        "text": "Tundub, et ei saa."
+      },
+      {
+        "start_seconds": 788.64,
+        "end_seconds": 791.68,
+        "text": "Aga oota, ma teen ühe eksperimendi."
+      },
+      {
+        "start_seconds": 791.68,
+        "end_seconds": 798.72,
+        "text": "Teeme nii, et me ei ole skaalal, me ei ole numbrites, vaid ma pean valima, kas ma olen"
+      },
+      {
+        "start_seconds": 798.72,
+        "end_seconds": 804.64,
+        "text": "hoitud Eesti ühiskonnas õpetajana või jah, just nimelt must ja valge."
+      },
+      {
+        "start_seconds": 804.64,
+        "end_seconds": 810.72,
+        "text": "Teeme nüüd mustvalgema."
+      },
+      {
+        "start_seconds": 810.72,
+        "end_seconds": 818.04,
+        "text": "No nii jalgadega hääletamine andis väga selge ja ja väga kõneka tule"
+      },
+      {
+        "start_seconds": 818.04,
+        "end_seconds": 819.56,
+        "text": "muse."
+      },
+      {
+        "start_seconds": 819.56,
+        "end_seconds": 825.8,
+        "text": "Ja see on nii hea koht, kust nüüd ma usun, et me oleme piisavalt häälestunud selleks"
+      },
+      {
+        "start_seconds": 825.8,
+        "end_seconds": 833.32,
+        "text": ", et hakata uurima, mis siis teeb selle õpetaja hoituks ja miks te täna just"
+      },
+      {
+        "start_seconds": 833.32,
+        "end_seconds": 839.04,
+        "text": "sellise hinnangu andsite, me oleme praegu juba esimese pildistuse Eesti ühiskonnast."
+      },
+      {
+        "start_seconds": 839.04,
+        "end_seconds": 841.2,
+        "text": "Teie vaatest saanud."
+      },
+      {
+        "start_seconds": 841.2,
+        "end_seconds": 853.84,
+        "text": "Ja alustamegi siis sotsudraamaga ja uurime Eesti õpetajate rolli tänast ja homset."
+      },
+      {
+        "start_seconds": 853.84,
+        "end_seconds": 861.44,
+        "text": "Palun nimetage õpetajahoitust ja väärtustatust mõjutavad rollid"
+      },
+      {
+        "start_seconds": 861.44,
+        "end_seconds": 861.6,
+        "text": "."
+      },
+      {
+        "start_seconds": 861.6,
+        "end_seconds": 865.0,
+        "text": "Mõned juba kõlasid."
+      },
+      {
+        "start_seconds": 865.0,
+        "end_seconds": 865.68,
+        "text": "Millised rollid?"
+      },
+      {
+        "start_seconds": 865.68,
+        "end_seconds": 874.68,
+        "text": "Näiteks vallavalitsus."
+      },
+      {
+        "start_seconds": 874.68,
+        "end_seconds": 878.12,
+        "text": "Kes ütleb kulukoht?"
+      },
+      {
+        "start_seconds": 878.12,
+        "end_seconds": 879.28,
+        "text": "Mis see tähendab, mis see tähendab?"
+      },
+      {
+        "start_seconds": 879.28,
+        "end_seconds": 881.6,
+        "text": "Mis see tähendab jah?"
+      },
+      {
+        "start_seconds": 881.6,
+        "end_seconds": 885.76,
+        "text": "Suurem osa valla eelarvest läheb haridusele."
+      },
+      {
+        "start_seconds": 885.76,
+        "end_seconds": 889.96,
+        "text": "Okei, aga siis see ikkagi see roll on vallavalitsuses erinevatel inimestel, sest nema"
+      },
+      {
+        "start_seconds": 889.96,
+        "end_seconds": 894.56,
+        "text": "d, nendest sõltub, kuidas õpetaja ennast tunneb."
+      },
+      {
+        "start_seconds": 894.56,
+        "end_seconds": 896.0,
+        "text": "Saaks seda parem olla."
+      },
+      {
+        "start_seconds": 896.0,
+        "end_seconds": 901.96,
+        "text": "Selge, see on üks vallavalitsuse võimalikke seisukohavõtte, mil, mis rolle veel?"
+      },
+      {
+        "start_seconds": 901.96,
+        "end_seconds": 907.32,
+        "text": "Vald, omavalitsus."
+      },
+      {
+        "start_seconds": 907.32,
+        "end_seconds": 910.6,
+        "text": "Kui sa ütled riik, kas sa mõtled ministeeriumi või?"
+      },
+      {
+        "start_seconds": 910.6,
+        "end_seconds": 913.6,
+        "text": "Aitäh."
+      },
+      {
+        "start_seconds": 913.6,
+        "end_seconds": 926.12,
+        "text": "Lapsevanemad."
+      },
+      {
+        "start_seconds": 926.12,
+        "end_seconds": 932.2,
+        "text": "Kas see on imaginaarsel toolil õpetaja toolil, kes veel siin ümber on, kes on veel ümber"
+      },
+      {
+        "start_seconds": 932.2,
+        "end_seconds": 934.24,
+        "text": "õpetaja?"
+      },
+      {
+        "start_seconds": 934.24,
+        "end_seconds": 942.2,
+        "text": "Kolleegid, kuulsin õigesti?"
+      },
+      {
+        "start_seconds": 942.2,
+        "end_seconds": 949.16,
+        "text": "Aga juht oli ka."
+      },
+      {
+        "start_seconds": 949.16,
+        "end_seconds": 952.88,
+        "text": "Ei, õpetaja tuleb ka siia."
+      },
+      {
+        "start_seconds": 952.88,
+        "end_seconds": 955.64,
+        "text": "Kas juht- , juhtkond on?"
+      },
+      {
+        "start_seconds": 955.64,
+        "end_seconds": 958.52,
+        "text": "Kas on veel keegi oota seda paneb veel."
+      },
+      {
+        "start_seconds": 958.52,
+        "end_seconds": 962.04,
+        "text": "Kas on veel mõni roll?"
+      },
+      {
+        "start_seconds": 962.04,
+        "end_seconds": 965.64,
+        "text": "Kes veel mõjutab?"
+      },
+      {
+        "start_seconds": 965.64,
+        "end_seconds": 970.64,
+        "text": "Nägite juba seda silti, ma just tahtsin viit- , viidata sellele, et, et sina ütlesid"
+      },
+      {
+        "start_seconds": 970.64,
+        "end_seconds": 975.12,
+        "text": ", eks ju, et ühiskonnas üldiselt see suhtumine kindlasti ajakirjanikud on need, kes seda"
+      },
+      {
+        "start_seconds": 975.12,
+        "end_seconds": 978.96,
+        "text": ", kes seda suhtumist kas võimendavad ühele poole või teisele poole."
+      },
+      {
+        "start_seconds": 978.96,
+        "end_seconds": 984.48,
+        "text": "Kas on mõni roll veel, mida me ei ole puudutanud ja mis tundub, et on oluline ümber õpetaja"
+      },
+      {
+        "start_seconds": 984.48,
+        "end_seconds": 991.0,
+        "text": "olevatest inimestest?"
+      },
+      {
+        "start_seconds": 991.0,
+        "end_seconds": 997.64,
+        "text": "On varus seal ootavad?"
+      },
+      {
+        "start_seconds": 997.64,
+        "end_seconds": 1006.48,
+        "text": "Enda pere jah, õpetaja, pere."
+      },
+      {
+        "start_seconds": 1006.48,
+        "end_seconds": 1012.32,
+        "text": "Jaa, kõrgharidust andev asutus õpetajatele, ülikool, õpetaja, haridust andev ülikool"
+      },
+      {
+        "start_seconds": 1012.32,
+        "end_seconds": 1019.24,
+        "text": ", õpetaja oma pere."
+      },
+      {
+        "start_seconds": 1019.24,
+        "end_seconds": 1021.52,
+        "text": "Ja pane see ülikool ka."
+      },
+      {
+        "start_seconds": 1021.52,
+        "end_seconds": 1025.64,
+        "text": "Õpetajaharidust andev ülikool, paneme selle siia, näed siin on."
+      },
+      {
+        "start_seconds": 1025.64,
+        "end_seconds": 1028.04,
+        "text": "Poliitikasse ka tõmmatud."
+      },
+      {
+        "start_seconds": 1028.04,
+        "end_seconds": 1033.36,
+        "text": "Aga kas vallavalitsus on nagu poliitikast erinev või, või tahaks eraldi tuua?"
+      },
+      {
+        "start_seconds": 1033.36,
+        "end_seconds": 1037.84,
+        "text": "Aga sa tahaksid poliitikuid siis nagu?"
+      },
+      {
+        "start_seconds": 1037.84,
+        "end_seconds": 1043.32,
+        "text": "Sa mõtled riigi tasemel, siis Riigikogu liikmetest poliitikut või?"
+      },
+      {
+        "start_seconds": 1043.32,
+        "end_seconds": 1046.56,
+        "text": "Okei, siis paneme riigikogu liikmed ka."
+      },
+      {
+        "start_seconds": 1046.56,
+        "end_seconds": 1053.48,
+        "text": "Ja paneme riigikogu liikme."
+      },
+      {
+        "start_seconds": 1053.48,
+        "end_seconds": 1057.56,
+        "text": "Ja nõus, nõus, ministeeriumis on ametnikud, Riigikogus on poliitikud, nii et paneme riigi"
+      },
+      {
+        "start_seconds": 1057.56,
+        "end_seconds": 1063.28,
+        "text": "kogu liikmed ka."
+      },
+      {
+        "start_seconds": 1063.28,
+        "end_seconds": 1066.56,
+        "text": "Nii kas saime?"
+      },
+      {
+        "start_seconds": 1066.56,
+        "end_seconds": 1069.64,
+        "text": "Mitu rolli meil siis on?"
+      },
+      {
+        "start_seconds": 1069.64,
+        "end_seconds": 1070.92,
+        "text": "Lapsed?"
+      },
+      {
+        "start_seconds": 1070.92,
+        "end_seconds": 1074.12,
+        "text": "Üks, kaks, kolm, neli, viis, kuus, seitsekümmend kaheksa."
+      },
+      {
+        "start_seconds": 1074.12,
+        "end_seconds": 1075.56,
+        "text": "Nonii tosinkond."
+      },
+      {
+        "start_seconds": 1075.56,
+        "end_seconds": 1078.84,
+        "text": "Tosin kontrolli ümber õpetaja."
+      },
+      {
+        "start_seconds": 1078.84,
+        "end_seconds": 1081.16,
+        "text": "Õpetaja on meil siin toolil."
+      },
+      {
+        "start_seconds": 1081.16,
+        "end_seconds": 1087.76,
+        "text": "Aga õpetaja, õpetaja siin toolil tahab olla hoitud ja väärtustatud ja tänane pilt on"
+      },
+      {
+        "start_seconds": 1087.76,
+        "end_seconds": 1090.0,
+        "text": "see, et."
+      },
+      {
+        "start_seconds": 1090.0,
+        "end_seconds": 1091.84,
+        "text": "Mis te seal ütlesite."
+      },
+      {
+        "start_seconds": 1091.84,
+        "end_seconds": 1094.52,
+        "text": "Pilt on nukker."
+      },
+      {
+        "start_seconds": 1094.52,
+        "end_seconds": 1100.88,
+        "text": "Nii, aga hakkame siis uurima, mis pildil on värvid, miks nad on sellised ja hakkame seda"
+      },
+      {
+        "start_seconds": 1100.88,
+        "end_seconds": 1106.32,
+        "text": "uurima hästi."
+      },
+      {
+        "start_seconds": 1106.32,
+        "end_seconds": 1112.6,
+        "text": "Hästi lihtsa meetodiga ja see on sotsidraama meetod ja ma annan jälle Leila sulle üle"
+      },
+      {
+        "start_seconds": 1112.6,
+        "end_seconds": 1113.04,
+        "text": "."
+      },
+      {
+        "start_seconds": 1113.04,
+        "end_seconds": 1119.04,
+        "text": "Et palun võta endale üks roll ja seisa selle paberi taha, mis sind kõige rohkem praegu"
+      },
+      {
+        "start_seconds": 1119.04,
+        "end_seconds": 1121.16,
+        "text": "sel hetkel kõnetab?"
+      },
+      {
+        "start_seconds": 1121.16,
+        "end_seconds": 1126.64,
+        "text": "Kujutades ennast ette, kas siis õpetaja haridust andva ülikooli professorina või ministeerium"
+      },
+      {
+        "start_seconds": 1126.64,
+        "end_seconds": 1132.2,
+        "text": "i ametnikuna või kogukonna liikmena või lasteaiajuhina või äkki oledki lasteaiajuht ja"
+      },
+      {
+        "start_seconds": 1132.2,
+        "end_seconds": 1136.24,
+        "text": "on sul väga lihtne selles rollis olla või vastupidi ei taha üldse see olla ja kujuta"
+      },
+      {
+        "start_seconds": 1136.24,
+        "end_seconds": 1142.4,
+        "text": "d ennast hoopis vallavalitsuse liikmena ette."
+      },
+      {
+        "start_seconds": 1142.4,
+        "end_seconds": 1149.08,
+        "text": "Ja kõik, kes istuvad siin sinna, kus siin, mis sind kõnetab kõige rohkem."
+      },
+      {
+        "start_seconds": 1149.08,
+        "end_seconds": 1153.68,
+        "text": "Kõik, kes istuvad veel siin muruplatsil ja tunnevad, et tahavad kaasa lüüa, siis on see"
+      },
+      {
+        "start_seconds": 1153.68,
+        "end_seconds": 1157.36,
+        "text": "võimalus?"
+      },
+      {
+        "start_seconds": 1157.36,
+        "end_seconds": 1161.84,
+        "text": "Nii ja."
+      },
+      {
+        "start_seconds": 1161.84,
+        "end_seconds": 1169.44,
+        "text": "Teeme nii, et nüüd, et sa leiad kõrvalt endale sellise, selle ühe rolli"
+      },
+      {
+        "start_seconds": 1169.44,
+        "end_seconds": 1177.6,
+        "text": "ja vest vestelge, et mida positiivset ja mida negatiivset nad saavad teha"
+      },
+      {
+        "start_seconds": 1177.6,
+        "end_seconds": 1184.72,
+        "text": "õpetaja väärtustamisel ja hoidmisel, mida negatiivset ja mida po"
+      },
+      {
+        "start_seconds": 1184.72,
+        "end_seconds": 1190.28,
+        "text": "sitiivset nad teevad, et õpetaja oleks hoitud ja väärtustatud."
+      },
+      {
+        "start_seconds": 1190.28,
+        "end_seconds": 1196.36,
+        "text": "Teeme, mul on ettepanek, et kaks, kaks rolli suhtlevad omavahel."
+      },
+      {
+        "start_seconds": 1196.36,
+        "end_seconds": 1200.88,
+        "text": "Juhtkond ja juhtkond ja vallavalitsus suhtlevad."
+      },
+      {
+        "start_seconds": 1200.88,
+        "end_seconds": 1208.36,
+        "text": "Ja Riigikogu liikmed ja kolleegid."
+      },
+      {
+        "start_seconds": 1208.36,
+        "end_seconds": 1214.6,
+        "text": "Lapsed ja lapsevanemad, õpetajaharidus, õpetaja pere."
+      },
+      {
+        "start_seconds": 1214.6,
+        "end_seconds": 1221.56,
+        "text": "Nii, et saate seitse minutit, vaatame, kuidas meil on."
+      },
+      {
+        "start_seconds": 1221.56,
+        "end_seconds": 1230.72,
+        "text": "Vestelda negatiivse ja positiivse osas."
+      },
+      {
+        "start_seconds": 1230.72,
+        "end_seconds": 1236.88,
+        "text": "Et palun jagame, mis te nendes väikestes gruppides rääkisite?"
+      },
+      {
+        "start_seconds": 1236.88,
+        "end_seconds": 1240.32,
+        "text": "Ja mis?"
+      },
+      {
+        "start_seconds": 1240.32,
+        "end_seconds": 1244.88,
+        "text": "Mis vist on päris põnev, hakkaks otsast kohe peale ikkagi lastega."
+      },
+      {
+        "start_seconds": 1244.88,
+        "end_seconds": 1253.52,
+        "text": "Mida lapsed saavad õpetaja hoituse nimel teha positiivset?"
+      },
+      {
+        "start_seconds": 1253.52,
+        "end_seconds": 1259.52,
+        "text": "No mina ütlen, et lapsed on alati avatud ja siirad."
+      },
+      {
+        "start_seconds": 1259.52,
+        "end_seconds": 1262.4,
+        "text": "Nende eest õhkub väga palju positiivsust."
+      },
+      {
+        "start_seconds": 1262.4,
+        "end_seconds": 1266.88,
+        "text": "Et lihtsalt laps olemine juba on, on see, mis hoituse tunnet loob, jah."
+      },
+      {
+        "start_seconds": 1266.88,
+        "end_seconds": 1272.08,
+        "text": "Et kui on ka keerulise käitumisega lapsed, siis need tagamaad on tegelikult ju siiski"
+      },
+      {
+        "start_seconds": 1272.08,
+        "end_seconds": 1277.12,
+        "text": ", kas lapsevanema või pere või, või kogukonnas kaugemal."
+      },
+      {
+        "start_seconds": 1277.12,
+        "end_seconds": 1285.12,
+        "text": "Et laps ise ei saa kunagi olla halb ega paha ja ta ei ole ka halvatujuline."
+      },
+      {
+        "start_seconds": 1285.12,
+        "end_seconds": 1289.28,
+        "text": "No siis mulle tundub, et siis on väga oluline kuulata, mis lapsevanem saab teha või,"
+      },
+      {
+        "start_seconds": 1289.28,
+        "end_seconds": 1296.72,
+        "text": "või mida ta teeb, et see et oleks kas siis positiivne või negatiivne see tunnel"
+      },
+      {
+        "start_seconds": 1296.72,
+        "end_seconds": 1296.92,
+        "text": "."
+      },
+      {
+        "start_seconds": 1296.92,
+        "end_seconds": 1301.2,
+        "text": "Nojah, nagu öeldakse, et sul on üks laps rühmas, aga siis sa korrutad selle veel kolm"
+      },
+      {
+        "start_seconds": 1301.2,
+        "end_seconds": 1305.76,
+        "text": "ega, et sul tuleb kaks lapsevanemat ka, võib-olla rohkem veel."
+      },
+      {
+        "start_seconds": 1305.76,
+        "end_seconds": 1310.96,
+        "text": "Et meie jagasime siin omavahel, et nüüd ka mingi kakskümmend viis aastat on kogemustel"
+      },
+      {
+        "start_seconds": 1310.96,
+        "end_seconds": 1316.12,
+        "text": "noh, ise lapsevanemana olles, et noh, kui palju on nagu lapsevanemad selles ajas muutu"
+      },
+      {
+        "start_seconds": 1316.12,
+        "end_seconds": 1318.64,
+        "text": "nud."
+      },
+      {
+        "start_seconds": 1318.64,
+        "end_seconds": 1328.4,
+        "text": "Milline siis on see lapsevanem, kes negatiivset toob, võtaks selle kõigepealt."
+      },
+      {
+        "start_seconds": 1328.4,
+        "end_seconds": 1335.76,
+        "text": "No ütleme, et need vanemad, kellel on nagu väga-väga suured ootused lasteaia suhtes,"
+      },
+      {
+        "start_seconds": 1335.76,
+        "end_seconds": 1342.6,
+        "text": "et ja oma roll nagu lapse kasvatamise juures on, kipub ära ununema."
+      },
+      {
+        "start_seconds": 1342.6,
+        "end_seconds": 1349.96,
+        "text": "Ehk siis see ootuste liiga kõrge, liiga kõrged ootused või, või mitte, mitte kokku le"
+      },
+      {
+        "start_seconds": 1349.96,
+        "end_seconds": 1351.84,
+        "text": "pitud ootused."
+      },
+      {
+        "start_seconds": 1351.84,
+        "end_seconds": 1358.48,
+        "text": "Ja teistpidi kuidas lapsevanema toituse tunnet saavad luua?"
+      },
+      {
+        "start_seconds": 1358.48,
+        "end_seconds": 1365.84,
+        "text": "Koostöö, koostöö ja no hästi suur roll on nagu minu arust selles suhtes just suht"
+      },
+      {
+        "start_seconds": 1365.84,
+        "end_seconds": 1372.88,
+        "text": "lemine, et õpetaja peab olema väga kõva suhtlemisekspert ja suhete looja ja hoidja."
+      },
+      {
+        "start_seconds": 1372.88,
+        "end_seconds": 1374.56,
+        "text": "Et sellest kõik alguse nagu."
+      },
+      {
+        "start_seconds": 1374.56,
+        "end_seconds": 1381.56,
+        "text": "Ja see on õpetaja enda vedamisel siis lapsevanemaga suur koostöö."
+      },
+      {
+        "start_seconds": 1381.56,
+        "end_seconds": 1386.12,
+        "text": "Kas on kommentaare veel, mida ei tulnud?"
+      },
+      {
+        "start_seconds": 1386.12,
+        "end_seconds": 1392.72,
+        "text": "Kas on kommentaare veel, mis võiks tulla sealt lapse ja lapsevanema poolt?"
+      },
+      {
+        "start_seconds": 1392.72,
+        "end_seconds": 1399.52,
+        "text": "Mida kindlasti saaks teha, et õpetaja on hoitud või mida te teate, et tehakse, et see"
+      },
+      {
+        "start_seconds": 1399.52,
+        "end_seconds": 1404.28,
+        "text": "üldse nii ei ole?"
+      },
+      {
+        "start_seconds": 1404.28,
+        "end_seconds": 1411.36,
+        "text": "Kokkulepped nii rühmas kui kodus ja hästi selge kommunikatsioon, et õpetaja väga selge"
+      },
+      {
+        "start_seconds": 1411.36,
+        "end_seconds": 1417.76,
+        "text": "lt selgitaks, mis kokkulepped või kuidas see õppetöö käib, et tekiks vähem arusaamatus"
+      },
+      {
+        "start_seconds": 1417.76,
+        "end_seconds": 1423.76,
+        "text": "i, et, et just see ühesugune suund on väga oluline minu meelest."
+      },
+      {
+        "start_seconds": 1423.76,
+        "end_seconds": 1426.16,
+        "text": "Aitäh siia jah."
+      },
+      {
+        "start_seconds": 1426.16,
+        "end_seconds": 1429.36,
+        "text": "Aitäh."
+      },
+      {
+        "start_seconds": 1429.36,
+        "end_seconds": 1435.92,
+        "text": "Nii, aga vaatame siis seda õpetajaharidust andvat kõrgkooli ja sealsete inimeste roll"
+      },
+      {
+        "start_seconds": 1435.92,
+        "end_seconds": 1439.84,
+        "text": "id ja siis õpetaja ja ministeeriumid."
+      },
+      {
+        "start_seconds": 1439.84,
+        "end_seconds": 1444.72,
+        "text": "Ei, õpetaja pere."
+      },
+      {
+        "start_seconds": 1444.72,
+        "end_seconds": 1450.88,
+        "text": "Haridus Eestis tegelikult selles mõttes päris huvitaval kombel on ju enam-vähem hästi"
+      },
+      {
+        "start_seconds": 1450.88,
+        "end_seconds": 1455.44,
+        "text": ", õpetajaid saab, koolitatakse päris mitmetes erinevates asutustes, on võimalik erinevate"
+      },
+      {
+        "start_seconds": 1455.44,
+        "end_seconds": 1462.4,
+        "text": "s formaatides neid õppida, kas töö kõrvalt või, või, või kohe otse ülikoolist."
+      },
+      {
+        "start_seconds": 1462.4,
+        "end_seconds": 1469.76,
+        "text": "Mis võib-olla vajab ka täna jääb on kiirem"
+      },
+      {
+        "start_seconds": 1469.76,
+        "end_seconds": 1477.36,
+        "text": "tänapäevastamine, olles ise kokku puutunud ülikooli teatud, teatud teemaga, mida ma"
+      },
+      {
+        "start_seconds": 1477.36,
+        "end_seconds": 1481.64,
+        "text": "püüdsime nagu sinna, et, et umbes nii, et need võiksid olla tugi ja aidata välja tööta"
+      },
+      {
+        "start_seconds": 1481.64,
+        "end_seconds": 1486.12,
+        "text": "da, mis on väga oluline teema, siis, siis see oli kõik väga aeganõudev ja."
+      },
+      {
+        "start_seconds": 1486.12,
+        "end_seconds": 1490.0,
+        "text": "Nad ütlesid, et võib-olla kunagi ja kui mõned doktorandid on juba teinud, siis, siis"
+      },
+      {
+        "start_seconds": 1490.0,
+        "end_seconds": 1495.52,
+        "text": "teeme ühesõnaga, et see ei ole liiga paindlik ja ei ole võib-olla ka kiire."
+      },
+      {
+        "start_seconds": 1495.52,
+        "end_seconds": 1498.68,
+        "text": "Siin on ka küsimus, kas see peab nii olema, aga minu arvates võiks."
+      },
+      {
+        "start_seconds": 1498.68,
+        "end_seconds": 1503.36,
+        "text": "Ja teine asi, et võib-olla seda erisust veel tuua, et, et erinevad pedagoogikaid me oleme"
+      },
+      {
+        "start_seconds": 1503.36,
+        "end_seconds": 1508.92,
+        "text": "küllaltki jäiga pedagoogilise suunitluse õpetaja, näiteks meil ei ole täna ei Waldor"
+      },
+      {
+        "start_seconds": 1508.92,
+        "end_seconds": 1515.2,
+        "text": "fi nii-öelda riiklikul tasemel ei õpetajate pedagoogikat kui Montessorit, et kindlasti"
+      },
+      {
+        "start_seconds": 1515.2,
+        "end_seconds": 1518.8,
+        "text": "võib-olla seda erisust natukene tuua sisse rohkem."
+      },
+      {
+        "start_seconds": 1518.8,
+        "end_seconds": 1526.4,
+        "text": "Ja, ja mis on veel huvitav või mitte mitte huvitav, vaid võib-olla vajaks mudimist, on"
+      },
+      {
+        "start_seconds": 1526.4,
+        "end_seconds": 1532.84,
+        "text": "järelkoolitused, et, et neid järelkoolitusi täna teeb nagu seinast seina asutusi, et"
+      },
+      {
+        "start_seconds": 1532.84,
+        "end_seconds": 1537.48,
+        "text": "kas nad kõik on nagu kvaliteetsed, kas sealt saab piisavalt asju või et tehakse seda"
+      },
+      {
+        "start_seconds": 1537.48,
+        "end_seconds": 1540.96,
+        "text": "linnukese pärast, et lihtsalt õpetaja on ära käinud ja siis ütleb, et ah, ma olen seda"
+      },
+      {
+        "start_seconds": 1540.96,
+        "end_seconds": 1542.68,
+        "text": "küll juba piisavalt kuulanud."
+      },
+      {
+        "start_seconds": 1542.68,
+        "end_seconds": 1546.24,
+        "text": "Ehk siis mitmekesisus ja kvaliteediseire, ütled sina."
+      },
+      {
+        "start_seconds": 1546.24,
+        "end_seconds": 1549.0,
+        "text": "Aitäh."
+      },
+      {
+        "start_seconds": 1549.0,
+        "end_seconds": 1553.68,
+        "text": "Ja, ja ma saan aru, et siin veel on soov ministeeriumi rolli kohta."
+      },
+      {
+        "start_seconds": 1553.68,
+        "end_seconds": 1557.36,
+        "text": "Vaatasin, jäeti mulle täpselt."
+      },
+      {
+        "start_seconds": 1557.36,
+        "end_seconds": 1564.6,
+        "text": "Ma kasutaksin tegelikult eelmise paneeli Montessori esindajate mõtet ja see"
+      },
+      {
+        "start_seconds": 1564.6,
+        "end_seconds": 1572.04,
+        "text": "on see, et õpetaja saab olema hoitud siis, kui alusharidus muutub hariduse"
+      },
+      {
+        "start_seconds": 1572.04,
+        "end_seconds": 1574.52,
+        "text": "osaks Eestis."
+      },
+      {
+        "start_seconds": 1574.52,
+        "end_seconds": 1578.96,
+        "text": "Et nende, ma ei saanud sellest mõttest alguse aru, kui nad seda ütlesid, aga, aga tegelikult"
+      },
+      {
+        "start_seconds": 1578.96,
+        "end_seconds": 1584.08,
+        "text": "on see väga loogiline, et Eestis haridus algab esimesest klassist."
+      },
+      {
+        "start_seconds": 1584.08,
+        "end_seconds": 1587.84,
+        "text": "Sest siis on see kohustuslik, sinna peavad kõik minema."
+      },
+      {
+        "start_seconds": 1587.84,
+        "end_seconds": 1593.52,
+        "text": "Aga alusharidus on justkui mingi selline etapp, mis ei ole nii kohustuslik, sest et seda"
+      },
+      {
+        "start_seconds": 1593.52,
+        "end_seconds": 1594.92,
+        "text": "ei pea läbima."
+      },
+      {
+        "start_seconds": 1594.92,
+        "end_seconds": 1600.76,
+        "text": "Et, et ma usun, et kui ministeerium tõstaks hariduse võrdsele pulgale teiste haridus"
+      },
+      {
+        "start_seconds": 1600.76,
+        "end_seconds": 1604.48,
+        "text": "astmetega, siis see kindlasti tuleks õpetaja hoidmisel abiks."
+      },
+      {
+        "start_seconds": 1604.48,
+        "end_seconds": 1610.64,
+        "text": "Suur tänu, nii."
+      },
+      {
+        "start_seconds": 1610.64,
+        "end_seconds": 1617.12,
+        "text": "Nii, aga mis, ära ei pea minema, jaa, võib ikka vabalt siin olla, ma korraks küsin ainult"
+      },
+      {
+        "start_seconds": 1617.12,
+        "end_seconds": 1620.28,
+        "text": ", et inimeste sisetunnet kraadida."
+      },
+      {
+        "start_seconds": 1620.28,
+        "end_seconds": 1622.04,
+        "text": "Kas te tahaksite istuda?"
+      },
+      {
+        "start_seconds": 1622.04,
+        "end_seconds": 1625.28,
+        "text": "Me võime võtta kõik toolid ja istuda ringis, kuidas tunne on?"
+      },
+      {
+        "start_seconds": 1625.28,
+        "end_seconds": 1627.76,
+        "text": "Või olete, oleks ju?"
+      },
+      {
+        "start_seconds": 1627.76,
+        "end_seconds": 1631.76,
+        "text": "Või tahate seista, ühesõnaga, kes tahab, võib istuda, kes tahab, võib seista, nii et"
+      },
+      {
+        "start_seconds": 1631.76,
+        "end_seconds": 1636.68,
+        "text": "teeme praegu nii, et vaatame, kuidas seal hääletamine meil olemas on."
+      },
+      {
+        "start_seconds": 1636.68,
+        "end_seconds": 1638.4,
+        "text": "Ja õpetaja pere."
+      },
+      {
+        "start_seconds": 1638.4,
+        "end_seconds": 1641.76,
+        "text": "No see on väga subjektiivne teema, ma saan rääkida ainult endast."
+      },
+      {
+        "start_seconds": 1641.76,
+        "end_seconds": 1645.04,
+        "text": "Ja olen õpetaja ja mul on pere."
+      },
+      {
+        "start_seconds": 1645.04,
+        "end_seconds": 1648.84,
+        "text": "Et minul on lihtne, pean ütlema, sest minu pere toetab mind."
+      },
+      {
+        "start_seconds": 1648.84,
+        "end_seconds": 1651.84,
+        "text": "Mina võin olla õhtuti kodus väsinud."
+      },
+      {
+        "start_seconds": 1651.84,
+        "end_seconds": 1656.2,
+        "text": "Mul on kaks vanemat last, kes on juba kakskümmend ja kakskümmend üks ja siis on mul üks"
+      },
+      {
+        "start_seconds": 1656.2,
+        "end_seconds": 1657.88,
+        "text": "kuueaastane."
+      },
+      {
+        "start_seconds": 1657.88,
+        "end_seconds": 1665.44,
+        "text": "Et see on nii, et kuidas ma siis ütlen,"
+      },
+      {
+        "start_seconds": 1665.44,
+        "end_seconds": 1671.32,
+        "text": "mina tunnen, et mind täna ka väärtustavad minu täiskasvanud lapsed, minu eriala, see"
+      },
+      {
+        "start_seconds": 1671.32,
+        "end_seconds": 1675.28,
+        "text": "on niimoodi toredasti välja tulnud, et ma olen sõpradega koos selliseid mänge teinud"
+      },
+      {
+        "start_seconds": 1675.28,
+        "end_seconds": 1680.76,
+        "text": ", kus on no noh, need kaardi, kaardi küsimuste abil erinevad mängud ja siis on selline"
+      },
+      {
+        "start_seconds": 1680.76,
+        "end_seconds": 1687.8,
+        "text": "asi välja tulnud, mis on minu jaoks väga tore, et nende enda sellised suunitlused on"
+      },
+      {
+        "start_seconds": 1687.8,
+        "end_seconds": 1689.52,
+        "text": "hoopis teised tänasel päeval."
+      },
+      {
+        "start_seconds": 1689.52,
+        "end_seconds": 1693.84,
+        "text": "Aga ma näen, et tänapäeva noor hindab seda, et kuidas, kuidas sa jaksad ja kuidas sa"
+      },
+      {
+        "start_seconds": 1693.84,
+        "end_seconds": 1698.28,
+        "text": "suudad ja seda enam, et nad näevad minu aktiivset kuueaastast seal kodus oma väikest"
+      },
+      {
+        "start_seconds": 1698.28,
+        "end_seconds": 1699.84,
+        "text": "venda nii-öelda."
+      },
+      {
+        "start_seconds": 1699.84,
+        "end_seconds": 1707.08,
+        "text": "Et ja just nimelt ka selline, see on ju esimene koht, kus ma ka ve"
+      },
+      {
+        "start_seconds": 1707.08,
+        "end_seconds": 1710.24,
+        "text": "ntileerin ennast, kui mul on raske päev olnud."
+      },
+      {
+        "start_seconds": 1710.24,
+        "end_seconds": 1712.96,
+        "text": "Või kui on mured."
+      },
+      {
+        "start_seconds": 1712.96,
+        "end_seconds": 1717.92,
+        "text": "Ja ega ma ei saa jätta ütlemata ja rõhutamata."
+      },
+      {
+        "start_seconds": 1717.92,
+        "end_seconds": 1725.16,
+        "text": "Ka majandusliku poolt, sest et lasteaiaõpetaja, ma"
+      },
+      {
+        "start_seconds": 1725.16,
+        "end_seconds": 1728.76,
+        "text": "üldse ei taha hakata vinguma, virisema, kõik on väga hästi."
+      },
+      {
+        "start_seconds": 1728.76,
+        "end_seconds": 1734.8,
+        "text": "Aga elu on kallis ja ma saan olla õpetaja oma mehe kõrval."
+      },
+      {
+        "start_seconds": 1734.8,
+        "end_seconds": 1741.44,
+        "text": "Aitäh, kas keegi sooviks kommenteerida eelkõnelejat?"
+      },
+      {
+        "start_seconds": 1741.44,
+        "end_seconds": 1745.8,
+        "text": "Läheme siis edasi, teil oli vallavalitsus ja ajakirjanikud."
+      },
+      {
+        "start_seconds": 1745.8,
+        "end_seconds": 1747.88,
+        "text": "Ei, mul oli vallavalitsus."
+      },
+      {
+        "start_seconds": 1747.88,
+        "end_seconds": 1753.48,
+        "text": "Jah, ajakirjanikega olen ka kokku puutunud, ma võin paar sõna nende aadressil ka öelda"
+      },
+      {
+        "start_seconds": 1753.48,
+        "end_seconds": 1754.32,
+        "text": "."
+      },
+      {
+        "start_seconds": 1754.32,
+        "end_seconds": 1762.12,
+        "text": "Aga kui nüüd rääkida vallavalitsuse negatiivsest küljest, siis nemad näevad lastea"
+      },
+      {
+        "start_seconds": 1762.12,
+        "end_seconds": 1769.84,
+        "text": "edasid väga suure kulukohana, nad on heitnud ette, et ühe lapse lasteaia teekond"
+      },
+      {
+        "start_seconds": 1769.84,
+        "end_seconds": 1775.6,
+        "text": "võrdsustub siis summaarselt ühe sõiduauto hinnaga, mis nad sinna iga lapse peale sisse"
+      },
+      {
+        "start_seconds": 1775.6,
+        "end_seconds": 1777.48,
+        "text": "panevad."
+      },
+      {
+        "start_seconds": 1777.48,
+        "end_seconds": 1783.52,
+        "text": "Ja, ja õudusunenägu on nende jaoks, kui jälle riiklikult õpetajate palk tõuseb, siis"
+      },
+      {
+        "start_seconds": 1783.52,
+        "end_seconds": 1787.4,
+        "text": "nad peaksid ju seda ühtlustama, et üheksakümmend protsenti õpetajate palk alammäärast"
+      },
+      {
+        "start_seconds": 1787.4,
+        "end_seconds": 1792.52,
+        "text": "oleks siis lasteaiaõpetajate palk ja väga paljud val- , vallavalitsused kardavad, et"
+      },
+      {
+        "start_seconds": 1792.52,
+        "end_seconds": 1796.92,
+        "text": "nad ei suuda enam seda tagada, kui veel juhtub, et see õpetajate palk veelgi rohkem tõ"
+      },
+      {
+        "start_seconds": 1796.92,
+        "end_seconds": 1798.12,
+        "text": "useb."
+      },
+      {
+        "start_seconds": 1798.12,
+        "end_seconds": 1804.2,
+        "text": "Et suurim hirm neil on, et äkki peab palkasid tõstma ja eelarvet suurendama."
+      },
+      {
+        "start_seconds": 1804.2,
+        "end_seconds": 1810.72,
+        "text": "Aga kindlasti on teistsuguseid omavalitsusi, kus ei ole nii suur hirm ja on, on, olla"
+      },
+      {
+        "start_seconds": 1810.72,
+        "end_seconds": 1818.6,
+        "text": "kse uhked oma lasteaedade üle ja toetatakse neid ja, ja nähakse siiski sellise"
+      },
+      {
+        "start_seconds": 1818.6,
+        "end_seconds": 1824.16,
+        "text": "positiivse asjana, et, et neil on lasteaiad, aga vallavalitsused on väga palju ikkagi"
+      },
+      {
+        "start_seconds": 1824.16,
+        "end_seconds": 1827.88,
+        "text": "seda lasteaeda nagu teenusepakkujat."
+      },
+      {
+        "start_seconds": 1827.88,
+        "end_seconds": 1833.64,
+        "text": "Ja, ja on ka selliseid vallavalitsusi, kes mõtlevad rohkem siis seda, et, et lasteva"
+      },
+      {
+        "start_seconds": 1833.64,
+        "end_seconds": 1838.24,
+        "text": "nematel oleks võimalikult mugav seda teenust saada."
+      },
+      {
+        "start_seconds": 1838.24,
+        "end_seconds": 1844.68,
+        "text": "Et avame kõik lasteaiad suvel ka, et vanem saaks siis ka suvel kasutada seda teenust"
+      },
+      {
+        "start_seconds": 1844.68,
+        "end_seconds": 1845.4,
+        "text": "."
+      },
+      {
+        "start_seconds": 1845.4,
+        "end_seconds": 1851.52,
+        "text": "Ja, ja igasuguseid põnevaid mõtteid on neil siis, et aga seda nad ei mõtle, kuidas siis"
+      },
+      {
+        "start_seconds": 1851.52,
+        "end_seconds": 1857.16,
+        "text": "lasteaednik puhata saab või, või kokk seal lasteaias, et kui me peame suvi läbi lahti"
+      },
+      {
+        "start_seconds": 1857.16,
+        "end_seconds": 1860.24,
+        "text": "hoidma lasteaedasid."
+      },
+      {
+        "start_seconds": 1860.24,
+        "end_seconds": 1863.2,
+        "text": "Et kuidas üldse korraldada seda tööd."
+      },
+      {
+        "start_seconds": 1863.2,
+        "end_seconds": 1870.6,
+        "text": "Aga ajakirjanikud on selgelt öelnud mulle, kui ma olen küsinud, et, et vahest on ju väga"
+      },
+      {
+        "start_seconds": 1870.6,
+        "end_seconds": 1876.64,
+        "text": "toredaid teemasid ka, mida kajastada positiivseid, siis nad on öelnud, et need ei müü"
+      },
+      {
+        "start_seconds": 1876.64,
+        "end_seconds": 1880.44,
+        "text": ", et kõige huvitavam ikka need teemad, kui midagi on halvasti."
+      },
+      {
+        "start_seconds": 1880.44,
+        "end_seconds": 1887.4,
+        "text": "Et see toob lugejaid, et siis, kui keegi lasteaias kaduma läheb ja, ja peolel teisel"
+      },
+      {
+        "start_seconds": 1887.4,
+        "end_seconds": 1892.0,
+        "text": ", et siis sellest võib suure artikli vorpida, aga et kui mõni lasteaed teeb mingeid väga"
+      },
+      {
+        "start_seconds": 1892.0,
+        "end_seconds": 1899.52,
+        "text": "toreda asja, siis pigem ainult õpetajate leht kajastab seda, kui siis muu meedia."
+      },
+      {
+        "start_seconds": 1899.52,
+        "end_seconds": 1906.76,
+        "text": "Et müüb siis lööv aja, lööv selline, lööv lugu, kus on midagi hirmsa"
+      },
+      {
+        "start_seconds": 1906.76,
+        "end_seconds": 1909.24,
+        "text": "t juhtunud lasteaias."
+      },
+      {
+        "start_seconds": 1909.24,
+        "end_seconds": 1925.92,
+        "text": "Kas teil on midagi lisa lisada siin ajakirjaniku ja vallavalitsuse rollile?"
+      },
+      {
+        "start_seconds": 1925.92,
+        "end_seconds": 1931.0,
+        "text": "Mina seisin juhtkonna eest."
+      },
+      {
+        "start_seconds": 1931.0,
+        "end_seconds": 1933.76,
+        "text": "Ma tahaks rääkida ikkagi head."
+      },
+      {
+        "start_seconds": 1933.76,
+        "end_seconds": 1940.76,
+        "text": "Et ma ei tea, meie majas vähemalt, juhtkonna liikmena, kus ma olen, on suur rõhk iga"
+      },
+      {
+        "start_seconds": 1940.76,
+        "end_seconds": 1945.0,
+        "text": "päevasest elust, me mõtleme, et kuidas teha nii, et õpetajal oleks hea, kuidas nad peaks"
+      },
+      {
+        "start_seconds": 1945.0,
+        "end_seconds": 1947.56,
+        "text": "id täitma vähem pabereid."
+      },
+      {
+        "start_seconds": 1947.56,
+        "end_seconds": 1953.52,
+        "text": "Kuidas muuta nende koormust, väheke kergemaks, et leida asendajaid, et maksta õpetaja"
+      },
+      {
+        "start_seconds": 1953.52,
+        "end_seconds": 1955.92,
+        "text": "tele asendustasusid."
+      },
+      {
+        "start_seconds": 1955.92,
+        "end_seconds": 1963.12,
+        "text": "Et pidada neid meeles väikeste meenetega, kas õpetajate päeva, naistepäeval,"
+      },
+      {
+        "start_seconds": 1963.12,
+        "end_seconds": 1967.72,
+        "text": "jõuludel igasugustel muudel tähtpäevadel."
+      },
+      {
+        "start_seconds": 1967.72,
+        "end_seconds": 1975.08,
+        "text": "Kuidas leida neile töörõivaid, jopesid, kummikuid, ma ei tea, mida kõike veel."
+      },
+      {
+        "start_seconds": 1975.08,
+        "end_seconds": 1978.68,
+        "text": "Nii et selles mõttes."
+      },
+      {
+        "start_seconds": 1978.68,
+        "end_seconds": 1985.48,
+        "text": "Ma arvan, et juhtkond saab palju teha ja hoian positiivset meelt."
+      },
+      {
+        "start_seconds": 1985.48,
+        "end_seconds": 1987.72,
+        "text": "Läheme siit edasi."
+      },
+      {
+        "start_seconds": 1987.72,
+        "end_seconds": 1993.2,
+        "text": "Nii minu teema oli see õppe ise, mida ära saaks teha, on ikkagi see tassi täitmine ja"
+      },
+      {
+        "start_seconds": 1993.2,
+        "end_seconds": 2000.32,
+        "text": "enda arendamine ja ja kohalolek hetkes ja samuti ka suhete juhtimine nii-öelda siis,"
+      },
+      {
+        "start_seconds": 2000.32,
+        "end_seconds": 2007.68,
+        "text": "sest õpetaja peab ju siduma kokku lapsed, pered, omavalitsuse lasteaia juhtkonna,"
+      },
+      {
+        "start_seconds": 2007.68,
+        "end_seconds": 2012.24,
+        "text": "et, et tal peab olema see suhete juhtimise oskus, et see võiks olla isegi, ma nüüd ei"
+      },
+      {
+        "start_seconds": 2012.24,
+        "end_seconds": 2017.44,
+        "text": "ole ise tegelikult ju õpetajaks õppinud, et mul on pedagoogilised kompetentsid ainult"
+      },
+      {
+        "start_seconds": 2017.44,
+        "end_seconds": 2018.0,
+        "text": "."
+      },
+      {
+        "start_seconds": 2018.0,
+        "end_seconds": 2024.12,
+        "text": "Aga ma näen seda, mul on majandusalane magister, et ma näen, et olen erinevates laste"
+      },
+      {
+        "start_seconds": 2024.12,
+        "end_seconds": 2028.92,
+        "text": "aedades käinud ja see nii-öelda muudatuste juhtimine, suhete juhtimine on väga kõiku"
+      },
+      {
+        "start_seconds": 2028.92,
+        "end_seconds": 2032.56,
+        "text": "va kvaliteediga, see tegelikult mõjutab õpetaja tööd päris palju."
+      },
+      {
+        "start_seconds": 2032.56,
+        "end_seconds": 2038.6,
+        "text": "Et just, et isegi kui õpetaja on innovatiivne ja, ja soovib koos vanematega, hooleko"
+      },
+      {
+        "start_seconds": 2038.6,
+        "end_seconds": 2043.52,
+        "text": "guga midagi teha, siis teinekord piirdubki see ainult selle sooviga, et see jääb ikkagi"
+      },
+      {
+        "start_seconds": 2043.52,
+        "end_seconds": 2047.2,
+        "text": "piiridesse kinni, et omavalitsus ei tule näiteks kaasa."
+      },
+      {
+        "start_seconds": 2047.2,
+        "end_seconds": 2051.6,
+        "text": "Et, et see on nagu minu arust just see taustajõud on hästi oluline või ja õpetaja ise"
+      },
+      {
+        "start_seconds": 2051.6,
+        "end_seconds": 2056.64,
+        "text": "saabki siis sellega seoses järeldusi teha või siis iseennast arendada või vaadata mu"
+      },
+      {
+        "start_seconds": 2056.64,
+        "end_seconds": 2063.48,
+        "text": "jale või või õppida juurde, et et hästi oluline on jah, et ise olla hästi enesekindel"
+      },
+      {
+        "start_seconds": 2063.48,
+        "end_seconds": 2069.76,
+        "text": "ja teada, mis sa teed, sest sina ju oled see eeskuju lastele ja peredele ja."
+      },
+      {
+        "start_seconds": 2069.76,
+        "end_seconds": 2070.76,
+        "text": "Aitäh."
+      },
+      {
+        "start_seconds": 2070.76,
+        "end_seconds": 2078.28,
+        "text": "Kas ma võin siit selle ühendava kaare tõmmata sinnapoole, kus räägiti sellest, et"
+      },
+      {
+        "start_seconds": 2078.28,
+        "end_seconds": 2084.76,
+        "text": "kui oluline roll on õpetajal lastevanematega suhte ja koostöösuhte ehitamisel ja siit"
+      },
+      {
+        "start_seconds": 2084.76,
+        "end_seconds": 2090.96,
+        "text": "tuleb minu arvates veel üks küsimus, et kui palju seal õpetajahariduse andmise ja saa"
+      },
+      {
+        "start_seconds": 2090.96,
+        "end_seconds": 2097.6,
+        "text": "mise protsessis seda muudatuste juhtimist ja suhete juhtimist puudutatakse?"
+      },
+      {
+        "start_seconds": 2097.6,
+        "end_seconds": 2100.92,
+        "text": "Ja kui palju täiendõppes seda puudutatakse?"
+      },
+      {
+        "start_seconds": 2100.92,
+        "end_seconds": 2105.84,
+        "text": "No ütleme, et see ongi väga kõikuva kvaliteediga ja mis on minu jaoks ka oluline, et"
+      },
+      {
+        "start_seconds": 2105.84,
+        "end_seconds": 2110.64,
+        "text": "nii mõnigi õpetaja ei ole tegelikult aru saanud, kui oluline on õpetaja roll, et see"
+      },
+      {
+        "start_seconds": 2110.64,
+        "end_seconds": 2115.52,
+        "text": "lapse alushariduse noh, aeg, kui ta on väike, et see on nii väga oluline, igasugu sõna"
+      },
+      {
+        "start_seconds": 2115.52,
+        "end_seconds": 2119.68,
+        "text": ", igasugu tegu nagu siin on eelnevates paneelidest tulnud välja."
+      },
+      {
+        "start_seconds": 2119.68,
+        "end_seconds": 2123.68,
+        "text": "Et see ei ole niisama, et ma lähen lihtsalt teen selle töö ära, et see on nagu kurite"
+      },
+      {
+        "start_seconds": 2123.68,
+        "end_seconds": 2124.84,
+        "text": "gelik isegi."
+      },
+      {
+        "start_seconds": 2124.84,
+        "end_seconds": 2129.48,
+        "text": "Et minu meelest just see teadlikkus, et mis õpetaja töö tegelikult tähendab, võib-olla"
+      },
+      {
+        "start_seconds": 2129.48,
+        "end_seconds": 2133.96,
+        "text": "võiks seda rohkem rääkima lahti koolis või kuskil avalikus ruumis rohkem."
+      },
+      {
+        "start_seconds": 2133.96,
+        "end_seconds": 2139.04,
+        "text": "No mulle tundub, et siis see ongi seesama asi, et mida me kuulsime sealt ministeerium"
+      },
+      {
+        "start_seconds": 2139.04,
+        "end_seconds": 2143.84,
+        "text": "i rolli kohta, et kui tähtis see on väga hea."
+      },
+      {
+        "start_seconds": 2143.84,
+        "end_seconds": 2148.12,
+        "text": "Mulle jääb mulje, et me oleme praktikud, õpetajad on praktikud, heal juhul õppejuht on"
+      },
+      {
+        "start_seconds": 2148.12,
+        "end_seconds": 2153.32,
+        "text": "praktik, siis on natuke halvemini kui enam laste direktor ei ole praktik, vaid ta on"
+      },
+      {
+        "start_seconds": 2153.32,
+        "end_seconds": 2157.96,
+        "text": "läinud sinna administratiivi ja selle majand, noh, selle no raha on oluline, aga lihtsalt"
+      },
+      {
+        "start_seconds": 2157.96,
+        "end_seconds": 2162.44,
+        "text": "paljusid asju saab teha väga hästi läbi rääkides ja väiksema kuluga."
+      },
+      {
+        "start_seconds": 2162.44,
+        "end_seconds": 2167.12,
+        "text": "Ja siis see läheb sinna ülesse võib-olla ei ole enam seda praktikuid seal, et et noh"
+      },
+      {
+        "start_seconds": 2167.12,
+        "end_seconds": 2171.68,
+        "text": ", seal ongi see, et ikkagi need lõhestumine on minu meelest olemas."
+      },
+      {
+        "start_seconds": 2171.68,
+        "end_seconds": 2175.68,
+        "text": "Aitäh, saime veel ühe seose ministeeriumiga siia juurde."
+      },
+      {
+        "start_seconds": 2175.68,
+        "end_seconds": 2180.76,
+        "text": "Palun vabandust ministeeriumi esindajaga, noh, mina näen asju nagu altpoolt ja teine"
+      },
+      {
+        "start_seconds": 2180.76,
+        "end_seconds": 2186.88,
+        "text": "kord."
+      },
+      {
+        "start_seconds": 2186.88,
+        "end_seconds": 2191.2,
+        "text": "Nii meil minul oli siis kolleegid ja, ja Riigikogu liikmed oli meil kahe peal või kolm"
+      },
+      {
+        "start_seconds": 2191.2,
+        "end_seconds": 2196.28,
+        "text": "e peale tegelikult, kas oli midagi sarnast?"
+      },
+      {
+        "start_seconds": 2196.28,
+        "end_seconds": 2200.92,
+        "text": "No midagi ikka sarnast jah, et tuleb seda head märgata kolleegide enda puhul ka, et,"
+      },
+      {
+        "start_seconds": 2200.92,
+        "end_seconds": 2205.24,
+        "text": "et sa märkad, mida teine hästi teeb või millest ta nagu tugev on."
+      },
+      {
+        "start_seconds": 2205.24,
+        "end_seconds": 2211.12,
+        "text": "Ja teiselt poolt märgata seda, kui kolleegil ei lähe hästi või ta tunnebki ennast st"
+      },
+      {
+        "start_seconds": 2211.12,
+        "end_seconds": 2217.04,
+        "text": "ressis või, või see töö heaolu ei ole nii hea, et siis sa oskad märgata ja toetada ja"
+      },
+      {
+        "start_seconds": 2217.04,
+        "end_seconds": 2219.36,
+        "text": ", ja tuge pakkuda nagu enda poolt."
+      },
+      {
+        "start_seconds": 2219.36,
+        "end_seconds": 2223.88,
+        "text": "Et see on see, kuidas sa nagu väärtustad ja, ja üks kolleeg, kes meil siin vahepeal oli"
+      },
+      {
+        "start_seconds": 2223.88,
+        "end_seconds": 2228.36,
+        "text": ", siis tema poolt tuligi just see, et kuidas negatiivselt on, et kuidas seal on siis"
+      },
+      {
+        "start_seconds": 2228.36,
+        "end_seconds": 2234.4,
+        "text": "need kas eelarvamused või, või see võimuvõitlus õpetajate kolleegide vahel, et, et noh"
+      },
+      {
+        "start_seconds": 2234.4,
+        "end_seconds": 2238.48,
+        "text": ", et mina olen vanem ja mina tean rohkem ja sina oled noori alles tulnud või, või vastu"
+      },
+      {
+        "start_seconds": 2238.48,
+        "end_seconds": 2245.28,
+        "text": "pidi, et noor toob uusi teadmisi on ju ja, ja, ja vanad ei võta vastu, et, et selline"
+      },
+      {
+        "start_seconds": 2245.28,
+        "end_seconds": 2252.8,
+        "text": ", ei ole üksteise toetamist, vaid kuidagi just ärategemist üksteisele."
+      },
+      {
+        "start_seconds": 2252.8,
+        "end_seconds": 2257.16,
+        "text": "See on see organisatsiooni kultuuri see varjatud osa, teadlik juht teab, millisest koos"
+      },
+      {
+        "start_seconds": 2257.16,
+        "end_seconds": 2259.92,
+        "text": "neb varjatud osa, ta käib kohvinurgas ja kuulab."
+      },
+      {
+        "start_seconds": 2259.92,
+        "end_seconds": 2264.0,
+        "text": "Üks asi on see, mis on kokku lepitud, teine asi on see, mida siis salamisi toimetatakse"
+      },
+      {
+        "start_seconds": 2264.0,
+        "end_seconds": 2268.56,
+        "text": ", mis tegelikult näit- , määrabki ära selle organisatsiooni näo."
+      },
+      {
+        "start_seconds": 2268.56,
+        "end_seconds": 2274.32,
+        "text": "Et seal tekivadki need noh, nagu ütleme sellised võimuvõitlused või töökius või sellise"
+      },
+      {
+        "start_seconds": 2274.32,
+        "end_seconds": 2278.56,
+        "text": "d asjad või siis õpetaja on täiesti üksi jäetud, et see on kõik sellega seotud, kuidas"
+      },
+      {
+        "start_seconds": 2278.56,
+        "end_seconds": 2282.64,
+        "text": "need tegelikult hoiakud on, et need ei ole need, mis võib olla seina peal on üles kirjuta"
+      },
+      {
+        "start_seconds": 2282.64,
+        "end_seconds": 2285.44,
+        "text": "tud, et et seal ongi see."
+      },
+      {
+        "start_seconds": 2285.44,
+        "end_seconds": 2290.0,
+        "text": "Kas ma järeldan sellest, et sa ütled, et ka see, kuidas kolleegid omavahel on, et see"
+      },
+      {
+        "start_seconds": 2290.0,
+        "end_seconds": 2292.52,
+        "text": "on juhtides kinni?"
+      },
+      {
+        "start_seconds": 2292.52,
+        "end_seconds": 2297.32,
+        "text": "See on selles mõttes juhtides kinni, et juhid on ju eeskujuks nende kaudu tuleb see ho"
+      },
+      {
+        "start_seconds": 2297.32,
+        "end_seconds": 2301.64,
+        "text": "iak, mida me aktsepteerime, mida, mis on nulltolerants."
+      },
+      {
+        "start_seconds": 2301.64,
+        "end_seconds": 2306.52,
+        "text": "Kui see jääb leigeks või ükskõikseks, siis on ju kohe dominantsetel inimestel nagu ro"
+      },
+      {
+        "start_seconds": 2306.52,
+        "end_seconds": 2310.52,
+        "text": "heline tuli selles mõttes, et ah, ma võin ikkagi seal rühmavaikuses seda teha, et ega"
+      },
+      {
+        "start_seconds": 2310.52,
+        "end_seconds": 2316.08,
+        "text": "ta ju ei näe, noh, tekib niisugune nagu amoraalsuse mingid punktid sinna juurde, on ju"
+      },
+      {
+        "start_seconds": 2316.08,
+        "end_seconds": 2320.64,
+        "text": ", noh minu minu see kogemus või kui ma vaatlen nagu töökeskkondi või noh, lihtsalt pu"
+      },
+      {
+        "start_seconds": 2320.64,
+        "end_seconds": 2325.8,
+        "text": "htast huvist ka, et siis tulebki välja sellised mustrid, see ei ole ainult lasteaeda"
+      },
+      {
+        "start_seconds": 2325.8,
+        "end_seconds": 2329.88,
+        "text": "des, see on ka tegelikult ju erasektoris, ükskõik kus on rohkem grupp inimesi koos, kus"
+      },
+      {
+        "start_seconds": 2329.88,
+        "end_seconds": 2334.88,
+        "text": "on tegemist organisatsiooniga, noh see on hea õnn, kui on väga head iseloomud kokku sa"
+      },
+      {
+        "start_seconds": 2334.88,
+        "end_seconds": 2339.84,
+        "text": "ttunud või selline väga selge eesmärk, aga vot seal ongi see, et kui eesmärgi fookus"
+      },
+      {
+        "start_seconds": 2339.84,
+        "end_seconds": 2343.64,
+        "text": "läheb paigast ära, et siis hakatakse kõige muuga tegelema, nii et noh, tegelikult on"
+      },
+      {
+        "start_seconds": 2343.64,
+        "end_seconds": 2346.88,
+        "text": "ju fookus ikkagi laste arendamine, laste heaolu."
+      },
+      {
+        "start_seconds": 2346.88,
+        "end_seconds": 2353.16,
+        "text": "Et see muu on, ei tuleks üldse lubada nagu sellist kiusamist ja asju."
+      },
+      {
+        "start_seconds": 2353.16,
+        "end_seconds": 2359.04,
+        "text": "Aitäh, nii, aga kolleegide kõrval on nüüd Riigikogu liikmed."
+      },
+      {
+        "start_seconds": 2359.04,
+        "end_seconds": 2364.2,
+        "text": "Tere, et mina saan rääkida täna isiklikust kogemusest, kuna mina olen Eesti Lasteadlik"
+      },
+      {
+        "start_seconds": 2364.2,
+        "end_seconds": 2370.72,
+        "text": "e Liidu esinaine, et siis ma puutun peaaegu igapäevaselt kokku, kas siis ministeerium"
+      },
+      {
+        "start_seconds": 2370.72,
+        "end_seconds": 2375.08,
+        "text": "i esindajatega või siis Riigikogu liikmetega."
+      },
+      {
+        "start_seconds": 2375.08,
+        "end_seconds": 2381.2,
+        "text": "Et ma ostisin sinisilmselt kaua aega, uskusin, et alusharidus ei ole poliitiline tee"
+      },
+      {
+        "start_seconds": 2381.2,
+        "end_seconds": 2382.88,
+        "text": ", niisugune valdkond."
+      },
+      {
+        "start_seconds": 2382.88,
+        "end_seconds": 2388.32,
+        "text": "Ja siis oh üllatust, ilmselt te teate, et mingi neli aastat äkki vist, aga see aeg läheb"
+      },
+      {
+        "start_seconds": 2388.32,
+        "end_seconds": 2394.72,
+        "text": "ruttu, oli niisugune suur üleriigiline skandaal alushariduse õppekava ümber ja siis ma"
+      },
+      {
+        "start_seconds": 2394.72,
+        "end_seconds": 2402.0,
+        "text": "tajusin esimest korda, et et, et ma ei salli rumalust, et ma ei salli ruma"
+      },
+      {
+        "start_seconds": 2402.0,
+        "end_seconds": 2408.12,
+        "text": "lust, mõtlematust ja lauslollust, et et mul on väga hea meel sellel ajal tagasi vaadata"
+      },
+      {
+        "start_seconds": 2408.12,
+        "end_seconds": 2415.48,
+        "text": ", et see näitas tegelikult seda, kui operatiivselt on lasteaednikud valmis pa"
+      },
+      {
+        "start_seconds": 2415.48,
+        "end_seconds": 2422.6,
+        "text": "nema seljad kokku ja hakkama tegema õiget asja, et et olid väga-väga palju kohtumisi"
+      },
+      {
+        "start_seconds": 2422.6,
+        "end_seconds": 2428.88,
+        "text": "Kristi Vinter, kantslerina tõesti müts maha tegi, tegi väga head tööd ja, ja väga palju"
+      },
+      {
+        "start_seconds": 2428.88,
+        "end_seconds": 2433.96,
+        "text": "häid dialooge oli ja, ja saime selle asjaga lõpuks määra, see asi pandi seisma."
+      },
+      {
+        "start_seconds": 2433.96,
+        "end_seconds": 2440.4,
+        "text": "Ja, ja siis on üks asi veel, mis mind nagu hämmastab, on see, et et see alusharidus tuleb"
+      },
+      {
+        "start_seconds": 2440.4,
+        "end_seconds": 2443.52,
+        "text": "alati fookusesse siis, kui on valimised lähenemas."
+      },
+      {
+        "start_seconds": 2443.52,
+        "end_seconds": 2447.72,
+        "text": "No ilmselt ka need hulkuvad kassid-koerad ja kosmoseteemad ja no kõik asjad, eks ju,"
+      },
+      {
+        "start_seconds": 2447.72,
+        "end_seconds": 2448.28,
+        "text": "et."
+      },
+      {
+        "start_seconds": 2448.28,
+        "end_seconds": 2454.64,
+        "text": "Ja, ja nüüd potsatab ka ikka iga erakond potsatab mulle siis siis postkasti ühe kirja"
+      },
+      {
+        "start_seconds": 2454.64,
+        "end_seconds": 2460.32,
+        "text": "ja, ja palub siis uurida, et mis on nagu alushariduse kitsaskohad täna, mida nemad siis"
+      },
+      {
+        "start_seconds": 2460.32,
+        "end_seconds": 2466.24,
+        "text": "saaksid oma valimisplatvormi panna ja, ja minna siis sellega siis üldsuse ette ja ja"
+      },
+      {
+        "start_seconds": 2466.24,
+        "end_seconds": 2469.32,
+        "text": "ma ei tea siis odavat või kallis populaarsust koguda."
+      },
+      {
+        "start_seconds": 2469.32,
+        "end_seconds": 2475.04,
+        "text": "Ja ega, ega neid teemasid, millega nagu Riigikogu otse saab nagu teha, et et ega neid"
+      },
+      {
+        "start_seconds": 2475.04,
+        "end_seconds": 2480.0,
+        "text": "väga palju ei ole, et valdavalt on see kohaliku omavalitsuse tasand, sisulised asjad"
+      },
+      {
+        "start_seconds": 2480.0,
+        "end_seconds": 2481.32,
+        "text": "ministeeriumist."
+      },
+      {
+        "start_seconds": 2481.32,
+        "end_seconds": 2486.44,
+        "text": "Aga üks asi kindlasti, mis, mille taga on alati Riigikogu otsus, on, on, see on alus"
+      },
+      {
+        "start_seconds": 2486.44,
+        "end_seconds": 2489.64,
+        "text": "haridus õpetajate palk, et tahame või taha, ma ei tea, kuidas teiega, mina käin küll"
+      },
+      {
+        "start_seconds": 2489.64,
+        "end_seconds": 2495.16,
+        "text": "palga pärast ainult tööl, et kui nagu palka ei saaks, ma seda tööd ilmselt ei teeks."
+      },
+      {
+        "start_seconds": 2495.16,
+        "end_seconds": 2502.04,
+        "text": "Et te ilmselt kõik teate, et see alusharidus õpetaja palgamiinimum on määratud riigi"
+      },
+      {
+        "start_seconds": 2502.04,
+        "end_seconds": 2506.92,
+        "text": "poolt, eks ju, Lasteadake Liit võitles selle eest üheksa aastat tagasi ja me saime selle"
+      },
+      {
+        "start_seconds": 2506.92,
+        "end_seconds": 2511.52,
+        "text": "paika pandud, sest et hästi suured käärid olid palga vahel."
+      },
+      {
+        "start_seconds": 2511.52,
+        "end_seconds": 2516.2,
+        "text": "Ja ja õnneks oli siis ministeeriumis selline tore minister, kes juhtumisi ühel kohtu"
+      },
+      {
+        "start_seconds": 2516.2,
+        "end_seconds": 2521.16,
+        "text": "misel küsis, et aga, et kuidas te suhtute sellesse ettepanekusse, et me seome lastea"
+      },
+      {
+        "start_seconds": 2521.16,
+        "end_seconds": 2525.64,
+        "text": "iaõpetaja palga kooli õpetaja palgaga ja see tähendas ka automaatselt seda, et kui kooli"
+      },
+      {
+        "start_seconds": 2525.64,
+        "end_seconds": 2529.6,
+        "text": "õpetajate palk tõuseb, et siis laste õpetajate palk tõuseb samamoodi."
+      },
+      {
+        "start_seconds": 2529.6,
+        "end_seconds": 2534.64,
+        "text": "Ja nüüd on siis, kus Anneli oled seal oma vallavalitsusega, eks ju."
+      },
+      {
+        "start_seconds": 2534.64,
+        "end_seconds": 2540.84,
+        "text": "Et kohalikud omavalitsused on nüüd väga selle vastu, et see seotus eksju jätkub."
+      },
+      {
+        "start_seconds": 2540.84,
+        "end_seconds": 2547.88,
+        "text": "Et nad ütlevad, et see seotus on vaja lahti siduda ja iga jõulupaiku siis saame meie"
+      },
+      {
+        "start_seconds": 2547.88,
+        "end_seconds": 2554.64,
+        "text": "signaali, et jällegi on siis riigikogus küsimuse all, et selle, selle sidususe määruse"
+      },
+      {
+        "start_seconds": 2554.64,
+        "end_seconds": 2556.48,
+        "text": "peaks tegema kehtetuks."
+      },
+      {
+        "start_seconds": 2556.48,
+        "end_seconds": 2562.04,
+        "text": "Õnneks on kaine mõistus praegu siis võitnud ja, ja kui me küsime, et miks te seda taha"
+      },
+      {
+        "start_seconds": 2562.04,
+        "end_seconds": 2568.0,
+        "text": "te nagu lahti siduda, et et nad nagu vastavad need omavalitsused, siis KOV-i esindajad"
+      },
+      {
+        "start_seconds": 2568.0,
+        "end_seconds": 2573.32,
+        "text": ", et et ärge muretsege, me tõstame nagunii seda palka, aga nad seome ta lihtsalt nagu"
+      },
+      {
+        "start_seconds": 2573.32,
+        "end_seconds": 2577.56,
+        "text": "lahti ja siis tekibki küsimus, et kui ta nagunii tõstate palka, et miks siis seda nagu"
+      },
+      {
+        "start_seconds": 2577.56,
+        "end_seconds": 2579.08,
+        "text": "lahti siduda, eks ju."
+      },
+      {
+        "start_seconds": 2579.08,
+        "end_seconds": 2584.88,
+        "text": "Nii et see määrus on praegu nagu Riigikogu käes, et ma väga loodan, et see määrus ke"
+      },
+      {
+        "start_seconds": 2584.88,
+        "end_seconds": 2587.52,
+        "text": "htib veel ka veel ka edasi."
+      },
+      {
+        "start_seconds": 2587.52,
+        "end_seconds": 2592.88,
+        "text": "Ja, ja noh, üks asi võib-olla, millele veel tähelepanu pöörata, on ka see, et, et kui"
+      },
+      {
+        "start_seconds": 2592.88,
+        "end_seconds": 2598.2,
+        "text": "on vaja, kui seesama, seesama, see palgateema, eks ju ka, et et meil on see toetusfon"
+      },
+      {
+        "start_seconds": 2598.2,
+        "end_seconds": 2603.24,
+        "text": "d viisteist miljonit, mis ei ole minu meelest üle viie aasta suurenenud, et omavalitsus"
+      },
+      {
+        "start_seconds": 2603.24,
+        "end_seconds": 2606.92,
+        "text": "el oleks jõudu seda palka siis viia sellele tasemele."
+      },
+      {
+        "start_seconds": 2606.92,
+        "end_seconds": 2611.04,
+        "text": "Ja nüüd eelmine või üle-eelmine aasta tuli üks miljon juurde, ma ei tea, kus kaevati"
+      },
+      {
+        "start_seconds": 2611.04,
+        "end_seconds": 2615.4,
+        "text": "igal juhul see leiti siis juurde, et riigil on kogu aeg väga vähe raha, et me ei saa"
+      },
+      {
+        "start_seconds": 2615.4,
+        "end_seconds": 2620.16,
+        "text": "sinna fondi raha juurde panna, aga mis minister ütles raha kohta?"
+      },
+      {
+        "start_seconds": 2620.16,
+        "end_seconds": 2626.44,
+        "text": "Raha on meil Eesti riigis S-tähega asi, eks ju, te ise teate ja minu lähisugulane tööta"
+      },
+      {
+        "start_seconds": 2626.44,
+        "end_seconds": 2632.08,
+        "text": "b rahandusministeeriumis ja kinnitab seda, et et see on lihtsalt vaja üles leida."
+      },
+      {
+        "start_seconds": 2632.08,
+        "end_seconds": 2639.36,
+        "text": "Ja, ja kindlasti ka see asi, et, et kui meil on vaja kuskil esineda püünel kõla"
+      },
+      {
+        "start_seconds": 2639.36,
+        "end_seconds": 2645.96,
+        "text": "vaid lauseid kõnepuldist öelda, siis on alusharidus loob tulevikku, et see on niisugu"
+      },
+      {
+        "start_seconds": 2645.96,
+        "end_seconds": 2648.08,
+        "text": "ne tüüpiline slogan, eks ju."
+      },
+      {
+        "start_seconds": 2648.08,
+        "end_seconds": 2652.88,
+        "text": "Aga kui me lähme nagu tegudeni ja nagu päriselt mingisugust suuremat visiooni oleks vaja"
+      },
+      {
+        "start_seconds": 2652.88,
+        "end_seconds": 2658.08,
+        "text": "või või midagi nagu päriselt ära teha, et et siis on kõik nagu kadunud, et siis jäetakse"
+      },
+      {
+        "start_seconds": 2658.08,
+        "end_seconds": 2664.36,
+        "text": "ministeerium üksi, jäetakse vabaühendused üksi, õpetajad üksi, et et mina nagu ootan"
+      },
+      {
+        "start_seconds": 2664.36,
+        "end_seconds": 2668.92,
+        "text": "riigipoolset sellist päris nagu väärtustamist, mitte ei ole ainult raha, vaid et või"
+      },
+      {
+        "start_seconds": 2668.92,
+        "end_seconds": 2673.48,
+        "text": "d ka võiks ka mingi kindlam suurem visioon olla, et kuhu me liigume ja miks."
+      },
+      {
+        "start_seconds": 2673.48,
+        "end_seconds": 2680.72,
+        "text": "Ehk siis sinu käest kuulsime seda, et positiivne on see, kui on olemas pikaaja"
+      },
+      {
+        "start_seconds": 2680.72,
+        "end_seconds": 2688.0,
+        "text": "line tulevikunägemus, kui lihtsalt ei käida järgmise valimistsükli eel kala"
+      },
+      {
+        "start_seconds": 2688.0,
+        "end_seconds": 2695.04,
+        "text": "stamas punkte, vaid tahetakse sisuliselt selle valdkonna arengu eesmärke kokku leppi"
+      },
+      {
+        "start_seconds": 2695.04,
+        "end_seconds": 2697.28,
+        "text": "da ja neid siis ka ellu viia."
+      },
+      {
+        "start_seconds": 2697.28,
+        "end_seconds": 2702.4,
+        "text": "See on siis positiivne pool ja kõik see, mis me kuulsime nende varjukülgedena, see on"
+      },
+      {
+        "start_seconds": 2702.4,
+        "end_seconds": 2704.36,
+        "text": "see, mida mitte teha."
+      },
+      {
+        "start_seconds": 2704.36,
+        "end_seconds": 2705.92,
+        "text": "Väga hea."
+      },
+      {
+        "start_seconds": 2705.92,
+        "end_seconds": 2713.04,
+        "text": "Nonii me vist oleme kõik kõik need erinevad rollid läbi käinud,"
+      },
+      {
+        "start_seconds": 2713.04,
+        "end_seconds": 2715.24,
+        "text": "mõni ei saanud."
+      },
+      {
+        "start_seconds": 2715.24,
+        "end_seconds": 2720.8,
+        "text": "Siit nüüd otsest tähelepanu, aga mulle tundub, et need seosed olid olemas ka kogukond"
+      },
+      {
+        "start_seconds": 2720.8,
+        "end_seconds": 2721.92,
+        "text": "."
+      },
+      {
+        "start_seconds": 2721.92,
+        "end_seconds": 2727.16,
+        "text": "Ja perekond on kogukonna väiksem element, eks ju, et võib-olla seal on ka samasugused"
+      },
+      {
+        "start_seconds": 2727.16,
+        "end_seconds": 2734.4,
+        "text": "teemad, nii et ma arvan, et me oleme valmis nüüd tegema kolmanda, neljanda isegi"
+      },
+      {
+        "start_seconds": 2734.4,
+        "end_seconds": 2735.64,
+        "text": "nüüd juba neljanda jah."
+      },
+      {
+        "start_seconds": 2735.64,
+        "end_seconds": 2738.24,
+        "text": "Neljanda siis paiknemise."
+      },
+      {
+        "start_seconds": 2738.24,
+        "end_seconds": 2743.76,
+        "text": "Et kui me vaatame neid rolle, neid on siis kaks, neli, kuus, kaheksa, kümme, kaksteist"
+      },
+      {
+        "start_seconds": 2743.76,
+        "end_seconds": 2745.64,
+        "text": "ikka endiselt tosin."
+      },
+      {
+        "start_seconds": 2745.64,
+        "end_seconds": 2752.88,
+        "text": "Tosin rolli ümber õpetaja on, teeme nagu setu kuninga valimisel nüüd selle valiku"
+      },
+      {
+        "start_seconds": 2752.88,
+        "end_seconds": 2760.0,
+        "text": ", et reastame kõik inimesed, kes me siin muruplatsil oleme, selle rolli taha, kellest"
+      },
+      {
+        "start_seconds": 2760.0,
+        "end_seconds": 2765.48,
+        "text": "kõige rohkem sõltub, et õpetaja tunneb ennast väärtustatuna ja hoituna."
+      },
+      {
+        "start_seconds": 2765.48,
+        "end_seconds": 2772.52,
+        "text": "Kaksteist rolli on ja lei- , leia see koht, kus sinu arvates on see"
+      },
+      {
+        "start_seconds": 2772.52,
+        "end_seconds": 2777.72,
+        "text": "olulisim mõju õpetaja rolli väärtustatusele."
+      },
+      {
+        "start_seconds": 2777.72,
+        "end_seconds": 2784.6,
+        "text": "Siin on lapsevanemad, siin on omavalitsuse inimesed, ajakirjanikud, lasteasutuse juh"
+      },
+      {
+        "start_seconds": 2784.6,
+        "end_seconds": 2788.84,
+        "text": "id, õpetaja ise, kogukond."
+      },
+      {
+        "start_seconds": 2788.84,
+        "end_seconds": 2794.12,
+        "text": "Liigi, ma loen need ette, riigikogu liikmed, õpetajahariduse andjad, ministeeriumi esi"
+      },
+      {
+        "start_seconds": 2794.12,
+        "end_seconds": 2798.4,
+        "text": "ndajad, õpetaja pere, lapsed ja kolleegid."
+      },
+      {
+        "start_seconds": 2798.4,
+        "end_seconds": 2805.16,
+        "text": "Kel, kellel on suurim mõju sellele, et õpetaja alushariduse õpetaja tunneb ennast Eestis"
+      },
+      {
+        "start_seconds": 2805.16,
+        "end_seconds": 2811.48,
+        "text": "väärtustatuna ja hoituna, kellel on suurim mõju, leia see ja mine sinna niimoodi rit"
+      },
+      {
+        "start_seconds": 2811.48,
+        "end_seconds": 2814.08,
+        "text": "ta."
+      },
+      {
+        "start_seconds": 2814.08,
+        "end_seconds": 2818.48,
+        "text": "Leia see roll ja mine ritta."
+      },
+      {
+        "start_seconds": 2818.48,
+        "end_seconds": 2819.92,
+        "text": "Kas sina tahaks ka tulla?"
+      },
+      {
+        "start_seconds": 2819.92,
+        "end_seconds": 2824.32,
+        "text": "Rita?"
+      },
+      {
+        "start_seconds": 2824.32,
+        "end_seconds": 2830.84,
+        "text": "Nii milline see on see roll?"
+      },
+      {
+        "start_seconds": 2830.84,
+        "end_seconds": 2835.52,
+        "text": "Nii kuidas meil siis on, praegu tundub, et."
+      },
+      {
+        "start_seconds": 2835.52,
+        "end_seconds": 2839.12,
+        "text": "Kah- , kaheks korraga ei saa olla, saab ainult ühe valida."
+      },
+      {
+        "start_seconds": 2839.12,
+        "end_seconds": 2844.52,
+        "text": "Nii, hakkame siis lugema, kas minu silmad ütlevad õigesti praegu, et siin lapsevanema"
+      },
+      {
+        "start_seconds": 2844.52,
+        "end_seconds": 2846.36,
+        "text": "l on kaks."
+      },
+      {
+        "start_seconds": 2846.36,
+        "end_seconds": 2854.12,
+        "text": "Ei vallavalitsusel on üks, juhtkonnal on kolm, õpetaja ise on"
+      },
+      {
+        "start_seconds": 2854.12,
+        "end_seconds": 2862.36,
+        "text": "kokku viis, ministeerium mul on kolm ehk et õpetaja"
+      },
+      {
+        "start_seconds": 2862.36,
+        "end_seconds": 2870.4,
+        "text": "ise, Haridus- ja teadusministeerium ja juhtkond on siis meie edetabel, jah."
+      },
+      {
+        "start_seconds": 2870.4,
+        "end_seconds": 2872.96,
+        "text": "Kas sa tahad riigikogu liikmed panna ministeeriumi juurde?"
+      },
+      {
+        "start_seconds": 2872.96,
+        "end_seconds": 2877.28,
+        "text": "Vaata, me just arutasime, et, et need justkui ei ole samad, et ametnikud ja poliitik"
+      },
+      {
+        "start_seconds": 2877.28,
+        "end_seconds": 2883.32,
+        "text": "ud on ikkagi erinevad, kuidas eesmärgid on jah erinevad, sest poliit- ."
+      },
+      {
+        "start_seconds": 2883.32,
+        "end_seconds": 2889.24,
+        "text": "Ja selles mõttes küll, aga me võime, nad on seotud selgelt poliitikakujundajad ja ame"
+      },
+      {
+        "start_seconds": 2889.24,
+        "end_seconds": 2894.2,
+        "text": "tnikud on seotud, aga ärme jäta neid päris, ärme neid päris kokku pane."
+      },
+      {
+        "start_seconds": 2894.2,
+        "end_seconds": 2899.96,
+        "text": "Kuidas tundub see pilt?"
+      },
+      {
+        "start_seconds": 2899.96,
+        "end_seconds": 2907.4,
+        "text": "Juhtasutuse juhid, õpetajad ise ja ministeerium."
+      },
+      {
+        "start_seconds": 2907.4,
+        "end_seconds": 2911.84,
+        "text": "Aga nüüd siin, siin ja praegu meile tundub niimoodi."
+      },
+      {
+        "start_seconds": 2911.84,
+        "end_seconds": 2917.48,
+        "text": "Leila, mis me järgmisena teeme, kui me oleme saanud sellised read siia?"
+      },
+      {
+        "start_seconds": 2917.48,
+        "end_seconds": 2924.36,
+        "text": "Nüüd võiks vestelda selle rolli taha, rolli taga olijad, et miks te valisite selle, miks"
+      },
+      {
+        "start_seconds": 2924.36,
+        "end_seconds": 2926.48,
+        "text": "see on oluline?"
+      },
+      {
+        "start_seconds": 2926.48,
+        "end_seconds": 2929.6,
+        "text": "Miks see on mõjusam?"
+      },
+      {
+        "start_seconds": 2929.6,
+        "end_seconds": 2940.04,
+        "text": "Ja vallavalitsus ja lapsevanemad võiksid siis, et sa ei jääks üksi."
+      },
+      {
+        "start_seconds": 2940.04,
+        "end_seconds": 2948.16,
+        "text": "Annan seitse minutit."
+      },
+      {
+        "start_seconds": 2948.16,
+        "end_seconds": 2954.04,
+        "text": "Nii kõnekõma vist on, nii palju vaibumas, et teeme nüüd ühe püstijalaringi."
+      },
+      {
+        "start_seconds": 2954.04,
+        "end_seconds": 2959.68,
+        "text": "Tõmbame kõik, jääge oma selle rollikaaslastega ühte kohta, aga püüame nagu ringi tõm"
+      },
+      {
+        "start_seconds": 2959.68,
+        "end_seconds": 2964.08,
+        "text": "mata siia kokku, tulge vallavalitsuse rollis olijad siiapoole."
+      },
+      {
+        "start_seconds": 2964.08,
+        "end_seconds": 2969.28,
+        "text": "Jah, nii, aga nii, et oled, püsite oma rollide lähistel."
+      },
+      {
+        "start_seconds": 2969.28,
+        "end_seconds": 2973.96,
+        "text": "Ja lähme siis väiksemast suuremani."
+      },
+      {
+        "start_seconds": 2973.96,
+        "end_seconds": 2981.52,
+        "text": "Kas mul oli õigesti meeles, et vallavalitsus sai ühe ühe punkti, ole hea"
+      },
+      {
+        "start_seconds": 2981.52,
+        "end_seconds": 2984.52,
+        "text": ", mis on soovitus vallavalitsusele?"
+      },
+      {
+        "start_seconds": 2984.52,
+        "end_seconds": 2991.0,
+        "text": "Ma, ma ei tea, kuidas Eestis on praegu olukord, aga kindlasti oleks hea, kui igas oma"
+      },
+      {
+        "start_seconds": 2991.0,
+        "end_seconds": 2996.44,
+        "text": "valitsuses oleks kindlasti haridus ja kultuurikomisjon ja selle komisjoni liikmed ei"
+      },
+      {
+        "start_seconds": 2996.44,
+        "end_seconds": 3000.08,
+        "text": "peaks olema pensionile läinud ooperilauljad."
+      },
+      {
+        "start_seconds": 3000.08,
+        "end_seconds": 3005.56,
+        "text": "Et seal võiksid siiski olla vastava haridusega inimesed ja eriti hea oleks veel, kui"
+      },
+      {
+        "start_seconds": 3005.56,
+        "end_seconds": 3011.64,
+        "text": "omavalitsuses oleks olemas ka eraldi alushariduse nõunik ja alushariduse taustaga ja"
+      },
+      {
+        "start_seconds": 3011.64,
+        "end_seconds": 3017.32,
+        "text": "siis me soovitan hästi kiiresti veel, et iga, iga vallavalitsuse töötaja võiks tulla"
+      },
+      {
+        "start_seconds": 3017.32,
+        "end_seconds": 3019.84,
+        "text": "kaks päeva lasteaias töötada."
+      },
+      {
+        "start_seconds": 3019.84,
+        "end_seconds": 3022.24,
+        "text": "See on tõeliselt hea soovitus."
+      },
+      {
+        "start_seconds": 3022.24,
+        "end_seconds": 3028.16,
+        "text": "Nii siis, kas minu mälu ütleb õigesti, et siis sealt järgmine oli lapsevanemad ja mis"
+      },
+      {
+        "start_seconds": 3028.16,
+        "end_seconds": 3031.4,
+        "text": ", mis mis on soovitus lapsevanema rollile?"
+      },
+      {
+        "start_seconds": 3031.4,
+        "end_seconds": 3036.72,
+        "text": "Tegelikult me täpselt sama soovitus, et kaks päeva lasteaias töötada."
+      },
+      {
+        "start_seconds": 3036.72,
+        "end_seconds": 3037.76,
+        "text": "Siis väga palju."
+      },
+      {
+        "start_seconds": 3037.76,
+        "end_seconds": 3040.16,
+        "text": "Probleemid läheks ära."
+      },
+      {
+        "start_seconds": 3040.16,
+        "end_seconds": 3042.8,
+        "text": "Ehk siis ise seal keskel olemine."
+      },
+      {
+        "start_seconds": 3042.8,
+        "end_seconds": 3045.16,
+        "text": "Nii ja siis oli järgmine roll."
+      },
+      {
+        "start_seconds": 3045.16,
+        "end_seconds": 3051.8,
+        "text": "Ja see oli juhtkonna roll, eks, ja sinna tuli siis ja sama palju kui riigis poliitik"
+      },
+      {
+        "start_seconds": 3051.8,
+        "end_seconds": 3058.64,
+        "text": "akujundajate rollile inimesi taha ehk siis mõjus roll, mis on soovitus?"
+      },
+      {
+        "start_seconds": 3058.64,
+        "end_seconds": 3064.8,
+        "text": "Soovitus on siis ühine kommunikatsioon ja õpetajate kaasamine."
+      },
+      {
+        "start_seconds": 3064.8,
+        "end_seconds": 3067.2,
+        "text": "Kellega ühine kommunikatsioon õpetajatega?"
+      },
+      {
+        "start_seconds": 3067.2,
+        "end_seconds": 3069.92,
+        "text": "Õpetajatega."
+      },
+      {
+        "start_seconds": 3069.92,
+        "end_seconds": 3072.64,
+        "text": "Aitäh ja kaasamine kuhu?"
+      },
+      {
+        "start_seconds": 3072.64,
+        "end_seconds": 3073.84,
+        "text": "Otsustusprotsessidesse."
+      },
+      {
+        "start_seconds": 3073.84,
+        "end_seconds": 3074.8,
+        "text": "Juhtimisse."
+      },
+      {
+        "start_seconds": 3074.8,
+        "end_seconds": 3079.04,
+        "text": "Juhtimisse erinevate olukordade lahendamisse."
+      },
+      {
+        "start_seconds": 3079.04,
+        "end_seconds": 3085.96,
+        "text": "Suur tänu nii ja enne kui me anname sõna õpetajale, siis nüüd ma tahaks teada, mis siis"
+      },
+      {
+        "start_seconds": 3085.96,
+        "end_seconds": 3090.4,
+        "text": "poliitikakujundajatele ja ametnikele soovitus on."
+      },
+      {
+        "start_seconds": 3090.4,
+        "end_seconds": 3092.8,
+        "text": "Mis on sellele rollile soovitus?"
+      },
+      {
+        "start_seconds": 3092.8,
+        "end_seconds": 3099.88,
+        "text": "No meie ikkagi jõudsime sinnasamma tagasi, et, et kui meil ühiskonnas mingit"
+      },
+      {
+        "start_seconds": 3099.88,
+        "end_seconds": 3107.64,
+        "text": "haridusastmed on kokku lepitud, et need on kohustuslikud, siis meil"
+      },
+      {
+        "start_seconds": 3107.64,
+        "end_seconds": 3113.0,
+        "text": "e tundus, et, et kui alusharidus ei ole kohustuslik, siis järelikult see tähendab, et"
+      },
+      {
+        "start_seconds": 3113.0,
+        "end_seconds": 3116.16,
+        "text": "see kuidagi on ühiskonnale vähem tähtis."
+      },
+      {
+        "start_seconds": 3116.16,
+        "end_seconds": 3122.08,
+        "text": "Et me näeme, et alusharidus võiks muutuda kohustuslikuks, mis ei tähenda seda ilmtingi"
+      },
+      {
+        "start_seconds": 3122.08,
+        "end_seconds": 3125.84,
+        "text": "mata, et iga laps peaks käima lasteaias."
+      },
+      {
+        "start_seconds": 3125.84,
+        "end_seconds": 3133.04,
+        "text": "Võib-olla mõni laps saab selle kohustusliku alushariduse mingil muul moel, aga mis mis"
+      },
+      {
+        "start_seconds": 3133.04,
+        "end_seconds": 3137.84,
+        "text": "iganes seda ju ka arutati siin vahepeal, et, et toimub mingisugune hindamine või, või"
+      },
+      {
+        "start_seconds": 3137.84,
+        "end_seconds": 3139.72,
+        "text": ", või, või kuidas seda tehakse."
+      },
+      {
+        "start_seconds": 3139.72,
+        "end_seconds": 3145.2,
+        "text": "Ma ei tea, mõni lapsevanem on ise pedagoog tugeva taustaga, kuidas iganes."
+      },
+      {
+        "start_seconds": 3145.2,
+        "end_seconds": 3150.44,
+        "text": "Et aga et, et kui me ütleme, et alusharidus ei ole kohustus, kohustuslik, siis järelikult"
+      },
+      {
+        "start_seconds": 3150.44,
+        "end_seconds": 3154.8,
+        "text": "me ütleme, et see ei ole nii oluline, mis tähendab seda, et me ütleme, et ka õpetaja"
+      },
+      {
+        "start_seconds": 3154.8,
+        "end_seconds": 3157.76,
+        "text": "ei ole alushariduses nii oluline."
+      },
+      {
+        "start_seconds": 3157.76,
+        "end_seconds": 3166.12,
+        "text": "Suur tänu ja kõige rohkem kõige mõjusam õpetaja hoituse jaoks on õpetaja ise"
+      },
+      {
+        "start_seconds": 3166.12,
+        "end_seconds": 3169.08,
+        "text": "meie tänase sellise sotsiodraama tulemuse."
+      },
+      {
+        "start_seconds": 3169.08,
+        "end_seconds": 3175.32,
+        "text": "Põhiteema on ikkagi eneseväärtustamine selline täiskasvanulik hoiak ja teadlikkus ise"
+      },
+      {
+        "start_seconds": 3175.32,
+        "end_seconds": 3181.92,
+        "text": "enda võimetest, see on tee nagu enesearendusele ja, ja selle suhete kvaliteedile ka."
+      },
+      {
+        "start_seconds": 3181.92,
+        "end_seconds": 3189.92,
+        "text": "Kui sa oled ise nii-öelda austav teiste suhtes ja, ja ei ole mingit ho"
+      },
+      {
+        "start_seconds": 3189.92,
+        "end_seconds": 3195.52,
+        "text": "iakute küüsis ja sa ei lase lahti nendest, et sa ei ole avatud maailmavaatega, et siis"
+      },
+      {
+        "start_seconds": 3195.52,
+        "end_seconds": 3199.52,
+        "text": "ma arvan, see on nagu kõige alus, et siis sa ka oskad öelda, et mis on murekoht näiteks"
+      },
+      {
+        "start_seconds": 3199.52,
+        "end_seconds": 3202.04,
+        "text": "rühmatöös."
+      },
+      {
+        "start_seconds": 3202.04,
+        "end_seconds": 3206.6,
+        "text": "Julgus kindlasti läheb ju ka siis sinna alla, kui sa oled enesekindel ja enesega rahu"
+      },
+      {
+        "start_seconds": 3206.6,
+        "end_seconds": 3211.68,
+        "text": "l, siis sa ju tead, mis on sinu soovid ja eesmärgid ja sa liigud nende poole."
+      },
+      {
+        "start_seconds": 3211.68,
+        "end_seconds": 3216.4,
+        "text": "Ja see tegelikult ei olene sellest, et kas mu keskkond lapsepõlves on raske või keeru"
+      },
+      {
+        "start_seconds": 3216.4,
+        "end_seconds": 3221.12,
+        "text": "line, see on ikkagi inimloomuses kinni, et ma just enne rääkisime, et minu lapsepõlv"
+      },
+      {
+        "start_seconds": 3221.12,
+        "end_seconds": 3222.84,
+        "text": "oli väga raske."
+      },
+      {
+        "start_seconds": 3222.84,
+        "end_seconds": 3227.76,
+        "text": "Et ma olin nagu pidingi täitsa ise hakkama saama, et mul ei olnud nagu toetavad vane"
+      },
+      {
+        "start_seconds": 3227.76,
+        "end_seconds": 3228.28,
+        "text": "maid."
+      },
+      {
+        "start_seconds": 3228.28,
+        "end_seconds": 3233.72,
+        "text": "Et olid, aga nad tegid, tegelesid kõige muuga ja see teadmine, et sa ise saad oma elu"
+      },
+      {
+        "start_seconds": 3233.72,
+        "end_seconds": 3236.88,
+        "text": "muuta, on tulnud mulle elu jooksul ja see on väga oluline."
+      },
+      {
+        "start_seconds": 3236.88,
+        "end_seconds": 3242.72,
+        "text": "Et siis tuleb ka sealt kõik muu tööga rahulolu ja, ja parem laste õpetamise arendamise"
+      },
+      {
+        "start_seconds": 3242.72,
+        "end_seconds": 3244.64,
+        "text": "kvaliteet."
+      },
+      {
+        "start_seconds": 3244.64,
+        "end_seconds": 3249.04,
+        "text": "Et suur-suur tänu, kas keegi tahab midagi täiendada?"
+      },
+      {
+        "start_seconds": 3249.04,
+        "end_seconds": 3250.0,
+        "text": "Kokkuvõte pigem."
+      },
+      {
+        "start_seconds": 3250.0,
+        "end_seconds": 3254.4,
+        "text": "Enesejuhtimine ja peegel, peegelneuronid leiutati juba kolmkümmend aastat tagasi."
+      },
+      {
+        "start_seconds": 3254.4,
+        "end_seconds": 3258.4,
+        "text": "Et kui me peame seda ju arvesse võtma, me ei saa sellest nagu mööda vaadata, et see,"
+      },
+      {
+        "start_seconds": 3258.4,
+        "end_seconds": 3263.6,
+        "text": "et klass on see, mis mina ikkagi olen ja kohe esimesest päevast, kui nad sealt uksest"
+      },
+      {
+        "start_seconds": 3263.6,
+        "end_seconds": 3268.72,
+        "text": "sisse astuvad, saab neid hakata mõjutama, kujundama ja ehk siis seda keskkonda, kus nad"
+      },
+      {
+        "start_seconds": 3268.72,
+        "end_seconds": 3273.92,
+        "text": "õpivad ja ette valmistada alati ka suhtlus iga õpilasega."
+      },
+      {
+        "start_seconds": 3273.92,
+        "end_seconds": 3275.08,
+        "text": "Aitäh."
+      },
+      {
+        "start_seconds": 3275.08,
+        "end_seconds": 3282.12,
+        "text": "Suur-suur tänu, me oleme jõudnud üsna heasse kohta ehk siis finišisirgele ja selle su"
+      },
+      {
+        "start_seconds": 3282.12,
+        "end_seconds": 3289.44,
+        "text": "itsu draama lõpetuseks on tähtis nüüd teada saada, mida igaüks võtab kaasa."
+      },
+      {
+        "start_seconds": 3289.44,
+        "end_seconds": 3294.52,
+        "text": "Ja ma teeks nüüd nii, et ma panen sealtpoolt otsast, selle mikrofoni liikuma."
+      },
+      {
+        "start_seconds": 3294.52,
+        "end_seconds": 3301.76,
+        "text": "Ütle üks mõte, mis sa võtad täna siit sellest pooleteisest tunnist kaasa ja siis anna"
+      },
+      {
+        "start_seconds": 3301.76,
+        "end_seconds": 3302.32,
+        "text": "edasi."
+      },
+      {
+        "start_seconds": 3302.32,
+        "end_seconds": 3316.04,
+        "text": "See võib olla üks sõna, see võib olla üks mõte, aga hästi kontsentraat."
+      },
+      {
+        "start_seconds": 3316.04,
+        "end_seconds": 3323.4,
+        "text": "Ma alustan, et meie, mina olen era"
+      },
+      {
+        "start_seconds": 3323.4,
+        "end_seconds": 3330.88,
+        "text": "sektori esindaja ja ühiskonnas püütakse jätta kuidagi seda muljet, et, et era"
+      },
+      {
+        "start_seconds": 3330.88,
+        "end_seconds": 3336.68,
+        "text": "sektor on kuidagi avaliku sektori vastu alushariduses, mis absoluutselt nii ei ole."
+      },
+      {
+        "start_seconds": 3336.68,
+        "end_seconds": 3343.96,
+        "text": "Meie ainukene sõnum on see, et, et erasektoril võiks olla ka võimalus osa lüü"
+      },
+      {
+        "start_seconds": 3343.96,
+        "end_seconds": 3352.32,
+        "text": "a, osa saada alusharidusest ja kaasa lüüa ja mina võtan kaasa selle, et tegelikult praegu"
+      },
+      {
+        "start_seconds": 3352.32,
+        "end_seconds": 3352.6,
+        "text": "."
+      },
+      {
+        "start_seconds": 3352.6,
+        "end_seconds": 3360.08,
+        "text": "Ma vabandust nimedega jään hätta, aga ma näen, et meil on ühisosasid väga palju õpetaja"
+      },
+      {
+        "start_seconds": 3360.08,
+        "end_seconds": 3367.08,
+        "text": "tega munitsipaal-lasteaedades me tegelikult võitleme ühtede samade asjade eest."
+      },
+      {
+        "start_seconds": 3367.08,
+        "end_seconds": 3370.12,
+        "text": "Et kui me paneme seljad kokku."
+      },
+      {
+        "start_seconds": 3370.12,
+        "end_seconds": 3376.0,
+        "text": "Ma arvan, et erasektoril on nii mõndagi kaasa anda, et noh, näiteks seesama, et me siin"
+      },
+      {
+        "start_seconds": 3376.0,
+        "end_seconds": 3379.84,
+        "text": "täna oleme, on ju erasektori initsiatiiv, see võiks olla hoopis, ma ei tea, ministeerium"
+      },
+      {
+        "start_seconds": 3379.84,
+        "end_seconds": 3382.88,
+        "text": "või kes iganes, et, et me neid asju arutame."
+      },
+      {
+        "start_seconds": 3382.88,
+        "end_seconds": 3388.56,
+        "text": "Et, et ühesõnaga mina võtan selle positiivse siit ringist kaasa, et meil on väga palju"
+      },
+      {
+        "start_seconds": 3388.56,
+        "end_seconds": 3393.04,
+        "text": "ühiseid teemasid, mida koos arutada."
+      },
+      {
+        "start_seconds": 3393.04,
+        "end_seconds": 3395.56,
+        "text": "Ma siis teen kontsentreeritult."
+      },
+      {
+        "start_seconds": 3395.56,
+        "end_seconds": 3399.96,
+        "text": "Alushariduse väärtustamine, läbipaistev rahastamine."
+      },
+      {
+        "start_seconds": 3399.96,
+        "end_seconds": 3402.28,
+        "text": "Aitäh."
+      },
+      {
+        "start_seconds": 3402.28,
+        "end_seconds": 3404.56,
+        "text": "Üks mõte, mille võtad kaasa."
+      },
+      {
+        "start_seconds": 3404.56,
+        "end_seconds": 3409.12,
+        "text": "Alusharidus on oluline osa haridussüsteemis."
+      },
+      {
+        "start_seconds": 3409.12,
+        "end_seconds": 3413.28,
+        "text": "Aitäh."
+      },
+      {
+        "start_seconds": 3413.28,
+        "end_seconds": 3419.88,
+        "text": "Mina jõudsin siia natuke hilja ja ma sain kohe osa sellest ringist, seetõttu ei kuul"
+      },
+      {
+        "start_seconds": 3419.88,
+        "end_seconds": 3422.2,
+        "text": "nud ma seda eelnevat, ei oskagi praegu pakkuda."
+      },
+      {
+        "start_seconds": 3422.2,
+        "end_seconds": 3429.36,
+        "text": "Aga sellest, millest sa osa said, mis sa sellest võtad kaasa?"
+      },
+      {
+        "start_seconds": 3429.36,
+        "end_seconds": 3434.96,
+        "text": "Ütleme positiivse suhtumise ja palju häid mõtteid."
+      },
+      {
+        "start_seconds": 3434.96,
+        "end_seconds": 3436.72,
+        "text": "Aitäh."
+      },
+      {
+        "start_seconds": 3436.72,
+        "end_seconds": 3438.32,
+        "text": "Üks mõte, mille võtad kaasa."
+      },
+      {
+        "start_seconds": 3438.32,
+        "end_seconds": 3440.68,
+        "text": "Peeglisse on vaja vaadata."
+      },
+      {
+        "start_seconds": 3440.68,
+        "end_seconds": 3442.88,
+        "text": "Aitäh."
+      },
+      {
+        "start_seconds": 3442.88,
+        "end_seconds": 3450.44,
+        "text": "Kogemuste jagamine, teadlik koostöö iseenda ja teistega."
+      },
+      {
+        "start_seconds": 3450.44,
+        "end_seconds": 3455.92,
+        "text": "Tuli see algus meelde, kui me mustvalgelt pidime neid pooli vahetama ja siis, kui ma"
+      },
+      {
+        "start_seconds": 3455.92,
+        "end_seconds": 3461.56,
+        "text": "nüüd siia õpetaja ise kohale seisin, et selle üle ma nüüd õhtul kodus mõtlen, ehk siis"
+      },
+      {
+        "start_seconds": 3461.56,
+        "end_seconds": 3465.0,
+        "text": "sa said tegelikult muuta seda perspektiivi, kuulen ma."
+      },
+      {
+        "start_seconds": 3465.0,
+        "end_seconds": 3468.8,
+        "text": "Aitäh."
+      },
+      {
+        "start_seconds": 3468.8,
+        "end_seconds": 3474.28,
+        "text": "Ma tegelikult täiendaksin vist seda mõtet, et alusharidus on väga oluline alusharidus"
+      },
+      {
+        "start_seconds": 3474.28,
+        "end_seconds": 3479.4,
+        "text": "on tegelikult kõige alus, ütleksin mina."
+      },
+      {
+        "start_seconds": 3479.4,
+        "end_seconds": 3485.76,
+        "text": "Mina ütleks, et oluline ongi õpetajad märgata kõikide nende erinevate rollide, rolli"
+      },
+      {
+        "start_seconds": 3485.76,
+        "end_seconds": 3493.36,
+        "text": "poolt just et me märkaks ja tunnustaks ja ja peegel esimesel kohal ma sain aru."
+      },
+      {
+        "start_seconds": 3493.36,
+        "end_seconds": 3504.56,
+        "text": "Ja."
+      },
+      {
+        "start_seconds": 3504.56,
+        "end_seconds": 3508.72,
+        "text": "Aitäh, väärtused paika, aitäh."
+      },
+      {
+        "start_seconds": 3508.72,
+        "end_seconds": 3513.88,
+        "text": "Jaa, et ma loen siit ekraani pealt, et aga kes siis hoiab õpetajat, et ennekõike õpetaja"
+      },
+      {
+        "start_seconds": 3513.88,
+        "end_seconds": 3520.4,
+        "text": "ise, et see on tegelikult üks kutsepädevusi ka, et iseennast hoida."
+      },
+      {
+        "start_seconds": 3520.4,
+        "end_seconds": 3528.32,
+        "text": "Minul oli väga põnev sotsiodraama meetodit näha, et see oli huvitav ja siis"
+      },
+      {
+        "start_seconds": 3528.32,
+        "end_seconds": 3533.84,
+        "text": "ma ütleks sellise lause, mis on Eesti Lasteaednike Liidu moto, et väärtustades Eesti"
+      },
+      {
+        "start_seconds": 3533.84,
+        "end_seconds": 3536.24,
+        "text": "lasteaiaõpetajat."
+      },
+      {
+        "start_seconds": 3536.24,
+        "end_seconds": 3538.88,
+        "text": "Aitäh."
+      },
+      {
+        "start_seconds": 3538.88,
+        "end_seconds": 3545.88,
+        "text": "Võib-olla see, et seal ongi neid rolle nii palju, et see avardas silmavaadet natuke."
+      },
+      {
+        "start_seconds": 3545.88,
+        "end_seconds": 3553.36,
+        "text": "Suur tänu, meie oleme teile väga tänulikud, et tulite, et ja"
+      },
+      {
+        "start_seconds": 3553.36,
+        "end_seconds": 3559.36,
+        "text": "gasite mõtteid ja me anname teile kaasa siis selle üks lehe, kus mõlemal poolel on te"
+      },
+      {
+        "start_seconds": 3559.36,
+        "end_seconds": 3566.68,
+        "text": "il äkki hetk, kas õhtul teetassi juures või homme hommikul hommikukohvi juures käia need"
+      },
+      {
+        "start_seconds": 3566.68,
+        "end_seconds": 3573.56,
+        "text": "küsimused läbi ja enda jaoks veel kord siis seda selitada, mis te kuulsite, mis te ja"
+      },
+      {
+        "start_seconds": 3573.56,
+        "end_seconds": 3579.64,
+        "text": "gasite ja usutavasti, siis sotsio draama ei olnud nii hirmutav, et kui järgmine kord"
+      },
+      {
+        "start_seconds": 3579.64,
+        "end_seconds": 3587.52,
+        "text": "me tuleme mõnda sellist formaati pakkuma, et siis olete valmis ka kaasa tulema nii et"
+      },
+      {
+        "start_seconds": 3587.52,
+        "end_seconds": 3593.24,
+        "text": "Leila ja Triinu ja Krissi poolt suur aitäh ja mõnusat arvamusfestivali jätku ja sisu"
+      },
+      {
+        "start_seconds": 3593.24,
+        "end_seconds": 3594.88,
+        "text": "kaid arutelusid."
+      },
+      {
+        "start_seconds": 3594.88,
+        "end_seconds": 3604.16,
+        "text": "Aitäh nüüd"
+      },
+      {
+        "start_seconds": 3604.16,
+        "end_seconds": 3610.354,
+        "text": "või siis ära arva"
+      }
+    ]
+  }
+}

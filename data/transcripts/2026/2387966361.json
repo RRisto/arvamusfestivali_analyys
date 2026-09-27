@@ -1,0 +1,3606 @@
+{
+  "schema_version": 1,
+  "episode": {
+    "id": "2387966361",
+    "rss_guid": "tag:soundcloud,2010:tracks/2387966361",
+    "title": "Euroopa Liidu heitekaubandus_ rohepöörasus või nutikas poliitika_",
+    "published_at": "2026-08-25T12:51:46Z",
+    "apple_collection_id": 1477431807,
+    "page_url": "https://soundcloud.com/arvamusfestival/euroopa-liidu-heitekaubandus_rohepoorasus-voi-nutikas-poliitika-6",
+    "audio_url": "https://feeds.soundcloud.com/stream/2387966361-arvamusfestival-euroopa-liidu-heitekaubandus_rohepoorasus-voi-nutikas-poliitika-6.mp3",
+    "audio_bytes": 59308452,
+    "audio_sha256": "b25ef2feecd3e67f00603763257b9cbfa7a30a7769b47f6334ac4713ee352023",
+    "duration_seconds": 3706.0
+  },
+  "transcription": {
+    "model": {
+      "name": "large",
+      "repository": "TalTechNLP/streaming-zipformer-large.et-en",
+      "revision": "2812262bd4fd5d4327dc09ca0e6c19e8a32a03d6",
+      "precision": "int8"
+    },
+    "runtime": {
+      "sherpa_onnx": "1.13.7",
+      "decoding_method": "modified_beam_search",
+      "threads": 4
+    },
+    "text": "Tere tulemast energilise majanduse alale, kus on, kus me käsitleme energiateemasid, aga mitte ainult, sest et järgmine teema on pigem kliima ja keskkonnapoliitika teema. Aga ka väga tihedalt seotud energiamajandusega. Me hakkame rääkima nimelt Euroopa Liidu CO-kahe heitkogustega kauplemise süsteemist ETS ehk siis rahvakeeliga CO-kahe kvoodikaubandusest. Seda arutelu korraldab Eesti Taastuvenergia Koda, mina olen Silver Sillak, Taastuvenergia Kojast. Meie arutelu kestab seekord tund aega ehk kuuskümmend minutit. Et üritame teha kiiremini kui tavaliselt. Ja meil on siin palutud teemat avama neli eksperti, aga kindlasti ootame ka teilt küsimusi ja, ja, ja kui aeg on küps, siis annan, annan selleks sõna ja meil peaks siin olema inimesed, kes aitavad mul mikrofoni. Siis kätte anda teile. Aga alustame teemaga pihta, et nii-öelda ets on siis olnud Euroopa Liidu kliimapoliitika nurgakivi aastast kaks tuhat viis. Miks me sellest räägime, eraldi siin Arvamusfestivalil täna. Seetõttu, et see on üsna eriline ja ka üsna oluline keskkonnapoliitika instrument, et see ei ole tavaline keskkonnamaks. See on selline turupõhine heitkoguste hinnastamise süsteem. Ja teiselt poolt see on olnud üsna mõjukas, et sellel on olnud ka, võiks öelda tavalisest keskkonnamaksust suurem mõju ja ilmselt tulevikus ka üha kasvav. Hea näide on see, et alates selle süsteemi kasutuselevõtust aastast kaks tuhat viis, Euroopa Liidu kasvuhoonegaaside heitkogused on vähenenud peaaegu nelikümmend protsenti. Samal ajal kui samas sektorites uus puhas majandus on kasvanud seitsekümmend üks protsenti, me räägime siis peamiselt elektri ja soojatootmise sektorist suurtest elektrijaamadest või, või soojuselektri koostootmisjaamadest. Samal ajal on selge, et, et teatud tööstusettevõtted või isegi tööstusharud on selle süsteemi tagajärjel konkurentsist välja langenud või välja langemas. Et, et on ka negatiivne mõju. Viimasena, miks me seda teemat täna avame, on sellepärast, et teema on väga päev päevakajaline, kuna äsja juulikuus Euroopa Komisjon on tulnud välja selle süsteemi reformi ettepanekuga mille kohta siis liikmesriigid, sealhulgas Eesti, hakkavad oma seisukohti kujundama ja neid Euroopa Nõukogus läbi vaidlema et siis see mingisugune kompromisslahendus kokku leppida, et, et siin võib tulla uusi, uusi suuri muutusi. Arutelu eesmärk on siis anda teile ja meile kõigile parem ülevaade sellest, mis see süsteem on ja kuidas seda võiks reformida. Selleks me oleme kutsunud siia kõigepealt kliimaministeeriumist kliimaosakonna juhataja Laura Remmelgas. Terevõtjate esindaja Gren Eesti äride juht Margo Külaots. Tere. Energeetikaekspert, Eesti Teaduste Akadeemiast ja mujalt Arvi Hamburg. Ja keskkonnaekspert kliima- ja keskkonnaekspert Ivo Krustok. Tere. Hetkel vabakutseline, suvi on. Ma suunakski esimese küsimuse siis kohe siit Laurale, et, et noh, see CO2 heitkogustega kauplemise süsteem inimesele, kes ei ole sellega nagu süvitsi kursis, võib kõlada natuke nagu selline raketiteadus, et kas sa oskad selgitada mulle ja meile noh, kujuta ette, et nagu ma oleks su vanaema või nagu ma oleks su viieaastane tütar või, või poeg, et kuidas sa selgitaksid, et kuidas see toimib? Ja et siin tuleb neid sõnu kindlasti väga läbi kaaluda, et kui nii keerulist ja tehnilist süsteemi proovida selgitada, aga hästi lihtsustatult öeldes on Euroopa Liidu heitkogustega kauplemise süsteem saastaja maksab süsteem ja selle eesmärk on olnud kulu tõhusalt vähendada Euroopa nii-öelda suurimate heitkoguste heitkoguseid tekitavate sektorite ehk siis energeetika, suurtööstus, heitkoguseid ja teha seda siis nii-öelda turupõhiselt. Et süsteem toimib põhimõttel, et, et iga aasta kohta antakse ette siis kui palju tonne CO kahte Euroopa Liidu peale kokku suurtööstused ja elektri tootmine õhku paisata tohib. Ja siis ettevõtetel on valik, et kas nad kompenseerivad oma heite, ostes siis neid ühikuid ja üks ühik vastab ühele tonnile CO kahe heitele. Või investeerivad puhtamatesse lahendustesse, et sõltuvalt sellest, mis on parasjagu kulutõhusam ja heitkoguste ühikute hind sõltub siis sellest, et mis, kui palju neid on ja kui palju neid vaja on ettevõtetel ehk siis nõudluspakkumise tulemusel. Ja nagu sa mainisid, on see süsteem Euroopas ennast tõestanud. Ma vaatasin viimased numbrid, et isegi viiskümmend protsenti on nende sektorite heide vähenenud ja, ja ma võib-olla parandan ka siin selle ära, et tegemist ei ole kuidagi maailmas erilise süsteemiga, et neid kauplemissüsteeme on tegelikult päris paljudes riikides ja ka kohalikul tasandil ja ka näiteks Ühendkuningriik, kes on Euroopa Liidust välja astunud, ka neil kauplemissüsteem jätkab ja nad hoiavad seda siis ka kooskõlas Euroopa Liidu süsteemiga. Aga jah, et et siin on ka küsitud, et tihti, et miks ei ole kehtestatud siis sellist konkreetset keskkonnamaksu ja, ja põhjus seisneb selles, et maks on tihti selline poliitiline kokkulepe, aga heikukstega kauplemissüsteemis see ühik ju hind tõesti kujunebki turupõhiselt. Kui ettevõtted paiskavad rohkem CO kahte õhku siis see hind ja samal ajal ühikud vähenevad, siis see hind läheb kõrgemaks kui aina rohkem ettevõtteid läheb puhtamale tööst-, tootmisele üle kiiremini kui ühikud süsteemis vähenevad, siis ka hind, hind langeb. Aga ma ei tea, võib-olla Ivo populaarteaduslik kokkuvõte sellele otsa aitab veel sel-. Ivo, soovid lisada midagi? Ei ega kõik on õige, et noh, põhimõte on hästi lihtlabane, kuigi süsteem ise on keeruline, et mida rohkem sa saastad, seda rohkem sa pead maksma või, või oma saastamise ära lõpetama, kokku tõmbama. Et meil noh, minnes nagu selliste väga tõsiste alusprintsiipideni ja sellesama küsimusena, et miks meil üldse heitkogustega kauplemise süsteem on, me teame selliseid nii-öelda tõsist, tõsiseid baasfakte meie maailma kohta, mida me peame arvestama kõikide oma poliitikate puhul. Me teame seda, et kasvuhoonegaasid on tõsine probleem keskkonnas, me teame seda, et fossiilkütuste põletamine toob kaasa väga tõsiseid tagajärge läbi kliimamuutuse ja nüüd, kui me vaatame seda, et kus, kus see probleem kõige tõsisem on, kus neid fossiilkütuseid kõige rohkem kasutatakse, kus see saaste on kõige suurem, siis me jõuame just nendesamade ettevõteteni, peamiselt nad toodavad elektrienergiat, nad toodavad erinevaid fossiilkütuste teri vaate, bensiine, erinevaid nii-öelda selliseid vedelkütuseid, nad toodavad väetiseid, teraseid, need on sellised suured mahukad tööstusettevõtted ja nendel on vaja mingisugust motiivi, et siis noh, nagu oma ärihuvide kõrval ka ka tegeleda siis sellesama saasteaine vähendamisega. Sa võid öelda tõesti, et noh, et me väga palume, et seda heidet vähendaksite, aga noh, nendel on endal ka keeruline, kui sa oled täna, eks ole, ettevõte, sina võid tahta midagi head teha, aga kui su konkurendid nii-öelda ei, ei huvitu, lasevad üle, noh siis lõpuks lihtsalt oma heatahtlikkusega lööd ennast konkurentsist välja, ehk siis meil on vaja ühist süsteemi, mis neid nii-öelda ettevõtteid, kes teevad hästi, kes saastavad vähem, kes innovatsiooni panustavad, uusi ärimudeleid välja töötavad, sa annad neile midagi positiivset. Eks nad ei pea maksma ja nendele, kes keelduvad muutumast, sa sead järjest kõrgema maksu, et ma arvan, et see, mis sa välja tõid, Laura, et, et noh, tegu ei ole päris klassikalise maksuga ja, ja ei saakski olla, on siin ka väga oluline, et, et heitkogustega kauplemise süsteem on üles ehitatud juba sellise mõttega, et et noh, okei, täna võib saastada nii palju, järgmine aasta natuke vähem ja nii edasi, et see, see nii-öelda hulk saastet, mis üldse on võimalik Euroopas nende ettevõtete poolt õhku paisata iga aastaga väheneb ja sellega siis nii-öelda see surve kasvab, see on ette nähtav, me teame, et üks hetk mingit tehnoloogiad peavad ära kaduma, me teame, et need ei ole mingi saja perspektiivis enam mõistlikud, nad korjatakse ära ja maks seda päris niimoodi ei tee, siis seda maksu peaks hakkama iga aasta läbi rääkima, tekiksid poliitilised jauramised natuke ühele teisele ja tegelikkuses see ettevõtete nii-öelda pikem vaade, et noh, et kuidas siis see kõik neid mõjutama hakkab, läheb veel hägusamaks, et see tegelikult ei ole hea mõte. No Margo, ma pöördun nüüd sinu poole, sa oled Greni juht, Gren on üks Eesti suurimaid energiaettevõtjaid, peamiselt toodate sooja kaugkütet Eesti mitmes linnas, aga ka elektrit. Teie jaamad on selles süsteemis osalevad juba ammu. Kuidas see süsteem on teid mõjutanud? Ja, ja võib-olla ka Eesti kaugküttesektorit siis tervikuna, sa oskad öelda? Jah, aitäh. Lisaks me tegutseme aktiivselt veel ka teises kahes Baltimaas ja, ja Ühendkuningriigis, aga aga kuidas see heitmekaubanduse süsteem on siis kaugküttesektorit mõjutanud, noh, kui me hakkame tulemustest tagantpoolt niimoodi tulemustest pihta, siis Eesti kaugküttest seitsekümmend viis protsenti rajaneb taastuvatel allikatel või siis heitsoojusel, heitsoojus on siis selline soojus, mida ei pea spetsiaalselt tootma, aga mis tekib mingisuguses kas tööstuslikus protsessis, mis on mõistlik ära kasutada. Et kui vaadata nagu sellest vaatevinklist, siis see tulemus on ju, ju super tegelikult, et kaugküttesektor on liikunud taastuvatele allikatele palju kiiremini Eestis kui elektrisektor. Mis sellega kaasnenud, kaasnenud on, et reeglina reeglid on need taastuvad allikad on ka kohalikud, mis tähendab seda, et, et varustuskindluse mõttes on juba päris suur vahe, et et nii-öelda me liigume impordisõltuvuselt nagu kohalikele allikatele on ju, et et, et tarnekiir just eriti tänases julgeoleku situatsioonis on see tarnekindluse aspekt hästi tähtis. Teiseks, kui see kütus või see allikas on kohalik, siis see raha makstakse tegelikult ju Eestisse. Et importkütuse puhul see läheb välja kohaliku kütuse puhul jääb siia, ütleme, võtame sellise Tartu suuruse linna, maksame selle kohaliku kütuse eest circa kuusteist miljonit aastas, et, et see tegelikult läheb ju sinnasama piirkonda majandusse tagasi. Mis hindadega on juhtunud? Tegelikult need kaugküttepiirkonnad, kus on tuldud importkütuselt siis kohalikule taastuvkütusele, seal on kõige odavamad hinnad ka. Et ja, ja, ja kui inimesed peavad näiteks soojuste, soojuse eest vähem maksma, siis see raha jääb ju ka kohalikku majandusse on ju, et et, et kui, kui siis vaadata, muidugi see kõik ei ole nüüd ainult siis etsi, et sitsiteene ainukene, et üks, ta on üks asi ikkagi, mis on nüginud selles suunas ja noh, kokkuvõttes võikski öelda, et et mis see tulemus on, soojus on odavam, ta on kodumaisest allikast, selle varustuskindlus on parem ja lõppude lõpuks see raha, mis makstakse sisendite eest, läheb ka kohaliku, kohaliku rahva kätte, et, et see on tegelikult see tulemus. Kaugkütte näitel tundub, et, et süsteem on väga hästi toiminud, on ju, et on mindud üle taastuvenergiale, on samal ajal suurendunud, suurenenud varustuskindlus ja ka, ja ka hind on stabiliseerunud. Samas ükski süsteem ei ole ideaalne ja meil käis juba läbi see elektrisektori näide siin. Et, et tõesti, kui me võtame nüüd selle teema ette, et, et mis on selle süsteemi head ja vead, siis mida kriitikud on väitnud, on see, et tõesti põlevkivi, põlevkivist elektri tootmine on turult osalt või, või täielikult selle süsteemi tõttu, noh, välja surutud. Ja uusi elektrijaamu pole samas mahus asemele tulnud, mis on viinud siis Eesti elektridefitsiiti. Ja, ja teiseks, kui me vaatame ka, mis on selle süsteemi mõju olnud globaalsele CO2 heitkogusele või ütleme, kliimamuutuste peatamisele, siis on ka, on ka välja toodud, et, et, et noh, Eesti ja, ja ka ja terve Euroopa osa ikkagi selles CO2 heitkoguses on, on nii väike, et, et see, et see ei mõjuta mitte midagi. Et Arpi, ma pöördun nüüd sinu poole, et kas need on need peamised argumendid? Mis on selle süsteemi nii-öelda kitsaskohad või, või on midagi veel? Ja mida sa näed selles hea otsa vastu? Võib-olla see on natuke liiga kitsas, kui me nüüd räägime põlevkivist ja mingist konkreetsest energia või kütuseliigist, et kõigepealt mina saan aru niimoodi, et kogu keskkonnapoliitik, kaasa arvatud Eesti süsteem on üks süsteem sotsiaalmajanduslikust süsteemist, eks ole, et peaksime vaatama seda tervikult, nüüd järgmine on see, et kuidas seda tervikut vaadata, mis tegelikult see, mis see meie eesmärk on. Kui meie eesmärk on süsinikuvaba majandus kaks tuhat viiskümmend. Jah, see tundub olevat täiesti okei, järelikult see süsteem võiks edasi toimida mingisugust probleemi me nagu ei näe. Et vastus on jah, aga nüüd järgmine küsimus, et aga kuidas kõik te kiitsite nüüd, et, et väga hästi toimib ja, ja kindlasti on igaühel oma argumendid, aga, aga mina ütleks nagu väga lihtsalt, et me oleme praegult nagu kogu tehnoloogia kaasa arvatud energeetika üles ehitanud ju selle peale, et kuidas on CO kahe tonnid, kui palju me neid vähendame, mitu protsenti. Aga me jätame ju kõrvale kõik need teised mõjud, alates sellest, et no kõigepealt peaks nagu monitoorima, et kes me oleme, kus me oleme, eks ole, kas meie kujundame loodust või, või me oleme üks osa loodusest, ma olen nagu selle viimase poolt. Ja, ja kui sealt nüüd nagu edasi minna, siis me peaksime vaatama seda, et, et milline on siis CO kahe mõju kogu temperatuurile, milline on siis tegelikult keskkonnakahjude neutraliseerimise hind ja kui palju on koormis ühiskonnale. Vot kui me nüüd need kolm komponenti kõik kokku paneme, siis me saame aru seda, et me peame analüüsima olemasoleva olukorra plusse ja miinuseid, et ta omal ajal loodi väga õige idee ja, ja kõik me teame ka sellest, kuidas hinnatase tonni hinnast räägiti maksimum kakskümmend eurot. Nüüd me teame seda, kuidas hind kõigub, te ütlete, et on ilus turusüsteem, börs, mina ütlen, see on puht poliitiline instrument. Ja, ja miks ma seda väidan, et kui algas hind läks pea saja euroni tonn, kui hakkas Ukraina sõda, hind kukkus kuuekümne peale natuke üle kuuekümne, miks ju need finantsinvestorid müüsid oma kvoodi ära kartuses, et äkki lõpeb ära. Hind tõusis uuesti, nüüd Euroopa riigid hakkavad rääkima, et äkki peaks seda kuidagi revideerima, hind on uuesti läinud alla, et, et noh, see hinnakõikumine, et ma ei tea, kuidas ettevõtlusel on sellega noh, niisugune võimeline nagu, nagu kaasa mängima, et et see on nagu üks asi, aga, aga, aga lõpetuseks tahaks öelda ikkagi seda, et me peame vaatama tervikut, peame analüüsima, kuidas see süsteem toimib ja milline on selle süsteemi mõju olnud. Ja kui me need analüüsid ära teeme, siis mina olen küll seda meelt, et põhimõtteliselt see süsteem võiks jätkuda, aga ta tuleb ikkagi ajakohastada tänastele nõudmistele ja ja noh, põhimõtteliselt on ju piirkonna või riigi kestlikkus on ju ju kaalul, kõik me tahame, et keskkond on parem, mina kaasa arvatud, eks ole, aga noh, me peame alati vaatama, et mis on millegi hind. Absoluutselt, selge on see, et et CO kahe heitkoguse vähendamine nõuab suuri investeeringuid ja, ja, ja mida rohkem me seda vähendame, seda, seda suuremaks need viimase otsa investeeringud lähevad. Kas meil on mingeid paremaid instrumente, meetodeid veel, kuidas seda teha? Ivo ja Laura ka mainisid siin juba keskkonnamaksu, CO-kahe maksu. Kas on midagi veel? Jah vabandust, et mina kordaks ikkagi natuke vastupidist, et ja ma saan aru, miks keskkonna või CO kahe maksu ei ole, eks ole, nõuab riikide, liikmesriikide konsensust ja kõik nii edasi, eks ole, aga noh, see oleks nagu nagu ikkagi päris selge instrument ja teine oleks juba siseriiklikult iga liikmesriigi otsustada on ju see, et, et kust ta selle raha paneb, mis ta riigieelarvesse korjab. Lugupeetud minister ütles, et me ostame selle eest busse ja soojustame maju. Mina ütlen, et energia vist ei ole ikkagi päris õige asi, eelkõige elektrienergia kõige niisugune mugavam energialiik, et nüüd seda maksustada selleks, et busse osta, et noh, ju riigieelarves on nagu teisi vahendeid ja, ja ma tahan öelda seda, et kui see, kui see hind ükskõik, on ta poliitiline otsus või börsiotsus läheb väga kõrgeks, siis ma oleks seda meelt, et mingi osa maksust kindlasti peab minema tagasi sellele ettevõttele, et, et oma olukorda parandada, aga täpselt sama tähtis on, et ka tarbijatele tagasi maksta selle kõrgendatud energia hinna eest osaliselt. Sa juba läksid sinna sinna teemasse, mis puudutab seda, neid ettepanekuid, millega Euroopa Komisjon välja tuligi hiljuti, aga Laura tahtis enne veel sõna ja siis lähme sinna. Ja et ma võib-olla haarakski sõnasabast kinni, et tõepoolest ongi vaja tervikut vaadata, on vaja vaadata seda mõju, mida me oma keskkonnale kliimale põhjustame ja mis on need lahendused, aga veelgi enam, et see pilt on ju veel laiemaks läinud, et me peame ka vaatama energiajulgeolekut ja, ja kui me vaatame neid viimaste aastate sündmusi, siis see, et Euroopa on vähendanud sõltuvust imporditavatest fossiilkütustest, on meid muutnud vastupidavamaks, et kui me vaatame Hormoosi väina sulgemisest tingitud mõju fossiilkütuste hindadele Venemaa täiemahuline sissetung ukrainasse ja selle mõju toona gaasihindadele, siis need on need kohad, mis ongi Euroopa majandust haavatavaks muutnud ja see, et heitkogustega kauplemise süsteem on juba suutnud suunata investeeringuid sinna, et meil on taastuvenergia osakaal kasvanud, et meie ettevõtted on rakendanud puhtamaid tehnoloogiaid. Aitab meil praeguses olukorras paremini toime tulla, aga me ei ole veel kaugeltki võib-olla sealmaal, kus me, kuhu me liikuda võiks ja võib-olla seda heitkogustega kauplemissüsteemi mõju energiasüsteemi ümberkorraldamisel on ka võib-olla natuke üle hinnatud mõnes mõttes, et, et ongi tehnoloogiad, mis on juba oma olemuselt kallimad ka ilma heitkogustega kauplemissüsteemita, et näiteks võtame Serbia päev ette börsihind sada viiskümmend megavatt tunni eest. Et ja seal on suurim osakaal energiaportfellist just kivisöel, litiidil kuuskümmend neli protsenti ja Serbias tuleta meelde, et süsteemi täna ei ole. Ma tulen siin ka paari punkti juurde, et mis, mis väärivad ära mainimist, sellepärast et tegelikult ma pean tunnistama, et, et siin on asju tõesti, mis selle nii-öelda süsteemi toimimisel ei ole hästi läbimõeldud ja, ja mu tunnetus on selles, et me oleme lihtsalt väga mitmes kohas liiga nõrgad olnud. Et esimene pool on tõesti see, et, et see, see süsteem ei toimi hästi ilma selle innovatsiooni komponendita, et ei tekiks juurde uusi lahendusi, ei tekiks juurde nii-öelda seda puhta majanduse arengut. See eeldab seda, et tegelikult nendest poliitikatest peatakse jõulisemalt kinni, et ei toimuks pidevalt sellist nii-öelda nihverdamist või lootust, et aga äkki äkki ikka nüüd pööratakse ümber või nüüd on mingi kaos, mis või, või, või probleem maailmas, mis võimaldab sellel süsteemil jälle nagu natukene ümber rääkida, natuke teha, sest peamiselt ka need hinnakõikumised on suuresti olnud mitte seotud sellega, et turul oleks mingid spekulandid, mida pole mitte kunagi ühegi analüüsiga suudetud päriselt näidata, vaid need nii-öelda hinnakõikumised kõige suuremad keerlevad ümber sellest nende kohtade, kus on jällegi poliitilise otsustamise hetk, et ministrid tulevad kokku, nüüd hakatakse jälle mõtlema, et noh, ühelt poolt kardetakse seda, et hakkavad siin, eks ole, kas eesmärke tõstma või, või, või kokku tõmbama ja see sunnib ettevõtteid nende kvoodihindade ja, ja, ja asjadega tegeleda ja, ja noh, nagu see pool on, peab olema tugev ja samas ma olen täiesti nõus, et järjest rohkem sellest süsteemi nii-öelda ka rahast, mis siis kokku kogutakse läbi nende koodimüügi, tuleks suunata tagasi ettevõtetele, et päriselt neid investeeringuid ka toetada ja teha, sest sest siin on nagu mitu aspekti, et noh meil ei ole mõtet laskuda ebateaduslikku debatti selle üle, kas kliimaeesmärgid on, on mõttekad või mitte, sellepärast et lõpptulemusena inimtekkeline kliimamuutus on argument, noh, tänases kontekstis selline teema, mille kohta me ei, me ei pea enam tõsiseltvõetavas kliimateaduses mingeid teemasid, siilkütuste põletamine põhjustab CO kahe heidet, CO kahe heide põhjustab täna globaalset kliimamuutust, no see, see, see on selle, see ei ole see debatt täna, mis on debatt, täna on see, et kuidas me lahendame selle nii-öelda probleemi võimalikult hästi ära, me lahendame selle ära investeerides uutesse tehnoloogiatesse, puhtamatesse lahendustesse, osad, mis meil on olemas ja osad, mis vajavad tegelikult väga tugevat insenerteaduslikku lähenemist ja seda, et see inseneriteaduslik lähenemine tekib, peab olema ka nii-öelda pikaajaliselt selge see visioon ja tänane et-süsteem täidab seda eesmärki paremini kui, kui maks saaks, sest tal on pikaajaline ettenähtavus ja tal on nii-öelda tugevnemise komponent, nagu ma ütlesin, maks ei täida seda, sest seda hakatakse pidevalt ümber rääkima, ümber jaurama ja jällegi natukene mängima edasi-tagasi ja, ja mis on siin veel oluline nagu esile tuua, on see, et, et täna, kas me tahame seda kõike teha kliima pärast või mitte, ei ole enam niivõrd oluline, sest noh, globaalses kontekstis oleme me mängitud nurka, kus tegelikult Hiina käes on tugevamad kaardid, kui me kunagi oleksime osanud arvata, arvata ajalooliselt, alates sellest, et puhtalt puhaste tehnoloogiate areng on jõudnud sinnamaani, kus Hiina tegelikult domineerib põhilisi puhaste tehnoloogiate nii-öelda sektoreid, energeetikat läbi akude, läbi elektriautode, sealhulgas ka transporti, energia tootmist läbi taastuvate allikate ja, ja, ja sealjuures siis ka see on, ütleks sassi see viimane mõte, kust ta tuli, aga noh, põhimõtteliselt nagu akud, eks ole, on ka jällegi tugevalt Hiina käes ja viimane Hormusi väina nagu skandaal näitab ühte väga nagu hirmutavat või, või suurt asja veel. Ta näitab seda, et esiteks USA-l ei ole enam seda tugevat võimu, mis tal oli nafta üle ajalooliselt, sellepärast et Iraan näitas USA-le, et me võime soovi korral kakskümmend protsenti maailma naftaturust kinni panna ja USA ei suutnud seda peatada ja seal kõrval demonstreeris Hiina, et nemad võivad omalt poolt viis protsenti globaalsest naftaturust nipsuga sisse-välja lülitada ja see on hirmutav ja see on see kontekst, kus Euroopa Liit peab täna nagu väga tugevalt mõtestama omaenda tehnoloogiat, investeeringute arengut just selle poole, et me ei hoiaks kümne küünega kinni kütustest ja tehnoloogiatest, mis, mis hoiavad meid nii-öelda selle fossiilkütuste kolmandate riikide küljes kinni, investeerime sinna, kus see tulevik on ka meile endale nii-öelda julgem, kindlam ja meie enda otsustuse all. Ja, ja siinkohal noh, ma ütlen, et teatud mõttes pole sellest põlevkivist isegi mõtet rääkida, sest põlevkiviga me ei hakka mitte kunagi nii-öelda kütma belglaste gaasikatlaid või, või sakslaste autosid, et noh, lõpptulemusena me ühtselt ühisturuna peame väljuma fossiilkütustest ja see peab toimuma ühisturu reeglite alusel, selleks kontekstiks seesama heitkogustega kauplemise süsteem sobib, sobib suurepäraselt. Olgu, aga räägime siis sellest süsteemist, mulle tundub, et me olime enam-vähem ühel nõul, et see süsteem võiks jätkuda, juhul kui seda suuremal või vähemal määral reformida. Ja räägime nendest reformi ettepanekutest, millega Euroopa Komisjon välja tuli, mida Ivo, sa natuke juba otsast mainisid. Seal on palju asju, aga noh, lühidalt kokkuvõttes. Teatud määral ettevõtetele pakutakse tulevikus leevendust saastavatele ettevõtetele. Et ühikute hulk süsteemis, mis määrab siis selle, kui palju võib saastada, väheneb plaanitust aeglasemalt ja ka tasuta ühikuid ettevõtetele antakse edasi. Teiselt poolt see tuleb uute tingimustega, et ettevõtted tõesti peavad ette näitama mingisuguse investeeringukava ja need investeeringud ka vähemalt osalt ära tegema. Et neid tasuta ühikuid saada ja, ja teise ja lisaks siis veel see, mida Ivo mainis, et ka riigid peavad siis selle süsteemi tulu tagasi suunama sellesse sektorisse, kust see raha on võetud. Noh, see on selline lühike kokkuvõte. Et võib-olla Margo, ma küsin sinult esimesena. Et, et. Kuidas need ettepanekud tunduvad turuosalistele ja mida, mida, mida sealt võiks võtta, mida võiks jätta, lisaks oli see hinnastabiilsuse teema veel, mida siin tõstatati, et võiks ühiku hind olla süsteemis nagu ettenähtavam. Jah, see on suht värske ettepanek, ega, ega selle kohta ei ole väga, väga lihtne arvata, aga kui ma olen seda vaadanud, siis võib-olla see, see teema ei ole või see hea külg ei ole niivõrd nagu mingis leevenduses, vaid pigem ta on sellise investeerimiskindluse loomises ja, ja, ja investeerimiskliima nagu selginemises, sest energeetikasektori investeeringud on äärmiselt mahukad ja äärmiselt pikaajalised. Ja, ja, ja tegelikult oleks, oleks vaja teatud sellist kindlustunnet, et nende, nende investeeringuid teostada, et saada rahastus nendele investeeringutele taha ja, ja, ja selles mõttes mulle tundub, et see uus süsteem nagu seda pakub. Lisaks see, et, et, et tõesti see, see raha suunatakse sinna sektorisse tagasi. Noh, kui me nüüd kaugküttesektori seisukoha pealt vaatan, siis hästi palju investeeringuid on nagu ära tehtud, et et, et noh, et ei, ei kahjustataks võib-olla seda sektorit, kes on, kes on võib-olla virgem ja eesrindlikum olnud, et, et, et, et need, need sellepärast ei kannataks, et nad on esimesed olnud, on ju. Aga, aga põhimõtteliselt jah, minu suhtumine on selles mõttes positiivne, see annab investeerimiskindlust, see tekitab selle, selle rahavoo, et see tuleb sinna sektorisse tagasi investeerimiskohustusena ja, ja see võimaldabki tegelikult mis iganes sektor see siis on, dekarboniseerida seda sektorit. Arvi, kas see kompromiss, millega või see ettepanek tähendab, millega komisjon välja tuli, et ühelt poolt anda natuke leevendust ettevõtetele, teiselt poolt suunata rohkem raha neile tagasi, kas see võiks olla selline mõistlik kompromisslahendus või on see selline noh, kosmeetiline uuendus? Abiks ikka, et kas nendes ettepanekutes on ju näha seda, et me püüame nüüd kosmeetiliste selliste nõksudega natuke seda süsteemi elus hoida, et, et noh, mina ei ole mingi otsustaja, aga noh, vaatame teisi riike, mis on nende reageeringud olnud, et kokkuvõttes jah, nagu ma ütlesin, et, et ta on mingisugune, mina ütleksin hea tahte avaldus ja, ja kindlasti juba nii kui Margo ütles, et ettevõtetele on ta mingilgi määral noh, natukene mingi indikaator on, aga kindlasti ei ole see lõpplahendus ja, ja lõpplahendus saab tulla siis, kui meil on täielik analüüs ühiskonna koormisel. Tänaseks on ju kõik need CO kahe kvoodimaksud, mida oleme korjanud, on ju tegelikult tarbijate käest ära läinud, eks ole, et, et nüüd mida see nagu, nagu maksab ja nüüd ikkagi veel seda rahalist vaadet, et Varssavi üks instituut on, on välja rehkendanud, et kui palju kliimakahjude ärahoidmine maksab aastas Euroopa Liidus poolteist miljardit, aga investeeri-, aga kogu eksisüsteemi kulu on nelikümmend kuus miljardit, et nüüd peaks nagu vaatama neid vahekordasid, et, et mis, mis need nagu, mis need nagu annavad ja, ja mis on ikkagi juur põhjus, et mina ikkagi tahaks nagu aru saada sellest, et kõigepealt oleme siht, siis peab olema eesmärgid ja siis peavad olema eeldused ja siis teede valik, et neid eesmärke täita. Siht on kaks tuhat viiskümmend süsinikuvabadus, see eeldatavasti on, on täna ja jääb veel pikemaks ajaks selline eesmärk, aga, aga, aga millised on need ikkagi need võimalused? Jutt oli Hiinast või kellestki teisest, et ega ega ka Eesti on ju tohutu tublid CO kahe vähendaja olnud, aga noh, siinsamas laval mõni tund tagasi rääkisime neljakümne protsendist elektri defitsiidist, eks ole, et, et noh, neid see, see on niisugune lai kompleks, et kosmeetiliste parandustega minu arvates ei ole mõtet tegeleda, kui ei ole täielikku analüüsi ja ühiskond ei tea, mis on kogu selle süsteemi niisugune rakendamise tulemus, tulemus ei saa olla CO kahe tonnidega ega protsendid. Laura võib-olla küsimus sulle siis, et mida, mida mujal Euroopas sellest arvatakse ja mida, mida Eesti riik arvab, et te hakkate seisukohti kujundama ja, ja neid läbi vaidlema? Eesti teatavasti on üsna selline kliima, kliimaskeptiline riik ja rahvas. Mujal Euroopas vist on, on, on, on vähem niimoodi, et ja kas on lootust, et see, et see siht, siht muutub ja see reformi ettepanek muutub nii-öelda teistsuguseks, põhjalikumaks reformiks või, või ei ole seda lootust Euroopas? Ma võib-olla kohe alustuseks ütlen ära, et tegemist ongi sellise korrapärase regulatsiooni ülevaatamisega, mis on juba õigusakte endasse sisse kirjutatud, et teatud aja jooksul vaadatakse üle, et kuidas on tehnoloogiad arenenud. Millised vaheeesmärgid on seatud ja siis seda süsteemi vastavalt sellele ka kohandatakse, et see ülevaatamine ei ole tulnud sellest, et et oleks olnud ülekaalukas soov riikkogustega kauplemissüsteemi kuidagi väga põhjalikult reformida. Pigem vastupidi, et et liikmesriigid noh, laua ümber ei ole ühtegi liikmesriiki, kes ütleks, et heitkogustega kauplemise süsteem tuleks tühistada. Et pigem on riikidel eri huvid, mured, majandused on erinevad. Ja, ja see komisjoni ettepanek tegelikult langeb kusagile sinna keskele erinevate huvide vahele. Et me peame ka arvestama sellega, et meil on Euroopas väga palju suuri tööstusriike ka, kus ettevõtted on teinud suuri investeeringuid puhtamasse tootmisse ja nemad soovivad, et regulatsioonid oleksid stabiilsed. Et et nemad on need investeeringud ära teinud ja neid ei tohi selle eest karistada. Teiselt poolt on jälle riike ja ettevõtteid, kes ütlevad, et nad vajavad pisut rohkem aega, et, et olgu see siis kas geograafilisest asukohast tingituna, tootmisspetsiifikast tingituna, turu eripäradest tingituna, et neil on vaja pikemat aega, et neid investeeringuid teha. Ja sellise kahe poolega siis komisjon oma ettepanekus on arvestanud, pluss siis veel need murekohad, mis puudutavad ühiku hinda, et see oleks prognoositavam, stabiilsem. Et investeeringute suunamine oleks täpsem. Ja, ja kui ja, ja ka see, et tõepoolest ettevõtted siis neid investeeringuid edasi teeksid, seda innovatsiooni ka see süsteem tagant tõukaks. Aga jah, Eesti vaatest, et mida me ise nii-öelda komisjoni suunal ka ootustena üles käisime, et ühelt poolt ongi ühiku hind, et see oleks stabiilsem, et seda heite vähendamise tempot vaadatakse üle, et see vastaks siis tehnoloogia arengule ja sellele, kui kiiresti ettevõtted on valmis investeeringuid tegema. Et madalama SKP-ga riigid saaksid süsteemis täiendavat solidaarsustulu, see on ka seal sees. Aga noh, võib-olla saatan peitub detailides, et kindlasti üks oluline läbirääkimiste koht ka Eesti jaoks saab olema see, et need kesksed fondid, mis kujundatakse ühikute müügi nii-öelda tulust, et meie ettevõtted sealt ka päriselt kasu saaksid, neile päriselt ligi pääseksid, et tasuta ühikutele, millega täna näiteks mõned sektorid katavad peaaegu sada protsenti oma heitkogustest. Et need ei väheneks liiga kiiresti. Jah, komisjon oma ettepanekus on tasuta ühikute eraldamist pikendanud võrreldes kehtiva direktiiviga, aga teiselt poolt nende ühikute kasutamine võib olla pisut keerulisem, et need on need läbirääkimiskohad, et, et väikese majanduse ka väiksemad ettevõtted ja just need ka, kes on eesrindlikumad olnud, et neid ei karistataks ja need tingimused vastaksid ka nende vajadustele. Ma kiusaksin korra moderaatorit ja, ja tooksin nagu sellise näite kõrvale, et seda on Eestis ka nüüd korduvalt tehtud, et kui räägitakse, et kakskümmend protsenti inimesi Eestis omab ainult nii-öelda siis suutlikkust kriisidega toime tulla või kriisivalmidus on ainult kahekümnel protsendil inimestest, siis see ei ütle mitte kuulajale seda, et, et oi, ma pean hakkama kriisivalmidusega tegelema, vaid see ütleb seda, et mina olen ka normaalne inimene seal kaheksakümne seas, järelikult normaalne on mitte muutuda ja samamoodi kui nagu viidata kogu aeg rääkida sellest, kuidas eestlane väga ei toeta kliimapoliitikat, siis see pigem muutub selliseks nagu ennast täitvaks lubaduseks või ennast täitvaks nagu ennetuseks, mida me teame, on see, et aastal kaks tuhat üheksateist toetas ligikaudu üheksakümmend, kaheksakümmend üheksa protsenti eestlastest kliimaneutraalsuse eesmärgi seadmist Euroopa Liidus. Samamoodi oli see protsent aastal kaks tuhat kakskümmend kolm vist isegi kõrgem, üheksakümne kandis ja sealt pärast seda on ta hakanud langema, nii et see küsimus ei ole mitte selles, kas eestlane toetab, vaid küsimus on selles poliitikas, kuidas meil siin seda asja tehakse, mis mõjutab meie inimeste toetust, nii et noh, ta näeb, et see, see seotakse ära mingi teemaga, see mõjutab minu elu kuidagi halvasti, järelikult ta ei toeta ja siin ma tegelikult olen sada protsenti Arviga nõus, et, et noh, need, see küsimus, kuidas seda asja nii-öelda Eesti kontekstis kasulikuks ja, ja mõistlikuks ja hästi toimivaks teha, et see on ääretult oluline ja siin ma, ma kuidagi nagu tajun, et Eesti saaks isegi minna nendesse läbirääkimistesse palju julgemalt, palju tugevamalt nõuda pikaajalist nii-öelda kindlust, et me ei käi pidevalt ümber rääkimas ja, ja, ja nurisemas mingite nii-öelda lineaarsete heitev vähendusfaktorite spetsiifikate ümber või turust stabiilsusmehhanismide ümberkorraldamisega, mis kõigutab hindu ja ei taga tegelikult poliitilist stabiilsust, vaid et see süsteem saaks nii-öelda paika lepitud pikaajaliselt, selgelt ja me tegelikult ise nii Euroopa Liidu tasandil kui ka Eesti tasandil ootaksime järjest rohkem käitumist nendelt samadelt ettevõtetelt, kes on selle süsteemi alla kakskümmend üks aastat kuulunud ja suunaksime sada protsenti nendest tuludest tagasi sinna sektoritesse, et need investeeringud ka päriselt juhtuksid, sellepärast et lõpptulemusena mina ei soovi, et Eestis ei oleks tööstust või energia tootmist või, või, või mida muud aastal kaks tuhat nelikümmend või kaks tuhat viiskümmend, mina soovin, et meil oleks jõuline ja tugev keemiatööstus näiteks ka saja aasta pärast, aga on täiesti kindel, et see ei saa olema fossiilkütuste põhine. Meil on täna Eestiski väga mitmeid lahendusi alates näiteks sellest, mida Tartu Ülikooli sünteetilise bioloogia labor teeb, mis on viinud suure osa keemiatööstusest täielikult bioreaktori põhiseks. Noh, need on investeeringud, mida sa ei saa täna teha, et asendada täielikult näiteks fossiilkütuste baasil tootmist, aga kogu ettsi mõte ongi selles, et me loome järgmiseks kahekümneks aastaks teekonna, et need investeeringud jõuaksid mingiks hetkeks sinna ja, ja, ja see on täpselt see koht, kus ausalt, Eesti võib ka minna Eestile kasulikult ühiskonnale, majanduslikule kasulikult nendele läbirääkimistele palju tugevamalt ja öelda, et mida me tegelikult vajame sinna kliimapoliitika kõrvale, on tööstuspoliitika nii Eesti tasandil kui ka Euroopa Liidu tasandil ja tegelikult, mida rohkem Eesti seda nii-öelda tööstuspoliitikat loob Euroopa Liidu tasandil ise ettevõtlikult seda suunates, seda kasulikum Euroopa Liidu poliitika, tööstuspoliitika saab olema Eestile ja niimoodi me peaksimegi poliitikat Euroopa Liidus tegema, mitte käima ja, ja jaurama, et meile ei sobi see, teine ja kolmas, vaid mõistma, et Eesti on Euroopa Liidu liige, Eesti poliitika tuleb ka Euroopa Liidust läbirääkimiste põhjal ja me kujundame seda Euroopa Liidu tasandil. Nii, aga anname siis vahepeal Eesti inimesele sõna, et teada, kuidas me peaks Euroopa Liidu kliimapoliitikat kujundama, kas on tekkinud küsimusi või ettepanekuid sel teemal? Juba on jah? Okei, ja Peep, on kuulda? Ei ole, mikrofon väljas. Ei ole kuulda hetkel. Ei. Kas me saaks publikul mikrofonisse ka? Sa võid lähemale tulla, Peep. Aa, nüüd on kuulda, väga hea. Peep Siim. Ringmajanduse osakond, et tegelikult ma tahtsin Arvi Hamburgi käest küsida, et kust te selle üks koma viis miljardit võtsite, et kliimakahjude osas, et minul on küll teadmine, et Euroopa Keskkonnaagentuur tegi kaks tuhat kakskümmend üks kuni kaks tuhat kakskümmend kolm analüüsi. Kus siis ohtlikud ilmastikunähtused ja kliimakahjud on suurusjärk sada kuuskümmend miljardit eurot Euroopa kontekstis. Ja no ma võin mürki võtta, et järgmine periood on see kahjud nii-öelda kasvavas summas, et, et selles suhtes viitasite küll Varssavi ülikooli uuringule, aga et tegelikult noh, minu väide on see, et need uuringud ja analüüsid on olemas, et mis see tegem töö tegematajätmine siis nagu maksma läheb, et ja, ja väga põhjalikult on seda analüüsitud, et võib-olla avate seda Varssavi analüüsi. Ma isegi ei ütelnud viis miljonit, miljardit, ma ütlesin üks koma viis miljardit ja see on Varssavi, mis ta oli, mis institutsiooni, ette Price Instituut, tema, tema selline analüüs, mis kõrvutab ka siis tegelikult etsikulud koormise. Et mina ei ole neid koostanud, mina selle eest see ei, ei mina lihtsalt refereerin. Aga nüüd, kui seda nagu seda teemat, et, et ikka nagu ju praegu ka juttu oli, et et minu arvates on natukene niisugune kitsa, kitsas käsitlus, kui me räägime kliimapoliitikast, kliimapoliitika on üks osa kogu sellest meie majanduspoliitikast ja peame rääkima tervikut. Ja vot, kui me tervikut peame silmas, siis me saame need arvutused kõik kogu, mitte ainult tööstuspoliitika või, või ütleme kogu piirkonna, noh, ma ei tea, jätkusuutlikku kestlikkus, eks ole, saame siis, siis need arvud nagu välja ja vaatame, et mis ohud meil võivad tekkida, palju need siis maksavad ja kui palju nende ohtude likvideerimine maksab, eks ole, ja, ja siis iga ühiskonna liige peab saama sellise info, et ma olen nõus, läheb energia kallimaks jutt mingist odavamast või, või soodsamast energiast, noh, andke andeks, seda ei tule, eks ole. Rida põhjustel, et, et, et kui me selliselt energiapoliitikat või, või vabandust, keskkonnapoliitikat käsitleme üldises sellises kontekstis, vot siis me saame nagu selle pildi ette. Elektroenergeetikas on väga selge, on Veki kolmnurk, eks ole, et keskkonnakahjud, hind ja varustuskindlus, kõik peavad olema tasakaalus, eks ole, et võta, teeme selle veki kolmnurga elektrieetikast veidi laiemaks. Väga õige, tegelikult see ongi olnud ka poliitikate kujundamise alus, et me vaatame mitte üksnes keskkonna poolt, ka konkurentsivõime poolt ja täna ka üha enam julgeoleku poolt ja järeldustena see, et puha, puhtamatele tehnoloogiatele üle minna, mis on kohalikud, et see on see võimalus, kus Euroopa saab neid huvisid omavahel tasakaalustada ja neid kahjusid vältida. Aitäh, on veel küsimusi? Hetkel ei ole vist, kindlasti see kliimakahju tulevikupotentsiaalse kliimakahju arvutamine on väga keeruline ülesanne ja seotud suure määramatusega, et sellele me vist ammendavat vastust siin, siin, siin praegu ei saa. Ma võtsin välja, mul oli, mul oli meeles, et Hollandi poolt tehti, tehti väga põhjalik analüüs, mis, mis vaataski, et mis on olnud nende süsinikuheitesüsteemide mõju ettevõtte tasandil. See tehti kaks tuhat kakskümmend kolm, aga ma vaatan, et Energy Economics teadusajakirjas on see nüüd kaks tuhat kakskümmend kuus jaanuaris ka siis nagu teadusajakirja tasemel avaldatud. Nad analüüsid spetsiifiliselt, et okei, et meil on terve hulk sektori ettevõtteid, kes on olnud nende poliitikate mõju all, milline on olnud nende poliitikate majanduslik mõju nende ettevõtetele noh, nagu ettevõtte tasandil isegi mitte vaadates nagu sektorit üldisena ja mida on näha, et see majandus mõju on olnud pigem tagasihoidlik ja väga spetsiifiliste alamsektoritega seotud, mis on kõige rohkem nii-öelda siis selliste vanade tehnoloogiate fossiilkütuste peal, mis on ka arusaadav, need, need nii-öelda poliitikad ongi disainitud mõjutama neid nii-öelda tagajooksikuid, neid, kes ei ole teinud neid investeeringuid kõige rohkem. Ja loomulikult on ka noh, mõju olnud pigem tugevam väiksematele ettevõtetele, kes investeerimiskulusid nii lihtsalt ei saa katta, kellel ei ole nii lihtne võimalik laene saada, kellel on nii lihtne võimalik erinevaid toetusi saada, mistõttu ma, ma usun jällegi, et, et see muudatus, et suuname rohkem nii-öelda investeeringutest tagasi sektoritesse, tööstusesse, on pluss jällegi ma rõhutan seda, et see tegelikult vajab tööstuspoliitikat, et neid asju ära lahendada, et loomulikult ka Eesti keemiatööstus peab muutuma, aga need investeeringud siis peavad liikuma uute ärimudelite poole ja ja nii see peabki nagu arenema. Ma võib-olla täiendaks ka seda, et, et jah, tööstusinvesteeringute suunamine on väga oluline, aga jah, et me võib-olla ei tohiks kitsendada nüüd seda ainult sellega, et need sektorid, mis täna et-süsteemi kuuluvad, et Eestis neid on väga vähe. Et Eestis me peamegi leidma neid võimalusi, et mis on see uus tööstus, mis ka asendab seda, mis praegu heitkogustega kauplemissüsteemi alla tuleb, et mida me saame siia ligi meelitada, et, et täna tööstustootmist on Eestis võib-olla. Et, et see on ka nagu sellise sotsiaalpoliitika mõttes õiglane ja aus, et noh, me räägimegi sellest, et me väljume, mida on ka Eestis tehtud, aga, aga see tuleb nagu selgemini ja, ja, ja julgemalt tegelikult välja öelda, sest see on inimeste suhtes aus, et me väljume mingi hetk põlevkivielektrist, me väljume mingi hetk põlevkivienergeetikast täielikult, see on asi, millel on väga tõsine mõju, selleks peab valmistuma ja need investeeringud peavad minimeerima seda mõju lõpuks inimesele. Mulle tundub, et selles osas me oleme jällegi vähemalt ühel meelel, et kui tõestiselt võetakse raha ära, siis on mõistlik seda uuesti tagasi suunata, neile tulevikku suunatud investeeringuteks. Meil on üks elevant toas veel, millest me ei ole rääkinud ja, ja enne, kui me kokkuvõtte teeme, siis tahaks ikkagi korra seda puudutada. See on see nii-öelda its kaks, sest et tegelikult Euroopa Komisjonil ei ole mitte ainult plaan jätkata olemasolevaid süsteemiga, vaid ka seda laiendada teistele sektoritele, mis, millele praegu CO2 hinnastamine ei kehti. Ja eelkõige on need sektorid siis, mis sinna IT kahe alla hakkaksid kuuluma maanteetransport ja hooned ehk siis mootorikütused, mida kasutatakse mootranspordis ja kütused mida kasutatakse hoonete kütmiseks. Siin on nüüd natuke kummaline olukord Eestil, sest Eesti on võtnud seisukoha, et, et me soovime seda süsteemi vist tühistada või vähemalt edasi lükata. Paljud teised Euroopa riigid on juba teinud ettevalmistusi, et see süsteem üle võtta, mis peaks hakkama siis kehtima nüüd vist ülejärgmisel aastal, sest lükati edasi. Teeme kiire ringi veel, et mida te, mida te soovitate Eestile, mida peaks Eesti või Euroopa Liit seoses selle S kahega ette võtma ja siis Laura saab kommenteerida, et mis, mis seisukoha me siis kujundame, kes tahab alustada? Margo? Ma võin alustada jah. Mul on võib-olla natuke selline lihtsustatud vaade seda just nagu hoonete seisukohalt, et, et kui ma ennem alustasin, et Eestis on kaugküttes seitsekümmend viis protsenti kas taastuvatel allikatel või siis heitsoojusel ja arvestades, et kaugkütte osakaal on Eestis hästi suur, siis, siis minu arust me oleme see, seda eesmärki ju väga hästi täitmas, et fossiilkütuste kasutamine hoonetes on, on tegelikult väga väike ja, ja milleks, milleks tühistada eesmärki, mida on väga lihtne minu arust täita, et minu arust kõige-kõige lihtsam on lubadusi anda teemadel, mis on juba täitunud lubadused on ju, et et, et mina, mina näen küll, et, et see, see hoonete osas võiks, võiks kindlasti tulla. Teiseks ta võib-olla likvideeriks ka natuke seda ebaõiglust, et et kaugküttesektor peab, peab siis rangelt Eestist kinni pidama ja siis hoonepõhiselt võiks nagu keldris kivisütt põletada on ju ja kõik on nagu okei, et tegelikult ei ole okei. Aga jah, ma arvan, et et selle täitmine on lihtne, lihtsalt selle S ühe reformiga sektor saab, saab raha ja suunab, suunab selle raha sinna, et veelgi rohkem hooneid liita kaugkütte ja kaugehutusega ja, ja ka hoonete osas on näiteks kaks eesmärk täidetud. Selline lihtne, lihtne arusaam. Arvi, Ivo. Et kaugküttes kindlasti jah, on puiduhake ja kõik nii edasi, aga, aga ma ei tea, kui kindlalt me saame ka puiduhakkele olla, eks ole, et, et puit on kindlasti väärtuslikum tooraine millekski muuks kui, kui ahjus põletamiseks. Et eks seda peab ka nagu jälgima, tulevikus, me räägime, ma ei tea, kümme, kakskümmend aastat, eks ole, tulevikust, aga linnades ja suurtes alevites Paides on tore, eks Paides on puiduaken, kõik on väga tore, aga, aga meil osa inimesi elab maal ka, eks ole, kus kaugkütet ei ole, et, et mis küsimus nagu see ja teine on siis ikkagi puhtalt transport, eks ole, et oleme nõus siis, eks ole, kuidas öelda, kes ütleb meile, kui palju bussipilet siis saab Tallinn-Paide hakkab maksma, eks ole, peaks, peaks jälle olema nagu vot me nagu minu arvates me nagu kõike nagu alustame nagu teisest otsast, me räägime kogu aeg nagu see oli küll see kontekst, aga tootmisest, palju meile midagi vaja toota, aga, aga, aga me peaksime rääkima tarbija ja tarbijamise seisukohast, eks ole, et, et kuidas see ühiskonda nagu mõjutab, aga mis teha vastus see, et minul on väga lihtne pensionärina öelda, eks ole, et, et tuleb leida liitlasi ja, ja kõige parem tühistada B edasi lükata ja kui see, miks kumbki ei õnnestu, siis tuleb see raha lihtsalt tarbijale tagasi maksta. Korjame raha kokku ja maksame tagasi poole, kolmandiku kokkuleppe küsimus, poliitiline otsus. Või teine võimalus see, et ühiskond on nõus, et, et, et see bussipilet lihtsalt maksab. Ma ei tea, kakskümmend või kolmkümmend protsenti rohkem, noh, okei. Mul on hea võimalus tegelikult olla jällegi mõlema eelkõneleja mingite punktidega täitsa kohe paljuski nõus, aga lihtsalt, et, et oleks jälle see vanaema kuulab paneeli asi ka nagu kaetud, et et kahe puhul me räägime siis nii-öelda selle sellise sarnase, kuid mitte sama kvoodisüsteemi loomisest transpordikütustele ja, ja eks ole, soo soojusega seotud kütustega ja mulle on üldiselt olnud täiesti arusaamatu selline Eesti hästi jõuline positsioon, et sellist asja pole üldse vaja ja, ja, ja mitte teha, sest tõesti ka see ei ole see koht, kus meil on tõsine probleem ja pigem ta lahendab meie jaoks nagu jällegi valdades seda asja laiemalt kui ainult kliimapoliitika, ta lahendab meie jaoks seda nagu tõsisemat geopoliitilist probleemi, mida me püüame lahendada, et noh, nagu me teame, Euroopa Liit on väga tõsises fossiilkütuste sõltuvuses riikidest, kes võivad Euroopa Liidule väga palju kahju tekitada. Me peame oma gaasi suuresti importima, me peame oma naftat suuresti importima. Meil ei ole siin Eestis täna ühtegi küsimust, miks see probleem on, sellepärast et meie kõrval on riik, kes meile demonstreerib väga noh, nagu aktiivselt ja pidevalt, kui, kui tõsine probleem on see sõltuvus ja, ja Euroopa Liit üldiselt peab sellest sõltuvusest vähenema, selle sõltuvuse vähenemisel on ühiskondlik ja majanduslik kahju, mida tuleb minimeerida eriti nendele, kes on sellest kõige rohkem mõjutatud, et, et siin on nagu need aspektid, mida Eesti tõesti peab ja saabki sinna laua taha tuua, ehk siis süsteem ise mõistlik, meil on endal päris paljud lahendused olemas, aga mitte lõplikud, et noh Margo, sa mainisid ka, eks ole, et, et neid, kes on juba asjad ära teinud ja, ja mingid head investeeringud teinud, ei tohi ka karistada, et me teame, et kahekümne, kolmekümne aasta kontekstis ka küte ja jahutussüsteemid peavad muutuma, arenema, sinna peavad uus uued investeeringud tulema ja, ja mida rohkem me suudame selle süsteemiga juba eoses, neid investeeringuid suunata, seda parem ja noh, teine pool on muidugi see sotsiaalmajanduslik mõju, et, et inimesed elavad maal, inimestel on raske liikuda oma töökohtade, koolide, trennide vahel, me ei, me ei tohi nende meetmetega inimeste liikuvust ja, ja elu nii-öelda kvaliteeti vähendada ja seetõttu on ka hästi oluline, et loomulikult süsteemi on vaja, aga tuleb läbi mõtestada siis nii-öelda see teine pool, see sotsiaalmajanduslik pool, kuidas me abistame neid inimesi, kes täna transpordienergiavaeguses, sellest välja, kuidas me muudame nende kodud energiatõhusamaks, kuidas me muudame nende liikumise lihtsamaks ja, ja vähem isegi nagu nõudlikuks neilt ja lõpptulemusena jällegi jõudes tagasi selle julgeoleku pooleni, et noh, arusaadavatel põhjustel hästi renoveeritud maja täna Ukrainas on julgeolekupoliitika. Mul on hea meel, et sa selle mainisid seda, mida ma unustasin tõstatada, et tegelikult seoses--- ka Euroopa Komisjon on välja pakkunud ka selle nii-öelda kliimameetmete sotsiaalfondi, kus, kus just saabki neid haavatavaid sihtrühmi rahastada, kellele see--- võiks mõjuda halvasti, sealhulgas ka maksta seda otsetoetust, mida Arvi, Arvi mainis. Ja täpsustaks võib-olla ka seda, et ühistransport võib-olla bussipilet ei ole kõige suurema löögi all, kuna suur osa bussidest meil sõidab kohaliku biometaaniga ja Tallinnas ka elektriga, aga tõesti inimesed, kes tangivad oma isiklikku autot bensiini või diisliga, siis tasub võib-olla mõelda, et, et järgmine auto osta säästlikuma mootoriga, sest, sest see, see sektor võib tõesti löögi alla sattuda suurema löögi alla. Aga Laura, ma annaks lõpusõnad sulle, sest meil hakkab aeg otsa saama, et. Kas Eesti seisukoht on sama, et S2 osas või on muutunud ja, ja kas sa tahad spekuleerida, mis juhtub siis, kui teised riigid võtavad S kahe üle ja meie ei, ei tee seda? Eks lähikuud annavad siin selgust, et praegu Eestil on jätkuvalt tõesti see seisukoht, et see heitkogustega kauplemise süsteem tuleks täiendavalt edasi lükata või tühistada ja, ja me selle nimel ka tööd jätkame, et et see võib veel siin lauale tulla ka, et ühe õigusakti läbirääkimistel ministrite kohtumistel ka ülemnõukogul, et, et seda kõike ei saa välistada, sest ka Prantsusmaa ei ole süsteemi hakanud veel üle võtma ja, ja nende mured on üsna sarnased meile, et täpselt see hinna, hinna mõju tarbijale ja võib-olla on see on hästi oluline välja tuua see, et, et kuigi need kaks süsteemi justkui nime järgi on vennad, siis nad on oma olemuselt ja ka toimimisloogikalt tegelikult päris erinevad. Heitkogustega see esimene heitkogustega kauplemissüsteem, seal on ettevõtetel see noh valikukoht, et juhul kui ühiku ostmine on kulukam kui puhtasse tehnoloogiasse investeerimine, siis nad neid investeeringuid teevad ja vähendavad seeläbi oma tegevuskulusid. Heitkogustega kauplemissüsteemi number kaks puhul on see toimimisloogika ka hoopis teine, sest need on enamjaolt kütusemüüjad, kellele see kohustus kohaldub ja kütusemüüja ikka tahab ju kütust müüa. Ehk siis see hind on võimalik anda tarbijale täies mahus üle ja mis on võib-olla Eesti puhul veel hästi oluline, et et kas meil on täna need toimivad alternatiivid piisavas mahus olemas, et see hinnamõju tarbijate, et tarbijal oleks see valiku koht, et seda hinnamõju vältida, et tõenäoliselt see täna nii ei ole ja seda näitab ka see viimane Hormuusi väina kriis ja sellest tingitud kütusehinna tõus, et Eestis kütuse tarbimine ei langenud, ehk siis see täna võib-olla ei ole inimestel neid valikuid piisavalt, et oma käitumist kohandada, siis hinnasignaalist lähtuvalt, mis on ju kogu selle süsteemi eesmärk ehk siis meil jätkuvalt need murekohad on õhus ja, ja eks siin lähikuud siis annavad arutust. Olgu, aitäh, ma tänan teid, meil on kahjuks aeg otsas, ma võtan lühidalt kokku selle niimoodi, et, et minu meelest me jõudsime mitmes asjas ühisele arusaamale, esiteks, et väiksema keskkonnamõju suunas tuleb ikkagi liikuda kas kiiremini või aeglasemalt. Samas et süsteem ei ole ideaalne ja selle reformimise järele on on vajadus. Ja, ja kui seda teha, siis üks asi, mida tuleks teha, kindlasti on, on ettevõtetele investeeringuteks rohkem raha tagasi suunata, aga ka võib-olla inimestele, kes, kes on kõige rohkem mõjutatud sellest. Mina tänan ja loodan, et ka publikul tekkis huvi nüüd seda diskussiooni siis meedias tulevikus rohkem jälgida, sest Euroopa Nõukogus hakkavad need arutelud siis sügisel pihta jah. Juba septembrist. Hästi, aitäh. Nii, aitäh.",
+    "cues": [
+      {
+        "start_seconds": 11.24,
+        "end_seconds": 21.4,
+        "text": "Tere tulemast energilise majanduse alale, kus on,"
+      },
+      {
+        "start_seconds": 21.4,
+        "end_seconds": 26.32,
+        "text": "kus me käsitleme energiateemasid, aga mitte ainult, sest et järgmine teema on pigem k"
+      },
+      {
+        "start_seconds": 26.32,
+        "end_seconds": 29.44,
+        "text": "liima ja keskkonnapoliitika teema."
+      },
+      {
+        "start_seconds": 29.44,
+        "end_seconds": 34.08,
+        "text": "Aga ka väga tihedalt seotud energiamajandusega."
+      },
+      {
+        "start_seconds": 34.08,
+        "end_seconds": 40.88,
+        "text": "Me hakkame rääkima nimelt Euroopa Liidu CO-kahe heitkogustega kauplemise süsteemist E"
+      },
+      {
+        "start_seconds": 40.88,
+        "end_seconds": 46.4,
+        "text": "TS ehk siis rahvakeeliga CO-kahe kvoodikaubandusest."
+      },
+      {
+        "start_seconds": 46.4,
+        "end_seconds": 51.04,
+        "text": "Seda arutelu korraldab Eesti Taastuvenergia Koda, mina olen Silver Sillak, Taastuvene"
+      },
+      {
+        "start_seconds": 51.04,
+        "end_seconds": 52.68,
+        "text": "rgia Kojast."
+      },
+      {
+        "start_seconds": 52.68,
+        "end_seconds": 57.84,
+        "text": "Meie arutelu kestab seekord tund aega ehk kuuskümmend minutit."
+      },
+      {
+        "start_seconds": 57.84,
+        "end_seconds": 63.48,
+        "text": "Et üritame teha kiiremini kui tavaliselt."
+      },
+      {
+        "start_seconds": 63.48,
+        "end_seconds": 70.8,
+        "text": "Ja meil on siin palutud teemat avama neli eksperti, aga kindlasti ootame ka teilt küsimus"
+      },
+      {
+        "start_seconds": 70.8,
+        "end_seconds": 76.6,
+        "text": "i ja, ja, ja kui aeg on küps, siis annan, annan selleks sõna ja meil peaks siin olema"
+      },
+      {
+        "start_seconds": 76.6,
+        "end_seconds": 80.76,
+        "text": "inimesed, kes aitavad mul mikrofoni."
+      },
+      {
+        "start_seconds": 80.76,
+        "end_seconds": 84.76,
+        "text": "Siis kätte anda teile."
+      },
+      {
+        "start_seconds": 84.76,
+        "end_seconds": 91.8,
+        "text": "Aga alustame teemaga pihta, et nii-öelda ets on siis olnud Euroopa Liidu kliimapoliitik"
+      },
+      {
+        "start_seconds": 91.8,
+        "end_seconds": 94.44,
+        "text": "a nurgakivi aastast kaks tuhat viis."
+      },
+      {
+        "start_seconds": 94.44,
+        "end_seconds": 100.0,
+        "text": "Miks me sellest räägime, eraldi siin Arvamusfestivalil täna."
+      },
+      {
+        "start_seconds": 100.0,
+        "end_seconds": 105.12,
+        "text": "Seetõttu, et see on üsna eriline ja ka üsna oluline keskkonnapoliitika instrument, et"
+      },
+      {
+        "start_seconds": 105.12,
+        "end_seconds": 107.32,
+        "text": "see ei ole tavaline keskkonnamaks."
+      },
+      {
+        "start_seconds": 107.32,
+        "end_seconds": 113.04,
+        "text": "See on selline turupõhine heitkoguste hinnastamise süsteem."
+      },
+      {
+        "start_seconds": 113.04,
+        "end_seconds": 117.96,
+        "text": "Ja teiselt poolt see on olnud üsna mõjukas, et sellel on olnud ka, võiks öelda tavalise"
+      },
+      {
+        "start_seconds": 117.96,
+        "end_seconds": 122.44,
+        "text": "st keskkonnamaksust suurem mõju ja ilmselt tulevikus ka üha kasvav."
+      },
+      {
+        "start_seconds": 122.44,
+        "end_seconds": 128.96,
+        "text": "Hea näide on see, et alates selle süsteemi kasutuselevõtust aastast kaks tuhat viis,"
+      },
+      {
+        "start_seconds": 128.96,
+        "end_seconds": 133.12,
+        "text": "Euroopa Liidu kasvuhoonegaaside heitkogused on vähenenud peaaegu nelikümmend protsenti"
+      },
+      {
+        "start_seconds": 133.12,
+        "end_seconds": 133.4,
+        "text": "."
+      },
+      {
+        "start_seconds": 133.4,
+        "end_seconds": 138.96,
+        "text": "Samal ajal kui samas sektorites uus puhas majandus on kasvanud seitsekümmend üks protsenti"
+      },
+      {
+        "start_seconds": 138.96,
+        "end_seconds": 146.0,
+        "text": ", me räägime siis peamiselt elektri ja soojatootmise sektorist suurtest elek"
+      },
+      {
+        "start_seconds": 146.0,
+        "end_seconds": 149.8,
+        "text": "trijaamadest või, või soojuselektri koostootmisjaamadest."
+      },
+      {
+        "start_seconds": 149.8,
+        "end_seconds": 154.4,
+        "text": "Samal ajal on selge, et, et teatud tööstusettevõtted või isegi tööstusharud on selle"
+      },
+      {
+        "start_seconds": 154.4,
+        "end_seconds": 157.68,
+        "text": "süsteemi tagajärjel konkurentsist välja langenud või välja langemas."
+      },
+      {
+        "start_seconds": 157.68,
+        "end_seconds": 161.28,
+        "text": "Et, et on ka negatiivne mõju."
+      },
+      {
+        "start_seconds": 161.28,
+        "end_seconds": 166.4,
+        "text": "Viimasena, miks me seda teemat täna avame, on sellepärast, et teema on väga päev päeva"
+      },
+      {
+        "start_seconds": 166.4,
+        "end_seconds": 171.4,
+        "text": "kajaline, kuna äsja juulikuus Euroopa Komisjon on tulnud välja selle süsteemi reform"
+      },
+      {
+        "start_seconds": 171.4,
+        "end_seconds": 176.68,
+        "text": "i ettepanekuga mille kohta siis liikmesriigid, sealhulgas Eesti, hakkavad oma seisukoht"
+      },
+      {
+        "start_seconds": 176.68,
+        "end_seconds": 181.68,
+        "text": "i kujundama ja neid Euroopa Nõukogus läbi vaidlema et siis see mingisugune kompromis"
+      },
+      {
+        "start_seconds": 181.68,
+        "end_seconds": 189.32,
+        "text": "slahendus kokku leppida, et, et siin võib tulla uusi, uusi suur"
+      },
+      {
+        "start_seconds": 189.32,
+        "end_seconds": 191.76,
+        "text": "i muutusi."
+      },
+      {
+        "start_seconds": 191.76,
+        "end_seconds": 196.4,
+        "text": "Arutelu eesmärk on siis anda teile ja meile kõigile parem ülevaade sellest, mis see süsteem"
+      },
+      {
+        "start_seconds": 196.4,
+        "end_seconds": 199.88,
+        "text": "on ja kuidas seda võiks reformida."
+      },
+      {
+        "start_seconds": 199.88,
+        "end_seconds": 204.8,
+        "text": "Selleks me oleme kutsunud siia kõigepealt kliimaministeeriumist kliimaosakonna juhataja"
+      },
+      {
+        "start_seconds": 204.8,
+        "end_seconds": 206.08,
+        "text": "Laura Remmelgas."
+      },
+      {
+        "start_seconds": 206.08,
+        "end_seconds": 213.28,
+        "text": "Terevõtjate esindaja Gren Eesti äride juht Margo Külaots."
+      },
+      {
+        "start_seconds": 213.28,
+        "end_seconds": 214.48,
+        "text": "Tere."
+      },
+      {
+        "start_seconds": 214.48,
+        "end_seconds": 220.16,
+        "text": "Energeetikaekspert, Eesti Teaduste Akadeemiast ja mujalt Arvi Hamburg."
+      },
+      {
+        "start_seconds": 220.16,
+        "end_seconds": 224.68,
+        "text": "Ja keskkonnaekspert kliima- ja keskkonnaekspert Ivo Krustok."
+      },
+      {
+        "start_seconds": 224.68,
+        "end_seconds": 225.44,
+        "text": "Tere."
+      },
+      {
+        "start_seconds": 225.44,
+        "end_seconds": 231.52,
+        "text": "Hetkel vabakutseline, suvi on."
+      },
+      {
+        "start_seconds": 231.52,
+        "end_seconds": 238.52,
+        "text": "Ma suunakski esimese küsimuse siis kohe siit Laurale, et, et noh, see CO2 heitkogustega"
+      },
+      {
+        "start_seconds": 238.52,
+        "end_seconds": 243.12,
+        "text": "kauplemise süsteem inimesele, kes ei ole sellega nagu süvitsi kursis, võib kõlada natuke"
+      },
+      {
+        "start_seconds": 243.12,
+        "end_seconds": 248.36,
+        "text": "nagu selline raketiteadus, et kas sa oskad selgitada mulle ja meile noh, kujuta ette"
+      },
+      {
+        "start_seconds": 248.36,
+        "end_seconds": 252.16,
+        "text": ", et nagu ma oleks su vanaema või nagu ma oleks su viieaastane tütar või, või poeg, et"
+      },
+      {
+        "start_seconds": 252.16,
+        "end_seconds": 254.76,
+        "text": "kuidas sa selgitaksid, et kuidas see toimib?"
+      },
+      {
+        "start_seconds": 254.76,
+        "end_seconds": 261.92,
+        "text": "Ja et siin tuleb neid sõnu kindlasti väga läbi kaaluda, et kui nii keeru"
+      },
+      {
+        "start_seconds": 261.92,
+        "end_seconds": 268.88,
+        "text": "list ja tehnilist süsteemi proovida selgitada, aga hästi lihtsustatult öeldes on Euroopa"
+      },
+      {
+        "start_seconds": 268.88,
+        "end_seconds": 276.28,
+        "text": "Liidu heitkogustega kauplemise süsteem saastaja maksab süsteem ja selle ees"
+      },
+      {
+        "start_seconds": 276.28,
+        "end_seconds": 284.64,
+        "text": "märk on olnud kulu tõhusalt vähendada Euroopa nii"
+      },
+      {
+        "start_seconds": 284.64,
+        "end_seconds": 291.68,
+        "text": "-öelda suurimate heitkoguste heitkoguseid tekitavate sektorite ehk siis energeetika,"
+      },
+      {
+        "start_seconds": 291.68,
+        "end_seconds": 299.0,
+        "text": "suurtööstus, heitkoguseid ja teha seda siis nii-öelda tu"
+      },
+      {
+        "start_seconds": 299.0,
+        "end_seconds": 300.84,
+        "text": "rupõhiselt."
+      },
+      {
+        "start_seconds": 300.84,
+        "end_seconds": 308.12,
+        "text": "Et süsteem toimib põhimõttel, et,"
+      },
+      {
+        "start_seconds": 308.12,
+        "end_seconds": 315.48,
+        "text": "et iga aasta kohta antakse ette siis kui palju tonne CO kahte Euroopa"
+      },
+      {
+        "start_seconds": 315.48,
+        "end_seconds": 323.88,
+        "text": "Liidu peale kokku suurtööstused ja elektri tootmine õhku paisata tohib."
+      },
+      {
+        "start_seconds": 323.88,
+        "end_seconds": 331.16,
+        "text": "Ja siis ettevõtetel on valik, et kas nad kompenseeri"
+      },
+      {
+        "start_seconds": 331.16,
+        "end_seconds": 338.56,
+        "text": "vad oma heite, ostes siis neid ühikuid ja üks ühik vastab ühele tonnile CO kahe he"
+      },
+      {
+        "start_seconds": 338.56,
+        "end_seconds": 340.48,
+        "text": "itele."
+      },
+      {
+        "start_seconds": 340.48,
+        "end_seconds": 348.36,
+        "text": "Või investeerivad puhtamatesse lahendustesse, et sõltuvalt sellest, mis on"
+      },
+      {
+        "start_seconds": 348.36,
+        "end_seconds": 356.88,
+        "text": "parasjagu kulutõhusam ja heitkoguste ühikute hind sõltub siis sellest, et mis"
+      },
+      {
+        "start_seconds": 356.88,
+        "end_seconds": 364.2,
+        "text": ", kui palju neid on ja kui palju neid vaja on ettevõtetel ehk siis nõudluspakkumise tule"
+      },
+      {
+        "start_seconds": 364.2,
+        "end_seconds": 365.72,
+        "text": "musel."
+      },
+      {
+        "start_seconds": 365.72,
+        "end_seconds": 372.32,
+        "text": "Ja nagu sa mainisid, on see süsteem Euroopas ennast tõestanud."
+      },
+      {
+        "start_seconds": 372.32,
+        "end_seconds": 378.48,
+        "text": "Ma vaatasin viimased numbrid, et isegi viiskümmend protsenti on nende sektorite heide"
+      },
+      {
+        "start_seconds": 378.48,
+        "end_seconds": 384.16,
+        "text": "vähenenud ja, ja ma võib-olla parandan ka siin selle ära, et tegemist ei ole kuidagi"
+      },
+      {
+        "start_seconds": 384.16,
+        "end_seconds": 390.8,
+        "text": "maailmas erilise süsteemiga, et neid kauplemissüsteeme on tegelikult päris paljudes riik"
+      },
+      {
+        "start_seconds": 390.8,
+        "end_seconds": 398.16,
+        "text": "ides ja ka kohalikul tasandil ja ka näiteks Ühendkuningriik, kes on Euroopa Liidust"
+      },
+      {
+        "start_seconds": 398.16,
+        "end_seconds": 405.52,
+        "text": "välja astunud, ka neil kauplemissüsteem jätkab ja nad hoiavad seda"
+      },
+      {
+        "start_seconds": 405.52,
+        "end_seconds": 410.48,
+        "text": "siis ka kooskõlas Euroopa Liidu süsteemiga."
+      },
+      {
+        "start_seconds": 410.48,
+        "end_seconds": 417.8,
+        "text": "Aga jah, et et siin on ka küsitud, et tihti, et miks ei ole kehtestatud siis"
+      },
+      {
+        "start_seconds": 417.8,
+        "end_seconds": 425.24,
+        "text": "sellist konkreetset keskkonnamaksu ja, ja põhjus seisneb selles, et ma"
+      },
+      {
+        "start_seconds": 425.24,
+        "end_seconds": 432.4,
+        "text": "ks on tihti selline poliitiline kokkulepe, aga heikukstega kauplemissüsteemis see"
+      },
+      {
+        "start_seconds": 432.4,
+        "end_seconds": 437.96,
+        "text": "ühik ju hind tõesti kujunebki turupõhiselt."
+      },
+      {
+        "start_seconds": 437.96,
+        "end_seconds": 445.92,
+        "text": "Kui ettevõtted paiskavad rohkem CO kahte õhku siis see"
+      },
+      {
+        "start_seconds": 445.92,
+        "end_seconds": 453.04,
+        "text": "hind ja samal ajal ühikud vähenevad, siis see hind läheb kõrgemaks kui a"
+      },
+      {
+        "start_seconds": 453.04,
+        "end_seconds": 459.0,
+        "text": "ina rohkem ettevõtteid läheb puhtamale tööst- , tootmisele üle kiiremini kui ühikud süsteem"
+      },
+      {
+        "start_seconds": 459.0,
+        "end_seconds": 463.56,
+        "text": "is vähenevad, siis ka hind, hind langeb."
+      },
+      {
+        "start_seconds": 463.56,
+        "end_seconds": 470.44,
+        "text": "Aga ma ei tea, võib-olla Ivo populaarteaduslik kokkuvõte sellele otsa aitab veel sel"
+      },
+      {
+        "start_seconds": 470.44,
+        "end_seconds": 470.6,
+        "text": "- ."
+      },
+      {
+        "start_seconds": 470.6,
+        "end_seconds": 472.32,
+        "text": "Ivo, soovid lisada midagi?"
+      },
+      {
+        "start_seconds": 472.32,
+        "end_seconds": 477.92,
+        "text": "Ei ega kõik on õige, et noh, põhimõte on hästi lihtlabane, kuigi süsteem ise on keeru"
+      },
+      {
+        "start_seconds": 477.92,
+        "end_seconds": 482.72,
+        "text": "line, et mida rohkem sa saastad, seda rohkem sa pead maksma või, või oma saastamise ära"
+      },
+      {
+        "start_seconds": 482.72,
+        "end_seconds": 484.52,
+        "text": "lõpetama, kokku tõmbama."
+      },
+      {
+        "start_seconds": 484.52,
+        "end_seconds": 488.68,
+        "text": "Et meil noh, minnes nagu selliste väga tõsiste alusprintsiipideni ja sellesama küsimus"
+      },
+      {
+        "start_seconds": 488.68,
+        "end_seconds": 494.16,
+        "text": "ena, et miks meil üldse heitkogustega kauplemise süsteem on, me teame selliseid nii-"
+      },
+      {
+        "start_seconds": 494.16,
+        "end_seconds": 499.76,
+        "text": "öelda tõsist, tõsiseid baasfakte meie maailma kohta, mida me peame arvestama kõikide"
+      },
+      {
+        "start_seconds": 499.76,
+        "end_seconds": 501.12,
+        "text": "oma poliitikate puhul."
+      },
+      {
+        "start_seconds": 501.12,
+        "end_seconds": 505.56,
+        "text": "Me teame seda, et kasvuhoonegaasid on tõsine probleem keskkonnas, me teame seda, et fo"
+      },
+      {
+        "start_seconds": 505.56,
+        "end_seconds": 511.76,
+        "text": "ssiilkütuste põletamine toob kaasa väga tõsiseid tagajärge läbi kliimamuutuse ja nüüd"
+      },
+      {
+        "start_seconds": 511.76,
+        "end_seconds": 516.0,
+        "text": ", kui me vaatame seda, et kus, kus see probleem kõige tõsisem on, kus neid fossiilkü"
+      },
+      {
+        "start_seconds": 516.0,
+        "end_seconds": 520.52,
+        "text": "tuseid kõige rohkem kasutatakse, kus see saaste on kõige suurem, siis me jõuame just"
+      },
+      {
+        "start_seconds": 520.52,
+        "end_seconds": 526.28,
+        "text": "nendesamade ettevõteteni, peamiselt nad toodavad elektrienergiat, nad toodavad erinev"
+      },
+      {
+        "start_seconds": 526.28,
+        "end_seconds": 531.36,
+        "text": "aid fossiilkütuste teri vaate, bensiine, erinevaid nii-öelda selliseid vedelkütuseid"
+      },
+      {
+        "start_seconds": 531.36,
+        "end_seconds": 535.48,
+        "text": ", nad toodavad väetiseid, teraseid, need on sellised suured mahukad tööstusettevõtte"
+      },
+      {
+        "start_seconds": 535.48,
+        "end_seconds": 542.64,
+        "text": "d ja nendel on vaja mingisugust motiivi, et siis noh, nagu oma ärihuvide kõrval ka ka"
+      },
+      {
+        "start_seconds": 542.64,
+        "end_seconds": 546.44,
+        "text": "tegeleda siis sellesama saasteaine vähendamisega."
+      },
+      {
+        "start_seconds": 546.44,
+        "end_seconds": 551.08,
+        "text": "Sa võid öelda tõesti, et noh, et me väga palume, et seda heidet vähendaksite, aga noh"
+      },
+      {
+        "start_seconds": 551.08,
+        "end_seconds": 555.6,
+        "text": ", nendel on endal ka keeruline, kui sa oled täna, eks ole, ettevõte, sina võid tahta"
+      },
+      {
+        "start_seconds": 555.6,
+        "end_seconds": 560.48,
+        "text": "midagi head teha, aga kui su konkurendid nii-öelda ei, ei huvitu, lasevad üle, noh siis"
+      },
+      {
+        "start_seconds": 560.48,
+        "end_seconds": 565.36,
+        "text": "lõpuks lihtsalt oma heatahtlikkusega lööd ennast konkurentsist välja, ehk siis meil on"
+      },
+      {
+        "start_seconds": 565.36,
+        "end_seconds": 570.48,
+        "text": "vaja ühist süsteemi, mis neid nii-öelda ettevõtteid, kes teevad hästi, kes saastavad"
+      },
+      {
+        "start_seconds": 570.48,
+        "end_seconds": 575.32,
+        "text": "vähem, kes innovatsiooni panustavad, uusi ärimudeleid välja töötavad, sa annad neile"
+      },
+      {
+        "start_seconds": 575.32,
+        "end_seconds": 576.84,
+        "text": "midagi positiivset."
+      },
+      {
+        "start_seconds": 576.84,
+        "end_seconds": 582.48,
+        "text": "Eks nad ei pea maksma ja nendele, kes keelduvad muutumast, sa sead järjest kõrgema ma"
+      },
+      {
+        "start_seconds": 582.48,
+        "end_seconds": 586.56,
+        "text": "ksu, et ma arvan, et see, mis sa välja tõid, Laura, et, et noh, tegu ei ole päris klassi"
+      },
+      {
+        "start_seconds": 586.56,
+        "end_seconds": 591.44,
+        "text": "kalise maksuga ja, ja ei saakski olla, on siin ka väga oluline, et, et heitkogustega"
+      },
+      {
+        "start_seconds": 591.44,
+        "end_seconds": 595.52,
+        "text": "kauplemise süsteem on üles ehitatud juba sellise mõttega, et et noh, okei, täna võib"
+      },
+      {
+        "start_seconds": 595.52,
+        "end_seconds": 599.88,
+        "text": "saastada nii palju, järgmine aasta natuke vähem ja nii edasi, et see, see nii-öelda hu"
+      },
+      {
+        "start_seconds": 599.88,
+        "end_seconds": 604.84,
+        "text": "lk saastet, mis üldse on võimalik Euroopas nende ettevõtete poolt õhku paisata iga aasta"
+      },
+      {
+        "start_seconds": 604.84,
+        "end_seconds": 609.88,
+        "text": "ga väheneb ja sellega siis nii-öelda see surve kasvab, see on ette nähtav, me teame,"
+      },
+      {
+        "start_seconds": 609.88,
+        "end_seconds": 614.08,
+        "text": "et üks hetk mingit tehnoloogiad peavad ära kaduma, me teame, et need ei ole mingi sa"
+      },
+      {
+        "start_seconds": 614.08,
+        "end_seconds": 618.44,
+        "text": "ja perspektiivis enam mõistlikud, nad korjatakse ära ja maks seda päris niimoodi ei tee"
+      },
+      {
+        "start_seconds": 618.44,
+        "end_seconds": 622.92,
+        "text": ", siis seda maksu peaks hakkama iga aasta läbi rääkima, tekiksid poliitilised jauramise"
+      },
+      {
+        "start_seconds": 622.92,
+        "end_seconds": 628.04,
+        "text": "d natuke ühele teisele ja tegelikkuses see ettevõtete nii-öelda pikem vaade, et noh,"
+      },
+      {
+        "start_seconds": 628.04,
+        "end_seconds": 631.8,
+        "text": "et kuidas siis see kõik neid mõjutama hakkab, läheb veel hägusamaks, et see tegelikult"
+      },
+      {
+        "start_seconds": 631.8,
+        "end_seconds": 634.24,
+        "text": "ei ole hea mõte."
+      },
+      {
+        "start_seconds": 634.24,
+        "end_seconds": 639.76,
+        "text": "No Margo, ma pöördun nüüd sinu poole, sa oled Greni juht, Gren on üks Eesti suurimaid"
+      },
+      {
+        "start_seconds": 639.76,
+        "end_seconds": 645.16,
+        "text": "energiaettevõtjaid, peamiselt toodate sooja kaugkütet Eesti mitmes linnas, aga ka ele"
+      },
+      {
+        "start_seconds": 645.16,
+        "end_seconds": 646.48,
+        "text": "ktrit."
+      },
+      {
+        "start_seconds": 646.48,
+        "end_seconds": 650.68,
+        "text": "Teie jaamad on selles süsteemis osalevad juba ammu."
+      },
+      {
+        "start_seconds": 650.68,
+        "end_seconds": 654.72,
+        "text": "Kuidas see süsteem on teid mõjutanud?"
+      },
+      {
+        "start_seconds": 654.72,
+        "end_seconds": 659.56,
+        "text": "Ja, ja võib-olla ka Eesti kaugküttesektorit siis tervikuna, sa oskad öelda?"
+      },
+      {
+        "start_seconds": 659.56,
+        "end_seconds": 660.76,
+        "text": "Jah, aitäh."
+      },
+      {
+        "start_seconds": 660.76,
+        "end_seconds": 666.4,
+        "text": "Lisaks me tegutseme aktiivselt veel ka teises kahes Baltimaas ja, ja Ühendkuningriigi"
+      },
+      {
+        "start_seconds": 666.4,
+        "end_seconds": 672.92,
+        "text": "s, aga aga kuidas see heitmekaubanduse süsteem on siis kaugküttesektorit mõjutanud, noh"
+      },
+      {
+        "start_seconds": 672.92,
+        "end_seconds": 680.08,
+        "text": ", kui me hakkame tulemustest tagantpoolt niimoodi tulemustest pihta, siis Eesti kau"
+      },
+      {
+        "start_seconds": 680.08,
+        "end_seconds": 686.76,
+        "text": "gküttest seitsekümmend viis protsenti rajaneb taastuvatel allikatel või siis heitsoo"
+      },
+      {
+        "start_seconds": 686.76,
+        "end_seconds": 690.88,
+        "text": "jusel, heitsoojus on siis selline soojus, mida ei pea spetsiaalselt tootma, aga mis te"
+      },
+      {
+        "start_seconds": 690.88,
+        "end_seconds": 695.68,
+        "text": "kib mingisuguses kas tööstuslikus protsessis, mis on mõistlik ära kasutada."
+      },
+      {
+        "start_seconds": 695.68,
+        "end_seconds": 701.12,
+        "text": "Et kui vaadata nagu sellest vaatevinklist, siis see tulemus on ju, ju super tegelikult"
+      },
+      {
+        "start_seconds": 701.12,
+        "end_seconds": 706.88,
+        "text": ", et kaugküttesektor on liikunud taastuvatele allikatele palju kiiremini Eestis kui ele"
+      },
+      {
+        "start_seconds": 706.88,
+        "end_seconds": 708.76,
+        "text": "ktrisektor."
+      },
+      {
+        "start_seconds": 708.76,
+        "end_seconds": 714.68,
+        "text": "Mis sellega kaasnenud, kaasnenud on, et reeglina reeglid on need taastuvad allikad on"
+      },
+      {
+        "start_seconds": 714.68,
+        "end_seconds": 720.4,
+        "text": "ka kohalikud, mis tähendab seda, et, et varustuskindluse mõttes on juba päris suur vahe"
+      },
+      {
+        "start_seconds": 720.4,
+        "end_seconds": 726.96,
+        "text": ", et et nii-öelda me liigume impordisõltuvuselt nagu kohalikele allikatele on ju, et"
+      },
+      {
+        "start_seconds": 726.96,
+        "end_seconds": 732.6,
+        "text": "et, et tarnekiir just eriti tänases julgeoleku situatsioonis on see tarnekindluse as"
+      },
+      {
+        "start_seconds": 732.6,
+        "end_seconds": 736.08,
+        "text": "pekt hästi tähtis."
+      },
+      {
+        "start_seconds": 736.08,
+        "end_seconds": 742.28,
+        "text": "Teiseks, kui see kütus või see allikas on kohalik, siis see raha makstakse tegelikult"
+      },
+      {
+        "start_seconds": 742.28,
+        "end_seconds": 743.92,
+        "text": "ju Eestisse."
+      },
+      {
+        "start_seconds": 743.92,
+        "end_seconds": 749.36,
+        "text": "Et importkütuse puhul see läheb välja kohaliku kütuse puhul jääb siia, ütleme, võtame"
+      },
+      {
+        "start_seconds": 749.36,
+        "end_seconds": 755.08,
+        "text": "sellise Tartu suuruse linna, maksame selle kohaliku kütuse eest circa kuusteist miljon"
+      },
+      {
+        "start_seconds": 755.08,
+        "end_seconds": 760.0,
+        "text": "it aastas, et, et see tegelikult läheb ju sinnasama piirkonda majandusse tagasi."
+      },
+      {
+        "start_seconds": 760.0,
+        "end_seconds": 762.48,
+        "text": "Mis hindadega on juhtunud?"
+      },
+      {
+        "start_seconds": 762.48,
+        "end_seconds": 767.84,
+        "text": "Tegelikult need kaugküttepiirkonnad, kus on tuldud importkütuselt siis kohalikule ta"
+      },
+      {
+        "start_seconds": 767.84,
+        "end_seconds": 771.56,
+        "text": "astuvkütusele, seal on kõige odavamad hinnad ka."
+      },
+      {
+        "start_seconds": 771.56,
+        "end_seconds": 777.24,
+        "text": "Et ja, ja, ja kui inimesed peavad näiteks soojuste, soojuse eest vähem maksma, siis see"
+      },
+      {
+        "start_seconds": 777.24,
+        "end_seconds": 783.08,
+        "text": "raha jääb ju ka kohalikku majandusse on ju, et et, et kui, kui siis vaadata, muidugi"
+      },
+      {
+        "start_seconds": 783.08,
+        "end_seconds": 790.48,
+        "text": "see kõik ei ole nüüd ainult siis etsi, et sitsiteene ainukene, et üks, ta on üks asi"
+      },
+      {
+        "start_seconds": 790.48,
+        "end_seconds": 795.96,
+        "text": "ikkagi, mis on nüginud selles suunas ja noh, kokkuvõttes võikski öelda, et et mis see"
+      },
+      {
+        "start_seconds": 795.96,
+        "end_seconds": 802.56,
+        "text": "tulemus on, soojus on odavam, ta on kodumaisest allikast, selle varustuskindlus on parem"
+      },
+      {
+        "start_seconds": 802.56,
+        "end_seconds": 807.84,
+        "text": "ja lõppude lõpuks see raha, mis makstakse sisendite eest, läheb ka kohaliku, kohaliku"
+      },
+      {
+        "start_seconds": 807.84,
+        "end_seconds": 812.6,
+        "text": "rahva kätte, et, et see on tegelikult see tulemus."
+      },
+      {
+        "start_seconds": 812.6,
+        "end_seconds": 818.28,
+        "text": "Kaugkütte näitel tundub, et, et süsteem on väga hästi toiminud, on ju, et on mindud üle"
+      },
+      {
+        "start_seconds": 818.28,
+        "end_seconds": 823.08,
+        "text": "taastuvenergiale, on samal ajal suurendunud, suurenenud varustuskindlus ja ka, ja ka"
+      },
+      {
+        "start_seconds": 823.08,
+        "end_seconds": 825.48,
+        "text": "hind on stabiliseerunud."
+      },
+      {
+        "start_seconds": 825.48,
+        "end_seconds": 831.36,
+        "text": "Samas ükski süsteem ei ole ideaalne ja meil käis juba läbi see elektrisektori näide siin"
+      },
+      {
+        "start_seconds": 831.36,
+        "end_seconds": 831.72,
+        "text": "."
+      },
+      {
+        "start_seconds": 831.72,
+        "end_seconds": 836.44,
+        "text": "Et, et tõesti, kui me võtame nüüd selle teema ette, et, et mis on selle süsteemi hea"
+      },
+      {
+        "start_seconds": 836.44,
+        "end_seconds": 843.16,
+        "text": "d ja vead, siis mida kriitikud on väitnud, on see, et tõesti põlevkivi, põlevkivist ele"
+      },
+      {
+        "start_seconds": 843.16,
+        "end_seconds": 849.04,
+        "text": "ktri tootmine on turult osalt või, või täielikult selle süsteemi tõttu, noh, välja su"
+      },
+      {
+        "start_seconds": 849.04,
+        "end_seconds": 851.56,
+        "text": "rutud."
+      },
+      {
+        "start_seconds": 851.56,
+        "end_seconds": 857.16,
+        "text": "Ja uusi elektrijaamu pole samas mahus asemele tulnud, mis on viinud siis Eesti elekt"
+      },
+      {
+        "start_seconds": 857.16,
+        "end_seconds": 858.92,
+        "text": "ridefitsiiti."
+      },
+      {
+        "start_seconds": 858.92,
+        "end_seconds": 866.52,
+        "text": "Ja, ja teiseks, kui me vaatame ka, mis on selle süsteemi"
+      },
+      {
+        "start_seconds": 866.52,
+        "end_seconds": 872.76,
+        "text": "mõju olnud globaalsele CO2 heitkogusele või ütleme, kliimamuutuste peatamisele, siis"
+      },
+      {
+        "start_seconds": 872.76,
+        "end_seconds": 878.72,
+        "text": "on ka, on ka välja toodud, et, et, et noh, Eesti ja, ja ka ja terve Euroopa osa ikkagi"
+      },
+      {
+        "start_seconds": 878.72,
+        "end_seconds": 885.16,
+        "text": "selles CO2 heitkoguses on, on nii väike, et, et see, et see ei mõjuta mitte midagi."
+      },
+      {
+        "start_seconds": 885.16,
+        "end_seconds": 891.36,
+        "text": "Et Arpi, ma pöördun nüüd sinu poole, et kas need on need peamised argumendid?"
+      },
+      {
+        "start_seconds": 891.36,
+        "end_seconds": 897.92,
+        "text": "Mis on selle süsteemi nii-öelda kitsaskohad või, või on midagi veel?"
+      },
+      {
+        "start_seconds": 897.92,
+        "end_seconds": 900.48,
+        "text": "Ja mida sa näed selles hea otsa vastu?"
+      },
+      {
+        "start_seconds": 900.48,
+        "end_seconds": 904.4,
+        "text": "Võib-olla see on natuke liiga kitsas, kui me nüüd räägime põlevkivist ja mingist kon"
+      },
+      {
+        "start_seconds": 904.4,
+        "end_seconds": 911.2,
+        "text": "kreetsest energia või kütuseliigist, et kõigepealt mina saan aru niimoodi, et kogu kesk"
+      },
+      {
+        "start_seconds": 911.2,
+        "end_seconds": 917.76,
+        "text": "konnapoliitik, kaasa arvatud Eesti süsteem on üks süsteem sotsiaalmajanduslikust süsteem"
+      },
+      {
+        "start_seconds": 917.76,
+        "end_seconds": 922.4,
+        "text": "ist, eks ole, et peaksime vaatama seda tervikult, nüüd järgmine on see, et kuidas seda"
+      },
+      {
+        "start_seconds": 922.4,
+        "end_seconds": 927.08,
+        "text": "tervikut vaadata, mis tegelikult see, mis see meie eesmärk on."
+      },
+      {
+        "start_seconds": 927.08,
+        "end_seconds": 932.84,
+        "text": "Kui meie eesmärk on süsinikuvaba majandus kaks tuhat viiskümmend."
+      },
+      {
+        "start_seconds": 932.84,
+        "end_seconds": 940.16,
+        "text": "Jah, see tundub olevat täiesti okei, järelikult see süsteem võiks edasi toimida mingi"
+      },
+      {
+        "start_seconds": 940.16,
+        "end_seconds": 942.52,
+        "text": "sugust probleemi me nagu ei näe."
+      },
+      {
+        "start_seconds": 942.52,
+        "end_seconds": 948.16,
+        "text": "Et vastus on jah, aga nüüd järgmine küsimus, et aga kuidas kõik te kiitsite nüüd, et"
+      },
+      {
+        "start_seconds": 948.16,
+        "end_seconds": 952.68,
+        "text": ", et väga hästi toimib ja, ja kindlasti on igaühel oma argumendid, aga, aga mina ütle"
+      },
+      {
+        "start_seconds": 952.68,
+        "end_seconds": 959.72,
+        "text": "ks nagu väga lihtsalt, et me oleme praegult nagu kogu tehnoloogia kaasa arvatud ene"
+      },
+      {
+        "start_seconds": 959.72,
+        "end_seconds": 965.6,
+        "text": "rgeetika üles ehitanud ju selle peale, et kuidas on CO kahe tonnid, kui palju me neid"
+      },
+      {
+        "start_seconds": 965.6,
+        "end_seconds": 967.92,
+        "text": "vähendame, mitu protsenti."
+      },
+      {
+        "start_seconds": 967.92,
+        "end_seconds": 974.88,
+        "text": "Aga me jätame ju kõrvale kõik need teised mõjud, alates sellest, et no kõigepealt peaks"
+      },
+      {
+        "start_seconds": 974.88,
+        "end_seconds": 979.96,
+        "text": "nagu monitoorima, et kes me oleme, kus me oleme, eks ole, kas meie kujundame loodust"
+      },
+      {
+        "start_seconds": 979.96,
+        "end_seconds": 984.36,
+        "text": "või, või me oleme üks osa loodusest, ma olen nagu selle viimase poolt."
+      },
+      {
+        "start_seconds": 984.36,
+        "end_seconds": 989.16,
+        "text": "Ja, ja kui sealt nüüd nagu edasi minna, siis me peaksime vaatama seda, et, et milline"
+      },
+      {
+        "start_seconds": 989.16,
+        "end_seconds": 997.0,
+        "text": "on siis CO kahe mõju kogu temperatuurile, milline on siis tegelikult keskkonnakahjude"
+      },
+      {
+        "start_seconds": 997.0,
+        "end_seconds": 1002.04,
+        "text": "neutraliseerimise hind ja kui palju on koormis ühiskonnale."
+      },
+      {
+        "start_seconds": 1002.04,
+        "end_seconds": 1008.28,
+        "text": "Vot kui me nüüd need kolm komponenti kõik kokku paneme, siis me saame aru seda, et me"
+      },
+      {
+        "start_seconds": 1008.28,
+        "end_seconds": 1015.52,
+        "text": "peame analüüsima olemasoleva olukorra plusse ja miinuseid, et ta oma"
+      },
+      {
+        "start_seconds": 1015.52,
+        "end_seconds": 1021.52,
+        "text": "l ajal loodi väga õige idee ja, ja kõik me teame ka sellest, kuidas hinnatase tonni hinna"
+      },
+      {
+        "start_seconds": 1021.52,
+        "end_seconds": 1024.36,
+        "text": "st räägiti maksimum kakskümmend eurot."
+      },
+      {
+        "start_seconds": 1024.36,
+        "end_seconds": 1030.2,
+        "text": "Nüüd me teame seda, kuidas hind kõigub, te ütlete, et on ilus turusüsteem, börs, mina"
+      },
+      {
+        "start_seconds": 1030.2,
+        "end_seconds": 1033.6,
+        "text": "ütlen, see on puht poliitiline instrument."
+      },
+      {
+        "start_seconds": 1033.6,
+        "end_seconds": 1040.12,
+        "text": "Ja, ja miks ma seda väidan, et kui algas hind läks pea saja euroni tonn, kui hakkas U"
+      },
+      {
+        "start_seconds": 1040.12,
+        "end_seconds": 1045.56,
+        "text": "kraina sõda, hind kukkus kuuekümne peale natuke üle kuuekümne, miks ju need finantsin"
+      },
+      {
+        "start_seconds": 1045.56,
+        "end_seconds": 1051.0,
+        "text": "vestorid müüsid oma kvoodi ära kartuses, et äkki lõpeb ära."
+      },
+      {
+        "start_seconds": 1051.0,
+        "end_seconds": 1056.48,
+        "text": "Hind tõusis uuesti, nüüd Euroopa riigid hakkavad rääkima, et äkki peaks seda kuidagi"
+      },
+      {
+        "start_seconds": 1056.48,
+        "end_seconds": 1061.84,
+        "text": "revideerima, hind on uuesti läinud alla, et, et noh, see hinnakõikumine, et ma ei tea"
+      },
+      {
+        "start_seconds": 1061.84,
+        "end_seconds": 1067.6,
+        "text": ", kuidas ettevõtlusel on sellega noh, niisugune võimeline nagu, nagu kaasa mängima, et"
+      },
+      {
+        "start_seconds": 1067.6,
+        "end_seconds": 1072.84,
+        "text": "et see on nagu üks asi, aga, aga, aga lõpetuseks tahaks öelda ikkagi seda, et me pea"
+      },
+      {
+        "start_seconds": 1072.84,
+        "end_seconds": 1079.16,
+        "text": "me vaatama tervikut, peame analüüsima, kuidas see süsteem toimib ja milline on selle"
+      },
+      {
+        "start_seconds": 1079.16,
+        "end_seconds": 1081.8,
+        "text": "süsteemi mõju olnud."
+      },
+      {
+        "start_seconds": 1081.8,
+        "end_seconds": 1086.88,
+        "text": "Ja kui me need analüüsid ära teeme, siis mina olen küll seda meelt, et põhimõtteliselt"
+      },
+      {
+        "start_seconds": 1086.88,
+        "end_seconds": 1094.48,
+        "text": "see süsteem võiks jätkuda, aga ta tuleb ikkagi ajakohastada tänastele nõudmistele ja"
+      },
+      {
+        "start_seconds": 1094.48,
+        "end_seconds": 1101.96,
+        "text": "ja noh, põhimõtteliselt on ju piirkonna või riigi kestlikkus on ju ju kaalul, kõik"
+      },
+      {
+        "start_seconds": 1101.96,
+        "end_seconds": 1106.08,
+        "text": "me tahame, et keskkond on parem, mina kaasa arvatud, eks ole, aga noh, me peame alati"
+      },
+      {
+        "start_seconds": 1106.08,
+        "end_seconds": 1110.08,
+        "text": "vaatama, et mis on millegi hind."
+      },
+      {
+        "start_seconds": 1110.08,
+        "end_seconds": 1117.16,
+        "text": "Absoluutselt, selge on see, et et CO kahe heitkoguse vähendamine nõuab suuri"
+      },
+      {
+        "start_seconds": 1117.16,
+        "end_seconds": 1124.0,
+        "text": "investeeringuid ja, ja, ja mida rohkem me seda vähendame, seda, seda suuremaks need viimase"
+      },
+      {
+        "start_seconds": 1124.0,
+        "end_seconds": 1125.56,
+        "text": "otsa investeeringud lähevad."
+      },
+      {
+        "start_seconds": 1125.56,
+        "end_seconds": 1132.36,
+        "text": "Kas meil on mingeid paremaid instrumente, meetodeid veel, kuidas seda teha?"
+      },
+      {
+        "start_seconds": 1132.36,
+        "end_seconds": 1139.52,
+        "text": "Ivo ja Laura ka mainisid siin juba keskkonnamaksu, CO-kahe maksu."
+      },
+      {
+        "start_seconds": 1139.52,
+        "end_seconds": 1144.96,
+        "text": "Kas on midagi veel?"
+      },
+      {
+        "start_seconds": 1144.96,
+        "end_seconds": 1151.56,
+        "text": "Jah vabandust, et mina kordaks ikkagi natuke vastupidist, et ja ma saan aru, miks kesk"
+      },
+      {
+        "start_seconds": 1151.56,
+        "end_seconds": 1157.16,
+        "text": "konna või CO kahe maksu ei ole, eks ole, nõuab riikide, liikmesriikide konsensust ja"
+      },
+      {
+        "start_seconds": 1157.16,
+        "end_seconds": 1163.0,
+        "text": "kõik nii edasi, eks ole, aga noh, see oleks nagu nagu ikkagi päris selge instrument ja"
+      },
+      {
+        "start_seconds": 1163.0,
+        "end_seconds": 1170.16,
+        "text": "teine oleks juba siseriiklikult iga liikmesriigi otsustada on ju see, et"
+      },
+      {
+        "start_seconds": 1170.16,
+        "end_seconds": 1174.12,
+        "text": ", et kust ta selle raha paneb, mis ta riigieelarvesse korjab."
+      },
+      {
+        "start_seconds": 1174.12,
+        "end_seconds": 1178.72,
+        "text": "Lugupeetud minister ütles, et me ostame selle eest busse ja soojustame maju."
+      },
+      {
+        "start_seconds": 1178.72,
+        "end_seconds": 1185.04,
+        "text": "Mina ütlen, et energia vist ei ole ikkagi päris õige asi, eelkõige elektrienergia kõige"
+      },
+      {
+        "start_seconds": 1185.04,
+        "end_seconds": 1192.2,
+        "text": "niisugune mugavam energialiik, et nüüd seda maksustada selleks, et busse osta, et noh"
+      },
+      {
+        "start_seconds": 1192.2,
+        "end_seconds": 1197.72,
+        "text": ", ju riigieelarves on nagu teisi vahendeid ja, ja ma tahan öelda seda, et kui see, kui"
+      },
+      {
+        "start_seconds": 1197.72,
+        "end_seconds": 1203.96,
+        "text": "see hind ükskõik, on ta poliitiline otsus või börsiotsus läheb väga kõrgeks, siis ma"
+      },
+      {
+        "start_seconds": 1203.96,
+        "end_seconds": 1210.56,
+        "text": "oleks seda meelt, et mingi osa maksust kindlasti peab minema tagasi sellele ettevõtte"
+      },
+      {
+        "start_seconds": 1210.56,
+        "end_seconds": 1217.72,
+        "text": "le, et, et oma olukorda parandada, aga täpselt sama tähtis on, et ka tarbijatele tagasi"
+      },
+      {
+        "start_seconds": 1217.72,
+        "end_seconds": 1222.76,
+        "text": "maksta selle kõrgendatud energia hinna eest osaliselt."
+      },
+      {
+        "start_seconds": 1222.76,
+        "end_seconds": 1227.84,
+        "text": "Sa juba läksid sinna sinna teemasse, mis puudutab seda, neid ettepanekuid, millega Euroopa"
+      },
+      {
+        "start_seconds": 1227.84,
+        "end_seconds": 1231.12,
+        "text": "Komisjon välja tuligi hiljuti, aga Laura tahtis enne veel sõna ja siis lähme sinna."
+      },
+      {
+        "start_seconds": 1231.12,
+        "end_seconds": 1236.36,
+        "text": "Ja et ma võib-olla haarakski sõnasabast kinni, et tõepoolest ongi vaja tervikut vaadata"
+      },
+      {
+        "start_seconds": 1236.36,
+        "end_seconds": 1244.16,
+        "text": ", on vaja vaadata seda mõju, mida me oma keskkonnale k"
+      },
+      {
+        "start_seconds": 1244.16,
+        "end_seconds": 1249.56,
+        "text": "liimale põhjustame ja mis on need lahendused, aga veelgi enam, et see pilt on ju veel"
+      },
+      {
+        "start_seconds": 1249.56,
+        "end_seconds": 1254.68,
+        "text": "laiemaks läinud, et me peame ka vaatama energiajulgeolekut ja, ja kui me vaatame neid"
+      },
+      {
+        "start_seconds": 1254.68,
+        "end_seconds": 1262.08,
+        "text": "viimaste aastate sündmusi, siis see, et Euroopa on vähendanud"
+      },
+      {
+        "start_seconds": 1262.08,
+        "end_seconds": 1269.28,
+        "text": "sõltuvust imporditavatest fossiilkütustest, on meid muutnud vastupidavama"
+      },
+      {
+        "start_seconds": 1269.28,
+        "end_seconds": 1276.44,
+        "text": "ks, et kui me vaatame Hormoosi väina sulgemisest tingitud mõju fossiilkü"
+      },
+      {
+        "start_seconds": 1276.44,
+        "end_seconds": 1284.64,
+        "text": "tuste hindadele Venemaa täiemahuline sissetung ukrainasse ja selle mõju too"
+      },
+      {
+        "start_seconds": 1284.64,
+        "end_seconds": 1290.28,
+        "text": "na gaasihindadele, siis need on need kohad, mis ongi Euroopa majandust haavatavaks muu"
+      },
+      {
+        "start_seconds": 1290.28,
+        "end_seconds": 1297.96,
+        "text": "tnud ja see, et heitkogustega kauplemise süsteem on juba"
+      },
+      {
+        "start_seconds": 1297.96,
+        "end_seconds": 1304.8,
+        "text": "suutnud suunata investeeringuid sinna, et meil on taastuvenergia osakaal kasvanud, et"
+      },
+      {
+        "start_seconds": 1304.8,
+        "end_seconds": 1310.36,
+        "text": "meie ettevõtted on rakendanud puhtamaid tehnoloogiaid."
+      },
+      {
+        "start_seconds": 1310.36,
+        "end_seconds": 1314.28,
+        "text": "Aitab meil praeguses olukorras paremini toime tulla, aga me ei ole veel kaugeltki võib"
+      },
+      {
+        "start_seconds": 1314.28,
+        "end_seconds": 1320.12,
+        "text": "-olla sealmaal, kus me, kuhu me liikuda võiks ja võib-olla seda heitkogustega kauple"
+      },
+      {
+        "start_seconds": 1320.12,
+        "end_seconds": 1328.16,
+        "text": "missüsteemi mõju energiasüsteemi ümberkorraldamisel on ka võib-olla natuke üle"
+      },
+      {
+        "start_seconds": 1328.16,
+        "end_seconds": 1335.64,
+        "text": "hinnatud mõnes mõttes, et, et ongi tehnoloogiad, mis"
+      },
+      {
+        "start_seconds": 1335.64,
+        "end_seconds": 1341.72,
+        "text": "on juba oma olemuselt kallimad ka ilma heitkogustega kauplemissüsteemita, et näiteks"
+      },
+      {
+        "start_seconds": 1341.72,
+        "end_seconds": 1349.36,
+        "text": "võtame Serbia päev ette börsihind sada viiskümmend megavatt tu"
+      },
+      {
+        "start_seconds": 1349.36,
+        "end_seconds": 1350.72,
+        "text": "nni eest."
+      },
+      {
+        "start_seconds": 1350.72,
+        "end_seconds": 1357.8,
+        "text": "Et ja seal on suurim osakaal energiaportfellist just kivis"
+      },
+      {
+        "start_seconds": 1357.8,
+        "end_seconds": 1364.44,
+        "text": "öel, litiidil kuuskümmend neli protsenti ja Serbias tuleta meelde, et süsteemi täna ei"
+      },
+      {
+        "start_seconds": 1364.44,
+        "end_seconds": 1367.12,
+        "text": "ole."
+      },
+      {
+        "start_seconds": 1367.12,
+        "end_seconds": 1372.2,
+        "text": "Ma tulen siin ka paari punkti juurde, et mis, mis väärivad ära mainimist, sellepärast"
+      },
+      {
+        "start_seconds": 1372.2,
+        "end_seconds": 1378.28,
+        "text": "et tegelikult ma pean tunnistama, et, et siin on asju tõesti, mis selle nii-öelda süsteem"
+      },
+      {
+        "start_seconds": 1378.28,
+        "end_seconds": 1383.24,
+        "text": "i toimimisel ei ole hästi läbimõeldud ja, ja mu tunnetus on selles, et me oleme lihtsalt"
+      },
+      {
+        "start_seconds": 1383.24,
+        "end_seconds": 1385.32,
+        "text": "väga mitmes kohas liiga nõrgad olnud."
+      },
+      {
+        "start_seconds": 1385.32,
+        "end_seconds": 1390.16,
+        "text": "Et esimene pool on tõesti see, et, et see, see süsteem ei toimi hästi ilma selle inn"
+      },
+      {
+        "start_seconds": 1390.16,
+        "end_seconds": 1394.8,
+        "text": "ovatsiooni komponendita, et ei tekiks juurde uusi lahendusi, ei tekiks juurde nii-öelda"
+      },
+      {
+        "start_seconds": 1394.8,
+        "end_seconds": 1397.16,
+        "text": "seda puhta majanduse arengut."
+      },
+      {
+        "start_seconds": 1397.16,
+        "end_seconds": 1402.04,
+        "text": "See eeldab seda, et tegelikult nendest poliitikatest peatakse jõulisemalt kinni, et ei"
+      },
+      {
+        "start_seconds": 1402.04,
+        "end_seconds": 1406.92,
+        "text": "toimuks pidevalt sellist nii-öelda nihverdamist või lootust, et aga äkki äkki ikka nüüd"
+      },
+      {
+        "start_seconds": 1406.92,
+        "end_seconds": 1411.88,
+        "text": "pööratakse ümber või nüüd on mingi kaos, mis või, või, või probleem maailmas, mis või"
+      },
+      {
+        "start_seconds": 1411.88,
+        "end_seconds": 1415.56,
+        "text": "maldab sellel süsteemil jälle nagu natukene ümber rääkida, natuke teha, sest peamise"
+      },
+      {
+        "start_seconds": 1415.56,
+        "end_seconds": 1419.76,
+        "text": "lt ka need hinnakõikumised on suuresti olnud mitte seotud sellega, et turul oleks mingi"
+      },
+      {
+        "start_seconds": 1419.76,
+        "end_seconds": 1424.24,
+        "text": "d spekulandid, mida pole mitte kunagi ühegi analüüsiga suudetud päriselt näidata, vaid"
+      },
+      {
+        "start_seconds": 1424.24,
+        "end_seconds": 1428.64,
+        "text": "need nii-öelda hinnakõikumised kõige suuremad keerlevad ümber sellest nende kohtade,"
+      },
+      {
+        "start_seconds": 1428.64,
+        "end_seconds": 1433.0,
+        "text": "kus on jällegi poliitilise otsustamise hetk, et ministrid tulevad kokku, nüüd hakata"
+      },
+      {
+        "start_seconds": 1433.0,
+        "end_seconds": 1437.24,
+        "text": "kse jälle mõtlema, et noh, ühelt poolt kardetakse seda, et hakkavad siin, eks ole, kas"
+      },
+      {
+        "start_seconds": 1437.24,
+        "end_seconds": 1442.28,
+        "text": "eesmärke tõstma või, või, või kokku tõmbama ja see sunnib ettevõtteid nende kvoodihi"
+      },
+      {
+        "start_seconds": 1442.28,
+        "end_seconds": 1449.72,
+        "text": "ndade ja, ja, ja asjadega tegeleda ja, ja noh, nagu see pool on, peab olema tugev ja"
+      },
+      {
+        "start_seconds": 1449.72,
+        "end_seconds": 1454.76,
+        "text": "samas ma olen täiesti nõus, et järjest rohkem sellest süsteemi nii-öelda ka rahast, mis"
+      },
+      {
+        "start_seconds": 1454.76,
+        "end_seconds": 1459.8,
+        "text": "siis kokku kogutakse läbi nende koodimüügi, tuleks suunata tagasi ettevõtetele, et päris"
+      },
+      {
+        "start_seconds": 1459.8,
+        "end_seconds": 1464.08,
+        "text": "elt neid investeeringuid ka toetada ja teha, sest sest siin on nagu mitu aspekti, et"
+      },
+      {
+        "start_seconds": 1464.08,
+        "end_seconds": 1469.88,
+        "text": "noh meil ei ole mõtet laskuda ebateaduslikku debatti selle üle, kas kliimaeesmärgid on"
+      },
+      {
+        "start_seconds": 1469.88,
+        "end_seconds": 1474.56,
+        "text": ", on mõttekad või mitte, sellepärast et lõpptulemusena inimtekkeline kliimamuutus on"
+      },
+      {
+        "start_seconds": 1474.56,
+        "end_seconds": 1479.52,
+        "text": "argument, noh, tänases kontekstis selline teema, mille kohta me ei, me ei pea enam tõ"
+      },
+      {
+        "start_seconds": 1479.52,
+        "end_seconds": 1484.24,
+        "text": "siseltvõetavas kliimateaduses mingeid teemasid, siilkütuste põletamine põhjustab CO kahe"
+      },
+      {
+        "start_seconds": 1484.24,
+        "end_seconds": 1488.68,
+        "text": "heidet, CO kahe heide põhjustab täna globaalset kliimamuutust, no see, see, see on selle"
+      },
+      {
+        "start_seconds": 1488.68,
+        "end_seconds": 1492.88,
+        "text": ", see ei ole see debatt täna, mis on debatt, täna on see, et kuidas me lahendame selle"
+      },
+      {
+        "start_seconds": 1492.88,
+        "end_seconds": 1498.52,
+        "text": "nii-öelda probleemi võimalikult hästi ära, me lahendame selle ära investeerides uute"
+      },
+      {
+        "start_seconds": 1498.52,
+        "end_seconds": 1502.64,
+        "text": "sse tehnoloogiatesse, puhtamatesse lahendustesse, osad, mis meil on olemas ja osad, mis"
+      },
+      {
+        "start_seconds": 1502.64,
+        "end_seconds": 1506.6,
+        "text": "vajavad tegelikult väga tugevat insenerteaduslikku lähenemist ja seda, et see insene"
+      },
+      {
+        "start_seconds": 1506.6,
+        "end_seconds": 1510.56,
+        "text": "riteaduslik lähenemine tekib, peab olema ka nii-öelda pikaajaliselt selge see visioon"
+      },
+      {
+        "start_seconds": 1510.56,
+        "end_seconds": 1515.72,
+        "text": "ja tänane et-süsteem täidab seda eesmärki paremini kui, kui maks saaks, sest tal on pi"
+      },
+      {
+        "start_seconds": 1515.72,
+        "end_seconds": 1520.04,
+        "text": "kaajaline ettenähtavus ja tal on nii-öelda tugevnemise komponent, nagu ma ütlesin, ma"
+      },
+      {
+        "start_seconds": 1520.04,
+        "end_seconds": 1524.64,
+        "text": "ks ei täida seda, sest seda hakatakse pidevalt ümber rääkima, ümber jaurama ja jälle"
+      },
+      {
+        "start_seconds": 1524.64,
+        "end_seconds": 1529.44,
+        "text": "gi natukene mängima edasi-tagasi ja, ja mis on siin veel oluline nagu esile tuua, on"
+      },
+      {
+        "start_seconds": 1529.44,
+        "end_seconds": 1533.68,
+        "text": "see, et, et täna, kas me tahame seda kõike teha kliima pärast või mitte, ei ole enam"
+      },
+      {
+        "start_seconds": 1533.68,
+        "end_seconds": 1539.2,
+        "text": "niivõrd oluline, sest noh, globaalses kontekstis oleme me mängitud nurka, kus tegelikult"
+      },
+      {
+        "start_seconds": 1539.2,
+        "end_seconds": 1544.68,
+        "text": "Hiina käes on tugevamad kaardid, kui me kunagi oleksime osanud arvata, arvata ajaloo"
+      },
+      {
+        "start_seconds": 1544.68,
+        "end_seconds": 1549.12,
+        "text": "liselt, alates sellest, et puhtalt puhaste tehnoloogiate areng on jõudnud sinnamaani"
+      },
+      {
+        "start_seconds": 1549.12,
+        "end_seconds": 1554.2,
+        "text": ", kus Hiina tegelikult domineerib põhilisi puhaste tehnoloogiate nii-öelda sektoreid"
+      },
+      {
+        "start_seconds": 1554.2,
+        "end_seconds": 1560.52,
+        "text": ", energeetikat läbi akude, läbi elektriautode, sealhulgas ka transporti, energia too"
+      },
+      {
+        "start_seconds": 1560.52,
+        "end_seconds": 1568.44,
+        "text": "tmist läbi taastuvate allikate ja, ja, ja sealjuures siis ka see"
+      },
+      {
+        "start_seconds": 1568.44,
+        "end_seconds": 1573.44,
+        "text": "on, ütleks sassi see viimane mõte, kust ta tuli, aga noh, põhimõtteliselt nagu akud,"
+      },
+      {
+        "start_seconds": 1573.44,
+        "end_seconds": 1579.92,
+        "text": "eks ole, on ka jällegi tugevalt Hiina käes ja viimane Hormusi väina nagu skandaal näita"
+      },
+      {
+        "start_seconds": 1579.92,
+        "end_seconds": 1584.04,
+        "text": "b ühte väga nagu hirmutavat või, või suurt asja veel."
+      },
+      {
+        "start_seconds": 1584.04,
+        "end_seconds": 1588.68,
+        "text": "Ta näitab seda, et esiteks USA-l ei ole enam seda tugevat võimu, mis tal oli nafta üle"
+      },
+      {
+        "start_seconds": 1588.68,
+        "end_seconds": 1594.88,
+        "text": "ajalooliselt, sellepärast et Iraan näitas USA-le, et me võime soovi korral kakskümmend"
+      },
+      {
+        "start_seconds": 1594.88,
+        "end_seconds": 1600.2,
+        "text": "protsenti maailma naftaturust kinni panna ja USA ei suutnud seda peatada ja seal kõrval"
+      },
+      {
+        "start_seconds": 1600.2,
+        "end_seconds": 1604.8,
+        "text": "demonstreeris Hiina, et nemad võivad omalt poolt viis protsenti globaalsest naftaturu"
+      },
+      {
+        "start_seconds": 1604.8,
+        "end_seconds": 1609.48,
+        "text": "st nipsuga sisse-välja lülitada ja see on hirmutav ja see on see kontekst, kus Euroopa"
+      },
+      {
+        "start_seconds": 1609.48,
+        "end_seconds": 1614.84,
+        "text": "Liit peab täna nagu väga tugevalt mõtestama omaenda tehnoloogiat, investeeringute are"
+      },
+      {
+        "start_seconds": 1614.84,
+        "end_seconds": 1620.0,
+        "text": "ngut just selle poole, et me ei hoiaks kümne küünega kinni kütustest ja tehnoloogiatest"
+      },
+      {
+        "start_seconds": 1620.0,
+        "end_seconds": 1624.72,
+        "text": ", mis, mis hoiavad meid nii-öelda selle fossiilkütuste kolmandate riikide küljes kinni"
+      },
+      {
+        "start_seconds": 1624.72,
+        "end_seconds": 1629.64,
+        "text": ", investeerime sinna, kus see tulevik on ka meile endale nii-öelda julgem, kindlam ja"
+      },
+      {
+        "start_seconds": 1629.64,
+        "end_seconds": 1631.4,
+        "text": "meie enda otsustuse all."
+      },
+      {
+        "start_seconds": 1631.4,
+        "end_seconds": 1635.16,
+        "text": "Ja, ja siinkohal noh, ma ütlen, et teatud mõttes pole sellest põlevkivist isegi mõte"
+      },
+      {
+        "start_seconds": 1635.16,
+        "end_seconds": 1640.2,
+        "text": "t rääkida, sest põlevkiviga me ei hakka mitte kunagi nii-öelda kütma belglaste gaasik"
+      },
+      {
+        "start_seconds": 1640.2,
+        "end_seconds": 1646.08,
+        "text": "atlaid või, või sakslaste autosid, et noh, lõpptulemusena me ühtselt ühisturuna peame"
+      },
+      {
+        "start_seconds": 1646.08,
+        "end_seconds": 1650.56,
+        "text": "väljuma fossiilkütustest ja see peab toimuma ühisturu reeglite alusel, selleks konte"
+      },
+      {
+        "start_seconds": 1650.56,
+        "end_seconds": 1654.64,
+        "text": "kstiks seesama heitkogustega kauplemise süsteem sobib, sobib suurepäraselt."
+      },
+      {
+        "start_seconds": 1654.64,
+        "end_seconds": 1658.48,
+        "text": "Olgu, aga räägime siis sellest süsteemist, mulle tundub, et me olime enam-vähem ühel"
+      },
+      {
+        "start_seconds": 1658.48,
+        "end_seconds": 1662.92,
+        "text": "nõul, et see süsteem võiks jätkuda, juhul kui seda suuremal või vähemal määral reform"
+      },
+      {
+        "start_seconds": 1662.92,
+        "end_seconds": 1663.6,
+        "text": "ida."
+      },
+      {
+        "start_seconds": 1663.6,
+        "end_seconds": 1668.28,
+        "text": "Ja räägime nendest reformi ettepanekutest, millega Euroopa Komisjon välja tuli, mida"
+      },
+      {
+        "start_seconds": 1668.28,
+        "end_seconds": 1672.08,
+        "text": "Ivo, sa natuke juba otsast mainisid."
+      },
+      {
+        "start_seconds": 1672.08,
+        "end_seconds": 1675.8,
+        "text": "Seal on palju asju, aga noh, lühidalt kokkuvõttes."
+      },
+      {
+        "start_seconds": 1675.8,
+        "end_seconds": 1681.68,
+        "text": "Teatud määral ettevõtetele pakutakse tulevikus leevendust saastavatele ettevõtetele."
+      },
+      {
+        "start_seconds": 1681.68,
+        "end_seconds": 1686.84,
+        "text": "Et ühikute hulk süsteemis, mis määrab siis selle, kui palju võib saastada, väheneb pla"
+      },
+      {
+        "start_seconds": 1686.84,
+        "end_seconds": 1691.12,
+        "text": "anitust aeglasemalt ja ka tasuta ühikuid ettevõtetele antakse edasi."
+      },
+      {
+        "start_seconds": 1691.12,
+        "end_seconds": 1695.72,
+        "text": "Teiselt poolt see tuleb uute tingimustega, et ettevõtted tõesti peavad ette näitama mingisuguse"
+      },
+      {
+        "start_seconds": 1695.72,
+        "end_seconds": 1699.64,
+        "text": "investeeringukava ja need investeeringud ka vähemalt osalt ära tegema."
+      },
+      {
+        "start_seconds": 1699.64,
+        "end_seconds": 1705.12,
+        "text": "Et neid tasuta ühikuid saada ja, ja teise ja lisaks siis veel see, mida Ivo mainis, et"
+      },
+      {
+        "start_seconds": 1705.12,
+        "end_seconds": 1710.48,
+        "text": "ka riigid peavad siis selle süsteemi tulu tagasi suunama sellesse sektorisse, kust see"
+      },
+      {
+        "start_seconds": 1710.48,
+        "end_seconds": 1711.48,
+        "text": "raha on võetud."
+      },
+      {
+        "start_seconds": 1711.48,
+        "end_seconds": 1713.36,
+        "text": "Noh, see on selline lühike kokkuvõte."
+      },
+      {
+        "start_seconds": 1713.36,
+        "end_seconds": 1715.92,
+        "text": "Et võib-olla Margo, ma küsin sinult esimesena."
+      },
+      {
+        "start_seconds": 1715.92,
+        "end_seconds": 1719.4,
+        "text": "Et, et."
+      },
+      {
+        "start_seconds": 1719.4,
+        "end_seconds": 1725.32,
+        "text": "Kuidas need ettepanekud tunduvad turuosalistele ja mida, mida, mida sealt võiks võtta"
+      },
+      {
+        "start_seconds": 1725.32,
+        "end_seconds": 1730.44,
+        "text": ", mida võiks jätta, lisaks oli see hinnastabiilsuse teema veel, mida siin tõstatati,"
+      },
+      {
+        "start_seconds": 1730.44,
+        "end_seconds": 1736.16,
+        "text": "et võiks ühiku hind olla süsteemis nagu ettenähtavam."
+      },
+      {
+        "start_seconds": 1736.16,
+        "end_seconds": 1741.0,
+        "text": "Jah, see on suht värske ettepanek, ega, ega selle kohta ei ole väga, väga lihtne arva"
+      },
+      {
+        "start_seconds": 1741.0,
+        "end_seconds": 1746.32,
+        "text": "ta, aga kui ma olen seda vaadanud, siis võib-olla see, see teema ei ole või see hea kü"
+      },
+      {
+        "start_seconds": 1746.32,
+        "end_seconds": 1752.32,
+        "text": "lg ei ole niivõrd nagu mingis leevenduses, vaid pigem ta on sellise investeerimiskind"
+      },
+      {
+        "start_seconds": 1752.32,
+        "end_seconds": 1759.28,
+        "text": "luse loomises ja, ja, ja investeerimiskliima nagu selginemises, sest energeetikasektor"
+      },
+      {
+        "start_seconds": 1759.28,
+        "end_seconds": 1763.04,
+        "text": "i investeeringud on äärmiselt mahukad ja äärmiselt pikaajalised."
+      },
+      {
+        "start_seconds": 1763.04,
+        "end_seconds": 1768.56,
+        "text": "Ja, ja, ja tegelikult oleks, oleks vaja teatud sellist kindlustunnet, et nende, nende"
+      },
+      {
+        "start_seconds": 1768.56,
+        "end_seconds": 1774.88,
+        "text": "investeeringuid teostada, et saada rahastus nendele investeeringutele taha ja, ja, ja"
+      },
+      {
+        "start_seconds": 1774.88,
+        "end_seconds": 1779.24,
+        "text": "selles mõttes mulle tundub, et see uus süsteem nagu seda pakub."
+      },
+      {
+        "start_seconds": 1779.24,
+        "end_seconds": 1784.32,
+        "text": "Lisaks see, et, et, et tõesti see, see raha suunatakse sinna sektorisse tagasi."
+      },
+      {
+        "start_seconds": 1784.32,
+        "end_seconds": 1787.96,
+        "text": "Noh, kui me nüüd kaugküttesektori seisukoha pealt vaatan, siis hästi palju investeeri"
+      },
+      {
+        "start_seconds": 1787.96,
+        "end_seconds": 1792.88,
+        "text": "nguid on nagu ära tehtud, et et, et noh, et ei, ei kahjustataks võib-olla seda sektor"
+      },
+      {
+        "start_seconds": 1792.88,
+        "end_seconds": 1798.92,
+        "text": "it, kes on, kes on võib-olla virgem ja eesrindlikum olnud, et, et, et, et need, need"
+      },
+      {
+        "start_seconds": 1798.92,
+        "end_seconds": 1802.36,
+        "text": "sellepärast ei kannataks, et nad on esimesed olnud, on ju."
+      },
+      {
+        "start_seconds": 1802.36,
+        "end_seconds": 1807.28,
+        "text": "Aga, aga põhimõtteliselt jah, minu suhtumine on selles mõttes positiivne, see annab in"
+      },
+      {
+        "start_seconds": 1807.28,
+        "end_seconds": 1812.72,
+        "text": "vesteerimiskindlust, see tekitab selle, selle rahavoo, et see tuleb sinna sektorisse"
+      },
+      {
+        "start_seconds": 1812.72,
+        "end_seconds": 1819.12,
+        "text": "tagasi investeerimiskohustusena ja, ja see võimaldabki tegelikult mis iganes sektor see"
+      },
+      {
+        "start_seconds": 1819.12,
+        "end_seconds": 1822.0,
+        "text": "siis on, dekarboniseerida seda sektorit."
+      },
+      {
+        "start_seconds": 1822.0,
+        "end_seconds": 1827.88,
+        "text": "Arvi, kas see kompromiss, millega või see ettepanek tähendab, millega komisjon välja"
+      },
+      {
+        "start_seconds": 1827.88,
+        "end_seconds": 1832.36,
+        "text": "tuli, et ühelt poolt anda natuke leevendust ettevõtetele, teiselt poolt suunata rohkem"
+      },
+      {
+        "start_seconds": 1832.36,
+        "end_seconds": 1837.0,
+        "text": "raha neile tagasi, kas see võiks olla selline mõistlik kompromisslahendus või on see"
+      },
+      {
+        "start_seconds": 1837.0,
+        "end_seconds": 1840.36,
+        "text": "selline noh, kosmeetiline uuendus?"
+      },
+      {
+        "start_seconds": 1840.36,
+        "end_seconds": 1848.12,
+        "text": "Abiks ikka, et kas nendes ettepanekutes on ju näha seda, et me"
+      },
+      {
+        "start_seconds": 1848.12,
+        "end_seconds": 1854.28,
+        "text": "püüame nüüd kosmeetiliste selliste nõksudega natuke seda süsteemi elus hoida, et, et"
+      },
+      {
+        "start_seconds": 1854.28,
+        "end_seconds": 1859.88,
+        "text": "noh, mina ei ole mingi otsustaja, aga noh, vaatame teisi riike, mis on nende reageeri"
+      },
+      {
+        "start_seconds": 1859.88,
+        "end_seconds": 1866.72,
+        "text": "ngud olnud, et kokkuvõttes jah, nagu ma ütlesin, et, et ta on mingisugune, mina ütle"
+      },
+      {
+        "start_seconds": 1866.72,
+        "end_seconds": 1871.64,
+        "text": "ksin hea tahte avaldus ja, ja kindlasti juba nii kui Margo ütles, et ettevõtetele on"
+      },
+      {
+        "start_seconds": 1871.64,
+        "end_seconds": 1879.08,
+        "text": "ta mingilgi määral noh, natukene mingi indikaator on, aga kindlasti ei ole"
+      },
+      {
+        "start_seconds": 1879.08,
+        "end_seconds": 1885.72,
+        "text": "see lõpplahendus ja, ja lõpplahendus saab tulla siis, kui meil on täielik analüüs ühis"
+      },
+      {
+        "start_seconds": 1885.72,
+        "end_seconds": 1887.64,
+        "text": "konna koormisel."
+      },
+      {
+        "start_seconds": 1887.64,
+        "end_seconds": 1895.28,
+        "text": "Tänaseks on ju kõik need CO kahe kvoodimaksud, mida oleme korjanud, on ju"
+      },
+      {
+        "start_seconds": 1895.28,
+        "end_seconds": 1900.52,
+        "text": "tegelikult tarbijate käest ära läinud, eks ole, et, et nüüd mida see nagu, nagu maks"
+      },
+      {
+        "start_seconds": 1900.52,
+        "end_seconds": 1907.84,
+        "text": "ab ja nüüd ikkagi veel seda rahalist vaadet, et Varssavi üks instituut on, on"
+      },
+      {
+        "start_seconds": 1907.84,
+        "end_seconds": 1914.24,
+        "text": "välja rehkendanud, et kui palju kliimakahjude ärahoidmine maksab aastas Euroopa Liidu"
+      },
+      {
+        "start_seconds": 1914.24,
+        "end_seconds": 1921.68,
+        "text": "s poolteist miljardit, aga investeeri-, aga kogu eksisüsteemi kulu on neli"
+      },
+      {
+        "start_seconds": 1921.68,
+        "end_seconds": 1927.36,
+        "text": "kümmend kuus miljardit, et nüüd peaks nagu vaatama neid vahekordasid, et, et mis, mis"
+      },
+      {
+        "start_seconds": 1927.36,
+        "end_seconds": 1932.96,
+        "text": "need nagu, mis need nagu annavad ja, ja mis on ikkagi juur põhjus, et mina ikkagi taha"
+      },
+      {
+        "start_seconds": 1932.96,
+        "end_seconds": 1939.24,
+        "text": "ks nagu aru saada sellest, et kõigepealt oleme siht, siis peab olema eesmärgid ja siis"
+      },
+      {
+        "start_seconds": 1939.24,
+        "end_seconds": 1944.4,
+        "text": "peavad olema eeldused ja siis teede valik, et neid eesmärke täita."
+      },
+      {
+        "start_seconds": 1944.4,
+        "end_seconds": 1950.92,
+        "text": "Siht on kaks tuhat viiskümmend süsinikuvabadus, see eeldatavasti on, on täna ja jääb"
+      },
+      {
+        "start_seconds": 1950.92,
+        "end_seconds": 1956.36,
+        "text": "veel pikemaks ajaks selline eesmärk, aga, aga, aga millised on need ikkagi need võimalus"
+      },
+      {
+        "start_seconds": 1956.36,
+        "end_seconds": 1956.92,
+        "text": "ed?"
+      },
+      {
+        "start_seconds": 1956.92,
+        "end_seconds": 1963.08,
+        "text": "Jutt oli Hiinast või kellestki teisest, et ega ega ka Eesti on ju tohutu tublid CO kahe"
+      },
+      {
+        "start_seconds": 1963.08,
+        "end_seconds": 1968.24,
+        "text": "vähendaja olnud, aga noh, siinsamas laval mõni tund tagasi rääkisime neljakümne protse"
+      },
+      {
+        "start_seconds": 1968.24,
+        "end_seconds": 1974.2,
+        "text": "ndist elektri defitsiidist, eks ole, et, et noh, neid see, see on niisugune lai komp"
+      },
+      {
+        "start_seconds": 1974.2,
+        "end_seconds": 1980.64,
+        "text": "leks, et kosmeetiliste parandustega minu arvates ei ole mõtet tegeleda, kui ei ole tä"
+      },
+      {
+        "start_seconds": 1980.64,
+        "end_seconds": 1987.8,
+        "text": "ielikku analüüsi ja ühiskond ei tea, mis on kogu selle süsteemi niisugune rake"
+      },
+      {
+        "start_seconds": 1987.8,
+        "end_seconds": 2000.16,
+        "text": "ndamise tulemus, tulemus ei saa olla CO kahe tonnidega ega protsendid."
+      },
+      {
+        "start_seconds": 2000.16,
+        "end_seconds": 2005.96,
+        "text": "Laura võib-olla küsimus sulle siis, et mida, mida mujal Euroopas sellest arvatakse ja"
+      },
+      {
+        "start_seconds": 2005.96,
+        "end_seconds": 2010.72,
+        "text": "mida, mida Eesti riik arvab, et te hakkate seisukohti kujundama ja, ja neid läbi vaid"
+      },
+      {
+        "start_seconds": 2010.72,
+        "end_seconds": 2012.8,
+        "text": "lema?"
+      },
+      {
+        "start_seconds": 2012.8,
+        "end_seconds": 2017.92,
+        "text": "Eesti teatavasti on üsna selline kliima, kliimaskeptiline riik ja rahvas."
+      },
+      {
+        "start_seconds": 2017.92,
+        "end_seconds": 2024.56,
+        "text": "Mujal Euroopas vist on, on, on, on vähem niimoodi, et ja kas on lootust, et see, et see"
+      },
+      {
+        "start_seconds": 2024.56,
+        "end_seconds": 2030.92,
+        "text": "siht, siht muutub ja see reformi ettepanek muutub nii-öelda teistsuguseks, põhjaliku"
+      },
+      {
+        "start_seconds": 2030.92,
+        "end_seconds": 2033.76,
+        "text": "maks reformiks või, või ei ole seda lootust Euroopas?"
+      },
+      {
+        "start_seconds": 2033.76,
+        "end_seconds": 2042.04,
+        "text": "Ma võib-olla kohe alustuseks ütlen ära, et tegemist ongi sellise korrapärase re"
+      },
+      {
+        "start_seconds": 2042.04,
+        "end_seconds": 2048.04,
+        "text": "gulatsiooni ülevaatamisega, mis on juba õigusakte endasse sisse kirjutatud, et teatud"
+      },
+      {
+        "start_seconds": 2048.04,
+        "end_seconds": 2052.56,
+        "text": "aja jooksul vaadatakse üle, et kuidas on tehnoloogiad arenenud."
+      },
+      {
+        "start_seconds": 2052.56,
+        "end_seconds": 2059.68,
+        "text": "Millised vaheeesmärgid on seatud ja siis seda"
+      },
+      {
+        "start_seconds": 2059.68,
+        "end_seconds": 2066.16,
+        "text": "süsteemi vastavalt sellele ka kohandatakse, et see ülevaatamine ei ole tulnud sellest"
+      },
+      {
+        "start_seconds": 2066.16,
+        "end_seconds": 2073.24,
+        "text": ", et et oleks olnud ülekaalukas soov riikkogustega kau"
+      },
+      {
+        "start_seconds": 2073.24,
+        "end_seconds": 2076.88,
+        "text": "plemissüsteemi kuidagi väga põhjalikult reformida."
+      },
+      {
+        "start_seconds": 2076.88,
+        "end_seconds": 2084.48,
+        "text": "Pigem vastupidi, et et liikmesriigid noh, laua ümber ei ole ühtegi liikmesriiki, kes"
+      },
+      {
+        "start_seconds": 2084.48,
+        "end_seconds": 2090.92,
+        "text": "ütleks, et heitkogustega kauplemise süsteem tuleks tühistada."
+      },
+      {
+        "start_seconds": 2090.92,
+        "end_seconds": 2098.64,
+        "text": "Et pigem on riikidel eri huvid, mured, majandused on erinevad."
+      },
+      {
+        "start_seconds": 2098.64,
+        "end_seconds": 2104.8,
+        "text": "Ja, ja see komisjoni ettepanek tegelikult langeb kusagile sinna keskele erinevate huvi"
+      },
+      {
+        "start_seconds": 2104.8,
+        "end_seconds": 2106.24,
+        "text": "de vahele."
+      },
+      {
+        "start_seconds": 2106.24,
+        "end_seconds": 2113.28,
+        "text": "Et me peame ka arvestama sellega, et meil on Euroopas väga palju suuri tööstusriike ka"
+      },
+      {
+        "start_seconds": 2113.28,
+        "end_seconds": 2120.4,
+        "text": ", kus ettevõtted on teinud suuri investeeringuid puhtamasse toot"
+      },
+      {
+        "start_seconds": 2120.4,
+        "end_seconds": 2127.36,
+        "text": "misse ja nemad soovivad, et regulatsioonid oleksid stabiilsed."
+      },
+      {
+        "start_seconds": 2127.36,
+        "end_seconds": 2135.04,
+        "text": "Et et nemad on need investeeringud ära teinud ja neid ei tohi selle eest karistada."
+      },
+      {
+        "start_seconds": 2135.04,
+        "end_seconds": 2140.36,
+        "text": "Teiselt poolt on jälle riike ja ettevõtteid, kes ütlevad, et nad vajavad pisut rohkem"
+      },
+      {
+        "start_seconds": 2140.36,
+        "end_seconds": 2147.44,
+        "text": "aega, et, et olgu see siis kas geograafilisest asukohast tingituna, toot"
+      },
+      {
+        "start_seconds": 2147.44,
+        "end_seconds": 2154.52,
+        "text": "misspetsiifikast tingituna, turu eripäradest tingituna, et neil on vaja pikemat aega"
+      },
+      {
+        "start_seconds": 2154.52,
+        "end_seconds": 2157.2,
+        "text": ", et neid investeeringuid teha."
+      },
+      {
+        "start_seconds": 2157.2,
+        "end_seconds": 2164.32,
+        "text": "Ja sellise kahe poolega siis komisjon oma ettepanekus on arvestanud, p"
+      },
+      {
+        "start_seconds": 2164.32,
+        "end_seconds": 2170.4,
+        "text": "luss siis veel need murekohad, mis puudutavad ühiku hinda, et see oleks prognoositava"
+      },
+      {
+        "start_seconds": 2170.4,
+        "end_seconds": 2171.96,
+        "text": "m, stabiilsem."
+      },
+      {
+        "start_seconds": 2171.96,
+        "end_seconds": 2177.48,
+        "text": "Et investeeringute suunamine oleks täpsem."
+      },
+      {
+        "start_seconds": 2177.48,
+        "end_seconds": 2184.2,
+        "text": "Ja, ja kui ja, ja ka see, et tõepoolest ettevõtted siis neid investeeringuid edasi tee"
+      },
+      {
+        "start_seconds": 2184.2,
+        "end_seconds": 2188.84,
+        "text": "ksid, seda innovatsiooni ka see süsteem tagant tõukaks."
+      },
+      {
+        "start_seconds": 2188.84,
+        "end_seconds": 2197.52,
+        "text": "Aga jah, Eesti vaatest, et mida me ise nii-öelda komisjoni suunal ka"
+      },
+      {
+        "start_seconds": 2197.52,
+        "end_seconds": 2203.8,
+        "text": "ootustena üles käisime, et ühelt poolt ongi ühiku hind, et see oleks stabiilsem, et seda"
+      },
+      {
+        "start_seconds": 2203.8,
+        "end_seconds": 2210.4,
+        "text": "heite vähendamise tempot vaadatakse üle, et see vastaks siis tehnoloogia arengule ja"
+      },
+      {
+        "start_seconds": 2210.4,
+        "end_seconds": 2215.96,
+        "text": "sellele, kui kiiresti ettevõtted on valmis investeeringuid tegema."
+      },
+      {
+        "start_seconds": 2215.96,
+        "end_seconds": 2222.64,
+        "text": "Et madalama SKP-ga riigid saaksid süsteemis täiendavat solidaarsustulu, see on ka seal"
+      },
+      {
+        "start_seconds": 2222.64,
+        "end_seconds": 2224.0,
+        "text": "sees."
+      },
+      {
+        "start_seconds": 2224.0,
+        "end_seconds": 2231.28,
+        "text": "Aga noh, võib-olla saatan peitub detailides, et kindlasti üks oluline läbir"
+      },
+      {
+        "start_seconds": 2231.28,
+        "end_seconds": 2238.64,
+        "text": "ääkimiste koht ka Eesti jaoks saab olema see, et need kesksed fondid, mis kuju"
+      },
+      {
+        "start_seconds": 2238.64,
+        "end_seconds": 2245.8,
+        "text": "ndatakse ühikute müügi nii-öelda tulust, et meie ettevõtte"
+      },
+      {
+        "start_seconds": 2245.8,
+        "end_seconds": 2252.16,
+        "text": "d sealt ka päriselt kasu saaksid, neile päriselt ligi pääseksid, et tasuta ühikutele"
+      },
+      {
+        "start_seconds": 2252.16,
+        "end_seconds": 2259.48,
+        "text": ", millega täna näiteks mõned sektorid katavad peaaegu sada protsenti oma heitkogus"
+      },
+      {
+        "start_seconds": 2259.48,
+        "end_seconds": 2260.48,
+        "text": "test."
+      },
+      {
+        "start_seconds": 2260.48,
+        "end_seconds": 2263.44,
+        "text": "Et need ei väheneks liiga kiiresti."
+      },
+      {
+        "start_seconds": 2263.44,
+        "end_seconds": 2271.08,
+        "text": "Jah, komisjon oma ettepanekus on tasuta ühikute eraldamist pikendanud võrreldes ke"
+      },
+      {
+        "start_seconds": 2271.08,
+        "end_seconds": 2278.32,
+        "text": "htiva direktiiviga, aga teiselt poolt nende ühikute kasutamine võib olla pi"
+      },
+      {
+        "start_seconds": 2278.32,
+        "end_seconds": 2285.32,
+        "text": "sut keerulisem, et need on need läbirääkimiskohad, et, et väikese majanduse ka väikse"
+      },
+      {
+        "start_seconds": 2285.32,
+        "end_seconds": 2292.56,
+        "text": "mad ettevõtted ja just need ka, kes on eesrindlikumad olnud, et neid ei karistata"
+      },
+      {
+        "start_seconds": 2292.56,
+        "end_seconds": 2298.28,
+        "text": "ks ja need tingimused vastaksid ka nende vajadustele."
+      },
+      {
+        "start_seconds": 2298.28,
+        "end_seconds": 2304.96,
+        "text": "Ma kiusaksin korra moderaatorit ja, ja tooksin nagu sellise näite kõrvale, et seda on"
+      },
+      {
+        "start_seconds": 2304.96,
+        "end_seconds": 2309.76,
+        "text": "Eestis ka nüüd korduvalt tehtud, et kui räägitakse, et kakskümmend protsenti inimesi"
+      },
+      {
+        "start_seconds": 2309.76,
+        "end_seconds": 2315.28,
+        "text": "Eestis omab ainult nii-öelda siis suutlikkust kriisidega toime tulla või kriisivalmi"
+      },
+      {
+        "start_seconds": 2315.28,
+        "end_seconds": 2320.64,
+        "text": "dus on ainult kahekümnel protsendil inimestest, siis see ei ütle mitte kuulajale seda"
+      },
+      {
+        "start_seconds": 2320.64,
+        "end_seconds": 2325.76,
+        "text": ", et, et oi, ma pean hakkama kriisivalmidusega tegelema, vaid see ütleb seda, et mina"
+      },
+      {
+        "start_seconds": 2325.76,
+        "end_seconds": 2329.88,
+        "text": "olen ka normaalne inimene seal kaheksakümne seas, järelikult normaalne on mitte muutu"
+      },
+      {
+        "start_seconds": 2329.88,
+        "end_seconds": 2334.48,
+        "text": "da ja samamoodi kui nagu viidata kogu aeg rääkida sellest, kuidas eestlane väga ei toeta"
+      },
+      {
+        "start_seconds": 2334.48,
+        "end_seconds": 2340.2,
+        "text": "kliimapoliitikat, siis see pigem muutub selliseks nagu ennast täitvaks lubaduseks või"
+      },
+      {
+        "start_seconds": 2340.2,
+        "end_seconds": 2346.68,
+        "text": "ennast täitvaks nagu ennetuseks, mida me teame, on see, et aastal kaks tuhat üheksateist"
+      },
+      {
+        "start_seconds": 2346.68,
+        "end_seconds": 2353.48,
+        "text": "toetas ligikaudu üheksakümmend, kaheksakümmend üheksa protsenti eestlastest kliimane"
+      },
+      {
+        "start_seconds": 2353.48,
+        "end_seconds": 2356.92,
+        "text": "utraalsuse eesmärgi seadmist Euroopa Liidus."
+      },
+      {
+        "start_seconds": 2356.92,
+        "end_seconds": 2362.52,
+        "text": "Samamoodi oli see protsent aastal kaks tuhat kakskümmend kolm vist isegi kõrgem, üheksa"
+      },
+      {
+        "start_seconds": 2362.52,
+        "end_seconds": 2366.96,
+        "text": "kümne kandis ja sealt pärast seda on ta hakanud langema, nii et see küsimus ei ole mitte"
+      },
+      {
+        "start_seconds": 2366.96,
+        "end_seconds": 2371.36,
+        "text": "selles, kas eestlane toetab, vaid küsimus on selles poliitikas, kuidas meil siin seda"
+      },
+      {
+        "start_seconds": 2371.36,
+        "end_seconds": 2376.44,
+        "text": "asja tehakse, mis mõjutab meie inimeste toetust, nii et noh, ta näeb, et see, see se"
+      },
+      {
+        "start_seconds": 2376.44,
+        "end_seconds": 2381.2,
+        "text": "otakse ära mingi teemaga, see mõjutab minu elu kuidagi halvasti, järelikult ta ei toeta"
+      },
+      {
+        "start_seconds": 2381.2,
+        "end_seconds": 2386.12,
+        "text": "ja siin ma tegelikult olen sada protsenti Arviga nõus, et, et noh, need, see küsimus"
+      },
+      {
+        "start_seconds": 2386.12,
+        "end_seconds": 2390.76,
+        "text": ", kuidas seda asja nii-öelda Eesti kontekstis kasulikuks ja, ja mõistlikuks ja hästi"
+      },
+      {
+        "start_seconds": 2390.76,
+        "end_seconds": 2396.56,
+        "text": "toimivaks teha, et see on ääretult oluline ja siin ma, ma kuidagi nagu tajun, et Eesti"
+      },
+      {
+        "start_seconds": 2396.56,
+        "end_seconds": 2401.08,
+        "text": "saaks isegi minna nendesse läbirääkimistesse palju julgemalt, palju tugevamalt nõuda"
+      },
+      {
+        "start_seconds": 2401.08,
+        "end_seconds": 2406.52,
+        "text": "pikaajalist nii-öelda kindlust, et me ei käi pidevalt ümber rääkimas ja, ja, ja nuri"
+      },
+      {
+        "start_seconds": 2406.52,
+        "end_seconds": 2412.8,
+        "text": "semas mingite nii-öelda lineaarsete heitev vähendusfaktorite spetsiifikate ümber või"
+      },
+      {
+        "start_seconds": 2412.8,
+        "end_seconds": 2418.4,
+        "text": "turust stabiilsusmehhanismide ümberkorraldamisega, mis kõigutab hindu ja ei taga tegelikult"
+      },
+      {
+        "start_seconds": 2418.4,
+        "end_seconds": 2424.4,
+        "text": "poliitilist stabiilsust, vaid et see süsteem saaks nii-öelda paika lepitud pikaajaliselt"
+      },
+      {
+        "start_seconds": 2424.4,
+        "end_seconds": 2429.44,
+        "text": ", selgelt ja me tegelikult ise nii Euroopa Liidu tasandil kui ka Eesti tasandil oota"
+      },
+      {
+        "start_seconds": 2429.44,
+        "end_seconds": 2433.48,
+        "text": "ksime järjest rohkem käitumist nendelt samadelt ettevõtetelt, kes on selle süsteemi all"
+      },
+      {
+        "start_seconds": 2433.48,
+        "end_seconds": 2437.36,
+        "text": "a kakskümmend üks aastat kuulunud ja suunaksime sada protsenti nendest tuludest tagasi"
+      },
+      {
+        "start_seconds": 2437.36,
+        "end_seconds": 2441.84,
+        "text": "sinna sektoritesse, et need investeeringud ka päriselt juhtuksid, sellepärast et lõpp"
+      },
+      {
+        "start_seconds": 2441.84,
+        "end_seconds": 2447.72,
+        "text": "tulemusena mina ei soovi, et Eestis ei oleks tööstust või energia tootmist või, või,"
+      },
+      {
+        "start_seconds": 2447.72,
+        "end_seconds": 2451.76,
+        "text": "või mida muud aastal kaks tuhat nelikümmend või kaks tuhat viiskümmend, mina soovin,"
+      },
+      {
+        "start_seconds": 2451.76,
+        "end_seconds": 2457.04,
+        "text": "et meil oleks jõuline ja tugev keemiatööstus näiteks ka saja aasta pärast, aga on täiesti"
+      },
+      {
+        "start_seconds": 2457.04,
+        "end_seconds": 2459.68,
+        "text": "kindel, et see ei saa olema fossiilkütuste põhine."
+      },
+      {
+        "start_seconds": 2459.68,
+        "end_seconds": 2464.08,
+        "text": "Meil on täna Eestiski väga mitmeid lahendusi alates näiteks sellest, mida Tartu Ülikooli"
+      },
+      {
+        "start_seconds": 2464.08,
+        "end_seconds": 2468.12,
+        "text": "sünteetilise bioloogia labor teeb, mis on viinud suure osa keemiatööstusest täielikult"
+      },
+      {
+        "start_seconds": 2468.12,
+        "end_seconds": 2469.64,
+        "text": "bioreaktori põhiseks."
+      },
+      {
+        "start_seconds": 2469.64,
+        "end_seconds": 2474.08,
+        "text": "Noh, need on investeeringud, mida sa ei saa täna teha, et asendada täielikult näiteks"
+      },
+      {
+        "start_seconds": 2474.08,
+        "end_seconds": 2478.8,
+        "text": "fossiilkütuste baasil tootmist, aga kogu ettsi mõte ongi selles, et me loome järgmise"
+      },
+      {
+        "start_seconds": 2478.8,
+        "end_seconds": 2484.56,
+        "text": "ks kahekümneks aastaks teekonna, et need investeeringud jõuaksid mingiks hetkeks sinna"
+      },
+      {
+        "start_seconds": 2484.56,
+        "end_seconds": 2489.96,
+        "text": "ja, ja, ja see on täpselt see koht, kus ausalt, Eesti võib ka minna Eestile kasulikult"
+      },
+      {
+        "start_seconds": 2489.96,
+        "end_seconds": 2494.2,
+        "text": "ühiskonnale, majanduslikule kasulikult nendele läbirääkimistele palju tugevamalt ja öelda"
+      },
+      {
+        "start_seconds": 2494.2,
+        "end_seconds": 2499.52,
+        "text": ", et mida me tegelikult vajame sinna kliimapoliitika kõrvale, on tööstuspoliitika nii"
+      },
+      {
+        "start_seconds": 2499.52,
+        "end_seconds": 2503.6,
+        "text": "Eesti tasandil kui ka Euroopa Liidu tasandil ja tegelikult, mida rohkem Eesti seda nii"
+      },
+      {
+        "start_seconds": 2503.6,
+        "end_seconds": 2508.96,
+        "text": "-öelda tööstuspoliitikat loob Euroopa Liidu tasandil ise ettevõtlikult seda suunates"
+      },
+      {
+        "start_seconds": 2508.96,
+        "end_seconds": 2514.24,
+        "text": ", seda kasulikum Euroopa Liidu poliitika, tööstuspoliitika saab olema Eestile ja niimoodi"
+      },
+      {
+        "start_seconds": 2514.24,
+        "end_seconds": 2518.6,
+        "text": "me peaksimegi poliitikat Euroopa Liidus tegema, mitte käima ja, ja jaurama, et meile"
+      },
+      {
+        "start_seconds": 2518.6,
+        "end_seconds": 2523.76,
+        "text": "ei sobi see, teine ja kolmas, vaid mõistma, et Eesti on Euroopa Liidu liige, Eesti poliitik"
+      },
+      {
+        "start_seconds": 2523.76,
+        "end_seconds": 2528.32,
+        "text": "a tuleb ka Euroopa Liidust läbirääkimiste põhjal ja me kujundame seda Euroopa Liidu ta"
+      },
+      {
+        "start_seconds": 2528.32,
+        "end_seconds": 2530.16,
+        "text": "sandil."
+      },
+      {
+        "start_seconds": 2530.16,
+        "end_seconds": 2534.6,
+        "text": "Nii, aga anname siis vahepeal Eesti inimesele sõna, et teada, kuidas me peaks Euroopa"
+      },
+      {
+        "start_seconds": 2534.6,
+        "end_seconds": 2540.72,
+        "text": "Liidu kliimapoliitikat kujundama, kas on tekkinud küsimusi või ettepanekuid sel teema"
+      },
+      {
+        "start_seconds": 2540.72,
+        "end_seconds": 2540.96,
+        "text": "l?"
+      },
+      {
+        "start_seconds": 2540.96,
+        "end_seconds": 2544.96,
+        "text": "Juba on jah?"
+      },
+      {
+        "start_seconds": 2544.96,
+        "end_seconds": 2547.76,
+        "text": "Okei, ja Peep, on kuulda?"
+      },
+      {
+        "start_seconds": 2547.76,
+        "end_seconds": 2549.04,
+        "text": "Ei ole, mikrofon väljas."
+      },
+      {
+        "start_seconds": 2549.04,
+        "end_seconds": 2551.2,
+        "text": "Ei ole kuulda hetkel."
+      },
+      {
+        "start_seconds": 2551.2,
+        "end_seconds": 2552.64,
+        "text": "Ei."
+      },
+      {
+        "start_seconds": 2552.64,
+        "end_seconds": 2556.36,
+        "text": "Kas me saaks publikul mikrofonisse ka?"
+      },
+      {
+        "start_seconds": 2556.36,
+        "end_seconds": 2558.24,
+        "text": "Sa võid lähemale tulla, Peep."
+      },
+      {
+        "start_seconds": 2558.24,
+        "end_seconds": 2559.56,
+        "text": "Aa, nüüd on kuulda, väga hea."
+      },
+      {
+        "start_seconds": 2559.56,
+        "end_seconds": 2560.84,
+        "text": "Peep Siim."
+      },
+      {
+        "start_seconds": 2560.84,
+        "end_seconds": 2565.2,
+        "text": "Ringmajanduse osakond, et tegelikult ma tahtsin Arvi Hamburgi käest küsida, et kust te"
+      },
+      {
+        "start_seconds": 2565.2,
+        "end_seconds": 2570.32,
+        "text": "selle üks koma viis miljardit võtsite, et kliimakahjude osas, et minul on küll teadmine"
+      },
+      {
+        "start_seconds": 2570.32,
+        "end_seconds": 2575.0,
+        "text": ", et Euroopa Keskkonnaagentuur tegi kaks tuhat kakskümmend üks kuni kaks tuhat kakskümmend"
+      },
+      {
+        "start_seconds": 2575.0,
+        "end_seconds": 2577.08,
+        "text": "kolm analüüsi."
+      },
+      {
+        "start_seconds": 2577.08,
+        "end_seconds": 2582.24,
+        "text": "Kus siis ohtlikud ilmastikunähtused ja kliimakahjud on suurusjärk sada kuuskümmend mi"
+      },
+      {
+        "start_seconds": 2582.24,
+        "end_seconds": 2584.88,
+        "text": "ljardit eurot Euroopa kontekstis."
+      },
+      {
+        "start_seconds": 2584.88,
+        "end_seconds": 2590.24,
+        "text": "Ja no ma võin mürki võtta, et järgmine periood on see kahjud nii-öelda kasvavas summas"
+      },
+      {
+        "start_seconds": 2590.24,
+        "end_seconds": 2596.12,
+        "text": ", et, et selles suhtes viitasite küll Varssavi ülikooli uuringule, aga et tegelikult"
+      },
+      {
+        "start_seconds": 2596.12,
+        "end_seconds": 2600.8,
+        "text": "noh, minu väide on see, et need uuringud ja analüüsid on olemas, et mis see tegem töö"
+      },
+      {
+        "start_seconds": 2600.8,
+        "end_seconds": 2605.36,
+        "text": "tegematajätmine siis nagu maksma läheb, et ja, ja väga põhjalikult on seda analüüsitud"
+      },
+      {
+        "start_seconds": 2605.36,
+        "end_seconds": 2609.28,
+        "text": ", et võib-olla avate seda Varssavi analüüsi."
+      },
+      {
+        "start_seconds": 2609.28,
+        "end_seconds": 2614.2,
+        "text": "Ma isegi ei ütelnud viis miljonit, miljardit, ma ütlesin üks koma viis miljardit ja see"
+      },
+      {
+        "start_seconds": 2614.2,
+        "end_seconds": 2621.08,
+        "text": "on Varssavi, mis ta oli, mis institutsiooni, ette Price Instituut, tema, tema selline"
+      },
+      {
+        "start_seconds": 2621.08,
+        "end_seconds": 2627.44,
+        "text": "analüüs, mis kõrvutab ka siis tegelikult etsikulud koormise."
+      },
+      {
+        "start_seconds": 2627.44,
+        "end_seconds": 2634.52,
+        "text": "Et mina ei ole neid koostanud, mina selle eest see ei, ei mina lihtsalt refereerin."
+      },
+      {
+        "start_seconds": 2634.52,
+        "end_seconds": 2641.08,
+        "text": "Aga nüüd, kui seda nagu seda teemat, et, et ikka nagu ju praegu ka juttu oli, et et minu"
+      },
+      {
+        "start_seconds": 2641.08,
+        "end_seconds": 2646.44,
+        "text": "arvates on natukene niisugune kitsa, kitsas käsitlus, kui me räägime kliimapoliitika"
+      },
+      {
+        "start_seconds": 2646.44,
+        "end_seconds": 2651.64,
+        "text": "st, kliimapoliitika on üks osa kogu sellest meie majanduspoliitikast ja peame rääkima"
+      },
+      {
+        "start_seconds": 2651.64,
+        "end_seconds": 2652.52,
+        "text": "tervikut."
+      },
+      {
+        "start_seconds": 2652.52,
+        "end_seconds": 2659.24,
+        "text": "Ja vot, kui me tervikut peame silmas, siis me saame need arvutused kõik kogu, mitte ainult"
+      },
+      {
+        "start_seconds": 2659.24,
+        "end_seconds": 2664.08,
+        "text": "tööstuspoliitika või, või ütleme kogu piirkonna, noh, ma ei tea, jätkusuutlikku kest"
+      },
+      {
+        "start_seconds": 2664.08,
+        "end_seconds": 2669.88,
+        "text": "likkus, eks ole, saame siis, siis need arvud nagu välja ja vaatame, et mis ohud meil"
+      },
+      {
+        "start_seconds": 2669.88,
+        "end_seconds": 2675.92,
+        "text": "võivad tekkida, palju need siis maksavad ja kui palju nende ohtude likvideerimine ma"
+      },
+      {
+        "start_seconds": 2675.92,
+        "end_seconds": 2683.32,
+        "text": "ksab, eks ole, ja, ja siis iga ühiskonna liige peab saama sellise info, et ma olen nõu"
+      },
+      {
+        "start_seconds": 2683.32,
+        "end_seconds": 2689.28,
+        "text": "s, läheb energia kallimaks jutt mingist odavamast või, või soodsamast energiast, noh"
+      },
+      {
+        "start_seconds": 2689.28,
+        "end_seconds": 2693.32,
+        "text": ", andke andeks, seda ei tule, eks ole."
+      },
+      {
+        "start_seconds": 2693.32,
+        "end_seconds": 2699.6,
+        "text": "Rida põhjustel, et, et, et kui me selliselt energiapoliitikat või, või vabandust, kesk"
+      },
+      {
+        "start_seconds": 2699.6,
+        "end_seconds": 2704.68,
+        "text": "konnapoliitikat käsitleme üldises sellises kontekstis, vot siis me saame nagu selle pi"
+      },
+      {
+        "start_seconds": 2704.68,
+        "end_seconds": 2705.8,
+        "text": "ldi ette."
+      },
+      {
+        "start_seconds": 2705.8,
+        "end_seconds": 2711.36,
+        "text": "Elektroenergeetikas on väga selge, on Veki kolmnurk, eks ole, et keskkonnakahjud, hi"
+      },
+      {
+        "start_seconds": 2711.36,
+        "end_seconds": 2715.96,
+        "text": "nd ja varustuskindlus, kõik peavad olema tasakaalus, eks ole, et võta, teeme selle ve"
+      },
+      {
+        "start_seconds": 2715.96,
+        "end_seconds": 2721.36,
+        "text": "ki kolmnurga elektrieetikast veidi laiemaks."
+      },
+      {
+        "start_seconds": 2721.36,
+        "end_seconds": 2728.96,
+        "text": "Väga õige, tegelikult see ongi olnud ka poliitikate kujundamise alus, et me vaatame mitte"
+      },
+      {
+        "start_seconds": 2728.96,
+        "end_seconds": 2734.72,
+        "text": "üksnes keskkonna poolt, ka konkurentsivõime poolt ja täna ka üha enam julgeoleku poolt"
+      },
+      {
+        "start_seconds": 2734.72,
+        "end_seconds": 2741.88,
+        "text": "ja järeldustena see, et puha, puhtamatele tehnoloogiat"
+      },
+      {
+        "start_seconds": 2741.88,
+        "end_seconds": 2749.48,
+        "text": "ele üle minna, mis on kohalikud, et see on see võimalus, kus Euroopa saab"
+      },
+      {
+        "start_seconds": 2749.48,
+        "end_seconds": 2754.92,
+        "text": "neid huvisid omavahel tasakaalustada ja neid kahjusid vältida."
+      },
+      {
+        "start_seconds": 2754.92,
+        "end_seconds": 2761.2,
+        "text": "Aitäh, on veel küsimusi?"
+      },
+      {
+        "start_seconds": 2761.2,
+        "end_seconds": 2766.12,
+        "text": "Hetkel ei ole vist, kindlasti see kliimakahju tulevikupotentsiaalse kliimakahju arvu"
+      },
+      {
+        "start_seconds": 2766.12,
+        "end_seconds": 2770.32,
+        "text": "tamine on väga keeruline ülesanne ja seotud suure määramatusega, et sellele me vist a"
+      },
+      {
+        "start_seconds": 2770.32,
+        "end_seconds": 2773.88,
+        "text": "mmendavat vastust siin, siin, siin praegu ei saa."
+      },
+      {
+        "start_seconds": 2773.88,
+        "end_seconds": 2781.24,
+        "text": "Ma võtsin välja, mul oli, mul oli meeles, et Hollandi poolt tehti, tehti väga"
+      },
+      {
+        "start_seconds": 2781.24,
+        "end_seconds": 2786.36,
+        "text": "põhjalik analüüs, mis, mis vaataski, et mis on olnud nende süsinikuheitesüsteemide mõju"
+      },
+      {
+        "start_seconds": 2786.36,
+        "end_seconds": 2789.36,
+        "text": "ettevõtte tasandil."
+      },
+      {
+        "start_seconds": 2789.36,
+        "end_seconds": 2793.88,
+        "text": "See tehti kaks tuhat kakskümmend kolm, aga ma vaatan, et Energy Economics teadusajakirja"
+      },
+      {
+        "start_seconds": 2793.88,
+        "end_seconds": 2799.92,
+        "text": "s on see nüüd kaks tuhat kakskümmend kuus jaanuaris ka siis nagu teadusajakirja tase"
+      },
+      {
+        "start_seconds": 2799.92,
+        "end_seconds": 2801.96,
+        "text": "mel avaldatud."
+      },
+      {
+        "start_seconds": 2801.96,
+        "end_seconds": 2806.44,
+        "text": "Nad analüüsid spetsiifiliselt, et okei, et meil on terve hulk sektori ettevõtteid, kes"
+      },
+      {
+        "start_seconds": 2806.44,
+        "end_seconds": 2811.4,
+        "text": "on olnud nende poliitikate mõju all, milline on olnud nende poliitikate majanduslik mõju"
+      },
+      {
+        "start_seconds": 2811.4,
+        "end_seconds": 2816.24,
+        "text": "nende ettevõtetele noh, nagu ettevõtte tasandil isegi mitte vaadates nagu sektorit ül"
+      },
+      {
+        "start_seconds": 2816.24,
+        "end_seconds": 2822.16,
+        "text": "disena ja mida on näha, et see majandus mõju on olnud pigem tagasihoidlik ja väga sp"
+      },
+      {
+        "start_seconds": 2822.16,
+        "end_seconds": 2828.48,
+        "text": "etsiifiliste alamsektoritega seotud, mis on kõige rohkem nii-öelda siis selliste vana"
+      },
+      {
+        "start_seconds": 2828.48,
+        "end_seconds": 2833.4,
+        "text": "de tehnoloogiate fossiilkütuste peal, mis on ka arusaadav, need, need nii-öelda poliitik"
+      },
+      {
+        "start_seconds": 2833.4,
+        "end_seconds": 2838.4,
+        "text": "ad ongi disainitud mõjutama neid nii-öelda tagajooksikuid, neid, kes ei ole teinud neid"
+      },
+      {
+        "start_seconds": 2838.4,
+        "end_seconds": 2840.52,
+        "text": "investeeringuid kõige rohkem."
+      },
+      {
+        "start_seconds": 2840.52,
+        "end_seconds": 2845.28,
+        "text": "Ja loomulikult on ka noh, mõju olnud pigem tugevam väiksematele ettevõtetele, kes in"
+      },
+      {
+        "start_seconds": 2845.28,
+        "end_seconds": 2850.36,
+        "text": "vesteerimiskulusid nii lihtsalt ei saa katta, kellel ei ole nii lihtne võimalik laene"
+      },
+      {
+        "start_seconds": 2850.36,
+        "end_seconds": 2855.64,
+        "text": "saada, kellel on nii lihtne võimalik erinevaid toetusi saada, mistõttu ma, ma usun jälle"
+      },
+      {
+        "start_seconds": 2855.64,
+        "end_seconds": 2861.0,
+        "text": "gi, et, et see muudatus, et suuname rohkem nii-öelda investeeringutest tagasi sektor"
+      },
+      {
+        "start_seconds": 2861.0,
+        "end_seconds": 2865.84,
+        "text": "itesse, tööstusesse, on pluss jällegi ma rõhutan seda, et see tegelikult vajab tööstus"
+      },
+      {
+        "start_seconds": 2865.84,
+        "end_seconds": 2870.44,
+        "text": "poliitikat, et neid asju ära lahendada, et loomulikult ka Eesti keemiatööstus peab muutu"
+      },
+      {
+        "start_seconds": 2870.44,
+        "end_seconds": 2876.04,
+        "text": "ma, aga need investeeringud siis peavad liikuma uute ärimudelite poole ja ja nii see"
+      },
+      {
+        "start_seconds": 2876.04,
+        "end_seconds": 2877.32,
+        "text": "peabki nagu arenema."
+      },
+      {
+        "start_seconds": 2877.32,
+        "end_seconds": 2885.0,
+        "text": "Ma võib-olla täiendaks ka seda, et, et jah, tööstusin"
+      },
+      {
+        "start_seconds": 2885.0,
+        "end_seconds": 2890.28,
+        "text": "vesteeringute suunamine on väga oluline, aga jah, et me võib-olla ei tohiks kitsenda"
+      },
+      {
+        "start_seconds": 2890.28,
+        "end_seconds": 2896.36,
+        "text": "da nüüd seda ainult sellega, et need sektorid, mis täna et-süsteemi kuuluvad, et Eestis"
+      },
+      {
+        "start_seconds": 2896.36,
+        "end_seconds": 2897.76,
+        "text": "neid on väga vähe."
+      },
+      {
+        "start_seconds": 2897.76,
+        "end_seconds": 2904.0,
+        "text": "Et Eestis me peamegi leidma neid võimalusi, et mis on see uus tööstus, mis ka asenda"
+      },
+      {
+        "start_seconds": 2904.0,
+        "end_seconds": 2910.32,
+        "text": "b seda, mis praegu heitkogustega kauplemissüsteemi alla tuleb, et mida me saame siia"
+      },
+      {
+        "start_seconds": 2910.32,
+        "end_seconds": 2918.72,
+        "text": "ligi meelitada, et, et täna tööstustootmist on Eestis võib-olla."
+      },
+      {
+        "start_seconds": 2918.72,
+        "end_seconds": 2923.6,
+        "text": "Et, et see on ka nagu sellise sotsiaalpoliitika mõttes õiglane ja aus, et noh, me räägime"
+      },
+      {
+        "start_seconds": 2923.6,
+        "end_seconds": 2928.76,
+        "text": "gi sellest, et me väljume, mida on ka Eestis tehtud, aga, aga see tuleb nagu selgemi"
+      },
+      {
+        "start_seconds": 2928.76,
+        "end_seconds": 2933.56,
+        "text": "ni ja, ja, ja julgemalt tegelikult välja öelda, sest see on inimeste suhtes aus, et me"
+      },
+      {
+        "start_seconds": 2933.56,
+        "end_seconds": 2937.56,
+        "text": "väljume mingi hetk põlevkivielektrist, me väljume mingi hetk põlevkivienergeetikast tä"
+      },
+      {
+        "start_seconds": 2937.56,
+        "end_seconds": 2941.76,
+        "text": "ielikult, see on asi, millel on väga tõsine mõju, selleks peab valmistuma ja need in"
+      },
+      {
+        "start_seconds": 2941.76,
+        "end_seconds": 2945.32,
+        "text": "vesteeringud peavad minimeerima seda mõju lõpuks inimesele."
+      },
+      {
+        "start_seconds": 2945.32,
+        "end_seconds": 2948.8,
+        "text": "Mulle tundub, et selles osas me oleme jällegi vähemalt ühel meelel, et kui tõestiselt"
+      },
+      {
+        "start_seconds": 2948.8,
+        "end_seconds": 2956.16,
+        "text": "võetakse raha ära, siis on mõistlik seda uuesti tagasi suunata, neile tulevikku"
+      },
+      {
+        "start_seconds": 2956.16,
+        "end_seconds": 2958.76,
+        "text": "suunatud investeeringuteks."
+      },
+      {
+        "start_seconds": 2958.76,
+        "end_seconds": 2963.24,
+        "text": "Meil on üks elevant toas veel, millest me ei ole rääkinud ja, ja enne, kui me kokkuvõ"
+      },
+      {
+        "start_seconds": 2963.24,
+        "end_seconds": 2965.92,
+        "text": "tte teeme, siis tahaks ikkagi korra seda puudutada."
+      },
+      {
+        "start_seconds": 2965.92,
+        "end_seconds": 2971.28,
+        "text": "See on see nii-öelda its kaks, sest et tegelikult Euroopa Komisjonil ei ole mitte ainult"
+      },
+      {
+        "start_seconds": 2971.28,
+        "end_seconds": 2976.44,
+        "text": "plaan jätkata olemasolevaid süsteemiga, vaid ka seda laiendada teistele sektoritele,"
+      },
+      {
+        "start_seconds": 2976.44,
+        "end_seconds": 2979.92,
+        "text": "mis, millele praegu CO2 hinnastamine ei kehti."
+      },
+      {
+        "start_seconds": 2979.92,
+        "end_seconds": 2984.88,
+        "text": "Ja eelkõige on need sektorid siis, mis sinna IT kahe alla hakkaksid kuuluma maanteet"
+      },
+      {
+        "start_seconds": 2984.88,
+        "end_seconds": 2992.04,
+        "text": "ransport ja hooned ehk siis mootorikütused, mida kasutatakse mo"
+      },
+      {
+        "start_seconds": 2992.04,
+        "end_seconds": 2998.28,
+        "text": "otranspordis ja kütused mida kasutatakse hoonete kütmiseks."
+      },
+      {
+        "start_seconds": 2998.28,
+        "end_seconds": 3003.76,
+        "text": "Siin on nüüd natuke kummaline olukord Eestil, sest Eesti on võtnud seisukoha, et, et"
+      },
+      {
+        "start_seconds": 3003.76,
+        "end_seconds": 3007.4,
+        "text": "me soovime seda süsteemi vist tühistada või vähemalt edasi lükata."
+      },
+      {
+        "start_seconds": 3007.4,
+        "end_seconds": 3012.0,
+        "text": "Paljud teised Euroopa riigid on juba teinud ettevalmistusi, et see süsteem üle võtta"
+      },
+      {
+        "start_seconds": 3012.0,
+        "end_seconds": 3021.68,
+        "text": ", mis peaks hakkama siis kehtima nüüd vist ülejärgmisel aastal, sest lükati edasi."
+      },
+      {
+        "start_seconds": 3021.68,
+        "end_seconds": 3028.92,
+        "text": "Teeme kiire ringi veel, et mida te, mida te soovitate Eestile, mida peaks Eesti või Euroopa"
+      },
+      {
+        "start_seconds": 3028.92,
+        "end_seconds": 3033.72,
+        "text": "Liit seoses selle S kahega ette võtma ja siis Laura saab kommenteerida, et mis, mis se"
+      },
+      {
+        "start_seconds": 3033.72,
+        "end_seconds": 3036.2,
+        "text": "isukoha me siis kujundame, kes tahab alustada?"
+      },
+      {
+        "start_seconds": 3036.2,
+        "end_seconds": 3036.56,
+        "text": "Margo?"
+      },
+      {
+        "start_seconds": 3036.56,
+        "end_seconds": 3037.6,
+        "text": "Ma võin alustada jah."
+      },
+      {
+        "start_seconds": 3037.6,
+        "end_seconds": 3042.0,
+        "text": "Mul on võib-olla natuke selline lihtsustatud vaade seda just nagu hoonete seisukohalt"
+      },
+      {
+        "start_seconds": 3042.0,
+        "end_seconds": 3048.44,
+        "text": ", et, et kui ma ennem alustasin, et Eestis on kaugküttes seitsekümmend viis protsenti"
+      },
+      {
+        "start_seconds": 3048.44,
+        "end_seconds": 3054.52,
+        "text": "kas taastuvatel allikatel või siis heitsoojusel ja arvestades, et kaugkütte osakaal on"
+      },
+      {
+        "start_seconds": 3054.52,
+        "end_seconds": 3061.68,
+        "text": "Eestis hästi suur, siis, siis minu arust me oleme see, seda eesmärki ju väga hästi tä"
+      },
+      {
+        "start_seconds": 3061.68,
+        "end_seconds": 3069.76,
+        "text": "itmas, et fossiilkütuste kasutamine hoonetes on, on tegelikult väga väike ja, ja"
+      },
+      {
+        "start_seconds": 3069.76,
+        "end_seconds": 3074.88,
+        "text": "milleks, milleks tühistada eesmärki, mida on väga lihtne minu arust täita, et minu aru"
+      },
+      {
+        "start_seconds": 3074.88,
+        "end_seconds": 3079.56,
+        "text": "st kõige-kõige lihtsam on lubadusi anda teemadel, mis on juba täitunud lubadused on ju"
+      },
+      {
+        "start_seconds": 3079.56,
+        "end_seconds": 3086.2,
+        "text": ", et et, et mina, mina näen küll, et, et see, see hoonete osas võiks, võiks kindlasti"
+      },
+      {
+        "start_seconds": 3086.2,
+        "end_seconds": 3086.88,
+        "text": "tulla."
+      },
+      {
+        "start_seconds": 3086.88,
+        "end_seconds": 3092.8,
+        "text": "Teiseks ta võib-olla likvideeriks ka natuke seda ebaõiglust, et et kaugküttesektor peab"
+      },
+      {
+        "start_seconds": 3092.8,
+        "end_seconds": 3098.72,
+        "text": ", peab siis rangelt Eestist kinni pidama ja siis hoonepõhiselt võiks nagu keldris ki"
+      },
+      {
+        "start_seconds": 3098.72,
+        "end_seconds": 3103.08,
+        "text": "visütt põletada on ju ja kõik on nagu okei, et tegelikult ei ole okei."
+      },
+      {
+        "start_seconds": 3103.08,
+        "end_seconds": 3111.16,
+        "text": "Aga jah, ma arvan, et et selle täitmine on lihtne, lihtsalt selle"
+      },
+      {
+        "start_seconds": 3111.16,
+        "end_seconds": 3118.4,
+        "text": "S ühe reformiga sektor saab, saab raha ja suunab, suunab selle raha sinna, et veelgi"
+      },
+      {
+        "start_seconds": 3118.4,
+        "end_seconds": 3124.36,
+        "text": "rohkem hooneid liita kaugkütte ja kaugehutusega ja, ja ka hoonete osas on näiteks kaks"
+      },
+      {
+        "start_seconds": 3124.36,
+        "end_seconds": 3126.64,
+        "text": "eesmärk täidetud."
+      },
+      {
+        "start_seconds": 3126.64,
+        "end_seconds": 3129.64,
+        "text": "Selline lihtne, lihtne arusaam."
+      },
+      {
+        "start_seconds": 3129.64,
+        "end_seconds": 3131.28,
+        "text": "Arvi, Ivo."
+      },
+      {
+        "start_seconds": 3131.28,
+        "end_seconds": 3138.32,
+        "text": "Et kaugküttes kindlasti jah, on puiduhake ja kõik nii edasi, aga, aga ma ei tea, kui"
+      },
+      {
+        "start_seconds": 3138.32,
+        "end_seconds": 3142.92,
+        "text": "kindlalt me saame ka puiduhakkele olla, eks ole, et, et puit on kindlasti väärtusliku"
+      },
+      {
+        "start_seconds": 3142.92,
+        "end_seconds": 3147.08,
+        "text": "m tooraine millekski muuks kui, kui ahjus põletamiseks."
+      },
+      {
+        "start_seconds": 3147.08,
+        "end_seconds": 3153.04,
+        "text": "Et eks seda peab ka nagu jälgima, tulevikus, me räägime, ma ei tea, kümme, kakskümmend"
+      },
+      {
+        "start_seconds": 3153.04,
+        "end_seconds": 3160.0,
+        "text": "aastat, eks ole, tulevikust, aga linnades ja suurtes alevites Paides on tore, eks Pa"
+      },
+      {
+        "start_seconds": 3160.0,
+        "end_seconds": 3166.08,
+        "text": "ides on puiduaken, kõik on väga tore, aga, aga meil osa inimesi elab maal ka, eks ole"
+      },
+      {
+        "start_seconds": 3166.08,
+        "end_seconds": 3171.88,
+        "text": ", kus kaugkütet ei ole, et, et mis küsimus nagu see ja teine on siis ikkagi puhtalt tra"
+      },
+      {
+        "start_seconds": 3171.88,
+        "end_seconds": 3179.16,
+        "text": "nsport, eks ole, et oleme nõus siis, eks ole, kuidas öelda, kes ütleb"
+      },
+      {
+        "start_seconds": 3179.16,
+        "end_seconds": 3184.6,
+        "text": "meile, kui palju bussipilet siis saab Tallinn-Paide hakkab maksma, eks ole, peaks, peaks"
+      },
+      {
+        "start_seconds": 3184.6,
+        "end_seconds": 3190.76,
+        "text": "jälle olema nagu vot me nagu minu arvates me nagu kõike nagu alustame nagu teisest o"
+      },
+      {
+        "start_seconds": 3190.76,
+        "end_seconds": 3195.92,
+        "text": "tsast, me räägime kogu aeg nagu see oli küll see kontekst, aga tootmisest, palju meil"
+      },
+      {
+        "start_seconds": 3195.92,
+        "end_seconds": 3201.32,
+        "text": "e midagi vaja toota, aga, aga, aga me peaksime rääkima tarbija ja tarbijamise seisuko"
+      },
+      {
+        "start_seconds": 3201.32,
+        "end_seconds": 3207.4,
+        "text": "hast, eks ole, et, et kuidas see ühiskonda nagu mõjutab, aga mis teha vastus see, et"
+      },
+      {
+        "start_seconds": 3207.4,
+        "end_seconds": 3214.72,
+        "text": "minul on väga lihtne pensionärina öelda, eks ole, et, et tuleb leida liitlasi ja, ja"
+      },
+      {
+        "start_seconds": 3214.72,
+        "end_seconds": 3221.36,
+        "text": "kõige parem tühistada B edasi lükata ja kui see, miks kumbki ei õnnestu, siis tuleb see"
+      },
+      {
+        "start_seconds": 3221.36,
+        "end_seconds": 3224.08,
+        "text": "raha lihtsalt tarbijale tagasi maksta."
+      },
+      {
+        "start_seconds": 3224.08,
+        "end_seconds": 3229.96,
+        "text": "Korjame raha kokku ja maksame tagasi poole, kolmandiku kokkuleppe küsimus, poliitiline"
+      },
+      {
+        "start_seconds": 3229.96,
+        "end_seconds": 3232.08,
+        "text": "otsus."
+      },
+      {
+        "start_seconds": 3232.08,
+        "end_seconds": 3236.8,
+        "text": "Või teine võimalus see, et ühiskond on nõus, et, et, et see bussipilet lihtsalt maks"
+      },
+      {
+        "start_seconds": 3236.8,
+        "end_seconds": 3238.04,
+        "text": "ab."
+      },
+      {
+        "start_seconds": 3238.04,
+        "end_seconds": 3242.96,
+        "text": "Ma ei tea, kakskümmend või kolmkümmend protsenti rohkem, noh, okei."
+      },
+      {
+        "start_seconds": 3242.96,
+        "end_seconds": 3247.24,
+        "text": "Mul on hea võimalus tegelikult olla jällegi mõlema eelkõneleja mingite punktidega tä"
+      },
+      {
+        "start_seconds": 3247.24,
+        "end_seconds": 3254.44,
+        "text": "itsa kohe paljuski nõus, aga lihtsalt, et, et oleks jälle see vanaema kuulab paneeli"
+      },
+      {
+        "start_seconds": 3254.44,
+        "end_seconds": 3260.28,
+        "text": "asi ka nagu kaetud, et et kahe puhul me räägime siis nii-öelda selle sellise sarnase"
+      },
+      {
+        "start_seconds": 3260.28,
+        "end_seconds": 3266.92,
+        "text": ", kuid mitte sama kvoodisüsteemi loomisest transpordikütustele ja, ja eks ole, soo so"
+      },
+      {
+        "start_seconds": 3266.92,
+        "end_seconds": 3272.64,
+        "text": "ojusega seotud kütustega ja mulle on üldiselt olnud täiesti arusaamatu selline Eesti"
+      },
+      {
+        "start_seconds": 3272.64,
+        "end_seconds": 3277.28,
+        "text": "hästi jõuline positsioon, et sellist asja pole üldse vaja ja, ja, ja mitte teha, sest"
+      },
+      {
+        "start_seconds": 3277.28,
+        "end_seconds": 3282.28,
+        "text": "tõesti ka see ei ole see koht, kus meil on tõsine probleem ja pigem ta lahendab meie"
+      },
+      {
+        "start_seconds": 3282.28,
+        "end_seconds": 3285.96,
+        "text": "jaoks nagu jällegi valdades seda asja laiemalt kui ainult kliimapoliitika, ta lahenda"
+      },
+      {
+        "start_seconds": 3285.96,
+        "end_seconds": 3290.6,
+        "text": "b meie jaoks seda nagu tõsisemat geopoliitilist probleemi, mida me püüame lahendada,"
+      },
+      {
+        "start_seconds": 3290.6,
+        "end_seconds": 3296.92,
+        "text": "et noh, nagu me teame, Euroopa Liit on väga tõsises fossiilkütuste sõltuvuses riikide"
+      },
+      {
+        "start_seconds": 3296.92,
+        "end_seconds": 3300.28,
+        "text": "st, kes võivad Euroopa Liidule väga palju kahju tekitada."
+      },
+      {
+        "start_seconds": 3300.28,
+        "end_seconds": 3305.28,
+        "text": "Me peame oma gaasi suuresti importima, me peame oma naftat suuresti importima."
+      },
+      {
+        "start_seconds": 3305.28,
+        "end_seconds": 3309.64,
+        "text": "Meil ei ole siin Eestis täna ühtegi küsimust, miks see probleem on, sellepärast et meie"
+      },
+      {
+        "start_seconds": 3309.64,
+        "end_seconds": 3315.0,
+        "text": "kõrval on riik, kes meile demonstreerib väga noh, nagu aktiivselt ja pidevalt, kui, kui"
+      },
+      {
+        "start_seconds": 3315.0,
+        "end_seconds": 3319.92,
+        "text": "tõsine probleem on see sõltuvus ja, ja Euroopa Liit üldiselt peab sellest sõltuvusest"
+      },
+      {
+        "start_seconds": 3319.92,
+        "end_seconds": 3324.64,
+        "text": "vähenema, selle sõltuvuse vähenemisel on ühiskondlik ja majanduslik kahju, mida tuleb"
+      },
+      {
+        "start_seconds": 3324.64,
+        "end_seconds": 3329.0,
+        "text": "minimeerida eriti nendele, kes on sellest kõige rohkem mõjutatud, et, et siin on nagu"
+      },
+      {
+        "start_seconds": 3329.0,
+        "end_seconds": 3334.16,
+        "text": "need aspektid, mida Eesti tõesti peab ja saabki sinna laua taha tuua, ehk siis süsteem"
+      },
+      {
+        "start_seconds": 3334.16,
+        "end_seconds": 3340.6,
+        "text": "ise mõistlik, meil on endal päris paljud lahendused olemas, aga mitte lõplikud, et noh"
+      },
+      {
+        "start_seconds": 3340.6,
+        "end_seconds": 3345.16,
+        "text": "Margo, sa mainisid ka, eks ole, et, et neid, kes on juba asjad ära teinud ja, ja mingi"
+      },
+      {
+        "start_seconds": 3345.16,
+        "end_seconds": 3349.08,
+        "text": "d head investeeringud teinud, ei tohi ka karistada, et me teame, et kahekümne, kolme"
+      },
+      {
+        "start_seconds": 3349.08,
+        "end_seconds": 3354.08,
+        "text": "kümne aasta kontekstis ka küte ja jahutussüsteemid peavad muutuma, arenema, sinna pea"
+      },
+      {
+        "start_seconds": 3354.08,
+        "end_seconds": 3359.0,
+        "text": "vad uus uued investeeringud tulema ja, ja mida rohkem me suudame selle süsteemiga juba"
+      },
+      {
+        "start_seconds": 3359.0,
+        "end_seconds": 3363.76,
+        "text": "eoses, neid investeeringuid suunata, seda parem ja noh, teine pool on muidugi see sotsiaal"
+      },
+      {
+        "start_seconds": 3363.76,
+        "end_seconds": 3368.76,
+        "text": "majanduslik mõju, et, et inimesed elavad maal, inimestel on raske liikuda oma töökoht"
+      },
+      {
+        "start_seconds": 3368.76,
+        "end_seconds": 3374.56,
+        "text": "ade, koolide, trennide vahel, me ei, me ei tohi nende meetmetega inimeste liikuvust ja"
+      },
+      {
+        "start_seconds": 3374.56,
+        "end_seconds": 3379.36,
+        "text": ", ja elu nii-öelda kvaliteeti vähendada ja seetõttu on ka hästi oluline, et loomulikult"
+      },
+      {
+        "start_seconds": 3379.36,
+        "end_seconds": 3383.56,
+        "text": "süsteemi on vaja, aga tuleb läbi mõtestada siis nii-öelda see teine pool, see sotsiaal"
+      },
+      {
+        "start_seconds": 3383.56,
+        "end_seconds": 3388.36,
+        "text": "majanduslik pool, kuidas me abistame neid inimesi, kes täna transpordienergiavaeguse"
+      },
+      {
+        "start_seconds": 3388.36,
+        "end_seconds": 3393.52,
+        "text": "s, sellest välja, kuidas me muudame nende kodud energiatõhusamaks, kuidas me muudame"
+      },
+      {
+        "start_seconds": 3393.52,
+        "end_seconds": 3399.84,
+        "text": "nende liikumise lihtsamaks ja, ja vähem isegi nagu nõudlikuks neilt ja lõpptulemusena"
+      },
+      {
+        "start_seconds": 3399.84,
+        "end_seconds": 3404.68,
+        "text": "jällegi jõudes tagasi selle julgeoleku pooleni, et noh, arusaadavatel põhjustel hästi"
+      },
+      {
+        "start_seconds": 3404.68,
+        "end_seconds": 3411.32,
+        "text": "renoveeritud maja täna Ukrainas on julgeolekupoliitika."
+      },
+      {
+        "start_seconds": 3411.32,
+        "end_seconds": 3418.24,
+        "text": "Mul on hea meel, et sa selle mainisid seda, mida ma unustasin tõstatada, et tegelikult"
+      },
+      {
+        "start_seconds": 3418.24,
+        "end_seconds": 3423.96,
+        "text": "seoses --- ka Euroopa Komisjon on välja pakkunud ka selle nii-öelda kliimameetmete sotsiaal"
+      },
+      {
+        "start_seconds": 3423.96,
+        "end_seconds": 3431.32,
+        "text": "fondi, kus, kus just saabki neid haavatavaid sihtrühmi rahastada, kellele see --- võiks"
+      },
+      {
+        "start_seconds": 3431.32,
+        "end_seconds": 3438.48,
+        "text": "mõjuda halvasti, sealhulgas ka maksta seda otsetoetust, mida Arvi, Arvi mainis."
+      },
+      {
+        "start_seconds": 3438.48,
+        "end_seconds": 3443.0,
+        "text": "Ja täpsustaks võib-olla ka seda, et ühistransport võib-olla bussipilet ei ole kõige suure"
+      },
+      {
+        "start_seconds": 3443.0,
+        "end_seconds": 3447.24,
+        "text": "ma löögi all, kuna suur osa bussidest meil sõidab kohaliku biometaaniga ja Tallinnas"
+      },
+      {
+        "start_seconds": 3447.24,
+        "end_seconds": 3452.2,
+        "text": "ka elektriga, aga tõesti inimesed, kes tangivad oma isiklikku autot bensiini või diis"
+      },
+      {
+        "start_seconds": 3452.2,
+        "end_seconds": 3459.52,
+        "text": "liga, siis tasub võib-olla mõelda, et, et järgmine auto osta säästlikuma mootoriga, sest"
+      },
+      {
+        "start_seconds": 3459.52,
+        "end_seconds": 3465.44,
+        "text": ", sest see, see sektor võib tõesti löögi alla sattuda suurema löögi alla."
+      },
+      {
+        "start_seconds": 3465.44,
+        "end_seconds": 3471.4,
+        "text": "Aga Laura, ma annaks lõpusõnad sulle, sest meil hakkab aeg otsa saama, et."
+      },
+      {
+        "start_seconds": 3471.4,
+        "end_seconds": 3478.0,
+        "text": "Kas Eesti seisukoht on sama, et S2 osas või on muutunud ja, ja kas sa tahad spekuleerida"
+      },
+      {
+        "start_seconds": 3478.0,
+        "end_seconds": 3485.52,
+        "text": ", mis juhtub siis, kui teised riigid võtavad S kahe üle ja meie ei, ei tee seda?"
+      },
+      {
+        "start_seconds": 3485.52,
+        "end_seconds": 3492.8,
+        "text": "Eks lähikuud annavad siin selgust, et praegu Eestil on jätkuvalt tõesti see"
+      },
+      {
+        "start_seconds": 3492.8,
+        "end_seconds": 3499.24,
+        "text": "seisukoht, et see heitkogustega kauplemise süsteem tuleks täiendavalt edasi lükata või"
+      },
+      {
+        "start_seconds": 3499.24,
+        "end_seconds": 3506.64,
+        "text": "tühistada ja, ja me selle nimel ka tööd jätkame, et et see võib veel siin la"
+      },
+      {
+        "start_seconds": 3506.64,
+        "end_seconds": 3513.88,
+        "text": "uale tulla ka, et ühe õigusakti läbirääkimistel ministrite kohtumistel"
+      },
+      {
+        "start_seconds": 3513.88,
+        "end_seconds": 3519.08,
+        "text": "ka ülemnõukogul, et, et seda kõike ei saa välistada, sest ka Prantsusmaa ei ole süsteem"
+      },
+      {
+        "start_seconds": 3519.08,
+        "end_seconds": 3525.92,
+        "text": "i hakanud veel üle võtma ja, ja nende mured on üsna sarnased meile, et täpselt see hinna"
+      },
+      {
+        "start_seconds": 3525.92,
+        "end_seconds": 3533.36,
+        "text": ", hinna mõju tarbijale ja võib-olla on see on hästi oluline välja tuua see, et, et kui"
+      },
+      {
+        "start_seconds": 3533.36,
+        "end_seconds": 3540.2,
+        "text": "gi need kaks süsteemi justkui nime järgi on vennad, siis nad on oma olemuselt ja ka to"
+      },
+      {
+        "start_seconds": 3540.2,
+        "end_seconds": 3543.72,
+        "text": "imimisloogikalt tegelikult päris erinevad."
+      },
+      {
+        "start_seconds": 3543.72,
+        "end_seconds": 3550.32,
+        "text": "Heitkogustega see esimene heitkogustega kauplemissüsteem, seal on ettevõtetel see noh"
+      },
+      {
+        "start_seconds": 3550.32,
+        "end_seconds": 3557.48,
+        "text": "valikukoht, et juhul kui ühiku ostmine on kulukam kui puhta"
+      },
+      {
+        "start_seconds": 3557.48,
+        "end_seconds": 3563.72,
+        "text": "sse tehnoloogiasse investeerimine, siis nad neid investeeringuid teevad ja vähendavad"
+      },
+      {
+        "start_seconds": 3563.72,
+        "end_seconds": 3566.72,
+        "text": "seeläbi oma tegevuskulusid."
+      },
+      {
+        "start_seconds": 3566.72,
+        "end_seconds": 3572.32,
+        "text": "Heitkogustega kauplemissüsteemi number kaks puhul on see toimimisloogika ka hoopis teine"
+      },
+      {
+        "start_seconds": 3572.32,
+        "end_seconds": 3579.4,
+        "text": ", sest need on enamjaolt kütusemüüjad, kellele see kohustus kohaldub ja kütusemüüja ikka"
+      },
+      {
+        "start_seconds": 3579.4,
+        "end_seconds": 3580.96,
+        "text": "tahab ju kütust müüa."
+      },
+      {
+        "start_seconds": 3580.96,
+        "end_seconds": 3588.12,
+        "text": "Ehk siis see hind on võimalik anda tarbijale täies mahus üle ja mis on võib"
+      },
+      {
+        "start_seconds": 3588.12,
+        "end_seconds": 3595.08,
+        "text": "-olla Eesti puhul veel hästi oluline, et et kas meil on täna need toimivad alternati"
+      },
+      {
+        "start_seconds": 3595.08,
+        "end_seconds": 3602.32,
+        "text": "ivid piisavas mahus olemas, et see hinnamõju tarbijate, et tarbijal oleks"
+      },
+      {
+        "start_seconds": 3602.32,
+        "end_seconds": 3607.84,
+        "text": "see valiku koht, et seda hinnamõju vältida, et tõenäoliselt see täna nii ei ole ja seda"
+      },
+      {
+        "start_seconds": 3607.84,
+        "end_seconds": 3614.96,
+        "text": "näitab ka see viimane Hormuusi väina kriis ja sellest tingitud kütusehi"
+      },
+      {
+        "start_seconds": 3614.96,
+        "end_seconds": 3622.56,
+        "text": "nna tõus, et Eestis kütuse tarbimine ei langenud, ehk siis see täna võib-olla ei ole"
+      },
+      {
+        "start_seconds": 3622.56,
+        "end_seconds": 3629.72,
+        "text": "inimestel neid valikuid piisavalt, et oma käitumist kohandada, siis hinnasig"
+      },
+      {
+        "start_seconds": 3629.72,
+        "end_seconds": 3636.2,
+        "text": "naalist lähtuvalt, mis on ju kogu selle süsteemi eesmärk ehk siis meil jätkuvalt need"
+      },
+      {
+        "start_seconds": 3636.2,
+        "end_seconds": 3643.2,
+        "text": "murekohad on õhus ja, ja eks siin lähikuud siis annavad arutust."
+      },
+      {
+        "start_seconds": 3643.2,
+        "end_seconds": 3647.92,
+        "text": "Olgu, aitäh, ma tänan teid, meil on kahjuks aeg otsas, ma võtan lühidalt kokku selle"
+      },
+      {
+        "start_seconds": 3647.92,
+        "end_seconds": 3654.52,
+        "text": "niimoodi, et, et minu meelest me jõudsime mitmes asjas ühisele arusaamale, esiteks, et"
+      },
+      {
+        "start_seconds": 3654.52,
+        "end_seconds": 3659.32,
+        "text": "väiksema keskkonnamõju suunas tuleb ikkagi liikuda kas kiiremini või aeglasemalt."
+      },
+      {
+        "start_seconds": 3659.32,
+        "end_seconds": 3663.52,
+        "text": "Samas et süsteem ei ole ideaalne ja selle reformimise järele on on vajadus."
+      },
+      {
+        "start_seconds": 3663.52,
+        "end_seconds": 3668.64,
+        "text": "Ja, ja kui seda teha, siis üks asi, mida tuleks teha, kindlasti on, on ettevõtetele in"
+      },
+      {
+        "start_seconds": 3668.64,
+        "end_seconds": 3675.24,
+        "text": "vesteeringuteks rohkem raha tagasi suunata, aga ka võib-olla inimestele, kes, kes on"
+      },
+      {
+        "start_seconds": 3675.24,
+        "end_seconds": 3678.72,
+        "text": "kõige rohkem mõjutatud sellest."
+      },
+      {
+        "start_seconds": 3678.72,
+        "end_seconds": 3683.52,
+        "text": "Mina tänan ja loodan, et ka publikul tekkis huvi nüüd seda diskussiooni siis meedias"
+      },
+      {
+        "start_seconds": 3683.52,
+        "end_seconds": 3688.8,
+        "text": "tulevikus rohkem jälgida, sest Euroopa Nõukogus hakkavad need arutelud siis sügisel pi"
+      },
+      {
+        "start_seconds": 3688.8,
+        "end_seconds": 3689.32,
+        "text": "hta jah."
+      },
+      {
+        "start_seconds": 3689.32,
+        "end_seconds": 3690.48,
+        "text": "Juba septembrist."
+      },
+      {
+        "start_seconds": 3690.48,
+        "end_seconds": 3692.48,
+        "text": "Hästi, aitäh."
+      },
+      {
+        "start_seconds": 3692.48,
+        "end_seconds": 3706.717,
+        "text": "Nii, aitäh."
+      }
+    ]
+  }
+}

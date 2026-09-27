@@ -1,0 +1,3996 @@
+{
+  "schema_version": 1,
+  "episode": {
+    "id": "2400184983",
+    "rss_guid": "tag:soundcloud,2010:tracks/2400184983",
+    "title": "Post-it, pastakas ja AI-agent - Eesti.ai praktiline töötuba nutikama tööpäeva disainimiseks",
+    "published_at": "2026-09-14T12:18:02Z",
+    "apple_collection_id": 1477431807,
+    "page_url": "https://soundcloud.com/arvamusfestival/post-it-pastakas-ja-ai-agent-eestiai-praktiline-tootuba-nutikama-toopaeva-disainimiseks-5",
+    "audio_url": "https://feeds.soundcloud.com/stream/2400184983-arvamusfestival-post-it-pastakas-ja-ai-agent-eestiai-praktiline-tootuba-nutikama-toopaeva-disainimiseks-5.mp3",
+    "audio_bytes": 58750516,
+    "audio_sha256": "6f20e86a9160b73645e8df2f29a996b0cd9f080e0f06ae90f621cecc5b9e55f9",
+    "duration_seconds": 3671.0
+  },
+  "transcription": {
+    "model": {
+      "name": "large",
+      "repository": "TalTechNLP/streaming-zipformer-large.et-en",
+      "revision": "2812262bd4fd5d4327dc09ca0e6c19e8a32a03d6",
+      "precision": "int8"
+    },
+    "runtime": {
+      "sherpa_onnx": "1.13.7",
+      "decoding_method": "modified_beam_search",
+      "threads": 4
+    },
+    "text": "Tere, minu nimi on Andres Kostiv. Olen siis hetk-, hetkel AI koolitaja siin täna. Ja pikemalt siis tegutsenud digiteenuste strateegina aastast, siis ma arvan, suht ammu, kaks tuhat kaksteist ja kaks tuhat neliteist kümme pluss aastat. Ja kogu see, see suurem mõte, miks neid nagu AI koolitusi teha, et, et sellest siis Eesti rahvas sellises AI targaks teha. Ja, ja noh, ma, ma võib-olla ennast tõstan sinna üheksakümnendate keskpaika, kus siis Henn Sarv ja Peeter Marvet ja, ja teised legendid koolitasid Eesti rahvast nagu vaata maailma või, või tiigrihüppe poole pealt, et siis, et, et minu nagu soov on ka selline, et kui viisteist aastat tagasi oli selline guugeldamise oskus oli nagu inimestel nagu oled, sa oskad guugeldada versus see, et sa guugeldad, siis praegult noh, ma tean väga palju sisekoolitusi igal pool ja ma kohtun, et enamasti inimestel ei ole seda nagu, nagu baar, baas AI kasutamisega oskust ja täna, täna selleks me olemegi siin, et, et õppida siis nagu erinevaid, erinevaid nippe ja trikke. Aga kui kellelgi vähegi võimalik, telefon välja võtta, see on nagu lennuki parda check in see, mis Ryanairil seal lennujaamas. Et ennast võtta üks siuke minutikese, kaks ja ennast registreerida töötuppa. Et me, et see on pärast abiks lihtsalt, et me saame lasta AI-l andmeid analüüsida. Et vist jah niisugune check in, et et sellest, kes, kes saab, et sellest on abi. Ühe eest, okei. Laadis, jah, okei, check-in, check in Ryanari, check-in, pardaregistreerimine. Ei küsitud, ei. Ei ole pinguta. Nii. Et lihtsalt seal registreerida, et check-in koolitusele, kes, kes osaleb, siis võib selle QR koodi ära pildistada oma ägedate Zoom telefonidega. Aga lähme siis asja kallale, et jah, ambitsioon, väga lihtne, kõige AI targem rahvas ja veel nagu maailma mõttes on, on, kellele järgi jõuda, esimesena võib-olla hüppab pähe Singapur, kellest tahaks nagu ette jõuda, kes on kogu seal Aasia ühenduste nagu väga suur Euroopa ja Aasia vaheline finantskeskus, mida, mida väga palju siis AI juhib ja noh, küsimus on see, et mis ka Singapur on väike riik tehnoloogiliselt väga arenenud, et siis, et Eesti oleks siis kõige Avitargem rahvas, et väga hea ambitsioon. Et siis AItarkus nagu sõltub sellest, nagu põhilistest ABC nagu AI oskustest, aga mitte see, et ma oskan chat'ida, vaid päriselt, kui ma midagi päriselt vaja ära teha. Ja ma teen selle nagu tõhusalt ja efektiivselt ära. Et see on nagu see esimene samm, mis, mis see võiks, mis võiks nagu toimuda. Ja noh, ma endast siin ei räägi, aga üldiselt olen siis teinud jah erinevaid nii riigiasutustele kui erasektorile kui start-up'idele, igale poole erinevaid koolitusi, aga mis täna on siis menüüs, et oskate koostada tõusevaid prompte? Siis natuke kaardistada mingeid tüütut või ajamahukat tööprotsessi, millegipärast võib ka see mingi talu renoveerimine olla, kui kellelgi on rahad mängus või sugu, sugulaste talu vaja ära renoveerida, et niisugune protsess võib ka vabalt olla. Tuvastuse kohad, kus tehisin aru säästab aega, vähendab käsitöö parandab kvaliteeti, siis ma natuke näitan siis koopilotis demonstratsiooni, kuna koopilet on de facto siis nii suurettevõtetes kui riigisektoris kõige nagu turvalisem viis, siis nagu küberturvalisuse muret nagu AI osas nagu vähendada, et siis arhitektuuri mõttes kasutab meil SMIT, politsei, kiirabi ja nii edasi, eks ole. Pangad, et selles mõttes natuke näitan, aga jällegi kellelgi on telefonis kaasas mõni muu klaude või chatity või gemi, nii et tegelikult see, need, need põhimõtted kehtivad kõikide suurkeelemudelite puhul, mis me läbi käime. Ja just ja täna natuke läheb aega üle, et siis saab kamandada oma AI assistendi, et mõte ei ole see, et sa lähed nagu pea ees vette ja tuimalt peale ja teed oma AI assistendi ära, vaid tegelikult Assistent planeeritakse põhimõtteliselt Wordi fail ja sa planeerid, mida ta tahab teha ja siis selle, see, see printsiip on seepärast oluline. Mis nagu aru saada, et, et kui sul süsteemid mingil põhjusel vahetuvad, näiteks Trump ei luba enam AI-d ja tegelikult tuleb Prantsusmaa Mistrali LM näiteks organisatsioonis kasutusele võtta, siis sul need agentide jaoks loodud nagu tööprotsess on dokumenteeritud ja nende nagu kolimine ühe AI pealt teisele on nagu lihtne versus sellega, et sa kõik siis vormistad ühte kohta ära ja siis Trump ütleb, et rohkem ei saa kui NATO kaitsekulusid ei tõsta. Et, et siis. Jah, aga võtan see, et sul siis AI ei ole ühe teenusepakkujast sõltumatu, vaid vajadusel sa saad nagu ümber kolida ühest kohast teise, see on ka Euroopa, siis AI direktiivi üks põhimõtteid, mis järgmine aasta jõustub. Nii, aga meil on hästi praktiline, et kõigepealt näpud soojaks selles mõttes. Te siin chat'ite, kes räägivad, kes, kes käsi püsti, kes on chat'inud telefonis? Noh, suht kiiresti teete, eks ole, sõprade sõbrannadega ja, ja, ja, ja siis oma lähedastega. Aga mis on niisugune esimene harjutus, on see, et telefonis, no iPhone'is on, ma tean, on olemas notes rakendus ja seal Androidil on ilmselt ka mingisugune kiip, näiteks on väga okei rakenduskoda või siis Google Docs on nagu Androidi sees. Ehk siis esimene harjutus, mis me teekski nagu praktiliselt ära, on see, et. Võtaksite sellise, ma vaatan oma kella ka, võtaks niisugust nagu viis minutit aega. Ja mõtlete sellisele, siukene, sellise paari nädala jooksul, võib-olla enne puhkusi, mis siin nagu praegu on puhkuste aeg on ju. Paljud inimesed pole tööl, aga paar nädalat enne puhkust võib-olla või oli niisugune nagu nagu tüütu noh, mingi tüütu probleem, mis on vaja lahendada. Kas tööalaselt või noh, niisugune nagu ütleme see probleemi lahendamine võiks olla nagu mitmeid päevi nagu reaalselt, nagu noh, kui see probleem nagu laheneks, kui ta läheks lihtsaks, siis noh, see oleks niisugune mitmeid päevi selle probleemi lahendamisega seisva kategooria probleem, et viis minutit nagu mõelda ja see probleemi tulemuseks on põhimõtteliselt probleemiks on trallal la lap-, noh, panetegi endale üheselt kiirelt probleemiks oli või on või on noh, lähete tööle tagasi, lähete tagasi, jälle see probleem on seal, eks ole, see on inimestevaheline koostöö olla või mingi protsess olla. Kõik sobib, piisavalt see, et on nagu sihuke suur probleem, mida siin poole tunniga ütleme ära ei lahenda, vaid vajab seal päevi mõtlemist, analüüsimist, suhtlemist, mida iganes, võtan viis minutit aega. Et siis taustaks on siis teiste lavade mumin. Et kes hiljem tulid, istuge maha, et meil on siin mitmetapiline koolitus, et et kõik, mis toimub, on slaidide peal. Et tehke agaralt kaasa. Just ja tooli peal on ka siis märkmepaberite pliiatsid, et kes siis soovib endale kirjalikult võib-olla nagu läbi mõelda seda probleemi. Ja üks jalg üle teise põlve peale väga mugav kirjutada. Et siis viis minutit võtame aega. No nii aeg on ümber, nagu kaitseväes öeldakse, et kuulab siia. Okei. Järgmine ülesanne on siis, kui probleem on nagu olemas, siis me tegime, põhimõtteliselt noh, hea oleks teha mustand eraldi dokumendis, aga nüüd on nutitelefoni nagu kätte võtta endale. Ja kui teil on mõni, siis AI rakendus endale telefoni tõmmatud, siis kasutage seda. Kui ei ole AI rakendust telefoni tõmmatud, siis üks väga lihtne nipp, mida kasutada, ma näitan teile. Mul on siin kompuuter olemas. Kompuutris on siis niisugune asi nagu meil on Google com. See on nagu harjutamise mõttes lihtsalt on Google com. Ja teil on siis, paremal on siis AI režiimi, ma näitan korra siis mobiili vaates võib-olla issam, ma teen suuremaks siin, et siin silmad näeksid midagi äkki, nii. Ja brauseri suurus on paigas ja siis paneme selle protsendid ka, seitsekümmend viis äkki või? Sada. Okei. Ja Mubla vaade Google'il, okei, nii, continue, nii. Vist, et Mublas on siis meil selle võlu, võlukepikese, võlukepikese märgike, kelle Google com ja siin, kui otsima hakata, on siis põhjatäht on luubi kohal, on siis Google'i otsing siis I režiimis. Ja põhimõtteliselt siin saab kohe nagu paugust nagu I-d kasutama hakata. Nagu januga kraanist vett jood siin festivalil, otsid, kus on veekraan need pudelit täita, siis Google'is kohe lähed nagu sa ei pea sisse logima, mitte midagi nagu eriti tegema. Et see on kõige kiirem viis, et siis Google com ja siis on siis AI režiimis kasutada ehk siis uuesti tagasi minnes mul Google com, mobiilivaade, loop on siin. Ja vajutate siis põmm, sest läheb siis I režiimi ja siis ongi I režiimis. Siin saab siis põhimõtteliselt kõike, kõike küsida, et mis, mis teil siis nagu väljakutse on. Ja teine variant on siis meil jah, mingisugune AI rakendus, noh, mina kasutan Copilot. Et Copilot'id on siis sõnumi, sõnumi kirjutamine siinsamas, noh, ma teen seda korraks telefoni, et siia ma saan siis nagu sisse toksida, aga mis siis, see on siis nagu see tööriist, mis võiks valmis olla, et kui te nüüd on AI rakendustelefonis, kasutage seda, kui ei ole Google com ja siis vajutate loop, mille peal on Põhjatäht ja kes on väga hädas, siis tõstke käsi püsti, ma tulen. Lohutan teid kõrvalt. Leiame ja või siis või naa, teil on mingid nutitargad naabrid ka, et kes aitavad teise eestlase hädast välja. Siis nüüd on, nüüd on see hetk, kus aidata eestlane hädast välja. Aga siis on nüüd ka see probleemi saite kirja ja, ja siis nagu toimub siis AI abil nagu probleemi lahendamine. Ja siis noh, ma ei näinud, kuidas inimesed hakkavad AI-d kasutama kuskil seal kodukontoris, et nagu tere hommikust või kuule, mul on sihuke väike mõte ja siis hakkavad nagu noh, A üritab siis nagu, nagu aru saada inimeste käest vahelduva eduga. Aga mis on nagu siis probleemiks on see, et, et need nagu paljud, päris paljud AI tööriistad on siis ehitatud selle peale kahjuks nagu kommertsi mõttes, et te saaksite neid dopamiini lakse nagu heast kommikesest ja nad siis ei saa ei nagu põhimõtteliselt lahendada, hakkame kohe tööle ja noh, mida iganes sa seda sisse annad, oma selliseid nagu vajadusi, hüpoteese, siis kahjuks on nagu AI mudelid on siis sind rõõmustavaks ehitatud ühe, ühe lihtsa eesmärgiga, et sa noh, kui sa kuutasu selles paketis oled, siis jumala eest ei loobuks. See tähendab sihuke nagu hea, hea tuju tekitaja. Aga teistpidi noh, seda nimetatakse niisugune nagu üldine nagu konsumeralism, aga teistpidi see, et okei, et sa tead, kuidas keelemudel töötab, et see nagu päriselt siis panna oma reaalset probleemi lahendama, siis on siukene kolme, kolmelõiguline loits nagu Harry Potteri filmis. Et selle te võiksite endale. Mõte on siis sellest, et teil see probleem oli teada. Ja kujutage ette, et te saaks probleemi lahendamiseks palgale võtta kellegi endale tööle nagu uus kolleeg, mingi ametinimetusega, tehnik, assistent, toruparandaja, projektijuht, mida iganes, eks ole, sa annad talle rolli, okei. Ehk siis mitte sa oled mingis ametirollis näiteks noh, oled mingi talu renoveerimise projektijuht või oled mingi, mingisugune juriidiline nõustaja. Et sa annad sellele AI-le kohe alguses selle rolli nagu üli-ülioluline. Mitte see, et mina olen, vaid oled t-tähega. Ja kuna see probleemi saite ennem kirja, siis siin on nagu see loitsu mustand, et ma tahan aitab mind mingi aktuaalse probleemiga, et te saite kirja, et probleemiks on bla-blabla. Ja te võite taustainfoks siis mõned laused juurde anda. Lisaks selle probleemile noh siuke kaks-kolm lauset, et noh, taustainfoks, et millest jutt käib, on ju. Ja, ja mis on siis oluline, on see, et siis te ootate AI-lt lahendust. Aga mis on nagu inim-, see on täiesti okei, et inimesed ei oska seda probleemi nagu, nagu ära sõnastada ja, ja siis kuidagi mõnikord juhtub see, et see nagu jääd AI-ga nagu pool tundi, tund nagu aeg, aeg kaob ja saad nagu AI-ga juba, et tulud, kulutanud mingi terve tunni nagu lobisemisel ära. Selle asemel, et võib-olla AI kasutada nagu koonduvalt, et siis nagu veerand tunniga on tulemus käes. On ju, käsi püsti, kellel on mõnikord AI-ga liiga kaua läinud nagu arutamiseks on ju. Ja siis ongi see, et siis ei, ei kasutada, siis nagu öeldakse, nimetatakse koonduvalt prompt'imist, kes tahab, võtke istet ja mul on siin mitmeetapiline koolitus, et te mingis etapis saate nagu edasi kaasa teha. Et istuge julgelt maha, võtke pastakas paber ja, ja, ja, ja naabrid saavad ka öelda, istuge meie naabri lähedale, ta ütleb, et küsige, et mis toimub ja siis, kas saate kohe pardale. Aga nüüd on needsamad kolm tekstilõiku, et ta on mingis rollis, kelle te siis nagu palkasite appi endale mingi päris tööroll. Ja siis ütleb, ma tahan, et see aitab mind mingi probleemiga taustainfoks ja siis enne alustamist intervjueeri mind ja esita mulle viis olulist avatud küsimust ja ma ise ütlen niimoodi, paneks siia lõppu isegi ühekaupa nii ehk siis, mis siis toimub, on see väga pikalt ei süvene, ei lähe teemasse, aga kuidas AI agendid toimuvad? Me tegelikult hakkame sinna nagu agentide poole minema. Nemad töötavad siis nagu see instruktsioonide või juhiste peale ja täna näiteks kõige võimsam siin AI mudel väidetavalt siis, et Claude näiteks, laude viis, siis tema ka töötab siis nagu skill'ide instruction'ina ja me ja seal on siis ühe skill'i kirjeldus, mis nagu AI juhisteks nagu tehakse või siuke nagu AI oskus on kuskil tuhat kakskümmend neli märki, mis laias plaanis nagu pool A4-ja. Nii, ja kui ma ütleks, et täna seda probleemi ära sõnastasite, see on võib-olla üks lause, on ju, kõik said aru? Teie probleem on võib-olla üks lause, võib-olla see, et te nagu laiendasite oma probleemi, see on siis võib-olla nüüd kolm lauset, neli lauset. Nüüd oleks vaja kuidagi A- jaoks enam-vähem mingi pool A4 sisu, et seda probleemi normaalselt lahendada. Ja kõige tõhusam viis on see, et ta ise küsib juurde nagu puuduva info toetudes sellele, mis te juba siis nagu sinna probleem on, taustainfoks on ja siis ta küsib juurde ja siis saab AI, nagu enam-vähem selle, selle poole, pool A4-ja teksti kokku, millega siis nagu probleemi lahendama minna. Mis, kuidas ta ei tee, siis juhtub see, et ta ise valib nagu juurte küsimise rajad. Ja ta võib nagu väga oluliselt teemast eemale kalduda. Aga meie tahame teda nagu koonduvalt suruda aina rohkem siis nagu probleemi lahendamise poole. Ehk siis võtame nüüd järgmised selline viis minutit, te saite ennem oma probleemikirja, no mingi väljakutse, mis teil siis enne puhkusele minekut või nüüd puhkused naastes sihuke tõenäoliselt kaks-kolm tööpäeva on vaja noh, mingi niisugune suurem probleem, mis on nagu painanud, kas see on siis, ma ei tea, eramõttes või töö mõttes. Et siis selle peale mõelge ja proovige seal parempoolse, oled mingis rollis, kes tahab, võib pildistada, et ta saab nagu teksti lähemalt lugeda, kes kaugele ei näe. Ja proovige täita ja nüüd see viimane lõik, jätke nagu sõna-sõnalt samaks, on ju, et see lõik, lõik jääb nagu sõna-sõnalt samaks. Et võtame selline viis minutit ja teil on probleem, oli ennem olemas, mis niisugune tööalane väljakutse probleemiks on bla-bla-bla, on ju. Siis võtate selle, selle konteksti ja, ja vormistate ära, et võtan viis minutit aega rahulikult ja telefonid välja ja. Ja veel kord, kes, kellel on AI äpid olemas, siis seal telefonis kasutage neid ja kui ei ole, siis veelkord, et lähete Google'isse. Meil on siis Google'is on veel kord Google Com on ju, kes nüüd ühinesid ja siin on luubikene, millel on Põhjatäht, nagu otsingusse läheb sisse, siis on kohe nagu AI režiimis hakkab otsima. Sa ei pea nagu kuskile sisse logima keminiid kasutama, et kohe läheb käima. Ja noh, ütleme mingi tervisemuresid ärge sinna sisse doseerige või siis ämma päranduse suurus number, aga selline mingi üldisem probleem, et ma ei tea, seal. Võib-olla on mingi koostööprobleem kuskil osakonnas, suur organisatsioonis, et noh, kunagi ei tea, mis see võib nagu olla. Et siis viis minutit aega teen suureks uuesti. Nonii viimane minut saigi täis ja siis võtan, võtan nagu selle harjutuse kokku, et mis, mis tegelikult edasi hakkab toimuma, on see, et meil siin koolitusel ei ole aega, aga siis te nagu nüüd umbes niisugune kümme minti veerand tundi siis vastate nagu ei küsimustele. Ja mida siis saab teha, on see, et see AI peaks siis korjama kuskil siukse poole A4-ja nagu jagu siis nagu taustainfot ja teksti kokku. Mis probleemi nagu teraviku moodustab väga selgelt talle, ta saab siis kohe nagu ühe plaksuga nagu lahenduse ära anda. Ja minu koolitustel on teinud, et siis see lahendus, mis siit välja tuleb. Noh, ütleme niimoodi, et sihuke kaheksakümmend, üheksakümmend protsenti on nagu, ongi olemas ühe pauguga tehtud. Ja siis põhimõtteliselt see tähendab, on see, et võtate oma mingi Wordi faili lahti ja veerand tundi kavandate oma seda prompt'i. Veerand tundi vastate Pronti küsimustele ja teil on poole tunniga mitme päeva mingisugune suurem mingi teema nagu, nagu noh, laua, laualt maas nagu ära lahendatud I poolt. Et, et see on nagu see tõhus viis, selle alternatiiviks ongi see, et siis inimesed noh, kõige, kõige kurvemad sündmused on see, et kui inimene kulutab viiskümmend minutit mingi juba AI-ga chat'imisele ja AI läheb nii põõsasse minema ja teda on nagu suht keeruline tagasi rajale saada, sa hakkad nagu uuesti nullist pihta. Kes, kes on kogenud siukest jama on ju jah, et selles mõttes ongi see, et siis on nagu teadlikud ja siis see teadlik koondub prompt'imine on siis veel kord siis IO assistentide ja agendsete töövoogude ehitamiseks see agent käis siin nagu, nagu erineval viisil läbi. Et noh, minu käsitluses on ikkagi, agent on kratt, kes teeb mingi töö ära, mida sa ise ei viitsi teha. Kasvõi iga esmaspäev kell üksteist. Et siis ma nagu ütlengi, et noh, et ja siis nagu A ja assistentides moodustatakse siis nagu agentseid töövoogusid, sest me räägime selle nendest agentidest, millest siis eelmised esinejad siin laval siis rääkisid ka. Ja nüüd, kui hakata jah, tõesti juhiseid andma AI-le, siis kindlasti on oluline see roll, probleem, mida ta lahendab, probleemid elanikuna nagu taustainfot anda ja siis ta korjaks nagu kriitilise taustainfo juurde. Et see on nüüd see, see, kas me teeme nüüd väga lihtsa asja, et mul on mingi vanatädi pärandatud talu renoveerimisprojekt või, või teil on mingisugune konteiner laevade, tarneahela nagu ülevaatamine, et siis see kategooria mõttes nagu ei ole vahet, nagu, nagu noh, nagu, nagu mingisuguse assistendi või agentse töövoo ehitamise sisendiks, vaid küsimus, et teil on dokumenteeritud, et mis probleemi ta peab lahendama, mis taustainfod on olemas, dokumentatsioon jääb alles. Ja nagu ma ütlesingi, et nagu Euroopa AI direktiiv, mis tuleb ka välja, et see on üks printsiip, on see, et sul on AI suurkeelemudel on platvormist sõltumatu, et kui see on teil kuskile Google Docs'i või mis iganes noh, sellise agentse tegevuse nagu, nagu tekstina kirjutatud ja te üks hetk täna kasutate Cloudit, järgmine kasutate Copilot'it, siis ühest süsteemist teise kolimine ei ole nii suur peavalu, kui teil on ära dokumenteeritud. Mida, mida assistendid teevad ja milliseid agentsed töövoogusid on plaanis esitada, aga sinna me jõuame varsti, et, et selles mõttes on, saite, see on, see on hästi oluline nagu retsept, et mõista, et seda rolli, probleemi taustainfot ja info juurde, taustainfo juurde siis küsimist. Ja isegi on niimoodi, et võib viis küsimust ära küsida ja teil tundub puusatundega, ta küsis mingit valesid asju. Siis, siis ütleb, küsi mul veel viis küsimust. Siis, siis ta küsib mingi valikvastuse, et anna mulle numbreid, et palju seda oli, palju todased nagu triviaalsed jah-ei vastuseid, mis küsi mulle avatud küsimusi viis tükki veel juurde. Et, et niimoodi saab nagu AI-d nagu nõuda ja nõuda, et ta siis nagu ja siis, kui lõpuks see info on koos, et siis ta, siis ta nagu piisab, piisavalt nagu taustainfot, et ma võin siitsamast tegelikult öelda kohe, et tee see, tee mulle näiteks Cloud'e skill, nagu--- töötan, on ju, tee mul Cloud skill sellest, sellest asjast põhimõtteliselt, et, et see, et see on väga, väga lihtne. Nii natuke kiiresti kappan üle sellised tüüpilised kontoritöö teemad, et selle koolituse raames ka, et niisugune nutikam kontoritöö ja siis jõuame siin nendele AI assistentide agentsete töövoogudeni ehk siis see oli siis nagu põhimõtteliselt hetkel noh nagu AI assistent, mida korduvalt kasutatakse iga nädal, toitub täpselt samasugusest struktuurist, nagu me eelmises harjutuses harjutasime. Aga põhimõtteliselt sul on siis kontoritöötajal, võib-olla tõesti siuksed teemad nagu koosolekute planeerimine, dokumentide vormindamine, arhiveerimine, e-kirjade saatmine, sorteerimine, mingi lobi tegevus, veenmine, noh siuksed kõik nagu. Et siis näide on siin, et lühike kokkuvõte homsest meeskonnakoosolekust, lisajäreltegevused, rmista see professionaalseks e-kirjaks. Et siin ma slaidi lõpus on veel linke nagu mitme, sajakonnale nagu kontoriteemale, aga kiiresti käin läbi, et näiteks ärianalüütik, andmeanalüütik. Andmeanalüüsi tulemuste raporteerimine ehk siis üks asi on see, et ta teeb näiteks teaduslikku tööd, aga teine on see, et näiteks teeb võib-olla, ma ei tea, vähem, vähem teaduses olevatele sponsoritele selle tulemuse söödavaks, siis see perspektiiv täiesti nagu muutub, et sa pead nagu näiteks I- kasutad, tee see, et kümne aastane laps saaks, eks ole, ilusasti aru. Ja trendide visualiseerimine näiteks, et analüüsi kvartali müügiandmete aruandeid koostöökokkuvõitlike aruanne ja tuues esile siis trendid ja soovitused, siis näide on näiteks juhi abi puhul. Näiteks siis juht, juhtkonna ajakava haldamine koosolekute protokollid, kliendisuhete koordineerimine, kliendisuhtluse koordineerimine. Et väga palju on siis nagu kommertsettevõte, kes toob purgisuppi kuskilt või beebitoitu kuskilt Itaaliast või sul on riigiasutus, kes siis omab partnerlussuhted teiste riigiasutustega, et noh kes on kellele klient, kes on tarnija, kes infot vajab, et tegelikult see, see käib juhi abidel igatpidi läbi. Aga jällegi, et näiteks päevakava loomine on nagu lihtne asi. Tegevjuhi näide või siis tippjuhi näide. Strateegiliste otsuste langetamiseks taustainfo analüüs, turuinfo ja konkurentsi analüüsi tegemine, sisemiste memo- ja teadaannete koostamine, näiteks näide on kirjuta lühike memotöötajatele selgitades firma USA tegise suuna peamisi eesmärke või millegipärast ka riigiasutuse oma, vahet ei ole ja kuidas igaüks saab kaasa aidata näiteks on just augustis väga palju riigiasutused teevad neid ka suvekoole ja, või noh, jutumärkides siukesi suvepäevade moodi asju. Et, et siis seal on nagu üsna tavaliselt käib see läbi. Või siis projektijuhtimine. Noh, projektijuhtimine on lihtne, välja arvatud, et projektijuhtimine on nii lihtne nagu rattasõit välja arvatud ratas põleb, maailm põleb, kõik põleb. Aga ikkagi projekti planeerimine ajakava jälgimine, riski eelarve analüüsi nagu aega teha, osapoolte suhtlus, dokumentatsiooni. Promti näidet projekti kick-of dokument, mis sisaldab eesmärke ajajoont vahetapp ja põhiosalejaid. Roll ja riskide analüüsi. Et käsi püsti, kes on osalenud projektikoosolekutel, mis on väga segase infoga käima lükatud. Valdav nii, siis, siis on mu jutt adekvaatne, ma arvan. Finantsassistent, raamatupidamisasistent, arvete sisestamine, arved, kulud, maksete jälgimine, kulukontroll praegu tõi ka siin LHV pangal on, eks ole, AI liidestust näiteks olemas, et saad nagu väikeettevõtjatel rohkem automatiseerida. Kuluaruannete kontrolli ja eelarve ülevaateid ja prognoose, et, et mis ma tahtsin nagu välja tuua, et, et mida mõeldakse, et see AI teeb sellise kognitiivse nagu raske töö nagu inimesel ära ja inimene jääks rohkem selliseks näiteks nagu unistajaks, kontseptualiseerijaks ja siis AI tehtud, siis tulemuste nagu kontrollijaks, kontrollpunktidest, seesama AI direktiiv, mis jõustub. Tegelikult tahab, et inimestel oleks väga palju noh, AI kiirendab mingit töövoogu, näiteks tee mingi analüüs ära või ma ei tea kavanda asutuse suvepäevad. Aga et inimene siis nagu otsustuskohtades on alati juures, siis nagu analüüsib, kontrollib ja otsustab siis kriitilise mõtlemisega nagu inimene juures. Ehk see jutt, et AI võtab meie töö ära, et ma nagu seda juttu vähemalt, vähemalt Euroopa direktiivi järgi ei tohiks HI tööd ära võtta, sest seal on siis noh, me räägime siuksed väiksematest, ütleme siis assistendi töövoogudest, mida inimene peab üle kontrollima ja me räägime agentsetest töövoogudest, mida inimene peab üle kontrollima, ehitama, kontrollmehhanismid, mis ei ole haiga tehtud tihti, vaid on tehtud algoritmilise kontrollimisega. Et selles mõttes ei, ei võta see AI nagu selles mõttes täielikku inimese tööd ära, vaid võtab siis võib-olla mingit, võtab võib-olla nende töö ära, kes võib-olla vaid ei oska kasutada. Aga natuke need asjad, mis ma rääkisin. Te istute siin siin kahekesti kolmekesti. Et need, kes istuvad kolmekesti, et lihtsalt paremal ja vasakul olevatest inimestest teha niisugune väike vestlusgrupikene, et korraks arutada sihuke neli minutit. Kus te näete potentsiaali nagu AIs kasutamiseks nagu igapäevatöös, mida pole veel olete kuulnud, näinud, keegi on teinud näiteks, milliseid tegevusi korra nädalas, korra päevas minna osa ajast kulub rutiinsele tekstitööle näiteks ja kas me saaks midagi availab delegeerida, et siis sellised naabrid või kolmikud, et lihtsalt sihuke kolm-neli minutit võtame aega, et, et teadlikku ka, et üks inimene räägib üks minut jutujärje teisele ja kuulate, et siis korraks sihuke, võtame kolm minti lobisemist. Et mis, mis töölõikusid, et mis tegevusi korra nädalas päevas, rutiinsed tekstitööd? Kas midagi saaks aidata ka? Jah, mingid naabrid, kolmikud, paarikesed, moodustage seal, kes kolmekeste reas istub, saab paremalt vasakult võtta. Käsi püsti, kes on nõus võib-olla seda grupi mingeid tulemusi paari lausega jagama, lihtsalt selline, ma ei tea, mingi mõttekohta või imestamiskohta või murekohta või mida iganes, kõik sobib. Me oleme Arvamusfestival, me ei ole siin mingi, mingi vaikuse festival. Nonii, see on siis mikrofoni sisse. Võtke. Et siis siuke kaks lauset, et mis teil tundus, mida te kuulsite või mingi murekoht või noh, siis püsti pikali, kuidas keegi soovib. Kas mind on kuulda, jah? Nüüd tahab arvamusfestivali arvamus. Need Daisist ja meil tuli põhiteemad, üks on selli- või sai aidata email'e joru, mis sisse tuleb, paremini sünteerida, sünteesida. Et ei pea neid ükshaaval ise läbi. Nüüd tuleb seitsmendate mikrofon. Väga hea. Juhe käes ja saab tantsu. Kõla, kõlarist eemale. Nii, ühesõnaga, et AI võiks aidata siis puhkuselt tulnul näiteks kogu selle email'i, email'id paremini läbi, kiiremini läbi lugeda ja sünteesida. Ja teine, millega tõenäoliselt enamus siin on kokku puutunud koosolekute protokollimine ja, ja nendest siis nagu olulise tähtsama väljatoomine. See on küll päris keeruline, sellepärast et noh, kuidas siis ikkagi AI saab aru, mis asi see tähtis on. Aga kui seda saaks teha inimese asemel AI, siis sellest oleks ka tohutult juba ajavõitu. Nonii meil on juhe- juhtme pikkust jätkub veel, ma vaatan, kui pikalt see läheb, kuni see ära rebib. Nii keegi veel, võib-olla siukest tulemust, mis grupi, mingi tulega, jah niisugune nagu imestamise kohta, murekohta, võimaluste kohta kõik loeb, meil on Arvamusfestival ikkagi. Tervist, ma esitasin EIA ülimalt ambitsiooniga probleemi. Kuidas lahendada Eesti Vabariigi ATH ala diagnoosimist ja see tõi mulle välja võrdlus statistika põhjamaadega, kus vahe on isegi kümne või viieteistkordne ja mainis, et peaks riskigrupp sõel testima perearstide juures, kuna mõju kogu rahva tervisele on nii suur, see on lühikokkuvõte. Ja suurepärane, väga hea probleem, väga võimas probleem, jah. Keegi veel tahab jagada nagu imestamismure kohta, väga heietame, ärge jääga, aga niisugune paari lausega. Ma vaatan, kui pikaks see läheb, ootame siit üle laste vahelt läbi ja. Ma ütleks lühidalt selline mure jäi üles, et tegelikult see sisestada see, et ta näiteks mul aitaks oma tööd paremini, kiiremini teha, minu aega kokku hoida, et see, et ma peaksin ise kõigepealt siis vot sellesama sisendi andma või selle, kuidas selle nimi oli, kohe vaatan, tähtis. Juhise. Taustainfo. Et ma arvan, et minul viieteist minutiga, ma pean ise kõigepealt hakkama surfama rohkem ja, ja siis leidma kõik need variandid ja siis alles nagu. Et see ei lähe vist viisteist minutit, et ma mõtlesingi, et see on selline. Küsib sul konkreetselt viis küsimust ja sa vastad nendele väga konkreetselt paari lausega oleks nagu šanssi või? No ütleme jaa, kuna see on see suurem ala, et ma pean selle eriala nii-öelda ära kaardistama või mingi noh, et see taustainfo oleks tal sealt võtta sealt, võtta sealt võtta, sealt, arvesta veel seda ja seda ja seda. Et see on nagu see, aga no see tuleb ära teha ja hiljem on lihtsam äkki. Ja taustainfoks saad ka dokumendi kaasa anda, kui sul see. Paketis tavaliselt saab dokumendi kaasa anda, siis see on ka juba taustainfoks. Aga aitäh, oli kasulik. Kellelgi veel oli mingi murekoht või ahaa või ohhoo või midagi sellist. Mina võin oma kogemusest siia kõrvale öelda, et mina tegin omale ühe sellesama nii-öelda krati. Ja selle tegemiseks läks seitse tundi. Aga nüüd ta hoiab mul päevas ikka päris palju tunde kokku. Ja aastas ka siis? Jah, nii et alguses see esimese krati tegemine võtabki aega, aga pärast see, mis ta tagasi annab, on päris suur vahe. Just, aga algretsepti mõttes roll, probleem, taustainfo, see nagu loogika klapib sellega. Mina kasutan jah natukene teistsugust lähenemist rohkem. Mis see lähenemine on? Minul on rohkem see AI-ga vastamisi mõtete põrgatamine, sealt hakkab siis noh, mul on probleem, eks ju, hakkame koos seda lahendama ja pisitasa minema sealt. Ja siis selle prompt'iga koos kogu aeg uueneb see kratt, siis jälle saab midagi muudetud, siis me jälle katsetan, siis tal tuleb õige vastus, ei tule õige, siis jälle küsin ta käest, et mis ma saaksin paremini teha, et sa annaksid mulle vot sellise vastuse. Ja sa hoiatada projektis rohkem, et tal see mälu jääks kogu aeg. Jah, just okei, nii saab ka, jah? Väga hea, nii panen siis seitsmendate mikrofoni ära. Mikk kõlar just läbi. Nii. Et siis, milleks teid need kollased postitid siin on, kes siia juurde tulid, võivad ka toolile istuda täiesti puhta lehe pealt harjutus. Et kollased postitid paberil on siis kuue kuni kaheksa sammulise tööprotsessi selline kaardistamine. Okei. Ja mõtleme sellest tööprotsessist, mõtleme mingist nami-nami retseptikogus mingist piruka valmistamise retseptist, eks ole, jahu, muna, piim ja suhkur ja nii edasi, eks ole. Sul on nimekiri nagu koostisainetest ja sul on nimekiri sammudest, mis sa pead tegema, on ju. Et kook valmis saaks. Sa midagi sa ei saa ennem panna, kui sa pead midagi panema. Täpselt samamoodi on ükskõik milline protsess on minu jaoks sellise küpsetamise retsepti peale ma olen teinud politseiuurijad töölaua, disaini, kiirabimeedikute iPad'i rakendust, mingit Selveri skännimisäppi. Kõikidel on jah, seal mingeid tuhandeid kasutusjuhtusid võib-olla, aga tegelikult kõik kasutus või noh, probleemid saab nagu kirja panna põhimõtteliselt kuue mõjusa sammuga, et mis, mis nagu toimub, okei ja tavaliselt seda kõige lihtsam on kirja panna on see, et siis, et kui teil on mingi protsess, et protsess algab kuskilt ja protsess lõpeb kuskilt ja seda lipikut, mida te siis saate siin kasutada siin natuke sellise tsirkuse mängu või noh, sinka-vonka tsirkuse mäng, eks ole, sinka-vunka režiimis nagu läheb, et vasakult paremini ülemi rida ja siis on alumirida ja siis oleks nagu aega mõelda. See võib olla seesama probleem, mis teil ennem oli. Aga selle probleemi siis mõtlete nagu, et kuidas te nagu protsessi kontekstis, kus ta asub, mis enne seda probleemi toimub, mis peale seda probleemi toimub, võib-olla see probleem on protsessi alguses, võib-olla see probleem on protsessi lõpus. Et panete see protsessi kirja. Ja selle, mis selle harjutuse mõte on see, et siis me mõtleme, et kus kohas seal, kui suudate see protsess sinna kirja panna, selle ussi, mis kollased lipikud samamoodi nagu siin on see, see näidis, eks ole, pastakaga paned selle ussi endale kirja, siis sa tõmbate kasvõi ringi ümber, et või siis mõne kommentaari panete, et mida võiks nagu AI-ga teha selle protsessi sammuga ja tegelikult öeldakse, et, et see protsess hakkab omama nagu, nagu assistendi nagu osasid. Ja see, ja kui see protsess nagu AI-ga nagu pärast, nagu agendiks ehitatakse, siis see ageent annab töötama nagu agentse töövoona. Saate aru, jah? Et võtad kõigepealt protsessi juppideks lahti ja mõtlete, millises sammus AI võiks nagu aidata korduvtegevustes ja pärast te vaatate seda protsessile otsa, kui potentsiaalset agentset AI töövoogu. Nii, viis minutit jälle. Et kes tahab endale telefoni seda nimekirjana teha minugi pärast, kes on siin mingi digi-diginutipluti võib teha Notes'i rakenduses või Google Keepe'is või Google Docs'is selle seda nimekirja stiilis või kes tahab, siis võtke see kollane lipik, pange põlve peale või nutitelefoni peale kirjutusaluseks ja tehke niisugune, sihuke stagurpidi S ja siis need sammud kirjas. Siin on näidis, on lihtsalt on tüüpiline asi, tuuakse maale ma ei tea beebitoitu. Espellegrino mineraalvett Itaaliast, sest tüüpiline maaletoomise teema, et sul on seal tarnijal on tooteuuendus, SBle Griinod on virsiku maitsega. Kunagi pole maailma ajaloos seda olnud, eks ole, näiteks. Ja siis on Danja andmed uuenesid, näed virsiku maitseline, uurid, et kas Eesti turul läheb vaja seda, siis pirsiku maitseline tooteinfo siis e-poodide jaoks ära lokaliseerida. Guugeldamise optimeerimine ja AI otsi optimeerimise ette ettevalmistus korduma kippuvate küsimustega pildi ja meedia kohandamine, selle virsiku maitselise Spelegrino, Selveri lettidele jõudmiseks, turundussõnumit sotsiaalmeediasse, nüüd on meil äge Espere Grina ja siin Taukar tantsib sellega muusikavideos. Siis on kõigi andmete õigekirja kontroll proofreeding ja siis andmete sisestamine e-poodidesse süsteemidesse, tooteinfohaldusesse igale poole. See on näidis SBL Greenho maaletoomisest või mähkmeid või püree või autod või Covid näomaskid. Et pange enda ja te see samm võiks olla selline kuus kuni kaheksa, nagu tavaliselt ja alustage, et lõpuks, et mis on see protsessi lõpp. Ja suured mõjusad sammud ja tavaliselt öeldakse, et see, tihti see mõjus samm on niisugune noh, toimub korra nädalas stiilis asi näiteks, kui on mingi sihuke pikem protsess, näiteks mingi menetlus või ma ei tea, korra kuus, korra nädalas korra kuus on nagu piisavalt hea samm. Nagu suurem protsess nagu tarneahel näiteks. Viis minti jälle aega. Nii tundub, et vist inimesed vaatavad vaikselt paremale-vasakule, siis on oma ülesandega valmis saanud. Hea sensor, okei, aga siin see, selle töötoa kirjeldus, siis lubas ka seda, et ma näitan ühe nagu AI assistendi loomise ka teile, et tegelikult, kellel on mõni tasuline chat-ipi teel või tasuline tööandja---. Mida te saate autenticator'iga sisse logida, on kaasas, või on isegi Cloud'e või millegipärast ka geimini tasulised. Et ma teen ühe väga sellise nagu lihtsa nagu AI assistendi ja siis mõte ongi, nagu ma ennem rääkisin sellest, et, et alguses tehakse nagu, nagu AI assistente korduvkasutuseks, et põhimõtteliselt mingi AID, mida te hakkate nullist iga nädal tegema, on ju, näiteks sama teema nullist hakata uuesti uuesti hakata jaurama temaga, uuesti hakata küsima siis peas peaks nagu krõks käima, et kuule, aga sellest võiks I assistendi teha. Ehk siis täpselt sama esimene harjutus, mis me tegime. Noh, mingi probleemi lahendamiseks toimub sul iga nädal või iga kuu ja tegelikult seda võiks nagu iOS-istendist läbi lasta, et, et, et siis ma näitan siis siukse lihtsa nagu I assistendi, mida kontoritöös väga tihti läheb vaja. Ja tihti ongi, kui ma olen ise disainer ka siin vasaku jalaga, ehk siis disaineri nagu roll on ka nagu info, nagu väga keerulise tehnilise asja nagu lihtsaks loetavaks tegemine. Ja üks selline trend on see, et siis AI-ga saadetud email, email'id ja mis AI-ga tehtud email'ide häda on see, et ta kirjutab rohkem nagu vahtu. Ja mis nüüd olukorras on see, ma võtan nagu telefoni välja, kolleeg saatis meili. Ma vaatan, et ma olen abipositiivne, see on AI-ga kirjutatud email, ma ei pahanda seepärast, ta vastutab selle info saatis mulle. Aga mida ma näen oma telefonis, sest ta meili nagu kerin ja kerin ja käsi püsti, kes tunneb juba, et peale kahte ekraani kerimist enam ei viitsi edasi lugeda, las ta hallkokkuvõtte teha. Noh, ja käsi püsti, et selle leevenduseks võiks olla, et need sellised info ja otsustamise e-mail'id võikski olla paar ekraani kerimist mingite linkidega käsi püsti, kas tundub, et see on mõistlik. Vot siis järelikult, kui mul on mingi keeruline tekst või info, et siis selle nagu söödavaks tegemine, et siis see kaks ekraani kerimist mobiiltelefoni maailmas on viissada märki. Okei, pool A4 on umbes tuhat ja niisugust A4 on kaks kuni kolm tuhat tavaliselt ja siis ma siis näitan siis Copilotis, kuidas siis selline väga tihti kasutatav tööriist on nagu tekstide lühendaja emaili saatmiseks. On ju, tundub kasulik asi või? Tekstide lühendaja emaili saatmiseks ja selle nagu näitena, kuidas ta valmis ehitatakse ja see töötab täpselt samamoodi chatchipitis. Ja siis koopiletis ja, ja mismoodi puhul on see, et kui sul on see Microsoft 365 nii-öelda pakett, mis on turvapilves juba, siis sa saad teha AI assistente, millele faile ei saa kaasa anda ja Microsoft tahab kakskümmend kuus euri kuus juurde saada, et saaksid siis AI assistendile teabevaraks anda failid või sharepointi kaustad, mis iganes. Aga, aga põhimõtteliselt juba tasu, tasuta selles mõttes Office paketiga, mis tuleb siis koparates on nagu I assistente luua. Et see on nagu väga-väga hea asi ja see, mis minu meelest hakkas alles selle aasta alguses tööle. Et varem pidi raha selle eest maksma ja istub ikka raha selle eest maksta ja põhimõtteliselt absurdne olukord, inimesed maksavad kakskümmend euri kuus mingi funktsionaalsuse eest, mis on tegelikult neile tööandja koopaljatis nagu olemas. Nii et teen koolitusi järjest, inimesed nagu Jeesuse mingi sotta juba kulutanud viie kuuga asja peale, mis on, tööriist on olemas. Olgu, aga ma siis teen nagu väikse demo, et kellel on nutitelefon, võiks, võib nagu kaasa ukerdada, kellel on mõni chat-i--- on siis see funktsionaalsus on custom GPT. Ja Copilot'is on noh, nad nimetasid agendiks, nagu siin Hendrik Roonemaa ja siin Linnar Viik ja kõik siin laua peal teeme siis Eesti kõige agentsemaks Eesti rahvaks. Ehk siis tegelikult koopalletikäsitlusesse agent ongi nagu see AI assistent, natuke suuremaks veel, et äkki midagi näeb. Custom GPT on chatchipitil? Gemid, jah, jah, ja siis sul on jah, skill'id on põhimõtteliselt no siin Clode, Clauda ka olemas, aga noh, põhimõtteliselt skill'ide ehitamine nagu Cloud- rohkem. Et noh, see skill nagu siis laseb mingi tööülesande läbi, okei, aga et uus agent, coopilotis siis ehk siis see on nüüd tasuta, tasuta selles mõttes, see ei ole tasuline koopilet, see on siis see, mis on, mis ta on, mingi seitseteist eurot kuus, Microsoft kolm kuus viis tavaline korporatiiv Word, Excel Powerpoint nagu pilve, pilve, pilvepakett ja see on turvapilv, on siin vähemalt on see vapike olemas, et mul on ettevõtte andmete kaitse, kirjuta midagi tagasi sinna nagu AI poole, teistes AI tarkvarades tuleb seadetes kinni keerata, ära treeni, ära saada andmeid peaks nagu kinni keerata, aga siin on vaikimisi kinni, et Microsoftile selle eest respekt. Ja nii uue agendi loomiseks siis ma jätan selle mingi temaga vestlemise abil nagu sammulaadmise vahele. Ja ma lihtsalt räägin, et, et kõige olulisem nagu agendi või assistendi kavandamiseks on see, et sa teadvustad, et tal on üks ühene kast juhiste andmiseks. Ja üldiselt muu asi on mingi teabevara või selle assistendi metaandmed siis nagu nende registri pidamiseks, et noh, stiilis leiad üles oma asja, et tegelikult see kogu trall käib nagu instructions ümber ja täpselt samamoodi on see geminiil täpselt samamoodi on ka teistel. Ja instructions puhul mina ütlen talle, et mina olen, tema on mul tekstide lühemaks tegija. Nii, tema on tekstide lühemaks tegija, okei. Ja ma ütlen, et see pealkiri, mis ma annan talle ja see, mis ma kirjelduse annan talle, see on registri pidamiseks mulle, kui meil on sada assistenti ehitatud ja ma leian üles, mille jaoks see oli, mis ta tegi, ma ei mäleta, eks ole. Et see ülemine plokk on nagu riistagi pidamine, siis ma ütlen registri pidamine aitab tekste lühendada, eks ole. Viiesaja märgi peale veel parem. Aitab teksti--- viiesaja märgile. Ja siis noh, paneme viis, viissada. Või viissada M näiteks, nii ja siis aitab Texta tekste lühendada. Täpselt custom GPT-ga, chatchiby DSA moodi. Nii, selle, selles cloud-s mul on, mul on eraldi skill, mis aitab skill'e teha, et see on natukene teine töövoog, aga põhimõte on nagu ikkagi sama ja nüüd instruction siis, mis me kõige esimesena täna üldse, kõige esimeses harjutuses kõige esimene lõik oli, mida ma jaurasin siin kogu aeg. Mis sa pead andma talle? Roll, jah, roll, roll ja taust, nii et siis sa oled siis, oled siis kontoriassistent põhimõtteliselt või noh, ütleme siis tekstiassistent. Oled siis teksti toimetaja. Kas teksti toimetaja võib võiks olla ametikoht, kus keegi palka saab käsi püsti, nõus, arvate ju, Arvamusfestival, jah see roll sobib. Oled teksti toimetaja, väga hea. Siis aitad, ütleme midagi aitab, lühendab tekste. Märgini siis eesmärgiga, et, et meiliga saata. Niisugune duaalne käsk talle, lühendad tekste viiesaja märgini. Eesmärgiga, et meiliga saata ülevaatena edasi, siis need, okei, tundub loogiline või? Põhimõtteliselt kui siukse assistendi teed, sa saad seda pärast näiteks Outlookis, Outlooki siis rakenduses nagu esile kutsuda nagu IO assistent ja kui sul on siis tasuline, siis Copilet litsents kakskümmend kuus euri otsas lisaks Office paketile. Ma ei tee siin Microsofti reklaami, et siis chat'i käib samamoodi, aga miks ma teen, kuna lihtsalt see kopilati ökosüsteem on nagu küberturvalisuse mõttes kõige-kõige nagu parem hetkeseisuga nii ja nüüd, mis on nagu väga oluline käiviti, on ju, ennem oli see, et küsi mul viis küsimust. Aga praegu ma näiteks käivituks näiteks, et, et hakka kohe tööle nii kui lisan teksti on ju, ma isegi ei pea ütlema, et ma võtan oma assistendi välja, lisan teksti, see on nagu restrisse paned, saiad teeb ära, tuleb pruunid saiad, on ju, siis ehita neid assistente niimoodi, et nad ja pärast siis, kui teed agentseid töövoogusid nende vahel, et siis üks assistent lõpetab nende failidega, annab järgmisele edasi, on ju, et siis, siis ütleme, et siis hakkad tööle. Nii, lühendad tekste viiesaja märgin, eesmärg on meili saada edasi hakkad töölepe teksti lisamist, mõnikord võib hakata tööle peale faili lisamist, ütleme kas teksti või faili või niisugune. Et mul on roll juhis, mis tegema peab ja käiviti, on ju väga lihtne, kõigil peaks meelde, võite pilti ka teha, kes tahab endale mälestuseks. Ja siis ta peaks mul siin rõõmsalt mõtleb. Create, paremal on plussmärk. Assistent ja nüüd need assist, neid assistente tehakse erinevaid, ütleme, et meil on siis, ütleme siis ütleme Saumixer või mis iganes on nagu üks assistent ja ahi on teine assistent, ahi küpsetab kooki ja Saumixer on see, mis segab kokku, et siis need mõlemad on nagu assistendid, aga siis ma panen Sau Mikseri ahju tööle, et kook saaks valmis, mul on agentne töövoog. Ja nüüd on niimoodi, võtan mingi faili näiteks, viimsi, vaata nüüd valla koosoleku protokoll PDF. Me koosoleku protokoll File. Me leiame mingi koosoleku protokolli, mida on internet täis. Kogukonna komisjoni koosoleku protokoll näete, siin on kolm A4 mingit juttu. Nüüd ma laen selle alla, selle faili, download's kataloogi. Või noh, anname downloads'i. Nii, soovitan Dowloads'i panna, mitte desktopile, et Windowsil sööb teil vahemälu ära muidu. Ja siin on tekstide lühemaks tegija, seda saab ka nupkaga endale ka panna, kui sul on mingi kakssada assistenti ehitatud, siis võib-olla lemmikud top viis paned knupkaga vasakule, ta on juba olemas siin vasakul ja mul ei ole mitte muud tägi ja midagi muud siia vaja toppida, kui see allalaetud dow loads protokoll siia. Fil läheb sisse, on ju. Röstimata saiad röstrisse. Ja siis assistent peaks tegema mulle viiesaja märgilise teksti, mida edasi saate, põhimõtteliselt nimetatakse ingliskeelses nagu executive overview. Noh, sihuke--- ühe ülevaate, lühiülevaade asjast. Valga kogukonna komisjon alustas Vasalemma põhikooli laste võimalikku liitumist avaliku kütuse läbimist, anti ülevaade Pakri valule. Mul tundub see liiga vähe, tegelikult nagu tulemus, nagu ütlesin viissada märki on ju ja ma ütlen, et lihtsalt käsutan jällegi tee poole pikemaks. Mul on tunne, et on nagu niisugust nagu kaks meililõiku või niisugune nagu infot edastada. Käsutad on ju, ei ole mingi palun, kallis sõber, assistent. Põmm, noh, korras käsi püsti, kes tunneb, et niisuguse asja võiks nagu meiliga saata edasi? Onju et see on siis näide sellest ja siis ma ei tea, kas see korraldajad kuidagi seda esitlust nagu jagavad ka, et kellega, otsige mind internetist ülesse, kui on vaja, et ma kuskile LinkedIn-is võin teile siis selle failina ka jagada ja siis on selle agendi loomise need sammud, mida ma tegin. Et, et saatke mulle LinkedInis teade, et ma saadan tagasi teile failina või korraldajad ka saadavad, aga siin on need sammud, mis ma tegin selle assistendi loomiseks. Ma annan Ai positiivne jah, ma aktseptin seda. Vot see on see, kui ta paneks sinna alguses kirja alguses ühe lõigu oma inimliku nagu sissejuhatust kirja lõppu kokkuvõtteks ühe lõigu inimliku sissejuhatuseks ja see koosoleku protokolli sisu on seal vahel, siis ma tõenäoliselt, no kui ma näen seal mingi Estinglish on vahepeal, eks ole, siis ma saan aru. Siin ma ikkagi, ma, ma arvan, et ma kõiki asju ei tunne ära, aga kui niimoodi, et sissejuhatav lõik ja kokkuvõttev lõik on ka nagu AI poolt tehtud, siis ma tavaliselt tunnen ära. Ei, ta teeb ikka seal jääb nagu seda seal on see, et ka sinu, sinu liha nagu noh, sinu, sinu hinge ei ole seal sees, et noh, selles mõttes su kolleegid teavad, et sa tavaliselt räägid kohvinurgas kogu aeg ütled, et ma ei tea, mingi nagu sõna kasutan mingeid parasiitsõnu, et siis tõenäoliselt vaadatakse meedias ka väga palju nagu sõnasid ja ei tule, et siis tehtud. Nojah, jah. Ja, ja ikka jah, see ettekanne oli õige tehtud. Aga selles mõttes, et mina toimetasin kõik laused üle, tähendab, et kas Andres räägiks seda või ei räägiks. Kas ma usun, et see info on siis slaidide peal Arvi poolt tehtud tõene või mitte? Et see on jah. Aga need tähevead, mis seal näiteks mul sõnaviga oli, see oli nagu ini-, kuna ma toimetasin selle lause kiiresti ümber, siis. No näiteks ja, ja selles mõttes, et on jah, aga meil on see, kus see seitsmekümnendate mikrofon on siin juhtme otsas. Et kuna on siin Arvamusfestival, ma korra siin vajutan. Kuna meil on homme ka koolituspäev, siis teg-, et Bil Mari ütles, et nagu hea töö on ju, sellega on hästi. Aga et siis väike tagasiside ka tänase sessioonile, et see on homse ettevalmistuseks ja siis meil on mingi seitsme seitsmendate mikrofon siin. Et siis, kes tahab midagi küsida, et siis ma saan nagu vastata, et tulge siia. Küsige. Teised kuulevad ka. Ma küsin, mul on huvi häkke, ütelge siis neid sõnu, millega te ära tunnete, et noh, neid nüansse, millega, et oh, see on aega tehtud, tüüpilisi, vaata ma lugesin niisugust artiklit, et see pole mitte nii, see on nii ja pelgalt ja niisugused sõnad. Ma tahaks ühte mingit sellist, ma tahan igas lõigus mingit, mingit eestlaslikku maitsekat nagu slängi näha ja kui on kõik väga korrektne või kuidagi ma isegi näen, et me siin intellektuaalid või mis iganes, neil on oma mingisugused slängid. Kui ma ei leia neid, siis ma üsna tavaliselt. Ja, ja jah, ma ei leia, siis tundub, et on AI, jah, jah. Nii küsige veel, meil on siin ja andke tagasiside ka, et meil homme on samasugune üritus, et äkki lihvime või midagi. Ja samasugune asi ja see. Neli saatke oma sõbrad siia istuma. Tule siia, no see venib sinna poole tooli hunnikuni, et sa võid natuke tagasi minna sellega teine lugu. Tuttav oli, et just vastu pidades, ta sai märkuse, et miks sa mulle AI-ga kirjad kirjutad, polnud AI-d elu sees kasutanud. Et jälle see, et jah see ongi see, et kui sa oled harjunud ka kolleegilt sellist nagu armastusega tehtud, isegi kui ta võib olla väga kriitiline või mis iganes, sa tunned ära, et kas sellesse kirja on nagu doseeritud sellist armastust teise inimese vastu, aga nagu AI-lt ei tule seda, et see kuidagi ei saa aru. Küsige. Arvamusfestival on, ega siin ei ole mingi vaikusfestival. Me enne rääkisime sellest, et, et AI lihtsustab meie, ei võta meie tööd ära, vaid lihtsalt mingil määral lihtsustab või. Mingid lõigud on. Mingid lõigud võtab ära, aga mis te arvate sellest, et tänu sellele tööandja ootus töötajale on tõusnud tootlikkuse osas ja võib-olla natuke ebareaalselt tõusnud, et nii palju ta ka ära ei võta, kui oodatakse? Et vastupidi nagu töötaja stress on tegelikult suuremaks läinud. Jah, võid hoida mikrofoni, muidu mul hakkab siin kajama. Ma just tõin siia Kerlin Tiigemäega, meil oli podcast, ta rääkis natuke AI läbipõlemisest. Kus inimesed, kes ei oska AI-d kasutada hästi või tõhusalt, kardavad tööst ilma jääda. Ja teistpidi inimesed, kes kasutavad, kui nad kardavad enda nagu valesti kuidagi kasutavad, et nagu, nagu, nagu kaks, kaks nagu äärmust ja, ja noh, seal seal ongi, no mul üldiselt tundub, et täna ostetakse mingisugune odav Skilseri koolitus, kus mingi indu seal väga segases keeles üritab nagu õpetada. Ja siis palun litsents kõigile kakskümmend üheksa EURi kuus ja õppige versus see, et siis kutsuda minu kolleeg mõni või mina või mingi professionaalne koolitaja sisse, et siis organisatsioonid on korralikult sisekoolitused teha, nii nagu tehti Excelile omal ajal või mis iganes Google'ile, et, et ma näen, et paljud organisatsioonid nagu koolitamise koha pealt nagu ei investeeri ikkagi piisavalt ja see, et noh, te nüüd peate tõhusamalt tööle hakkama ja kasutage AI-d ja siis seal on, esiteks on see, kui hästi nende tööprotsess EuroopaI direktiivi suhestub nendele reeglistiku, eks ole, diskrimineerimised ja kõik asjad, mis seal nagu on ja tegelikult noh, juhtkonnad ei tea seda, nad pole ise ka ennast koolitanud. See hakkab nagu peast pihta. Sellepärast me koolitame teda siin. Nii küsimus. Tervist, mul ei ole isegi võib-olla nii palju küsimus kui sama asi, et vastu kajada ja võib-olla isiklikust perspektiivist just varasemast kogemusest töötades, et samamoodi tööandjal on olnud palju suure eelduse, et nüüd võtavad kõik meil ettevõttes kasutusele ai ja jube kiireks muutuvad kõik protsessid, hakkame tööd, loomingulist tööd samamoodi, mõõtma töötundides. Ja näiteks Jira punktides, mis on tuttav. Aga probleemiks on saanud see, et tihtipeale just väiksemates ettevõttes samamoodi, kui me räägime näiteks turundustegevustest, müügitegevustest, ei ole paljuski ära defineeritud tegelikult see tööprotsess. Mis me täna proovisime sinka-munka usina teha. Täpselt ja et, et kui me tahame kirjutada ikkagi näiteks mingit artiklit, et see toimuks kiiresti AI-ga, kui meil ei ole teada, kellele me seda täpselt kirjutame, mis on siis artikli eesmärk defineeritud, kuidas me peaksime kõlama, siis tulebki see, mida kõik nimetavad selleks AI slopiks on ju. Et väga selgelt peab olema organisatsioonis arusaam sees, mida, kellele, mis ja mille pärast tehakse. Täpselt väga hea tähelepanek, aga teeme ühe piduliku aplausi iseendale, kõik olid väga asjalikud ja hea töö.",
+    "cues": [
+      {
+        "start_seconds": 11.12,
+        "end_seconds": 13.56,
+        "text": "Tere, minu nimi on Andres Kostiv."
+      },
+      {
+        "start_seconds": 13.56,
+        "end_seconds": 19.0,
+        "text": "Olen siis hetk- , hetkel AI koolitaja siin täna."
+      },
+      {
+        "start_seconds": 19.0,
+        "end_seconds": 25.96,
+        "text": "Ja pikemalt siis tegutsenud digiteenuste strateegina aastast, siis ma arvan, suht am"
+      },
+      {
+        "start_seconds": 25.96,
+        "end_seconds": 29.84,
+        "text": "mu, kaks tuhat kaksteist ja kaks tuhat neliteist kümme pluss aastat."
+      },
+      {
+        "start_seconds": 29.84,
+        "end_seconds": 37.52,
+        "text": "Ja kogu see, see suurem mõte, miks neid nagu AI koolitusi teha, et, et sellest siis Eesti"
+      },
+      {
+        "start_seconds": 37.52,
+        "end_seconds": 40.36,
+        "text": "rahvas sellises AI targaks teha."
+      },
+      {
+        "start_seconds": 40.36,
+        "end_seconds": 46.76,
+        "text": "Ja, ja noh, ma, ma võib-olla ennast tõstan sinna üheksakümnendate keskpaika, kus siis"
+      },
+      {
+        "start_seconds": 46.76,
+        "end_seconds": 53.12,
+        "text": "Henn Sarv ja Peeter Marvet ja, ja teised legendid koolitasid Eesti rahvast nagu vaata"
+      },
+      {
+        "start_seconds": 53.12,
+        "end_seconds": 57.48,
+        "text": "maailma või, või tiigrihüppe poole pealt, et siis, et, et minu nagu soov on ka selline"
+      },
+      {
+        "start_seconds": 57.48,
+        "end_seconds": 61.76,
+        "text": ", et kui viisteist aastat tagasi oli selline guugeldamise oskus oli nagu inimestel nagu"
+      },
+      {
+        "start_seconds": 61.76,
+        "end_seconds": 67.28,
+        "text": "oled, sa oskad guugeldada versus see, et sa guugeldad, siis praegult noh, ma tean väga"
+      },
+      {
+        "start_seconds": 67.28,
+        "end_seconds": 72.96,
+        "text": "palju sisekoolitusi igal pool ja ma kohtun, et enamasti inimestel ei ole seda nagu, nagu"
+      },
+      {
+        "start_seconds": 72.96,
+        "end_seconds": 78.6,
+        "text": "baar, baas AI kasutamisega oskust ja täna, täna selleks me olemegi siin, et, et õppi"
+      },
+      {
+        "start_seconds": 78.6,
+        "end_seconds": 82.56,
+        "text": "da siis nagu erinevaid, erinevaid nippe ja trikke."
+      },
+      {
+        "start_seconds": 82.56,
+        "end_seconds": 88.64,
+        "text": "Aga kui kellelgi vähegi võimalik, telefon välja võtta, see on nagu lennuki parda che"
+      },
+      {
+        "start_seconds": 88.64,
+        "end_seconds": 92.16,
+        "text": "ck in see, mis Ryanairil seal lennujaamas."
+      },
+      {
+        "start_seconds": 92.16,
+        "end_seconds": 99.96,
+        "text": "Et ennast võtta üks siuke minutikese, kaks ja ennast registreerida töötuppa."
+      },
+      {
+        "start_seconds": 99.96,
+        "end_seconds": 108.16,
+        "text": "Et me, et see on pärast abiks lihtsalt, et me saame lasta AI-l andmeid analüüsida."
+      },
+      {
+        "start_seconds": 108.16,
+        "end_seconds": 117.28,
+        "text": "Et vist jah niisugune check in, et et sellest, kes, kes saab, et sellest on abi."
+      },
+      {
+        "start_seconds": 117.28,
+        "end_seconds": 122.88,
+        "text": "Ühe eest, okei."
+      },
+      {
+        "start_seconds": 122.88,
+        "end_seconds": 129.32,
+        "text": "Laadis, jah, okei, check-in, check in Ryanari, check-in, pardaregistreerimine."
+      },
+      {
+        "start_seconds": 129.32,
+        "end_seconds": 131.2,
+        "text": "Ei küsitud, ei."
+      },
+      {
+        "start_seconds": 131.2,
+        "end_seconds": 133.48,
+        "text": "Ei ole pinguta."
+      },
+      {
+        "start_seconds": 133.48,
+        "end_seconds": 135.4,
+        "text": "Nii."
+      },
+      {
+        "start_seconds": 135.4,
+        "end_seconds": 143.36,
+        "text": "Et lihtsalt seal registreerida, et check-in koolitusele, kes, kes osaleb, siis võib selle"
+      },
+      {
+        "start_seconds": 143.36,
+        "end_seconds": 147.92,
+        "text": "QR koodi ära pildistada oma ägedate Zoom telefonidega."
+      },
+      {
+        "start_seconds": 147.92,
+        "end_seconds": 155.52,
+        "text": "Aga lähme siis asja kallale, et jah, ambitsioon, väga lihtne, kõige AI targem rahvas"
+      },
+      {
+        "start_seconds": 155.52,
+        "end_seconds": 160.52,
+        "text": "ja veel nagu maailma mõttes on, on, kellele järgi jõuda, esimesena võib-olla hüppab p"
+      },
+      {
+        "start_seconds": 160.52,
+        "end_seconds": 165.76,
+        "text": "ähe Singapur, kellest tahaks nagu ette jõuda, kes on kogu seal Aasia ühenduste nagu väga"
+      },
+      {
+        "start_seconds": 165.76,
+        "end_seconds": 172.48,
+        "text": "suur Euroopa ja Aasia vaheline finantskeskus, mida, mida väga palju siis AI juhib ja"
+      },
+      {
+        "start_seconds": 172.48,
+        "end_seconds": 176.52,
+        "text": "noh, küsimus on see, et mis ka Singapur on väike riik tehnoloogiliselt väga arenenud"
+      },
+      {
+        "start_seconds": 176.52,
+        "end_seconds": 181.92,
+        "text": ", et siis, et Eesti oleks siis kõige Avitargem rahvas, et väga hea ambitsioon."
+      },
+      {
+        "start_seconds": 181.92,
+        "end_seconds": 188.0,
+        "text": "Et siis AItarkus nagu sõltub sellest, nagu põhilistest ABC nagu AI oskustest, aga mitte"
+      },
+      {
+        "start_seconds": 188.0,
+        "end_seconds": 192.16,
+        "text": "see, et ma oskan chat'ida, vaid päriselt, kui ma midagi päriselt vaja ära teha."
+      },
+      {
+        "start_seconds": 192.16,
+        "end_seconds": 195.4,
+        "text": "Ja ma teen selle nagu tõhusalt ja efektiivselt ära."
+      },
+      {
+        "start_seconds": 195.4,
+        "end_seconds": 201.6,
+        "text": "Et see on nagu see esimene samm, mis, mis see võiks, mis võiks nagu toimuda."
+      },
+      {
+        "start_seconds": 201.6,
+        "end_seconds": 209.04,
+        "text": "Ja noh, ma endast siin ei räägi, aga üldiselt olen siis teinud jah erinevaid nii riigi"
+      },
+      {
+        "start_seconds": 209.04,
+        "end_seconds": 213.68,
+        "text": "asutustele kui erasektorile kui start-up'idele, igale poole erinevaid koolitusi, aga"
+      },
+      {
+        "start_seconds": 213.68,
+        "end_seconds": 217.72,
+        "text": "mis täna on siis menüüs, et oskate koostada tõusevaid prompte?"
+      },
+      {
+        "start_seconds": 217.72,
+        "end_seconds": 222.8,
+        "text": "Siis natuke kaardistada mingeid tüütut või ajamahukat tööprotsessi, millegipärast võib"
+      },
+      {
+        "start_seconds": 222.8,
+        "end_seconds": 229.84,
+        "text": "ka see mingi talu renoveerimine olla, kui kellelgi on rahad mängus või sugu, sugulaste"
+      },
+      {
+        "start_seconds": 229.84,
+        "end_seconds": 234.52,
+        "text": "talu vaja ära renoveerida, et niisugune protsess võib ka vabalt olla."
+      },
+      {
+        "start_seconds": 234.52,
+        "end_seconds": 239.16,
+        "text": "Tuvastuse kohad, kus tehisin aru säästab aega, vähendab käsitöö parandab kvaliteeti,"
+      },
+      {
+        "start_seconds": 239.16,
+        "end_seconds": 245.48,
+        "text": "siis ma natuke näitan siis koopilotis demonstratsiooni, kuna koopilet on de facto siis"
+      },
+      {
+        "start_seconds": 245.48,
+        "end_seconds": 251.8,
+        "text": "nii suurettevõtetes kui riigisektoris kõige nagu turvalisem viis, siis nagu kübertur"
+      },
+      {
+        "start_seconds": 251.8,
+        "end_seconds": 257.28,
+        "text": "valisuse muret nagu AI osas nagu vähendada, et siis arhitektuuri mõttes kasutab meil"
+      },
+      {
+        "start_seconds": 257.28,
+        "end_seconds": 261.0,
+        "text": "SMIT, politsei, kiirabi ja nii edasi, eks ole."
+      },
+      {
+        "start_seconds": 261.0,
+        "end_seconds": 267.08,
+        "text": "Pangad, et selles mõttes natuke näitan, aga jällegi kellelgi on telefonis kaasas mõni"
+      },
+      {
+        "start_seconds": 267.08,
+        "end_seconds": 272.96,
+        "text": "muu klaude või chatity või gemi, nii et tegelikult see, need, need põhimõtted kehtivad"
+      },
+      {
+        "start_seconds": 272.96,
+        "end_seconds": 276.0,
+        "text": "kõikide suurkeelemudelite puhul, mis me läbi käime."
+      },
+      {
+        "start_seconds": 276.0,
+        "end_seconds": 282.76,
+        "text": "Ja just ja täna natuke läheb aega üle, et siis saab kamandada oma AI assistendi, et mõ"
+      },
+      {
+        "start_seconds": 282.76,
+        "end_seconds": 287.72,
+        "text": "te ei ole see, et sa lähed nagu pea ees vette ja tuimalt peale ja teed oma AI assiste"
+      },
+      {
+        "start_seconds": 287.72,
+        "end_seconds": 293.4,
+        "text": "ndi ära, vaid tegelikult Assistent planeeritakse põhimõtteliselt Wordi fail ja sa pla"
+      },
+      {
+        "start_seconds": 293.4,
+        "end_seconds": 298.08,
+        "text": "neerid, mida ta tahab teha ja siis selle, see, see printsiip on seepärast oluline."
+      },
+      {
+        "start_seconds": 298.08,
+        "end_seconds": 304.48,
+        "text": "Mis nagu aru saada, et, et kui sul süsteemid mingil põhjusel vahetuvad, näiteks Trump"
+      },
+      {
+        "start_seconds": 304.48,
+        "end_seconds": 309.28,
+        "text": "ei luba enam AI-d ja tegelikult tuleb Prantsusmaa Mistrali LM näiteks organisatsiooni"
+      },
+      {
+        "start_seconds": 309.28,
+        "end_seconds": 314.0,
+        "text": "s kasutusele võtta, siis sul need agentide jaoks loodud nagu tööprotsess on dokument"
+      },
+      {
+        "start_seconds": 314.0,
+        "end_seconds": 320.12,
+        "text": "eeritud ja nende nagu kolimine ühe AI pealt teisele on nagu lihtne versus sellega, et"
+      },
+      {
+        "start_seconds": 320.12,
+        "end_seconds": 326.64,
+        "text": "sa kõik siis vormistad ühte kohta ära ja siis Trump ütleb, et rohkem ei saa kui NATO"
+      },
+      {
+        "start_seconds": 326.64,
+        "end_seconds": 328.32,
+        "text": "kaitsekulusid ei tõsta."
+      },
+      {
+        "start_seconds": 328.32,
+        "end_seconds": 330.64,
+        "text": "Et, et siis."
+      },
+      {
+        "start_seconds": 330.64,
+        "end_seconds": 335.56,
+        "text": "Jah, aga võtan see, et sul siis AI ei ole ühe teenusepakkujast sõltumatu, vaid vajadus"
+      },
+      {
+        "start_seconds": 335.56,
+        "end_seconds": 340.6,
+        "text": "el sa saad nagu ümber kolida ühest kohast teise, see on ka Euroopa, siis AI direktii"
+      },
+      {
+        "start_seconds": 340.6,
+        "end_seconds": 343.52,
+        "text": "vi üks põhimõtteid, mis järgmine aasta jõustub."
+      },
+      {
+        "start_seconds": 343.52,
+        "end_seconds": 350.36,
+        "text": "Nii, aga meil on hästi praktiline, et kõigepealt näpud soojaks selles mõttes."
+      },
+      {
+        "start_seconds": 350.36,
+        "end_seconds": 357.04,
+        "text": "Te siin chat'ite, kes räägivad, kes, kes käsi püsti, kes on chat'inud telefonis?"
+      },
+      {
+        "start_seconds": 357.04,
+        "end_seconds": 362.76,
+        "text": "Noh, suht kiiresti teete, eks ole, sõprade sõbrannadega ja, ja, ja, ja siis oma lähe"
+      },
+      {
+        "start_seconds": 362.76,
+        "end_seconds": 363.84,
+        "text": "dastega."
+      },
+      {
+        "start_seconds": 363.84,
+        "end_seconds": 367.8,
+        "text": "Aga mis on niisugune esimene harjutus, on see, et telefonis, no iPhone'is on, ma tea"
+      },
+      {
+        "start_seconds": 367.8,
+        "end_seconds": 375.28,
+        "text": "n, on olemas notes rakendus ja seal Androidil on ilmselt ka mingisugune ki"
+      },
+      {
+        "start_seconds": 375.28,
+        "end_seconds": 380.72,
+        "text": "ip, näiteks on väga okei rakenduskoda või siis Google Docs on nagu Androidi sees."
+      },
+      {
+        "start_seconds": 380.72,
+        "end_seconds": 389.2,
+        "text": "Ehk siis esimene harjutus, mis me teekski nagu praktiliselt ära, on see, et."
+      },
+      {
+        "start_seconds": 389.2,
+        "end_seconds": 394.32,
+        "text": "Võtaksite sellise, ma vaatan oma kella ka, võtaks niisugust nagu viis minutit aega."
+      },
+      {
+        "start_seconds": 394.32,
+        "end_seconds": 401.36,
+        "text": "Ja mõtlete sellisele, siukene, sellise paari nädala jooksul, võib-olla enne puhkusi,"
+      },
+      {
+        "start_seconds": 401.36,
+        "end_seconds": 404.0,
+        "text": "mis siin nagu praegu on puhkuste aeg on ju."
+      },
+      {
+        "start_seconds": 404.0,
+        "end_seconds": 408.0,
+        "text": "Paljud inimesed pole tööl, aga paar nädalat enne puhkust võib-olla või oli niisugune"
+      },
+      {
+        "start_seconds": 408.0,
+        "end_seconds": 412.16,
+        "text": "nagu nagu tüütu noh, mingi tüütu probleem, mis on vaja lahendada."
+      },
+      {
+        "start_seconds": 412.16,
+        "end_seconds": 417.04,
+        "text": "Kas tööalaselt või noh, niisugune nagu ütleme see probleemi lahendamine võiks olla nagu"
+      },
+      {
+        "start_seconds": 417.04,
+        "end_seconds": 421.44,
+        "text": "mitmeid päevi nagu reaalselt, nagu noh, kui see probleem nagu laheneks, kui ta läheks"
+      },
+      {
+        "start_seconds": 421.44,
+        "end_seconds": 427.0,
+        "text": "lihtsaks, siis noh, see oleks niisugune mitmeid päevi selle probleemi lahendamisega se"
+      },
+      {
+        "start_seconds": 427.0,
+        "end_seconds": 431.52,
+        "text": "isva kategooria probleem, et viis minutit nagu mõelda ja see probleemi tulemuseks on"
+      },
+      {
+        "start_seconds": 431.52,
+        "end_seconds": 438.44,
+        "text": "põhimõtteliselt probleemiks on trallal la lap- , noh, panetegi endale üheselt kiirelt"
+      },
+      {
+        "start_seconds": 438.44,
+        "end_seconds": 443.08,
+        "text": "probleemiks oli või on või on noh, lähete tööle tagasi, lähete tagasi, jälle see probleem"
+      },
+      {
+        "start_seconds": 443.08,
+        "end_seconds": 447.12,
+        "text": "on seal, eks ole, see on inimestevaheline koostöö olla või mingi protsess olla."
+      },
+      {
+        "start_seconds": 447.12,
+        "end_seconds": 451.32,
+        "text": "Kõik sobib, piisavalt see, et on nagu sihuke suur probleem, mida siin poole tunniga ütleme"
+      },
+      {
+        "start_seconds": 451.32,
+        "end_seconds": 455.48,
+        "text": "ära ei lahenda, vaid vajab seal päevi mõtlemist, analüüsimist, suhtlemist, mida igane"
+      },
+      {
+        "start_seconds": 455.48,
+        "end_seconds": 457.76,
+        "text": "s, võtan viis minutit aega."
+      },
+      {
+        "start_seconds": 457.76,
+        "end_seconds": 461.92,
+        "text": "Et siis taustaks on siis teiste lavade mumin."
+      },
+      {
+        "start_seconds": 461.92,
+        "end_seconds": 466.6,
+        "text": "Et kes hiljem tulid, istuge maha, et meil on siin mitmetapiline koolitus, et et kõik"
+      },
+      {
+        "start_seconds": 466.6,
+        "end_seconds": 468.0,
+        "text": ", mis toimub, on slaidide peal."
+      },
+      {
+        "start_seconds": 468.0,
+        "end_seconds": 470.92,
+        "text": "Et tehke agaralt kaasa."
+      },
+      {
+        "start_seconds": 470.92,
+        "end_seconds": 477.84,
+        "text": "Just ja tooli peal on ka siis märkmepaberite pliiatsid, et kes siis soovib endale kirja"
+      },
+      {
+        "start_seconds": 477.84,
+        "end_seconds": 481.56,
+        "text": "likult võib-olla nagu läbi mõelda seda probleemi."
+      },
+      {
+        "start_seconds": 481.56,
+        "end_seconds": 486.44,
+        "text": "Ja üks jalg üle teise põlve peale väga mugav kirjutada."
+      },
+      {
+        "start_seconds": 486.44,
+        "end_seconds": 493.64,
+        "text": "Et siis viis minutit võtame aega."
+      },
+      {
+        "start_seconds": 493.64,
+        "end_seconds": 500.32,
+        "text": "No nii aeg on ümber, nagu kaitseväes öeldakse, et kuulab siia."
+      },
+      {
+        "start_seconds": 500.32,
+        "end_seconds": 503.08,
+        "text": "Okei."
+      },
+      {
+        "start_seconds": 503.08,
+        "end_seconds": 508.16,
+        "text": "Järgmine ülesanne on siis, kui probleem on nagu olemas, siis me tegime, põhimõtteliselt"
+      },
+      {
+        "start_seconds": 508.16,
+        "end_seconds": 513.08,
+        "text": "noh, hea oleks teha mustand eraldi dokumendis, aga nüüd on nutitelefoni nagu kätte võtta"
+      },
+      {
+        "start_seconds": 513.08,
+        "end_seconds": 515.2,
+        "text": "endale."
+      },
+      {
+        "start_seconds": 515.2,
+        "end_seconds": 522.84,
+        "text": "Ja kui teil on mõni, siis AI rakendus endale telefoni tõmmatud, siis kasutage seda"
+      },
+      {
+        "start_seconds": 522.84,
+        "end_seconds": 523.72,
+        "text": "."
+      },
+      {
+        "start_seconds": 523.72,
+        "end_seconds": 528.48,
+        "text": "Kui ei ole AI rakendust telefoni tõmmatud, siis üks väga lihtne nipp, mida kasutada,"
+      },
+      {
+        "start_seconds": 528.48,
+        "end_seconds": 529.56,
+        "text": "ma näitan teile."
+      },
+      {
+        "start_seconds": 529.56,
+        "end_seconds": 533.0,
+        "text": "Mul on siin kompuuter olemas."
+      },
+      {
+        "start_seconds": 533.0,
+        "end_seconds": 539.04,
+        "text": "Kompuutris on siis niisugune asi nagu meil on Google com."
+      },
+      {
+        "start_seconds": 539.04,
+        "end_seconds": 543.4,
+        "text": "See on nagu harjutamise mõttes lihtsalt on Google com."
+      },
+      {
+        "start_seconds": 543.4,
+        "end_seconds": 549.56,
+        "text": "Ja teil on siis, paremal on siis AI režiimi, ma näitan korra siis mobiili vaates võib"
+      },
+      {
+        "start_seconds": 549.56,
+        "end_seconds": 558.24,
+        "text": "-olla issam, ma teen suuremaks siin, et siin silmad näeksid midagi äkki, nii."
+      },
+      {
+        "start_seconds": 558.24,
+        "end_seconds": 565.48,
+        "text": "Ja brauseri suurus on paigas ja siis paneme selle protsendid ka,"
+      },
+      {
+        "start_seconds": 565.48,
+        "end_seconds": 568.32,
+        "text": "seitsekümmend viis äkki või?"
+      },
+      {
+        "start_seconds": 568.32,
+        "end_seconds": 569.44,
+        "text": "Sada."
+      },
+      {
+        "start_seconds": 569.44,
+        "end_seconds": 570.72,
+        "text": "Okei."
+      },
+      {
+        "start_seconds": 570.72,
+        "end_seconds": 575.76,
+        "text": "Ja Mubla vaade Google'il, okei, nii, continue, nii."
+      },
+      {
+        "start_seconds": 575.76,
+        "end_seconds": 582.88,
+        "text": "Vist, et Mublas on siis meil selle võlu, võlukepikese, võlukepikese märgi"
+      },
+      {
+        "start_seconds": 582.88,
+        "end_seconds": 589.48,
+        "text": "ke, kelle Google com ja siin, kui otsima hakata, on siis põhjatäht on luubi kohal, on"
+      },
+      {
+        "start_seconds": 589.48,
+        "end_seconds": 592.36,
+        "text": "siis Google'i otsing siis I režiimis."
+      },
+      {
+        "start_seconds": 592.36,
+        "end_seconds": 597.12,
+        "text": "Ja põhimõtteliselt siin saab kohe nagu paugust nagu I-d kasutama hakata."
+      },
+      {
+        "start_seconds": 597.12,
+        "end_seconds": 601.96,
+        "text": "Nagu januga kraanist vett jood siin festivalil, otsid, kus on veekraan need pudelit tä"
+      },
+      {
+        "start_seconds": 601.96,
+        "end_seconds": 605.6,
+        "text": "ita, siis Google'is kohe lähed nagu sa ei pea sisse logima, mitte midagi nagu eriti tegema"
+      },
+      {
+        "start_seconds": 605.6,
+        "end_seconds": 605.76,
+        "text": "."
+      },
+      {
+        "start_seconds": 605.76,
+        "end_seconds": 611.24,
+        "text": "Et see on kõige kiirem viis, et siis Google com ja siis on siis AI režiimis kasutada"
+      },
+      {
+        "start_seconds": 611.24,
+        "end_seconds": 617.48,
+        "text": "ehk siis uuesti tagasi minnes mul Google com, mobiilivaade, loop on siin."
+      },
+      {
+        "start_seconds": 617.48,
+        "end_seconds": 624.28,
+        "text": "Ja vajutate siis põmm, sest läheb siis I režiimi ja siis ongi I režiimis."
+      },
+      {
+        "start_seconds": 624.28,
+        "end_seconds": 629.12,
+        "text": "Siin saab siis põhimõtteliselt kõike, kõike küsida, et mis, mis teil siis nagu välja"
+      },
+      {
+        "start_seconds": 629.12,
+        "end_seconds": 630.44,
+        "text": "kutse on."
+      },
+      {
+        "start_seconds": 630.44,
+        "end_seconds": 635.72,
+        "text": "Ja teine variant on siis meil jah, mingisugune AI rakendus, noh, mina kasutan Copilo"
+      },
+      {
+        "start_seconds": 635.72,
+        "end_seconds": 637.96,
+        "text": "t."
+      },
+      {
+        "start_seconds": 637.96,
+        "end_seconds": 642.6,
+        "text": "Et Copilot'id on siis sõnumi, sõnumi kirjutamine siinsamas, noh, ma teen seda korraks"
+      },
+      {
+        "start_seconds": 642.6,
+        "end_seconds": 648.36,
+        "text": "telefoni, et siia ma saan siis nagu sisse toksida, aga mis siis, see on siis nagu see"
+      },
+      {
+        "start_seconds": 648.36,
+        "end_seconds": 652.8,
+        "text": "tööriist, mis võiks valmis olla, et kui te nüüd on AI rakendustelefonis, kasutage seda"
+      },
+      {
+        "start_seconds": 652.8,
+        "end_seconds": 658.2,
+        "text": ", kui ei ole Google com ja siis vajutate loop, mille peal on Põhjatäht ja kes on väga"
+      },
+      {
+        "start_seconds": 658.2,
+        "end_seconds": 661.88,
+        "text": "hädas, siis tõstke käsi püsti, ma tulen."
+      },
+      {
+        "start_seconds": 661.88,
+        "end_seconds": 664.32,
+        "text": "Lohutan teid kõrvalt."
+      },
+      {
+        "start_seconds": 664.32,
+        "end_seconds": 669.24,
+        "text": "Leiame ja või siis või naa, teil on mingid nutitargad naabrid ka, et kes aitavad teise"
+      },
+      {
+        "start_seconds": 669.24,
+        "end_seconds": 670.76,
+        "text": "eestlase hädast välja."
+      },
+      {
+        "start_seconds": 670.76,
+        "end_seconds": 675.56,
+        "text": "Siis nüüd on, nüüd on see hetk, kus aidata eestlane hädast välja."
+      },
+      {
+        "start_seconds": 675.56,
+        "end_seconds": 682.96,
+        "text": "Aga siis on nüüd ka see probleemi saite kirja ja, ja siis nagu toimu"
+      },
+      {
+        "start_seconds": 682.96,
+        "end_seconds": 686.4,
+        "text": "b siis AI abil nagu probleemi lahendamine."
+      },
+      {
+        "start_seconds": 686.4,
+        "end_seconds": 691.28,
+        "text": "Ja siis noh, ma ei näinud, kuidas inimesed hakkavad AI-d kasutama kuskil seal koduko"
+      },
+      {
+        "start_seconds": 691.28,
+        "end_seconds": 698.64,
+        "text": "ntoris, et nagu tere hommikust või kuule, mul on sihuke väike mõ"
+      },
+      {
+        "start_seconds": 698.64,
+        "end_seconds": 703.8,
+        "text": "te ja siis hakkavad nagu noh, A üritab siis nagu, nagu aru saada inimeste käest vahe"
+      },
+      {
+        "start_seconds": 703.8,
+        "end_seconds": 705.04,
+        "text": "lduva eduga."
+      },
+      {
+        "start_seconds": 705.04,
+        "end_seconds": 710.04,
+        "text": "Aga mis on nagu siis probleemiks on see, et, et need nagu paljud, päris paljud AI töö"
+      },
+      {
+        "start_seconds": 710.04,
+        "end_seconds": 716.2,
+        "text": "riistad on siis ehitatud selle peale kahjuks nagu kommertsi mõttes, et te saaksite neid"
+      },
+      {
+        "start_seconds": 716.2,
+        "end_seconds": 724.6,
+        "text": "dopamiini lakse nagu heast kommikesest ja nad siis ei saa ei nagu põhimõtteliselt la"
+      },
+      {
+        "start_seconds": 724.6,
+        "end_seconds": 729.04,
+        "text": "hendada, hakkame kohe tööle ja noh, mida iganes sa seda sisse annad, oma selliseid nagu"
+      },
+      {
+        "start_seconds": 729.04,
+        "end_seconds": 735.8,
+        "text": "vajadusi, hüpoteese, siis kahjuks on nagu AI mudelid on siis sind rõõmustavaks ehita"
+      },
+      {
+        "start_seconds": 735.8,
+        "end_seconds": 740.24,
+        "text": "tud ühe, ühe lihtsa eesmärgiga, et sa noh, kui sa kuutasu selles paketis oled, siis ju"
+      },
+      {
+        "start_seconds": 740.24,
+        "end_seconds": 741.84,
+        "text": "mala eest ei loobuks."
+      },
+      {
+        "start_seconds": 741.84,
+        "end_seconds": 743.92,
+        "text": "See tähendab sihuke nagu hea, hea tuju tekitaja."
+      },
+      {
+        "start_seconds": 743.92,
+        "end_seconds": 750.08,
+        "text": "Aga teistpidi noh, seda nimetatakse niisugune nagu üldine nagu konsumeralism, aga teist"
+      },
+      {
+        "start_seconds": 750.08,
+        "end_seconds": 754.08,
+        "text": "pidi see, et okei, et sa tead, kuidas keelemudel töötab, et see nagu päriselt siis panna"
+      },
+      {
+        "start_seconds": 754.08,
+        "end_seconds": 760.08,
+        "text": "oma reaalset probleemi lahendama, siis on siukene kolme, kolmelõiguline loits nagu Ha"
+      },
+      {
+        "start_seconds": 760.08,
+        "end_seconds": 761.52,
+        "text": "rry Potteri filmis."
+      },
+      {
+        "start_seconds": 761.52,
+        "end_seconds": 764.2,
+        "text": "Et selle te võiksite endale."
+      },
+      {
+        "start_seconds": 764.2,
+        "end_seconds": 767.08,
+        "text": "Mõte on siis sellest, et teil see probleem oli teada."
+      },
+      {
+        "start_seconds": 767.08,
+        "end_seconds": 771.48,
+        "text": "Ja kujutage ette, et te saaks probleemi lahendamiseks palgale võtta kellegi endale töö"
+      },
+      {
+        "start_seconds": 771.48,
+        "end_seconds": 778.96,
+        "text": "le nagu uus kolleeg, mingi ametinimetusega, tehnik, assistent, toruparandaja,"
+      },
+      {
+        "start_seconds": 778.96,
+        "end_seconds": 782.96,
+        "text": "projektijuht, mida iganes, eks ole, sa annad talle rolli, okei."
+      },
+      {
+        "start_seconds": 782.96,
+        "end_seconds": 788.72,
+        "text": "Ehk siis mitte sa oled mingis ametirollis näiteks noh, oled mingi talu renoveerimise"
+      },
+      {
+        "start_seconds": 788.72,
+        "end_seconds": 793.8,
+        "text": "projektijuht või oled mingi, mingisugune juriidiline nõustaja."
+      },
+      {
+        "start_seconds": 793.8,
+        "end_seconds": 799.4,
+        "text": "Et sa annad sellele AI-le kohe alguses selle rolli nagu üli-ülioluline."
+      },
+      {
+        "start_seconds": 799.4,
+        "end_seconds": 804.48,
+        "text": "Mitte see, et mina olen, vaid oled t-tähega."
+      },
+      {
+        "start_seconds": 804.48,
+        "end_seconds": 809.64,
+        "text": "Ja kuna see probleemi saite ennem kirja, siis siin on nagu see loitsu mustand, et ma"
+      },
+      {
+        "start_seconds": 809.64,
+        "end_seconds": 813.16,
+        "text": "tahan aitab mind mingi aktuaalse probleemiga, et te saite kirja, et probleemiks on b"
+      },
+      {
+        "start_seconds": 813.16,
+        "end_seconds": 814.92,
+        "text": "la-blabla."
+      },
+      {
+        "start_seconds": 814.92,
+        "end_seconds": 818.0,
+        "text": "Ja te võite taustainfoks siis mõned laused juurde anda."
+      },
+      {
+        "start_seconds": 818.0,
+        "end_seconds": 823.16,
+        "text": "Lisaks selle probleemile noh siuke kaks-kolm lauset, et noh, taustainfoks, et millest"
+      },
+      {
+        "start_seconds": 823.16,
+        "end_seconds": 825.84,
+        "text": "jutt käib, on ju."
+      },
+      {
+        "start_seconds": 825.84,
+        "end_seconds": 831.4,
+        "text": "Ja, ja mis on siis oluline, on see, et siis te ootate AI-lt lahendust."
+      },
+      {
+        "start_seconds": 831.4,
+        "end_seconds": 836.56,
+        "text": "Aga mis on nagu inim- , see on täiesti okei, et inimesed ei oska seda probleemi nagu"
+      },
+      {
+        "start_seconds": 836.56,
+        "end_seconds": 843.08,
+        "text": ", nagu ära sõnastada ja, ja siis kuidagi mõnikord juhtub see, et see nagu jääd AI-ga"
+      },
+      {
+        "start_seconds": 843.08,
+        "end_seconds": 848.0,
+        "text": "nagu pool tundi, tund nagu aeg, aeg kaob ja saad nagu AI-ga juba, et tulud, kulutanud"
+      },
+      {
+        "start_seconds": 848.0,
+        "end_seconds": 849.72,
+        "text": "mingi terve tunni nagu lobisemisel ära."
+      },
+      {
+        "start_seconds": 849.72,
+        "end_seconds": 853.64,
+        "text": "Selle asemel, et võib-olla AI kasutada nagu koonduvalt, et siis nagu veerand tunniga"
+      },
+      {
+        "start_seconds": 853.64,
+        "end_seconds": 855.52,
+        "text": "on tulemus käes."
+      },
+      {
+        "start_seconds": 855.52,
+        "end_seconds": 862.08,
+        "text": "On ju, käsi püsti, kellel on mõnikord AI-ga liiga kaua läinud nagu arutamiseks on ju"
+      },
+      {
+        "start_seconds": 862.08,
+        "end_seconds": 862.12,
+        "text": "."
+      },
+      {
+        "start_seconds": 862.12,
+        "end_seconds": 868.04,
+        "text": "Ja siis ongi see, et siis ei, ei kasutada, siis nagu öeldakse, nimetatakse koonduvalt"
+      },
+      {
+        "start_seconds": 868.04,
+        "end_seconds": 873.8,
+        "text": "prompt'imist, kes tahab, võtke istet ja mul on siin mitmeetapiline koolitus, et te mingi"
+      },
+      {
+        "start_seconds": 873.8,
+        "end_seconds": 876.28,
+        "text": "s etapis saate nagu edasi kaasa teha."
+      },
+      {
+        "start_seconds": 876.28,
+        "end_seconds": 881.76,
+        "text": "Et istuge julgelt maha, võtke pastakas paber ja, ja, ja, ja naabrid saavad ka öelda,"
+      },
+      {
+        "start_seconds": 881.76,
+        "end_seconds": 886.2,
+        "text": "istuge meie naabri lähedale, ta ütleb, et küsige, et mis toimub ja siis, kas saate kohe"
+      },
+      {
+        "start_seconds": 886.2,
+        "end_seconds": 886.8,
+        "text": "pardale."
+      },
+      {
+        "start_seconds": 886.8,
+        "end_seconds": 892.2,
+        "text": "Aga nüüd on needsamad kolm tekstilõiku, et ta on mingis rollis, kelle te siis nagu pa"
+      },
+      {
+        "start_seconds": 892.2,
+        "end_seconds": 895.72,
+        "text": "lkasite appi endale mingi päris tööroll."
+      },
+      {
+        "start_seconds": 895.72,
+        "end_seconds": 899.88,
+        "text": "Ja siis ütleb, ma tahan, et see aitab mind mingi probleemiga taustainfoks ja siis enne"
+      },
+      {
+        "start_seconds": 899.88,
+        "end_seconds": 904.72,
+        "text": "alustamist intervjueeri mind ja esita mulle viis olulist avatud küsimust ja ma ise ütle"
+      },
+      {
+        "start_seconds": 904.72,
+        "end_seconds": 912.64,
+        "text": "n niimoodi, paneks siia lõppu isegi ühekaupa nii ehk siis"
+      },
+      {
+        "start_seconds": 912.64,
+        "end_seconds": 919.08,
+        "text": ", mis siis toimub, on see väga pikalt ei süvene, ei lähe teemasse, aga kuidas AI age"
+      },
+      {
+        "start_seconds": 919.08,
+        "end_seconds": 919.76,
+        "text": "ndid toimuvad?"
+      },
+      {
+        "start_seconds": 919.76,
+        "end_seconds": 922.68,
+        "text": "Me tegelikult hakkame sinna nagu agentide poole minema."
+      },
+      {
+        "start_seconds": 922.68,
+        "end_seconds": 928.36,
+        "text": "Nemad töötavad siis nagu see instruktsioonide või juhiste peale ja täna näiteks kõige"
+      },
+      {
+        "start_seconds": 928.36,
+        "end_seconds": 935.0,
+        "text": "võimsam siin AI mudel väidetavalt siis, et Claude näiteks, laude viis, siis tema ka tööta"
+      },
+      {
+        "start_seconds": 935.0,
+        "end_seconds": 940.44,
+        "text": "b siis nagu skill'ide instruction'ina ja me ja seal on siis ühe skill'i kirjeldus, mis"
+      },
+      {
+        "start_seconds": 940.44,
+        "end_seconds": 945.28,
+        "text": "nagu AI juhisteks nagu tehakse või siuke nagu AI oskus on kuskil tuhat kakskümmend neli"
+      },
+      {
+        "start_seconds": 945.28,
+        "end_seconds": 948.88,
+        "text": "märki, mis laias plaanis nagu pool A4-ja."
+      },
+      {
+        "start_seconds": 948.88,
+        "end_seconds": 953.24,
+        "text": "Nii, ja kui ma ütleks, et täna seda probleemi ära sõnastasite, see on võib-olla üks la"
+      },
+      {
+        "start_seconds": 953.24,
+        "end_seconds": 955.64,
+        "text": "use, on ju, kõik said aru?"
+      },
+      {
+        "start_seconds": 955.64,
+        "end_seconds": 959.0,
+        "text": "Teie probleem on võib-olla üks lause, võib-olla see, et te nagu laiendasite oma probleem"
+      },
+      {
+        "start_seconds": 959.0,
+        "end_seconds": 961.6,
+        "text": "i, see on siis võib-olla nüüd kolm lauset, neli lauset."
+      },
+      {
+        "start_seconds": 961.6,
+        "end_seconds": 966.2,
+        "text": "Nüüd oleks vaja kuidagi A- jaoks enam-vähem mingi pool A4 sisu, et seda probleemi no"
+      },
+      {
+        "start_seconds": 966.2,
+        "end_seconds": 967.4,
+        "text": "rmaalselt lahendada."
+      },
+      {
+        "start_seconds": 967.4,
+        "end_seconds": 972.44,
+        "text": "Ja kõige tõhusam viis on see, et ta ise küsib juurde nagu puuduva info toetudes selle"
+      },
+      {
+        "start_seconds": 972.44,
+        "end_seconds": 978.8,
+        "text": "le, mis te juba siis nagu sinna probleem on, taustainfoks on ja siis ta küsib juurde"
+      },
+      {
+        "start_seconds": 978.8,
+        "end_seconds": 985.0,
+        "text": "ja siis saab AI, nagu enam-vähem selle, selle poole, pool A4-ja teksti kokku, millega"
+      },
+      {
+        "start_seconds": 985.0,
+        "end_seconds": 987.08,
+        "text": "siis nagu probleemi lahendama minna."
+      },
+      {
+        "start_seconds": 987.08,
+        "end_seconds": 993.76,
+        "text": "Mis, kuidas ta ei tee, siis juhtub see, et ta ise valib nagu juurte küsimise rajad."
+      },
+      {
+        "start_seconds": 993.76,
+        "end_seconds": 997.28,
+        "text": "Ja ta võib nagu väga oluliselt teemast eemale kalduda."
+      },
+      {
+        "start_seconds": 997.28,
+        "end_seconds": 1002.64,
+        "text": "Aga meie tahame teda nagu koonduvalt suruda aina rohkem siis nagu probleemi lahendamise"
+      },
+      {
+        "start_seconds": 1002.64,
+        "end_seconds": 1003.6,
+        "text": "poole."
+      },
+      {
+        "start_seconds": 1003.6,
+        "end_seconds": 1007.76,
+        "text": "Ehk siis võtame nüüd järgmised selline viis minutit, te saite ennem oma probleemikirja"
+      },
+      {
+        "start_seconds": 1007.76,
+        "end_seconds": 1013.0,
+        "text": ", no mingi väljakutse, mis teil siis enne puhkusele minekut või nüüd puhkused naastes"
+      },
+      {
+        "start_seconds": 1013.0,
+        "end_seconds": 1017.36,
+        "text": "sihuke tõenäoliselt kaks-kolm tööpäeva on vaja noh, mingi niisugune suurem probleem,"
+      },
+      {
+        "start_seconds": 1017.36,
+        "end_seconds": 1022.24,
+        "text": "mis on nagu painanud, kas see on siis, ma ei tea, eramõttes või töö mõttes."
+      },
+      {
+        "start_seconds": 1022.24,
+        "end_seconds": 1027.72,
+        "text": "Et siis selle peale mõelge ja proovige seal parempoolse, oled mingis rollis, kes taha"
+      },
+      {
+        "start_seconds": 1027.72,
+        "end_seconds": 1032.96,
+        "text": "b, võib pildistada, et ta saab nagu teksti lähemalt lugeda, kes kaugele ei näe."
+      },
+      {
+        "start_seconds": 1032.96,
+        "end_seconds": 1038.76,
+        "text": "Ja proovige täita ja nüüd see viimane lõik, jätke nagu sõna-sõnalt samaks, on ju, et"
+      },
+      {
+        "start_seconds": 1038.76,
+        "end_seconds": 1041.16,
+        "text": "see lõik, lõik jääb nagu sõna-sõnalt samaks."
+      },
+      {
+        "start_seconds": 1041.16,
+        "end_seconds": 1046.8,
+        "text": "Et võtame selline viis minutit ja teil on probleem, oli ennem olemas, mis niisugune töö"
+      },
+      {
+        "start_seconds": 1046.8,
+        "end_seconds": 1050.04,
+        "text": "alane väljakutse probleemiks on bla-bla-bla, on ju."
+      },
+      {
+        "start_seconds": 1050.04,
+        "end_seconds": 1055.36,
+        "text": "Siis võtate selle, selle konteksti ja, ja vormistate ära, et võtan viis minutit aega"
+      },
+      {
+        "start_seconds": 1055.36,
+        "end_seconds": 1057.6,
+        "text": "rahulikult ja telefonid välja ja."
+      },
+      {
+        "start_seconds": 1057.6,
+        "end_seconds": 1063.68,
+        "text": "Ja veel kord, kes, kellel on AI äpid olemas, siis seal telefonis kasutage neid ja kui"
+      },
+      {
+        "start_seconds": 1063.68,
+        "end_seconds": 1067.76,
+        "text": "ei ole, siis veelkord, et lähete Google'isse."
+      },
+      {
+        "start_seconds": 1067.76,
+        "end_seconds": 1073.64,
+        "text": "Meil on siis Google'is on veel kord Google Com on ju, kes nüüd ühinesid ja siin on lu"
+      },
+      {
+        "start_seconds": 1073.64,
+        "end_seconds": 1078.08,
+        "text": "ubikene, millel on Põhjatäht, nagu otsingusse läheb sisse, siis on kohe nagu AI reži"
+      },
+      {
+        "start_seconds": 1078.08,
+        "end_seconds": 1079.36,
+        "text": "imis hakkab otsima."
+      },
+      {
+        "start_seconds": 1079.36,
+        "end_seconds": 1084.6,
+        "text": "Sa ei pea nagu kuskile sisse logima keminiid kasutama, et kohe läheb käima."
+      },
+      {
+        "start_seconds": 1084.6,
+        "end_seconds": 1090.64,
+        "text": "Ja noh, ütleme mingi tervisemuresid ärge sinna sisse doseerige või siis ämma pärandus"
+      },
+      {
+        "start_seconds": 1090.64,
+        "end_seconds": 1098.88,
+        "text": "e suurus number, aga selline mingi üldisem probleem, et ma ei tea, seal."
+      },
+      {
+        "start_seconds": 1098.88,
+        "end_seconds": 1103.08,
+        "text": "Võib-olla on mingi koostööprobleem kuskil osakonnas, suur organisatsioonis, et noh, kuna"
+      },
+      {
+        "start_seconds": 1103.08,
+        "end_seconds": 1105.96,
+        "text": "gi ei tea, mis see võib nagu olla."
+      },
+      {
+        "start_seconds": 1105.96,
+        "end_seconds": 1115.12,
+        "text": "Et siis viis minutit aega teen suureks uuesti."
+      },
+      {
+        "start_seconds": 1115.12,
+        "end_seconds": 1122.04,
+        "text": "Nonii viimane minut saigi täis ja siis võtan, võtan nagu selle harjutuse kokku, et mis"
+      },
+      {
+        "start_seconds": 1122.04,
+        "end_seconds": 1126.24,
+        "text": ", mis tegelikult edasi hakkab toimuma, on see, et meil siin koolitusel ei ole aega, aga"
+      },
+      {
+        "start_seconds": 1126.24,
+        "end_seconds": 1132.0,
+        "text": "siis te nagu nüüd umbes niisugune kümme minti veerand tundi siis vastate nagu ei küsimus"
+      },
+      {
+        "start_seconds": 1132.0,
+        "end_seconds": 1132.8,
+        "text": "tele."
+      },
+      {
+        "start_seconds": 1132.8,
+        "end_seconds": 1137.64,
+        "text": "Ja mida siis saab teha, on see, et see AI peaks siis korjama kuskil siukse poole A4-"
+      },
+      {
+        "start_seconds": 1137.64,
+        "end_seconds": 1141.88,
+        "text": "ja nagu jagu siis nagu taustainfot ja teksti kokku."
+      },
+      {
+        "start_seconds": 1141.88,
+        "end_seconds": 1146.88,
+        "text": "Mis probleemi nagu teraviku moodustab väga selgelt talle, ta saab siis kohe nagu ühe"
+      },
+      {
+        "start_seconds": 1146.88,
+        "end_seconds": 1148.48,
+        "text": "plaksuga nagu lahenduse ära anda."
+      },
+      {
+        "start_seconds": 1148.48,
+        "end_seconds": 1152.44,
+        "text": "Ja minu koolitustel on teinud, et siis see lahendus, mis siit välja tuleb."
+      },
+      {
+        "start_seconds": 1152.44,
+        "end_seconds": 1158.32,
+        "text": "Noh, ütleme niimoodi, et sihuke kaheksakümmend, üheksakümmend protsenti on nagu, ongi"
+      },
+      {
+        "start_seconds": 1158.32,
+        "end_seconds": 1160.56,
+        "text": "olemas ühe pauguga tehtud."
+      },
+      {
+        "start_seconds": 1160.56,
+        "end_seconds": 1165.64,
+        "text": "Ja siis põhimõtteliselt see tähendab, on see, et võtate oma mingi Wordi faili lahti ja"
+      },
+      {
+        "start_seconds": 1165.64,
+        "end_seconds": 1170.12,
+        "text": "veerand tundi kavandate oma seda prompt'i."
+      },
+      {
+        "start_seconds": 1170.12,
+        "end_seconds": 1175.6,
+        "text": "Veerand tundi vastate Pronti küsimustele ja teil on poole tunniga mitme päeva mingisu"
+      },
+      {
+        "start_seconds": 1175.6,
+        "end_seconds": 1182.16,
+        "text": "gune suurem mingi teema nagu, nagu noh, laua, laualt maas nagu ära lahendatud I poolt"
+      },
+      {
+        "start_seconds": 1182.16,
+        "end_seconds": 1182.44,
+        "text": "."
+      },
+      {
+        "start_seconds": 1182.44,
+        "end_seconds": 1187.32,
+        "text": "Et, et see on nagu see tõhus viis, selle alternatiiviks ongi see, et siis inimesed noh"
+      },
+      {
+        "start_seconds": 1187.32,
+        "end_seconds": 1190.6,
+        "text": ", kõige, kõige kurvemad sündmused on see, et kui inimene kulutab viiskümmend minutit"
+      },
+      {
+        "start_seconds": 1190.6,
+        "end_seconds": 1195.2,
+        "text": "mingi juba AI-ga chat'imisele ja AI läheb nii põõsasse minema ja teda on nagu suht ke"
+      },
+      {
+        "start_seconds": 1195.2,
+        "end_seconds": 1198.52,
+        "text": "eruline tagasi rajale saada, sa hakkad nagu uuesti nullist pihta."
+      },
+      {
+        "start_seconds": 1198.52,
+        "end_seconds": 1203.2,
+        "text": "Kes, kes on kogenud siukest jama on ju jah, et selles mõttes ongi see, et siis on nagu"
+      },
+      {
+        "start_seconds": 1203.2,
+        "end_seconds": 1207.76,
+        "text": "teadlikud ja siis see teadlik koondub prompt'imine on siis veel kord siis IO assistent"
+      },
+      {
+        "start_seconds": 1207.76,
+        "end_seconds": 1212.2,
+        "text": "ide ja agendsete töövoogude ehitamiseks see agent käis siin nagu, nagu erineval viis"
+      },
+      {
+        "start_seconds": 1212.2,
+        "end_seconds": 1213.16,
+        "text": "il läbi."
+      },
+      {
+        "start_seconds": 1213.16,
+        "end_seconds": 1217.64,
+        "text": "Et noh, minu käsitluses on ikkagi, agent on kratt, kes teeb mingi töö ära, mida sa ise"
+      },
+      {
+        "start_seconds": 1217.64,
+        "end_seconds": 1218.88,
+        "text": "ei viitsi teha."
+      },
+      {
+        "start_seconds": 1218.88,
+        "end_seconds": 1220.8,
+        "text": "Kasvõi iga esmaspäev kell üksteist."
+      },
+      {
+        "start_seconds": 1220.8,
+        "end_seconds": 1225.76,
+        "text": "Et siis ma nagu ütlengi, et noh, et ja siis nagu A ja assistentides moodustatakse siis"
+      },
+      {
+        "start_seconds": 1225.76,
+        "end_seconds": 1231.88,
+        "text": "nagu agentseid töövoogusid, sest me räägime selle nendest agentidest, millest siis eel"
+      },
+      {
+        "start_seconds": 1231.88,
+        "end_seconds": 1234.24,
+        "text": "mised esinejad siin laval siis rääkisid ka."
+      },
+      {
+        "start_seconds": 1234.24,
+        "end_seconds": 1239.96,
+        "text": "Ja nüüd, kui hakata jah, tõesti juhiseid andma AI-le, siis kindlasti on oluline see ro"
+      },
+      {
+        "start_seconds": 1239.96,
+        "end_seconds": 1244.28,
+        "text": "ll, probleem, mida ta lahendab, probleemid elanikuna nagu taustainfot anda ja siis ta"
+      },
+      {
+        "start_seconds": 1244.28,
+        "end_seconds": 1246.76,
+        "text": "korjaks nagu kriitilise taustainfo juurde."
+      },
+      {
+        "start_seconds": 1246.76,
+        "end_seconds": 1252.8,
+        "text": "Et see on nüüd see, see, kas me teeme nüüd väga lihtsa asja, et mul on mingi vanatädi"
+      },
+      {
+        "start_seconds": 1252.8,
+        "end_seconds": 1258.76,
+        "text": "pärandatud talu renoveerimisprojekt või, või teil on mingisugune konteiner laevade, ta"
+      },
+      {
+        "start_seconds": 1258.76,
+        "end_seconds": 1265.28,
+        "text": "rneahela nagu ülevaatamine, et siis see kategooria mõttes nagu ei ole vahet, nagu, nagu"
+      },
+      {
+        "start_seconds": 1265.28,
+        "end_seconds": 1270.48,
+        "text": "noh, nagu, nagu mingisuguse assistendi või agentse töövoo ehitamise sisendiks, vaid küsimus"
+      },
+      {
+        "start_seconds": 1270.48,
+        "end_seconds": 1275.44,
+        "text": ", et teil on dokumenteeritud, et mis probleemi ta peab lahendama, mis taustainfod on"
+      },
+      {
+        "start_seconds": 1275.44,
+        "end_seconds": 1277.44,
+        "text": "olemas, dokumentatsioon jääb alles."
+      },
+      {
+        "start_seconds": 1277.44,
+        "end_seconds": 1282.12,
+        "text": "Ja nagu ma ütlesingi, et nagu Euroopa AI direktiiv, mis tuleb ka välja, et see on üks"
+      },
+      {
+        "start_seconds": 1282.12,
+        "end_seconds": 1287.84,
+        "text": "printsiip, on see, et sul on AI suurkeelemudel on platvormist sõltumatu, et kui see on"
+      },
+      {
+        "start_seconds": 1287.84,
+        "end_seconds": 1294.28,
+        "text": "teil kuskile Google Docs'i või mis iganes noh, sellise agentse tegevuse nagu, nagu te"
+      },
+      {
+        "start_seconds": 1294.28,
+        "end_seconds": 1300.48,
+        "text": "kstina kirjutatud ja te üks hetk täna kasutate Cloudit, järgmine kasutate Copilot'it"
+      },
+      {
+        "start_seconds": 1300.48,
+        "end_seconds": 1304.08,
+        "text": ", siis ühest süsteemist teise kolimine ei ole nii suur peavalu, kui teil on ära doku"
+      },
+      {
+        "start_seconds": 1304.08,
+        "end_seconds": 1305.24,
+        "text": "menteeritud."
+      },
+      {
+        "start_seconds": 1305.24,
+        "end_seconds": 1310.84,
+        "text": "Mida, mida assistendid teevad ja milliseid agentsed töövoogusid on plaanis esitada, aga"
+      },
+      {
+        "start_seconds": 1310.84,
+        "end_seconds": 1315.56,
+        "text": "sinna me jõuame varsti, et, et selles mõttes on, saite, see on, see on hästi oluline"
+      },
+      {
+        "start_seconds": 1315.56,
+        "end_seconds": 1321.44,
+        "text": "nagu retsept, et mõista, et seda rolli, probleemi taustainfot ja info juurde, tausta"
+      },
+      {
+        "start_seconds": 1321.44,
+        "end_seconds": 1324.2,
+        "text": "info juurde siis küsimist."
+      },
+      {
+        "start_seconds": 1324.2,
+        "end_seconds": 1328.8,
+        "text": "Ja isegi on niimoodi, et võib viis küsimust ära küsida ja teil tundub puusatundega, ta"
+      },
+      {
+        "start_seconds": 1328.8,
+        "end_seconds": 1331.56,
+        "text": "küsis mingit valesid asju."
+      },
+      {
+        "start_seconds": 1331.56,
+        "end_seconds": 1335.04,
+        "text": "Siis, siis ütleb, küsi mul veel viis küsimust."
+      },
+      {
+        "start_seconds": 1335.04,
+        "end_seconds": 1338.96,
+        "text": "Siis, siis ta küsib mingi valikvastuse, et anna mulle numbreid, et palju seda oli, palju"
+      },
+      {
+        "start_seconds": 1338.96,
+        "end_seconds": 1343.84,
+        "text": "todased nagu triviaalsed jah-ei vastuseid, mis küsi mulle avatud küsimusi viis tükki"
+      },
+      {
+        "start_seconds": 1343.84,
+        "end_seconds": 1345.08,
+        "text": "veel juurde."
+      },
+      {
+        "start_seconds": 1345.08,
+        "end_seconds": 1349.96,
+        "text": "Et, et niimoodi saab nagu AI-d nagu nõuda ja nõuda, et ta siis nagu ja siis, kui lõpu"
+      },
+      {
+        "start_seconds": 1349.96,
+        "end_seconds": 1353.48,
+        "text": "ks see info on koos, et siis ta, siis ta nagu piisab, piisavalt nagu taustainfot, et"
+      },
+      {
+        "start_seconds": 1353.48,
+        "end_seconds": 1359.36,
+        "text": "ma võin siitsamast tegelikult öelda kohe, et tee see, tee mulle näiteks Cloud'e skill"
+      },
+      {
+        "start_seconds": 1359.36,
+        "end_seconds": 1364.32,
+        "text": ", nagu --- töötan, on ju, tee mul Cloud skill sellest, sellest asjast põhimõtteliselt"
+      },
+      {
+        "start_seconds": 1364.32,
+        "end_seconds": 1367.52,
+        "text": ", et, et see, et see on väga, väga lihtne."
+      },
+      {
+        "start_seconds": 1367.52,
+        "end_seconds": 1374.76,
+        "text": "Nii natuke kiiresti kappan üle sellised tüüpilised kontoritöö teemad, et"
+      },
+      {
+        "start_seconds": 1374.76,
+        "end_seconds": 1379.24,
+        "text": "selle koolituse raames ka, et niisugune nutikam kontoritöö ja siis jõuame siin nende"
+      },
+      {
+        "start_seconds": 1379.24,
+        "end_seconds": 1384.56,
+        "text": "le AI assistentide agentsete töövoogudeni ehk siis see oli siis nagu põhimõtteliselt"
+      },
+      {
+        "start_seconds": 1384.56,
+        "end_seconds": 1390.2,
+        "text": "hetkel noh nagu AI assistent, mida korduvalt kasutatakse iga nädal, toitub täpselt sama"
+      },
+      {
+        "start_seconds": 1390.2,
+        "end_seconds": 1392.76,
+        "text": "sugusest struktuurist, nagu me eelmises harjutuses harjutasime."
+      },
+      {
+        "start_seconds": 1392.76,
+        "end_seconds": 1397.2,
+        "text": "Aga põhimõtteliselt sul on siis kontoritöötajal, võib-olla tõesti siuksed teemad nagu"
+      },
+      {
+        "start_seconds": 1397.2,
+        "end_seconds": 1401.92,
+        "text": "koosolekute planeerimine, dokumentide vormindamine, arhiveerimine, e-kirjade saatmine"
+      },
+      {
+        "start_seconds": 1401.92,
+        "end_seconds": 1407.2,
+        "text": ", sorteerimine, mingi lobi tegevus, veenmine, noh siuksed kõik nagu."
+      },
+      {
+        "start_seconds": 1407.2,
+        "end_seconds": 1412.48,
+        "text": "Et siis näide on siin, et lühike kokkuvõte homsest meeskonnakoosolekust, lisajärelte"
+      },
+      {
+        "start_seconds": 1412.48,
+        "end_seconds": 1415.4,
+        "text": "gevused, rmista see professionaalseks e-kirjaks."
+      },
+      {
+        "start_seconds": 1415.4,
+        "end_seconds": 1422.52,
+        "text": "Et siin ma slaidi lõpus on veel linke nagu mitme, sajakonnale nagu kontoriteemale,"
+      },
+      {
+        "start_seconds": 1422.52,
+        "end_seconds": 1427.28,
+        "text": "aga kiiresti käin läbi, et näiteks ärianalüütik, andmeanalüütik."
+      },
+      {
+        "start_seconds": 1427.28,
+        "end_seconds": 1431.0,
+        "text": "Andmeanalüüsi tulemuste raporteerimine ehk siis üks asi on see, et ta teeb näiteks tead"
+      },
+      {
+        "start_seconds": 1431.0,
+        "end_seconds": 1436.44,
+        "text": "uslikku tööd, aga teine on see, et näiteks teeb võib-olla, ma ei tea, vähem, vähem tead"
+      },
+      {
+        "start_seconds": 1436.44,
+        "end_seconds": 1441.48,
+        "text": "uses olevatele sponsoritele selle tulemuse söödavaks, siis see perspektiiv täiesti nagu"
+      },
+      {
+        "start_seconds": 1441.48,
+        "end_seconds": 1446.2,
+        "text": "muutub, et sa pead nagu näiteks I- kasutad, tee see, et kümne aastane laps saaks, eks"
+      },
+      {
+        "start_seconds": 1446.2,
+        "end_seconds": 1448.44,
+        "text": "ole, ilusasti aru."
+      },
+      {
+        "start_seconds": 1448.44,
+        "end_seconds": 1452.72,
+        "text": "Ja trendide visualiseerimine näiteks, et analüüsi kvartali müügiandmete aruandeid koos"
+      },
+      {
+        "start_seconds": 1452.72,
+        "end_seconds": 1458.76,
+        "text": "töökokkuvõitlike aruanne ja tuues esile siis trendid ja soovitused, siis näide on näiteks"
+      },
+      {
+        "start_seconds": 1458.76,
+        "end_seconds": 1460.8,
+        "text": "juhi abi puhul."
+      },
+      {
+        "start_seconds": 1460.8,
+        "end_seconds": 1466.24,
+        "text": "Näiteks siis juht, juhtkonna ajakava haldamine koosolekute protokollid, kliendisuhete"
+      },
+      {
+        "start_seconds": 1466.24,
+        "end_seconds": 1468.68,
+        "text": "koordineerimine, kliendisuhtluse koordineerimine."
+      },
+      {
+        "start_seconds": 1468.68,
+        "end_seconds": 1474.28,
+        "text": "Et väga palju on siis nagu kommertsettevõte, kes toob purgisuppi kuskilt või beebito"
+      },
+      {
+        "start_seconds": 1474.28,
+        "end_seconds": 1480.96,
+        "text": "itu kuskilt Itaaliast või sul on riigiasutus, kes siis omab partnerlussuhted teiste riigi"
+      },
+      {
+        "start_seconds": 1480.96,
+        "end_seconds": 1488.04,
+        "text": "asutustega, et noh kes on kellele klient, kes on tarnija, kes infot vajab, et tegelikult"
+      },
+      {
+        "start_seconds": 1488.04,
+        "end_seconds": 1490.84,
+        "text": "see, see käib juhi abidel igatpidi läbi."
+      },
+      {
+        "start_seconds": 1490.84,
+        "end_seconds": 1495.52,
+        "text": "Aga jällegi, et näiteks päevakava loomine on nagu lihtne asi."
+      },
+      {
+        "start_seconds": 1495.52,
+        "end_seconds": 1499.08,
+        "text": "Tegevjuhi näide või siis tippjuhi näide."
+      },
+      {
+        "start_seconds": 1499.08,
+        "end_seconds": 1503.76,
+        "text": "Strateegiliste otsuste langetamiseks taustainfo analüüs, turuinfo ja konkurentsi anal"
+      },
+      {
+        "start_seconds": 1503.76,
+        "end_seconds": 1509.72,
+        "text": "üüsi tegemine, sisemiste memo- ja teadaannete koostamine, näiteks näide on kirjuta lü"
+      },
+      {
+        "start_seconds": 1509.72,
+        "end_seconds": 1515.52,
+        "text": "hike memotöötajatele selgitades firma USA tegise suuna peamisi eesmärke või millegip"
+      },
+      {
+        "start_seconds": 1515.52,
+        "end_seconds": 1521.76,
+        "text": "ärast ka riigiasutuse oma, vahet ei ole ja kuidas igaüks saab kaasa aidata näiteks on"
+      },
+      {
+        "start_seconds": 1521.76,
+        "end_seconds": 1525.96,
+        "text": "just augustis väga palju riigiasutused teevad neid ka suvekoole ja, või noh, jutumärk"
+      },
+      {
+        "start_seconds": 1525.96,
+        "end_seconds": 1530.48,
+        "text": "ides siukesi suvepäevade moodi asju."
+      },
+      {
+        "start_seconds": 1530.48,
+        "end_seconds": 1534.4,
+        "text": "Et, et siis seal on nagu üsna tavaliselt käib see läbi."
+      },
+      {
+        "start_seconds": 1534.4,
+        "end_seconds": 1536.44,
+        "text": "Või siis projektijuhtimine."
+      },
+      {
+        "start_seconds": 1536.44,
+        "end_seconds": 1541.44,
+        "text": "Noh, projektijuhtimine on lihtne, välja arvatud, et projektijuhtimine on nii lihtne nagu"
+      },
+      {
+        "start_seconds": 1541.44,
+        "end_seconds": 1546.6,
+        "text": "rattasõit välja arvatud ratas põleb, maailm põleb, kõik põleb."
+      },
+      {
+        "start_seconds": 1546.6,
+        "end_seconds": 1551.88,
+        "text": "Aga ikkagi projekti planeerimine ajakava jälgimine, riski eelarve analüüsi nagu aega"
+      },
+      {
+        "start_seconds": 1551.88,
+        "end_seconds": 1556.56,
+        "text": "teha, osapoolte suhtlus, dokumentatsiooni."
+      },
+      {
+        "start_seconds": 1556.56,
+        "end_seconds": 1561.2,
+        "text": "Promti näidet projekti kick-of dokument, mis sisaldab eesmärke ajajoont vahetapp ja põhi"
+      },
+      {
+        "start_seconds": 1561.2,
+        "end_seconds": 1561.68,
+        "text": "osalejaid."
+      },
+      {
+        "start_seconds": 1561.68,
+        "end_seconds": 1563.64,
+        "text": "Roll ja riskide analüüsi."
+      },
+      {
+        "start_seconds": 1563.64,
+        "end_seconds": 1569.2,
+        "text": "Et käsi püsti, kes on osalenud projektikoosolekutel, mis on väga segase infoga käima"
+      },
+      {
+        "start_seconds": 1569.2,
+        "end_seconds": 1570.76,
+        "text": "lükatud."
+      },
+      {
+        "start_seconds": 1570.76,
+        "end_seconds": 1576.32,
+        "text": "Valdav nii, siis, siis on mu jutt adekvaatne, ma arvan."
+      },
+      {
+        "start_seconds": 1576.32,
+        "end_seconds": 1582.6,
+        "text": "Finantsassistent, raamatupidamisasistent, arvete sisestamine, arved, kulud, maksete jä"
+      },
+      {
+        "start_seconds": 1582.6,
+        "end_seconds": 1588.8,
+        "text": "lgimine, kulukontroll praegu tõi ka siin LHV pangal on, eks ole, AI liidestust näiteks"
+      },
+      {
+        "start_seconds": 1588.8,
+        "end_seconds": 1592.68,
+        "text": "olemas, et saad nagu väikeettevõtjatel rohkem automatiseerida."
+      },
+      {
+        "start_seconds": 1592.68,
+        "end_seconds": 1599.6,
+        "text": "Kuluaruannete kontrolli ja eelarve ülevaateid ja prognoose, et, et mis ma tahtsin nagu"
+      },
+      {
+        "start_seconds": 1599.6,
+        "end_seconds": 1606.52,
+        "text": "välja tuua, et, et mida mõeldakse, et see AI teeb sellise kognitiivse nagu raske töö"
+      },
+      {
+        "start_seconds": 1606.52,
+        "end_seconds": 1613.72,
+        "text": "nagu inimesel ära ja inimene jääks rohkem selliseks näiteks nagu unis"
+      },
+      {
+        "start_seconds": 1613.72,
+        "end_seconds": 1620.84,
+        "text": "tajaks, kontseptualiseerijaks ja siis AI tehtud, siis tulemuste nagu kontrolli"
+      },
+      {
+        "start_seconds": 1620.84,
+        "end_seconds": 1624.16,
+        "text": "jaks, kontrollpunktidest, seesama AI direktiiv, mis jõustub."
+      },
+      {
+        "start_seconds": 1624.16,
+        "end_seconds": 1629.04,
+        "text": "Tegelikult tahab, et inimestel oleks väga palju noh, AI kiirendab mingit töövoogu, näiteks"
+      },
+      {
+        "start_seconds": 1629.04,
+        "end_seconds": 1633.48,
+        "text": "tee mingi analüüs ära või ma ei tea kavanda asutuse suvepäevad."
+      },
+      {
+        "start_seconds": 1633.48,
+        "end_seconds": 1637.6,
+        "text": "Aga et inimene siis nagu otsustuskohtades on alati juures, siis nagu analüüsib, kontroll"
+      },
+      {
+        "start_seconds": 1637.6,
+        "end_seconds": 1640.48,
+        "text": "ib ja otsustab siis kriitilise mõtlemisega nagu inimene juures."
+      },
+      {
+        "start_seconds": 1640.48,
+        "end_seconds": 1646.8,
+        "text": "Ehk see jutt, et AI võtab meie töö ära, et ma nagu seda juttu vähemalt, vähemalt Euroopa"
+      },
+      {
+        "start_seconds": 1646.8,
+        "end_seconds": 1651.72,
+        "text": "direktiivi järgi ei tohiks HI tööd ära võtta, sest seal on siis noh, me räägime siuks"
+      },
+      {
+        "start_seconds": 1651.72,
+        "end_seconds": 1656.76,
+        "text": "ed väiksematest, ütleme siis assistendi töövoogudest, mida inimene peab üle kontroll"
+      },
+      {
+        "start_seconds": 1656.76,
+        "end_seconds": 1661.24,
+        "text": "ima ja me räägime agentsetest töövoogudest, mida inimene peab üle kontrollima, ehita"
+      },
+      {
+        "start_seconds": 1661.24,
+        "end_seconds": 1665.64,
+        "text": "ma, kontrollmehhanismid, mis ei ole haiga tehtud tihti, vaid on tehtud algoritmilise"
+      },
+      {
+        "start_seconds": 1665.64,
+        "end_seconds": 1666.68,
+        "text": "kontrollimisega."
+      },
+      {
+        "start_seconds": 1666.68,
+        "end_seconds": 1673.84,
+        "text": "Et selles mõttes ei, ei võta see AI nagu selles mõttes täielikku inimese tööd ära, vaid"
+      },
+      {
+        "start_seconds": 1673.84,
+        "end_seconds": 1678.08,
+        "text": "võtab siis võib-olla mingit, võtab võib-olla nende töö ära, kes võib-olla vaid ei oska"
+      },
+      {
+        "start_seconds": 1678.08,
+        "end_seconds": 1679.44,
+        "text": "kasutada."
+      },
+      {
+        "start_seconds": 1679.44,
+        "end_seconds": 1684.8,
+        "text": "Aga natuke need asjad, mis ma rääkisin."
+      },
+      {
+        "start_seconds": 1684.8,
+        "end_seconds": 1688.4,
+        "text": "Te istute siin siin kahekesti kolmekesti."
+      },
+      {
+        "start_seconds": 1688.4,
+        "end_seconds": 1693.36,
+        "text": "Et need, kes istuvad kolmekesti, et lihtsalt paremal ja vasakul olevatest inimestest"
+      },
+      {
+        "start_seconds": 1693.36,
+        "end_seconds": 1699.84,
+        "text": "teha niisugune väike vestlusgrupikene, et korraks arutada sihuke neli minutit."
+      },
+      {
+        "start_seconds": 1699.84,
+        "end_seconds": 1705.8,
+        "text": "Kus te näete potentsiaali nagu AIs kasutamiseks nagu igapäevatöös, mida pole veel ole"
+      },
+      {
+        "start_seconds": 1705.8,
+        "end_seconds": 1709.92,
+        "text": "te kuulnud, näinud, keegi on teinud näiteks, milliseid tegevusi korra nädalas, korra"
+      },
+      {
+        "start_seconds": 1709.92,
+        "end_seconds": 1714.84,
+        "text": "päevas minna osa ajast kulub rutiinsele tekstitööle näiteks ja kas me saaks midagi ava"
+      },
+      {
+        "start_seconds": 1714.84,
+        "end_seconds": 1721.12,
+        "text": "ilab delegeerida, et siis sellised naabrid või kolmikud, et lihtsalt sihuke kolm-neli"
+      },
+      {
+        "start_seconds": 1721.12,
+        "end_seconds": 1728.48,
+        "text": "minutit võtame aega, et, et teadlikku ka, et üks inimene räägib üks minut jutujärje teise"
+      },
+      {
+        "start_seconds": 1728.48,
+        "end_seconds": 1733.84,
+        "text": "le ja kuulate, et siis korraks sihuke, võtame kolm minti lobisemist."
+      },
+      {
+        "start_seconds": 1733.84,
+        "end_seconds": 1740.56,
+        "text": "Et mis, mis töölõikusid, et mis tegevusi korra nädalas päevas, rutiinsed tekstitööd?"
+      },
+      {
+        "start_seconds": 1740.56,
+        "end_seconds": 1743.04,
+        "text": "Kas midagi saaks aidata ka?"
+      },
+      {
+        "start_seconds": 1743.04,
+        "end_seconds": 1748.04,
+        "text": "Jah, mingid naabrid, kolmikud, paarikesed, moodustage seal, kes kolmekeste reas istu"
+      },
+      {
+        "start_seconds": 1748.04,
+        "end_seconds": 1754.68,
+        "text": "b, saab paremalt vasakult võtta."
+      },
+      {
+        "start_seconds": 1754.68,
+        "end_seconds": 1760.72,
+        "text": "Käsi püsti, kes on nõus võib-olla seda grupi mingeid tulemusi paari lausega jagama, lihtsalt"
+      },
+      {
+        "start_seconds": 1760.72,
+        "end_seconds": 1764.84,
+        "text": "selline, ma ei tea, mingi mõttekohta või imestamiskohta või murekohta või mida igane"
+      },
+      {
+        "start_seconds": 1764.84,
+        "end_seconds": 1765.88,
+        "text": "s, kõik sobib."
+      },
+      {
+        "start_seconds": 1765.88,
+        "end_seconds": 1773.08,
+        "text": "Me oleme Arvamusfestival, me ei ole siin mingi, mingi vaikuse festival."
+      },
+      {
+        "start_seconds": 1773.08,
+        "end_seconds": 1775.56,
+        "text": "Nonii, see on siis mikrofoni sisse."
+      },
+      {
+        "start_seconds": 1775.56,
+        "end_seconds": 1777.44,
+        "text": "Võtke."
+      },
+      {
+        "start_seconds": 1777.44,
+        "end_seconds": 1782.36,
+        "text": "Et siis siuke kaks lauset, et mis teil tundus, mida te kuulsite või mingi murekoht või"
+      },
+      {
+        "start_seconds": 1782.36,
+        "end_seconds": 1786.92,
+        "text": "noh, siis püsti pikali, kuidas keegi soovib."
+      },
+      {
+        "start_seconds": 1786.92,
+        "end_seconds": 1788.0,
+        "text": "Kas mind on kuulda, jah?"
+      },
+      {
+        "start_seconds": 1788.0,
+        "end_seconds": 1790.72,
+        "text": "Nüüd tahab arvamusfestivali arvamus."
+      },
+      {
+        "start_seconds": 1790.72,
+        "end_seconds": 1798.76,
+        "text": "Need Daisist ja meil tuli põhiteemad, üks on selli- või"
+      },
+      {
+        "start_seconds": 1798.76,
+        "end_seconds": 1805.92,
+        "text": "sai aidata email'e joru, mis sisse tuleb, paremini sünteerida, sünte"
+      },
+      {
+        "start_seconds": 1805.92,
+        "end_seconds": 1806.84,
+        "text": "esida."
+      },
+      {
+        "start_seconds": 1806.84,
+        "end_seconds": 1814.76,
+        "text": "Et ei pea neid ükshaaval ise läbi."
+      },
+      {
+        "start_seconds": 1814.76,
+        "end_seconds": 1818.08,
+        "text": "Nüüd tuleb seitsmendate mikrofon."
+      },
+      {
+        "start_seconds": 1818.08,
+        "end_seconds": 1820.0,
+        "text": "Väga hea."
+      },
+      {
+        "start_seconds": 1820.0,
+        "end_seconds": 1822.28,
+        "text": "Juhe käes ja saab tantsu."
+      },
+      {
+        "start_seconds": 1822.28,
+        "end_seconds": 1824.88,
+        "text": "Kõla, kõlarist eemale."
+      },
+      {
+        "start_seconds": 1824.88,
+        "end_seconds": 1831.56,
+        "text": "Nii, ühesõnaga, et AI võiks aidata siis puhkuselt tulnul näiteks kogu selle email'i,"
+      },
+      {
+        "start_seconds": 1831.56,
+        "end_seconds": 1834.92,
+        "text": "email'id paremini läbi, kiiremini läbi lugeda ja sünteesida."
+      },
+      {
+        "start_seconds": 1834.92,
+        "end_seconds": 1841.36,
+        "text": "Ja teine, millega tõenäoliselt enamus siin on kokku puutunud koosolekute protokollimine"
+      },
+      {
+        "start_seconds": 1841.36,
+        "end_seconds": 1845.4,
+        "text": "ja, ja nendest siis nagu olulise tähtsama väljatoomine."
+      },
+      {
+        "start_seconds": 1845.4,
+        "end_seconds": 1850.08,
+        "text": "See on küll päris keeruline, sellepärast et noh, kuidas siis ikkagi AI saab aru, mis"
+      },
+      {
+        "start_seconds": 1850.08,
+        "end_seconds": 1851.56,
+        "text": "asi see tähtis on."
+      },
+      {
+        "start_seconds": 1851.56,
+        "end_seconds": 1856.68,
+        "text": "Aga kui seda saaks teha inimese asemel AI, siis sellest oleks ka tohutult juba ajavõ"
+      },
+      {
+        "start_seconds": 1856.68,
+        "end_seconds": 1859.04,
+        "text": "itu."
+      },
+      {
+        "start_seconds": 1859.04,
+        "end_seconds": 1863.52,
+        "text": "Nonii meil on juhe- juhtme pikkust jätkub veel, ma vaatan, kui pikalt see läheb, kuni"
+      },
+      {
+        "start_seconds": 1863.52,
+        "end_seconds": 1865.04,
+        "text": "see ära rebib."
+      },
+      {
+        "start_seconds": 1865.04,
+        "end_seconds": 1872.32,
+        "text": "Nii keegi veel, võib-olla siukest tulemust, mis grupi, mingi tulega, jah niisugune"
+      },
+      {
+        "start_seconds": 1872.32,
+        "end_seconds": 1877.8,
+        "text": "nagu imestamise kohta, murekohta, võimaluste kohta kõik loeb, meil on Arvamusfestival"
+      },
+      {
+        "start_seconds": 1877.8,
+        "end_seconds": 1879.08,
+        "text": "ikkagi."
+      },
+      {
+        "start_seconds": 1879.08,
+        "end_seconds": 1884.64,
+        "text": "Tervist, ma esitasin EIA ülimalt ambitsiooniga probleemi."
+      },
+      {
+        "start_seconds": 1884.64,
+        "end_seconds": 1891.88,
+        "text": "Kuidas lahendada Eesti Vabariigi ATH ala diagnoosimist ja see tõ"
+      },
+      {
+        "start_seconds": 1891.88,
+        "end_seconds": 1899.24,
+        "text": "i mulle välja võrdlus statistika põhjamaadega, kus vahe on isegi kümne või viie"
+      },
+      {
+        "start_seconds": 1899.24,
+        "end_seconds": 1907.84,
+        "text": "teistkordne ja mainis, et peaks riskigrupp sõel testima perearstide juures"
+      },
+      {
+        "start_seconds": 1907.84,
+        "end_seconds": 1913.12,
+        "text": ", kuna mõju kogu rahva tervisele on nii suur, see on lühikokkuvõte."
+      },
+      {
+        "start_seconds": 1913.12,
+        "end_seconds": 1916.84,
+        "text": "Ja suurepärane, väga hea probleem, väga võimas probleem, jah."
+      },
+      {
+        "start_seconds": 1916.84,
+        "end_seconds": 1922.28,
+        "text": "Keegi veel tahab jagada nagu imestamismure kohta, väga heietame, ärge jääga, aga nii"
+      },
+      {
+        "start_seconds": 1922.28,
+        "end_seconds": 1925.12,
+        "text": "sugune paari lausega."
+      },
+      {
+        "start_seconds": 1925.12,
+        "end_seconds": 1931.12,
+        "text": "Ma vaatan, kui pikaks see läheb, ootame siit üle laste vahelt läbi ja."
+      },
+      {
+        "start_seconds": 1931.12,
+        "end_seconds": 1936.88,
+        "text": "Ma ütleks lühidalt selline mure jäi üles, et tegelikult see sisestada see, et ta näiteks"
+      },
+      {
+        "start_seconds": 1936.88,
+        "end_seconds": 1944.12,
+        "text": "mul aitaks oma tööd paremini, kiiremini teha, minu aega kokku hoida, et see, et ma"
+      },
+      {
+        "start_seconds": 1944.12,
+        "end_seconds": 1949.2,
+        "text": "peaksin ise kõigepealt siis vot sellesama sisendi andma või selle, kuidas selle nimi"
+      },
+      {
+        "start_seconds": 1949.2,
+        "end_seconds": 1951.08,
+        "text": "oli, kohe vaatan, tähtis."
+      },
+      {
+        "start_seconds": 1951.08,
+        "end_seconds": 1952.52,
+        "text": "Juhise."
+      },
+      {
+        "start_seconds": 1952.52,
+        "end_seconds": 1953.92,
+        "text": "Taustainfo."
+      },
+      {
+        "start_seconds": 1953.92,
+        "end_seconds": 1958.2,
+        "text": "Et ma arvan, et minul viieteist minutiga, ma pean ise kõigepealt hakkama surfama rohkem"
+      },
+      {
+        "start_seconds": 1958.2,
+        "end_seconds": 1962.12,
+        "text": "ja, ja siis leidma kõik need variandid ja siis alles nagu."
+      },
+      {
+        "start_seconds": 1962.12,
+        "end_seconds": 1965.4,
+        "text": "Et see ei lähe vist viisteist minutit, et ma mõtlesingi, et see on selline."
+      },
+      {
+        "start_seconds": 1965.4,
+        "end_seconds": 1970.4,
+        "text": "Küsib sul konkreetselt viis küsimust ja sa vastad nendele väga konkreetselt paari la"
+      },
+      {
+        "start_seconds": 1970.4,
+        "end_seconds": 1972.64,
+        "text": "usega oleks nagu šanssi või?"
+      },
+      {
+        "start_seconds": 1972.64,
+        "end_seconds": 1977.24,
+        "text": "No ütleme jaa, kuna see on see suurem ala, et ma pean selle eriala nii-öelda ära kaa"
+      },
+      {
+        "start_seconds": 1977.24,
+        "end_seconds": 1980.8,
+        "text": "rdistama või mingi noh, et see taustainfo oleks tal sealt võtta sealt, võtta sealt võtta"
+      },
+      {
+        "start_seconds": 1980.8,
+        "end_seconds": 1982.88,
+        "text": ", sealt, arvesta veel seda ja seda ja seda."
+      },
+      {
+        "start_seconds": 1982.88,
+        "end_seconds": 1986.24,
+        "text": "Et see on nagu see, aga no see tuleb ära teha ja hiljem on lihtsam äkki."
+      },
+      {
+        "start_seconds": 1986.24,
+        "end_seconds": 1990.76,
+        "text": "Ja taustainfoks saad ka dokumendi kaasa anda, kui sul see."
+      },
+      {
+        "start_seconds": 1990.76,
+        "end_seconds": 1994.48,
+        "text": "Paketis tavaliselt saab dokumendi kaasa anda, siis see on ka juba taustainfoks."
+      },
+      {
+        "start_seconds": 1994.48,
+        "end_seconds": 1996.16,
+        "text": "Aga aitäh, oli kasulik."
+      },
+      {
+        "start_seconds": 1996.16,
+        "end_seconds": 1999.52,
+        "text": "Kellelgi veel oli mingi murekoht või ahaa või ohhoo või midagi sellist."
+      },
+      {
+        "start_seconds": 1999.52,
+        "end_seconds": 2003.72,
+        "text": "Mina võin oma kogemusest siia kõrvale öelda, et mina tegin omale ühe sellesama nii-öelda"
+      },
+      {
+        "start_seconds": 2003.72,
+        "end_seconds": 2005.36,
+        "text": "krati."
+      },
+      {
+        "start_seconds": 2005.36,
+        "end_seconds": 2008.2,
+        "text": "Ja selle tegemiseks läks seitse tundi."
+      },
+      {
+        "start_seconds": 2008.2,
+        "end_seconds": 2012.04,
+        "text": "Aga nüüd ta hoiab mul päevas ikka päris palju tunde kokku."
+      },
+      {
+        "start_seconds": 2012.04,
+        "end_seconds": 2013.44,
+        "text": "Ja aastas ka siis?"
+      },
+      {
+        "start_seconds": 2013.44,
+        "end_seconds": 2018.64,
+        "text": "Jah, nii et alguses see esimese krati tegemine võtabki aega, aga pärast see, mis ta tagasi"
+      },
+      {
+        "start_seconds": 2018.64,
+        "end_seconds": 2020.2,
+        "text": "annab, on päris suur vahe."
+      },
+      {
+        "start_seconds": 2020.2,
+        "end_seconds": 2027.32,
+        "text": "Just, aga algretsepti mõttes roll, probleem, taustainfo, see nagu loogika kla"
+      },
+      {
+        "start_seconds": 2027.32,
+        "end_seconds": 2028.16,
+        "text": "pib sellega."
+      },
+      {
+        "start_seconds": 2028.16,
+        "end_seconds": 2030.72,
+        "text": "Mina kasutan jah natukene teistsugust lähenemist rohkem."
+      },
+      {
+        "start_seconds": 2030.72,
+        "end_seconds": 2031.72,
+        "text": "Mis see lähenemine on?"
+      },
+      {
+        "start_seconds": 2031.72,
+        "end_seconds": 2037.76,
+        "text": "Minul on rohkem see AI-ga vastamisi mõtete põrgatamine, sealt hakkab siis noh, mul on"
+      },
+      {
+        "start_seconds": 2037.76,
+        "end_seconds": 2041.96,
+        "text": "probleem, eks ju, hakkame koos seda lahendama ja pisitasa minema sealt."
+      },
+      {
+        "start_seconds": 2041.96,
+        "end_seconds": 2047.64,
+        "text": "Ja siis selle prompt'iga koos kogu aeg uueneb see kratt, siis jälle saab midagi muud"
+      },
+      {
+        "start_seconds": 2047.64,
+        "end_seconds": 2051.76,
+        "text": "etud, siis me jälle katsetan, siis tal tuleb õige vastus, ei tule õige, siis jälle küsi"
+      },
+      {
+        "start_seconds": 2051.76,
+        "end_seconds": 2055.76,
+        "text": "n ta käest, et mis ma saaksin paremini teha, et sa annaksid mulle vot sellise vastuse"
+      },
+      {
+        "start_seconds": 2055.76,
+        "end_seconds": 2056.52,
+        "text": "."
+      },
+      {
+        "start_seconds": 2056.52,
+        "end_seconds": 2059.68,
+        "text": "Ja sa hoiatada projektis rohkem, et tal see mälu jääks kogu aeg."
+      },
+      {
+        "start_seconds": 2059.68,
+        "end_seconds": 2062.32,
+        "text": "Jah, just okei, nii saab ka, jah?"
+      },
+      {
+        "start_seconds": 2062.32,
+        "end_seconds": 2067.52,
+        "text": "Väga hea, nii panen siis seitsmendate mikrofoni ära."
+      },
+      {
+        "start_seconds": 2067.52,
+        "end_seconds": 2069.96,
+        "text": "Mikk kõlar just läbi."
+      },
+      {
+        "start_seconds": 2069.96,
+        "end_seconds": 2073.64,
+        "text": "Nii."
+      },
+      {
+        "start_seconds": 2073.64,
+        "end_seconds": 2079.72,
+        "text": "Et siis, milleks teid need kollased postitid siin on, kes siia juurde tulid, võivad ka"
+      },
+      {
+        "start_seconds": 2079.72,
+        "end_seconds": 2083.44,
+        "text": "toolile istuda täiesti puhta lehe pealt harjutus."
+      },
+      {
+        "start_seconds": 2083.44,
+        "end_seconds": 2090.88,
+        "text": "Et kollased postitid paberil on siis kuue kuni kaheksa sammulise tööprotsessi selline"
+      },
+      {
+        "start_seconds": 2090.88,
+        "end_seconds": 2092.0,
+        "text": "kaardistamine."
+      },
+      {
+        "start_seconds": 2092.0,
+        "end_seconds": 2093.2,
+        "text": "Okei."
+      },
+      {
+        "start_seconds": 2093.2,
+        "end_seconds": 2101.32,
+        "text": "Ja mõtleme sellest tööprotsessist, mõtleme mingist nami-nami retseptikogus mingist pi"
+      },
+      {
+        "start_seconds": 2101.32,
+        "end_seconds": 2105.88,
+        "text": "ruka valmistamise retseptist, eks ole, jahu, muna, piim ja suhkur ja nii edasi, eks ole"
+      },
+      {
+        "start_seconds": 2105.88,
+        "end_seconds": 2106.28,
+        "text": "."
+      },
+      {
+        "start_seconds": 2106.28,
+        "end_seconds": 2110.4,
+        "text": "Sul on nimekiri nagu koostisainetest ja sul on nimekiri sammudest, mis sa pead tegema"
+      },
+      {
+        "start_seconds": 2110.4,
+        "end_seconds": 2111.2,
+        "text": ", on ju."
+      },
+      {
+        "start_seconds": 2111.2,
+        "end_seconds": 2112.68,
+        "text": "Et kook valmis saaks."
+      },
+      {
+        "start_seconds": 2112.68,
+        "end_seconds": 2115.92,
+        "text": "Sa midagi sa ei saa ennem panna, kui sa pead midagi panema."
+      },
+      {
+        "start_seconds": 2115.92,
+        "end_seconds": 2119.68,
+        "text": "Täpselt samamoodi on ükskõik milline protsess on minu jaoks sellise küpsetamise retse"
+      },
+      {
+        "start_seconds": 2119.68,
+        "end_seconds": 2126.4,
+        "text": "pti peale ma olen teinud politseiuurijad töölaua, disaini, kiirabimeedikute iPad'i ra"
+      },
+      {
+        "start_seconds": 2126.4,
+        "end_seconds": 2129.32,
+        "text": "kendust, mingit Selveri skännimisäppi."
+      },
+      {
+        "start_seconds": 2129.32,
+        "end_seconds": 2133.6,
+        "text": "Kõikidel on jah, seal mingeid tuhandeid kasutusjuhtusid võib-olla, aga tegelikult kõik"
+      },
+      {
+        "start_seconds": 2133.6,
+        "end_seconds": 2138.24,
+        "text": "kasutus või noh, probleemid saab nagu kirja panna põhimõtteliselt kuue mõjusa sammuga"
+      },
+      {
+        "start_seconds": 2138.24,
+        "end_seconds": 2142.76,
+        "text": ", et mis, mis nagu toimub, okei ja tavaliselt seda kõige lihtsam on kirja panna on see"
+      },
+      {
+        "start_seconds": 2142.76,
+        "end_seconds": 2147.52,
+        "text": ", et siis, et kui teil on mingi protsess, et protsess algab kuskilt ja protsess lõpe"
+      },
+      {
+        "start_seconds": 2147.52,
+        "end_seconds": 2152.16,
+        "text": "b kuskilt ja seda lipikut, mida te siis saate siin kasutada siin natuke sellise tsir"
+      },
+      {
+        "start_seconds": 2152.16,
+        "end_seconds": 2158.4,
+        "text": "kuse mängu või noh, sinka-vonka tsirkuse mäng, eks ole, sinka-vunka režiimis nagu läheb"
+      },
+      {
+        "start_seconds": 2158.4,
+        "end_seconds": 2164.0,
+        "text": ", et vasakult paremini ülemi rida ja siis on alumirida ja siis oleks nagu aega mõelda"
+      },
+      {
+        "start_seconds": 2164.0,
+        "end_seconds": 2164.48,
+        "text": "."
+      },
+      {
+        "start_seconds": 2164.48,
+        "end_seconds": 2167.36,
+        "text": "See võib olla seesama probleem, mis teil ennem oli."
+      },
+      {
+        "start_seconds": 2167.36,
+        "end_seconds": 2172.2,
+        "text": "Aga selle probleemi siis mõtlete nagu, et kuidas te nagu protsessi kontekstis, kus ta"
+      },
+      {
+        "start_seconds": 2172.2,
+        "end_seconds": 2176.24,
+        "text": "asub, mis enne seda probleemi toimub, mis peale seda probleemi toimub, võib-olla see"
+      },
+      {
+        "start_seconds": 2176.24,
+        "end_seconds": 2179.64,
+        "text": "probleem on protsessi alguses, võib-olla see probleem on protsessi lõpus."
+      },
+      {
+        "start_seconds": 2179.64,
+        "end_seconds": 2181.96,
+        "text": "Et panete see protsessi kirja."
+      },
+      {
+        "start_seconds": 2181.96,
+        "end_seconds": 2187.64,
+        "text": "Ja selle, mis selle harjutuse mõte on see, et siis me mõtleme, et kus kohas seal, kui"
+      },
+      {
+        "start_seconds": 2187.64,
+        "end_seconds": 2191.72,
+        "text": "suudate see protsess sinna kirja panna, selle ussi, mis kollased lipikud samamoodi nagu"
+      },
+      {
+        "start_seconds": 2191.72,
+        "end_seconds": 2198.2,
+        "text": "siin on see, see näidis, eks ole, pastakaga paned selle ussi endale kirja, siis sa tõ"
+      },
+      {
+        "start_seconds": 2198.2,
+        "end_seconds": 2203.92,
+        "text": "mbate kasvõi ringi ümber, et või siis mõne kommentaari panete, et mida võiks nagu AI"
+      },
+      {
+        "start_seconds": 2203.92,
+        "end_seconds": 2210.84,
+        "text": "-ga teha selle protsessi sammuga ja tegelikult öeldakse, et, et see protsess hakkab oma"
+      },
+      {
+        "start_seconds": 2210.84,
+        "end_seconds": 2214.52,
+        "text": "ma nagu, nagu assistendi nagu osasid."
+      },
+      {
+        "start_seconds": 2214.52,
+        "end_seconds": 2219.56,
+        "text": "Ja see, ja kui see protsess nagu AI-ga nagu pärast, nagu agendiks ehitatakse, siis see"
+      },
+      {
+        "start_seconds": 2219.56,
+        "end_seconds": 2221.76,
+        "text": "ageent annab töötama nagu agentse töövoona."
+      },
+      {
+        "start_seconds": 2221.76,
+        "end_seconds": 2222.84,
+        "text": "Saate aru, jah?"
+      },
+      {
+        "start_seconds": 2222.84,
+        "end_seconds": 2227.72,
+        "text": "Et võtad kõigepealt protsessi juppideks lahti ja mõtlete, millises sammus AI võiks nagu"
+      },
+      {
+        "start_seconds": 2227.72,
+        "end_seconds": 2233.16,
+        "text": "aidata korduvtegevustes ja pärast te vaatate seda protsessile otsa, kui potentsiaalse"
+      },
+      {
+        "start_seconds": 2233.16,
+        "end_seconds": 2236.04,
+        "text": "t agentset AI töövoogu."
+      },
+      {
+        "start_seconds": 2236.04,
+        "end_seconds": 2239.12,
+        "text": "Nii, viis minutit jälle."
+      },
+      {
+        "start_seconds": 2239.12,
+        "end_seconds": 2244.04,
+        "text": "Et kes tahab endale telefoni seda nimekirjana teha minugi pärast, kes on siin mingi di"
+      },
+      {
+        "start_seconds": 2244.04,
+        "end_seconds": 2249.88,
+        "text": "gi-diginutipluti võib teha Notes'i rakenduses või Google Keepe'is või Google Docs'is"
+      },
+      {
+        "start_seconds": 2249.88,
+        "end_seconds": 2255.36,
+        "text": "selle seda nimekirja stiilis või kes tahab, siis võtke see kollane lipik, pange põlve"
+      },
+      {
+        "start_seconds": 2255.36,
+        "end_seconds": 2262.56,
+        "text": "peale või nutitelefoni peale kirjutusaluseks ja tehke niisugune, sihuke stagu"
+      },
+      {
+        "start_seconds": 2262.56,
+        "end_seconds": 2264.68,
+        "text": "rpidi S ja siis need sammud kirjas."
+      },
+      {
+        "start_seconds": 2264.68,
+        "end_seconds": 2271.36,
+        "text": "Siin on näidis, on lihtsalt on tüüpiline asi, tuuakse maale ma ei tea beebitoitu."
+      },
+      {
+        "start_seconds": 2271.36,
+        "end_seconds": 2276.76,
+        "text": "Espellegrino mineraalvett Itaaliast, sest tüüpiline maaletoomise teema, et sul on seal"
+      },
+      {
+        "start_seconds": 2276.76,
+        "end_seconds": 2281.12,
+        "text": "tarnijal on tooteuuendus, SBle Griinod on virsiku maitsega."
+      },
+      {
+        "start_seconds": 2281.12,
+        "end_seconds": 2284.32,
+        "text": "Kunagi pole maailma ajaloos seda olnud, eks ole, näiteks."
+      },
+      {
+        "start_seconds": 2284.32,
+        "end_seconds": 2291.6,
+        "text": "Ja siis on Danja andmed uuenesid, näed virsiku maitseline, uurid, et kas Eesti tu"
+      },
+      {
+        "start_seconds": 2291.6,
+        "end_seconds": 2297.2,
+        "text": "rul läheb vaja seda, siis pirsiku maitseline tooteinfo siis e-poodide jaoks ära loka"
+      },
+      {
+        "start_seconds": 2297.2,
+        "end_seconds": 2299.52,
+        "text": "liseerida."
+      },
+      {
+        "start_seconds": 2299.52,
+        "end_seconds": 2305.96,
+        "text": "Guugeldamise optimeerimine ja AI otsi optimeerimise ette ettevalmistus korduma kippu"
+      },
+      {
+        "start_seconds": 2305.96,
+        "end_seconds": 2311.6,
+        "text": "vate küsimustega pildi ja meedia kohandamine, selle virsiku maitselise Spelegrino, Se"
+      },
+      {
+        "start_seconds": 2311.6,
+        "end_seconds": 2316.52,
+        "text": "lveri lettidele jõudmiseks, turundussõnumit sotsiaalmeediasse, nüüd on meil äge Espe"
+      },
+      {
+        "start_seconds": 2316.52,
+        "end_seconds": 2322.32,
+        "text": "re Grina ja siin Taukar tantsib sellega muusikavideos."
+      },
+      {
+        "start_seconds": 2322.32,
+        "end_seconds": 2328.48,
+        "text": "Siis on kõigi andmete õigekirja kontroll proofreeding ja siis andmete sisestamine e-"
+      },
+      {
+        "start_seconds": 2328.48,
+        "end_seconds": 2332.2,
+        "text": "poodidesse süsteemidesse, tooteinfohaldusesse igale poole."
+      },
+      {
+        "start_seconds": 2332.2,
+        "end_seconds": 2341.16,
+        "text": "See on näidis SBL Greenho maaletoomisest või mähkmeid või püree või autod või C"
+      },
+      {
+        "start_seconds": 2341.16,
+        "end_seconds": 2345.6,
+        "text": "ovid näomaskid."
+      },
+      {
+        "start_seconds": 2345.6,
+        "end_seconds": 2351.12,
+        "text": "Et pange enda ja te see samm võiks olla selline kuus kuni kaheksa, nagu tavaliselt ja"
+      },
+      {
+        "start_seconds": 2351.12,
+        "end_seconds": 2353.96,
+        "text": "alustage, et lõpuks, et mis on see protsessi lõpp."
+      },
+      {
+        "start_seconds": 2353.96,
+        "end_seconds": 2358.84,
+        "text": "Ja suured mõjusad sammud ja tavaliselt öeldakse, et see, tihti see mõjus samm on nii"
+      },
+      {
+        "start_seconds": 2358.84,
+        "end_seconds": 2365.72,
+        "text": "sugune noh, toimub korra nädalas stiilis asi näiteks, kui on mingi sihuke pikem protsess"
+      },
+      {
+        "start_seconds": 2365.72,
+        "end_seconds": 2370.12,
+        "text": ", näiteks mingi menetlus või ma ei tea, korra kuus, korra nädalas korra kuus on nagu"
+      },
+      {
+        "start_seconds": 2370.12,
+        "end_seconds": 2374.4,
+        "text": "piisavalt hea samm."
+      },
+      {
+        "start_seconds": 2374.4,
+        "end_seconds": 2379.12,
+        "text": "Nagu suurem protsess nagu tarneahel näiteks."
+      },
+      {
+        "start_seconds": 2379.12,
+        "end_seconds": 2384.76,
+        "text": "Viis minti jälle aega."
+      },
+      {
+        "start_seconds": 2384.76,
+        "end_seconds": 2389.96,
+        "text": "Nii tundub, et vist inimesed vaatavad vaikselt paremale-vasakule, siis on oma ülesan"
+      },
+      {
+        "start_seconds": 2389.96,
+        "end_seconds": 2391.72,
+        "text": "dega valmis saanud."
+      },
+      {
+        "start_seconds": 2391.72,
+        "end_seconds": 2400.08,
+        "text": "Hea sensor, okei, aga siin see, selle töötoa kirjeldus, siis lu"
+      },
+      {
+        "start_seconds": 2400.08,
+        "end_seconds": 2405.96,
+        "text": "bas ka seda, et ma näitan ühe nagu AI assistendi loomise ka teile, et tegelikult, kelle"
+      },
+      {
+        "start_seconds": 2405.96,
+        "end_seconds": 2412.68,
+        "text": "l on mõni tasuline chat-ipi teel või tasuline tööandja --- ."
+      },
+      {
+        "start_seconds": 2412.68,
+        "end_seconds": 2419.6,
+        "text": "Mida te saate autenticator'iga sisse logida, on kaasas, või on isegi Cloud'e või mille"
+      },
+      {
+        "start_seconds": 2419.6,
+        "end_seconds": 2422.12,
+        "text": "gipärast ka geimini tasulised."
+      },
+      {
+        "start_seconds": 2422.12,
+        "end_seconds": 2429.04,
+        "text": "Et ma teen ühe väga sellise nagu lihtsa nagu AI assistendi ja siis mõte ongi, nagu ma"
+      },
+      {
+        "start_seconds": 2429.04,
+        "end_seconds": 2435.12,
+        "text": "ennem rääkisin sellest, et, et alguses tehakse nagu, nagu AI assistente korduvkasutus"
+      },
+      {
+        "start_seconds": 2435.12,
+        "end_seconds": 2439.8,
+        "text": "eks, et põhimõtteliselt mingi AID, mida te hakkate nullist iga nädal tegema, on ju, näiteks"
+      },
+      {
+        "start_seconds": 2439.8,
+        "end_seconds": 2444.8,
+        "text": "sama teema nullist hakata uuesti uuesti hakata jaurama temaga, uuesti hakata küsima siis"
+      },
+      {
+        "start_seconds": 2444.8,
+        "end_seconds": 2448.48,
+        "text": "peas peaks nagu krõks käima, et kuule, aga sellest võiks I assistendi teha."
+      },
+      {
+        "start_seconds": 2448.48,
+        "end_seconds": 2452.16,
+        "text": "Ehk siis täpselt sama esimene harjutus, mis me tegime."
+      },
+      {
+        "start_seconds": 2452.16,
+        "end_seconds": 2456.84,
+        "text": "Noh, mingi probleemi lahendamiseks toimub sul iga nädal või iga kuu ja tegelikult seda"
+      },
+      {
+        "start_seconds": 2456.84,
+        "end_seconds": 2462.28,
+        "text": "võiks nagu iOS-istendist läbi lasta, et, et, et siis ma näitan siis siukse lihtsa nagu"
+      },
+      {
+        "start_seconds": 2462.28,
+        "end_seconds": 2466.68,
+        "text": "I assistendi, mida kontoritöös väga tihti läheb vaja."
+      },
+      {
+        "start_seconds": 2466.68,
+        "end_seconds": 2473.84,
+        "text": "Ja tihti ongi, kui ma olen ise disainer ka siin vasaku jalaga, ehk siis disaineri nagu"
+      },
+      {
+        "start_seconds": 2473.84,
+        "end_seconds": 2479.0,
+        "text": "roll on ka nagu info, nagu väga keerulise tehnilise asja nagu lihtsaks loetavaks tege"
+      },
+      {
+        "start_seconds": 2479.0,
+        "end_seconds": 2479.72,
+        "text": "mine."
+      },
+      {
+        "start_seconds": 2479.72,
+        "end_seconds": 2486.64,
+        "text": "Ja üks selline trend on see, et siis AI-ga saadetud email, email'id ja mis AI-ga tehtud"
+      },
+      {
+        "start_seconds": 2486.64,
+        "end_seconds": 2490.28,
+        "text": "email'ide häda on see, et ta kirjutab rohkem nagu vahtu."
+      },
+      {
+        "start_seconds": 2490.28,
+        "end_seconds": 2494.44,
+        "text": "Ja mis nüüd olukorras on see, ma võtan nagu telefoni välja, kolleeg saatis meili."
+      },
+      {
+        "start_seconds": 2494.44,
+        "end_seconds": 2498.32,
+        "text": "Ma vaatan, et ma olen abipositiivne, see on AI-ga kirjutatud email, ma ei pahanda see"
+      },
+      {
+        "start_seconds": 2498.32,
+        "end_seconds": 2500.68,
+        "text": "pärast, ta vastutab selle info saatis mulle."
+      },
+      {
+        "start_seconds": 2500.68,
+        "end_seconds": 2506.12,
+        "text": "Aga mida ma näen oma telefonis, sest ta meili nagu kerin ja kerin ja käsi püsti, kes"
+      },
+      {
+        "start_seconds": 2506.12,
+        "end_seconds": 2509.88,
+        "text": "tunneb juba, et peale kahte ekraani kerimist enam ei viitsi edasi lugeda, las ta hall"
+      },
+      {
+        "start_seconds": 2509.88,
+        "end_seconds": 2512.24,
+        "text": "kokkuvõtte teha."
+      },
+      {
+        "start_seconds": 2512.24,
+        "end_seconds": 2519.72,
+        "text": "Noh, ja käsi püsti, et selle leevenduseks võiks olla, et need sellised info ja otsus"
+      },
+      {
+        "start_seconds": 2519.72,
+        "end_seconds": 2523.56,
+        "text": "tamise e-mail'id võikski olla paar ekraani kerimist mingite linkidega käsi püsti, kas"
+      },
+      {
+        "start_seconds": 2523.56,
+        "end_seconds": 2525.04,
+        "text": "tundub, et see on mõistlik."
+      },
+      {
+        "start_seconds": 2525.04,
+        "end_seconds": 2530.64,
+        "text": "Vot siis järelikult, kui mul on mingi keeruline tekst või info, et siis selle nagu s"
+      },
+      {
+        "start_seconds": 2530.64,
+        "end_seconds": 2534.64,
+        "text": "öödavaks tegemine, et siis see kaks ekraani kerimist mobiiltelefoni maailmas on viis"
+      },
+      {
+        "start_seconds": 2534.64,
+        "end_seconds": 2536.08,
+        "text": "sada märki."
+      },
+      {
+        "start_seconds": 2536.08,
+        "end_seconds": 2541.12,
+        "text": "Okei, pool A4 on umbes tuhat ja niisugust A4 on kaks kuni kolm tuhat tavaliselt ja siis"
+      },
+      {
+        "start_seconds": 2541.12,
+        "end_seconds": 2547.84,
+        "text": "ma siis näitan siis Copilotis, kuidas siis selline väga tihti kasutatav tööriist on nagu"
+      },
+      {
+        "start_seconds": 2547.84,
+        "end_seconds": 2550.56,
+        "text": "tekstide lühendaja emaili saatmiseks."
+      },
+      {
+        "start_seconds": 2550.56,
+        "end_seconds": 2552.72,
+        "text": "On ju, tundub kasulik asi või?"
+      },
+      {
+        "start_seconds": 2552.72,
+        "end_seconds": 2557.84,
+        "text": "Tekstide lühendaja emaili saatmiseks ja selle nagu näitena, kuidas ta valmis ehitatakse"
+      },
+      {
+        "start_seconds": 2557.84,
+        "end_seconds": 2561.28,
+        "text": "ja see töötab täpselt samamoodi chatchipitis."
+      },
+      {
+        "start_seconds": 2561.28,
+        "end_seconds": 2567.64,
+        "text": "Ja siis koopiletis ja, ja mismoodi puhul on see, et kui sul on see Microsoft 365 nii"
+      },
+      {
+        "start_seconds": 2567.64,
+        "end_seconds": 2574.52,
+        "text": "-öelda pakett, mis on turvapilves juba, siis sa saad teha AI assistente, millele fai"
+      },
+      {
+        "start_seconds": 2574.52,
+        "end_seconds": 2578.24,
+        "text": "le ei saa kaasa anda ja Microsoft tahab kakskümmend kuus euri kuus juurde saada, et saa"
+      },
+      {
+        "start_seconds": 2578.24,
+        "end_seconds": 2583.24,
+        "text": "ksid siis AI assistendile teabevaraks anda failid või sharepointi kaustad, mis igane"
+      },
+      {
+        "start_seconds": 2583.24,
+        "end_seconds": 2583.72,
+        "text": "s."
+      },
+      {
+        "start_seconds": 2583.72,
+        "end_seconds": 2590.84,
+        "text": "Aga, aga põhimõtteliselt juba tasu, tasuta selles mõttes Office paketiga,"
+      },
+      {
+        "start_seconds": 2590.84,
+        "end_seconds": 2594.0,
+        "text": "mis tuleb siis koparates on nagu I assistente luua."
+      },
+      {
+        "start_seconds": 2594.0,
+        "end_seconds": 2598.32,
+        "text": "Et see on nagu väga-väga hea asi ja see, mis minu meelest hakkas alles selle aasta alguses"
+      },
+      {
+        "start_seconds": 2598.32,
+        "end_seconds": 2598.92,
+        "text": "tööle."
+      },
+      {
+        "start_seconds": 2598.92,
+        "end_seconds": 2603.92,
+        "text": "Et varem pidi raha selle eest maksma ja istub ikka raha selle eest maksta ja põhimõtteliselt"
+      },
+      {
+        "start_seconds": 2603.92,
+        "end_seconds": 2607.92,
+        "text": "absurdne olukord, inimesed maksavad kakskümmend euri kuus mingi funktsionaalsuse eest"
+      },
+      {
+        "start_seconds": 2607.92,
+        "end_seconds": 2611.68,
+        "text": ", mis on tegelikult neile tööandja koopaljatis nagu olemas."
+      },
+      {
+        "start_seconds": 2611.68,
+        "end_seconds": 2617.64,
+        "text": "Nii et teen koolitusi järjest, inimesed nagu Jeesuse mingi sotta juba kulutanud viie"
+      },
+      {
+        "start_seconds": 2617.64,
+        "end_seconds": 2621.6,
+        "text": "kuuga asja peale, mis on, tööriist on olemas."
+      },
+      {
+        "start_seconds": 2621.6,
+        "end_seconds": 2626.8,
+        "text": "Olgu, aga ma siis teen nagu väikse demo, et kellel on nutitelefon, võiks, võib nagu kaasa"
+      },
+      {
+        "start_seconds": 2626.8,
+        "end_seconds": 2634.36,
+        "text": "ukerdada, kellel on mõni chat-i --- on siis see funktsionaalsus on custom GPT."
+      },
+      {
+        "start_seconds": 2634.36,
+        "end_seconds": 2640.56,
+        "text": "Ja Copilot'is on noh, nad nimetasid agendiks, nagu siin Hendrik Roonemaa ja siin Linna"
+      },
+      {
+        "start_seconds": 2640.56,
+        "end_seconds": 2646.04,
+        "text": "r Viik ja kõik siin laua peal teeme siis Eesti kõige agentsemaks Eesti rahvaks."
+      },
+      {
+        "start_seconds": 2646.04,
+        "end_seconds": 2651.08,
+        "text": "Ehk siis tegelikult koopalletikäsitlusesse agent ongi nagu see AI assistent, natuke suure"
+      },
+      {
+        "start_seconds": 2651.08,
+        "end_seconds": 2655.24,
+        "text": "maks veel, et äkki midagi näeb."
+      },
+      {
+        "start_seconds": 2655.24,
+        "end_seconds": 2659.36,
+        "text": "Custom GPT on chatchipitil?"
+      },
+      {
+        "start_seconds": 2659.36,
+        "end_seconds": 2667.04,
+        "text": "Gemid, jah, jah, ja siis sul on jah, skill'id on põhimõtteliselt no"
+      },
+      {
+        "start_seconds": 2667.04,
+        "end_seconds": 2670.16,
+        "text": "siin Clode, Clauda ka olemas, aga noh, põhimõtteliselt skill'ide ehitamine nagu Cloud"
+      },
+      {
+        "start_seconds": 2670.16,
+        "end_seconds": 2671.4,
+        "text": "- rohkem."
+      },
+      {
+        "start_seconds": 2671.4,
+        "end_seconds": 2679.84,
+        "text": "Et noh, see skill nagu siis laseb mingi tööülesande läbi, okei, aga et uus agent,"
+      },
+      {
+        "start_seconds": 2679.84,
+        "end_seconds": 2686.72,
+        "text": "coopilotis siis ehk siis see on nüüd tasuta, tasuta selles mõttes, see ei ole tasuline"
+      },
+      {
+        "start_seconds": 2686.72,
+        "end_seconds": 2691.28,
+        "text": "koopilet, see on siis see, mis on, mis ta on, mingi seitseteist eurot kuus, Microsof"
+      },
+      {
+        "start_seconds": 2691.28,
+        "end_seconds": 2696.6,
+        "text": "t kolm kuus viis tavaline korporatiiv Word, Excel Powerpoint nagu pilve, pilve, pilve"
+      },
+      {
+        "start_seconds": 2696.6,
+        "end_seconds": 2700.72,
+        "text": "pakett ja see on turvapilv, on siin vähemalt on see vapike olemas, et mul on ettevõt"
+      },
+      {
+        "start_seconds": 2700.72,
+        "end_seconds": 2705.68,
+        "text": "te andmete kaitse, kirjuta midagi tagasi sinna nagu AI poole, teistes AI tarkvarades"
+      },
+      {
+        "start_seconds": 2705.68,
+        "end_seconds": 2710.72,
+        "text": "tuleb seadetes kinni keerata, ära treeni, ära saada andmeid peaks nagu kinni keerata"
+      },
+      {
+        "start_seconds": 2710.72,
+        "end_seconds": 2714.28,
+        "text": ", aga siin on vaikimisi kinni, et Microsoftile selle eest respekt."
+      },
+      {
+        "start_seconds": 2714.28,
+        "end_seconds": 2721.28,
+        "text": "Ja nii uue agendi loomiseks siis ma jätan selle mingi temaga vestlemise abil nagu sa"
+      },
+      {
+        "start_seconds": 2721.28,
+        "end_seconds": 2723.0,
+        "text": "mmulaadmise vahele."
+      },
+      {
+        "start_seconds": 2723.0,
+        "end_seconds": 2729.08,
+        "text": "Ja ma lihtsalt räägin, et, et kõige olulisem nagu agendi või assistendi kavandamiseks"
+      },
+      {
+        "start_seconds": 2729.08,
+        "end_seconds": 2734.08,
+        "text": "on see, et sa teadvustad, et tal on üks ühene kast juhiste andmiseks."
+      },
+      {
+        "start_seconds": 2734.08,
+        "end_seconds": 2741.8,
+        "text": "Ja üldiselt muu asi on mingi teabevara või selle assistendi metaandmed siis nagu nende"
+      },
+      {
+        "start_seconds": 2741.8,
+        "end_seconds": 2747.0,
+        "text": "registri pidamiseks, et noh, stiilis leiad üles oma asja, et tegelikult see kogu tra"
+      },
+      {
+        "start_seconds": 2747.0,
+        "end_seconds": 2751.72,
+        "text": "ll käib nagu instructions ümber ja täpselt samamoodi on see geminiil täpselt samamoodi"
+      },
+      {
+        "start_seconds": 2751.72,
+        "end_seconds": 2753.16,
+        "text": "on ka teistel."
+      },
+      {
+        "start_seconds": 2753.16,
+        "end_seconds": 2762.36,
+        "text": "Ja instructions puhul mina ütlen talle, et mina olen, tema on mul tekstide lü"
+      },
+      {
+        "start_seconds": 2762.36,
+        "end_seconds": 2764.48,
+        "text": "hemaks tegija."
+      },
+      {
+        "start_seconds": 2764.48,
+        "end_seconds": 2769.04,
+        "text": "Nii, tema on tekstide lühemaks tegija, okei."
+      },
+      {
+        "start_seconds": 2769.04,
+        "end_seconds": 2775.16,
+        "text": "Ja ma ütlen, et see pealkiri, mis ma annan talle ja see, mis ma kirjelduse annan tal"
+      },
+      {
+        "start_seconds": 2775.16,
+        "end_seconds": 2779.36,
+        "text": "le, see on registri pidamiseks mulle, kui meil on sada assistenti ehitatud ja ma lei"
+      },
+      {
+        "start_seconds": 2779.36,
+        "end_seconds": 2782.8,
+        "text": "an üles, mille jaoks see oli, mis ta tegi, ma ei mäleta, eks ole."
+      },
+      {
+        "start_seconds": 2782.8,
+        "end_seconds": 2786.88,
+        "text": "Et see ülemine plokk on nagu riistagi pidamine, siis ma ütlen registri pidamine aitab"
+      },
+      {
+        "start_seconds": 2786.88,
+        "end_seconds": 2788.52,
+        "text": "tekste lühendada, eks ole."
+      },
+      {
+        "start_seconds": 2788.52,
+        "end_seconds": 2790.92,
+        "text": "Viiesaja märgi peale veel parem."
+      },
+      {
+        "start_seconds": 2790.92,
+        "end_seconds": 2797.56,
+        "text": "Aitab teksti --- viiesaja märgile."
+      },
+      {
+        "start_seconds": 2797.56,
+        "end_seconds": 2802.0,
+        "text": "Ja siis noh, paneme viis, viissada."
+      },
+      {
+        "start_seconds": 2802.0,
+        "end_seconds": 2811.0,
+        "text": "Või viissada M näiteks, nii ja siis aitab Texta tekste lühendada."
+      },
+      {
+        "start_seconds": 2811.0,
+        "end_seconds": 2816.88,
+        "text": "Täpselt custom GPT-ga, chatchiby DSA moodi."
+      },
+      {
+        "start_seconds": 2816.88,
+        "end_seconds": 2824.0,
+        "text": "Nii, selle, selles cloud-s mul on, mul on eraldi skill, mis aitab skill'e"
+      },
+      {
+        "start_seconds": 2824.0,
+        "end_seconds": 2827.32,
+        "text": "teha, et see on natukene teine töövoog, aga põhimõte on nagu ikkagi sama ja nüüd inst"
+      },
+      {
+        "start_seconds": 2827.32,
+        "end_seconds": 2832.36,
+        "text": "ruction siis, mis me kõige esimesena täna üldse, kõige esimeses harjutuses kõige esimene"
+      },
+      {
+        "start_seconds": 2832.36,
+        "end_seconds": 2836.52,
+        "text": "lõik oli, mida ma jaurasin siin kogu aeg."
+      },
+      {
+        "start_seconds": 2836.52,
+        "end_seconds": 2840.96,
+        "text": "Mis sa pead andma talle?"
+      },
+      {
+        "start_seconds": 2840.96,
+        "end_seconds": 2847.36,
+        "text": "Roll, jah, roll, roll ja taust, nii et siis sa oled siis, oled siis kontoriassistent"
+      },
+      {
+        "start_seconds": 2847.36,
+        "end_seconds": 2850.76,
+        "text": "põhimõtteliselt või noh, ütleme siis tekstiassistent."
+      },
+      {
+        "start_seconds": 2850.76,
+        "end_seconds": 2856.96,
+        "text": "Oled siis teksti toimetaja."
+      },
+      {
+        "start_seconds": 2856.96,
+        "end_seconds": 2861.16,
+        "text": "Kas teksti toimetaja võib võiks olla ametikoht, kus keegi palka saab käsi püsti, nõu"
+      },
+      {
+        "start_seconds": 2861.16,
+        "end_seconds": 2864.48,
+        "text": "s, arvate ju, Arvamusfestival, jah see roll sobib."
+      },
+      {
+        "start_seconds": 2864.48,
+        "end_seconds": 2866.84,
+        "text": "Oled teksti toimetaja, väga hea."
+      },
+      {
+        "start_seconds": 2866.84,
+        "end_seconds": 2876.24,
+        "text": "Siis aitad, ütleme midagi aitab, lühendab tekste."
+      },
+      {
+        "start_seconds": 2876.24,
+        "end_seconds": 2884.64,
+        "text": "Märgini siis eesmärgiga, et"
+      },
+      {
+        "start_seconds": 2884.64,
+        "end_seconds": 2891.52,
+        "text": ", et meiliga saata."
+      },
+      {
+        "start_seconds": 2891.52,
+        "end_seconds": 2897.64,
+        "text": "Niisugune duaalne käsk talle, lühendad tekste viiesaja märgini."
+      },
+      {
+        "start_seconds": 2897.64,
+        "end_seconds": 2904.32,
+        "text": "Eesmärgiga, et meiliga saata ülevaatena edasi, siis need, okei, tundub loogiline või"
+      },
+      {
+        "start_seconds": 2904.32,
+        "end_seconds": 2904.52,
+        "text": "?"
+      },
+      {
+        "start_seconds": 2904.52,
+        "end_seconds": 2909.6,
+        "text": "Põhimõtteliselt kui siukse assistendi teed, sa saad seda pärast näiteks Outlookis, O"
+      },
+      {
+        "start_seconds": 2909.6,
+        "end_seconds": 2914.12,
+        "text": "utlooki siis rakenduses nagu esile kutsuda nagu IO assistent ja kui sul on siis tasu"
+      },
+      {
+        "start_seconds": 2914.12,
+        "end_seconds": 2921.4,
+        "text": "line, siis Copilet litsents kakskümmend kuus euri otsas lisaks Office paketile."
+      },
+      {
+        "start_seconds": 2921.4,
+        "end_seconds": 2924.96,
+        "text": "Ma ei tee siin Microsofti reklaami, et siis chat'i käib samamoodi, aga miks ma teen,"
+      },
+      {
+        "start_seconds": 2924.96,
+        "end_seconds": 2929.28,
+        "text": "kuna lihtsalt see kopilati ökosüsteem on nagu küberturvalisuse mõttes kõige-kõige nagu"
+      },
+      {
+        "start_seconds": 2929.28,
+        "end_seconds": 2935.2,
+        "text": "parem hetkeseisuga nii ja nüüd, mis on nagu väga oluline käiviti, on ju, ennem oli see"
+      },
+      {
+        "start_seconds": 2935.2,
+        "end_seconds": 2937.92,
+        "text": ", et küsi mul viis küsimust."
+      },
+      {
+        "start_seconds": 2937.92,
+        "end_seconds": 2945.6,
+        "text": "Aga praegu ma näiteks käivituks näiteks, et, et hakka kohe tööle nii kui lisan teksti"
+      },
+      {
+        "start_seconds": 2945.6,
+        "end_seconds": 2950.32,
+        "text": "on ju, ma isegi ei pea ütlema, et ma võtan oma assistendi välja, lisan teksti, see on"
+      },
+      {
+        "start_seconds": 2950.32,
+        "end_seconds": 2955.12,
+        "text": "nagu restrisse paned, saiad teeb ära, tuleb pruunid saiad, on ju, siis ehita neid as"
+      },
+      {
+        "start_seconds": 2955.12,
+        "end_seconds": 2959.4,
+        "text": "sistente niimoodi, et nad ja pärast siis, kui teed agentseid töövoogusid nende vahel"
+      },
+      {
+        "start_seconds": 2959.4,
+        "end_seconds": 2964.08,
+        "text": ", et siis üks assistent lõpetab nende failidega, annab järgmisele edasi, on ju, et siis"
+      },
+      {
+        "start_seconds": 2964.08,
+        "end_seconds": 2974.2,
+        "text": ", siis ütleme, et siis hakkad tööle."
+      },
+      {
+        "start_seconds": 2974.2,
+        "end_seconds": 2978.32,
+        "text": "Nii, lühendad tekste viiesaja märgin, eesmärg on meili saada edasi hakkad töölepe te"
+      },
+      {
+        "start_seconds": 2978.32,
+        "end_seconds": 2982.0,
+        "text": "ksti lisamist, mõnikord võib hakata tööle peale faili lisamist, ütleme kas teksti või"
+      },
+      {
+        "start_seconds": 2982.0,
+        "end_seconds": 2986.88,
+        "text": "faili või niisugune."
+      },
+      {
+        "start_seconds": 2986.88,
+        "end_seconds": 2994.16,
+        "text": "Et mul on roll juhis, mis tegema peab ja käiviti, on ju väga li"
+      },
+      {
+        "start_seconds": 2994.16,
+        "end_seconds": 2998.52,
+        "text": "htne, kõigil peaks meelde, võite pilti ka teha, kes tahab endale mälestuseks."
+      },
+      {
+        "start_seconds": 2998.52,
+        "end_seconds": 3002.92,
+        "text": "Ja siis ta peaks mul siin rõõmsalt mõtleb."
+      },
+      {
+        "start_seconds": 3002.92,
+        "end_seconds": 3006.44,
+        "text": "Create, paremal on plussmärk."
+      },
+      {
+        "start_seconds": 3006.44,
+        "end_seconds": 3010.92,
+        "text": "Assistent ja nüüd need assist, neid assistente tehakse erinevaid, ütleme, et meil on"
+      },
+      {
+        "start_seconds": 3010.92,
+        "end_seconds": 3018.08,
+        "text": "siis, ütleme siis ütleme Saumixer või mis iganes on nagu üks assistent ja ahi on"
+      },
+      {
+        "start_seconds": 3018.08,
+        "end_seconds": 3021.52,
+        "text": "teine assistent, ahi küpsetab kooki ja Saumixer on see, mis segab kokku, et siis need"
+      },
+      {
+        "start_seconds": 3021.52,
+        "end_seconds": 3025.4,
+        "text": "mõlemad on nagu assistendid, aga siis ma panen Sau Mikseri ahju tööle, et kook saaks"
+      },
+      {
+        "start_seconds": 3025.4,
+        "end_seconds": 3028.88,
+        "text": "valmis, mul on agentne töövoog."
+      },
+      {
+        "start_seconds": 3028.88,
+        "end_seconds": 3036.4,
+        "text": "Ja nüüd on niimoodi, võtan mingi faili näiteks, viimsi, vaata"
+      },
+      {
+        "start_seconds": 3036.4,
+        "end_seconds": 3045.2,
+        "text": "nüüd valla koosoleku protokoll PDF."
+      },
+      {
+        "start_seconds": 3045.2,
+        "end_seconds": 3049.04,
+        "text": "Me koosoleku protokoll File."
+      },
+      {
+        "start_seconds": 3049.04,
+        "end_seconds": 3052.36,
+        "text": "Me leiame mingi koosoleku protokolli, mida on internet täis."
+      },
+      {
+        "start_seconds": 3052.36,
+        "end_seconds": 3058.68,
+        "text": "Kogukonna komisjoni koosoleku protokoll näete, siin on kolm A4 mingit juttu."
+      },
+      {
+        "start_seconds": 3058.68,
+        "end_seconds": 3063.76,
+        "text": "Nüüd ma laen selle alla, selle faili, download's kataloogi."
+      },
+      {
+        "start_seconds": 3063.76,
+        "end_seconds": 3066.6,
+        "text": "Või noh, anname downloads'i."
+      },
+      {
+        "start_seconds": 3066.6,
+        "end_seconds": 3071.8,
+        "text": "Nii, soovitan Dowloads'i panna, mitte desktopile, et Windowsil sööb teil vahemälu ära"
+      },
+      {
+        "start_seconds": 3071.8,
+        "end_seconds": 3073.32,
+        "text": "muidu."
+      },
+      {
+        "start_seconds": 3073.32,
+        "end_seconds": 3077.44,
+        "text": "Ja siin on tekstide lühemaks tegija, seda saab ka nupkaga endale ka panna, kui sul on"
+      },
+      {
+        "start_seconds": 3077.44,
+        "end_seconds": 3081.32,
+        "text": "mingi kakssada assistenti ehitatud, siis võib-olla lemmikud top viis paned knupkaga va"
+      },
+      {
+        "start_seconds": 3081.32,
+        "end_seconds": 3086.2,
+        "text": "sakule, ta on juba olemas siin vasakul ja mul ei ole mitte muud tägi ja midagi muud siia"
+      },
+      {
+        "start_seconds": 3086.2,
+        "end_seconds": 3094.48,
+        "text": "vaja toppida, kui see allalaetud dow loads protokoll siia"
+      },
+      {
+        "start_seconds": 3094.48,
+        "end_seconds": 3096.12,
+        "text": "."
+      },
+      {
+        "start_seconds": 3096.12,
+        "end_seconds": 3098.88,
+        "text": "Fil läheb sisse, on ju."
+      },
+      {
+        "start_seconds": 3098.88,
+        "end_seconds": 3101.28,
+        "text": "Röstimata saiad röstrisse."
+      },
+      {
+        "start_seconds": 3101.28,
+        "end_seconds": 3106.88,
+        "text": "Ja siis assistent peaks tegema mulle viiesaja märgilise teksti, mida edasi saate, põhimõtteliselt"
+      },
+      {
+        "start_seconds": 3106.88,
+        "end_seconds": 3110.56,
+        "text": "nimetatakse ingliskeelses nagu executive overview."
+      },
+      {
+        "start_seconds": 3110.56,
+        "end_seconds": 3117.6,
+        "text": "Noh, sihuke --- ühe ülevaate, lühiülevaade asjast."
+      },
+      {
+        "start_seconds": 3117.6,
+        "end_seconds": 3121.44,
+        "text": "Valga kogukonna komisjon alustas Vasalemma põhikooli laste võimalikku liitumist avaliku"
+      },
+      {
+        "start_seconds": 3121.44,
+        "end_seconds": 3123.96,
+        "text": "kütuse läbimist, anti ülevaade Pakri valule."
+      },
+      {
+        "start_seconds": 3123.96,
+        "end_seconds": 3128.6,
+        "text": "Mul tundub see liiga vähe, tegelikult nagu tulemus, nagu ütlesin viissada märki on ju"
+      },
+      {
+        "start_seconds": 3128.6,
+        "end_seconds": 3134.48,
+        "text": "ja ma ütlen, et lihtsalt käsutan jällegi tee poole pikemaks."
+      },
+      {
+        "start_seconds": 3134.48,
+        "end_seconds": 3138.4,
+        "text": "Mul on tunne, et on nagu niisugust nagu kaks meililõiku või niisugune nagu infot eda"
+      },
+      {
+        "start_seconds": 3138.4,
+        "end_seconds": 3144.36,
+        "text": "stada."
+      },
+      {
+        "start_seconds": 3144.36,
+        "end_seconds": 3150.92,
+        "text": "Käsutad on ju, ei ole mingi palun, kallis sõber, assistent."
+      },
+      {
+        "start_seconds": 3150.92,
+        "end_seconds": 3157.16,
+        "text": "Põmm, noh, korras käsi püsti, kes tunneb, et niisuguse asja võiks nagu meiliga saata"
+      },
+      {
+        "start_seconds": 3157.16,
+        "end_seconds": 3158.52,
+        "text": "edasi?"
+      },
+      {
+        "start_seconds": 3158.52,
+        "end_seconds": 3164.6,
+        "text": "Onju et see on siis näide sellest ja siis ma ei tea, kas see korraldajad kuidagi seda"
+      },
+      {
+        "start_seconds": 3164.6,
+        "end_seconds": 3168.44,
+        "text": "esitlust nagu jagavad ka, et kellega, otsige mind internetist ülesse, kui on vaja, et"
+      },
+      {
+        "start_seconds": 3168.44,
+        "end_seconds": 3174.84,
+        "text": "ma kuskile LinkedIn-is võin teile siis selle failina ka jagada ja siis on selle agendi"
+      },
+      {
+        "start_seconds": 3174.84,
+        "end_seconds": 3178.64,
+        "text": "loomise need sammud, mida ma tegin."
+      },
+      {
+        "start_seconds": 3178.64,
+        "end_seconds": 3182.6,
+        "text": "Et, et saatke mulle LinkedInis teade, et ma saadan tagasi teile failina või korralda"
+      },
+      {
+        "start_seconds": 3182.6,
+        "end_seconds": 3195.2,
+        "text": "jad ka saadavad, aga siin on need sammud, mis ma tegin selle assistendi loomiseks."
+      },
+      {
+        "start_seconds": 3195.2,
+        "end_seconds": 3204.16,
+        "text": "Ma annan Ai positiivne jah, ma aktseptin seda."
+      },
+      {
+        "start_seconds": 3204.16,
+        "end_seconds": 3210.44,
+        "text": "Vot see on see, kui ta paneks sinna alguses kirja alguses ühe lõigu oma inimliku nagu"
+      },
+      {
+        "start_seconds": 3210.44,
+        "end_seconds": 3216.0,
+        "text": "sissejuhatust kirja lõppu kokkuvõtteks ühe lõigu inimliku sissejuhatuseks ja see koos"
+      },
+      {
+        "start_seconds": 3216.0,
+        "end_seconds": 3221.12,
+        "text": "oleku protokolli sisu on seal vahel, siis ma tõenäoliselt, no kui ma näen seal mingi"
+      },
+      {
+        "start_seconds": 3221.12,
+        "end_seconds": 3226.24,
+        "text": "Estinglish on vahepeal, eks ole, siis ma saan aru."
+      },
+      {
+        "start_seconds": 3226.24,
+        "end_seconds": 3231.48,
+        "text": "Siin ma ikkagi, ma, ma arvan, et ma kõiki asju ei tunne ära, aga kui niimoodi, et sisse"
+      },
+      {
+        "start_seconds": 3231.48,
+        "end_seconds": 3234.6,
+        "text": "juhatav lõik ja kokkuvõttev lõik on ka nagu AI poolt tehtud, siis ma tavaliselt tunne"
+      },
+      {
+        "start_seconds": 3234.6,
+        "end_seconds": 3238.52,
+        "text": "n ära."
+      },
+      {
+        "start_seconds": 3238.52,
+        "end_seconds": 3245.2,
+        "text": "Ei, ta teeb ikka seal jääb nagu seda seal on see, et ka sinu, sinu liha nagu noh, si"
+      },
+      {
+        "start_seconds": 3245.2,
+        "end_seconds": 3248.56,
+        "text": "nu, sinu hinge ei ole seal sees, et noh, selles mõttes su kolleegid teavad, et sa ta"
+      },
+      {
+        "start_seconds": 3248.56,
+        "end_seconds": 3253.84,
+        "text": "valiselt räägid kohvinurgas kogu aeg ütled, et ma ei tea, mingi nagu sõna kasutan mi"
+      },
+      {
+        "start_seconds": 3253.84,
+        "end_seconds": 3257.92,
+        "text": "ngeid parasiitsõnu, et siis tõenäoliselt vaadatakse meedias ka väga palju nagu sõnasid"
+      },
+      {
+        "start_seconds": 3257.92,
+        "end_seconds": 3263.6,
+        "text": "ja ei tule, et siis tehtud."
+      },
+      {
+        "start_seconds": 3263.6,
+        "end_seconds": 3277.96,
+        "text": "Nojah, jah."
+      },
+      {
+        "start_seconds": 3277.96,
+        "end_seconds": 3285.36,
+        "text": "Ja, ja ikka jah, see ettekanne oli õige tehtud."
+      },
+      {
+        "start_seconds": 3285.36,
+        "end_seconds": 3289.0,
+        "text": "Aga selles mõttes, et mina toimetasin kõik laused üle, tähendab, et kas Andres räägi"
+      },
+      {
+        "start_seconds": 3289.0,
+        "end_seconds": 3291.28,
+        "text": "ks seda või ei räägiks."
+      },
+      {
+        "start_seconds": 3291.28,
+        "end_seconds": 3296.64,
+        "text": "Kas ma usun, et see info on siis slaidide peal Arvi poolt tehtud tõene või mitte?"
+      },
+      {
+        "start_seconds": 3296.64,
+        "end_seconds": 3298.96,
+        "text": "Et see on jah."
+      },
+      {
+        "start_seconds": 3298.96,
+        "end_seconds": 3302.68,
+        "text": "Aga need tähevead, mis seal näiteks mul sõnaviga oli, see oli nagu ini- , kuna ma to"
+      },
+      {
+        "start_seconds": 3302.68,
+        "end_seconds": 3308.96,
+        "text": "imetasin selle lause kiiresti ümber, siis."
+      },
+      {
+        "start_seconds": 3308.96,
+        "end_seconds": 3314.36,
+        "text": "No näiteks ja, ja selles mõttes, et on jah, aga meil on see, kus see seitsmekümnenda"
+      },
+      {
+        "start_seconds": 3314.36,
+        "end_seconds": 3317.28,
+        "text": "te mikrofon on siin juhtme otsas."
+      },
+      {
+        "start_seconds": 3317.28,
+        "end_seconds": 3323.24,
+        "text": "Et kuna on siin Arvamusfestival, ma korra siin vajutan."
+      },
+      {
+        "start_seconds": 3323.24,
+        "end_seconds": 3328.4,
+        "text": "Kuna meil on homme ka koolituspäev, siis teg- , et Bil Mari ütles, et nagu hea töö on"
+      },
+      {
+        "start_seconds": 3328.4,
+        "end_seconds": 3329.76,
+        "text": "ju, sellega on hästi."
+      },
+      {
+        "start_seconds": 3329.76,
+        "end_seconds": 3333.64,
+        "text": "Aga et siis väike tagasiside ka tänase sessioonile, et see on homse ettevalmistuseks"
+      },
+      {
+        "start_seconds": 3333.64,
+        "end_seconds": 3338.24,
+        "text": "ja siis meil on mingi seitsme seitsmendate mikrofon siin."
+      },
+      {
+        "start_seconds": 3338.24,
+        "end_seconds": 3342.44,
+        "text": "Et siis, kes tahab midagi küsida, et siis ma saan nagu vastata, et tulge siia."
+      },
+      {
+        "start_seconds": 3342.44,
+        "end_seconds": 3344.84,
+        "text": "Küsige."
+      },
+      {
+        "start_seconds": 3344.84,
+        "end_seconds": 3350.0,
+        "text": "Teised kuulevad ka."
+      },
+      {
+        "start_seconds": 3350.0,
+        "end_seconds": 3356.48,
+        "text": "Ma küsin, mul on huvi häkke, ütelge siis neid sõnu, millega te ära tunnete, et noh, neid"
+      },
+      {
+        "start_seconds": 3356.48,
+        "end_seconds": 3360.96,
+        "text": "nüansse, millega, et oh, see on aega tehtud, tüüpilisi, vaata ma lugesin niisugust ar"
+      },
+      {
+        "start_seconds": 3360.96,
+        "end_seconds": 3369.4,
+        "text": "tiklit, et see pole mitte nii, see on nii ja pelgalt ja niisugused sõnad."
+      },
+      {
+        "start_seconds": 3369.4,
+        "end_seconds": 3375.84,
+        "text": "Ma tahaks ühte mingit sellist, ma tahan igas lõigus mingit, mingit eestlaslikku maitse"
+      },
+      {
+        "start_seconds": 3375.84,
+        "end_seconds": 3381.84,
+        "text": "kat nagu slängi näha ja kui on kõik väga korrektne või kuidagi ma isegi näen, et me siin"
+      },
+      {
+        "start_seconds": 3381.84,
+        "end_seconds": 3385.6,
+        "text": "intellektuaalid või mis iganes, neil on oma mingisugused slängid."
+      },
+      {
+        "start_seconds": 3385.6,
+        "end_seconds": 3390.48,
+        "text": "Kui ma ei leia neid, siis ma üsna tavaliselt."
+      },
+      {
+        "start_seconds": 3390.48,
+        "end_seconds": 3394.6,
+        "text": "Ja, ja jah, ma ei leia, siis tundub, et on AI, jah, jah."
+      },
+      {
+        "start_seconds": 3394.6,
+        "end_seconds": 3399.04,
+        "text": "Nii küsige veel, meil on siin ja andke tagasiside ka, et meil homme on samasugune üri"
+      },
+      {
+        "start_seconds": 3399.04,
+        "end_seconds": 3403.28,
+        "text": "tus, et äkki lihvime või midagi."
+      },
+      {
+        "start_seconds": 3403.28,
+        "end_seconds": 3405.44,
+        "text": "Ja samasugune asi ja see."
+      },
+      {
+        "start_seconds": 3405.44,
+        "end_seconds": 3408.88,
+        "text": "Neli saatke oma sõbrad siia istuma."
+      },
+      {
+        "start_seconds": 3408.88,
+        "end_seconds": 3415.52,
+        "text": "Tule siia, no see venib sinna poole tooli hunnikuni, et sa võid natuke tagasi minna sellega"
+      },
+      {
+        "start_seconds": 3415.52,
+        "end_seconds": 3418.24,
+        "text": "teine lugu."
+      },
+      {
+        "start_seconds": 3418.24,
+        "end_seconds": 3422.76,
+        "text": "Tuttav oli, et just vastu pidades, ta sai märkuse, et miks sa mulle AI-ga kirjad kirjuta"
+      },
+      {
+        "start_seconds": 3422.76,
+        "end_seconds": 3427.68,
+        "text": "d, polnud AI-d elu sees kasutanud."
+      },
+      {
+        "start_seconds": 3427.68,
+        "end_seconds": 3435.0,
+        "text": "Et jälle see, et jah see ongi see, et kui sa oled harjunud ka"
+      },
+      {
+        "start_seconds": 3435.0,
+        "end_seconds": 3441.8,
+        "text": "kolleegilt sellist nagu armastusega tehtud, isegi kui ta võib olla väga kriitiline või"
+      },
+      {
+        "start_seconds": 3441.8,
+        "end_seconds": 3445.96,
+        "text": "mis iganes, sa tunned ära, et kas sellesse kirja on nagu doseeritud sellist armastus"
+      },
+      {
+        "start_seconds": 3445.96,
+        "end_seconds": 3451.08,
+        "text": "t teise inimese vastu, aga nagu AI-lt ei tule seda, et see kuidagi ei saa aru."
+      },
+      {
+        "start_seconds": 3451.08,
+        "end_seconds": 3457.4,
+        "text": "Küsige."
+      },
+      {
+        "start_seconds": 3457.4,
+        "end_seconds": 3461.8,
+        "text": "Arvamusfestival on, ega siin ei ole mingi vaikusfestival."
+      },
+      {
+        "start_seconds": 3461.8,
+        "end_seconds": 3467.64,
+        "text": "Me enne rääkisime sellest, et, et AI lihtsustab meie, ei võta meie tööd ära, vaid lihtsalt"
+      },
+      {
+        "start_seconds": 3467.64,
+        "end_seconds": 3468.88,
+        "text": "mingil määral lihtsustab või."
+      },
+      {
+        "start_seconds": 3468.88,
+        "end_seconds": 3469.96,
+        "text": "Mingid lõigud on."
+      },
+      {
+        "start_seconds": 3469.96,
+        "end_seconds": 3477.16,
+        "text": "Mingid lõigud võtab ära, aga mis te arvate sellest, et tänu sellele tööandja oo"
+      },
+      {
+        "start_seconds": 3477.16,
+        "end_seconds": 3482.6,
+        "text": "tus töötajale on tõusnud tootlikkuse osas ja võib-olla natuke ebareaalselt tõusnud, et"
+      },
+      {
+        "start_seconds": 3482.6,
+        "end_seconds": 3485.24,
+        "text": "nii palju ta ka ära ei võta, kui oodatakse?"
+      },
+      {
+        "start_seconds": 3485.24,
+        "end_seconds": 3489.28,
+        "text": "Et vastupidi nagu töötaja stress on tegelikult suuremaks läinud."
+      },
+      {
+        "start_seconds": 3489.28,
+        "end_seconds": 3493.48,
+        "text": "Jah, võid hoida mikrofoni, muidu mul hakkab siin kajama."
+      },
+      {
+        "start_seconds": 3493.48,
+        "end_seconds": 3498.44,
+        "text": "Ma just tõin siia Kerlin Tiigemäega, meil oli podcast, ta rääkis natuke AI läbipõlemise"
+      },
+      {
+        "start_seconds": 3498.44,
+        "end_seconds": 3499.32,
+        "text": "st."
+      },
+      {
+        "start_seconds": 3499.32,
+        "end_seconds": 3505.44,
+        "text": "Kus inimesed, kes ei oska AI-d kasutada hästi või tõhusalt, kardavad tööst ilma jääda"
+      },
+      {
+        "start_seconds": 3505.44,
+        "end_seconds": 3505.56,
+        "text": "."
+      },
+      {
+        "start_seconds": 3505.56,
+        "end_seconds": 3511.92,
+        "text": "Ja teistpidi inimesed, kes kasutavad, kui nad kardavad enda nagu valesti kuidagi kasuta"
+      },
+      {
+        "start_seconds": 3511.92,
+        "end_seconds": 3519.64,
+        "text": "vad, et nagu, nagu, nagu kaks, kaks nagu äärmust ja, ja noh, seal seal ongi, no mul ül"
+      },
+      {
+        "start_seconds": 3519.64,
+        "end_seconds": 3527.16,
+        "text": "diselt tundub, et täna ostetakse mingisugune odav Skilseri koolitus, kus mingi indu seal"
+      },
+      {
+        "start_seconds": 3527.16,
+        "end_seconds": 3531.04,
+        "text": "väga segases keeles üritab nagu õpetada."
+      },
+      {
+        "start_seconds": 3531.04,
+        "end_seconds": 3536.24,
+        "text": "Ja siis palun litsents kõigile kakskümmend üheksa EURi kuus ja õppige versus see, et"
+      },
+      {
+        "start_seconds": 3536.24,
+        "end_seconds": 3541.32,
+        "text": "siis kutsuda minu kolleeg mõni või mina või mingi professionaalne koolitaja sisse, et"
+      },
+      {
+        "start_seconds": 3541.32,
+        "end_seconds": 3544.8,
+        "text": "siis organisatsioonid on korralikult sisekoolitused teha, nii nagu tehti Excelile oma"
+      },
+      {
+        "start_seconds": 3544.8,
+        "end_seconds": 3551.36,
+        "text": "l ajal või mis iganes Google'ile, et, et ma näen, et paljud organisatsioonid nagu kooli"
+      },
+      {
+        "start_seconds": 3551.36,
+        "end_seconds": 3557.32,
+        "text": "tamise koha pealt nagu ei investeeri ikkagi piisavalt ja see, et noh, te nüüd peate tõ"
+      },
+      {
+        "start_seconds": 3557.32,
+        "end_seconds": 3562.88,
+        "text": "husamalt tööle hakkama ja kasutage AI-d ja siis seal on, esiteks on see, kui hästi nende"
+      },
+      {
+        "start_seconds": 3562.88,
+        "end_seconds": 3567.76,
+        "text": "tööprotsess EuroopaI direktiivi suhestub nendele reeglistiku, eks ole, diskrimineeri"
+      },
+      {
+        "start_seconds": 3567.76,
+        "end_seconds": 3572.2,
+        "text": "mised ja kõik asjad, mis seal nagu on ja tegelikult noh, juhtkonnad ei tea seda, nad"
+      },
+      {
+        "start_seconds": 3572.2,
+        "end_seconds": 3573.88,
+        "text": "pole ise ka ennast koolitanud."
+      },
+      {
+        "start_seconds": 3573.88,
+        "end_seconds": 3576.44,
+        "text": "See hakkab nagu peast pihta."
+      },
+      {
+        "start_seconds": 3576.44,
+        "end_seconds": 3582.36,
+        "text": "Sellepärast me koolitame teda siin."
+      },
+      {
+        "start_seconds": 3582.36,
+        "end_seconds": 3585.76,
+        "text": "Nii küsimus."
+      },
+      {
+        "start_seconds": 3585.76,
+        "end_seconds": 3590.84,
+        "text": "Tervist, mul ei ole isegi võib-olla nii palju küsimus kui sama asi, et vastu kajada ja"
+      },
+      {
+        "start_seconds": 3590.84,
+        "end_seconds": 3596.36,
+        "text": "võib-olla isiklikust perspektiivist just varasemast kogemusest töötades, et samamoodi"
+      },
+      {
+        "start_seconds": 3596.36,
+        "end_seconds": 3601.8,
+        "text": "tööandjal on olnud palju suure eelduse, et nüüd võtavad kõik meil ettevõttes kasutus"
+      },
+      {
+        "start_seconds": 3601.8,
+        "end_seconds": 3607.2,
+        "text": "ele ai ja jube kiireks muutuvad kõik protsessid, hakkame tööd, loomingulist tööd sama"
+      },
+      {
+        "start_seconds": 3607.2,
+        "end_seconds": 3610.92,
+        "text": "moodi, mõõtma töötundides."
+      },
+      {
+        "start_seconds": 3610.92,
+        "end_seconds": 3613.68,
+        "text": "Ja näiteks Jira punktides, mis on tuttav."
+      },
+      {
+        "start_seconds": 3613.68,
+        "end_seconds": 3617.64,
+        "text": "Aga probleemiks on saanud see, et tihtipeale just väiksemates ettevõttes samamoodi, kui"
+      },
+      {
+        "start_seconds": 3617.64,
+        "end_seconds": 3623.24,
+        "text": "me räägime näiteks turundustegevustest, müügitegevustest, ei ole paljuski ära defineeritud"
+      },
+      {
+        "start_seconds": 3623.24,
+        "end_seconds": 3624.96,
+        "text": "tegelikult see tööprotsess."
+      },
+      {
+        "start_seconds": 3624.96,
+        "end_seconds": 3627.88,
+        "text": "Mis me täna proovisime sinka-munka usina teha."
+      },
+      {
+        "start_seconds": 3627.88,
+        "end_seconds": 3634.36,
+        "text": "Täpselt ja et, et kui me tahame kirjutada ikkagi näiteks mingit artiklit, et see toimu"
+      },
+      {
+        "start_seconds": 3634.36,
+        "end_seconds": 3640.08,
+        "text": "ks kiiresti AI-ga, kui meil ei ole teada, kellele me seda täpselt kirjutame, mis on siis"
+      },
+      {
+        "start_seconds": 3640.08,
+        "end_seconds": 3644.6,
+        "text": "artikli eesmärk defineeritud, kuidas me peaksime kõlama, siis tulebki see, mida kõik"
+      },
+      {
+        "start_seconds": 3644.6,
+        "end_seconds": 3646.96,
+        "text": "nimetavad selleks AI slopiks on ju."
+      },
+      {
+        "start_seconds": 3646.96,
+        "end_seconds": 3651.92,
+        "text": "Et väga selgelt peab olema organisatsioonis arusaam sees, mida, kellele, mis ja mille"
+      },
+      {
+        "start_seconds": 3651.92,
+        "end_seconds": 3653.12,
+        "text": "pärast tehakse."
+      },
+      {
+        "start_seconds": 3653.12,
+        "end_seconds": 3658.0,
+        "text": "Täpselt väga hea tähelepanek, aga teeme ühe piduliku aplausi iseendale, kõik olid väga"
+      },
+      {
+        "start_seconds": 3658.0,
+        "end_seconds": 3671.825,
+        "text": "asjalikud ja hea töö."
+      }
+    ]
+  }
+}

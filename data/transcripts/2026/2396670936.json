@@ -1,0 +1,4171 @@
+{
+  "schema_version": 1,
+  "episode": {
+    "id": "2396670936",
+    "rss_guid": "tag:soundcloud,2010:tracks/2396670936",
+    "title": "Kas Eesti on valmis järgmiseks kriisiks, mis ei tule tankiga_ Keemilised, bioloogilised, radioloogilised ja tuumariskid",
+    "published_at": "2026-09-08T11:21:41Z",
+    "apple_collection_id": 1477431807,
+    "page_url": "https://soundcloud.com/arvamusfestival/kas-eesti-on-valmis-jargmiseks-kriisiks-mis-ei-tule-tankiga_keemilised-bioloogilised-radioloogilised-ja-tuumariskid-8",
+    "audio_url": "https://feeds.soundcloud.com/stream/2396670936-arvamusfestival-kas-eesti-on-valmis-jargmiseks-kriisiks-mis-ei-tule-tankiga_keemilised-bioloogilised-radioloogilised-ja-tuumariskid-8.mp3",
+    "audio_bytes": 71631182,
+    "audio_sha256": "ba4cbf0516f2baeccd6653c9710ee0746b8e33b8a1d2aa989462c17a095c81d5",
+    "duration_seconds": 4476.0
+  },
+  "transcription": {
+    "model": {
+      "name": "large",
+      "repository": "TalTechNLP/streaming-zipformer-large.et-en",
+      "revision": "2812262bd4fd5d4327dc09ca0e6c19e8a32a03d6",
+      "precision": "int8"
+    },
+    "runtime": {
+      "sherpa_onnx": "1.13.7",
+      "decoding_method": "modified_beam_search",
+      "threads": 4
+    },
+    "text": "Okei, kuid afternoon good evening ladies and gentleme. In my lifetime, this is a second time, I mean, I won's festival I feel really like a very experienced person happen here before also have seen other thing. We are going to be a very relaxed panel and we are going to speak about the things that hopefully would never happen to you. I the first thing I have to do is probably introducing myself. My name is Ali Russili, and I work in Estonian University of Life Sciences. And you may think what does have life sciences do with CBR and threat. I think the answer is very, very simple. Everything that you are hearing here is going to be bad for your health. Hence, as a result of that, we all for your life, even. We don't want to somehow have any of this happening to you. And during this panel, we would hear how much Estonia is prepared to deal with this issues and maybe even we go a bit out of the Estonia and we will see also how much in Europe with prepared for it. We have experts here that our internationally announceable it. And maybe also here what we have to do, what we have not to do or what we are doing right, what we are not doing. Actually, is there anything we do in Estonia that can be an example for other parts of Europe that is also what we are going to speak about. But the first job, I think is to introduce the panelists and to ask them to introduce themselves and if we can ask for our lady, the first if you can please introduce your sufferely card that would be great. Thank you. Good evening. Pleasuring honor to be here today. My name is Reelika Runnel. I work as an advisor in Estonian ministry of the Interior. And the responsible for developing Estonian National Framework for nuclear security and emergency preparedness and response. I have a world more than eighteen years of experience dealing with radioactive materials and nuclear safety unsecurity. That has. And historic that had been responsible for in Estonia for everything that is even remotely, like connected to radio activity, starting from radioactive gas raidon, which is naturally occurring an Estonian soil to nuclear weapons. So because I possess such like a unique knowledge for rest of the Estonians, I have also in the nickname the radiactive Witch in Estonia. Or the past six years, the nuclear, which Pence Estonia is embarking country and we're hoping to deploy nuclear our first nuclear power plant in a form of a small modular reactor by the end of two thousand thirty-five. Thank you. Thank you very much. And from non, you are nuclear wach. After the nuclear reach, we know we are go to me how please. Good evening. Okay. Good evening. My displeasure to be here. My name is Mihal Biack and I am representing university of Lotz from Poland that is one of the biggest university in Poland, located in the central of the Polland at the University of Lordsi and the head of the Biohasa Provention center, but I am also working in the second University of University in this town Medical University of lots where I am the head of the CB safety laboratoris, I'm trying to combine different aspects from the whole sebieran to CBR and medical also counter. Measures from the myse fears Galvesion I'm biologist, molekularbiologist, but I also graduated the military academic in the weapon of Musdestruction science, I was, or topic two thousand forty, I'm involved in many activities related to protect public spaces and again, of course involving into front autoractius ready to the CBR and response, preparation, as well as development of the new technologies which can be. Thank you. Thank you very much. Good eating, my name is Jan Raidlo. I'm coming from also from Ericity, Internal security Academy and priviously I was working for twelve years in Estonian Rescue services, agency. Theresabiran Service, Seaber and service Manager and as a responder. My name is Olgert, I work in Estonian Internal Security Service. We have in their small CBRN unit, so we are the first responders if something happens in Estonia with related to the attack face of CBRN attack would happen and our team would be also they are in the scene. Okay, when we think about CBR and for examplemicall biological radio, logical such kind of even nuclear thank you. You know, you don't relate to it. It is not something that every day when you go to the supermarket you buy I don't know you got or you buy something you think, what does have to do with me or it's us. Okay, when I was a kid, I was growing up, heard in Boopal in India, half of the city didcope lined as as a result of a chemical spilage in from factory or maybe I don't know, fifteen years ago, there was tsunami in Japan Fukushima one hundred thousand people died. But does it have to do anything with me in here in Estonia, it is such a nice place we have one point three million people in a country in the size of Netherland, so beautiful Vesland. Relico, what you think? Well yeah, if it's, although that difficult to associate like nature catastrophies that have happened so around the world with yourself-personally sometimes, although in Estonia, if you mentioned like radiation, then automatically people think about journable. And the fear of radiation like Rose also when the Fukushima accident happened, although it was very, very far. But if in Estonia, in a country were currently we have no operating nuclear power plants and nuclear accidents on our territories are not possible. And even if there's an exce it would be an accident in a neighboring country, then the radiation levels would not be life-fretting. Although in Estonia, we have radiation like practices. We have medical facilities, industrial facilities that are using radioactive materials. So incidents are accidents with the radioactive materials in Estonia, are possible and well the freat, although it's the posibility is small, the freat is there. And historically, ashley, in Estonia, we had a case in nineteen ninety-four. It was a time where Estonia had a couple of years early at regained its independence after the Soviet Union collapsed. And the control mechanisms were not fully established. And the physical protection measures of radioactive sources were far from ideal and that we have today, we're restrict, very strangent rules and standards and surveillance. And during that time, metal theft was pretty common. People were still metallic items scrap metal at Juselley descrip metal yards and some money. And there free brothers who broke into the radiactive waste facility in Estoning dumical, it's glos to Tallinn. And they were looking for like some like metal to sell. One of them, they've found a very nice shiny cylinder, really small and put it in his back pocket. And they didn't take this item to the scrap medal yard and teachers put it in his kitchen drawer. But we're ready a couple of hours after the break-in. He was an old feeling well. He was growing up and generally he said headaches and it had within. He laid in bed. And he also had injured his leg during the break-in because one of those heavy containers fell in his foot during the break-in. And the next day, he just decided to go to the hospital. But since he was, like visibly very ill, he was hospitalized. And about week later he passed away. His situation got worse and worse in a doctors had no clue what had happened. And a couple of weeks passed and a firteen-year old boy but lived in the same house found this cylinder in the kitchen drawer and used it as a hammer to repair his bike. A couple of days later, radiation burns, burdens appeared on his hands and he was also hospitalized. And then, Dr. Suspecting that something was going gone. And they called experts in other countries. And then risk you service agency, went to the scene and police as well. And their radiation like monitorism, measuring devices were how link. They were beeping, their radation level outside the house was already that high. And then the source was recovered and there were no like other human victims, the family dog who stayed in the kitchen, most at the time also passed away. In addition, there was this grandmother also like not long after the incident passed away, but this cannot be directly attributed the radiation. But the fact is, although those things and incidents are rare and this was not not like they didn't steal those sources with an intention to us this militiously, but you can, without having a knowledge, without thinking, you can create a lot of damage and it has health consequences. And if since they're haven't been such many case, so many cases in the world, if you Google like incidents that are related or deaf cases with the involving radiation, unfortunately Estonia is also mentioned there. So this cases are rare. But that is the reason why we're going to have to think about those risks, those concerns. See be or N, chemical biological radiological and nuclear risks and the ways how to mitigate it so that things like that, that happened like nineteen ninety-four would never happen again. Thank you. Thank you very much. It was, yeah, this is another time if you taking Vikipedia of what is important about Estonia, you can also see this unfortunately. But all get, what do you think if something like this happened today or it doesn't need to be only nuclear. It can be also, I don't know. Would it happen? Would there be situation that some boys can just break into a factory and it still something and what do you think? Is there a chance that something like this can happen again? No, it's very difficult to say but I think it's it's possible because a lot of chemicals and everything is quite openly away available. And if you look at internet there is a lot of also possibilities to learn how to do some homemade from homemade chemicals something, or use some different, different, jah, different possibilities to do that, so it's, it's not something that it's never going to happen. It's VSA it's not if, but when. And we tried to be prepared for that and hopefully in that scale, it would not happen that we would be in the first pages of, in the world news again hopefully. But we have done quite a bit work to be ready to respond in there and I think in the, since we have, have mostly accident cases. I think the rescue services persons can, can explain a little bit more, but we are mocusing, focusing mostly on the intsident, et can happen if somebody wanted to attack some, some crowded places or go somewhere. And, and yeah, do some bad things, so for that, I think, what we need is definitely education and explain to this threat, to the all population as well, so that's why it's good to be here and to discuss those, those issues so. Thank you. Thank you. Please. The picture the grab also was in Sarah, the low polnud village, where the detectorists who hobbiest, who look for different kinds of war memorrobilia. Et cetera found six parents, metal paralls, it looked just like a barrels, holds inside, some kind of material, coming out of that, sand with some oil substance. So, and it was left there. Later, it was reported to environment report who sent just a regular. Regular team to take a sample. So, they do sample, sent the sample to sent a sample to the lab, they do sample with miinimum safety precussions. And later if the lab results came that this is more for chemical. There is in the sample is warfare chemical house parts so that this, this parts contained for chemical. And of course, the people who do the samples were also worried. You can have a contact just by, by itself, without any how to say intentions. Ja jõuluorganization are the preparative something like this happens to help these people? Yes, as we are repaired. Also, capability to take it away of the environment which we did. Sorry, we had some international head as well as opposiW was also investigating this part and they assisted us to how to decontaminated correctly. I think that I can also talk about the, I will say, very similar examples from Poland. Yes, maybe not international, but from Pollant, yes, but the impact was, very huge impact on the environment because the cost both, where mostly related to the decontamination of the and recovery the environment. First, okay, according a radiological sources, we also had a fewer, few cases that scrub metal, stolens from containers which are radical soland cobalt sixty rat geography equipment dedicated for the industry ja seda company know that somebody has stolen this or they call the police and police started investigation. And hopefully police found them, I will say on the moment when they started to cut this radiological sources. So the problem was that they start to cut it this and compaminated huge area, it was very low sources so without any that potential danger for the everybody, but the contamination of the area and the reco very dis area cost few millions of Euro and a lot of time of our services. And the second related to young, example of which young presented. So what do? We will turn them to the scrub metal collectors. And they started turning this borrows from the forest. And of course, the bar start likige, yes, and after, two or two hours, the persons who was turning this, started to have some problems with his lack. And they left it, went to hospital, and of course, at the burning of the legs were typical for the soul for Mustart. And of course, the services because the doctor in the hospital huts from knowledge about the hemical ware edges and informat the service. Of course, according that was the military occuring of the, of the sources of the military was involved in that. But time when and distance where they turning this borrow, contaminated few kilomeeter, square kilometers of the forest, of course, the process of the recovery of collecting the probes. And everything was highly costly for the our services. So, okay, we can also think about the Siber and not only in the, I would say, massive casualties of the persons. Excellent. Okei, now I think hopefully all of your convinced with the history that you have heard here, it is not some, okay. We don't think it would happen every day, but at any time any moment can happen. In addition to that, I have heard so many in many of the panas I was here today. Everyone is a speaking about Russia. I have nothing against Russia, but the fact remains that we are in peace, but it is also a var situation, any of the CBR and issues that we think can be weapons of mass destruction VMW. That is somehow the way that we can think about it. Now, arvamusfestival is not going to be analyzis of, okay, what is the weapon of my session or how this or that. We want to know vary a stand to defend ourselves to protect ourselves and if we have problems, how can we go further and maybe remedy them? And this regard, it is also all of you, please take part in the discussion if you have any questions or any opinions just put your hands up where it would be very happy to answer. And on that particular issue very astand, very we are we good in protecting ourselves. I think Mihahall is probably since he's looking at it. Mihahall is an outside to us in Estonia. But he is very well known professional in this subject. What do you think about Estonians the way that they are handening CBR and what do you think are they a streng point and what do you think is their viunerabilities? What where they are reach? What is Europinion? So the first what I can say about the Estonia is the great structure of the preparation of the responsibility of the service. Yes, you have rescue service, you have couple which is responsible, which has own you seen Union, yes. You have support for the ministry of interior. The structures, structure-resided, responsibilities, what in my opinionist, in Estonia is very well prepared and is working very well because of course, I am outside and I only know some from exercises or some from other assources, from seminars, how, how it's works in Estonia. But when I see this all presentation in or this discussion, I see that everything is on the right site of the preparation. Of course, according the threats, yes, we all, all I think Balticssisted or states with are now in the situation with the hybrid threats yes we have problem with drones or different other sectors related to critical infrastructure. So I think that the threat can be covered also is used the drums or some to dispers agent or to small attack on the tanks of the critical infrastructure. And making something like Bopal, yes. If you put the explosive drone, yes, the drone with a small explosive material and to go to the critical and for chemical, critically infrastructure, which has some thanks with the dangerous substances. Disaster. So this is my point of view that all of I think all countries need to think how to fight againstrome and think how to the drones can be used all so for the CBN threats. Thank you. Reelika, what do you think about this?nesses or what are a strong point in Estonia? Well, I think that we'll regardless the Estonia is a very small country. We are actually very well prepared for different scenarios and risks. We have good expertise, trained people. But at the same time, of course, our resources of every limited. So if there is of every large scale event, then it would not take very long time. And since the number of people who possess this expertise and CBS and matters is also quite small. So there are very like little chances to replace them. And of course, yeah, and developing or like upholding of very this resilient and sustainable CBRN framework is definitely a challenge for Estonia. But it's not a challenge only for Estonia. The challenge everywhere. But I think that overall, we are the pretty well prepared and we are aware of the risks and the capab of assessing them adequately. Well, but of course, question is how to be prepared for the risks and situations that we cannot predict or assess that those so already mentioned like future technologies can bring the use of forth official intelligence, cybersecurity risks that can also be used to organize the CBN event. And this emerging technologies on man systems, drones that is the question that we will have to address definitely. Thank you. I get a bit as scared because you know, all these kind of things artificial intelligence thrones everything I look at them, I like them. I want to book I want to have a drawn at any or so, but at the same time, when I hear from you guys, it is somehow, okay, you are constantly thinking how you can protect us from? Well, actually, we can use the same technologies also to protect ourself of CBR incidents. And it use AI on man systems and different cybersecurity measures to mitigate those risks. But what I wanted to say is just, yeah, that we cannot take a break from developing how we're CBRN framework. It has to be constant. Like allowing maybe AI to make some like predictions or describe some scenarios. We today's risks might be to more safety and security. So it's important and CBRN area as well to continue learning and continue their capacity building and acquiring new knowledge to keep us up to date and just one step ahead from terrorist groups or like malicious persons who might also use same technologies to plan some attacks. Thank you. Thank you. Then main issue may be as compositive building. We need to increase the number of the people that are of potential sebiraniship and we write all get. Is that also what you think is important for us? Definitely and one partist education, but I'm coming back from the IA point of few that I wrote to diven for myself some notes and that at the moment in the Europe, there is a lot of discussion about AI possibilities to use this like just writed myself that this I are grating new challenges for terrorist prevention by lowering, traditional barriers, for example, blogical experimentation, that is, I systems can now disain proteins and predict molecular structures with the high precision potentially generating thousand of novel variants of toxic proteins that could evide existing DNA syntesic screening protocols and so on so there is a lot of discussion on going and in the European level so how we can protect and I think, hell can go also say some words about it and then I am coming back to this where we want to go and how much person el we would need to respond to that. Yeah so we started, I was at this topy guar again, it's the new technologies yes we need also look for the wallues materials which are in the biotechnology sector, molekulal biology sector, because now we have also available on the market, DNA printers, which, yes, create for you some DNA which you can in easy way, incorporate in the cells, in the yelts, even yes and start producing some toxic proteins, yes. But in case of malicias, there is a lot of new technologies, of course, some of them are very expensive, but of course, if we are fighting against organized terrorist, this is not problem. But also you can find very simple kids to produce the new pathogens of something like that to retrate that. Yes, they payper was published in science magazine about the first incidents of creating viiruses by AI. Not just imagine. The COVID was amade hand, human made virus or was it naturally coming from zonosis. So hence, okay, this is the world that we are in it. And this is the life and this is. What should we do or how should we have, what should we do to a strengthen hours of what is your lemmis? Now we looked at our mission is very specific, we are going to the crime sym is something is already happened and then we try to investigate it, collect evidences and so on, but this is very small and narrowpart so we have looked at how good we cooperate and because it's like multi-agency response is always there because evidence collection is only as one small sport. And as you can see this slide, we have some lot of parties in Estonia, who are also involved in there. And then also cooperation with universities and laboratories and you name it. So it's a lot, lot of work and this ungoing. And what we have done, we have made Sibern risk assessment and response plan and by the response plan, Theremily looked at what kind of institutions are involved in the response and who is doing what and now we need to little bit move forward with that so it's could be also in the practical level that we would need some more resources there and some human knowledge and if something happened in the small scale, I think we are capable of responding, but if it's something bigger, there where we can turn which laboratories and outside of Estonia, we can send the samples and there is lot of stage kind of questions that we would like to move forward with. But if I'm correcting Yon, you have no a new job, what how do you think this job is going to help us the new position that you have got? At first you have to tell us what is your new position, sorry. So, yeah, after the twelve years in Estonian Rescu service agency I went to internal security, to look the plans and curriculum about the zebran, so that our first responders would be better aware of the, of the tracts and also this awareness is very important because the, the event always some starts and the first responders is the one who gives it recorrect way. So if it's aware, he can understand that this, this is not just the industrial accident, for example, or just some other type of regular thing, you know, there should be somebody else also incorporate, of course, we have the systems. But it still can be important that the first responder is aware that red sees the science that this could be a zeber and event, like, for example, let's take the scriple case in London. It's a võrgud example because there was just two people on the bench, the first responders couldn't understand who what is the issue there. So it takes quite a lot time. They manage this, victims, without again, proper PP later, they were in A level suits, just to go to in the apartment of it was contaminated. So the everness is very important and this is one of my, my tasks to improve. Thank you very, and yes, we are reaching also to one health center, I sugger if you are going too fast ingristie if you can get. Majority of the issues or majority of the preparedness that your bringing on the table is just for the first twenty-four hours or thirty-eight hours of what has happened, even if these nuclear chemical as filhage and all of that. And your truly being the head of the one health center in Estonian University of life sciences and thinking that you are actually mainly thinking about humans, although the dog of the family also died as a result of the nuclear issue. I am thinking about what any of this attacts, any of these things that you would somehow half and it would inter have the one health center, any of this thing that would have it would have effect on the human health. It would have effect on the animal health. It would have effect on the whole environment. And for many, many years, it is going to be a stave it us and it would have not only health issues economical issues as you say it was some of bring it and so far we have all the time we have taught about the chemicals or somebody if it is why, logical all the things, it would be an environment. Then what do you think? Do you think that we can also help you, can we beside you or since in the protocol of the government is win that you have to act only when it is malecious effect or only the first responders or so your job or your sponsibility would finish there. What do you think on who wants answer this or once the update? Yeah, well, in my opinion, now this one health approach definitely has an added value to or sebier insistent because just like nearly Ris I mentioned that this is facting, though those incidents with the CBR and materials, they affect our the environment where we live. They impact which intern impact all were health and our future. And there were like our living conditions. So, and ever think is connected with each other if this after those like direct impacts like deaf cases, et cetera, there might be very long-term consequences and we need that like a long-term remediation programs that. And it was mentioned also biolgar that in Estonian CVR when response plan, a lot of authorities in Estonia are involved depending on which letter of the CB rent we are talking about. So this one health approach also supports like having those authorities under the same umbrella. And making sure that we coordinate with each other and we share this knowledge and provides like a platform for academic discussions on seebia ran matters. So that's why I see. And establishment of this one health center in Tartu University of life sciences. Thank you. Mihahood. Okay. Thank you. I think that one health concept, yes, it is not only scientific concept. This is concept which is now became something which need to be, I was a use in the normal functionality use Relica said about the environment, of course, Impank of the environment. But the second I think, which is very important in the one health conception is that whole system of the animals health yes agriculture, health is also related with economy and with human health, of course, the whole food production process and of course, food contamination, this is can be also part of this bearing second of course, we know that a lot of the worst disease are commy are from animals. So also the some part of the biological threats are strictly related with animal health, yes. And of course, the third part with I think is called maybe I can call this agroterrorism or something like that. But for example, good example is Africans we infereas, it is something which can not, it is not say, directly impact on our health because it is not disease which is infected humans, but economical loose and I will say the whole ecosystem loose when we will have some cases of this, maybe malicious created cases or even natural, we have huge katastroofic for the all ecosystem agriculture ökosystem, economic ecosystem, food, ecosystem, and of course, this is huge impact on the human on the regin. Yes. So we need to threat the one health conception as as something which will now provide the full knowledge about the threats about the style of the fighting against different also threats. Yeah, I would, from my side, I would like to add that for us, I can see the lot of added value for there that we could have the communication line in place. So usually the police is not maybe every day connected and talking to veterinary services or medical and the environmental fields may be a little bit like further away everyday work lated issues. So I think when we have the one health center working and also connected to the multi-agenci steering group, Cyber and steering group that we have, so the slide that you see before that we have a lot of responsible agencies that are involved in the CBRN response. So if we connect them also together with, with the one health center communication lines so we could have like if needed some scientific support for, for the first responders and so on. So it's, but the economical side is definitely there so we have to look at because usually after that, how to the contaminate how society will stabilize and everything, it's usually also not police, let's looking for that, but we have to look the whole society problems that's a response is not only the one, one point. So I think it's very important. Definitely it can be definitely actually if I would be the one that I want to attack, I don't want to attack to kill. I want to attack to this sublize the whole system and this is the way that you sorry, like this. Jaan what you think? And can deveon healthy of any use and help for you? Yes, for sure, the Cran field is very, very wide and compromises very different knowledges would be, what we need to have and the, who put up effective response so, so the connections with different. This, different disciplines and is very, very useful, I think. Good, no, I'm going to have my audience here. I see quite a lot of people here. I'm joking tunesway. But what from what you have heard, what is your opinion? How protected you think you are when you hear the things that dispanel is as being about? And I'm going to ask you to put your hands up or down. Do you feel that you're very well protected in Estonia with CBRN do you want to put your hands up if you think so? No. Okay, great, there me. Okay, how many of you think that you are not well protected. Do you want to put your heads of, at this I have one excelled to great. Okay. It please remember if you respond, you would get price, the prices are there. You know, the Apple's not for then you, then, do you want to give any opinion? What do you think that we Estonia should do that you would feel more protected? And yeah, just please if you can give your opinion. This is Arvamus, festival at the ideas. What do you think that needs to be done more? Please go. I think like government level, you can probably try to regulate everything as much as you can. You know, people can do a lot of stuff. So in terms of cyber security, I don't feel good at all you, and if I, I do those tests that work every, every year those cyber test and stuff, it's just so basic. It's so easy to hack somebody. It just, I don't know. Maybe governments you should educate more. And I'm not giving even gonna go into those biological threats like it's not much I know about them, but it's, to me, it just seems it's very easy to create something. So how you protect against this is I want to hear from you. So I don't personal at I'll feel very protected. Yes, please, yes. I first of all I also didn't phrase the hand because I kind of don't think there is huge amounts of protection, but I think the reason is that there is also not a huge amount of threat. And that level of protection developed is probably reasonable compared to the level of threat. At least when it comes to those kinds of rare hard to imagine type of events. And then when it comes to those types of events which are closer to us and may be already here or have big potential of creating economic or other have our collect the African swine fever, then those cases, I think sometimes the government läks courage to really make tough decisions. I work for a, for animal husbandry company. But in a way, we need to in the case of this African swine fever, we kind of need to choose to he want the wild porter peaks in farms? Because these two things don't seem to go together very well. And that's a society just, we can decide one way or another, but somebody should make this decision somebody should at least make it this active conversation that this is the trade of, and we need to choose one today I have feeling that ministries sometimes want to get keep the cake and eated at the same time. But that is not always possible. Thank you very much. Any other opinions, then the majority if I am right at the end will coming to maybe by near littree quarters of our panel is that sorry guys, don't we don't feel protected. We need more to be done and to get this is the message is coming. Then does this mean that you need to have more resources to be able to protect this? I can start answering that I was a little bit to explaining that this is like Cyber and riskis something at the moment that we looked at this is like high impact, but very lowable probability of event. So, and the political levelege usually they don't want to deal with it because nothing is going to happens, never in Estonia. But you have to be prepared because the ciber and event is something that you need like personal protective equipment to go to the scene. And if you don't have those, like we show in the covid, if you don't have mascory, don't have some things be ready, then we started to buy them from China, but it was not very, they were not very, let's say effective. They were not even selling it to you. Fukushima intsident happens so the first responders PP everything was sold out, if something would happen near to Estonia we have a lot of nuclear power boats circling us. So it was a lot of difficult is to get those PPs, let's say, so we need to have some first preparation and to explain the political level why it's necessary to have even this lower pubility situation, but very high impact to the society, some preparations. But yes, definitely. So what all get mention is also problem in the other member states, yes, alwayside the desiders yes thinking about the risk, but they are not thinking about impact yes. What does I think now is it to combine ask to combine potential siburand preparation with those of civil protect, civil protection preparation because we know that there is a now of the program, a lot of programs for the increasing the civil protection and civil protection mehhanism. And of course, in some cases, these two parts can be combined in one, according, for example, to PPE, yes, we can have a magazine for the civil protection, but the same magazines can be access to the service in case of the cibran incident. And actually, there's indecisiveness can have more like lethal consequences than making about decision. It actually, this indecisiveness that reminded me at Estonian joke, like how do you make a mouse trap? So you take a razor, raser blade, and put a piece of cheese, one end and the piece of sausage, the other end. The mouse comes and cannot decide. The same applies for the government, who is not capable of making decisions. So in a crisis situation, actually, we cannot allow that. And because those CBRN attacks could also be used as a hybrid weapon to undermine the trust and credibility of our government. So that to prove to the society, that the government cannolt handled the situation. They're not doing anything, just keep discussing and having some like government meetings, but nothing happens. So that's why it's also important to educate our leaders and to have strong leadership as Algert mentioned, so CBS incidents or something that is very low probability, but very like high consequences. And if I were leaders like keep neglecting, like the development needs and CBR and area, then they might end up in a same situation as the mouse that cannot decide between cheese and asussage. And ultimately cuts its head off. Thank you. Thank you very much and now you see coming to CBRN thinking about how can I make a mouse trap? And excellent. But I was this week involved a lot of CBR and issues and so and Mihaw was audio university because of one of his projects that is about the CBR and in universities. He also did an interview with us and he was asking questions about different issues and I was sitting there and listening to him and I was thinking, you know, thinking about the background of the questions that he is asking and I was thinking, yeah, if sorry to say it like this, if a lunatic decide to do this that we are vunerable and very simply we can somehow if we know if we think like this, we can prevent that. And I come to the point that if somehow like a fire risk hazard, I, we have every year a kind of training in university, how if there is a fire, how we have to deal with it. Why should not we have also every year a little bit of CBR and hosors and so and doing it especially when we are in my, yeah all get please go. Yeah because about our history, I think thirty years as past but I still remember in the Soviet times when I had to go to the basement and to some, some exercises within my cast mask than and so on and I was quite little and I didn't understand why we need this, but there is a little bit historic background, I think we should like move forward and forget those terrible things that we had and may be still start to, to do some preparation for the whole society as well and I think that education is something that can definitely achieve that that nobody at least would understand what to do and maybe this scared level that if something happens, they would not be so effected as a whole society. Because definitely, if we have looked at those societies who had incidents like UK, let's it was mentioned in here. So everybody feels scared so if there's, let's say, nerve agent was transported to like metro and is it safe to use the passes or public transportation or can I send my child to school and then all these questions will definitely arise, but if the knowledge is not there and it's very difficult and to explain to the population as well what happened. And they don't may believe what you're saying, if you haven't prepared this kind of things. So it's, yeah, it's very problematic, but I think we need to start again to discuss and may be in the schools as well as. If I cannot comment because you mentioned about the Covid, yes. The Covid is pandeemia is a great, I was an example how easy is introduce the simple training yes to the normal life. Everybody got the instruction how washing the hands, how use the, that was the simple yes mask, even they some part of the society was able to recognize the type of the mask, if it be to FFB three or what this means, yes, which is better to buy or ninety-five yes, because we have a lot of this, this Norman accreditated by the Chinese or other Agen countries. I was say impact of that, but I now I am observing that the level of awareness about the simple biological with no hygienic is decreasing, yes because now, there is no any additional, I will say, trainings any additional remember. So in many, also public spaces, I see that the number of the distributors of the etanolog iso propanual to Washington hands the desinfection is from year toy is still decreasing. So we need to have something like continuous plan how to introduce this and how to keep this knowledge, very, very easyc knowledge and the whole society. Okay. Then I hope that now you would feel safer after what you heard about these that are coming in your thing. But I want to dedicate this last minutes to be a bit your Ingrid has been very, very coin, keeping me, all the material for me. And I want to know, you know, you have each of you and also each of you here just imagine after you have heard now by now probably you're all CVR and experts too, with you heard here, but if you have the chance to aspeak with maybe at one level with the Prime minister of Estonia to ask or give him advoice on what he has to do, what actually has to take, or even you would be a level of European Union with the head of the European Union, you can give advoice to them. But I am not going to bring the United Nation, but just if it is this, I thought from the panel, what do you suggest, what should we do? And I don't really call you want to be at. And if anywhere around the public won't want after the panel, you guys would have the potential to do that. Well, since to a great extense like alleviating fears comes to education and general knowledge. I would recommend the Prime Minister to invest and human resources development and general personal capacity building. What we have already actually started through this CBO run project and academy of Security sciences to increase that because you can purchase all sorts like equipment and set up laboratories to be prepared for different risk scenarios. But if your first responders and people you're not capable of identifying those risks and don't know how which measures to take and how to resolve the situation all this expensive equipment won't help us. To my recommendation would be invest into capacity building and like cheering knowledge on CBR and Freds. Thank you. Mihahall. We just go through the case of my perspective, not from the Estonian perspective, but from my perspective, I will be honest to take some, I would say, good practice from the Estonia and establish clear communication channels and established the clear who's responsible for what because in many you member states, including Poland, we have problem with that. So this is according the, the, advice to the Prime minister of Pollan, but in case of Estonia, I agree with relica, that some investment in the people and may be created think group of not only involved internal security sector, but trying to get the people who has the knowledge and who has capacity from the civinian sector from the research institutes, veterinary inspections, es something like agriculture departments, because we know that some people are experts in ugly cultural sector are experts in pesticized. So this is giving the opportunity that this person also has great coloniage about the nerve agents, yes. And similar is the, if somebody's expert in the zo nautic disease, probably he is well-prepared to respond the biological threats related to the, I will say, high comingus or high mortable, mortability photoges. Thank you very much. Yan, do you want to add anything? Or do you want to ask anything from Prime Minister? In Estonia, this is a quite good situation but I will, I would say to close to borders with, with Russian state, better. Also, with possible of information, moving from their there as already thanks to that, that the borders are quite close the moment is quite small. The Russia couldn't do that what they did when was the Salisburry case so easy anymore. No buying of, you know the living permits, for example, et cetera, this would protect us. Thank you very much. Olger, police. Yeah, for me, it was be that it doesn't matter where is the risk at the moment. So is it high or low, we should like focus on minimum capac capability requirements. So if you agree on minimum capability acquirements, what we want to achieve, then I would need to have clear mandates as well. So as it was mentioned that who is responsible on what if you can have this kind of decisions and then also the resour system for this minimum standards that if they're thread level willerize and we usually are doing also every years a risk assessment and government level is doing risk assessment to look at veristed rot and if you see that it's going to rise, then we can add additional resources dead but we have to have the minimum standard in place, even if the risk is low so I would give that kind of her wise. Okay. Do any of you want to ask anything from Prime Minister or once to say anything to him? Yeah, go ahead. Now it is your chance. I don't have, I don't know who have enough experts and specialist in that field in Estonia. But if we don't, let's say we don't, I don't know. Maybe we can make it more attractive, like ten, fifteen years ago, government was going, we need IT specialist encoding here. Every school got a message, we need for future, we need coding. Maybe same thing for the cyber security biosecurity and stuff like that. Maybe government can make it more like probably invest in it. So basically investing education maybe. Make those like, those workplaces more attractive, those, you know, fully agreetive, yes. Any other suggestion, any other things that you want to say to the Prime Minister, seems that you're. Great, I think we are reaching a bit to the end of the panel. If I don't have any more questions, I don't want also to deprive you for reaching to the Apples and take them as we go out of this panel, but I wanted to also tank all of you. At the same time, I think the message I am getting here, my personal view is everything, even the chels that you are sitting on it can become dual use and you can use it as attack to the other ones, although the damage that you can bring. Everything that you discuss here, it has happened. You know, even some people have used surring goes in the metro in the tube in Japan at that has up. And nobody in a song mind would think that somebody would do a human being would do this to another human being but they are doing it hence as Alder said, it is possible but the incid chance is a still and the message I am getting is that we need to have a level of preparedness we need to have education and this education can I also say that if the incident happened or first responders despite the I don't know how many day or I don't think they are infinite numbers, but probably they sorry, but they would take the first casualties. They would be the first ones that would be disabled and we would even if we have a little of them, they would become less and less. It is a very a scary situation when you think about it, but they are the first line that would be somehow the casualty of the situation. I have been in one case I was working in London Zoo and we had especial machines for sequence the DNA. And they were using particular type of gas in them that was the old generation. It is started to lake and the technician that knew everything about it was in the room he became unconscious. He fault on. The second one that came into the room he falled on too. The first one died, the second one followd on and by falling he had also the door somehow open and then by that, they gas started to go out ass. Hence they, it is a very, very a scary situation if it wants to happen, if it's somehows like this. But the only way that we can do it seems that we need to increase the level of education. At the second issue that we need to also think about is education is not only going to be on a very high professional level, but we seems that we need also public education. And that public education maybe if it is done by very simple education that can help a lot of casualties and can somehow put that back and probably the other point that is also very important is we have experts. The only problems is that they need to communicate and we need to have a media, forum situation that they would be able to communicate together and hopefully all new one health center can also be helpful to you guys bear promising to do a lot of things. I know but I hope that it would be also useful to you. I think we are finishing fifteen minutes sooner than what it is, I hope Ingrid you don't like that's fine. I want to thank you if we have a little bit of presence for you and I don't know. University of life sciences. Thank you very much. Thank you.",
+    "cues": [
+      {
+        "start_seconds": 11.68,
+        "end_seconds": 23.12,
+        "text": "Okei, kuid afternoon good evening ladies and gentleme."
+      },
+      {
+        "start_seconds": 23.12,
+        "end_seconds": 28.84,
+        "text": "In my lifetime, this is a second time, I mean, I won's festival I feel really like a"
+      },
+      {
+        "start_seconds": 28.84,
+        "end_seconds": 36.96,
+        "text": "very experienced person happen here before also have seen other thing."
+      },
+      {
+        "start_seconds": 36.96,
+        "end_seconds": 41.84,
+        "text": "We are going to be a very relaxed panel and we are going to speak about the things that"
+      },
+      {
+        "start_seconds": 41.84,
+        "end_seconds": 73.36,
+        "text": "hopefully would never happen to you."
+      },
+      {
+        "start_seconds": 73.36,
+        "end_seconds": 77.88,
+        "text": "I the first thing I have to do is probably introducing myself."
+      },
+      {
+        "start_seconds": 77.88,
+        "end_seconds": 85.2,
+        "text": "My name is Ali Russili, and I work in Estonian University of Life Science"
+      },
+      {
+        "start_seconds": 85.2,
+        "end_seconds": 86.0,
+        "text": "s."
+      },
+      {
+        "start_seconds": 86.0,
+        "end_seconds": 92.64,
+        "text": "And you may think what does have life sciences do with CBR and threat."
+      },
+      {
+        "start_seconds": 92.64,
+        "end_seconds": 95.68,
+        "text": "I think the answer is very, very simple."
+      },
+      {
+        "start_seconds": 95.68,
+        "end_seconds": 100.24,
+        "text": "Everything that you are hearing here is going to be bad for your health."
+      },
+      {
+        "start_seconds": 100.24,
+        "end_seconds": 104.08,
+        "text": "Hence, as a result of that, we all for your life, even."
+      },
+      {
+        "start_seconds": 104.08,
+        "end_seconds": 107.96,
+        "text": "We don't want to somehow have any of this happening to you."
+      },
+      {
+        "start_seconds": 107.96,
+        "end_seconds": 115.52,
+        "text": "And during this panel, we would hear how much Estonia is prepared to deal with"
+      },
+      {
+        "start_seconds": 115.52,
+        "end_seconds": 121.44,
+        "text": "this issues and maybe even we go a bit out of the Estonia and we will see also how mu"
+      },
+      {
+        "start_seconds": 121.44,
+        "end_seconds": 124.24,
+        "text": "ch in Europe with prepared for it."
+      },
+      {
+        "start_seconds": 124.24,
+        "end_seconds": 128.36,
+        "text": "We have experts here that our internationally announceable it."
+      },
+      {
+        "start_seconds": 128.36,
+        "end_seconds": 133.04,
+        "text": "And maybe also here what we have to do, what we have not to do or what we are doing right"
+      },
+      {
+        "start_seconds": 133.04,
+        "end_seconds": 134.4,
+        "text": ", what we are not doing."
+      },
+      {
+        "start_seconds": 134.4,
+        "end_seconds": 139.0,
+        "text": "Actually, is there anything we do in Estonia that can be an example for other parts of"
+      },
+      {
+        "start_seconds": 139.0,
+        "end_seconds": 142.24,
+        "text": "Europe that is also what we are going to speak about."
+      },
+      {
+        "start_seconds": 142.24,
+        "end_seconds": 148.48,
+        "text": "But the first job, I think is to introduce the panelists and to ask them to introduce"
+      },
+      {
+        "start_seconds": 148.48,
+        "end_seconds": 155.32,
+        "text": "themselves and if we can ask for our lady, the first if you can please introduce you"
+      },
+      {
+        "start_seconds": 155.32,
+        "end_seconds": 157.08,
+        "text": "r sufferely card that would be great."
+      },
+      {
+        "start_seconds": 157.08,
+        "end_seconds": 158.6,
+        "text": "Thank you."
+      },
+      {
+        "start_seconds": 158.6,
+        "end_seconds": 160.16,
+        "text": "Good evening."
+      },
+      {
+        "start_seconds": 160.16,
+        "end_seconds": 163.92,
+        "text": "Pleasuring honor to be here today."
+      },
+      {
+        "start_seconds": 163.92,
+        "end_seconds": 165.44,
+        "text": "My name is Reelika Runnel."
+      },
+      {
+        "start_seconds": 165.44,
+        "end_seconds": 170.6,
+        "text": "I work as an advisor in Estonian ministry of the Interior."
+      },
+      {
+        "start_seconds": 170.6,
+        "end_seconds": 178.12,
+        "text": "And the responsible for developing Estonian National Framework for"
+      },
+      {
+        "start_seconds": 178.12,
+        "end_seconds": 184.4,
+        "text": "nuclear security and emergency preparedness and response."
+      },
+      {
+        "start_seconds": 184.4,
+        "end_seconds": 191.68,
+        "text": "I have a world more than eighteen years of experience dealing with radioactive materi"
+      },
+      {
+        "start_seconds": 191.68,
+        "end_seconds": 195.96,
+        "text": "als and nuclear safety unsecurity."
+      },
+      {
+        "start_seconds": 195.96,
+        "end_seconds": 198.4,
+        "text": "That has."
+      },
+      {
+        "start_seconds": 198.4,
+        "end_seconds": 205.76,
+        "text": "And historic that had been responsible for in Estonia for everything that is"
+      },
+      {
+        "start_seconds": 205.76,
+        "end_seconds": 213.0,
+        "text": "even remotely, like connected to radio activity, starting from radioactive gas raid"
+      },
+      {
+        "start_seconds": 213.0,
+        "end_seconds": 220.4,
+        "text": "on, which is naturally occurring an Estonian soil to nuclear weapons."
+      },
+      {
+        "start_seconds": 220.4,
+        "end_seconds": 227.36,
+        "text": "So because I possess such like a unique knowledge for rest of the Estonians, I have a"
+      },
+      {
+        "start_seconds": 227.36,
+        "end_seconds": 231.92,
+        "text": "lso in the nickname the radiactive Witch in Estonia."
+      },
+      {
+        "start_seconds": 231.92,
+        "end_seconds": 238.84,
+        "text": "Or the past six years, the nuclear, which Pence Estonia is embarking country and we'"
+      },
+      {
+        "start_seconds": 238.84,
+        "end_seconds": 246.0,
+        "text": "re hoping to deploy nuclear our first nuclear power plant in a form of"
+      },
+      {
+        "start_seconds": 246.0,
+        "end_seconds": 249.64,
+        "text": "a small modular reactor by the end of two thousand thirty-five."
+      },
+      {
+        "start_seconds": 249.64,
+        "end_seconds": 250.8,
+        "text": "Thank you."
+      },
+      {
+        "start_seconds": 250.8,
+        "end_seconds": 252.84,
+        "text": "Thank you very much."
+      },
+      {
+        "start_seconds": 252.84,
+        "end_seconds": 255.72,
+        "text": "And from non, you are nuclear wach."
+      },
+      {
+        "start_seconds": 255.72,
+        "end_seconds": 261.12,
+        "text": "After the nuclear reach, we know we are go to me how please."
+      },
+      {
+        "start_seconds": 261.12,
+        "end_seconds": 264.88,
+        "text": "Good evening."
+      },
+      {
+        "start_seconds": 264.88,
+        "end_seconds": 265.76,
+        "text": "Okay."
+      },
+      {
+        "start_seconds": 265.76,
+        "end_seconds": 268.16,
+        "text": "Good evening."
+      },
+      {
+        "start_seconds": 268.16,
+        "end_seconds": 272.08,
+        "text": "My displeasure to be here."
+      },
+      {
+        "start_seconds": 272.08,
+        "end_seconds": 280.24,
+        "text": "My name is Mihal Biack and I am representing university of Lotz from Poland that is on"
+      },
+      {
+        "start_seconds": 280.24,
+        "end_seconds": 286.16,
+        "text": "e of the biggest university in Poland, located in the central of the Polland at the U"
+      },
+      {
+        "start_seconds": 286.16,
+        "end_seconds": 291.28,
+        "text": "niversity of Lordsi and the head of the Biohasa Provention center, but I am also wor"
+      },
+      {
+        "start_seconds": 291.28,
+        "end_seconds": 297.04,
+        "text": "king in the second University of University in this town Medical University of lots w"
+      },
+      {
+        "start_seconds": 297.04,
+        "end_seconds": 303.88,
+        "text": "here I am the head of the CB safety laboratoris, I'm trying to combine different aspe"
+      },
+      {
+        "start_seconds": 303.88,
+        "end_seconds": 310.08,
+        "text": "cts from the whole sebieran to CBR and medical also counter."
+      },
+      {
+        "start_seconds": 310.08,
+        "end_seconds": 315.92,
+        "text": "Measures from the myse fears Galvesion I'm biologist, molekularbiologist, but I also"
+      },
+      {
+        "start_seconds": 315.92,
+        "end_seconds": 323.52,
+        "text": "graduated the military academic in the weapon of Musdestruction science, I was, or to"
+      },
+      {
+        "start_seconds": 323.52,
+        "end_seconds": 332.28,
+        "text": "pic two thousand forty, I'm involved in many activities related to protect pu"
+      },
+      {
+        "start_seconds": 332.28,
+        "end_seconds": 340.88,
+        "text": "blic spaces and again, of course involving into front autoractius ready to the CBR and"
+      },
+      {
+        "start_seconds": 340.88,
+        "end_seconds": 357.0,
+        "text": "response, preparation, as well as development of the new technologies which can be."
+      },
+      {
+        "start_seconds": 357.0,
+        "end_seconds": 358.04,
+        "text": "Thank you."
+      },
+      {
+        "start_seconds": 358.04,
+        "end_seconds": 360.96,
+        "text": "Thank you very much."
+      },
+      {
+        "start_seconds": 360.96,
+        "end_seconds": 364.88,
+        "text": "Good eating, my name is Jan Raidlo."
+      },
+      {
+        "start_seconds": 364.88,
+        "end_seconds": 371.92,
+        "text": "I'm coming from also from Ericity, Internal security Academy and privio"
+      },
+      {
+        "start_seconds": 371.92,
+        "end_seconds": 378.4,
+        "text": "usly I was working for twelve years in Estonian Rescue services, agency."
+      },
+      {
+        "start_seconds": 378.4,
+        "end_seconds": 385.56,
+        "text": "Theresabiran Service, Seaber and service Manager and as a respo"
+      },
+      {
+        "start_seconds": 385.56,
+        "end_seconds": 392.68,
+        "text": "nder."
+      },
+      {
+        "start_seconds": 392.68,
+        "end_seconds": 396.56,
+        "text": "My name is Olgert, I work in Estonian Internal Security Service."
+      },
+      {
+        "start_seconds": 396.56,
+        "end_seconds": 402.12,
+        "text": "We have in their small CBRN unit, so we are the first responders if something happen"
+      },
+      {
+        "start_seconds": 402.12,
+        "end_seconds": 408.44,
+        "text": "s in Estonia with related to the attack face of CBRN attack would happen and our tea"
+      },
+      {
+        "start_seconds": 408.44,
+        "end_seconds": 414.32,
+        "text": "m would be also they are in the scene."
+      },
+      {
+        "start_seconds": 414.32,
+        "end_seconds": 420.8,
+        "text": "Okay, when we think about CBR and for examplemicall biological radio, logical such kind"
+      },
+      {
+        "start_seconds": 420.8,
+        "end_seconds": 423.56,
+        "text": "of even nuclear thank you."
+      },
+      {
+        "start_seconds": 423.56,
+        "end_seconds": 425.28,
+        "text": "You know, you don't relate to it."
+      },
+      {
+        "start_seconds": 425.28,
+        "end_seconds": 430.4,
+        "text": "It is not something that every day when you go to the supermarket you buy I don't know"
+      },
+      {
+        "start_seconds": 430.4,
+        "end_seconds": 436.16,
+        "text": "you got or you buy something you think, what does have to do with me or it's us."
+      },
+      {
+        "start_seconds": 436.16,
+        "end_seconds": 443.4,
+        "text": "Okay, when I was a kid, I was growing up, heard in Boopal in India, half of"
+      },
+      {
+        "start_seconds": 443.4,
+        "end_seconds": 450.64,
+        "text": "the city didcope lined as as a result of a chemical spilage in from factory or may"
+      },
+      {
+        "start_seconds": 450.64,
+        "end_seconds": 456.64,
+        "text": "be I don't know, fifteen years ago, there was tsunami in Japan Fukushima one hundred"
+      },
+      {
+        "start_seconds": 456.64,
+        "end_seconds": 458.04,
+        "text": "thousand people died."
+      },
+      {
+        "start_seconds": 458.04,
+        "end_seconds": 464.36,
+        "text": "But does it have to do anything with me in here in Estonia, it is such a nice place we"
+      },
+      {
+        "start_seconds": 464.36,
+        "end_seconds": 469.64,
+        "text": "have one point three million people in a country in the size of Netherland, so beauti"
+      },
+      {
+        "start_seconds": 469.64,
+        "end_seconds": 471.08,
+        "text": "ful Vesland."
+      },
+      {
+        "start_seconds": 471.08,
+        "end_seconds": 477.12,
+        "text": "Relico, what you think?"
+      },
+      {
+        "start_seconds": 477.12,
+        "end_seconds": 485.2,
+        "text": "Well yeah, if it's, although that difficult to associate like"
+      },
+      {
+        "start_seconds": 485.2,
+        "end_seconds": 494.08,
+        "text": "nature catastrophies that have happened so around the world with"
+      },
+      {
+        "start_seconds": 494.08,
+        "end_seconds": 499.84,
+        "text": "yourself-personally sometimes, although in Estonia, if you mentioned like radiation,"
+      },
+      {
+        "start_seconds": 499.84,
+        "end_seconds": 504.76,
+        "text": "then automatically people think about journable."
+      },
+      {
+        "start_seconds": 504.76,
+        "end_seconds": 512.76,
+        "text": "And the fear of radiation like R"
+      },
+      {
+        "start_seconds": 512.76,
+        "end_seconds": 518.96,
+        "text": "ose also when the Fukushima accident happened, although it was very, very far."
+      },
+      {
+        "start_seconds": 518.96,
+        "end_seconds": 526.24,
+        "text": "But if in Estonia, in a country were currently we have no operating nuclear"
+      },
+      {
+        "start_seconds": 526.24,
+        "end_seconds": 533.48,
+        "text": "power plants and nuclear accidents on our territories are no"
+      },
+      {
+        "start_seconds": 533.48,
+        "end_seconds": 535.68,
+        "text": "t possible."
+      },
+      {
+        "start_seconds": 535.68,
+        "end_seconds": 541.84,
+        "text": "And even if there's an exce it would be an accident in a neighboring country, then the"
+      },
+      {
+        "start_seconds": 541.84,
+        "end_seconds": 545.04,
+        "text": "radiation levels would not be life-fretting."
+      },
+      {
+        "start_seconds": 545.04,
+        "end_seconds": 551.56,
+        "text": "Although in Estonia, we have radiation like practices."
+      },
+      {
+        "start_seconds": 551.56,
+        "end_seconds": 558.64,
+        "text": "We have medical facilities, industrial facilities that are using radioactive material"
+      },
+      {
+        "start_seconds": 558.64,
+        "end_seconds": 560.0,
+        "text": "s."
+      },
+      {
+        "start_seconds": 560.0,
+        "end_seconds": 567.16,
+        "text": "So incidents are accidents with the radioactive materials in Estonia, are possib"
+      },
+      {
+        "start_seconds": 567.16,
+        "end_seconds": 575.96,
+        "text": "le and well the freat, although it's the posibility is small, the freat is the"
+      },
+      {
+        "start_seconds": 575.96,
+        "end_seconds": 576.68,
+        "text": "re."
+      },
+      {
+        "start_seconds": 576.68,
+        "end_seconds": 583.76,
+        "text": "And historically, ashley, in Estonia, we had a case in nineteen ninety-"
+      },
+      {
+        "start_seconds": 583.76,
+        "end_seconds": 584.68,
+        "text": "four."
+      },
+      {
+        "start_seconds": 584.68,
+        "end_seconds": 591.84,
+        "text": "It was a time where Estonia had a couple of years early at regained its indepe"
+      },
+      {
+        "start_seconds": 591.84,
+        "end_seconds": 596.16,
+        "text": "ndence after the Soviet Union collapsed."
+      },
+      {
+        "start_seconds": 596.16,
+        "end_seconds": 601.44,
+        "text": "And the control mechanisms were not fully established."
+      },
+      {
+        "start_seconds": 601.44,
+        "end_seconds": 608.68,
+        "text": "And the physical protection measures of radioactive sources we"
+      },
+      {
+        "start_seconds": 608.68,
+        "end_seconds": 615.92,
+        "text": "re far from ideal and that we have today, we're restrict, very strang"
+      },
+      {
+        "start_seconds": 615.92,
+        "end_seconds": 620.8,
+        "text": "ent rules and standards and surveillance."
+      },
+      {
+        "start_seconds": 620.8,
+        "end_seconds": 628.84,
+        "text": "And during that time, metal theft was"
+      },
+      {
+        "start_seconds": 628.84,
+        "end_seconds": 630.2,
+        "text": "pretty common."
+      },
+      {
+        "start_seconds": 630.2,
+        "end_seconds": 637.24,
+        "text": "People were still metallic items scrap metal at Juselley descrip metal"
+      },
+      {
+        "start_seconds": 637.24,
+        "end_seconds": 640.08,
+        "text": "yards and some money."
+      },
+      {
+        "start_seconds": 640.08,
+        "end_seconds": 646.88,
+        "text": "And there free brothers who broke into the radiactive waste facility in Estoning dumi"
+      },
+      {
+        "start_seconds": 646.88,
+        "end_seconds": 652.24,
+        "text": "cal, it's glos to Tallinn."
+      },
+      {
+        "start_seconds": 652.24,
+        "end_seconds": 658.84,
+        "text": "And they were looking for like some like metal to sell."
+      },
+      {
+        "start_seconds": 658.84,
+        "end_seconds": 665.8,
+        "text": "One of them, they've found a very nice shiny cylinder, really small and put it in hi"
+      },
+      {
+        "start_seconds": 665.8,
+        "end_seconds": 668.8,
+        "text": "s back pocket."
+      },
+      {
+        "start_seconds": 668.8,
+        "end_seconds": 676.08,
+        "text": "And they didn't take this item to the scrap medal yard and teachers put it in"
+      },
+      {
+        "start_seconds": 676.08,
+        "end_seconds": 679.08,
+        "text": "his kitchen drawer."
+      },
+      {
+        "start_seconds": 679.08,
+        "end_seconds": 683.72,
+        "text": "But we're ready a couple of hours after the break-in."
+      },
+      {
+        "start_seconds": 683.72,
+        "end_seconds": 686.72,
+        "text": "He was an old feeling well."
+      },
+      {
+        "start_seconds": 686.72,
+        "end_seconds": 695.12,
+        "text": "He was growing up and generally he said headaches and it had within."
+      },
+      {
+        "start_seconds": 695.12,
+        "end_seconds": 696.64,
+        "text": "He laid in bed."
+      },
+      {
+        "start_seconds": 696.64,
+        "end_seconds": 701.48,
+        "text": "And he also had injured his leg during the break-in because one of those heavy conta"
+      },
+      {
+        "start_seconds": 701.48,
+        "end_seconds": 706.36,
+        "text": "iners fell in his foot during the break-in."
+      },
+      {
+        "start_seconds": 706.36,
+        "end_seconds": 711.32,
+        "text": "And the next day, he just decided to go to the hospital."
+      },
+      {
+        "start_seconds": 711.32,
+        "end_seconds": 716.84,
+        "text": "But since he was, like visibly very ill, he was hospitalized."
+      },
+      {
+        "start_seconds": 716.84,
+        "end_seconds": 720.08,
+        "text": "And about week later he passed away."
+      },
+      {
+        "start_seconds": 720.08,
+        "end_seconds": 725.32,
+        "text": "His situation got worse and worse in a doctors had no clue what had happened."
+      },
+      {
+        "start_seconds": 725.32,
+        "end_seconds": 733.0,
+        "text": "And a couple of weeks passed and a firteen-year old boy but lived in the same house fo"
+      },
+      {
+        "start_seconds": 733.0,
+        "end_seconds": 740.12,
+        "text": "und this cylinder in the kitchen drawer and used it as a hammer to repair his b"
+      },
+      {
+        "start_seconds": 740.12,
+        "end_seconds": 741.44,
+        "text": "ike."
+      },
+      {
+        "start_seconds": 741.44,
+        "end_seconds": 748.04,
+        "text": "A couple of days later, radiation burns, burdens appeared on his hands and he was al"
+      },
+      {
+        "start_seconds": 748.04,
+        "end_seconds": 749.32,
+        "text": "so hospitalized."
+      },
+      {
+        "start_seconds": 749.32,
+        "end_seconds": 751.84,
+        "text": "And then, Dr."
+      },
+      {
+        "start_seconds": 751.84,
+        "end_seconds": 755.04,
+        "text": "Suspecting that something was going gone."
+      },
+      {
+        "start_seconds": 755.04,
+        "end_seconds": 759.96,
+        "text": "And they called experts in other countries."
+      },
+      {
+        "start_seconds": 759.96,
+        "end_seconds": 768.16,
+        "text": "And then risk you service agency, went to the scene and police"
+      },
+      {
+        "start_seconds": 768.16,
+        "end_seconds": 769.36,
+        "text": "as well."
+      },
+      {
+        "start_seconds": 769.36,
+        "end_seconds": 776.32,
+        "text": "And their radiation like monitorism, measuring devices were how link."
+      },
+      {
+        "start_seconds": 776.32,
+        "end_seconds": 782.12,
+        "text": "They were beeping, their radation level outside the house was already that high."
+      },
+      {
+        "start_seconds": 782.12,
+        "end_seconds": 789.88,
+        "text": "And then the source was recovered and there were no like other hu"
+      },
+      {
+        "start_seconds": 789.88,
+        "end_seconds": 795.72,
+        "text": "man victims, the family dog who stayed in the kitchen, most at the time also passed a"
+      },
+      {
+        "start_seconds": 795.72,
+        "end_seconds": 798.48,
+        "text": "way."
+      },
+      {
+        "start_seconds": 798.48,
+        "end_seconds": 805.84,
+        "text": "In addition, there was this grandmother also like not lo"
+      },
+      {
+        "start_seconds": 805.84,
+        "end_seconds": 810.48,
+        "text": "ng after the incident passed away, but this cannot be directly attributed the radiation"
+      },
+      {
+        "start_seconds": 810.48,
+        "end_seconds": 811.56,
+        "text": "."
+      },
+      {
+        "start_seconds": 811.56,
+        "end_seconds": 818.8,
+        "text": "But the fact is, although those things and incidents are rare and this was not"
+      },
+      {
+        "start_seconds": 818.8,
+        "end_seconds": 826.72,
+        "text": "not like they didn't steal those sources with an intention to us this militiously, but"
+      },
+      {
+        "start_seconds": 826.72,
+        "end_seconds": 832.4,
+        "text": "you can, without having a knowledge, without thinking, you can create a lot of damage"
+      },
+      {
+        "start_seconds": 832.4,
+        "end_seconds": 835.36,
+        "text": "and it has health consequences."
+      },
+      {
+        "start_seconds": 835.36,
+        "end_seconds": 842.6,
+        "text": "And if since they're haven't been such many case, so many cases in the world, if you"
+      },
+      {
+        "start_seconds": 842.6,
+        "end_seconds": 848.88,
+        "text": "Google like incidents that are related or deaf cases with the involving radiation, un"
+      },
+      {
+        "start_seconds": 848.88,
+        "end_seconds": 852.76,
+        "text": "fortunately Estonia is also mentioned there."
+      },
+      {
+        "start_seconds": 852.76,
+        "end_seconds": 855.36,
+        "text": "So this cases are rare."
+      },
+      {
+        "start_seconds": 855.36,
+        "end_seconds": 862.4,
+        "text": "But that is the reason why we're going to have to think about those risks,"
+      },
+      {
+        "start_seconds": 862.4,
+        "end_seconds": 863.56,
+        "text": "those concerns."
+      },
+      {
+        "start_seconds": 863.56,
+        "end_seconds": 869.92,
+        "text": "See be or N, chemical biological radiological and nuclear risks and the ways how to mi"
+      },
+      {
+        "start_seconds": 869.92,
+        "end_seconds": 875.68,
+        "text": "tigate it so that things like that, that happened like nineteen ninety-four would ne"
+      },
+      {
+        "start_seconds": 875.68,
+        "end_seconds": 876.96,
+        "text": "ver happen again."
+      },
+      {
+        "start_seconds": 876.96,
+        "end_seconds": 878.0,
+        "text": "Thank you."
+      },
+      {
+        "start_seconds": 878.0,
+        "end_seconds": 879.4,
+        "text": "Thank you very much."
+      },
+      {
+        "start_seconds": 879.4,
+        "end_seconds": 885.56,
+        "text": "It was, yeah, this is another time if you taking Vikipedia of what is important about"
+      },
+      {
+        "start_seconds": 885.56,
+        "end_seconds": 888.72,
+        "text": "Estonia, you can also see this unfortunately."
+      },
+      {
+        "start_seconds": 888.72,
+        "end_seconds": 894.12,
+        "text": "But all get, what do you think if something like this happened today or it doesn't need"
+      },
+      {
+        "start_seconds": 894.12,
+        "end_seconds": 895.4,
+        "text": "to be only nuclear."
+      },
+      {
+        "start_seconds": 895.4,
+        "end_seconds": 897.76,
+        "text": "It can be also, I don't know."
+      },
+      {
+        "start_seconds": 897.76,
+        "end_seconds": 898.6,
+        "text": "Would it happen?"
+      },
+      {
+        "start_seconds": 898.6,
+        "end_seconds": 904.0,
+        "text": "Would there be situation that some boys can just break into a factory and it still so"
+      },
+      {
+        "start_seconds": 904.0,
+        "end_seconds": 906.36,
+        "text": "mething and what do you think?"
+      },
+      {
+        "start_seconds": 906.36,
+        "end_seconds": 911.04,
+        "text": "Is there a chance that something like this can happen again?"
+      },
+      {
+        "start_seconds": 911.04,
+        "end_seconds": 916.76,
+        "text": "No, it's very difficult to say but I think it's it's possible because a lot of chemi"
+      },
+      {
+        "start_seconds": 916.76,
+        "end_seconds": 920.2,
+        "text": "cals and everything is quite openly away available."
+      },
+      {
+        "start_seconds": 920.2,
+        "end_seconds": 927.48,
+        "text": "And if you look at internet there is a lot of also possibilities to learn how to do so"
+      },
+      {
+        "start_seconds": 927.48,
+        "end_seconds": 935.08,
+        "text": "me homemade from homemade chemicals something, or use some different, different, jah"
+      },
+      {
+        "start_seconds": 935.08,
+        "end_seconds": 940.52,
+        "text": ", different possibilities to do that, so it's, it's not something that it's never go"
+      },
+      {
+        "start_seconds": 940.52,
+        "end_seconds": 941.28,
+        "text": "ing to happen."
+      },
+      {
+        "start_seconds": 941.28,
+        "end_seconds": 945.12,
+        "text": "It's VSA it's not if, but when."
+      },
+      {
+        "start_seconds": 945.12,
+        "end_seconds": 951.16,
+        "text": "And we tried to be prepared for that and hopefully in that scale, it would not happen"
+      },
+      {
+        "start_seconds": 951.16,
+        "end_seconds": 957.84,
+        "text": "that we would be in the first pages of, in the world news again hopefully."
+      },
+      {
+        "start_seconds": 957.84,
+        "end_seconds": 965.44,
+        "text": "But we have done quite a bit work to be ready to respond in there and I think"
+      },
+      {
+        "start_seconds": 965.44,
+        "end_seconds": 969.8,
+        "text": "in the, since we have, have mostly accident cases."
+      },
+      {
+        "start_seconds": 969.8,
+        "end_seconds": 974.88,
+        "text": "I think the rescue services persons can, can explain a little bit more, but we are mo"
+      },
+      {
+        "start_seconds": 974.88,
+        "end_seconds": 982.04,
+        "text": "cusing, focusing mostly on the intsident, et can happen if somebody wanted to a"
+      },
+      {
+        "start_seconds": 982.04,
+        "end_seconds": 986.64,
+        "text": "ttack some, some crowded places or go somewhere."
+      },
+      {
+        "start_seconds": 986.64,
+        "end_seconds": 994.16,
+        "text": "And, and yeah, do some bad things, so for that, I think, what we need is"
+      },
+      {
+        "start_seconds": 994.16,
+        "end_seconds": 999.96,
+        "text": "definitely education and explain to this threat, to the all population as well, so that"
+      },
+      {
+        "start_seconds": 999.96,
+        "end_seconds": 1004.4,
+        "text": "'s why it's good to be here and to discuss those, those issues so."
+      },
+      {
+        "start_seconds": 1004.4,
+        "end_seconds": 1005.32,
+        "text": "Thank you."
+      },
+      {
+        "start_seconds": 1005.32,
+        "end_seconds": 1006.48,
+        "text": "Thank you."
+      },
+      {
+        "start_seconds": 1006.48,
+        "end_seconds": 1011.28,
+        "text": "Please."
+      },
+      {
+        "start_seconds": 1011.28,
+        "end_seconds": 1018.4,
+        "text": "The picture the grab also was in Sarah, the low po"
+      },
+      {
+        "start_seconds": 1018.4,
+        "end_seconds": 1025.64,
+        "text": "lnud village, where the detectorists who hobbiest, who look"
+      },
+      {
+        "start_seconds": 1025.64,
+        "end_seconds": 1029.16,
+        "text": "for different kinds of war memorrobilia."
+      },
+      {
+        "start_seconds": 1029.16,
+        "end_seconds": 1036.68,
+        "text": "Et cetera found six parents, metal paralls, it looked just"
+      },
+      {
+        "start_seconds": 1036.68,
+        "end_seconds": 1043.76,
+        "text": "like a barrels, holds inside, some kind of material, com"
+      },
+      {
+        "start_seconds": 1043.76,
+        "end_seconds": 1050.24,
+        "text": "ing out of that, sand with some oil substance."
+      },
+      {
+        "start_seconds": 1050.24,
+        "end_seconds": 1054.56,
+        "text": "So, and it was left there."
+      },
+      {
+        "start_seconds": 1054.56,
+        "end_seconds": 1061.12,
+        "text": "Later, it was reported to environment report who sent just a regular."
+      },
+      {
+        "start_seconds": 1061.12,
+        "end_seconds": 1064.16,
+        "text": "Regular team to take a sample."
+      },
+      {
+        "start_seconds": 1064.16,
+        "end_seconds": 1071.56,
+        "text": "So, they do sample, sent the sample to sent a sample to the lab, they do sample"
+      },
+      {
+        "start_seconds": 1071.56,
+        "end_seconds": 1076.24,
+        "text": "with miinimum safety precussions."
+      },
+      {
+        "start_seconds": 1076.24,
+        "end_seconds": 1082.36,
+        "text": "And later if the lab results came that this is more for chemical."
+      },
+      {
+        "start_seconds": 1082.36,
+        "end_seconds": 1089.64,
+        "text": "There is in the sample is warfare chemical house parts so that this,"
+      },
+      {
+        "start_seconds": 1089.64,
+        "end_seconds": 1098.6,
+        "text": "this parts contained for chemical."
+      },
+      {
+        "start_seconds": 1098.6,
+        "end_seconds": 1110.64,
+        "text": "And of course, the people who do the samples were also worried."
+      },
+      {
+        "start_seconds": 1110.64,
+        "end_seconds": 1118.08,
+        "text": "You can have a contact just by, by itself, without any how to say in"
+      },
+      {
+        "start_seconds": 1118.08,
+        "end_seconds": 1120.0,
+        "text": "tentions."
+      },
+      {
+        "start_seconds": 1120.0,
+        "end_seconds": 1125.76,
+        "text": "Ja jõuluorganization are the preparative something like this happens to help these people"
+      },
+      {
+        "start_seconds": 1125.76,
+        "end_seconds": 1126.16,
+        "text": "?"
+      },
+      {
+        "start_seconds": 1126.16,
+        "end_seconds": 1135.56,
+        "text": "Yes, as we are repaired."
+      },
+      {
+        "start_seconds": 1135.56,
+        "end_seconds": 1157.76,
+        "text": "Also, capability to take it away of the environment which we did."
+      },
+      {
+        "start_seconds": 1157.76,
+        "end_seconds": 1163.72,
+        "text": "Sorry, we had some international head as well as opposiW was also investigating this"
+      },
+      {
+        "start_seconds": 1163.72,
+        "end_seconds": 1178.08,
+        "text": "part and they assisted us to how to decontaminated correctly."
+      },
+      {
+        "start_seconds": 1178.08,
+        "end_seconds": 1185.32,
+        "text": "I think that I can also talk about the, I will say, very simila"
+      },
+      {
+        "start_seconds": 1185.32,
+        "end_seconds": 1186.64,
+        "text": "r examples from Poland."
+      },
+      {
+        "start_seconds": 1186.64,
+        "end_seconds": 1193.8,
+        "text": "Yes, maybe not international, but from Pollant, yes, but the impact was,"
+      },
+      {
+        "start_seconds": 1193.8,
+        "end_seconds": 1200.16,
+        "text": "very huge impact on the environment because the cost both, where mostly related to the"
+      },
+      {
+        "start_seconds": 1200.16,
+        "end_seconds": 1203.52,
+        "text": "decontamination of the and recovery the environment."
+      },
+      {
+        "start_seconds": 1203.52,
+        "end_seconds": 1210.76,
+        "text": "First, okay, according a radiological sources, we also had a fewer, few ca"
+      },
+      {
+        "start_seconds": 1210.76,
+        "end_seconds": 1219.4,
+        "text": "ses that scrub metal, stolens from containers which are radical sol"
+      },
+      {
+        "start_seconds": 1219.4,
+        "end_seconds": 1226.92,
+        "text": "and cobalt sixty rat geography equipment dedicated for the industry ja seda co"
+      },
+      {
+        "start_seconds": 1226.92,
+        "end_seconds": 1232.36,
+        "text": "mpany know that somebody has stolen this or they call the police and police started in"
+      },
+      {
+        "start_seconds": 1232.36,
+        "end_seconds": 1234.12,
+        "text": "vestigation."
+      },
+      {
+        "start_seconds": 1234.12,
+        "end_seconds": 1242.32,
+        "text": "And hopefully police found them, I will say on the mo"
+      },
+      {
+        "start_seconds": 1242.32,
+        "end_seconds": 1246.4,
+        "text": "ment when they started to cut this radiological sources."
+      },
+      {
+        "start_seconds": 1246.4,
+        "end_seconds": 1254.08,
+        "text": "So the problem was that they start to cut it this and compaminated huge area, it was"
+      },
+      {
+        "start_seconds": 1254.08,
+        "end_seconds": 1261.76,
+        "text": "very low sources so without any that potential danger for the everybody, but the"
+      },
+      {
+        "start_seconds": 1261.76,
+        "end_seconds": 1268.68,
+        "text": "contamination of the area and the reco very dis area cost few millions of Euro and a"
+      },
+      {
+        "start_seconds": 1268.68,
+        "end_seconds": 1272.04,
+        "text": "lot of time of our services."
+      },
+      {
+        "start_seconds": 1272.04,
+        "end_seconds": 1279.56,
+        "text": "And the second related to young, example of which you"
+      },
+      {
+        "start_seconds": 1279.56,
+        "end_seconds": 1314.0,
+        "text": "ng presented."
+      },
+      {
+        "start_seconds": 1314.0,
+        "end_seconds": 1315.24,
+        "text": "So what do?"
+      },
+      {
+        "start_seconds": 1315.24,
+        "end_seconds": 1321.24,
+        "text": "We will turn them to the scrub metal collectors."
+      },
+      {
+        "start_seconds": 1321.24,
+        "end_seconds": 1325.6,
+        "text": "And they started turning this borrows from the forest."
+      },
+      {
+        "start_seconds": 1325.6,
+        "end_seconds": 1332.28,
+        "text": "And of course, the bar start likige, yes, and after, two or two hours, the persons who"
+      },
+      {
+        "start_seconds": 1332.28,
+        "end_seconds": 1336.8,
+        "text": "was turning this, started to have some problems with his lack."
+      },
+      {
+        "start_seconds": 1336.8,
+        "end_seconds": 1341.96,
+        "text": "And they left it, went to hospital, and of course, at the burning of the legs were t"
+      },
+      {
+        "start_seconds": 1341.96,
+        "end_seconds": 1344.08,
+        "text": "ypical for the soul for Mustart."
+      },
+      {
+        "start_seconds": 1344.08,
+        "end_seconds": 1350.68,
+        "text": "And of course, the services because the doctor in the hospital huts from knowledge about"
+      },
+      {
+        "start_seconds": 1350.68,
+        "end_seconds": 1353.84,
+        "text": "the hemical ware edges and informat the service."
+      },
+      {
+        "start_seconds": 1353.84,
+        "end_seconds": 1360.36,
+        "text": "Of course, according that was the military occuring of the, of the sources of the mi"
+      },
+      {
+        "start_seconds": 1360.36,
+        "end_seconds": 1362.64,
+        "text": "litary was involved in that."
+      },
+      {
+        "start_seconds": 1362.64,
+        "end_seconds": 1369.8,
+        "text": "But time when and distance where they turning this borrow,"
+      },
+      {
+        "start_seconds": 1369.8,
+        "end_seconds": 1376.76,
+        "text": "contaminated few kilomeeter, square kilometers of the forest, of course, the process"
+      },
+      {
+        "start_seconds": 1376.76,
+        "end_seconds": 1379.88,
+        "text": "of the recovery of collecting the probes."
+      },
+      {
+        "start_seconds": 1379.88,
+        "end_seconds": 1385.92,
+        "text": "And everything was highly costly for the our services."
+      },
+      {
+        "start_seconds": 1385.92,
+        "end_seconds": 1393.32,
+        "text": "So, okay, we can also think about the Siber and not only in the, I would say, ma"
+      },
+      {
+        "start_seconds": 1393.32,
+        "end_seconds": 1404.56,
+        "text": "ssive casualties of the persons."
+      },
+      {
+        "start_seconds": 1404.56,
+        "end_seconds": 1405.48,
+        "text": "Excellent."
+      },
+      {
+        "start_seconds": 1405.48,
+        "end_seconds": 1412.44,
+        "text": "Okei, now I think hopefully all of your convinced with the history that you have hea"
+      },
+      {
+        "start_seconds": 1412.44,
+        "end_seconds": 1415.32,
+        "text": "rd here, it is not some, okay."
+      },
+      {
+        "start_seconds": 1415.32,
+        "end_seconds": 1420.24,
+        "text": "We don't think it would happen every day, but at any time any moment can happen."
+      },
+      {
+        "start_seconds": 1420.24,
+        "end_seconds": 1425.8,
+        "text": "In addition to that, I have heard so many in many of the panas I was here today."
+      },
+      {
+        "start_seconds": 1425.8,
+        "end_seconds": 1427.92,
+        "text": "Everyone is a speaking about Russia."
+      },
+      {
+        "start_seconds": 1427.92,
+        "end_seconds": 1433.88,
+        "text": "I have nothing against Russia, but the fact remains that we are in peace, but it is a"
+      },
+      {
+        "start_seconds": 1433.88,
+        "end_seconds": 1439.8,
+        "text": "lso a var situation, any of the CBR and issues that we think can be weapons of mass de"
+      },
+      {
+        "start_seconds": 1439.8,
+        "end_seconds": 1441.72,
+        "text": "struction VMW."
+      },
+      {
+        "start_seconds": 1441.72,
+        "end_seconds": 1444.36,
+        "text": "That is somehow the way that we can think about it."
+      },
+      {
+        "start_seconds": 1444.36,
+        "end_seconds": 1450.52,
+        "text": "Now, arvamusfestival is not going to be analyzis of, okay, what is the weapon of my se"
+      },
+      {
+        "start_seconds": 1450.52,
+        "end_seconds": 1452.84,
+        "text": "ssion or how this or that."
+      },
+      {
+        "start_seconds": 1452.84,
+        "end_seconds": 1460.24,
+        "text": "We want to know vary a stand to defend ourselves to protect ourselves and if"
+      },
+      {
+        "start_seconds": 1460.24,
+        "end_seconds": 1465.12,
+        "text": "we have problems, how can we go further and maybe remedy them?"
+      },
+      {
+        "start_seconds": 1465.12,
+        "end_seconds": 1470.6,
+        "text": "And this regard, it is also all of you, please take part in the discussion if you have"
+      },
+      {
+        "start_seconds": 1470.6,
+        "end_seconds": 1475.56,
+        "text": "any questions or any opinions just put your hands up where it would be very happy to"
+      },
+      {
+        "start_seconds": 1475.56,
+        "end_seconds": 1476.08,
+        "text": "answer."
+      },
+      {
+        "start_seconds": 1476.08,
+        "end_seconds": 1483.36,
+        "text": "And on that particular issue very astand, very we are we good in pro"
+      },
+      {
+        "start_seconds": 1483.36,
+        "end_seconds": 1484.4,
+        "text": "tecting ourselves."
+      },
+      {
+        "start_seconds": 1484.4,
+        "end_seconds": 1488.8,
+        "text": "I think Mihahall is probably since he's looking at it."
+      },
+      {
+        "start_seconds": 1488.8,
+        "end_seconds": 1492.2,
+        "text": "Mihahall is an outside to us in Estonia."
+      },
+      {
+        "start_seconds": 1492.2,
+        "end_seconds": 1498.28,
+        "text": "But he is very well known professional in this subject."
+      },
+      {
+        "start_seconds": 1498.28,
+        "end_seconds": 1504.12,
+        "text": "What do you think about Estonians the way that they are handening CBR and what do you"
+      },
+      {
+        "start_seconds": 1504.12,
+        "end_seconds": 1509.16,
+        "text": "think are they a streng point and what do you think is their viunerabilities?"
+      },
+      {
+        "start_seconds": 1509.16,
+        "end_seconds": 1510.44,
+        "text": "What where they are reach?"
+      },
+      {
+        "start_seconds": 1510.44,
+        "end_seconds": 1512.2,
+        "text": "What is Europinion?"
+      },
+      {
+        "start_seconds": 1512.2,
+        "end_seconds": 1519.48,
+        "text": "So the first what I can say about the Estonia is the great structure of the preparation"
+      },
+      {
+        "start_seconds": 1519.48,
+        "end_seconds": 1522.04,
+        "text": "of the responsibility of the service."
+      },
+      {
+        "start_seconds": 1522.04,
+        "end_seconds": 1526.8,
+        "text": "Yes, you have rescue service, you have couple which is responsible, which has own you"
+      },
+      {
+        "start_seconds": 1526.8,
+        "end_seconds": 1528.24,
+        "text": "seen Union, yes."
+      },
+      {
+        "start_seconds": 1528.24,
+        "end_seconds": 1547.28,
+        "text": "You have support for the ministry of interior."
+      },
+      {
+        "start_seconds": 1547.28,
+        "end_seconds": 1554.04,
+        "text": "The structures, structure-resided, responsibilities, what in my opinionist, in Eston"
+      },
+      {
+        "start_seconds": 1554.04,
+        "end_seconds": 1561.08,
+        "text": "ia is very well prepared and is working very well because of course, I am outside and"
+      },
+      {
+        "start_seconds": 1561.08,
+        "end_seconds": 1567.8,
+        "text": "I only know some from exercises or some from other assources, from seminars, how, ho"
+      },
+      {
+        "start_seconds": 1567.8,
+        "end_seconds": 1570.92,
+        "text": "w it's works in Estonia."
+      },
+      {
+        "start_seconds": 1570.92,
+        "end_seconds": 1578.16,
+        "text": "But when I see this all presentation in or this discussion, I see that everything is"
+      },
+      {
+        "start_seconds": 1578.16,
+        "end_seconds": 1582.92,
+        "text": "on the right site of the preparation."
+      },
+      {
+        "start_seconds": 1582.92,
+        "end_seconds": 1589.96,
+        "text": "Of course, according the threats, yes, we all, all I think Balticss"
+      },
+      {
+        "start_seconds": 1589.96,
+        "end_seconds": 1597.16,
+        "text": "isted or states with are now in the situation with the hybrid threats"
+      },
+      {
+        "start_seconds": 1597.16,
+        "end_seconds": 1602.0,
+        "text": "yes we have problem with drones or different other sectors related to critical infra"
+      },
+      {
+        "start_seconds": 1602.0,
+        "end_seconds": 1602.76,
+        "text": "structure."
+      },
+      {
+        "start_seconds": 1602.76,
+        "end_seconds": 1610.88,
+        "text": "So I think that the threat can be covered also is used the drums or some to"
+      },
+      {
+        "start_seconds": 1610.88,
+        "end_seconds": 1616.64,
+        "text": "dispers agent or to small attack on the tanks of the critical infrastructure."
+      },
+      {
+        "start_seconds": 1616.64,
+        "end_seconds": 1619.24,
+        "text": "And making something like Bopal, yes."
+      },
+      {
+        "start_seconds": 1619.24,
+        "end_seconds": 1626.24,
+        "text": "If you put the explosive drone, yes, the drone with a small explosive material and to"
+      },
+      {
+        "start_seconds": 1626.24,
+        "end_seconds": 1632.28,
+        "text": "go to the critical and for chemical, critically infrastructure, which has some thanks"
+      },
+      {
+        "start_seconds": 1632.28,
+        "end_seconds": 1638.56,
+        "text": "with the dangerous substances."
+      },
+      {
+        "start_seconds": 1638.56,
+        "end_seconds": 1639.8,
+        "text": "Disaster."
+      },
+      {
+        "start_seconds": 1639.8,
+        "end_seconds": 1645.12,
+        "text": "So this is my point of view that all of I think all countries need to think how to f"
+      },
+      {
+        "start_seconds": 1645.12,
+        "end_seconds": 1651.4,
+        "text": "ight againstrome and think how to the drones can be used all so for the CBN threats."
+      },
+      {
+        "start_seconds": 1651.4,
+        "end_seconds": 1652.56,
+        "text": "Thank you."
+      },
+      {
+        "start_seconds": 1652.56,
+        "end_seconds": 1656.56,
+        "text": "Reelika, what do you think about this?"
+      },
+      {
+        "start_seconds": 1656.56,
+        "end_seconds": 1662.16,
+        "text": "nesses or what are a strong point in Estonia?"
+      },
+      {
+        "start_seconds": 1662.16,
+        "end_seconds": 1669.36,
+        "text": "Well, I think that we'll regardless the Estonia is a very small country."
+      },
+      {
+        "start_seconds": 1669.36,
+        "end_seconds": 1676.36,
+        "text": "We are actually very well prepared for different scenarios and risks."
+      },
+      {
+        "start_seconds": 1676.36,
+        "end_seconds": 1682.6,
+        "text": "We have good expertise, trained people."
+      },
+      {
+        "start_seconds": 1682.6,
+        "end_seconds": 1687.96,
+        "text": "But at the same time, of course, our resources of every limited."
+      },
+      {
+        "start_seconds": 1687.96,
+        "end_seconds": 1695.44,
+        "text": "So if there is of every large scale event, then it"
+      },
+      {
+        "start_seconds": 1695.44,
+        "end_seconds": 1703.44,
+        "text": "would not take very long time."
+      },
+      {
+        "start_seconds": 1703.44,
+        "end_seconds": 1710.88,
+        "text": "And since the number of people who possess this expertise and CBS and matters is"
+      },
+      {
+        "start_seconds": 1710.88,
+        "end_seconds": 1712.72,
+        "text": "also quite small."
+      },
+      {
+        "start_seconds": 1712.72,
+        "end_seconds": 1719.92,
+        "text": "So there are very like little chances to replace them"
+      },
+      {
+        "start_seconds": 1719.92,
+        "end_seconds": 1720.36,
+        "text": "."
+      },
+      {
+        "start_seconds": 1720.36,
+        "end_seconds": 1726.6,
+        "text": "And of course, yeah, and developing or like upholding of very this resilient and sus"
+      },
+      {
+        "start_seconds": 1726.6,
+        "end_seconds": 1734.12,
+        "text": "tainable CBRN framework is definitely a challenge for Estonia."
+      },
+      {
+        "start_seconds": 1734.12,
+        "end_seconds": 1737.72,
+        "text": "But it's not a challenge only for Estonia."
+      },
+      {
+        "start_seconds": 1737.72,
+        "end_seconds": 1740.36,
+        "text": "The challenge everywhere."
+      },
+      {
+        "start_seconds": 1740.36,
+        "end_seconds": 1748.92,
+        "text": "But I think that overall, we are the pretty well prepared and we"
+      },
+      {
+        "start_seconds": 1748.92,
+        "end_seconds": 1757.2,
+        "text": "are aware of the risks and the capab of assessing them adequately."
+      },
+      {
+        "start_seconds": 1757.2,
+        "end_seconds": 1764.48,
+        "text": "Well, but of course, question is how to be prepared for the risks and si"
+      },
+      {
+        "start_seconds": 1764.48,
+        "end_seconds": 1772.28,
+        "text": "tuations that we cannot predict or assess that those so already mentioned like"
+      },
+      {
+        "start_seconds": 1772.28,
+        "end_seconds": 1779.4,
+        "text": "future technologies can bring the use of forth official intelligence, cy"
+      },
+      {
+        "start_seconds": 1779.4,
+        "end_seconds": 1786.48,
+        "text": "bersecurity risks that can also be used to organiz"
+      },
+      {
+        "start_seconds": 1786.48,
+        "end_seconds": 1789.16,
+        "text": "e the CBN event."
+      },
+      {
+        "start_seconds": 1789.16,
+        "end_seconds": 1797.2,
+        "text": "And this emerging technologies on man systems, drones that is"
+      },
+      {
+        "start_seconds": 1797.2,
+        "end_seconds": 1799.76,
+        "text": "the question that we will have to address definitely."
+      },
+      {
+        "start_seconds": 1799.76,
+        "end_seconds": 1801.84,
+        "text": "Thank you."
+      },
+      {
+        "start_seconds": 1801.84,
+        "end_seconds": 1806.84,
+        "text": "I get a bit as scared because you know, all these kind of things artificial intellige"
+      },
+      {
+        "start_seconds": 1806.84,
+        "end_seconds": 1809.52,
+        "text": "nce thrones everything I look at them, I like them."
+      },
+      {
+        "start_seconds": 1809.52,
+        "end_seconds": 1815.72,
+        "text": "I want to book I want to have a drawn at any or so, but at the same time, when I hea"
+      },
+      {
+        "start_seconds": 1815.72,
+        "end_seconds": 1821.28,
+        "text": "r from you guys, it is somehow, okay, you are constantly thinking how you can protec"
+      },
+      {
+        "start_seconds": 1821.28,
+        "end_seconds": 1824.08,
+        "text": "t us from?"
+      },
+      {
+        "start_seconds": 1824.08,
+        "end_seconds": 1831.2,
+        "text": "Well, actually, we can use the same technologies also to protec"
+      },
+      {
+        "start_seconds": 1831.2,
+        "end_seconds": 1835.68,
+        "text": "t ourself of CBR incidents."
+      },
+      {
+        "start_seconds": 1835.68,
+        "end_seconds": 1842.84,
+        "text": "And it use AI on man systems and different cybersecurity measures to mi"
+      },
+      {
+        "start_seconds": 1842.84,
+        "end_seconds": 1845.8,
+        "text": "tigate those risks."
+      },
+      {
+        "start_seconds": 1845.8,
+        "end_seconds": 1853.56,
+        "text": "But what I wanted to say is just, yeah, that we cannot take a break from"
+      },
+      {
+        "start_seconds": 1853.56,
+        "end_seconds": 1856.4,
+        "text": "developing how we're CBRN framework."
+      },
+      {
+        "start_seconds": 1856.4,
+        "end_seconds": 1866.28,
+        "text": "It has to be constant."
+      },
+      {
+        "start_seconds": 1866.28,
+        "end_seconds": 1873.36,
+        "text": "Like allowing maybe AI to make some like predictions or describe some s"
+      },
+      {
+        "start_seconds": 1873.36,
+        "end_seconds": 1874.96,
+        "text": "cenarios."
+      },
+      {
+        "start_seconds": 1874.96,
+        "end_seconds": 1881.16,
+        "text": "We today's risks might be to more safety and security."
+      },
+      {
+        "start_seconds": 1881.16,
+        "end_seconds": 1890.12,
+        "text": "So it's important and CBRN area as well to co"
+      },
+      {
+        "start_seconds": 1890.12,
+        "end_seconds": 1897.32,
+        "text": "ntinue learning and continue their capacity building and acquiring new know"
+      },
+      {
+        "start_seconds": 1897.32,
+        "end_seconds": 1904.56,
+        "text": "ledge to keep us up to date and just one step ahead from terrorist"
+      },
+      {
+        "start_seconds": 1904.56,
+        "end_seconds": 1911.88,
+        "text": "groups or like malicious persons who might also use same technologies to plan so"
+      },
+      {
+        "start_seconds": 1911.88,
+        "end_seconds": 1913.24,
+        "text": "me attacks."
+      },
+      {
+        "start_seconds": 1913.24,
+        "end_seconds": 1914.16,
+        "text": "Thank you."
+      },
+      {
+        "start_seconds": 1914.16,
+        "end_seconds": 1914.92,
+        "text": "Thank you."
+      },
+      {
+        "start_seconds": 1914.92,
+        "end_seconds": 1918.12,
+        "text": "Then main issue may be as compositive building."
+      },
+      {
+        "start_seconds": 1918.12,
+        "end_seconds": 1924.28,
+        "text": "We need to increase the number of the people that are of potential sebiraniship and we"
+      },
+      {
+        "start_seconds": 1924.28,
+        "end_seconds": 1925.16,
+        "text": "write all get."
+      },
+      {
+        "start_seconds": 1925.16,
+        "end_seconds": 1928.6,
+        "text": "Is that also what you think is important for us?"
+      },
+      {
+        "start_seconds": 1928.6,
+        "end_seconds": 1935.36,
+        "text": "Definitely and one partist education, but I'm coming back from the IA point of few that"
+      },
+      {
+        "start_seconds": 1935.36,
+        "end_seconds": 1941.4,
+        "text": "I wrote to diven for myself some notes and that at the moment in the Europe, there is"
+      },
+      {
+        "start_seconds": 1941.4,
+        "end_seconds": 1948.44,
+        "text": "a lot of discussion about AI possibilities to use this like just"
+      },
+      {
+        "start_seconds": 1948.44,
+        "end_seconds": 1954.2,
+        "text": "writed myself that this I are grating new challenges for terrorist prevention by low"
+      },
+      {
+        "start_seconds": 1954.2,
+        "end_seconds": 1959.6,
+        "text": "ering, traditional barriers, for example, blogical experimentation, that is, I syste"
+      },
+      {
+        "start_seconds": 1959.6,
+        "end_seconds": 1964.96,
+        "text": "ms can now disain proteins and predict molecular structures with the high precision po"
+      },
+      {
+        "start_seconds": 1964.96,
+        "end_seconds": 1970.36,
+        "text": "tentially generating thousand of novel variants of toxic proteins that could evide ex"
+      },
+      {
+        "start_seconds": 1970.36,
+        "end_seconds": 1975.96,
+        "text": "isting DNA syntesic screening protocols and so on so there is a lot of discussion on"
+      },
+      {
+        "start_seconds": 1975.96,
+        "end_seconds": 1983.44,
+        "text": "going and in the European level so how we can protect and I think, hell can go also"
+      },
+      {
+        "start_seconds": 1983.44,
+        "end_seconds": 1988.36,
+        "text": "say some words about it and then I am coming back to this where we want to go and ho"
+      },
+      {
+        "start_seconds": 1988.36,
+        "end_seconds": 1991.8,
+        "text": "w much person el we would need to respond to that."
+      },
+      {
+        "start_seconds": 1991.8,
+        "end_seconds": 1999.04,
+        "text": "Yeah so we started, I was at this topy guar again, it's the new technologies yes we need"
+      },
+      {
+        "start_seconds": 1999.04,
+        "end_seconds": 2004.24,
+        "text": "also look for the wallues materials which are in the biotechnology sector, molekulal"
+      },
+      {
+        "start_seconds": 2004.24,
+        "end_seconds": 2011.52,
+        "text": "biology sector, because now we have also available on the market, DNA printers, which"
+      },
+      {
+        "start_seconds": 2011.52,
+        "end_seconds": 2018.64,
+        "text": ", yes, create for you some DNA which you can in easy way, inc"
+      },
+      {
+        "start_seconds": 2018.64,
+        "end_seconds": 2024.04,
+        "text": "orporate in the cells, in the yelts, even yes and start producing some toxic protein"
+      },
+      {
+        "start_seconds": 2024.04,
+        "end_seconds": 2058.04,
+        "text": "s, yes."
+      },
+      {
+        "start_seconds": 2058.04,
+        "end_seconds": 2064.12,
+        "text": "But in case of malicias, there is a lot of new technologies, of course, some of them"
+      },
+      {
+        "start_seconds": 2064.12,
+        "end_seconds": 2071.28,
+        "text": "are very expensive, but of course, if we are fighting against organized terrorist"
+      },
+      {
+        "start_seconds": 2071.28,
+        "end_seconds": 2076.64,
+        "text": ", this is not problem."
+      },
+      {
+        "start_seconds": 2076.64,
+        "end_seconds": 2083.04,
+        "text": "But also you can find very simple kids to produce the new pathogens of something like"
+      },
+      {
+        "start_seconds": 2083.04,
+        "end_seconds": 2085.36,
+        "text": "that to retrate that."
+      },
+      {
+        "start_seconds": 2085.36,
+        "end_seconds": 2092.56,
+        "text": "Yes, they payper was published in science magazine about the first incidents of creat"
+      },
+      {
+        "start_seconds": 2092.56,
+        "end_seconds": 2106.76,
+        "text": "ing viiruses by AI."
+      },
+      {
+        "start_seconds": 2106.76,
+        "end_seconds": 2110.72,
+        "text": "Not just imagine."
+      },
+      {
+        "start_seconds": 2110.72,
+        "end_seconds": 2118.56,
+        "text": "The COVID was amade hand, human made virus or was it naturally coming from zonosis."
+      },
+      {
+        "start_seconds": 2118.56,
+        "end_seconds": 2122.36,
+        "text": "So hence, okay, this is the world that we are in it."
+      },
+      {
+        "start_seconds": 2122.36,
+        "end_seconds": 2126.36,
+        "text": "And this is the life and this is."
+      },
+      {
+        "start_seconds": 2126.36,
+        "end_seconds": 2131.96,
+        "text": "What should we do or how should we have, what should we do to a strengthen hours of what"
+      },
+      {
+        "start_seconds": 2131.96,
+        "end_seconds": 2133.64,
+        "text": "is your lemmis?"
+      },
+      {
+        "start_seconds": 2133.64,
+        "end_seconds": 2139.12,
+        "text": "Now we looked at our mission is very specific, we are going to the crime sym is some"
+      },
+      {
+        "start_seconds": 2139.12,
+        "end_seconds": 2143.72,
+        "text": "thing is already happened and then we try to investigate it, collect evidences and so"
+      },
+      {
+        "start_seconds": 2143.72,
+        "end_seconds": 2149.76,
+        "text": "on, but this is very small and narrowpart so we have looked at how good we cooperate"
+      },
+      {
+        "start_seconds": 2149.76,
+        "end_seconds": 2154.32,
+        "text": "and because it's like multi-agency response is always there because evidence collection"
+      },
+      {
+        "start_seconds": 2154.32,
+        "end_seconds": 2155.72,
+        "text": "is only as one small sport."
+      },
+      {
+        "start_seconds": 2155.72,
+        "end_seconds": 2161.48,
+        "text": "And as you can see this slide, we have some lot of parties in Estonia, who are also in"
+      },
+      {
+        "start_seconds": 2161.48,
+        "end_seconds": 2162.8,
+        "text": "volved in there."
+      },
+      {
+        "start_seconds": 2162.8,
+        "end_seconds": 2168.6,
+        "text": "And then also cooperation with universities and laboratories and you name it."
+      },
+      {
+        "start_seconds": 2168.6,
+        "end_seconds": 2171.6,
+        "text": "So it's a lot, lot of work and this ungoing."
+      },
+      {
+        "start_seconds": 2171.6,
+        "end_seconds": 2178.84,
+        "text": "And what we have done, we have made Sibern risk assessment and"
+      },
+      {
+        "start_seconds": 2178.84,
+        "end_seconds": 2183.32,
+        "text": "response plan and by the response plan, Theremily looked at what kind of institution"
+      },
+      {
+        "start_seconds": 2183.32,
+        "end_seconds": 2189.12,
+        "text": "s are involved in the response and who is doing what and now we need to little bit mo"
+      },
+      {
+        "start_seconds": 2189.12,
+        "end_seconds": 2194.56,
+        "text": "ve forward with that so it's could be also in the practical level that we would need"
+      },
+      {
+        "start_seconds": 2194.56,
+        "end_seconds": 2199.4,
+        "text": "some more resources there and some human knowledge and if something happened in the s"
+      },
+      {
+        "start_seconds": 2199.4,
+        "end_seconds": 2203.68,
+        "text": "mall scale, I think we are capable of responding, but if it's something bigger, there"
+      },
+      {
+        "start_seconds": 2203.68,
+        "end_seconds": 2208.64,
+        "text": "where we can turn which laboratories and outside of Estonia, we can send the samples"
+      },
+      {
+        "start_seconds": 2208.64,
+        "end_seconds": 2215.96,
+        "text": "and there is lot of stage kind of questions that we would like to move forward with."
+      },
+      {
+        "start_seconds": 2215.96,
+        "end_seconds": 2221.56,
+        "text": "But if I'm correcting Yon, you have no a new job, what how do you think this job is go"
+      },
+      {
+        "start_seconds": 2221.56,
+        "end_seconds": 2226.04,
+        "text": "ing to help us the new position that you have got?"
+      },
+      {
+        "start_seconds": 2226.04,
+        "end_seconds": 2229.12,
+        "text": "At first you have to tell us what is your new position, sorry."
+      },
+      {
+        "start_seconds": 2229.12,
+        "end_seconds": 2236.2,
+        "text": "So, yeah, after the twelve years in Estonian Rescu service agency I went to internal"
+      },
+      {
+        "start_seconds": 2236.2,
+        "end_seconds": 2243.56,
+        "text": "security, to look the plans and curriculum about the"
+      },
+      {
+        "start_seconds": 2243.56,
+        "end_seconds": 2250.92,
+        "text": "zebran, so that our first responders would be better aware of the, of the"
+      },
+      {
+        "start_seconds": 2250.92,
+        "end_seconds": 2258.0,
+        "text": "tracts and also this awareness is very important because the, the event a"
+      },
+      {
+        "start_seconds": 2258.0,
+        "end_seconds": 2265.28,
+        "text": "lways some starts and the first responders is the one who gives it re"
+      },
+      {
+        "start_seconds": 2265.28,
+        "end_seconds": 2269.0,
+        "text": "correct way."
+      },
+      {
+        "start_seconds": 2269.0,
+        "end_seconds": 2273.68,
+        "text": "So if it's aware, he can understand that this, this is not just the industrial accid"
+      },
+      {
+        "start_seconds": 2273.68,
+        "end_seconds": 2280.96,
+        "text": "ent, for example, or just some other type of regular thing, you know"
+      },
+      {
+        "start_seconds": 2280.96,
+        "end_seconds": 2288.24,
+        "text": ", there should be somebody else also incorporate, of course, we have the systems."
+      },
+      {
+        "start_seconds": 2288.24,
+        "end_seconds": 2295.44,
+        "text": "But it still can be important that the first responder is aware that re"
+      },
+      {
+        "start_seconds": 2295.44,
+        "end_seconds": 2302.88,
+        "text": "d sees the science that this could be a zeber and event, like, for example, le"
+      },
+      {
+        "start_seconds": 2302.88,
+        "end_seconds": 2305.92,
+        "text": "t's take the scriple case in London."
+      },
+      {
+        "start_seconds": 2305.92,
+        "end_seconds": 2313.08,
+        "text": "It's a võrgud example because there was just two people on the bench, the first re"
+      },
+      {
+        "start_seconds": 2313.08,
+        "end_seconds": 2318.24,
+        "text": "sponders couldn't understand who what is the issue there."
+      },
+      {
+        "start_seconds": 2318.24,
+        "end_seconds": 2321.52,
+        "text": "So it takes quite a lot time."
+      },
+      {
+        "start_seconds": 2321.52,
+        "end_seconds": 2328.68,
+        "text": "They manage this, victims, without again, proper PP later, they were in A le"
+      },
+      {
+        "start_seconds": 2328.68,
+        "end_seconds": 2334.44,
+        "text": "vel suits, just to go to in the apartment of it was contaminated."
+      },
+      {
+        "start_seconds": 2334.44,
+        "end_seconds": 2343.32,
+        "text": "So the everness is very important and this is one of my, my tasks to improve."
+      },
+      {
+        "start_seconds": 2343.32,
+        "end_seconds": 2350.56,
+        "text": "Thank you very, and yes, we are reaching also to one health center, I sugger if you are"
+      },
+      {
+        "start_seconds": 2350.56,
+        "end_seconds": 2358.6,
+        "text": "going too fast ingristie if you can get."
+      },
+      {
+        "start_seconds": 2358.6,
+        "end_seconds": 2363.48,
+        "text": "Majority of the issues or majority of the preparedness that your bringing on the tab"
+      },
+      {
+        "start_seconds": 2363.48,
+        "end_seconds": 2369.28,
+        "text": "le is just for the first twenty-four hours or thirty-eight hours of what has happened"
+      },
+      {
+        "start_seconds": 2369.28,
+        "end_seconds": 2373.84,
+        "text": ", even if these nuclear chemical as filhage and all of that."
+      },
+      {
+        "start_seconds": 2373.84,
+        "end_seconds": 2380.96,
+        "text": "And your truly being the head of the one health center in Estonian University of life"
+      },
+      {
+        "start_seconds": 2380.96,
+        "end_seconds": 2385.8,
+        "text": "sciences and thinking that you are actually mainly thinking about humans, although the"
+      },
+      {
+        "start_seconds": 2385.8,
+        "end_seconds": 2390.28,
+        "text": "dog of the family also died as a result of the nuclear issue."
+      },
+      {
+        "start_seconds": 2390.28,
+        "end_seconds": 2395.96,
+        "text": "I am thinking about what any of this attacts, any of these things that you would some"
+      },
+      {
+        "start_seconds": 2395.96,
+        "end_seconds": 2401.84,
+        "text": "how half and it would inter have the one health center, any of this thing that would"
+      },
+      {
+        "start_seconds": 2401.84,
+        "end_seconds": 2405.76,
+        "text": "have it would have effect on the human health."
+      },
+      {
+        "start_seconds": 2405.76,
+        "end_seconds": 2408.4,
+        "text": "It would have effect on the animal health."
+      },
+      {
+        "start_seconds": 2408.4,
+        "end_seconds": 2411.52,
+        "text": "It would have effect on the whole environment."
+      },
+      {
+        "start_seconds": 2411.52,
+        "end_seconds": 2416.4,
+        "text": "And for many, many years, it is going to be a stave it us and it would have not only"
+      },
+      {
+        "start_seconds": 2416.4,
+        "end_seconds": 2421.96,
+        "text": "health issues economical issues as you say it was some of bring it and so far we have"
+      },
+      {
+        "start_seconds": 2421.96,
+        "end_seconds": 2427.4,
+        "text": "all the time we have taught about the chemicals or somebody if it is why, logical all"
+      },
+      {
+        "start_seconds": 2427.4,
+        "end_seconds": 2429.32,
+        "text": "the things, it would be an environment."
+      },
+      {
+        "start_seconds": 2429.32,
+        "end_seconds": 2431.2,
+        "text": "Then what do you think?"
+      },
+      {
+        "start_seconds": 2431.2,
+        "end_seconds": 2438.52,
+        "text": "Do you think that we can also help you, can we beside you or since in the"
+      },
+      {
+        "start_seconds": 2438.52,
+        "end_seconds": 2443.44,
+        "text": "protocol of the government is win that you have to act only when it is malecious effe"
+      },
+      {
+        "start_seconds": 2443.44,
+        "end_seconds": 2449.12,
+        "text": "ct or only the first responders or so your job or your sponsibility would finish the"
+      },
+      {
+        "start_seconds": 2449.12,
+        "end_seconds": 2449.56,
+        "text": "re."
+      },
+      {
+        "start_seconds": 2449.56,
+        "end_seconds": 2464.68,
+        "text": "What do you think on who wants answer this or once the update?"
+      },
+      {
+        "start_seconds": 2464.68,
+        "end_seconds": 2472.0,
+        "text": "Yeah, well, in my opinion, now this one health approach de"
+      },
+      {
+        "start_seconds": 2472.0,
+        "end_seconds": 2479.08,
+        "text": "finitely has an added value to or sebier insistent because just like nearly R"
+      },
+      {
+        "start_seconds": 2479.08,
+        "end_seconds": 2487.16,
+        "text": "is I mentioned that this is facting, though those incidents with"
+      },
+      {
+        "start_seconds": 2487.16,
+        "end_seconds": 2494.72,
+        "text": "the CBR and materials, they affect our the environment where we live."
+      },
+      {
+        "start_seconds": 2494.72,
+        "end_seconds": 2502.08,
+        "text": "They impact which intern impact all were health and o"
+      },
+      {
+        "start_seconds": 2502.08,
+        "end_seconds": 2503.72,
+        "text": "ur future."
+      },
+      {
+        "start_seconds": 2503.72,
+        "end_seconds": 2507.88,
+        "text": "And there were like our living conditions."
+      },
+      {
+        "start_seconds": 2507.88,
+        "end_seconds": 2517.0,
+        "text": "So, and ever think is connected with each other if this"
+      },
+      {
+        "start_seconds": 2517.0,
+        "end_seconds": 2524.16,
+        "text": "after those like direct impacts like deaf cases, et cetera, there might be very lo"
+      },
+      {
+        "start_seconds": 2524.16,
+        "end_seconds": 2531.96,
+        "text": "ng-term consequences and we need that like a long-term remediation programs that"
+      },
+      {
+        "start_seconds": 2531.96,
+        "end_seconds": 2532.52,
+        "text": "."
+      },
+      {
+        "start_seconds": 2532.52,
+        "end_seconds": 2539.72,
+        "text": "And it was mentioned also biolgar that in Estonian CVR when response plan,"
+      },
+      {
+        "start_seconds": 2539.72,
+        "end_seconds": 2547.08,
+        "text": "a lot of authorities in Estonia are involved depending on which letter of the CB re"
+      },
+      {
+        "start_seconds": 2547.08,
+        "end_seconds": 2549.56,
+        "text": "nt we are talking about."
+      },
+      {
+        "start_seconds": 2549.56,
+        "end_seconds": 2556.84,
+        "text": "So this one health approach also supports like having those authorities"
+      },
+      {
+        "start_seconds": 2556.84,
+        "end_seconds": 2559.36,
+        "text": "under the same umbrella."
+      },
+      {
+        "start_seconds": 2559.36,
+        "end_seconds": 2566.92,
+        "text": "And making sure that we coordinate with each other and we share this knowledge and pro"
+      },
+      {
+        "start_seconds": 2566.92,
+        "end_seconds": 2573.48,
+        "text": "vides like a platform for academic discussions on seebia ran matters."
+      },
+      {
+        "start_seconds": 2573.48,
+        "end_seconds": 2577.32,
+        "text": "So that's why I see."
+      },
+      {
+        "start_seconds": 2577.32,
+        "end_seconds": 2584.48,
+        "text": "And establishment of this one health center in Tartu U"
+      },
+      {
+        "start_seconds": 2584.48,
+        "end_seconds": 2586.16,
+        "text": "niversity of life sciences."
+      },
+      {
+        "start_seconds": 2586.16,
+        "end_seconds": 2587.68,
+        "text": "Thank you."
+      },
+      {
+        "start_seconds": 2587.68,
+        "end_seconds": 2589.12,
+        "text": "Mihahood."
+      },
+      {
+        "start_seconds": 2589.12,
+        "end_seconds": 2589.56,
+        "text": "Okay."
+      },
+      {
+        "start_seconds": 2589.56,
+        "end_seconds": 2590.8,
+        "text": "Thank you."
+      },
+      {
+        "start_seconds": 2590.8,
+        "end_seconds": 2596.04,
+        "text": "I think that one health concept, yes, it is not only scientific concept."
+      },
+      {
+        "start_seconds": 2596.04,
+        "end_seconds": 2604.32,
+        "text": "This is concept which is now became something which need to be,"
+      },
+      {
+        "start_seconds": 2604.32,
+        "end_seconds": 2611.56,
+        "text": "I was a use in the normal functionality use Relica said about the"
+      },
+      {
+        "start_seconds": 2611.56,
+        "end_seconds": 2614.16,
+        "text": "environment, of course, Impank of the environment."
+      },
+      {
+        "start_seconds": 2614.16,
+        "end_seconds": 2620.24,
+        "text": "But the second I think, which is very important in the one health conception is that"
+      },
+      {
+        "start_seconds": 2620.24,
+        "end_seconds": 2627.4,
+        "text": "whole system of the animals health yes agriculture, health is also related with e"
+      },
+      {
+        "start_seconds": 2627.4,
+        "end_seconds": 2634.32,
+        "text": "conomy and with human health, of course, the whole food production process and of co"
+      },
+      {
+        "start_seconds": 2634.32,
+        "end_seconds": 2640.36,
+        "text": "urse, food contamination, this is can be also part of this bearing second of course,"
+      },
+      {
+        "start_seconds": 2640.36,
+        "end_seconds": 2649.72,
+        "text": "we know that a lot of the worst disease are commy are from animals."
+      },
+      {
+        "start_seconds": 2649.72,
+        "end_seconds": 2656.88,
+        "text": "So also the some part of the biological threats are strictly rela"
+      },
+      {
+        "start_seconds": 2656.88,
+        "end_seconds": 2659.92,
+        "text": "ted with animal health, yes."
+      },
+      {
+        "start_seconds": 2659.92,
+        "end_seconds": 2665.44,
+        "text": "And of course, the third part with I think is called maybe I can call this agroterro"
+      },
+      {
+        "start_seconds": 2665.44,
+        "end_seconds": 2667.52,
+        "text": "rism or something like that."
+      },
+      {
+        "start_seconds": 2667.52,
+        "end_seconds": 2674.56,
+        "text": "But for example, good example is Africans we infereas, it is something which can not"
+      },
+      {
+        "start_seconds": 2674.56,
+        "end_seconds": 2682.92,
+        "text": ", it is not say, directly impact on our health because it is not disease which is in"
+      },
+      {
+        "start_seconds": 2682.92,
+        "end_seconds": 2690.2,
+        "text": "fected humans, but economical loose and I will say the whole ecosystem loose"
+      },
+      {
+        "start_seconds": 2690.2,
+        "end_seconds": 2697.44,
+        "text": "when we will have some cases of this, maybe malicious creat"
+      },
+      {
+        "start_seconds": 2697.44,
+        "end_seconds": 2705.04,
+        "text": "ed cases or even natural, we have huge katastroofic for the all ecosystem a"
+      },
+      {
+        "start_seconds": 2705.04,
+        "end_seconds": 2710.36,
+        "text": "griculture ökosystem, economic ecosystem, food, ecosystem, and of course, this is hu"
+      },
+      {
+        "start_seconds": 2710.36,
+        "end_seconds": 2712.4,
+        "text": "ge impact on the human on the regin."
+      },
+      {
+        "start_seconds": 2712.4,
+        "end_seconds": 2712.84,
+        "text": "Yes."
+      },
+      {
+        "start_seconds": 2712.84,
+        "end_seconds": 2720.44,
+        "text": "So we need to threat the one health conception as as something which will no"
+      },
+      {
+        "start_seconds": 2720.44,
+        "end_seconds": 2730.32,
+        "text": "w provide the full knowledge about the threats about the"
+      },
+      {
+        "start_seconds": 2730.32,
+        "end_seconds": 2739.2,
+        "text": "style of the fighting against different also threats."
+      },
+      {
+        "start_seconds": 2739.2,
+        "end_seconds": 2745.64,
+        "text": "Yeah, I would, from my side, I would like to add that for us, I can see the lot of a"
+      },
+      {
+        "start_seconds": 2745.64,
+        "end_seconds": 2749.68,
+        "text": "dded value for there that we could have the communication line in place."
+      },
+      {
+        "start_seconds": 2749.68,
+        "end_seconds": 2756.12,
+        "text": "So usually the police is not maybe every day connected and talking to veterinary servi"
+      },
+      {
+        "start_seconds": 2756.12,
+        "end_seconds": 2761.28,
+        "text": "ces or medical and the environmental fields may be a little bit like further away ever"
+      },
+      {
+        "start_seconds": 2761.28,
+        "end_seconds": 2763.68,
+        "text": "yday work lated issues."
+      },
+      {
+        "start_seconds": 2763.68,
+        "end_seconds": 2769.24,
+        "text": "So I think when we have the one health center working and also connected to the multi"
+      },
+      {
+        "start_seconds": 2769.24,
+        "end_seconds": 2774.0,
+        "text": "-agenci steering group, Cyber and steering group that we have, so the slide that you"
+      },
+      {
+        "start_seconds": 2774.0,
+        "end_seconds": 2778.8,
+        "text": "see before that we have a lot of responsible agencies that are involved in the CBRN re"
+      },
+      {
+        "start_seconds": 2778.8,
+        "end_seconds": 2779.32,
+        "text": "sponse."
+      },
+      {
+        "start_seconds": 2779.32,
+        "end_seconds": 2784.72,
+        "text": "So if we connect them also together with, with the one health center communication line"
+      },
+      {
+        "start_seconds": 2784.72,
+        "end_seconds": 2790.88,
+        "text": "s so we could have like if needed some scientific support for, for the first respond"
+      },
+      {
+        "start_seconds": 2790.88,
+        "end_seconds": 2791.6,
+        "text": "ers and so on."
+      },
+      {
+        "start_seconds": 2791.6,
+        "end_seconds": 2796.4,
+        "text": "So it's, but the economical side is definitely there so we have to look at because us"
+      },
+      {
+        "start_seconds": 2796.4,
+        "end_seconds": 2803.24,
+        "text": "ually after that, how to the contaminate how society will stabilize and everything, it"
+      },
+      {
+        "start_seconds": 2803.24,
+        "end_seconds": 2807.84,
+        "text": "'s usually also not police, let's looking for that, but we have to look the whole so"
+      },
+      {
+        "start_seconds": 2807.84,
+        "end_seconds": 2812.52,
+        "text": "ciety problems that's a response is not only the one, one point."
+      },
+      {
+        "start_seconds": 2812.52,
+        "end_seconds": 2814.08,
+        "text": "So I think it's very important."
+      },
+      {
+        "start_seconds": 2814.08,
+        "end_seconds": 2819.96,
+        "text": "Definitely it can be definitely actually if I would be the one that I want to attack"
+      },
+      {
+        "start_seconds": 2819.96,
+        "end_seconds": 2821.56,
+        "text": ", I don't want to attack to kill."
+      },
+      {
+        "start_seconds": 2821.56,
+        "end_seconds": 2826.8,
+        "text": "I want to attack to this sublize the whole system and this is the way that you sorry"
+      },
+      {
+        "start_seconds": 2826.8,
+        "end_seconds": 2830.08,
+        "text": ", like this."
+      },
+      {
+        "start_seconds": 2830.08,
+        "end_seconds": 2835.92,
+        "text": "Jaan what you think?"
+      },
+      {
+        "start_seconds": 2835.92,
+        "end_seconds": 2840.8,
+        "text": "And can deveon healthy of any use and help for you?"
+      },
+      {
+        "start_seconds": 2840.8,
+        "end_seconds": 2849.08,
+        "text": "Yes, for sure, the Cran field is very, very wide and co"
+      },
+      {
+        "start_seconds": 2849.08,
+        "end_seconds": 2856.16,
+        "text": "mpromises very different knowledges would be, what we need to have and the, who put up"
+      },
+      {
+        "start_seconds": 2856.16,
+        "end_seconds": 2862.08,
+        "text": "effective response so, so the connections with different."
+      },
+      {
+        "start_seconds": 2862.08,
+        "end_seconds": 2869.16,
+        "text": "This, different disciplines and is very, very useful, I think."
+      },
+      {
+        "start_seconds": 2869.16,
+        "end_seconds": 2872.04,
+        "text": "Good, no, I'm going to have my audience here."
+      },
+      {
+        "start_seconds": 2872.04,
+        "end_seconds": 2873.84,
+        "text": "I see quite a lot of people here."
+      },
+      {
+        "start_seconds": 2873.84,
+        "end_seconds": 2875.36,
+        "text": "I'm joking tunesway."
+      },
+      {
+        "start_seconds": 2875.36,
+        "end_seconds": 2880.64,
+        "text": "But what from what you have heard, what is your opinion?"
+      },
+      {
+        "start_seconds": 2880.64,
+        "end_seconds": 2886.8,
+        "text": "How protected you think you are when you hear the things that dispanel is as being about"
+      },
+      {
+        "start_seconds": 2886.8,
+        "end_seconds": 2887.08,
+        "text": "?"
+      },
+      {
+        "start_seconds": 2887.08,
+        "end_seconds": 2890.92,
+        "text": "And I'm going to ask you to put your hands up or down."
+      },
+      {
+        "start_seconds": 2890.92,
+        "end_seconds": 2897.0,
+        "text": "Do you feel that you're very well protected in Estonia with CBRN do you want to put you"
+      },
+      {
+        "start_seconds": 2897.0,
+        "end_seconds": 2902.44,
+        "text": "r hands up if you think so?"
+      },
+      {
+        "start_seconds": 2902.44,
+        "end_seconds": 2902.96,
+        "text": "No."
+      },
+      {
+        "start_seconds": 2902.96,
+        "end_seconds": 2904.72,
+        "text": "Okay, great, there me."
+      },
+      {
+        "start_seconds": 2904.72,
+        "end_seconds": 2908.96,
+        "text": "Okay, how many of you think that you are not well protected."
+      },
+      {
+        "start_seconds": 2908.96,
+        "end_seconds": 2915.12,
+        "text": "Do you want to put your heads of, at this I have one excelled to great."
+      },
+      {
+        "start_seconds": 2915.12,
+        "end_seconds": 2916.2,
+        "text": "Okay."
+      },
+      {
+        "start_seconds": 2916.2,
+        "end_seconds": 2921.2,
+        "text": "It please remember if you respond, you would get price, the prices are there."
+      },
+      {
+        "start_seconds": 2921.2,
+        "end_seconds": 2928.28,
+        "text": "You know, the Apple's not for then you, then, do you want to give any opinion?"
+      },
+      {
+        "start_seconds": 2928.28,
+        "end_seconds": 2933.28,
+        "text": "What do you think that we Estonia should do that you would feel more protected?"
+      },
+      {
+        "start_seconds": 2933.28,
+        "end_seconds": 2937.6,
+        "text": "And yeah, just please if you can give your opinion."
+      },
+      {
+        "start_seconds": 2937.6,
+        "end_seconds": 2940.52,
+        "text": "This is Arvamus, festival at the ideas."
+      },
+      {
+        "start_seconds": 2940.52,
+        "end_seconds": 2942.4,
+        "text": "What do you think that needs to be done more?"
+      },
+      {
+        "start_seconds": 2942.4,
+        "end_seconds": 2944.8,
+        "text": "Please go."
+      },
+      {
+        "start_seconds": 2944.8,
+        "end_seconds": 2951.08,
+        "text": "I think like government level, you can probably try to regulate everything as much a"
+      },
+      {
+        "start_seconds": 2951.08,
+        "end_seconds": 2953.8,
+        "text": "s you can."
+      },
+      {
+        "start_seconds": 2953.8,
+        "end_seconds": 2963.84,
+        "text": "You know, people can do a lot of stuff."
+      },
+      {
+        "start_seconds": 2963.84,
+        "end_seconds": 2969.8,
+        "text": "So in terms of cyber security, I don't feel good at all you, and if I, I do those te"
+      },
+      {
+        "start_seconds": 2969.8,
+        "end_seconds": 2975.4,
+        "text": "sts that work every, every year those cyber test and stuff, it's just so basic."
+      },
+      {
+        "start_seconds": 2975.4,
+        "end_seconds": 2977.44,
+        "text": "It's so easy to hack somebody."
+      },
+      {
+        "start_seconds": 2977.44,
+        "end_seconds": 2980.24,
+        "text": "It just, I don't know."
+      },
+      {
+        "start_seconds": 2980.24,
+        "end_seconds": 2983.72,
+        "text": "Maybe governments you should educate more."
+      },
+      {
+        "start_seconds": 2983.72,
+        "end_seconds": 2989.28,
+        "text": "And I'm not giving even gonna go into those biological threats like it's not much I know"
+      },
+      {
+        "start_seconds": 2989.28,
+        "end_seconds": 2994.16,
+        "text": "about them, but it's, to me, it just seems it's very easy to create something."
+      },
+      {
+        "start_seconds": 2994.16,
+        "end_seconds": 2998.76,
+        "text": "So how you protect against this is I want to hear from you."
+      },
+      {
+        "start_seconds": 2998.76,
+        "end_seconds": 3002.96,
+        "text": "So I don't personal at I'll feel very protected."
+      },
+      {
+        "start_seconds": 3002.96,
+        "end_seconds": 3011.88,
+        "text": "Yes, please, yes."
+      },
+      {
+        "start_seconds": 3011.88,
+        "end_seconds": 3016.36,
+        "text": "I first of all I also didn't phrase the hand because I kind of don't think there is hu"
+      },
+      {
+        "start_seconds": 3016.36,
+        "end_seconds": 3020.92,
+        "text": "ge amounts of protection, but I think the reason is that there is also not a huge amo"
+      },
+      {
+        "start_seconds": 3020.92,
+        "end_seconds": 3022.48,
+        "text": "unt of threat."
+      },
+      {
+        "start_seconds": 3022.48,
+        "end_seconds": 3027.6,
+        "text": "And that level of protection developed is probably reasonable compared to the level of"
+      },
+      {
+        "start_seconds": 3027.6,
+        "end_seconds": 3028.88,
+        "text": "threat."
+      },
+      {
+        "start_seconds": 3028.88,
+        "end_seconds": 3035.08,
+        "text": "At least when it comes to those kinds of rare hard to imagine type of events."
+      },
+      {
+        "start_seconds": 3035.08,
+        "end_seconds": 3040.68,
+        "text": "And then when it comes to those types of events which are closer to us and may be al"
+      },
+      {
+        "start_seconds": 3040.68,
+        "end_seconds": 3046.24,
+        "text": "ready here or have big potential of creating economic or other have our collect the A"
+      },
+      {
+        "start_seconds": 3046.24,
+        "end_seconds": 3053.4,
+        "text": "frican swine fever, then those cases, I think sometime"
+      },
+      {
+        "start_seconds": 3053.4,
+        "end_seconds": 3061.0,
+        "text": "s the government läks courage to re"
+      },
+      {
+        "start_seconds": 3061.0,
+        "end_seconds": 3065.04,
+        "text": "ally make tough decisions."
+      },
+      {
+        "start_seconds": 3065.04,
+        "end_seconds": 3071.24,
+        "text": "I work for a, for animal husbandry company."
+      },
+      {
+        "start_seconds": 3071.24,
+        "end_seconds": 3076.24,
+        "text": "But in a way, we need to in the case of this African swine fever, we kind of need to"
+      },
+      {
+        "start_seconds": 3076.24,
+        "end_seconds": 3080.84,
+        "text": "choose to he want the wild porter peaks in farms?"
+      },
+      {
+        "start_seconds": 3080.84,
+        "end_seconds": 3084.6,
+        "text": "Because these two things don't seem to go together very well."
+      },
+      {
+        "start_seconds": 3084.6,
+        "end_seconds": 3089.56,
+        "text": "And that's a society just, we can decide one way or another, but somebody should make"
+      },
+      {
+        "start_seconds": 3089.56,
+        "end_seconds": 3094.84,
+        "text": "this decision somebody should at least make it this active conversation that this is"
+      },
+      {
+        "start_seconds": 3094.84,
+        "end_seconds": 3100.0,
+        "text": "the trade of, and we need to choose one today I have feeling that ministries sometime"
+      },
+      {
+        "start_seconds": 3100.0,
+        "end_seconds": 3105.16,
+        "text": "s want to get keep the cake and eated at the same time."
+      },
+      {
+        "start_seconds": 3105.16,
+        "end_seconds": 3108.24,
+        "text": "But that is not always possible."
+      },
+      {
+        "start_seconds": 3108.24,
+        "end_seconds": 3109.76,
+        "text": "Thank you very much."
+      },
+      {
+        "start_seconds": 3109.76,
+        "end_seconds": 3116.52,
+        "text": "Any other opinions, then the majority if I am right at the end will coming to maybe b"
+      },
+      {
+        "start_seconds": 3116.52,
+        "end_seconds": 3122.6,
+        "text": "y near littree quarters of our panel is that sorry guys, don't we don't feel protecte"
+      },
+      {
+        "start_seconds": 3122.6,
+        "end_seconds": 3123.2,
+        "text": "d."
+      },
+      {
+        "start_seconds": 3123.2,
+        "end_seconds": 3127.72,
+        "text": "We need more to be done and to get this is the message is coming."
+      },
+      {
+        "start_seconds": 3127.72,
+        "end_seconds": 3133.2,
+        "text": "Then does this mean that you need to have more resources to be able to protect this?"
+      },
+      {
+        "start_seconds": 3133.2,
+        "end_seconds": 3139.52,
+        "text": "I can start answering that I was a little bit to explaining that this is like Cyber and"
+      },
+      {
+        "start_seconds": 3139.52,
+        "end_seconds": 3144.28,
+        "text": "riskis something at the moment that we looked at this is like high impact, but very lo"
+      },
+      {
+        "start_seconds": 3144.28,
+        "end_seconds": 3147.2,
+        "text": "wable probability of event."
+      },
+      {
+        "start_seconds": 3147.2,
+        "end_seconds": 3152.96,
+        "text": "So, and the political levelege usually they don't want to deal with it because nothing"
+      },
+      {
+        "start_seconds": 3152.96,
+        "end_seconds": 3155.24,
+        "text": "is going to happens, never in Estonia."
+      },
+      {
+        "start_seconds": 3155.24,
+        "end_seconds": 3159.56,
+        "text": "But you have to be prepared because the ciber and event is something that you need like"
+      },
+      {
+        "start_seconds": 3159.56,
+        "end_seconds": 3162.28,
+        "text": "personal protective equipment to go to the scene."
+      },
+      {
+        "start_seconds": 3162.28,
+        "end_seconds": 3166.2,
+        "text": "And if you don't have those, like we show in the covid, if you don't have mascory, do"
+      },
+      {
+        "start_seconds": 3166.2,
+        "end_seconds": 3171.56,
+        "text": "n't have some things be ready, then we started to buy them from China, but it was no"
+      },
+      {
+        "start_seconds": 3171.56,
+        "end_seconds": 3176.32,
+        "text": "t very, they were not very, let's say effective."
+      },
+      {
+        "start_seconds": 3176.32,
+        "end_seconds": 3180.8,
+        "text": "They were not even selling it to you."
+      },
+      {
+        "start_seconds": 3180.8,
+        "end_seconds": 3186.2,
+        "text": "Fukushima intsident happens so the first responders PP everything was sold out, if so"
+      },
+      {
+        "start_seconds": 3186.2,
+        "end_seconds": 3192.56,
+        "text": "mething would happen near to Estonia we have a lot of nuclear power boats circling us"
+      },
+      {
+        "start_seconds": 3192.56,
+        "end_seconds": 3193.0,
+        "text": "."
+      },
+      {
+        "start_seconds": 3193.0,
+        "end_seconds": 3199.64,
+        "text": "So it was a lot of difficult is to get those PPs, let's say, so we need to have some"
+      },
+      {
+        "start_seconds": 3199.64,
+        "end_seconds": 3204.68,
+        "text": "first preparation and to explain the political level why it's necessary to have even"
+      },
+      {
+        "start_seconds": 3204.68,
+        "end_seconds": 3211.28,
+        "text": "this lower pubility situation, but very high impact to the society, some preparation"
+      },
+      {
+        "start_seconds": 3211.28,
+        "end_seconds": 3211.96,
+        "text": "s."
+      },
+      {
+        "start_seconds": 3211.96,
+        "end_seconds": 3213.88,
+        "text": "But yes, definitely."
+      },
+      {
+        "start_seconds": 3213.88,
+        "end_seconds": 3221.6,
+        "text": "So what all get mention is also problem in the other member states, yes, alwayside"
+      },
+      {
+        "start_seconds": 3221.6,
+        "end_seconds": 3228.24,
+        "text": "the desiders yes thinking about the risk, but they are not thinking about impact yes"
+      },
+      {
+        "start_seconds": 3228.24,
+        "end_seconds": 3228.8,
+        "text": "."
+      },
+      {
+        "start_seconds": 3228.8,
+        "end_seconds": 3236.08,
+        "text": "What does I think now is it to combine ask to combine potential si"
+      },
+      {
+        "start_seconds": 3236.08,
+        "end_seconds": 3241.68,
+        "text": "burand preparation with those of civil protect, civil protection preparation because"
+      },
+      {
+        "start_seconds": 3241.68,
+        "end_seconds": 3246.72,
+        "text": "we know that there is a now of the program, a lot of programs for the increasing the"
+      },
+      {
+        "start_seconds": 3246.72,
+        "end_seconds": 3249.8,
+        "text": "civil protection and civil protection mehhanism."
+      },
+      {
+        "start_seconds": 3249.8,
+        "end_seconds": 3256.28,
+        "text": "And of course, in some cases, these two parts can be combined in one, according, for"
+      },
+      {
+        "start_seconds": 3256.28,
+        "end_seconds": 3263.24,
+        "text": "example, to PPE, yes, we can have a magazine for the civil protection, but the same ma"
+      },
+      {
+        "start_seconds": 3263.24,
+        "end_seconds": 3322.32,
+        "text": "gazines can be access to the service in case of the cibran incident."
+      },
+      {
+        "start_seconds": 3322.32,
+        "end_seconds": 3329.52,
+        "text": "And actually, there's indecisiveness can have more like lethal co"
+      },
+      {
+        "start_seconds": 3329.52,
+        "end_seconds": 3334.08,
+        "text": "nsequences than making about decision."
+      },
+      {
+        "start_seconds": 3334.08,
+        "end_seconds": 3340.0,
+        "text": "It actually, this indecisiveness that reminded me at Estonian joke, like how do you ma"
+      },
+      {
+        "start_seconds": 3340.0,
+        "end_seconds": 3342.12,
+        "text": "ke a mouse trap?"
+      },
+      {
+        "start_seconds": 3342.12,
+        "end_seconds": 3349.44,
+        "text": "So you take a razor,"
+      },
+      {
+        "start_seconds": 3349.44,
+        "end_seconds": 3356.28,
+        "text": "raser blade, and put a piece of cheese, one end and the piece of sausage, the other e"
+      },
+      {
+        "start_seconds": 3356.28,
+        "end_seconds": 3357.2,
+        "text": "nd."
+      },
+      {
+        "start_seconds": 3357.2,
+        "end_seconds": 3370.32,
+        "text": "The mouse comes and cannot decide."
+      },
+      {
+        "start_seconds": 3370.32,
+        "end_seconds": 3378.16,
+        "text": "The same applies for the government, who is not capable of making decisions."
+      },
+      {
+        "start_seconds": 3378.16,
+        "end_seconds": 3383.32,
+        "text": "So in a crisis situation, actually, we cannot allow that."
+      },
+      {
+        "start_seconds": 3383.32,
+        "end_seconds": 3390.48,
+        "text": "And because those CBRN attacks could also be used as a hybrid we"
+      },
+      {
+        "start_seconds": 3390.48,
+        "end_seconds": 3397.0,
+        "text": "apon to undermine the trust and credibility of our government."
+      },
+      {
+        "start_seconds": 3397.0,
+        "end_seconds": 3403.68,
+        "text": "So that to prove to the society, that the government cannolt handled the situation."
+      },
+      {
+        "start_seconds": 3403.68,
+        "end_seconds": 3410.12,
+        "text": "They're not doing anything, just keep discussing and having some like government meet"
+      },
+      {
+        "start_seconds": 3410.12,
+        "end_seconds": 3412.24,
+        "text": "ings, but nothing happens."
+      },
+      {
+        "start_seconds": 3412.24,
+        "end_seconds": 3419.36,
+        "text": "So that's why it's also important to educate our leaders and to have strong leadershi"
+      },
+      {
+        "start_seconds": 3419.36,
+        "end_seconds": 3426.6,
+        "text": "p as Algert mentioned, so CBS incidents or something that is very low probabilit"
+      },
+      {
+        "start_seconds": 3426.6,
+        "end_seconds": 3429.96,
+        "text": "y, but very like high consequences."
+      },
+      {
+        "start_seconds": 3429.96,
+        "end_seconds": 3437.2,
+        "text": "And if I were leaders like keep neglecting, like the development needs and"
+      },
+      {
+        "start_seconds": 3437.2,
+        "end_seconds": 3443.0,
+        "text": "CBR and area, then they might end up in a same situation as the mouse that cannot de"
+      },
+      {
+        "start_seconds": 3443.0,
+        "end_seconds": 3445.4,
+        "text": "cide between cheese and asussage."
+      },
+      {
+        "start_seconds": 3445.4,
+        "end_seconds": 3447.48,
+        "text": "And ultimately cuts its head off."
+      },
+      {
+        "start_seconds": 3447.48,
+        "end_seconds": 3449.28,
+        "text": "Thank you."
+      },
+      {
+        "start_seconds": 3449.28,
+        "end_seconds": 3456.48,
+        "text": "Thank you very much and now you see coming to CBRN thinking about how can I make a mo"
+      },
+      {
+        "start_seconds": 3456.48,
+        "end_seconds": 3459.68,
+        "text": "use trap?"
+      },
+      {
+        "start_seconds": 3459.68,
+        "end_seconds": 3461.84,
+        "text": "And excellent."
+      },
+      {
+        "start_seconds": 3461.84,
+        "end_seconds": 3469.0,
+        "text": "But I was this week involved a lot of C"
+      },
+      {
+        "start_seconds": 3469.0,
+        "end_seconds": 3476.28,
+        "text": "BR and issues and so and Mihaw was audio university because"
+      },
+      {
+        "start_seconds": 3476.28,
+        "end_seconds": 3482.28,
+        "text": "of one of his projects that is about the CBR and in universities."
+      },
+      {
+        "start_seconds": 3482.28,
+        "end_seconds": 3489.92,
+        "text": "He also did an interview with us and he was asking questions about different issues and"
+      },
+      {
+        "start_seconds": 3489.92,
+        "end_seconds": 3494.76,
+        "text": "I was sitting there and listening to him and I was thinking, you know, thinking about"
+      },
+      {
+        "start_seconds": 3494.76,
+        "end_seconds": 3500.04,
+        "text": "the background of the questions that he is asking and I was thinking, yeah, if sorry"
+      },
+      {
+        "start_seconds": 3500.04,
+        "end_seconds": 3506.6,
+        "text": "to say it like this, if a lunatic decide to do this that we are vunerable and very si"
+      },
+      {
+        "start_seconds": 3506.6,
+        "end_seconds": 3512.4,
+        "text": "mply we can somehow if we know if we think like this, we can prevent that."
+      },
+      {
+        "start_seconds": 3512.4,
+        "end_seconds": 3519.44,
+        "text": "And I come to the point that if somehow like a fire risk hazard, I, we have every"
+      },
+      {
+        "start_seconds": 3519.44,
+        "end_seconds": 3526.52,
+        "text": "year a kind of training in university, how if there is a fire, ho"
+      },
+      {
+        "start_seconds": 3526.52,
+        "end_seconds": 3528.72,
+        "text": "w we have to deal with it."
+      },
+      {
+        "start_seconds": 3528.72,
+        "end_seconds": 3535.56,
+        "text": "Why should not we have also every year a little bit of CBR and hosors and so and doing"
+      },
+      {
+        "start_seconds": 3535.56,
+        "end_seconds": 3542.64,
+        "text": "it especially when we are in my, yeah all get p"
+      },
+      {
+        "start_seconds": 3542.64,
+        "end_seconds": 3543.72,
+        "text": "lease go."
+      },
+      {
+        "start_seconds": 3543.72,
+        "end_seconds": 3549.44,
+        "text": "Yeah because about our history, I think thirty years as past but I still remember in"
+      },
+      {
+        "start_seconds": 3549.44,
+        "end_seconds": 3555.76,
+        "text": "the Soviet times when I had to go to the basement and to some, some exercises within"
+      },
+      {
+        "start_seconds": 3555.76,
+        "end_seconds": 3560.72,
+        "text": "my cast mask than and so on and I was quite little and I didn't understand why we need"
+      },
+      {
+        "start_seconds": 3560.72,
+        "end_seconds": 3567.12,
+        "text": "this, but there is a little bit historic background, I think we should like move for"
+      },
+      {
+        "start_seconds": 3567.12,
+        "end_seconds": 3574.56,
+        "text": "ward and forget those terrible things that we had and may be still start to, to do"
+      },
+      {
+        "start_seconds": 3574.56,
+        "end_seconds": 3581.56,
+        "text": "some preparation for the whole society as well and I think that education is something"
+      },
+      {
+        "start_seconds": 3581.56,
+        "end_seconds": 3588.72,
+        "text": "that can definitely achieve that that nobody at least"
+      },
+      {
+        "start_seconds": 3588.72,
+        "end_seconds": 3593.56,
+        "text": "would understand what to do and maybe this scared level that if something happens, they"
+      },
+      {
+        "start_seconds": 3593.56,
+        "end_seconds": 3596.84,
+        "text": "would not be so effected as a whole society."
+      },
+      {
+        "start_seconds": 3596.84,
+        "end_seconds": 3602.92,
+        "text": "Because definitely, if we have looked at those societies who had incidents like UK, le"
+      },
+      {
+        "start_seconds": 3602.92,
+        "end_seconds": 3605.12,
+        "text": "t's it was mentioned in here."
+      },
+      {
+        "start_seconds": 3605.12,
+        "end_seconds": 3612.4,
+        "text": "So everybody feels scared so if there's, let's say, nerve agent was transported to like"
+      },
+      {
+        "start_seconds": 3612.4,
+        "end_seconds": 3618.84,
+        "text": "metro and is it safe to use the passes or public transportation or can I send my chil"
+      },
+      {
+        "start_seconds": 3618.84,
+        "end_seconds": 3624.04,
+        "text": "d to school and then all these questions will definitely arise, but if the knowledge"
+      },
+      {
+        "start_seconds": 3624.04,
+        "end_seconds": 3628.12,
+        "text": "is not there and it's very difficult and to explain to the population as well what ha"
+      },
+      {
+        "start_seconds": 3628.12,
+        "end_seconds": 3628.84,
+        "text": "ppened."
+      },
+      {
+        "start_seconds": 3628.84,
+        "end_seconds": 3633.44,
+        "text": "And they don't may believe what you're saying, if you haven't prepared this kind of thing"
+      },
+      {
+        "start_seconds": 3633.44,
+        "end_seconds": 3634.32,
+        "text": "s."
+      },
+      {
+        "start_seconds": 3634.32,
+        "end_seconds": 3640.04,
+        "text": "So it's, yeah, it's very problematic, but I think we need to start again to discuss and"
+      },
+      {
+        "start_seconds": 3640.04,
+        "end_seconds": 3643.2,
+        "text": "may be in the schools as well as."
+      },
+      {
+        "start_seconds": 3643.2,
+        "end_seconds": 3648.88,
+        "text": "If I cannot comment because you mentioned about the Covid, yes."
+      },
+      {
+        "start_seconds": 3648.88,
+        "end_seconds": 3654.84,
+        "text": "The Covid is pandeemia is a great, I was an example how easy is introduce the simple"
+      },
+      {
+        "start_seconds": 3654.84,
+        "end_seconds": 3658.32,
+        "text": "training yes to the normal life."
+      },
+      {
+        "start_seconds": 3658.32,
+        "end_seconds": 3665.72,
+        "text": "Everybody got the instruction how washing the hands, how use the, that was"
+      },
+      {
+        "start_seconds": 3665.72,
+        "end_seconds": 3672.92,
+        "text": "the simple yes mask, even they some part of the society was able to re"
+      },
+      {
+        "start_seconds": 3672.92,
+        "end_seconds": 3678.44,
+        "text": "cognize the type of the mask, if it be to FFB three or what this means, yes, which is"
+      },
+      {
+        "start_seconds": 3678.44,
+        "end_seconds": 3685.0,
+        "text": "better to buy or ninety-five yes, because we have a lot of this, this Norman accredi"
+      },
+      {
+        "start_seconds": 3685.0,
+        "end_seconds": 3691.32,
+        "text": "tated by the Chinese or other Agen countries."
+      },
+      {
+        "start_seconds": 3691.32,
+        "end_seconds": 3698.56,
+        "text": "I was say impact of that, but I now I am observing that the leve"
+      },
+      {
+        "start_seconds": 3698.56,
+        "end_seconds": 3706.36,
+        "text": "l of awareness about the simple biological with no"
+      },
+      {
+        "start_seconds": 3706.36,
+        "end_seconds": 3713.68,
+        "text": "hygienic is decreasing, yes because now, there is no any additional, I will say, tra"
+      },
+      {
+        "start_seconds": 3713.68,
+        "end_seconds": 3721.16,
+        "text": "inings any additional remember."
+      },
+      {
+        "start_seconds": 3721.16,
+        "end_seconds": 3730.32,
+        "text": "So in many, also public spaces, I see that the number of the di"
+      },
+      {
+        "start_seconds": 3730.32,
+        "end_seconds": 3738.04,
+        "text": "stributors of the etanolog iso propanual to Washington hands the desinfection is from"
+      },
+      {
+        "start_seconds": 3738.04,
+        "end_seconds": 3740.96,
+        "text": "year toy is still decreasing."
+      },
+      {
+        "start_seconds": 3740.96,
+        "end_seconds": 3747.16,
+        "text": "So we need to have something like continuous plan how to introduce this and how to ke"
+      },
+      {
+        "start_seconds": 3747.16,
+        "end_seconds": 3755.16,
+        "text": "ep this knowledge, very, very easyc knowledge and the whole society."
+      },
+      {
+        "start_seconds": 3755.16,
+        "end_seconds": 3756.84,
+        "text": "Okay."
+      },
+      {
+        "start_seconds": 3756.84,
+        "end_seconds": 3762.96,
+        "text": "Then I hope that now you would feel safer after what you heard about these that are co"
+      },
+      {
+        "start_seconds": 3762.96,
+        "end_seconds": 3764.56,
+        "text": "ming in your thing."
+      },
+      {
+        "start_seconds": 3764.56,
+        "end_seconds": 3773.0,
+        "text": "But I want to dedicate this last minutes to be a bit your I"
+      },
+      {
+        "start_seconds": 3773.0,
+        "end_seconds": 3777.64,
+        "text": "ngrid has been very, very coin, keeping me, all the material for me."
+      },
+      {
+        "start_seconds": 3777.64,
+        "end_seconds": 3785.04,
+        "text": "And I want to know, you know, you have each of you and also each of you here just"
+      },
+      {
+        "start_seconds": 3785.04,
+        "end_seconds": 3791.36,
+        "text": "imagine after you have heard now by now probably you're all CVR and experts too, with"
+      },
+      {
+        "start_seconds": 3791.36,
+        "end_seconds": 3798.4,
+        "text": "you heard here, but if you have the chance to aspeak with maybe at one level with the"
+      },
+      {
+        "start_seconds": 3798.4,
+        "end_seconds": 3805.92,
+        "text": "Prime minister of Estonia to ask or give him advoice on what he has to do,"
+      },
+      {
+        "start_seconds": 3805.92,
+        "end_seconds": 3812.24,
+        "text": "what actually has to take, or even you would be a level of European Union with the hea"
+      },
+      {
+        "start_seconds": 3812.24,
+        "end_seconds": 3815.72,
+        "text": "d of the European Union, you can give advoice to them."
+      },
+      {
+        "start_seconds": 3815.72,
+        "end_seconds": 3822.88,
+        "text": "But I am not going to bring the United Nation, but just if it is this, I"
+      },
+      {
+        "start_seconds": 3822.88,
+        "end_seconds": 3828.64,
+        "text": "thought from the panel, what do you suggest, what should we do?"
+      },
+      {
+        "start_seconds": 3828.64,
+        "end_seconds": 3832.6,
+        "text": "And I don't really call you want to be at."
+      },
+      {
+        "start_seconds": 3832.6,
+        "end_seconds": 3838.36,
+        "text": "And if anywhere around the public won't want after the panel, you guys would have the"
+      },
+      {
+        "start_seconds": 3838.36,
+        "end_seconds": 3842.0,
+        "text": "potential to do that."
+      },
+      {
+        "start_seconds": 3842.0,
+        "end_seconds": 3849.28,
+        "text": "Well, since to a great extense like alleviating"
+      },
+      {
+        "start_seconds": 3849.28,
+        "end_seconds": 3855.44,
+        "text": "fears comes to education and general knowledge."
+      },
+      {
+        "start_seconds": 3855.44,
+        "end_seconds": 3862.24,
+        "text": "I would recommend the Prime Minister to invest and human resources development and ge"
+      },
+      {
+        "start_seconds": 3862.24,
+        "end_seconds": 3866.56,
+        "text": "neral personal capacity building."
+      },
+      {
+        "start_seconds": 3866.56,
+        "end_seconds": 3873.04,
+        "text": "What we have already actually started through this CBO run project and academy of Se"
+      },
+      {
+        "start_seconds": 3873.04,
+        "end_seconds": 3880.4,
+        "text": "curity sciences to increase that because you can purchase all so"
+      },
+      {
+        "start_seconds": 3880.4,
+        "end_seconds": 3887.68,
+        "text": "rts like equipment and set up laboratories to be prepared for di"
+      },
+      {
+        "start_seconds": 3887.68,
+        "end_seconds": 3890.08,
+        "text": "fferent risk scenarios."
+      },
+      {
+        "start_seconds": 3890.08,
+        "end_seconds": 3896.96,
+        "text": "But if your first responders and people you're not capable of identifying those risks"
+      },
+      {
+        "start_seconds": 3896.96,
+        "end_seconds": 3903.04,
+        "text": "and don't know how which measures to take and how to resolve the situation all this ex"
+      },
+      {
+        "start_seconds": 3903.04,
+        "end_seconds": 3905.64,
+        "text": "pensive equipment won't help us."
+      },
+      {
+        "start_seconds": 3905.64,
+        "end_seconds": 3913.16,
+        "text": "To my recommendation would be invest into capacity building and like c"
+      },
+      {
+        "start_seconds": 3913.16,
+        "end_seconds": 3915.72,
+        "text": "heering knowledge on CBR and Freds."
+      },
+      {
+        "start_seconds": 3915.72,
+        "end_seconds": 3917.76,
+        "text": "Thank you."
+      },
+      {
+        "start_seconds": 3917.76,
+        "end_seconds": 3918.72,
+        "text": "Mihahall."
+      },
+      {
+        "start_seconds": 3918.72,
+        "end_seconds": 3925.48,
+        "text": "We just go through the case of my perspective, not from the Estonian perspective, but"
+      },
+      {
+        "start_seconds": 3925.48,
+        "end_seconds": 3931.4,
+        "text": "from my perspective, I will be honest to take some, I would say, good practice from the"
+      },
+      {
+        "start_seconds": 3931.4,
+        "end_seconds": 3937.6,
+        "text": "Estonia and establish clear communication channels and established the clear who's re"
+      },
+      {
+        "start_seconds": 3937.6,
+        "end_seconds": 3944.84,
+        "text": "sponsible for what because in many you member states, including Poland, we"
+      },
+      {
+        "start_seconds": 3944.84,
+        "end_seconds": 3946.04,
+        "text": "have problem with that."
+      },
+      {
+        "start_seconds": 3946.04,
+        "end_seconds": 3953.28,
+        "text": "So this is according the, the, advice to the Prime minister of Pollan, but in"
+      },
+      {
+        "start_seconds": 3953.28,
+        "end_seconds": 3958.6,
+        "text": "case of Estonia, I agree with relica, that some investment in the people and may be c"
+      },
+      {
+        "start_seconds": 3958.6,
+        "end_seconds": 3967.08,
+        "text": "reated think group of not only involved inter"
+      },
+      {
+        "start_seconds": 3967.08,
+        "end_seconds": 3972.56,
+        "text": "nal security sector, but trying to get the people who has the knowledge and who has ca"
+      },
+      {
+        "start_seconds": 3972.56,
+        "end_seconds": 3979.28,
+        "text": "pacity from the civinian sector from the research institutes, veterinary inspections"
+      },
+      {
+        "start_seconds": 3979.28,
+        "end_seconds": 3985.16,
+        "text": ", es something like agriculture departments, because we know that some people are ex"
+      },
+      {
+        "start_seconds": 3985.16,
+        "end_seconds": 3989.56,
+        "text": "perts in ugly cultural sector are experts in pesticized."
+      },
+      {
+        "start_seconds": 3989.56,
+        "end_seconds": 3994.96,
+        "text": "So this is giving the opportunity that this person also has great coloniage about the"
+      },
+      {
+        "start_seconds": 3994.96,
+        "end_seconds": 3997.0,
+        "text": "nerve agents, yes."
+      },
+      {
+        "start_seconds": 3997.0,
+        "end_seconds": 4003.52,
+        "text": "And similar is the, if somebody's expert in the zo nautic disease, probably he is we"
+      },
+      {
+        "start_seconds": 4003.52,
+        "end_seconds": 4011.36,
+        "text": "ll-prepared to respond the biological threats related to the, I will say, high co"
+      },
+      {
+        "start_seconds": 4011.36,
+        "end_seconds": 4016.16,
+        "text": "mingus or high mortable, mortability photoges."
+      },
+      {
+        "start_seconds": 4016.16,
+        "end_seconds": 4017.28,
+        "text": "Thank you very much."
+      },
+      {
+        "start_seconds": 4017.28,
+        "end_seconds": 4019.28,
+        "text": "Yan, do you want to add anything?"
+      },
+      {
+        "start_seconds": 4019.28,
+        "end_seconds": 4032.16,
+        "text": "Or do you want to ask anything from Prime Minister?"
+      },
+      {
+        "start_seconds": 4032.16,
+        "end_seconds": 4038.36,
+        "text": "In Estonia, this is a quite good situation but I will, I would say to close to borde"
+      },
+      {
+        "start_seconds": 4038.36,
+        "end_seconds": 4045.12,
+        "text": "rs with, with Russian state, better."
+      },
+      {
+        "start_seconds": 4045.12,
+        "end_seconds": 4052.44,
+        "text": "Also, with possible of information, moving from their there as a"
+      },
+      {
+        "start_seconds": 4052.44,
+        "end_seconds": 4061.04,
+        "text": "lready thanks to that, that the borders are quite close the moment is quite small."
+      },
+      {
+        "start_seconds": 4061.04,
+        "end_seconds": 4066.96,
+        "text": "The Russia couldn't do that what they did when was the Salisburry case so easy anymo"
+      },
+      {
+        "start_seconds": 4066.96,
+        "end_seconds": 4077.28,
+        "text": "re."
+      },
+      {
+        "start_seconds": 4077.28,
+        "end_seconds": 4087.44,
+        "text": "No buying of, you know the living permits, for"
+      },
+      {
+        "start_seconds": 4087.44,
+        "end_seconds": 4091.56,
+        "text": "example, et cetera, this would protect us."
+      },
+      {
+        "start_seconds": 4091.56,
+        "end_seconds": 4092.84,
+        "text": "Thank you very much."
+      },
+      {
+        "start_seconds": 4092.84,
+        "end_seconds": 4094.08,
+        "text": "Olger, police."
+      },
+      {
+        "start_seconds": 4094.08,
+        "end_seconds": 4101.2,
+        "text": "Yeah, for me, it was be that it doesn't matter where"
+      },
+      {
+        "start_seconds": 4101.2,
+        "end_seconds": 4103.16,
+        "text": "is the risk at the moment."
+      },
+      {
+        "start_seconds": 4103.16,
+        "end_seconds": 4109.96,
+        "text": "So is it high or low, we should like focus on minimum capac capability requirements."
+      },
+      {
+        "start_seconds": 4109.96,
+        "end_seconds": 4115.72,
+        "text": "So if you agree on minimum capability acquirements, what we want to achieve, then I would"
+      },
+      {
+        "start_seconds": 4115.72,
+        "end_seconds": 4118.76,
+        "text": "need to have clear mandates as well."
+      },
+      {
+        "start_seconds": 4118.76,
+        "end_seconds": 4123.68,
+        "text": "So as it was mentioned that who is responsible on what if you can have this kind of de"
+      },
+      {
+        "start_seconds": 4123.68,
+        "end_seconds": 4130.32,
+        "text": "cisions and then also the resour system for this minimum standards that if they're th"
+      },
+      {
+        "start_seconds": 4130.32,
+        "end_seconds": 4135.56,
+        "text": "read level willerize and we usually are doing also every years a risk assessment and"
+      },
+      {
+        "start_seconds": 4135.56,
+        "end_seconds": 4140.04,
+        "text": "government level is doing risk assessment to look at veristed rot and if you see that"
+      },
+      {
+        "start_seconds": 4140.04,
+        "end_seconds": 4146.48,
+        "text": "it's going to rise, then we can add additional resources dead but we have to have the"
+      },
+      {
+        "start_seconds": 4146.48,
+        "end_seconds": 4152.84,
+        "text": "minimum standard in place, even if the risk is low so I would give that kind of her w"
+      },
+      {
+        "start_seconds": 4152.84,
+        "end_seconds": 4153.44,
+        "text": "ise."
+      },
+      {
+        "start_seconds": 4153.44,
+        "end_seconds": 4154.88,
+        "text": "Okay."
+      },
+      {
+        "start_seconds": 4154.88,
+        "end_seconds": 4160.04,
+        "text": "Do any of you want to ask anything from Prime Minister or once to say anything to hi"
+      },
+      {
+        "start_seconds": 4160.04,
+        "end_seconds": 4161.28,
+        "text": "m?"
+      },
+      {
+        "start_seconds": 4161.28,
+        "end_seconds": 4162.64,
+        "text": "Yeah, go ahead."
+      },
+      {
+        "start_seconds": 4162.64,
+        "end_seconds": 4168.0,
+        "text": "Now it is your chance."
+      },
+      {
+        "start_seconds": 4168.0,
+        "end_seconds": 4173.24,
+        "text": "I don't have, I don't know who have enough experts and specialist in that field in E"
+      },
+      {
+        "start_seconds": 4173.24,
+        "end_seconds": 4174.52,
+        "text": "stonia."
+      },
+      {
+        "start_seconds": 4174.52,
+        "end_seconds": 4178.0,
+        "text": "But if we don't, let's say we don't, I don't know."
+      },
+      {
+        "start_seconds": 4178.0,
+        "end_seconds": 4183.08,
+        "text": "Maybe we can make it more attractive, like ten, fifteen years ago, government was go"
+      },
+      {
+        "start_seconds": 4183.08,
+        "end_seconds": 4187.52,
+        "text": "ing, we need IT specialist encoding here."
+      },
+      {
+        "start_seconds": 4187.52,
+        "end_seconds": 4191.0,
+        "text": "Every school got a message, we need for future, we need coding."
+      },
+      {
+        "start_seconds": 4191.0,
+        "end_seconds": 4195.4,
+        "text": "Maybe same thing for the cyber security biosecurity and stuff like that."
+      },
+      {
+        "start_seconds": 4195.4,
+        "end_seconds": 4199.72,
+        "text": "Maybe government can make it more like probably invest in it."
+      },
+      {
+        "start_seconds": 4199.72,
+        "end_seconds": 4202.76,
+        "text": "So basically investing education maybe."
+      },
+      {
+        "start_seconds": 4202.76,
+        "end_seconds": 4210.2,
+        "text": "Make those like, those workplaces more attractive, those, you know,"
+      },
+      {
+        "start_seconds": 4210.2,
+        "end_seconds": 4212.04,
+        "text": "fully agreetive, yes."
+      },
+      {
+        "start_seconds": 4212.04,
+        "end_seconds": 4218.4,
+        "text": "Any other suggestion, any other things that you want to say to the Prime Minister, see"
+      },
+      {
+        "start_seconds": 4218.4,
+        "end_seconds": 4219.92,
+        "text": "ms that you're."
+      },
+      {
+        "start_seconds": 4219.92,
+        "end_seconds": 4225.28,
+        "text": "Great, I think we are reaching a bit to the end of the panel."
+      },
+      {
+        "start_seconds": 4225.28,
+        "end_seconds": 4231.36,
+        "text": "If I don't have any more questions, I don't want also to deprive you for reaching to"
+      },
+      {
+        "start_seconds": 4231.36,
+        "end_seconds": 4237.92,
+        "text": "the Apples and take them as we go out of this panel, but I wanted to also tank all of"
+      },
+      {
+        "start_seconds": 4237.92,
+        "end_seconds": 4238.92,
+        "text": "you."
+      },
+      {
+        "start_seconds": 4238.92,
+        "end_seconds": 4248.36,
+        "text": "At the same time, I think the message I am getting here, my personal view is e"
+      },
+      {
+        "start_seconds": 4248.36,
+        "end_seconds": 4253.52,
+        "text": "verything, even the chels that you are sitting on it can become dual use and you can"
+      },
+      {
+        "start_seconds": 4253.52,
+        "end_seconds": 4259.28,
+        "text": "use it as attack to the other ones, although the damage that you can bring."
+      },
+      {
+        "start_seconds": 4259.28,
+        "end_seconds": 4263.12,
+        "text": "Everything that you discuss here, it has happened."
+      },
+      {
+        "start_seconds": 4263.12,
+        "end_seconds": 4269.96,
+        "text": "You know, even some people have used surring goes in the metro in the tube in Japan a"
+      },
+      {
+        "start_seconds": 4269.96,
+        "end_seconds": 4271.0,
+        "text": "t that has up."
+      },
+      {
+        "start_seconds": 4271.0,
+        "end_seconds": 4276.92,
+        "text": "And nobody in a song mind would think that somebody would do a human being would do this"
+      },
+      {
+        "start_seconds": 4276.92,
+        "end_seconds": 4282.92,
+        "text": "to another human being but they are doing it hence as Alder said, it is possible but"
+      },
+      {
+        "start_seconds": 4282.92,
+        "end_seconds": 4290.28,
+        "text": "the incid chance is a still and the message I am getting is that we need"
+      },
+      {
+        "start_seconds": 4290.28,
+        "end_seconds": 4297.48,
+        "text": "to have a level of preparedness we need to have education and this e"
+      },
+      {
+        "start_seconds": 4297.48,
+        "end_seconds": 4304.76,
+        "text": "ducation can I also say that if the incident happened or first responders"
+      },
+      {
+        "start_seconds": 4304.76,
+        "end_seconds": 4310.0,
+        "text": "despite the I don't know how many day or I don't think they are infinite numbers, but"
+      },
+      {
+        "start_seconds": 4310.0,
+        "end_seconds": 4313.84,
+        "text": "probably they sorry, but they would take the first casualties."
+      },
+      {
+        "start_seconds": 4313.84,
+        "end_seconds": 4318.48,
+        "text": "They would be the first ones that would be disabled and we would even if we have a li"
+      },
+      {
+        "start_seconds": 4318.48,
+        "end_seconds": 4321.56,
+        "text": "ttle of them, they would become less and less."
+      },
+      {
+        "start_seconds": 4321.56,
+        "end_seconds": 4326.92,
+        "text": "It is a very a scary situation when you think about it, but they are the first line that"
+      },
+      {
+        "start_seconds": 4326.92,
+        "end_seconds": 4331.0,
+        "text": "would be somehow the casualty of the situation."
+      },
+      {
+        "start_seconds": 4331.0,
+        "end_seconds": 4339.6,
+        "text": "I have been in one case I was working in London Zoo and we had especial ma"
+      },
+      {
+        "start_seconds": 4339.6,
+        "end_seconds": 4342.48,
+        "text": "chines for sequence the DNA."
+      },
+      {
+        "start_seconds": 4342.48,
+        "end_seconds": 4349.08,
+        "text": "And they were using particular type of gas in them that was the old generation."
+      },
+      {
+        "start_seconds": 4349.08,
+        "end_seconds": 4354.88,
+        "text": "It is started to lake and the technician that knew everything about it was in the ro"
+      },
+      {
+        "start_seconds": 4354.88,
+        "end_seconds": 4357.2,
+        "text": "om he became unconscious."
+      },
+      {
+        "start_seconds": 4357.2,
+        "end_seconds": 4358.72,
+        "text": "He fault on."
+      },
+      {
+        "start_seconds": 4358.72,
+        "end_seconds": 4362.44,
+        "text": "The second one that came into the room he falled on too."
+      },
+      {
+        "start_seconds": 4362.44,
+        "end_seconds": 4368.48,
+        "text": "The first one died, the second one followd on and by falling he had also the door so"
+      },
+      {
+        "start_seconds": 4368.48,
+        "end_seconds": 4373.84,
+        "text": "mehow open and then by that, they gas started to go out ass."
+      },
+      {
+        "start_seconds": 4373.84,
+        "end_seconds": 4379.68,
+        "text": "Hence they, it is a very, very a scary situation if it wants to happen, if it's some"
+      },
+      {
+        "start_seconds": 4379.68,
+        "end_seconds": 4381.64,
+        "text": "hows like this."
+      },
+      {
+        "start_seconds": 4381.64,
+        "end_seconds": 4386.56,
+        "text": "But the only way that we can do it seems that we need to increase the level of education"
+      },
+      {
+        "start_seconds": 4386.56,
+        "end_seconds": 4386.64,
+        "text": "."
+      },
+      {
+        "start_seconds": 4386.64,
+        "end_seconds": 4391.28,
+        "text": "At the second issue that we need to also think about is education is not only going to"
+      },
+      {
+        "start_seconds": 4391.28,
+        "end_seconds": 4397.44,
+        "text": "be on a very high professional level, but we seems that we need also public education"
+      },
+      {
+        "start_seconds": 4397.44,
+        "end_seconds": 4397.48,
+        "text": "."
+      },
+      {
+        "start_seconds": 4397.48,
+        "end_seconds": 4403.92,
+        "text": "And that public education maybe if it is done by very simple education that can help"
+      },
+      {
+        "start_seconds": 4403.92,
+        "end_seconds": 4410.48,
+        "text": "a lot of casualties and can somehow put that back and probably the other point that is"
+      },
+      {
+        "start_seconds": 4410.48,
+        "end_seconds": 4413.88,
+        "text": "also very important is we have experts."
+      },
+      {
+        "start_seconds": 4413.88,
+        "end_seconds": 4419.32,
+        "text": "The only problems is that they need to communicate and we need to have a media, forum"
+      },
+      {
+        "start_seconds": 4419.32,
+        "end_seconds": 4424.88,
+        "text": "situation that they would be able to communicate together and hopefully all new one hea"
+      },
+      {
+        "start_seconds": 4424.88,
+        "end_seconds": 4430.12,
+        "text": "lth center can also be helpful to you guys bear promising to do a lot of things."
+      },
+      {
+        "start_seconds": 4430.12,
+        "end_seconds": 4433.96,
+        "text": "I know but I hope that it would be also useful to you."
+      },
+      {
+        "start_seconds": 4433.96,
+        "end_seconds": 4440.16,
+        "text": "I think we are finishing fifteen minutes sooner than what it is, I hope Ingrid you do"
+      },
+      {
+        "start_seconds": 4440.16,
+        "end_seconds": 4441.36,
+        "text": "n't like that's fine."
+      },
+      {
+        "start_seconds": 4441.36,
+        "end_seconds": 4458.32,
+        "text": "I want to thank you if we have a little bit of presence for you and I don't know."
+      },
+      {
+        "start_seconds": 4458.32,
+        "end_seconds": 4459.68,
+        "text": "University of life sciences."
+      },
+      {
+        "start_seconds": 4459.68,
+        "end_seconds": 4460.64,
+        "text": "Thank you very much."
+      },
+      {
+        "start_seconds": 4460.64,
+        "end_seconds": 4476.883,
+        "text": "Thank you."
+      }
+    ]
+  }
+}

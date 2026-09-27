@@ -1,0 +1,3651 @@
+{
+  "schema_version": 1,
+  "episode": {
+    "id": "2318409176",
+    "rss_guid": "tag:soundcloud,2010:tracks/2318409176",
+    "title": "Kaamera ei mõista hukka",
+    "published_at": "2026-05-11T07:42:30Z",
+    "apple_collection_id": 1477431807,
+    "page_url": "https://soundcloud.com/arvamusfestival/kaamera-ei-moista-hukka-7",
+    "audio_url": "https://feeds.soundcloud.com/stream/2318409176-arvamusfestival-kaamera-ei-moista-hukka-7.mp3",
+    "audio_bytes": 156300015,
+    "audio_sha256": "329a34c31058dfe866ce98bd29e27c63f433d97383fb6094396dcbf97a0ccc94",
+    "duration_seconds": 3907.0
+  },
+  "transcription": {
+    "model": {
+      "name": "large",
+      "repository": "TalTechNLP/streaming-zipformer-large.et-en",
+      "revision": "2812262bd4fd5d4327dc09ca0e6c19e8a32a03d6",
+      "precision": "int8"
+    },
+    "runtime": {
+      "sherpa_onnx": "1.13.7",
+      "decoding_method": "modified_beam_search",
+      "threads": 4
+    },
+    "text": "Alustame aruteluga kaamera ei mõista hukka. Arutleme siis, et noore, noortefilmid tihti käsitlevad teemasid, millest muidu on raske rääkida. Miks see nii on ja kuidas me saaks noori selles toetada? Mina olen Kessu, ma olen Paide gümnaasiumi õpilane, ma olen filmifestival Horisondi eestvedaja, horisont on siis Euroopa Liidu rahastatud projekt, mille eesmärk on noorte mõtted tuua ekraanile. Nii, aga meiega on siin kolm külalist. Rääkige, kes te olete ja millega te tegelete. Tere, mina olen Liina. Olen filmirežissöör ja kinomaja filmikooli juht. Ning Kinomaja filmikool see omakorda jaguneb siis ka üheks toredaks festivaliks, mille nimi on Koolifilm, mis toimub siis igas igal oktoobril. Igas oktoobris ja, ja samamoodi korraldame ka rahvusvahelist filmilaagrit suveti, nii et palju asju. Tere, minu nimi on Kirke. Ma olen noor filmitegija. Ehk siis tegelikult tavaliselt ma tutvustan ennast niimoodi, et tere, ma olen Kirke suurfilmi fanaatik. Mulle meeldib filme vaadata, filme teha, rohkem kaldun sinna teadusulme poole, düstoopia poole. Aga noh, tegelikult loon kõike. See on kõik. Tere, mina olen Maria, mina olen siis psühholoog. Olen ligi kümme aastat tegelenud noorte nõustamisega, lastevanemate ja ka täiskasvanute nõustamisega ja minu üheks suureks kireks lisaks kümne aastasele psühholoogia kogemusele on mul ka lihtsalt huvi väga stsenaristi vastu, stsenaristika vastu. Ja, ja kõik filmid mind ka väga huvitavad. Mainin ära, et publiku küsimused on alati teretulnud, keegi tahab midagi vahele öelda, küsida, andke käega märku. Alustame siis soojendusküsimusega, et kuidas saate teie lausest kaamera ei mõista hukka aru? Ja võite siit alustada. See, ma ütleks niimoodi, et see on pigem selline, et et film on kui filmikunst ehk siis tegelikkuses kunstis puudub selline asi nagu õige või vale. Ja see on hästi tobe näide, aga, aga võib-olla on hea, hea näide, et ma võin öelda, et ma nägin eile unes lillatkaamlit ja kui keegi ütleb mulle selle kohta, et see on nagu vale või et see ei ole õige, siis sellel noh, argumendil ei ole mingisugust mõtet, sellepärast et see on minu enda looming. Et seal ei saa vaielda, seda võib kritiseerida, aga seal ei saa vaielda, et see on minu enda loodud nagu. Ehk siis filmikunstis ka me ei, me ei saa niivõrd palju nagu vaielda seal kohapeal, mis on õige, mis on vale justkui. Mina ütleks, et filmi ja reaalsuse vahele tähendab kaamera ja film filmireaalsuse vahele jääb siis justkui minu jaoks sild, aga samas ka sein. Ehk siis kui rääkida ka mingist isiklikust teemast, siis läbi kaamera tegelikult saab selle seina ette panna. Ja läbi selle siis kaamera tegelikult ei mõista hukka isiklikult, isiklikku kogemust. Ma läheneksin võib-olla veidi proosalisemalt, et, et kaamera ei saagi kedagi hukka mõista, et saab ikka hukka mõistes inimene, kes on kaamera taga ja kasutada seda kaamerat siis vastavalt, et ma arvan, et kaamera täna filmitegija jaoks on, on see nii-öelda käepikendus ja tema mõte täide viia, eks ju, aga kõik otsused teeb tema, mitte kaamera. Kirke, milline oli sinu kõige esimene film ja mis oli selle filmi ajendiks? Minu kõige esimene film valmis kaks tuhat kakskümmend kolm. Selle pealkiri oli nimi. Oli düstoopilise kontekstiga ja siis sellise sõnumiga filmike. Ja seda luues ma olin hästi egoistlik ja mõtlesin endale, mõtlesin, et kui mina olen publik, siis mida mulle meeldiks vaadata, ma ei mõtlenud üldse, mida teistele võiks meeldida, vaadata ja puhtalt selle pealt siis lõin oma esimese lühifilmi. Ja rakendasin sinna siis, siis mitmeid teemasid, mis mind puudutavad kõige rohkem. Ehk siis see oli väga isikliku teemaga film. Vähem isiklikku, rohkem isiklikud märkamised maailma ja ühiskonna kohta. Liina, kas noored tulevad tihti sinu juurde isikliku teemaga, millest nad soovivad filmi teha ja millised on siis peamised teemad? Enamasti noored, vähemalt filmikooli noored, nende filmide lood ongi isiklikud, sest ma arvan, et see on nii, nagu me neid ka õpetame. Et filmitegija peab hoolima sellest, millest see lugu räägib. Et alati esimene küsimus on see, et miks mina, miks mina seda lugu siin praegu räägin? Ja sellepärast jah, kõik need lood on isiklikud. Et ühel siis ka suuremal või vähemal määral. Et ma arvan, et see on õige. Aga kas on mingisugust peamist teemat, millest siis nagu kõige rohkem tahetakse teha filmi? Ma arvan, sellist üldist teemat ei ole ja see on hea. Aga on kindlasti väga palju sellist, sellist katsetamist ja sellist eneseotsimist ilmselt, et et mingisuguste tunnete ja emotsioonide katsetamist erinevates keskkondades ja aga on ka sellist keskkonnas märgatud või ühiskonnas märgatud, eks ju, et mida, mis mulle muret teeb või mis rõõmu teeb, et sealt sealt pealt mingi lugu ja on õnneks ka fantaasiat, et et endiselt ütlen, et ikka ootan filmikooli mõnda noort, kes ühe õudusfilmi stsenaariumi kirjutab siiamaani keegi pole kirjutanud. Aga, aga, aga et siiamaani on jah, ütleme selline pigem selline enda sisemaailma võib-olla avamine ja mingisugune uute teemade otsimine. Veidi on ka ajaloolist huvi, mis on väga huvitav. Maria, miks tahavad noored just anda sellist vaimse tervise sõnumit, filmides edasi nagu identiteet, peresuhted? No noorte selline arenguetapp, arenguülesanne on iseenesest lahendada ära siis minapilt, maailma tunnetus, identiteet ja, ja kui nad nagu nendest teemadest räägivad ja kui see kõnetab neid siis tegelikult see ei näita nagu nõrkust, et me tõstatame mingisuguseid probleeme selles, selles temaatikas, vaid pigem see näitab teadlikkust, vajadust mõtestada seda enda jaoks, võib-olla selgitada enda nägemust selles. Et see on pigem selline arenguliselt loomulik protsess, miks noored neid teemasid kõnetavad. Kirke, millised teemad just sind kõige rohkem kõnetavad, milliseid sa enda ümber märkad? Mina märkan enda ümber kõige rohkem selliseid teemasid, kus võib-olla noh, noortepõhised teemad võib-olla rohkem üritan tähelepanu anda teemadele, kus noori tehakse maha või või võib-olla mitte just maha, aga kus noori mingitel hetked, hetkedel ei mõista, et ja siis minu sihuke sisemine soov ongi see noorte pilt siis nagu ühiskonnani rohkem selg- noh, ühiskonnani tuua ja see selgemaks teha. Liina, kuidas sina toetad noort, kes tuleb ideega filmi teha, aga see idee võib tunduda väga valus või tundlik? Ma arvan, et. Et siin on toetama, me toetame kõiki neid noori, kes tulevad oma ideega minu juurde, et ja, ja kui, kui idee on väga isiklik ja väga valus, siis siis lugu tulebki ära rääkida. Et siis me lihtsalt, meil hästi palju põhineb nagu aruteludel on ju, et, et siis me nagu arutame, selgitame, et miks mingi teema on oluline, miks tema seda lugu peab rääkima. Ja, ja kui selle, selle käigus sünnib see stsenaarium ja see stsenaariumi kirjutamine on juba mõnes mõttes selline, selline oma loo läbi analüüsimine ja, ja natuke teraapiline ka, et, et see lugu saab paberile ja kui see lugu saab paberile, siis selle aja peale tegelikult on tal juba selline kunstniku visioon. Et see lugu on talle tähtis, aga tal on tekib selline kunstiline laiem visioon, et siis see ei olegi enam võib-olla nii noh, nii otseselt isiklik ja valus lugu rääkida, kui ta oleks lihtsalt, kui ta peaks hakkama midagi jutustama kuskil. Maria, kas ühiskond on muutunud noorte suhtes avatumaks või hoopis nõudlikumaks? No ühest küljest on meil küll väga palju rohkem teemasid vaimse tervise teemal ja muudel sellistest valusad teemad nagu tõst- tulevad nagu rohkem esile, aga ma ütleks, et nagu nõudlikuma osa pealt on küll see, et, et meil on, nüüd elame globaalses maailmas, et meil ei ole ainult meie kodu ja Eesti võib-olla sellised tingimused, vaid me vastame kõikidele globaalsetele tingimustele ja ootustele. Ehk siis meil on internet käepärast kogu aeg ja, ja me kogu aeg toimub siis selline globaalne võrdlemine. Ehk siis noorte jaoks mõnes mõttes on see identiteedi suur selline katsetamine, arendamine, kogu aeg on latt kõrgemal, et see nõuab väga palju sellist pingutust. Aga millist mõju avaldab, kui keegi jagab oma raskust läbi filmi, siis nii vaatajale kui autorile? Millist mõju avaldab film vaatajale kui ka autorile endale, kus siis jagatakse oma raskust? No ma arvan, ma ütleks meie kogemuse järgi, võib-olla meie noorte kogemuse järgi, et, et, et siin on nagu mitu faasi, et kõigepealt on no selline film, mis korda läheb, kui, kui inim- kui filmitegija teeb hingest ühe loo, siis see läheb korda ka publikule ja siis seda näeb publiku pealt, millist mõju see avaldab, eks ju, et siis see lugu jõuab kohale, et see tekib palju arutelusid, inimestel on emotsioonid, eks ju, et saab palju tagasisidet ja filmitegijal, kellele selleks esilinastuse hetkel on tegelikult tõeliselt kõrini oma filmist juba on ju, sest et ta on istunud kümneid, sadu tunde mondaažis ja, ja hüpitanud edasi-tagasi ja see film on muutunud tema jaoks nagu selliseks detailidest koosnevaks asjaks. Et siis see, see esilinastus on väga tähtis, sellepärast et siis ta saab tagasi oma selle armastuse oma filmi vastu, siis ta näeb, kuidas publik selle vastu võtab ja kuidas ta reageerib ja, ja mis küsimuse ta käest küsitakse. Ja siis tal jõuab tegelikult teist korda kohale, et see lugu, mille ta on rääkinud, nii et ma arvan, et see on väga oluline, et see niimoodi kohale jõuab. Kiirke, kuidas sina tunned, kui oled nii autorina kui ka vaatajana. Kuidas sina oled tundnud, et sind on film mõjutanud? Minu enda film või, või, või siis, kui sa vaatad kellegi teise filme, et kuidas nad nagu erinevad ja kuidas mõjutavad? No enda filmi ikkagi kritiseerid lõpuni välja teiste filmiga, austad kõike, mida näed, ütleme nii, see on see vahe. Vähemalt minul. Ma võiks veel korraks öelda, et kuidas võiks nagu noore, noorearenguliselt nagu mõjutada, et kui see on tema looming, siis tihtipeale see on hästi seotud tema enda identiteediga. Ehk siis ta kõik, mis ta loob, ta võtab seda hästi isiklikult võrreldes mõne teise eluetapiga, mis me läbime. Ehk siis see tagasiside. Kõik, kes vaatavad, et peaks olema selles mõttes hästi läbimõtestatud ja hästi tundlik selles osas, et arvestada noorte arengu eripäraga. Kas ühel filmil võib olla nii suur jõud, et see mõjutab tervet ühiskonda laiemalt? Kuidas näiteks võiks olla? No minu meelest on ühiskonnal ka mitu mõistet, et on nagu mingid väiksemad, näiteks mingi filmiühiskond, aga siis on ka suurem näiteks Eesti ühiskond, aga siis on ka maailma ühiskond, et need kõik ühiskonnad erinevad üksteisest niivõrd palju, et tegelikult iga film annab igale ühiskonnagrupile mingigi nagu väljendi või mingi arusaama mingist kindlast teemast. Ma arvan, et, et filmijõud on selles, et film peab panema mõtlema, et kui sa kinost välja tuled, kui sa tuled kinost välja ja sa ei tunne mitte midagi ja lähed võtad endale väikse burksi ja lähed koju ja vaatad Netflix'ist mingit sarja, siis siis see film ei ole nagu korda läinud, see lugu ei ole tulnud südamest, et, et see film võib ajada õudselt närvi, mis on väga hea, võib teha väga rõõmsaks, väga kurvaks. Ma ei tea, depressiivseks, ükskõik, aga kui sa tahad sellest filmist pärast rääkida veel mitmeid kordi, et siis lugu on juba mõjutanud ühiskonda, sest et seeläbi sinu, kuidas sa lähed järgmine päev kooli ja räägid kellelegi, mis sa nägid või tööle või kirud seda filmi järgmised kaks nädalat on ju. Aga, aga ta midagi muutnud, see lugu. Aga Maria, kas sa oled tundnud, et sind on mingi film totaalselt muutunud muutnud? Jah, mind muutis väga-väga mitmeid, ma olen kümneid aastaid tagasi kui ma käisin kinos hästi ilus suvepäev oli, ma olin ikkagi noor ja, ja ma käisin vaatamas mingisugust tohutut õudukat, ma ei mäleta, mis asi see oli, aga see oli ikka puhas puhas õudukas. Ja see oli nagu kaks tundi totaalselt terrorit niimoodi, et sa istud seal nagu, higistad seal põhimõtteliselt, et hoiad krampis kinni ja siis ma tulin sealt kino pimedast saalist välja ja vaatasin, et linnud nagu laulavad, inimesed kõnnivad tänaval rahulikult, kõik on nagu ilus ja maailm on nagu rahulik ja, ja siis, siis mul tekkis võrdlustunne, et noh, et ma elasin seda filmi nii tugevalt läbi, et maailm on nagu niivõrd ilus ja tore, et, et ma noh, nii-öelda armusin maailma sellel, sellest filmi kontekstist nagu. Kui sa armusid maailmasse, kas see tunne hakkas ajapikku hajuma või kui sa mõtled praegu sellele filmile, siis sul tuleb maailma vastu armastus tagasi? Ja ikka tuleb see tunne päris tugevalt tagasi, et kui ma sellest rääkima hakkan, siis on mul meeles. Kirke, kas, kas oskad tuua näidet, kus on sind film päästnud või siis aidanud midagi keerulist lahti mõtestada? Ma arvan, et kindlasti on mingid kindlad näidet mul hetkel ei ole, aga ma viimastel aastatel tegelikult vaatan hoopis teise pilguga kõiki filme, et ma pigem lähen selle mõttega vaadates peale, et mida ma saan siit kaasa võtta, et kas siis enda elu arendada või enda maailmapilti muuta, kasvõi väikse grammi võrra. Seega ma igast filmist üritan midagi kaasa võtta, olgu see siis noorte film või ma ei tea, ülikooli lõpetanute Oscarite võitjate film, et see igast filmist üritan midagi kaasa võtta, jah. Liina, kui noor teeb filmi enda jaoks väga raskest teemast, siis kuidas sa suunad teda niimoodi, et fookus oleks ka loovusel ja filmikunstil, mitte siis ainult enda ravimisel ja nagu teemast ülesaamisel. Ma arvan, et mitte ükski noor ei ole tulnud minu juurde isikliku või raske teemaga eesmärgiga ennast ravida. Et nad tulevad ikkagi, et rääkida see lugu ja, ja, ja luua ja rääkida seda kunstiliselt ja rääkida see nii, et teised sellest aru saavad. Et, et ma arvan, et see visuaalse loo jutustamise oskus on üks olulisemaid oskusi, mida, mida me täna peame edasi andma noortele ja ka tegelikult vanematele inimestele. Sellepärast, et et selle loo rääkimise käigus ta juba tegeleb ilmselt selle, selle tervenemise või selle loo enda jaoks lahtimõtestamisega. Et me kindlasti ei alusta sealt, et et kuidas ma saan aidata sul nüüd elu paremaks teha, et see pigem on see, et me nüüd hakkame vaatama seda lugu, miks see sulle tähtis on, mis sa sellega öelda tahad. Miks sina seda rääkima pead ja kuidas sa seda rääkida tahad? Ja siis on see juba protsess. Kui tihti tuleb sinule ette, et mõni õpilane teeb nii hea filmi, et see läheb ka sulle endale südamesse ja aitab midagi lahti mõtestada? Iga jumala kord. Ei, väga tihti ja, ja et me, me oleme, teeme aastas umbes kaheksa filmi ja, ja absoluutselt iga kord, aga, aga mul on ka see, see võibolla eelis võrreldes nüüd kinofilmi vaatamisega, et, et ma olen kogu terve selle protsessiga kaasas. Ehk siis ma näen, kuidas see lugu, kust see lugu algab ja kuskohas see lugu lõpeb. Ehk siis, et see tegelikult terve see protsess on väga mõjub minule. Kuidas saaks pakkuda noorele, üks hetk, kust jookseb piir, milline teema sobib filmiks ja milline ei sobi? Ma võin alustada, minu meelest ei ole sellist teemat mis ei sobiks filmiks kõik teemad sobivad filmiks, see oleneb kuidas sa jutustad mingist teemast, mis teeb siis selle niinimetatud sobilikuks või mittesobilikuks. Ma arvan, et filmitegija Kuldreegel, mida me ka filmikoolis õpetama ja mille järgi ka me ise tegutsen, olles dokumentalist, kus sa pead sageli rääkima igasuguseid lugusid. On see, et, et oma filmilooga sa ei tohi mitte kellelgi haiget teha. Ja, ja kui sa sellest lähtud, siis sa võid rääkida ükskõik millest. Maria, kas sa oled märganud, et noore looming aitab teda väga palju ennast avada, kui ta muidu näiteks ei julgeks seda kellelegi rääkida, aga siis tehes sellest mõni film või kirjutis on nagu põhimõtteliselt probleemi ära lahendanud. Ja kindlasti, et on olemas igasuguseid selliseid loovteraapia tehnikaid ja kõike eneseväljenduslik tegevus on selles mõttes psühholoogiliselt väga kasulik tegevus üleüldiselt. Olgu see siis mingi psühholoogiline raskus või, või selline ülekoormus, mis iganes enese tõlgendamine, enesereflekteerimine äärmiselt kasulik ja oluline. Et seda kõike, ma arvan, see film ja, ja filmi kirjutamine ja selle läbimõtestamine, ükskõik mis lugu selle taga ka on, see aitab ennast palju rohkem mõista, palju rohkem arendada ja, ja nagu nii-öelda siis ennast paremini noh, mõista. Kuidas sina aitad noort ilma tema hääle alla surumata? Liina vist juba siin rääkis päris hästi, paar sellist mõistet, mis on see, et, et, et ei tohiks, et mis on eesmärk, eks ju. Ja, ja kuidas teda siis toetada, just kuidas, mis, millist toetust ta nagu vajab. Et kõige tähtsam on just see, et, et see juhendaja ei oleks tegelikult otseselt suunaja, vaid ta oleks abistaja, ta oleks nagu ruumihoidja põhimõtteliselt, mis, mis aitaks sellel noorel luua seda, mis tema peas on, et aitaks väljendada, et selline turvaline ruum, kus ei ole tegelikult selliseid võib-olla ootusi või, või kindlaid juhiseid, raame, kuhu sisse tema peab oma looga siis mahtuma, vaid et ta saab kõigepealt rääkida nagu oma selle loo ära, mis on selline aus ja siiras, mis talt välja siis tuleb. Kirke, millist abi noor ise ootab juhendajalt või psühholoogilt saada? Ma võib-olla seda juhendaja osa oskan vähem rääkida enda kogemusest, sellepärast et ma olen siuke isehakkaja olnud. Siiamaani vähemalt. Et kahjuks või õnneks on siis elu suunanud niimoodi, et ma üritan ise saada hakkama filmialaselt siis kui nagu mõelda filmialase suunajana, siis. Ma üritan leida alati testlugejaid, kes siis nagu suunaks võib-olla mingitele kriitilistematele kohtadele tähelepanu, aga niisugust üldist suunajat ei ole olnud. Aga teine pool küsimusest, psühholoogist. Psühholoogid võib-olla, milleni mina olen jõudnud, on see, et psühholoogid aitavad leida probleemi tuuma, et noor saaks siis ise sealt edasi tegeleda. Noh, mitte ainult üksi ja mitte ainult ise, aga et ta saaks aru, kus on probleemi tuum ning siis sealt kasvõi koos psühholoogi abiga edasi minna. Aga, Liina, kuidas sa hoiad usaldust ja siis õpilase vabadust korraga? Ideevabadust? Huvitav küsimus. Ma arvan, et sa pead olema aus, kogu aeg aus, et et ka tõsistes asjades, et et mitte, et ühe külje pealt mitte üle hoida seda inimest, eks ju, selles mõttes kasutan väljendit siin nännutada võib-olla onju, et, et mitte tekitada ka seda, et, et, et kõik on lubatud, sest mida me ei ole siin maininud, on praegu see, et ükski, keegi ei tee üksi filmi. Et me räägime ühest noorest, aga tegelikult siin juures on veel see, on see meeskond, kellega koos seda filmi tehakse, nii et, et see on juba üks niisugune suur protsess meeskonnas kohaldumine oma rolli leidmine ja, ja oma hääle endiselt kuuldavaks jätmine, mis on juba selline õppeprotsess, eks ole. Et, et selles mõttes ma arvan, olles aus ja, ja andes täpselt, andeski selle vabaduse samal ajal ka selle teadmise, et et see nii-öelda turvaring sellel hetkel on ikkagi ümber. Kas ja kui oled, siis kuidas oled pidanud sekkuma mõne noore idee puhul, et suunata turvalisemale rajale? Ma arvan, et mitte turvalisemale rajale, et ma ei oska öelda, mul nii ohtlikke olukorda pole üldse kinomajas, aga, aga, aga et võib-olla pigem suunata sinna suunas, et ta räägiks seda lugu sellest millest ta midagi teab. Pigem ja mitte sellest, mis tundub, et on maailmas kuidagi huvitav, äge ja palju käsitletud, et, et et see on, see on selline protsessi osa, et me arutame, et mis osa sellest loost on see, mis sind kõnetab ja miks sa sellest rääkida tahad ja mis sa sellest üldse tead. Ja kui ta jõuab sinna lõpuks, et aga tegelikult tõesti see noh, mulle tundus, et see on üks õudne asi, millest ma tahan rääkida, aga tegelikult see ei kõneta mind siis, siis me siis ta mõtleb edasi ja siis ta lõpuks jõuab ise oma selle mõttekäiguga siis võib-olla mingi loo versioonini, mis on talle hästi tuttav ja ja nagu kõnetab teda. Aga millist rolli mängib tagasiside noore filmitegija edasises loomingus loomingus ja enesehinnangus? No tagasiside on üks kõige kesksem nagu nii-öelda osa noorukieas. Et see on äärmiselt tähtis ja, ja seda ei tohiks mitte mingil juhul alahinnata kuidagi, et see on vähem tähtsam mõnele. Et isegi kui öeldakse vastupidi, siis ikkagi on teistpidi. Kas midagi veel? Küsiks ka teiste käest, mis kogemused teil endal tagasisidega ja mis te arvate, kuidas see mõjutab? No mulle väga meeldib tagasiside tegelikult ja mina võib-olla õhutaks noori rohkem kritiseerima, mitte nüüd halvustama, et teha nendel kahel vahet. Aga mulle meeldib tagasisidet saada, aga ma näen, et inimesed ei julge tegelikult oma arvamust öelda. Ja siis ma näen, et nad noh, mõtlevad ka seda, mida nad ütlevad, aga tegelikult nagu kuskil läbi silmade on aru saada, et nad tahtsid midagi veel öelda, aga nad justkui kardavad haiget teha, et enne kuidagi ka mainisime, et et peab nagu läbi mõtestama selle, kuidas tagasisidestada, et seda kindlasti teha, aga tagasiside ja sealjuures ka siuke võib-olla kriitiline, kriitilisem noot. See on väga oluline ja, ja tegelikult iga noor filmitegija hindab seda väga palju. Nojah, tagasisidet tuleb osata anda ja vastu võtta, et see on juba selline esimene samm, et tegelikult noore filmitegija koha pealt, et just, et võin sulle anda, eks ju head tagasisidet ja, ja, ja tegelikult filmide puhul on see, et tegelikult filmitegijal vajab seda tagasisidet mitu korda. Et ta vajab seda võib-olla peale võtteid ja ta vajab seda montaažiprotsessi, seda vajab seda peale esilinastust on ju, et, et tegelikult ta ta protsessib oma filmi tükk aega. Ja see tagasiside tuleb nagu osadena, mis on väga oluline, et ta saab seda arutada, võib arvata tegelikult peale võtteid ühte asja peale esilinastust hoopis midagi muud, mis tavaliselt vist nii ongi. Aga aga teise külje pealt ootab ees ka maailm, kus kus tuleb tagasisidet, täiesti täiskasvanud inimeste käest, nii et võtab tooli alt ära kahe sekundiga. Ja, ja kui me, kui me selles suhtes hoiame ühe külje pealt küll noori turvalises tsoonis ja anname, mõtleme oma tagasiside kogu aeg läbi ja, ja arutame nendega, siis teise külje pealt me peaksime natukene neile nagu ka neid ka ette valmistama, selleks, et ühel päeval võib tulla keegi, kes ei mõtle seda läbi, kuidas ta tagasisidestab sind ja ta ütleb sulle kõik, mis tal pähe tuleb ja ta võib-olla on kuulus kriitik ja võib-olla tal ei olegi õigus. Aga sa pead olema siis nii tugev ja sa pead olema nii, nii kindel omaenda idees ja, ja uhke oma idee üle, et, et sa saad sellest siis aru, et okei, ahah, ta ütleb seda, seda mõtlesin ise ka, et Nets on jama, aga tegelikult see, mis ta siia kirjutas, on tema enda mingi luulu onju. Et see, et selles mõttes see, see arusaam peab tulema, et see on see intelligentsi kasv noore filmitegijale, et sa saad aru, mis on loogiline, mis on mõistlik tagasiside ja mis tegelikult ei ole. Ja sa ei tohi sind nagu katki teha. Ma veel segaks vahele, et hästi hea minu meelest see küsimus kohe otse tegija poole tagasi lükata, küsida, et, et aga mis sina arvad, mis läks väga hästi või mis sa tahaksid järgmine kord teisiti teha. Et selliseid edasiviivaid küsimusi, mis aitavad talle päriselt seda protsessi ka ise analüüsida ja, ja ma usun, et tema oskab väga sisukalt ise vastata nendele küsimustele ja, ja sealt koha pealt saab teda siis kiita, mida ta välja toob. Kuidas Maria, sina nagu annaksid nõu ja kaitseksid noort siis kriitika vale tõlgendamise eest. Eriti kui teema on temale endale väga tundlik. Me ei ole selles rollis otseselt olnud, aga ma arvaks, et et mis kaitseb üleüldse igasuguste selliste äkiliste reaktsioonide ja, ja ärevuse ja muuse selliste ootamatute teadete nagu eest. On tegelikult see teadlikkus, selge teadlikkus, mis hakkab juhtuma, mis võib hakata juhtuma, kuidas seda protsessi ette valmistada samm-sammult, et lihtsalt ära kaardistada kogu see protsess, et millised võivad olla sinu reaktsioonid, milliseid vastuseid me võime oodata, millised võivad olla sinu jaoks need kõige hullemad või hirmsamad ja rääkida need lihtsalt läbi, mängida läbi. Et see vähendab neid ootamatuid reaktsioone tavaliselt. Kirke, mis on kõige positiivsem ja mis on kõige negatiivsem tagasiside olnud, mis sa oled saanud oma teose kohta? Ma jäin mõtlema negatiivset. Kõige positiivsem tagasiside võib-olla ei olegi otseselt nagu minu filmidega seotud, aga mida minu filmid ajendasid, et kui mõni noor, mul päris tihti, kuna ma olen sotsiaalmeedias päris avalik oma filmi tegemisega, siis mulle päris tihti kirjutavad eri noored, et tere, et aitäh, et sa selle filmi lõid, et tänu selle filmile sain mina inspiratsiooni, et oma film teha. Ja see on minu meelest kõige ägedam tagasiside, mida saada, et vau noh, et justkui minu film andis siis teisele ägedale noorele inspiratsiooni. Et see on minu jaoks kõige positiivsem isegi mitte nagu minu, minu filmide kohta. Negatiivseid, ma ütlen ausalt, ma ei ole saanud selles suhtes, et ma ei mõtesta neid niimoodi. Sellist asja nagu negatiivne kommentaar ei ole olemas minu peas, et tähen-, tähendab filmi kohta, et on mõtted, mis aitavad edasi viia mitte negatiivne kommentaar. Liina, kuidas sa annad sihukest head tagasisidet ehk siis nagu asjakohast ja ilma, et noort liialt riivata? No ma arvan, et mu eesmärk ei ole kunagi noort üldse riivata oma tagasisidega et see see ei tohikski olla eesmärk. Siis on midagi viltu. Aga ma arvan, et, et noh, umbes sarnaselt et, et siin see põhineb päris palju küsimustel, et kuidas ta, et kui me saame selle vestluse käima, et siis kuidas sa kõigepealt, kõigepealt ma lasen rääkida, et mis, mis nad ise arvavad, et kuidas läks. Sellepärast et sealt pealt saab siis tavaliselt see analüüs jõuab sinna ka nende vigadeni mida tehti onju sest hästi tugevalt oleme me ka seal oma oma ütleme filmikooli süsteemiga, et, et vigu tulebki teha ja, ja, ja vigu juhtub, aga loeb see, kuidas neist välja tullakse ja kuidas neid lahendatakse, see on palju tähtsam, kui need vead. Ehk siis ehk siis tegelikult see arutelu ongi alati hästi põnev, et see hakkab sealt pihta, et kusagilt hakkab see kerima ta enda mõt-, noore enda nagu mõttelõng ja siis sinna sisse on hea siis pista, aga mis sa arvad,--- sa arvad ka, et sul see läks, onju, et mõtleme, mis me oleks saanud teistmoodi teha või mis sa järgmine kord teistmoodi teed, et enamasti ma ei pea väga palju ütlema midagi. Et tavaliselt nagu alustad mingi küsimusega ja siis sa lihtsalt niimoodi tuleb. Ja siis ongi, on hea ennast vahel niimoodi tühjaks rääkida, et siis tegelikult selle nagu pinnalt on väga hea edasi minna. Kas publikul on midagi küsida? On juba plaanis ka uue filmi peale. Tegelikult eile olid võtted ja homme tulevad ka võtted, et selles suhtes ma alati loon, ma ei oska elada ilma loomata enne filmi loomet oli mul alati mingi teine väljendusviis loomevaldkonnas. Et ma olen hästi loominguline inimene. Ja hetkel on isegi mitu projekti pooleli, mis siis praegu ongi, võttes nüüd terve august siis noortega tegeleme, teeme ja siis olenevalt projektiks, projektist järgmise aasta kevadeks on kõik valmis spetsiifilisemalt kui soovid teada, siis üks on niisugune kolmekümne minutiline lühifilm umbes tuleb, räägib leinast sõbra kaotamisest ja ja siis leinafaasidest ja kuidas noored leina kogevad ja teine on siis niisugune düstoopiline ja katsetan esimest korda ja esimest korda lühisarja teha, ehk siis tuleb neli episoodi. Räägib niimoodi informatsiooni peitmisest, ütleme siis nii. Kas sul on järgmine aasta ka plaanis horisondil osaleda? Ikka. Ja palun. Millist rolli sinu elus mängib mu telefoniekraani skrollimine? Ja see on väga hea küsimus. Tegelikult ma nüüd üritangi, ma ütlen ausalt, mul on nutisõltuvus ja ma üritan sellest lahti saada. Mingil määral ikkagi filmitegijana sa pead sotsiaalmeedias niinimetatud scroll'ama, scroll'ima. Et ise avalik olla, et ise teisteni jõuda. Aga noh selles suhtes tegelikult mul on isegi film sellest, et see ei ole veel avalik, aga film käis ka horisondil, selle nimi on Tilgatagused naeratused ning film räägibki siis, kuidas sotsiaalmeedia mõjutab noortevahelist suhtlust, et minu meelest see on hästi aktuaalne teema ja sellest võiks rääkida. Aga mis mulle endale ei käi üldse nagu meeltmööda, on see, kuidas justkui nagu leitakse probleem, aga seda ei lahendata. Et ma ise olen pigem sellise mõtteviisiga, et kuidas ma saan seda asja lahendada, mitte et mis on probleem. Kas see vastas küsimusele? No ma ütlen ausalt, ma viimasel ajal ei viitsi väga seal olla. Et ma selles suhtes, et ikkagi vahepeal. Ma hoian end kursis, ütleme nii, et kui ma scrollin, siis ma hoian end kursis trendidega, hoian end kursis millega, millest teised räägivad. Et pigem see kursis hoidmine. Võib-olla lisan siia sellele veel, et, et natuke selle telefoni sõltuvuse või scroll'imise vastu mässamiseks me tegime sel aastal sel suvel filmilaagri, kus tehti ainult telefoniga filmi, kus Kirke ka osales ja, ja ma arvan, et need tulemused ikka väga lahedad, neid saab näha ka koolifilmifestivalil sügisel neid filme, mis seal tehti. Aga, aga tõesti, et, et see telefon on, et ta ei pea kujunema sulle ainult selleks sotsiaalmeedia aju sulmaks, vaid, vaid ta võib olla sul tegelikult tööriist, et täna meil on ju ka juba kuulsad filmitegijad, kes teevad juba kinofilme telefoniga, nii et selles suhtes leia see tööriist ja kasuta seda nutikalt, ütlen mina. Küsik siis sellise üldisema küsimuse teilt kõigilt, et kas teie arust on noorte lood tänapäeva ühiskonnas piisavalt nähtavad ja kuulda võetud, miks? Mina ütleks, et on nähtavad, sest et kõigil on sõnavabadus ja tõesti kõike saab sotsiaalmeediasse panna. Kõike ka väga isiklikku ja nähtavus ei tähenda alati, ma ütlen sellist nagu kuuldavust või, või kuuldut olemist. Ja ühiskonnas tegelikult ma ütleks niimoodi, et see on ikkagi veel väga selline lapsekingade teema, et et nagu siin ka ennem käis läbi, et, et me ei julge tegelikult ikkagi mingit arvamust avaldada, et me kardame mingisuguseid hoiakuid või muid selliseid, mis pärsivad meie loomingulisust. Ja, ja sellega seoses siis, siis tegelikult ma arvan, et see, see nähtavus on olemas, aga see kuuldus või kuuldavus kuuldud olemine, et see seal taga on selline, selline mõistatus, et või mõistmatus pigem. Et me ei, me ei mõista veel kõiki muresid, eriti neid valusamaid või traumeerivamaid ja, ja sellega seoses tegelikult ikkagi me saame võib-olla halvema tagasiside ja me järgmine kord enam või me õpime teiste lugudest, et vot selliseid lugusid ei ole hea ikkagi avalikustada. Ja siis me pigem ei räägi nendest, et see on selline üks elav organism ja ma arvan, et selle juures kõik, kogu ühiskond peaks olema natuke mõistvam, sest et see ei ole lihtsalt võib-olla noh nii-öelda noorele selge, mida jagada, vaid ta jagab seda siiralt ja ausalt ja, ja tagasiside selle juures peaks olema väga ettevaatlik. Et ei julgeks seda jagada, sest et see on tegelikult ikkagi tervislik, ennekõike. Kas saaks korra korrata seda küsimust? Palun. Küsimuseks oli, et kas teie arust on noorte lood tänapäeva ühiskonnas piisavalt nähtavad ja kuulda võetud, miks? Mulle meeldib, et viimasel ajal ka Eesti filmimaastik jõuab sinna, nii et rohkem tuleb välja täispik filme täispikke noorte filme, ütleme siis niimoodi. Ja praegu on ka töös päris mitmeid noorte filme, mis on väga, ootan juba nende nägemist ja mulle noh, miks just noorte filmid, mulle hästi südamesse paevad, on see, et noortefilmides tihtipeale julgetakse käsitleda just neid kõige-kõige raskemaid teemasid. Et nendes filmides on alati midagi, mida kaasa võtta nagu midagi suuremat just jah. Jah, et ma arvan, et see vahe ongi selles praegu, et üks on see, et noor saab paisata täna kõik asjad sotsiaalmeediasse, aga see ei ole filmi tegemine on ju, et see on, et, et see filmi tegemine annabki selle puhvri sinna vahele, et selleks, et sellest film saab, pead selle loo täiesti sada protsenti läbi töötlema. Ja siis on sul võimalik teha selline lugu, mida tegelikult kuulatakse ka, et kui sa lihtsalt helgid seal sotsiaalmeedias iga mõttega, mis sul pähe tuleb, et siis see sageli lähebki kuhugi teiste mõtete hulka. Aga, aga kui sa tõesti mõtled oma loo läbi ja, ja teed midagi, mis, mida sa tahad, et see jõuab inimesteni ja mõtled läbi, et sa tahad, kelleni see jõuab, siis see jõuab. Nagu me eelnevalt selgusele jõudsime, et kaamera ei ole ise siis hukkamõistja ja pigem on hukkamõistjad need, kes siis siis vaatajad on ja seda filmi vaatavad, et mida saaks igaüks teha. Et oleks seda hukkamõistmist vähem ja oleks rohkem mõistmist. Mina arvan, et see on ikkagi hästi suur eestvedaja, on praegu ikkagi tänapäeval noor, kes on palju rohkem vaimselt teadlikum, kes tõstatab üldsegi neid teemasid palju aktiivsemalt kui mõni vanem põlvkond. Ja, ja ma usun, et nemad muudavad maailma, ehk siis meie ühiskondlik selline vaimse tervise või muredest rääkimise selline foon, ma usun, et muutub ja muutub haritumaks. Ja mul on üks mälestus põhimõtteliselt, kui oli Hrisondi filmifestival, siis kevadel, siis žürii poolt tuli niisugune kommentaar, et noored, tehke palun rõõmsaid filme, mis minu meelest on hästi huvitav kommentaar. Sellepärast et minu meelest on nii äge, kuidas noored julgevadki tõstatada siukseid raskemaid teemasid. Et see on nagu märgatav vahe generatsioonide vahel. See on minu meelest megaäge, nii et noored, tehke ükskõik millest filme. Ärge tehke ainult rõõmsatest asjadest. Jah, ma lihtsalt lisan siia võib-olla, et, et lihtsalt rõõmsatest asjadest on palju raskem filmi teha. Et meil on natuuris see, et me tahame ikka minna ja, ja suruda täiega seda, seda rasket ja kontrastset teemat, eks ju. Aga tegelikult, mis on küll õige, on see, et, et rõõmsates lugudes on omaette võim. Noori aidata ja üldse kõiki aidata, et kui, kui sa vaatad mõnda väga helget, nüüd ma räägin dokumentalistina, eks ju, kes ka samamoodi ka dokumentalistid tahavad ju rääkida, uuristada neid kõige valusamaid teemasid. Aga, aga on olemas ka väga helged ja, ja selliseid tõstvaid dokumentaalfilme, mida, mis, mis tegelikult teevad lahti ka selle rõõmu meie elus, et seda ei tohiks ka päris ära kaotada, et kui me, kui me nagu noh, loomulikult me julgustame noori rääkima oma lugusid, aga, aga me peaksime julgustama leidma ka seda rõõmu, mis nende ümber on. Aga, Liina, missuguseid rõõmsaid filme sa tead, et sinu õpilased on teinud, sest ma mõtlen ka praegu, et kui ma peaks nagu filmi tegema ja mis läks inimestele korda, siis see on pigem sihuke sünge teema, et milliseid rõõmsaid filme üldse saab teha? Oh, saab igasuguseid rõõmsaid filme teha. Et meil on ja meil on aegade jooksul ikka, ütlen ausalt, ei ole nii palju, aga, aga mõned ikka igal aastal tulevad, et meil on praegugi on montaažis üks lugu näiteks sellest, kuidas inimesed hindavad välimuse järgi, teevad, noh ühesõnaga annavad hinnanguid välimuse järgi, siis ühest noormehest, kes siis jätab väikelinnas mulje, et ta on täielik kaak ja, ja on ainult halbade kavatsustega, aga pärast tuleb välja, et, et läks ainult vanaemale moosi jaoks viima või õigemini õigemini likööri jaoks viima siis poest alkoholi ja aitas tal pärast moosi ketta, aga ühesõnaga, see on selline, me kõik ära ei räägi, aga ühesõnaga põhineb siis selles, et kuidas inimeste need eelarvamused hästi kiiresti kasvavad selle põhjal, mida nad näevad. Maria, kas keegi on sinu kui psühholoogi juurde tulnud ka mõne rõõmuga, et on nii väga tahtnud mõnda rõõmu jagada ja kui tihti? Jaa, peale mitmeid vastuvõtte on olnud paar ägedat klienti küll, kes lihtsalt tulevad ja räägivad, kui tore neil on või kui edukad nad nüüd on eksju, et nad on sellest jagu saanud. Et neid ei ole palju, aga, aga mõni on, et noh, ega eestlasel ei ole vist väga harjumuspärane jagada oma rõõmu niivõrd, noh uhkelt või, või suurelt, eks ju. Kas sa tunned, et kui inimesed jagavad oma muresid, rõõme, et kas need lähevad nagu sinule ka samamoodi korda nagu film või kuidas nagu filmi vaatamine ja inimese enda jutt nagu erineb mõju poolest. Et kas sa pigem, kui sa teed tööd, siis mõtled, et ei, ma ei võta ühtegi asja südamesse ja et see on mu töö. Ja filmi vaatamisega vaatad, et noh, et see on film, et ma peangi seda nagu tundma. Mulle vastupidi, et päris inimene räägib päris lugu tihti ikkagi ja, ja see on palju vahetum, et filmi puhul ma kogu aeg proovin ajust kustutada seda, et ei, see on lavastatud, see on lavastatud. Et see ei kustu ära tihti, aga, aga mõni film on, mis noh, ikkagi lähed nagu niivõrd sisse, et tõesti see kustub korraks ära. Aga lõpetuseks siis küsin palun teilt igaühelt ühe mõtte või soovituse, siis noorele, kes, kellel on plaan teha raskest teemast filmi. Mina võin anda sellise soovituse, et rasked teemad vajavad hästi kindlat raami ja hästi tugevat sellist tugivõrgustikku. Ja, ja kindlasti mina soovitaks läbi mõelda, läbi dialoogide kasvõi iseendaga, kirjutada päevikusse, hästi palju läbi töötada seda teemat enda jaoks enne, kui ma hakkan seda kellelegi teisele või kolmandale inimesele rääkima. Ja, ja kindlasti hästi tähtis on sealjuures, et loo, looja nagu nii-öelda see, kes, kes seda teeb, autor, siis temal peab olema sada protsenti kontroll selle protsessi üle. Et tema peab saama öelda stopp või paus või ta saab ümber mõelda neid teemasid. Selle kaudu ta kaitseb ennast. Et see teema ei läheks tal taas traumeerivaks. Räägin võib-olla enda kogemusest või mis mina teeksin siis, et ka mul on siukseid teemasid hetkestes projektides, mis on mulle hästi isiklikud. Ja noh, ega ma teistmoodi ei oska ka, et igas projektis on ikkagi tükike mind või, või minu hingeelu. Aga võib-olla proovida muuta olustikku, et ei pan-, ei pane täpselt sama olukorda. Noh, hästi lihtne näide, kui on mingi armuelu, et siis on ühel üks hobi ja teine teine hobi, päriselus, et filmi võib olla leida siis mingid teised hobid, teine olustik kui soovida just mingist kindlast armuelust rääkida, et niimoodi, et looja ise saab aru ja tema jaoks on see hästi isiklik. Aga vaataja jaoks on see siis täiesti teine lugu. Mina isiklikult teeks seda ja olen praktiseerinud seda. Ja noh, kui juba luua ja kui filmi tahta teha, siis on alati vaja ka kaamera ette inimesi, näitlejaid, siis raskete stseenide ajal tuleb ka näitlejatele toeks olla, et vaimselt siis, et hästi palju räägitakse füüsilisest väsimusest võtta päeva lõpus, aga mõni raske stseen võib vaimselt nii läbi võtta, et näitleja ei suuda pärast seda enam näidata. Et mul eile oli just filmisime ühte sellist stseeni, kus me tegime pikema pausi pärast ühte kindlat stseeni, kuna vaimselt lihtsalt võttis nii läbi. Et anda aega ei tohi kiirustada. Ma arvan, et siin on kaks asja, et üks on see, et see tundlik teema ei ole tingimata veel lugu. Ja selleks, et filmi teha, on vaja lugu. Et et tegelikult tuleks, ma arvan, ikka leida need sinu inimesed või see üks sinu inimene või üks juhendaja või helistage meile või ühesõnaga keegi, kes ei ole selle looga seotud ja kes, keda sa usaldad ja respekteerid ja kes, kes aitab sul sellest loost teha või sellest teemast teha loo. Ja kui sellest saab lugu siis siis ta läheb laiemaks, ei ole enam see üks situatsioon ainult, vaid on terve lugu ja siis sa pead mõtlema, kellele seda lugu ja miks seda rääkida tahad. Ja siis see muutub selliseks protsessiks, et, et see hakkab sind pigem aitama kui, kui alla suruma. Nii et ma arvan, see üks sinu inimene või need sinu inimesed on olulised filmi tegemise puhul filmi ei saa teha üksi mitte kunagi. Kas publik soovib midagi öelda või küsida? Ühe nii-öelda filmi loojaga ja tema looga, aga mis võiksid olla siis ütleme nagu noorte valimised tervist arvestades positiivsed omadused, mida mingi tegemisest üks noor saab? Sellest ma võin kohe pikalt rääkida, ma pole nii palju aega. Et siin on väga palju, et mis ma olen aastate jooksul olen näinud, ilmselt kaasa rääkida siin, aga et et see me oma meeskonna või see sinu inimeste leidmine filmi tegemise puhul siin on, esiteks tekib see nii-öelda enesekorraldamise jõud, mida sulle enne võib-olla ei olnud, aga sa teed seda millegi nimel ja võib-olla see ei ole võimeline tegema seda oma toa koristamise nimel või või või õppimise nimel või, või ükskõik mis mure sind parasjagu vaevab selle nimel sa võib-olla ei suuda. Aga selle loo nimel siis te teete seda koos, oled sa järsku võimeline väga palju tegema. Et seda ma olen hästi palju näinud. On üks ja kaks on see selline avastamise, see tohutu, hästi kiire, intensiivne uue oskuse õppimise jõud. Et, et sa tuled võtteplatsile ja sa oled otsustanud, et sa oled kostüümikunstnik selle filmi puhul ja siis sa kohtud kostüümikunstnik Reet Maureriga ja kes, kes seletab sulle lahti, kuidas see filmis tegelikult käib ja järsku ma näen, kuidas nad tõusevad, nad järsku otsustavad ise, nad käivad, otsivad neid kostüüme, nad sobitavad neid kokku. Neil on nii kiire, me tegime just filmi suvel siin, kus oli filmilugu toimus aastal tuhat üheksasada kaheksakümmend kaheksa, ehk siis oli vaja riidesse panna mingi kakskümmend viis taustanäitlejat kaheksakümne kaheksanda aasta koolivormidesse ja lihtsalt silmad särasid, noh et, et kuidagi selle, sellele sellele, kuna ta on tõesti kollektiivne kunst, kunst filmi tegemine, et siis see, see silmade sära tuleb nagu kiiresti ja see, see on, see aitab väga paljude asjadega. Teise külje pealt ka aitab tut- väga kiiresti aru saada, mis su nõrkused on. Et, et mis on jälle ka kasulik lõpuks, eks ju, et väga kiiresti nad saavad ka aru, et mis neile sobib ja mis neile ei sobi ja millest nad on head ja millest nad ei ole head ja ma arvan, et see on väga oluline tunne pärast seda, et kogu see eduelamus, et ma olin selles väga hea ja see ma proovisin, aga see noh, järgmine kord seda võib-olla ei tee. Ja lisan siia juurde, et tegelikult hästi, noh me rääkisime tagasisisestamis sidestamisest, et hästi oluline tegelikult on tagasisidega tiimi poolt ja, ja kui me räägime filmist, siis näitlejate poolt, et kasvõig-, kasvõi igaühe oma tiimiliikmega maha istuda ja küsida, et kuule, mis sina arvasid, kuidas mul läks või või mida ma saaksin parandada? Jah, et selles noodis ma olen alati üritanud seda teha ja ma saan väga kasulikke tagasiside nagu jupikesi alati. Ma arvan, et õudselt kihvt ka see, et, et mida ma näen, on see, et nad omavahel noored hästi palju kiidavad üksteist, mida võib-olla need noored ei ole enne kogenud nii palju, et hästi palju on sellist nagu omavahel, sest et ülitubli, oh kui äge on ju, et sa oled pannud need, ma ei tea, kostüümid valmis, sa oled teinud selle loo kirjutanud, praegu see stseen oli väga hea. Väga palju toimub võtteplatsi peal, sellist nagu konstruktiivset tagasisidet ja, ja samal ajal ka seda ka, et kuule ka seda oled mõelnud, et äkki teeks nii, et, et ka seda on päris palju, sellist nagu nad mõtlevad läbi, kuidas nad üksteisele seda tagasisidet annavad, seda teab, et ta ei taha ise saada ka ju mingit, kuule, see on jama ära tee onju, et et selles mõttes see on hästi kihvt, on seda vaadata. Kas keegi soovib veel midagi öelda? Enamasti keeruline on, eks ole see üks inimene tunneb, et noh, keegi kas teised inimesed või siis olukord või ühiskond noh, teeb midagi, ei ole minu jaoks nagu hea. On see siis niimoodi, et, et see filmi tegemine aitab seda või on see oht, et, et näidatakse seda, eks ole õnnetut või millegi mingi probleemiga olevat inimest, et kuidas nagu lahti haakida see, see olukord, kuhu ta sattunud on, ka need teised inimesed siin ümberringiks see nii on? Kas see aitab siis paremini aru saada või selle loo ära rääkimine piisab ka sellest, et kui, kui lihtsalt öeldagi, et ongi raske elu ja siis on vähemasti jagatud mure, mis on siis juba poole väiksem. Filmis või? Aga mis see eesmärk on, et kas eesmärk on sellest murest lahti saada? Kas sellest piisab, kas sellest piisab? Ma ütlen veelkord, mis ma ennem ütlesin ka, et ma arvan, et alustan korra sellest, et ma arvan, et ühegi filmitegija eesmärk ei ole oma murest lahti saada filmi tegemisega. Et see on pigem on seda lugu teistega jagada või seda muret teistega jagada on pigem selle kunstniku eesmärk noore filmitegija puhul ma ilmselt ka arvan ka vanema filmi tegija puhul. Et, et ta selle mõttega ei lähe sellesse protsessi, et nüüd ma saan sellest lahti. Aga, aga ma arvan, et see protsess aitab seda küll, et mis ma näinud olen seda kõrvalt neid filme tehes, et, et see aitab lihtsalt väga palju asju lahti mõtestada, mida sa võib-olla üksi ei suudaks. Aga nüüd tulebki mängu see, et film on kollektiivne kunst, et tegelikult sa, kui sa töötad koos kümne inimesega seal võtteplatsil viieteistkümne, kahekümne inimesega, siis igaüks panustab sellesse sinu loosse ju selle lahendamisse samal ajal. Ehk siis tegelikult see kindlasti viib su mingi noh selles mõttes, et ma ei tea, kas ta su probleem ära lahendab, aga, aga see fakt, et sa oma muret teistega jagad või seda muret, mis sulle see lugu, mis sind praegu just närvi ajab rõõmsaks teeb, eks ju. Et see, see aitab sind. Et see, selles mõttes seda ma olen näinud noorte pealt küll, et see, et ja, ja teiseks kindlasti üks asi on see filmi tegemine, aga teine asi on need arutelud, mis pärast, mida su film tekitab. Ja see on see koht, kus nad tunnevad, et, inimesed tegelikult tunnevad huvi selle vastu, mis ma tahan öelda, nad tunnevad vastu selle huvi selle mure vastu või selle probleemi vastu, et, et see, ma arvan, see teine faas, mis, mis väga edasi viib. Nõus Kirke või? Ja. Mina tahaks siia lisada ühe tähtsa momendi, et kui tegelikult noor räägib väga isiklikust traumeerivast kogemusest, siis lihtsalt selle läbi tegemine, filmimine, kirjutamine, joonistamine võib taas, taas tekitada seda traumakogemust ehk siis see tegelikult võimendab, see ei töötle, see ei tee alati paremaks, vaid see võib taas panna teda sellesse olukorda ja, ja see filmimine kas siis toimub vastu tema tahtmist, et ta ikkagi on väga kohusetundlik ja ta veab välja, aga see mõjub talle väga laastavalt uuesti. Ma natuke ja absoluutselt nõus, aga ma ütlen siis seda, et, et enamasti filmitegija ei räägi, ei tee endast lugu, vaid ta paneb oma loo kellegi teise loo sisse. See on tore ja, ja sest, et kui ta just teeb mingit õudsalt avavat dokumentaalfilmi, mida noored enamasti ei tee, mida ka vanad inimesed enamasti ei tee, et, et selles suhtes enamasti ta paneb selle oma kogemuse hoopis teise loo sisse ja see on juba selline nagu ait-, kaitsepuhver ja. Ma jah, lisaks siia, et ma nõustun sellega, et ma ma panen alati mingeid isiklikke teemasid, kasvõi alateadlikult enda projektidesse sisse. Ja kui ma hakkan siis analüüsima näiteks stsenaariumi kirjutama või või karakteri analüüs on hästi hästi oluline osa filmist, siis ma justkui selle käigus tegelikult mõtestangi lahti selle enda tunde vahepeal ja saan aru, et vot siia ma panin enda tunde. Ja siis ma vastavalt sellele, siis kas liigun selle tunde poole või natuke eemale, et oleneb, kas ma jällegi tahan veel seda veel sellest teemast rääkida või siis või siis ma annan selle teema selle karakteri kätte, et see on nagu kahe otsaga asi. Minul rohkem küsimusi ei ole, kui keegi ei soovi midagi rohkem öelda, siis aitäh kõigile, et te siia tulite, tulite kuulama, osalema, aitäh. Aitäh, aitäh.",
+    "cues": [
+      {
+        "start_seconds": 10.92,
+        "end_seconds": 16.44,
+        "text": "Alustame aruteluga kaamera ei mõista hukka."
+      },
+      {
+        "start_seconds": 16.44,
+        "end_seconds": 23.32,
+        "text": "Arutleme siis, et noore, noortefilmid tihti käsitlevad teemasid, millest muidu on raske"
+      },
+      {
+        "start_seconds": 23.32,
+        "end_seconds": 24.48,
+        "text": "rääkida."
+      },
+      {
+        "start_seconds": 24.48,
+        "end_seconds": 28.84,
+        "text": "Miks see nii on ja kuidas me saaks noori selles toetada?"
+      },
+      {
+        "start_seconds": 28.84,
+        "end_seconds": 35.04,
+        "text": "Mina olen Kessu, ma olen Paide gümnaasiumi õpilane, ma olen filmifestival Horisondi eest"
+      },
+      {
+        "start_seconds": 35.04,
+        "end_seconds": 42.32,
+        "text": "vedaja, horisont on siis Euroopa Liidu rahastatud projekt, mille eesmärk on noor"
+      },
+      {
+        "start_seconds": 42.32,
+        "end_seconds": 44.68,
+        "text": "te mõtted tuua ekraanile."
+      },
+      {
+        "start_seconds": 44.68,
+        "end_seconds": 48.44,
+        "text": "Nii, aga meiega on siin kolm külalist."
+      },
+      {
+        "start_seconds": 48.44,
+        "end_seconds": 53.16,
+        "text": "Rääkige, kes te olete ja millega te tegelete."
+      },
+      {
+        "start_seconds": 53.16,
+        "end_seconds": 55.16,
+        "text": "Tere, mina olen Liina."
+      },
+      {
+        "start_seconds": 55.16,
+        "end_seconds": 59.96,
+        "text": "Olen filmirežissöör ja kinomaja filmikooli juht."
+      },
+      {
+        "start_seconds": 59.96,
+        "end_seconds": 65.28,
+        "text": "Ning Kinomaja filmikool see omakorda jaguneb siis ka üheks toredaks festivaliks, mille"
+      },
+      {
+        "start_seconds": 65.28,
+        "end_seconds": 68.56,
+        "text": "nimi on Koolifilm, mis toimub siis igas igal oktoobril."
+      },
+      {
+        "start_seconds": 68.56,
+        "end_seconds": 73.72,
+        "text": "Igas oktoobris ja, ja samamoodi korraldame ka rahvusvahelist filmilaagrit suveti, nii"
+      },
+      {
+        "start_seconds": 73.72,
+        "end_seconds": 76.68,
+        "text": "et palju asju."
+      },
+      {
+        "start_seconds": 76.68,
+        "end_seconds": 80.0,
+        "text": "Tere, minu nimi on Kirke."
+      },
+      {
+        "start_seconds": 80.0,
+        "end_seconds": 83.84,
+        "text": "Ma olen noor filmitegija."
+      },
+      {
+        "start_seconds": 83.84,
+        "end_seconds": 89.08,
+        "text": "Ehk siis tegelikult tavaliselt ma tutvustan ennast niimoodi, et tere, ma olen Kirke suur"
+      },
+      {
+        "start_seconds": 89.08,
+        "end_seconds": 91.0,
+        "text": "filmi fanaatik."
+      },
+      {
+        "start_seconds": 91.0,
+        "end_seconds": 98.84,
+        "text": "Mulle meeldib filme vaadata, filme teha, rohkem kaldun sinna teadusulme poole,"
+      },
+      {
+        "start_seconds": 98.84,
+        "end_seconds": 101.12,
+        "text": "düstoopia poole."
+      },
+      {
+        "start_seconds": 101.12,
+        "end_seconds": 105.6,
+        "text": "Aga noh, tegelikult loon kõike."
+      },
+      {
+        "start_seconds": 105.6,
+        "end_seconds": 107.6,
+        "text": "See on kõik."
+      },
+      {
+        "start_seconds": 107.6,
+        "end_seconds": 112.04,
+        "text": "Tere, mina olen Maria, mina olen siis psühholoog."
+      },
+      {
+        "start_seconds": 112.04,
+        "end_seconds": 118.48,
+        "text": "Olen ligi kümme aastat tegelenud noorte nõustamisega, lastevanemate ja ka täiskasvanu"
+      },
+      {
+        "start_seconds": 118.48,
+        "end_seconds": 125.56,
+        "text": "te nõustamisega ja minu üheks suureks kireks lisaks kümne aastasele psüh"
+      },
+      {
+        "start_seconds": 125.56,
+        "end_seconds": 133.08,
+        "text": "holoogia kogemusele on mul ka lihtsalt huvi väga stsenaristi vastu, stsenaristika vastu"
+      },
+      {
+        "start_seconds": 133.08,
+        "end_seconds": 134.24,
+        "text": "."
+      },
+      {
+        "start_seconds": 134.24,
+        "end_seconds": 139.36,
+        "text": "Ja, ja kõik filmid mind ka väga huvitavad."
+      },
+      {
+        "start_seconds": 139.36,
+        "end_seconds": 145.32,
+        "text": "Mainin ära, et publiku küsimused on alati teretulnud, keegi tahab midagi vahele öelda"
+      },
+      {
+        "start_seconds": 145.32,
+        "end_seconds": 148.64,
+        "text": ", küsida, andke käega märku."
+      },
+      {
+        "start_seconds": 148.64,
+        "end_seconds": 155.88,
+        "text": "Alustame siis soojendusküsimusega, et kuidas saate teie lausest kaamera"
+      },
+      {
+        "start_seconds": 155.88,
+        "end_seconds": 159.2,
+        "text": "ei mõista hukka aru?"
+      },
+      {
+        "start_seconds": 159.2,
+        "end_seconds": 162.68,
+        "text": "Ja võite siit alustada."
+      },
+      {
+        "start_seconds": 162.68,
+        "end_seconds": 170.04,
+        "text": "See, ma ütleks niimoodi, et see on pigem selline, et et film on kui fi"
+      },
+      {
+        "start_seconds": 170.04,
+        "end_seconds": 177.32,
+        "text": "lmikunst ehk siis tegelikkuses kunstis puudub selline asi nagu õige või vale."
+      },
+      {
+        "start_seconds": 177.32,
+        "end_seconds": 184.36,
+        "text": "Ja see on hästi tobe näide, aga, aga võib-olla on hea, hea näide, et ma võin öelda, et"
+      },
+      {
+        "start_seconds": 184.36,
+        "end_seconds": 190.76,
+        "text": "ma nägin eile unes lillatkaamlit ja kui keegi ütleb mulle selle kohta, et see on nagu"
+      },
+      {
+        "start_seconds": 190.76,
+        "end_seconds": 197.88,
+        "text": "vale või et see ei ole õige, siis sellel noh, argumendil ei ole mingisugust mõtet,"
+      },
+      {
+        "start_seconds": 197.88,
+        "end_seconds": 201.68,
+        "text": "sellepärast et see on minu enda looming."
+      },
+      {
+        "start_seconds": 201.68,
+        "end_seconds": 207.28,
+        "text": "Et seal ei saa vaielda, seda võib kritiseerida, aga seal ei saa vaielda, et see on minu"
+      },
+      {
+        "start_seconds": 207.28,
+        "end_seconds": 210.12,
+        "text": "enda loodud nagu."
+      },
+      {
+        "start_seconds": 210.12,
+        "end_seconds": 217.2,
+        "text": "Ehk siis filmikunstis ka me ei, me ei saa niivõrd palju nagu vaielda seal kohapeal, mis"
+      },
+      {
+        "start_seconds": 217.2,
+        "end_seconds": 222.32,
+        "text": "on õige, mis on vale justkui."
+      },
+      {
+        "start_seconds": 222.32,
+        "end_seconds": 229.92,
+        "text": "Mina ütleks, et filmi ja reaalsuse vahe"
+      },
+      {
+        "start_seconds": 229.92,
+        "end_seconds": 236.72,
+        "text": "le tähendab kaamera ja film filmireaalsuse vahele jääb siis justkui minu jaoks sild,"
+      },
+      {
+        "start_seconds": 236.72,
+        "end_seconds": 239.2,
+        "text": "aga samas ka sein."
+      },
+      {
+        "start_seconds": 239.2,
+        "end_seconds": 247.32,
+        "text": "Ehk siis kui rääkida ka mingist isiklikust teemast, siis läbi kaamera tegelikult"
+      },
+      {
+        "start_seconds": 247.32,
+        "end_seconds": 251.6,
+        "text": "saab selle seina ette panna."
+      },
+      {
+        "start_seconds": 251.6,
+        "end_seconds": 259.2,
+        "text": "Ja läbi selle siis kaamera tegelikult ei mõista hukka isiklikult"
+      },
+      {
+        "start_seconds": 259.2,
+        "end_seconds": 263.32,
+        "text": ", isiklikku kogemust."
+      },
+      {
+        "start_seconds": 263.32,
+        "end_seconds": 270.16,
+        "text": "Ma läheneksin võib-olla veidi proosalisemalt, et, et kaamera ei saagi kedagi hukka mõ"
+      },
+      {
+        "start_seconds": 270.16,
+        "end_seconds": 274.64,
+        "text": "ista, et saab ikka hukka mõistes inimene, kes on kaamera taga ja kasutada seda kaame"
+      },
+      {
+        "start_seconds": 274.64,
+        "end_seconds": 282.12,
+        "text": "rat siis vastavalt, et ma arvan, et kaamera täna filmitegija jaoks on,"
+      },
+      {
+        "start_seconds": 282.12,
+        "end_seconds": 289.28,
+        "text": "on see nii-öelda käepikendus ja tema mõte täide viia, eks ju, aga kõik otsused"
+      },
+      {
+        "start_seconds": 289.28,
+        "end_seconds": 293.2,
+        "text": "teeb tema, mitte kaamera."
+      },
+      {
+        "start_seconds": 293.2,
+        "end_seconds": 300.24,
+        "text": "Kirke, milline oli sinu kõige esimene film ja mis oli selle filmi ajendiks?"
+      },
+      {
+        "start_seconds": 300.24,
+        "end_seconds": 304.84,
+        "text": "Minu kõige esimene film valmis kaks tuhat kakskümmend kolm."
+      },
+      {
+        "start_seconds": 304.84,
+        "end_seconds": 307.96,
+        "text": "Selle pealkiri oli nimi."
+      },
+      {
+        "start_seconds": 307.96,
+        "end_seconds": 316.24,
+        "text": "Oli düstoopilise kontekstiga ja siis sellise sõnumiga filmike."
+      },
+      {
+        "start_seconds": 316.24,
+        "end_seconds": 323.52,
+        "text": "Ja seda luues ma olin hästi egoistlik ja mõtlesin endale, mõtlesin, et kui mina olen"
+      },
+      {
+        "start_seconds": 323.52,
+        "end_seconds": 330.12,
+        "text": "publik, siis mida mulle meeldiks vaadata, ma ei mõtlenud üldse, mida teistele võiks meeldi"
+      },
+      {
+        "start_seconds": 330.12,
+        "end_seconds": 338.56,
+        "text": "da, vaadata ja puhtalt selle pealt siis lõin oma esimese lühifilmi."
+      },
+      {
+        "start_seconds": 338.56,
+        "end_seconds": 346.76,
+        "text": "Ja rakendasin sinna siis, siis mitmeid teemasid, mis mind puudutavad kõige rohkem."
+      },
+      {
+        "start_seconds": 346.76,
+        "end_seconds": 352.68,
+        "text": "Ehk siis see oli väga isikliku teemaga film."
+      },
+      {
+        "start_seconds": 352.68,
+        "end_seconds": 360.08,
+        "text": "Vähem isiklikku, rohkem isiklikud märkamised maailma ja ühiskonna kohta."
+      },
+      {
+        "start_seconds": 360.08,
+        "end_seconds": 366.84,
+        "text": "Liina, kas noored tulevad tihti sinu juurde isikliku teemaga, millest nad soovivad fi"
+      },
+      {
+        "start_seconds": 366.84,
+        "end_seconds": 374.56,
+        "text": "lmi teha ja millised on siis peamised teemad?"
+      },
+      {
+        "start_seconds": 374.56,
+        "end_seconds": 381.72,
+        "text": "Enamasti noored, vähemalt filmikooli noored, nende filmide lood ongi isiklikud, sest"
+      },
+      {
+        "start_seconds": 381.72,
+        "end_seconds": 384.24,
+        "text": "ma arvan, et see on nii, nagu me neid ka õpetame."
+      },
+      {
+        "start_seconds": 384.24,
+        "end_seconds": 387.92,
+        "text": "Et filmitegija peab hoolima sellest, millest see lugu räägib."
+      },
+      {
+        "start_seconds": 387.92,
+        "end_seconds": 392.28,
+        "text": "Et alati esimene küsimus on see, et miks mina, miks mina seda lugu siin praegu räägi"
+      },
+      {
+        "start_seconds": 392.28,
+        "end_seconds": 393.2,
+        "text": "n?"
+      },
+      {
+        "start_seconds": 393.2,
+        "end_seconds": 395.8,
+        "text": "Ja sellepärast jah, kõik need lood on isiklikud."
+      },
+      {
+        "start_seconds": 395.8,
+        "end_seconds": 399.48,
+        "text": "Et ühel siis ka suuremal või vähemal määral."
+      },
+      {
+        "start_seconds": 399.48,
+        "end_seconds": 402.0,
+        "text": "Et ma arvan, et see on õige."
+      },
+      {
+        "start_seconds": 402.0,
+        "end_seconds": 408.28,
+        "text": "Aga kas on mingisugust peamist teemat, millest siis nagu kõige rohkem tahetakse teha"
+      },
+      {
+        "start_seconds": 408.28,
+        "end_seconds": 410.32,
+        "text": "filmi?"
+      },
+      {
+        "start_seconds": 410.32,
+        "end_seconds": 413.88,
+        "text": "Ma arvan, sellist üldist teemat ei ole ja see on hea."
+      },
+      {
+        "start_seconds": 413.88,
+        "end_seconds": 421.12,
+        "text": "Aga on kindlasti väga palju sellist, sellist katsetamist ja sellist enese"
+      },
+      {
+        "start_seconds": 421.12,
+        "end_seconds": 428.56,
+        "text": "otsimist ilmselt, et et mingisuguste tunnete ja emotsioonide katsetamist"
+      },
+      {
+        "start_seconds": 428.56,
+        "end_seconds": 434.04,
+        "text": "erinevates keskkondades ja aga on ka sellist keskkonnas märgatud või ühiskonnas märga"
+      },
+      {
+        "start_seconds": 434.04,
+        "end_seconds": 438.04,
+        "text": "tud, eks ju, et mida, mis mulle muret teeb või mis rõõmu teeb, et sealt sealt pealt mingi"
+      },
+      {
+        "start_seconds": 438.04,
+        "end_seconds": 444.0,
+        "text": "lugu ja on õnneks ka fantaasiat, et et endiselt ütlen, et ikka ootan filmikooli mõnda"
+      },
+      {
+        "start_seconds": 444.0,
+        "end_seconds": 448.08,
+        "text": "noort, kes ühe õudusfilmi stsenaariumi kirjutab siiamaani keegi pole kirjutanud."
+      },
+      {
+        "start_seconds": 448.08,
+        "end_seconds": 454.28,
+        "text": "Aga, aga, aga et siiamaani on jah, ütleme selline pigem selline enda sisemaailma võib"
+      },
+      {
+        "start_seconds": 454.28,
+        "end_seconds": 457.0,
+        "text": "-olla avamine ja mingisugune uute teemade otsimine."
+      },
+      {
+        "start_seconds": 457.0,
+        "end_seconds": 460.68,
+        "text": "Veidi on ka ajaloolist huvi, mis on väga huvitav."
+      },
+      {
+        "start_seconds": 460.68,
+        "end_seconds": 468.0,
+        "text": "Maria, miks tahavad noored just anda sellist vaimse te"
+      },
+      {
+        "start_seconds": 468.0,
+        "end_seconds": 475.0,
+        "text": "rvise sõnumit, filmides edasi nagu identiteet, peresuhted?"
+      },
+      {
+        "start_seconds": 475.0,
+        "end_seconds": 482.28,
+        "text": "No noorte selline arenguetapp, arenguülesanne on iseenesest lahendada ära"
+      },
+      {
+        "start_seconds": 482.28,
+        "end_seconds": 489.44,
+        "text": "siis minapilt, maailma tunnetus, identiteet ja, ja kui nad nagu nendest teemadest räägi"
+      },
+      {
+        "start_seconds": 489.44,
+        "end_seconds": 496.56,
+        "text": "vad ja kui see kõnetab neid siis tegelikult see ei näita nagu nõrkust, et me tõstata"
+      },
+      {
+        "start_seconds": 496.56,
+        "end_seconds": 502.36,
+        "text": "me mingisuguseid probleeme selles, selles temaatikas, vaid pigem see näitab teadlikku"
+      },
+      {
+        "start_seconds": 502.36,
+        "end_seconds": 509.08,
+        "text": "st, vajadust mõtestada seda enda jaoks, võib-olla selgitada enda nägemust selles."
+      },
+      {
+        "start_seconds": 509.08,
+        "end_seconds": 516.2,
+        "text": "Et see on pigem selline arenguliselt loomulik protsess, miks noored neid teemasid kõ"
+      },
+      {
+        "start_seconds": 516.2,
+        "end_seconds": 518.24,
+        "text": "netavad."
+      },
+      {
+        "start_seconds": 518.24,
+        "end_seconds": 525.28,
+        "text": "Kirke, millised teemad just sind kõige rohkem kõnetavad, milliseid sa enda ümber"
+      },
+      {
+        "start_seconds": 525.28,
+        "end_seconds": 528.28,
+        "text": "märkad?"
+      },
+      {
+        "start_seconds": 528.28,
+        "end_seconds": 535.48,
+        "text": "Mina märkan enda ümber kõige rohkem selliseid teemasid, kus võib-olla noh"
+      },
+      {
+        "start_seconds": 535.48,
+        "end_seconds": 543.32,
+        "text": ", noortepõhised teemad võib-olla rohkem üritan tähelepanu and"
+      },
+      {
+        "start_seconds": 543.32,
+        "end_seconds": 551.04,
+        "text": "a teemadele, kus noori tehakse maha või või võib-olla mitte just maha, aga kus"
+      },
+      {
+        "start_seconds": 551.04,
+        "end_seconds": 558.24,
+        "text": "noori mingitel hetked, hetkedel ei mõista, et ja siis minu sihuke si"
+      },
+      {
+        "start_seconds": 558.24,
+        "end_seconds": 566.64,
+        "text": "semine soov ongi see noorte pilt siis nagu ühiskonnani rohkem sel"
+      },
+      {
+        "start_seconds": 566.64,
+        "end_seconds": 572.0,
+        "text": "g- noh, ühiskonnani tuua ja see selgemaks teha."
+      },
+      {
+        "start_seconds": 572.0,
+        "end_seconds": 579.88,
+        "text": "Liina, kuidas sina toetad noort, kes tuleb ideega filmi teha, aga see"
+      },
+      {
+        "start_seconds": 579.88,
+        "end_seconds": 586.64,
+        "text": "idee võib tunduda väga valus või tundlik?"
+      },
+      {
+        "start_seconds": 586.64,
+        "end_seconds": 589.88,
+        "text": "Ma arvan, et."
+      },
+      {
+        "start_seconds": 589.88,
+        "end_seconds": 596.24,
+        "text": "Et siin on toetama, me toetame kõiki neid noori, kes tulevad oma ideega minu juurde,"
+      },
+      {
+        "start_seconds": 596.24,
+        "end_seconds": 603.56,
+        "text": "et ja, ja kui, kui idee on väga isiklik ja väga valus, siis siis lugu tulebki ära"
+      },
+      {
+        "start_seconds": 603.56,
+        "end_seconds": 604.52,
+        "text": "rääkida."
+      },
+      {
+        "start_seconds": 604.52,
+        "end_seconds": 609.72,
+        "text": "Et siis me lihtsalt, meil hästi palju põhineb nagu aruteludel on ju, et, et siis me nagu"
+      },
+      {
+        "start_seconds": 609.72,
+        "end_seconds": 613.56,
+        "text": "arutame, selgitame, et miks mingi teema on oluline, miks tema seda lugu peab rääkima"
+      },
+      {
+        "start_seconds": 613.56,
+        "end_seconds": 614.48,
+        "text": "."
+      },
+      {
+        "start_seconds": 614.48,
+        "end_seconds": 619.68,
+        "text": "Ja, ja kui selle, selle käigus sünnib see stsenaarium ja see stsenaariumi kirjutamine"
+      },
+      {
+        "start_seconds": 619.68,
+        "end_seconds": 625.8,
+        "text": "on juba mõnes mõttes selline, selline oma loo läbi analüüsimine ja, ja natuke teraapi"
+      },
+      {
+        "start_seconds": 625.8,
+        "end_seconds": 630.8,
+        "text": "line ka, et, et see lugu saab paberile ja kui see lugu saab paberile, siis selle aja"
+      },
+      {
+        "start_seconds": 630.8,
+        "end_seconds": 633.84,
+        "text": "peale tegelikult on tal juba selline kunstniku visioon."
+      },
+      {
+        "start_seconds": 633.84,
+        "end_seconds": 637.76,
+        "text": "Et see lugu on talle tähtis, aga tal on tekib selline kunstiline laiem visioon, et siis"
+      },
+      {
+        "start_seconds": 637.76,
+        "end_seconds": 642.76,
+        "text": "see ei olegi enam võib-olla nii noh, nii otseselt isiklik ja valus lugu rääkida, kui"
+      },
+      {
+        "start_seconds": 642.76,
+        "end_seconds": 647.2,
+        "text": "ta oleks lihtsalt, kui ta peaks hakkama midagi jutustama kuskil."
+      },
+      {
+        "start_seconds": 647.2,
+        "end_seconds": 656.48,
+        "text": "Maria, kas ühiskond on muutunud noorte suhtes avatumaks või hoopis nõudlikumaks?"
+      },
+      {
+        "start_seconds": 656.48,
+        "end_seconds": 661.88,
+        "text": "No ühest küljest on meil küll väga palju rohkem teemasid vaimse tervise teemal ja muud"
+      },
+      {
+        "start_seconds": 661.88,
+        "end_seconds": 669.16,
+        "text": "el sellistest valusad teemad nagu tõst- tulevad nagu rohkem esile, aga ma ütleks, et"
+      },
+      {
+        "start_seconds": 669.16,
+        "end_seconds": 674.68,
+        "text": "nagu nõudlikuma osa pealt on küll see, et, et meil on, nüüd elame globaalses maailma"
+      },
+      {
+        "start_seconds": 674.68,
+        "end_seconds": 679.84,
+        "text": "s, et meil ei ole ainult meie kodu ja Eesti võib-olla sellised tingimused, vaid me vasta"
+      },
+      {
+        "start_seconds": 679.84,
+        "end_seconds": 683.4,
+        "text": "me kõikidele globaalsetele tingimustele ja ootustele."
+      },
+      {
+        "start_seconds": 683.4,
+        "end_seconds": 688.24,
+        "text": "Ehk siis meil on internet käepärast kogu aeg ja, ja me kogu aeg toimub siis selline g"
+      },
+      {
+        "start_seconds": 688.24,
+        "end_seconds": 689.96,
+        "text": "lobaalne võrdlemine."
+      },
+      {
+        "start_seconds": 689.96,
+        "end_seconds": 697.32,
+        "text": "Ehk siis noorte jaoks mõnes mõttes on see identiteedi suur selline katsetamine, arenda"
+      },
+      {
+        "start_seconds": 697.32,
+        "end_seconds": 703.76,
+        "text": "mine, kogu aeg on latt kõrgemal, et see nõuab väga palju sellist pingutust."
+      },
+      {
+        "start_seconds": 703.76,
+        "end_seconds": 711.16,
+        "text": "Aga millist mõju avaldab, kui keegi jagab oma raskust läbi filmi, siis nii"
+      },
+      {
+        "start_seconds": 711.16,
+        "end_seconds": 717.84,
+        "text": "vaatajale kui autorile?"
+      },
+      {
+        "start_seconds": 717.84,
+        "end_seconds": 726.64,
+        "text": "Millist mõju avaldab film vaatajale kui ka autorile endale, kus"
+      },
+      {
+        "start_seconds": 726.64,
+        "end_seconds": 732.44,
+        "text": "siis jagatakse oma raskust?"
+      },
+      {
+        "start_seconds": 732.44,
+        "end_seconds": 738.96,
+        "text": "No ma arvan, ma ütleks meie kogemuse järgi, võib-olla meie noorte kogemuse järgi, et"
+      },
+      {
+        "start_seconds": 738.96,
+        "end_seconds": 745.16,
+        "text": ", et, et siin on nagu mitu faasi, et kõigepealt on no selline film, mis korda läheb,"
+      },
+      {
+        "start_seconds": 745.16,
+        "end_seconds": 748.68,
+        "text": "kui, kui inim- kui filmitegija teeb hingest ühe loo, siis see läheb korda ka publiku"
+      },
+      {
+        "start_seconds": 748.68,
+        "end_seconds": 752.76,
+        "text": "le ja siis seda näeb publiku pealt, millist mõju see avaldab, eks ju, et siis see lu"
+      },
+      {
+        "start_seconds": 752.76,
+        "end_seconds": 756.88,
+        "text": "gu jõuab kohale, et see tekib palju arutelusid, inimestel on emotsioonid, eks ju, et"
+      },
+      {
+        "start_seconds": 756.88,
+        "end_seconds": 761.4,
+        "text": "saab palju tagasisidet ja filmitegijal, kellele selleks esilinastuse hetkel on tegelikult"
+      },
+      {
+        "start_seconds": 761.4,
+        "end_seconds": 766.04,
+        "text": "tõeliselt kõrini oma filmist juba on ju, sest et ta on istunud kümneid, sadu tunde mo"
+      },
+      {
+        "start_seconds": 766.04,
+        "end_seconds": 770.44,
+        "text": "ndaažis ja, ja hüpitanud edasi-tagasi ja see film on muutunud tema jaoks nagu sellise"
+      },
+      {
+        "start_seconds": 770.44,
+        "end_seconds": 774.56,
+        "text": "ks detailidest koosnevaks asjaks."
+      },
+      {
+        "start_seconds": 774.56,
+        "end_seconds": 777.96,
+        "text": "Et siis see, see esilinastus on väga tähtis, sellepärast et siis ta saab tagasi oma selle"
+      },
+      {
+        "start_seconds": 777.96,
+        "end_seconds": 781.92,
+        "text": "armastuse oma filmi vastu, siis ta näeb, kuidas publik selle vastu võtab ja kuidas ta"
+      },
+      {
+        "start_seconds": 781.92,
+        "end_seconds": 784.92,
+        "text": "reageerib ja, ja mis küsimuse ta käest küsitakse."
+      },
+      {
+        "start_seconds": 784.92,
+        "end_seconds": 789.52,
+        "text": "Ja siis tal jõuab tegelikult teist korda kohale, et see lugu, mille ta on rääkinud, nii"
+      },
+      {
+        "start_seconds": 789.52,
+        "end_seconds": 797.04,
+        "text": "et ma arvan, et see on väga oluline, et see niimoodi kohale jõuab."
+      },
+      {
+        "start_seconds": 797.04,
+        "end_seconds": 804.36,
+        "text": "Kiirke, kuidas sina tunned, kui oled nii autorina kui ka vaataja"
+      },
+      {
+        "start_seconds": 804.36,
+        "end_seconds": 805.6,
+        "text": "na."
+      },
+      {
+        "start_seconds": 805.6,
+        "end_seconds": 809.72,
+        "text": "Kuidas sina oled tundnud, et sind on film mõjutanud?"
+      },
+      {
+        "start_seconds": 809.72,
+        "end_seconds": 815.48,
+        "text": "Minu enda film või, või, või siis, kui sa vaatad kellegi teise filme, et kuidas nad nagu"
+      },
+      {
+        "start_seconds": 815.48,
+        "end_seconds": 819.2,
+        "text": "erinevad ja kuidas mõjutavad?"
+      },
+      {
+        "start_seconds": 819.2,
+        "end_seconds": 826.56,
+        "text": "No enda filmi ikkagi kritiseerid lõpuni välja teiste filmiga, austad kõike, mida näe"
+      },
+      {
+        "start_seconds": 826.56,
+        "end_seconds": 829.68,
+        "text": "d, ütleme nii, see on see vahe."
+      },
+      {
+        "start_seconds": 829.68,
+        "end_seconds": 832.44,
+        "text": "Vähemalt minul."
+      },
+      {
+        "start_seconds": 832.44,
+        "end_seconds": 838.6,
+        "text": "Ma võiks veel korraks öelda, et kuidas võiks nagu noore, noorearenguliselt nagu mõju"
+      },
+      {
+        "start_seconds": 838.6,
+        "end_seconds": 844.36,
+        "text": "tada, et kui see on tema looming, siis tihtipeale see on hästi seotud tema enda iden"
+      },
+      {
+        "start_seconds": 844.36,
+        "end_seconds": 845.56,
+        "text": "titeediga."
+      },
+      {
+        "start_seconds": 845.56,
+        "end_seconds": 851.48,
+        "text": "Ehk siis ta kõik, mis ta loob, ta võtab seda hästi isiklikult võrreldes mõne teise elu"
+      },
+      {
+        "start_seconds": 851.48,
+        "end_seconds": 853.84,
+        "text": "etapiga, mis me läbime."
+      },
+      {
+        "start_seconds": 853.84,
+        "end_seconds": 857.2,
+        "text": "Ehk siis see tagasiside."
+      },
+      {
+        "start_seconds": 857.2,
+        "end_seconds": 863.64,
+        "text": "Kõik, kes vaatavad, et peaks olema selles mõttes hästi läbimõtestatud ja hästi tundlik"
+      },
+      {
+        "start_seconds": 863.64,
+        "end_seconds": 870.68,
+        "text": "selles osas, et arvestada noorte arengu eripäraga."
+      },
+      {
+        "start_seconds": 870.68,
+        "end_seconds": 883.6,
+        "text": "Kas ühel filmil võib olla nii suur jõud, et see mõjutab tervet ühiskonda laiemalt?"
+      },
+      {
+        "start_seconds": 883.6,
+        "end_seconds": 891.0,
+        "text": "Kuidas näiteks võiks olla?"
+      },
+      {
+        "start_seconds": 891.0,
+        "end_seconds": 897.44,
+        "text": "No minu meelest on ühiskonnal ka mitu mõistet, et on nagu mingid väiksemad, näiteks mingi"
+      },
+      {
+        "start_seconds": 897.44,
+        "end_seconds": 902.92,
+        "text": "filmiühiskond, aga siis on ka suurem näiteks Eesti ühiskond, aga siis on ka maailma ühis"
+      },
+      {
+        "start_seconds": 902.92,
+        "end_seconds": 908.76,
+        "text": "kond, et need kõik ühiskonnad erinevad üksteisest niivõrd palju, et tegelikult iga fi"
+      },
+      {
+        "start_seconds": 908.76,
+        "end_seconds": 916.12,
+        "text": "lm annab igale ühiskonnagrupile mingigi nagu väljendi või mingi arusaa"
+      },
+      {
+        "start_seconds": 916.12,
+        "end_seconds": 920.0,
+        "text": "ma mingist kindlast teemast."
+      },
+      {
+        "start_seconds": 920.0,
+        "end_seconds": 926.52,
+        "text": "Ma arvan, et, et filmijõud on selles, et film peab panema mõtlema, et kui sa kinost välja"
+      },
+      {
+        "start_seconds": 926.52,
+        "end_seconds": 929.8,
+        "text": "tuled, kui sa tuled kinost välja ja sa ei tunne mitte midagi ja lähed võtad endale väikse"
+      },
+      {
+        "start_seconds": 929.8,
+        "end_seconds": 935.96,
+        "text": "burksi ja lähed koju ja vaatad Netflix'ist mingit sarja, siis siis see film ei ole nagu"
+      },
+      {
+        "start_seconds": 935.96,
+        "end_seconds": 939.84,
+        "text": "korda läinud, see lugu ei ole tulnud südamest, et, et see film võib ajada õudselt nä"
+      },
+      {
+        "start_seconds": 939.84,
+        "end_seconds": 944.08,
+        "text": "rvi, mis on väga hea, võib teha väga rõõmsaks, väga kurvaks."
+      },
+      {
+        "start_seconds": 944.08,
+        "end_seconds": 948.12,
+        "text": "Ma ei tea, depressiivseks, ükskõik, aga kui sa tahad sellest filmist pärast rääkida veel"
+      },
+      {
+        "start_seconds": 948.12,
+        "end_seconds": 952.64,
+        "text": "mitmeid kordi, et siis lugu on juba mõjutanud ühiskonda, sest et seeläbi sinu, kuidas"
+      },
+      {
+        "start_seconds": 952.64,
+        "end_seconds": 957.96,
+        "text": "sa lähed järgmine päev kooli ja räägid kellelegi, mis sa nägid või tööle või kirud seda"
+      },
+      {
+        "start_seconds": 957.96,
+        "end_seconds": 959.76,
+        "text": "filmi järgmised kaks nädalat on ju."
+      },
+      {
+        "start_seconds": 959.76,
+        "end_seconds": 963.84,
+        "text": "Aga, aga ta midagi muutnud, see lugu."
+      },
+      {
+        "start_seconds": 963.84,
+        "end_seconds": 972.36,
+        "text": "Aga Maria, kas sa oled tundnud, et sind on mingi film totaalselt muutunud muutnud?"
+      },
+      {
+        "start_seconds": 972.36,
+        "end_seconds": 979.04,
+        "text": "Jah, mind muutis väga-väga mitmeid, ma olen kümneid aastaid tagasi kui ma käisin kin"
+      },
+      {
+        "start_seconds": 979.04,
+        "end_seconds": 985.28,
+        "text": "os hästi ilus suvepäev oli, ma olin ikkagi noor ja, ja ma käisin vaatamas mingisugust"
+      },
+      {
+        "start_seconds": 985.28,
+        "end_seconds": 991.36,
+        "text": "tohutut õudukat, ma ei mäleta, mis asi see oli, aga see oli ikka puhas puhas õudukas"
+      },
+      {
+        "start_seconds": 991.36,
+        "end_seconds": 991.44,
+        "text": "."
+      },
+      {
+        "start_seconds": 991.44,
+        "end_seconds": 997.0,
+        "text": "Ja see oli nagu kaks tundi totaalselt terrorit niimoodi, et sa istud seal nagu, higi"
+      },
+      {
+        "start_seconds": 997.0,
+        "end_seconds": 1003.28,
+        "text": "stad seal põhimõtteliselt, et hoiad krampis kinni ja siis ma tulin sealt kino pimeda"
+      },
+      {
+        "start_seconds": 1003.28,
+        "end_seconds": 1011.2,
+        "text": "st saalist välja ja vaatasin, et linnud nagu laulavad, inimesed kõnnivad tänaval"
+      },
+      {
+        "start_seconds": 1011.2,
+        "end_seconds": 1018.28,
+        "text": "rahulikult, kõik on nagu ilus ja maailm on nagu rahulik ja, ja siis, siis mul tekkis"
+      },
+      {
+        "start_seconds": 1018.28,
+        "end_seconds": 1024.56,
+        "text": "võrdlustunne, et noh, et ma elasin seda filmi nii tugevalt läbi, et maailm on nagu nii"
+      },
+      {
+        "start_seconds": 1024.56,
+        "end_seconds": 1030.32,
+        "text": "võrd ilus ja tore, et, et ma noh, nii-öelda armusin maailma sellel, sellest filmi kon"
+      },
+      {
+        "start_seconds": 1030.32,
+        "end_seconds": 1032.32,
+        "text": "tekstist nagu."
+      },
+      {
+        "start_seconds": 1032.32,
+        "end_seconds": 1039.2,
+        "text": "Kui sa armusid maailmasse, kas see tunne hakkas ajapikku hajuma või kui sa mõtled praegu"
+      },
+      {
+        "start_seconds": 1039.2,
+        "end_seconds": 1044.6,
+        "text": "sellele filmile, siis sul tuleb maailma vastu armastus tagasi?"
+      },
+      {
+        "start_seconds": 1044.6,
+        "end_seconds": 1049.4,
+        "text": "Ja ikka tuleb see tunne päris tugevalt tagasi, et kui ma sellest rääkima hakkan, siis"
+      },
+      {
+        "start_seconds": 1049.4,
+        "end_seconds": 1053.68,
+        "text": "on mul meeles."
+      },
+      {
+        "start_seconds": 1053.68,
+        "end_seconds": 1060.84,
+        "text": "Kirke, kas, kas oskad tuua näidet, kus on sind fi"
+      },
+      {
+        "start_seconds": 1060.84,
+        "end_seconds": 1069.6,
+        "text": "lm päästnud või siis aidanud midagi keerulist lahti mõtestada?"
+      },
+      {
+        "start_seconds": 1069.6,
+        "end_seconds": 1077.64,
+        "text": "Ma arvan, et kindlasti on mingid kindlad näidet mul hetkel ei ole, aga ma vii"
+      },
+      {
+        "start_seconds": 1077.64,
+        "end_seconds": 1085.32,
+        "text": "mastel aastatel tegelikult vaatan hoopis teise pilguga kõiki filme, et ma pigem lähe"
+      },
+      {
+        "start_seconds": 1085.32,
+        "end_seconds": 1092.72,
+        "text": "n selle mõttega vaadates peale, et mida ma saan siit kaasa võtta"
+      },
+      {
+        "start_seconds": 1092.72,
+        "end_seconds": 1099.24,
+        "text": ", et kas siis enda elu arendada või enda maailmapilti muuta, kasvõi väikse grammi võ"
+      },
+      {
+        "start_seconds": 1099.24,
+        "end_seconds": 1100.92,
+        "text": "rra."
+      },
+      {
+        "start_seconds": 1100.92,
+        "end_seconds": 1107.68,
+        "text": "Seega ma igast filmist üritan midagi kaasa võtta, olgu see siis noorte film või ma ei"
+      },
+      {
+        "start_seconds": 1107.68,
+        "end_seconds": 1114.68,
+        "text": "tea, ülikooli lõpetanute Oscarite võitjate film, et see igast filmist üritan midagi kaasa"
+      },
+      {
+        "start_seconds": 1114.68,
+        "end_seconds": 1116.56,
+        "text": "võtta, jah."
+      },
+      {
+        "start_seconds": 1116.56,
+        "end_seconds": 1124.6,
+        "text": "Liina, kui noor teeb filmi enda jaoks väga raskest teemast, siis kuidas"
+      },
+      {
+        "start_seconds": 1124.6,
+        "end_seconds": 1131.72,
+        "text": "sa suunad teda niimoodi, et fookus oleks ka loovusel ja filmikunstil, mitte siis ainult"
+      },
+      {
+        "start_seconds": 1131.72,
+        "end_seconds": 1137.32,
+        "text": "enda ravimisel ja nagu teemast ülesaamisel."
+      },
+      {
+        "start_seconds": 1137.32,
+        "end_seconds": 1142.72,
+        "text": "Ma arvan, et mitte ükski noor ei ole tulnud minu juurde isikliku või raske teemaga ees"
+      },
+      {
+        "start_seconds": 1142.72,
+        "end_seconds": 1145.24,
+        "text": "märgiga ennast ravida."
+      },
+      {
+        "start_seconds": 1145.24,
+        "end_seconds": 1152.04,
+        "text": "Et nad tulevad ikkagi, et rääkida see lugu ja, ja, ja luua ja rääkida seda kunstiliselt"
+      },
+      {
+        "start_seconds": 1152.04,
+        "end_seconds": 1154.72,
+        "text": "ja rääkida see nii, et teised sellest aru saavad."
+      },
+      {
+        "start_seconds": 1154.72,
+        "end_seconds": 1159.44,
+        "text": "Et, et ma arvan, et see visuaalse loo jutustamise oskus on üks olulisemaid oskusi, mida"
+      },
+      {
+        "start_seconds": 1159.44,
+        "end_seconds": 1163.88,
+        "text": ", mida me täna peame edasi andma noortele ja ka tegelikult vanematele inimestele."
+      },
+      {
+        "start_seconds": 1163.88,
+        "end_seconds": 1170.76,
+        "text": "Sellepärast, et et selle loo rääkimise käigus ta juba tegeleb ilmselt selle, selle terve"
+      },
+      {
+        "start_seconds": 1170.76,
+        "end_seconds": 1174.92,
+        "text": "nemise või selle loo enda jaoks lahtimõtestamisega."
+      },
+      {
+        "start_seconds": 1174.92,
+        "end_seconds": 1180.08,
+        "text": "Et me kindlasti ei alusta sealt, et et kuidas ma saan aidata sul nüüd elu paremaks teha"
+      },
+      {
+        "start_seconds": 1180.08,
+        "end_seconds": 1183.44,
+        "text": ", et see pigem on see, et me nüüd hakkame vaatama seda lugu, miks see sulle tähtis on"
+      },
+      {
+        "start_seconds": 1183.44,
+        "end_seconds": 1185.48,
+        "text": ", mis sa sellega öelda tahad."
+      },
+      {
+        "start_seconds": 1185.48,
+        "end_seconds": 1188.88,
+        "text": "Miks sina seda rääkima pead ja kuidas sa seda rääkida tahad?"
+      },
+      {
+        "start_seconds": 1188.88,
+        "end_seconds": 1191.4,
+        "text": "Ja siis on see juba protsess."
+      },
+      {
+        "start_seconds": 1191.4,
+        "end_seconds": 1197.0,
+        "text": "Kui tihti tuleb sinule ette, et mõni õpilane teeb nii hea filmi, et see läheb ka sul"
+      },
+      {
+        "start_seconds": 1197.0,
+        "end_seconds": 1200.64,
+        "text": "le endale südamesse ja aitab midagi lahti mõtestada?"
+      },
+      {
+        "start_seconds": 1200.64,
+        "end_seconds": 1203.4,
+        "text": "Iga jumala kord."
+      },
+      {
+        "start_seconds": 1203.4,
+        "end_seconds": 1210.6,
+        "text": "Ei, väga tihti ja, ja et me, me oleme, teeme aastas umbes kaheksa fil"
+      },
+      {
+        "start_seconds": 1210.6,
+        "end_seconds": 1217.68,
+        "text": "mi ja, ja absoluutselt iga kord, aga, aga mul on ka see, see võibolla eelis võrre"
+      },
+      {
+        "start_seconds": 1217.68,
+        "end_seconds": 1221.56,
+        "text": "ldes nüüd kinofilmi vaatamisega, et, et ma olen kogu terve selle protsessiga kaasas."
+      },
+      {
+        "start_seconds": 1221.56,
+        "end_seconds": 1226.68,
+        "text": "Ehk siis ma näen, kuidas see lugu, kust see lugu algab ja kuskohas see lugu lõpeb."
+      },
+      {
+        "start_seconds": 1226.68,
+        "end_seconds": 1235.6,
+        "text": "Ehk siis, et see tegelikult terve see protsess on väga mõjub minule."
+      },
+      {
+        "start_seconds": 1235.6,
+        "end_seconds": 1243.36,
+        "text": "Kuidas saaks pakkuda noorele, üks hetk, kust joo"
+      },
+      {
+        "start_seconds": 1243.36,
+        "end_seconds": 1256.0,
+        "text": "kseb piir, milline teema sobib filmiks ja milline ei sobi?"
+      },
+      {
+        "start_seconds": 1256.0,
+        "end_seconds": 1260.84,
+        "text": "Ma võin alustada, minu meelest ei ole sellist teemat mis ei sobiks filmiks kõik teema"
+      },
+      {
+        "start_seconds": 1260.84,
+        "end_seconds": 1267.84,
+        "text": "d sobivad filmiks, see oleneb kuidas sa jutustad mingist teemast, mis teeb siis selle"
+      },
+      {
+        "start_seconds": 1267.84,
+        "end_seconds": 1273.68,
+        "text": "niinimetatud sobilikuks või mittesobilikuks."
+      },
+      {
+        "start_seconds": 1273.68,
+        "end_seconds": 1279.12,
+        "text": "Ma arvan, et filmitegija Kuldreegel, mida me ka filmikoolis õpetama ja mille järgi ka"
+      },
+      {
+        "start_seconds": 1279.12,
+        "end_seconds": 1286.2,
+        "text": "me ise tegutsen, olles dokumentalist, kus sa pead sageli rääkima igasuguseid lugusid"
+      },
+      {
+        "start_seconds": 1286.2,
+        "end_seconds": 1287.16,
+        "text": "."
+      },
+      {
+        "start_seconds": 1287.16,
+        "end_seconds": 1292.28,
+        "text": "On see, et, et oma filmilooga sa ei tohi mitte kellelgi haiget teha."
+      },
+      {
+        "start_seconds": 1292.28,
+        "end_seconds": 1298.56,
+        "text": "Ja, ja kui sa sellest lähtud, siis sa võid rääkida ükskõik millest."
+      },
+      {
+        "start_seconds": 1298.56,
+        "end_seconds": 1305.92,
+        "text": "Maria, kas sa oled märganud, et noore looming aitab te"
+      },
+      {
+        "start_seconds": 1305.92,
+        "end_seconds": 1312.0,
+        "text": "da väga palju ennast avada, kui ta muidu näiteks ei julgeks seda kellelegi rääkida, aga"
+      },
+      {
+        "start_seconds": 1312.0,
+        "end_seconds": 1319.32,
+        "text": "siis tehes sellest mõni film või kirjutis on nagu põhimõtteliselt probleemi ära"
+      },
+      {
+        "start_seconds": 1319.32,
+        "end_seconds": 1321.28,
+        "text": "lahendanud."
+      },
+      {
+        "start_seconds": 1321.28,
+        "end_seconds": 1328.36,
+        "text": "Ja kindlasti, et on olemas igasuguseid selliseid loovteraapia tehnikaid ja kõike ene"
+      },
+      {
+        "start_seconds": 1328.36,
+        "end_seconds": 1333.12,
+        "text": "seväljenduslik tegevus on selles mõttes psühholoogiliselt väga kasulik tegevus üleül"
+      },
+      {
+        "start_seconds": 1333.12,
+        "end_seconds": 1334.04,
+        "text": "diselt."
+      },
+      {
+        "start_seconds": 1334.04,
+        "end_seconds": 1339.32,
+        "text": "Olgu see siis mingi psühholoogiline raskus või, või selline ülekoormus, mis iganes e"
+      },
+      {
+        "start_seconds": 1339.32,
+        "end_seconds": 1344.96,
+        "text": "nese tõlgendamine, enesereflekteerimine äärmiselt kasulik ja oluline."
+      },
+      {
+        "start_seconds": 1344.96,
+        "end_seconds": 1351.24,
+        "text": "Et seda kõike, ma arvan, see film ja, ja filmi kirjutamine ja selle läbimõtestamine,"
+      },
+      {
+        "start_seconds": 1351.24,
+        "end_seconds": 1356.84,
+        "text": "ükskõik mis lugu selle taga ka on, see aitab ennast palju rohkem mõista, palju rohkem"
+      },
+      {
+        "start_seconds": 1356.84,
+        "end_seconds": 1362.92,
+        "text": "arendada ja, ja nagu nii-öelda siis ennast paremini noh, mõista."
+      },
+      {
+        "start_seconds": 1362.92,
+        "end_seconds": 1371.2,
+        "text": "Kuidas sina aitad noort ilma tema hääle alla surumata?"
+      },
+      {
+        "start_seconds": 1371.2,
+        "end_seconds": 1378.36,
+        "text": "Liina vist juba siin rääkis päris hästi, paar sellist mõistet, mis on see, et, et, et"
+      },
+      {
+        "start_seconds": 1378.36,
+        "end_seconds": 1381.84,
+        "text": "ei tohiks, et mis on eesmärk, eks ju."
+      },
+      {
+        "start_seconds": 1381.84,
+        "end_seconds": 1388.8,
+        "text": "Ja, ja kuidas teda siis toetada, just kuidas, mis, millist toetust ta nagu vajab."
+      },
+      {
+        "start_seconds": 1388.8,
+        "end_seconds": 1395.76,
+        "text": "Et kõige tähtsam on just see, et, et see juhendaja ei oleks tegelikult otseselt suun"
+      },
+      {
+        "start_seconds": 1395.76,
+        "end_seconds": 1403.08,
+        "text": "aja, vaid ta oleks abistaja, ta oleks nagu ruumihoidja põhimõtteliselt, mis, mis a"
+      },
+      {
+        "start_seconds": 1403.08,
+        "end_seconds": 1409.32,
+        "text": "itaks sellel noorel luua seda, mis tema peas on, et aitaks väljendada, et selline tu"
+      },
+      {
+        "start_seconds": 1409.32,
+        "end_seconds": 1415.56,
+        "text": "rvaline ruum, kus ei ole tegelikult selliseid võib-olla ootusi või, või kindlaid juhi"
+      },
+      {
+        "start_seconds": 1415.56,
+        "end_seconds": 1421.08,
+        "text": "seid, raame, kuhu sisse tema peab oma looga siis mahtuma, vaid et ta saab kõigepealt"
+      },
+      {
+        "start_seconds": 1421.08,
+        "end_seconds": 1426.52,
+        "text": "rääkida nagu oma selle loo ära, mis on selline aus ja siiras, mis talt välja siis tuleb"
+      },
+      {
+        "start_seconds": 1426.52,
+        "end_seconds": 1428.6,
+        "text": "."
+      },
+      {
+        "start_seconds": 1428.6,
+        "end_seconds": 1440.08,
+        "text": "Kirke, millist abi noor ise ootab juhendajalt või psühholoogilt saada?"
+      },
+      {
+        "start_seconds": 1440.08,
+        "end_seconds": 1446.32,
+        "text": "Ma võib-olla seda juhendaja osa oskan vähem rääkida enda kogemusest, sellepärast et ma"
+      },
+      {
+        "start_seconds": 1446.32,
+        "end_seconds": 1449.72,
+        "text": "olen siuke isehakkaja olnud."
+      },
+      {
+        "start_seconds": 1449.72,
+        "end_seconds": 1451.96,
+        "text": "Siiamaani vähemalt."
+      },
+      {
+        "start_seconds": 1451.96,
+        "end_seconds": 1459.08,
+        "text": "Et kahjuks või õnneks on siis elu suunanud niimoodi,"
+      },
+      {
+        "start_seconds": 1459.08,
+        "end_seconds": 1466.88,
+        "text": "et ma üritan ise saada hakkama filmialaselt siis kui"
+      },
+      {
+        "start_seconds": 1466.88,
+        "end_seconds": 1471.56,
+        "text": "nagu mõelda filmialase suunajana, siis."
+      },
+      {
+        "start_seconds": 1471.56,
+        "end_seconds": 1479.12,
+        "text": "Ma üritan leida alati testlugejaid, kes siis nagu suunaks võib-olla mingite"
+      },
+      {
+        "start_seconds": 1479.12,
+        "end_seconds": 1485.88,
+        "text": "le kriitilistematele kohtadele tähelepanu, aga niisugust üldist suunajat ei ole olnud"
+      },
+      {
+        "start_seconds": 1485.88,
+        "end_seconds": 1487.44,
+        "text": "."
+      },
+      {
+        "start_seconds": 1487.44,
+        "end_seconds": 1492.72,
+        "text": "Aga teine pool küsimusest, psühholoogist."
+      },
+      {
+        "start_seconds": 1492.72,
+        "end_seconds": 1499.88,
+        "text": "Psühholoogid võib-olla, milleni mina olen jõudnud, on see, et psühholoogid ai"
+      },
+      {
+        "start_seconds": 1499.88,
+        "end_seconds": 1507.2,
+        "text": "tavad leida probleemi tuuma, et noor saaks siis ise sealt edasi tegeleda."
+      },
+      {
+        "start_seconds": 1507.2,
+        "end_seconds": 1514.56,
+        "text": "Noh, mitte ainult üksi ja mitte ainult ise, aga et ta saaks aru, kus on probleemi tu"
+      },
+      {
+        "start_seconds": 1514.56,
+        "end_seconds": 1523.28,
+        "text": "um ning siis sealt kasvõi koos psühholoogi abiga edasi minna."
+      },
+      {
+        "start_seconds": 1523.28,
+        "end_seconds": 1530.96,
+        "text": "Aga, Liina, kuidas sa hoiad usaldust ja siis"
+      },
+      {
+        "start_seconds": 1530.96,
+        "end_seconds": 1533.8,
+        "text": "õpilase vabadust korraga?"
+      },
+      {
+        "start_seconds": 1533.8,
+        "end_seconds": 1537.56,
+        "text": "Ideevabadust?"
+      },
+      {
+        "start_seconds": 1537.56,
+        "end_seconds": 1540.88,
+        "text": "Huvitav küsimus."
+      },
+      {
+        "start_seconds": 1540.88,
+        "end_seconds": 1548.28,
+        "text": "Ma arvan, et sa pead olema aus, kogu aeg aus, et et ka tõsistes"
+      },
+      {
+        "start_seconds": 1548.28,
+        "end_seconds": 1554.12,
+        "text": "asjades, et et mitte, et ühe külje pealt mitte üle hoida seda inimest, eks ju, selles"
+      },
+      {
+        "start_seconds": 1554.12,
+        "end_seconds": 1558.84,
+        "text": "mõttes kasutan väljendit siin nännutada võib-olla onju, et, et mitte tekitada ka seda"
+      },
+      {
+        "start_seconds": 1558.84,
+        "end_seconds": 1562.84,
+        "text": ", et, et, et kõik on lubatud, sest mida me ei ole siin maininud, on praegu see, et üks"
+      },
+      {
+        "start_seconds": 1562.84,
+        "end_seconds": 1564.36,
+        "text": "ki, keegi ei tee üksi filmi."
+      },
+      {
+        "start_seconds": 1564.36,
+        "end_seconds": 1568.12,
+        "text": "Et me räägime ühest noorest, aga tegelikult siin juures on veel see, on see meeskond"
+      },
+      {
+        "start_seconds": 1568.12,
+        "end_seconds": 1573.88,
+        "text": ", kellega koos seda filmi tehakse, nii et, et see on juba üks niisugune suur protsess"
+      },
+      {
+        "start_seconds": 1573.88,
+        "end_seconds": 1580.48,
+        "text": "meeskonnas kohaldumine oma rolli leidmine ja, ja oma hääle endiselt kuuldavaks jätmine"
+      },
+      {
+        "start_seconds": 1580.48,
+        "end_seconds": 1583.36,
+        "text": ", mis on juba selline õppeprotsess, eks ole."
+      },
+      {
+        "start_seconds": 1583.36,
+        "end_seconds": 1590.68,
+        "text": "Et, et selles mõttes ma arvan, olles aus ja, ja andes täpselt, andeski selle"
+      },
+      {
+        "start_seconds": 1590.68,
+        "end_seconds": 1598.24,
+        "text": "vabaduse samal ajal ka selle teadmise, et et see nii-öelda turvaring selle"
+      },
+      {
+        "start_seconds": 1598.24,
+        "end_seconds": 1602.28,
+        "text": "l hetkel on ikkagi ümber."
+      },
+      {
+        "start_seconds": 1602.28,
+        "end_seconds": 1609.64,
+        "text": "Kas ja kui oled, siis kuidas oled pidanud sekkuma mõne noore idee puhul,"
+      },
+      {
+        "start_seconds": 1609.64,
+        "end_seconds": 1614.4,
+        "text": "et suunata turvalisemale rajale?"
+      },
+      {
+        "start_seconds": 1614.4,
+        "end_seconds": 1618.08,
+        "text": "Ma arvan, et mitte turvalisemale rajale, et ma ei oska öelda, mul nii ohtlikke olukord"
+      },
+      {
+        "start_seconds": 1618.08,
+        "end_seconds": 1625.12,
+        "text": "a pole üldse kinomajas, aga, aga, aga et võib-olla pigem suu"
+      },
+      {
+        "start_seconds": 1625.12,
+        "end_seconds": 1632.52,
+        "text": "nata sinna suunas, et ta räägiks seda lugu sellest millest ta midagi teab."
+      },
+      {
+        "start_seconds": 1632.52,
+        "end_seconds": 1639.0,
+        "text": "Pigem ja mitte sellest, mis tundub, et on maailmas kuidagi huvitav, äge ja palju käsi"
+      },
+      {
+        "start_seconds": 1639.0,
+        "end_seconds": 1646.2,
+        "text": "tletud, et, et et see on, see on selline protsessi osa, et me aru"
+      },
+      {
+        "start_seconds": 1646.2,
+        "end_seconds": 1649.84,
+        "text": "tame, et mis osa sellest loost on see, mis sind kõnetab ja miks sa sellest rääkida taha"
+      },
+      {
+        "start_seconds": 1649.84,
+        "end_seconds": 1651.72,
+        "text": "d ja mis sa sellest üldse tead."
+      },
+      {
+        "start_seconds": 1651.72,
+        "end_seconds": 1655.92,
+        "text": "Ja kui ta jõuab sinna lõpuks, et aga tegelikult tõesti see noh, mulle tundus, et see"
+      },
+      {
+        "start_seconds": 1655.92,
+        "end_seconds": 1659.8,
+        "text": "on üks õudne asi, millest ma tahan rääkida, aga tegelikult see ei kõneta mind siis, siis"
+      },
+      {
+        "start_seconds": 1659.8,
+        "end_seconds": 1664.16,
+        "text": "me siis ta mõtleb edasi ja siis ta lõpuks jõuab ise oma selle mõttekäiguga siis võib"
+      },
+      {
+        "start_seconds": 1664.16,
+        "end_seconds": 1673.16,
+        "text": "-olla mingi loo versioonini, mis on talle hästi tuttav ja ja nagu kõnetab teda."
+      },
+      {
+        "start_seconds": 1673.16,
+        "end_seconds": 1680.64,
+        "text": "Aga millist rolli mängib tagasiside noore filmitegija edasises loomingus loomingus ja"
+      },
+      {
+        "start_seconds": 1680.64,
+        "end_seconds": 1683.24,
+        "text": "enesehinnangus?"
+      },
+      {
+        "start_seconds": 1683.24,
+        "end_seconds": 1690.36,
+        "text": "No tagasiside on üks kõige kesksem nagu nii-öelda osa nooru"
+      },
+      {
+        "start_seconds": 1690.36,
+        "end_seconds": 1691.84,
+        "text": "kieas."
+      },
+      {
+        "start_seconds": 1691.84,
+        "end_seconds": 1697.2,
+        "text": "Et see on äärmiselt tähtis ja, ja seda ei tohiks mitte mingil juhul alahinnata kuidagi"
+      },
+      {
+        "start_seconds": 1697.2,
+        "end_seconds": 1700.24,
+        "text": ", et see on vähem tähtsam mõnele."
+      },
+      {
+        "start_seconds": 1700.24,
+        "end_seconds": 1707.8,
+        "text": "Et isegi kui öeldakse vastupidi, siis ikkagi on teistpidi."
+      },
+      {
+        "start_seconds": 1707.8,
+        "end_seconds": 1710.56,
+        "text": "Kas midagi veel?"
+      },
+      {
+        "start_seconds": 1710.56,
+        "end_seconds": 1717.52,
+        "text": "Küsiks ka teiste käest, mis kogemused teil endal tagasisidega ja mis te arvate, kuidas"
+      },
+      {
+        "start_seconds": 1717.52,
+        "end_seconds": 1719.4,
+        "text": "see mõjutab?"
+      },
+      {
+        "start_seconds": 1719.4,
+        "end_seconds": 1726.84,
+        "text": "No mulle väga meeldib tagasiside tegelikult ja mina võib-olla õhutaks noori rohkem k"
+      },
+      {
+        "start_seconds": 1726.84,
+        "end_seconds": 1733.12,
+        "text": "ritiseerima, mitte nüüd halvustama, et teha nendel kahel vahet."
+      },
+      {
+        "start_seconds": 1733.12,
+        "end_seconds": 1738.52,
+        "text": "Aga mulle meeldib tagasisidet saada, aga ma näen, et inimesed ei julge tegelikult oma"
+      },
+      {
+        "start_seconds": 1738.52,
+        "end_seconds": 1740.4,
+        "text": "arvamust öelda."
+      },
+      {
+        "start_seconds": 1740.4,
+        "end_seconds": 1745.68,
+        "text": "Ja siis ma näen, et nad noh, mõtlevad ka seda, mida nad ütlevad, aga tegelikult nagu"
+      },
+      {
+        "start_seconds": 1745.68,
+        "end_seconds": 1750.16,
+        "text": "kuskil läbi silmade on aru saada, et nad tahtsid midagi veel öelda, aga nad justkui ka"
+      },
+      {
+        "start_seconds": 1750.16,
+        "end_seconds": 1757.48,
+        "text": "rdavad haiget teha, et enne kuidagi ka mainisime, et et peab nagu läbi mõtestama selle"
+      },
+      {
+        "start_seconds": 1757.48,
+        "end_seconds": 1766.28,
+        "text": ", kuidas tagasisidestada, et seda kindlasti teha, aga tagasiside ja sealjuures ka"
+      },
+      {
+        "start_seconds": 1766.28,
+        "end_seconds": 1773.48,
+        "text": "siuke võib-olla kriitiline, kriitilisem noot."
+      },
+      {
+        "start_seconds": 1773.48,
+        "end_seconds": 1781.76,
+        "text": "See on väga oluline ja, ja tegelikult iga noor filmitegija hindab seda väga palju."
+      },
+      {
+        "start_seconds": 1781.76,
+        "end_seconds": 1787.44,
+        "text": "Nojah, tagasisidet tuleb osata anda ja vastu võtta, et see on juba selline esimene sa"
+      },
+      {
+        "start_seconds": 1787.44,
+        "end_seconds": 1793.76,
+        "text": "mm, et tegelikult noore filmitegija koha pealt, et just, et võin sulle anda, eks ju hea"
+      },
+      {
+        "start_seconds": 1793.76,
+        "end_seconds": 1797.84,
+        "text": "d tagasisidet ja, ja, ja tegelikult filmide puhul on see, et tegelikult filmitegijal"
+      },
+      {
+        "start_seconds": 1797.84,
+        "end_seconds": 1799.96,
+        "text": "vajab seda tagasisidet mitu korda."
+      },
+      {
+        "start_seconds": 1799.96,
+        "end_seconds": 1804.24,
+        "text": "Et ta vajab seda võib-olla peale võtteid ja ta vajab seda montaažiprotsessi, seda vaja"
+      },
+      {
+        "start_seconds": 1804.24,
+        "end_seconds": 1808.6,
+        "text": "b seda peale esilinastust on ju, et, et tegelikult ta ta protsessib oma filmi tükk aega"
+      },
+      {
+        "start_seconds": 1808.6,
+        "end_seconds": 1809.76,
+        "text": "."
+      },
+      {
+        "start_seconds": 1809.76,
+        "end_seconds": 1814.52,
+        "text": "Ja see tagasiside tuleb nagu osadena, mis on väga oluline, et ta saab seda arutada, võib"
+      },
+      {
+        "start_seconds": 1814.52,
+        "end_seconds": 1818.6,
+        "text": "arvata tegelikult peale võtteid ühte asja peale esilinastust hoopis midagi muud, mis"
+      },
+      {
+        "start_seconds": 1818.6,
+        "end_seconds": 1820.8,
+        "text": "tavaliselt vist nii ongi."
+      },
+      {
+        "start_seconds": 1820.8,
+        "end_seconds": 1828.08,
+        "text": "Aga aga teise külje pealt ootab ees ka maailm, kus kus tuleb tagasisidet, täiesti tä"
+      },
+      {
+        "start_seconds": 1828.08,
+        "end_seconds": 1831.72,
+        "text": "iskasvanud inimeste käest, nii et võtab tooli alt ära kahe sekundiga."
+      },
+      {
+        "start_seconds": 1831.72,
+        "end_seconds": 1836.44,
+        "text": "Ja, ja kui me, kui me selles suhtes hoiame ühe külje pealt küll noori turvalises tsoo"
+      },
+      {
+        "start_seconds": 1836.44,
+        "end_seconds": 1840.92,
+        "text": "nis ja anname, mõtleme oma tagasiside kogu aeg läbi ja, ja arutame nendega, siis teise"
+      },
+      {
+        "start_seconds": 1840.92,
+        "end_seconds": 1845.72,
+        "text": "külje pealt me peaksime natukene neile nagu ka neid ka ette valmistama, selleks, et ühe"
+      },
+      {
+        "start_seconds": 1845.72,
+        "end_seconds": 1849.84,
+        "text": "l päeval võib tulla keegi, kes ei mõtle seda läbi, kuidas ta tagasisidestab sind ja ta"
+      },
+      {
+        "start_seconds": 1849.84,
+        "end_seconds": 1854.12,
+        "text": "ütleb sulle kõik, mis tal pähe tuleb ja ta võib-olla on kuulus kriitik ja võib-olla tal"
+      },
+      {
+        "start_seconds": 1854.12,
+        "end_seconds": 1855.04,
+        "text": "ei olegi õigus."
+      },
+      {
+        "start_seconds": 1855.04,
+        "end_seconds": 1861.52,
+        "text": "Aga sa pead olema siis nii tugev ja sa pead olema nii, nii kindel omaenda idees ja, ja"
+      },
+      {
+        "start_seconds": 1861.52,
+        "end_seconds": 1866.36,
+        "text": "uhke oma idee üle, et, et sa saad sellest siis aru, et okei, ahah, ta ütleb seda, seda"
+      },
+      {
+        "start_seconds": 1866.36,
+        "end_seconds": 1870.0,
+        "text": "mõtlesin ise ka, et Nets on jama, aga tegelikult see, mis ta siia kirjutas, on tema enda"
+      },
+      {
+        "start_seconds": 1870.0,
+        "end_seconds": 1870.92,
+        "text": "mingi luulu onju."
+      },
+      {
+        "start_seconds": 1870.92,
+        "end_seconds": 1874.64,
+        "text": "Et see, et selles mõttes see, see arusaam peab tulema, et see on see intelligentsi kas"
+      },
+      {
+        "start_seconds": 1874.64,
+        "end_seconds": 1880.28,
+        "text": "v noore filmitegijale, et sa saad aru, mis on loogiline, mis on mõistlik tagasiside ja"
+      },
+      {
+        "start_seconds": 1880.28,
+        "end_seconds": 1881.64,
+        "text": "mis tegelikult ei ole."
+      },
+      {
+        "start_seconds": 1881.64,
+        "end_seconds": 1885.04,
+        "text": "Ja sa ei tohi sind nagu katki teha."
+      },
+      {
+        "start_seconds": 1885.04,
+        "end_seconds": 1890.32,
+        "text": "Ma veel segaks vahele, et hästi hea minu meelest see küsimus kohe otse tegija poole tagasi"
+      },
+      {
+        "start_seconds": 1890.32,
+        "end_seconds": 1896.68,
+        "text": "lükata, küsida, et, et aga mis sina arvad, mis läks väga hästi või mis sa tahaksid järg"
+      },
+      {
+        "start_seconds": 1896.68,
+        "end_seconds": 1898.12,
+        "text": "mine kord teisiti teha."
+      },
+      {
+        "start_seconds": 1898.12,
+        "end_seconds": 1903.88,
+        "text": "Et selliseid edasiviivaid küsimusi, mis aitavad talle päriselt seda protsessi ka ise"
+      },
+      {
+        "start_seconds": 1903.88,
+        "end_seconds": 1909.36,
+        "text": "analüüsida ja, ja ma usun, et tema oskab väga sisukalt ise vastata nendele küsimuste"
+      },
+      {
+        "start_seconds": 1909.36,
+        "end_seconds": 1919.56,
+        "text": "le ja, ja sealt koha pealt saab teda siis kiita, mida ta välja toob."
+      },
+      {
+        "start_seconds": 1919.56,
+        "end_seconds": 1927.12,
+        "text": "Kuidas Maria, sina nagu annaksid nõu ja kaitseksid noort"
+      },
+      {
+        "start_seconds": 1927.12,
+        "end_seconds": 1930.96,
+        "text": "siis kriitika vale tõlgendamise eest."
+      },
+      {
+        "start_seconds": 1930.96,
+        "end_seconds": 1936.84,
+        "text": "Eriti kui teema on temale endale väga tundlik."
+      },
+      {
+        "start_seconds": 1936.84,
+        "end_seconds": 1944.16,
+        "text": "Me ei ole selles rollis otseselt olnud, aga ma arvaks, et et mis kaitseb üleüldse igasugu"
+      },
+      {
+        "start_seconds": 1944.16,
+        "end_seconds": 1951.64,
+        "text": "ste selliste äkiliste reaktsioonide ja, ja ärevuse ja muuse selliste ootamatu"
+      },
+      {
+        "start_seconds": 1951.64,
+        "end_seconds": 1955.48,
+        "text": "te teadete nagu eest."
+      },
+      {
+        "start_seconds": 1955.48,
+        "end_seconds": 1962.36,
+        "text": "On tegelikult see teadlikkus, selge teadlikkus, mis hakkab juhtuma, mis võib hakata juhtu"
+      },
+      {
+        "start_seconds": 1962.36,
+        "end_seconds": 1969.32,
+        "text": "ma, kuidas seda protsessi ette valmistada samm-sammult, et lihtsalt ära kaardistada kogu"
+      },
+      {
+        "start_seconds": 1969.32,
+        "end_seconds": 1974.96,
+        "text": "see protsess, et millised võivad olla sinu reaktsioonid, milliseid vastuseid me võime"
+      },
+      {
+        "start_seconds": 1974.96,
+        "end_seconds": 1982.72,
+        "text": "oodata, millised võivad olla sinu jaoks need kõige hullemad või hirmsamad ja rääkida"
+      },
+      {
+        "start_seconds": 1982.72,
+        "end_seconds": 1985.04,
+        "text": "need lihtsalt läbi, mängida läbi."
+      },
+      {
+        "start_seconds": 1985.04,
+        "end_seconds": 1990.92,
+        "text": "Et see vähendab neid ootamatuid reaktsioone tavaliselt."
+      },
+      {
+        "start_seconds": 1990.92,
+        "end_seconds": 1997.48,
+        "text": "Kirke, mis on kõige positiivsem ja mis on kõige negatiivsem tagasiside olnud, mis sa"
+      },
+      {
+        "start_seconds": 1997.48,
+        "end_seconds": 2002.4,
+        "text": "oled saanud oma teose kohta?"
+      },
+      {
+        "start_seconds": 2002.4,
+        "end_seconds": 2006.0,
+        "text": "Ma jäin mõtlema negatiivset."
+      },
+      {
+        "start_seconds": 2006.0,
+        "end_seconds": 2012.84,
+        "text": "Kõige positiivsem tagasiside võib-olla ei olegi otseselt nagu minu filmidega seotud,"
+      },
+      {
+        "start_seconds": 2012.84,
+        "end_seconds": 2020.04,
+        "text": "aga mida minu filmid ajendasid, et kui mõni noor, mul päris tihti, kuna ma olen sotsiaal"
+      },
+      {
+        "start_seconds": 2020.04,
+        "end_seconds": 2026.52,
+        "text": "meedias päris avalik oma filmi tegemisega, siis mulle päris tihti kirjutavad eri noor"
+      },
+      {
+        "start_seconds": 2026.52,
+        "end_seconds": 2033.72,
+        "text": "ed, et tere, et aitäh, et sa selle filmi lõid, et tänu selle filmile sain mina in"
+      },
+      {
+        "start_seconds": 2033.72,
+        "end_seconds": 2035.52,
+        "text": "spiratsiooni, et oma film teha."
+      },
+      {
+        "start_seconds": 2035.52,
+        "end_seconds": 2042.6,
+        "text": "Ja see on minu meelest kõige ägedam tagasiside, mida saada, et vau noh, et justku"
+      },
+      {
+        "start_seconds": 2042.6,
+        "end_seconds": 2047.36,
+        "text": "i minu film andis siis teisele ägedale noorele inspiratsiooni."
+      },
+      {
+        "start_seconds": 2047.36,
+        "end_seconds": 2053.56,
+        "text": "Et see on minu jaoks kõige positiivsem isegi mitte nagu minu, minu filmide kohta."
+      },
+      {
+        "start_seconds": 2053.56,
+        "end_seconds": 2058.4,
+        "text": "Negatiivseid, ma ütlen ausalt, ma ei ole saanud selles suhtes, et ma ei mõtesta neid"
+      },
+      {
+        "start_seconds": 2058.4,
+        "end_seconds": 2059.6,
+        "text": "niimoodi."
+      },
+      {
+        "start_seconds": 2059.6,
+        "end_seconds": 2066.16,
+        "text": "Sellist asja nagu negatiivne kommentaar ei ole olemas minu peas, et tähen- , tähendab"
+      },
+      {
+        "start_seconds": 2066.16,
+        "end_seconds": 2073.28,
+        "text": "filmi kohta, et on mõtted, mis aitavad edasi viia mitte negatii"
+      },
+      {
+        "start_seconds": 2073.28,
+        "end_seconds": 2077.96,
+        "text": "vne kommentaar."
+      },
+      {
+        "start_seconds": 2077.96,
+        "end_seconds": 2085.56,
+        "text": "Liina, kuidas sa annad sihukest head tagasisidet ehk siis nagu asja"
+      },
+      {
+        "start_seconds": 2085.56,
+        "end_seconds": 2093.28,
+        "text": "kohast ja ilma, et noort liialt riivata?"
+      },
+      {
+        "start_seconds": 2093.28,
+        "end_seconds": 2098.2,
+        "text": "No ma arvan, et mu eesmärk ei ole kunagi noort üldse riivata oma tagasisidega et see"
+      },
+      {
+        "start_seconds": 2098.2,
+        "end_seconds": 2100.68,
+        "text": "see ei tohikski olla eesmärk."
+      },
+      {
+        "start_seconds": 2100.68,
+        "end_seconds": 2103.16,
+        "text": "Siis on midagi viltu."
+      },
+      {
+        "start_seconds": 2103.16,
+        "end_seconds": 2110.6,
+        "text": "Aga ma arvan, et, et noh, umbes sarnaselt et, et siin see põhineb päris palju küsimus"
+      },
+      {
+        "start_seconds": 2110.6,
+        "end_seconds": 2115.36,
+        "text": "tel, et kuidas ta, et kui me saame selle vestluse käima, et siis kuidas sa kõigepealt"
+      },
+      {
+        "start_seconds": 2115.36,
+        "end_seconds": 2119.36,
+        "text": ", kõigepealt ma lasen rääkida, et mis, mis nad ise arvavad, et kuidas läks."
+      },
+      {
+        "start_seconds": 2119.36,
+        "end_seconds": 2123.56,
+        "text": "Sellepärast et sealt pealt saab siis tavaliselt see analüüs jõuab sinna ka nende viga"
+      },
+      {
+        "start_seconds": 2123.56,
+        "end_seconds": 2130.2,
+        "text": "deni mida tehti onju sest hästi tugevalt oleme me ka seal oma oma ütleme filmikooli süsteem"
+      },
+      {
+        "start_seconds": 2130.2,
+        "end_seconds": 2135.6,
+        "text": "iga, et, et vigu tulebki teha ja, ja, ja vigu juhtub, aga loeb see, kuidas neist välja"
+      },
+      {
+        "start_seconds": 2135.6,
+        "end_seconds": 2139.52,
+        "text": "tullakse ja kuidas neid lahendatakse, see on palju tähtsam, kui need vead."
+      },
+      {
+        "start_seconds": 2139.52,
+        "end_seconds": 2143.28,
+        "text": "Ehk siis ehk siis tegelikult see arutelu ongi alati hästi põnev, et see hakkab sealt"
+      },
+      {
+        "start_seconds": 2143.28,
+        "end_seconds": 2148.68,
+        "text": "pihta, et kusagilt hakkab see kerima ta enda mõt- , noore enda nagu mõttelõng ja siis"
+      },
+      {
+        "start_seconds": 2148.68,
+        "end_seconds": 2152.52,
+        "text": "sinna sisse on hea siis pista, aga mis sa arvad, --- sa arvad ka, et sul see läks, on"
+      },
+      {
+        "start_seconds": 2152.52,
+        "end_seconds": 2156.48,
+        "text": "ju, et mõtleme, mis me oleks saanud teistmoodi teha või mis sa järgmine kord teistmoodi"
+      },
+      {
+        "start_seconds": 2156.48,
+        "end_seconds": 2159.2,
+        "text": "teed, et enamasti ma ei pea väga palju ütlema midagi."
+      },
+      {
+        "start_seconds": 2159.2,
+        "end_seconds": 2164.16,
+        "text": "Et tavaliselt nagu alustad mingi küsimusega ja siis sa lihtsalt niimoodi tuleb."
+      },
+      {
+        "start_seconds": 2164.16,
+        "end_seconds": 2170.0,
+        "text": "Ja siis ongi, on hea ennast vahel niimoodi tühjaks rääkida, et siis tegelikult selle"
+      },
+      {
+        "start_seconds": 2170.0,
+        "end_seconds": 2173.48,
+        "text": "nagu pinnalt on väga hea edasi minna."
+      },
+      {
+        "start_seconds": 2173.48,
+        "end_seconds": 2186.56,
+        "text": "Kas publikul on midagi küsida?"
+      },
+      {
+        "start_seconds": 2186.56,
+        "end_seconds": 2190.96,
+        "text": "On juba plaanis ka uue filmi peale."
+      },
+      {
+        "start_seconds": 2190.96,
+        "end_seconds": 2197.8,
+        "text": "Tegelikult eile olid võtted ja homme tulevad ka võtted, et selles suhtes ma alati loo"
+      },
+      {
+        "start_seconds": 2197.8,
+        "end_seconds": 2205.52,
+        "text": "n, ma ei oska elada ilma loomata enne filmi loomet oli mul alati mingi"
+      },
+      {
+        "start_seconds": 2205.52,
+        "end_seconds": 2209.28,
+        "text": "teine väljendusviis loomevaldkonnas."
+      },
+      {
+        "start_seconds": 2209.28,
+        "end_seconds": 2213.36,
+        "text": "Et ma olen hästi loominguline inimene."
+      },
+      {
+        "start_seconds": 2213.36,
+        "end_seconds": 2221.2,
+        "text": "Ja hetkel on isegi mitu projekti pooleli, mis siis praegu ongi"
+      },
+      {
+        "start_seconds": 2221.2,
+        "end_seconds": 2229.4,
+        "text": ", võttes nüüd terve august siis noortega tegeleme, teeme ja siis"
+      },
+      {
+        "start_seconds": 2229.4,
+        "end_seconds": 2236.56,
+        "text": "olenevalt projektiks, projektist järgmise aasta kevadeks on kõik valmis spetsiifilise"
+      },
+      {
+        "start_seconds": 2236.56,
+        "end_seconds": 2243.76,
+        "text": "malt kui soovid teada, siis üks on niisugune kolme"
+      },
+      {
+        "start_seconds": 2243.76,
+        "end_seconds": 2251.4,
+        "text": "kümne minutiline lühifilm umbes tuleb, räägib leinast sõbra kaotamisest"
+      },
+      {
+        "start_seconds": 2251.4,
+        "end_seconds": 2258.76,
+        "text": "ja ja siis leinafaasidest ja"
+      },
+      {
+        "start_seconds": 2258.76,
+        "end_seconds": 2266.0,
+        "text": "kuidas noored leina kogevad ja teine on siis niisugune düstoopiline ja katseta"
+      },
+      {
+        "start_seconds": 2266.0,
+        "end_seconds": 2274.16,
+        "text": "n esimest korda ja esimest korda lühisarja teha, ehk siis tuleb neli episoodi."
+      },
+      {
+        "start_seconds": 2274.16,
+        "end_seconds": 2281.8,
+        "text": "Räägib niimoodi informatsiooni peitmisest, ütleme"
+      },
+      {
+        "start_seconds": 2281.8,
+        "end_seconds": 2284.56,
+        "text": "siis nii."
+      },
+      {
+        "start_seconds": 2284.56,
+        "end_seconds": 2289.32,
+        "text": "Kas sul on järgmine aasta ka plaanis horisondil osaleda?"
+      },
+      {
+        "start_seconds": 2289.32,
+        "end_seconds": 2293.84,
+        "text": "Ikka."
+      },
+      {
+        "start_seconds": 2293.84,
+        "end_seconds": 2306.28,
+        "text": "Ja palun."
+      },
+      {
+        "start_seconds": 2306.28,
+        "end_seconds": 2312.36,
+        "text": "Millist rolli sinu elus mängib mu telefoniekraani skrollimine?"
+      },
+      {
+        "start_seconds": 2312.36,
+        "end_seconds": 2314.56,
+        "text": "Ja see on väga hea küsimus."
+      },
+      {
+        "start_seconds": 2314.56,
+        "end_seconds": 2322.0,
+        "text": "Tegelikult ma nüüd üritangi, ma ütlen ausalt, mul on nutisõltuvus ja ma üritan sellest"
+      },
+      {
+        "start_seconds": 2322.0,
+        "end_seconds": 2324.56,
+        "text": "lahti saada."
+      },
+      {
+        "start_seconds": 2324.56,
+        "end_seconds": 2331.68,
+        "text": "Mingil määral ikkagi filmitegijana sa pead sotsiaalmeedias niinimetatud scroll"
+      },
+      {
+        "start_seconds": 2331.68,
+        "end_seconds": 2334.96,
+        "text": "'ama, scroll'ima."
+      },
+      {
+        "start_seconds": 2334.96,
+        "end_seconds": 2342.44,
+        "text": "Et ise avalik olla, et ise teisteni jõuda."
+      },
+      {
+        "start_seconds": 2342.44,
+        "end_seconds": 2349.92,
+        "text": "Aga noh selles suhtes tegelikult mul on isegi film sellest,"
+      },
+      {
+        "start_seconds": 2349.92,
+        "end_seconds": 2355.96,
+        "text": "et see ei ole veel avalik, aga film käis ka horisondil, selle nimi on Tilgatagused na"
+      },
+      {
+        "start_seconds": 2355.96,
+        "end_seconds": 2363.4,
+        "text": "eratused ning film räägibki siis, kuidas sotsiaalmeedia mõjutab noortevahelist suht"
+      },
+      {
+        "start_seconds": 2363.4,
+        "end_seconds": 2368.12,
+        "text": "lust, et minu meelest see on hästi aktuaalne teema ja sellest võiks rääkida."
+      },
+      {
+        "start_seconds": 2368.12,
+        "end_seconds": 2376.6,
+        "text": "Aga mis mulle endale ei käi üldse nagu meeltmööda, on see, kuidas"
+      },
+      {
+        "start_seconds": 2376.6,
+        "end_seconds": 2381.0,
+        "text": "justkui nagu leitakse probleem, aga seda ei lahendata."
+      },
+      {
+        "start_seconds": 2381.0,
+        "end_seconds": 2388.16,
+        "text": "Et ma ise olen pigem sellise mõtteviisiga, et kuidas ma saan seda asja lahe"
+      },
+      {
+        "start_seconds": 2388.16,
+        "end_seconds": 2394.36,
+        "text": "ndada, mitte et mis on probleem."
+      },
+      {
+        "start_seconds": 2394.36,
+        "end_seconds": 2407.96,
+        "text": "Kas see vastas küsimusele?"
+      },
+      {
+        "start_seconds": 2407.96,
+        "end_seconds": 2412.2,
+        "text": "No ma ütlen ausalt, ma viimasel ajal ei viitsi väga seal olla."
+      },
+      {
+        "start_seconds": 2412.2,
+        "end_seconds": 2416.04,
+        "text": "Et ma selles suhtes, et ikkagi vahepeal."
+      },
+      {
+        "start_seconds": 2416.04,
+        "end_seconds": 2420.88,
+        "text": "Ma hoian end kursis, ütleme nii, et kui ma scrollin, siis ma hoian end kursis trendi"
+      },
+      {
+        "start_seconds": 2420.88,
+        "end_seconds": 2424.96,
+        "text": "dega, hoian end kursis millega, millest teised räägivad."
+      },
+      {
+        "start_seconds": 2424.96,
+        "end_seconds": 2427.92,
+        "text": "Et pigem see kursis hoidmine."
+      },
+      {
+        "start_seconds": 2427.92,
+        "end_seconds": 2434.68,
+        "text": "Võib-olla lisan siia sellele veel, et, et natuke selle telefoni sõltuvuse või scroll"
+      },
+      {
+        "start_seconds": 2434.68,
+        "end_seconds": 2439.64,
+        "text": "'imise vastu mässamiseks me tegime sel aastal sel suvel filmilaagri, kus tehti ainult"
+      },
+      {
+        "start_seconds": 2439.64,
+        "end_seconds": 2445.8,
+        "text": "telefoniga filmi, kus Kirke ka osales ja, ja ma arvan, et need tulemused ikka väga la"
+      },
+      {
+        "start_seconds": 2445.8,
+        "end_seconds": 2450.56,
+        "text": "hedad, neid saab näha ka koolifilmifestivalil sügisel neid filme, mis seal tehti."
+      },
+      {
+        "start_seconds": 2450.56,
+        "end_seconds": 2455.52,
+        "text": "Aga, aga tõesti, et, et see telefon on, et ta ei pea kujunema sulle ainult selleks sotsiaal"
+      },
+      {
+        "start_seconds": 2455.52,
+        "end_seconds": 2460.32,
+        "text": "meedia aju sulmaks, vaid, vaid ta võib olla sul tegelikult tööriist, et täna meil on"
+      },
+      {
+        "start_seconds": 2460.32,
+        "end_seconds": 2464.4,
+        "text": "ju ka juba kuulsad filmitegijad, kes teevad juba kinofilme telefoniga, nii et selles"
+      },
+      {
+        "start_seconds": 2464.4,
+        "end_seconds": 2472.56,
+        "text": "suhtes leia see tööriist ja kasuta seda nutikalt, ütlen mina."
+      },
+      {
+        "start_seconds": 2472.56,
+        "end_seconds": 2478.72,
+        "text": "Küsik siis sellise üldisema küsimuse teilt kõigilt, et kas teie arust on noorte lood"
+      },
+      {
+        "start_seconds": 2478.72,
+        "end_seconds": 2486.56,
+        "text": "tänapäeva ühiskonnas piisavalt nähtavad ja kuulda võetud, miks?"
+      },
+      {
+        "start_seconds": 2486.56,
+        "end_seconds": 2493.84,
+        "text": "Mina ütleks, et on nähtavad, sest et kõigil on sõnavabadus ja tõesti kõik"
+      },
+      {
+        "start_seconds": 2493.84,
+        "end_seconds": 2496.0,
+        "text": "e saab sotsiaalmeediasse panna."
+      },
+      {
+        "start_seconds": 2496.0,
+        "end_seconds": 2503.48,
+        "text": "Kõike ka väga isiklikku ja nähtavus ei tähenda alati, ma ütlen sellist nagu kuul"
+      },
+      {
+        "start_seconds": 2503.48,
+        "end_seconds": 2508.92,
+        "text": "davust või, või kuuldut olemist."
+      },
+      {
+        "start_seconds": 2508.92,
+        "end_seconds": 2514.32,
+        "text": "Ja ühiskonnas tegelikult ma ütleks niimoodi, et see on ikkagi veel väga selline lapse"
+      },
+      {
+        "start_seconds": 2514.32,
+        "end_seconds": 2519.68,
+        "text": "kingade teema, et et nagu siin ka ennem käis läbi, et, et me ei julge tegelikult ikkagi"
+      },
+      {
+        "start_seconds": 2519.68,
+        "end_seconds": 2526.8,
+        "text": "mingit arvamust avaldada, et me kardame mingisuguseid hoiakuid või muid selliseid, mis"
+      },
+      {
+        "start_seconds": 2526.8,
+        "end_seconds": 2529.92,
+        "text": "pärsivad meie loomingulisust."
+      },
+      {
+        "start_seconds": 2529.92,
+        "end_seconds": 2536.8,
+        "text": "Ja, ja sellega seoses siis, siis tegelikult ma arvan, et see, see nähtavus on olemas"
+      },
+      {
+        "start_seconds": 2536.8,
+        "end_seconds": 2543.96,
+        "text": ", aga see kuuldus või kuuldavus kuuldud olemine, et see seal taga"
+      },
+      {
+        "start_seconds": 2543.96,
+        "end_seconds": 2552.96,
+        "text": "on selline, selline mõistatus, et või"
+      },
+      {
+        "start_seconds": 2552.96,
+        "end_seconds": 2554.88,
+        "text": "mõistmatus pigem."
+      },
+      {
+        "start_seconds": 2554.88,
+        "end_seconds": 2560.04,
+        "text": "Et me ei, me ei mõista veel kõiki muresid, eriti neid valusamaid või traumeerivamaid"
+      },
+      {
+        "start_seconds": 2560.04,
+        "end_seconds": 2566.96,
+        "text": "ja, ja sellega seoses tegelikult ikkagi me saame võib-olla halvema tagasiside ja me järg"
+      },
+      {
+        "start_seconds": 2566.96,
+        "end_seconds": 2572.44,
+        "text": "mine kord enam või me õpime teiste lugudest, et vot selliseid lugusid ei ole hea ikkagi"
+      },
+      {
+        "start_seconds": 2572.44,
+        "end_seconds": 2573.76,
+        "text": "avalikustada."
+      },
+      {
+        "start_seconds": 2573.76,
+        "end_seconds": 2579.84,
+        "text": "Ja siis me pigem ei räägi nendest, et see on selline üks elav organism ja ma arvan, et"
+      },
+      {
+        "start_seconds": 2579.84,
+        "end_seconds": 2587.04,
+        "text": "selle juures kõik, kogu ühiskond peaks olema natuke mõ"
+      },
+      {
+        "start_seconds": 2587.04,
+        "end_seconds": 2593.6,
+        "text": "istvam, sest et see ei ole lihtsalt võib-olla noh nii-öelda noorele selge, mida jaga"
+      },
+      {
+        "start_seconds": 2593.6,
+        "end_seconds": 2599.48,
+        "text": "da, vaid ta jagab seda siiralt ja ausalt ja, ja tagasiside selle juures peaks olema väga"
+      },
+      {
+        "start_seconds": 2599.48,
+        "end_seconds": 2600.72,
+        "text": "ettevaatlik."
+      },
+      {
+        "start_seconds": 2600.72,
+        "end_seconds": 2611.64,
+        "text": "Et ei julgeks seda jagada, sest et see on tegelikult ikkagi tervislik, ennekõike."
+      },
+      {
+        "start_seconds": 2611.64,
+        "end_seconds": 2614.44,
+        "text": "Kas saaks korra korrata seda küsimust?"
+      },
+      {
+        "start_seconds": 2614.44,
+        "end_seconds": 2615.36,
+        "text": "Palun."
+      },
+      {
+        "start_seconds": 2615.36,
+        "end_seconds": 2621.32,
+        "text": "Küsimuseks oli, et kas teie arust on noorte lood tänapäeva ühiskonnas piisavalt nähta"
+      },
+      {
+        "start_seconds": 2621.32,
+        "end_seconds": 2626.12,
+        "text": "vad ja kuulda võetud, miks?"
+      },
+      {
+        "start_seconds": 2626.12,
+        "end_seconds": 2633.36,
+        "text": "Mulle meeldib, et viimasel ajal ka Eesti filmimaastik jõuab sinna"
+      },
+      {
+        "start_seconds": 2633.36,
+        "end_seconds": 2640.72,
+        "text": ", nii et rohkem tuleb välja täispik filme täispikke noorte filme, ütleme"
+      },
+      {
+        "start_seconds": 2640.72,
+        "end_seconds": 2642.16,
+        "text": "siis niimoodi."
+      },
+      {
+        "start_seconds": 2642.16,
+        "end_seconds": 2649.48,
+        "text": "Ja praegu on ka töös päris mitmeid noorte filme, mis on väga, ootan juba nende nä"
+      },
+      {
+        "start_seconds": 2649.48,
+        "end_seconds": 2657.28,
+        "text": "gemist ja mulle noh, miks just noorte filmid, mulle hästi südamesse paevad, on see, et"
+      },
+      {
+        "start_seconds": 2657.28,
+        "end_seconds": 2663.64,
+        "text": "noortefilmides tihtipeale julgetakse käsitleda just neid kõige-kõige raskemaid teema"
+      },
+      {
+        "start_seconds": 2663.64,
+        "end_seconds": 2665.36,
+        "text": "sid."
+      },
+      {
+        "start_seconds": 2665.36,
+        "end_seconds": 2673.12,
+        "text": "Et nendes filmides on alati midagi, mida kaasa võtta nagu"
+      },
+      {
+        "start_seconds": 2673.12,
+        "end_seconds": 2678.28,
+        "text": "midagi suuremat just jah."
+      },
+      {
+        "start_seconds": 2678.28,
+        "end_seconds": 2683.72,
+        "text": "Jah, et ma arvan, et see vahe ongi selles praegu, et üks on see, et noor saab paisata"
+      },
+      {
+        "start_seconds": 2683.72,
+        "end_seconds": 2688.04,
+        "text": "täna kõik asjad sotsiaalmeediasse, aga see ei ole filmi tegemine on ju, et see on, et"
+      },
+      {
+        "start_seconds": 2688.04,
+        "end_seconds": 2691.8,
+        "text": ", et see filmi tegemine annabki selle puhvri sinna vahele, et selleks, et sellest fi"
+      },
+      {
+        "start_seconds": 2691.8,
+        "end_seconds": 2695.76,
+        "text": "lm saab, pead selle loo täiesti sada protsenti läbi töötlema."
+      },
+      {
+        "start_seconds": 2695.76,
+        "end_seconds": 2701.52,
+        "text": "Ja siis on sul võimalik teha selline lugu, mida tegelikult kuulatakse ka, et kui sa lihtsalt"
+      },
+      {
+        "start_seconds": 2701.52,
+        "end_seconds": 2706.24,
+        "text": "helgid seal sotsiaalmeedias iga mõttega, mis sul pähe tuleb, et siis see sageli läheb"
+      },
+      {
+        "start_seconds": 2706.24,
+        "end_seconds": 2709.16,
+        "text": "ki kuhugi teiste mõtete hulka."
+      },
+      {
+        "start_seconds": 2709.16,
+        "end_seconds": 2713.88,
+        "text": "Aga, aga kui sa tõesti mõtled oma loo läbi ja, ja teed midagi, mis, mida sa tahad, et"
+      },
+      {
+        "start_seconds": 2713.88,
+        "end_seconds": 2721.96,
+        "text": "see jõuab inimesteni ja mõtled läbi, et sa tahad, kelleni see jõuab, siis see jõuab."
+      },
+      {
+        "start_seconds": 2721.96,
+        "end_seconds": 2728.48,
+        "text": "Nagu me eelnevalt selgusele jõudsime, et kaamera ei ole ise siis hukkamõistja ja pigem"
+      },
+      {
+        "start_seconds": 2728.48,
+        "end_seconds": 2736.2,
+        "text": "on hukkamõistjad need, kes siis siis vaatajad on ja seda filmi vaatavad, et mida"
+      },
+      {
+        "start_seconds": 2736.2,
+        "end_seconds": 2738.76,
+        "text": "saaks igaüks teha."
+      },
+      {
+        "start_seconds": 2738.76,
+        "end_seconds": 2748.88,
+        "text": "Et oleks seda hukkamõistmist vähem ja oleks rohkem mõistmist."
+      },
+      {
+        "start_seconds": 2748.88,
+        "end_seconds": 2755.2,
+        "text": "Mina arvan, et see on ikkagi hästi suur eestvedaja, on praegu ikkagi tänapäeval noor"
+      },
+      {
+        "start_seconds": 2755.2,
+        "end_seconds": 2762.44,
+        "text": ", kes on palju rohkem vaimselt teadlikum, kes tõstatab üldsegi neid teemasid palju"
+      },
+      {
+        "start_seconds": 2762.44,
+        "end_seconds": 2765.68,
+        "text": "aktiivsemalt kui mõni vanem põlvkond."
+      },
+      {
+        "start_seconds": 2765.68,
+        "end_seconds": 2772.88,
+        "text": "Ja, ja ma usun, et nemad muudavad maailma, ehk siis meie ühiskondlik selline vaim"
+      },
+      {
+        "start_seconds": 2772.88,
+        "end_seconds": 2780.0,
+        "text": "se tervise või muredest rääkimise selline foon, ma usun, et muutub ja muutub harituma"
+      },
+      {
+        "start_seconds": 2780.0,
+        "end_seconds": 2782.2,
+        "text": "ks."
+      },
+      {
+        "start_seconds": 2782.2,
+        "end_seconds": 2789.48,
+        "text": "Ja mul on üks mälestus põhimõtteliselt, kui oli Hrisondi filmifestival,"
+      },
+      {
+        "start_seconds": 2789.48,
+        "end_seconds": 2796.56,
+        "text": "siis kevadel, siis žürii poolt tuli niisugune kommentaar, et noored,"
+      },
+      {
+        "start_seconds": 2796.56,
+        "end_seconds": 2804.2,
+        "text": "tehke palun rõõmsaid filme, mis minu meelest on hästi huvitav kommentaar."
+      },
+      {
+        "start_seconds": 2804.2,
+        "end_seconds": 2810.44,
+        "text": "Sellepärast et minu meelest on nii äge, kuidas noored julgevadki tõstatada siukseid raske"
+      },
+      {
+        "start_seconds": 2810.44,
+        "end_seconds": 2812.24,
+        "text": "maid teemasid."
+      },
+      {
+        "start_seconds": 2812.24,
+        "end_seconds": 2817.28,
+        "text": "Et see on nagu märgatav vahe generatsioonide vahel."
+      },
+      {
+        "start_seconds": 2817.28,
+        "end_seconds": 2823.72,
+        "text": "See on minu meelest megaäge, nii et noored, tehke ükskõik millest filme."
+      },
+      {
+        "start_seconds": 2823.72,
+        "end_seconds": 2826.92,
+        "text": "Ärge tehke ainult rõõmsatest asjadest."
+      },
+      {
+        "start_seconds": 2826.92,
+        "end_seconds": 2830.44,
+        "text": "Jah, ma lihtsalt lisan siia võib-olla, et, et lihtsalt rõõmsatest asjadest on palju raske"
+      },
+      {
+        "start_seconds": 2830.44,
+        "end_seconds": 2832.12,
+        "text": "m filmi teha."
+      },
+      {
+        "start_seconds": 2832.12,
+        "end_seconds": 2838.04,
+        "text": "Et meil on natuuris see, et me tahame ikka minna ja, ja suruda täiega seda, seda raske"
+      },
+      {
+        "start_seconds": 2838.04,
+        "end_seconds": 2840.4,
+        "text": "t ja kontrastset teemat, eks ju."
+      },
+      {
+        "start_seconds": 2840.4,
+        "end_seconds": 2848.0,
+        "text": "Aga tegelikult, mis on küll õige, on see, et, et rõõmsates lugudes on omaette võim."
+      },
+      {
+        "start_seconds": 2848.0,
+        "end_seconds": 2852.0,
+        "text": "Noori aidata ja üldse kõiki aidata, et kui, kui sa vaatad mõnda väga helget, nüüd ma"
+      },
+      {
+        "start_seconds": 2852.0,
+        "end_seconds": 2855.68,
+        "text": "räägin dokumentalistina, eks ju, kes ka samamoodi ka dokumentalistid tahavad ju rääkida"
+      },
+      {
+        "start_seconds": 2855.68,
+        "end_seconds": 2859.08,
+        "text": ", uuristada neid kõige valusamaid teemasid."
+      },
+      {
+        "start_seconds": 2859.08,
+        "end_seconds": 2865.56,
+        "text": "Aga, aga on olemas ka väga helged ja, ja selliseid tõstvaid dokumentaalfilme, mida, mis"
+      },
+      {
+        "start_seconds": 2865.56,
+        "end_seconds": 2870.12,
+        "text": ", mis tegelikult teevad lahti ka selle rõõmu meie elus, et seda ei tohiks ka päris ära"
+      },
+      {
+        "start_seconds": 2870.12,
+        "end_seconds": 2874.76,
+        "text": "kaotada, et kui me, kui me nagu noh, loomulikult me julgustame noori rääkima oma lugu"
+      },
+      {
+        "start_seconds": 2874.76,
+        "end_seconds": 2879.4,
+        "text": "sid, aga, aga me peaksime julgustama leidma ka seda rõõmu, mis nende ümber on."
+      },
+      {
+        "start_seconds": 2879.4,
+        "end_seconds": 2885.36,
+        "text": "Aga, Liina, missuguseid rõõmsaid filme sa tead, et sinu õpilased on teinud, sest ma mõtle"
+      },
+      {
+        "start_seconds": 2885.36,
+        "end_seconds": 2890.04,
+        "text": "n ka praegu, et kui ma peaks nagu filmi tegema ja mis läks inimestele korda, siis see"
+      },
+      {
+        "start_seconds": 2890.04,
+        "end_seconds": 2896.0,
+        "text": "on pigem sihuke sünge teema, et milliseid rõõmsaid filme üldse saab teha?"
+      },
+      {
+        "start_seconds": 2896.0,
+        "end_seconds": 2898.76,
+        "text": "Oh, saab igasuguseid rõõmsaid filme teha."
+      },
+      {
+        "start_seconds": 2898.76,
+        "end_seconds": 2905.16,
+        "text": "Et meil on ja meil on aegade jooksul ikka, ütlen ausalt, ei ole nii palju, aga, aga mõ"
+      },
+      {
+        "start_seconds": 2905.16,
+        "end_seconds": 2912.8,
+        "text": "ned ikka igal aastal tulevad, et meil on praegugi on montaažis üks lugu näiteks sellest"
+      },
+      {
+        "start_seconds": 2912.8,
+        "end_seconds": 2919.96,
+        "text": ", kuidas inimesed hindavad välimuse järgi, teevad, noh ühesõnaga annavad hinnangu"
+      },
+      {
+        "start_seconds": 2919.96,
+        "end_seconds": 2925.04,
+        "text": "id välimuse järgi, siis ühest noormehest, kes siis jätab väikelinnas mulje, et ta on"
+      },
+      {
+        "start_seconds": 2925.04,
+        "end_seconds": 2929.44,
+        "text": "täielik kaak ja, ja on ainult halbade kavatsustega, aga pärast tuleb välja, et, et läks"
+      },
+      {
+        "start_seconds": 2929.44,
+        "end_seconds": 2936.0,
+        "text": "ainult vanaemale moosi jaoks viima või õigemini õigemini likööri jaoks viima siis po"
+      },
+      {
+        "start_seconds": 2936.0,
+        "end_seconds": 2939.48,
+        "text": "est alkoholi ja aitas tal pärast moosi ketta, aga ühesõnaga, see on selline, me kõik"
+      },
+      {
+        "start_seconds": 2939.48,
+        "end_seconds": 2944.72,
+        "text": "ära ei räägi, aga ühesõnaga põhineb siis selles, et kuidas inimeste need eelarvamused"
+      },
+      {
+        "start_seconds": 2944.72,
+        "end_seconds": 2949.88,
+        "text": "hästi kiiresti kasvavad selle põhjal, mida nad näevad."
+      },
+      {
+        "start_seconds": 2949.88,
+        "end_seconds": 2957.16,
+        "text": "Maria, kas keegi on sinu kui psühholoogi juurde tulnud ka mõne rõõmuga, et on nii"
+      },
+      {
+        "start_seconds": 2957.16,
+        "end_seconds": 2962.04,
+        "text": "väga tahtnud mõnda rõõmu jagada ja kui tihti?"
+      },
+      {
+        "start_seconds": 2962.04,
+        "end_seconds": 2969.92,
+        "text": "Jaa, peale mitmeid vastuvõtte on olnud paar ägedat klienti küll, kes lihtsalt tule"
+      },
+      {
+        "start_seconds": 2969.92,
+        "end_seconds": 2975.56,
+        "text": "vad ja räägivad, kui tore neil on või kui edukad nad nüüd on eksju, et nad on sellest"
+      },
+      {
+        "start_seconds": 2975.56,
+        "end_seconds": 2977.28,
+        "text": "jagu saanud."
+      },
+      {
+        "start_seconds": 2977.28,
+        "end_seconds": 2983.52,
+        "text": "Et neid ei ole palju, aga, aga mõni on, et noh, ega eestlasel ei ole vist väga harju"
+      },
+      {
+        "start_seconds": 2983.52,
+        "end_seconds": 2989.68,
+        "text": "muspärane jagada oma rõõmu niivõrd, noh uhkelt või, või suurelt, eks ju."
+      },
+      {
+        "start_seconds": 2989.68,
+        "end_seconds": 2995.08,
+        "text": "Kas sa tunned, et kui inimesed jagavad oma muresid, rõõme, et kas need lähevad nagu si"
+      },
+      {
+        "start_seconds": 2995.08,
+        "end_seconds": 3002.56,
+        "text": "nule ka samamoodi korda nagu film või kuidas nagu filmi vaatamine ja inimese"
+      },
+      {
+        "start_seconds": 3002.56,
+        "end_seconds": 3007.64,
+        "text": "enda jutt nagu erineb mõju poolest."
+      },
+      {
+        "start_seconds": 3007.64,
+        "end_seconds": 3012.76,
+        "text": "Et kas sa pigem, kui sa teed tööd, siis mõtled, et ei, ma ei võta ühtegi asja südame"
+      },
+      {
+        "start_seconds": 3012.76,
+        "end_seconds": 3015.32,
+        "text": "sse ja et see on mu töö."
+      },
+      {
+        "start_seconds": 3015.32,
+        "end_seconds": 3023.04,
+        "text": "Ja filmi vaatamisega vaatad, et noh, et see on film, et ma peangi seda nagu tundma."
+      },
+      {
+        "start_seconds": 3023.04,
+        "end_seconds": 3030.2,
+        "text": "Mulle vastupidi, et päris inimene räägib päris lugu tihti ikkagi ja, ja see on palju"
+      },
+      {
+        "start_seconds": 3030.2,
+        "end_seconds": 3036.24,
+        "text": "vahetum, et filmi puhul ma kogu aeg proovin ajust kustutada seda, et ei, see on lava"
+      },
+      {
+        "start_seconds": 3036.24,
+        "end_seconds": 3038.16,
+        "text": "statud, see on lavastatud."
+      },
+      {
+        "start_seconds": 3038.16,
+        "end_seconds": 3043.36,
+        "text": "Et see ei kustu ära tihti, aga, aga mõni film on, mis noh, ikkagi lähed nagu niivõrd"
+      },
+      {
+        "start_seconds": 3043.36,
+        "end_seconds": 3049.64,
+        "text": "sisse, et tõesti see kustub korraks ära."
+      },
+      {
+        "start_seconds": 3049.64,
+        "end_seconds": 3057.52,
+        "text": "Aga lõpetuseks siis küsin palun teilt iga"
+      },
+      {
+        "start_seconds": 3057.52,
+        "end_seconds": 3064.84,
+        "text": "ühelt ühe mõtte või soovituse, siis noorele, kes, kellel on pla"
+      },
+      {
+        "start_seconds": 3064.84,
+        "end_seconds": 3070.56,
+        "text": "an teha raskest teemast filmi."
+      },
+      {
+        "start_seconds": 3070.56,
+        "end_seconds": 3078.44,
+        "text": "Mina võin anda sellise soovituse, et rasked teemad vajavad hästi kindlat raami ja hästi"
+      },
+      {
+        "start_seconds": 3078.44,
+        "end_seconds": 3083.04,
+        "text": "tugevat sellist tugivõrgustikku."
+      },
+      {
+        "start_seconds": 3083.04,
+        "end_seconds": 3090.2,
+        "text": "Ja, ja kindlasti mina soovitaks läbi mõelda, läbi di"
+      },
+      {
+        "start_seconds": 3090.2,
+        "end_seconds": 3096.4,
+        "text": "aloogide kasvõi iseendaga, kirjutada päevikusse, hästi palju läbi töötada seda teema"
+      },
+      {
+        "start_seconds": 3096.4,
+        "end_seconds": 3101.96,
+        "text": "t enda jaoks enne, kui ma hakkan seda kellelegi teisele või kolmandale inimesele rää"
+      },
+      {
+        "start_seconds": 3101.96,
+        "end_seconds": 3103.36,
+        "text": "kima."
+      },
+      {
+        "start_seconds": 3103.36,
+        "end_seconds": 3110.64,
+        "text": "Ja, ja kindlasti hästi tähtis on sealjuures, et loo, looja nagu nii-öelda"
+      },
+      {
+        "start_seconds": 3110.64,
+        "end_seconds": 3116.68,
+        "text": "see, kes, kes seda teeb, autor, siis temal peab olema sada protsenti kontroll selle protsess"
+      },
+      {
+        "start_seconds": 3116.68,
+        "end_seconds": 3117.52,
+        "text": "i üle."
+      },
+      {
+        "start_seconds": 3117.52,
+        "end_seconds": 3124.28,
+        "text": "Et tema peab saama öelda stopp või paus või ta saab ümber mõelda neid teemasid."
+      },
+      {
+        "start_seconds": 3124.28,
+        "end_seconds": 3127.8,
+        "text": "Selle kaudu ta kaitseb ennast."
+      },
+      {
+        "start_seconds": 3127.8,
+        "end_seconds": 3134.88,
+        "text": "Et see teema ei läheks tal taas traumeerivaks."
+      },
+      {
+        "start_seconds": 3134.88,
+        "end_seconds": 3142.32,
+        "text": "Räägin võib-olla enda kogemusest või mis mina teeksin siis, et ka"
+      },
+      {
+        "start_seconds": 3142.32,
+        "end_seconds": 3149.56,
+        "text": "mul on siukseid teemasid hetkestes projektides, mis on mulle hästi isiklikud."
+      },
+      {
+        "start_seconds": 3149.56,
+        "end_seconds": 3155.88,
+        "text": "Ja noh, ega ma teistmoodi ei oska ka, et igas projektis on ikkagi tükike mind või, või"
+      },
+      {
+        "start_seconds": 3155.88,
+        "end_seconds": 3158.08,
+        "text": "minu hingeelu."
+      },
+      {
+        "start_seconds": 3158.08,
+        "end_seconds": 3165.48,
+        "text": "Aga võib-olla proovida muuta olustikku, et"
+      },
+      {
+        "start_seconds": 3165.48,
+        "end_seconds": 3171.2,
+        "text": "ei pan- , ei pane täpselt sama olukorda."
+      },
+      {
+        "start_seconds": 3171.2,
+        "end_seconds": 3178.0,
+        "text": "Noh, hästi lihtne näide, kui on mingi armuelu, et siis on ühel üks hobi ja teine teine"
+      },
+      {
+        "start_seconds": 3178.0,
+        "end_seconds": 3185.72,
+        "text": "hobi, päriselus, et filmi võib olla leida siis mingid teised hobid, teine olustik"
+      },
+      {
+        "start_seconds": 3185.72,
+        "end_seconds": 3193.72,
+        "text": "kui soovida just mingist kindlast armuelust rääkida, et niimoodi, et looja ise saab"
+      },
+      {
+        "start_seconds": 3193.72,
+        "end_seconds": 3197.32,
+        "text": "aru ja tema jaoks on see hästi isiklik."
+      },
+      {
+        "start_seconds": 3197.32,
+        "end_seconds": 3202.6,
+        "text": "Aga vaataja jaoks on see siis täiesti teine lugu."
+      },
+      {
+        "start_seconds": 3202.6,
+        "end_seconds": 3207.84,
+        "text": "Mina isiklikult teeks seda ja olen praktiseerinud seda."
+      },
+      {
+        "start_seconds": 3207.84,
+        "end_seconds": 3215.04,
+        "text": "Ja noh, kui juba luua ja kui filmi tahta teha, siis on alati vaja ka kaamera"
+      },
+      {
+        "start_seconds": 3215.04,
+        "end_seconds": 3222.56,
+        "text": "ette inimesi, näitlejaid, siis raskete stseenide ajal tuleb"
+      },
+      {
+        "start_seconds": 3222.56,
+        "end_seconds": 3230.12,
+        "text": "ka näitlejatele toeks olla, et vaimselt siis, et hästi palju"
+      },
+      {
+        "start_seconds": 3230.12,
+        "end_seconds": 3236.12,
+        "text": "räägitakse füüsilisest väsimusest võtta päeva lõpus, aga mõni raske stseen võib vaim"
+      },
+      {
+        "start_seconds": 3236.12,
+        "end_seconds": 3239.92,
+        "text": "selt nii läbi võtta, et näitleja ei suuda pärast seda enam näidata."
+      },
+      {
+        "start_seconds": 3239.92,
+        "end_seconds": 3246.4,
+        "text": "Et mul eile oli just filmisime ühte sellist stseeni, kus me tegime pikema pausi pärast"
+      },
+      {
+        "start_seconds": 3246.4,
+        "end_seconds": 3253.84,
+        "text": "ühte kindlat stseeni, kuna vaimselt lihtsalt võttis nii läbi."
+      },
+      {
+        "start_seconds": 3253.84,
+        "end_seconds": 3258.96,
+        "text": "Et anda aega ei tohi kiirustada."
+      },
+      {
+        "start_seconds": 3258.96,
+        "end_seconds": 3264.56,
+        "text": "Ma arvan, et siin on kaks asja, et üks on see, et see tundlik teema ei ole tingimata"
+      },
+      {
+        "start_seconds": 3264.56,
+        "end_seconds": 3266.16,
+        "text": "veel lugu."
+      },
+      {
+        "start_seconds": 3266.16,
+        "end_seconds": 3268.8,
+        "text": "Ja selleks, et filmi teha, on vaja lugu."
+      },
+      {
+        "start_seconds": 3268.8,
+        "end_seconds": 3274.92,
+        "text": "Et et tegelikult tuleks, ma arvan, ikka leida need sinu inimesed või see üks sinu inimene"
+      },
+      {
+        "start_seconds": 3274.92,
+        "end_seconds": 3282.32,
+        "text": "või üks juhendaja või helistage meile või ühesõnaga keegi, kes ei ole selle looga"
+      },
+      {
+        "start_seconds": 3282.32,
+        "end_seconds": 3289.52,
+        "text": "seotud ja kes, keda sa usaldad ja respekteerid ja kes, kes aitab sul sellest loost teha"
+      },
+      {
+        "start_seconds": 3289.52,
+        "end_seconds": 3291.12,
+        "text": "või sellest teemast teha loo."
+      },
+      {
+        "start_seconds": 3291.12,
+        "end_seconds": 3298.04,
+        "text": "Ja kui sellest saab lugu siis siis ta läheb laiemaks, ei ole enam see üks situatsioon"
+      },
+      {
+        "start_seconds": 3298.04,
+        "end_seconds": 3301.88,
+        "text": "ainult, vaid on terve lugu ja siis sa pead mõtlema, kellele seda lugu ja miks seda rääkida"
+      },
+      {
+        "start_seconds": 3301.88,
+        "end_seconds": 3302.88,
+        "text": "tahad."
+      },
+      {
+        "start_seconds": 3302.88,
+        "end_seconds": 3309.76,
+        "text": "Ja siis see muutub selliseks protsessiks, et, et see hakkab sind pigem aitama kui, kui"
+      },
+      {
+        "start_seconds": 3309.76,
+        "end_seconds": 3311.04,
+        "text": "alla suruma."
+      },
+      {
+        "start_seconds": 3311.04,
+        "end_seconds": 3314.56,
+        "text": "Nii et ma arvan, see üks sinu inimene või need sinu inimesed on olulised filmi tegemise"
+      },
+      {
+        "start_seconds": 3314.56,
+        "end_seconds": 3318.2,
+        "text": "puhul filmi ei saa teha üksi mitte kunagi."
+      },
+      {
+        "start_seconds": 3318.2,
+        "end_seconds": 3331.92,
+        "text": "Kas publik soovib midagi öelda või küsida?"
+      },
+      {
+        "start_seconds": 3331.92,
+        "end_seconds": 3339.2,
+        "text": "Ühe nii-öelda filmi loojaga ja tema looga, aga mis võiksid olla siis ütleme nagu noor"
+      },
+      {
+        "start_seconds": 3339.2,
+        "end_seconds": 3346.36,
+        "text": "te valimised tervist arvestades positiivsed omadused, mida mingi tegemisest üks noor"
+      },
+      {
+        "start_seconds": 3346.36,
+        "end_seconds": 3348.24,
+        "text": "saab?"
+      },
+      {
+        "start_seconds": 3348.24,
+        "end_seconds": 3351.28,
+        "text": "Sellest ma võin kohe pikalt rääkida, ma pole nii palju aega."
+      },
+      {
+        "start_seconds": 3351.28,
+        "end_seconds": 3356.92,
+        "text": "Et siin on väga palju, et mis ma olen aastate jooksul olen näinud, ilmselt kaasa rääkida"
+      },
+      {
+        "start_seconds": 3356.92,
+        "end_seconds": 3364.28,
+        "text": "siin, aga et et see me oma meeskonna või see sinu inimeste leidmine filmi tegemise puhul"
+      },
+      {
+        "start_seconds": 3364.28,
+        "end_seconds": 3370.6,
+        "text": "siin on, esiteks tekib see nii-öelda enesekorraldamise jõud, mida sulle enne võib-olla"
+      },
+      {
+        "start_seconds": 3370.6,
+        "end_seconds": 3375.44,
+        "text": "ei olnud, aga sa teed seda millegi nimel ja võib-olla see ei ole võimeline tegema seda"
+      },
+      {
+        "start_seconds": 3375.44,
+        "end_seconds": 3380.96,
+        "text": "oma toa koristamise nimel või või või õppimise nimel või, või ükskõik mis mure sind para"
+      },
+      {
+        "start_seconds": 3380.96,
+        "end_seconds": 3383.24,
+        "text": "sjagu vaevab selle nimel sa võib-olla ei suuda."
+      },
+      {
+        "start_seconds": 3383.24,
+        "end_seconds": 3387.48,
+        "text": "Aga selle loo nimel siis te teete seda koos, oled sa järsku võimeline väga palju tegema"
+      },
+      {
+        "start_seconds": 3387.48,
+        "end_seconds": 3388.28,
+        "text": "."
+      },
+      {
+        "start_seconds": 3388.28,
+        "end_seconds": 3390.36,
+        "text": "Et seda ma olen hästi palju näinud."
+      },
+      {
+        "start_seconds": 3390.36,
+        "end_seconds": 3396.52,
+        "text": "On üks ja kaks on see selline avastamise, see tohutu, hästi kiire, intensiivne uue o"
+      },
+      {
+        "start_seconds": 3396.52,
+        "end_seconds": 3398.56,
+        "text": "skuse õppimise jõud."
+      },
+      {
+        "start_seconds": 3398.56,
+        "end_seconds": 3404.28,
+        "text": "Et, et sa tuled võtteplatsile ja sa oled otsustanud, et sa oled kostüümikunstnik selle"
+      },
+      {
+        "start_seconds": 3404.28,
+        "end_seconds": 3409.0,
+        "text": "filmi puhul ja siis sa kohtud kostüümikunstnik Reet Maureriga ja kes, kes seletab sul"
+      },
+      {
+        "start_seconds": 3409.0,
+        "end_seconds": 3413.76,
+        "text": "le lahti, kuidas see filmis tegelikult käib ja järsku ma näen, kuidas nad tõusevad, nad"
+      },
+      {
+        "start_seconds": 3413.76,
+        "end_seconds": 3418.0,
+        "text": "järsku otsustavad ise, nad käivad, otsivad neid kostüüme, nad sobitavad neid kokku."
+      },
+      {
+        "start_seconds": 3418.0,
+        "end_seconds": 3421.84,
+        "text": "Neil on nii kiire, me tegime just filmi suvel siin, kus oli filmilugu toimus aastal tuhat"
+      },
+      {
+        "start_seconds": 3421.84,
+        "end_seconds": 3425.76,
+        "text": "üheksasada kaheksakümmend kaheksa, ehk siis oli vaja riidesse panna mingi kakskümmend"
+      },
+      {
+        "start_seconds": 3425.76,
+        "end_seconds": 3430.52,
+        "text": "viis taustanäitlejat kaheksakümne kaheksanda aasta koolivormidesse ja lihtsalt silma"
+      },
+      {
+        "start_seconds": 3430.52,
+        "end_seconds": 3434.92,
+        "text": "d särasid, noh et, et kuidagi selle, sellele sellele, kuna ta on tõesti kollektiivne"
+      },
+      {
+        "start_seconds": 3434.92,
+        "end_seconds": 3442.88,
+        "text": "kunst, kunst filmi tegemine, et siis see, see silmade sära tuleb nagu kiiresti ja"
+      },
+      {
+        "start_seconds": 3442.88,
+        "end_seconds": 3445.8,
+        "text": "see, see on, see aitab väga paljude asjadega."
+      },
+      {
+        "start_seconds": 3445.8,
+        "end_seconds": 3451.56,
+        "text": "Teise külje pealt ka aitab tut- väga kiiresti aru saada, mis su nõrkused on."
+      },
+      {
+        "start_seconds": 3451.56,
+        "end_seconds": 3455.44,
+        "text": "Et, et mis on jälle ka kasulik lõpuks, eks ju, et väga kiiresti nad saavad ka aru, et"
+      },
+      {
+        "start_seconds": 3455.44,
+        "end_seconds": 3459.4,
+        "text": "mis neile sobib ja mis neile ei sobi ja millest nad on head ja millest nad ei ole hea"
+      },
+      {
+        "start_seconds": 3459.4,
+        "end_seconds": 3463.2,
+        "text": "d ja ma arvan, et see on väga oluline tunne pärast seda, et kogu see eduelamus, et ma"
+      },
+      {
+        "start_seconds": 3463.2,
+        "end_seconds": 3467.08,
+        "text": "olin selles väga hea ja see ma proovisin, aga see noh, järgmine kord seda võib-olla ei"
+      },
+      {
+        "start_seconds": 3467.08,
+        "end_seconds": 3467.92,
+        "text": "tee."
+      },
+      {
+        "start_seconds": 3467.92,
+        "end_seconds": 3475.48,
+        "text": "Ja lisan siia juurde, et tegelikult hästi, noh me rääkisime tagasisisestamis sidestamise"
+      },
+      {
+        "start_seconds": 3475.48,
+        "end_seconds": 3482.8,
+        "text": "st, et hästi oluline tegelikult on tagasisidega tiimi poolt ja, ja kui me räägime fi"
+      },
+      {
+        "start_seconds": 3482.8,
+        "end_seconds": 3490.0,
+        "text": "lmist, siis näitlejate poolt, et kasvõig- , kasvõi igaühe oma tiimiliik"
+      },
+      {
+        "start_seconds": 3490.0,
+        "end_seconds": 3497.16,
+        "text": "mega maha istuda ja küsida, et kuule, mis sina arvasid, kuidas mul läks või või mida"
+      },
+      {
+        "start_seconds": 3497.16,
+        "end_seconds": 3500.24,
+        "text": "ma saaksin parandada?"
+      },
+      {
+        "start_seconds": 3500.24,
+        "end_seconds": 3508.08,
+        "text": "Jah, et selles noodis ma olen alati üritanud seda teha ja ma saan väga kasulikke tagasi"
+      },
+      {
+        "start_seconds": 3508.08,
+        "end_seconds": 3511.28,
+        "text": "side nagu jupikesi alati."
+      },
+      {
+        "start_seconds": 3511.28,
+        "end_seconds": 3514.8,
+        "text": "Ma arvan, et õudselt kihvt ka see, et, et mida ma näen, on see, et nad omavahel noor"
+      },
+      {
+        "start_seconds": 3514.8,
+        "end_seconds": 3519.6,
+        "text": "ed hästi palju kiidavad üksteist, mida võib-olla need noored ei ole enne kogenud nii"
+      },
+      {
+        "start_seconds": 3519.6,
+        "end_seconds": 3524.16,
+        "text": "palju, et hästi palju on sellist nagu omavahel, sest et ülitubli, oh kui äge on ju, et"
+      },
+      {
+        "start_seconds": 3524.16,
+        "end_seconds": 3527.48,
+        "text": "sa oled pannud need, ma ei tea, kostüümid valmis, sa oled teinud selle loo kirjutanud"
+      },
+      {
+        "start_seconds": 3527.48,
+        "end_seconds": 3529.2,
+        "text": ", praegu see stseen oli väga hea."
+      },
+      {
+        "start_seconds": 3529.2,
+        "end_seconds": 3535.24,
+        "text": "Väga palju toimub võtteplatsi peal, sellist nagu konstruktiivset tagasisidet ja, ja sama"
+      },
+      {
+        "start_seconds": 3535.24,
+        "end_seconds": 3541.48,
+        "text": "l ajal ka seda ka, et kuule ka seda oled mõelnud, et äkki teeks nii, et, et ka seda on"
+      },
+      {
+        "start_seconds": 3541.48,
+        "end_seconds": 3545.32,
+        "text": "päris palju, sellist nagu nad mõtlevad läbi, kuidas nad üksteisele seda tagasisidet anna"
+      },
+      {
+        "start_seconds": 3545.32,
+        "end_seconds": 3548.96,
+        "text": "vad, seda teab, et ta ei taha ise saada ka ju mingit, kuule, see on jama ära tee onju"
+      },
+      {
+        "start_seconds": 3548.96,
+        "end_seconds": 3556.8,
+        "text": ", et et selles mõttes see on hästi kihvt, on seda vaadata."
+      },
+      {
+        "start_seconds": 3556.8,
+        "end_seconds": 3575.68,
+        "text": "Kas keegi soovib veel midagi öelda?"
+      },
+      {
+        "start_seconds": 3575.68,
+        "end_seconds": 3580.56,
+        "text": "Enamasti keeruline on, eks ole see üks inimene tunneb, et noh, keegi kas teised inimesed"
+      },
+      {
+        "start_seconds": 3580.56,
+        "end_seconds": 3588.0,
+        "text": "või siis olukord või ühiskond noh, teeb midagi, ei ole minu jaoks nagu hea."
+      },
+      {
+        "start_seconds": 3588.0,
+        "end_seconds": 3593.32,
+        "text": "On see siis niimoodi, et, et see filmi tegemine aitab seda või on see oht, et, et nä"
+      },
+      {
+        "start_seconds": 3593.32,
+        "end_seconds": 3598.96,
+        "text": "idatakse seda, eks ole õnnetut või millegi mingi probleemiga olevat inimest, et kuidas"
+      },
+      {
+        "start_seconds": 3598.96,
+        "end_seconds": 3604.04,
+        "text": "nagu lahti haakida see, see olukord, kuhu ta sattunud on, ka need teised inimesed siin"
+      },
+      {
+        "start_seconds": 3604.04,
+        "end_seconds": 3608.04,
+        "text": "ümberringiks see nii on?"
+      },
+      {
+        "start_seconds": 3608.04,
+        "end_seconds": 3613.64,
+        "text": "Kas see aitab siis paremini aru saada või selle loo ära rääkimine piisab ka sellest,"
+      },
+      {
+        "start_seconds": 3613.64,
+        "end_seconds": 3618.68,
+        "text": "et kui, kui lihtsalt öeldagi, et ongi raske elu ja siis on vähemasti jagatud mure, mis"
+      },
+      {
+        "start_seconds": 3618.68,
+        "end_seconds": 3629.68,
+        "text": "on siis juba poole väiksem."
+      },
+      {
+        "start_seconds": 3629.68,
+        "end_seconds": 3637.16,
+        "text": "Filmis või?"
+      },
+      {
+        "start_seconds": 3637.16,
+        "end_seconds": 3644.8,
+        "text": "Aga mis see eesmärk on, et kas eesmärk on sellest murest lahti saada?"
+      },
+      {
+        "start_seconds": 3644.8,
+        "end_seconds": 3648.56,
+        "text": "Kas sellest piisab, kas sellest piisab?"
+      },
+      {
+        "start_seconds": 3648.56,
+        "end_seconds": 3652.0,
+        "text": "Ma ütlen veelkord, mis ma ennem ütlesin ka, et ma arvan, et alustan korra sellest, et"
+      },
+      {
+        "start_seconds": 3652.0,
+        "end_seconds": 3655.76,
+        "text": "ma arvan, et ühegi filmitegija eesmärk ei ole oma murest lahti saada filmi tegemisega"
+      },
+      {
+        "start_seconds": 3655.76,
+        "end_seconds": 3656.12,
+        "text": "."
+      },
+      {
+        "start_seconds": 3656.12,
+        "end_seconds": 3660.64,
+        "text": "Et see on pigem on seda lugu teistega jagada või seda muret teistega jagada on pigem"
+      },
+      {
+        "start_seconds": 3660.64,
+        "end_seconds": 3665.92,
+        "text": "selle kunstniku eesmärk noore filmitegija puhul ma ilmselt ka arvan ka vanema filmi tegi"
+      },
+      {
+        "start_seconds": 3665.92,
+        "end_seconds": 3667.84,
+        "text": "ja puhul."
+      },
+      {
+        "start_seconds": 3667.84,
+        "end_seconds": 3673.64,
+        "text": "Et, et ta selle mõttega ei lähe sellesse protsessi, et nüüd ma saan sellest lahti."
+      },
+      {
+        "start_seconds": 3673.64,
+        "end_seconds": 3681.2,
+        "text": "Aga, aga ma arvan, et see protsess aitab seda küll, et mis ma näinud olen seda"
+      },
+      {
+        "start_seconds": 3681.2,
+        "end_seconds": 3685.32,
+        "text": "kõrvalt neid filme tehes, et, et see aitab lihtsalt väga palju asju lahti mõtestada,"
+      },
+      {
+        "start_seconds": 3685.32,
+        "end_seconds": 3687.08,
+        "text": "mida sa võib-olla üksi ei suudaks."
+      },
+      {
+        "start_seconds": 3687.08,
+        "end_seconds": 3691.4,
+        "text": "Aga nüüd tulebki mängu see, et film on kollektiivne kunst, et tegelikult sa, kui sa tööta"
+      },
+      {
+        "start_seconds": 3691.4,
+        "end_seconds": 3695.4,
+        "text": "d koos kümne inimesega seal võtteplatsil viieteistkümne, kahekümne inimesega, siis iga"
+      },
+      {
+        "start_seconds": 3695.4,
+        "end_seconds": 3699.92,
+        "text": "üks panustab sellesse sinu loosse ju selle lahendamisse samal ajal."
+      },
+      {
+        "start_seconds": 3699.92,
+        "end_seconds": 3705.76,
+        "text": "Ehk siis tegelikult see kindlasti viib su mingi noh selles mõttes, et ma ei tea, kas"
+      },
+      {
+        "start_seconds": 3705.76,
+        "end_seconds": 3710.52,
+        "text": "ta su probleem ära lahendab, aga, aga see fakt, et sa oma muret teistega jagad või seda"
+      },
+      {
+        "start_seconds": 3710.52,
+        "end_seconds": 3716.68,
+        "text": "muret, mis sulle see lugu, mis sind praegu just närvi ajab rõõmsaks teeb, eks ju."
+      },
+      {
+        "start_seconds": 3716.68,
+        "end_seconds": 3720.04,
+        "text": "Et see, see aitab sind."
+      },
+      {
+        "start_seconds": 3720.04,
+        "end_seconds": 3723.2,
+        "text": "Et see, selles mõttes seda ma olen näinud noorte pealt küll, et see, et ja, ja teise"
+      },
+      {
+        "start_seconds": 3723.2,
+        "end_seconds": 3726.88,
+        "text": "ks kindlasti üks asi on see filmi tegemine, aga teine asi on need arutelud, mis pärast"
+      },
+      {
+        "start_seconds": 3726.88,
+        "end_seconds": 3728.52,
+        "text": ", mida su film tekitab."
+      },
+      {
+        "start_seconds": 3728.52,
+        "end_seconds": 3734.72,
+        "text": "Ja see on see koht, kus nad tunnevad, et, inimesed tegelikult tunnevad huvi selle vastu"
+      },
+      {
+        "start_seconds": 3734.72,
+        "end_seconds": 3739.08,
+        "text": ", mis ma tahan öelda, nad tunnevad vastu selle huvi selle mure vastu või selle probleem"
+      },
+      {
+        "start_seconds": 3739.08,
+        "end_seconds": 3743.8,
+        "text": "i vastu, et, et see, ma arvan, see teine faas, mis, mis väga edasi viib."
+      },
+      {
+        "start_seconds": 3743.8,
+        "end_seconds": 3745.56,
+        "text": "Nõus Kirke või?"
+      },
+      {
+        "start_seconds": 3745.56,
+        "end_seconds": 3746.92,
+        "text": "Ja."
+      },
+      {
+        "start_seconds": 3746.92,
+        "end_seconds": 3754.4,
+        "text": "Mina tahaks siia lisada ühe tähtsa momendi, et kui tegelikult noor räägib väga isikliku"
+      },
+      {
+        "start_seconds": 3754.4,
+        "end_seconds": 3761.4,
+        "text": "st traumeerivast kogemusest, siis lihtsalt selle läbi tegemine, filmimine, kirjutamine"
+      },
+      {
+        "start_seconds": 3761.4,
+        "end_seconds": 3768.96,
+        "text": ", joonistamine võib taas, taas tekitada seda traumakogemust ehk siis see tegelikult"
+      },
+      {
+        "start_seconds": 3768.96,
+        "end_seconds": 3774.96,
+        "text": "võimendab, see ei töötle, see ei tee alati paremaks, vaid see võib taas panna teda selles"
+      },
+      {
+        "start_seconds": 3774.96,
+        "end_seconds": 3781.6,
+        "text": "se olukorda ja, ja see filmimine kas siis toimub vastu tema tahtmist, et ta ikkagi on"
+      },
+      {
+        "start_seconds": 3781.6,
+        "end_seconds": 3787.8,
+        "text": "väga kohusetundlik ja ta veab välja, aga see mõjub talle väga laastavalt uuesti."
+      },
+      {
+        "start_seconds": 3787.8,
+        "end_seconds": 3793.84,
+        "text": "Ma natuke ja absoluutselt nõus, aga ma ütlen siis seda, et, et enamasti filmitegija ei"
+      },
+      {
+        "start_seconds": 3793.84,
+        "end_seconds": 3798.4,
+        "text": "räägi, ei tee endast lugu, vaid ta paneb oma loo kellegi teise loo sisse."
+      },
+      {
+        "start_seconds": 3798.4,
+        "end_seconds": 3805.24,
+        "text": "See on tore ja, ja sest, et kui ta just teeb mingit õudsalt avavat dokumentaalfilmi,"
+      },
+      {
+        "start_seconds": 3805.24,
+        "end_seconds": 3810.8,
+        "text": "mida noored enamasti ei tee, mida ka vanad inimesed enamasti ei tee, et, et selles suht"
+      },
+      {
+        "start_seconds": 3810.8,
+        "end_seconds": 3816.16,
+        "text": "es enamasti ta paneb selle oma kogemuse hoopis teise loo sisse ja see on juba selline"
+      },
+      {
+        "start_seconds": 3816.16,
+        "end_seconds": 3819.16,
+        "text": "nagu ait- , kaitsepuhver ja."
+      },
+      {
+        "start_seconds": 3819.16,
+        "end_seconds": 3826.56,
+        "text": "Ma jah, lisaks siia, et ma nõustun sellega, et ma ma panen"
+      },
+      {
+        "start_seconds": 3826.56,
+        "end_seconds": 3834.48,
+        "text": "alati mingeid isiklikke teemasid, kasvõi alateadlikult enda projektidesse sisse."
+      },
+      {
+        "start_seconds": 3834.48,
+        "end_seconds": 3840.04,
+        "text": "Ja kui ma hakkan siis analüüsima näiteks stsenaariumi kirjutama või või karakteri an"
+      },
+      {
+        "start_seconds": 3840.04,
+        "end_seconds": 3847.32,
+        "text": "alüüs on hästi hästi oluline osa filmist, siis ma justkui selle käigus"
+      },
+      {
+        "start_seconds": 3847.32,
+        "end_seconds": 3854.56,
+        "text": "tegelikult mõtestangi lahti selle enda tunde vahepeal ja saan aru, et vot siia ma pa"
+      },
+      {
+        "start_seconds": 3854.56,
+        "end_seconds": 3856.12,
+        "text": "nin enda tunde."
+      },
+      {
+        "start_seconds": 3856.12,
+        "end_seconds": 3862.4,
+        "text": "Ja siis ma vastavalt sellele, siis kas liigun selle tunde poole või natuke eemale, et"
+      },
+      {
+        "start_seconds": 3862.4,
+        "end_seconds": 3868.28,
+        "text": "oleneb, kas ma jällegi tahan veel seda veel sellest teemast rääkida või siis või siis"
+      },
+      {
+        "start_seconds": 3868.28,
+        "end_seconds": 3877.56,
+        "text": "ma annan selle teema selle karakteri kätte, et see on nagu kahe otsaga asi."
+      },
+      {
+        "start_seconds": 3877.56,
+        "end_seconds": 3886.2,
+        "text": "Minul rohkem küsimusi ei ole, kui keegi ei soovi midagi rohkem öelda,"
+      },
+      {
+        "start_seconds": 3886.2,
+        "end_seconds": 3893.0,
+        "text": "siis aitäh kõigile, et te siia tulite, tulite kuulama, osalema, aitäh."
+      },
+      {
+        "start_seconds": 3893.0,
+        "end_seconds": 3907.5,
+        "text": "Aitäh, aitäh."
+      }
+    ]
+  }
+}
