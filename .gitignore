@@ -17,4 +17,7 @@ build/
 data/audio-cache/
 data/engine-output/
 data/state/
+data/topic-analysis/cache/
+data/topic-analysis/results/
+.ipynb_checkpoints/
 *.part

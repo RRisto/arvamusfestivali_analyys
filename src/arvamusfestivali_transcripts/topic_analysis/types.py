@@ -1,0 +1,246 @@
+"""Validated, immutable records shared by the topic-analysis modules."""
+
+from __future__ import annotations
+
+import math
+import re
+from collections.abc import Mapping
+from dataclasses import dataclass
+from pathlib import Path
+from typing import Literal
+
+import numpy as np
+import pandas as pd
+
+_SHA256 = re.compile(r"[0-9a-f]{64}\Z")
+
+
+def _require_text(value: str, name: str) -> None:
+    if not isinstance(value, str) or not value.strip():
+        raise ValueError(f"{name} must be nonempty text")
+
+
+def _require_ids(values: tuple[str, ...], name: str) -> None:
+    if not values or any(not isinstance(value, str) or not value.strip() for value in values):
+        raise ValueError(f"{name} must contain nonempty IDs")
+
+
+def _require_interval(start: float, end: float, name: str) -> None:
+    if (
+        isinstance(start, bool)
+        or isinstance(end, bool)
+        or not isinstance(start, int | float)
+        or not isinstance(end, int | float)
+        or not math.isfinite(start)
+        or not math.isfinite(end)
+        or start < 0
+        or end <= start
+    ):
+        raise ValueError(f"{name} interval must be finite, nonnegative, and ordered")
+
+
+def _require_sha256(value: str) -> None:
+    if not isinstance(value, str) or _SHA256.fullmatch(value) is None:
+        raise ValueError("audio_sha256 must be a lowercase 64-character hexadecimal digest")
+
+
+def _require_positive_count(value: int, name: str) -> None:
+    if not isinstance(value, int) or isinstance(value, bool) or value <= 0:
+        raise ValueError(f"{name} must be positive")
+
+
+@dataclass(frozen=True, slots=True)
+class Cue:
+    start_seconds: float
+    end_seconds: float
+    text: str
+
+    def __post_init__(self) -> None:
+        _require_interval(self.start_seconds, self.end_seconds, "cue")
+        _require_text(self.text, "cue text")
+
+
+@dataclass(frozen=True, slots=True)
+class CanonicalEpisode:
+    episode_id: str
+    duplicate_episode_ids: tuple[str, ...]
+    title: str
+    published_at: str
+    audio_sha256: str
+    duration_seconds: float
+    audio_url: str
+    cues: tuple[Cue, ...]
+    source_paths: tuple[Path, ...]
+
+    def __post_init__(self) -> None:
+        _require_text(self.episode_id, "episode_id")
+        _require_ids(self.duplicate_episode_ids, "duplicate_episode_ids")
+        _require_text(self.title, "title")
+        _require_text(self.published_at, "published_at")
+        _require_sha256(self.audio_sha256)
+        if not isinstance(self.duration_seconds, int | float) or not math.isfinite(
+            self.duration_seconds
+        ) or self.duration_seconds <= 0:
+            raise ValueError("duration_seconds must be positive and finite")
+        _require_text(self.audio_url, "audio_url")
+        if not self.cues or any(not isinstance(cue, Cue) for cue in self.cues):
+            raise ValueError("cues must contain Cue records")
+        if not self.source_paths or any(not isinstance(path, Path) for path in self.source_paths):
+            raise ValueError("source_paths must contain paths")
+
+
+@dataclass(frozen=True, slots=True)
+class ChunkingConfig:
+    min_seconds: float = 120.0
+    target_seconds: float = 180.0
+    max_seconds: float = 240.0
+    min_words: int = 400
+    max_words: int = 800
+    overlap_seconds: float = 15.0
+    merge_tail_seconds: float = 60.0
+    max_merged_seconds: float = 300.0
+
+    def __post_init__(self) -> None:
+        durations = (self.min_seconds, self.target_seconds, self.max_seconds)
+        if (
+            any(
+                not isinstance(value, int | float) or not math.isfinite(value)
+                for value in durations
+            )
+            or not 0 < self.min_seconds <= self.target_seconds <= self.max_seconds
+        ):
+            raise ValueError("chunk duration bounds must be finite, positive, and ordered")
+        _require_positive_count(self.min_words, "min_words")
+        _require_positive_count(self.max_words, "max_words")
+        if self.min_words > self.max_words:
+            raise ValueError("chunk word bounds must be ordered")
+        if (
+            any(
+                not isinstance(value, int | float) or not math.isfinite(value) or value < 0
+                for value in (self.overlap_seconds, self.merge_tail_seconds)
+            )
+            or not isinstance(self.max_merged_seconds, int | float)
+            or not math.isfinite(self.max_merged_seconds)
+            or self.max_merged_seconds < self.max_seconds
+        ):
+            raise ValueError("chunk overlap and merge bounds must be finite and nonnegative")
+
+
+@dataclass(frozen=True, slots=True)
+class Passage:
+    passage_id: str
+    episode_id: str
+    duplicate_episode_ids: tuple[str, ...]
+    title: str
+    start_seconds: float
+    end_seconds: float
+    text: str
+    audio_sha256: str
+    audio_url: str
+    word_count: int
+    cue_count: int
+
+    def __post_init__(self) -> None:
+        _require_text(self.passage_id, "passage_id")
+        _require_text(self.episode_id, "episode_id")
+        _require_ids(self.duplicate_episode_ids, "duplicate_episode_ids")
+        _require_text(self.title, "title")
+        _require_interval(self.start_seconds, self.end_seconds, "passage")
+        _require_text(self.text, "passage text")
+        _require_sha256(self.audio_sha256)
+        _require_text(self.audio_url, "audio_url")
+        _require_positive_count(self.word_count, "word_count")
+        _require_positive_count(self.cue_count, "cue_count")
+
+    @property
+    def timestamped_audio_url(self) -> str:
+        start = f"{self.start_seconds:g}"
+        return f"{self.audio_url}#t={start}"
+
+
+@dataclass(frozen=True, slots=True)
+class EmbeddingResult:
+    model_key: str
+    model_id: str
+    model_revision: str | None
+    dimension: int
+    passage_ids: tuple[str, ...]
+    embeddings: np.ndarray
+    cache_hits: int
+
+    def __post_init__(self) -> None:
+        _require_text(self.model_key, "model_key")
+        _require_text(self.model_id, "model_id")
+        if self.model_revision is not None:
+            _require_text(self.model_revision, "model_revision")
+        _require_positive_count(self.dimension, "dimension")
+        _require_ids(self.passage_ids, "passage_ids")
+        if (
+            not isinstance(self.embeddings, np.ndarray)
+            or self.embeddings.ndim != 2
+            or self.embeddings.shape != (len(self.passage_ids), self.dimension)
+            or not np.issubdtype(self.embeddings.dtype, np.number)
+            or not np.isfinite(self.embeddings).all()
+        ):
+            raise ValueError("embedding rows must match passage IDs and dimension and be finite")
+        if (
+            not isinstance(self.cache_hits, int)
+            or isinstance(self.cache_hits, bool)
+            or not 0 <= self.cache_hits <= len(self.passage_ids)
+        ):
+            raise ValueError("cache_hits must be between zero and the passage count")
+
+
+@dataclass(frozen=True, slots=True)
+class TopicRun:
+    model_key: str
+    topics: np.ndarray
+    probabilities: np.ndarray | None
+    reduced_embeddings: np.ndarray
+    topic_info: pd.DataFrame
+    representative_passages: Mapping[int, tuple[str, ...]]
+    cluster_persistence: tuple[float, ...]
+
+    def __post_init__(self) -> None:
+        _require_text(self.model_key, "model_key")
+        if not isinstance(self.topics, np.ndarray) or self.topics.ndim != 1:
+            raise ValueError("topics must be a one-dimensional array")
+        count = len(self.topics)
+        if (
+            self.probabilities is not None
+            and (
+                not isinstance(self.probabilities, np.ndarray)
+                or self.probabilities.ndim not in (1, 2)
+                or self.probabilities.shape[0] != count
+            )
+        ):
+            raise ValueError("probability rows must match topics")
+        if (
+            not isinstance(self.reduced_embeddings, np.ndarray)
+            or self.reduced_embeddings.ndim != 2
+            or self.reduced_embeddings.shape[0] != count
+        ):
+            raise ValueError("reduced embedding rows must match topics")
+        if not isinstance(self.topic_info, pd.DataFrame):
+            raise ValueError("topic_info must be a DataFrame")
+        if not isinstance(self.representative_passages, Mapping):
+            raise ValueError("representative_passages must be a mapping")
+        if any(not math.isfinite(value) for value in self.cluster_persistence):
+            raise ValueError("cluster_persistence must be finite")
+
+
+@dataclass(frozen=True, slots=True)
+class ManualTopicReview:
+    model_key: str
+    topic_id: int
+    verdict: Literal["coherent", "mixed", "duplicate", "unclear"]
+    note: str = ""
+
+    def __post_init__(self) -> None:
+        _require_text(self.model_key, "model_key")
+        if not isinstance(self.topic_id, int) or isinstance(self.topic_id, bool):
+            raise ValueError("topic_id must be an integer")
+        if self.verdict not in ("coherent", "mixed", "duplicate", "unclear"):
+            raise ValueError("verdict must be coherent, mixed, duplicate, or unclear")
+        if not isinstance(self.note, str):
+            raise ValueError("note must be text")
