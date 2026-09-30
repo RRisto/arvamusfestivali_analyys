@@ -127,14 +127,30 @@ key. A failed model reports a remediation hint while successful model results re
 available. Per-passage embedding files are saved under
 `data/topic-analysis/cache/`; repeat runs reuse matching cached vectors. Each run
 exports a manifest, passage and assignment tables, metrics, cross-model comparison,
-and a blank manual-review CSV under `data/topic-analysis/results/<experiment-id>/`.
+and a manual-review CSV under `data/topic-analysis/results/<experiment-id>/`.
+In the notebook's manual-review cell, add `ManualTopicReview` records to
+`MANUAL_REVIEWS` with a `coherent`, `mixed`, `duplicate`, or `unclear` verdict and a
+note. Rerun that cell and the export cell to preserve completed annotations.
+Probability exports include the explicit topic-column mapping; HDBSCAN memberships
+are not calibrated semantic confidence. Outliers have no assigned-topic probability.
 Both generated directories are ignored by Git. Keep the exported manifest with any
 results you share: it records model identities, configurations, audio hashes, and the
 Git revision.
 
-The metric table is descriptive. Silhouette excludes outliers and may be unavailable
+Local model defaults pin immutable Hugging Face snapshot commits (Qwen
+`97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3`, BGE
+`5617a9f61b028005a4858fdac845db406aefb181`). The manifest saves full cache configuration,
+including revisions, instruction, dimensions, and adapter schema. Schema 2 invalidates
+older vectors because both cache keys and inference now use NFC text with collapsed
+whitespace; original transcript text remains available for inspection.
+
+The metric table is descriptive. Silhouette uses Euclidean distance on the actual
+UMAP coordinates supplied to HDBSCAN, separately from the two-dimensional display
+projection. It excludes outliers and may be unavailable
 with fewer than two non-outlier topics; topic count and outlier fraction can change
 with clustering settings. Separate UMAP maps are **not geometrically aligned**, so
 compare assignments and source passages rather than plot coordinates. Use the
-timestamped audio links in the representative and disputed passage tables, then fill
-the exported `manual-review.csv` verdict and note columns before judging coherence.
+timestamped audio links in the representative, disputed, and low-membership boundary
+tables. Disputes compare which passages are clustered together, independent of topic
+numbering; two noise points are not a shared cluster. Then fill
+the notebook's manual review annotations before judging coherence.

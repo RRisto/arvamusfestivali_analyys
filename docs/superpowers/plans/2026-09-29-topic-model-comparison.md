@@ -460,7 +460,7 @@ Close a chunk when this predicate becomes true:
 should_close = (
     (duration >= config.target_seconds and word_count >= config.min_words)
     or duration >= config.max_seconds
-    or word_count >= config.max_words
+    or (duration >= config.min_seconds and word_count >= config.max_words)
 )
 ```
 
@@ -798,7 +798,9 @@ class TopicModelConfig:
 Build UMAP with cosine distance and HDBSCAN with Euclidean distance,
 `cluster_selection_method="eom"`, and `prediction_data=True`. Build BERTopic with
 precomputed embeddings, `calculate_probabilities=True`, and a `CountVectorizer` using
-`ngram_range=(1, 3)` and `min_df=2`. Do not add a handcrafted stopword list.
+`ngram_range=(1, 3)` and `min_df=1`. BERTopic aggregates documents by topic, so
+`min_df=2` is invalid for a single topic or an all-outlier run. Do not add a
+handcrafted stopword list.
 
 Capture two reductions: five dimensions for clustering and a separate two-dimensional
 projection for display, both with the same seed. Extract representative passage IDs
@@ -815,7 +817,9 @@ silhouette, silhouette_unavailable_reason, mean_cluster_persistence,
 topic_diversity
 ```
 
-Compute silhouette only when at least two non-outlier clusters remain. Compute topic
+Compute Euclidean silhouette on the actual clustering-reduction coordinates only
+when at least two non-outlier clusters remain. Keep these coordinates separate from
+the display projection and label the metric's space and distance in exports. Compute topic
 diversity as unique top terms divided by total top-term slots. `compare_runs` emits one
 row per ordered model pair with adjusted mutual information and mean top-k nearest-
 neighbour Jaccard overlap in original normalized embedding spaces.

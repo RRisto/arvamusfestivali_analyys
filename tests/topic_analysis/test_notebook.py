@@ -9,6 +9,7 @@ import sys
 from pathlib import Path
 
 import nbformat
+import pandas as pd
 from nbclient import NotebookClient
 
 from arvamusfestivali_transcripts.archive import write_archive
@@ -89,6 +90,11 @@ def test_notebook_executes_offline_and_exports_manifest(
     config.source = config.source.replace(
         "DRY_RUN_WITH_FAKE_EMBEDDINGS = False", "DRY_RUN_WITH_FAKE_EMBEDDINGS = True"
     )
+    review_cell = next(cell for cell in notebook.cells if cell.id == "code-14")
+    review_cell.source = review_cell.source.replace(
+        "MANUAL_REVIEWS: list[ManualTopicReview] = []",
+        'MANUAL_REVIEWS = [ManualTopicReview("qwen", 0, "mixed", "Offline review annotation")]',
+    )
 
     executed = NotebookClient(
         notebook, timeout=180, kernel_name="python3",
@@ -104,6 +110,9 @@ def test_notebook_executes_offline_and_exports_manifest(
     manifest = json.loads(manifests[0].read_text(encoding="utf-8"))
     assert len(manifest["selected_audio_hashes"]) == 6
     assert set(manifest["model_metadata"]) == {"qwen", "bge"}
+    reviews = pd.read_csv(manifests[0].parent / "manual-review.csv").fillna("")
+    assert "Offline review annotation" in reviews["note"].tolist()
+    assert all(value["adapter_version"] == 2 for value in manifest["cache_identities"].values())
     assert "Gemini skipped: GEMINI_API_KEY is not set" in "".join(
         output.get("text", "")
         for cell in executed.cells if cell.cell_type == "code"

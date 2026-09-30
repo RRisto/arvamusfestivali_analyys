@@ -33,14 +33,18 @@ class CacheIdentity:
         return hashlib.sha256(payload.encode("utf-8")).hexdigest()
 
 
+def canonical_inference_text(text: str) -> str:
+    """Use identical NFC/whitespace canonicalization for inference and cache keys."""
+    return unicodedata.normalize("NFC", " ".join(text.split()))
+
+
 def _passage_digest(passage: Passage) -> str:
-    normalized_text = unicodedata.normalize("NFC", " ".join(passage.text.split()))
     payload = json.dumps(
         {
             "audio_sha256": passage.audio_sha256,
             "start_seconds": passage.start_seconds,
             "end_seconds": passage.end_seconds,
-            "text": normalized_text,
+            "text": canonical_inference_text(passage.text),
         },
         sort_keys=True,
         ensure_ascii=False,

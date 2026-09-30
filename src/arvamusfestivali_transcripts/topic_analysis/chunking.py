@@ -30,7 +30,7 @@ def chunk_episode(
             should_close = (
                 (duration >= config.target_seconds and word_count >= config.min_words)
                 or duration >= config.max_seconds
-                or word_count >= config.max_words
+                or (duration >= config.min_seconds and word_count >= config.max_words)
             )
             if should_close:
                 break

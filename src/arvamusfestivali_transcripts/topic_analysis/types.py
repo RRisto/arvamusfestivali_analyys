@@ -209,6 +209,9 @@ class TopicRun:
     cluster_persistence: tuple[float, ...]
     passage_ids: tuple[str, ...]
     topic_model_config: Mapping[str, int | float] | None = None
+    probability_topic_ids: tuple[int, ...] = ()
+    # reduced_embeddings is the separate 2-D display map retained for API compatibility.
+    clustering_embeddings: np.ndarray | None = None
 
     def __post_init__(self) -> None:
         _require_text(self.model_key, "model_key")
@@ -224,12 +227,36 @@ class TopicRun:
             )
         ):
             raise ValueError("probability rows must match topics")
+        if self.probabilities is not None and (
+            not np.isfinite(self.probabilities).all()
+            or np.any(self.probabilities < 0) or np.any(self.probabilities > 1)
+        ):
+            raise ValueError("probabilities must be finite and between zero and one")
+        if self.probabilities is not None and self.probabilities.ndim == 2:
+            if (
+                not isinstance(self.probability_topic_ids, tuple)
+                or len(self.probability_topic_ids) != self.probabilities.shape[1]
+                or len(set(self.probability_topic_ids)) != len(self.probability_topic_ids)
+                or any(not isinstance(t, int) or t < 0 for t in self.probability_topic_ids)
+                or not set(self.topics[self.topics != -1]).issubset(self.probability_topic_ids)
+            ):
+                raise ValueError("probability_topic_ids must map every matrix column to a topic")
+        elif self.probability_topic_ids:
+            raise ValueError("probability_topic_ids requires a probability matrix")
         if (
             not isinstance(self.reduced_embeddings, np.ndarray)
             or self.reduced_embeddings.ndim != 2
             or self.reduced_embeddings.shape[0] != count
         ):
             raise ValueError("reduced embedding rows must match topics")
+        if self.clustering_embeddings is not None and (
+            not isinstance(self.clustering_embeddings, np.ndarray)
+            or self.clustering_embeddings.ndim != 2
+            or self.clustering_embeddings.shape[0] != count
+            or self.clustering_embeddings.shape[1] < 1
+            or not np.isfinite(self.clustering_embeddings).all()
+        ):
+            raise ValueError("clustering embedding rows must match topics and be finite")
         if not isinstance(self.topic_info, pd.DataFrame):
             raise ValueError("topic_info must be a DataFrame")
         if not isinstance(self.representative_passages, Mapping) or any(

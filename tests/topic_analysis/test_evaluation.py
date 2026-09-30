@@ -12,10 +12,12 @@ import pandas as pd
 import pytest
 
 from arvamusfestivali_transcripts.topic_analysis import evaluation
+from arvamusfestivali_transcripts.topic_analysis.cache import CacheIdentity
 from arvamusfestivali_transcripts.topic_analysis.modelling import TopicModelConfig
 from arvamusfestivali_transcripts.topic_analysis.types import (
     ChunkingConfig,
     EmbeddingResult,
+    ManualTopicReview,
     Passage,
     TopicRun,
 )
@@ -96,7 +98,8 @@ def test_evaluate_run_handles_all_outliers() -> None:
 
 
 def test_evaluate_run_reports_diversity_and_valid_silhouette() -> None:
-    metrics = evaluation.evaluate_run(_run(), _embedding())
+    run = replace(_run(), clustering_embeddings=_embedding().embeddings.copy())
+    metrics = evaluation.evaluate_run(run, _embedding())
 
     assert metrics["topic_count"] == 2
     assert metrics["topic_diversity"] == pytest.approx(0.75)
@@ -201,7 +204,7 @@ def test_export_experiment_writes_deterministic_tables_and_manifest(tmp_path: Pa
     kwargs = {
         "chunking": ChunkingConfig(),
         "topic_model": TopicModelConfig(random_state=17),
-        "cache_identities": {"qwen": "cache-digest-1"},
+        "cache_identities": {"qwen": _identity()},
         "created_at": datetime(2026, 9, 30, 12, 0, tzinfo=UTC),
         "git_revision": "abc123",
     }
@@ -226,7 +229,9 @@ def test_export_experiment_writes_deterministic_tables_and_manifest(tmp_path: Pa
     assert manifest["selected_audio_hashes"] == ["a" * 64, "b" * 64]
     assert manifest["duplicate_mappings"]["episode-0"] == ["episode-0", "copy-0"]
     assert manifest["chunk_configuration"]["target_seconds"] == 180.0
-    assert manifest["cache_identities"] == {"qwen": "cache-digest-1"}
+    assert manifest["cache_identities"]["qwen"] == {
+        **asdict(_identity()), "digest": _identity().digest,
+    }
     assert manifest["model_metadata"]["qwen"]["model_id"] == "qwen-id"
     assert manifest["topic_model_configuration"]["random_state"] == 17
     assert manifest["random_seeds"]["topic_model"] == 17
@@ -237,6 +242,101 @@ def test_export_experiment_writes_deterministic_tables_and_manifest(tmp_path: Pa
     assert assignments["passage_id"].tolist() == ["p0", "p1", "p2", "p3"]
     assert assignments["topic_id"].tolist() == [0, 0, 1, 1]
     assert not list(output.glob(".*.tmp"))
+
+
+def _identity() -> CacheIdentity:
+    return CacheIdentity("qwen-id", "revision-1", 2, "cluster Estonian", ChunkingConfig(), 2)
+
+
+def test_export_preserves_probabilities_and_completed_reviews(tmp_path: Path, monkeypatch) -> None:
+    monkeypatch.setenv("GEMINI_API_KEY", "never-export-this-secret")
+    run = replace(
+        _run(), probabilities=np.array([[.1, .8], [.2, .7], [.6, .1], [.9, .05]]),
+        probability_topic_ids=(1, 0),
+    )
+    review = ManualTopicReview("qwen", 0, "mixed", "Two subjects overlap")
+    output = evaluation.export_experiment(
+        tmp_path, "reviewed", _passages(), {"qwen": run}, {"qwen": _embedding()},
+        chunking=ChunkingConfig(), topic_model=TopicModelConfig(),
+        cache_identities={"qwen": _identity()}, manual_reviews=(review,), git_revision="abc123",
+    )
+    manifest = json.loads((output / "manifest.json").read_text(encoding="utf-8"))
+    assert manifest["cache_identities"]["qwen"]["instruction"] == "cluster Estonian"
+    assert manifest["cache_identities"]["qwen"]["adapter_version"] == 2
+    assert len(manifest["passage_cache_digests"]) == 4
+    assert manifest["probability_topic_ids"]["qwen"] == [1, 0]
+    assignments = pd.read_csv(output / "topic-assignments.csv")
+    assert assignments["assigned_probability"].tolist() == [.8, .7, .6, .9]
+    assert json.loads(assignments.loc[0, "probabilities_by_topic"]) == {"1": .1, "0": .8}
+    reviews = pd.read_csv(output / "manual-review.csv").fillna("")
+    assert reviews.loc[0, "verdict"] == "mixed"
+    assert reviews.loc[0, "note"] == "Two subjects overlap"
+    assert reviews.loc[1, "verdict"] == ""
+    assert all("never-export-this-secret" not in p.read_text() for p in output.iterdir())
+
+
+def test_review_annotations_reject_unknown_or_duplicate_topic() -> None:
+    unknown = ManualTopicReview("qwen", 99, "unclear")
+    duplicate = ManualTopicReview("qwen", 0, "coherent")
+    for reviews in ((unknown,), (duplicate, duplicate)):
+        with pytest.raises(ValueError, match="review"):
+            evaluation.build_review_rows({"qwen": _run()}, _passages(), manual_reviews=reviews)
+
+
+def test_disputed_passages_detect_partition_disagreement_without_outliers() -> None:
+    runs = {"qwen": _run(), "bge": _run("bge", (0, 1, 0, 1))}
+    rows = evaluation.build_disagreement_rows(runs, _passages())
+    assert rows["passage_id"].tolist() == ["p0", "p1", "p2", "p3"]
+    assert rows["disagreement_fraction"].tolist() == pytest.approx([2 / 3] * 4)
+    assert json.loads(rows.loc[0, "changed_peer_passage_ids"]) == ["p1", "p2"]
+    assert rows.loc[0, "audio_link"] == "https://example.test/audio.mp3#t=0"
+    assert rows.loc[0, "audio_sha256"] == "a" * 64
+    assert rows.loc[0, "end_seconds"] == 10
+
+    renamed = {"qwen": _run(), "bge": _run("bge", (7, 7, 8, 8))}
+    assert evaluation.build_disagreement_rows(renamed, _passages()).empty
+
+
+def test_outliers_are_not_treated_as_one_shared_cluster_in_disagreements() -> None:
+    rows = evaluation.build_disagreement_rows(
+        {"qwen": _run(topics=(-1, -1, 1, 1)), "bge": _run("bge", (0, 0, 1, 1))},
+        _passages(),
+    )
+    assert rows["passage_id"].tolist() == ["p0", "p1"]
+    assert rows["outlier_disagreement"].all()
+
+
+def test_boundary_rows_select_lowest_membership_per_topic_with_provenance() -> None:
+    run = replace(
+        _run(), probabilities=np.array([[.4, .35], [.9, .05], [.1, .8], [.3, .4]]),
+        probability_topic_ids=(0, 1),
+    )
+    rows = evaluation.build_boundary_rows({"qwen": run}, _passages(), per_topic=1)
+    assert rows["passage_id"].tolist() == ["p0", "p3"]
+    assert rows["assigned_probability"].tolist() == [.4, .4]
+    assert rows["membership_margin"].tolist() == pytest.approx([.05, .1])
+    assert rows.loc[1, "audio_link"] == "https://example.test/audio.mp3#t=30"
+    assert rows.loc[1, "start_seconds"] == 30
+    assert rows.loc[1, "text"] == "Passage text 3"
+    assert evaluation.build_boundary_rows({"qwen": _run()}, _passages()).empty
+
+
+def test_silhouette_uses_actual_clustering_coordinates_and_euclidean_distance() -> None:
+    run = replace(
+        _run(), clustering_embeddings=np.array([[0., 0.], [0., 1.], [10., 0.], [10., 1.]]),
+    )
+    metrics = evaluation.evaluate_run(run, _embedding())
+    assert metrics["silhouette"] == pytest.approx(1 - 2 / (10 + np.sqrt(101)))
+    assert metrics["silhouette_space"] == "clustering_reduction"
+    assert metrics["silhouette_metric"] == "euclidean"
+
+
+def test_silhouette_is_unavailable_without_clustering_coordinates() -> None:
+    metrics = evaluation.evaluate_run(_run(), _embedding())
+    assert metrics["silhouette"] is None
+    assert metrics["silhouette_unavailable_reason"] == (
+        "clustering reduction coordinates unavailable"
+    )
 
 
 def test_export_rejects_manifest_config_different_from_fitted_run(tmp_path: Path) -> None:

@@ -4,6 +4,7 @@ from __future__ import annotations
 
 from collections import defaultdict
 from dataclasses import asdict
+from types import SimpleNamespace
 
 import numpy as np
 import pandas as pd
@@ -52,6 +53,7 @@ class FakeBERTopic:
         self.documents: list[str] = []
         self.embeddings: np.ndarray | None = None
         self.hdbscan_model = type("Cluster", (), {"cluster_persistence_": np.array([0.6])})()
+        self.umap_model = SimpleNamespace(embedding_=np.eye(len(topics)))
 
     def fit_transform(
         self, documents: list[str], embeddings: np.ndarray
@@ -90,6 +92,7 @@ def test_fit_topic_model_preserves_order_and_maps_duplicate_text_by_topic(
     assert run.topics.tolist() == [1, 0, -1]
     assert run.representative_passages == {1: ("p0",), 0: ("p1",)}
     assert run.reduced_embeddings.tolist() == [[0, 1], [2, 3], [4, 5]]
+    assert np.array_equal(run.clustering_embeddings, np.eye(3))
     assert run.topic_model_config == asdict(config)
 
 
@@ -165,6 +168,25 @@ def test_builder_controls_umap_hdbscan_and_vectorizer(
     assert captured["hdbscan"][0]["metric"] == "euclidean"
     assert captured["hdbscan"][0]["cluster_selection_method"] == "eom"
     assert captured["hdbscan"][0]["prediction_data"] is True
-    assert captured["vectorizer"][0] == {"ngram_range": (1, 3), "min_df": 2}
+    assert captured["vectorizer"][0] == {"ngram_range": (1, 3), "min_df": 1}
     assert captured["bertopic"][0]["calculate_probabilities"] is True
     assert captured["bertopic"][0]["embedding_model"] is None
+
+
+def test_real_bertopic_fits_all_outliers_without_model_download(monkeypatch) -> None:
+    passages = _passages(tuple(f"arutelu haridus tervis keskkond number {i}" for i in range(16)))
+    config = modelling.TopicModelConfig(n_neighbors=3, n_components=3, min_cluster_size=20)
+    model = modelling._build_bertopic(config)
+    monkeypatch.setattr(modelling, "_build_bertopic", lambda config: model)
+    run = modelling.fit_topic_model(
+        passages,
+        _embeddings(passages),
+        config,
+    )
+
+    assert run.topics.tolist() == [-1] * 16
+    assert run.topic_info["Topic"].tolist() == [-1]
+    assert run.representative_passages[-1]
+    assert run.clustering_embeddings.shape == (16, 3)
+    assert run.reduced_embeddings.shape == (16, 2)
+    assert np.array_equal(run.clustering_embeddings, model.hdbscan_model._raw_data)

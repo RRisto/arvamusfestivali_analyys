@@ -9,15 +9,18 @@ from typing import Protocol
 
 import numpy as np
 
-from .cache import CacheIdentity, EmbeddingCache, _passage_digest
+from .cache import CacheIdentity, EmbeddingCache, _passage_digest, canonical_inference_text
 from .types import ChunkingConfig, EmbeddingResult, Passage
 
 QWEN_MODEL_ID = "Qwen/Qwen3-Embedding-0.6B"
 BGE_MODEL_ID = "BAAI/bge-m3"
+# Immutable snapshots resolved from the downloaded Hugging Face refs on 2026-09-30.
+QWEN_MODEL_REVISION = "97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3"
+BGE_MODEL_REVISION = "5617a9f61b028005a4858fdac845db406aefb181"
 QWEN_INSTRUCTION = (
     "Represent this Estonian public-discussion passage for semantic topic clustering: "
 )
-_ADAPTER_VERSION = 1
+ADAPTER_VERSION = 2
 
 
 class EmbeddingAdapter(Protocol):
@@ -64,7 +67,7 @@ def embed_passages(
         dimension=adapter.dimension,
         instruction=adapter.instruction,
         chunking=chunking,
-        adapter_version=_ADAPTER_VERSION,
+        adapter_version=ADAPTER_VERSION,
     )
     rows = list(cache.assemble(identity, passages))
     cache_hits = sum(row is not None for row in rows)
@@ -76,7 +79,7 @@ def embed_passages(
     effective_batch_size = 1 if adapter.key == "gemini" else batch_size
     for offset in range(0, len(missing), effective_batch_size):
         indices = missing[offset:offset + effective_batch_size]
-        texts = [passages[index].text for index in indices]
+        texts = [canonical_inference_text(passages[index].text) for index in indices]
         try:
             generated = adapter.embed_texts(texts, batch_size=effective_batch_size)
         except Exception as error:
@@ -141,10 +144,11 @@ class _LocalEmbedder:
     model_id: str
     dimension = 1024
     instruction: str
+    default_revision: str
 
     def __init__(self, *, device: str = "cpu", model_revision: str | None = None) -> None:
         self.device = device
-        self.model_revision = model_revision
+        self.model_revision = model_revision or self.default_revision
         self._model: object | None = None
 
     def _load_model(self) -> object:
@@ -182,12 +186,14 @@ class _LocalEmbedder:
 class QwenEmbedder(_LocalEmbedder):
     key = "qwen"
     model_id = QWEN_MODEL_ID
+    default_revision = QWEN_MODEL_REVISION
     instruction = QWEN_INSTRUCTION
 
 
 class BgeM3Embedder(_LocalEmbedder):
     key = "bge"
     model_id = BGE_MODEL_ID
+    default_revision = BGE_MODEL_REVISION
     instruction = ""
 
 

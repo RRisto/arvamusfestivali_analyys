@@ -111,6 +111,7 @@ def test_public_types_are_frozen() -> None:
         model_key="qwen",
         topics=np.array([0]),
         probabilities=np.array([[1.0]]),
+        probability_topic_ids=(0,),
         reduced_embeddings=np.ones((1, 2)),
         topic_info=pd.DataFrame({"Topic": [0]}),
         representative_passages={0: ("p1",)},

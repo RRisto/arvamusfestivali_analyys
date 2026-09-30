@@ -113,6 +113,11 @@ Chunking will be deterministic. Empty passages and passages containing only
 whitespace are invalid. Very short final passages will be merged with their predecessor
 when doing so does not exceed a documented upper bound.
 
+Word-limit closure waits until `min_seconds`; dense speech can therefore exceed
+`max_words` to preserve the configured minimum duration. Complete cue boundaries
+take precedence over size limits, and a remaining final passage may be shorter than
+the minimum when bounded tail merging is not possible.
+
 Procedural speech such as introductions, microphone instructions, and applause will
 not be deleted automatically in the first version. The notebook will make such
 passages visible so their effect on clustering can be evaluated rather than hidden.
@@ -162,7 +167,7 @@ guidance.
 `cache.py` will cache embeddings separately for each model. A cache identity will
 include:
 
-- model identifier and relevant revision when available;
+- model identifier and immutable pinned revision for default local models;
 - embedding dimension;
 - task instruction or task type;
 - normalized passage text hashes in stable order;
@@ -173,6 +178,13 @@ include:
 The cache will contain embeddings, passage identifiers, and metadata. Cache writes
 must be atomic. A mismatch in any identity input creates a new cache entry instead of
 reusing stale vectors.
+
+Cache keys and embedding inference share NFC and whitespace canonicalization.
+Adapter schema 2 invalidates pre-canonicalization vectors. Full cache identities
+(including instruction, dimension, chunk configuration, revision, schema, and digest)
+and a passage-ID-to-digest mapping are retained in the export manifest; `passages.csv`
+preserves the input row order. Default Qwen and
+BGE revisions are resolved from the downloaded snapshots and pinned in code.
 
 Gemini responses will be cached incrementally so a partially completed API run can
 resume without re-embedding successful passages.
@@ -203,7 +215,9 @@ without an LLM labelling service.
 - outlier count and percentage;
 - topic-size distribution;
 - HDBSCAN cluster persistence;
-- silhouette score calculated on non-outlier reduced embeddings;
+- Euclidean silhouette score calculated on non-outlier coordinates of the actual
+  UMAP reduction supplied to HDBSCAN (five dimensions by default), stored separately
+  from the independently fitted two-dimensional display map;
 - topic-word diversity;
 - adjusted mutual information between model assignments;
 - nearest-neighbour overlap between embedding spaces.
@@ -222,6 +236,22 @@ show:
 
 Review annotations will be exportable but will not modify the source transcript
 archives.
+
+Disagreement inspection compares cluster co-assignment for each pair of models,
+independent of topic numbering. Noise points are not considered a shared cluster.
+Each disputed passage retains the changed peer IDs and the fraction of changed
+co-assignments. Boundary examples select the lowest assigned HDBSCAN memberships
+per non-outlier topic, with competing-membership margins where available. Both
+tables preserve timestamped audio provenance. Missing probabilities produce no
+boundary rows, and missing clustering coordinates produce an unavailable silhouette
+with a reason; neither metric substitutes display or original embedding coordinates.
+
+The notebook accepts validated `ManualTopicReview` records in `MANUAL_REVIEWS`.
+Nonblank annotations are joined to the review table and survive export; unknown or
+duplicate model/topic reviews are rejected. Probability exports map every matrix
+column to its final topic ID and preserve raw one-dimensional membership strengths.
+Outliers have no assigned-topic probability. HDBSCAN soft memberships are not
+calibrated semantic-confidence scores.
 
 ## Visualizations
 

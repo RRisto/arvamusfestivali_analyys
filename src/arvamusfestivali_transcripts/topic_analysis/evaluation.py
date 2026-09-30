@@ -19,12 +19,14 @@ import numpy as np
 import pandas as pd
 from sklearn.metrics import adjusted_mutual_info_score, silhouette_score
 
+from .cache import CacheIdentity, _passage_digest
 from .modelling import TopicModelConfig
-from .types import ChunkingConfig, EmbeddingResult, Passage, TopicRun
+from .types import ChunkingConfig, EmbeddingResult, ManualTopicReview, Passage, TopicRun
 
 _METRIC_COLUMNS = (
     "model_key", "passage_count", "topic_count", "outlier_count", "outlier_fraction",
-    "silhouette", "silhouette_unavailable_reason", "mean_cluster_persistence",
+    "silhouette", "silhouette_space", "silhouette_metric", "silhouette_unavailable_reason",
+    "mean_cluster_persistence",
     "topic_diversity",
 )
 _COMPARISON_COLUMNS = (
@@ -89,10 +91,12 @@ def evaluate_run(run: TopicRun, embedding: EmbeddingResult) -> dict[str, object]
         reason = "fewer than two non-outlier topics"
     elif non_outliers.sum() <= len(non_outlier_topics):
         reason = "too few non-outlier passages for silhouette"
+    elif run.clustering_embeddings is None:
+        reason = "clustering reduction coordinates unavailable"
     else:
         silhouette = float(
             silhouette_score(
-                embedding.embeddings[non_outliers], topics[non_outliers], metric="cosine"
+                run.clustering_embeddings[non_outliers], topics[non_outliers], metric="euclidean"
             )
         )
     count = len(topics)
@@ -104,6 +108,8 @@ def evaluate_run(run: TopicRun, embedding: EmbeddingResult) -> dict[str, object]
         "outlier_count": outlier_count,
         "outlier_fraction": outlier_count / count if count else 0.0,
         "silhouette": silhouette,
+        "silhouette_space": "clustering_reduction",
+        "silhouette_metric": "euclidean",
         "silhouette_unavailable_reason": reason,
         "mean_cluster_persistence": (
             float(np.mean(run.cluster_persistence)) if run.cluster_persistence else None
@@ -175,7 +181,10 @@ def _json_array(values: Sequence[object]) -> str:
     return json.dumps(list(values), ensure_ascii=False, separators=(",", ":"))
 
 
-def build_review_rows(runs: Mapping[str, TopicRun], passages: Sequence[Passage]) -> pd.DataFrame:
+def build_review_rows(
+    runs: Mapping[str, TopicRun], passages: Sequence[Passage], *,
+    manual_reviews: Sequence[ManualTopicReview] = (),
+) -> pd.DataFrame:
     """Build one editable review row per non-outlier topic with source links."""
     by_id = {passage.passage_id: passage for passage in passages}
     if len(by_id) != len(passages):
@@ -207,7 +216,131 @@ def build_review_rows(runs: Mapping[str, TopicRun], passages: Sequence[Passage])
                 "verdict": "",
                 "note": "",
             })
+    by_topic = {(row["model_key"], row["topic_id"]): row for row in rows}
+    seen = set()
+    for review in manual_reviews:
+        if not isinstance(review, ManualTopicReview):
+            raise ValueError("manual reviews must be validated ManualTopicReview records")
+        key = (review.model_key, review.topic_id)
+        if key not in by_topic or key in seen:
+            raise ValueError(f"manual review has unknown or duplicate topic: {key}")
+        seen.add(key)
+        by_topic[key].update(verdict=review.verdict, note=review.note)
     return pd.DataFrame(rows, columns=_REVIEW_COLUMNS)
+
+
+def _assignment_probabilities(run: TopicRun, index: int) -> tuple[float | None, dict, float | None]:
+    """Assigned-topic membership, explicitly mapped soft memberships, raw 1-D strength.
+
+    Outliers have no assigned-cluster probability. HDBSCAN memberships are not
+    calibrated semantic-confidence scores, and their sum need not be one.
+    """
+    if run.probabilities is None:
+        return None, {}, None
+    topic = int(run.topics[index])
+    if run.probabilities.ndim == 1:
+        strength = float(run.probabilities[index])
+        return (strength if topic != -1 else None), {}, strength
+    memberships = dict(zip(
+        run.probability_topic_ids, map(float, run.probabilities[index]), strict=True,
+    ))
+    return memberships.get(topic), memberships, None
+
+
+_PROVENANCE_COLUMNS = (
+    "passage_id", "episode_id", "duplicate_episode_ids", "title", "start_seconds",
+    "end_seconds", "text", "audio_sha256", "audio_link",
+)
+
+
+def _inspection_provenance(passage: Passage) -> dict[str, object]:
+    return {
+        "passage_id": passage.passage_id, "episode_id": passage.episode_id,
+        "duplicate_episode_ids": _json_array(passage.duplicate_episode_ids),
+        "title": passage.title, "start_seconds": passage.start_seconds,
+        "end_seconds": passage.end_seconds, "text": passage.text,
+        "audio_sha256": passage.audio_sha256, "audio_link": passage.timestamped_audio_url,
+    }
+
+
+def _validate_inspection_inputs(runs: Mapping[str, TopicRun], passages: Sequence[Passage]) -> None:
+    ids = tuple(p.passage_id for p in passages)
+    if len(set(ids)) != len(ids):
+        raise ValueError("passages must have unique IDs")
+    for key, run in runs.items():
+        if key != run.model_key or run.passage_ids != ids:
+            raise ValueError("inspection model keys and passage IDs and order must match")
+
+
+def build_disagreement_rows(
+    runs: Mapping[str, TopicRun], passages: Sequence[Passage],
+) -> pd.DataFrame:
+    """Find label-invariant differences in each passage's cluster mates.
+
+    The fraction is the number of changed co-assignments divided by all other
+    passages. Noise points have no cluster mates, even when both are labelled -1.
+    Outlier-status changes are also retained for singleton/degenerate partitions.
+    """
+    _validate_inspection_inputs(runs, passages)
+    rows = []
+    for left_key, right_key in combinations(runs, 2):
+        left, right = runs[left_key].topics, runs[right_key].topics
+        for index, passage in enumerate(passages):
+            left_mates = (left == left[index]) & (left[index] != -1)
+            right_mates = (right == right[index]) & (right[index] != -1)
+            changed = left_mates != right_mates
+            changed[index] = False
+            outlier_change = bool((left[index] == -1) != (right[index] == -1))
+            if not changed.any() and not outlier_change:
+                continue
+            rows.append({
+                "model_a": left_key, "model_b": right_key,
+                **_inspection_provenance(passage),
+                "topic_a": int(left[index]), "topic_b": int(right[index]),
+                "disagreement_fraction": float(changed.sum()) / max(1, len(passages) - 1),
+                "outlier_disagreement": outlier_change,
+                "changed_peer_passage_ids": _json_array([
+                    passages[i].passage_id for i in np.flatnonzero(changed)
+                ]),
+            })
+    return pd.DataFrame(rows, columns=(
+        "model_a", "model_b", *_PROVENANCE_COLUMNS, "topic_a", "topic_b",
+        "disagreement_fraction", "outlier_disagreement", "changed_peer_passage_ids",
+    ))
+
+
+def build_boundary_rows(
+    runs: Mapping[str, TopicRun], passages: Sequence[Passage], *, per_topic: int = 3,
+) -> pd.DataFrame:
+    """Inspect the lowest assigned memberships per non-outlier topic.
+
+    The margin is assigned membership minus the largest other-topic membership,
+    where a full matrix exists. Runs without memberships contribute no rows.
+    """
+    _validate_inspection_inputs(runs, passages)
+    if not isinstance(per_topic, int) or isinstance(per_topic, bool) or per_topic < 1:
+        raise ValueError("per_topic must be a positive integer")
+    rows = []
+    for key, run in runs.items():
+        for topic in sorted(set(run.topics) - {-1}):
+            candidates = []
+            for index in np.flatnonzero(run.topics == topic):
+                assigned, memberships, _ = _assignment_probabilities(run, index)
+                if assigned is None:
+                    continue
+                competitors = [value for other, value in memberships.items() if other != topic]
+                candidates.append({
+                    "model_key": key, "topic_id": int(topic),
+                    **_inspection_provenance(passages[index]),
+                    "assigned_probability": assigned,
+                    "membership_margin": assigned - max(competitors) if competitors else None,
+                })
+            candidates.sort(key=lambda row: (row["assigned_probability"], row["passage_id"]))
+            rows.extend(candidates[:per_topic])
+    return pd.DataFrame(rows, columns=(
+        "model_key", "topic_id", *_PROVENANCE_COLUMNS,
+        "assigned_probability", "membership_margin",
+    ))
 
 
 def _git_revision() -> str | None:
@@ -263,7 +396,8 @@ def export_experiment(
     *,
     chunking: ChunkingConfig,
     topic_model: TopicModelConfig,
-    cache_identities: Mapping[str, object] | None = None,
+    cache_identities: Mapping[str, CacheIdentity] | None = None,
+    manual_reviews: Sequence[ManualTopicReview] = (),
     created_at: datetime | None = None,
     git_revision: str | None = None,
 ) -> Path:
@@ -294,12 +428,17 @@ def export_experiment(
         raise ValueError("git revision must be nonempty")
     if cache_identities is None or set(cache_identities) != set(runs):
         raise ValueError("cache identities must be supplied for every run")
-    cache_values: dict[str, str] = {}
+    cache_values: dict[str, dict] = {}
     for key, identity in cache_identities.items():
-        value = getattr(identity, "digest", identity)
-        if not isinstance(value, str) or not value.strip():
-            raise ValueError(f"cache identities must be nonempty for {key}")
-        cache_values[key] = value.strip()
+        if not isinstance(identity, CacheIdentity):
+            raise ValueError(f"cache identities must contain full CacheIdentity records for {key}")
+        result = embeddings[key]
+        if (identity.model_id, identity.model_revision, identity.dimension, identity.chunking) != (
+            result.model_id, result.model_revision, result.dimension, chunking,
+        ):
+            raise ValueError(f"cache identities disagree with embedding/configuration for {key}")
+        cache_values[key] = {**asdict(identity), "digest": identity.digest}
+    review_rows = build_review_rows(runs, passages, manual_reviews=manual_reviews)
     manifest = {
         "git_revision": revision.strip(),
         "created_at_utc": timestamp_text,
@@ -312,6 +451,18 @@ def export_experiment(
         },
         "chunk_configuration": asdict(chunking),
         "cache_identities": cache_values,
+        "passage_cache_digests": {
+            passage.passage_id: _passage_digest(passage) for passage in passages
+        },
+        "probability_topic_ids": {
+            key: list(run.probability_topic_ids) for key, run in runs.items()
+        },
+        "probability_semantics": (
+            "HDBSCAN soft cluster memberships, not calibrated semantic confidence. "
+            "assigned_probability is empty for outliers or unavailable probabilities; "
+            "probabilities_by_topic maps final topic IDs to matrix columns; "
+            "membership_strength retains raw 1-D output when no matrix is available."
+        ),
         "model_metadata": {
             key: {
                 "model_id": result.model_id,
@@ -330,24 +481,32 @@ def export_experiment(
          "timestamped_audio_url": passage.timestamped_audio_url}
         for passage in passages
     ]
-    assignment_rows = [
-        {"model_key": key, "passage_id": passage_id, "topic_id": int(topic)}
-        for key, run in runs.items()
-        for passage_id, topic in zip(passage_ids, run.topics, strict=True)
-    ]
+    assignment_rows = []
+    for key, run in runs.items():
+        for index, (passage_id, topic) in enumerate(zip(passage_ids, run.topics, strict=True)):
+            assigned, memberships, strength = _assignment_probabilities(run, index)
+            assignment_rows.append({
+                "model_key": key, "passage_id": passage_id, "topic_id": int(topic),
+                "assigned_probability": assigned,
+                "probabilities_by_topic": json.dumps(memberships, separators=(",", ":")),
+                "membership_strength": strength,
+            })
     output = Path(result_root) / experiment_id
     output.mkdir(parents=True, exist_ok=True)
     files = {
         "manifest.json": json.dumps(manifest, indent=2, sort_keys=True, ensure_ascii=False) + "\n",
         "passages.csv": _csv(pd.DataFrame(passage_rows)),
         "topic-assignments.csv": _csv(pd.DataFrame(
-            assignment_rows, columns=("model_key", "passage_id", "topic_id")
+            assignment_rows, columns=(
+                "model_key", "passage_id", "topic_id", "assigned_probability",
+                "probabilities_by_topic", "membership_strength",
+            )
         )),
         "metrics.csv": _csv(pd.DataFrame(
             [evaluate_run(runs[key], embeddings[key]) for key in runs], columns=_METRIC_COLUMNS
         )),
         "cross-model.csv": _csv(compare_runs(runs, embeddings)),
-        "manual-review.csv": _csv(build_review_rows(runs, passages)),
+        "manual-review.csv": _csv(review_rows),
     }
     for name, content in files.items():
         _atomic_text(output / name, content)

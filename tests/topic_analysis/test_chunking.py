@@ -146,3 +146,17 @@ def test_chunk_episodes_preserves_episode_order_and_default_config() -> None:
     assert [item.episode_id for item in passages] == ["second", "first"]
     assert [item.start_seconds for item in passages] == [0, 0]
     assert all(item.cue_count == 1 for item in passages)
+
+
+def test_dense_speech_waits_for_minimum_duration_before_word_limit_closes() -> None:
+    episode = episode_with_cues(count=8, seconds_per_cue=10, words_per_cue=100)
+    config = ChunkingConfig(
+        min_seconds=30, target_seconds=60, max_seconds=90,
+        min_words=100, max_words=200, overlap_seconds=0,
+        merge_tail_seconds=0, max_merged_seconds=90,
+    )
+    passages = chunk_episode(episode, config)
+    assert [(p.start_seconds, p.end_seconds) for p in passages] == [
+        (0, 30), (30, 60), (60, 80),
+    ]
+    assert [p.word_count for p in passages] == [300, 300, 200]

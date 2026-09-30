@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import re
 import sys
 from dataclasses import replace
 from pathlib import Path
@@ -10,7 +11,7 @@ from types import SimpleNamespace
 import numpy as np
 import pytest
 
-from arvamusfestivali_transcripts.topic_analysis.cache import EmbeddingCache
+from arvamusfestivali_transcripts.topic_analysis.cache import CacheIdentity, EmbeddingCache
 from arvamusfestivali_transcripts.topic_analysis.embedders import (
     BgeM3Embedder,
     DeterministicHashEmbedder,
@@ -131,6 +132,34 @@ def test_embed_passages_embeds_identical_cache_keys_once(tmp_path: Path) -> None
     assert len(list(tmp_path.rglob("*.npy"))) == 2
 
 
+def test_normalized_text_variants_are_independent_of_first_cached_variant(tmp_path: Path) -> None:
+    adapter = DeterministicHashEmbedder(dimension=8)
+    canonical = replace(make_passage(1), text="Õigus ja haridus")
+    variant = replace(canonical, passage_id="alias", text="  O\u0303igus\tja\n haridus  ")
+    expected = adapter.embed_texts(["Õigus ja haridus"], batch_size=1)[0]
+    for index, order in enumerate(((canonical, variant), (variant, canonical))):
+        cache = EmbeddingCache(tmp_path / str(index))
+        first = embed_passages(adapter, order, cache, batch_size=2)
+        warm = embed_passages(adapter, tuple(reversed(order)), cache, batch_size=2)
+        assert np.allclose(first.embeddings, [expected, expected])
+        assert np.array_equal(warm.embeddings, first.embeddings)
+        assert warm.cache_hits == 2
+
+
+def test_normalized_inference_invalidates_legacy_raw_text_cache(tmp_path: Path) -> None:
+    adapter = FakeAdapter()
+    passage = make_passage(1)
+    cache = EmbeddingCache(tmp_path)
+    legacy = CacheIdentity(
+        adapter.model_id, adapter.model_revision, adapter.dimension, adapter.instruction,
+        ChunkingConfig(), adapter_version=1,
+    )
+    cache.put(legacy, passage, np.array([1., 0., 0.], dtype=np.float32))
+    result = embed_passages(adapter, (passage,), cache, batch_size=1)
+    assert result.cache_hits == 0
+    assert not np.array_equal(result.embeddings[0], [1., 0., 0.])
+
+
 @pytest.mark.parametrize("bad", [np.array([[1.0, 2.0]]), np.array([[np.nan, 1.0, 2.0]])])
 def test_embed_passages_rejects_bad_adapter_rows(
     tmp_path: Path, bad: np.ndarray, monkeypatch: pytest.MonkeyPatch
@@ -148,6 +177,12 @@ def test_available_embedders_keys_gate_gemini() -> None:
     assert set(available_embedders(env={"GEMINI_API_KEY": "secret"})) == {
         "qwen", "bge", "gemini",
     }
+
+
+def test_default_local_adapters_have_immutable_revisions_before_loading() -> None:
+    for adapter in available_embedders(env={}).values():
+        assert re.fullmatch(r"[0-9a-f]{40}", adapter.model_revision or "")
+        assert adapter._model is None
 
 
 def test_hash_embedder_is_deterministic_and_normalized() -> None:
@@ -187,6 +222,8 @@ def test_local_adapters_encode_lazily_with_clustering_configuration(
     bge_options = records[3][1][1]
     assert records[0][1][0] == "Qwen/Qwen3-Embedding-0.6B"
     assert records[2][1][0] == "BAAI/bge-m3"
+    assert records[0][1][1]["revision"] == qwen.model_revision
+    assert records[2][1][1]["revision"] == bge.model_revision
     assert qwen_options["prompt"].startswith("Represent this Estonian")
     assert qwen_options["normalize_embeddings"] is True
     assert qwen_options["batch_size"] == 2

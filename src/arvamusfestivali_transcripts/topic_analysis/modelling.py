@@ -73,7 +73,8 @@ def _build_bertopic(config: TopicModelConfig) -> object:
             cluster_selection_method="eom",
             prediction_data=True,
         ),
-        vectorizer_model=vectorizer_class(ngram_range=(1, 3), min_df=2),
+        # BERTopic vectorizes aggregated topics, including the single all-outlier topic.
+        vectorizer_model=vectorizer_class(ngram_range=(1, 3), min_df=1),
         top_n_words=config.top_n_words,
         calculate_probabilities=True,
     )
@@ -127,11 +128,19 @@ def fit_topic_model(
     projection = _reduce_for_display(embeddings.embeddings, config)
     cluster_model = getattr(model, "hdbscan_model", None)
     persistence = getattr(cluster_model, "cluster_persistence_", ())
+    probability_array = None if probabilities is None else np.asarray(probabilities)
     return TopicRun(
         model_key=embeddings.model_key,
         topics=topic_array,
-        probabilities=None if probabilities is None else np.asarray(probabilities),
+        probabilities=probability_array,
+        # BERTopic maps membership columns to its final contiguous non-outlier IDs.
+        probability_topic_ids=(
+            tuple(range(probability_array.shape[1]))
+            if probability_array is not None and probability_array.ndim == 2 else ()
+        ),
         reduced_embeddings=projection,
+        # BERTopic passes nan_to_num(UMAP.fit_transform(...)) to HDBSCAN.
+        clustering_embeddings=np.nan_to_num(np.asarray(model.umap_model.embedding_, dtype=float)),
         topic_info=model.get_topic_info().copy(),
         representative_passages=_representative_ids(passages, topic_array, model),
         cluster_persistence=tuple(float(value) for value in persistence),

@@ -11,7 +11,14 @@ from .embedders import (
     available_embedders,
     embed_passages,
 )
-from .evaluation import build_review_rows, compare_runs, evaluate_run, export_experiment
+from .evaluation import (
+    build_boundary_rows,
+    build_disagreement_rows,
+    build_review_rows,
+    compare_runs,
+    evaluate_run,
+    export_experiment,
+)
 from .modelling import TopicModelConfig, fit_topic_model
 from .plotting import (
     plot_episode_timeline,
@@ -48,6 +55,8 @@ __all__ = [
     "chunk_episode",
     "chunk_episodes",
     "build_review_rows",
+    "build_boundary_rows",
+    "build_disagreement_rows",
     "compare_runs",
     "embed_passages",
     "evaluate_run",
