@@ -95,9 +95,7 @@ def select_diverse_episodes(
 ) -> tuple[CanonicalEpisode, ...]:
     """Choose canonical IDs in requested order or by deterministic title diversity."""
     items = tuple(sorted(episodes, key=lambda item: item.episode_id))
-    if not items:
-        raise ValueError("no canonical episodes available for selection")
-    if explicit_ids:
+    if explicit_ids is not None:
         if len(set(explicit_ids)) != len(explicit_ids):
             raise ValueError("explicit episode IDs must not be repeated")
         by_id = {item.episode_id: item for item in items}
@@ -106,6 +104,8 @@ def select_diverse_episodes(
             raise ValueError(f"unknown canonical episode IDs: {', '.join(unknown)}")
         return tuple(by_id[episode_id] for episode_id in explicit_ids)
 
+    if not items:
+        raise ValueError("no canonical episodes available for selection")
     if not isinstance(count, int) or isinstance(count, bool) or not 0 < count <= len(items):
         raise ValueError("count must be between one and the number of canonical episodes")
     if count == len(items):

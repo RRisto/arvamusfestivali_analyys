@@ -139,6 +139,13 @@ def test_explicit_selection_rejects_duplicate_audio_alias() -> None:
         select_diverse_episodes(episodes, explicit_ids=["duplicate-alias"])
 
 
+def test_explicit_empty_selection_returns_no_episodes() -> None:
+    episodes = make_episodes("Health", "Education", "Climate", "Work", "Law", "Energy")
+
+    assert select_diverse_episodes(episodes, explicit_ids=()) == ()
+    assert select_diverse_episodes((), explicit_ids=()) == ()
+
+
 def test_selection_rejects_empty_or_oversized_request() -> None:
     episodes = make_episodes("Health", "Education")
     with pytest.raises(ValueError, match="count"):
