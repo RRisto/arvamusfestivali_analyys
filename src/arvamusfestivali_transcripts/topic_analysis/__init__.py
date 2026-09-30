@@ -13,6 +13,13 @@ from .embedders import (
 )
 from .evaluation import build_review_rows, compare_runs, evaluate_run, export_experiment
 from .modelling import TopicModelConfig, fit_topic_model
+from .plotting import (
+    plot_episode_timeline,
+    plot_episode_topic_heatmap,
+    plot_semantic_map,
+    plot_topic_correspondence,
+    plot_topic_sizes,
+)
 from .types import (
     CanonicalEpisode,
     ChunkingConfig,
@@ -47,5 +54,10 @@ __all__ = [
     "export_experiment",
     "fit_topic_model",
     "load_corpus",
+    "plot_episode_timeline",
+    "plot_episode_topic_heatmap",
+    "plot_semantic_map",
+    "plot_topic_correspondence",
+    "plot_topic_sizes",
     "select_diverse_episodes",
 ]
