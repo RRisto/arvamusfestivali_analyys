@@ -207,6 +207,7 @@ class TopicRun:
     topic_info: pd.DataFrame
     representative_passages: Mapping[int, tuple[str, ...]]
     cluster_persistence: tuple[float, ...]
+    passage_ids: tuple[str, ...] = ()
 
     def __post_init__(self) -> None:
         _require_text(self.model_key, "model_key")
@@ -241,6 +242,17 @@ class TopicRun:
             not math.isfinite(value) for value in self.cluster_persistence
         ):
             raise ValueError("cluster_persistence must be a tuple of finite values")
+        if not isinstance(self.passage_ids, tuple) or (
+            self.passage_ids and (
+                len(self.passage_ids) != count
+                or any(
+                    not isinstance(value, str) or not value.strip()
+                    for value in self.passage_ids
+                )
+                or len(set(self.passage_ids)) != count
+            )
+        ):
+            raise ValueError("passage_ids must match topics and contain unique nonempty IDs")
 
 
 @dataclass(frozen=True, slots=True)

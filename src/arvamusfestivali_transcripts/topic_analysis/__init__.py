@@ -11,6 +11,8 @@ from .embedders import (
     available_embedders,
     embed_passages,
 )
+from .evaluation import build_review_rows, compare_runs, evaluate_run, export_experiment
+from .modelling import TopicModelConfig, fit_topic_model
 from .types import (
     CanonicalEpisode,
     ChunkingConfig,
@@ -34,10 +36,16 @@ __all__ = [
     "Passage",
     "QwenEmbedder",
     "TopicRun",
+    "TopicModelConfig",
     "available_embedders",
     "chunk_episode",
     "chunk_episodes",
+    "build_review_rows",
+    "compare_runs",
     "embed_passages",
+    "evaluate_run",
+    "export_experiment",
+    "fit_topic_model",
     "load_corpus",
     "select_diverse_episodes",
 ]
