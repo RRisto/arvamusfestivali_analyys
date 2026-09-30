@@ -26,6 +26,7 @@ topic-analysis = [
     "google-genai>=1,<2",
     "hdbscan>=0.8.40,<0.9",
     "ipykernel>=6,<8",
+    "ipywidgets>=8,<9",
     "jupyterlab>=4,<5",
     "nbclient>=0.10,<1",
     "nbformat>=5,<6",
