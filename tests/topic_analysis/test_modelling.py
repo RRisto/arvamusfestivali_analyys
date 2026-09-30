@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 from collections import defaultdict
+from dataclasses import asdict
 
 import numpy as np
 import pandas as pd
@@ -79,7 +80,8 @@ def test_fit_topic_model_preserves_order_and_maps_duplicate_text_by_topic(
         lambda rows, config: np.arange(len(rows) * 2).reshape(len(rows), 2),
     )
 
-    run = modelling.fit_topic_model(passages, embedding, modelling.TopicModelConfig())
+    config = modelling.TopicModelConfig(random_state=17)
+    run = modelling.fit_topic_model(passages, embedding, config)
 
     assert fake.documents == ["repeated text", "repeated text", "other text"]
     assert fake.embeddings is embedding.embeddings
@@ -88,6 +90,7 @@ def test_fit_topic_model_preserves_order_and_maps_duplicate_text_by_topic(
     assert run.topics.tolist() == [1, 0, -1]
     assert run.representative_passages == {1: ("p0",), 0: ("p1",)}
     assert run.reduced_embeddings.tolist() == [[0, 1], [2, 3], [4, 5]]
+    assert run.topic_model_config == asdict(config)
 
 
 def test_fit_topic_model_rejects_embedding_order_mismatch() -> None:
@@ -110,6 +113,20 @@ def test_fit_topic_model_rejects_unmatched_representative_text(
     )
 
     with pytest.raises(ValueError, match="representative document"):
+        modelling.fit_topic_model(passages, _embeddings(passages), modelling.TopicModelConfig())
+
+
+def test_fit_topic_model_rejects_ambiguous_duplicate_representatives(
+    monkeypatch: pytest.MonkeyPatch,
+) -> None:
+    passages = _passages(("repeated text", "repeated text", "other text"))
+    fake = FakeBERTopic([0, 0, -1], {0: ["repeated text"]})
+    monkeypatch.setattr(modelling, "_build_bertopic", lambda config: fake)
+    monkeypatch.setattr(
+        modelling, "_reduce_for_display", lambda rows, config: np.zeros((len(rows), 2))
+    )
+
+    with pytest.raises(ValueError, match="ambiguous representative document"):
         modelling.fit_topic_model(passages, _embeddings(passages), modelling.TopicModelConfig())
 
 

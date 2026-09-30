@@ -115,6 +115,7 @@ def test_public_types_are_frozen() -> None:
         topic_info=pd.DataFrame({"Topic": [0]}),
         representative_passages={0: ("p1",)},
         cluster_persistence=(1.0,),
+        passage_ids=("p1",),
     )
     review = ManualTopicReview("qwen", 0, "coherent")
 
@@ -171,6 +172,7 @@ def test_tuple_fields_reject_mutable_lists() -> None:
         topic_info=pd.DataFrame({"Topic": [0]}),
         representative_passages={0: ("p1",)},
         cluster_persistence=(1.0,),
+        passage_ids=("p1",),
     )
 
     for record, field in (
@@ -198,6 +200,7 @@ def test_representative_passage_mapping_cannot_be_mutated_after_construction() -
         topic_info=pd.DataFrame({"Topic": [0]}),
         representative_passages=representatives,
         cluster_persistence=(1.0,),
+        passage_ids=("p1",),
     )
 
     representatives[0] = ("p2",)

@@ -5,7 +5,7 @@ from __future__ import annotations
 import math
 from collections import defaultdict
 from collections.abc import Sequence
-from dataclasses import dataclass
+from dataclasses import asdict, dataclass
 
 import numpy as np
 
@@ -90,20 +90,21 @@ def _representative_ids(
     available: dict[tuple[int, str], list[str]] = defaultdict(list)
     for passage, topic in zip(passages, topics, strict=True):
         available[(int(topic), passage.text)].append(passage.passage_id)
-    occurrences: dict[tuple[int, str], int] = defaultdict(int)
+    used: set[tuple[int, str]] = set()
     mapped: dict[int, tuple[str, ...]] = {}
     representative_docs = model.get_representative_docs() or {}
     for topic, documents in representative_docs.items():
         ids = []
         for text in documents or ():
             key = (int(topic), text)
-            occurrence = occurrences[key]
-            if occurrence >= len(available[key]):
+            candidates = available[key]
+            if len(candidates) != 1 or key in used:
                 raise ValueError(
-                    f"representative document has no unambiguous passage for topic {topic}"
+                    f"ambiguous representative document for topic {topic}: "
+                    "text does not identify exactly one passage"
                 )
-            ids.append(available[key][occurrence])
-            occurrences[key] += 1
+            ids.append(candidates[0])
+            used.add(key)
         mapped[int(topic)] = tuple(ids)
     return mapped
 
@@ -135,4 +136,5 @@ def fit_topic_model(
         representative_passages=_representative_ids(passages, topic_array, model),
         cluster_persistence=tuple(float(value) for value in persistence),
         passage_ids=passage_ids,
+        topic_model_config=asdict(config),
     )

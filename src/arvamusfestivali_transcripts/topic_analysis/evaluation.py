@@ -39,10 +39,28 @@ _REVIEW_COLUMNS = (
 def _validate_run_and_embedding(run: TopicRun, embedding: EmbeddingResult) -> None:
     if run.model_key != embedding.model_key:
         raise ValueError("run and embedding model keys must match")
-    if len(run.topics) != len(embedding.passage_ids) or (
-        run.passage_ids and run.passage_ids != embedding.passage_ids
-    ):
+    if not run.passage_ids or run.passage_ids != embedding.passage_ids:
         raise ValueError("run and embedding passage IDs and order must match")
+
+
+def _controlled_config(
+    runs: Mapping[str, TopicRun], expected: Mapping[str, int | float] | None = None
+) -> dict[str, int | float]:
+    if not runs:
+        raise ValueError("topic model configuration requires at least one run")
+    first: dict[str, int | float] | None = None
+    for run in runs.values():
+        if run.topic_model_config is None:
+            raise ValueError(f"topic model configuration missing for {run.model_key}")
+        current = dict(run.topic_model_config)
+        if first is None:
+            first = current
+        elif current != first:
+            raise ValueError("topic model configuration differs across runs")
+    if expected is not None and first != dict(expected):
+        raise ValueError("topic model configuration differs from export manifest")
+    assert first is not None
+    return first
 
 
 def _topic_diversity(run: TopicRun) -> float:
@@ -134,6 +152,8 @@ def compare_runs(
         if run.model_key != key or embeddings[key].model_key != key:
             raise ValueError("mapping keys must match model keys")
         _validate_run_and_embedding(run, embeddings[key])
+    if runs:
+        _controlled_config(runs)
     rows = []
     for first_key, second_key in combinations(runs, 2):
         first = embeddings[first_key]
@@ -165,7 +185,7 @@ def build_review_rows(runs: Mapping[str, TopicRun], passages: Sequence[Passage])
     for key, run in runs.items():
         if key != run.model_key:
             raise ValueError("mapping keys must match model keys")
-        if len(run.topics) != len(passages) or (run.passage_ids and run.passage_ids != passage_ids):
+        if not run.passage_ids or run.passage_ids != passage_ids:
             raise ValueError("run and passage IDs and order must match")
         for topic in sorted(int(value) for value in np.unique(run.topics) if int(value) != -1):
             ids = run.representative_passages.get(topic, ())
@@ -263,17 +283,25 @@ def export_experiment(
         _validate_run_and_embedding(runs[key], embedding)
         if embedding.passage_ids != passage_ids:
             raise ValueError("export passage IDs and order must match embeddings")
+    _controlled_config(runs, asdict(topic_model))
 
     timestamp = created_at or datetime.now(UTC)
     if timestamp.tzinfo is None:
         raise ValueError("created_at must have a timezone")
     timestamp_text = timestamp.astimezone(UTC).isoformat().replace("+00:00", "Z")
-    cache_values = {
-        key: str(getattr(identity, "digest", identity))
-        for key, identity in (cache_identities or {}).items()
-    }
+    revision = _git_revision() if git_revision is None else git_revision
+    if not isinstance(revision, str) or not revision.strip():
+        raise ValueError("git revision must be nonempty")
+    if cache_identities is None or set(cache_identities) != set(runs):
+        raise ValueError("cache identities must be supplied for every run")
+    cache_values: dict[str, str] = {}
+    for key, identity in cache_identities.items():
+        value = getattr(identity, "digest", identity)
+        if not isinstance(value, str) or not value.strip():
+            raise ValueError(f"cache identities must be nonempty for {key}")
+        cache_values[key] = value.strip()
     manifest = {
-        "git_revision": git_revision if git_revision is not None else _git_revision(),
+        "git_revision": revision.strip(),
         "created_at_utc": timestamp_text,
         "selected_audio_hashes": list(dict.fromkeys(
             passage.audio_sha256 for passage in passages

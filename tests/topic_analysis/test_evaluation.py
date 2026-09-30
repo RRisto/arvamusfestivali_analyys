@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import json
+from dataclasses import asdict, replace
 from datetime import UTC, datetime
 from pathlib import Path
 
@@ -55,7 +56,11 @@ def _embedding(model: str = "qwen", count: int = 4) -> EmbeddingResult:
     )
 
 
-def _run(model: str = "qwen", topics: tuple[int, ...] = (0, 0, 1, 1)) -> TopicRun:
+def _run(
+    model: str = "qwen",
+    topics: tuple[int, ...] = (0, 0, 1, 1),
+    config: TopicModelConfig = TopicModelConfig(),
+) -> TopicRun:
     return TopicRun(
         model_key=model,
         topics=np.array(topics),
@@ -67,7 +72,14 @@ def _run(model: str = "qwen", topics: tuple[int, ...] = (0, 0, 1, 1)) -> TopicRu
         representative_passages={0: ("p0",), 1: ("p2",)},
         cluster_persistence=(0.6, 0.8),
         passage_ids=tuple(f"p{index}" for index in range(len(topics))),
+        topic_model_config=asdict(config),
     )
+
+
+def _without_passage_ids(run: TopicRun) -> TopicRun:
+    # Simulate a legacy or externally deserialized run that bypassed dataclass validation.
+    object.__setattr__(run, "passage_ids", ())
+    return run
 
 
 def test_evaluate_run_handles_all_outliers() -> None:
@@ -91,6 +103,18 @@ def test_evaluate_run_reports_diversity_and_valid_silhouette() -> None:
     assert metrics["mean_cluster_persistence"] == pytest.approx(0.7)
     assert metrics["silhouette"] is not None
     assert metrics["silhouette_unavailable_reason"] is None
+
+
+def test_topic_run_rejects_missing_passage_ids() -> None:
+    with pytest.raises(ValueError, match="passage_ids"):
+        replace(_run(), passage_ids=())
+
+
+def test_evaluate_run_requires_ordered_passage_ids() -> None:
+    run = _without_passage_ids(_run())
+
+    with pytest.raises(ValueError, match="passage IDs and order"):
+        evaluation.evaluate_run(run, _embedding())
 
 
 def test_compare_runs_reports_assignment_and_neighbour_agreement() -> None:
@@ -126,6 +150,32 @@ def test_compare_runs_rejects_misaligned_passages() -> None:
         )
 
 
+def test_compare_runs_rejects_missing_passage_ids() -> None:
+    with pytest.raises(ValueError, match="passage IDs and order"):
+        evaluation.compare_runs(
+            {"qwen": _without_passage_ids(_run()), "bge": _run("bge")},
+            {"qwen": _embedding(), "bge": _embedding("bge")},
+        )
+
+
+def test_compare_runs_rejects_different_topic_model_configs() -> None:
+    with pytest.raises(ValueError, match="topic model configuration"):
+        evaluation.compare_runs(
+            {
+                "qwen": _run(),
+                "bge": _run("bge", config=TopicModelConfig(random_state=17)),
+            },
+            {"qwen": _embedding(), "bge": _embedding("bge")},
+        )
+
+
+def test_compare_runs_rejects_missing_topic_model_config() -> None:
+    run = _run()
+    object.__setattr__(run, "topic_model_config", None)
+    with pytest.raises(ValueError, match="topic model configuration"):
+        evaluation.compare_runs({"qwen": run}, {"qwen": _embedding()})
+
+
 def test_review_rows_keep_provenance_and_blank_manual_fields() -> None:
     rows = evaluation.build_review_rows({"qwen": _run()}, _passages())
 
@@ -141,6 +191,11 @@ def test_review_rows_keep_provenance_and_blank_manual_fields() -> None:
     assert rows.loc[0, "note"] == ""
 
 
+def test_review_rows_reject_missing_passage_ids() -> None:
+    with pytest.raises(ValueError, match="passage IDs and order"):
+        evaluation.build_review_rows({"qwen": _without_passage_ids(_run())}, _passages())
+
+
 def test_export_experiment_writes_deterministic_tables_and_manifest(tmp_path: Path) -> None:
     root = tmp_path / "results"
     kwargs = {
@@ -150,7 +205,11 @@ def test_export_experiment_writes_deterministic_tables_and_manifest(tmp_path: Pa
         "created_at": datetime(2026, 9, 30, 12, 0, tzinfo=UTC),
         "git_revision": "abc123",
     }
-    args = (root, "experiment-1", _passages(), {"qwen": _run()}, {"qwen": _embedding()})
+    args = (
+        root, "experiment-1", _passages(),
+        {"qwen": _run(config=TopicModelConfig(random_state=17))},
+        {"qwen": _embedding()},
+    )
 
     output = evaluation.export_experiment(*args, **kwargs)
     first_contents = {path.name: path.read_bytes() for path in output.iterdir()}
@@ -178,6 +237,73 @@ def test_export_experiment_writes_deterministic_tables_and_manifest(tmp_path: Pa
     assert assignments["passage_id"].tolist() == ["p0", "p1", "p2", "p3"]
     assert assignments["topic_id"].tolist() == [0, 0, 1, 1]
     assert not list(output.glob(".*.tmp"))
+
+
+def test_export_rejects_manifest_config_different_from_fitted_run(tmp_path: Path) -> None:
+    with pytest.raises(ValueError, match="topic model configuration"):
+        evaluation.export_experiment(
+            tmp_path, "experiment-1", _passages(),
+            {"qwen": _run(config=TopicModelConfig(random_state=17))},
+            {"qwen": _embedding()},
+            chunking=ChunkingConfig(),
+            topic_model=TopicModelConfig(random_state=42),
+            cache_identities={"qwen": "cache-digest-1"},
+            created_at=datetime(2026, 9, 30, tzinfo=UTC),
+            git_revision="abc123",
+        )
+
+
+def test_export_rejects_missing_run_ids(tmp_path: Path) -> None:
+    with pytest.raises(ValueError, match="passage IDs and order"):
+        evaluation.export_experiment(
+            tmp_path, "experiment-1", _passages(),
+            {"qwen": _without_passage_ids(_run())}, {"qwen": _embedding()},
+            chunking=ChunkingConfig(), topic_model=TopicModelConfig(),
+            cache_identities={"qwen": "cache-digest-1"}, git_revision="abc123",
+        )
+
+
+def test_export_rejects_missing_run_config(tmp_path: Path) -> None:
+    run = _run()
+    object.__setattr__(run, "topic_model_config", None)
+    with pytest.raises(ValueError, match="topic model configuration"):
+        evaluation.export_experiment(
+            tmp_path, "experiment-1", _passages(),
+            {"qwen": run}, {"qwen": _embedding()},
+            chunking=ChunkingConfig(), topic_model=TopicModelConfig(),
+            cache_identities={"qwen": "cache-digest-1"}, git_revision="abc123",
+        )
+
+
+@pytest.mark.parametrize("git_revision", (None, "", "   "))
+def test_export_rejects_missing_git_revision(
+    tmp_path: Path, monkeypatch: pytest.MonkeyPatch, git_revision: str | None
+) -> None:
+    monkeypatch.setattr(evaluation, "_git_revision", lambda: None)
+    with pytest.raises(ValueError, match="git revision"):
+        evaluation.export_experiment(
+            tmp_path, "experiment-1", _passages(),
+            {"qwen": _run()}, {"qwen": _embedding()},
+            chunking=ChunkingConfig(), topic_model=TopicModelConfig(),
+            cache_identities={"qwen": "cache-digest-1"}, git_revision=git_revision,
+        )
+
+
+@pytest.mark.parametrize(
+    "cache_identities",
+    (None, {}, {"qwen": "cache-digest-1"}, {"qwen": "cache-digest-1", "bge": " "}),
+)
+def test_export_requires_cache_identity_for_every_model(
+    tmp_path: Path, cache_identities: dict[str, str] | None
+) -> None:
+    with pytest.raises(ValueError, match="cache identities"):
+        evaluation.export_experiment(
+            tmp_path, "experiment-1", _passages(),
+            {"qwen": _run(), "bge": _run("bge")},
+            {"qwen": _embedding(), "bge": _embedding("bge")},
+            chunking=ChunkingConfig(), topic_model=TopicModelConfig(),
+            cache_identities=cache_identities, git_revision="abc123",
+        )
 
 
 @pytest.mark.parametrize("experiment_id", ("../escape", "C:outside", ""))
