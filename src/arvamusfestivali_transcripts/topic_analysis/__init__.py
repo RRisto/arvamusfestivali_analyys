@@ -1,5 +1,6 @@
 """Shared contracts for transcript topic analysis."""
 
+from .corpus import load_corpus, select_diverse_episodes
 from .types import (
     CanonicalEpisode,
     ChunkingConfig,
@@ -18,4 +19,6 @@ __all__ = [
     "ManualTopicReview",
     "Passage",
     "TopicRun",
+    "load_corpus",
+    "select_diverse_episodes",
 ]
