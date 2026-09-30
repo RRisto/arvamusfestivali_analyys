@@ -107,7 +107,7 @@ uv run --group topic-analysis jupyter lab notebooks/compare_embedding_models.ipy
 Run the cells in order. The configuration cell exposes `YEAR`, `EPISODE_COUNT`,
 `EXPLICIT_EPISODE_IDS`, `MODEL_KEYS`, `DEVICE`, `BATCH_SIZES`, `CHUNKING`, and
 `TOPIC_MODEL`. To choose recordings yourself, set canonical IDs such as
-`EXPLICIT_EPISODE_IDS = ("2400217815", "2400217816")`; this replaces automatic
+`EXPLICIT_EPISODE_IDS = ("2400207762", "2400207759")`; this replaces automatic
 selection. The IDs must exist in the chosen year after deduplication. You can also
 omit a model from `MODEL_KEYS` to run fewer adapters. The defaults run local models on
 the CPU with batch size four; expect the first run to download model weights and take

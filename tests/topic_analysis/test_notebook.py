@@ -1,6 +1,8 @@
 """Executable contract for the embedding-comparison notebook."""
 
+import ast
 import json
+import re
 import shutil
 from pathlib import Path
 
@@ -8,8 +10,10 @@ import nbformat
 from nbclient import NotebookClient
 
 from arvamusfestivali_transcripts.archive import write_archive
+from arvamusfestivali_transcripts.topic_analysis import load_corpus, select_diverse_episodes
 
-NOTEBOOK = Path(__file__).resolve().parents[2] / "notebooks" / "compare_embedding_models.ipynb"
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
+NOTEBOOK = PROJECT_ROOT / "notebooks" / "compare_embedding_models.ipynb"
 
 
 def test_comparison_notebook_is_thin_and_ordered() -> None:
@@ -36,6 +40,18 @@ def test_notebook_has_no_saved_outputs_or_execution_counts() -> None:
     code_cells = [cell for cell in notebook.cells if cell.cell_type == "code"]
     assert all(cell.execution_count is None for cell in code_cells)
     assert all(cell.outputs == [] for cell in code_cells)
+
+
+def test_readme_explicit_ids_select_distinct_archived_recordings() -> None:
+    readme = (PROJECT_ROOT / "README.md").read_text(encoding="utf-8")
+    example = re.search(r"EXPLICIT_EPISODE_IDS = (\([^\n]+\))", readme)
+    assert example is not None
+    episode_ids = ast.literal_eval(example.group(1))
+    assert len(episode_ids) == 2
+
+    corpus = load_corpus(PROJECT_ROOT / "data" / "transcripts", 2026)
+    selected = select_diverse_episodes(corpus, explicit_ids=episode_ids)
+    assert len({episode.audio_sha256 for episode in selected}) == 2
 
 
 def test_notebook_executes_offline_and_exports_manifest(
