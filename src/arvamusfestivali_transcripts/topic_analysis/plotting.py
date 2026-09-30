@@ -5,6 +5,7 @@ from __future__ import annotations
 import json
 from collections import defaultdict
 from collections.abc import Mapping, Sequence
+from html import escape
 
 import plotly.graph_objects as go
 from plotly.colors import qualitative
@@ -50,10 +51,19 @@ def _source(passage: Passage) -> list[str | float]:
     ]
 
 
-def _group_source(passages: Sequence[Passage]) -> list[str | float | None]:
+def _group_source(passages: Sequence[Passage]) -> list[int | str]:
+    count = len(passages)
     if not passages:
-        return ["", "", None, None, "", "", "[]"]
-    return [*_source(passages[0]), json.dumps([_source(item) for item in passages])]
+        return [0, "0 contributing passages", "[]"]
+    lines = [f"{count} contributing passage{'s' if count != 1 else ''}:"]
+    for index, passage in enumerate(passages, start=1):
+        title, episode, start, end, excerpt, audio_url = _source(passage)
+        lines.append(
+            f"{index}. {escape(str(title))} · {escape(str(episode))} · "
+            f"{start:g}–{end:g} s · {escape(str(excerpt))} · "
+            f"{escape(str(audio_url))}"
+        )
+    return [count, "<br>".join(lines), json.dumps([_source(item) for item in passages])]
 
 
 def _base(title: str) -> go.Figure:
@@ -111,7 +121,7 @@ def plot_topic_sizes(run: TopicRun, passages: Sequence[Passage]) -> go.Figure:
         y=[len(grouped[topic]) for topic in topics],
         marker_color=[_topic_color(topic) for topic in topics],
         customdata=[_group_source(grouped[topic]) for topic in topics],
-        hovertemplate="%{x}: %{y} passages<br>" + _HOVER,
+        hovertemplate="%{x}: %{y} passages<br>%{customdata[1]}<extra></extra>",
     ))
     figure.update_xaxes(title="Topic ID")
     figure.update_yaxes(title="Passage count", rangemode="tozero")
@@ -148,8 +158,8 @@ def plot_episode_topic_heatmap(
                     for episode in episodes],
         colorscale="Blues",
         colorbar={"title": "Share" if normalized else "Seconds"},
-        hovertemplate="Episode %{y}<br>%{x}: %{z:.2f}" +
-        "<br>Source: %{customdata[0]}<br>%{customdata[5]}<extra></extra>",
+        hovertemplate="Episode %{y}<br>%{x}: %{z:.2f}<br>"
+        "%{customdata[1]}<extra></extra>",
     ))
     figure.update_xaxes(title="Topic ID")
     figure.update_yaxes(title="Episode ID")
@@ -213,8 +223,8 @@ def plot_topic_correspondence(
             "target": [right_indices[right] for _, right in pairs],
             "value": [len(overlap[pair]) for pair in pairs],
             "customdata": [_group_source(overlap[pair]) for pair in pairs],
-            "hovertemplate": "%{value} shared passages<br>Source: %{customdata[0]}"
-                             "<br>%{customdata[5]}<extra></extra>",
+            "hovertemplate": "%{value} shared passages<br>"
+                             "%{customdata[1]}<extra></extra>",
         },
     ))
     figure.add_annotation(

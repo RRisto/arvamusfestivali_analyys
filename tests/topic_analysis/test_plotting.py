@@ -149,3 +149,43 @@ def test_all_outliers_produce_valid_empty_topic_subsets() -> None:
     ):
         assert isinstance(figure, go.Figure)
         assert figure.layout.title.text
+
+
+def _assert_readable_aggregate_hover(hovertemplate: str, row: tuple, count: int) -> None:
+    assert "%{customdata[1]}" in hovertemplate
+    assert f"{count} contributing passages" in row[1]
+    assert "<br>" in row[1]
+    assert row[1].count("episode-0") == count
+    assert row[1].count("Recording 0") == count
+    assert "0–60" in row[1]
+    assert "60–120" in row[1]
+
+
+def test_topic_size_hover_lists_every_contributing_passage() -> None:
+    figure = plot_topic_sizes(make_run(topics=(0, 0, 1, 1)), make_passages())
+    trace = figure.data[0]
+
+    _assert_readable_aggregate_hover(trace.hovertemplate, trace.customdata[0], 2)
+    assert "#t=0" in trace.customdata[0][1]
+    assert "#t=60" in trace.customdata[0][1]
+
+
+def test_heatmap_hover_lists_every_contributing_passage_in_cell() -> None:
+    figure = plot_episode_topic_heatmap(make_run(topics=(0, 0, 1, 1)), make_passages())
+    trace = figure.data[0]
+
+    _assert_readable_aggregate_hover(trace.hovertemplate, trace.customdata[0][0], 2)
+    assert "#t=0" in trace.customdata[0][0][1]
+    assert "#t=60" in trace.customdata[0][0][1]
+
+
+def test_correspondence_hover_lists_every_contributing_passage_in_link() -> None:
+    figure = plot_topic_correspondence(
+        {"qwen": make_run(topics=(0, 0, 1, 1)), "bge": make_run("bge", (2, 2, 3, 3))},
+        make_passages(),
+    )
+    link = figure.data[0].link
+
+    _assert_readable_aggregate_hover(link.hovertemplate, link.customdata[0], 2)
+    assert "#t=0" in link.customdata[0][1]
+    assert "#t=60" in link.customdata[0][1]
