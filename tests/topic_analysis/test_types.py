@@ -1,4 +1,4 @@
-from dataclasses import FrozenInstanceError
+from dataclasses import FrozenInstanceError, replace
 from pathlib import Path
 
 import numpy as np
@@ -51,6 +51,24 @@ def test_passage_rejects_invalid_interval() -> None:
             word_count=1,
             cue_count=1,
         )
+
+
+def test_timestamped_audio_url_preserves_fractional_seconds() -> None:
+    passage = Passage(
+        passage_id="ep-1:000007324-000007325",
+        episode_id="ep-1",
+        duplicate_episode_ids=("ep-1",),
+        title="Discussion",
+        start_seconds=7324.625,
+        end_seconds=7325.0,
+        text="Speech",
+        audio_sha256="a" * 64,
+        audio_url="https://example.test/audio.mp3",
+        word_count=1,
+        cue_count=1,
+    )
+
+    assert passage.timestamped_audio_url == "https://example.test/audio.mp3#t=7324.625"
 
 
 def test_cue_rejects_nonfinite_interval() -> None:
@@ -109,3 +127,80 @@ def test_public_types_are_frozen() -> None:
     ):
         with pytest.raises(FrozenInstanceError):
             setattr(item, field, "changed")
+
+
+def test_tuple_fields_reject_mutable_lists() -> None:
+    episode = CanonicalEpisode(
+        episode_id="ep-1",
+        duplicate_episode_ids=("ep-1",),
+        title="Discussion",
+        published_at="2026-09-01T12:00:00Z",
+        audio_sha256="a" * 64,
+        duration_seconds=1.0,
+        audio_url="https://example.test/audio.mp3",
+        cues=(Cue(0.0, 1.0, "Speech"),),
+        source_paths=(Path("ep-1.json"),),
+    )
+    passage = Passage(
+        passage_id="p1",
+        episode_id="ep-1",
+        duplicate_episode_ids=("ep-1",),
+        title="Discussion",
+        start_seconds=0.0,
+        end_seconds=1.0,
+        text="Speech",
+        audio_sha256="a" * 64,
+        audio_url="https://example.test/audio.mp3",
+        word_count=1,
+        cue_count=1,
+    )
+    embedding = EmbeddingResult(
+        model_key="qwen",
+        model_id="qwen",
+        model_revision=None,
+        dimension=2,
+        passage_ids=("p1",),
+        embeddings=np.ones((1, 2)),
+        cache_hits=0,
+    )
+    run = TopicRun(
+        model_key="qwen",
+        topics=np.array([0]),
+        probabilities=None,
+        reduced_embeddings=np.ones((1, 2)),
+        topic_info=pd.DataFrame({"Topic": [0]}),
+        representative_passages={0: ("p1",)},
+        cluster_persistence=(1.0,),
+    )
+
+    for record, field in (
+        (episode, "duplicate_episode_ids"),
+        (episode, "cues"),
+        (episode, "source_paths"),
+        (passage, "duplicate_episode_ids"),
+        (embedding, "passage_ids"),
+        (run, "cluster_persistence"),
+    ):
+        with pytest.raises(ValueError, match=field):
+            replace(record, **{field: list(getattr(record, field))})
+
+    with pytest.raises(ValueError, match="representative_passages"):
+        replace(run, representative_passages={0: ["p1"]})
+
+
+def test_representative_passage_mapping_cannot_be_mutated_after_construction() -> None:
+    representatives = {0: ("p1",)}
+    run = TopicRun(
+        model_key="qwen",
+        topics=np.array([0]),
+        probabilities=None,
+        reduced_embeddings=np.ones((1, 2)),
+        topic_info=pd.DataFrame({"Topic": [0]}),
+        representative_passages=representatives,
+        cluster_persistence=(1.0,),
+    )
+
+    representatives[0] = ("p2",)
+    assert run.representative_passages[0] == ("p1",)
+    with pytest.raises(TypeError):
+        run.representative_passages[0] = ("p3",)  # type: ignore[index]

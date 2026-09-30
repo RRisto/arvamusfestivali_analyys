@@ -7,6 +7,7 @@ import re
 from collections.abc import Mapping
 from dataclasses import dataclass
 from pathlib import Path
+from types import MappingProxyType
 from typing import Literal
 
 import numpy as np
@@ -21,8 +22,10 @@ def _require_text(value: str, name: str) -> None:
 
 
 def _require_ids(values: tuple[str, ...], name: str) -> None:
-    if not values or any(not isinstance(value, str) or not value.strip() for value in values):
-        raise ValueError(f"{name} must contain nonempty IDs")
+    if not isinstance(values, tuple) or not values or any(
+        not isinstance(value, str) or not value.strip() for value in values
+    ):
+        raise ValueError(f"{name} must be a tuple of nonempty IDs")
 
 
 def _require_interval(start: float, end: float, name: str) -> None:
@@ -83,10 +86,14 @@ class CanonicalEpisode:
         ) or self.duration_seconds <= 0:
             raise ValueError("duration_seconds must be positive and finite")
         _require_text(self.audio_url, "audio_url")
-        if not self.cues or any(not isinstance(cue, Cue) for cue in self.cues):
-            raise ValueError("cues must contain Cue records")
-        if not self.source_paths or any(not isinstance(path, Path) for path in self.source_paths):
-            raise ValueError("source_paths must contain paths")
+        if not isinstance(self.cues, tuple) or not self.cues or any(
+            not isinstance(cue, Cue) for cue in self.cues
+        ):
+            raise ValueError("cues must be a tuple of Cue records")
+        if not isinstance(self.source_paths, tuple) or not self.source_paths or any(
+            not isinstance(path, Path) for path in self.source_paths
+        ):
+            raise ValueError("source_paths must be a tuple of paths")
 
 
 @dataclass(frozen=True, slots=True)
@@ -154,7 +161,7 @@ class Passage:
 
     @property
     def timestamped_audio_url(self) -> str:
-        start = f"{self.start_seconds:g}"
+        start = str(self.start_seconds).removesuffix(".0")
         return f"{self.audio_url}#t={start}"
 
 
@@ -223,10 +230,17 @@ class TopicRun:
             raise ValueError("reduced embedding rows must match topics")
         if not isinstance(self.topic_info, pd.DataFrame):
             raise ValueError("topic_info must be a DataFrame")
-        if not isinstance(self.representative_passages, Mapping):
-            raise ValueError("representative_passages must be a mapping")
-        if any(not math.isfinite(value) for value in self.cluster_persistence):
-            raise ValueError("cluster_persistence must be finite")
+        if not isinstance(self.representative_passages, Mapping) or any(
+            not isinstance(ids, tuple) for ids in self.representative_passages.values()
+        ):
+            raise ValueError("representative_passages must map to tuples")
+        object.__setattr__(
+            self, "representative_passages", MappingProxyType(dict(self.representative_passages))
+        )
+        if not isinstance(self.cluster_persistence, tuple) or any(
+            not math.isfinite(value) for value in self.cluster_persistence
+        ):
+            raise ValueError("cluster_persistence must be a tuple of finite values")
 
 
 @dataclass(frozen=True, slots=True)
