@@ -88,3 +88,53 @@ uv run pytest -q
 uv run ruff check .
 uv build
 ```
+
+## Compare transcript embedding models
+
+The [comparison notebook](notebooks/compare_embedding_models.ipynb) compares
+Qwen3-Embedding-0.6B and BGE-M3 embeddings as inputs to BERTopic. Gemini is optional.
+It uses validated archives in `data/transcripts/2026/`, deduplicates recordings by
+audio SHA-256, and deterministically chooses six recordings with varied titles. Each
+model receives the same timestamped passages and BERTopic settings.
+
+Install the analysis dependencies and open the notebook from the repository root:
+
+```powershell
+uv sync --group dev --group topic-analysis
+uv run --group topic-analysis jupyter lab notebooks/compare_embedding_models.ipynb
+```
+
+Run the cells in order. The configuration cell exposes `YEAR`, `EPISODE_COUNT`,
+`EXPLICIT_EPISODE_IDS`, `MODEL_KEYS`, `DEVICE`, `BATCH_SIZES`, `CHUNKING`, and
+`TOPIC_MODEL`. To choose recordings yourself, set canonical IDs such as
+`EXPLICIT_EPISODE_IDS = ("2400217815", "2400217816")`; this replaces automatic
+selection. The IDs must exist in the chosen year after deduplication. You can also
+omit a model from `MODEL_KEYS` to run fewer adapters. The defaults run local models on
+the CPU with batch size four; expect the first run to download model weights and take
+substantial time and several gigabytes of disk and memory. Use a smaller batch size
+if memory is tight. A compatible GPU can be selected with `DEVICE = "cuda"`.
+
+Gemini is skipped cleanly when `GEMINI_API_KEY` is absent. To enable it for the
+current PowerShell session, enter the key without printing it:
+
+```powershell
+$env:GEMINI_API_KEY = Read-Host -MaskInput "Gemini API key"
+```
+
+Enabling Gemini sends the selected passage text to Google's API and may incur API
+usage charges. Check that the transcripts are appropriate to send before setting the
+key. A failed model reports a remediation hint while successful model results remain
+available. Per-passage embedding files are saved under
+`data/topic-analysis/cache/`; repeat runs reuse matching cached vectors. Each run
+exports a manifest, passage and assignment tables, metrics, cross-model comparison,
+and a blank manual-review CSV under `data/topic-analysis/results/<experiment-id>/`.
+Both generated directories are ignored by Git. Keep the exported manifest with any
+results you share: it records model identities, configurations, audio hashes, and the
+Git revision.
+
+The metric table is descriptive. Silhouette excludes outliers and may be unavailable
+with fewer than two non-outlier topics; topic count and outlier fraction can change
+with clustering settings. Separate UMAP maps are **not geometrically aligned**, so
+compare assignments and source passages rather than plot coordinates. Use the
+timestamped audio links in the representative and disputed passage tables, then fill
+the exported `manual-review.csv` verdict and note columns before judging coherence.
