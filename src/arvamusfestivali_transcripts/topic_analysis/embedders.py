@@ -9,7 +9,7 @@ from typing import Protocol
 
 import numpy as np
 
-from .cache import CacheIdentity, EmbeddingCache
+from .cache import CacheIdentity, EmbeddingCache, _passage_digest
 from .types import ChunkingConfig, EmbeddingResult, Passage
 
 QWEN_MODEL_ID = "Qwen/Qwen3-Embedding-0.6B"
@@ -68,7 +68,11 @@ def embed_passages(
     )
     rows = list(cache.assemble(identity, passages))
     cache_hits = sum(row is not None for row in rows)
-    missing = [index for index, row in enumerate(rows) if row is None]
+    missing_by_digest: dict[str, list[int]] = {}
+    for index, row in enumerate(rows):
+        if row is None:
+            missing_by_digest.setdefault(_passage_digest(passages[index]), []).append(index)
+    missing = [indices[0] for indices in missing_by_digest.values()]
     effective_batch_size = 1 if adapter.key == "gemini" else batch_size
     for offset in range(0, len(missing), effective_batch_size):
         indices = missing[offset:offset + effective_batch_size]
@@ -82,10 +86,21 @@ def embed_passages(
                     f"Gemini embedding failed for passage {passage_id}: {error}"
                 ) from error
             raise
-        normalized = _normalize_rows(generated, len(indices), adapter.dimension, adapter.key)
-        for index, vector in zip(indices, normalized, strict=True):
+        try:
+            generated_rows = list(generated)
+        except TypeError as error:
+            raise ValueError(f"{adapter.key} returned invalid embedding rows") from error
+        for position, index in enumerate(indices):
+            if position >= len(generated_rows):
+                raise ValueError(f"{adapter.key} returned an incorrect number of embedding rows")
+            vector = _normalize_rows(
+                [generated_rows[position]], 1, adapter.dimension, adapter.key
+            )[0]
             cache.put(identity, passages[index], vector)
-            rows[index] = vector
+            for duplicate_index in missing_by_digest[_passage_digest(passages[index])]:
+                rows[duplicate_index] = vector
+        if len(generated_rows) != len(indices):
+            raise ValueError(f"{adapter.key} returned an incorrect number of embedding rows")
     return EmbeddingResult(
         model_key=adapter.key,
         model_id=adapter.model_id,

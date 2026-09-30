@@ -86,6 +86,51 @@ def test_embed_passages_invalidates_changed_chunking(tmp_path: Path) -> None:
     assert len(adapter.calls) == 2
 
 
+def test_embed_passages_keeps_valid_row_when_later_row_is_invalid(tmp_path: Path) -> None:
+    cache = EmbeddingCache(tmp_path)
+    passages = (make_passage(1), make_passage(2))
+    adapter = FakeAdapter()
+
+    def mixed_rows(texts: list[str], batch_size: int) -> np.ndarray:
+        adapter.calls.append((list(texts), batch_size))
+        if len(texts) == 2:
+            return np.array([[3.0, 4.0, 0.0], [np.nan, 1.0, 2.0]])
+        return np.array([[0.0, 3.0, 4.0]])
+
+    adapter.embed_texts = mixed_rows
+
+    with pytest.raises(ValueError, match="fake"):
+        embed_passages(adapter, passages, cache, batch_size=2)
+
+    resumed = embed_passages(adapter, passages, cache, batch_size=2)
+
+    assert resumed.cache_hits == 1
+    assert adapter.calls == [
+        ([passages[0].text, passages[1].text], 2),
+        ([passages[1].text], 2),
+    ]
+    assert np.allclose(resumed.embeddings[0], [0.6, 0.8, 0.0])
+    assert np.allclose(resumed.embeddings[1], [0.0, 0.6, 0.8])
+
+
+def test_embed_passages_embeds_identical_cache_keys_once(tmp_path: Path) -> None:
+    first = make_passage(1)
+    duplicate = replace(first, passage_id="same-audio-and-text-alias")
+    second = make_passage(2)
+    adapter = FakeAdapter()
+    adapter.key = "gemini"
+
+    result = embed_passages(
+        adapter, (first, duplicate, second), EmbeddingCache(tmp_path), batch_size=4
+    )
+
+    assert result.passage_ids == (first.passage_id, duplicate.passage_id, second.passage_id)
+    assert result.cache_hits == 0
+    assert np.array_equal(result.embeddings[0], result.embeddings[1])
+    assert adapter.calls == [([first.text], 1), ([second.text], 1)]
+    assert len(list(tmp_path.rglob("*.npy"))) == 2
+
+
 @pytest.mark.parametrize("bad", [np.array([[1.0, 2.0]]), np.array([[np.nan, 1.0, 2.0]])])
 def test_embed_passages_rejects_bad_adapter_rows(
     tmp_path: Path, bad: np.ndarray, monkeypatch: pytest.MonkeyPatch
