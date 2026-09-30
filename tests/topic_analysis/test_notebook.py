@@ -1,9 +1,11 @@
 """Executable contract for the embedding-comparison notebook."""
 
 import ast
+import asyncio
 import json
 import re
 import shutil
+import sys
 from pathlib import Path
 
 import nbformat
@@ -57,6 +59,9 @@ def test_readme_explicit_ids_select_distinct_archived_recordings() -> None:
 def test_notebook_executes_offline_and_exports_manifest(
     tmp_path: Path, six_topic_archives: Path, monkeypatch
 ) -> None:
+    if sys.platform == "win32":
+        asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
+
     project_root = tmp_path / "notebook-project"
     transcript_root = project_root / "data" / "transcripts" / "2026"
     transcript_root.mkdir(parents=True)
