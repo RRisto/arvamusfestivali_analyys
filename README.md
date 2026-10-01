@@ -104,6 +104,30 @@ uv sync --group dev --group topic-analysis
 uv run --group topic-analysis jupyter lab notebooks/compare_embedding_models.ipynb
 ```
 
+To compare the original fixed passages with local semantic boundaries, open the
+[segmentation notebook](notebooks/compare_segmentation_modes.ipynb):
+
+```powershell
+uv run --group topic-analysis jupyter lab notebooks/compare_segmentation_modes.ipynb
+```
+
+If this checkout uses the repository-visible Windows environment created under
+`data/state`, launch it with:
+
+```powershell
+$uv = "$PWD\data\state\uv-tool\bin\uv.exe"
+$env:UV_PROJECT_ENVIRONMENT = "$PWD\data\state\af-topic-env"
+& $uv run --group topic-analysis jupyter lab notebooks/compare_segmentation_modes.ipynb
+```
+
+The segmentation notebook retains both modes. BGE-M3 embeds non-overlapping,
+cue-aligned atomic blocks and detects contextual similarity drops; the resulting
+semantic passages and the fixed passages are each compared with Qwen and BGE under
+controlled BERTopic settings. Atomic BGE vectors are cached separately, so boundary
+threshold experiments reuse them. Segmentation is entirely local and never invokes
+Gemini. Inspect the boundary-score chart on a small sample before increasing
+`EPISODE_COUNT` or switching `DEVICE` to `"cuda"`.
+
 Run the cells in order. The configuration cell exposes `YEAR`, `EPISODE_COUNT`,
 `EXPLICIT_EPISODE_IDS`, `MODEL_KEYS`, `DEVICE`, `BATCH_SIZES`, `CHUNKING`, and
 `TOPIC_MODEL`. To choose recordings yourself, set canonical IDs such as
