@@ -11,12 +11,15 @@ import pytest
 from arvamusfestivali_transcripts.topic_analysis import (
     CanonicalEpisode,
     Cue,
+    EmbeddingResult,
     SemanticBoundary,
     SemanticSegmentationConfig,
     SemanticSegmentationResult,
     build_atomic_blocks,
     build_atomic_blocks_many,
     score_semantic_boundaries,
+    segment_episode_semantically,
+    segment_episodes_semantically,
     select_semantic_boundaries,
 )
 
@@ -290,3 +293,101 @@ def test_indivisible_overlong_block_has_no_legal_forced_boundary() -> None:
 
     assert scored == ()
     assert select_semantic_boundaries(blocks, scored, config) == ()
+
+
+def shift_config() -> SemanticSegmentationConfig:
+    return SemanticSegmentationConfig(
+        atomic_target_seconds=30,
+        atomic_max_seconds=45,
+        context_seconds=60,
+        min_segment_seconds=60,
+        max_segment_seconds=600,
+        boundary_quantile=0.8,
+    )
+
+
+def shift_vectors() -> np.ndarray:
+    return np.array([[1.0, 0.0]] * 3 + [[0.0, 1.0]] * 3, dtype=np.float32)
+
+
+def test_segment_episode_merges_original_cues_at_selected_cut() -> None:
+    episode = episode_with_cues(count=6, seconds_per_cue=30)
+    blocks = build_atomic_blocks(episode, shift_config())
+
+    result = segment_episode_semantically(episode, blocks, shift_vectors(), shift_config())
+
+    assert [(item.start_seconds, item.end_seconds) for item in result.passages] == [
+        (0, 90),
+        (90, 180),
+    ]
+    assert result.passages[0].text == " ".join(cue.text for cue in episode.cues[:3])
+    assert result.passages[1].text == " ".join(cue.text for cue in episode.cues[3:])
+    assert all(item.audio_sha256 == episode.audio_sha256 for item in result.passages)
+    assert [item.timestamped_audio_url for item in result.passages] == [
+        "https://example.test/episode-1.mp3#t=0",
+        "https://example.test/episode-1.mp3#t=90",
+    ]
+
+
+def test_segment_episode_with_flat_embeddings_preserves_one_short_passage() -> None:
+    episode = episode_with_cues(count=6, seconds_per_cue=30)
+    blocks = build_atomic_blocks(episode, shift_config())
+    vectors = np.tile(np.array([[1.0, 0.0]], dtype=np.float32), (6, 1))
+
+    result = segment_episode_semantically(episode, blocks, vectors, shift_config())
+
+    assert len(result.passages) == 1
+    assert result.passages[0].text == " ".join(cue.text for cue in episode.cues)
+    assert not any(item.selected for item in result.boundaries)
+
+
+def test_many_episode_orchestrator_rejects_reordered_embedding_ids() -> None:
+    episodes = (
+        episode_with_cues(count=6, seconds_per_cue=30, episode_id="episode-1"),
+        episode_with_cues(count=6, seconds_per_cue=30, episode_id="episode-2"),
+    )
+    blocks = build_atomic_blocks_many(episodes, shift_config())
+    vectors = np.vstack((shift_vectors(), shift_vectors()))
+    embedding_result = EmbeddingResult(
+        model_key="bge",
+        model_id="BAAI/bge-m3",
+        model_revision="revision",
+        dimension=2,
+        passage_ids=tuple(item.passage_id for item in blocks),
+        embeddings=vectors,
+        cache_hits=0,
+    )
+    reordered = replace(
+        embedding_result,
+        passage_ids=tuple(reversed(embedding_result.passage_ids)),
+        embeddings=embedding_result.embeddings[::-1],
+    )
+
+    with pytest.raises(ValueError, match="IDs and order"):
+        segment_episodes_semantically(episodes, blocks, reordered, shift_config())
+
+
+def test_many_episode_orchestrator_preserves_episode_order() -> None:
+    episodes = (
+        episode_with_cues(count=6, seconds_per_cue=30, episode_id="episode-2"),
+        episode_with_cues(count=6, seconds_per_cue=30, episode_id="episode-1"),
+    )
+    blocks = build_atomic_blocks_many(episodes, shift_config())
+    embedding_result = EmbeddingResult(
+        model_key="bge",
+        model_id="BAAI/bge-m3",
+        model_revision="revision",
+        dimension=2,
+        passage_ids=tuple(item.passage_id for item in blocks),
+        embeddings=np.vstack((shift_vectors(), shift_vectors())),
+        cache_hits=0,
+    )
+
+    result = segment_episodes_semantically(episodes, blocks, embedding_result, shift_config())
+
+    assert [item.episode_id for item in result.passages] == [
+        "episode-2",
+        "episode-2",
+        "episode-1",
+        "episode-1",
+    ]

@@ -8,6 +8,14 @@ from pathlib import Path
 import numpy as np
 import pytest
 
+from arvamusfestivali_transcripts.topic_analysis import (
+    CanonicalEpisode,
+    Cue,
+    DeterministicHashEmbedder,
+    SemanticSegmentationConfig,
+    build_atomic_blocks,
+    embed_passages,
+)
 from arvamusfestivali_transcripts.topic_analysis import cache as cache_module
 from arvamusfestivali_transcripts.topic_analysis.cache import CacheIdentity, EmbeddingCache
 from arvamusfestivali_transcripts.topic_analysis.types import ChunkingConfig, Passage
@@ -163,3 +171,44 @@ def test_atomic_replacement_keeps_previous_file_if_replace_fails(
 
     assert np.array_equal(cache.get(identity, passage), original)
     assert list(path.parent.iterdir()) == [path]
+
+
+def test_atomic_block_embeddings_are_reused_from_cache(tmp_path: Path) -> None:
+    config = SemanticSegmentationConfig()
+    cues = tuple(
+        Cue(index * 10, (index + 1) * 10, f"Cue number {index}")
+        for index in range(9)
+    )
+    episode = CanonicalEpisode(
+        episode_id="episode-1",
+        duplicate_episode_ids=("episode-1",),
+        title="Discussion",
+        published_at="2026-08-01T12:00:00Z",
+        audio_sha256="a" * 64,
+        duration_seconds=90,
+        audio_url="https://example.test/audio.mp3",
+        cues=cues,
+        source_paths=(Path("episode.json"),),
+    )
+    blocks = build_atomic_blocks(episode, config)
+    cache = EmbeddingCache(tmp_path)
+    adapter = DeterministicHashEmbedder(dimension=8)
+
+    first = embed_passages(
+        adapter,
+        blocks,
+        cache,
+        batch_size=2,
+        chunking=config.atomic_chunking,
+    )
+    second = embed_passages(
+        adapter,
+        blocks,
+        cache,
+        batch_size=2,
+        chunking=config.atomic_chunking,
+    )
+
+    assert first.cache_hits == 0
+    assert second.cache_hits == len(blocks)
+    assert np.array_equal(first.embeddings, second.embeddings)

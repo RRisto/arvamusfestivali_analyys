@@ -9,9 +9,11 @@ import numpy as np
 
 from .types import (
     CanonicalEpisode,
+    EmbeddingResult,
     Passage,
     SemanticBoundary,
     SemanticSegmentationConfig,
+    SemanticSegmentationResult,
 )
 
 
@@ -274,3 +276,76 @@ def select_semantic_boundaries(
         )
         for boundary in diagnostics
     )
+
+
+def segment_episode_semantically(
+    episode: CanonicalEpisode,
+    blocks: Sequence[Passage],
+    embeddings: np.ndarray,
+    config: SemanticSegmentationConfig = SemanticSegmentationConfig(),
+) -> SemanticSegmentationResult:
+    """Select boundaries and rebuild final passages from the episode's original cues."""
+    items = _validate_blocks(blocks)
+    if items[0].episode_id != episode.episode_id:
+        raise ValueError("atomic blocks must match the requested episode")
+    matrix = _validate_embeddings(items, embeddings)
+    boundaries = select_semantic_boundaries(
+        items,
+        score_semantic_boundaries(items, matrix, config),
+        config,
+    )
+    cuts = {item.timestamp_seconds for item in boundaries if item.selected}
+    legal_cuts = {cue.start_seconds for cue in episode.cues[1:]}
+    if not cuts.issubset(legal_cuts):
+        raise ValueError("selected boundaries must align to original cue boundaries")
+
+    groups: list[tuple[int, ...]] = []
+    current: list[int] = []
+    for index, cue in enumerate(episode.cues):
+        if current and cue.start_seconds in cuts:
+            groups.append(tuple(current))
+            current = []
+        current.append(index)
+    if current:
+        groups.append(tuple(current))
+    return SemanticSegmentationResult(
+        passages=tuple(_passage(episode, indices) for indices in groups),
+        boundaries=boundaries,
+    )
+
+
+def segment_episodes_semantically(
+    episodes: Sequence[CanonicalEpisode],
+    blocks: Sequence[Passage],
+    embedding_result: EmbeddingResult,
+    config: SemanticSegmentationConfig = SemanticSegmentationConfig(),
+) -> SemanticSegmentationResult:
+    """Segment multiple episodes without changing block or embedding order."""
+    episode_items = tuple(episodes)
+    block_items = tuple(blocks)
+    if not episode_items:
+        raise ValueError("episodes must be nonempty")
+    expected_ids = tuple(item.passage_id for item in block_items)
+    if embedding_result.passage_ids != expected_ids:
+        raise ValueError("embedding passage IDs and order must match atomic blocks")
+
+    passages: list[Passage] = []
+    boundaries: list[SemanticBoundary] = []
+    offset = 0
+    for episode in episode_items:
+        start = offset
+        while offset < len(block_items) and block_items[offset].episode_id == episode.episode_id:
+            offset += 1
+        if offset == start:
+            raise ValueError("atomic block episode order must match episodes")
+        result = segment_episode_semantically(
+            episode,
+            block_items[start:offset],
+            embedding_result.embeddings[start:offset],
+            config,
+        )
+        passages.extend(result.passages)
+        boundaries.extend(result.boundaries)
+    if offset != len(block_items):
+        raise ValueError("atomic block episode order must match episodes")
+    return SemanticSegmentationResult(tuple(passages), tuple(boundaries))

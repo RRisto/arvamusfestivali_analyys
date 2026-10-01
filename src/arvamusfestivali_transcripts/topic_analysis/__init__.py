@@ -31,6 +31,8 @@ from .semantic_segmentation import (
     build_atomic_blocks,
     build_atomic_blocks_many,
     score_semantic_boundaries,
+    segment_episode_semantically,
+    segment_episodes_semantically,
     select_semantic_boundaries,
 )
 from .types import (
@@ -84,5 +86,7 @@ __all__ = [
     "plot_topic_sizes",
     "select_diverse_episodes",
     "score_semantic_boundaries",
+    "segment_episode_semantically",
+    "segment_episodes_semantically",
     "select_semantic_boundaries",
 ]
