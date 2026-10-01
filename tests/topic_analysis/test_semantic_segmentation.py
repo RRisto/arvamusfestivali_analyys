@@ -5,6 +5,7 @@ from __future__ import annotations
 from dataclasses import FrozenInstanceError, replace
 from pathlib import Path
 
+import numpy as np
 import pytest
 
 from arvamusfestivali_transcripts.topic_analysis import (
@@ -15,6 +16,8 @@ from arvamusfestivali_transcripts.topic_analysis import (
     SemanticSegmentationResult,
     build_atomic_blocks,
     build_atomic_blocks_many,
+    score_semantic_boundaries,
+    select_semantic_boundaries,
 )
 
 
@@ -147,3 +150,143 @@ def test_semantic_public_records_are_frozen_and_reject_mutable_tuples() -> None:
 def test_forced_boundary_must_also_be_selected() -> None:
     with pytest.raises(ValueError, match="forced boundary"):
         SemanticBoundary("episode-1", 30, "left", "right", 0.0, forced=True)
+
+
+def blocks_with_duration(count: int, seconds_per_block: float = 30) -> tuple:
+    episode = episode_with_cues(
+        count=count,
+        seconds_per_cue=seconds_per_block,
+        words_per_cue=5,
+    )
+    config = SemanticSegmentationConfig(
+        atomic_target_seconds=30,
+        atomic_max_seconds=45,
+    )
+    return build_atomic_blocks(episode, config)
+
+
+def test_contextual_score_finds_a_to_b_shift() -> None:
+    blocks = blocks_with_duration(6)
+    vectors = np.array(
+        [
+            [1.0, 0.0],
+            [1.0, 0.0],
+            [1.0, 0.0],
+            [0.0, 1.0],
+            [0.0, 1.0],
+            [0.0, 1.0],
+        ],
+        dtype=np.float32,
+    )
+    config = SemanticSegmentationConfig(
+        context_seconds=60,
+        min_segment_seconds=60,
+        max_segment_seconds=600,
+        boundary_quantile=0.8,
+    )
+
+    scored = score_semantic_boundaries(blocks, vectors, config)
+    selected = select_semantic_boundaries(blocks, scored, config)
+
+    assert max(scored, key=lambda item: item.score).timestamp_seconds == 90
+    assert [item.timestamp_seconds for item in selected if item.selected] == [90]
+    assert not any(item.forced for item in selected)
+
+
+def test_flat_embeddings_only_receive_required_maximum_cuts() -> None:
+    blocks = blocks_with_duration(12, seconds_per_block=60)
+    vectors = np.tile(np.array([[1.0, 0.0]], dtype=np.float32), (12, 1))
+    config = SemanticSegmentationConfig(
+        context_seconds=60,
+        min_segment_seconds=90,
+        max_segment_seconds=300,
+        boundary_quantile=0.85,
+    )
+
+    selected = select_semantic_boundaries(
+        blocks,
+        score_semantic_boundaries(blocks, vectors, config),
+        config,
+    )
+
+    chosen = [item for item in selected if item.selected]
+    assert [item.timestamp_seconds for item in chosen] == [300, 600]
+    assert all(item.forced for item in chosen)
+
+
+def test_minimum_segment_duration_rejects_an_otherwise_strong_cut() -> None:
+    blocks = blocks_with_duration(6)
+    vectors = np.array([[1.0, 0.0]] * 3 + [[0.0, 1.0]] * 3, dtype=np.float32)
+    config = SemanticSegmentationConfig(
+        context_seconds=60,
+        min_segment_seconds=100,
+        max_segment_seconds=600,
+        boundary_quantile=0.8,
+    )
+
+    selected = select_semantic_boundaries(
+        blocks,
+        score_semantic_boundaries(blocks, vectors, config),
+        config,
+    )
+
+    assert not any(item.selected for item in selected)
+
+
+def test_equal_score_ties_choose_the_earliest_local_maximum() -> None:
+    blocks = blocks_with_duration(4, seconds_per_block=60)
+    boundaries = tuple(
+        SemanticBoundary(
+            "episode-1",
+            timestamp,
+            blocks[index].passage_id,
+            blocks[index + 1].passage_id,
+            score,
+        )
+        for index, (timestamp, score) in enumerate(((60, 1.0), (120, 1.0), (180, 0.5)))
+    )
+    config = SemanticSegmentationConfig(
+        min_segment_seconds=60,
+        max_segment_seconds=600,
+        boundary_quantile=0.5,
+    )
+
+    selected = select_semantic_boundaries(blocks, boundaries, config)
+
+    assert [item.timestamp_seconds for item in selected if item.selected] == [60]
+
+
+@pytest.mark.parametrize(
+    ("vectors", "message"),
+    [
+        (np.ones((2, 2), dtype=np.float32), "rows"),
+        (np.array([[1.0, 0.0], [np.nan, 0.0], [1.0, 0.0]]), "finite"),
+        (np.array([[2.0, 0.0], [1.0, 0.0], [1.0, 0.0]]), "normalized"),
+    ],
+)
+def test_boundary_scoring_rejects_invalid_embedding_matrices(
+    vectors: np.ndarray, message: str
+) -> None:
+    with pytest.raises(ValueError, match=message):
+        score_semantic_boundaries(blocks_with_duration(3), vectors, SemanticSegmentationConfig())
+
+
+def test_boundary_scoring_rejects_blocks_from_multiple_episodes() -> None:
+    first = blocks_with_duration(2)
+    other_episode = episode_with_cues(count=2, seconds_per_cue=30, episode_id="episode-2")
+    second = build_atomic_blocks(other_episode, SemanticSegmentationConfig())
+    vectors = np.tile(np.array([[1.0, 0.0]], dtype=np.float32), (4, 1))
+
+    with pytest.raises(ValueError, match="one episode"):
+        score_semantic_boundaries((*first, *second), vectors, SemanticSegmentationConfig())
+
+
+def test_indivisible_overlong_block_has_no_legal_forced_boundary() -> None:
+    episode = episode_with_custom_cues([(0, 700, "one indivisible cue")])
+    config = SemanticSegmentationConfig(max_segment_seconds=600)
+    blocks = build_atomic_blocks(episode, config)
+
+    scored = score_semantic_boundaries(blocks, np.array([[1.0, 0.0]]), config)
+
+    assert scored == ()
+    assert select_semantic_boundaries(blocks, scored, config) == ()

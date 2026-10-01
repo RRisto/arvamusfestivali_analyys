@@ -27,7 +27,12 @@ from .plotting import (
     plot_topic_correspondence,
     plot_topic_sizes,
 )
-from .semantic_segmentation import build_atomic_blocks, build_atomic_blocks_many
+from .semantic_segmentation import (
+    build_atomic_blocks,
+    build_atomic_blocks_many,
+    score_semantic_boundaries,
+    select_semantic_boundaries,
+)
 from .types import (
     CanonicalEpisode,
     ChunkingConfig,
@@ -78,4 +83,6 @@ __all__ = [
     "plot_topic_correspondence",
     "plot_topic_sizes",
     "select_diverse_episodes",
+    "score_semantic_boundaries",
+    "select_semantic_boundaries",
 ]
