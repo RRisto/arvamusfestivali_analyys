@@ -166,6 +166,115 @@ class Passage:
 
 
 @dataclass(frozen=True, slots=True)
+class SemanticSegmentationConfig:
+    atomic_target_seconds: float = 30.0
+    atomic_max_seconds: float = 45.0
+    context_seconds: float = 60.0
+    min_segment_seconds: float = 90.0
+    max_segment_seconds: float = 600.0
+    boundary_quantile: float = 0.85
+
+    def __post_init__(self) -> None:
+        values = (
+            self.atomic_target_seconds,
+            self.atomic_max_seconds,
+            self.context_seconds,
+            self.min_segment_seconds,
+            self.max_segment_seconds,
+        )
+        if any(
+            isinstance(value, bool)
+            or not isinstance(value, int | float)
+            or not math.isfinite(value)
+            or value <= 0
+            for value in values
+        ):
+            raise ValueError("semantic segmentation durations must be finite and positive")
+        if self.atomic_target_seconds > self.atomic_max_seconds:
+            raise ValueError("atomic block durations must be ordered")
+        if self.min_segment_seconds > self.max_segment_seconds:
+            raise ValueError("semantic segment durations must be ordered")
+        if (
+            isinstance(self.boundary_quantile, bool)
+            or not isinstance(self.boundary_quantile, int | float)
+            or not math.isfinite(self.boundary_quantile)
+            or not 0 <= self.boundary_quantile <= 1
+        ):
+            raise ValueError("boundary_quantile must be between zero and one")
+
+    @property
+    def atomic_chunking(self) -> ChunkingConfig:
+        return ChunkingConfig(
+            min_seconds=self.atomic_target_seconds,
+            target_seconds=self.atomic_target_seconds,
+            max_seconds=self.atomic_max_seconds,
+            min_words=1,
+            max_words=1_000_000,
+            overlap_seconds=0,
+            merge_tail_seconds=0,
+            max_merged_seconds=self.atomic_max_seconds,
+        )
+
+
+@dataclass(frozen=True, slots=True)
+class SemanticBoundary:
+    episode_id: str
+    timestamp_seconds: float
+    left_block_id: str
+    right_block_id: str
+    score: float
+    selected: bool = False
+    forced: bool = False
+
+    def __post_init__(self) -> None:
+        _require_text(self.episode_id, "episode_id")
+        _require_text(self.left_block_id, "left_block_id")
+        _require_text(self.right_block_id, "right_block_id")
+        for value, name in (
+            (self.timestamp_seconds, "boundary timestamp"),
+            (self.score, "boundary score"),
+        ):
+            if (
+                isinstance(value, bool)
+                or not isinstance(value, int | float)
+                or not math.isfinite(value)
+                or value < 0
+            ):
+                raise ValueError(f"{name} must be finite and nonnegative")
+        if not isinstance(self.selected, bool) or not isinstance(self.forced, bool):
+            raise ValueError("boundary flags must be boolean")
+        if self.forced and not self.selected:
+            raise ValueError("forced boundary must also be selected")
+
+
+@dataclass(frozen=True, slots=True)
+class SemanticSegmentationResult:
+    passages: tuple[Passage, ...]
+    boundaries: tuple[SemanticBoundary, ...]
+
+    def __post_init__(self) -> None:
+        if (
+            not isinstance(self.passages, tuple)
+            or not self.passages
+            or any(not isinstance(item, Passage) for item in self.passages)
+        ):
+            raise ValueError("passages must be a nonempty tuple of Passage records")
+        if not isinstance(self.boundaries, tuple) or any(
+            not isinstance(item, SemanticBoundary) for item in self.boundaries
+        ):
+            raise ValueError("boundaries must be a tuple of SemanticBoundary records")
+        ids = tuple(item.passage_id for item in self.passages)
+        if len(set(ids)) != len(ids):
+            raise ValueError("passages must contain unique IDs")
+        last_by_episode: dict[str, float] = {}
+        for passage in self.passages:
+            last_end = last_by_episode.get(passage.episode_id)
+            if last_end is not None and passage.start_seconds < last_end:
+                raise ValueError("passages must be ordered and nonoverlapping per episode")
+            last_by_episode[passage.episode_id] = passage.end_seconds
+
+
+@dataclass(frozen=True, slots=True)
 class EmbeddingResult:
     model_key: str
     model_id: str

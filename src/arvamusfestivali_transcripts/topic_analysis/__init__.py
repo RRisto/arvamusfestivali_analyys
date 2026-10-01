@@ -27,6 +27,7 @@ from .plotting import (
     plot_topic_correspondence,
     plot_topic_sizes,
 )
+from .semantic_segmentation import build_atomic_blocks, build_atomic_blocks_many
 from .types import (
     CanonicalEpisode,
     ChunkingConfig,
@@ -34,6 +35,9 @@ from .types import (
     EmbeddingResult,
     ManualTopicReview,
     Passage,
+    SemanticBoundary,
+    SemanticSegmentationConfig,
+    SemanticSegmentationResult,
     TopicRun,
 )
 
@@ -49,9 +53,14 @@ __all__ = [
     "ManualTopicReview",
     "Passage",
     "QwenEmbedder",
+    "SemanticBoundary",
+    "SemanticSegmentationConfig",
+    "SemanticSegmentationResult",
     "TopicRun",
     "TopicModelConfig",
     "available_embedders",
+    "build_atomic_blocks",
+    "build_atomic_blocks_many",
     "chunk_episode",
     "chunk_episodes",
     "build_review_rows",
