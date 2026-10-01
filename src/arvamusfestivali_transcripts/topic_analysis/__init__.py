@@ -23,6 +23,7 @@ from .modelling import TopicModelConfig, fit_topic_model
 from .plotting import (
     plot_episode_timeline,
     plot_episode_topic_heatmap,
+    plot_semantic_boundaries,
     plot_semantic_map,
     plot_topic_correspondence,
     plot_topic_sizes,
@@ -81,6 +82,7 @@ __all__ = [
     "load_corpus",
     "plot_episode_timeline",
     "plot_episode_topic_heatmap",
+    "plot_semantic_boundaries",
     "plot_semantic_map",
     "plot_topic_correspondence",
     "plot_topic_sizes",

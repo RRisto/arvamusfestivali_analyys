@@ -3,6 +3,8 @@
 from __future__ import annotations
 
 import json
+from dataclasses import replace
+from pathlib import Path
 
 import numpy as np
 import pandas as pd
@@ -12,11 +14,18 @@ import pytest
 from arvamusfestivali_transcripts.topic_analysis.plotting import (
     plot_episode_timeline,
     plot_episode_topic_heatmap,
+    plot_semantic_boundaries,
     plot_semantic_map,
     plot_topic_correspondence,
     plot_topic_sizes,
 )
-from arvamusfestivali_transcripts.topic_analysis.types import Passage, TopicRun
+from arvamusfestivali_transcripts.topic_analysis.types import (
+    CanonicalEpisode,
+    Cue,
+    Passage,
+    SemanticBoundary,
+    TopicRun,
+)
 
 
 def make_passages() -> tuple[Passage, ...]:
@@ -189,3 +198,87 @@ def test_correspondence_hover_lists_every_contributing_passage_in_link() -> None
     _assert_readable_aggregate_hover(link.hovertemplate, link.customdata[0], 2)
     assert "#t=0" in link.customdata[0][1]
     assert "#t=60" in link.customdata[0][1]
+
+
+def boundary_plot_fixture() -> tuple[
+    CanonicalEpisode, tuple[Passage, ...], tuple[SemanticBoundary, ...]
+]:
+    cues = (
+        Cue(0, 30, "Education policy and teachers"),
+        Cue(30, 60, "Schools and learning conditions"),
+        Cue(60, 90, "Energy prices and electricity"),
+        Cue(90, 120, "Grid capacity and renewable power"),
+    )
+    episode = CanonicalEpisode(
+        episode_id="episode-1",
+        duplicate_episode_ids=("episode-1",),
+        title="Changing subjects",
+        published_at="2026-08-01T12:00:00Z",
+        audio_sha256="a" * 64,
+        duration_seconds=120,
+        audio_url="https://example.test/audio.mp3",
+        cues=cues,
+        source_paths=(Path("episode.json"),),
+    )
+    blocks = tuple(
+        Passage(
+            passage_id=f"episode-1:{start * 1000:012d}-{end * 1000:012d}",
+            episode_id="episode-1",
+            duplicate_episode_ids=("episode-1",),
+            title=episode.title,
+            start_seconds=start,
+            end_seconds=end,
+            text=cues[index].text,
+            audio_sha256=episode.audio_sha256,
+            audio_url=episode.audio_url,
+            word_count=len(cues[index].text.split()),
+            cue_count=1,
+        )
+        for index, (start, end) in enumerate(((0, 30), (30, 60), (60, 90), (90, 120)))
+    )
+    boundaries = (
+        SemanticBoundary(
+            "episode-1", 30, blocks[0].passage_id, blocks[1].passage_id, 0.1
+        ),
+        SemanticBoundary(
+            "episode-1",
+            60,
+            blocks[1].passage_id,
+            blocks[2].passage_id,
+            0.9,
+            selected=True,
+        ),
+        SemanticBoundary(
+            "episode-1",
+            90,
+            blocks[2].passage_id,
+            blocks[3].passage_id,
+            0.2,
+            selected=True,
+            forced=True,
+        ),
+    )
+    return episode, blocks, boundaries
+
+
+def test_boundary_plot_distinguishes_semantic_and_forced_cuts() -> None:
+    episode, blocks, boundaries = boundary_plot_fixture()
+
+    figure = plot_semantic_boundaries(episode, blocks, boundaries)
+
+    assert isinstance(figure, go.Figure)
+    assert "semantic" in figure.layout.title.text.lower()
+    names = {trace.name for trace in figure.data}
+    assert {"Boundary score", "Selected semantic cut", "Forced maximum cut"} <= names
+    payload = json.dumps(figure.to_plotly_json())
+    assert "left excerpt" in payload.lower()
+    assert "right excerpt" in payload.lower()
+    assert "#t=60" in payload
+
+
+def test_boundary_plot_rejects_other_episode_blocks() -> None:
+    episode, blocks, boundaries = boundary_plot_fixture()
+    foreign = replace(blocks[0], episode_id="other")
+
+    with pytest.raises(ValueError, match="episode"):
+        plot_semantic_boundaries(episode, (foreign, *blocks[1:]), boundaries)

@@ -10,7 +10,7 @@ from html import escape
 import plotly.graph_objects as go
 from plotly.colors import qualitative
 
-from .types import Passage, TopicRun
+from .types import CanonicalEpisode, Passage, SemanticBoundary, TopicRun
 
 _COLORS = qualitative.Safe
 _OUTLIER_COLOR = "#777777"
@@ -231,4 +231,86 @@ def plot_topic_correspondence(
         text="Links count shared passage assignments; outliers and zero-overlap links are omitted.",
         xref="paper", yref="paper", x=0, y=-0.12, showarrow=False, xanchor="left",
     )
+    return figure
+
+
+def plot_semantic_boundaries(
+    episode: CanonicalEpisode,
+    blocks: Sequence[Passage],
+    boundaries: Sequence[SemanticBoundary],
+) -> go.Figure:
+    """Show contextual change scores and the semantic or forced cuts selected from them."""
+    block_items = tuple(blocks)
+    diagnostics = tuple(boundaries)
+    if not block_items or any(item.episode_id != episode.episode_id for item in block_items):
+        raise ValueError("atomic blocks must be nonempty and match the episode")
+    if len({item.passage_id for item in block_items}) != len(block_items):
+        raise ValueError("atomic block IDs must be unique")
+    if len(diagnostics) != max(0, len(block_items) - 1):
+        raise ValueError("boundaries must describe adjacent atomic blocks")
+    for index, boundary in enumerate(diagnostics):
+        left = block_items[index]
+        right = block_items[index + 1]
+        if (
+            boundary.episode_id != episode.episode_id
+            or boundary.left_block_id != left.passage_id
+            or boundary.right_block_id != right.passage_id
+            or boundary.timestamp_seconds != right.start_seconds
+        ):
+            raise ValueError("boundaries must match the episode block IDs and order")
+
+    def excerpt(text: str) -> str:
+        compact = " ".join(text.split())
+        return compact if len(compact) <= 180 else compact[:179].rstrip() + "…"
+
+    rows = [
+        [
+            excerpt(block_items[index].text),
+            excerpt(block_items[index + 1].text),
+            f"{episode.audio_url}#t={boundary.timestamp_seconds:g}",
+        ]
+        for index, boundary in enumerate(diagnostics)
+    ]
+    hover = (
+        "Time %{x:.2f} min<br>Score %{y:.3f}<br>"
+        "Left excerpt: %{customdata[0]}<br>Right excerpt: %{customdata[1]}<br>"
+        "%{customdata[2]}<extra></extra>"
+    )
+    figure = _base(f"{episode.title}: semantic boundary diagnostics")
+    figure.add_trace(go.Scatter(
+        x=[item.timestamp_seconds / 60 for item in diagnostics],
+        y=[item.score for item in diagnostics],
+        mode="lines+markers",
+        name="Boundary score",
+        customdata=rows,
+        line={"color": "#4C78A8"},
+        hovertemplate=hover,
+    ))
+    for name, forced, color, symbol in (
+        ("Selected semantic cut", False, "#2E8B57", "diamond"),
+        ("Forced maximum cut", True, "#C44E52", "x"),
+    ):
+        indices = [
+            index
+            for index, item in enumerate(diagnostics)
+            if item.selected and item.forced is forced
+        ]
+        figure.add_trace(go.Scatter(
+            x=[diagnostics[index].timestamp_seconds / 60 for index in indices],
+            y=[diagnostics[index].score for index in indices],
+            mode="markers",
+            name=name,
+            customdata=[rows[index] for index in indices],
+            marker={"color": color, "size": 12, "symbol": symbol},
+            hovertemplate=hover,
+        ))
+        for index in indices:
+            figure.add_vline(
+                x=diagnostics[index].timestamp_seconds / 60,
+                line_dash="dash",
+                line_color=color,
+                opacity=0.55,
+            )
+    figure.update_xaxes(title="Recording time (minutes)", rangemode="tozero")
+    figure.update_yaxes(title="Contextual cosine distance", rangemode="tozero")
     return figure
