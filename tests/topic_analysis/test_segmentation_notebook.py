@@ -9,6 +9,7 @@ import sys
 from pathlib import Path
 
 import nbformat
+import pandas as pd
 from nbclient import NotebookClient
 
 from arvamusfestivali_transcripts.archive import write_archive
@@ -65,6 +66,7 @@ def test_segmentation_notebook_executes_offline_for_both_modes(
         write_archive(copied, payload, force=True)
 
     monkeypatch.setenv("TOPIC_ANALYSIS_PROJECT_ROOT", str(project_root))
+    monkeypatch.setenv("TOPIC_ANALYSIS_RESULT_ROOT", str(project_root / "results"))
     notebook = nbformat.read(NOTEBOOK, as_version=4)
     config = next(
         cell
@@ -98,3 +100,36 @@ def test_segmentation_notebook_executes_offline_for_both_modes(
     assert "modes=fixed,semantic" in output
     assert "runs=4" in output
     assert "boundary_figures=1" in output
+
+    results = project_root / "results"
+    metrics = pd.read_csv(results / "fine-metrics.csv")
+    assert len(metrics) == 32
+    assert set(metrics["method"]) == {"eom", "leaf"}
+    stability = pd.read_csv(results / "seed-stability.csv")
+    assert len(stability) == 16
+    for mode in ("fixed", "semantic"):
+        for key in ("qwen", "bge"):
+            output_dir = results / f"{mode}-{key}" / "leaf-6-2" / "seed-42"
+            assignments = pd.read_csv(output_dir / "passage-assignments.csv")
+            assert assignments["passage_id"].is_unique
+            assert assignments["audio_link"].str.contains("#t=", regex=False).all()
+            assert assignments["text"].notna().all()
+            profiles = pd.read_csv(output_dir / "talk-topics.csv")
+            assert profiles["fraction_of_analyzed_talk"].between(0, 1).all()
+            assert set(profiles["episode_id"]) == set(assignments["episode_id"])
+            outliers = pd.read_csv(output_dir / "outliers.csv")
+            assert len(outliers) == int((assignments["topic_id"] == -1).sum())
+            manifest = json.loads((output_dir / "manifest.json").read_text())
+            assert manifest["dry_run"] is True
+            assert manifest["parameters"]["method"] == "leaf"
+
+
+def test_talk_coverage_unions_overlapping_intervals() -> None:
+    notebook = nbformat.read(NOTEBOOK, as_version=4)
+    export = next(c for c in notebook.cells if "def interval_union_seconds" in c.source)
+    function_source = export.source.split("\n\nfor (mode, key, candidate, seed)")[0]
+    namespace = {}
+    exec(function_source, namespace)
+    union = namespace["interval_union_seconds"]
+    assert union([(10, 30), (0, 20), (40, 50), (12, 15)]) == 40
+    assert union([]) == 0

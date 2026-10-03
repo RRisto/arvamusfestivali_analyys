@@ -64,6 +64,7 @@ def _umap_options(config: TopicModelConfig, dimensions: int) -> dict[str, object
 def _build_bertopic(config: TopicModelConfig) -> object:
     umap_class, hdbscan_class, vectorizer_class, bertopic_class = _model_classes()
     return bertopic_class(
+        language="multilingual",
         embedding_model=None,
         umap_model=umap_class(**_umap_options(config, config.n_components)),
         hdbscan_model=hdbscan_class(

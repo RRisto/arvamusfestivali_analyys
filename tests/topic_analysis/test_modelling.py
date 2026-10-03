@@ -190,3 +190,15 @@ def test_real_bertopic_fits_all_outliers_without_model_download(monkeypatch) -> 
     assert run.clustering_embeddings.shape == (16, 3)
     assert run.reduced_embeddings.shape == (16, 2)
     assert np.array_equal(run.clustering_embeddings, model.hdbscan_model._raw_data)
+
+
+def test_topic_preprocessing_preserves_estonian_letters() -> None:
+    from arvamusfestivali_transcripts.topic_analysis.modelling import (
+        TopicModelConfig,
+        _build_bertopic,
+    )
+
+    model = _build_bertopic(TopicModelConfig())
+    assert model._preprocess_text(["Töökius ja kaugkütte mõju õpilastele"]) == [
+        "Töökius ja kaugkütte mõju õpilastele"
+    ]
