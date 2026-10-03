@@ -47,9 +47,7 @@ def make_passages() -> tuple[Passage, ...]:
     )
 
 
-def make_run(
-    model_key: str = "qwen", topics: tuple[int, ...] = (0, 1, 0, -1)
-) -> TopicRun:
+def make_run(model_key: str = "qwen", topics: tuple[int, ...] = (0, 1, 0, -1)) -> TopicRun:
     return TopicRun(
         model_key=model_key,
         topics=np.array(topics),
@@ -237,9 +235,7 @@ def boundary_plot_fixture() -> tuple[
         for index, (start, end) in enumerate(((0, 30), (30, 60), (60, 90), (90, 120)))
     )
     boundaries = (
-        SemanticBoundary(
-            "episode-1", 30, blocks[0].passage_id, blocks[1].passage_id, 0.1
-        ),
+        SemanticBoundary("episode-1", 30, blocks[0].passage_id, blocks[1].passage_id, 0.1),
         SemanticBoundary(
             "episode-1",
             60,
@@ -282,3 +278,30 @@ def test_boundary_plot_rejects_other_episode_blocks() -> None:
 
     with pytest.raises(ValueError, match="episode"):
         plot_semantic_boundaries(episode, (foreign, *blocks[1:]), boundaries)
+
+
+@pytest.mark.parametrize(
+    "builder",
+    [plot_semantic_map, plot_topic_sizes, plot_episode_topic_heatmap, plot_episode_timeline],
+)
+def test_chart_labels_prefer_llm_names_and_preserve_topic_ids(builder) -> None:
+    run = make_run()
+    run.topic_info["LLM_Name"] = [None, "Õpetajate töötingimused", None]
+    payload = json.dumps(builder(run, make_passages()).to_plotly_json(), ensure_ascii=False)
+    assert "Topic 0 · Õpetajate töötingimused" in payload
+    assert "Topic 1 · Health" in payload
+    assert "Outlier (−1)" in payload
+
+
+def test_correspondence_resolves_names_from_each_model_separately() -> None:
+    first = make_run()
+    second = make_run("bge")
+    first.topic_info["LLM_Name"] = [None, "Haridus", "Tervis"]
+    second.topic_info["LLM_Name"] = [None, "Õpetajad", "Ravimid"]
+    labels = (
+        plot_topic_correspondence({"qwen": first, "bge": second}, make_passages())
+        .data[0]
+        .node.label
+    )
+    assert "qwen · Topic 0 · Haridus" in labels
+    assert "bge · Topic 0 · Õpetajad" in labels

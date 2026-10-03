@@ -29,8 +29,17 @@ def _validate(run: TopicRun, passages: Sequence[Passage]) -> None:
         raise ValueError("passage IDs must be unique")
 
 
-def _topic_label(topic: int) -> str:
-    return "Outlier (−1)" if topic == -1 else f"Topic {topic}"
+def _topic_label(topic: int, run: TopicRun) -> str:
+    if topic == -1:
+        return "Outlier (−1)"
+    rows = run.topic_info.loc[run.topic_info.Topic == topic]
+    if not rows.empty:
+        for column in ("LLM_Name", "Name"):
+            if column in rows:
+                value = rows.iloc[0][column]
+                if isinstance(value, str) and value.strip():
+                    return f"Topic {topic} · {escape(value)}"
+    return f"Topic {topic}"
 
 
 def _topic_color(topic: int) -> str:
@@ -90,10 +99,10 @@ def plot_semantic_map(run: TopicRun, passages: Sequence[Passage]) -> go.Figure:
             x=[float(run.reduced_embeddings[index, 0]) for index in indices],
             y=[float(run.reduced_embeddings[index, 1]) for index in indices],
             mode="markers",
-            name=_topic_label(topic),
+            name=_topic_label(topic, run),
             marker={"color": _topic_color(topic), "size": 10, "opacity": 0.85},
             customdata=[_source(passages[index]) for index in indices],
-            hovertemplate=_HOVER,
+            hovertemplate=_topic_label(topic, run) + "<br>" + _HOVER,
         ))
     figure.update_xaxes(title="Projection dimension 1")
     figure.update_yaxes(title="Projection dimension 2")
@@ -117,13 +126,13 @@ def plot_topic_sizes(run: TopicRun, passages: Sequence[Passage]) -> go.Figure:
     topics = sorted(grouped)
     figure = _base(f"{run.model_key}: passage counts by topic")
     figure.add_trace(go.Bar(
-        x=[_topic_label(topic) for topic in topics],
+        x=[_topic_label(topic, run) for topic in topics],
         y=[len(grouped[topic]) for topic in topics],
         marker_color=[_topic_color(topic) for topic in topics],
         customdata=[_group_source(grouped[topic]) for topic in topics],
         hovertemplate="%{x}: %{y} passages<br>%{customdata[1]}<extra></extra>",
     ))
-    figure.update_xaxes(title="Topic ID")
+    figure.update_xaxes(title="Topic")
     figure.update_yaxes(title="Passage count", rangemode="tozero")
     return figure
 
@@ -151,7 +160,7 @@ def plot_episode_topic_heatmap(
         f"{run.model_key}: episode topic {'duration share' if normalized else 'duration'}"
     )
     figure.add_trace(go.Heatmap(
-        x=[_topic_label(topic) for topic in topics],
+        x=[_topic_label(topic, run) for topic in topics],
         y=episodes,
         z=values,
         customdata=[[_group_source(grouped[(episode, topic)]) for topic in topics]
@@ -161,7 +170,7 @@ def plot_episode_topic_heatmap(
         hovertemplate="Episode %{y}<br>%{x}: %{z:.2f}<br>"
         "%{customdata[1]}<extra></extra>",
     ))
-    figure.update_xaxes(title="Topic ID")
+    figure.update_xaxes(title="Topic")
     figure.update_yaxes(title="Episode ID")
     return figure
 
@@ -178,10 +187,10 @@ def plot_episode_timeline(run: TopicRun, passages: Sequence[Passage]) -> go.Figu
             base=[item.start_seconds / 60 for item in selected],
             y=[f"{item.episode_id} · {item.passage_id}" for item in selected],
             orientation="h",
-            name=_topic_label(topic),
+            name=_topic_label(topic, run),
             marker_color=_topic_color(topic),
             customdata=[_source(item) for item in selected],
-            hovertemplate=_HOVER,
+            hovertemplate=_topic_label(topic, run) + "<br>" + _HOVER,
         ))
     figure.update_layout(barmode="overlay", height=max(400, 85 + 32 * len(passages)))
     figure.update_xaxes(title="Recording time (minutes)", rangemode="tozero")
@@ -206,8 +215,8 @@ def plot_topic_correspondence(
             overlap[(int(left), int(right))].append(passage)
     left_topics = sorted({left for left, _ in overlap})
     right_topics = sorted({right for _, right in overlap})
-    labels = [f"{first_key} · {_topic_label(topic)}" for topic in left_topics]
-    labels += [f"{second_key} · {_topic_label(topic)}" for topic in right_topics]
+    labels = [f"{first_key} · {_topic_label(topic, first)}" for topic in left_topics]
+    labels += [f"{second_key} · {_topic_label(topic, second)}" for topic in right_topics]
     left_indices = {topic: index for index, topic in enumerate(left_topics)}
     right_indices = {
         topic: index + len(left_topics) for index, topic in enumerate(right_topics)
