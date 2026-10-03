@@ -1,0 +1,18 @@
+{
+  "topic_counts": {
+    "semantic": 236,
+    "fixed": 346
+  },
+  "centroid_method": "Normalized mean original BGE segment embedding; equal segment weights.",
+  "projection": {
+    "method": "joint UMAP",
+    "n_neighbors": 15,
+    "n_components": 2,
+    "metric": "cosine",
+    "min_dist": 0.15,
+    "random_state": 42
+  },
+  "marker_size": "Area proportional to assigned segment count.",
+  "outliers": "Topic -1 excluded: it is unassigned content, not a coherent topic.",
+  "interpretation": "Nearby topics have similar centroids; 2D distances are approximate."
+}

@@ -33,6 +33,7 @@ topic-analysis = [
     "numpy>=2,<3",
     "pandas>=2.2,<3",
     "plotly>=6,<7",
+    "pyarrow>=19,<26",
     "scikit-learn>=1.6,<2",
     "sentence-transformers>=5,<6",
     "torch>=2.7,<3",

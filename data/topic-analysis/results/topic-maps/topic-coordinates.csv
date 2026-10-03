@@ -1,0 +1,583 @@
+topic_id,topic_name,segment_count,talk_count,segmentation,model_key,x,y
+0,"äärmuslus, radikaliseerunud, radikaliseerumise, heidi",39,8,semantic,semantic:bge:leaf-local-6-2:42,6.605212,3.6564343
+1,"tööinspektsiooni, kaire, töökeskkonna, tööohutuse",35,3,semantic,semantic:bge:leaf-local-6-2:42,5.8794193,0.9728675
+2,"vähitõrje, vähi, patsiendi, vähk",35,7,semantic,semantic:bge:leaf-local-6-2:42,7.3438478,7.239091
+3,"juht, juhi, organisatsioonis, paavo",34,7,semantic,semantic:bge:leaf-local-6-2:42,6.5150514,1.0976514
+4,"alusharidus, alushariduse, alushariduses, lasteaias",33,3,semantic,semantic:bge:leaf-local-6-2:42,9.647126,5.094543
+5,"tuhat nelikümmend, laenu, tuleb raha, rohetehnoloogia",32,10,semantic,semantic:bge:leaf-local-6-2:42,2.915543,5.257509
+6,"isikukood, isikukoodi, agent, agente",31,4,semantic,semantic:bge:leaf-local-6-2:42,8.546618,1.8932921
+7,"tagasiside, hindamine, hinne, hindamise",30,3,semantic,semantic:bge:leaf-local-6-2:42,9.465756,4.2917495
+8,"iisraeli, palestiina, iisrael, lähis",29,3,semantic,semantic:bge:leaf-local-6-2:42,3.5980363,3.0233145
+9,"assistent, assistendi, google, ai",29,8,semantic,semantic:bge:leaf-local-6-2:42,8.867574,1.8162854
+10,"nõusoleku, nõusolek, suhte, nõusolekus",26,7,semantic,semantic:bge:leaf-local-6-2:42,6.6791487,4.1265597
+11,"nutitelefon, videosid, produktiivne, multikaid",25,6,semantic,semantic:bge:leaf-local-6-2:42,7.5999427,3.6597624
+12,"lapsi, kodanikupalga, partneri, hoiak",24,3,semantic,semantic:bge:leaf-local-6-2:42,5.6038074,2.0532084
+13,"kodus, lapsega, tööandja, emaks",23,4,semantic,semantic:bge:leaf-local-6-2:42,5.7430286,1.8169326
+14,"üksilduse, üksildus, üksildasena, üksildust",23,4,semantic,semantic:bge:leaf-local-6-2:42,6.477104,4.725332
+15,"lasteaias, lapsevanem, lasteaia, lapse",23,7,semantic,semantic:bge:leaf-local-6-2:42,9.008548,5.1329117
+16,"töökius, töökiusu, töökiusamise, kius",23,4,semantic,semantic:bge:leaf-local-6-2:42,6.2973814,0.82712257
+17,"vesiniku, biometaani, biogaasi, vesinikku",23,7,semantic,semantic:bge:leaf-local-6-2:42,2.2952523,6.1786895
+18,"kaido, tööandja, töötaja, töövaidluskomisjoni",23,2,semantic,semantic:bge:leaf-local-6-2:42,6.161524,1.0630258
+19,"teadlane, teadlased, teadlase, ajakirjandus",23,5,semantic,semantic:bge:leaf-local-6-2:42,6.311153,3.1898346
+20,"telefonis, telefoni, nutitelefoni, marit",23,5,semantic,semantic:bge:leaf-local-6-2:42,7.8656516,3.6833103
+21,"töötukassa, haiguslehe, töövõime, tööturult",22,7,semantic,semantic:bge:leaf-local-6-2:42,6.1322503,1.4437488
+22,"ukraine, really, companies, think",22,4,semantic,semantic:bge:leaf-local-6-2:42,2.8809457,3.003187
+23,"malev, maleva, malevas, malevast",22,3,semantic,semantic:bge:leaf-local-6-2:42,8.676343,3.8784647
+24,"kliima, rohepööre, kliimamuutus, euroopa",22,8,semantic,semantic:bge:leaf-local-6-2:42,3.1667683,6.2827086
+25,"doktorantuuri, doktorant, teadmussiirde, doktorantuur",22,4,semantic,semantic:bge:leaf-local-6-2:42,10.3582,3.20547
+26,"religiooni, islam, religioon, maailmavaade",22,2,semantic,semantic:bge:leaf-local-6-2:42,6.2192373,4.064287
+27,"reis, reisile, reisida, reisid",21,2,semantic,semantic:bge:leaf-local-6-2:42,4.784531,2.726483
+28,"järvamaa, õppima, järvamaal, jõhvi",21,3,semantic,semantic:bge:leaf-local-6-2:42,9.70733,3.0808773
+29,"nato, läänemere, läänemeremaade, venemaa",21,5,semantic,semantic:bge:leaf-local-6-2:42,3.4134827,2.9950154
+30,"hambaarsti, hammaste, hambaarst, narkoosis",21,2,semantic,semantic:bge:leaf-local-6-2:42,8.109839,5.8564687
+31,"valimiste, erjk, valimistava, valvurid",21,3,semantic,semantic:bge:leaf-local-6-2:42,5.7020197,4.0276165
+32,"ennetuse, perearsti, vererõhk, ennetus",21,6,semantic,semantic:bge:leaf-local-6-2:42,7.394376,6.6639533
+33,"hääled, seisate, ristike, demokraatia",20,10,semantic,semantic:bge:leaf-local-6-2:42,5.7185597,4.301636
+34,"mtü, vabaühenduste, vabakond, närvi",20,1,semantic,semantic:bge:leaf-local-6-2:42,4.6875033,4.3062553
+35,"kohtute, menetluse, rahvakohtunik, kohtusse",20,1,semantic,semantic:bge:leaf-local-6-2:42,6.7883677,2.5110793
+36,"lastekodus, marina, lastekodu, kaarel",20,2,semantic,semantic:bge:leaf-local-6-2:42,8.336609,4.954161
+37,"vesi, vee, vett, nõel",20,5,semantic,semantic:bge:leaf-local-6-2:42,2.894676,5.8940396
+38,"keelt, keel, inglise, keele",20,5,semantic,semantic:bge:leaf-local-6-2:42,4.684138,2.4440725
+39,"vasakpoolsed, vasakpoolsuse, vasakpoolseid, vasakpoolsete",20,2,semantic,semantic:bge:leaf-local-6-2:42,5.4135895,3.8513186
+40,"seksuaalkasvatus, inimeseõpetuse, seksuaalkasvatuse, peenis",20,4,semantic,semantic:bge:leaf-local-6-2:42,7.9154496,4.3895025
+41,"pilte, postitada, postitavad, pildi",20,4,semantic,semantic:bge:leaf-local-6-2:42,7.6158876,3.4253864
+42,"ida, ida viru, piiriala, viru",19,5,semantic,semantic:bge:leaf-local-6-2:42,4.685129,5.5357814
+43,"välistööjõu, välismaalane, ppa, inimkaubandus",19,2,semantic,semantic:bge:leaf-local-6-2:42,4.817268,1.7448226
+44,"tööstused, emissioon, metaan, energia",19,7,semantic,semantic:bge:leaf-local-6-2:42,2.4990294,5.9138336
+45,"riigikaitse, naiskodukaitse, kaitseliidu, lai riigikaitse",19,4,semantic,semantic:bge:leaf-local-6-2:42,2.0985258,3.2543707
+46,"kohus, väärtushinnang, hageja, kohtusse",19,2,semantic,semantic:bge:leaf-local-6-2:42,6.8173227,2.8296692
+47,"kaalu, rasvunud, ülekaal, kehamassi",19,1,semantic,semantic:bge:leaf-local-6-2:42,7.887251,6.2823863
+48,"toidujulgeoleku, toidujulgeolek, teravilja, hannes",19,3,semantic,semantic:bge:leaf-local-6-2:42,3.242918,5.490661
+49,"keeles, eesti keeles, mudelid, mudeli",19,4,semantic,semantic:bge:leaf-local-6-2:42,8.500722,2.3323395
+50,"annetajate, organisatsiooni, annetaja, annetusi",19,2,semantic,semantic:bge:leaf-local-6-2:42,4.41943,4.0825725
+51,"toitu, parim enne, kõlblik, toidu",19,3,semantic,semantic:bge:leaf-local-6-2:42,3.4865973,5.4658346
+52,"itaalia, itaalias, saksamaal, saksamaa",18,3,semantic,semantic:bge:leaf-local-6-2:42,3.1995566,3.040777
+53,"koolivõrgu, koolivõrku, koolid, koolivõrk",18,5,semantic,semantic:bge:leaf-local-6-2:42,9.80078,4.2281146
+54,"konventsiooni, istanbuli, konventsioon, vägivalla",18,2,semantic,semantic:bge:leaf-local-6-2:42,4.477794,3.2051826
+55,"püsimetsa, püsimetsandus, lageraie, püsimetsanduse",18,1,semantic,semantic:bge:leaf-local-6-2:42,1.1669815,4.6874294
+56,"korterid, kodu, käibemaksu, kortereid",18,3,semantic,semantic:bge:leaf-local-6-2:42,4.979286,6.110764
+57,"tugevusi, tugevuste, õppekava, tugevused",18,3,semantic,semantic:bge:leaf-local-6-2:42,9.539641,4.2462316
+58,"türgis, türgi, hambad, vahendaja",18,1,semantic,semantic:bge:leaf-local-6-2:42,7.142284,6.9840293
+59,"loomemajanduse, kunsti, kultuuri, loomemajandus",18,2,semantic,semantic:bge:leaf-local-6-2:42,4.051818,4.619487
+60,"andmeid, ulatuses, rünnati, instrumendid",18,10,semantic,semantic:bge:leaf-local-6-2:42,7.3754034,2.8010793
+61,"elurikkuse, ando, elurikkust, toyota",18,2,semantic,semantic:bge:leaf-local-6-2:42,2.4483516,6.0036764
+62,"raudtee, rail, rail baltic, raudteed",18,6,semantic,semantic:bge:leaf-local-6-2:42,4.2918386,5.6250477
+63,"parooli, häkker, parool, wifi",18,1,semantic,semantic:bge:leaf-local-6-2:42,7.9328647,2.3646848
+64,"unistamine, unistamise, kahekümne viie, peep",18,4,semantic,semantic:bge:leaf-local-6-2:42,5.723331,4.8346777
+65,"elamisluba, untsu, masin, otsus",17,1,semantic,semantic:bge:leaf-local-6-2:42,8.391239,2.0498922
+66,"noorte heaolu, noor, reelika, noorte",17,3,semantic,semantic:bge:leaf-local-6-2:42,7.2169533,4.3201556
+67,"perearst, perearsti, peremeditsiini, eriarsti",17,1,semantic,semantic:bge:leaf-local-6-2:42,7.1716657,6.756198
+68,"õpilasfirma, isabella, omari, ettevõtlikkuse",17,4,semantic,semantic:bge:leaf-local-6-2:42,9.572029,3.764487
+69,"kohtla, kohtla järvel, tuumajaama, järvel",17,10,semantic,semantic:bge:leaf-local-6-2:42,2.1947982,6.564543
+70,"õpiampsu, õpiamps, circle, anneli",17,3,semantic,semantic:bge:leaf-local-6-2:42,9.665698,3.2008169
+71,"miinimumpalk, miinimumpalga, miinimumpalka, palk",17,2,semantic,semantic:bge:leaf-local-6-2:42,5.4048395,1.6289637
+72,"looduskaitse, metsa, gunnar, aira",17,4,semantic,semantic:bge:leaf-local-6-2:42,1.6392236,4.6226387
+73,"ühistu, korteriühistu, ühistus, ühistud",17,2,semantic,semantic:bge:leaf-local-6-2:42,5.139512,5.8583055
+74,"natalja, keelt, eesti keelt, keele",16,4,semantic,semantic:bge:leaf-local-6-2:42,4.4546795,2.5265253
+75,"põhja pärnumaa, ingrid, tootsi, pärnumaa",16,5,semantic,semantic:bge:leaf-local-6-2:42,3.9099793,6.7540436
+76,"tehisintellekt, kassi, lasteabi, chat",16,3,semantic,semantic:bge:leaf-local-6-2:42,7.885326,3.2213907
+77,"ravikindlustus, ravikindlustust, vabakutseline, ravikindlustus kõigile",16,2,semantic,semantic:bge:leaf-local-6-2:42,4.8117323,4.608004
+78,"muuseumi, muuseum, muuseumit, valla",16,1,semantic,semantic:bge:leaf-local-6-2:42,5.666334,5.107564
+79,"saara, sõbrad, jäi silma, ning",16,5,semantic,semantic:bge:leaf-local-6-2:42,6.337475,4.0586495
+80,"kaitsevägi, varude, sõda, varusid",16,4,semantic,semantic:bge:leaf-local-6-2:42,2.561719,3.1382275
+81,"eelarve, rail, ave, balticu",16,1,semantic,semantic:bge:leaf-local-6-2:42,2.9583378,3.7500637
+82,"vanus, cv, coach, tööelus",16,2,semantic,semantic:bge:leaf-local-6-2:42,6.406257,1.4785069
+83,"kaitsekulude, viie protsendi, toomas, kaimo",16,3,semantic,semantic:bge:leaf-local-6-2:42,2.7241185,3.240926
+84,"surmast, surm, surma, suremise",16,4,semantic,semantic:bge:leaf-local-6-2:42,7.09445,5.966106
+85,"koolijuht, tippjuht, koolijuhi, mudru",16,2,semantic,semantic:bge:leaf-local-6-2:42,9.72315,4.285857
+86,"tänavakunst, tänavakunsti, graffiti, grafiti",16,1,semantic,semantic:bge:leaf-local-6-2:42,6.752655,3.6487179
+87,"fosforit, fosforiidi, fosforiidiga, fosforiit",16,2,semantic,semantic:bge:leaf-local-6-2:42,3.032194,7.1999807
+88,"õppejõud, üliõpilane, tudeng, tehisintellekti",16,4,semantic,semantic:bge:leaf-local-6-2:42,9.1016245,2.9301796
+89,"vägistamine, dementsusega, pihlakodu, asutus",15,1,semantic,semantic:bge:leaf-local-6-2:42,6.8183613,4.8091784
+90,"kontoris, kaugtöö, kontorisse, kell",15,5,semantic,semantic:bge:leaf-local-6-2:42,6.5641613,1.1406035
+91,"looduskaitse, riigikaitse, loodus, keskkonnakaitse",15,1,semantic,semantic:bge:leaf-local-6-2:42,1.8733219,3.825155
+92,"ugri, soome ugri, soome, komi",15,1,semantic,semantic:bge:leaf-local-6-2:42,4.6468205,2.4006176
+93,"people, know, estonian, estonia",15,1,semantic,semantic:bge:leaf-local-6-2:42,3.792529,2.3879452
+94,"omavalitsus, põlva, ametnik, kokkulepe",15,2,semantic,semantic:bge:leaf-local-6-2:42,4.6401343,5.9745617
+95,"margus, seksuaalne, väärkohtlevad, veebis",15,1,semantic,semantic:bge:leaf-local-6-2:42,7.573567,3.5091665
+96,"think, yes, thank, don",15,1,semantic,semantic:bge:leaf-local-6-2:42,3.2829084,2.5755808
+97,"armeenia, humanitaarabi, arengukoostöö, ning",15,2,semantic,semantic:bge:leaf-local-6-2:42,3.8874702,3.5475664
+98,"kõrghariduse, kõrgharidus, üliõpilased, elamiskulusid",15,3,semantic,semantic:bge:leaf-local-6-2:42,10.276227,3.689998
+99,"hingamise, teadveloleku, märkan, enesekaastunne",15,2,semantic,semantic:bge:leaf-local-6-2:42,6.730779,1.4507006
+100,"riina, ajateenistus, lavly, naised",15,2,semantic,semantic:bge:leaf-local-6-2:42,2.0542276,3.1152263
+101,"treeneri, kehalise, trennis, liikuma",15,3,semantic,semantic:bge:leaf-local-6-2:42,9.092368,4.821407
+102,"hispaaniasse, reservväelane, reservväelase, reservväelased",15,3,semantic,semantic:bge:leaf-local-6-2:42,2.1076965,3.2426193
+103,"ruumipoliitika, üleriigiline planeering, planeering, üleriigiline",15,5,semantic,semantic:bge:leaf-local-6-2:42,4.647664,5.9401917
+104,"ameerika, donald, trump, trumpi",14,3,semantic,semantic:bge:leaf-local-6-2:42,5.1819296,3.2138615
+105,"viirus, vaktsiin, vaktsiini, surnud",14,2,semantic,semantic:bge:leaf-local-6-2:42,3.3139157,5.663881
+106,"ajateenistuse, ajateenistus, ajateenistuses, väljaõpe",14,4,semantic,semantic:bge:leaf-local-6-2:42,2.0612118,3.103126
+107,"ussike, täht, fookus, aju ütleb",14,2,semantic,semantic:bge:leaf-local-6-2:42,8.742515,4.8382344
+108,"kultuuriretsept, ülla, kultuuriretsepti, ülla karin",14,1,semantic,semantic:bge:leaf-local-6-2:42,6.0857635,5.308606
+109,"näpuga, energiakulu, ai, madis",14,2,semantic,semantic:bge:leaf-local-6-2:42,8.787707,2.368729
+110,"küberturvalisuse, perearstikeskuse, perearstikeskused, perearstikeskus",14,1,semantic,semantic:bge:leaf-local-6-2:42,6.7319536,6.646214
+111,"diabeedi, diabeet, diabeeti, krooniliste",14,2,semantic,semantic:bge:leaf-local-6-2:42,7.7794952,6.7918644
+112,"autoriõiguse, keiti, kõhus, priit",14,2,semantic,semantic:bge:leaf-local-6-2:42,8.658469,2.163758
+113,"reklaam, reklaami, merike, reklaame",14,2,semantic,semantic:bge:leaf-local-6-2:42,5.2786307,4.6520357
+114,"progressiivsus, sotsiaalmeedias, sisu, ideoloogiliselt",14,2,semantic,semantic:bge:leaf-local-6-2:42,6.3603225,3.3971264
+115,"info, patsiendi autonoomia, tervishoiutöötaja, infot",13,2,semantic,semantic:bge:leaf-local-6-2:42,7.5576034,7.0900373
+116,"markus, programmeerimine, ukse vahele, ott",13,2,semantic,semantic:bge:leaf-local-6-2:42,9.677312,2.707665
+117,"kaugkütte, kaugküte, soojuspump, hind",13,4,semantic,semantic:bge:leaf-local-6-2:42,2.2327373,7.0611854
+118,"visioon, visiooni, väärtused, maria",13,3,semantic,semantic:bge:leaf-local-6-2:42,5.108408,3.975784
+119,"ikt, wise, tehnoloogiasektoris, naisi",13,1,semantic,semantic:bge:leaf-local-6-2:42,9.618552,2.8588762
+120,"praegu hetkel, ai, praegusel hetkel, korstnasse",13,5,semantic,semantic:bge:leaf-local-6-2:42,8.745835,2.1598468
+121,"ukraina, kolisin, eestlane, tulin eestisse",13,6,semantic,semantic:bge:leaf-local-6-2:42,4.4930754,2.4854171
+122,"kaidi, tujuga, tööga, hea tujuga",13,2,semantic,semantic:bge:leaf-local-6-2:42,6.6403065,1.2946177
+123,"startup, ink, luksemburgi, fondi",13,2,semantic,semantic:bge:leaf-local-6-2:42,4.065951,4.953532
+124,"von, der, von der, ursula",13,1,semantic,semantic:bge:leaf-local-6-2:42,2.9749725,3.7954867
+125,"tubli, merilin, rühmas, poiste värk",13,2,semantic,semantic:bge:leaf-local-6-2:42,8.589426,4.887128
+126,"filmi, film, filme, filmitegija",13,2,semantic,semantic:bge:leaf-local-6-2:42,7.0943356,4.2752757
+127,"börs, hind, hinda, börsi",13,1,semantic,semantic:bge:leaf-local-6-2:42,1.9562216,6.199376
+128,"annetama, annetada, annetamine, sille",13,1,semantic,semantic:bge:leaf-local-6-2:42,4.427346,4.0587535
+129,"lastekaitsetöötaja, lastekaitse, lapse, ege",13,1,semantic,semantic:bge:leaf-local-6-2:42,8.49021,5.031927
+130,"üro, rahvasteliidu, julgeolekunõukogu, kolonialismi",13,2,semantic,semantic:bge:leaf-local-6-2:42,3.7845404,3.184976
+131,"uksest, haigla uksest, nõukogu, haigekassa",12,4,semantic,semantic:bge:leaf-local-6-2:42,6.804222,7.210806
+132,"toota, leedu, megavatti, tarbimine",12,5,semantic,semantic:bge:leaf-local-6-2:42,2.0737474,6.4340916
+133,"rändest, rände, rändepoliitika, rändepööre",12,2,semantic,semantic:bge:leaf-local-6-2:42,4.1335564,2.0665493
+134,"laura, stsenaarium, stsenaariumi, stsenaariumid",12,2,semantic,semantic:bge:leaf-local-6-2:42,9.4656925,3.9314873
+135,"õpilasesindus, kaasamine, kaasata, õpilasesinduse",12,2,semantic,semantic:bge:leaf-local-6-2:42,9.211696,4.159773
+136,"maale, tsentraliseerida, rain, teenuseid",12,3,semantic,semantic:bge:leaf-local-6-2:42,4.707727,5.8365045
+137,"arst, arsti, tehisintellekt, tehisintellekti",11,4,semantic,semantic:bge:leaf-local-6-2:42,7.52448,7.2655444
+138,"kriis, kriisi, vajan, jaoks kriis",11,2,semantic,semantic:bge:leaf-local-6-2:42,6.6337776,1.0621084
+139,"tehisharu, tehisäru, õppimist, õppimine",11,2,semantic,semantic:bge:leaf-local-6-2:42,9.232014,3.321881
+140,"haljastust, üldplaneering, tallinnas, haljastatud",11,2,semantic,semantic:bge:leaf-local-6-2:42,4.568379,6.057195
+141,"brenda, taltech, karmen, elektroenergeetika",11,1,semantic,semantic:bge:leaf-local-6-2:42,9.908784,2.8557642
+142,"kaie, ille, miina, väikeettevõtja",11,3,semantic,semantic:bge:leaf-local-6-2:42,3.5800261,4.9254637
+143,"track, teenuse, piiratud, health founders",11,3,semantic,semantic:bge:leaf-local-6-2:42,6.4314036,6.8615637
+144,"staatus, maie, eluviisi, minimalism",11,1,semantic,semantic:bge:leaf-local-6-2:42,3.8041818,5.662523
+145,"reemo, õpetaja, õpilased, õpetajad",10,5,semantic,semantic:bge:leaf-local-6-2:42,9.370918,3.1576512
+146,"raskeid asju, inseneri, inseneeria, raskeid",10,7,semantic,semantic:bge:leaf-local-6-2:42,9.833782,3.311149
+147,"getter, noortekogu, noortekogud, noorte",10,2,semantic,semantic:bge:leaf-local-6-2:42,5.787657,3.9963984
+148,"tapame, infosõja, suust välja, tapame maha",10,2,semantic,semantic:bge:leaf-local-6-2:42,5.86852,3.3796628
+149,"tehisintellekti poolt, tehisintellekti, teaduses, teadust",10,4,semantic,semantic:bge:leaf-local-6-2:42,8.770796,2.7294974
+150,"naine, peaminister, mehi, naised",10,2,semantic,semantic:bge:leaf-local-6-2:42,6.1315193,1.8173801
+151,"konkurents, konkurentsi, tervishoius, konkurentsist",10,1,semantic,semantic:bge:leaf-local-6-2:42,6.6503735,7.2938128
+152,"heitkogustega, heitkogustega kauplemise, kauplemise, kauplemise süsteem",10,2,semantic,semantic:bge:leaf-local-6-2:42,2.4090126,6.2193694
+153,"ravimeeskond, vähipatsiendi, infoallikas, diagnoosi",10,2,semantic,semantic:bge:leaf-local-6-2:42,7.6315603,7.202695
+154,"internet, riigikohus, seadusandja, platvorm",10,1,semantic,semantic:bge:leaf-local-6-2:42,6.9319386,3.1703362
+155,"agendi, agent, tarkvara, sandra",10,4,semantic,semantic:bge:leaf-local-6-2:42,8.490813,1.8655875
+156,"meretuulepargid, maismaa, megavatt, meretuuleparke",10,5,semantic,semantic:bge:leaf-local-6-2:42,2.043641,6.469762
+157,"start, janek, uku, asutajate",10,1,semantic,semantic:bge:leaf-local-6-2:42,3.8165174,4.9134407
+158,"salaturg, maffi, maitsega, nikotiini",9,1,semantic,semantic:bge:leaf-local-6-2:42,7.5047903,4.720347
+159,"vabatahtlikud, vabatahtlik, vabatahtliku, vabatahtlikke",9,2,semantic,semantic:bge:leaf-local-6-2:42,4.96125,4.0727677
+160,"juhitavaid, võimsuseid, tuumajaam, georg",9,2,semantic,semantic:bge:leaf-local-6-2:42,1.693275,6.593658
+161,"saudi, äri, sanktsioonid, joonatan",9,1,semantic,semantic:bge:leaf-local-6-2:42,2.9403448,4.386413
+162,"seto, seto seto, imetlen, poissi",9,9,semantic,semantic:bge:leaf-local-6-2:42,8.956063,4.4304566
+163,"läbipõlemine, läbipõlemise, märke, põleda",9,3,semantic,semantic:bge:leaf-local-6-2:42,6.797743,1.2472453
+164,"kultuuri, kultuurist, emaduse, tiiu",9,2,semantic,semantic:bge:leaf-local-6-2:42,5.3183794,2.537833
+165,"ajalugu, ajaloo, pätsu, vabadussõja",9,1,semantic,semantic:bge:leaf-local-6-2:42,5.258297,3.2715805
+166,"zuzu, fredi, munadega, poolteist korda",9,1,semantic,semantic:bge:leaf-local-6-2:42,2.0714626,5.113308
+167,"metsade, tagavara, smi, lank",9,2,semantic,semantic:bge:leaf-local-6-2:42,1.2481288,4.792594
+168,"paindlikkus, paindlikkuse, paindlikkust, paindlikku",9,2,semantic,semantic:bge:leaf-local-6-2:42,6.4408,1.2869618
+169,"heleri, majanduskasv, heaolu, tasaareng",9,2,semantic,semantic:bge:leaf-local-6-2:42,3.378937,4.859831
+170,"loometegevus, küberi, aasta kevadest, konverteerimine",9,7,semantic,semantic:bge:leaf-local-6-2:42,9.063039,2.480247
+171,"kasutavad, tehisintellekti, õpilased kasutavad, versioonis",9,4,semantic,semantic:bge:leaf-local-6-2:42,9.121394,3.0421703
+172,"alusharidus, iga lapse, alushariduse, eesti tulevik",9,3,semantic,semantic:bge:leaf-local-6-2:42,9.822591,5.0010304
+173,"naisi, mehi, kvoot, mehed",9,1,semantic,semantic:bge:leaf-local-6-2:42,6.2367563,1.6365964
+174,"reinsalu, michal, härra michal, eesti inimesed",9,3,semantic,semantic:bge:leaf-local-6-2:42,3.551149,4.586047
+175,"ratas, raili, matemaatika, sõidab sõidab",9,1,semantic,semantic:bge:leaf-local-6-2:42,9.361827,4.3259535
+176,"elo, eestlaste, tarmo, mikita",9,1,semantic,semantic:bge:leaf-local-6-2:42,3.1077878,6.3291636
+177,"kultuur, ütlekski, muuseumis, kultuuri",9,2,semantic,semantic:bge:leaf-local-6-2:42,6.201802,4.8229327
+178,"alkoholi, agne, alkohol, alkoholiga",9,1,semantic,semantic:bge:leaf-local-6-2:42,7.4403667,4.5977015
+179,"nakkushaiguste, covidit, vaktsineerimine, mall",9,2,semantic,semantic:bge:leaf-local-6-2:42,5.6884336,6.9820585
+180,"õpetaja, õpetaja ise, hoitud, vallavalitsus",9,2,semantic,semantic:bge:leaf-local-6-2:42,9.699393,4.9912686
+181,"elektri, teravatt, tarbimine, elektrit",8,3,semantic,semantic:bge:leaf-local-6-2:42,1.8062701,6.5480266
+182,"andmeid, eetikakomitee, andmed, terviseandmed",8,6,semantic,semantic:bge:leaf-local-6-2:42,6.8194313,6.907528
+183,"kristel, anonüümsed, kutt, ingrid",8,1,semantic,semantic:bge:leaf-local-6-2:42,7.9870553,4.6274443
+184,"nikotiini, veipi, lea, noorte seas",8,1,semantic,semantic:bge:leaf-local-6-2:42,7.523259,4.782279
+185,"naine, isa, naised, ema",8,3,semantic,semantic:bge:leaf-local-6-2:42,6.0794044,1.7738601
+186,"ai, edust, riigisektor, tööturul",8,3,semantic,semantic:bge:leaf-local-6-2:42,9.161764,2.05284
+187,"ränne, rännet, sisserännet, sisserännet vaja",8,2,semantic,semantic:bge:leaf-local-6-2:42,4.1625733,2.0554225
+188,"insenere, insenerid, arstid läksid, inseneri",8,5,semantic,semantic:bge:leaf-local-6-2:42,3.2879024,4.8025637
+189,"õhukaitse, mehitamata, osa nato, nato",8,4,semantic,semantic:bge:leaf-local-6-2:42,2.3846018,3.1545272
+190,"hariduse, eesti kool, sihte, margit",8,2,semantic,semantic:bge:leaf-local-6-2:42,9.868721,4.1435947
+191,"jalgsi, liikumise, soola, liikumine",8,3,semantic,semantic:bge:leaf-local-6-2:42,8.342726,5.700675
+192,"rahapõhine, rahapõhise, rahapõhine abi, annetatakse",8,3,semantic,semantic:bge:leaf-local-6-2:42,3.9922395,3.6620433
+193,"raudtee, ühistranspordi, rongid, rapla",8,3,semantic,semantic:bge:leaf-local-6-2:42,4.553263,5.7176123
+194,"andmekeskused, andmekeskuse, andmekeskus, andmekeskustest",8,3,semantic,semantic:bge:leaf-local-6-2:42,1.9224808,6.02601
+195,"heaolutehnoloogiad, ulme, tervishoiualane, ülemiste city",8,2,semantic,semantic:bge:leaf-local-6-2:42,6.870024,7.0205684
+196,"liikumisrõõmu, liikumise, lasteaedade, karina",8,2,semantic,semantic:bge:leaf-local-6-2:42,8.45996,5.60699
+197,"ajaloost, paralleele, putini, kennedy",8,1,semantic,semantic:bge:leaf-local-6-2:42,5.238674,3.249993
+198,"infraheli, müra, heli, häirib",7,1,semantic,semantic:bge:leaf-local-6-2:42,4.0222807,6.8565335
+199,"alateadvusega, ln, sten, ai",7,6,semantic,semantic:bge:leaf-local-6-2:42,8.935475,1.8989087
+200,"metsa, metsaga, rmk, poliitiline tahe",7,2,semantic,semantic:bge:leaf-local-6-2:42,1.2693963,4.7093096
+201,"majandusarengu, kapitalistid, eesti panga, mitme kriisi",7,4,semantic,semantic:bge:leaf-local-6-2:42,3.4785695,4.6793942
+202,"urve, värbame, tarkvaraarendaja, palgatase",7,3,semantic,semantic:bge:leaf-local-6-2:42,9.795543,2.766806
+203,"hiina, hiinlased, hiinas, usa",7,4,semantic,semantic:bge:leaf-local-6-2:42,2.9144387,4.793289
+204,"andmete, andmeid, andmed, infosüsteemi",7,3,semantic,semantic:bge:leaf-local-6-2:42,6.968506,7.0667734
+205,"muuseum, muuseumis, risto, muuseumisse",7,1,semantic,semantic:bge:leaf-local-6-2:42,6.0729227,4.96768
+206,"euroopasse, rändereformi, joosep, sigrid",7,1,semantic,semantic:bge:leaf-local-6-2:42,3.9154148,2.2418337
+207,"mms, seemneõli, proteiini, viraalseks",7,4,semantic,semantic:bge:leaf-local-6-2:42,7.667674,5.270764
+208,"tervisekassa, inglid, kaugjälgimise, ütleks realistlik",7,3,semantic,semantic:bge:leaf-local-6-2:42,6.8214655,7.1373777
+209,"internetis, lapsed internetis, internetis teevad, lasteabi",7,3,semantic,semantic:bge:leaf-local-6-2:42,7.7315187,3.5078342
+210,"järva, kõrvalkulud, järva valla, turuhinnad",7,3,semantic,semantic:bge:leaf-local-6-2:42,5.028974,6.132415
+211,"rene, näiteks tuuleparkide, tõnis, mured",7,2,semantic,semantic:bge:leaf-local-6-2:42,4.3089995,6.652652
+212,"kaugkütte, soojuspumbad, soojus, kaugküte",7,3,semantic,semantic:bge:leaf-local-6-2:42,2.1847322,7.041563
+213,"müra, terviseameti, normid, mõõtmisi",7,1,semantic,semantic:bge:leaf-local-6-2:42,4.062,6.909792
+214,"välistööjõud, välistöö, kerli, lihttöö",6,1,semantic,semantic:bge:leaf-local-6-2:42,4.895018,1.768088
+215,"kremli, laulupeol, kreml, päts",6,2,semantic,semantic:bge:leaf-local-6-2:42,5.924922,3.3932548
+216,"kestlikkuse, kõigile osalemast, ettevõtete hulgas, soomest",6,5,semantic,semantic:bge:leaf-local-6-2:42,2.691429,5.319925
+217,"esimees, liige, erakonna, liige riigikogu",6,6,semantic,semantic:bge:leaf-local-6-2:42,5.8441405,3.8095174
+218,"las läheb, tööleping, nõrgem osapool, tööga kindlustamata",6,2,semantic,semantic:bge:leaf-local-6-2:42,6.082803,1.0230633
+219,"palestiina, err, kallutatud, laulupidu",6,1,semantic,semantic:bge:leaf-local-6-2:42,6.3322444,3.2151513
+220,"bioressursside, vkg, silvia, tuksub",6,1,semantic,semantic:bge:leaf-local-6-2:42,2.8463068,5.6297913
+221,"metsa, rmk, istandik, istandiku",6,1,semantic,semantic:bge:leaf-local-6-2:42,1.1384722,4.6909423
+222,"kilo, valgu, uute materjalide, valku",6,3,semantic,semantic:bge:leaf-local-6-2:42,2.9135988,5.490582
+223,"lhv, elering, vähempakkumiste, laenuportfell",6,4,semantic,semantic:bge:leaf-local-6-2:42,1.782734,6.4289036
+224,"hange, hanke, hange õnnestub, õnnestub",6,2,semantic,semantic:bge:leaf-local-6-2:42,1.5788206,6.5753546
+225,"targa tuleviku, annika räim, räim, tulevikuala",6,5,semantic,semantic:bge:leaf-local-6-2:42,9.762844,3.8836234
+226,"raha vähe, patsiendiga kaasa, solidaarne, tervishoidu",6,2,semantic,semantic:bge:leaf-local-6-2:42,6.5672565,7.3051786
+227,"põlevkivi, konist, ajab õiget, õiget juttu",6,4,semantic,semantic:bge:leaf-local-6-2:42,2.358798,6.589624
+228,"üro, julgeolekunõukogu, üro julgeolekunõukogu, reformist",6,1,semantic,semantic:bge:leaf-local-6-2:42,3.7943254,3.1176984
+229,"üliõpilaskondade, eesti üliõpilaskondade, koroonakriisi, kõrghariduse",6,3,semantic,semantic:bge:leaf-local-6-2:42,10.258415,3.6738489
+230,"majandusareng, euroala, deflaator, reaalpalk",6,4,semantic,semantic:bge:leaf-local-6-2:42,3.5006096,4.67999
+231,"arvamused kujunevad, fosforiiti, fosforiit, geoloogiateenistus",6,3,semantic,semantic:bge:leaf-local-6-2:42,3.058026,7.1415124
+232,"vangla, nendega koos, vanglas, klatt",6,2,semantic,semantic:bge:leaf-local-6-2:42,7.320615,4.3157525
+233,"kaasamine, keiu, valed inimesed, kaasamise",6,1,semantic,semantic:bge:leaf-local-6-2:42,5.5001802,4.0759916
+234,"einar, ai abil, raskemaks läinud, ettevõtte tegemine",6,1,semantic,semantic:bge:leaf-local-6-2:42,9.117851,2.0684094
+235,"allkirja, jürgen, alguspunkt, loomakari",6,1,semantic,semantic:bge:leaf-local-6-2:42,3.6101809,6.5683765
+0,"andmeid, andmete, andmed, terviseandmed",52,5,fixed,fixed:bge:leaf-local-6-2:42,7.1274524,7.066333
+1,"äärmuslus, radikaliseerunud, vägivald, radikaliseerumine",49,4,fixed,fixed:bge:leaf-local-6-2:42,6.1674848,3.6323793
+2,"doktorantuuri, doktorant, teadmussiirde, doktorantuur",42,6,fixed,fixed:bge:leaf-local-6-2:42,10.253092,3.2956192
+3,"koolivõrgu, koolivõrk, koolivõrku, vestlusringi",37,6,fixed,fixed:bge:leaf-local-6-2:42,9.872471,4.237342
+4,"keeles, eesti keeles, mudelid, mõõdupuu",37,8,fixed,fixed:bge:leaf-local-6-2:42,8.665098,2.2614555
+5,"ai, vibode, einar, juuksur",35,7,fixed,fixed:bge:leaf-local-6-2:42,9.080755,2.1315138
+6,"noorte heaolu, noor, noorte, reelika",35,6,fixed,fixed:bge:leaf-local-6-2:42,7.3891363,4.263435
+7,"majandusareng, majandusarengu, avaldub pika, majandus",35,10,fixed,fixed:bge:leaf-local-6-2:42,3.5902286,4.615226
+8,"elamisluba, untsu, pärtel, masin",34,5,fixed,fixed:bge:leaf-local-6-2:42,8.458676,2.2240608
+9,"telefonis, nutitelefoni, telefoni, marit",33,4,fixed,fixed:bge:leaf-local-6-2:42,8.021971,3.7664642
+10,"teadlane, teadlased, märklaua, teadlase",33,3,fixed,fixed:bge:leaf-local-6-2:42,6.3397346,3.1110318
+11,"lastekodus, marina, kaarel, lastekodu",33,3,fixed,fixed:bge:leaf-local-6-2:42,8.258708,4.9070306
+12,"miinimumpalk, miinimumpalga, miinimumpalka, palk",33,5,fixed,fixed:bge:leaf-local-6-2:42,5.314996,1.7251354
+13,"hingamise, teadveloleku, kontakti, vajan",32,3,fixed,fixed:bge:leaf-local-6-2:42,6.7825246,1.4731001
+14,"muuseumis, muuseum, muuseumisse, muuseumi",32,2,fixed,fixed:bge:leaf-local-6-2:42,6.169665,4.8568883
+15,"üro, julgeolekunõukogu, rahvasteliidu, inimõiguste",31,2,fixed,fixed:bge:leaf-local-6-2:42,3.8033335,3.172734
+16,"rail, eelarve, ave, anvar",31,3,fixed,fixed:bge:leaf-local-6-2:42,2.9785376,3.7724032
+17,"püsimetsa, püsimetsandus, lageraie, püsimetsanduse",31,1,fixed,fixed:bge:leaf-local-6-2:42,1.261061,4.749513
+18,"annetada, annetama, annetamine, sille",31,3,fixed,fixed:bge:leaf-local-6-2:42,4.3717184,4.015633
+19,"türgis, türgi, hambad, vahendaja",31,1,fixed,fixed:bge:leaf-local-6-2:42,7.2965193,6.799758
+20,"madis, ingrid, tuulikut, keskkonnamõju",30,5,fixed,fixed:bge:leaf-local-6-2:42,3.7846267,6.492504
+21,"nõusoleku, nõusolek, nõusolekus, suhte",30,1,fixed,fixed:bge:leaf-local-6-2:42,6.673797,4.257391
+22,"üksildus, üksilduse, üksildust, üksildasena",30,4,fixed,fixed:bge:leaf-local-6-2:42,6.606186,4.6557674
+23,"ühistu, korteriühistu, hanno, ühistus",30,1,fixed,fixed:bge:leaf-local-6-2:42,5.1842074,5.803536
+24,"elurikkuse, ando, elurikkust, toyota",29,1,fixed,fixed:bge:leaf-local-6-2:42,2.4507227,5.9210877
+25,"kaasamine, kaasamise, demokraatia, infosõja",29,5,fixed,fixed:bge:leaf-local-6-2:42,5.6072326,4.0192814
+26,"reis, reisile, reisida, reisid",29,1,fixed,fixed:bge:leaf-local-6-2:42,4.779259,2.6500516
+27,"töökius, töökiusamise, kius, töökiusu",29,3,fixed,fixed:bge:leaf-local-6-2:42,6.290917,0.8785459
+28,"seksuaalkasvatus, peenis, inimeseõpetuse, seksuaalkasvatuse",29,2,fixed,fixed:bge:leaf-local-6-2:42,8.069847,4.218568
+29,"elektri, elektrit, megavatt, toota",29,7,fixed,fixed:bge:leaf-local-6-2:42,1.9214981,6.445188
+30,"konkurents, konkurentsi, tanel, tervishoius",29,2,fixed,fixed:bge:leaf-local-6-2:42,6.6112385,7.3384295
+31,"toitu, parim enne, kõlblik, toidu",29,1,fixed,fixed:bge:leaf-local-6-2:42,3.468069,5.504375
+32,"mtü, vabaühenduste, vabakond, närvi",29,1,fixed,fixed:bge:leaf-local-6-2:42,4.6978283,4.241614
+33,"ravikindlustus, jürgen, vabakutseline, jürgen ligi",28,2,fixed,fixed:bge:leaf-local-6-2:42,4.672062,4.5909657
+34,"isikukood, pin, agent, isikukoodi",28,3,fixed,fixed:bge:leaf-local-6-2:42,8.449905,1.7963116
+35,"õpilasesindus, ruslan, irene, õpilasesinduse",28,2,fixed,fixed:bge:leaf-local-6-2:42,9.057642,4.1090426
+36,"õpiampsu, õpiamps, circle, anneli",27,2,fixed,fixed:bge:leaf-local-6-2:42,9.50579,3.1507268
+37,"haljastust, üldplaneering, tallinnas, detailplaneeringu",26,3,fixed,fixed:bge:leaf-local-6-2:42,4.549675,6.033962
+38,"itaalias, itaalia, saksamaal, saksamaa",26,1,fixed,fixed:bge:leaf-local-6-2:42,3.2706332,3.101382
+39,"markus, programmeerimine, matemaatika, ukse vahele",26,3,fixed,fixed:bge:leaf-local-6-2:42,9.701923,2.7891836
+40,"konventsiooni, istanbuli, konventsioon, istanbuli konventsiooni",26,2,fixed,fixed:bge:leaf-local-6-2:42,4.512766,3.1977034
+41,"tagasiside, hea tagasiside, frank, õppimise",26,1,fixed,fixed:bge:leaf-local-6-2:42,9.497606,4.249405
+42,"kriis, kriisi, aaro, sina juhid",25,1,fixed,fixed:bge:leaf-local-6-2:42,6.6153417,1.1060833
+43,"riigikaitse, looduskaitse, keskkonnakaitse, maastik",25,1,fixed,fixed:bge:leaf-local-6-2:42,1.890087,3.7471695
+44,"lastekaitsetöötaja, lastekaitse, lastekaitsetöö, ege",25,1,fixed,fixed:bge:leaf-local-6-2:42,8.424781,5.102284
+45,"naisi, mehi, naine, naised",25,2,fixed,fixed:bge:leaf-local-6-2:42,6.077881,1.804179
+46,"viie protsendi, nato, õhukaitse, raketid",25,4,fixed,fixed:bge:leaf-local-6-2:42,2.8281643,3.1923199
+47,"infraheli, müra, heli, hertsi",25,1,fixed,fixed:bge:leaf-local-6-2:42,3.9491675,6.892431
+48,"vabatahtlikud, vabatahtlik, vabatahtlikke, vabatahtliku",24,2,fixed,fixed:bge:leaf-local-6-2:42,4.8873076,4.135553
+49,"järvamaa, järvamaal, töötukassa, sigrid",24,1,fixed,fixed:bge:leaf-local-6-2:42,9.640585,3.0674276
+50,"unistamine, unistamise, unistada, rikkaks",24,1,fixed,fixed:bge:leaf-local-6-2:42,5.9201818,4.6019206
+51,"naine, naised, isad, mehed",24,3,fixed,fixed:bge:leaf-local-6-2:42,5.963066,1.8578517
+52,"kaugtöö, kontoris, töötaja, kontorisse",24,4,fixed,fixed:bge:leaf-local-6-2:42,6.2688737,1.1383554
+53,"tööturult, töövõime, rille, haigus",24,1,fixed,fixed:bge:leaf-local-6-2:42,5.918138,1.3144791
+54,"juht, paavo, organisatsioonis, juhi",24,2,fixed,fixed:bge:leaf-local-6-2:42,6.4998946,1.1842759
+55,"muuseumi, muuseum, muuseumit, valla",24,1,fixed,fixed:bge:leaf-local-6-2:42,5.614551,5.172109
+56,"start, uku, founder, skype",24,3,fixed,fixed:bge:leaf-local-6-2:42,3.702287,4.93172
+57,"hooldekodu, dementsusega, pihlakodu, hoolekandeasutuses",24,1,fixed,fixed:bge:leaf-local-6-2:42,6.860541,5.089141
+58,"people, know, estonian, estonia",23,1,fixed,fixed:bge:leaf-local-6-2:42,3.7751641,2.4011586
+59,"internetis, margus, veebis, tv",23,3,fixed,fixed:bge:leaf-local-6-2:42,7.4782906,3.5939567
+60,"ukraine, really, companies, think",23,1,fixed,fixed:bge:leaf-local-6-2:42,3.0270267,2.941047
+61,"lasteaias, lapsevanem, lasteaia, teenuse tarbija",23,1,fixed,fixed:bge:leaf-local-6-2:42,8.936084,5.136612
+62,"perearst, peremeditsiini, esmatasandi, eriarsti",23,1,fixed,fixed:bge:leaf-local-6-2:42,7.1420913,6.771531
+63,"õppimine, õppimist, tehisäru, tehisharu",23,4,fixed,fixed:bge:leaf-local-6-2:42,9.212101,3.2648575
+64,"muna kana, muna, kana, kana küsimus",23,6,fixed,fixed:bge:leaf-local-6-2:42,2.3531022,6.2426395
+65,"think, yes, thank, health",22,1,fixed,fixed:bge:leaf-local-6-2:42,3.1875308,2.6352572
+66,"toidujulgeoleku, toidujulgeolek, toidu, kriisi ajal",22,2,fixed,fixed:bge:leaf-local-6-2:42,3.2580512,5.4575276
+67,"välistööjõud, lihttöö, välistööjõu, välistöö",22,2,fixed,fixed:bge:leaf-local-6-2:42,5.000375,1.7492104
+68,"ttüs, riskianalüüsi, töötervishoiu, bürokraatia",22,2,fixed,fixed:bge:leaf-local-6-2:42,5.8930492,1.0100497
+69,"küberi, lõuna korea, ai, tiihüppe",22,7,fixed,fixed:bge:leaf-local-6-2:42,9.087751,2.811225
+70,"raudtee, rail, rail baltica, baltica",22,3,fixed,fixed:bge:leaf-local-6-2:42,4.3988705,5.652703
+71,"nato, läänemere, läänemeremaade, regiooni",22,2,fixed,fixed:bge:leaf-local-6-2:42,3.336184,2.928424
+72,"kaugkütte, kaugküte, piirkondades, hind",22,3,fixed,fixed:bge:leaf-local-6-2:42,2.190319,7.094001
+73,"wise, tüdrukud, ikt, tüdrukutele",22,1,fixed,fixed:bge:leaf-local-6-2:42,9.811958,2.8870516
+74,"ugri, soome ugri, komi, soome",22,1,fixed,fixed:bge:leaf-local-6-2:42,4.6907916,2.4206018
+75,"track, piisavalt suur, teenuse, panganduses",21,1,fixed,fixed:bge:leaf-local-6-2:42,6.600509,7.0481367
+76,"küberturvalisuse, perearstikeskused, perearstikeskuse, perearstikeskus",21,1,fixed,fixed:bge:leaf-local-6-2:42,6.740094,6.6377115
+77,"natalja, darja, serbia, suur tänu",21,2,fixed,fixed:bge:leaf-local-6-2:42,4.5439286,2.4686825
+78,"heitkogustega, heitkogustega kauplemise, kauplemise, kauplemise süsteem",21,3,fixed,fixed:bge:leaf-local-6-2:42,2.464875,6.259601
+79,"põlva, omavalitsus, ametnik, ehr",21,1,fixed,fixed:bge:leaf-local-6-2:42,4.5321684,6.1055474
+80,"autoriõiguse, autorite, kõhus, keiti",21,2,fixed,fixed:bge:leaf-local-6-2:42,8.586918,2.2479575
+81,"eluviisi, maie, eluviisist, eluviis",21,2,fixed,fixed:bge:leaf-local-6-2:42,3.8283758,5.646525
+82,"palestiina, iisraeli, topeltstandardid, topeltstandardite",21,3,fixed,fixed:bge:leaf-local-6-2:42,3.6710236,2.966979
+83,"ath, ennetus, vererõhk, vererõhu",20,4,fixed,fixed:bge:leaf-local-6-2:42,7.3813963,6.66483
+84,"kremli, kreml, propaganda, iseennast kaitsta",20,3,fixed,fixed:bge:leaf-local-6-2:42,5.811177,3.315158
+85,"riina, ajateenistus, naistele, naised",20,2,fixed,fixed:bge:leaf-local-6-2:42,2.0527854,3.1545656
+86,"liikumise, kehalise, aktiivsust, trennis",20,2,fixed,fixed:bge:leaf-local-6-2:42,8.967328,5.163032
+87,"loomemajanduse, loomemajandus, rahandusministeerium, horror",20,1,fixed,fixed:bge:leaf-local-6-2:42,3.9922662,4.630352
+88,"malev, maleva, malevas, töökogemust",20,2,fixed,fixed:bge:leaf-local-6-2:42,8.664303,3.8068671
+89,"info, ravimeeskond, vähipatsiendi, infot",20,2,fixed,fixed:bge:leaf-local-6-2:42,7.646417,7.075357
+90,"hambaarsti, hambaarsti juurde, hambaarsti juures, suus",20,1,fixed,fixed:bge:leaf-local-6-2:42,8.105387,5.8545327
+91,"koolijuht, tippjuht, koolijuhi, mudru",20,1,fixed,fixed:bge:leaf-local-6-2:42,9.717804,4.3264246
+92,"tubli, merilin, poiste värk, tubli laps",20,1,fixed,fixed:bge:leaf-local-6-2:42,8.695899,4.889744
+93,"allkirja, rohereform, jürgen, vaivara",20,4,fixed,fixed:bge:leaf-local-6-2:42,3.488748,6.497144
+94,"heleri, tasaareng, majanduskasv, tasaarengu",20,4,fixed,fixed:bge:leaf-local-6-2:42,3.4830964,4.7671
+95,"postitada, pilte, postitused, postitavad",20,2,fixed,fixed:bge:leaf-local-6-2:42,7.55295,3.4460866
+96,"saara, petersoni, petersonis, kodumõju",20,2,fixed,fixed:bge:leaf-local-6-2:42,6.5275207,4.0376897
+97,"ajateenistuse, väljaõpe, kaitseväe, ajateenistus",19,3,fixed,fixed:bge:leaf-local-6-2:42,2.0607717,3.1359506
+98,"börs, hinna, hinda, hind",19,1,fixed,fixed:bge:leaf-local-6-2:42,2.0434377,6.279924
+99,"annetajate, annetusi, annetuste, annetajad",19,2,fixed,fixed:bge:leaf-local-6-2:42,4.414517,4.0372477
+100,"alushariduses, alusharidus, grete, alushariduse",19,3,fixed,fixed:bge:leaf-local-6-2:42,9.67817,5.1042213
+101,"poliitikasse, erakonna, hea tõsta, getter",19,6,fixed,fixed:bge:leaf-local-6-2:42,5.7432923,3.9531498
+102,"hispaaniasse, reservväelane, reservväelase, pataljoni",19,1,fixed,fixed:bge:leaf-local-6-2:42,2.0543182,3.216525
+103,"naiskodukaitse, ulla, evakuatsiooni, kaitseliitu",19,3,fixed,fixed:bge:leaf-local-6-2:42,2.0899756,3.3182976
+104,"visioon, väärtused, visiooni, maria",19,1,fixed,fixed:bge:leaf-local-6-2:42,5.202818,3.9356542
+105,"tugevusi, tugevuste, õppekava, andekuse",19,2,fixed,fixed:bge:leaf-local-6-2:42,9.640669,4.3577394
+106,"brenda, taltech, vladislav, karmen",18,1,fixed,fixed:bge:leaf-local-6-2:42,10.010045,2.9284492
+107,"ülikooli, keskkooli, välismaale, õppima",18,9,fixed,fixed:bge:leaf-local-6-2:42,9.870959,3.6930165
+108,"vanus, coach, coaching, vanusest",18,1,fixed,fixed:bge:leaf-local-6-2:42,6.562794,1.5926247
+109,"elering, elektrisüsteemi, eleringi, taastamist",18,5,fixed,fixed:bge:leaf-local-6-2:42,1.876863,6.5424495
+110,"õppejõud, retsensioon, retsensiooni, õppejõud teevad",18,4,fixed,fixed:bge:leaf-local-6-2:42,8.865857,2.8199923
+111,"valimiste, valvurid, valimiste valvurid, valimistega",18,1,fixed,fixed:bge:leaf-local-6-2:42,5.5811315,3.896094
+112,"google com, veerand tundi, google, taustainfoks",17,2,fixed,fixed:bge:leaf-local-6-2:42,9.005478,1.8139974
+113,"kiusatav, kiusamine, kiusaja, juht",17,3,fixed,fixed:bge:leaf-local-6-2:42,6.467946,0.9307611
+114,"töövaidluskomisjoni, nõrgem, alati nõrgem, vaidlus",17,2,fixed,fixed:bge:leaf-local-6-2:42,6.083258,0.96277195
+115,"eesti kool, hariduse, margit, sihte",17,1,fixed,fixed:bge:leaf-local-6-2:42,9.823024,4.0037866
+116,"internet, myspace, internetis, internet vajab",17,1,fixed,fixed:bge:leaf-local-6-2:42,6.982145,3.2744894
+117,"ravi, ravimid, ravim, tervisekassa",16,2,fixed,fixed:bge:leaf-local-6-2:42,6.870085,7.2400575
+118,"patsiendi, patsiendina, diagnoosiga, õde",16,4,fixed,fixed:bge:leaf-local-6-2:42,7.388384,7.25173
+119,"tehisintellekt, ai ütle, arsti, arst",16,2,fixed,fixed:bge:leaf-local-6-2:42,7.6406026,7.183934
+120,"kolisin, türgis, eesti andis, irina",16,1,fixed,fixed:bge:leaf-local-6-2:42,4.5370274,2.6072824
+121,"alkoholi, agne, alkoholivaba, tarvitavad",16,3,fixed,fixed:bge:leaf-local-6-2:42,7.373523,4.561442
+122,"reinsalu, eesti majanduse, sisetarbimine, michal",16,3,fixed,fixed:bge:leaf-local-6-2:42,3.4471753,4.4671063
+123,"wifi, häkker, wifi võrku, võrku",16,1,fixed,fixed:bge:leaf-local-6-2:42,7.9800587,2.4112155
+124,"kõrghariduse, ülikoolid, üliõpilane, kõrgharidus",15,4,fixed,fixed:bge:leaf-local-6-2:42,10.151111,3.5691323
+125,"piiriala, virumaa, ida virumaa, ida",15,1,fixed,fixed:bge:leaf-local-6-2:42,4.688919,5.6095195
+126,"vägistamine, vägistamise, kriminaalmenetlus, psüühiline",15,2,fixed,fixed:bge:leaf-local-6-2:42,4.866542,3.3633525
+127,"haigekassa, nõukogu, taagepera, rahandusminister",15,4,fixed,fixed:bge:leaf-local-6-2:42,6.6169806,7.3092184
+128,"kaitseinvesteering, priit, kohalik energia, tootmine kaitseinvesteering",15,4,fixed,fixed:bge:leaf-local-6-2:42,2.1792881,6.5034175
+129,"ivo, tiihüpe, tiihüppe, kolmanda kooliastme",15,2,fixed,fixed:bge:leaf-local-6-2:42,9.223371,3.2973845
+130,"agne, teenusel, triin, agne andre",15,1,fixed,fixed:bge:leaf-local-6-2:42,8.125296,4.713853
+131,"kõrgharidus, kõrghariduse, elamiskulusid, stipendiumide",14,2,fixed,fixed:bge:leaf-local-6-2:42,10.282795,3.6547117
+132,"rännet, ränne, sisserändega, sisserännet",14,1,fixed,fixed:bge:leaf-local-6-2:42,4.140189,2.0793445
+133,"metsa, metsad, rmk, raiuma",14,3,fixed,fixed:bge:leaf-local-6-2:42,1.1904384,4.7397294
+134,"vkg, tuksub, silvia, süda tuksub",14,2,fixed,fixed:bge:leaf-local-6-2:42,2.8570533,5.5886965
+135,"tankla, vesiniku, biometaani, ahto",14,1,fixed,fixed:bge:leaf-local-6-2:42,2.28916,6.1642
+136,"laura, stsenaarium, kõige tõenäolisem, stsenaariumi",14,1,fixed,fixed:bge:leaf-local-6-2:42,9.487822,3.9401774
+137,"religiooni, islam, religioon, moslemid",14,1,fixed,fixed:bge:leaf-local-6-2:42,6.158349,3.9483182
+138,"põhjavesi, fosforiidi, ragn, raporti",14,3,fixed,fixed:bge:leaf-local-6-2:42,3.051181,7.153624
+139,"joosep, maroko, euroopasse, rändereformi",14,1,fixed,fixed:bge:leaf-local-6-2:42,3.8182025,2.5425441
+140,"kantserogeen, allkirju, tööohutuse, hoida tähelepanu",13,2,fixed,fixed:bge:leaf-local-6-2:42,5.8215747,0.89196646
+141,"roheringi, raha panna, hea projekt, ühtpidi",13,3,fixed,fixed:bge:leaf-local-6-2:42,4.0984545,6.1265087
+142,"lai riigikaitse, riigikaitse, reelika, nõuniku",13,2,fixed,fixed:bge:leaf-local-6-2:42,2.02335,3.2724454
+143,"ajalugu, vabadussõja, ajaloo, pätsu",13,1,fixed,fixed:bge:leaf-local-6-2:42,5.228745,3.089607
+144,"nutitelefon, videosid, multikaid, libisema",13,2,fixed,fixed:bge:leaf-local-6-2:42,7.745063,3.7092876
+145,"rohetehnoloogia, taaskasutatud, saunalaval, rohe",13,5,fixed,fixed:bge:leaf-local-6-2:42,2.660793,5.5412216
+146,"skt, kodanikupalga, kolm eurot, laste kasvatamine",13,1,fixed,fixed:bge:leaf-local-6-2:42,5.537109,2.0069416
+147,"õpilased, gpt ga, õpilased kasutavad, tehisintel",13,4,fixed,fixed:bge:leaf-local-6-2:42,9.10908,3.1129289
+148,"ideevormi, tervishoiuteenuste, ideevormi tagasi, tõstanud",13,6,fixed,fixed:bge:leaf-local-6-2:42,6.880592,7.0275965
+149,"kaspar, sekundid, jäid sekundid, kuhu jäid",13,5,fixed,fixed:bge:leaf-local-6-2:42,9.592483,2.5107732
+150,"väikeettevõtja, ille, väikeettevõtjad, väikeettevõtted",13,1,fixed,fixed:bge:leaf-local-6-2:42,3.5289729,4.948105
+151,"mets, ühtegi puud, raiu, rmk",13,3,fixed,fixed:bge:leaf-local-6-2:42,1.3479656,4.7092485
+152,"kaido, niheleb, hea trend, ebasoodne",13,2,fixed,fixed:bge:leaf-local-6-2:42,6.144505,0.8605341
+153,"regionaalareng, ruumipoliitika, maale, tallinnast",13,2,fixed,fixed:bge:leaf-local-6-2:42,4.604703,5.8774233
+154,"juhitavaid, võimsuseid, juhitavaid võimsuseid, inertsi",13,2,fixed,fixed:bge:leaf-local-6-2:42,1.6275454,6.638514
+155,"puidu, uute materjalide, materjalide, paberipuitu",13,4,fixed,fixed:bge:leaf-local-6-2:42,2.4806497,5.244771
+156,"alusharidus, alushariduse, jõuagi, prioriteet",13,2,fixed,fixed:bge:leaf-local-6-2:42,9.848877,5.094547
+157,"tehisintellekti poolt, teadust, tehisintellekti, palju andmeid",13,2,fixed,fixed:bge:leaf-local-6-2:42,8.718507,2.6598623
+158,"vähitõrje, vähitõrjetegevuskava, tegevuskava, kaire",12,1,fixed,fixed:bge:leaf-local-6-2:42,7.196326,7.444031
+159,"teede, asfalt, miljonid, kiiresti kasva",12,1,fixed,fixed:bge:leaf-local-6-2:42,4.1056333,5.4244537
+160,"viisteist korda, miinus kolm, pluss miinus, kliima",12,3,fixed,fixed:bge:leaf-local-6-2:42,3.0945015,6.3084426
+161,"ulme, startupid, marius, ravi jätku",12,1,fixed,fixed:bge:leaf-local-6-2:42,6.7586193,6.8358526
+162,"hindamine, hindamise, hinnet, hindeid",12,3,fixed,fixed:bge:leaf-local-6-2:42,9.529494,4.243278
+163,"putini, paralleele, ajaloost, kennedy",12,1,fixed,fixed:bge:leaf-local-6-2:42,5.075261,3.1702242
+164,"reklaam, reklaame, reklaami, kaebusi",12,1,fixed,fixed:bge:leaf-local-6-2:42,5.4532347,4.460027
+165,"diabeedi, diabeet, mahla, sensor",12,1,fixed,fixed:bge:leaf-local-6-2:42,7.862536,6.655909
+166,"kaugküte, kaugkütte, soojussektoris, võsa",12,2,fixed,fixed:bge:leaf-local-6-2:42,2.227921,7.063464
+167,"lastega ühe, lapse luban, screenshoti, lapsega läbi",12,4,fixed,fixed:bge:leaf-local-6-2:42,7.7231336,3.5245066
+168,"põlevkivi, konist, teadlaste käest, teadlaste",12,1,fixed,fixed:bge:leaf-local-6-2:42,2.56218,6.7541113
+169,"läbipõlemine, läbipõlemise, onlainis, online",12,1,fixed,fixed:bge:leaf-local-6-2:42,6.8484607,1.3543761
+170,"valida endale, kassi, kavatsustega, tehisintellekt",12,1,fixed,fixed:bge:leaf-local-6-2:42,7.8138323,3.2960975
+171,"id kaart, agent, rutt, ai agent",11,3,fixed,fixed:bge:leaf-local-6-2:42,8.478546,1.7731032
+172,"tasuta, mihhail, juriste, tasuta kõrgharidus",11,4,fixed,fixed:bge:leaf-local-6-2:42,10.088,3.9348428
+173,"rahapõhine, humanitaarabi, asendamatu, doonorite",11,1,fixed,fixed:bge:leaf-local-6-2:42,3.8535519,3.5092938
+174,"fosforit, reoveemuda, sirli sul, kasutatakse jällegi",11,2,fixed,fixed:bge:leaf-local-6-2:42,3.0905845,7.1031704
+175,"partneri, lapsi saada, lapsi, partnerit",11,1,fixed,fixed:bge:leaf-local-6-2:42,5.5774117,2.1031582
+176,"keelt, keel, inglise, inglise keel",11,1,fixed,fixed:bge:leaf-local-6-2:42,4.6418357,2.449415
+177,"korterid, üürida, üüri, üürileping",11,2,fixed,fixed:bge:leaf-local-6-2:42,4.960608,6.1555586
+178,"tublisid, põlva, põlvas, teslaga",11,2,fixed,fixed:bge:leaf-local-6-2:42,4.7305927,5.816845
+179,"hageja, kohus, õigusbüroo, nõuda",11,1,fixed,fixed:bge:leaf-local-6-2:42,6.9159245,2.873547
+180,"kohtute, kohtuniku, kohtusüsteem, maakohtu",11,1,fixed,fixed:bge:leaf-local-6-2:42,6.7548018,2.3170764
+181,"paindlikkus, paindlikkuse, paindlikkust, paindlikku",11,1,fixed,fixed:bge:leaf-local-6-2:42,6.3549967,1.1914427
+182,"matemaatika, matemaatikat, kuup, raili",11,1,fixed,fixed:bge:leaf-local-6-2:42,9.329666,4.2479224
+183,"rahvakohtunik, rahvakohtunike, rahvakohtuniku, jakob",11,1,fixed,fixed:bge:leaf-local-6-2:42,6.8346467,2.6337378
+184,"kaidi, kellad viled, mustem stsenaarium, intervjuule",10,3,fixed,fixed:bge:leaf-local-6-2:42,6.59862,1.1580349
+185,"puitmaja, puitu, reimo, metsade",10,1,fixed,fixed:bge:leaf-local-6-2:42,1.2967317,4.7866187
+186,"hoiak, survesta, kombed, hoiakute",10,1,fixed,fixed:bge:leaf-local-6-2:42,5.5192976,2.272417
+187,"kilo, valku, seened, uuend",10,1,fixed,fixed:bge:leaf-local-6-2:42,3.0705276,5.56134
+188,"energiakulu, pisley, aspektid, generatiivne",10,1,fixed,fixed:bge:leaf-local-6-2:42,8.865394,2.2860782
+189,"vaktsiini, vaktsiin, viirust, viirus",10,1,fixed,fixed:bge:leaf-local-6-2:42,3.3607335,5.735604
+190,"kavandit, tänavakunsti, tänavakunst, legaalne",10,1,fixed,fixed:bge:leaf-local-6-2:42,6.6230893,3.6438289
+191,"keeleõpet, integratsiooni, kultuuriruumi, tähendab keeleõpet",10,2,fixed,fixed:bge:leaf-local-6-2:42,4.457613,2.3638842
+192,"pean arvestama, vabavara, tehisintellekti, hiina",10,5,fixed,fixed:bge:leaf-local-6-2:42,8.462426,2.5607505
+193,"jalgsi, liikumise, enesehinnang, madala enesehinnang",10,1,fixed,fixed:bge:leaf-local-6-2:42,8.383304,5.7162795
+194,"rene, võib aspekt, nemad saaksid, rajamisega lõpuks",10,2,fixed,fixed:bge:leaf-local-6-2:42,4.257368,6.767617
+195,"kommunikatsiooni, patsient, otsustustugi, kõige vähem",10,4,fixed,fixed:bge:leaf-local-6-2:42,7.478071,6.973748
+196,"võrdsetena, ettevõtmisi, tean teen, usudki",10,5,fixed,fixed:bge:leaf-local-6-2:42,3.9750352,6.558299
+197,"tuumajaama, tuumajaam, põlevkivi, reaktor",10,5,fixed,fixed:bge:leaf-local-6-2:42,2.1367447,6.584503
+198,"rohetiiger, juhtusid, rohetiigri, otepääl",10,6,fixed,fixed:bge:leaf-local-6-2:42,2.149262,5.9571295
+199,"kliimamuutus, kliimamuutuse, kliima, eestlaste",10,5,fixed,fixed:bge:leaf-local-6-2:42,3.138119,6.43629
+200,"hiina, hiinlased, hiinast, hiinaga",10,3,fixed,fixed:bge:leaf-local-6-2:42,2.832109,4.6888857
+201,"võimalus alati, kaitsetöö, kaitsetööstuse, kaitsetööstus",9,2,fixed,fixed:bge:leaf-local-6-2:42,2.7370036,5.3557434
+202,"pank, testkeskkondi, panga, tootlikkus",9,4,fixed,fixed:bge:leaf-local-6-2:42,2.7898712,5.3844733
+203,"meediapädevust, oled enda, kriitilise meele, algoritmid",9,4,fixed,fixed:bge:leaf-local-6-2:42,7.234842,3.6364625
+204,"palestiina, kajastad, toimetusele, laulupidu",9,1,fixed,fixed:bge:leaf-local-6-2:42,6.1277165,3.3160896
+205,"suures suures, keskkonnamõju, energiat, läheb soojaks",9,2,fixed,fixed:bge:leaf-local-6-2:42,8.733179,2.399181
+206,"salaturu, salaturg, legaalsest, maitsetega",9,1,fixed,fixed:bge:leaf-local-6-2:42,7.4733343,4.7720613
+207,"ida, ida viru, ida virumaal, virumaal",9,1,fixed,fixed:bge:leaf-local-6-2:42,4.618248,5.555787
+208,"nikotiini, brit, diilerid, tõmbasid",9,1,fixed,fixed:bge:leaf-local-6-2:42,7.5635023,4.7246895
+209,"istandik, istandike, istandikud, istandiku",9,1,fixed,fixed:bge:leaf-local-6-2:42,1.1556567,4.671781
+210,"lastefondis, lastefond, annetajatele, tegevuskulud",9,1,fixed,fixed:bge:leaf-local-6-2:42,4.5145597,4.0965185
+211,"keskkonnakulu, tassima, bmw, kaheksanda aasta",9,5,fixed,fixed:bge:leaf-local-6-2:42,2.342656,6.5474615
+212,"äri, saudi, millised ohud, lõuna ameerika",9,1,fixed,fixed:bge:leaf-local-6-2:42,2.9463036,4.4962826
+213,"cv sse, cv, ongi pead, töövestlusel",9,2,fixed,fixed:bge:leaf-local-6-2:42,7.2360444,3.895973
+214,"surm, elu lõpu, suremise, paljatiivravi",9,3,fixed,fixed:bge:leaf-local-6-2:42,7.2191544,6.2022915
+215,"vahel erinevate, patsiendiorganisatsioonid, patsiendi, vähitõrje",9,2,fixed,fixed:bge:leaf-local-6-2:42,7.242145,7.4528666
+216,"hange, hanke, riigiabi, sagedusreservide",9,1,fixed,fixed:bge:leaf-local-6-2:42,1.6721104,6.6408954
+217,"õpetaja, õpetaja pere, vallavalitsuse, ümber õpetaja",9,2,fixed,fixed:bge:leaf-local-6-2:42,9.703833,5.0535913
+218,"red, reklaam, bull, red bull",9,1,fixed,fixed:bge:leaf-local-6-2:42,5.2445264,4.6524177
+219,"kuusikud, majandusmetsas, rajati, istutatud",9,1,fixed,fixed:bge:leaf-local-6-2:42,1.2240919,4.612226
+220,"üro, rahakassa, viis miljardit, miljardit dollarit",9,1,fixed,fixed:bge:leaf-local-6-2:42,3.7958312,3.3302765
+221,"kõrtsi, härra major, lõhestada, major",9,1,fixed,fixed:bge:leaf-local-6-2:42,6.0389457,3.268461
+222,"vanemapuhkusel, meditsiin ainult, rase, meditsiin",9,4,fixed,fixed:bge:leaf-local-6-2:42,7.058414,7.1326385
+223,"kaiku, tehisintellektist, mittereguleeritud, arst koos",9,1,fixed,fixed:bge:leaf-local-6-2:42,7.536245,7.2690096
+224,"hinnet, hinde, kati, hinne",9,1,fixed,fixed:bge:leaf-local-6-2:42,9.554116,4.200293
+225,"andmekeskuse, andmekeskusi, andmekeskused, andmekeskus",9,3,fixed,fixed:bge:leaf-local-6-2:42,1.877513,6.0973725
+226,"audi, audile, tööstuse, töötleva",9,5,fixed,fixed:bge:leaf-local-6-2:42,3.1026676,5.0298223
+227,"õppeaasta, grupeerida, seitse õppeaasta, pedagooge",9,8,fixed,fixed:bge:leaf-local-6-2:42,9.397395,4.164402
+228,"python, konverteerimine, alateadvusega, llm",9,5,fixed,fixed:bge:leaf-local-6-2:42,8.939481,1.9970906
+229,"vangla, vanglasse, vanglas, venib",8,1,fixed,fixed:bge:leaf-local-6-2:42,7.390406,4.404831
+230,"säästva, säästva arengu, arvestuslangi, lank",8,2,fixed,fixed:bge:leaf-local-6-2:42,1.1009148,4.7797923
+231,"agentide, volituste süsteemi, volituste, agenti",8,2,fixed,fixed:bge:leaf-local-6-2:42,8.592582,1.7958778
+232,"gunnar, aira, sinu tunnetus, metsadest",8,1,fixed,fixed:bge:leaf-local-6-2:42,1.3281057,4.5786967
+233,"avalikul maal, ruutmeetri, avalikul, segregatsiooni",8,2,fixed,fixed:bge:leaf-local-6-2:42,4.906476,6.1145706
+234,"välismaalased, ppa, restoranide liidu, liidu vaatest",8,1,fixed,fixed:bge:leaf-local-6-2:42,4.9437227,1.5310996
+235,"elo, elo rääkis, turvavöö, mikita",8,1,fixed,fixed:bge:leaf-local-6-2:42,3.0379176,6.3278337
+236,"väliseesti, elusa, tõmbekeskustesse, kultuurist rääkida",8,1,fixed,fixed:bge:leaf-local-6-2:42,5.0288887,2.345252
+237,"elanikkonna kaitse, elanikkonna, alati võiks, sõda",8,1,fixed,fixed:bge:leaf-local-6-2:42,2.4838529,3.1123116
+238,"uuringutega edasi, jaoks positiivne, mati küsimuse, lahtiseks",8,2,fixed,fixed:bge:leaf-local-6-2:42,2.987399,7.2335315
+239,"fosforit, mõjusid, tõesti usute, raport moskvasse",8,2,fixed,fixed:bge:leaf-local-6-2:42,3.024408,7.2183356
+240,"kardioloogias, martinson, hoida kokku, saadan",8,4,fixed,fixed:bge:leaf-local-6-2:42,7.199432,6.959618
+241,"õpiränne, tööränne, rände puhul, osad neist",8,2,fixed,fixed:bge:leaf-local-6-2:42,4.306303,2.2357724
+242,"rasvunud, osempic, kaaluravimid, rasvumise",8,1,fixed,fixed:bge:leaf-local-6-2:42,7.7846537,6.424805
+243,"tohi ehitada, tipuhindasid kujundavad, energeetika valdkonna, muutuv kulusid",8,5,fixed,fixed:bge:leaf-local-6-2:42,2.2886453,6.7426467
+244,"kaasa tuna, kaasatud, tuna, oled aktiivne",8,2,fixed,fixed:bge:leaf-local-6-2:42,4.4080157,6.627394
+245,"aju ütleb, ussikene, ussike, ussikesed",8,1,fixed,fixed:bge:leaf-local-6-2:42,8.768379,4.9068217
+246,"donald, ühendriikide, ameerika, ameerika ühendriikide",8,2,fixed,fixed:bge:leaf-local-6-2:42,5.0845833,3.2095606
+247,"iisraeli, palestiinlaste, hamas, iisrael",8,1,fixed,fixed:bge:leaf-local-6-2:42,3.7085567,2.9236078
+248,"assistent, käiviti, koosoleku protokoll, protokoll",8,2,fixed,fixed:bge:leaf-local-6-2:42,8.848759,1.8177156
+249,"vajalik kindlasti, peaks doteerima, doteerima, kaalu",8,1,fixed,fixed:bge:leaf-local-6-2:42,7.7875504,6.448864
+250,"ülla, kultuuriretsept, kultuuriasutused, ülla karin",8,1,fixed,fixed:bge:leaf-local-6-2:42,6.086877,5.238255
+251,"tarkvara, agendi, agent, deterministlik",8,1,fixed,fixed:bge:leaf-local-6-2:42,8.522207,1.7215446
+252,"meeleoluhäiret, suurenemine, sõltuvust, näidatud",8,1,fixed,fixed:bge:leaf-local-6-2:42,7.7607174,3.6328387
+253,"käibemaksu, käibemaks, kunsti, räägime käibemaksust",7,1,fixed,fixed:bge:leaf-local-6-2:42,4.0379252,4.5942454
+254,"juhtus kliimaseadusega, kliimaseadusega, paanika, rail",7,3,fixed,fixed:bge:leaf-local-6-2:42,3.256878,6.412857
+255,"vasakpoolsuse, vasakpoolsed, vasakpoolseid, vasakpoolsus",7,1,fixed,fixed:bge:leaf-local-6-2:42,5.3490295,3.7450366
+256,"teravilja, teravili, hannes, hannes palun",7,1,fixed,fixed:bge:leaf-local-6-2:42,3.2904003,5.380133
+257,"ärilist, hiina, heite, pilt muidugi",7,1,fixed,fixed:bge:leaf-local-6-2:42,3.0972772,6.289873
+258,"rohetiigri, korda aastas, ülevaatamine, organisatsiooni kipuvad",7,2,fixed,fixed:bge:leaf-local-6-2:42,6.6137333,1.0492581
+259,"insenere, inseneri, iirlased, tahv",7,3,fixed,fixed:bge:leaf-local-6-2:42,3.3272722,4.441837
+260,"visiooni, visioon, kasvama, majanduskasv",7,2,fixed,fixed:bge:leaf-local-6-2:42,3.877108,4.5110774
+261,"arengukoostöö, kirsika, võistkond, tulge välja",7,1,fixed,fixed:bge:leaf-local-6-2:42,6.0521894,4.4070587
+262,"paksuks, algkoolis, pelmeenisupp, tervisekäitumine",7,1,fixed,fixed:bge:leaf-local-6-2:42,8.047627,5.6042266
+263,"rändest, rändepoliitika, rändega, siia tulevad",7,2,fixed,fixed:bge:leaf-local-6-2:42,4.068479,2.118333
+264,"jõhvi, kood, kood jõhvi, toetuseta",7,3,fixed,fixed:bge:leaf-local-6-2:42,9.714265,3.1595802
+265,"isabella, õpilasfirmat, eluks valmis, blowit",7,1,fixed,fixed:bge:leaf-local-6-2:42,9.643336,3.7560406
+266,"kurjategija, parooli, parool, krüptoraha",7,1,fixed,fixed:bge:leaf-local-6-2:42,7.9675455,2.3089685
+267,"proviisori, töötervishoius, riskianalüüs, konsulteeris",7,2,fixed,fixed:bge:leaf-local-6-2:42,7.4290123,6.7450714
+268,"haigla uksest, haigused, tehtud täna, omaosaluse",7,2,fixed,fixed:bge:leaf-local-6-2:42,6.8108544,7.324961
+269,"von, von der, der, ursula",7,1,fixed,fixed:bge:leaf-local-6-2:42,2.8678174,3.8167267
+270,"nakkushaiguste, keeldumist, vaktsineerimise, tekitama",7,3,fixed,fixed:bge:leaf-local-6-2:42,5.945908,7.0085006
+271,"film, filmi, filme, rõõmsaid filme",7,1,fixed,fixed:bge:leaf-local-6-2:42,7.056342,4.207418
+272,"seisate, eest seisate, tõmbamise, vilistan",7,1,fixed,fixed:bge:leaf-local-6-2:42,5.9353485,4.4181395
+273,"õppelaen, ülikoolid, kõrgharidus, alles peale",7,2,fixed,fixed:bge:leaf-local-6-2:42,10.214697,3.743194
+274,"arengukoostöö, armeenia, aafrika, silja",7,1,fixed,fixed:bge:leaf-local-6-2:42,3.8574324,3.5892444
+275,"trump, donald, donald trump, ameerika",7,1,fixed,fixed:bge:leaf-local-6-2:42,5.1906543,3.2450302
+276,"telli, telli uuringut, perearsti, ostes",7,2,fixed,fixed:bge:leaf-local-6-2:42,7.4627223,6.766902
+277,"erasektor, lasteasutused, alusharidusseadus, kohalik omavalitsus",7,2,fixed,fixed:bge:leaf-local-6-2:42,9.723718,5.1316733
+278,"käinud lasteaias, toetab lapse, otsas polnud, lapse arengut",7,1,fixed,fixed:bge:leaf-local-6-2:42,9.335081,5.061153
+279,"lasteaed, alushariduse, lastea ia, arengutark",7,2,fixed,fixed:bge:leaf-local-6-2:42,9.608676,5.174054
+280,"delaware, luksemburgi, ink, luksemburgis",7,1,fixed,fixed:bge:leaf-local-6-2:42,3.9104943,4.9330373
+281,"nõel, riske toob, milliseid riske, kliimaettevõtete",7,1,fixed,fixed:bge:leaf-local-6-2:42,2.7855952,6.02623
+282,"itf, einari, aafrika itf, viimane investeering",7,1,fixed,fixed:bge:leaf-local-6-2:42,2.494965,5.6246214
+283,"kollektiivist pidada, otsustasin tahaks, järele sellepärast, teeninud juhtus",7,2,fixed,fixed:bge:leaf-local-6-2:42,5.7958565,1.7623216
+284,"katariina, emad, iganes aeg, emaduslõivu",7,1,fixed,fixed:bge:leaf-local-6-2:42,5.7979307,1.895576
+285,"noored mehed, korda korda, seitseteist protsenti, töökeskkonna",7,1,fixed,fixed:bge:leaf-local-6-2:42,5.84328,0.8400937
+286,"mudelis, kultuuriretsepti, vahetanud teil, arendame liikumisretsepti",7,1,fixed,fixed:bge:leaf-local-6-2:42,6.326479,5.472175
+287,"loometegevus, korstnasse, praegu hetkel, inimühiskonna",7,2,fixed,fixed:bge:leaf-local-6-2:42,8.940703,2.2789886
+288,"tagavara, raiemaht, raie, keskkonnaagentuur",7,1,fixed,fixed:bge:leaf-local-6-2:42,1.1432714,4.8336744
+289,"ajateenistusse, üleöö, kohustuslik, ajateenijat",7,3,fixed,fixed:bge:leaf-local-6-2:42,2.027145,3.0084329
+290,"kaitsekulude, kaitsevägi, eelarve väliselt, kaitsevägi ütleb",7,2,fixed,fixed:bge:leaf-local-6-2:42,2.5028892,3.1907823
+291,"tervishoiutöötaja, kõrvalmõju, kaardistamine, ärevust",7,1,fixed,fixed:bge:leaf-local-6-2:42,7.717591,7.0001206
+292,"surmast, surm, prognoosi, kolis",7,2,fixed,fixed:bge:leaf-local-6-2:42,7.1709843,6.203822
+293,"ideoloogiliselt, peaksid rohkem, oska keskkonnateemat, ideoloogiliselt laetud",6,1,fixed,fixed:bge:leaf-local-6-2:42,6.284505,3.2765467
+294,"väärtustest, head teod, elupühadus, jäävad maha",6,1,fixed,fixed:bge:leaf-local-6-2:42,6.243088,4.0684595
+295,"loodus, printsiipi, peaks kaitsma, küsisime",6,3,fixed,fixed:bge:leaf-local-6-2:42,2.2432466,5.370815
+296,"aina, vasakpoolsetel, nostalgia, teame nõukogude",6,1,fixed,fixed:bge:leaf-local-6-2:42,5.298918,3.7725976
+297,"fox, fox news, news, saatkonnas",6,1,fixed,fixed:bge:leaf-local-6-2:42,5.4714413,3.2803276
+298,"paneme ainult, päiksepaneelide, leedus, maismaa",6,4,fixed,fixed:bge:leaf-local-6-2:42,2.055136,6.5461917
+299,"rahulolu, kaubanduses, kaidi, rahulolevamaks",6,1,fixed,fixed:bge:leaf-local-6-2:42,6.4100337,1.2141511
+300,"pangandus, tink, inimkeskse, gdpr",6,1,fixed,fixed:bge:leaf-local-6-2:42,4.2608247,4.9937143
+301,"karpide, tammeparketi, kortereid, soetades",6,1,fixed,fixed:bge:leaf-local-6-2:42,4.9634166,6.1754355
+302,"laps siit, lapsi üksinda, enneaegselt sündinud, nähtud sageli",6,2,fixed,fixed:bge:leaf-local-6-2:42,8.680465,5.0707383
+303,"tugiteenuste, tugiteenuste koordineerija, koordineerija, märkaja",6,1,fixed,fixed:bge:leaf-local-6-2:42,9.278358,5.2487164
+304,"alusharidus, potsatab, töötuba, võtad kaasa",6,3,fixed,fixed:bge:leaf-local-6-2:42,9.781871,5.087616
+305,"kastid, loopima, täht, käinud kõikides",6,1,fixed,fixed:bge:leaf-local-6-2:42,8.831465,4.757145
+306,"nato, väärtuspoliitika, huvide väärtuste, strateegilises plaanis",6,2,fixed,fixed:bge:leaf-local-6-2:42,3.5292587,2.9895968
+307,"erjk, valimiste, olulist tööd, ühes mõttes",6,1,fixed,fixed:bge:leaf-local-6-2:42,5.617428,3.8433921
+308,"texase, päikest, tuul, päikest tuult",6,2,fixed,fixed:bge:leaf-local-6-2:42,1.6530828,6.620432
+309,"arendaja, tuulepargi, põhja pärnumaa, pärnumaa",6,2,fixed,fixed:bge:leaf-local-6-2:42,3.9966953,6.8801694
+310,"pereõel, põdejatele, füüsiline tervis, tervise õed",6,1,fixed,fixed:bge:leaf-local-6-2:42,7.7156973,6.808917
+311,"narkoosi, narkoosis, narkoosis ravi, narkoosi sambaravi",6,1,fixed,fixed:bge:leaf-local-6-2:42,8.087564,5.938379
+312,"ministrile vastu, kustutas, töötas ministrile, harri",6,1,fixed,fixed:bge:leaf-local-6-2:42,6.8769717,2.8704686
+313,"nikotiini, veipi, kahjulikud, tarvitab",6,1,fixed,fixed:bge:leaf-local-6-2:42,7.5280333,4.6485157
+314,"tarbija, vesi olemas, vett, liitrit",6,1,fixed,fixed:bge:leaf-local-6-2:42,2.7720165,5.9733434
+315,"siim, tere tulemast, tehnoloogia areng, tehnoloogia",6,2,fixed,fixed:bge:leaf-local-6-2:42,7.390454,7.0478573
+316,"kirjutamata, online, raamid, produktiivsus",6,1,fixed,fixed:bge:leaf-local-6-2:42,7.7315025,3.1521292
+317,"chat, lasteabi, murega, abisse",6,2,fixed,fixed:bge:leaf-local-6-2:42,7.96266,3.1721766
+318,"von der, der, von, ursula von",6,1,fixed,fixed:bge:leaf-local-6-2:42,2.9261572,3.7914155
+319,"saatkonda, tudengeid, viisat, viisasid",6,1,fixed,fixed:bge:leaf-local-6-2:42,3.0409951,4.359798
+320,"pidu, tarvitanud, kanepi, tunnetest",6,1,fixed,fixed:bge:leaf-local-6-2:42,7.340361,4.5677814
+321,"covidit, enne covidit, koolis olema, pandeemia",6,4,fixed,fixed:bge:leaf-local-6-2:42,5.805436,6.9360623
+322,"filmi, kirke, filmikooli, film",6,1,fixed,fixed:bge:leaf-local-6-2:42,7.1496964,4.272752
+323,"surmast, marju, väärikate, enesekesksed",6,1,fixed,fixed:bge:leaf-local-6-2:42,7.146841,5.9908934
+324,"inimkaubandus, inimkaubanduse, ärakasutamise, oluline vahet",6,1,fixed,fixed:bge:leaf-local-6-2:42,4.75094,1.7227116
+325,"ülemiste, kakao, seenhaigus, globaalses plaanis",6,1,fixed,fixed:bge:leaf-local-6-2:42,2.899234,6.0601177
+326,"õppused, õppuste, tuhat kilomeetrit, välitoitlustus loomulikult",6,1,fixed,fixed:bge:leaf-local-6-2:42,2.5009627,3.0465643
+327,"ratas, sõidab sõidab, rattaga, tagumine",6,1,fixed,fixed:bge:leaf-local-6-2:42,9.260654,4.473036
+328,"ettevõtlikkust, kristo, rahatarkuse, ettevõtja",6,1,fixed,fixed:bge:leaf-local-6-2:42,9.483209,3.7507482
+329,"jalgpalli, klubisid, mangusime, jalgpall kõige",6,1,fixed,fixed:bge:leaf-local-6-2:42,9.376017,4.664917
+330,"emaduse, eesti kultuuri, emadus, kultuuri",6,1,fixed,fixed:bge:leaf-local-6-2:42,5.4274116,2.5623949
+331,"kakskeelne, kakskeelsest, kakskeelsest perest, naine olema",6,2,fixed,fixed:bge:leaf-local-6-2:42,4.695407,2.4628441
+332,"valglinnastumise, toimepiirkond, valglinn, tahame värk",6,2,fixed,fixed:bge:leaf-local-6-2:42,4.705737,5.9980335
+333,"vesiniku, veeldatud, toormed, elektriauto",6,1,fixed,fixed:bge:leaf-local-6-2:42,2.298639,6.1131663
+334,"hästi tugev, ukrainasse, sanktsioonide, turunišše",6,2,fixed,fixed:bge:leaf-local-6-2:42,2.916653,4.2331967
+335,"surnud, lind, linde, lennugripi",6,2,fixed,fixed:bge:leaf-local-6-2:42,3.264951,5.658941
+336,"ülikooli edasi, kutsekoolide, tuhande ringis, eesti pangad",6,5,fixed,fixed:bge:leaf-local-6-2:42,9.910356,3.1677542
+337,"smi, kakskümmend viiskümmend, kliimamuutust, vähem emotsiooni",6,1,fixed,fixed:bge:leaf-local-6-2:42,1.2815198,4.856138
+338,"maleva, malev, õpilasmaleva, rühmajuht",6,1,fixed,fixed:bge:leaf-local-6-2:42,8.619853,3.9251328
+339,"andmekeskus, andmekeskused, andmekeskustest, kutsume siia",6,2,fixed,fixed:bge:leaf-local-6-2:42,1.8627944,5.9883194
+340,"carne, stubb, stuubi, globaalne lõuna",6,1,fixed,fixed:bge:leaf-local-6-2:42,3.916069,3.2093546
+341,"räägid poliitikutest, poliitikutest, sotsiaalmeedias, argumenteeritud",6,1,fixed,fixed:bge:leaf-local-6-2:42,6.401811,3.340041
+342,"väärt lahendamist, aasta kevadest, blockchain, lahendamist",6,4,fixed,fixed:bge:leaf-local-6-2:42,8.634233,2.19372
+343,"rohkem headust, headust, sarnases, natali",6,1,fixed,fixed:bge:leaf-local-6-2:42,6.4563055,3.4218483
+344,"graffiti, grafiti, tänavakunst, tänavakunsti",6,1,fixed,fixed:bge:leaf-local-6-2:42,6.808516,3.6398618
+345,"chat kontrolli, tunneme, nendega järelevalve, iganes lahendus",6,1,fixed,fixed:bge:leaf-local-6-2:42,7.4413385,2.9814508
