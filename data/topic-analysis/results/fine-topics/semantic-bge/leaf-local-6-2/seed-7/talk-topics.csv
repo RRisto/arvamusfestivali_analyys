@@ -1,0 +1,893 @@
+episode_id,title,topic_id,passage_count,covered_seconds,fraction_of_analyzed_talk
+2247188684,Kas kiirustades elad kauem?,4,18,4939.041,0.9501954723821312
+2247188684,Kas kiirustades elad kauem?,36,1,162.23999999999978,0.0312124789891958
+2247188684,Kas kiirustades elad kauem?,170,1,96.63999999999989,0.0185920486286728
+2247188687,Kes koristab?!,-1,6,1357.5200000000002,0.2515902773234599
+2247188687,Kes koristab?!,99,1,163.75999999999976,0.0303497729790277
+2247188687,Kes koristab?!,149,1,437.0,0.0809895627249336
+2247188687,Kes koristab?!,187,8,2914.2770000000005,0.5401053086712394
+2247188687,Kes koristab?!,189,1,419.1199999999999,0.0776758478930759
+2247188687,Kes koristab?!,215,1,104.08,0.0192892304082633
+2247188690,Kas kõik on kiusamine?,-1,8,2275.5200000000004,0.4344076053402935
+2247188690,Kas kõik on kiusamine?,11,9,2962.6939999999995,0.5655923946597065
+2247188693,Töökius otse laval,-1,6,1252.05,0.233789877601322
+2247188693,Töökius otse laval,11,11,3934.64,0.7346982979954998
+2247188693,Töökius otse laval,136,1,168.76000000000022,0.0315118244031781
+2247188696,Juhi võim versus töötaja julgus,-1,3,642.9200000000001,0.1219792852262807
+2247188696,Juhi võim versus töötaja julgus,67,15,4468.131000000001,0.8477251068210464
+2247188696,Juhi võim versus töötaja julgus,100,1,159.67999999999984,0.0302956079526729
+2247188699,Õpiamps kui osa tööst,-1,3,800.4400000000003,0.146342274989428
+2247188699,Õpiamps kui osa tööst,57,1,383.67999999999984,0.0701471741391531
+2247188699,Õpiamps kui osa tööst,83,14,4285.522999999999,0.7835105508714187
+2247188702,Kuidas juhtida riiki? Visiooni põhjal? Väärtuste põhjal?,90,12,4391.135,0.9118382704884758
+2247188702,Kuidas juhtida riiki? Visiooni põhjal? Väärtuste põhjal?,146,1,194.5999999999999,0.0404095359029174
+2247188702,Kuidas juhtida riiki? Visiooni põhjal? Väärtuste põhjal?,150,2,229.9599999999996,0.0477521936086067
+2247188705,Kas töötaja on alati nõrgem osapool?,-1,5,811.6399999999992,0.1470498180085477
+2247188705,Kas töötaja on alati nõrgem osapool?,11,1,193.32000000000065,0.0350249751335722
+2247188705,Kas töötaja on alati nõrgem osapool?,67,1,189.35999999999967,0.0343075175423815
+2247188705,Kas töötaja on alati nõrgem osapool?,82,5,1855.61,0.3361922931285318
+2247188705,Kas töötaja on alati nõrgem osapool?,170,7,2272.2000000000007,0.4116684693694528
+2247188705,Kas töötaja on alati nõrgem osapool?,188,1,197.35999999999967,0.0357569268175138
+2247188708,Disainime tööd,-1,5,1024.6799999999998,0.1981466631060032
+2247188708,Disainime tööd,122,12,3709.0810000000006,0.7172405271303021
+2247188708,Disainime tööd,151,2,333.8399999999997,0.0645560389695398
+2247188708,Disainime tööd,213,1,103.7199999999998,0.0200567707941548
+2250797864,Kuidas luua hoolivamat ühiskonda_ Pihlakodu juhtumist edasi!,-1,1,192.8800000000001,0.031841082491152
+2250797864,Kuidas luua hoolivamat ühiskonda_ Pihlakodu juhtumist edasi!,89,15,5374.583,0.8872487591172915
+2250797864,Kuidas luua hoolivamat ühiskonda_ Pihlakodu juhtumist edasi!,90,1,261.84000000000015,0.0432251609263959
+2250797864,Kuidas luua hoolivamat ühiskonda_ Pihlakodu juhtumist edasi!,169,1,228.27999999999972,0.0376849974651605
+2250797867,"Loodus, majandus ja julgeolek. Kas valida tuleb ainult kaks_",-1,6,1391.325,0.2638280644834037
+2250797867,"Loodus, majandus ja julgeolek. Kas valida tuleb ainult kaks_",3,3,1125.88,0.2134934262236174
+2250797867,"Loodus, majandus ja julgeolek. Kas valida tuleb ainult kaks_",6,1,163.07999999999998,0.0309238177679215
+2250797867,"Loodus, majandus ja julgeolek. Kas valida tuleb ainult kaks_",10,1,522.44,0.0990669570436162
+2250797867,"Loodus, majandus ja julgeolek. Kas valida tuleb ainult kaks_",53,1,191.23999999999975,0.036263618530398
+2250797867,"Loodus, majandus ja julgeolek. Kas valida tuleb ainult kaks_",64,1,452.8000000000002,0.0858615690784577
+2250797867,"Loodus, majandus ja julgeolek. Kas valida tuleb ainult kaks_",168,4,1329.16,0.2520401129777448
+2250797867,"Loodus, majandus ja julgeolek. Kas valida tuleb ainult kaks_",202,1,97.67999999999996,0.0185224338948404
+2250797870,Noored ja äärmuslus. Mida saame teha_,-1,2,286.5599999999997,0.0560312379626496
+2250797870,Noored ja äärmuslus. Mida saame teha_,2,16,4700.41,0.919073810832002
+2250797870,Noored ja äärmuslus. Mida saame teha_,190,1,127.32000000000016,0.0248949512053481
+2250797873,Vasakpoolsus Eestis. Kas turumõtlemine on piisav_,-1,1,94.68000000000028,0.0167463598599588
+2250797873,Vasakpoolsus Eestis. Kas turumõtlemine on piisav_,14,1,97.03999999999996,0.0171637807436671
+2250797873,Vasakpoolsus Eestis. Kas turumõtlemine on piisav_,25,19,5462.046,0.966089859396374
+2250797876,Kas öko-eluviis on ainult rikastele_,-1,4,488.59999999999945,0.1007455500612183
+2250797876,Kas öko-eluviis on ainult rikastele_,53,1,385.1199999999999,0.0794087724919698
+2250797876,Kas öko-eluviis on ainult rikastele_,54,1,98.16000000000032,0.0202398346172927
+2250797876,Kas öko-eluviis on ainult rikastele_,140,11,3877.962,0.7996058428295192
+2250797879,Looduskaitse ja riigikaitse – teineteist võimendavad jõud_,-1,4,482.8400000000008,0.0918969339837657
+2250797879,Looduskaitse ja riigikaitse – teineteist võimendavad jõud_,81,16,4771.306999999999,0.9081030660162344
+2250797882,Meedia roll progressiivsete teemade kajastamisel,-1,1,207.95999999999992,0.0419446623319545
+2250797882,Meedia roll progressiivsete teemade kajastamisel,2,1,361.7199999999998,0.0729574113229208
+2250797882,Meedia roll progressiivsete teemade kajastamisel,5,1,294.2800000000002,0.0593550453502962
+2250797882,Meedia roll progressiivsete teemade kajastamisel,15,2,623.1199999999999,0.1256806981741082
+2250797882,Meedia roll progressiivsete teemade kajastamisel,123,3,624.6400000000001,0.1259872758176194
+2250797882,Meedia roll progressiivsete teemade kajastamisel,203,6,1995.16,0.4024154284392314
+2250797882,Meedia roll progressiivsete teemade kajastamisel,214,4,851.0809999999999,0.1716594785638693
+2250797888,Rohkem kui kondoom ja video. Seksuaalhariduse tulevik Eestis,18,2,252.38500000000025,0.0484373515630323
+2250797888,Rohkem kui kondoom ja video. Seksuaalhariduse tulevik Eestis,26,1,322.6399999999994,0.0619205860423428
+2250797888,Rohkem kui kondoom ja video. Seksuaalhariduse tulevik Eestis,42,16,4401.16,0.844664041861264
+2250797888,Rohkem kui kondoom ja video. Seksuaalhariduse tulevik Eestis,68,1,100.88000000000012,0.0193607386559371
+2250797888,Rohkem kui kondoom ja video. Seksuaalhariduse tulevik Eestis,200,1,133.48000000000002,0.0256172818774235
+2254333406,"Kuhu pöörad, rohepööre_",-1,15,2814.44,0.4909832137555687
+2254333406,"Kuhu pöörad, rohepööre_",135,1,99.11999999999988,0.017291630358953
+2254333406,"Kuhu pöörad, rohepööre_",201,4,1660.3999999999996,0.289659231719186
+2254333406,"Kuhu pöörad, rohepööre_",210,5,1158.293,0.202065924166292
+2254333409,Kust tuleb raha aastal 2040_,-1,4,1084.5600000000009,0.2058410452236892
+2254333409,Kust tuleb raha aastal 2040_,1,1,129.4399999999996,0.0245667043720534
+2254333409,Kust tuleb raha aastal 2040_,53,12,3304.24,0.6271190300858619
+2254333409,Kust tuleb raha aastal 2040_,148,1,96.03999999999996,0.0182276443749383
+2254333409,Kust tuleb raha aastal 2040_,149,2,654.6400000000003,0.1242455759434571
+2254333412,Millist väliruumi ootame oma linnadesse_ LIFE Tartu ROHEringiga.alp,-1,6,1767.64,0.3130456835171966
+2254333412,Millist väliruumi ootame oma linnadesse_ LIFE Tartu ROHEringiga.alp,70,1,128.72,0.0227960672887768
+2254333412,Millist väliruumi ootame oma linnadesse_ LIFE Tartu ROHEringiga.alp,137,1,420.3599999999997,0.0744449568482771
+2254333412,Millist väliruumi ootame oma linnadesse_ LIFE Tartu ROHEringiga.alp,153,10,2983.2800000000007,0.5283332164485882
+2254333412,Millist väliruumi ootame oma linnadesse_ LIFE Tartu ROHEringiga.alp,209,1,185.5879999999997,0.0328672819763014
+2254333412,Millist väliruumi ootame oma linnadesse_ LIFE Tartu ROHEringiga.alp,212,1,161.0,0.0285127939208598
+2254333415,Hakkab looma! Unistades loome Eesti tulevikku,-1,1,161.20000000000073,0.0314385802867621
+2254333415,Hakkab looma! Unistades loome Eesti tulevikku,7,1,571.2000000000003,0.1114002298994941
+2254333415,Hakkab looma! Unistades loome Eesti tulevikku,70,15,4395.057999999999,0.8571611898137439
+2258666735,Milliseid lasteraamatuid tahame – lastega ja lastele,-1,1,372.859,1.0
+2258666738,Mitmekultuuriline maailm Eesti koolis,-1,3,1245.6800000000003,0.2379765194768674
+2258666738,Mitmekultuuriline maailm Eesti koolis,65,1,107.46600000000036,0.0205304609868514
+2258666738,Mitmekultuuriline maailm Eesti koolis,88,11,3222.32,0.6155967007904913
+2258666738,Mitmekultuuriline maailm Eesti koolis,103,1,100.92000000000009,0.0192799036234068
+2258666738,Mitmekultuuriline maailm Eesti koolis,147,1,261.19999999999936,0.0499000280066771
+2258666738,Mitmekultuuriline maailm Eesti koolis,166,1,296.8800000000001,0.0567163871157058
+2258666741,Me paneme selle muuseumi kinni!,80,16,4204.612999999999,1.0
+2258666744,Rahvus: inimene,-1,2,322.32000000000016,0.0778555049943514
+2258666744,Rahvus: inimene,112,13,3553.097,0.8582407583423772
+2258666744,Rahvus: inimene,147,1,264.55999999999995,0.0639037366632713
+2258666747,"Kaua säilib Eesti kultuur, kui meid saab olema nii vähe",-1,2,523.9199999999998,0.0994939088656152
+2258666747,"Kaua säilib Eesti kultuur, kui meid saab olema nii vähe",12,5,1929.6400000000003,0.3664441638102111
+2258666747,"Kaua säilib Eesti kultuur, kui meid saab olema nii vähe",87,1,98.36000000000011,0.0186788457703884
+2258666747,"Kaua säilib Eesti kultuur, kui meid saab olema nii vähe",147,1,261.4,0.0496406088285841
+2258666747,"Kaua säilib Eesti kultuur, kui meid saab olema nii vähe",166,8,2452.53,0.465742472725201
+2267420987,Kliimatark metsandus. Kuidas kohaneda ja tegutseda muutuvas keskkonnas_,-1,4,973.3599999999996,0.171837449286538
+2267420987,Kliimatark metsandus. Kuidas kohaneda ja tegutseda muutuvas keskkonnas_,15,1,95.60000000000002,0.0168772706416876
+2267420987,Kliimatark metsandus. Kuidas kohaneda ja tegutseda muutuvas keskkonnas_,16,2,326.3199999999997,0.057608692006229
+2267420987,Kliimatark metsandus. Kuidas kohaneda ja tegutseda muutuvas keskkonnas_,165,8,2724.7200000000003,0.4810233981466426
+2267420987,Kliimatark metsandus. Kuidas kohaneda ja tegutseda muutuvas keskkonnas_,202,5,1544.423000000001,0.2726531899189027
+2267420990,Püsimetsandus – kas kesktee metsakaitse ja metsamajanduse vahel_,-1,2,411.598,0.0721955083511104
+2267420990,Püsimetsandus – kas kesktee metsakaitse ja metsamajanduse vahel_,41,18,5289.56,0.9278044916488896
+2267420993,"Mõõdame eurodes, mitte tihumeetrites",-1,6,697.0,0.1881463481657621
+2267420993,"Mõõdame eurodes, mitte tihumeetrites",165,1,200.52,0.0541278417994241
+2267420993,"Mõõdame eurodes, mitte tihumeetrites",191,8,2606.563,0.7036087657302629
+2267420993,"Mõõdame eurodes, mitte tihumeetrites",201,1,101.44000000000004,0.0273824469984719
+2267420993,"Mõõdame eurodes, mitte tihumeetrites",211,1,99.03999999999996,0.026734597306079
+2267420996,"Eesti inimesed soovivad, ökoloogid soovitavad ja prognoosid näitavad, et raiemahtu peaks vähendama. Mis seda takistab_",-1,2,466.68000000000006,0.0801036465799924
+2267420996,"Eesti inimesed soovivad, ökoloogid soovitavad ja prognoosid näitavad, et raiemahtu peaks vähendama. Mis seda takistab_",16,17,5162.44,0.8861109737944973
+2267420996,"Eesti inimesed soovivad, ökoloogid soovitavad ja prognoosid näitavad, et raiemahtu peaks vähendama. Mis seda takistab_",69,1,196.83200000000036,0.0337853796255101
+2267420999,Kas tulevikumetsad vajavad rangemat kaitset või paindlikumat majandamist_,-1,1,131.51999999999998,0.026397791352676
+2267420999,Kas tulevikumetsad vajavad rangemat kaitset või paindlikumat majandamist_,69,15,4850.715000000001,0.973602208647324
+2271676346,Ajateenistuse tulevikuvaade – kuhu liigume ja miks_,-1,2,445.76,0.0801504042762225
+2271676346,Ajateenistuse tulevikuvaade – kuhu liigume ja miks_,3,2,563.4799999999996,0.1013171881765206
+2271676346,Ajateenistuse tulevikuvaade – kuhu liigume ja miks_,50,1,431.52,0.0775899642257617
+2271676346,Ajateenistuse tulevikuvaade – kuhu liigume ja miks_,79,2,234.24000000000024,0.0421178003806137
+2271676346,Ajateenistuse tulevikuvaade – kuhu liigume ja miks_,134,11,3733.56,0.6713171737920262
+2271676346,Ajateenistuse tulevikuvaade – kuhu liigume ja miks_,205,1,152.98399999999947,0.0275074691488549
+2271676349,Millised on minu kui kodaniku võimalused toetada laiapõhjalist riigikaitset,-1,8,2591.6649999999995,0.4464027807322674
+2271676349,Millised on minu kui kodaniku võimalused toetada laiapõhjalist riigikaitset,205,1,491.00000000000045,0.0845725683448839
+2271676349,Millised on minu kui kodaniku võimalused toetada laiapõhjalist riigikaitset,206,6,1343.8,0.2314635791076474
+2271676349,Millised on minu kui kodaniku võimalused toetada laiapõhjalist riigikaitset,207,4,1379.1999999999998,0.2375610718152011
+2271676352,Ajalugu oleviku teejuhina – kristallkuul või kõverpeegel_,-1,2,323.15999999999985,0.0581296206356915
+2271676352,Ajalugu oleviku teejuhina – kristallkuul või kõverpeegel_,2,1,97.2,0.0174842156386595
+2271676352,Ajalugu oleviku teejuhina – kristallkuul või kõverpeegel_,25,1,319.0799999999999,0.0573957152878959
+2271676352,Ajalugu oleviku teejuhina – kristallkuul või kõverpeegel_,79,1,359.48,0.0646628172611659
+2271676352,Ajalugu oleviku teejuhina – kristallkuul või kõverpeegel_,147,1,95.44000000000004,0.0171676290180418
+2271676352,Ajalugu oleviku teejuhina – kristallkuul või kõverpeegel_,192,8,1830.52,0.3292716708938175
+2271676352,Ajalugu oleviku teejuhina – kristallkuul või kõverpeegel_,204,6,2372.74,0.4268055330707104
+2271676352,Ajalugu oleviku teejuhina – kristallkuul või kõverpeegel_,205,1,161.68,0.0290827981940172
+2271676355,Valel on ohtlikud jalad ehk kuidas väärinfo ohustab meie julgeolekut.,-1,12,4128.719999999999,0.7218777718078607
+2271676355,Valel on ohtlikud jalad ehk kuidas väärinfo ohustab meie julgeolekut.,110,1,132.43999999999994,0.0231562063056426
+2271676355,Valel on ohtlikud jalad ehk kuidas väärinfo ohustab meie julgeolekut.,190,6,1458.2570000000014,0.2549660218864967
+2271676358,Kaitsekulud Eestis. Ühiskonna roll kaitsevõime tagajana,-1,2,656.9200000000001,0.1226798865829192
+2271676358,Kaitsekulud Eestis. Ühiskonna roll kaitsevõime tagajana,3,15,4246.869000000001,0.7931032808447233
+2271676358,Kaitsekulud Eestis. Ühiskonna roll kaitsevõime tagajana,79,1,317.3199999999997,0.0592595469927721
+2271676358,Kaitsekulud Eestis. Ühiskonna roll kaitsevõime tagajana,134,1,133.6400000000001,0.0249572855795855
+2271676361,"“Kogu rahvas peab sõda. Sõjavägi peab lahinguid.” – Kindralleitnant Nikolai Reek, Sõjavägede staabi ülem 1937.",-1,7,1574.760000000001,0.2976335378088112
+2271676361,"“Kogu rahvas peab sõda. Sõjavägi peab lahinguid.” – Kindralleitnant Nikolai Reek, Sõjavägede staabi ülem 1937.",3,10,3076.6399999999994,0.581492575226765
+2271676361,"“Kogu rahvas peab sõda. Sõjavägi peab lahinguid.” – Kindralleitnant Nikolai Reek, Sõjavägede staabi ülem 1937.",10,1,468.2960000000003,0.0885091031152144
+2271676361,"“Kogu rahvas peab sõda. Sõjavägi peab lahinguid.” – Kindralleitnant Nikolai Reek, Sõjavägede staabi ülem 1937.",207,1,171.24,0.0323647838492092
+2271676364,"Rahvaarv kahaneb, aga ohud kasvavad. Kas Eesti riigikaitse vajab uut lähenemist_",-1,2,545.0400000000004,0.1103795766190686
+2271676364,"Rahvaarv kahaneb, aga ohud kasvavad. Kas Eesti riigikaitse vajab uut lähenemist_",50,16,4300.149999999999,0.8708511969735936
+2271676364,"Rahvaarv kahaneb, aga ohud kasvavad. Kas Eesti riigikaitse vajab uut lähenemist_",205,1,92.68000000000028,0.0187692264073376
+2271676367,"Kui sõda algab, kolin Hispaaniasse_",-1,5,1528.0600000000004,0.2707799503117037
+2271676367,"Kui sõda algab, kolin Hispaaniasse_",79,12,3656.7200000000007,0.6479892542857042
+2271676367,"Kui sõda algab, kolin Hispaaniasse_",205,1,236.1199999999999,0.0418416566545812
+2271676367,"Kui sõda algab, kolin Hispaaniasse_",207,1,222.27999999999972,0.0393891387480108
+2277338243,Maailmahariduslik mälumäng ja mõtteharjutused koos Ivo Linnaga,-1,8,2834.918,0.5907607760174611
+2277338243,Maailmahariduslik mälumäng ja mõtteharjutused koos Ivo Linnaga,36,2,362.48,0.075536211661434
+2277338243,Maailmahariduslik mälumäng ja mõtteharjutused koos Ivo Linnaga,57,2,764.7199999999998,0.159357900523427
+2277338243,Maailmahariduslik mälumäng ja mõtteharjutused koos Ivo Linnaga,101,1,105.48000000000002,0.0219806875028913
+2277338243,Maailmahariduslik mälumäng ja mõtteharjutused koos Ivo Linnaga,102,1,193.20000000000005,0.0402604173829978
+2277338243,Maailmahariduslik mälumäng ja mõtteharjutused koos Ivo Linnaga,133,1,110.08000000000038,0.0229392688691533
+2277338243,Maailmahariduslik mälumäng ja mõtteharjutused koos Ivo Linnaga,208,2,427.88,0.0891647380426352
+2277338246,Ettevõtjad ja noored - kas parallelmaailmad või partnerid ettevõtliku tulevikupõlvkonna kujundamisel_,7,2,491.87999999999977,0.0895650066452689
+2277338246,Ettevõtjad ja noored - kas parallelmaailmad või partnerid ettevõtliku tulevikupõlvkonna kujundamisel_,19,1,425.0799999999999,0.0774015878359984
+2277338246,Ettevõtjad ja noored - kas parallelmaailmad või partnerid ettevõtliku tulevikupõlvkonna kujundamisel_,61,13,4574.917,0.8330334055187325
+2277338249,Kas lapsi saab panna liikuma_,-1,1,300.4,0.0572656673261241
+2277338249,Kas lapsi saab panna liikuma_,40,15,4492.926,0.8564926951960512
+2277338249,Kas lapsi saab panna liikuma_,111,1,353.0,0.0672928780496732
+2277338249,Kas lapsi saab panna liikuma_,205,1,99.40000000000008,0.0189487594281516
+2280202454,Oskusi kombineerides saame tõenäolisemalt olümpiavõitjaks,-1,10,3176.912999999999,0.594928307958456
+2280202454,Oskusi kombineerides saame tõenäolisemalt olümpiavõitjaks,17,3,814.4000000000001,0.1525095632147832
+2280202454,Oskusi kombineerides saame tõenäolisemalt olümpiavõitjaks,24,1,99.32000000000062,0.0185992753174022
+2280202454,Oskusi kombineerides saame tõenäolisemalt olümpiavõitjaks,40,1,161.92000000000002,0.0303221371263969
+2280202454,Oskusi kombineerides saame tõenäolisemalt olümpiavõitjaks,66,1,163.51999999999998,0.0306217629873297
+2280202454,Oskusi kombineerides saame tõenäolisemalt olümpiavõitjaks,162,1,241.80000000000015,0.0452809582334658
+2280202454,Oskusi kombineerides saame tõenäolisemalt olümpiavõitjaks,186,2,367.44,0.0688090789632121
+2280202454,Oskusi kombineerides saame tõenäolisemalt olümpiavõitjaks,189,1,314.67999999999984,0.0589289161989537
+2280202457,Naised ettevõtluses sotsiodraama_ Kuidas tappa ettevõtjat_,-1,1,92.96000000000004,0.0204209895964108
+2280202457,Naised ettevõtluses sotsiodraama_ Kuidas tappa ettevõtjat_,27,1,93.88000000000012,0.0206230906122101
+2280202457,Naised ettevõtluses sotsiodraama_ Kuidas tappa ettevõtjat_,60,1,427.5999999999999,0.0939330373432151
+2280202457,Naised ettevõtluses sotsiodraama_ Kuidas tappa ettevõtjat_,152,10,3708.379,0.8146382205093428
+2280202457,Naised ettevõtluses sotsiodraama_ Kuidas tappa ettevõtjat_,180,1,229.36,0.0503846619388209
+2280202460,Tööstusinvesteeringud ja energiajulgeolek. Kuidas tagada tööstuse edukas tulevik muutuvas geopoliitilises olukorras_,-1,11,2560.038,0.4670342560893247
+2280202460,Tööstusinvesteeringud ja energiajulgeolek. Kuidas tagada tööstuse edukas tulevik muutuvas geopoliitilises olukorras_,6,1,291.24,0.0531316553674027
+2280202460,Tööstusinvesteeringud ja energiajulgeolek. Kuidas tagada tööstuse edukas tulevik muutuvas geopoliitilises olukorras_,10,2,481.3599999999999,0.0878157314505321
+2280202460,Tööstusinvesteeringud ja energiajulgeolek. Kuidas tagada tööstuse edukas tulevik muutuvas geopoliitilises olukorras_,109,2,324.7600000000002,0.0592467943864775
+2280202460,Tööstusinvesteeringud ja energiajulgeolek. Kuidas tagada tööstuse edukas tulevik muutuvas geopoliitilises olukorras_,149,2,835.16,0.1523603670396925
+2280202460,Tööstusinvesteeringud ja energiajulgeolek. Kuidas tagada tööstuse edukas tulevik muutuvas geopoliitilises olukorras_,189,3,988.92,0.1804111956665702
+2280202463,Kohalikud bioressursid majanduse hüvanguks. Miks on see päriselus nii raske_,-1,5,1356.105000000001,0.2490813997805095
+2280202463,Kohalikud bioressursid majanduse hüvanguks. Miks on see päriselus nii raske_,37,1,194.63999999999987,0.0357503317613889
+2280202463,Kohalikud bioressursid majanduse hüvanguks. Miks on see päriselus nii raske_,109,1,429.96,0.0789725269426982
+2280202463,Kohalikud bioressursid majanduse hüvanguks. Miks on see päriselus nii raske_,149,1,400.3600000000001,0.0735357728318417
+2280202463,Kohalikud bioressursid majanduse hüvanguks. Miks on see päriselus nii raske_,180,7,1961.7599999999995,0.3603245521795229
+2280202463,Kohalikud bioressursid majanduse hüvanguks. Miks on see päriselus nii raske_,211,4,1101.6,0.2023354165040385
+2280202466,Kas Eestist võiks saada uute keskkonnasõbralike kütuste tootja_,-1,1,300.04,0.0586564956829687
+2280202466,Kas Eestist võiks saada uute keskkonnasõbralike kütuste tootja_,13,15,4686.045,0.9161011142270936
+2280202466,Kas Eestist võiks saada uute keskkonnasõbralike kütuste tootja_,86,1,129.1199999999999,0.0252423900899377
+2280202469,Eesti Looduskapital. Kas roheinvestori järgmine edulugu või riiklikult pidurdatud potentsiaal_,-1,2,204.48000000000025,0.0389252607581288
+2280202469,Eesti Looduskapital. Kas roheinvestori järgmine edulugu või riiklikult pidurdatud potentsiaal_,21,1,97.96,0.018647880202789
+2280202469,Eesti Looduskapital. Kas roheinvestori järgmine edulugu või riiklikult pidurdatud potentsiaal_,55,17,4950.704,0.942426859039082
+2280202472,Rändepööre - võimalus või identiteedikriis_,-1,10,2317.8,0.4061209353081835
+2280202472,Rändepööre - võimalus või identiteedikriis_,3,1,100.59999999999944,0.0176269592251285
+2280202472,Rändepööre - võimalus või identiteedikriis_,167,8,2340.0870000000004,0.4100260251715081
+2280202472,Rändepööre - võimalus või identiteedikriis_,193,3,948.68,0.1662260802951797
+2280202475,"Kes ütles, et tehnoloogiasektoris töötamine pole naistele_",-1,8,1925.6000000000004,0.3572261397667679
+2280202475,"Kes ütles, et tehnoloogiasektoris töötamine pole naistele_",9,1,126.87999999999964,0.0235380414486951
+2280202475,"Kes ütles, et tehnoloogiasektoris töötamine pole naistele_",132,12,3337.943,0.619235818784537
+2289585014,Küberkurjategija mõtteviis. Kuidas mõelda nagu häkker_,-1,1,131.1199999999999,0.0242066426114078
+2289585014,Küberkurjategija mõtteviis. Kuidas mõelda nagu häkker_,56,18,4824.655,0.8907008794107846
+2289585014,Küberkurjategija mõtteviis. Kuidas mõelda nagu häkker_,184,1,460.9199999999996,0.0850924779778074
+2289585017,Vanematega kohtupinki – digilaste tulevik_,-1,1,130.23999999999978,0.0246498132905342
+2289585017,Vanematega kohtupinki – digilaste tulevik_,96,15,3971.45,0.7516546452141623
+2289585017,Vanematega kohtupinki – digilaste tulevik_,145,1,554.3199999999997,0.1049131181143195
+2289585017,Vanematega kohtupinki – digilaste tulevik_,173,2,362.87999999999965,0.0686803151633068
+2289585017,Vanematega kohtupinki – digilaste tulevik_,218,2,264.7200000000007,0.050102108217677
+2289585020,"Zoomer vs Boomer. Arija ja Marii Laser Techist võtavad ette sotsiaalmeedias levinud trendid ja vaidlevad selgeks, miks mingi asi trendib.",-1,5,913.2,0.1681294840052375
+2289585020,"Zoomer vs Boomer. Arija ja Marii Laser Techist võtavad ette sotsiaalmeedias levinud trendid ja vaidlevad selgeks, miks mingi asi trendib.",39,1,95.48000000000047,0.0175788470574027
+2289585020,"Zoomer vs Boomer. Arija ja Marii Laser Techist võtavad ette sotsiaalmeedias levinud trendid ja vaidlevad selgeks, miks mingi asi trendib.",46,1,194.52,0.0358131266192496
+2289585020,"Zoomer vs Boomer. Arija ja Marii Laser Techist võtavad ette sotsiaalmeedias levinud trendid ja vaidlevad selgeks, miks mingi asi trendib.",141,4,1557.6479999999997,0.2867789690120349
+2289585020,"Zoomer vs Boomer. Arija ja Marii Laser Techist võtavad ette sotsiaalmeedias levinud trendid ja vaidlevad selgeks, miks mingi asi trendib.",145,6,1760.6800000000003,0.3241592421138214
+2289585020,"Zoomer vs Boomer. Arija ja Marii Laser Techist võtavad ette sotsiaalmeedias levinud trendid ja vaidlevad selgeks, miks mingi asi trendib.",218,3,909.9999999999992,0.1675403311922537
+2289585023,TI-hüppe ootuses. Kas Eesti haridus on valmis tehisintellekti revolutsiooniks_,-1,7,1906.037,0.3554582198304164
+2289585023,TI-hüppe ootuses. Kas Eesti haridus on valmis tehisintellekti revolutsiooniks_,17,8,3027.92,0.5646789925845693
+2289585023,TI-hüppe ootuses. Kas Eesti haridus on valmis tehisintellekti revolutsiooniks_,110,1,98.04,0.018283550567053
+2289585023,TI-hüppe ootuses. Kas Eesti haridus on valmis tehisintellekti revolutsiooniks_,184,1,191.4,0.0356943245464498
+2289585023,TI-hüppe ootuses. Kas Eesti haridus on valmis tehisintellekti revolutsiooniks_,186,1,138.79999999999995,0.0258849124715112
+2289585026,Kuidas kaitsta lapsi AI-ajastul internetis kurjade kavatsustega inimeste eest_,-1,3,648.192999999999,0.1248206958877085
+2289585026,Kuidas kaitsta lapsi AI-ajastul internetis kurjade kavatsustega inimeste eest_,17,1,131.63999999999987,0.0253495431247451
+2289585026,Kuidas kaitsta lapsi AI-ajastul internetis kurjade kavatsustega inimeste eest_,39,1,128.32000000000062,0.0247102200985059
+2289585026,Kuidas kaitsta lapsi AI-ajastul internetis kurjade kavatsustega inimeste eest_,145,1,269.67999999999984,0.0519315161795904
+2289585026,Kuidas kaitsta lapsi AI-ajastul internetis kurjade kavatsustega inimeste eest_,160,9,2292.120000000001,0.4413870767782666
+2289585026,Kuidas kaitsta lapsi AI-ajastul internetis kurjade kavatsustega inimeste eest_,173,5,1723.0399999999995,0.3318009479311834
+2289585029,Alati ühenduses. Suurem produktiivsus või läbipõlemise oht_,-1,13,3199.794000000001,0.5989707522471274
+2289585029,Alati ühenduses. Suurem produktiivsus või läbipõlemise oht_,46,1,223.39999999999984,0.0418183376967417
+2289585029,Alati ühenduses. Suurem produktiivsus või läbipõlemise oht_,122,1,160.79999999999995,0.030100218001952
+2289585029,Alati ühenduses. Suurem produktiivsus või läbipõlemise oht_,136,1,129.84000000000017,0.0243048028941135
+2289585029,Alati ühenduses. Suurem produktiivsus või läbipõlemise oht_,213,5,1465.1199999999997,0.2742564141730095
+2289585029,Alati ühenduses. Suurem produktiivsus või läbipõlemise oht_,218,1,163.19999999999982,0.0305494749870557
+2289585032,Tehisaru koolipingis. Kas õpetaja parim abiline või oht kriitilisele mõtlemisele_,-1,4,492.3599999999996,0.1080836878059445
+2289585032,Tehisaru koolipingis. Kas õpetaja parim abiline või oht kriitilisele mõtlemisele_,17,1,102.96000000000004,0.0226019508012431
+2289585032,Tehisaru koolipingis. Kas õpetaja parim abiline või oht kriitilisele mõtlemisele_,38,9,3600.8790000000004,0.7904709595884759
+2289585032,Tehisaru koolipingis. Kas õpetaja parim abiline või oht kriitilisele mõtlemisele_,68,1,167.51999999999998,0.0367742696020225
+2289585032,Tehisaru koolipingis. Kas õpetaja parim abiline või oht kriitilisele mõtlemisele_,75,1,191.64000000000036,0.0420691322023138
+2293106213,Ulmefilmidest igapäevaellu_ tervisetehnoloogiad tuleviku kodus,-1,8,2089.411999999999,0.3766109606246073
+2293106213,Ulmefilmidest igapäevaellu_ tervisetehnoloogiad tuleviku kodus,20,1,100.79999999999971,0.0181689321354334
+2293106213,Ulmefilmidest igapäevaellu_ tervisetehnoloogiad tuleviku kodus,58,1,271.52,0.0489407584663979
+2293106213,Ulmefilmidest igapäevaellu_ tervisetehnoloogiad tuleviku kodus,148,1,226.8800000000001,0.0408945170921345
+2293106213,Ulmefilmidest igapäevaellu_ tervisetehnoloogiad tuleviku kodus,169,7,2034.96,0.3667961323246211
+2293106213,Ulmefilmidest igapäevaellu_ tervisetehnoloogiad tuleviku kodus,216,3,824.3600000000008,0.1485886993568055
+2293106216,"Kuidas KOOSTÖÖS kasutada ära Eesti tervishoiu ressurss, et päästa esmatasand_",-1,2,254.96000000000032,0.0494306920471375
+2293106216,"Kuidas KOOSTÖÖS kasutada ära Eesti tervishoiu ressurss, et päästa esmatasand_",32,1,102.55999999999948,0.0198839495464166
+2293106216,"Kuidas KOOSTÖÖS kasutada ära Eesti tervishoiu ressurss, et päästa esmatasand_",76,16,4800.409000000001,0.9306853584064456
+2293106219,Ravivalikute loterii - miks mõni haigus saab kõik ja teine mitte midagi_,-1,11,3338.640000000001,0.610433895441639
+2293106219,Ravivalikute loterii - miks mõni haigus saab kõik ja teine mitte midagi_,32,2,487.6400000000003,0.089159653263952
+2293106219,Ravivalikute loterii - miks mõni haigus saab kõik ja teine mitte midagi_,77,1,159.9599999999998,0.0292469406449465
+2293106219,Ravivalikute loterii - miks mõni haigus saab kõik ja teine mitte midagi_,97,4,1350.1199999999994,0.2468547105748643
+2293106219,Ravivalikute loterii - miks mõni haigus saab kõik ja teine mitte midagi_,139,1,132.92999999999938,0.0243048000745982
+2293106222,Süstime rahva saledaks_,-1,6,1631.371,0.3119631405000716
+2293106222,Süstime rahva saledaks_,164,9,2629.56,0.5028444147489248
+2293106222,Süstime rahva saledaks_,217,6,968.44,0.1851924447510035
+2293106225,"Kui keha haigestub, mis saab vaimust_",-1,1,130.35999999999967,0.0238393757141205
+2293106225,"Kui keha haigestub, mis saab vaimust_",32,5,1443.8,0.2640326070577426
+2293106225,"Kui keha haigestub, mis saab vaimust_",58,1,163.32000000000016,0.0298668827986359
+2293106225,"Kui keha haigestub, mis saab vaimust_",120,13,3730.784,0.6822611344295008
+2293106228,Kelle mure on laste suutervis_,26,20,5056.893,1.0
+2293106231,Haigekassa nõukogu kriisikoosolek - Copy (2),-1,3,1238.6799999999996,0.2146579783109971
+2293106231,Haigekassa nõukogu kriisikoosolek - Copy (2),77,13,3790.282,0.6568397579266342
+2293106231,Haigekassa nõukogu kriisikoosolek - Copy (2),98,1,190.08000000000013,0.0329400559606632
+2293106231,Haigekassa nõukogu kriisikoosolek - Copy (2),116,1,99.80000000000018,0.0172949157453398
+2293106231,Haigekassa nõukogu kriisikoosolek - Copy (2),139,1,451.6400000000003,0.0782672920563655
+2300040479,"Mida teha, kui hea nimi satub laimulõksu_",-1,2,419.3999999999997,0.0766776387236335
+2300040479,"Mida teha, kui hea nimi satub laimulõksu_",71,16,4818.932,0.8810308224362354
+2300040479,"Mida teha, kui hea nimi satub laimulõksu_",184,1,98.12000000000003,0.0179389840523675
+2300040479,"Mida teha, kui hea nimi satub laimulõksu_",226,1,133.20000000000027,0.0243525547877635
+2300040482,Kes ja kuidas peaks valvama valimisi_,14,20,5332.571,0.9818093810936503
+2300040482,Kes ja kuidas peaks valvama valimisi_,54,1,98.80000000000008,0.0181906189063498
+2300040485,Mis on heategija palk_,-1,5,1163.9999999999998,0.2032923226584488
+2300040485,Mis on heategija palk_,91,13,4465.145,0.7798365103580409
+2300040485,Mis on heategija palk_,219,1,96.59999999999944,0.0168711669835103
+2300040488,"Kas rahvuse kestmise hind saab olla liiga kõrge_ Sotsiaalkaitse võimalustest sündimus tõusule aidata, maksuteemat vältimata",-1,4,972.72,0.1645000692519721
+2300040488,"Kas rahvuse kestmise hind saab olla liiga kõrge_ Sotsiaalkaitse võimalustest sündimus tõusule aidata, maksuteemat vältimata",9,2,233.2800000000002,0.0394507938102435
+2300040488,"Kas rahvuse kestmise hind saab olla liiga kõrge_ Sotsiaalkaitse võimalustest sündimus tõusule aidata, maksuteemat vältimata",12,17,4707.188999999999,0.7960491369377842
+2300040491,Lastekaitsetöö nähtamatu vastutus ja avalik kriitika,-1,1,163.15999999999983,0.0331923465560905
+2300040491,Lastekaitsetöö nähtamatu vastutus ja avalik kriitika,0,1,97.2,0.0197738176345428
+2300040491,Lastekaitsetöö nähtamatu vastutus ja avalik kriitika,23,1,98.24000000000024,0.0199853893458589
+2300040491,Lastekaitsetöö nähtamatu vastutus ja avalik kriitika,35,1,365.0,0.0742535332984375
+2300040491,Lastekaitsetöö nähtamatu vastutus ja avalik kriitika,121,13,4191.991,0.8527949131650701
+2300040494,Õigusmõistmine kriisi äärel. Kuidas kindlustada õiguse tulevik_,-1,2,525.36,0.095897627420851
+2300040494,Õigusmõistmine kriisi äärel. Kuidas kindlustada õiguse tulevik_,129,12,2847.9820000000004,0.5198620312496007
+2300040494,Õigusmõistmine kriisi äärel. Kuidas kindlustada õiguse tulevik_,225,6,2105.0,0.3842403413295482
+2300040497,Korteriühistud kui kogukonnad. Kuidas panna need ühes rütmis hingama_,-1,1,259.28,0.0466418095036104
+2300040497,Korteriühistud kui kogukonnad. Kuidas panna need ühes rütmis hingama_,20,1,97.88,0.0176076068891291
+2300040497,Korteriühistud kui kogukonnad. Kuidas panna need ühes rütmis hingama_,54,16,4906.521000000001,0.8826327437807173
+2300040497,Korteriühistud kui kogukonnad. Kuidas panna need ühes rütmis hingama_,100,1,96.20000000000029,0.0173053921407256
+2300040497,Korteriühistud kui kogukonnad. Kuidas panna need ühes rütmis hingama_,185,2,199.0799999999998,0.0358124476858175
+2300040503,Annetuskultuur. Kuidas Eestist saab helde rahvas_,-1,3,663.44,0.1236581135725888
+2300040503,Annetuskultuur. Kuidas Eestist saab helde rahvas_,91,2,920.88,0.1716421735601194
+2300040503,Annetuskultuur. Kuidas Eestist saab helde rahvas_,144,11,3324.9149999999995,0.6197285612703548
+2300040503,Annetuskultuur. Kuidas Eestist saab helde rahvas_,208,3,455.88,0.0849711515969368
+2300040506,"Pärisvabakond teeb asju riigi rahata, eks_",-1,1,116.44,0.021783207324725
+2300040506,"Pärisvabakond teeb asju riigi rahata, eks_",7,1,129.27999999999997,0.0241852717531815
+2300040506,"Pärisvabakond teeb asju riigi rahata, eks_",33,20,5099.682,0.9540315209220934
+2302899422,Suur teadlaste debatt „Teadlaste roll energiapöördes“,-1,8,1342.8960000000002,0.2454851366706786
+2302899422,Suur teadlaste debatt „Teadlaste roll energiapöördes“,13,1,231.63999999999987,0.0423444384810111
+2302899422,Suur teadlaste debatt „Teadlaste roll energiapöördes“,28,2,714.9999999999995,0.1307039954840397
+2302899422,Suur teadlaste debatt „Teadlaste roll energiapöördes“,86,2,803.4000000000009,0.1468637621984304
+2302899422,Suur teadlaste debatt „Teadlaste roll energiapöördes“,109,1,385.4399999999998,0.0704595077193962
+2302899422,Suur teadlaste debatt „Teadlaste roll energiapöördes“,168,1,455.4399999999996,0.08325570308147
+2302899422,Suur teadlaste debatt „Teadlaste roll energiapöördes“,224,6,1536.5600000000002,0.2808874563649738
+2302899425,Energiapööre noorte pilgu läbi. Mida tahab uus põlvkond_,-1,4,994.359,0.1820583808256644
+2302899425,Energiapööre noorte pilgu läbi. Mida tahab uus põlvkond_,1,2,302.4000000000001,0.0553667783584006
+2302899425,Energiapööre noorte pilgu läbi. Mida tahab uus põlvkond_,86,1,351.6000000000004,0.0643748653135373
+2302899425,Energiapööre noorte pilgu läbi. Mida tahab uus põlvkond_,142,11,3324.92,0.60876358696896
+2302899425,Energiapööre noorte pilgu läbi. Mida tahab uus põlvkond_,196,1,488.4799999999996,0.0894363885334375
+2302899428,"Tere tulemast, uued juhitavad võimsused!",-1,3,594.8399999999999,0.1104669906417648
+2302899428,"Tere tulemast, uued juhitavad võimsused!",13,2,189.8800000000001,0.0352623767451051
+2302899428,"Tere tulemast, uued juhitavad võimsused!",34,14,3931.696,0.7301503349442948
+2302899428,"Tere tulemast, uued juhitavad võimsused!",86,1,214.96000000000004,0.0399199521020001
+2302899428,"Tere tulemast, uued juhitavad võimsused!",171,2,453.3999999999998,0.084200345566835
+2302899431,Kas elekter lahendab tulevikus kõik meie energiaprobleemid_,-1,1,163.87999999999988,0.0320424772033651
+2302899431,Kas elekter lahendab tulevikus kõik meie energiaprobleemid_,1,15,4821.1810000000005,0.942656713972401
+2302899431,Kas elekter lahendab tulevikus kõik meie energiaprobleemid_,109,1,129.4000000000001,0.0253008088242338
+2302899434,Infraheli ja tuulepargid – müüt või tegelik mõju tervisele_,-1,9,1662.818000000001,0.2989938824514357
+2302899434,Infraheli ja tuulepargid – müüt või tegelik mõju tervisele_,174,9,2783.76,0.50055220127098
+2302899434,Infraheli ja tuulepargid – müüt või tegelik mõju tervisele_,223,6,1114.7999999999993,0.2004539162775843
+2302899437,Kas väike saab olla suur_ Kuivõrd suudab Eesti oma kestlike lahenduste või innovatsiooniga maailmas mõju avaldada_,-1,14,3741.959999999999,0.6346733814086879
+2302899437,Kas väike saab olla suur_ Kuivõrd suudab Eesti oma kestlike lahenduste või innovatsiooniga maailmas mõju avaldada_,6,1,197.6030000000001,0.0335154208453593
+2302899437,Kas väike saab olla suur_ Kuivõrd suudab Eesti oma kestlike lahenduste või innovatsiooniga maailmas mõju avaldada_,16,4,1531.52,0.2597609213072919
+2302899437,Kas väike saab olla suur_ Kuivõrd suudab Eesti oma kestlike lahenduste või innovatsiooniga maailmas mõju avaldada_,21,1,128.08,0.0217236332539163
+2302899437,Kas väike saab olla suur_ Kuivõrd suudab Eesti oma kestlike lahenduste või innovatsiooniga maailmas mõju avaldada_,147,1,132.0,0.0223885039781149
+2302899437,Kas väike saab olla suur_ Kuivõrd suudab Eesti oma kestlike lahenduste või innovatsiooniga maailmas mõju avaldada_,186,1,164.72000000000023,0.0279381392066294
+2302899440,Rohetehnoloogiad – puhta tööstuse ja julgeoleku alustala_,-1,2,256.96000000000026,0.0755120632401775
+2302899440,Rohetehnoloogiad – puhta tööstuse ja julgeoleku alustala_,28,3,590.0,0.1733815275206441
+2302899440,Rohetehnoloogiad – puhta tööstuse ja julgeoleku alustala_,53,4,1601.9399999999996,0.4707572952481705
+2302899440,Rohetehnoloogiad – puhta tööstuse ja julgeoleku alustala_,168,3,817.76,0.2403126744835287
+2302899440,Rohetehnoloogiad – puhta tööstuse ja julgeoleku alustala_,211,1,136.24000000000007,0.0400364395074789
+2302899443,Kohalik energiatootmine on kaitseinvesteering,-1,8,2654.04,0.472523964562305
+2302899443,Kohalik energiatootmine on kaitseinvesteering,10,2,259.8799999999992,0.0462689062374536
+2302899443,Kohalik energiatootmine on kaitseinvesteering,13,2,595.0800000000008,0.1059477478981993
+2302899443,Kohalik energiatootmine on kaitseinvesteering,86,6,1942.491,0.3458401337005458
+2302899443,Kohalik energiatootmine on kaitseinvesteering,143,1,165.24,0.0294192476014963
+2302899446,"Kuidas planeerida tuuleparke nii, et kogukonnad tunneksid end päriselt kaasatuna_",-1,12,2537.56,0.4317737834518931
+2302899446,"Kuidas planeerida tuuleparke nii, et kogukonnad tunneksid end päriselt kaasatuna_",25,1,164.92000000000007,0.0280616546473329
+2302899446,"Kuidas planeerida tuuleparke nii, et kogukonnad tunneksid end päriselt kaasatuna_",58,1,99.7199999999998,0.0169676703943247
+2302899446,"Kuidas planeerida tuuleparke nii, et kogukonnad tunneksid end päriselt kaasatuna_",84,9,2757.08,0.4691257991454569
+2302899446,"Kuidas planeerida tuuleparke nii, et kogukonnad tunneksid end päriselt kaasatuna_",161,1,227.1199999999999,0.0386451795021965
+2302899446,"Kuidas planeerida tuuleparke nii, et kogukonnad tunneksid end päriselt kaasatuna_",199,1,90.65900000000056,0.0154259128587956
+2310594914,Õpetaja ajamasinas. Õpetaja missioon ja rollid erinevates tulevikustsenaariumides aastaks 2035,138,11,2734.535,0.9554178960810722
+2310594914,Õpetaja ajamasinas. Õpetaja missioon ja rollid erinevates tulevikustsenaariumides aastaks 2035,222,1,127.6,0.0445821039189276
+2310594917,"Milline koolivõrk suudab kasvatada korraga tarka last, tugevat kogukonda ja koostöist haridusvõrgustikku",7,14,4032.56,0.926794121466255
+2310594917,"Milline koolivõrk suudab kasvatada korraga tarka last, tugevat kogukonda ja koostöist haridusvõrgustikku",222,2,318.52500000000055,0.0732058785337451
+2310594920,Mul jäi isegi Tiigrihüpe tegemata.alp,-1,3,563.5559999999997,0.1032517685719289
+2310594920,Mul jäi isegi Tiigrihüpe tegemata.alp,17,6,2085.0,0.3820027423582962
+2310594920,Mul jäi isegi Tiigrihüpe tegemata.alp,38,9,2172.3600000000006,0.3980083824409921
+2310594920,Mul jäi isegi Tiigrihüpe tegemata.alp,138,1,408.44000000000005,0.074832230258428
+2310594920,Mul jäi isegi Tiigrihüpe tegemata.alp,222,1,228.72,0.0419048763703546
+2310594923,Koolijuht on tippjuht,-1,1,407.3179999999993,0.0794357948045473
+2310594923,Koolijuht on tippjuht,7,1,127.5600000000004,0.0248769511420268
+2310594923,Koolijuht on tippjuht,59,16,4495.72,0.8767623611495196
+2310594923,Koolijuht on tippjuht,222,1,97.04,0.0189248929039062
+2310594926,Mis on Eesti hariduse eesmärk.alp,-1,8,2040.4000000000003,0.3903551439774175
+2310594926,Mis on Eesti hariduse eesmärk.alp,7,8,2536.355,0.4852378069020008
+2310594926,Mis on Eesti hariduse eesmärk.alp,61,1,232.75999999999976,0.0445300251481001
+2310594926,Mis on Eesti hariduse eesmärk.alp,189,1,128.55999999999997,0.0245952055036937
+2310594926,Mis on Eesti hariduse eesmärk.alp,222,1,288.96000000000004,0.0552818184687877
+2314163810,Maailm täna - vaade julgeolekuolukorrale Euroopa pealinnadest,45,17,5316.2660000000005,1.0
+2314163813,ÜRO – lootusetult rikkis või asendamatu_,-1,1,96.32,0.0162791247942292
+2314163813,ÜRO – lootusetult rikkis või asendamatu_,5,11,2253.579999999999,0.3808794648440535
+2314163813,ÜRO – lootusetult rikkis või asendamatu_,8,10,2911.6800000000007,0.4921055033312038
+2314163813,ÜRO – lootusetult rikkis või asendamatu_,29,2,561.9200000000001,0.094970575211517
+2314163813,ÜRO – lootusetult rikkis või asendamatu_,90,1,93.2800000000002,0.0157653318189961
+2314163816,Kuidas mõista USA-d_,-1,6,2133.1269999999995,0.3880072692917533
+2314163816,Kuidas mõista USA-d_,133,10,3020.6400000000003,0.5494423341476818
+2314163816,Kuidas mõista USA-d_,214,1,101.68,0.0184951853038218
+2314163816,Kuidas mõista USA-d_,221,1,242.19999999999985,0.044055211256743
+2314163819,Miks peaks Lähis-Idas toimuv meile korda minema_,-1,1,128.72000000000003,0.0231104985975166
+2314163819,Miks peaks Lähis-Idas toimuv meile korda minema_,5,21,5311.403,0.9536138252202114
+2314163819,Miks peaks Lähis-Idas toimuv meile korda minema_,29,1,129.6400000000001,0.023275676182272
+2314163822,"Marshall Plan 2.0_ Estonia, Ukraine and the Path Forward",10,16,4934.18,0.8871775692868676
+2314163822,"Marshall Plan 2.0_ Estonia, Ukraine and the Path Forward",124,1,192.5999999999999,0.0346299486124646
+2314163822,"Marshall Plan 2.0_ Estonia, Ukraine and the Path Forward",133,1,434.88000000000005,0.0781924821006678
+2314163825,"Kriise rohkem, raha vähem",78,16,4867.356,0.9800264005882549
+2314163825,"Kriise rohkem, raha vähem",208,1,99.20000000000005,0.0199735994117452
+2314163828,"Tahaks jääda iseendaks, aga raha tahaks ka",-1,4,1364.485999999999,0.2676740232495271
+2314163828,"Tahaks jääda iseendaks, aga raha tahaks ka",149,2,358.72000000000025,0.0703708397301771
+2314163828,"Tahaks jääda iseendaks, aga raha tahaks ka",163,9,2552.4000000000005,0.5007095543245543
+2314163828,"Tahaks jääda iseendaks, aga raha tahaks ka",221,3,821.96,0.1612455826957415
+2314163831,Kuidas reisides mitte lolliks jääda_,-1,7,1369.1999999999996,0.2529460959898288
+2314163831,Kuidas reisides mitte lolliks jääda_,88,1,99.96,0.0184666168237973
+2314163831,Kuidas reisides mitte lolliks jääda_,197,7,2191.840000000001,0.4049206624557018
+2314163831,Kuidas reisides mitte lolliks jääda_,220,6,1752.011,0.323666624730672
+2314163834,Kilud versus karud - Läänemeremaade koostöö tulevik,29,16,5222.705,0.96887838062208
+2314163834,Kilud versus karud - Läänemeremaade koostöö tulevik,45,1,167.76,0.03112161937792
+2318409173,Õpilaste tugevustel põhinev haridus – miks ja kuidas_,-1,1,233.32,0.0437519244133562
+2318409173,Õpilaste tugevustel põhinev haridus – miks ja kuidas_,7,1,163.92000000000007,0.030738108391211
+2318409173,Õpilaste tugevustel põhinev haridus – miks ja kuidas_,68,14,4357.313999999999,0.8170790021140886
+2318409173,Õpilaste tugevustel põhinev haridus – miks ja kuidas_,227,2,578.2400000000007,0.1084309650813439
+2318409176,Kaamera ei mõista hukka,119,12,3896.58,1.0
+2318409179,"Kas noortelt nõutakse rohkem, kui vastu pakutakse_",-1,15,4588.8550000000005,0.8441516872069912
+2318409179,"Kas noortelt nõutakse rohkem, kui vastu pakutakse_",68,1,100.00000000000011,0.0183956932003079
+2318409179,"Kas noortelt nõutakse rohkem, kui vastu pakutakse_",72,2,426.2000000000003,0.0784024444197125
+2318409179,"Kas noortelt nõutakse rohkem, kui vastu pakutakse_",124,1,163.92000000000007,0.0301542202939447
+2318409179,"Kas noortelt nõutakse rohkem, kui vastu pakutakse_",198,1,157.07999999999993,0.0288959548790437
+2318409182,"Ma tahan õppida, andke mulle tagasisidet!",-1,4,652.2759999999996,0.1214143025093832
+2318409182,"Ma tahan õppida, andke mulle tagasisidet!",75,4,1297.0800000000002,0.2414377709725191
+2318409182,"Ma tahan õppida, andke mulle tagasisidet!",124,1,115.59999999999992,0.0215177215934431
+2318409182,"Ma tahan õppida, andke mulle tagasisidet!",178,9,3076.44,0.5726468807866105
+2318409182,"Ma tahan õppida, andke mulle tagasisidet!",227,1,230.92000000000007,0.042983324138044
+2318409185,Nutiseadmete kasutus koolikeskkonnas. Millal ja millal mitte_,-1,2,551.72,0.1024481756734047
+2318409185,Nutiseadmete kasutus koolikeskkonnas. Millal ja millal mitte_,38,1,124.11699999999928,0.0230471257522944
+2318409185,Nutiseadmete kasutus koolikeskkonnas. Millal ja millal mitte_,46,15,4610.56,0.8561289437264791
+2318409185,Nutiseadmete kasutus koolikeskkonnas. Millal ja millal mitte_,141,1,98.96000000000004,0.0183757548478216
+2318409188,Programmeerimine kui uus emakeel,-1,3,423.0399999999997,0.0852156557983669
+2318409188,Programmeerimine kui uus emakeel,125,1,453.2000000000001,0.0912909777038103
+2318409188,Programmeerimine kui uus emakeel,126,12,3826.826000000001,0.7708620632002686
+2318409188,Programmeerimine kui uus emakeel,162,1,261.27999999999975,0.0526313032975541
+2318409191,Tark pidu ei vaja tõukeainet,-1,5,908.92,0.1662591221916381
+2318409191,Tark pidu ei vaja tõukeainet,175,9,2860.84,0.5233032028459335
+2318409191,Tark pidu ei vaja tõukeainet,230,6,1697.1280000000002,0.3104376749624283
+2323554785,Miks kaasamine pekki läheb_ + Demokraatiatrenn,116,4,1747.84,0.3322681908298892
+2323554785,Miks kaasamine pekki läheb_ + Demokraatiatrenn,124,7,1697.169,0.3226355233674547
+2323554785,Miks kaasamine pekki läheb_ + Demokraatiatrenn,161,4,1527.36,0.2903544626201136
+2323554785,Miks kaasamine pekki läheb_ + Demokraatiatrenn,226,1,287.96000000000004,0.0547418231825423
+2323554788,Parlamendierakondade noorte debatt,-1,6,1590.04,0.2910428241352996
+2323554788,Parlamendierakondade noorte debatt,14,1,162.20000000000005,0.0296892820776493
+2323554788,Parlamendierakondade noorte debatt,17,2,586.96,0.107437860716998
+2323554788,Parlamendierakondade noorte debatt,135,1,193.7199999999998,0.0354587405923688
+2323554788,Parlamendierakondade noorte debatt,150,8,2540.5310000000004,0.4650218340691285
+2323554788,Parlamendierakondade noorte debatt,186,1,95.36000000000011,0.017454808501385
+2323554788,Parlamendierakondade noorte debatt,195,1,128.32000000000016,0.023487846339112
+2323554788,Parlamendierakondade noorte debatt,215,1,166.12,0.0304068035680586
+2323554791,Parlamendierakondade esimeeste debatt,-1,7,1611.0400000000004,0.2997080198274909
+2323554791,Parlamendierakondade esimeeste debatt,3,3,952.3599999999996,0.1771712246517212
+2323554791,Parlamendierakondade esimeeste debatt,6,10,2376.4,0.44209090917547
+2323554791,Parlamendierakondade esimeeste debatt,50,1,309.9250000000002,0.0576565498342903
+2323554791,Parlamendierakondade esimeeste debatt,215,1,125.64,0.0233732965110276
+2323554794,Kas me siin Järvamaal oleme tõesti kõige rumalamad,-1,4,755.984,0.1330043575683192
+2323554794,Kas me siin Järvamaal oleme tõesti kõige rumalamad,66,16,4667.56,0.8211890981972954
+2323554794,Kas me siin Järvamaal oleme tõesti kõige rumalamad,83,1,260.36,0.0458065442343853
+2323554797,"Mida on vaja teha senisest teisiti, et Eesti majandus järjekindlalt ja kiiremini kasvaks_",-1,5,1202.7200000000005,0.2434345417487244
+2323554797,"Mida on vaja teha senisest teisiti, et Eesti majandus järjekindlalt ja kiiremini kasvaks_",6,11,3018.87,0.6110293626521314
+2323554797,"Mida on vaja teha senisest teisiti, et Eesti majandus järjekindlalt ja kiiremini kasvaks_",86,1,166.72000000000023,0.0337446843823561
+2323554797,"Mida on vaja teha senisest teisiti, et Eesti majandus järjekindlalt ja kiiremini kasvaks_",90,1,452.27999999999975,0.0915429813606766
+2323554797,"Mida on vaja teha senisest teisiti, et Eesti majandus järjekindlalt ja kiiremini kasvaks_",149,1,100.03999999999996,0.0202484298561114
+2323554800,Mis on fosforiidi kaevandamise hind_,-1,1,387.48,0.069440287768237
+2323554800,Mis on fosforiidi kaevandamise hind_,31,11,3298.366,0.5911001450525676
+2323554800,Mis on fosforiidi kaevandamise hind_,172,5,1280.5999999999997,0.2294963159801907
+2323554800,Mis on fosforiidi kaevandamise hind_,194,2,448.3999999999999,0.0803577604915801
+2323554800,Mis on fosforiidi kaevandamise hind_,219,1,165.20000000000027,0.0296054907074243
+2323554803,Mis on fosforiidi kaevandamise hind + Demokraatiatrenn,-1,6,1727.7770000000005,0.229092936092191
+2323554803,Mis on fosforiidi kaevandamise hind + Demokraatiatrenn,31,8,2505.000000000001,0.3321480751919598
+2323554803,Mis on fosforiidi kaevandamise hind + Demokraatiatrenn,124,1,230.79999999999927,0.0306027048919377
+2323554803,Mis on fosforiidi kaevandamise hind + Demokraatiatrenn,172,4,1426.64,0.1891639640686057
+2323554803,Mis on fosforiidi kaevandamise hind + Demokraatiatrenn,194,5,1492.8799999999997,0.1979469934102086
+2323554803,Mis on fosforiidi kaevandamise hind + Demokraatiatrenn,219,1,158.7199999999998,0.0210453263450969
+2323554806,Eesti uued valikud ELi rahastuse kasutamisel,-1,2,552.4399999999996,0.0984587789856699
+2323554806,Eesti uued valikud ELi rahastuse kasutamisel,27,1,198.52000000000044,0.0353812844910492
+2323554806,Eesti uued valikud ELi rahastuse kasutamisel,63,16,4762.515999999999,0.8488007933164089
+2323554806,Eesti uued valikud ELi rahastuse kasutamisel,64,1,97.40000000000008,0.0173591432068718
+2323554809,Miks kaasamine pekki läheb_,116,7,2143.509,0.5950375162152941
+2323554809,Miks kaasamine pekki läheb_,161,4,1171.24,0.3251359058870297
+2323554809,Miks kaasamine pekki läheb_,226,1,287.55999999999995,0.0798265778976761
+2323554812,Kaasamine infosõja ajal. Mis tegelikult lõhestab Eesti ühiskonda,-1,9,1384.251,0.2567073497528249
+2323554812,Kaasamine infosõja ajal. Mis tegelikult lõhestab Eesti ühiskonda,2,1,227.80000000000015,0.0422451811656221
+2323554812,Kaasamine infosõja ajal. Mis tegelikult lõhestab Eesti ühiskonda,31,1,130.51999999999998,0.0242047455914705
+2323554812,Kaasamine infosõja ajal. Mis tegelikult lõhestab Eesti ühiskonda,61,1,188.8800000000001,0.0350275233475096
+2323554812,Kaasamine infosõja ajal. Mis tegelikult lõhestab Eesti ühiskonda,190,1,135.24000000000024,0.0250800627780453
+2323554812,Kaasamine infosõja ajal. Mis tegelikult lõhestab Eesti ühiskonda,199,6,2666.0800000000004,0.4944206874540899
+2323554812,Kaasamine infosõja ajal. Mis tegelikult lõhestab Eesti ühiskonda,219,2,659.5599999999995,0.1223144499104375
+2323554815,Kuidas tõsta Euroopa Liidu konkurentsivõimet ja panna majandus kiiremini kasvama_,115,13,3659.395,1.0
+2383011942,Kuidas hoida tervet mõistust kriiside ajastul_ teadveloleku ja kaastunde praktiline jõud,-1,1,505.6399999999994,0.0951692263331388
+2383011942,Kuidas hoida tervet mõistust kriiside ajastul_ teadveloleku ja kaastunde praktiline jõud,108,14,4504.942000000001,0.8478993845733402
+2383011942,Kuidas hoida tervet mõistust kriiside ajastul_ teadveloleku ja kaastunde praktiline jõud,136,2,302.48,0.0569313890935208
+2383011945,Koduseinte vahelt rahvusvahelise poliitikani_ naistevastane vägivald on meie kõigi lahendada,-1,1,159.27999999999997,0.0282700764932042
+2383011945,Koduseinte vahelt rahvusvahelise poliitikani_ naistevastane vägivald on meie kõigi lahendada,2,1,124.4399999999996,0.0220864409769859
+2383011945,Koduseinte vahelt rahvusvahelise poliitikani_ naistevastane vägivald on meie kõigi lahendada,36,17,5252.3060000000005,0.9322142917234774
+2383011945,Koduseinte vahelt rahvusvahelise poliitikani_ naistevastane vägivald on meie kõigi lahendada,42,1,98.19999999999982,0.0174291908063325
+2383011948,Nõusolek – seksikuse summutaja või hoopis võimendaja_,-1,2,190.19999999999985,0.0346406632211773
+2383011948,Nõusolek – seksikuse summutaja või hoopis võimendaja_,18,18,5155.28,0.938918603001426
+2383011948,Nõusolek – seksikuse summutaja või hoopis võimendaja_,42,1,145.17699999999968,0.0264407337773967
+2383055898,"Kes õpetab tervena elama enne, kui tuleb õppida haigusega elama_ (1)",-1,3,706.2800000000004,0.1334233804506449
+2383055898,"Kes õpetab tervena elama enne, kui tuleb õppida haigusega elama_ (1)",18,1,132.03999999999996,0.0249436811954227
+2383055898,"Kes õpetab tervena elama enne, kui tuleb õppida haigusega elama_ (1)",40,2,688.2000000000002,0.1300078869940163
+2383055898,"Kes õpetab tervena elama enne, kui tuleb õppida haigusega elama_ (1)",73,2,288.52,0.0545043236784562
+2383055898,"Kes õpetab tervena elama enne, kui tuleb õppida haigusega elama_ (1)",111,11,3478.485,0.6571207276814599
+2387966361,Euroopa Liidu heitekaubandus_ rohepöörasus või nutikas poliitika_,-1,2,898.6799999999998,0.243183762204446
+2387966361,Euroopa Liidu heitekaubandus_ rohepöörasus või nutikas poliitika_,1,1,392.6,0.1062379768565735
+2387966361,Euroopa Liidu heitekaubandus_ rohepöörasus või nutikas poliitika_,158,7,2050.597,0.5548937254920001
+2387966361,Euroopa Liidu heitekaubandus_ rohepöörasus või nutikas poliitika_,201,1,255.8800000000001,0.0692413996894041
+2387966361,Euroopa Liidu heitekaubandus_ rohepöörasus või nutikas poliitika_,221,1,97.72000000000004,0.026443135757576
+2387966364,Millised on kohaliku kaugkütte tulevikustsenaariumid_,-1,1,93.23999999999978,0.0179506841339939
+2387966364,Millised on kohaliku kaugkütte tulevikustsenaariumid_,1,17,4875.911,0.938716626195485
+2387966364,Millised on kohaliku kaugkütte tulevikustsenaariumid_,41,1,225.0800000000004,0.043332689670521
+2387966370,Kuidas edasi_ Eesti energeetika järgmise kümne aasta vaade,-1,4,1120.1599999999994,0.1966930783056748
+2387966370,Kuidas edasi_ Eesti energeetika järgmise kümne aasta vaade,13,1,264.5999999999999,0.046462102306529
+2387966370,Kuidas edasi_ Eesti energeetika järgmise kümne aasta vaade,34,3,770.6400000000004,0.1353195560147527
+2387966370,Kuidas edasi_ Eesti energeetika järgmise kümne aasta vaade,86,1,96.40000000000008,0.0169272360633008
+2387966370,Kuidas edasi_ Eesti energeetika järgmise kümne aasta vaade,143,6,2062.08,0.362088329267753
+2387966370,Kuidas edasi_ Eesti energeetika järgmise kümne aasta vaade,196,4,1381.0840000000003,0.2425096980419894
+2387966373,Miks peab elektriga kauplema börsil_ (1),113,13,3759.047,1.0
+2387966376,Milliseid riske toob kliima ettevõtete tegevusse ja kuidas neid maandada_ Ettevalmistused ja õppetunnid,-1,3,362.4799999999991,0.0693987344801506
+2387966376,Milliseid riske toob kliima ettevõtete tegevusse ja kuidas neid maandada_ Ettevalmistused ja õppetunnid,21,18,4860.670000000001,0.9306012655198492
+2387966379,Elektridefitsiit Eestis_ kui suur on tegelik majandus- ja julgeolekurisk_,-1,9,1833.279999999999,0.3307939646990467
+2387966379,Elektridefitsiit Eestis_ kui suur on tegelik majandus- ja julgeolekurisk_,1,1,190.76000000000025,0.0344204140698585
+2387966379,Elektridefitsiit Eestis_ kui suur on tegelik majandus- ja julgeolekurisk_,34,3,1119.12,0.2019321335387924
+2387966379,Elektridefitsiit Eestis_ kui suur on tegelik majandus- ja julgeolekurisk_,86,1,131.55999999999997,0.0237384654803448
+2387966379,Elektridefitsiit Eestis_ kui suur on tegelik majandus- ja julgeolekurisk_,143,2,627.3999999999996,0.1132070024503523
+2387966379,Elektridefitsiit Eestis_ kui suur on tegelik majandus- ja julgeolekurisk_,171,6,1639.9400000000014,0.2959080197616051
+2387966382,Miks me pelgame energiat kui majandusarengu mootorit,-1,7,2566.6000000000004,0.4579799064126467
+2387966382,Miks me pelgame energiat kui majandusarengu mootorit,1,1,232.07999999999996,0.0414119756410219
+2387966382,Miks me pelgame energiat kui majandusarengu mootorit,6,1,97.67999999999938,0.0174298594476689
+2387966382,Miks me pelgame energiat kui majandusarengu mootorit,13,1,169.80000000000018,0.0302988342978522
+2387966382,Miks me pelgame energiat kui majandusarengu mootorit,109,3,1173.896,0.2094680823728591
+2387966382,Miks me pelgame energiat kui majandusarengu mootorit,143,1,225.48,0.0402342824350984
+2387966382,Miks me pelgame energiat kui majandusarengu mootorit,158,2,360.04,0.0642449487667767
+2387966382,Miks me pelgame energiat kui majandusarengu mootorit,201,1,195.07999999999996,0.0348097561532685
+2387966382,Miks me pelgame energiat kui majandusarengu mootorit,228,2,583.52,0.1041223544728074
+2393585466,Matemaatikatund ja -ring kui mõtlemise laborid,-1,1,284.4,0.0716120800816438
+2393585466,Matemaatikatund ja -ring kui mõtlemise laborid,131,1,138.15700000000015,0.0347880103651184
+2393585466,Matemaatikatund ja -ring kui mõtlemise laborid,177,9,3548.84,0.8935999095532378
+2393585469,Mida Eesti tegelikult kõrghariduselt ootab_,-1,4,1028.1200000000003,0.1878316129015757
+2393585469,Mida Eesti tegelikult kõrghariduselt ootab_,85,2,293.3199999999997,0.0535878775787749
+2393585469,Mida Eesti tegelikult kõrghariduselt ootab_,135,10,2303.2400000000007,0.4207887056952741
+2393585469,Mida Eesti tegelikult kõrghariduselt ootab_,198,5,1848.946,0.3377918038243752
+2393585472,Kas lapsel on päriselt koht Eestis_ Elu asendushooldusel täna ja homme,-1,5,799.5600000000004,0.1429987384147522
+2393585472,Kas lapsel on päriselt koht Eestis_ Elu asendushooldusel täna ja homme,35,19,4791.818,0.8570012615852478
+2393585475,Kas internet vajab korrakaitsjat_,-1,14,3587.849,0.6675901307865596
+2393585475,Kas internet vajab korrakaitsjat_,52,1,167.55999999999997,0.0311778456436142
+2393585475,Kas internet vajab korrakaitsjat_,184,1,100.39999999999964,0.018681401901521
+2393585475,Kas internet vajab korrakaitsjat_,229,6,1518.5199999999998,0.2825506216683049
+2393585478,Tehisintellekt kõrghariduses_ reeglid alles kujunemas,-1,1,225.72000000000003,0.0530108405431004
+2393585478,Tehisintellekt kõrghariduses_ reeglid alles kujunemas,85,12,2928.2000000000003,0.6876942374548408
+2393585478,Tehisintellekt kõrghariduses_ reeglid alles kujunemas,110,3,1010.6,0.2373416420913401
+2393585478,Tehisintellekt kõrghariduses_ reeglid alles kujunemas,198,1,93.47699999999986,0.0219532799107185
+2393585481,"Ekspert ekraanil, märklaud seljal_ mis on ekspertarvamuse hind_",15,19,5169.71,0.9815526109435015
+2393585481,"Ekspert ekraanil, märklaud seljal_ mis on ekspertarvamuse hind_",21,1,97.15999999999984,0.0184473890564984
+2393585484,Hinded ja heaolu – kas kool hindab õigesti_,75,11,3385.5600000000004,0.7572858532875533
+2393585484,Hinded ja heaolu – kas kool hindab õigesti_,85,1,193.8399999999997,0.0433583483386084
+2393585484,Hinded ja heaolu – kas kool hindab õigesti_,200,1,99.92000000000009,0.0223502175298894
+2393585484,Hinded ja heaolu – kas kool hindab õigesti_,227,3,791.3300000000004,0.1770055808439489
+2394248493,"Kuidas rääkida vähist ja tervisest nii, et kasvaks teadlikkus, mitte ärevus_",-1,5,1054.018,0.1866530144301212
+2394248493,"Kuidas rääkida vähist ja tervisest nii, et kasvaks teadlikkus, mitte ärevus_",52,10,3089.32,0.5470787885399132
+2394248493,"Kuidas rääkida vähist ja tervisest nii, et kasvaks teadlikkus, mitte ärevus_",95,3,1008.7999999999996,0.1786454889357736
+2394248493,"Kuidas rääkida vähist ja tervisest nii, et kasvaks teadlikkus, mitte ärevus_",97,2,367.1200000000001,0.0650122243240496
+2394248493,"Kuidas rääkida vähist ja tervisest nii, et kasvaks teadlikkus, mitte ärevus_",111,1,127.68000000000028,0.0226104837701423
+2394248496,Surm ei küsi diagnoosi – kas sina oled valmis_,-1,2,497.76,0.0908714999657698
+2394248496,Surm ei küsi diagnoosi – kas sina oled valmis_,22,1,96.36000000000011,0.017591565687684
+2394248496,Surm ei küsi diagnoosi – kas sina oled valmis_,58,14,3961.145,0.72315008785742
+2394248496,Surm ei küsi diagnoosi – kas sina oled valmis_,95,1,567.4399999999999,0.1035923415713927
+2394248496,Surm ei küsi diagnoosi – kas sina oled valmis_,97,2,354.9200000000001,0.0647945049177335
+2394248499,Vähipatsiendi infoauk_ kelle vastutus on seda täita_,52,7,2381.360000000001,0.4058878071395458
+2394248499,Vähipatsiendi infoauk_ kelle vastutus on seda täita_,95,11,3068.9999999999995,0.5230917123455779
+2394248499,Vähipatsiendi infoauk_ kelle vastutus on seda täita_,97,2,416.6799999999994,0.0710204805148762
+2394248502,Vähitõrje järgmised viis aastat – mida peab Eesti teisiti tegema_,-1,4,806.4799999999996,0.140041410916173
+2394248502,Vähitõrje järgmised viis aastat – mida peab Eesti teisiti tegema_,97,4,1656.16,0.2875842960804102
+2394248502,Vähitõrje järgmised viis aastat – mida peab Eesti teisiti tegema_,128,11,3296.228,0.5723742930034167
+2394248505,Tehisintellekti tulevik vähiravis,-1,15,3525.240000000001,0.6335614838096075
+2394248505,Tehisintellekti tulevik vähiravis,77,1,95.63999999999942,0.017188565973253
+2394248505,Tehisintellekti tulevik vähiravis,97,1,122.92000000000009,0.0220913689819351
+2394248505,Tehisintellekti tulevik vähiravis,104,1,197.0,0.0354051390289718
+2394248505,Tehisintellekti tulevik vähiravis,139,4,1138.8439999999991,0.2046747723467531
+2394248505,Tehisintellekti tulevik vähiravis,216,1,484.52,0.0870786698594793
+2395857120,Muutuv rändemaastik_ milleks peab Eesti Euroopa piiririigina valmis olema_,-1,6,917.6000000000016,0.1679726835704741
+2395857120,Muutuv rändemaastik_ milleks peab Eesti Euroopa piiririigina valmis olema_,2,1,259.7199999999998,0.0475434452669174
+2395857120,Muutuv rändemaastik_ milleks peab Eesti Euroopa piiririigina valmis olema_,147,1,231.1599999999994,0.0423153504077491
+2395857120,Muutuv rändemaastik_ milleks peab Eesti Euroopa piiririigina valmis olema_,167,1,94.92000000000009,0.0173757270319413
+2395857120,Muutuv rändemaastik_ milleks peab Eesti Euroopa piiririigina valmis olema_,176,9,3119.4729999999995,0.5710399423884447
+2395857120,Muutuv rändemaastik_ milleks peab Eesti Euroopa piiririigina valmis olema_,193,3,839.9199999999996,0.1537528513344729
+2395857123,"Uus elu, uued rollid_ pagulaste identiteet ja kuuluvus Eestis",-1,6,1531.2399999999998,0.3173298567224321
+2395857123,"Uus elu, uued rollid_ pagulaste identiteet ja kuuluvus Eestis",179,1,348.8800000000001,0.0723009067248257
+2395857123,"Uus elu, uued rollid_ pagulaste identiteet ja kuuluvus Eestis",183,7,2945.269,0.6103692365527422
+2395857126,Kuuluvustunne või äärmuslus_ Kuidas ennetada radikaliseerumist,-1,2,488.52,0.0919263723424533
+2395857126,Kuuluvustunne või äärmuslus_ Kuidas ennetada radikaliseerumist,2,14,3979.293,0.7487963030740161
+2395857126,Kuuluvustunne või äärmuslus_ Kuidas ennetada radikaliseerumist,92,1,96.32000000000016,0.0181248427577686
+2395857126,Kuuluvustunne või äärmuslus_ Kuidas ennetada radikaliseerumist,147,1,428.1199999999999,0.0805607109785702
+2395857126,Kuuluvustunne või äärmuslus_ Kuidas ennetada radikaliseerumist,193,1,221.96000000000004,0.0417669237802566
+2395857126,Kuuluvustunne või äärmuslus_ Kuidas ennetada radikaliseerumist,214,1,100.03999999999996,0.0188248470669348
+2395857129,Pagulus ja rahvus,-1,2,392.1200000000001,0.0783089328540642
+2395857129,Pagulus ja rahvus,88,3,606.8800000000001,0.1211979117884181
+2395857129,Pagulus ja rahvus,130,12,3586.7469999999994,0.7162968733742637
+2395857129,Pagulus ja rahvus,147,2,421.60000000000014,0.0841962819832538
+2395857132,"Kes vastutab, kui välistöötajad elavad kümnekesi kitsas köögis ega saa palka_",-1,4,1105.0150000000008,0.205317750454062
+2395857132,"Kes vastutab, kui välistöötajad elavad kümnekesi kitsas köögis ega saa palka_",4,1,402.1600000000001,0.0747234983440094
+2395857132,"Kes vastutab, kui välistöötajad elavad kümnekesi kitsas köögis ega saa palka_",99,13,3648.319999999999,0.6778775449532929
+2395857132,"Kes vastutab, kui välistöötajad elavad kümnekesi kitsas köögis ega saa palka_",193,1,226.48,0.0420812062486354
+2395857135,"Kellel lubame otsustada, kes Eestisse elama tuleb_",-1,4,878.5200000000003,0.1576313172654128
+2395857135,"Kellel lubame otsustada, kes Eestisse elama tuleb_",48,16,4596.498,0.8247416502160854
+2395857135,"Kellel lubame otsustada, kes Eestisse elama tuleb_",137,1,98.24000000000068,0.0176270325185018
+2395857138,"Do They Belong Here, Or Do They Just Live Here_",-1,2,351.4000000000001,0.0739587683023747
+2395857138,"Do They Belong Here, Or Do They Just Live Here_",94,15,4399.896000000001,0.9260412316976252
+2395857141,"Kes ütleb meile, et nemad pole meie_",-1,1,123.47400000000016,0.0236196613585523
+2395857141,"Kes ütleb meile, et nemad pole meie_",103,12,4511.56,0.8630280010268585
+2395857141,"Kes ütleb meile, et nemad pole meie_",145,2,592.5600000000002,0.113352337614589
+2395857144,Vabatahtlikkus_ lõimumise mootor või lõhede peegel_,-1,5,627.9520000000001,0.1370657651648233
+2395857144,Vabatahtlikkus_ lõimumise mootor või lõhede peegel_,19,1,230.07999999999996,0.0502205443236466
+2395857144,Vabatahtlikkus_ lõimumise mootor või lõhede peegel_,30,1,160.03999999999996,0.0349326143669871
+2395857144,Vabatahtlikkus_ lõimumise mootor või lõhede peegel_,147,1,95.31999999999994,0.0208059035332492
+2395857144,Vabatahtlikkus_ lõimumise mootor või lõhede peegel_,179,8,3107.36,0.6782567394363983
+2395857144,Vabatahtlikkus_ lõimumise mootor või lõhede peegel_,183,1,360.6399999999999,0.0787184331748953
+2395991448,Töö ei küsi vanust_,-1,2,289.4000000000001,0.0553556707045319
+2395991448,Töö ei küsi vanust_,51,16,4653.97,0.8901991388692829
+2395991448,Töö ei küsi vanust_,83,1,284.6400000000003,0.0544451904261851
+2395991451,Kas lapsed maksavad karjääris kätte_,-1,4,632.8399999999997,0.1140712236754207
+2395991451,Kas lapsed maksavad karjääris kätte_,9,18,4784.122,0.8623517014608775
+2395991451,Kas lapsed maksavad karjääris kätte_,182,1,130.80000000000018,0.0235770748637018
+2395991454,Kas süsteem hoiab naisi tagasi_,-1,4,1207.0899999999997,0.2421614356073143
+2395991454,Kas süsteem hoiab naisi tagasi_,51,2,346.92000000000013,0.0695976648310313
+2395991454,Kas süsteem hoiab naisi tagasi_,155,9,2549.96,0.5115624968653768
+2395991454,Kas süsteem hoiab naisi tagasi_,232,3,880.6799999999998,0.1766784026962775
+2395991457,Paindlikkus või kontroll_,-1,3,681.0399999999993,0.1273559704469219
+2395991457,Paindlikkus või kontroll_,105,1,98.44000000000004,0.018408495434622
+2395991457,Paindlikkus või kontroll_,136,7,1973.3600000000004,0.3690226386719404
+2395991457,Paindlikkus või kontroll_,151,8,2207.8110000000006,0.412865488764815
+2395991457,Paindlikkus või kontroll_,170,1,386.8800000000001,0.0723474066817004
+2395991460,Kriis ei vabasta juhtimisest,-1,7,1286.6460000000006,0.2481417037888762
+2395991460,Kriis ei vabasta juhtimisest,14,1,225.7199999999999,0.0435322111748103
+2395991460,Kriis ei vabasta juhtimisest,21,1,97.27999999999976,0.018761357004632
+2395991460,Kriis ei vabasta juhtimisest,67,1,322.15999999999985,0.062131566330307
+2395991460,Kriis ei vabasta juhtimisest,136,1,127.24,0.0245394229571277
+2395991460,Kriis ei vabasta juhtimisest,159,10,3126.08,0.6028937387442465
+2395991463,"Mees, kus su lapsed on_",-1,5,1299.9719999999995,0.2357698923342664
+2395991463,"Mees, kus su lapsed on_",9,2,396.2000000000001,0.0718569564135507
+2395991463,"Mees, kus su lapsed on_",155,1,196.52,0.0356419209348586
+2395991463,"Mees, kus su lapsed on_",182,7,2604.2000000000007,0.4723116756490886
+2395991463,"Mees, kus su lapsed on_",232,3,1016.84,0.1844195546682356
+2395991466,Miks noored mehed surevad_,-1,4,513.8400000000003,0.0938802102840706
+2395991466,Miks noored mehed surevad_,4,16,4959.517999999999,0.9061197897159292
+2395991469,Kes võidab AI-ajastul_,-1,10,2924.15,0.549034076293797
+2395991469,Kes võidab AI-ajastul_,48,1,127.31999999999972,0.0239054147679585
+2395991469,Kes võidab AI-ajastul_,65,1,96.87999999999964,0.0181900454187859
+2395991469,Kes võidab AI-ajastul_,125,3,1022.76,0.1920319039277204
+2395991469,Kes võidab AI-ajastul_,139,1,125.07999999999991,0.0234848356831311
+2395991469,Kes võidab AI-ajastul_,188,2,932.6800000000007,0.1751186164450178
+2395991469,Kes võidab AI-ajastul_,189,1,97.12,0.0182351074635889
+2395991472,Kas iga ebamugavus on kiusamine_,-1,3,395.68000000000006,0.0748607617831724
+2395991472,Kas iga ebamugavus on kiusamine_,11,2,230.44000000000003,0.0435981448274218
+2395991472,Kas iga ebamugavus on kiusamine_,82,11,4143.066,0.7838482533308763
+2395991472,Kas iga ebamugavus on kiusamine_,188,2,516.3600000000001,0.0976928400585294
+2396670915,Pedofiilia uus nägu_ kuidas avatus loob uusi riske,-1,3,540.6000000000001,0.0965637522609243
+2396670915,Pedofiilia uus nägu_ kuidas avatus loob uusi riske,39,17,4445.374000000001,0.794047343032102
+2396670915,Pedofiilia uus nägu_ kuidas avatus loob uusi riske,160,1,297.4399999999996,0.0531297123057515
+2396670915,Pedofiilia uus nägu_ kuidas avatus loob uusi riske,173,2,314.96000000000004,0.0562591924012222
+2396670918,Kas töötamine päästab Eestis vaesusest_ Räägime miinimumpalgast,-1,1,162.96000000000004,0.0314100886213214
+2396670918,Kas töötamine päästab Eestis vaesusest_ Räägime miinimumpalgast,57,15,5025.182,0.9685899113786784
+2396670921,Kas Eesti tulevik on parkla või meeldiv elukeskkond_,-1,7,1333.1600000000003,0.2237291969824182
+2396670921,Kas Eesti tulevik on parkla või meeldiv elukeskkond_,12,1,99.27999999999976,0.0166610419427633
+2396670921,Kas Eesti tulevik on parkla või meeldiv elukeskkond_,49,1,96.44000000000004,0.0161844367945216
+2396670921,Kas Eesti tulevik on parkla või meeldiv elukeskkond_,64,1,198.15999999999983,0.0332549563998589
+2396670921,Kas Eesti tulevik on parkla või meeldiv elukeskkond_,131,1,192.36,0.0322816078576749
+2396670921,Kas Eesti tulevik on parkla või meeldiv elukeskkond_,137,7,1756.1709999999996,0.2947183590820383
+2396670921,Kas Eesti tulevik on parkla või meeldiv elukeskkond_,209,3,1065.1600000000003,0.1787537815849505
+2396670921,Kas Eesti tulevik on parkla või meeldiv elukeskkond_,212,1,162.5999999999999,0.0272873229239859
+2396670921,Kas Eesti tulevik on parkla või meeldiv elukeskkond_,231,3,1055.4799999999998,0.1771292964317881
+2396670924,Loodusrahvas või ressursirahvas_ miks keskkond valimiskasti juures kaotab_,-1,6,1792.7999999999995,0.3184594011336146
+2396670924,Loodusrahvas või ressursirahvas_ miks keskkond valimiskasti juures kaotab_,10,1,358.2000000000003,0.0636279325558126
+2396670924,Loodusrahvas või ressursirahvas_ miks keskkond valimiskasti juures kaotab_,157,10,2174.5229999999992,0.3862657810861618
+2396670924,Loodusrahvas või ressursirahvas_ miks keskkond valimiskasti juures kaotab_,158,1,103.11999999999988,0.0183174550674354
+2396670924,Loodusrahvas või ressursirahvas_ miks keskkond valimiskasti juures kaotab_,210,1,97.3599999999999,0.0172942923328696
+2396670924,Loodusrahvas või ressursirahvas_ miks keskkond valimiskasti juures kaotab_,226,3,1103.6000000000008,0.196035137824106
+2396670927,Kodude kättesaadavus_ kas Eestil on plaan_,-1,7,1739.8399999999997,0.3359736726902244
+2396670927,Kodude kättesaadavus_ kas Eestil on plaan_,27,1,98.72000000000024,0.0190634316764639
+2396670927,Kodude kättesaadavus_ kas Eestil on plaan_,49,4,1070.9199999999998,0.2068011573233258
+2396670927,Kodude kättesaadavus_ kas Eestil on plaan_,64,1,162.92000000000007,0.03146084166055
+2396670927,Kodude kättesaadavus_ kas Eestil on plaan_,137,2,265.701,0.0513084771056334
+2396670927,Kodude kättesaadavus_ kas Eestil on plaan_,185,4,1541.1999999999998,0.2976150820478744
+2396670927,Kodude kättesaadavus_ kas Eestil on plaan_,209,1,299.2000000000003,0.0577773374959279
+2396670930,ÜRO kõnnib Rahvasteliidu teed,6,1,97.11999999999988,0.0179439506511795
+2396670930,ÜRO kõnnib Rahvasteliidu teed,8,16,4983.569000000001,0.9207672590892524
+2396670930,ÜRO kõnnib Rahvasteliidu teed,29,1,331.71999999999935,0.0612887902595682
+2396670933,"Kui pole mugav, siis ei kaasa_!",-1,2,188.07999999999996,0.0390630679129961
+2396670933,"Kui pole mugav, siis ei kaasa_!",59,1,99.16000000000032,0.0205949267027473
+2396670933,"Kui pole mugav, siis ei kaasa_!",114,13,4300.418,0.8931705677811105
+2396670933,"Kui pole mugav, siis ei kaasa_!",200,1,227.12000000000037,0.047171437603146
+2396670936,"Kas Eesti on valmis järgmiseks kriisiks, mis ei tule tankiga_ Keemilised, bioloogilised, radioloogilised ja tuumariskid",-1,1,132.8800000000001,0.0297590053576511
+2396670936,"Kas Eesti on valmis järgmiseks kriisiks, mis ei tule tankiga_ Keemilised, bioloogilised, radioloogilised ja tuumariskid",93,15,4332.323,0.970240994642349
+2396692734,Kas rohereform vajab ebapopulaarseid otsuseid_,-1,11,3226.6399999999994,0.6127573720923298
+2396692734,Kas rohereform vajab ebapopulaarseid otsuseid_,15,1,96.24000000000068,0.0182765258876621
+2396692734,Kas rohereform vajab ebapopulaarseid otsuseid_,84,5,1461.5709999999997,0.2775606838960524
+2396692734,Kas rohereform vajab ebapopulaarseid otsuseid_,161,1,193.0,0.0366518027464544
+2396692734,Kas rohereform vajab ebapopulaarseid otsuseid_,196,1,288.31999999999994,0.0547536153775012
+2396692737,Keskkonnahoid vastutuules_ kas keskkonnaprojektid on vaid kulu või ka väärtus inimestele ja ettevõtetele_,-1,15,5205.381,0.9228710055508268
+2396692737,Keskkonnahoid vastutuules_ kas keskkonnaprojektid on vaid kulu või ka väärtus inimestele ja ettevõtetele_,55,1,267.0799999999999,0.0473510753895852
+2396692737,Keskkonnahoid vastutuules_ kas keskkonnaprojektid on vaid kulu või ka väärtus inimestele ja ettevõtetele_,181,1,167.96000000000004,0.0297779190595879
+2396692740,Kas tööstus julgeb investeerida_ Energiamajanduslikud otsused ebakindla poliitika ja turu tingimustes,-1,9,2475.3229999999994,0.4846349647770195
+2396692740,Kas tööstus julgeb investeerida_ Energiamajanduslikud otsused ebakindla poliitika ja turu tingimustes,13,1,386.8800000000001,0.0757459027257991
+2396692740,Kas tööstus julgeb investeerida_ Energiamajanduslikud otsused ebakindla poliitika ja turu tingimustes,37,1,98.32,0.0192497341708038
+2396692740,Kas tööstus julgeb investeerida_ Energiamajanduslikud otsused ebakindla poliitika ja turu tingimustes,109,5,1822.88,0.3568953969210214
+2396692740,Kas tööstus julgeb investeerida_ Energiamajanduslikud otsused ebakindla poliitika ja turu tingimustes,189,1,324.2000000000007,0.063474001405356
+2396692743,Järgmise põlvkonna õpilasmalev,19,20,5298.693,1.0
+2396692746,Kuidas hoida kokkuleppeid ruumis_,-1,7,1649.0369999999998,0.2675775783133644
+2396692746,Kuidas hoida kokkuleppeid ruumis_,7,1,294.2399999999998,0.0477442450611625
+2396692746,Kuidas hoida kokkuleppeid ruumis_,27,1,104.51999999999998,0.0169597216346951
+2396692746,Kuidas hoida kokkuleppeid ruumis_,84,1,128.76,0.0208929751022134
+2396692746,Kuidas hoida kokkuleppeid ruumis_,127,12,3540.96,0.5745665510867803
+2396692746,Kuidas hoida kokkuleppeid ruumis_,231,2,445.3200000000004,0.072258928801784
+2396692749,"Kas elekter saab olla korraga odav, roheline ja kindel ning hoida Eesti majanduse konkurentsivõimelisena_",-1,13,3740.207000000001,0.6613553108047631
+2396692749,"Kas elekter saab olla korraga odav, roheline ja kindel ning hoida Eesti majanduse konkurentsivõimelisena_",143,1,253.79999999999995,0.0448777241158708
+2396692749,"Kas elekter saab olla korraga odav, roheline ja kindel ning hoida Eesti majanduse konkurentsivõimelisena_",171,1,349.67999999999984,0.0618315310040886
+2396692749,"Kas elekter saab olla korraga odav, roheline ja kindel ning hoida Eesti majanduse konkurentsivõimelisena_",196,1,591.84,0.1046510332574349
+2396692749,"Kas elekter saab olla korraga odav, roheline ja kindel ning hoida Eesti majanduse konkurentsivõimelisena_",228,2,719.8399999999997,0.1272844008178425
+2396692752,Tuleviku Eesti edulugu_ majanduskasv või tasaareng_,-1,5,1002.2399999999996,0.1962719223090306
+2396692752,Tuleviku Eesti edulugu_ majanduskasv või tasaareng_,6,2,469.545,0.091952526102125
+2396692752,Tuleviku Eesti edulugu_ majanduskasv või tasaareng_,146,10,2656.4000000000005,0.5202114607496302
+2396692752,Tuleviku Eesti edulugu_ majanduskasv või tasaareng_,149,1,521.3600000000001,0.1020996262522312
+2396692752,Tuleviku Eesti edulugu_ majanduskasv või tasaareng_,168,1,361.6800000000003,0.0708289719635319
+2396692752,Tuleviku Eesti edulugu_ majanduskasv või tasaareng_,219,1,95.15999999999984,0.0186354926234508
+2396692755,Tehisintellekti nähtamatu jalajälg_ kas digiareng tuleb keskkonna arvelt_,-1,1,97.15999999999995,0.018461676440309
+2396692755,Tehisintellekti nähtamatu jalajälg_ kas digiareng tuleb keskkonna arvelt_,10,1,160.15999999999983,0.0304325041033336
+2396692755,Tehisintellekti nähtamatu jalajälg_ kas digiareng tuleb keskkonna arvelt_,65,1,134.07999999999993,0.0254769614771165
+2396692755,Tehisintellekti nähtamatu jalajälg_ kas digiareng tuleb keskkonna arvelt_,107,13,4383.753999999999,0.8329708516046798
+2396692755,Tehisintellekti nähtamatu jalajälg_ kas digiareng tuleb keskkonna arvelt_,162,1,96.11999999999988,0.0182640627773004
+2396692755,Tehisintellekti nähtamatu jalajälg_ kas digiareng tuleb keskkonna arvelt_,228,2,391.5200000000009,0.0743939435972604
+2397177237,Kas sotsiaalmeediasse mahub sisukas poliitiline diskussioon_,-1,8,2193.1850000000004,0.4114187685303385
+2397177237,Kas sotsiaalmeediasse mahub sisukas poliitiline diskussioon_,2,1,166.03999999999996,0.0311473826087527
+2397177237,Kas sotsiaalmeediasse mahub sisukas poliitiline diskussioon_,123,10,2864.6800000000003,0.5373842689209939
+2397177237,Kas sotsiaalmeediasse mahub sisukas poliitiline diskussioon_,215,1,106.88,0.020049579939915
+2397177240,Kultuur on majandusharu,-1,3,330.8000000000001,0.0592514896161227
+2397177240,Kultuur on majandusharu,62,15,5252.181999999999,0.9407485103838772
+2397177243,Kultuuriretsept – ravi positiivsete kõrvaltoimetega,20,2,203.72000000000023,0.0391926830577449
+2397177243,Kultuuriretsept – ravi positiivsete kõrvaltoimetega,44,1,96.20000000000029,0.0185074421272092
+2397177243,Kultuuriretsept – ravi positiivsete kõrvaltoimetega,77,1,269.27999999999975,0.051805447151922
+2397177243,Kultuuriretsept – ravi positiivsete kõrvaltoimetega,87,14,4628.709,0.8904944276631236
+2397177246,Reklaamide vastutamatusest ja vastutusest,-1,1,105.07999999999991,0.0213350095975057
+2397177246,Reklaamide vastutamatusest ja vastutusest,30,1,158.64000000000033,0.0322096109873269
+2397177246,Reklaamide vastutamatusest ja vastutusest,73,13,4661.518,0.9464553794151672
+2397177249,AI ajastu ettevõtlus – kas miljon mikroettevõtjat või paar suurt võitjat_,-1,7,1983.3200000000008,0.3494435529169161
+2397177249,AI ajastu ettevõtlus – kas miljon mikroettevõtjat või paar suurt võitjat_,24,1,91.59999999999997,0.0161391149422128
+2397177249,AI ajastu ettevõtlus – kas miljon mikroettevõtjat või paar suurt võitjat_,125,8,2239.5999999999995,0.3945978365128798
+2397177249,AI ajastu ettevõtlus – kas miljon mikroettevõtjat või paar suurt võitjat_,162,2,410.33200000000033,0.0722968920575116
+2397177249,AI ajastu ettevõtlus – kas miljon mikroettevõtjat või paar suurt võitjat_,186,1,549.1599999999999,0.0967571655203666
+2397177249,AI ajastu ettevõtlus – kas miljon mikroettevõtjat või paar suurt võitjat_,188,1,239.72000000000003,0.0422365571391621
+2397177249,AI ajastu ettevõtlus – kas miljon mikroettevõtjat või paar suurt võitjat_,195,1,161.92000000000007,0.0285288809109508
+2397177252,Tehisintellekt kultuuris – kas loovisik on järgmine väljasureja_,-1,3,526.1200000000008,0.089871103669492
+2397177252,Tehisintellekt kultuuris – kas loovisik on järgmine väljasureja_,117,12,3748.562,0.640324268443545
+2397177252,Tehisintellekt kultuuris – kas loovisik on järgmine väljasureja_,119,1,131.6800000000003,0.022493398713599
+2397177252,Tehisintellekt kultuuris – kas loovisik on järgmine väljasureja_,162,1,164.35999999999967,0.028075751918037
+2397177252,Tehisintellekt kultuuris – kas loovisik on järgmine väljasureja_,181,1,130.07999999999993,0.0222200888871882
+2397177252,Tehisintellekt kultuuris – kas loovisik on järgmine väljasureja_,186,1,323.24,0.0552154176806176
+2397177252,Tehisintellekt kultuuris – kas loovisik on järgmine väljasureja_,188,2,612.4,0.1046093360586878
+2397177252,Tehisintellekt kultuuris – kas loovisik on järgmine väljasureja_,221,1,217.71999999999932,0.0371906346288331
+2397177255,Vabakutseliste loovisikute toimetulek,-1,1,128.51999999999998,0.0232580571197759
+2397177255,Vabakutseliste loovisikute toimetulek,62,2,447.0799999999999,0.0809073465383552
+2397177255,Vabakutseliste loovisikute toimetulek,106,14,4718.267,0.8538571692526747
+2397177255,Vabakutseliste loovisikute toimetulek,128,1,134.84000000000017,0.0244017773267241
+2397177255,Vabakutseliste loovisikute toimetulek,215,1,97.12,0.0175756497624699
+2397177258,Kas tänavakunst peaks olema legaalne_,73,1,320.0739999999996,0.0634413661793777
+2397177258,Kas tänavakunst peaks olema legaalne_,74,16,4725.12,0.9365586338206222
+2397264564,Küberturvalisus vs ettevõtlusvõime_ kus on tasakaal_,-1,4,679.0030000000002,0.1265690815282096
+2397264564,Küberturvalisus vs ettevõtlusvõime_ kus on tasakaal_,118,13,4685.68,0.8734309184717904
+2397264567,Teadmussiirdedoktorantuur – Eesti majanduse kasutamata potentsiaal_,-1,1,550.4399999999996,0.1024868572577633
+2397264567,Teadmussiirdedoktorantuur – Eesti majanduse kasutamata potentsiaal_,28,15,4820.395,0.8975131427422365
+2397264570,"Miljon sensorit, üks planeet_ kuidas tehisintellekt asjades (AIoT) muudab teadust_",-1,3,943.9199999999994,0.1878306841456868
+2397264570,"Miljon sensorit, üks planeet_ kuidas tehisintellekt asjades (AIoT) muudab teadust_",48,2,395.1999999999998,0.0786408661479526
+2397264570,"Miljon sensorit, üks planeet_ kuidas tehisintellekt asjades (AIoT) muudab teadust_",107,1,168.5999999999999,0.0335497217422692
+2397264570,"Miljon sensorit, üks planeet_ kuidas tehisintellekt asjades (AIoT) muudab teadust_",110,8,3137.377000000001,0.6243067933012788
+2397264570,"Miljon sensorit, üks planeet_ kuidas tehisintellekt asjades (AIoT) muudab teadust_",181,1,107.44000000000004,0.021379490533745
+2397264570,"Miljon sensorit, üks planeet_ kuidas tehisintellekt asjades (AIoT) muudab teadust_",184,1,272.84000000000015,0.0542924441290673
+2397264573,Kas oleme tehisaru nimel valmis ohverdama oma inimõigused_,-1,5,1973.36,0.3828556949726424
+2397264573,Kas oleme tehisaru nimel valmis ohverdama oma inimõigused_,124,1,175.68000000000006,0.0340840437085954
+2397264573,Kas oleme tehisaru nimel valmis ohverdama oma inimõigused_,162,1,342.79999999999995,0.0665073439395861
+2397264573,Kas oleme tehisaru nimel valmis ohverdama oma inimõigused_,181,4,1354.4379999999996,0.2627773451308204
+2397264573,Kas oleme tehisaru nimel valmis ohverdama oma inimõigused_,184,3,1120.28,0.2173478625106173
+2397264573,Kas oleme tehisaru nimel valmis ohverdama oma inimõigused_,216,1,187.76,0.0364277097377383
+2397264576,Kas linnud ja loomad keedavad meile uut superhaigust_,-1,5,801.7999999999996,0.1448807913693113
+2397264576,Kas linnud ja loomad keedavad meile uut superhaigust_,102,13,4247.960000000001,0.7675826970630835
+2397264576,Kas linnud ja loomad keedavad meile uut superhaigust_,116,1,360.4849999999997,0.0651376304274958
+2397264576,Kas linnud ja loomad keedavad meile uut superhaigust_,124,1,123.96000000000004,0.0223988811401095
+2397264579,Elu võimalikkusest pealinnast eemal,-1,6,1257.6800000000003,0.224714523860999
+2397264579,Elu võimalikkusest pealinnast eemal,27,1,196.84000000000012,0.0351701600381647
+2397264579,Elu võimalikkusest pealinnast eemal,64,2,195.36000000000013,0.0349057227446447
+2397264579,Elu võimalikkusest pealinnast eemal,131,9,2716.0699999999997,0.4852906755479479
+2397264579,Elu võimalikkusest pealinnast eemal,212,4,1230.8399999999997,0.2199189178082436
+2397264582,Kes vastutab Eesti toidujulgeoleku eest_,37,18,5306.388,1.0
+2397264585,Toiduraiskamine või toiduohutus – kas peame valima_,30,18,5005.804,1.0
+2397264588,Mille taha jääb majanduskasv_,-1,5,1427.0400000000004,0.2721510851982567
+2397264588,Mille taha jääb majanduskasv_,6,1,126.04,0.0240371137307911
+2397264588,Mille taha jääb majanduskasv_,63,1,95.72,0.0182547804372527
+2397264588,Mille taha jääb majanduskasv_,64,11,3438.1579999999994,0.655691803161136
+2397264588,Mille taha jääb majanduskasv_,231,1,156.5999999999999,0.0298652174725634
+2397829623,Noorte julm vägivald – kas sinu kodukant on järgmine_,-1,5,1173.6799999999996,0.2198149604824511
+2397829623,Noorte julm vägivald – kas sinu kodukant on järgmine_,23,1,159.91999999999985,0.0299509308161965
+2397829623,Noorte julm vägivald – kas sinu kodukant on järgmine_,92,14,3778.2,0.7076075963591415
+2397829623,Noorte julm vägivald – kas sinu kodukant on järgmine_,156,1,227.6000000000004,0.0426265123422108
+2397829626,"Kui sensoreid saab rohkem kui inimesi, siis kes hoiab piirialade Eestit_",-1,1,196.20000000000076,0.0357322572132446
+2397829626,"Kui sensoreid saab rohkem kui inimesi, siis kes hoiab piirialade Eestit_",3,1,103.24,0.0188022336121068
+2397829626,"Kui sensoreid saab rohkem kui inimesi, siis kes hoiab piirialade Eestit_",27,16,4581.436999999999,0.8343786202358583
+2397829626,"Kui sensoreid saab rohkem kui inimesi, siis kes hoiab piirialade Eestit_",86,1,326.2399999999998,0.0594153496088118
+2397829626,"Kui sensoreid saab rohkem kui inimesi, siis kes hoiab piirialade Eestit_",131,1,283.7199999999998,0.0516715393299782
+2397829629,Religioossete ühenduste roll ühiskonna toetaja ja tasakaalustajana,22,21,5544.455,1.0
+2397829632,Appi! Mind ei lasta muuseumisse! Kultuuriharidus kui regionaalpoliitika,-1,1,95.03999999999996,0.0169568124047361
+2397829632,Appi! Mind ei lasta muuseumisse! Kultuuriharidus kui regionaalpoliitika,44,18,5350.786999999999,0.9546747830040072
+2397829632,Appi! Mind ei lasta muuseumisse! Kultuuriharidus kui regionaalpoliitika,200,1,159.0,0.0283684045912567
+2397829635,„Veibi-Vellod“ ja veipivad noored – miks salaturg võidab ja mida teha teisiti_,-1,1,125.88000000000012,0.0241135566921441
+2397829635,„Veibi-Vellod“ ja veipivad noored – miks salaturg võidab ja mida teha teisiti_,2,1,258.3599999999997,0.049491408539739
+2397829635,„Veibi-Vellod“ ja veipivad noored – miks salaturg võidab ja mida teha teisiti_,60,16,4836.06,0.926395034768117
+2397829638,Kus on noore kodu_ Kuidas elatakse tulevikus ja kas kodu peab tingimata omama_,49,14,3698.6929999999993,0.8324890337081381
+2397829638,Kus on noore kodu_ Kuidas elatakse tulevikus ja kas kodu peab tingimata omama_,137,1,100.0,0.0225076542905328
+2397829638,Kus on noore kodu_ Kuidas elatakse tulevikus ja kas kodu peab tingimata omama_,185,2,546.2000000000002,0.1229368077348904
+2397829638,Kus on noore kodu_ Kuidas elatakse tulevikus ja kas kodu peab tingimata omama_,209,1,98.04000000000008,0.0220665042664384
+2397829641,"Kelle vastutus on NEET-olukorras noor – tema enda, spetsialistide või kogu ühiskonna_",72,14,4631.287,0.9715945267646062
+2397829641,"Kelle vastutus on NEET-olukorras noor – tema enda, spetsialistide või kogu ühiskonna_",200,1,135.39999999999964,0.0284054732353938
+2400164898,Kas lapsevanem on partner või lihtsalt teenusetarbija_,-1,1,126.19999999999982,0.0256093586580533
+2400164898,Kas lapsevanem on partner või lihtsalt teenusetarbija_,0,2,757.7199999999998,0.1537616738698906
+2400164898,Kas lapsevanem on partner või lihtsalt teenusetarbija_,23,13,4043.966,0.8206289674720562
+2400164901,Ühiskondlik ebavõrdsus algab enne kooli – kas me tunnistame seda_,-1,1,93.16000000000032,0.0172687048286013
+2400164901,Ühiskondlik ebavõrdsus algab enne kooli – kas me tunnistame seda_,0,16,4400.65,0.8157312784884506
+2400164901,Ühiskondlik ebavõrdsus algab enne kooli – kas me tunnistame seda_,23,4,900.920000000001,0.1670000166829481
+2400164904,Kuidas toetada lapse keele ja kõne arengut liikumismängude kaudu_,0,1,97.52,0.0244794293220488
+2400164904,Kuidas toetada lapse keele ja kõne arengut liikumismängude kaudu_,101,13,3506.313,0.8801532123101006
+2400164904,Kuidas toetada lapse keele ja kõne arengut liikumismängude kaudu_,156,1,379.92,0.0953673583678506
+2400164907,Iga lapse tulevik on Eesti arenguküsimus,-1,4,946.7599999999998,0.164963355609322
+2400164907,Iga lapse tulevik on Eesti arenguküsimus,0,16,4655.6140000000005,0.8111936582256735
+2400164907,Iga lapse tulevik on Eesti arenguküsimus,147,1,136.84000000000017,0.0238429861650045
+2400164910,"Mida laps tegelikult tahab, et me märkaks_",-1,1,552.56,0.1140200785611052
+2400164910,"Mida laps tegelikult tahab, et me märkaks_",23,2,649.2399999999998,0.1339698780313666
+2400164910,"Mida laps tegelikult tahab, et me märkaks_",42,1,125.84000000000016,0.0259669297200837
+2400164910,"Mida laps tegelikult tahab, et me märkaks_",100,12,3518.524,0.7260431136874443
+2400164913,Alushariduse agenda 2027–2031_ mida Eesti peab nüüd otsustama_,-1,4,925.84,0.1710201526480101
+2400164913,Alushariduse agenda 2027–2031_ mida Eesti peab nüüd otsustama_,0,13,4176.88,0.7715487073278544
+2400164913,Alushariduse agenda 2027–2031_ mida Eesti peab nüüd otsustama_,23,1,210.991,0.0389740268592373
+2400164913,Alushariduse agenda 2027–2031_ mida Eesti peab nüüd otsustama_,200,1,99.92000000000009,0.018457113164898
+2400164916,Aga kes hoiab õpetajat_,-1,2,436.56000000000006,0.1213153950169985
+2400164916,Aga kes hoiab õpetajat_,0,2,399.1999999999997,0.1109334471568301
+2400164916,Aga kes hoiab õpetajat_,9,1,97.44000000000004,0.0270775428130299
+2400164916,Aga kes hoiab õpetajat_,156,8,2569.514,0.7140406952348082
+2400164916,Aga kes hoiab õpetajat_,200,1,95.84000000000016,0.0266329197783332
+2400184974,"Väike rahvas, suur mudel_ kas tehisaru on Eesti jaoks loodud_",-1,3,909.783,0.1845093608105584
+2400184974,"Väike rahvas, suur mudel_ kas tehisaru on Eesti jaoks loodud_",45,1,189.84000000000012,0.038500672200158
+2400184974,"Väike rahvas, suur mudel_ kas tehisaru on Eesti jaoks loodud_",65,14,3831.2,0.7769899669892835
+2400184977,"Post-it, pastakas ja AI-agent - Eesti.ai praktiline töötuba nutikama tööpäeva disainimiseks 2",-1,2,565.835,0.130111857543457
+2400184977,"Post-it, pastakas ja AI-agent - Eesti.ai praktiline töötuba nutikama tööpäeva disainimiseks 2",24,12,3577.28,0.8225835194943012
+2400184977,"Post-it, pastakas ja AI-agent - Eesti.ai praktiline töötuba nutikama tööpäeva disainimiseks 2",162,1,205.72000000000023,0.0473046229622416
+2400184980,"Eesti, Singapur, Dubai, Delaware. Kui konkurentsivõimelised me globaalselt oleme_",-1,16,3125.359,0.5696641044751498
+2400184980,"Eesti, Singapur, Dubai, Delaware. Kui konkurentsivõimelised me globaalselt oleme_",233,5,2125.56,0.3874291669879203
+2400184980,"Eesti, Singapur, Dubai, Delaware. Kui konkurentsivõimelised me globaalselt oleme_",234,1,235.40000000000052,0.0429067285369298
+2400184983,"Post-it, pastakas ja AI-agent - Eesti.ai praktiline töötuba nutikama tööpäeva disainimiseks",-1,4,1178.785,0.3220103777824217
+2400184983,"Post-it, pastakas ja AI-agent - Eesti.ai praktiline töötuba nutikama tööpäeva disainimiseks",24,8,2345.12,0.6406197713282005
+2400184983,"Post-it, pastakas ja AI-agent - Eesti.ai praktiline töötuba nutikama tööpäeva disainimiseks",162,1,136.79999999999998,0.0373698508893778
+2400184986,Eesti loob maailma esimese agentide riigi,-1,11,2794.710000000001,0.4936333239718734
+2400184986,Eesti loob maailma esimese agentide riigi,17,1,358.0799999999999,0.0632481440463763
+2400184986,Eesti loob maailma esimese agentide riigi,47,1,258.0799999999999,0.0455850117724776
+2400184986,Eesti loob maailma esimese agentide riigi,117,1,101.0,0.0178397635966376
+2400184986,Eesti loob maailma esimese agentide riigi,162,1,125.84000000000016,0.022227285653474
+2400184986,Eesti loob maailma esimese agentide riigi,195,5,1489.12,0.2630252353170797
+2400184986,Eesti loob maailma esimese agentide riigi,235,3,534.6799999999994,0.0944412356420812
+2400184989,Tiigri üleandmine. Kes kannab Eesti digilugu edasi_,-1,2,196.6970000000001,0.0406696472231635
+2400184989,Tiigri üleandmine. Kes kannab Eesti digilugu edasi_,28,1,101.2800000000002,0.02094094912867
+2400184989,Tiigri üleandmine. Kes kannab Eesti digilugu edasi_,61,2,545.8399999999999,0.1128594754383218
+2400184989,Tiigri üleandmine. Kes kannab Eesti digilugu edasi_,154,10,3467.64,0.7169793921459447
+2400184989,Tiigri üleandmine. Kes kannab Eesti digilugu edasi_,186,1,394.3199999999997,0.0815307569156512
+2400184989,Tiigri üleandmine. Kes kannab Eesti digilugu edasi_,233,1,130.67999999999984,0.0270197791482483
+2400184992,"Usalda, aga kontrolli – mis saab valesti minna, kui AI-agent saab isikukoodi_",-1,9,2362.5870000000004,0.3945597351461872
+2400184992,"Usalda, aga kontrolli – mis saab valesti minna, kui AI-agent saab isikukoodi_",29,1,93.72000000000024,0.0156515456903389
+2400184992,"Usalda, aga kontrolli – mis saab valesti minna, kui AI-agent saab isikukoodi_",47,9,2620.08,0.4375619060215865
+2400184992,"Usalda, aga kontrolli – mis saab valesti minna, kui AI-agent saab isikukoodi_",234,2,434.1999999999998,0.0725128162478141
+2400184992,"Usalda, aga kontrolli – mis saab valesti minna, kui AI-agent saab isikukoodi_",235,1,477.3200000000001,0.0797139968940733
+2400184995,Kas annaksid AI-le õiguse enda nimel tegutseda_,-1,7,2260.0000000000005,0.4199644405330353
+2400184995,Kas annaksid AI-le õiguse enda nimel tegutseda_,47,9,2018.3280000000004,0.3750557474921062
+2400184995,Kas annaksid AI-le õiguse enda nimel tegutseda_,234,3,775.3599999999997,0.1440812515980947
+2400184995,Kas annaksid AI-le õiguse enda nimel tegutseda_,235,2,327.7199999999997,0.0608985603767637
+2400207741,"Kuidas rahastada terviseidusid nii, et uued lahendused jõuaksid ka Eestis kasutusele_",-1,9,2089.622,0.3835166654369888
+2400207741,"Kuidas rahastada terviseidusid nii, et uued lahendused jõuaksid ka Eestis kasutusele_",6,1,96.27999999999976,0.0176706526578841
+2400207741,"Kuidas rahastada terviseidusid nii, et uued lahendused jõuaksid ka Eestis kasutusele_",148,8,2686.8000000000006,0.4931191271417041
+2400207741,"Kuidas rahastada terviseidusid nii, et uued lahendused jõuaksid ka Eestis kasutusele_",169,1,161.04000000000002,0.0295563139180065
+2400207741,"Kuidas rahastada terviseidusid nii, et uued lahendused jõuaksid ka Eestis kasutusele_",216,1,414.84000000000015,0.0761372408454163
+2400207744,Konkurents tervishoius – kas oht või lahendus_,-1,2,559.9459999999999,0.1047609853421505
+2400207744,Konkurents tervishoius – kas oht või lahendus_,98,14,4690.04,0.8774653478980113
+2400207744,Konkurents tervishoius – kas oht või lahendus_,215,1,95.0,0.0177736667598381
+2400207747,Kuidas tehnoloogia areng meie aju mõjutab_,-1,8,1720.0470000000005,0.3476804184664196
+2400207747,Kuidas tehnoloogia areng meie aju mõjutab_,46,2,644.4400000000005,0.130263399126012
+2400207747,Kuidas tehnoloogia areng meie aju mõjutab_,103,1,431.04,0.0871279491640434
+2400207747,Kuidas tehnoloogia areng meie aju mõjutab_,141,6,1595.7199999999998,0.3225496729770959
+2400207747,Kuidas tehnoloogia areng meie aju mõjutab_,145,1,327.5999999999999,0.0662191818535185
+2400207747,Kuidas tehnoloogia areng meie aju mõjutab_,181,1,228.35999999999967,0.0461593784129104
+2400207750,Eesti terviseandmed_ kristallkuul või kompass_,-1,8,2183.08,0.3894577316479453
+2400207750,Eesti terviseandmed_ kristallkuul või kompass_,32,1,386.96,0.0690330010070583
+2400207750,Eesti terviseandmed_ kristallkuul või kompass_,104,11,3035.3949999999995,0.5415092673449964
+2400207753,"Uued hambad Türgist – kes parandab, kui midagi läheb valesti_",43,19,5250.459,1.0
+2400207756,Kuhu kaovad töötajad_,-1,5,847.1200000000005,0.15602009519377
+2400207756,Kuhu kaovad töötajad_,105,13,4377.6,0.8062536225331092
+2400207756,Kuhu kaovad töötajad_,139,1,204.83699999999956,0.0377262822731209
+2400207759,Tervishoid aastal 2050_ milliseid otsuseid peame tegema juba täna_,-1,12,3396.365,0.6259605646678074
+2400207759,Tervishoid aastal 2050_ milliseid otsuseid peame tegema juba täna_,40,1,94.40000000000056,0.0173982117071166
+2400207759,Tervishoid aastal 2050_ milliseid otsuseid peame tegema juba täna_,104,2,491.8399999999999,0.0906476318435192
+2400207759,Tervishoid aastal 2050_ milliseid otsuseid peame tegema juba täna_,139,3,1443.2399999999998,0.2659935917815565
+2400207762,Kelle vastutus on ennetus tervishoius_,-1,9,2015.08,0.374717206665722
+2400207762,Kelle vastutus on ennetus tervishoius_,32,11,3247.36,0.6038676718730766
+2400207762,Kelle vastutus on ennetus tervishoius_,139,1,115.16199999999937,0.0214151214612013
+2400207765,Üksilduse rohi_ kes vastutab üksilduse eest_,-1,3,586.48,0.1070263507313808
+2400207765,Üksilduse rohi_ kes vastutab üksilduse eest_,18,1,99.75999999999976,0.0182051370020504
+2400207765,Üksilduse rohi_ kes vastutab üksilduse eest_,20,18,4793.532,0.8747685122665688
