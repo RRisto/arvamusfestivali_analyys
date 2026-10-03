@@ -26,3 +26,5 @@ PYTHONPATH=src python scripts/export_segment_dataset.py \
   --input-root /workspace/worktrees/topic-detail/results/full \
   --output-root data/topic-analysis/results/segment-dataset
 ```
+
+Topic names were generated using GPT-5.4 mini from keywords and up to 20 full-text examples per topic. See `../topic-names/topic-review.html` for evidence and coherence assessments. Original keyword names are retained; membership strengths and segment boundaries are unchanged.

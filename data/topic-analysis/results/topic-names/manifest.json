@@ -1,0 +1,9 @@
+{
+  "topics": 582,
+  "model": "gpt-5.4-mini-2026-03-17",
+  "input_tokens": 8384677,
+  "output_tokens": 117437,
+  "estimated_standard_cost_usd": 6.81697425,
+  "topics_with_fewer_than_10_examples": 223,
+  "example_count": 7513
+}

@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "created_at_utc": "2026-10-03T18:07:01.807136+00:00",
   "semantic_segments": 4132,
   "fixed_segments": 6545,
@@ -960,48 +960,54 @@
   "files": {
     "semantic-segments.csv.gz": {
       "rows": 4132,
-      "bytes": 6997054,
-      "sha256": "bdf0d9911de74756d6bff43df8dbc5ad0f0605fe5db82d1a51aea32e6552f2fd"
+      "bytes": 7059996,
+      "sha256": "ae6ab5c2c9ee8db463431d6dcedd69c08ab106a12b759db55a38a893de0937aa"
     },
     "semantic-segments.jsonl.gz": {
       "rows": 4132,
-      "bytes": 7048945,
-      "sha256": "ce17a928581f02ee26c549dca8a499fb87fcc90185cb3599f69ef82b65e978e7"
+      "bytes": 7134089,
+      "sha256": "8d4281577178d1faed3bbe1affa592a8ccf3aa89b68fe0b9eceb902887951e54"
     },
     "semantic-segments.parquet": {
       "rows": 4132,
-      "bytes": 7220487,
-      "sha256": "123d45bd01d50b71b5654267061f78fd24741b11602968c18aa97589fe0fa7e6"
+      "bytes": 7279164,
+      "sha256": "c630c0a846051d218503d32b888cd51b284417fdf181b4b86c9f2ac36baa1d24"
     },
     "fixed-segments.csv.gz": {
       "rows": 6545,
-      "bytes": 7127413,
-      "sha256": "bcfa7c0cf6a3bdedea40d8fcf88c245a45d991354fefeec2303400d74b65aae7"
+      "bytes": 7196437,
+      "sha256": "b2de53dac6a88571cc3fc50caf14398fd9bc58722327192ffe6ae6bc21e08b85"
     },
     "fixed-segments.jsonl.gz": {
       "rows": 6545,
-      "bytes": 7200532,
-      "sha256": "efecc0336a9421e8522bc0d66eedc7dd03703c45cf9b0ff2eb02e0d316c72983"
+      "bytes": 7296804,
+      "sha256": "844ed7ec732a4d365081f549059962c287843fd2eefdc228fbaad054aaa5588d"
     },
     "fixed-segments.parquet": {
       "rows": 6545,
-      "bytes": 7366985,
-      "sha256": "321154bc4d63dc39ba2bfaa2aeeee64e755213f55535989f1b7977b9092b5e33"
+      "bytes": 7427537,
+      "sha256": "18a8afa7e29784fea9763876b5ca420ece6b96eb63b8e12804578fea1923527e"
     },
     "all-segments.csv.gz": {
       "rows": 10677,
-      "bytes": 14123277,
-      "sha256": "c5a5d67bfce611d1321e804646860f47c0def08bb275b755d484d06b4cf248d2"
+      "bytes": 14255187,
+      "sha256": "d2ccbf41398e01cbe1f014a8335a11ad7ab48047143b926a1847c584c77124c6"
     },
     "all-segments.jsonl.gz": {
       "rows": 10677,
-      "bytes": 14248236,
-      "sha256": "c3944a8b940ce5679543b49ff28dae7077d8b63fddac32dbcb07ec855be14e60"
+      "bytes": 14429559,
+      "sha256": "659e33abdb90f21665cf64d97f99d018d11503e30419fa5d24610299307555a4"
     },
     "all-segments.parquet": {
       "rows": 10677,
-      "bytes": 14543521,
-      "sha256": "b11ab9b97b0dc336260418ce4dd759d8a2375085188345c545f0e4245b15f456"
+      "bytes": 14659486,
+      "sha256": "5bdf11fdf388c3de3fe56eb414794e82690c57dae7843107cff424f2a1f3ce99"
     }
+  },
+  "topic_naming": {
+    "model": "gpt-5.4-mini-2026-03-17",
+    "topic_count": 582,
+    "evidence": "../topic-names/topic-evidence.jsonl.gz",
+    "preserved_keyword_field": "topic_name_keywords"
   }
 }

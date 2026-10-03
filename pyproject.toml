@@ -31,6 +31,7 @@ topic-analysis = [
     "nbclient>=0.10,<1",
     "nbformat>=5,<6",
     "numpy>=2,<3",
+    "openai>=3.24,<4",
     "pandas>=2.2,<3",
     "plotly>=6,<7",
     "pyarrow>=19,<26",

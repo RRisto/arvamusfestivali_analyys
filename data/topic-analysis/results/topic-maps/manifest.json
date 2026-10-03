@@ -14,5 +14,6 @@
   },
   "marker_size": "Area proportional to assigned segment count.",
   "outliers": "Topic -1 excluded: it is unassigned content, not a coherent topic.",
-  "interpretation": "Nearby topics have similar centroids; 2D distances are approximate."
+  "interpretation": "Nearby topics have similar centroids; 2D distances are approximate.",
+  "topic_naming": "gpt-5.4-mini-2026-03-17; evidence in ../topic-names/"
 }

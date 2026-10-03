@@ -47,6 +47,10 @@ def name_segment_topics(
         "_", ", ", regex=False
     )
     result.loc[result.topic_id == -1, "topic_name"] = "Unassigned"
+    if "LLM_Name" in topic_info.columns:
+        llm_names = topic_info.set_index("Topic").LLM_Name
+        result["topic_name_keywords"] = result.topic_name
+        result["topic_name"] = result.topic_id.map(llm_names).fillna(result.topic_name)
     result["confidence"] = result.membership_strength.where(result.topic_id != -1)
     result["confidence_type"] = "hdbscan_membership_strength"
     result["talk_name"] = result.title
