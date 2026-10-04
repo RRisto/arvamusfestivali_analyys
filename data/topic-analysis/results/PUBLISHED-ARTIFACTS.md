@@ -24,3 +24,19 @@ Load `.npy` and `.npz` files with `numpy.load(path, allow_pickle=False)`.
 - `segmentation-experiments/broader-pilot/topic-models/{original,sentence5}/embeddings.npy`: broader pilot embeddings, with adjacent embedding manifests.
 
 The full content-addressed cache under `data/topic-analysis/cache/` is not included in this publication.
+
+## Fitted models and reusable datasets
+
+The 16 `model.pkl` files under `segmentation-experiments/topic-models/` and
+`segmentation-experiments/broader-pilot/topic-models/` preserve the fitted pilot
+models for their original segmentation and random seed. See each adjacent
+`manifest.json` for its parameters and package versions. Pickle files require a
+trusted source and compatible Python dependencies when loading.
+
+The complete fixed/semantic BGE and Qwen topic tables are in `segmentation-full/`.
+`segment-dataset/fixed-segments.parquet`, `semantic-segments.parquet` and
+`segment-topic-index.csv` preserve reusable segments and their topic mappings.
+
+File sizes and SHA-256 checksums are included in `published-additions.json`.
+The full embedding cache is downloadable from the
+[October 2026 release](https://github.com/RRisto/arvamusfestivali_analyys/releases/tag/analysis-cache-2026-10-04).

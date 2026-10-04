@@ -1,5 +1,5 @@
 {
-  "description": "Additional plots and embedding arrays published 2026-10-04; full per-passage cache excluded.",
+  "description": "Published additional plots, embedding arrays, fitted models and reusable segment/topic datasets; full per-passage cache is available in the analysis-cache-2026-10-04 release.",
   "files": [
     {
       "path": "figures/semantic-bge-topic-hierarchy.html",
@@ -90,6 +90,121 @@
       "path": "segmentation-full/semantic-qwen-topic-sizes.html",
       "bytes": 11495,
       "sha256": "57c0228d26775e8433d03d14d558f3abb65676a143df4d5ced2b84fa0e0b6874"
+    },
+    {
+      "path": "segment-dataset/fixed-segments.parquet",
+      "bytes": 7427537,
+      "sha256": "18a8afa7e29784fea9763876b5ca420ece6b96eb63b8e12804578fea1923527e"
+    },
+    {
+      "path": "segment-dataset/segment-topic-index.csv",
+      "bytes": 8232613,
+      "sha256": "b53c3d714a3debd36d735ec9fc9d7483f5a6d19f3f52d75dcf5997ceeeea1187"
+    },
+    {
+      "path": "segment-dataset/semantic-segments.parquet",
+      "bytes": 7279164,
+      "sha256": "c630c0a846051d218503d32b888cd51b284417fdf181b4b86c9f2ac36baa1d24"
+    },
+    {
+      "path": "segmentation-experiments/broader-pilot/topic-models/original/seed-19/model.pkl",
+      "bytes": 8727153,
+      "sha256": "1e6671e50f890fd9c4c731cc3adacd0b5a02187669947fbfb4075ff72fae0e58"
+    },
+    {
+      "path": "segmentation-experiments/broader-pilot/topic-models/original/seed-42/model.pkl",
+      "bytes": 8712979,
+      "sha256": "cb01f68a6ce9e5c028cd03042df20d5922ef7bb396d4ce121865ecb46dad7936"
+    },
+    {
+      "path": "segmentation-experiments/broader-pilot/topic-models/original/seed-7/model.pkl",
+      "bytes": 8682424,
+      "sha256": "5324f9e03061e3b4b101877afb82d9e8229e4ccd7e509435620da0c6b68cbf69"
+    },
+    {
+      "path": "segmentation-experiments/broader-pilot/topic-models/sentence5/seed-19/model.pkl",
+      "bytes": 10232160,
+      "sha256": "6d948116a66090de85dcd12d654e1856da34d14cc6451dd1d0bede41070d76d9"
+    },
+    {
+      "path": "segmentation-experiments/broader-pilot/topic-models/sentence5/seed-42/model.pkl",
+      "bytes": 10209625,
+      "sha256": "f82c227e005bbc53f7b301c3dd3f219a0a6e159cb2d271be5764928f92fe7195"
+    },
+    {
+      "path": "segmentation-experiments/broader-pilot/topic-models/sentence5/seed-7/model.pkl",
+      "bytes": 10146344,
+      "sha256": "27d4de34bcef64f547a305ade23b5caf897c40ec7dce999af3dd0e65c147062c"
+    },
+    {
+      "path": "segmentation-experiments/topic-models/cue5/seed-42/model.pkl",
+      "bytes": 1724261,
+      "sha256": "830773311a8a234d98b4a2d76b4924edcdadeeb2b376b2ee18df372e71acc45b"
+    },
+    {
+      "path": "segmentation-experiments/topic-models/cue5/seed-7/model.pkl",
+      "bytes": 1725219,
+      "sha256": "572f934b42f9fd034d091d6735927265c27a7ad8bde7869edf3e5ffd5d5a0d77"
+    },
+    {
+      "path": "segmentation-experiments/topic-models/original/seed-42/model.pkl",
+      "bytes": 1503194,
+      "sha256": "7d8ee19a8f33c02418e61f3b6db7ce4bd7bda646c5a0459b29a5c42bdd347e66"
+    },
+    {
+      "path": "segmentation-experiments/topic-models/original/seed-7/model.pkl",
+      "bytes": 1457120,
+      "sha256": "e008032f5a4329b2857d6744619a5075c2a50a74a935702966c948c993b8e92f"
+    },
+    {
+      "path": "segmentation-experiments/topic-models/sentence3/seed-42/model.pkl",
+      "bytes": 1899313,
+      "sha256": "a90d5dfcf7a1219c1d6499645c6aa1ec39fb05cdddfb35757d3fc30e03c85f25"
+    },
+    {
+      "path": "segmentation-experiments/topic-models/sentence3/seed-7/model.pkl",
+      "bytes": 1907661,
+      "sha256": "22c096207829f42ed0221956a82e4676c7a260f3481b7ec505632bc71dc7194c"
+    },
+    {
+      "path": "segmentation-experiments/topic-models/sentence5/seed-42/model.pkl",
+      "bytes": 1719006,
+      "sha256": "11a8383015c07e5c160d139d1ad491c8ff99b42afe14d84204b5f636100eeedf"
+    },
+    {
+      "path": "segmentation-experiments/topic-models/sentence5/seed-7/model.pkl",
+      "bytes": 1780490,
+      "sha256": "7ea7dd2b3044c855ffc4c253996b7bd7c91019097633f6b4fa8013e14ce4b38f"
+    },
+    {
+      "path": "segmentation-experiments/topic-models/short3/seed-42/model.pkl",
+      "bytes": 1895790,
+      "sha256": "253fe0b1d60fad40f9010f62dfe18836e80d0195e596769d94c5a15b97b6e262"
+    },
+    {
+      "path": "segmentation-experiments/topic-models/short3/seed-7/model.pkl",
+      "bytes": 1898150,
+      "sha256": "3b8c99d3181647ea901b523c5b1b3db3e7122a7736150e17424431a0b0cca927"
+    },
+    {
+      "path": "segmentation-full/fixed-bge-topics.csv",
+      "bytes": 1661442,
+      "sha256": "baaceb9eb867a9dbc95ad5b455d0e0920409142971a99b11a3a8b351f4a1894b"
+    },
+    {
+      "path": "segmentation-full/fixed-qwen-topics.csv",
+      "bytes": 1289055,
+      "sha256": "2d0b247f9d29c743daa4fce2e29635d9ad46f1c1d0baa7f77d7e76ccc992c495"
+    },
+    {
+      "path": "segmentation-full/semantic-bge-topics.csv",
+      "bytes": 3326330,
+      "sha256": "8d8c9629703facd76308a0991cc15473c300792288a051596672a20826899d9d"
+    },
+    {
+      "path": "segmentation-full/semantic-qwen-topics.csv",
+      "bytes": 2495045,
+      "sha256": "62ff1461fc90d147cf2163ba98abc9a94b6fe97696178c4a49eb55cbb7aca8fe"
     }
   ]
 }
