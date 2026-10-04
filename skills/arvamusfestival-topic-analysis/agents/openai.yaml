@@ -1,0 +1,4 @@
+interface:
+  display_name: "Arvamusfestival topic analysis"
+  short_description: "Repeat detailed topic modelling and named chart exports"
+  default_prompt: "Use $arvamusfestival-topic-analysis to repeat the saved topic-modelling workflow for this corpus."

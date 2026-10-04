@@ -178,3 +178,100 @@ timestamped audio links in the representative, disputed, and low-membership boun
 tables. Disputes compare which passages are clustered together, independent of topic
 numbering; two noise points are not a shared cluster. Then fill
 the notebook's manual review annotations before judging coherence.
+
+## Current detailed topic workflow
+
+The current analysis covers **219 deduplicated talks**. Topics are discovered from
+segment text using embeddings and clustering; an LLM subsequently names the discovered
+topics. Naming changes labels, not segment boundaries or cluster assignments.
+
+```mermaid
+flowchart TD
+    A[Validated transcripts: text, cues, titles and audio metadata] --> B[Deduplicate recordings by audio SHA-256]
+    B --> C[Fixed cue-aligned windows with overlap]
+    B --> D[BGE embeddings of atomic cue blocks]
+    D --> E[Contextual change scores and semantic boundaries]
+    C --> F[Embed native segments with BGE-M3 and Qwen]
+    E --> F
+    F --> G[BERTopic sweep: UMAP then HDBSCAN]
+    G --> H[c-TF-IDF keywords and representative texts]
+    H --> I[Compare fine-topic metrics, outliers and seed stability]
+    I --> J[Selected semantic BGE: 236 topics]
+    I --> K[Selected fixed BGE: 346 topics]
+    J --> L[Export original assignments and timestamped metadata]
+    K --> L
+    L --> M[Sample up to 20 genuine texts per topic across talks]
+    M --> N[GPT-5.4 mini: Estonian names, summaries and subthemes]
+    N --> O[Attach names to datasets and temporal overlap references]
+    O --> P[Named size charts, talk heatmaps and timelines]
+    O --> Q[Mean BGE topic centroids and joint 2D UMAP maps]
+```
+
+Both selected models use `leaf-local-6-2`, seed `42`: UMAP with 10 neighbors,
+5 components, cosine metric and minimum distance 0; HDBSCAN with minimum cluster size
+6, minimum samples 2, Euclidean metric and leaf selection. BERTopic uses multilingual
+text handling, preserved Estonian accents, unigram/bigram keywords and BM25-weighted
+c-TF-IDF with frequent-word reduction. No automatic topic merging is enabled.
+The notebook compares 32 configurations: two segmentations, two embedding models,
+four clustering candidates and two seeds. Its snapshot default is still `leaf-6-2`;
+set `SELECTED_CANDIDATE = "leaf-local-6-2"` when repeating the selected-model snapshot.
+
+| Selected model | Native segments | Assigned topics | Unassigned segments |
+| --- | ---: | ---: | ---: |
+| Semantic BGE | 4,132 | 236 | about 20% |
+| Fixed BGE | 6,545 | 346 | about 24% |
+
+The 582 topics are **two overlapping model vocabularies**, not 582 distinct subjects.
+Topic IDs are scoped to a fitted model; use `topic_key` across models and `segment_key`
+across segmentations. Topic `-1` means unassigned content. The reusable dataset has
+10,677 rows with original text, talk titles, timestamps, audio links and membership
+strengths. `other_model_overlaps` links the other model's native segments by time;
+these are not independent predictions on the same segment boundaries.
+
+The naming run used `gpt-5.4-mini-2026-03-17` with structured outputs and `store=False`.
+It retained 7,513 full-text examples, taking up to 20 unique segments per topic,
+covering different talks and including weaker members. The 223 topics with fewer
+than ten members use all available members. Original keyword labels remain available.
+The model returned `high` naming confidence and `coherent` for every topic; these
+self-assessments are not validated quality measures. Segment `confidence` remains
+HDBSCAN membership strength, not a calibrated probability of semantic correctness.
+
+The embedding maps use normalized means of original 1,024-dimensional BGE segment
+vectors, projected together into 2D. Dot **area** tracks assigned segment count;
+hover shows the topic name and ID. The joint projection supports comparing the two
+maps, while 2D distances remain approximate. Coverage heatmaps union intervals within
+a topic to avoid counting overlapping fixed windows twice; coverage across different
+topics can still sum above 100%.
+
+Current saved outputs:
+
+- [Segment dataset](data/topic-analysis/results/segment-dataset/README.md): combined Parquet,
+  with separate Parquet, CSV and JSONL exports also available in the analysis workspace.
+- [Topic naming evidence](data/topic-analysis/results/topic-names/topic-review.html):
+  searchable names, keywords, summaries and full timestamped examples.
+- [Named charts](data/topic-analysis/results/named-topic-charts/index.html): both models'
+  topic sizes, talk/topic heatmaps and timelines with recording selectors.
+- [Topic embedding maps](data/topic-analysis/results/topic-maps/index.html): separate maps
+  for the 236 semantic and 346 fixed topics, using the new names.
+- [Experiment tables](data/topic-analysis/results/fine-topics/): topic tables, talk profiles
+  and manifests for all 32 configurations. Full assignment CSVs are local run outputs.
+
+Jev classification and broader multi-label categories are proposed next steps; they
+have **not** been run. The current assignments come from BERTopic/HDBSCAN.
+
+## Repeat the topic analysis
+
+The repository includes the reusable
+[`arvamusfestival-topic-analysis` skill](skills/arvamusfestival-topic-analysis/SKILL.md).
+Its references cover the modelling configuration and the ordered export/naming steps,
+including restarting on a new corpus without accidentally reusing old topic IDs.
+A discoverable copy is installed in this workspace's Codex skills directory.
+
+Example request: “Use `$arvamusfestival-topic-analysis` to repeat this topic workflow
+for the updated transcripts, keeping both segmentations and saving a separate run.”
+On another machine, copy `skills/arvamusfestival-topic-analysis/` to your Codex
+skills directory, then start a new session. Follow the skill's
+[modelling guide](skills/arvamusfestival-topic-analysis/references/modelling.md) for fitting
+and its [export guide](skills/arvamusfestival-topic-analysis/references/exports.md) for
+reusable datasets, evidence-grounded names and offline charts. Existing chart exports
+can be regenerated without fitting or additional LLM calls.
