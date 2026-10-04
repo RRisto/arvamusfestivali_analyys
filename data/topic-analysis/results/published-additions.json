@@ -1,0 +1,95 @@
+{
+  "description": "Additional plots and embedding arrays published 2026-10-04; full per-passage cache excluded.",
+  "files": [
+    {
+      "path": "figures/semantic-bge-topic-hierarchy.html",
+      "bytes": 54136,
+      "sha256": "54f1c0263b8e7879e0d3f03c113dcb3f79db745f903e8f42c15742bfb48f9362"
+    },
+    {
+      "path": "figures/semantic-bge-treemap-40.html",
+      "bytes": 16438,
+      "sha256": "febb4ab632f9f42453ec86479862b7f378d492febb651bb39adf499ec787f1f6"
+    },
+    {
+      "path": "jev-semantic-all/bubble-maps/segment-embeddings.npy",
+      "bytes": 16924800,
+      "sha256": "e69af39e4bf1aac40e3827a51969c88ef07301c7a7dbc98eb7fbef8dce02d87a"
+    },
+    {
+      "path": "jev-semantic-all/bubble-maps/topic-centroids.npz",
+      "bytes": 900593,
+      "sha256": "504b9d6057e5fc70f413cd93734dc3796524ece8854e4298cdf2d122d643e33d"
+    },
+    {
+      "path": "jev-semantic-all/segment-maps/coordinates.npy",
+      "bytes": 33184,
+      "sha256": "122e5ea7952fe48a54ffbed68f7cf9b9b7988d4e5809496b3209ebd94e306358"
+    },
+    {
+      "path": "segmentation-experiments/broader-pilot/topic-models/original/embeddings.npy",
+      "bytes": 1327232,
+      "sha256": "0912d2fbf1c112f04c714452521608c6821c91063b39e59c0513c83771eddbe6"
+    },
+    {
+      "path": "segmentation-experiments/broader-pilot/topic-models/sentence5/embeddings.npy",
+      "bytes": 2629760,
+      "sha256": "7032931118f4f7200d0e6330f202820f51dd2d43ec92c19762f482fe66e427bb"
+    },
+    {
+      "path": "segmentation-experiments/topic-models/cue5/embeddings.npy",
+      "bytes": 405632,
+      "sha256": "44515b3bf397c1171ecc2d90bd10358e4554eb9259ba6641322ea5f1430b42e4"
+    },
+    {
+      "path": "segmentation-experiments/topic-models/original/embeddings.npy",
+      "bytes": 221312,
+      "sha256": "40cc49e67b355783110a3e2005556d81f45d579a69094658f5a2cfa7579283d5"
+    },
+    {
+      "path": "segmentation-experiments/topic-models/sentence3/embeddings.npy",
+      "bytes": 561280,
+      "sha256": "8d9467e3efb3acf170086bebaf8e1beecb4f7e52aa643114a9e8f20465bba97d"
+    },
+    {
+      "path": "segmentation-experiments/topic-models/sentence5/embeddings.npy",
+      "bytes": 405632,
+      "sha256": "91e042b25161005b7f01ef921a0a5ee50f70bdbac9fd7f2b36c583f15863d94b"
+    },
+    {
+      "path": "segmentation-experiments/topic-models/short3/embeddings.npy",
+      "bytes": 561280,
+      "sha256": "57b259a54c65183c917886a5781e36587b8667b4571fae2bffca1387f00daa23"
+    },
+    {
+      "path": "segmentation-full/fixed-bge-topic-sizes.html",
+      "bytes": 14040,
+      "sha256": "c822f543b072e28207959978d4602a834c90402c38d0ac3819e12360fca4ed89"
+    },
+    {
+      "path": "segmentation-full/fixed-qwen-bge-correspondence.html",
+      "bytes": 29739,
+      "sha256": "619e79ea418170c56e846742ef22e03ee88855e19d13c700563945554246ac61"
+    },
+    {
+      "path": "segmentation-full/fixed-qwen-topic-sizes.html",
+      "bytes": 12612,
+      "sha256": "d1a3a8d5091f724f5dd9a8763300261447cbed13773f5a7bc0a3c8ecfe523e30"
+    },
+    {
+      "path": "segmentation-full/semantic-bge-topic-sizes.html",
+      "bytes": 12678,
+      "sha256": "142095ea2121207d36a548114b1340f916e9f52a314839e3da9ddfc3ee9be9cd"
+    },
+    {
+      "path": "segmentation-full/semantic-qwen-bge-correspondence.html",
+      "bytes": 24452,
+      "sha256": "3a7eae656c3fcf5fdf1271ae2471576dec1bc5c00fdf05a812bc81cdf11fe5c6"
+    },
+    {
+      "path": "segmentation-full/semantic-qwen-topic-sizes.html",
+      "bytes": 11495,
+      "sha256": "57c0228d26775e8433d03d14d558f3abb65676a143df4d5ced2b84fa0e0b6874"
+    }
+  ]
+}
