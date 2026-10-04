@@ -259,6 +259,27 @@ Current saved outputs:
 Jev classification and broader multi-label categories are proposed next steps; they
 have **not** been run. The current assignments come from BERTopic/HDBSCAN.
 
+## Inspect segments and assigned topics
+
+Open [review_segment_topics.ipynb](notebooks/review_segment_topics.ipynb) to review
+saved assignments without fitting models or making API calls:
+
+```bash
+uv run --group topic-analysis jupyter lab notebooks/review_segment_topics.ipynb
+```
+
+Run its cells, select a document by zero-based index or title, and choose Both,
+Semantic or Fixed. Both compares the same recording side by side with each model's
+native segments. Cards show full text, Estonian topic names and IDs, timestamps,
+audio links, membership strength and original keyword labels. Timeline colors make
+subject changes and unassigned content visible. Filters include unassigned segments,
+weak memberships and text/topic-name search. Document indices are sorted by title;
+use the episode ID when referring to a document across changing datasets.
+
+The notebook defaults to `data/topic-analysis/results/segment-dataset/all-segments.parquet`.
+Set `TOPIC_REVIEW_DATASET` to inspect another dataset. A direct-selection cell is also
+provided for viewers without interactive widgets.
+
 ## Repeat the topic analysis
 
 The repository includes the reusable
