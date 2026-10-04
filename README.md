@@ -524,3 +524,7 @@ Published result HTML files share exact-version Plotly bundles under
 `data/topic-analysis/results/plotly-assets/`. Keep that directory with the reports
 when downloading them for offline use. Local exporter runs can also create
 self-contained HTML files with embedded Plotly.
+
+## Download the embedding cache
+
+The [October 2026 embedding cache](https://github.com/RRisto/arvamusfestivali_analyys/releases/tag/analysis-cache-2026-10-04) contains 56,362 validated vectors. Download `embedding-cache.zip` and `SHA256SUMS`, verify the checksum, and extract the ZIP into the repository root to restore `data/topic-analysis/cache/`. See `CACHE-README.txt` and `cache-manifest.json` in the release for instructions and model configurations.
