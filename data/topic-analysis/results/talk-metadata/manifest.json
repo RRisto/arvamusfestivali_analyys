@@ -1,0 +1,31 @@
+{
+  "retrieved_at": "2026-10-04T11:32:47.948590+00:00",
+  "sources": [
+    {
+      "year": 2025,
+      "source": "https://arvamusfestival.ee/2025-arhiiv/",
+      "events": 272,
+      "page_sha256": "f1c75fea77d1db55ad6cc92a21e4dd9016099e9f64935c435f67bf739638f76f"
+    },
+    {
+      "year": 2026,
+      "source": "https://arvamusfestival.ee/kava2026/",
+      "events": 302,
+      "page_sha256": "f574c81d7eacd2e5475fd55d6ae288dae97f8e59f29b9265f07eda011be87901"
+    }
+  ],
+  "dataset_sha256": "5bdf11fdf388c3de3fe56eb414794e82690c57dae7843107cff424f2a1f3ce99",
+  "catalog_sha256": "695679c156f5d37d2eac05dc15d3633272f9d390e563827cc1ed86b85d717352",
+  "matched_talks": 213,
+  "canonical_talks": 219,
+  "programme_matched_talks": 219,
+  "status_counts": {
+    "matched": 213,
+    "matched_no_organizer": 6
+  },
+  "matched_by_year": {
+    "2025": 108,
+    "2026": 105
+  },
+  "policy": "Normalized titles and reviewed scoped variants; publication >= event; latest eligible programme; joint labels intact; moderators, curators and sponsors separate; missing organizer fields retained as missing."
+}

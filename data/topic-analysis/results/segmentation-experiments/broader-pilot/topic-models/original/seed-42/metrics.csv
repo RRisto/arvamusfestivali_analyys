@@ -1,0 +1,2 @@
+model_key,passage_count,topic_count,outlier_count,outlier_fraction,silhouette,silhouette_space,silhouette_metric,silhouette_unavailable_reason,mean_cluster_persistence,topic_diversity
+pilot-refit:original:bge:leaf-local-6-2:42:45939440211b,324,24,23,0.07098765432098765,0.6827847957611084,clustering_reduction,euclidean,,0.25427254861125687,0.925

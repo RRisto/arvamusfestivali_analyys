@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import hashlib
+import json
 from html import escape
 from urllib.parse import urlsplit
 
@@ -123,13 +124,42 @@ def segment_review_html(
                 if urlsplit(audio).scheme in {"http", "https"}
                 else ""
             )
+            jev_html = ""
+            if pd.notna(getattr(row, "jev_topic_id", None)):
+                probabilities = json.loads(row.jev_probabilities)
+                vocabulary = segments.loc[segments.segmentation == "semantic"].drop_duplicates(
+                    "topic_id"
+                )
+                names = dict(zip(vocabulary.topic_id.astype(str), vocabulary.topic_name))
+                names["-1"] = "Unassigned"
+                alternatives = sorted(
+                    probabilities.items(), key=lambda item: item[1], reverse=True
+                )[:3]
+                alternatives_html = "; ".join(
+                    f"{escape(names.get(key, key))} ({probability:.1%})"
+                    for key, probability in alternatives
+                )
+                jev_html = (
+                    f"<p><strong>Jev: {int(row.jev_topic_id)} · "
+                    f"{escape(row.jev_topic_name)}</strong><br>"
+                    f'<span class="meta">Choice probability: {row.jev_probability:.1%} · '
+                    f"Jev confidence: {row.jev_confidence:.3f} · {escape(row.jev_model)}<br>"
+                    f"Top alternatives: {alternatives_html}</span></p>"
+                )
+                if pd.notna(getattr(row, "jev_high_level_name", None)):
+                    jev_html += (
+                        f'<p class="meta">High-level category (dictionary): '
+                        f"{escape(row.jev_high_level_name)}</p>"
+                    )
+            elif "jev_topic_id" in segments.columns and current_mode == "semantic":
+                jev_html = '<p class="meta">Jev: not sampled</p>'
             out.append(
                 f'<article class="card" style="--topic:{color}">'
                 f"<strong>Segment {numbering[row.segment_key]} · "
                 f"{_time(row.start_seconds)}–{_time(row.end_seconds)}</strong>"
                 f"<h3>{int(row.topic_id)} · {escape(row.topic_name)}</h3>"
                 f'<div class="meta">Membership strength: {confidence} · {audio_link}</div>'
-                f'<div class="text">{escape(row.text)}</div>'
+                f'{jev_html}<div class="text">{escape(row.text)}</div>'
                 "<details><summary>Original keywords and segment metadata</summary>"
                 f"<p>{escape(str(getattr(row, 'topic_name_keywords', row.topic_name)))}</p>"
                 f'<p class="meta">Model: {escape(row.model_key)}<br>'
@@ -143,4 +173,210 @@ def segment_review_html(
         "not a calibrated probability that the topic is correct. Full segment text is "
         "shown in scrollable cards. Filters affect cards; timelines show all segments.</p></div>"
     )
+    return "".join(out)
+
+
+def semantic_length_review_html(
+    original: pd.DataFrame,
+    shorter: pd.DataFrame,
+    document_index: int,
+) -> str:
+    """Compare native original segments with shorter Jev-only segments on the same talk."""
+    catalog = document_catalog(original)
+    if not 0 <= document_index < len(catalog):
+        raise ValueError("Document index outside the catalog")
+    doc = catalog.iloc[document_index]
+    rows = shorter[shorter.episode_id.astype(str) == doc.episode_id].sort_values("start_seconds")
+    if rows.empty:
+        return "<p>This document is outside the shorter-segment pilot.</p>"
+    vocabulary = original[original.segmentation == "semantic"].drop_duplicates("topic_id")
+    names = dict(zip(vocabulary.topic_id.astype(str), vocabulary.topic_name))
+    names["-1"] = "Unassigned"
+    old = original[
+        (original.episode_id.astype(str) == doc.episode_id) & (original.segmentation == "semantic")
+    ].sort_values("start_seconds")
+    numbering = {row.segment_key: i + 1 for i, row in enumerate(old.itertuples())}
+    old_lookup = old.set_index("segment_key")
+    out = [
+        '<div class="segment-review"><style>'
+        ".length-comparison{display:grid;grid-template-columns:1fr 1fr;gap:24px}"
+        ".length-comparison>section{min-width:0}"
+        "@media(max-width:900px){.length-comparison{display:block}}"
+        "</style><p>Original and shorter native boundaries. Shorter segments have Jev "
+        "predictions only; original cluster references below are temporal overlaps.</p>"
+        '<div class="length-comparison"><section><h2>Original semantic segments</h2>',
+        segment_review_html(original, document_index, mode="semantic"),
+        "</section><section><h2>Shorter semantic segments</h2>",
+        f"<p>{len(rows)} segments · median {rows.duration_seconds.median():.0f}s · "
+        f"maximum {rows.duration_seconds.max():.0f}s</p>",
+    ]
+    for number, row in enumerate(rows.itertuples(), 1):
+        color = _color(row.jev_topic_key, int(row.jev_topic_id))
+        alternatives = sorted(
+            json.loads(row.jev_probabilities).items(), key=lambda item: item[1], reverse=True
+        )[:3]
+        top = "; ".join(f"{escape(names.get(key, key))} ({p:.1%})" for key, p in alternatives)
+        overlaps = []
+        for overlap in json.loads(row.original_segment_overlaps):
+            key = overlap["segment_key"]
+            old_row = old_lookup.loc[key]
+            overlaps.append(
+                f"Original segment {numbering[key]}: {escape(old_row.topic_name)} "
+                f"({overlap['overlap_seconds']:.0f}s overlap)"
+            )
+        audio = str(row.audio_link)
+        link = (
+            f'<a href="{escape(audio, quote=True)}" target="_blank" '
+            'rel="noopener noreferrer">Listen at timestamp</a>'
+            if urlsplit(audio).scheme in {"http", "https"}
+            else ""
+        )
+        out.append(
+            f'<article class="card" style="--topic:{color}">'
+            f"<strong>Short segment {number} · {_time(row.start_seconds)}–"
+            f"{_time(row.end_seconds)}</strong>"
+            f"<h3>Jev: {int(row.jev_topic_id)} · {escape(row.jev_topic_name)}</h3>"
+            f'<p class="meta">Choice probability: {row.jev_probability:.1%} · '
+            f"Jev confidence: {row.jev_confidence:.3f} · {link}<br>"
+            f"Top alternatives: {top}</p>"
+            f'<div class="text">{escape(row.text)}</div>'
+            "<details><summary>Original overlaps and provenance</summary>"
+            f"<p>{'<br>'.join(overlaps)}</p>"
+            f'<p class="meta">{escape(row.segment_key)}<br>'
+            f"{row.cue_count} original transcript cues · {escape(row.jev_model)}</p>"
+            "</details></article>"
+        )
+    out.append("</section></div></div>")
+    return "".join(out)
+
+
+def segmentation_experiment_review_html(
+    original: pd.DataFrame,
+    variants: dict[str, pd.DataFrame],
+    document_index: int,
+    *,
+    left: str = "cue5",
+    right: str = "sentence5",
+    start_seconds: float = 0,
+    end_seconds: float | None = None,
+    assignment_source: str = "both",
+) -> str:
+    """Compare any two experiments on a shared recording/time window, preserving native text."""
+    if assignment_source not in {"both", "topic_model", "jev"}:
+        raise ValueError("Assignment source must be both, topic_model or jev")
+    catalog = document_catalog(original)
+    if not 0 <= document_index < len(catalog):
+        raise ValueError("Document index outside the catalog")
+    if start_seconds < 0 or (end_seconds is not None and end_seconds <= start_seconds):
+        raise ValueError("Time window must be nonnegative and ordered")
+    doc = catalog.iloc[document_index]
+    vocabulary = original[original.segmentation == "semantic"].drop_duplicates("topic_id")
+    names = dict(zip(vocabulary.topic_id.astype(str), vocabulary.topic_name))
+    names["-1"] = "Unassigned"
+    labels = {
+        "original": "Original semantic",
+        "short3": "Cue cuts · 3 minutes",
+        "cue5": "Cue cuts · 5 minutes",
+        "sentence3": "Sentence cuts · 3 minutes",
+        "sentence5": "Sentence cuts · 5 minutes",
+    }
+    out = [
+        '<div class="experiment-review"><style>'
+        ".experiment-review{font:15px system-ui;color:#172033;line-height:1.5}"
+        ".experiment-review .pair{display:grid;grid-template-columns:1fr 1fr;gap:24px}"
+        ".experiment-review .card{border:1px solid #ddd;border-left:5px solid var(--topic);"
+        "border-radius:8px;padding:14px;margin:12px 0;background:#fff}"
+        ".experiment-review .text{white-space:pre-wrap;max-height:420px;overflow:auto;"
+        "overflow-wrap:anywhere}.experiment-review .meta{font-size:13px;color:#526077}"
+        "@media(max-width:900px){.experiment-review .pair{display:block}}"
+        "</style>",
+        f"<h2>Document {document_index}: {escape(doc.talk_name)}</h2>"
+        "<p>Same recording and time window; each card retains its full native text. "
+        "Topic model IDs belong to each independent fit. "
+        "Sentence endings use an ASR punctuation heuristic. Jev probabilities are "
+        'primary-topic alternatives, not measured accuracy.</p><div class="pair">',
+    ]
+    for key in [left, right]:
+        if key not in variants:
+            raise ValueError(f"Unknown experiment: {key}")
+        all_rows = variants[key]
+        all_rows = all_rows[
+            (all_rows.episode_id.astype(str) == doc.episode_id)
+            & (all_rows.segmentation == "semantic")
+        ].sort_values("start_seconds")
+        shown = all_rows[all_rows.end_seconds > start_seconds]
+        if end_seconds is not None:
+            shown = shown[shown.start_seconds < end_seconds]
+        out.append(
+            f"<section><h3>{escape(labels.get(key, key))}</h3>"
+            f"<p>Showing {len(shown)} of {len(all_rows)} segments.</p>"
+        )
+        numbering = {row.segment_key: i + 1 for i, row in enumerate(all_rows.itertuples())}
+        for row in shown.itertuples():
+            has_jev = pd.notna(getattr(row, "jev_topic_id", None))
+            color = _color(row.jev_topic_key, int(row.jev_topic_id)) if has_jev else "#64748b"
+            has_cluster = pd.notna(getattr(row, "cluster_topic_id", None))
+            if has_cluster and assignment_source != "jev":
+                color = _color(row.cluster_topic_key, int(row.cluster_topic_id))
+            cluster_label = ""
+            if has_cluster and assignment_source != "jev":
+                membership = (
+                    "Unassigned"
+                    if row.cluster_topic_id == -1
+                    else f"{row.cluster_membership_strength:.3f}"
+                )
+                cluster_label = (
+                    f"<h3>Topic model: {int(row.cluster_topic_id)} · "
+                    f"{escape(row.cluster_topic_name)}</h3>"
+                    f'<p class="meta">Cluster membership strength: {membership}<br>'
+                    f"Fit: {escape(row.cluster_model_key)}</p>"
+                )
+            original_label = (
+                f"<p>Original full-corpus cluster: {int(row.topic_id)} · "
+                f"{escape(row.topic_name)}</p>"
+                if key == "original"
+                else ""
+            )
+            prediction = "<p>Jev: not sampled</p>"
+            if has_jev:
+                top = sorted(
+                    json.loads(row.jev_probabilities).items(),
+                    key=lambda item: item[1],
+                    reverse=True,
+                )[:3]
+                alternatives = "; ".join(f"{escape(names.get(t, t))} ({p:.1%})" for t, p in top)
+                prediction = (
+                    f"<h3>Jev: {int(row.jev_topic_id)} · {escape(row.jev_topic_name)}</h3>"
+                    f'<p class="meta">Choice probability: {row.jev_probability:.1%} · '
+                    f"Confidence: {row.jev_confidence:.3f}<br>{alternatives}</p>"
+                )
+            if assignment_source == "topic_model":
+                prediction = "" if has_cluster else "<p>Topic-model refit not available.</p>"
+            ending = getattr(row, "ends_at_sentence", None)
+            ending_label = (
+                f" · Sentence-ending punctuation: {'yes' if ending else 'no'}"
+                if ending is not None
+                else ""
+            )
+            audio = str(row.audio_link)
+            link = (
+                f'<a href="{escape(audio, quote=True)}" target="_blank" '
+                'rel="noopener noreferrer">Listen</a>'
+                if urlsplit(audio).scheme in {"http", "https"}
+                else ""
+            )
+            out.append(
+                f'<article class="card" style="--topic:{color}">'
+                f"<strong>Segment {numbering[row.segment_key]} · {_time(row.start_seconds)}–"
+                f'{_time(row.end_seconds)}</strong><p class="meta">'
+                f"{row.end_seconds - row.start_seconds:.0f}s{ending_label} · {link}</p>"
+                f"{original_label}{cluster_label}{prediction}"
+                f'<div class="text">{escape(row.text)}</div>'
+                f"<details><summary>Segment provenance</summary>"
+                f"<p>{escape(row.segment_key)}</p></details></article>"
+            )
+        if shown.empty:
+            out.append("<p>No pilot segments in this recording/time window.</p>")
+        out.append("</section>")
+    out.append("</div></div>")
     return "".join(out)

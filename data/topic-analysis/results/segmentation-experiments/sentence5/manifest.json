@@ -1,0 +1,25 @@
+{
+  "created_at": "2026-10-04T06:38:24.222852+00:00",
+  "model": "jev-1.13.0",
+  "fitted_model_key": "semantic:bge:leaf-local-6-2:42",
+  "segment_model_key": "semantic-experiment:sentence5:bge:q70:v1",
+  "config_sha256": "791b3a18ca033f33af669847b325eb1dc204a59acb8cde7a2f41152bdc9d69f4",
+  "source_sha256": "5ea81d9c5ec2b54cae9e6b3142289361fcb302c6a9d38d98e5028092fbf5b980",
+  "names_sha256": "f9df8d6803da4d5893fb934cba166d779939500c7dfc60c847ebebc2acfed5ad",
+  "episode_ids": [
+    "2397177249",
+    "2400164916",
+    "2271676346"
+  ],
+  "segment_count": 99,
+  "topic_options": 237,
+  "assignment_type": "single_primary_topic_choice",
+  "usage": {
+    "input_tokens": 2333401
+  },
+  "sources": [
+    "https://typesafe.ai/blog/introducing-system-one-models-and-jev",
+    "https://docs.typesafe.ai/api",
+    "https://docs.typesafe.ai/models"
+  ]
+}

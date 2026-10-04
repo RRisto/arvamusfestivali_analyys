@@ -1,0 +1,9 @@
+{
+  "semantic_segments": 4132,
+  "talks": 219,
+  "jev_unassigned_segments": 389,
+  "jev_unassigned_time_pct": 6.245250212769612,
+  "fine_label_agreement_pct": 58.37366892545982,
+  "parent_label_agreement_pct": 69.33688286544046,
+  "interpretation": "Agreement with the original clustering is descriptive, not accuracy. Jev uses detailed 236-topic choice; parents are dictionary rollups, not direct high-level predictions."
+}

@@ -1,0 +1,11 @@
+{
+  "programme_year": 2025,
+  "semantic_segments": 2154,
+  "talks": 114,
+  "jev_unassigned_segments": 226,
+  "jev_unassigned_time_pct": 7.153822368008524,
+  "fine_label_agreement_pct": 57.84586815227484,
+  "parent_label_agreement_pct": 68.57010213556175,
+  "organizer_known_talks": 108,
+  "interpretation": "Agreement is descriptive, not accuracy; original shared 236-topic vocabulary, no year-specific refit."
+}

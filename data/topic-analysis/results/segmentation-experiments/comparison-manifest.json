@@ -1,0 +1,17 @@
+{
+  "variants": [
+    "original",
+    "short3",
+    "cue5",
+    "sentence3",
+    "sentence5"
+  ],
+  "sample_episode_ids": [
+    "2271676346",
+    "2397177249",
+    "2400164916"
+  ],
+  "original_vocabulary": "semantic:bge:leaf-local-6-2:42",
+  "metrics_are_accuracy": false,
+  "sentence_method": "Punctuation plus abbreviation exclusions; \u00b120s cue-aligned snap"
+}

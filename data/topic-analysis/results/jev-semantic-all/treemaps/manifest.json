@@ -1,0 +1,10 @@
+{
+  "source_sha256": "0d19d6dab7d43c0d837528d42304ad39739f2e43f7056b8eda4aeea1a3049405",
+  "segments": 4132,
+  "talks": 219,
+  "detailed_topics_including_unassigned": 237,
+  "categories_including_unassigned": 21,
+  "talk_count_rule": "Distinct episode IDs per node. Category and root areas sum child topic-talk memberships; displayed category/root counts use unions.",
+  "assignment_source": "Detailed Jev primary topic choice; high-level dictionary rollup",
+  "unassigned": "Included as a separate gray branch"
+}

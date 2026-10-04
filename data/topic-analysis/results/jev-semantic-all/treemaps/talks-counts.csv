@@ -1,0 +1,260 @@
+id,parent,label,segments,talks,kind,area_weight
+topic:semantic:bge:leaf-local-6-2:42:112,category:ai,Autoriõigused ja AI treeningu läbipaistvus,16,3,Detailed topic,3
+topic:semantic:bge:leaf-local-6-2:42:120,category:ai,AI odava kasutuselevõtu ja eksporti,6,3,Detailed topic,3
+topic:semantic:bge:leaf-local-6-2:42:155,category:ai,AI-agentide vastutus ja kontroll,44,10,Detailed topic,10
+topic:semantic:bge:leaf-local-6-2:42:170,category:ai,AI abil teksti ja heli konverteerimine,1,1,Detailed topic,1
+topic:semantic:bge:leaf-local-6-2:42:186,category:ai,AI mõju töökorraldusele ja tööturule,42,19,Detailed topic,19
+topic:semantic:bge:leaf-local-6-2:42:199,category:ai,AI kasutamine töö- ja loometekstide koostamisel,12,8,Detailed topic,8
+topic:semantic:bge:leaf-local-6-2:42:234,category:ai,AI muudab üksikettevõtluse lihtsamaks,10,5,Detailed topic,5
+topic:semantic:bge:leaf-local-6-2:42:49,category:ai,Eesti keele kvaliteet suurtes keelemudelites,15,5,Detailed topic,5
+topic:semantic:bge:leaf-local-6-2:42:6,category:ai,AI-agentide volitamine isikukoodi kaudu,16,3,Detailed topic,3
+topic:semantic:bge:leaf-local-6-2:42:9,category:ai,AI-assistendi prompti ülesehitus,19,3,Detailed topic,3
+category:ai,root,Tehisintellekt ja digitehnoloogia,181,30,High-level category,60
+topic:semantic:bge:leaf-local-6-2:42:0,category:children,noorte radikaliseerumine ja kuuluvus,28,4,Detailed topic,4
+topic:semantic:bge:leaf-local-6-2:42:125,category:children,Tubli lapse surve ja märkamine,6,3,Detailed topic,3
+topic:semantic:bge:leaf-local-6-2:42:129,category:children,lapsega esmakontakti loomine lastekaitses,12,3,Detailed topic,3
+topic:semantic:bge:leaf-local-6-2:42:183,category:children,noorte vägivalla taga peituv tähelepanuvajadus,11,1,Detailed topic,1
+topic:semantic:bge:leaf-local-6-2:42:209,category:children,Laste internetikäitumine ja abiotsimine,12,5,Detailed topic,5
+topic:semantic:bge:leaf-local-6-2:42:232,category:children,Noorte vanglast saatmine pärast rasket vägivalda,3,1,Detailed topic,1
+topic:semantic:bge:leaf-local-6-2:42:36,category:children,Lastekodukasvamise kogemus ja märkamise roll,29,4,Detailed topic,4
+topic:semantic:bge:leaf-local-6-2:42:66,category:children,NEET-noorte toetamine ja vastutuse jagamine,16,6,Detailed topic,6
+topic:semantic:bge:leaf-local-6-2:42:76,category:children,Laste ja AI-petuste internetiohud,12,4,Detailed topic,4
+topic:semantic:bge:leaf-local-6-2:42:95,category:children,Veebis lastega suhtlemise seksuaalriskid,24,4,Detailed topic,4
+category:children,root,Laste ja noorte kaitse ning toetamine,153,20,High-level category,35
+topic:semantic:bge:leaf-local-6-2:42:109,category:climate,AI päringute energiakulu läbipaistvus,16,2,Detailed topic,2
+topic:semantic:bge:leaf-local-6-2:42:144,category:climate,Minimalistlik ökoeluviis ja piisavus,13,2,Detailed topic,2
+topic:semantic:bge:leaf-local-6-2:42:152,category:climate,CO2 kvoodikaubanduse reform ja ETS2,20,7,Detailed topic,7
+topic:semantic:bge:leaf-local-6-2:42:176,category:climate,Eesti loodusidentiteet ja kliimaskepsis,11,4,Detailed topic,4
+topic:semantic:bge:leaf-local-6-2:42:216,category:climate,rohetehnoloogia investeeringute ja turu takistused,30,17,Detailed topic,17
+topic:semantic:bge:leaf-local-6-2:42:24,category:climate,Eesti kliimahoiakud ja rohepöörde skeptitsism,42,15,Detailed topic,15
+topic:semantic:bge:leaf-local-6-2:42:37,category:climate,kliimariski mõju vee- ja soojusvarustusele,20,6,Detailed topic,6
+topic:semantic:bge:leaf-local-6-2:42:44,category:climate,Tööstuse energiaportfelli ja emissioonide optimeerimine,10,5,Detailed topic,5
+topic:semantic:bge:leaf-local-6-2:42:5,category:climate,Rohetehnoloogia rahastus ja laenuotsused,10,5,Detailed topic,5
+category:climate,root,"Kliima, rohepööre ja kestlik tarbimine",172,37,High-level category,63
+topic:semantic:bge:leaf-local-6-2:42:126,category:culture,noorte filmiarutelud ja tagasiside,10,1,Detailed topic,1
+topic:semantic:bge:leaf-local-6-2:42:162,category:culture,Seto kultuuri üleküllus koolis,1,1,Detailed topic,1
+topic:semantic:bge:leaf-local-6-2:42:164,category:culture,Emadus ja koolikultuur kultuuri kandjana,10,2,Detailed topic,2
+topic:semantic:bge:leaf-local-6-2:42:165,category:culture,Pätsi ja Vabadussõja ajalooline kasutus,5,1,Detailed topic,1
+topic:semantic:bge:leaf-local-6-2:42:177,category:culture,muuseumikülastuse takistused noortel,5,1,Detailed topic,1
+topic:semantic:bge:leaf-local-6-2:42:205,category:culture,Noorte muuseumikülastuse meelitamine,12,1,Detailed topic,1
+topic:semantic:bge:leaf-local-6-2:42:26,category:culture,Islami ja kristluse roll ühiskonnas,12,1,Detailed topic,1
+topic:semantic:bge:leaf-local-6-2:42:59,category:culture,Käibemaksu ja toetuste mõju kultuurile,14,2,Detailed topic,2
+topic:semantic:bge:leaf-local-6-2:42:77,category:culture,ravikindlustus vabakutselistele loovisikutele,15,2,Detailed topic,2
+topic:semantic:bge:leaf-local-6-2:42:78,category:culture,Koduloomuuseumi rahastamine ja jätkamine,15,1,Detailed topic,1
+topic:semantic:bge:leaf-local-6-2:42:86,category:culture,"Grafiti, tänavakunsti ja lubade vahe",16,1,Detailed topic,1
+category:culture,root,"Kultuur, loome ja pärand",115,10,High-level category,14
+topic:semantic:bge:leaf-local-6-2:42:110,category:cyber,Perearstikeskuste küberturvalisuse nõuded,13,1,Detailed topic,1
+topic:semantic:bge:leaf-local-6-2:42:154,category:cyber,Interneti solvangute ja ähvarduste ohjeldamine,10,3,Detailed topic,3
+topic:semantic:bge:leaf-local-6-2:42:41,category:cyber,Laste piltide postitamine vanemate poolt,11,1,Detailed topic,1
+topic:semantic:bge:leaf-local-6-2:42:60,category:cyber,andmejärelevalve ja tehisintellekti piirid,27,12,Detailed topic,12
+topic:semantic:bge:leaf-local-6-2:42:63,category:cyber,Paroolide ja wifi kaudu levinud küberpettused,14,1,Detailed topic,1
+category:cyber,root,"Küberturvalisus, privaatsus ja digiohud",75,17,High-level category,18
+topic:semantic:bge:leaf-local-6-2:42:100,category:defence,naiste ajateenistuse laiendamine riigikaitses,16,3,Detailed topic,3
+topic:semantic:bge:leaf-local-6-2:42:102,category:defence,Hispaaniasse kolimise hirm reservväelaste seas,6,1,Detailed topic,1
+topic:semantic:bge:leaf-local-6-2:42:106,category:defence,Sooneutraalne ajateenistus ja reservi täitmine,18,4,Detailed topic,4
+topic:semantic:bge:leaf-local-6-2:42:189,category:defence,kihiline õhukaitse ja mehitamata võimed,5,2,Detailed topic,2
+topic:semantic:bge:leaf-local-6-2:42:29,category:defence,Läänemeremaade julgeolekukoostöö NATO varjus,14,3,Detailed topic,3
+topic:semantic:bge:leaf-local-6-2:42:45,category:defence,Lai riigikaitse kodune ja kogukondlik valmisolek,44,7,Detailed topic,7
+topic:semantic:bge:leaf-local-6-2:42:52,category:defence,Narva-ründe ja hübriidohu arutelu,12,3,Detailed topic,3
+topic:semantic:bge:leaf-local-6-2:42:80,category:defence,Varude ja tsiviilkaasatuse sõjaks valmistumine,11,4,Detailed topic,4
+topic:semantic:bge:leaf-local-6-2:42:83,category:defence,Kaitsekulude tõus ja hanked,28,7,Detailed topic,7
+topic:semantic:bge:leaf-local-6-2:42:91,category:defence,Märgalade ja maastike kaitsev roll,11,1,Detailed topic,1
+topic:semantic:bge:leaf-local-6-2:42:96,category:defence,CBRN-riskideks valmisoleku arutelu,16,1,Detailed topic,1
+category:defence,root,"Riigikaitse, julgeolek ja kriisivalmidus",181,20,High-level category,36
+topic:semantic:bge:leaf-local-6-2:42:123,category:economy,Startupide registreerimise ja fondi-õiguse lihtsustamine,11,2,Detailed topic,2
+topic:semantic:bge:leaf-local-6-2:42:142,category:economy,"Väikeettevõtjate maksud, hanked ja eksport",16,7,Detailed topic,7
+topic:semantic:bge:leaf-local-6-2:42:157,category:economy,Startup-ökosüsteemi kogukond ja eeskujud,20,5,Detailed topic,5
+topic:semantic:bge:leaf-local-6-2:42:169,category:economy,Majanduskasvu ja heaolu vaidlus,28,12,Detailed topic,12
+topic:semantic:bge:leaf-local-6-2:42:174,category:economy,Maksutõusud ja majanduse toimetulek,14,7,Detailed topic,7
+topic:semantic:bge:leaf-local-6-2:42:201,category:economy,Eesti majanduskasvu aeglane koordineerimine,12,3,Detailed topic,3
+topic:semantic:bge:leaf-local-6-2:42:22,category:economy,Ukraina turule sisenemine kohaliku partneriga,15,3,Detailed topic,3
+topic:semantic:bge:leaf-local-6-2:42:230,category:economy,Eesti majanduskasvu pidurdavad välis- ja usaldustegurid,6,4,Detailed topic,4
+category:economy,root,"Majandus, ettevõtlus ja innovatsioon",122,30,High-level category,43
+topic:semantic:bge:leaf-local-6-2:42:107,category:education,Fookuse hoidmise liikumismängud,9,1,Detailed topic,1
+topic:semantic:bge:leaf-local-6-2:42:116,category:education,Programmeerijaks saamise oskused ja praktikaotsing,11,2,Detailed topic,2
+topic:semantic:bge:leaf-local-6-2:42:134,category:education,Õpetaja Laura tulevikuõpetuse stsenaariumid,9,1,Detailed topic,1
+topic:semantic:bge:leaf-local-6-2:42:135,category:education,Õpilasesinduse sisuline kaasamine,13,1,Detailed topic,1
+topic:semantic:bge:leaf-local-6-2:42:139,category:education,Tehisaru mõju õppimisele ja hindamisele,22,9,Detailed topic,9
+topic:semantic:bge:leaf-local-6-2:42:141,category:education,TalTechi energeetikaõpingud ja tööalane suund,9,2,Detailed topic,2
+topic:semantic:bge:leaf-local-6-2:42:145,category:education,Õpetajate ja õpilaste AI-kohandumine,21,7,Detailed topic,7
+topic:semantic:bge:leaf-local-6-2:42:146,category:education,Inseneeriaõppe ja tehnikahariduse järelkasv,17,10,Detailed topic,10
+topic:semantic:bge:leaf-local-6-2:42:149,category:education,tehisintellekti kirjutatud teadusartiklite usaldus ja hindamine,5,3,Detailed topic,3
+topic:semantic:bge:leaf-local-6-2:42:15,category:education,lapsevanema kaasamine lasteaia koostöösse,18,3,Detailed topic,3
+topic:semantic:bge:leaf-local-6-2:42:171,category:education,Tehisintellekti kasutus kooliõppes,17,6,Detailed topic,6
+topic:semantic:bge:leaf-local-6-2:42:172,category:education,Alushariduse vastutus ja kvaliteet,42,7,Detailed topic,7
+topic:semantic:bge:leaf-local-6-2:42:175,category:education,Matemaatika visuaalsed mustrid ja ratta jäljed,12,2,Detailed topic,2
+topic:semantic:bge:leaf-local-6-2:42:180,category:education,Õpetaja hoituse rollid alushariduses,11,1,Detailed topic,1
+topic:semantic:bge:leaf-local-6-2:42:188,category:education,Inseneride nappus ja palga küsimus,5,4,Detailed topic,4
+topic:semantic:bge:leaf-local-6-2:42:190,category:education,Eesti hariduse eesmärgid ja sihid,47,23,Detailed topic,23
+topic:semantic:bge:leaf-local-6-2:42:20,category:education,Nutiseadmete kasutuse piiramine koolis,12,3,Detailed topic,3
+topic:semantic:bge:leaf-local-6-2:42:225,category:education,hariduse tulevikuala arutelude tutvustus,9,6,Detailed topic,6
+topic:semantic:bge:leaf-local-6-2:42:229,category:education,Üliõpilaste roll ja kõrghariduse ootused,8,2,Detailed topic,2
+topic:semantic:bge:leaf-local-6-2:42:23,category:education,õpilasmaleva esimese töökogemuse roll,20,3,Detailed topic,3
+topic:semantic:bge:leaf-local-6-2:42:25,category:education,Teadmussiirdedoktorantuuri ettevõtluslik praktilisus,20,5,Detailed topic,5
+topic:semantic:bge:leaf-local-6-2:42:28,category:education,Täiskasvanute ümberõpe ja õppimise paindlikkus,16,2,Detailed topic,2
+topic:semantic:bge:leaf-local-6-2:42:38,category:education,eesti keele õppimine mitmekeelses koolis,13,3,Detailed topic,3
+topic:semantic:bge:leaf-local-6-2:42:4,category:education,"Lasteaia kvaliteet, märkamise ja toetuse roll",26,6,Detailed topic,6
+topic:semantic:bge:leaf-local-6-2:42:53,category:education,koolivõrgu koondamine ja juhtimisotsused,14,3,Detailed topic,3
+topic:semantic:bge:leaf-local-6-2:42:57,category:education,Tugevustel põhinev paindlik koolikorraldus,13,1,Detailed topic,1
+topic:semantic:bge:leaf-local-6-2:42:68,category:education,Ettevõtliku hoiakuga kooli ja töö sidumine,15,4,Detailed topic,4
+topic:semantic:bge:leaf-local-6-2:42:7,category:education,Tagasiside ja hinde seos õppimisega,32,4,Detailed topic,4
+topic:semantic:bge:leaf-local-6-2:42:70,category:education,Õpiampsud töö- ja enesearengu osana,13,3,Detailed topic,3
+topic:semantic:bge:leaf-local-6-2:42:85,category:education,Koolijuhi strateegiline roll ja vastutus,17,4,Detailed topic,4
+topic:semantic:bge:leaf-local-6-2:42:88,category:education,AI kasutamise reeglid ja hindamine ülikoolis,9,1,Detailed topic,1
+topic:semantic:bge:leaf-local-6-2:42:98,category:education,Vajaduspõhine tudengitoetus ja elamiskulud,11,3,Detailed topic,3
+category:education,root,"Haridus, õppimine ja oskused",516,71,High-level category,135
+topic:semantic:bge:leaf-local-6-2:42:117,category:energy,Kaugkütte hinna kujunemine ja püsitasu,11,2,Detailed topic,2
+topic:semantic:bge:leaf-local-6-2:42:127,category:energy,Elektribörsi hinnakujunduse jaotumine,16,4,Detailed topic,4
+topic:semantic:bge:leaf-local-6-2:42:132,category:energy,Eesti elektritarbimise ja tootmise sihid,29,11,Detailed topic,11
+topic:semantic:bge:leaf-local-6-2:42:156,category:energy,Meretuuleparkide arendamise kindlustamine,5,2,Detailed topic,2
+topic:semantic:bge:leaf-local-6-2:42:160,category:energy,Juhitavate elektrivõimsuste vajadus Eestis,38,7,Detailed topic,7
+topic:semantic:bge:leaf-local-6-2:42:17,category:energy,Biogaasi ja vesiniku kasutus Eestis,26,10,Detailed topic,10
+topic:semantic:bge:leaf-local-6-2:42:181,category:energy,Eesti elektritarbimise kasv ja puudujääk,6,5,Detailed topic,5
+topic:semantic:bge:leaf-local-6-2:42:194,category:energy,andmekeskuste elektri- ja võrgulahendus,5,3,Detailed topic,3
+topic:semantic:bge:leaf-local-6-2:42:198,category:energy,Tuulikuinfraheli häirivuse ja tervisemõju vaidlus,19,3,Detailed topic,3
+topic:semantic:bge:leaf-local-6-2:42:211,category:energy,Tuuleparkide kaasamise murede tuum,25,9,Detailed topic,9
+topic:semantic:bge:leaf-local-6-2:42:212,category:energy,kaugkütte elektrifitseerimine ja hinnastamine,17,4,Detailed topic,4
+topic:semantic:bge:leaf-local-6-2:42:213,category:energy,Tuuliku müra normid ja mõõtmised,8,1,Detailed topic,1
+topic:semantic:bge:leaf-local-6-2:42:223,category:energy,Eleringi vähempakkumised uute elektrivõimsuste jaoks,8,4,Detailed topic,4
+topic:semantic:bge:leaf-local-6-2:42:224,category:energy,Sagedusreservi hange ja liitumistingimused,8,4,Detailed topic,4
+topic:semantic:bge:leaf-local-6-2:42:235,category:energy,Tuuleparkide rahvaalgatuste ja alguspunkti vaidlus,4,1,Detailed topic,1
+topic:semantic:bge:leaf-local-6-2:42:75,category:energy,Tuuleparkide kaasamise usalduskriis,15,3,Detailed topic,3
+category:energy,root,Energeetika ja energiaturud,240,27,High-level category,73
+topic:semantic:bge:leaf-local-6-2:42:10,category:family,Nõusolek paarisuhtes ja läheduses,20,2,Detailed topic,2
+topic:semantic:bge:leaf-local-6-2:42:12,category:family,sündimuse toetamine läbi perekindluse,18,3,Detailed topic,3
+topic:semantic:bge:leaf-local-6-2:42:13,category:family,Emaduse karjäärikaod ja naasmine tööle,19,4,Detailed topic,4
+topic:semantic:bge:leaf-local-6-2:42:150,category:family,Naiste juhtide ja isade rolliootused,19,5,Detailed topic,5
+topic:semantic:bge:leaf-local-6-2:42:173,category:family,Ettevõtete kvoodid ja sooline tasakaal,7,2,Detailed topic,2
+topic:semantic:bge:leaf-local-6-2:42:185,category:family,meeste osa koduses ja lapsehoius,15,3,Detailed topic,3
+topic:semantic:bge:leaf-local-6-2:42:40,category:family,Õige keha- ja seksuaalsõnavara õpetamine,11,2,Detailed topic,2
+topic:semantic:bge:leaf-local-6-2:42:54,category:family,Istanbuli konventsiooni vaidlused ja rakendamine,20,2,Detailed topic,2
+category:family,root,"Pere, suhted ja sooline võrdsus",129,11,High-level category,23
+topic:semantic:bge:leaf-local-6-2:42:222,category:food,Valgu tootmine kohalike biojääkide pealt,5,2,Detailed topic,2
+topic:semantic:bge:leaf-local-6-2:42:48,category:food,Toidujulgeoleku tarneahela toimepidevus,21,4,Detailed topic,4
+topic:semantic:bge:leaf-local-6-2:42:51,category:food,parim enne ja kõlblik kuni märgistus,13,1,Detailed topic,1
+category:food,root,"Toit, põllumajandus ja toidujulgeolek",39,7,High-level category,7
+topic:semantic:bge:leaf-local-6-2:42:118,category:governance,Visiooni ja väärtuste vaidlus riigijuhtimises,21,11,Detailed topic,11
+topic:semantic:bge:leaf-local-6-2:42:128,category:governance,Annetuste mõju ja annetamise normaliseerimine,27,6,Detailed topic,6
+topic:semantic:bge:leaf-local-6-2:42:147,category:governance,Noorte osalus erakondade noortekogudes,6,2,Detailed topic,2
+topic:semantic:bge:leaf-local-6-2:42:159,category:governance,Vabatahtlike hoidmine ja kaasamise barjäärid,13,3,Detailed topic,3
+topic:semantic:bge:leaf-local-6-2:42:217,category:governance,Erakonnajuhid ja noorte esindajad laval,7,4,Detailed topic,4
+topic:semantic:bge:leaf-local-6-2:42:233,category:governance,Kaasamise aeglane juhtimine ja valeinfo,5,3,Detailed topic,3
+topic:semantic:bge:leaf-local-6-2:42:31,category:governance,Valimiste valvamine ja rahastamise läbipaistvus,17,2,Detailed topic,2
+topic:semantic:bge:leaf-local-6-2:42:33,category:governance,Kogukonna hääle kaasamine otsustesse,19,13,Detailed topic,13
+topic:semantic:bge:leaf-local-6-2:42:34,category:governance,Vabaühenduste rahastamise läbipaistvus ja sõltumatus,20,2,Detailed topic,2
+topic:semantic:bge:leaf-local-6-2:42:35,category:governance,Rahvakohtunike ja menetluse tõhustamise vaidlus,14,1,Detailed topic,1
+topic:semantic:bge:leaf-local-6-2:42:39,category:governance,Vasakpoolsuse ja identiteedi pinged,19,2,Detailed topic,2
+topic:semantic:bge:leaf-local-6-2:42:46,category:governance,laimavate netikommentaaride ja mainekahju vaidlused kohtus,23,2,Detailed topic,2
+topic:semantic:bge:leaf-local-6-2:42:50,category:governance,Annetuste kasutamine organisatsiooni kuludeks,14,2,Detailed topic,2
+topic:semantic:bge:leaf-local-6-2:42:64,category:governance,Eesti 2050 ühised unistused ja tulevikunägemus,21,7,Detailed topic,7
+category:governance,root,"Riigijuhtimine, kodanikuühiskond ja õigus",226,43,High-level category,60
+topic:semantic:bge:leaf-local-6-2:42:105,category:healthcare,Linnugripi ja marutaudi vaktsineerimine,12,1,Detailed topic,1
+topic:semantic:bge:leaf-local-6-2:42:115,category:healthcare,Patsiendi info jagamine ja koostöö,32,9,Detailed topic,9
+topic:semantic:bge:leaf-local-6-2:42:131,category:healthcare,Haigekassa rahastusmudeli ümbermõtestamine,20,6,Detailed topic,6
+topic:semantic:bge:leaf-local-6-2:42:137,category:healthcare,AI roll arstide suhtluses ja vähiravis,13,4,Detailed topic,4
+topic:semantic:bge:leaf-local-6-2:42:143,category:healthcare,Terviseidu turuletoomise rahastus ja regulatsioon,21,5,Detailed topic,5
+topic:semantic:bge:leaf-local-6-2:42:151,category:healthcare,Tervishoiu konkurentsi tasakaal,13,3,Detailed topic,3
+topic:semantic:bge:leaf-local-6-2:42:153,category:healthcare,Vähipatsiendi infoedastuse vastutus,12,3,Detailed topic,3
+topic:semantic:bge:leaf-local-6-2:42:179,category:healthcare,Covidijärgne nakkushaiguste seaduse muutmine,7,3,Detailed topic,3
+topic:semantic:bge:leaf-local-6-2:42:182,category:healthcare,terviseandmete kasutus ja eetikakomitee loa takistused,8,5,Detailed topic,5
+topic:semantic:bge:leaf-local-6-2:42:195,category:healthcare,Tervisehoolekande tehnoloogiad ja andmepõhine lõimimine,24,11,Detailed topic,11
+topic:semantic:bge:leaf-local-6-2:42:2,category:healthcare,Vähiravi patsiendikesksus ja palliatiivne tugi,19,5,Detailed topic,5
+topic:semantic:bge:leaf-local-6-2:42:204,category:healthcare,Terviseandmete kasutamine ravi ja ennetuse parandamiseks,28,6,Detailed topic,6
+topic:semantic:bge:leaf-local-6-2:42:208,category:healthcare,Tulemuspõhine tervishoiurahastus ja kaugjälgimine,14,5,Detailed topic,5
+topic:semantic:bge:leaf-local-6-2:42:226,category:healthcare,raviraha jaotamine patsiendiga kaasa,9,3,Detailed topic,3
+topic:semantic:bge:leaf-local-6-2:42:30,category:healthcare,"laste hambaravi, narkoos ja vanema vastutus",20,1,Detailed topic,1
+topic:semantic:bge:leaf-local-6-2:42:47,category:healthcare,Ülekaaluravimite hüvitamine ja elustiil,18,1,Detailed topic,1
+topic:semantic:bge:leaf-local-6-2:42:58,category:healthcare,Türgi hambaravi garantii- ja parandamisvaidlused,17,1,Detailed topic,1
+topic:semantic:bge:leaf-local-6-2:42:67,category:healthcare,Perearsti tööjaotus ja koostöövõrgustik,24,5,Detailed topic,5
+topic:semantic:bge:leaf-local-6-2:42:84,category:healthcare,surmaga toimetulek ja sellest rääkimine,22,4,Detailed topic,4
+topic:semantic:bge:leaf-local-6-2:42:89,category:healthcare,Dementsusega hooldekodus vägivalla ja vastutuse arutelu,14,1,Detailed topic,1
+category:healthcare,root,"Tervishoid, ravi ja terviseandmed",347,29,High-level category,82
+topic:semantic:bge:leaf-local-6-2:42:104,category:international,Trumpi mõju USA poliitika ja Ukraina suunal,19,6,Detailed topic,6
+topic:semantic:bge:leaf-local-6-2:42:124,category:international,Von der Leyeni EL-i eelarve ja maksud,18,3,Detailed topic,3
+topic:semantic:bge:leaf-local-6-2:42:130,category:international,ÜRO reform ja väikeriikide hääl,30,5,Detailed topic,5
+topic:semantic:bge:leaf-local-6-2:42:161,category:international,Ekspordi eetika sanktsiooniriikides,9,1,Detailed topic,1
+topic:semantic:bge:leaf-local-6-2:42:192,category:international,Rahapõhine abi humanitaarkriisides,5,1,Detailed topic,1
+topic:semantic:bge:leaf-local-6-2:42:197,category:international,Ajaloolised paralleelid tänapäeva konfliktidele,18,4,Detailed topic,4
+topic:semantic:bge:leaf-local-6-2:42:203,category:international,Hiina mõju USA kaubandus- ja tarneahelatele,8,5,Detailed topic,5
+topic:semantic:bge:leaf-local-6-2:42:228,category:international,ÜRO Julgeolekunõukogu reformiummik,2,1,Detailed topic,1
+topic:semantic:bge:leaf-local-6-2:42:8,category:international,Palestiina tunnustamise ja kahe riigi debatt,19,2,Detailed topic,2
+topic:semantic:bge:leaf-local-6-2:42:81,category:international,ELi eelarve ja Rail Balticu rahastus,12,1,Detailed topic,1
+topic:semantic:bge:leaf-local-6-2:42:97,category:international,Armeenia ja humanitaarabi rahastuse kärped,6,1,Detailed topic,1
+category:international,root,"Rahvusvahelised suhted, Euroopa Liit ja humanitaarabi",146,17,High-level category,30
+topic:semantic:bge:leaf-local-6-2:42:113,category:media,Rohe- ja heaolu­väidete eksitavus reklaamis,15,2,Detailed topic,2
+topic:semantic:bge:leaf-local-6-2:42:114,category:media,Sotsiaalmeedia poliitilise arutelu kvaliteet,23,6,Detailed topic,6
+topic:semantic:bge:leaf-local-6-2:42:148,category:media,Infosõja vastulöök ja väärinfo tõrjumine,35,11,Detailed topic,11
+topic:semantic:bge:leaf-local-6-2:42:19,category:media,teadlaste ja ajakirjanduse suhtlusriskid,19,2,Detailed topic,2
+topic:semantic:bge:leaf-local-6-2:42:215,category:media,Laulupeo ja Pätsi ümber käiv väärinfo,4,1,Detailed topic,1
+topic:semantic:bge:leaf-local-6-2:42:219,category:media,Palestiina ja progressiivsete teemade kallutatud kajastus,10,2,Detailed topic,2
+topic:semantic:bge:leaf-local-6-2:42:227,category:media,Põlevkivile õigustava teadlase valimine,5,1,Detailed topic,1
+category:media,root,"Meedia, avalik arutelu ja infokvaliteet",111,19,High-level category,25
+topic:semantic:bge:leaf-local-6-2:42:121,category:migration,Eestisse kolinud pagulaste kuuluvus ja kohanemine,14,2,Detailed topic,2
+topic:semantic:bge:leaf-local-6-2:42:133,category:migration,Rände integreerimise ja keelepoliitika riskid,28,5,Detailed topic,5
+topic:semantic:bge:leaf-local-6-2:42:187,category:migration,Sisserände juhtimine ja talendivajadus,16,6,Detailed topic,6
+topic:semantic:bge:leaf-local-6-2:42:206,category:migration,Euroopa rändereformi ja piirivalve valmisolek,4,2,Detailed topic,2
+topic:semantic:bge:leaf-local-6-2:42:65,category:migration,AI roll elamisloa otsustes,13,1,Detailed topic,1
+topic:semantic:bge:leaf-local-6-2:42:74,category:migration,eestikeelse suhtluse ja ühiskeele otsimine,9,5,Detailed topic,5
+topic:semantic:bge:leaf-local-6-2:42:79,category:migration,"Kodu, kool ja sõbrad kujundavad sallivust",19,7,Detailed topic,7
+topic:semantic:bge:leaf-local-6-2:42:92,category:migration,Soome-ugri pagulus ja keeleidentiteet,14,1,Detailed topic,1
+topic:semantic:bge:leaf-local-6-2:42:93,category:migration,Eestisse kolijate kuuluvustunne ja kohanemine,24,8,Detailed topic,8
+category:migration,root,"Ränne, lõimumine ja kuuluvus",141,21,High-level category,37
+topic:semantic:bge:leaf-local-6-2:42:166,category:nature,Puidu väärindamine raiemahtu vähendades,20,8,Detailed topic,8
+topic:semantic:bge:leaf-local-6-2:42:167,category:nature,metsade tagavara langus ja arvestuslangi vaidlus,13,2,Detailed topic,2
+topic:semantic:bge:leaf-local-6-2:42:200,category:nature,Metsa raiemahtude ja kaitse vaidlus,24,6,Detailed topic,6
+topic:semantic:bge:leaf-local-6-2:42:220,category:nature,Bioressursside väärindamise takistused,9,1,Detailed topic,1
+topic:semantic:bge:leaf-local-6-2:42:221,category:nature,Metsa istandike rajamine ja regulatsioon,4,1,Detailed topic,1
+topic:semantic:bge:leaf-local-6-2:42:231,category:nature,Fosforiidi arutelu ja kogukonna vastuseis,14,4,Detailed topic,4
+topic:semantic:bge:leaf-local-6-2:42:55,category:nature,Püsimetsanduse definitsioon ja valikraie,18,1,Detailed topic,1
+topic:semantic:bge:leaf-local-6-2:42:61,category:nature,Elurikkuse krediitide turu kujundamine,16,1,Detailed topic,1
+topic:semantic:bge:leaf-local-6-2:42:69,category:nature,Kohtla-Järve tuhamägede väetisetehas,3,2,Detailed topic,2
+topic:semantic:bge:leaf-local-6-2:42:72,category:nature,Metsaomanike kaitse- ja majandusvaidlused,19,5,Detailed topic,5
+topic:semantic:bge:leaf-local-6-2:42:87,category:nature,Fosforiidi kaevandamise riskid ja ringfosfor,30,2,Detailed topic,2
+category:nature,root,"Loodus, metsandus ja maavarad",170,17,High-level category,33
+topic:semantic:bge:leaf-local-6-2:42:103,category:place,üleriigiline planeering ja ruumipoliitika,34,6,Detailed topic,6
+topic:semantic:bge:leaf-local-6-2:42:136,category:place,Maapiirkondade teenuste ja ühenduste koosplaneerimine,21,7,Detailed topic,7
+topic:semantic:bge:leaf-local-6-2:42:140,category:place,üldplaneeringus haljastuse ja rohekoridoride säilitamine,10,2,Detailed topic,2
+topic:semantic:bge:leaf-local-6-2:42:193,category:place,Raudteeühenduse ja ühistranspordi koordineerimine,6,3,Detailed topic,3
+topic:semantic:bge:leaf-local-6-2:42:210,category:place,Järvamaa üürituru ja turuhindade vaidlus,4,1,Detailed topic,1
+topic:semantic:bge:leaf-local-6-2:42:27,category:place,Reisiks valmistumine ja turvalisus,12,1,Detailed topic,1
+topic:semantic:bge:leaf-local-6-2:42:42,category:place,Idapiirialade eraldi regionaalpoliitika,17,2,Detailed topic,2
+topic:semantic:bge:leaf-local-6-2:42:56,category:place,Noorte koduostu ja üüri kättesaadavus,17,4,Detailed topic,4
+topic:semantic:bge:leaf-local-6-2:42:62,category:place,Rail Balticu ja raudteeühenduste mõju,18,4,Detailed topic,4
+topic:semantic:bge:leaf-local-6-2:42:73,category:place,Korteriühistute kogukonnatunde loomine,19,1,Detailed topic,1
+topic:semantic:bge:leaf-local-6-2:42:94,category:place,planeeringute ja kaasamise venimine,22,7,Detailed topic,7
+category:place,root,"Eluase, ruum ja ühendused",180,19,High-level category,38
+topic:semantic:bge:leaf-local-6-2:42:-1,category:unassigned,Unassigned,389,156,Detailed topic,156
+category:unassigned,root,Määramata,389,156,High-level category,156
+topic:semantic:bge:leaf-local-6-2:42:101,category:wellbeing,Liikumisharjumuste kujundamine lastel,17,4,Detailed topic,4
+topic:semantic:bge:leaf-local-6-2:42:108,category:wellbeing,Kultuuriretsepti rakendamine vaimse tervise toetuseks,14,1,Detailed topic,1
+topic:semantic:bge:leaf-local-6-2:42:11,category:wellbeing,laste nutiekraani ja sotsiaalmeedia sõltuvus,41,9,Detailed topic,9
+topic:semantic:bge:leaf-local-6-2:42:111,category:wellbeing,Diabeedi vaimne koormus ja kriis,13,1,Detailed topic,1
+topic:semantic:bge:leaf-local-6-2:42:14,category:wellbeing,Üksilduse vähendamine suhtluse ja kogukonnaga,26,5,Detailed topic,5
+topic:semantic:bge:leaf-local-6-2:42:158,category:wellbeing,e-sigarettide salaturg noorte seas,9,1,Detailed topic,1
+topic:semantic:bge:leaf-local-6-2:42:163,category:wellbeing,Läbipõlemise varajaste märkide märkamine,21,8,Detailed topic,8
+topic:semantic:bge:leaf-local-6-2:42:178,category:wellbeing,Noorte alkoholiga pidutsemine ja surve,16,1,Detailed topic,1
+topic:semantic:bge:leaf-local-6-2:42:184,category:wellbeing,"Noorte veipimise, nikotiini ja salaturu piiramine",9,2,Detailed topic,2
+topic:semantic:bge:leaf-local-6-2:42:191,category:wellbeing,Soola vähendamine ja igapäevane liikumine,14,4,Detailed topic,4
+topic:semantic:bge:leaf-local-6-2:42:196,category:wellbeing,Lasteaia liikumisharjumuste ja toitumise kujundamine,3,1,Detailed topic,1
+topic:semantic:bge:leaf-local-6-2:42:207,category:wellbeing,MMS ja seemneõli tervisevildakus,10,3,Detailed topic,3
+topic:semantic:bge:leaf-local-6-2:42:32,category:wellbeing,Vererõhu ja südameriski varajane ennetus,8,3,Detailed topic,3
+topic:semantic:bge:leaf-local-6-2:42:99,category:wellbeing,Hingamisega rahunemine ja enesekaastunne,14,2,Detailed topic,2
+category:wellbeing,root,"Vaimne tervis, tervisekäitumine ja ennetus",215,33,High-level category,45
+topic:semantic:bge:leaf-local-6-2:42:1,category:work,Tööõnnetuste ennetus ja tööohutuse teadlikkus,38,2,Detailed topic,2
+topic:semantic:bge:leaf-local-6-2:42:119,category:work,Naiste osakaalu suurendamine IKT-s,18,2,Detailed topic,2
+topic:semantic:bge:leaf-local-6-2:42:122,category:work,Tööülesannete paindlik jaotamine,8,1,Detailed topic,1
+topic:semantic:bge:leaf-local-6-2:42:138,category:work,Kriisi olukorras otsustamine ja juhtimine,18,7,Detailed topic,7
+topic:semantic:bge:leaf-local-6-2:42:16,category:work,Töökiusamise piiri tõmbamine tööl,25,4,Detailed topic,4
+topic:semantic:bge:leaf-local-6-2:42:168,category:work,Paindlik tööaeg ja kokkulepitud piirid,23,6,Detailed topic,6
+topic:semantic:bge:leaf-local-6-2:42:18,category:work,Töökiusu ja vaidluste piiritlemine töösuhtes,22,5,Detailed topic,5
+topic:semantic:bge:leaf-local-6-2:42:202,category:work,IT-värbamine ja palgataseme kerked,7,2,Detailed topic,2
+topic:semantic:bge:leaf-local-6-2:42:21,category:work,Tööelu jätkamine kroonilise haiguse ajal,17,1,Detailed topic,1
+topic:semantic:bge:leaf-local-6-2:42:214,category:work,välistööjõu kasutamine hooaja- ja lihttöödel,9,2,Detailed topic,2
+topic:semantic:bge:leaf-local-6-2:42:218,category:work,Töövaidluste kompromissid ja töölepingu vaidlused,16,4,Detailed topic,4
+topic:semantic:bge:leaf-local-6-2:42:3,category:work,Juhi ja töötaja äärmused organisatsioonis,19,5,Detailed topic,5
+topic:semantic:bge:leaf-local-6-2:42:43,category:work,Välistöötajate ärakasutamine ja palgavõlg,13,1,Detailed topic,1
+topic:semantic:bge:leaf-local-6-2:42:71,category:work,Miinimumpalga tõstmise mõju tööle ja vaesusele,14,3,Detailed topic,3
+topic:semantic:bge:leaf-local-6-2:42:82,category:work,Vanus ja oskused tööelus,26,8,Detailed topic,8
+topic:semantic:bge:leaf-local-6-2:42:90,category:work,kaugtöö ja töövälise aja piirid,11,5,Detailed topic,5
+category:work,root,"Tööelu, juhtimine ja töötajate õigused",284,35,High-level category,58
+root,,Kõik arutelud,4132,219,All categories,1071

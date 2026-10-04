@@ -1,0 +1,97 @@
+episode_id,proposed_seconds,selected_seconds,shift_seconds,sentence_ending,cut_reason,left_cue_text,right_cue_text
+2397177249,178.0,178.0,0.0,True,sentence_ending,"Ja mul korraga ei ole võib-olla mitu, aga mul on olnud väga palju mütse.","Et ma olen oma taustalt tegelikult HR valdkonnast ehk siis personalivaldkonnast, ma olen"
+2397177249,398.48,398.48,0.0,True,sentence_ending,Et ikkagi natuke aega on saanud nüüd tänaseks asjadega tegeleda.,"AI-d, rakendan igapäevaselt ja, ja tegelikult terve agentuur rakendab meil, et arenda"
+2397177249,490.08,492.64,2.5600000000000023,True,sentence_ending,"t nad tahavad saada, see on väga oluline täna.","Aitäh, Einar."
+2397177249,555.76,555.76,0.0,True,sentence_ending,Aitäh.,Ja siis teises äärmuses meie paneelis Gerandile vastase on Joosep.
+2397177249,626.92,628.6,1.6800000000000637,True,sentence_ending,"lavale tulnud, ütleme.","Ja sõna otseses mõttes lavale, nii et tänasest oled sa ka nüüd kõneisik teemale, nii"
+2397177249,866.64,870.92,4.279999999999973,True,sentence_ending,in õnneks väga kiiresti umbes viie minutiga selle tehtud.,"Tänu, tänu AI-le ja, ja sain otse magama minna peale seda."
+2397177249,997.8,999.68,1.8799999999999955,True,sentence_ending,t.,Ma ütlen kaks tuhat kakskümmend kaheksa.
+2397177249,1158.92,1154.16,-4.759999999999991,True,sentence_ending,"me läbi võtta, aga, aga proovime.","Ja, ja lõpuks saaks äkki kümme minutit ka publiku küsimuste jaoks jätta, et mikrofon"
+2397177249,1222.16,1222.16,0.0,True,sentence_ending,"Jah, ütleme, ma alustasin nii-öelda pigem vabakutselise arendajana.","See oligi jah, võib-olla gümnaasiumi esimesel aastal ja kindlasti AI aitas mul nii-öelda"
+2397177249,1505.64,1500.6,-5.040000000000191,True,sentence_ending,"sugune taust, see on minutitega tehtud ja, ja lähed edasi enda tööga.","Linnar, sa mainisid, et sa oled selline natuke positsioneerinud ennast inimese ja, ja"
+2397177249,1633.32,1629.72,-3.599999999999909,True,sentence_ending,Alustame Excelist.,"Kas või sellest ja sealt hakkab tegelikult siis see kõige olulisem peale, mis on praegu"
+2397177249,1795.24,1795.24,0.0,True,sentence_ending,"Ma ei tahaks seda saata nüüd praegu kotist välja lasta, aga, aga.","Anname endale aru seda, et milles seisneb loometegevus."
+2397177249,1925.48,1927.44,1.9600000000000364,True,sentence_ending,"vaks, vaid ka kasvavaks trendiks.","Ja see on ka see, mida me tõenäoliselt õpime hindama üha rohkem, et inimene koos masin"
+2397177249,2214.48,2214.48,0.0,True,sentence_ending,"Et räägimegi võib-olla natuke sellest, alustades Linnarist, et.","Kumb see, mis see illusioon siis nüüd on või kas on kumbki rohkem illusioone, et kas"
+2397177249,2279.6,2275.32,-4.279999999999745,True,sentence_ending,tkub.,"Seda arvesse võttes on meil tegelikult olemas selline nagu salavõimalus, aga mitte ainult"
+2397177249,2437.6,2437.6,0.0,True,sentence_ending,"t, sest me oleme õppinud selle kasutamise selgeks endale kasuliku mudelina.","Okei, aga ma tahaks kohe siit otsast nüüd kinni võtta, mis siis saab kahe aasta pärast"
+2397177249,2503.8,2503.8,0.0,True,sentence_ending,"oleme demokratiseerinud selle alguspunkti ja, ja need katsetused ja.","Et, et aga see ebaõnnestumise risk jääb ju ikkagi igaühele endale, et kuidas, kuidas"
+2397177249,2738.64,2740.2,1.5599999999999454,True,sentence_ending,on kõik koolitused välja müüdud.,"Et noh, lahendab õigeid probleeme järelikult."
+2397177249,2868.8,2863.48,-5.320000000000164,True,sentence_ending,keegi teine juba nagu kolme nädala pärast hoopis paremini ja võtab selle turu üle.,"Et mina võtsin selle raha ja aga mul on järgmine idee ja ta ütleski, et tema arvabki"
+2397177249,3129.8,3132.2,2.399999999999636,True,sentence_ending,võtluseks?,"Et, et see, see alustamine võib olla siis noh, võtame seda rohkem nagu mänguliselt, et"
+2397177249,3300.0,3300.0,0.0,True,sentence_ending,toote poolest on nagu lihtsam.,"Ma küsiks nüüd nagu mõlemalt keilt ja, ja Einarilt, et te näete, noh, sa oled, eks ju"
+2397177249,3394.56,3394.56,0.0,True,sentence_ending,"teeme kõik sellesama ettevõtte uuesti, sest me teame täpselt, kuidas seda teha.","Te olete ainult küsinud, et mis on vaja teha ja kus on spec."
+2397177249,3497.68,3497.68,0.0,True,sentence_ending,", millega salatit teha, siin kurgi ja tomati enne.",Et see on siuke tore Curtissy.
+2397177249,3696.8,3707.16,10.359999999999673,True,sentence_ending,"a mõjutab ja kui pikalt ja mis, mis jälje võiks jätta?","Muidugi mõjutab, ma ei tea, minu lapsed on need, kes on üles kasvanud, nii et noh, hi"
+2397177249,3759.2,3752.96,-6.239999999999782,True,sentence_ending,"ta mõtleb selle peale, et tuleb seina küljes kinni hoida, noh, ei tööta.","Aga, aga see, see põlvkond, kes praegu peale kasvab, kasvab küll sellega, kus A ja loo"
+2397177249,3955.0,3949.84,-5.1599999999998545,True,sentence_ending,"ette, et küll võib-olla mitte niivõrd ainult noori.","Ma arvan, et võib-olla naiste puhul on see nagu teistpidi olnud keerulisemas ettevõt"
+2397177249,4117.24,4117.24,0.0,True,sentence_ending,"Kuulge, kuulge nii, see läheb nüüd teemast täiesti kõrvale, me oleme.","Teie lihtsalt õige asi ja me oleme rahul, kõik on väga selge."
+2397177249,4373.56,4373.56,0.0,True,sentence_ending,"Et see ja meie loovjuht alati ütleb, see tõde on seal kuskil vahel peidus.","Jaa ja kes tahab ikkagi ettevõtlusega nüüd alustada või, või uuesti proovida, siis Tallinna"
+2397177249,4435.28,4435.28,0.0,True,sentence_ending,"Kui sa tahad olümpiavõitja olla, siis pead Erika Salumäelt õppima.",Alusta vigadest.
+2397177249,4503.72,4509.32,5.599999999999454,True,sentence_ending,mendada.,Olgu selleks riigikaitse või haridus või tervishoid.
+2397177249,4600.6,4588.36,-12.240000000000691,True,sentence_ending,kolmkümmend viis või kaks tuhat nelikümmend.,Parimal juhul me näeme seda tehnoloogia mõju trajektoori aastani kaks tuhat kakskümmend
+2397177249,4759.96,4759.96,0.0,True,sentence_ending,"del liiga kallis, ja ei tee midagi, teine mudel teeb kuidagi paremini, kiiremini.","Ja, et see teadmine tekiks kollektiivselt, et kuidas seda kasutada, et, et ma vaatasin"
+2397177249,4985.52,4997.96,12.4399999999996,True,sentence_ending,"ndset, et okei, seda ma veel ei oska, et siis ma küsin, kuidas sa haigest- .","Mul eile meil tuli see paralleel siin jutuks, et need meemid, mida kasutatakse on ju"
+2397177249,5052.88,5052.88,0.0,False,no_eligible_sentence_ending,"viis minutit veel publiku küsimuste jaoks ka, aga selline viimane, ütleme siis püsto","lreporteri nagu voor, et hästi palju on tegelikult ka hirme ja närvilisust ja skepti"
+2397177249,5276.92,5283.4,6.479999999999563,True,sentence_ending,"ka mitte terav küsimus, siis palun.","Okei, minul on selline küsimus, et praegu no näiteks turundamises on näha, et on haka"
+2397177249,5343.68,5345.68,2.0,True,sentence_ending,dal jah.,"Tuli Euroopa selline reglement või, või siis ettekirjutus selle kohta, et sa pead ära"
+2397177249,5546.0,5550.72,4.720000000000255,True,sentence_ending,"oogle teeb, mida ka antroopik teeb ja Open AI ja kõik.","Suurkorporatsioonid on väga tugeva järelevalve all, nad on aeglased ka."
+2400164916,207.08,207.08,0.0,True,sentence_ending,ks.,"Sest muidu ei saa ühte sotsodraamat teha, nii et esimene samm on tuttavaks saamine."
+2400164916,275.24,275.24,0.0,True,sentence_ending,"Teie olete Tallinn, Harjumaa.","Ja leia enda lähedalt kaks inimest ja vestle, tutvusta ennast, kes sa oled."
+2400164916,344.52,344.52,0.0,True,sentence_ending,Proovime teha rivi.,"Küsime siit algusest, mitu aastat."
+2400164916,406.52,406.52,0.0,True,sentence_ending,teise gruppi.,"Nii ja nüüd nendes väikestes gruppides, olge head."
+2400164916,642.16,634.96,-7.199999999999932,True,sentence_ending,"Ei, praegu ei tule.","Miks mina olen alla võib-olla selle keskmise, on puhtalt sellepärast, et olles ise täna"
+2400164916,839.04,839.04,0.0,True,sentence_ending,"sellise hinnangu andsite, me oleme praegu juba esimese pildistuse Eesti ühiskonnast.",Teie vaatest saanud.
+2400164916,907.32,907.32,0.0,True,sentence_ending,"Vald, omavalitsus.","Kui sa ütled riik, kas sa mõtled ministeeriumi või?"
+2400164916,1069.64,1069.64,0.0,True,sentence_ending,Mitu rolli meil siis on?,Lapsed?
+2400164916,1169.44,1161.84,-7.600000000000136,True,sentence_ending,Nii ja.,"Teeme nii, et nüüd, et sa leiad kõrvalt endale sellise, selle ühe rolli"
+2400164916,1358.48,1358.48,0.0,True,sentence_ending,Ja teistpidi kuidas lapsevanema toituse tunnet saavad luua?,"Koostöö, koostöö ja no hästi suur roll on nagu minu arust selles suhtes just suht"
+2400164916,1617.12,1620.28,3.160000000000082,True,sentence_ending,", et inimeste sisetunnet kraadida.",Kas te tahaksite istuda?
+2400164916,1712.96,1712.96,0.0,True,sentence_ending,Või kui on mured.,Ja ega ma ei saa jätta ütlemata ja rõhutamata.
+2400164916,1844.68,1845.4,0.7200000000000273,True,sentence_ending,.,"Ja, ja igasuguseid põnevaid mõtteid on neil siis, et aga seda nad ei mõtle, kuidas siis"
+2400164916,2133.96,2133.96,0.0,True,sentence_ending,võiks seda rohkem rääkima lahti koolis või kuskil avalikus ruumis rohkem.,"No mulle tundub, et siis see ongi seesama asi, et mida me kuulsime sealt ministeerium"
+2400164916,2334.88,2346.88,12.0,True,sentence_ending,"ju fookus ikkagi laste arendamine, laste heaolu.","Et see muu on, ei tuleks üldse lubada nagu sellist kiusamist ja asju."
+2400164916,2466.24,2469.32,3.080000000000382,True,sentence_ending,ma ei tea siis odavat või kallis populaarsust koguda.,"Ja ega, ega neid teemasid, millega nagu Riigikogu otse saab nagu teha, et et ega neid"
+2400164916,2534.64,2534.64,0.0,True,sentence_ending,"Ja nüüd on siis, kus Anneli oled seal oma vallavalitsusega, eks ju.","Et kohalikud omavalitsused on nüüd väga selle vastu, et see seotus eksju jätkub."
+2400164916,2632.08,2632.08,0.0,True,sentence_ending,"b rahandusministeeriumis ja kinnitab seda, et et see on lihtsalt vaja üles leida.","Ja, ja kindlasti ka see asi, et, et kui meil on vaja kuskil esineda püünel kõla"
+2400164916,2760.0,2765.48,5.480000000000018,True,sentence_ending,"kõige rohkem sõltub, et õpetaja tunneb ennast väärtustatuna ja hoituna.","Kaksteist rolli on ja lei- , leia see koht, kus sinu arvates on see"
+2400164916,2924.36,2926.48,2.119999999999891,True,sentence_ending,see on oluline?,Miks see on mõjusam?
+2400164916,3090.4,3090.4,0.0,True,sentence_ending,poliitikakujundajatele ja ametnikele soovitus on.,Mis on sellele rollile soovitus?
+2400164916,3189.92,3181.92,-8.0,True,sentence_ending,"enda võimetest, see on tee nagu enesearendusele ja, ja selle suhete kvaliteedile ka.","Kui sa oled ise nii-öelda austav teiste suhtes ja, ja ei ole mingit ho"
+2400164916,3323.4,3316.04,-7.360000000000127,True,sentence_ending,"See võib olla üks sõna, see võib olla üks mõte, aga hästi kontsentraat.","Ma alustan, et meie, mina olen era"
+2271676346,198.36,206.24,7.8799999999999955,True,sentence_ending,.,"Näiteks, et kogeda ja teha läbi selline periood või nii-öelda de"
+2271676346,360.52,353.72,-6.7999999999999545,True,sentence_ending,ilgelt kettas ja miks see kõik on hästi nõme.,"Aga ma leian, et see duaalsus ongi tegelikult väga õige ja eesmärgipärane, täpselt nagu"
+2271676346,561.16,554.28,-6.8799999999999955,True,sentence_ending,ma.,"Ja noh, ei saa üle ega ümber Venemaast ehk siis Venemaa strateegilised sihid, imperi"
+2271676346,692.84,692.84,0.0,True,sentence_ending,st vastasest me räägime.,"Nüüd väevõimed, mis on siis ütleme, esmajärjekorras prioriteetsed ja kriitilised, mida"
+2271676346,889.12,889.12,0.0,True,sentence_ending,"tsealuseid, kes, kes kõik hirmsasti tahavad ajateenistusse tulla.",Aga mina alustaksin oma juttu tegelikult natukene teistpidi.
+2271676346,984.36,987.0,2.6399999999999864,True,sentence_ending,pikemaaegset väljaõpet.,"Nüüd julgeolekuolukord meie ümber, millest kolonel Märks siin juba kenasti rääkis, esi"
+2271676346,1189.56,1181.44,-8.11999999999989,True,sentence_ending,kasutamiseks.,Ja see on hästi kiirelt kokkuvõttes kogu aja
+2271676346,1327.92,1334.48,6.559999999999945,True,sentence_ending,"või mis siis juhtub juba varem, kui nad veel on koolipingis?",Ja tere minu poolt ka.
+2271676346,1598.08,1598.08,0.0,True,sentence_ending,", aga tänapäeva noored omandavad teatud oskusi ka niimoodi.","Nii aga härra nooremseersant, et sinu ootused selle ajateenistusele olid ikkagi päris"
+2271676346,1668.12,1668.12,0.0,False,no_eligible_sentence_ending,"kasu saaks, ongi muutunud sõjapidamise metoodikale ja ka mingis mõttes nagu",pedagoogika suunal just tegevväelaste ja ülemate ka selline ühtsustamine siis
+2271676346,1767.72,1772.6,4.879999999999882,True,sentence_ending,i esitada.,"Et ma arvan, selle nii-öelda vaate ühtsustamine võiks, võiks kindlasti ära"
+2271676346,1833.4,1837.88,4.480000000000018,True,sentence_ending,oober.,"See on nüüd see koht, kus punkt üks, me peame pärast ilmselt kuulama ära ka KRA vastu"
+2271676346,2094.08,2094.08,0.0,True,sentence_ending,Ehk siis ülejäänud üheksateist.,"On, on sama, samamoodi väga vajalikud."
+2271676346,2193.56,2193.56,0.0,True,sentence_ending,"Aare, et see ühiskonna valmisolek ja ettevalmistamine?","Ja nagu ma enne ka ütlesin, et, et see ühiskond peab, peab toetama seda, seda reform"
+2271676346,2472.84,2476.8,3.9600000000000364,True,sentence_ending,siis ajateenistuses ju saanud.,"Tööandja samamoodi olen nagu palju seda näidet toonud, et kui kõige elementaarsemalt"
+2271676346,2538.68,2538.68,0.0,True,sentence_ending,peabki selgitama ja siis me saame nendest murekohtadest üle.,"Ja väljaõppes säilitame taburetid, et pärast kooli tulles oleks mugavam minu selga."
+2271676346,2639.44,2632.56,-6.880000000000109,True,sentence_ending,"Ja ei, kindlasti on, et ma lähen veel ajas kõvasti tagasi.",Eesti liitus NATOga kaks tuhat neli ja NATOga liitumise protsessis erinevad NATO töö
+2271676346,2739.64,2740.96,1.3200000000001637,True,sentence_ending,äilitada.,Ehk siis siin regioonis usutav mudel me meie selle säilitasime.
+2271676346,3034.44,3041.04,6.599999999999909,True,sentence_ending,ks veel keegi midagi täpsustada või lisada?,"Okei, et kui tuleb meelde, siis alati on võimalus ka."
+2271676346,3167.92,3169.6,1.6799999999998363,True,sentence_ending,lina olemas.,"Üsna veendunud, teades mitmeid, siis ka ka lastega naisterahvaid, kes on kaitse oma"
+2271676346,3293.6,3298.0,4.400000000000091,True,sentence_ending,parasjagu ei täida oma sõja ülesannet.,"Ja ma laiendaks isegi seda küsimust, et küsimus ei ole ainult kahes reservväelases."
+2271676346,3426.4,3426.4,0.0,True,sentence_ending,"võtame siis neid küsimusi, mis võiks olla käesoleva paneeli kohta.","Aga härra ajateenijad korra paluks mikrofoni sinna, et meil on üks, üks küsimus vaata"
+2271676346,3656.76,3670.2,13.4399999999996,True,sentence_ending,", olenemata soost peame leidma endale selle koha riigikaitsesse panustada.",Ma kõigepealt tänan endist head kolleegi ja tänast Riigikogu liiget väga-väga releva
+2271676346,3857.92,3860.6,2.6799999999998363,True,sentence_ending,nendest onlaini esitatud küsimustest läbi.,"Aga ajateenistuse ja majanduse kasvu sidumine, kas võiksime luua insenerikallakuga noor"
+2271676346,3955.48,3940.48,-15.0,True,sentence_ending,see aasta ongi väga intensiivne sõjaline väljaõpe.,"Loomulikult meil on sõdurid, kes spetsialiseeruvad vastavalt erialadele,"
+2271676346,4089.24,4070.48,-18.759999999999764,True,sentence_ending,"ksin, et ega me natuke küll oma Eesti moodi seda, seda teeme ka.","Jah, me, me kolmeks aastaks neid ei võta niimoodi ülikoolis sõjaväekursust ei tee, aga"
+2271676346,4253.2,4259.36,6.1599999999998545,True,sentence_ending,"ha ja tunda ja õppida seda, kuidas me tegevväelaste värskendusõppe teeme.","Ja teine asi ja see on nüüd teema, mida me siin puudutasime juba teemal"
+2271676346,4356.72,4365.8,9.079999999999927,True,sentence_ending,"tavalisi sõdureid või spetsialiste, kes oskavad tehnikat opereerida?",Kas peamiselt peame parandama meie sõdurite oskusi või kaitseväe suurust?
+2271676346,4592.24,4592.24,0.0,True,sentence_ending,kaasaegselt võitlusvõimelist väge Eestis.,"Kuidas hakkab uue süsteemi puhul välja nägema juhtide valik, et kas seda on ka plaani"
+2271676346,4689.8,4696.6,6.800000000000182,True,sentence_ending,id jäävad siiski samaks.,"Ehk siis kõigepealt on see, mis on seaduses sätestatud, haridusnõuded ja is"
+2271676346,4826.0,4836.16,10.159999999999854,True,sentence_ending,", aga, aga nõus.","See siin on toodud ka see nelikümmend pluss liigume viiekümne tuhande juurde, et noh"
+2271676346,4892.08,4894.84,2.7600000000002183,True,sentence_ending,jani.,"Nii siis Paatsi siin mainis juba seda, et kuidas varasema strateegilise kommunikatsiooni"
+2271676346,5093.2,5102.64,9.44000000000051,True,sentence_ending,teenijatele.,"Nii on, nii siis küsimus, mis läheb tõenäoliselt Aarele, et kui ajateenistus pikeneb"
+2271676346,5262.96,5269.76,6.800000000000182,True,sentence_ending,palju kui on vaja kaitseväel seda noort peaks noorel olema vaja seda kaitseväge.,"Ja sinna natuke minna selle, selle suhtlemisega, et kui me tahame, et meie, meie noor"
+2271676346,5419.64,5419.64,0.0,True,sentence_ending,Et ju siis need sõnumid kõnetavad.,"Ja ja minu alati soov on olnud nii palju, kui ma olen nii kooliõpilaste või kellegi ees"
+2271676346,5484.16,5484.16,0.0,True,sentence_ending,igale inimesele see roll ühes või teises valdkonnas anda.,"Ja et lõpetuseks ma ütleks seda, et meil on põhjust head meelt tunda ja, ja rahul olla"

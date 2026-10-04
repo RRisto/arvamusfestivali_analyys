@@ -1,0 +1,86 @@
+{
+  "education": {
+    "name": "Haridus, õppimine ja oskused",
+    "description": "Alusharidus, koolid ja ülikoolid; õpetamine, hindamine, õpetajate roll, õppimisvõimalused ja oskuste arendamine."
+  },
+  "work": {
+    "name": "Tööelu, juhtimine ja töötajate õigused",
+    "description": "Töökorraldus, organisatsioonide juhtimine, tööohutus, töökius, värbamine, palk, töölepingud ja töö ning eraelu piirid."
+  },
+  "economy": {
+    "name": "Majandus, ettevõtlus ja innovatsioon",
+    "description": "Majanduskasv, maksud, ettevõtete loomine ja rahastamine, eksport, iduettevõtted ja konkurentsivõime."
+  },
+  "energy": {
+    "name": "Energeetika ja energiaturud",
+    "description": "Elektri ja soojuse tootmine, hinnad, võrgud, varustuskindlus, tuulepargid, kaugküte ja energiataristu. Tuuleparkide kohalikud mõjud kuuluvad siia."
+  },
+  "climate": {
+    "name": "Kliima, rohepööre ja kestlik tarbimine",
+    "description": "Kliimahoiakud, heited, kvoodikaubandus, kliimariskid, rohetehnoloogia rahastus ning tarbimise ja tehnoloogia keskkonnajalajälg."
+  },
+  "nature": {
+    "name": "Loodus, metsandus ja maavarad",
+    "description": "Elurikkus, metsade kaitse ja majandamine, raiemahud, maavarad, fosforiit ja loodusressursside väärindamine."
+  },
+  "ai": {
+    "name": "Tehisintellekt ja digitehnoloogia",
+    "description": "AI kasutus, assistendid ja agendid, keelemudelid, automatiseerimine, volitused ja vastutus ning AI-ga seotud autoriõigused. Hariduse või ravi korraldus on vastavas valdkonnas."
+  },
+  "cyber": {
+    "name": "Küberturvalisus, privaatsus ja digiohud",
+    "description": "Küberrünnakud, pettused, paroolid, andmekaitse, jälgimine, laste fotode privaatsus ning veebis ähvardamine. Laste väärkohtlemise ennetus kuulub laste kaitse alla."
+  },
+  "healthcare": {
+    "name": "Tervishoid, ravi ja terviseandmed",
+    "description": "Raviteekonnad, patsiendiinfo, arstiabi, hambaravi, raviraha, kindlustus, hoolekanne, nakkuste tõrje ja terviseandmete või AI kasutamine ravis."
+  },
+  "wellbeing": {
+    "name": "Vaimne tervis, tervisekäitumine ja ennetus",
+    "description": "Üksildus, vaimne koormus, läbipõlemine, liikumine ja toitumine, sõltuvused, tervisealane väärinfo ning heaolu toetavad sekkumised."
+  },
+  "family": {
+    "name": "Pere, suhted ja sooline võrdsus",
+    "description": "Lähisuhted, nõusolek, sündimus, vanemlus, koduse koormuse jaotus, emaduse karjäärimõju, soorollid ja naistevastase vägivalla ennetus."
+  },
+  "culture": {
+    "name": "Kultuur, loome ja pärand",
+    "description": "Kultuuri rahastamine, loovisikute toimetulek, muuseumid, film, tänavakunst, ajalooline mälu, kultuuri edasiandmine ja religiooni ühiskondlik roll."
+  },
+  "media": {
+    "name": "Meedia, avalik arutelu ja infokvaliteet",
+    "description": "Ajakirjandus, ekspertide avalik suhtlus, poliitiline arutelu sotsiaalmeedias, reklaami eksitavus, kallutatus, väärinfo ja propaganda."
+  },
+  "governance": {
+    "name": "Riigijuhtimine, kodanikuühiskond ja õigus",
+    "description": "Riigi visioon ja väärtused, demokraatia, erakonnad, valimised, kohtumenetlus, kodanike kaasamine, vabaühendused, vabatahtlik töö ja annetamine."
+  },
+  "migration": {
+    "name": "Ränne, lõimumine ja kuuluvus",
+    "description": "Rändepoliitika, elamisload, pagulus, keeleline ja rahvuslik identiteet, ühiskonda kohanemine ning eri taustaga inimeste kuuluvus."
+  },
+  "defence": {
+    "name": "Riigikaitse, julgeolek ja kriisivalmidus",
+    "description": "Ajateenistus ja reserv, kaitsetahe, kaitsekulud ja võimed, hübriidohud, tsiviilkaitse, kriisivarud ja laiapindne riigikaitse."
+  },
+  "international": {
+    "name": "Rahvusvahelised suhted, Euroopa Liit ja humanitaarabi",
+    "description": "Rahvusvaheline poliitika ja konfliktid, USA ja Hiina, Palestiina, ÜRO, ELi eelarve, sanktsioonid ning humanitaarabi ja arengukoostöö."
+  },
+  "children": {
+    "name": "Laste ja noorte kaitse ning toetamine",
+    "description": "Lastekaitse, asendushooldus, laste märkamine, NEET-noorte toetamine, radikaliseerumise ja noorte vägivalla ennetus ning seksuaalne väärkohtlemine ja laste digiturvalisus."
+  },
+  "food": {
+    "name": "Toit, põllumajandus ja toidujulgeolek",
+    "description": "Toidu tarneahelad ja kriisivalmidus, toiduohutus, raiskamise vähendamine, kuupäevamärgistus ja uudne kohalik toidutootmine."
+  },
+  "place": {
+    "name": "Eluase, ruum ja ühendused",
+    "description": "Kodu ostmine ja üürimine, elukeskkond, planeeringud, regionaalareng, kogukondlik eluruum, ühistransport, raudtee ja reisimise korraldus."
+  },
+  "unassigned": {
+    "name": "Määramata",
+    "description": "Ükski sisuline kategooria ei sobi: korralduslik, ebaselge või teemaväline tekst."
+  }
+}

@@ -1,0 +1,378 @@
+[
+  {
+    "id": "education",
+    "name_et": "Haridus, õppimine ja oskused",
+    "description_et": "Alusharidus, koolid ja ülikoolid; õpetamine, hindamine, õpetajate roll, õppimisvõimalused ja oskuste arendamine.",
+    "topic_ids": [
+      4,
+      7,
+      15,
+      20,
+      23,
+      25,
+      28,
+      38,
+      53,
+      57,
+      68,
+      70,
+      85,
+      88,
+      98,
+      107,
+      116,
+      134,
+      135,
+      139,
+      141,
+      145,
+      146,
+      149,
+      171,
+      172,
+      175,
+      180,
+      188,
+      190,
+      225,
+      229
+    ]
+  },
+  {
+    "id": "work",
+    "name_et": "Tööelu, juhtimine ja töötajate õigused",
+    "description_et": "Töökorraldus, organisatsioonide juhtimine, tööohutus, töökius, värbamine, palk, töölepingud ja töö ning eraelu piirid.",
+    "topic_ids": [
+      1,
+      3,
+      16,
+      18,
+      21,
+      43,
+      71,
+      82,
+      90,
+      119,
+      122,
+      138,
+      168,
+      202,
+      214,
+      218
+    ]
+  },
+  {
+    "id": "economy",
+    "name_et": "Majandus, ettevõtlus ja innovatsioon",
+    "description_et": "Majanduskasv, maksud, ettevõtete loomine ja rahastamine, eksport, iduettevõtted ja konkurentsivõime.",
+    "topic_ids": [
+      22,
+      123,
+      142,
+      157,
+      169,
+      174,
+      201,
+      230
+    ]
+  },
+  {
+    "id": "energy",
+    "name_et": "Energeetika ja energiaturud",
+    "description_et": "Elektri ja soojuse tootmine, hinnad, võrgud, varustuskindlus, tuulepargid, kaugküte ja energiataristu. Tuuleparkide kohalikud mõjud kuuluvad siia.",
+    "topic_ids": [
+      17,
+      75,
+      117,
+      127,
+      132,
+      156,
+      160,
+      181,
+      194,
+      198,
+      211,
+      212,
+      213,
+      223,
+      224,
+      235
+    ]
+  },
+  {
+    "id": "climate",
+    "name_et": "Kliima, rohepööre ja kestlik tarbimine",
+    "description_et": "Kliimahoiakud, heited, kvoodikaubandus, kliimariskid, rohetehnoloogia rahastus ning tarbimise ja tehnoloogia keskkonnajalajälg.",
+    "topic_ids": [
+      5,
+      24,
+      37,
+      44,
+      109,
+      144,
+      152,
+      176,
+      216
+    ]
+  },
+  {
+    "id": "nature",
+    "name_et": "Loodus, metsandus ja maavarad",
+    "description_et": "Elurikkus, metsade kaitse ja majandamine, raiemahud, maavarad, fosforiit ja loodusressursside väärindamine.",
+    "topic_ids": [
+      55,
+      61,
+      69,
+      72,
+      87,
+      166,
+      167,
+      200,
+      220,
+      221,
+      231
+    ]
+  },
+  {
+    "id": "ai",
+    "name_et": "Tehisintellekt ja digitehnoloogia",
+    "description_et": "AI kasutus, assistendid ja agendid, keelemudelid, automatiseerimine, volitused ja vastutus ning AI-ga seotud autoriõigused. Hariduse või ravi korraldus on vastavas valdkonnas.",
+    "topic_ids": [
+      6,
+      9,
+      49,
+      112,
+      120,
+      155,
+      170,
+      186,
+      199,
+      234
+    ]
+  },
+  {
+    "id": "cyber",
+    "name_et": "Küberturvalisus, privaatsus ja digiohud",
+    "description_et": "Küberrünnakud, pettused, paroolid, andmekaitse, jälgimine, laste fotode privaatsus ning veebis ähvardamine. Laste väärkohtlemise ennetus kuulub laste kaitse alla.",
+    "topic_ids": [
+      41,
+      60,
+      63,
+      110,
+      154
+    ]
+  },
+  {
+    "id": "healthcare",
+    "name_et": "Tervishoid, ravi ja terviseandmed",
+    "description_et": "Raviteekonnad, patsiendiinfo, arstiabi, hambaravi, raviraha, kindlustus, hoolekanne, nakkuste tõrje ja terviseandmete või AI kasutamine ravis.",
+    "topic_ids": [
+      2,
+      30,
+      47,
+      58,
+      67,
+      84,
+      89,
+      105,
+      115,
+      131,
+      137,
+      143,
+      151,
+      153,
+      179,
+      182,
+      195,
+      204,
+      208,
+      226
+    ]
+  },
+  {
+    "id": "wellbeing",
+    "name_et": "Vaimne tervis, tervisekäitumine ja ennetus",
+    "description_et": "Üksildus, vaimne koormus, läbipõlemine, liikumine ja toitumine, sõltuvused, tervisealane väärinfo ning heaolu toetavad sekkumised.",
+    "topic_ids": [
+      11,
+      14,
+      32,
+      99,
+      101,
+      108,
+      111,
+      158,
+      163,
+      178,
+      184,
+      191,
+      196,
+      207
+    ]
+  },
+  {
+    "id": "family",
+    "name_et": "Pere, suhted ja sooline võrdsus",
+    "description_et": "Lähisuhted, nõusolek, sündimus, vanemlus, koduse koormuse jaotus, emaduse karjäärimõju, soorollid ja naistevastase vägivalla ennetus.",
+    "topic_ids": [
+      10,
+      12,
+      13,
+      40,
+      54,
+      150,
+      173,
+      185
+    ]
+  },
+  {
+    "id": "culture",
+    "name_et": "Kultuur, loome ja pärand",
+    "description_et": "Kultuuri rahastamine, loovisikute toimetulek, muuseumid, film, tänavakunst, ajalooline mälu, kultuuri edasiandmine ja religiooni ühiskondlik roll.",
+    "topic_ids": [
+      26,
+      59,
+      77,
+      78,
+      86,
+      126,
+      162,
+      164,
+      165,
+      177,
+      205
+    ]
+  },
+  {
+    "id": "media",
+    "name_et": "Meedia, avalik arutelu ja infokvaliteet",
+    "description_et": "Ajakirjandus, ekspertide avalik suhtlus, poliitiline arutelu sotsiaalmeedias, reklaami eksitavus, kallutatus, väärinfo ja propaganda.",
+    "topic_ids": [
+      19,
+      113,
+      114,
+      148,
+      215,
+      219,
+      227
+    ]
+  },
+  {
+    "id": "governance",
+    "name_et": "Riigijuhtimine, kodanikuühiskond ja õigus",
+    "description_et": "Riigi visioon ja väärtused, demokraatia, erakonnad, valimised, kohtumenetlus, kodanike kaasamine, vabaühendused, vabatahtlik töö ja annetamine.",
+    "topic_ids": [
+      31,
+      33,
+      35,
+      39,
+      46,
+      64,
+      118,
+      147,
+      217,
+      233,
+      34,
+      50,
+      128,
+      159
+    ]
+  },
+  {
+    "id": "migration",
+    "name_et": "Ränne, lõimumine ja kuuluvus",
+    "description_et": "Rändepoliitika, elamisload, pagulus, keeleline ja rahvuslik identiteet, ühiskonda kohanemine ning eri taustaga inimeste kuuluvus.",
+    "topic_ids": [
+      65,
+      74,
+      79,
+      92,
+      93,
+      121,
+      133,
+      187,
+      206
+    ]
+  },
+  {
+    "id": "defence",
+    "name_et": "Riigikaitse, julgeolek ja kriisivalmidus",
+    "description_et": "Ajateenistus ja reserv, kaitsetahe, kaitsekulud ja võimed, hübriidohud, tsiviilkaitse, kriisivarud ja laiapindne riigikaitse.",
+    "topic_ids": [
+      29,
+      45,
+      52,
+      80,
+      83,
+      91,
+      96,
+      100,
+      102,
+      106,
+      189
+    ]
+  },
+  {
+    "id": "international",
+    "name_et": "Rahvusvahelised suhted, Euroopa Liit ja humanitaarabi",
+    "description_et": "Rahvusvaheline poliitika ja konfliktid, USA ja Hiina, Palestiina, ÜRO, ELi eelarve, sanktsioonid ning humanitaarabi ja arengukoostöö.",
+    "topic_ids": [
+      8,
+      81,
+      97,
+      104,
+      124,
+      130,
+      161,
+      192,
+      197,
+      203,
+      228
+    ]
+  },
+  {
+    "id": "children",
+    "name_et": "Laste ja noorte kaitse ning toetamine",
+    "description_et": "Lastekaitse, asendushooldus, laste märkamine, NEET-noorte toetamine, radikaliseerumise ja noorte vägivalla ennetus ning seksuaalne väärkohtlemine ja laste digiturvalisus.",
+    "topic_ids": [
+      0,
+      36,
+      66,
+      76,
+      95,
+      125,
+      129,
+      183,
+      209,
+      232
+    ]
+  },
+  {
+    "id": "food",
+    "name_et": "Toit, põllumajandus ja toidujulgeolek",
+    "description_et": "Toidu tarneahelad ja kriisivalmidus, toiduohutus, raiskamise vähendamine, kuupäevamärgistus ja uudne kohalik toidutootmine.",
+    "topic_ids": [
+      48,
+      51,
+      222
+    ]
+  },
+  {
+    "id": "place",
+    "name_et": "Eluase, ruum ja ühendused",
+    "description_et": "Kodu ostmine ja üürimine, elukeskkond, planeeringud, regionaalareng, kogukondlik eluruum, ühistransport, raudtee ja reisimise korraldus.",
+    "topic_ids": [
+      27,
+      42,
+      56,
+      62,
+      73,
+      94,
+      103,
+      136,
+      140,
+      193,
+      210
+    ]
+  }
+]

@@ -1,0 +1,35 @@
+{
+  "episode_ids": [
+    "2397177249",
+    "2400164916",
+    "2271676346",
+    "2247188693",
+    "2250797867",
+    "2314163816",
+    "2314163813",
+    "2387966373",
+    "2393585466",
+    "2394248499",
+    "2395857123",
+    "2395991463",
+    "2396670927",
+    "2396692746",
+    "2397177243",
+    "2397264585",
+    "2400184983",
+    "2400207765"
+  ],
+  "selection": "Purposeful coverage sample, not random or statistically representative",
+  "datasets": {
+    "original": "/workspace/vividface-storage/arvamusfestivali_analyys/data/topic-analysis/results/segmentation-experiments/broader-pilot/original.parquet",
+    "sentence5": "/workspace/vividface-storage/arvamusfestivali_analyys/data/topic-analysis/results/segmentation-experiments/broader-pilot/sentence5/segments.parquet"
+  },
+  "excluded_candidates": [
+    {
+      "episode_id": "2314163822",
+      "reason": "Sparse ASR timing, including an indivisible 377.96-second cue; cannot enforce a five-minute cap while preserving source cue times",
+      "replacement_episode_id": "2314163813"
+    }
+  ],
+  "original_full_dataset_sha256": "5bdf11fdf388c3de3fe56eb414794e82690c57dae7843107cff424f2a1f3ce99"
+}

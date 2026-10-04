@@ -1,0 +1,107 @@
+{
+  "ai": {
+    "color": "#000000",
+    "color_name": "black",
+    "symbol": "circle"
+  },
+  "children": {
+    "color": "#0000FF",
+    "color_name": "blue",
+    "symbol": "circle"
+  },
+  "climate": {
+    "color": "#FF0000",
+    "color_name": "red",
+    "symbol": "circle"
+  },
+  "culture": {
+    "color": "#006400",
+    "color_name": "darkgreen",
+    "symbol": "circle"
+  },
+  "cyber": {
+    "color": "#FF8C00",
+    "color_name": "darkorange",
+    "symbol": "circle"
+  },
+  "defence": {
+    "color": "#008B8B",
+    "color_name": "darkcyan",
+    "symbol": "circle"
+  },
+  "economy": {
+    "color": "#FF00FF",
+    "color_name": "fuchsia",
+    "symbol": "circle"
+  },
+  "education": {
+    "color": "#FFD700",
+    "color_name": "gold",
+    "symbol": "circle"
+  },
+  "energy": {
+    "color": "#4B0082",
+    "color_name": "indigo",
+    "symbol": "circle"
+  },
+  "family": {
+    "color": "#A52A2A",
+    "color_name": "brown",
+    "symbol": "circle"
+  },
+  "food": {
+    "color": "#00BFFF",
+    "color_name": "deepskyblue",
+    "symbol": "circle"
+  },
+  "governance": {
+    "color": "#32CD32",
+    "color_name": "limegreen",
+    "symbol": "circle"
+  },
+  "healthcare": {
+    "color": "#FF1493",
+    "color_name": "deeppink",
+    "symbol": "circle"
+  },
+  "international": {
+    "color": "#BDB76B",
+    "color_name": "darkkhaki",
+    "symbol": "circle"
+  },
+  "media": {
+    "color": "#708090",
+    "color_name": "slategray",
+    "symbol": "circle"
+  },
+  "migration": {
+    "color": "#D2691E",
+    "color_name": "chocolate",
+    "symbol": "circle"
+  },
+  "nature": {
+    "color": "#66CDAA",
+    "color_name": "mediumaquamarine",
+    "symbol": "circle"
+  },
+  "place": {
+    "color": "#8FBC8F",
+    "color_name": "darkseagreen",
+    "symbol": "circle"
+  },
+  "wellbeing": {
+    "color": "#9370DB",
+    "color_name": "mediumpurple",
+    "symbol": "circle"
+  },
+  "work": {
+    "color": "#E9967A",
+    "color_name": "darksalmon",
+    "symbol": "circle"
+  },
+  "unassigned": {
+    "color": "#A9A9A9",
+    "color_name": "darkgray",
+    "symbol": "circle"
+  }
+}

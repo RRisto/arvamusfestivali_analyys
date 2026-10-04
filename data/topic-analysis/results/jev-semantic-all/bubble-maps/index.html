@@ -1,0 +1,10 @@
+<!doctype html><meta charset="utf-8"><title>Jev bubble maps</title>
+<style>body{font:16px system-ui;margin:20px}button{padding:10px;margin-right:10px}
+iframe{width:100%;height:900px;border:0}</style><h1>Jev topic bubble maps</h1>
+<p>One bubble per detailed topic. Color shows its high-level category. Hover for topic
+names and both counts; click legend entries to filter categories. Zoom and pan to explore.</p>
+<button onclick="document.getElementById('chart').src='segments.html'">Size by segments</button>
+<button onclick="document.getElementById('chart').src='talks.html'">Size by distinct talks</button>
+<p>Positions are a shared UMAP projection of BGE centroids from Jev-assigned segments.
+2D distances are approximate. Unassigned content is excluded.</p>
+<iframe id="chart" src="segments.html" title="Jev bubble map"></iframe>

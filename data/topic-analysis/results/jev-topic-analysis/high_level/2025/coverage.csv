@@ -1,0 +1,22 @@
+topic_id,topic_name,high_level_id,segments,talks,total_minutes,label,color
+ai,Tehisintellekt ja digitehnoloogia,ai,20,10,72.914,ai: Tehisintellekt ja digitehnoloogia,#000000
+children,Laste ja noorte kaitse ning toetamine,children,47,7,233.11204999999998,children: Laste ja noorte kaitse ning toetamine,#0000FF
+climate,"Kliima, rohepööre ja kestlik tarbimine",climate,85,23,388.01925,"climate: Kliima, rohepööre ja kestlik tarbimine",#FF0000
+culture,"Kultuur, loome ja pärand",culture,40,5,206.09855000000002,"culture: Kultuur, loome ja pärand",#006400
+cyber,"Küberturvalisus, privaatsus ja digiohud",cyber,31,6,138.1095833333333,"cyber: Küberturvalisus, privaatsus ja digiohud",#FF8C00
+defence,"Riigikaitse, julgeolek ja kriisivalmidus",defence,161,15,803.8573333333334,"defence: Riigikaitse, julgeolek ja kriisivalmidus",#008B8B
+economy,"Majandus, ettevõtlus ja innovatsioon",economy,65,17,313.8245833333333,"economy: Majandus, ettevõtlus ja innovatsioon",#FF00FF
+education,"Haridus, õppimine ja oskused",education,286,42,1362.1230666666668,"education: Haridus, õppimine ja oskused",#FFD700
+energy,Energeetika ja energiaturud,energy,128,15,586.3978333333333,energy: Energeetika ja energiaturud,#4B0082
+family,"Pere, suhted ja sooline võrdsus",family,37,5,183.69315,"family: Pere, suhted ja sooline võrdsus",#A52A2A
+food,"Toit, põllumajandus ja toidujulgeolek",food,5,2,22.759333333333338,"food: Toit, põllumajandus ja toidujulgeolek",#00BFFF
+governance,"Riigijuhtimine, kodanikuühiskond ja õigus",governance,194,29,926.2623666666666,"governance: Riigijuhtimine, kodanikuühiskond ja õigus",#32CD32
+healthcare,"Tervishoid, ravi ja terviseandmed",healthcare,141,12,679.7023166666667,"healthcare: Tervishoid, ravi ja terviseandmed",#FF1493
+international,"Rahvusvahelised suhted, Euroopa Liit ja humanitaarabi",international,130,15,617.9233999999999,"international: Rahvusvahelised suhted, Euroopa Liit ja humanitaarabi",#BDB76B
+media,"Meedia, avalik arutelu ja infokvaliteet",media,48,11,221.56313333333335,"media: Meedia, avalik arutelu ja infokvaliteet",#708090
+migration,"Ränne, lõimumine ja kuuluvus",migration,46,9,209.66573333333332,"migration: Ränne, lõimumine ja kuuluvus",#D2691E
+nature,"Loodus, metsandus ja maavarad",nature,162,13,783.9729166666667,"nature: Loodus, metsandus ja maavarad",#66CDAA
+place,"Eluase, ruum ja ühendused",place,53,8,262.30605,"place: Eluase, ruum ja ühendused",#8FBC8F
+unassigned,Määramata,unassigned,226,81,709.8546833333334,unassigned: Määramata,#A9A9A9
+wellbeing,"Vaimne tervis, tervisekäitumine ja ennetus",wellbeing,102,17,453.0061,"wellbeing: Vaimne tervis, tervisekäitumine ja ennetus",#9370DB
+work,"Tööelu, juhtimine ja töötajate õigused",work,147,21,747.5674333333334,"work: Tööelu, juhtimine ja töötajate õigused",#E9967A

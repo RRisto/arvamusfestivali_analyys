@@ -1,0 +1,31 @@
+{
+  "source_sha256": "0d19d6dab7d43c0d837528d42304ad39739f2e43f7056b8eda4aeea1a3049405",
+  "segments": 4132,
+  "assigned_segments": 3743,
+  "topics": 236,
+  "categories": 20,
+  "centroid_method": "Normalized mean of original1024-dimensional BGE vectors for Jev primary-topic members, equal segment weights",
+  "embedding_model": "BAAI/bge-m3",
+  "embedding_revision": "5617a9f61b028005a4858fdac845db406aefb181",
+  "cache_digest": "f534ca8dc656c1cd2011fbb04b810840cb19c7db08e5386d2370f05de0f2b4ea",
+  "projection": {
+    "method": "UMAP",
+    "n_neighbors": 15,
+    "n_components": 2,
+    "min_dist": 0.15,
+    "metric": "cosine",
+    "random_state": 42,
+    "init": "random"
+  },
+  "size": "Bubble area, not diameter, proportional to segment count or distinct episode count",
+  "colors": "20 unique colors selected from the user-provided named color list",
+  "unassigned": "389 unassigned segments excluded; no coherent centroid implied",
+  "coordinate_scope": "Jev member centroids, not original model-cluster centroids. Both views share the same coordinates.",
+  "versions": {
+    "numpy": "2.5.3",
+    "plotly": "6.9.0",
+    "umap-learn": "0.5.12"
+  },
+  "style_source_sha256": "35f9ade116f873b83952a9827cc8731b421e9a74e6b84d9ee30b1a57e615af8f",
+  "symbols": "Circular bubbles for all topics"
+}

@@ -1,0 +1,45 @@
+{
+  "created_at": "2026-10-04T09:13:34.188895+00:00",
+  "sample_episode_ids": [
+    "2247188693",
+    "2250797867",
+    "2271676346",
+    "2314163813",
+    "2314163816",
+    "2387966373",
+    "2393585466",
+    "2394248499",
+    "2395857123",
+    "2395991463",
+    "2396670927",
+    "2396692746",
+    "2397177243",
+    "2397177249",
+    "2397264585",
+    "2400164916",
+    "2400184983",
+    "2400207765"
+  ],
+  "variants": [
+    "original",
+    "sentence5"
+  ],
+  "seeds": [
+    42,
+    7,
+    19
+  ],
+  "candidate": "leaf-local-6-2",
+  "device": "cuda",
+  "embedding_model": "BAAI/bge-m3",
+  "embedding_revision": "5617a9f61b028005a4858fdac845db406aefb181",
+  "versions": {
+    "bertopic": "0.17.4",
+    "hdbscan": "0.8.44",
+    "umap-learn": "0.5.12",
+    "numpy": "2.5.3",
+    "scikit-learn": "1.9.1",
+    "torch": "2.14.0+cu126"
+  },
+  "scope": "Independent 18-talk fits; do not compare counts directly to full-corpus 236 topics"
+}

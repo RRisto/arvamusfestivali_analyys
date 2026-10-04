@@ -1,0 +1,9 @@
+{
+  "programme_year": 2026,
+  "source_sha256": "301b2602d4ac49bc64461094acf83dc543b5ac41c529d3906093d5234bc551d0",
+  "counts_scope": "Festival year only",
+  "segments": 1978,
+  "talks": 105,
+  "coordinate_scope": null,
+  "talk_area_rule": "Treemap category area sums child memberships; labels count unions"
+}

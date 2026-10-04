@@ -1,0 +1,238 @@
+topic_id,topic_name,high_level_id,segments,talks,total_minutes,label,color
+-1,Unassigned,unassigned,389,156,1190.70755,-1: Unassigned,#A9A9A9
+0,noorte radikaliseerumine ja kuuluvus,children,28,4,131.43355,0: noorte radikaliseerumine ja kuuluvus,#0000FF
+1,Tööõnnetuste ennetus ja tööohutuse teadlikkus,work,38,2,174.63331666666667,1: Tööõnnetuste ennetus ja tööohutuse teadlikkus,#E9967A
+10,Nõusolek paarisuhtes ja läheduses,family,20,2,100.18228333333332,10: Nõusolek paarisuhtes ja läheduses,#A52A2A
+100,naiste ajateenistuse laiendamine riigikaitses,defence,16,3,81.80191666666667,100: naiste ajateenistuse laiendamine riigikaitses,#008B8B
+101,Liikumisharjumuste kujundamine lastel,wellbeing,17,4,79.34743333333333,101: Liikumisharjumuste kujundamine lastel,#9370DB
+102,Hispaaniasse kolimise hirm reservväelaste seas,defence,6,1,24.472,102: Hispaaniasse kolimise hirm reservväelaste seas,#008B8B
+103,üleriigiline planeering ja ruumipoliitika,place,34,6,147.89656666666667,103: üleriigiline planeering ja ruumipoliitika,#8FBC8F
+104,Trumpi mõju USA poliitika ja Ukraina suunal,international,19,6,116.23145,104: Trumpi mõju USA poliitika ja Ukraina suunal,#BDB76B
+105,Linnugripi ja marutaudi vaktsineerimine,healthcare,12,1,64.91933333333334,105: Linnugripi ja marutaudi vaktsineerimine,#FF1493
+106,Sooneutraalne ajateenistus ja reservi täitmine,defence,18,4,84.59800000000001,106: Sooneutraalne ajateenistus ja reservi täitmine,#008B8B
+107,Fookuse hoidmise liikumismängud,education,9,1,42.82588333333334,107: Fookuse hoidmise liikumismängud,#FFD700
+108,Kultuuriretsepti rakendamine vaimse tervise toetuseks,wellbeing,14,1,77.14515,108: Kultuuriretsepti rakendamine vaimse tervise toetuseks,#9370DB
+109,AI päringute energiakulu läbipaistvus,climate,16,2,79.81723333333333,109: AI päringute energiakulu läbipaistvus,#FF0000
+11,laste nutiekraani ja sotsiaalmeedia sõltuvus,wellbeing,41,9,178.4188,11: laste nutiekraani ja sotsiaalmeedia sõltuvus,#9370DB
+110,Perearstikeskuste küberturvalisuse nõuded,cyber,13,1,78.09466666666665,110: Perearstikeskuste küberturvalisuse nõuded,#FF8C00
+111,Diabeedi vaimne koormus ja kriis,wellbeing,13,1,63.25306666666666,111: Diabeedi vaimne koormus ja kriis,#9370DB
+112,Autoriõigused ja AI treeningu läbipaistvus,ai,16,3,75.36869999999999,112: Autoriõigused ja AI treeningu läbipaistvus,#000000
+113,Rohe- ja heaolu­väidete eksitavus reklaamis,media,15,2,83.18596666666667,113: Rohe- ja heaolu­väidete eksitavus reklaamis,#708090
+114,Sotsiaalmeedia poliitilise arutelu kvaliteet,media,23,6,104.46108333333335,114: Sotsiaalmeedia poliitilise arutelu kvaliteet,#708090
+115,Patsiendi info jagamine ja koostöö,healthcare,32,9,165.84328333333332,115: Patsiendi info jagamine ja koostöö,#FF1493
+116,Programmeerijaks saamise oskused ja praktikaotsing,education,11,2,49.653766666666684,116: Programmeerijaks saamise oskused ja praktikaotsing,#FFD700
+117,Kaugkütte hinna kujunemine ja püsitasu,energy,11,2,56.12866666666665,117: Kaugkütte hinna kujunemine ja püsitasu,#4B0082
+118,Visiooni ja väärtuste vaidlus riigijuhtimises,governance,21,11,117.06514999999999,118: Visiooni ja väärtuste vaidlus riigijuhtimises,#32CD32
+119,Naiste osakaalu suurendamine IKT-s,work,18,2,84.41705,119: Naiste osakaalu suurendamine IKT-s,#E9967A
+12,sündimuse toetamine läbi perekindluse,family,18,3,95.44181666666665,12: sündimuse toetamine läbi perekindluse,#A52A2A
+120,AI odava kasutuselevõtu ja eksporti,ai,6,3,34.18866666666666,120: AI odava kasutuselevõtu ja eksporti,#000000
+121,Eestisse kolinud pagulaste kuuluvus ja kohanemine,migration,14,2,77.83448333333334,121: Eestisse kolinud pagulaste kuuluvus ja kohanemine,#D2691E
+122,Tööülesannete paindlik jaotamine,work,8,1,46.83401666666668,122: Tööülesannete paindlik jaotamine,#E9967A
+123,Startupide registreerimise ja fondi-õiguse lihtsustamine,economy,11,2,58.538000000000004,123: Startupide registreerimise ja fondi-õiguse lihtsustamine,#FF00FF
+124,Von der Leyeni EL-i eelarve ja maksud,international,18,3,89.10858333333333,124: Von der Leyeni EL-i eelarve ja maksud,#BDB76B
+125,Tubli lapse surve ja märkamine,children,6,3,32.60273333333334,125: Tubli lapse surve ja märkamine,#0000FF
+126,noorte filmiarutelud ja tagasiside,culture,10,1,59.49033333333334,126: noorte filmiarutelud ja tagasiside,#006400
+127,Elektribörsi hinnakujunduse jaotumine,energy,16,4,79.29743333333333,127: Elektribörsi hinnakujunduse jaotumine,#4B0082
+128,Annetuste mõju ja annetamise normaliseerimine,governance,27,6,122.91525,128: Annetuste mõju ja annetamise normaliseerimine,#32CD32
+129,lapsega esmakontakti loomine lastekaitses,children,12,3,55.98278333333333,129: lapsega esmakontakti loomine lastekaitses,#0000FF
+13,Emaduse karjäärikaod ja naasmine tööle,family,19,4,90.96200000000002,13: Emaduse karjäärikaod ja naasmine tööle,#A52A2A
+130,ÜRO reform ja väikeriikide hääl,international,30,5,150.30381666666665,130: ÜRO reform ja väikeriikide hääl,#BDB76B
+131,Haigekassa rahastusmudeli ümbermõtestamine,healthcare,20,6,96.48936666666667,131: Haigekassa rahastusmudeli ümbermõtestamine,#FF1493
+132,Eesti elektritarbimise ja tootmise sihid,energy,29,11,145.09018333333333,132: Eesti elektritarbimise ja tootmise sihid,#4B0082
+133,Rände integreerimise ja keelepoliitika riskid,migration,28,5,123.428,133: Rände integreerimise ja keelepoliitika riskid,#D2691E
+134,Õpetaja Laura tulevikuõpetuse stsenaariumid,education,9,1,39.52291666666667,134: Õpetaja Laura tulevikuõpetuse stsenaariumid,#FFD700
+135,Õpilasesinduse sisuline kaasamine,education,13,1,71.62896666666667,135: Õpilasesinduse sisuline kaasamine,#FFD700
+136,Maapiirkondade teenuste ja ühenduste koosplaneerimine,place,21,7,97.65249999999999,136: Maapiirkondade teenuste ja ühenduste koosplaneerimine,#8FBC8F
+137,AI roll arstide suhtluses ja vähiravis,healthcare,13,4,65.6634,137: AI roll arstide suhtluses ja vähiravis,#FF1493
+138,Kriisi olukorras otsustamine ja juhtimine,work,18,7,74.45400000000001,138: Kriisi olukorras otsustamine ja juhtimine,#E9967A
+139,Tehisaru mõju õppimisele ja hindamisele,education,22,9,114.99653333333333,139: Tehisaru mõju õppimisele ja hindamisele,#FFD700
+14,Üksilduse vähendamine suhtluse ja kogukonnaga,wellbeing,26,5,99.09301666666668,14: Üksilduse vähendamine suhtluse ja kogukonnaga,#9370DB
+140,üldplaneeringus haljastuse ja rohekoridoride säilitamine,place,10,2,64.028,140: üldplaneeringus haljastuse ja rohekoridoride säilitamine,#8FBC8F
+141,TalTechi energeetikaõpingud ja tööalane suund,education,9,2,41.70066666666667,141: TalTechi energeetikaõpingud ja tööalane suund,#FFD700
+142,"Väikeettevõtjate maksud, hanked ja eksport",economy,16,7,77.92466666666667,"142: Väikeettevõtjate maksud, hanked ja eksport",#FF00FF
+143,Terviseidu turuletoomise rahastus ja regulatsioon,healthcare,21,5,93.40836666666667,143: Terviseidu turuletoomise rahastus ja regulatsioon,#FF1493
+144,Minimalistlik ökoeluviis ja piisavus,climate,13,2,59.7607,144: Minimalistlik ökoeluviis ja piisavus,#FF0000
+145,Õpetajate ja õpilaste AI-kohandumine,education,21,7,107.03466666666667,145: Õpetajate ja õpilaste AI-kohandumine,#FFD700
+146,Inseneeriaõppe ja tehnikahariduse järelkasv,education,17,10,86.3326666666667,146: Inseneeriaõppe ja tehnikahariduse järelkasv,#FFD700
+147,Noorte osalus erakondade noortekogudes,governance,6,2,25.547333333333327,147: Noorte osalus erakondade noortekogudes,#32CD32
+148,Infosõja vastulöök ja väärinfo tõrjumine,media,35,11,164.55151666666666,148: Infosõja vastulöök ja väärinfo tõrjumine,#708090
+149,tehisintellekti kirjutatud teadusartiklite usaldus ja hindamine,education,5,3,27.990283333333338,149: tehisintellekti kirjutatud teadusartiklite usaldus ja hindamine,#FFD700
+15,lapsevanema kaasamine lasteaia koostöösse,education,18,3,94.99543333333335,15: lapsevanema kaasamine lasteaia koostöösse,#FFD700
+150,Naiste juhtide ja isade rolliootused,family,19,5,79.992,150: Naiste juhtide ja isade rolliootused,#A52A2A
+151,Tervishoiu konkurentsi tasakaal,healthcare,13,3,68.82776666666665,151: Tervishoiu konkurentsi tasakaal,#FF1493
+152,CO2 kvoodikaubanduse reform ja ETS2,climate,20,7,90.60795,152: CO2 kvoodikaubanduse reform ja ETS2,#FF0000
+153,Vähipatsiendi infoedastuse vastutus,healthcare,12,3,56.925333333333334,153: Vähipatsiendi infoedastuse vastutus,#FF1493
+154,Interneti solvangute ja ähvarduste ohjeldamine,cyber,10,3,52.79214999999998,154: Interneti solvangute ja ähvarduste ohjeldamine,#FF8C00
+155,AI-agentide vastutus ja kontroll,ai,44,10,190.82466666666662,155: AI-agentide vastutus ja kontroll,#000000
+156,Meretuuleparkide arendamise kindlustamine,energy,5,2,24.799333333333333,156: Meretuuleparkide arendamise kindlustamine,#4B0082
+157,Startup-ökosüsteemi kogukond ja eeskujud,economy,20,5,83.83308333333332,157: Startup-ökosüsteemi kogukond ja eeskujud,#FF00FF
+158,e-sigarettide salaturg noorte seas,wellbeing,9,1,35.96066666666667,158: e-sigarettide salaturg noorte seas,#9370DB
+159,Vabatahtlike hoidmine ja kaasamise barjäärid,governance,13,3,69.80133333333335,159: Vabatahtlike hoidmine ja kaasamise barjäärid,#32CD32
+16,Töökiusamise piiri tõmbamine tööl,work,25,4,135.80066666666664,16: Töökiusamise piiri tõmbamine tööl,#E9967A
+160,Juhitavate elektrivõimsuste vajadus Eestis,energy,38,7,205.70911666666666,160: Juhitavate elektrivõimsuste vajadus Eestis,#4B0082
+161,Ekspordi eetika sanktsiooniriikides,international,9,1,44.031433333333325,161: Ekspordi eetika sanktsiooniriikides,#BDB76B
+162,Seto kultuuri üleküllus koolis,culture,1,1,2.65,162: Seto kultuuri üleküllus koolis,#006400
+163,Läbipõlemise varajaste märkide märkamine,wellbeing,21,8,94.82861666666668,163: Läbipõlemise varajaste märkide märkamine,#9370DB
+164,Emadus ja koolikultuur kultuuri kandjana,culture,10,2,50.07866666666666,164: Emadus ja koolikultuur kultuuri kandjana,#006400
+165,Pätsi ja Vabadussõja ajalooline kasutus,culture,5,1,28.233999999999998,165: Pätsi ja Vabadussõja ajalooline kasutus,#006400
+166,Puidu väärindamine raiemahtu vähendades,nature,20,8,86.85571666666667,166: Puidu väärindamine raiemahtu vähendades,#66CDAA
+167,metsade tagavara langus ja arvestuslangi vaidlus,nature,13,2,65.57333333333334,167: metsade tagavara langus ja arvestuslangi vaidlus,#66CDAA
+168,Paindlik tööaeg ja kokkulepitud piirid,work,23,6,98.47218333333335,168: Paindlik tööaeg ja kokkulepitud piirid,#E9967A
+169,Majanduskasvu ja heaolu vaidlus,economy,28,12,119.38174999999997,169: Majanduskasvu ja heaolu vaidlus,#FF00FF
+17,Biogaasi ja vesiniku kasutus Eestis,energy,26,10,122.08408333333335,17: Biogaasi ja vesiniku kasutus Eestis,#4B0082
+170,AI abil teksti ja heli konverteerimine,ai,1,1,5.387333333333333,170: AI abil teksti ja heli konverteerimine,#000000
+171,Tehisintellekti kasutus kooliõppes,education,17,6,75.38128333333331,171: Tehisintellekti kasutus kooliõppes,#FFD700
+172,Alushariduse vastutus ja kvaliteet,education,42,7,201.50231666666667,172: Alushariduse vastutus ja kvaliteet,#FFD700
+173,Ettevõtete kvoodid ja sooline tasakaal,family,7,2,33.674000000000014,173: Ettevõtete kvoodid ja sooline tasakaal,#A52A2A
+174,Maksutõusud ja majanduse toimetulek,economy,14,7,69.02606666666668,174: Maksutõusud ja majanduse toimetulek,#FF00FF
+175,Matemaatika visuaalsed mustrid ja ratta jäljed,education,12,2,69.94128333333333,175: Matemaatika visuaalsed mustrid ja ratta jäljed,#FFD700
+176,Eesti loodusidentiteet ja kliimaskepsis,climate,11,4,38.91133333333334,176: Eesti loodusidentiteet ja kliimaskepsis,#FF0000
+177,muuseumikülastuse takistused noortel,culture,5,1,27.14733333333333,177: muuseumikülastuse takistused noortel,#006400
+178,Noorte alkoholiga pidutsemine ja surve,wellbeing,16,1,82.56413333333333,178: Noorte alkoholiga pidutsemine ja surve,#9370DB
+179,Covidijärgne nakkushaiguste seaduse muutmine,healthcare,7,3,53.413416666666656,179: Covidijärgne nakkushaiguste seaduse muutmine,#FF1493
+18,Töökiusu ja vaidluste piiritlemine töösuhtes,work,22,5,117.97333333333336,18: Töökiusu ja vaidluste piiritlemine töösuhtes,#E9967A
+180,Õpetaja hoituse rollid alushariduses,education,11,1,51.698566666666665,180: Õpetaja hoituse rollid alushariduses,#FFD700
+181,Eesti elektritarbimise kasv ja puudujääk,energy,6,5,28.397333333333325,181: Eesti elektritarbimise kasv ja puudujääk,#4B0082
+182,terviseandmete kasutus ja eetikakomitee loa takistused,healthcare,8,5,33.62466666666667,182: terviseandmete kasutus ja eetikakomitee loa takistused,#FF1493
+183,noorte vägivalla taga peituv tähelepanuvajadus,children,11,1,43.37866666666665,183: noorte vägivalla taga peituv tähelepanuvajadus,#0000FF
+184,"Noorte veipimise, nikotiini ja salaturu piiramine",wellbeing,9,2,48.32033333333333,"184: Noorte veipimise, nikotiini ja salaturu piiramine",#9370DB
+185,meeste osa koduses ja lapsehoius,family,15,3,61.76623333333332,185: meeste osa koduses ja lapsehoius,#A52A2A
+186,AI mõju töökorraldusele ja tööturule,ai,42,19,197.10166666666663,186: AI mõju töökorraldusele ja tööturule,#000000
+187,Sisserände juhtimine ja talendivajadus,migration,16,6,68.66266666666668,187: Sisserände juhtimine ja talendivajadus,#D2691E
+188,Inseneride nappus ja palga küsimus,education,5,4,21.08733333333333,188: Inseneride nappus ja palga küsimus,#FFD700
+189,kihiline õhukaitse ja mehitamata võimed,defence,5,2,26.857333333333322,189: kihiline õhukaitse ja mehitamata võimed,#008B8B
+19,teadlaste ja ajakirjanduse suhtlusriskid,media,19,2,84.5611666666667,19: teadlaste ja ajakirjanduse suhtlusriskid,#708090
+190,Eesti hariduse eesmärgid ja sihid,education,47,23,199.88375000000002,190: Eesti hariduse eesmärgid ja sihid,#FFD700
+191,Soola vähendamine ja igapäevane liikumine,wellbeing,14,4,62.92666666666667,191: Soola vähendamine ja igapäevane liikumine,#9370DB
+192,Rahapõhine abi humanitaarkriisides,international,5,1,14.188666666666666,192: Rahapõhine abi humanitaarkriisides,#BDB76B
+193,Raudteeühenduse ja ühistranspordi koordineerimine,place,6,3,28.159333333333333,193: Raudteeühenduse ja ühistranspordi koordineerimine,#8FBC8F
+194,andmekeskuste elektri- ja võrgulahendus,energy,5,3,31.058666666666664,194: andmekeskuste elektri- ja võrgulahendus,#4B0082
+195,Tervisehoolekande tehnoloogiad ja andmepõhine lõimimine,healthcare,24,11,95.29298333333332,195: Tervisehoolekande tehnoloogiad ja andmepõhine lõimimine,#FF1493
+196,Lasteaia liikumisharjumuste ja toitumise kujundamine,wellbeing,3,1,14.590666666666674,196: Lasteaia liikumisharjumuste ja toitumise kujundamine,#9370DB
+197,Ajaloolised paralleelid tänapäeva konfliktidele,international,18,4,78.04433333333334,197: Ajaloolised paralleelid tänapäeva konfliktidele,#BDB76B
+198,Tuulikuinfraheli häirivuse ja tervisemõju vaidlus,energy,19,3,69.48563333333333,198: Tuulikuinfraheli häirivuse ja tervisemõju vaidlus,#4B0082
+199,AI kasutamine töö- ja loometekstide koostamisel,ai,12,8,37.06933333333333,199: AI kasutamine töö- ja loometekstide koostamisel,#000000
+2,Vähiravi patsiendikesksus ja palliatiivne tugi,healthcare,19,5,98.554,2: Vähiravi patsiendikesksus ja palliatiivne tugi,#FF1493
+20,Nutiseadmete kasutuse piiramine koolis,education,12,3,66.73,20: Nutiseadmete kasutuse piiramine koolis,#FFD700
+200,Metsa raiemahtude ja kaitse vaidlus,nature,24,6,104.09519999999999,200: Metsa raiemahtude ja kaitse vaidlus,#66CDAA
+201,Eesti majanduskasvu aeglane koordineerimine,economy,12,3,63.48650000000002,201: Eesti majanduskasvu aeglane koordineerimine,#FF00FF
+202,IT-värbamine ja palgataseme kerked,work,7,2,42.898666666666664,202: IT-värbamine ja palgataseme kerked,#E9967A
+203,Hiina mõju USA kaubandus- ja tarneahelatele,international,8,5,42.858000000000004,203: Hiina mõju USA kaubandus- ja tarneahelatele,#BDB76B
+204,Terviseandmete kasutamine ravi ja ennetuse parandamiseks,healthcare,28,6,131.04591666666664,204: Terviseandmete kasutamine ravi ja ennetuse parandamiseks,#FF1493
+205,Noorte muuseumikülastuse meelitamine,culture,12,1,58.28111666666666,205: Noorte muuseumikülastuse meelitamine,#006400
+206,Euroopa rändereformi ja piirivalve valmisolek,migration,4,2,21.07800000000001,206: Euroopa rändereformi ja piirivalve valmisolek,#D2691E
+207,MMS ja seemneõli tervisevildakus,wellbeing,10,3,32.48800000000001,207: MMS ja seemneõli tervisevildakus,#9370DB
+208,Tulemuspõhine tervishoiurahastus ja kaugjälgimine,healthcare,14,5,58.93133333333333,208: Tulemuspõhine tervishoiurahastus ja kaugjälgimine,#FF1493
+209,Laste internetikäitumine ja abiotsimine,children,12,5,52.531383333333316,209: Laste internetikäitumine ja abiotsimine,#0000FF
+21,Tööelu jätkamine kroonilise haiguse ajal,work,17,1,84.33933333333334,21: Tööelu jätkamine kroonilise haiguse ajal,#E9967A
+210,Järvamaa üürituru ja turuhindade vaidlus,place,4,1,25.446,210: Järvamaa üürituru ja turuhindade vaidlus,#8FBC8F
+211,Tuuleparkide kaasamise murede tuum,energy,25,9,103.07818333333333,211: Tuuleparkide kaasamise murede tuum,#4B0082
+212,kaugkütte elektrifitseerimine ja hinnastamine,energy,17,4,91.71420000000002,212: kaugkütte elektrifitseerimine ja hinnastamine,#4B0082
+213,Tuuliku müra normid ja mõõtmised,energy,8,1,30.892666666666663,213: Tuuliku müra normid ja mõõtmised,#4B0082
+214,välistööjõu kasutamine hooaja- ja lihttöödel,work,9,2,52.29528333333334,214: välistööjõu kasutamine hooaja- ja lihttöödel,#E9967A
+215,Laulupeo ja Pätsi ümber käiv väärinfo,media,4,1,13.602666666666673,215: Laulupeo ja Pätsi ümber käiv väärinfo,#708090
+216,rohetehnoloogia investeeringute ja turu takistused,climate,30,17,148.73533333333336,216: rohetehnoloogia investeeringute ja turu takistused,#FF0000
+217,Erakonnajuhid ja noorte esindajad laval,governance,7,4,21.326849999999997,217: Erakonnajuhid ja noorte esindajad laval,#32CD32
+218,Töövaidluste kompromissid ja töölepingu vaidlused,work,16,4,80.15283333333333,218: Töövaidluste kompromissid ja töölepingu vaidlused,#E9967A
+219,Palestiina ja progressiivsete teemade kallutatud kajastus,media,10,2,46.81600000000001,219: Palestiina ja progressiivsete teemade kallutatud kajastus,#708090
+22,Ukraina turule sisenemine kohaliku partneriga,economy,15,3,80.25233333333331,22: Ukraina turule sisenemine kohaliku partneriga,#FF00FF
+220,Bioressursside väärindamise takistused,nature,9,1,48.50266666666664,220: Bioressursside väärindamise takistused,#66CDAA
+221,Metsa istandike rajamine ja regulatsioon,nature,4,1,16.947333333333336,221: Metsa istandike rajamine ja regulatsioon,#66CDAA
+222,Valgu tootmine kohalike biojääkide pealt,food,5,2,22.759333333333338,222: Valgu tootmine kohalike biojääkide pealt,#00BFFF
+223,Eleringi vähempakkumised uute elektrivõimsuste jaoks,energy,8,4,25.99766666666667,223: Eleringi vähempakkumised uute elektrivõimsuste jaoks,#4B0082
+224,Sagedusreservi hange ja liitumistingimused,energy,8,4,40.138000000000005,224: Sagedusreservi hange ja liitumistingimused,#4B0082
+225,hariduse tulevikuala arutelude tutvustus,education,9,6,24.6567,225: hariduse tulevikuala arutelude tutvustus,#FFD700
+226,raviraha jaotamine patsiendiga kaasa,healthcare,9,3,47.684000000000005,226: raviraha jaotamine patsiendiga kaasa,#FF1493
+227,Põlevkivile õigustava teadlase valimine,media,5,1,18.015333333333327,227: Põlevkivile õigustava teadlase valimine,#708090
+228,ÜRO Julgeolekunõukogu reformiummik,international,2,1,9.858666666666675,228: ÜRO Julgeolekunõukogu reformiummik,#BDB76B
+229,Üliõpilaste roll ja kõrghariduse ootused,education,8,2,36.78576666666668,229: Üliõpilaste roll ja kõrghariduse ootused,#FFD700
+23,õpilasmaleva esimese töökogemuse roll,education,20,3,94.29955000000001,23: õpilasmaleva esimese töökogemuse roll,#FFD700
+230,Eesti majanduskasvu pidurdavad välis- ja usaldustegurid,economy,6,4,17.845333333333322,230: Eesti majanduskasvu pidurdavad välis- ja usaldustegurid,#FF00FF
+231,Fosforiidi arutelu ja kogukonna vastuseis,nature,14,4,63.772949999999994,231: Fosforiidi arutelu ja kogukonna vastuseis,#66CDAA
+232,Noorte vanglast saatmine pärast rasket vägivalda,children,3,1,16.01133333333333,232: Noorte vanglast saatmine pärast rasket vägivalda,#0000FF
+233,Kaasamise aeglane juhtimine ja valeinfo,governance,5,3,35.35866666666668,233: Kaasamise aeglane juhtimine ja valeinfo,#32CD32
+234,AI muudab üksikettevõtluse lihtsamaks,ai,10,5,49.41850000000002,234: AI muudab üksikettevõtluse lihtsamaks,#000000
+235,Tuuleparkide rahvaalgatuste ja alguspunkti vaidlus,energy,4,1,20.461999999999996,235: Tuuleparkide rahvaalgatuste ja alguspunkti vaidlus,#4B0082
+24,Eesti kliimahoiakud ja rohepöörde skeptitsism,climate,42,15,200.97938333333332,24: Eesti kliimahoiakud ja rohepöörde skeptitsism,#FF0000
+25,Teadmussiirdedoktorantuuri ettevõtluslik praktilisus,education,20,5,105.64524999999998,25: Teadmussiirdedoktorantuuri ettevõtluslik praktilisus,#FFD700
+26,Islami ja kristluse roll ühiskonnas,culture,12,1,59.19533333333333,26: Islami ja kristluse roll ühiskonnas,#006400
+27,Reisiks valmistumine ja turvalisus,place,12,1,55.82885,27: Reisiks valmistumine ja turvalisus,#8FBC8F
+28,Täiskasvanute ümberõpe ja õppimise paindlikkus,education,16,2,77.16973333333334,28: Täiskasvanute ümberõpe ja õppimise paindlikkus,#FFD700
+29,Läänemeremaade julgeolekukoostöö NATO varjus,defence,14,3,74.11575,29: Läänemeremaade julgeolekukoostöö NATO varjus,#008B8B
+3,Juhi ja töötaja äärmused organisatsioonis,work,19,5,88.52733333333333,3: Juhi ja töötaja äärmused organisatsioonis,#E9967A
+30,"laste hambaravi, narkoos ja vanema vastutus",healthcare,20,1,84.28155,"30: laste hambaravi, narkoos ja vanema vastutus",#FF1493
+31,Valimiste valvamine ja rahastamise läbipaistvus,governance,17,2,73.618,31: Valimiste valvamine ja rahastamise läbipaistvus,#32CD32
+32,Vererõhu ja südameriski varajane ennetus,wellbeing,8,3,40.484,32: Vererõhu ja südameriski varajane ennetus,#9370DB
+33,Kogukonna hääle kaasamine otsustesse,governance,19,13,86.04800000000002,33: Kogukonna hääle kaasamine otsustesse,#32CD32
+34,Vabaühenduste rahastamise läbipaistvus ja sõltumatus,governance,20,2,92.40111666666665,34: Vabaühenduste rahastamise läbipaistvus ja sõltumatus,#32CD32
+35,Rahvakohtunike ja menetluse tõhustamise vaidlus,governance,14,1,61.001700000000014,35: Rahvakohtunike ja menetluse tõhustamise vaidlus,#32CD32
+36,Lastekodukasvamise kogemus ja märkamise roll,children,29,4,125.36133333333333,36: Lastekodukasvamise kogemus ja märkamise roll,#0000FF
+37,kliimariski mõju vee- ja soojusvarustusele,climate,20,6,86.81866666666667,37: kliimariski mõju vee- ja soojusvarustusele,#FF0000
+38,eesti keele õppimine mitmekeelses koolis,education,13,3,60.56643333333335,38: eesti keele õppimine mitmekeelses koolis,#FFD700
+39,Vasakpoolsuse ja identiteedi pinged,governance,19,2,92.21209999999999,39: Vasakpoolsuse ja identiteedi pinged,#32CD32
+4,"Lasteaia kvaliteet, märkamise ja toetuse roll",education,26,6,121.03601666666664,"4: Lasteaia kvaliteet, märkamise ja toetuse roll",#FFD700
+40,Õige keha- ja seksuaalsõnavara õpetamine,family,11,2,51.171333333333344,40: Õige keha- ja seksuaalsõnavara õpetamine,#A52A2A
+41,Laste piltide postitamine vanemate poolt,cyber,11,1,53.33266666666666,41: Laste piltide postitamine vanemate poolt,#FF8C00
+42,Idapiirialade eraldi regionaalpoliitika,place,17,2,78.58795,42: Idapiirialade eraldi regionaalpoliitika,#8FBC8F
+43,Välistöötajate ärakasutamine ja palgavõlg,work,13,1,56.62358333333333,43: Välistöötajate ärakasutamine ja palgavõlg,#E9967A
+44,Tööstuse energiaportfelli ja emissioonide optimeerimine,climate,10,5,50.91359999999999,44: Tööstuse energiaportfelli ja emissioonide optimeerimine,#FF0000
+45,Lai riigikaitse kodune ja kogukondlik valmisolek,defence,44,7,209.53648333333334,45: Lai riigikaitse kodune ja kogukondlik valmisolek,#008B8B
+46,laimavate netikommentaaride ja mainekahju vaidlused kohtus,governance,23,2,102.57153333333333,46: laimavate netikommentaaride ja mainekahju vaidlused kohtus,#32CD32
+47,Ülekaaluravimite hüvitamine ja elustiil,healthcare,18,1,79.56551666666665,47: Ülekaaluravimite hüvitamine ja elustiil,#FF1493
+48,Toidujulgeoleku tarneahela toimepidevus,food,21,4,96.51446666666668,48: Toidujulgeoleku tarneahela toimepidevus,#00BFFF
+49,Eesti keele kvaliteet suurtes keelemudelites,ai,15,5,64.62599999999999,49: Eesti keele kvaliteet suurtes keelemudelites,#000000
+5,Rohetehnoloogia rahastus ja laenuotsused,climate,10,5,63.35233333333334,5: Rohetehnoloogia rahastus ja laenuotsused,#FF0000
+50,Annetuste kasutamine organisatsiooni kuludeks,governance,14,2,76.57600000000001,50: Annetuste kasutamine organisatsiooni kuludeks,#32CD32
+51,parim enne ja kõlblik kuni märgistus,food,13,1,53.18533333333334,51: parim enne ja kõlblik kuni märgistus,#00BFFF
+52,Narva-ründe ja hübriidohu arutelu,defence,12,3,63.91510000000001,52: Narva-ründe ja hübriidohu arutelu,#008B8B
+53,koolivõrgu koondamine ja juhtimisotsused,education,14,3,67.23066666666665,53: koolivõrgu koondamine ja juhtimisotsused,#FFD700
+54,Istanbuli konventsiooni vaidlused ja rakendamine,family,20,2,102.44576666666667,54: Istanbuli konventsiooni vaidlused ja rakendamine,#A52A2A
+55,Püsimetsanduse definitsioon ja valikraie,nature,18,1,88.15933333333334,55: Püsimetsanduse definitsioon ja valikraie,#66CDAA
+56,Noorte koduostu ja üüri kättesaadavus,place,17,4,78.78323333333333,56: Noorte koduostu ja üüri kättesaadavus,#8FBC8F
+57,Tugevustel põhinev paindlik koolikorraldus,education,13,1,70.75466666666668,57: Tugevustel põhinev paindlik koolikorraldus,#FFD700
+58,Türgi hambaravi garantii- ja parandamisvaidlused,healthcare,17,1,80.82498333333334,58: Türgi hambaravi garantii- ja parandamisvaidlused,#FF1493
+59,Käibemaksu ja toetuste mõju kultuurile,culture,14,2,74.65103333333332,59: Käibemaksu ja toetuste mõju kultuurile,#006400
+6,AI-agentide volitamine isikukoodi kaudu,ai,16,3,75.3568,6: AI-agentide volitamine isikukoodi kaudu,#000000
+60,andmejärelevalve ja tehisintellekti piirid,cyber,27,12,127.80883333333335,60: andmejärelevalve ja tehisintellekti piirid,#FF8C00
+61,Elurikkuse krediitide turu kujundamine,nature,16,1,76.8424,61: Elurikkuse krediitide turu kujundamine,#66CDAA
+62,Rail Balticu ja raudteeühenduste mõju,place,18,4,72.91471666666666,62: Rail Balticu ja raudteeühenduste mõju,#8FBC8F
+63,Paroolide ja wifi kaudu levinud küberpettused,cyber,14,1,64.74824999999998,63: Paroolide ja wifi kaudu levinud küberpettused,#FF8C00
+64,Eesti 2050 ühised unistused ja tulevikunägemus,governance,21,7,109.83266666666665,64: Eesti 2050 ühised unistused ja tulevikunägemus,#32CD32
+65,AI roll elamisloa otsustes,migration,13,1,67.52763333333331,65: AI roll elamisloa otsustes,#D2691E
+66,NEET-noorte toetamine ja vastutuse jagamine,children,16,6,85.882,66: NEET-noorte toetamine ja vastutuse jagamine,#0000FF
+67,Perearsti tööjaotus ja koostöövõrgustik,healthcare,24,5,108.28663333333336,67: Perearsti tööjaotus ja koostöövõrgustik,#FF1493
+68,Ettevõtliku hoiakuga kooli ja töö sidumine,education,15,4,79.83528333333334,68: Ettevõtliku hoiakuga kooli ja töö sidumine,#FFD700
+69,Kohtla-Järve tuhamägede väetisetehas,nature,3,2,11.495999999999999,69: Kohtla-Järve tuhamägede väetisetehas,#66CDAA
+7,Tagasiside ja hinde seos õppimisega,education,32,4,157.09343333333334,7: Tagasiside ja hinde seos õppimisega,#FFD700
+70,Õpiampsud töö- ja enesearengu osana,education,13,3,73.84938333333334,70: Õpiampsud töö- ja enesearengu osana,#FFD700
+71,Miinimumpalga tõstmise mõju tööle ja vaesusele,work,14,3,80.21836666666668,71: Miinimumpalga tõstmise mõju tööle ja vaesusele,#E9967A
+72,Metsaomanike kaitse- ja majandusvaidlused,nature,19,5,101.92255000000002,72: Metsaomanike kaitse- ja majandusvaidlused,#66CDAA
+73,Korteriühistute kogukonnatunde loomine,place,19,1,86.69668333333334,73: Korteriühistute kogukonnatunde loomine,#8FBC8F
+74,eestikeelse suhtluse ja ühiskeele otsimine,migration,9,5,35.94894999999998,74: eestikeelse suhtluse ja ühiskeele otsimine,#D2691E
+75,Tuuleparkide kaasamise usalduskriis,energy,15,3,65.20933333333335,75: Tuuleparkide kaasamise usalduskriis,#4B0082
+76,Laste ja AI-petuste internetiohud,children,12,4,59.10533333333333,76: Laste ja AI-petuste internetiohud,#0000FF
+77,ravikindlustus vabakutselistele loovisikutele,culture,15,2,86.46845,77: ravikindlustus vabakutselistele loovisikutele,#006400
+78,Koduloomuuseumi rahastamine ja jätkamine,culture,15,1,68.29555,78: Koduloomuuseumi rahastamine ja jätkamine,#006400
+79,"Kodu, kool ja sõbrad kujundavad sallivust",migration,19,7,105.112,"79: Kodu, kool ja sõbrad kujundavad sallivust",#D2691E
+8,Palestiina tunnustamise ja kahe riigi debatt,international,19,2,67.89799999999998,8: Palestiina tunnustamise ja kahe riigi debatt,#BDB76B
+80,Varude ja tsiviilkaasatuse sõjaks valmistumine,defence,11,4,52.72226666666667,80: Varude ja tsiviilkaasatuse sõjaks valmistumine,#008B8B
+81,ELi eelarve ja Rail Balticu rahastus,international,12,1,52.89526666666665,81: ELi eelarve ja Rail Balticu rahastus,#BDB76B
+82,Vanus ja oskused tööelus,work,26,8,128.5215,82: Vanus ja oskused tööelus,#E9967A
+83,Kaitsekulude tõus ja hanked,defence,28,7,131.10515,83: Kaitsekulude tõus ja hanked,#008B8B
+84,surmaga toimetulek ja sellest rääkimine,healthcare,22,4,100.49308333333333,84: surmaga toimetulek ja sellest rääkimine,#FF1493
+85,Koolijuhi strateegiline roll ja vastutus,education,17,4,74.78196666666665,85: Koolijuhi strateegiline roll ja vastutus,#FFD700
+86,"Grafiti, tänavakunsti ja lubade vahe",culture,16,1,78.75200000000001,"86: Grafiti, tänavakunsti ja lubade vahe",#006400
+87,Fosforiidi kaevandamise riskid ja ringfosfor,nature,30,2,150.56143333333335,87: Fosforiidi kaevandamise riskid ja ringfosfor,#66CDAA
+88,AI kasutamise reeglid ja hindamine ülikoolis,education,9,1,39.771333333333345,88: AI kasutamise reeglid ja hindamine ülikoolis,#FFD700
+89,Dementsusega hooldekodus vägivalla ja vastutuse arutelu,healthcare,14,1,79.46171666666666,89: Dementsusega hooldekodus vägivalla ja vastutuse arutelu,#FF1493
+9,AI-assistendi prompti ülesehitus,ai,19,3,94.16533333333334,9: AI-assistendi prompti ülesehitus,#000000
+90,kaugtöö ja töövälise aja piirid,work,11,5,49.847333333333324,90: kaugtöö ja töövälise aja piirid,#E9967A
+91,Märgalade ja maastike kaitsev roll,defence,11,1,64.474,91: Märgalade ja maastike kaitsev roll,#008B8B
+92,Soome-ugri pagulus ja keeleidentiteet,migration,14,1,67.86711666666666,92: Soome-ugri pagulus ja keeleidentiteet,#D2691E
+93,Eestisse kolijate kuuluvustunne ja kohanemine,migration,24,8,113.34693333333333,93: Eestisse kolijate kuuluvustunne ja kohanemine,#D2691E
+94,planeeringute ja kaasamise venimine,place,22,7,95.47733333333335,94: planeeringute ja kaasamise venimine,#8FBC8F
+95,Veebis lastega suhtlemise seksuaalriskid,children,24,4,99.54223333333334,95: Veebis lastega suhtlemise seksuaalriskid,#0000FF
+96,CBRN-riskideks valmisoleku arutelu,defence,16,1,74.42005,96: CBRN-riskideks valmisoleku arutelu,#008B8B
+97,Armeenia ja humanitaarabi rahastuse kärped,international,6,1,36.57666666666667,97: Armeenia ja humanitaarabi rahastuse kärped,#BDB76B
+98,Vajaduspõhine tudengitoetus ja elamiskulud,education,11,3,53.792,98: Vajaduspõhine tudengitoetus ja elamiskulud,#FFD700
+99,Hingamisega rahunemine ja enesekaastunne,wellbeing,14,2,74.29381666666667,99: Hingamisega rahunemine ja enesekaastunne,#9370DB

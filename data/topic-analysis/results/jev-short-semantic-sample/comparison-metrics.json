@@ -1,0 +1,22 @@
+{
+  "original": {
+    "segments": 54,
+    "duration_median_seconds": 237.68,
+    "duration_mean_seconds": 274.7361111111111,
+    "duration_max_seconds": 549.1599999999999,
+    "unassigned_count": 5,
+    "unassigned_duration_fraction": 0.05285341152284186,
+    "median_choice_probability": 0.74,
+    "duration_weighted_choice_probability": 0.7580781868122608
+  },
+  "shorter": {
+    "segments": 137,
+    "duration_median_seconds": 99.79999999999995,
+    "duration_mean_seconds": 108.29014598540145,
+    "duration_max_seconds": 170.72000000000025,
+    "unassigned_count": 28,
+    "unassigned_duration_fraction": 0.1765249481825996,
+    "median_choice_probability": 0.64,
+    "duration_weighted_choice_probability": 0.6923301403703892
+  }
+}

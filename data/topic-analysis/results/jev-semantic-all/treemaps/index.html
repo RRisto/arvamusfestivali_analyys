@@ -1,0 +1,12 @@
+<!doctype html><meta charset="utf-8">
+<title>Jev topic treemaps</title><style>
+body{font:16px system-ui;margin:20px}
+button{padding:10px;margin-right:10px}iframe{width:100%;height:960px;border:0}</style>
+<h1>Jev topic treemaps</h1><p>Click a category to explore its detailed topics;
+use the path bar to return. Gray is unassigned.</p>
+<button onclick="document.getElementById('chart').src='segments.html'">Segment counts</button>
+<button onclick="document.getElementById('chart').src='talks.html'">Distinct talk counts</button>
+<p>In the talks view, each detailed topic counts a talk once.
+Category labels count the union of talks, while category areas sum their topic counts:
+one talk may occur in several topics. Hover shows both counts and area weight.</p>
+<iframe id="chart" src="segments.html" title="Jev topic treemap"></iframe>

@@ -1,0 +1,139 @@
+{
+  "namespace": "semantic-experiment:sentence5:bge:q70:v1",
+  "configuration": {
+    "atomic_target_seconds": 30.0,
+    "atomic_max_seconds": 45.0,
+    "context_seconds": 60.0,
+    "min_segment_seconds": 60,
+    "max_segment_seconds": 300,
+    "boundary_quantile": 0.7
+  },
+  "sentence_snap_window_seconds": 20,
+  "sentence_snap_minimum_seconds": 45,
+  "sentence_method": "ASR punctuation with abbreviation exclusions; not a full thought detector",
+  "original_dataset_sha256": "5bdf11fdf388c3de3fe56eb414794e82690c57dae7843107cff424f2a1f3ce99",
+  "sources": [
+    {
+      "path": "data/transcripts/2026/2397177249.json",
+      "sha256": "1d8c3a2b1c34a662532e42999a8f2eae5455125eed11cc4e2e8e173cafb877fe"
+    },
+    {
+      "path": "data/transcripts/2026/2400164916.json",
+      "sha256": "b3ef745aa58e3d4e05959a167b89de3dc492c321656b87bfa5abdf56f61bf0e2"
+    },
+    {
+      "path": "data/transcripts/2026/2271676346.json",
+      "sha256": "2fecd23008ac3814a7c33e8973f0516f2e8b924f3a51088c69e7cf5675b114f0"
+    },
+    {
+      "path": "data/transcripts/2026/2247188693.json",
+      "sha256": "17d9f3b5ddef394b55c19a497a6637dbda44409640acecf8a4b4340cd8819268"
+    },
+    {
+      "path": "data/transcripts/2026/2250797867.json",
+      "sha256": "6e45d6f430b8c749b4cf3997dd134b52c6889b4e02f364d8d3e7cadacc2fc15d"
+    },
+    {
+      "path": "data/transcripts/2026/2314163816.json",
+      "sha256": "fa859eae9fde96a88883495df43124380498f085307277090c3b7488669cfd0b"
+    },
+    {
+      "path": "data/transcripts/2026/2314163813.json",
+      "sha256": "ca2d3ed32d3952dad69b299a82cea1362f543a00f172b9eecc6136b7b2c05ace"
+    },
+    {
+      "path": "data/transcripts/2026/2387966373.json",
+      "sha256": "e16c44ea9f98a675526fec04f4008519d81c887bd7f31fe76dac755170ba55b2"
+    },
+    {
+      "path": "data/transcripts/2026/2393585466.json",
+      "sha256": "bdde510fe93fcbb251843cd231af25012a1268c5192d9a26a19eb143925fb34d"
+    },
+    {
+      "path": "data/transcripts/2026/2394248499.json",
+      "sha256": "27895360579e0940f9788eabadba5754711a7d51c579ae85d44df98ca704ce8c"
+    },
+    {
+      "path": "data/transcripts/2026/2395857123.json",
+      "sha256": "1c7ad8e318c8cf18ff506cb822433666d02abd536410f19fca86a2de5d8c8576"
+    },
+    {
+      "path": "data/transcripts/2026/2395991463.json",
+      "sha256": "fda69c99559d35ed223bbf351ebb4ec71dd485e4bde15f6ceed49fdc20243d1b"
+    },
+    {
+      "path": "data/transcripts/2026/2396670927.json",
+      "sha256": "adaff308754d93cbc81400d248bfba576f6c7c48c58fddbc2a9f6ce1cb43bade"
+    },
+    {
+      "path": "data/transcripts/2026/2396692746.json",
+      "sha256": "3099e882b1003a4a0a96c738a0cf5f83121294fc2d9c9843f265a68e539db401"
+    },
+    {
+      "path": "data/transcripts/2026/2397177243.json",
+      "sha256": "d4004a0bf90095f6fac2ca02f96a4219d058802476ee6f2709c4bcafdb7d0ea1"
+    },
+    {
+      "path": "data/transcripts/2026/2397264585.json",
+      "sha256": "be9b483f5f098a428af09f729130138c80ec5e795f0b0cedde6525ab01d2c3a8"
+    },
+    {
+      "path": "data/transcripts/2026/2400184983.json",
+      "sha256": "5609efc28ae4f14c25b05c3828c67ae72a7a5ddf6863f8f9b2a3ef8413a5535b"
+    },
+    {
+      "path": "data/transcripts/2026/2400207765.json",
+      "sha256": "d79c6fda5cc655fb937920e8cac80ba45da8b31e38a480933ed64a0b996da469"
+    }
+  ],
+  "atomic_cache_identity": {
+    "model_id": "BAAI/bge-m3",
+    "model_revision": "5617a9f61b028005a4858fdac845db406aefb181",
+    "dimension": 1024,
+    "instruction": "",
+    "chunking": {
+      "min_seconds": 30.0,
+      "target_seconds": 30.0,
+      "max_seconds": 45.0,
+      "min_words": 1,
+      "max_words": 1000000,
+      "overlap_seconds": 0,
+      "merge_tail_seconds": 0,
+      "max_merged_seconds": 45.0
+    },
+    "adapter_version": 2
+  },
+  "atomic_cache_digest": "73768ef2d6843c97522beff015cad83352bd41642259a8d7777d46dc7c8d342d",
+  "episode_ids": [
+    "2397177249",
+    "2400164916",
+    "2271676346",
+    "2247188693",
+    "2250797867",
+    "2314163816",
+    "2314163813",
+    "2387966373",
+    "2393585466",
+    "2394248499",
+    "2395857123",
+    "2395991463",
+    "2396670927",
+    "2396692746",
+    "2397177243",
+    "2397264585",
+    "2400184983",
+    "2400207765"
+  ],
+  "short_segment_count": 642,
+  "topic_assignment": "No clustering fit; Jev separately uses the original fitted vocabulary",
+  "duration_seconds": {
+    "count": 642.0,
+    "mean": 142.52549065420558,
+    "std": 71.92161683872577,
+    "min": 45.43999999999983,
+    "25%": 80.2577500000001,
+    "50%": 124.43999999999971,
+    "75%": 193.1000000000001,
+    "max": 309.0
+  }
+}

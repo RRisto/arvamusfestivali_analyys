@@ -1,0 +1,22 @@
+jev_high_level_id,jev_high_level_name,segments,talks,recording_hours,mean_choice_probability
+ai,Tehisintellekt ja digitehnoloogia,20,10,1.2152333333333334,0.705
+children,Laste ja noorte kaitse ning toetamine,47,7,3.8852008333333328,0.7804255319148936
+climate,"Kliima, rohepööre ja kestlik tarbimine",85,23,6.4669875,0.7027058823529412
+culture,"Kultuur, loome ja pärand",40,5,3.4349758333333336,0.87425
+cyber,"Küberturvalisus, privaatsus ja digiohud",31,6,2.301826388888889,0.8500000000000001
+defence,"Riigikaitse, julgeolek ja kriisivalmidus",161,15,13.397622222222223,0.7911801242236025
+economy,"Majandus, ettevõtlus ja innovatsioon",65,17,5.2304097222222214,0.7433846153846154
+education,"Haridus, õppimine ja oskused",286,42,22.702051111111114,0.7788461538461539
+energy,Energeetika ja energiaturud,128,15,9.77329722222222,0.757734375
+family,"Pere, suhted ja sooline võrdsus",37,5,3.0615525,0.7362162162162161
+food,"Toit, põllumajandus ja toidujulgeolek",5,2,0.3793222222222223,0.67
+governance,"Riigijuhtimine, kodanikuühiskond ja õigus",194,29,15.43770611111111,0.8203092783505154
+healthcare,"Tervishoid, ravi ja terviseandmed",141,12,11.328371944444443,0.7951773049645391
+international,"Rahvusvahelised suhted, Euroopa Liit ja humanitaarabi",130,15,10.298723333333331,0.8095384615384615
+media,"Meedia, avalik arutelu ja infokvaliteet",48,11,3.692718888888889,0.7541666666666668
+migration,"Ränne, lõimumine ja kuuluvus",46,9,3.4944288888888884,0.6969565217391305
+nature,"Loodus, metsandus ja maavarad",162,13,13.066215277777777,0.7831481481481481
+place,"Eluase, ruum ja ühendused",53,8,4.3717675,0.8239622641509434
+unassigned,Määramata,226,81,11.83091138888889,0.5913716814159292
+wellbeing,"Vaimne tervis, tervisekäitumine ja ennetus",102,17,7.550101666666667,0.823921568627451
+work,"Tööelu, juhtimine ja töötajate õigused",147,21,12.459457222222223,0.7779591836734694

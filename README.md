@@ -184,6 +184,8 @@ the notebook's manual review annotations before judging coherence.
 The current analysis covers **219 deduplicated talks**. Topics are discovered from
 segment text using embeddings and clustering; an LLM subsequently names the discovered
 topics. Naming changes labels, not segment boundaries or cluster assignments.
+The current review also includes Jev primary-topic assignments for every semantic
+segment, with a dictionary mapping detailed topics into 20 high-level categories.
 
 ```mermaid
 flowchart TD
@@ -205,6 +207,11 @@ flowchart TD
     N --> O[Attach names to datasets and temporal overlap references]
     O --> P[Named size charts, talk heatmaps and timelines]
     O --> Q[Mean BGE topic centroids and joint 2D UMAP maps]
+    N --> R[Jev: choose one of 236 detailed topics or unassigned]
+    E --> R
+    R --> S[Map detailed topic IDs to 20 high-level categories]
+    S --> T[Segment and distinct-talk treemaps]
+    S --> U[Jev topic centroids: segment and talk bubble maps]
 ```
 
 Both selected models use `leaf-local-6-2`, seed `42`: UMAP with 10 neighbors,
@@ -218,8 +225,8 @@ set `SELECTED_CANDIDATE = "leaf-local-6-2"` when repeating the selected-model sn
 
 | Selected model | Native segments | Assigned topics | Unassigned segments |
 | --- | ---: | ---: | ---: |
-| Semantic BGE | 4,132 | 236 | about 20% |
-| Fixed BGE | 6,545 | 346 | about 24% |
+| Semantic BGE | 4,132 | 236 | 827 |
+| Fixed BGE | 6,545 | 346 | 1,545 |
 
 The 582 topics are **two overlapping model vocabularies**, not 582 distinct subjects.
 Topic IDs are scoped to a fitted model; use `topic_key` across models and `segment_key`
@@ -256,8 +263,40 @@ Current saved outputs:
 - [Experiment tables](data/topic-analysis/results/fine-topics/): topic tables, talk profiles
   and manifests for all 32 configurations. Full assignment CSVs are local run outputs.
 
-Jev classification and broader multi-label categories are proposed next steps; they
-have **not** been run. The current assignments come from BERTopic/HDBSCAN.
+- [High-level topic dictionary](data/topic-analysis/results/high-level-topics/index.html):
+  236 detailed semantic topics grouped into 20 editorial categories, with reusable
+  [topic-ID lookup](data/topic-analysis/results/high-level-topics/topic-to-high-level.json)
+  and [scoped topic-key lookup](data/topic-analysis/results/high-level-topics/topic-key-to-high-level.json).
+- [Full Jev review](data/topic-analysis/results/jev-semantic-all/index.html): detailed
+  primary-topic assignments for all 4,132 semantic segments from 219 talks.
+- [Jev treemaps](data/topic-analysis/results/jev-semantic-all/treemaps/index.html):
+  high-level categories and detailed topics, sized by segment count or talk coverage.
+- [Jev bubble maps](data/topic-analysis/results/jev-semantic-all/bubble-maps/index.html):
+  detailed topics in 2D, with bubble area showing segment count or distinct talk count.
+- [Broader segmentation assessment](data/topic-analysis/results/segmentation-experiments/broader-pilot/ASSESSMENT.md):
+  the 18-talk comparison supporting the decision to retain the current segmentation.
+
+Jev selects one primary detailed topic from the existing **236-topic semantic
+vocabulary plus an unassigned option**, using full native segment text. It assigned
+3,743 segments and left 389 unassigned (9.4% of segments; 6.2% of recording time).
+The 20 high-level labels come from the dictionary after classification; they are
+not separately predicted by Jev. The grouping is editorial and does not merge or
+refit the original clusters. Original boundaries, text and BERTopic memberships
+remain available alongside Jev's results. Agreement with original fine labels is
+58.4% and with their mapped parents 69.3%; these are comparisons, not accuracy scores.
+
+Both Jev bubble views share coordinates derived from normalized mean BGE vectors
+of the segments assigned to each detailed topic by Jev. They show 236 circular
+bubbles, using 20 unique colors from the supplied palette for high-level categories.
+The [shared category style](data/topic-analysis/results/high-level-topics/category-style.json)
+also controls treemap colors. UMAP distances are approximate; unassigned segments
+appear in treemaps but are excluded from the embedding maps.
+
+Distinct talk counts are not additive: a talk can contain several topics. Treemap
+leaf areas represent each topic's distinct talk count, while parent areas sum
+child topic–talk memberships. Parent hover and labels report the union of talks
+in that category, and the root reports 219 distinct talks. Segment-count areas
+are additive and total 4,132.
 
 ## Inspect segments and assigned topics
 
@@ -278,7 +317,12 @@ use the episode ID when referring to a document across changing datasets.
 
 The notebook defaults to `data/topic-analysis/results/segment-dataset/all-segments.parquet`.
 Set `TOPIC_REVIEW_DATASET` to inspect another dataset. A direct-selection cell is also
-provided for viewers without interactive widgets.
+provided for viewers without interactive widgets. When the full Jev export is present,
+the notebook automatically loads its source-hash-checked sidecar and defaults to
+**Original / Semantic**. Cards compare original cluster labels with Jev's detailed
+choice, probability, confidence, top three alternatives and dictionary parent.
+Original membership filters still apply to BERTopic results. Additional sections
+provide segmentation experiments, the high-level lookup, treemaps and bubble maps.
 
 ## Repeat the topic analysis
 
@@ -296,3 +340,187 @@ skills directory, then start a new session. Follow the skill's
 and its [export guide](skills/arvamusfestival-topic-analysis/references/exports.md) for
 reusable datasets, evidence-grounded names and offline charts. Existing chart exports
 can be regenerated without fitting or additional LLM calls.
+
+### Jev assignment and high-level mapping
+
+The completed run uses pinned `jev-1.13.0`, the named semantic vocabulary with
+160-character descriptions, and one Choice response per segment. It reused 54
+matching pilot responses and made 4,078 new requests. The complete checkpoint,
+source and configuration hashes, full 237-option probability distributions, and
+fine/high-level summaries are saved in
+[data/topic-analysis/results/jev-semantic-all/](data/topic-analysis/results/jev-semantic-all/README.md).
+The original three-talk pilot remains in `results/jev-semantic-sample/` as history.
+
+From the repository root, export the dictionary, resume classification, then build
+review outputs:
+
+```bash
+uv run --group topic-analysis python scripts/export_high_level_topics.py
+uv run --group topic-analysis python scripts/assign_topics_jev.py \
+  --all-episodes --workers 4 \
+  --output data/topic-analysis/results/jev-semantic-all \
+  --reuse-from data/topic-analysis/results/jev-semantic-sample/responses.jsonl
+uv run --group topic-analysis python scripts/export_jev_full_review.py
+uv run --group topic-analysis python scripts/export_jev_treemaps.py
+uv run --group topic-analysis python scripts/export_jev_bubble_maps.py
+```
+
+Classification reads `TYPESAFE_API_KEY` or a local `--key-file`; credentials are
+excluded from outputs. Exact request hashes allow completed requests to be reused.
+Only the classification command makes Jev API calls. Chart exporters use saved
+assignments and cached embeddings without refitting topic models. Edit
+[category-definitions.json](data/topic-analysis/results/high-level-topics/category-definitions.json)
+to revise the grouping, then regenerate the dictionary and downstream review exports.
+Every detailed topic has exactly one parent; `-1` maps to `unassigned`.
+
+Jev probabilities and confidence are separate from HDBSCAN membership strength.
+High-level probability mass sums detailed choice probabilities within a parent;
+it is not a calibrated category confidence. The selected parent follows the primary
+detailed choice and need not have the largest summed mass. This is single-primary-topic
+assignment, not multi-label annotation or validated Estonian accuracy.
+
+### Shorter semantic comparison
+
+A separate three-talk pilot uses semantic minimum 60 seconds, maximum 180 seconds,
+and boundary quantile 0.70, reusing all matching atomic BGE vectors. It contains
+137 native segments (median 100 seconds) with Jev predictions using the original
+fitted topic vocabulary. In the review notebook choose **Original vs shorter** and
+document 0, 1 or 3. The comparison shows original cluster labels only on their own
+segments; references from short segments are explicitly temporal overlaps.
+
+See `data/topic-analysis/results/jev-short-semantic-sample/README.md` for results
+and limitations. This improves several mixed passages but increases abstention
+and sometimes fragments stories; the whole corpus has not been resegmented.
+
+```bash
+PYTHONPATH=src python scripts/short_semantic_pilot.py
+python scripts/assign_topics_jev.py \
+  --dataset data/topic-analysis/results/jev-short-semantic-sample/segments.parquet \
+  --output data/topic-analysis/results/jev-short-semantic-sample
+```
+
+### Sentence-aware segmentation experiments
+
+Three new small-sample variants compare 5-minute cue cuts, 3-minute sentence cuts
+and 5-minute sentence cuts against the saved original and 3-minute cue pilot.
+Open `notebooks/review_segment_topics.ipynb`, restart the kernel and run all cells,
+select **Experiments**, then choose the Left/Right variants. Document indices 0,
+1 and 3 are the sampled talks; From min / To min selects a shared window.
+
+The [experiment report](data/topic-analysis/results/segmentation-experiments/README.md)
+explains configuration and pros/cons; the
+[offline comparison index](data/topic-analysis/results/segmentation-experiments/index.html)
+links nine full-text comparisons. A blank manual-review CSV is provided for notes.
+Sentence awareness uses existing ASR punctuation with abbreviation exclusions and
+a ±20-second snap window; it does not guarantee whole stories or speaker turns.
+All variants use the original fitted topic vocabulary with separate Jev assignments.
+The full corpus and original clustering outputs remain unchanged.
+
+### Refit topics for the segmentation pilots
+
+The five three-talk segmentation variants now have independent real BGE/BERTopic
+fits using leaf-local-6-2 and seeds 42/7. The review notebook's Experiments view
+has **Fit seed** and **Labels** controls plus native topic timelines. The new
+topic IDs and keyword names are scoped to each fitted run; original full-corpus
+labels and Jev's vocabulary remain separate. See the
+[refit report](data/topic-analysis/results/segmentation-experiments/topic-models/README.md)
+and [interactive dynamics charts](data/topic-analysis/results/segmentation-experiments/topic-models/index.html).
+The full corpus has not been resegmented or refitted.
+
+### Broader segmentation comparison and current decision
+
+An 18-talk sample compared the original segmentation with sentence-aware cuts
+around a five-minute cap, fitting fresh BGE/BERTopic models with seeds 42, 7 and 19.
+
+| Measure | Original | Sentence-aware alternative |
+| --- | ---: | ---: |
+| Native segments | 324 | 642 |
+| Median duration | 260.7 seconds | 124.4 seconds |
+| Topics across three seeds | 23–25 | 38–42 |
+| Unassigned recording time | 4.2–5.2% | 14.2–18.1% |
+| Pairwise seed ARI on jointly assigned segments | 0.883–0.918 | 0.795–0.853 |
+| Cuts after sentence-ending punctuation | 36.6% | 98.2% |
+
+**Keep the current full-corpus segmentation.** Sentence-aware cuts improved
+readability in some examples, but doubled segment count, increased unassigned time
+and reduced seed stability. Other examples lost narrative context or split an
+explanation. The pilot changed duration limits, semantic thresholds and sentence
+snapping together, so it cannot isolate the effect of snapping alone.
+
+The [assessment](data/topic-analysis/results/segmentation-experiments/broader-pilot/ASSESSMENT.md)
+and [offline review](data/topic-analysis/results/segmentation-experiments/broader-pilot/index.html)
+include six qualitative examples, native timelines and shared-window comparisons.
+The notebook's broader-pilot controls expose all six fits. Topic IDs belong to each
+pilot fit and do not replace the full-corpus vocabulary. Independent human-review
+ratings remain pending. A possible follow-up is to snap only nearby eligible cuts
+in the current segmentation, without doubling the number of segments; this has
+not been applied to the corpus.
+
+## Topic coverage and association analysis
+
+Open [analyze_jev_topics.ipynb](notebooks/analyze_jev_topics.ipynb) and run all cells.
+Use `RUN_LEVELS` and `RUN_YEARS` to select topic resolutions and festival years. The notebook
+provides segment-count and distinct-talk-count bars, total topic time, mean topic
+time within talks with 95% ArviZ HDIs of observed talk durations and duration quartiles, and topic-pair
+co-occurrence heatmaps comparing raw, positive, smoothed and support-discounted NPMI.
+Bar charts also export static PNG and SVG versions. No sampling intervals are applied to descriptive statistics of the complete corpus. Complete tables and standalone charts are saved under
+`data/topic-analysis/results/jev-topic-analysis/<level>/`.
+
+Organizer associations use cached official programme evidence, matched across the 2025 and 2026 programmes for all 219 canonical talks, with
+explicit organizer labels for 213. Six matched archive entries have empty organizer
+fields. Title/date checks and reviewed variants are recorded in a match audit. Joint
+organizer labels remain intact. Unknown organizers are excluded from that analysis;
+its denominator and coverage are shown explicitly. To refresh the programme cache:
+
+```bash
+uv run --group topic-analysis python scripts/export_programme_organizers.py
+```
+
+Ordinary notebook runs are offline. The notebook explains sampling assumptions,
+rare-pair score modifications, metadata overrides and limits of interpretation.
+
+Enriched [talk metadata](data/topic-analysis/results/talk-metadata/README.md) merges
+canonical catalog and audio provenance with organizers, programme titles, dates,
+moderators, panelists, stage curators and support text. `talks.parquet` / `talks.csv`
+contain one row per canonical talk; `segments-with-metadata.parquet` attaches those
+fields to native segments. The original topic dataset and Jev source hashes stay
+unchanged. The analysis notebook loads the metadata join automatically.
+
+The analysis notebook also renders every chart separately for festival years 2025
+(114 talks) and 2026 (105 talks), at both detailed and high-level topic resolutions,
+alongside combined views. Year-specific tables, topic-segment assignments, static
+bar charts and interactive heatmaps are exported to
+`results/jev-topic-analysis/<level>/<year>/`. Topic vocabulary stays shared across
+years; all counts and association denominators are recalculated within each year.
+
+The full Jev classification folder also contains
+[2025 results](data/topic-analysis/results/jev-semantic-all/2025/README.md) and
+[2026 results](data/topic-analysis/results/jev-semantic-all/2026/README.md), including
+predictions, checkpoints, enriched review metadata, summaries, treemaps and bubble
+maps. Regenerate these saved subsets with `scripts/export_jev_year_results.py`;
+no new API calls or topic fits are required.
+
+The notebook ends with a [2025–2026 topic comparison](data/topic-analysis/results/jev-topic-analysis/year-comparison/COMPARISON.md):
+main-topic time shares and talk coverage, within-category detailed-topic changes,
+and topics only observed in one year, with minutes/talk support flags. Its
+[offline report](data/topic-analysis/results/jev-topic-analysis/year-comparison/index.html)
+and full CSV tables live in `results/jev-topic-analysis/year-comparison/`.
+Run `scripts/compare_jev_year_topics.py` to regenerate from saved labels.
+These changes describe available recordings rather than complete festival programmes.
+
+Open the standalone [2025–2026 comparison notebook](notebooks/compare_jev_topics_2025_2026.ipynb)
+for main-topic changes, complete emergence/absence tables and separate sections for
+all 20 categories. Its 23 static charts and tables are saved in the notebook;
+rerunning it loads the comparison outputs offline.
+
+Both analysis notebooks include [individual segment scatter maps](data/topic-analysis/results/jev-semantic-all/segment-maps/index.html):
+one point per semantic segment, colored by its Jev high-level category, with gray
+unassigned points. Combined and yearly views share a cached UMAP projection of real
+segment BGE embeddings. Static images and interactive plots are embedded; hover
+shows the talk, timestamps and detailed topic. Regenerate with
+`scripts/export_jev_segment_maps.py`, without new classification or topic fits.
+
+Published result HTML files share exact-version Plotly bundles under
+`data/topic-analysis/results/plotly-assets/`. Keep that directory with the reports
+when downloading them for offline use. Local exporter runs can also create
+self-contained HTML files with embedded Plotly.

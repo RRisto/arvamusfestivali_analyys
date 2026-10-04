@@ -1,0 +1,25 @@
+{
+  "level": "high_level",
+  "programme_year": 2025,
+  "source_sha256": "5bdf11fdf388c3de3fe56eb414794e82690c57dae7843107cff424f2a1f3ce99",
+  "assignments_sha256": "c229fdf8702f0581de1f64c29f4ffc60242f277cb203a2059c17c6648e301ec1",
+  "jev_model": "jev-1.13.0",
+  "fitted_model_key": "semantic:bge:leaf-local-6-2:42",
+  "segments": 2154,
+  "talks": 114,
+  "min_shared_talks": 3,
+  "smooth_alpha": 0.5,
+  "discount_k": 5.0,
+  "exclude_unassigned": true,
+  "organizer_known_talks": 108,
+  "talk_metadata_sha256": "cb084f593580e130711cd16d53e2c36eea41d8423b48e31ceb4a308ab6d8becc",
+  "programme_metadata_sha256": "8f072f0d4e87d5a54baefa79b246bd7919e8cdde36cc535a9d4e3436ceae2aaf",
+  "organizer_override_sha256": null,
+  "interval": "95% ArviZ HDI of observed talk-topic durations, not an interval for the mean",
+  "hdi_probability": 0.95,
+  "arviz_version": "0.23.4",
+  "static_formats": [
+    "png",
+    "svg"
+  ]
+}

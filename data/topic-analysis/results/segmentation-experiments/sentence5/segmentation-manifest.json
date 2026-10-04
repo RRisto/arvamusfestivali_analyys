@@ -1,0 +1,64 @@
+{
+  "namespace": "semantic-experiment:sentence5:bge:q70:v1",
+  "configuration": {
+    "atomic_target_seconds": 30.0,
+    "atomic_max_seconds": 45.0,
+    "context_seconds": 60.0,
+    "min_segment_seconds": 60,
+    "max_segment_seconds": 300,
+    "boundary_quantile": 0.7
+  },
+  "sentence_snap_window_seconds": 20,
+  "sentence_snap_minimum_seconds": 45,
+  "sentence_method": "ASR punctuation with abbreviation exclusions; not a full thought detector",
+  "original_dataset_sha256": "5bdf11fdf388c3de3fe56eb414794e82690c57dae7843107cff424f2a1f3ce99",
+  "sources": [
+    {
+      "path": "data/transcripts/2026/2397177249.json",
+      "sha256": "1d8c3a2b1c34a662532e42999a8f2eae5455125eed11cc4e2e8e173cafb877fe"
+    },
+    {
+      "path": "data/transcripts/2026/2400164916.json",
+      "sha256": "b3ef745aa58e3d4e05959a167b89de3dc492c321656b87bfa5abdf56f61bf0e2"
+    },
+    {
+      "path": "data/transcripts/2026/2271676346.json",
+      "sha256": "2fecd23008ac3814a7c33e8973f0516f2e8b924f3a51088c69e7cf5675b114f0"
+    }
+  ],
+  "atomic_cache_identity": {
+    "model_id": "BAAI/bge-m3",
+    "model_revision": "5617a9f61b028005a4858fdac845db406aefb181",
+    "dimension": 1024,
+    "instruction": "",
+    "chunking": {
+      "min_seconds": 30.0,
+      "target_seconds": 30.0,
+      "max_seconds": 45.0,
+      "min_words": 1,
+      "max_words": 1000000,
+      "overlap_seconds": 0,
+      "merge_tail_seconds": 0,
+      "max_merged_seconds": 45.0
+    },
+    "adapter_version": 2
+  },
+  "atomic_cache_digest": "73768ef2d6843c97522beff015cad83352bd41642259a8d7777d46dc7c8d342d",
+  "episode_ids": [
+    "2397177249",
+    "2400164916",
+    "2271676346"
+  ],
+  "short_segment_count": 99,
+  "topic_assignment": "No clustering fit; Jev separately uses the original fitted vocabulary",
+  "duration_seconds": {
+    "count": 99.0,
+    "mean": 149.8560606060606,
+    "std": 69.71202831383505,
+    "min": 45.80000000000018,
+    "25%": 92.43999999999994,
+    "50%": 136.53200000000015,
+    "75%": 198.72000000000003,
+    "max": 300.0799999999999
+  }
+}
