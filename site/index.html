@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="et">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Arvamusfestivali transkribeeritud arutelude teemade jaotus, teemakaart ning korraldajate seosed.">
+  <title>Arvamusfestivali teemavaade · Ülevaade</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23123b31'/%3E%3Ccircle cx='16' cy='16' r='8' fill='%23f4b942'/%3E%3Cpath d='M16 7v18M7 16h18' stroke='%23123b31' stroke-width='3'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="assets/styles.css">
+  <script src="https://cdn.plot.ly/plotly-3.1.0.min.js" defer></script>
+  <script src="assets/common.js" defer></script>
+  <script type="module" src="assets/overview.js?v=topic-bubbles3"></script>
+</head>
+<body data-page="overview">
+  <a class="skip-link" href="#main-content">Liigu sisu juurde</a>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Arvamusfestivali teemavaade, avaleht">
+      <span class="brand-mark" aria-hidden="true">✦</span>
+      <span>Arvamusfestivali <strong>teemavaade</strong></span>
+    </a>
+    <nav class="primary-nav" aria-label="Põhinavigatsioon">
+      <a href="index.html" data-nav="overview">Ülevaade</a>
+      <a href="compare.html" data-nav="compare">2025 ↔ 2026</a>
+      <a href="transcripts.html" data-nav="transcripts">Transkriptid</a>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <section class="page-intro compact-intro">
+      <div>
+        <p class="eyebrow">Arvamusfestivali teemaanalüüs</p>
+        <h1>Millest festivalil räägiti?</h1>
+        <p class="lede">Vaata, kui laialt teemad aruteludes levisid, kui palju salvestusaega neile kulus ja millised korraldajad neid käsitlesid.</p>
+      </div>
+      <a class="search-shortcut" href="transcripts.html">
+        <span aria-hidden="true">⌕</span>
+        <span><strong>Otsi transkriptidest</strong><small>fraas, teema, arutelu või korraldaja</small></span>
+      </a>
+    </section>
+
+    <div id="page-error" class="notice error-notice" role="alert" aria-live="polite" hidden></div>
+
+    <section class="metric-grid" aria-label="Andmestiku põhinäitajad">
+      <article class="metric-card"><strong id="metric-talks">—</strong><span>arutelu</span></article>
+      <article class="metric-card"><strong id="metric-segments">—</strong><span>teemalõiku</span></article>
+      <article class="metric-card"><strong id="metric-categories">—</strong><span>põhiteemat</span></article>
+      <article class="metric-card accent-card"><strong>2</strong><span>võrreldavat aastat</span></article>
+    </section>
+
+    <section class="chart-section" id="distribution">
+      <div class="section-heading">
+        <div><p class="section-number">01</p><h2>Teemade jaotus</h2><p>Üks vaade, kaks mõõdikut. Arutelude arv näitab teema ulatust; salvestusaeg näitab sellele pühendatud mahtu.</p></div>
+        <div class="segmented-control" role="group" aria-label="Treemapi mõõdik">
+          <button class="active" type="button" data-metric="talks" aria-pressed="true">Arutelude arv</button>
+          <button type="button" data-metric="hours" aria-pressed="false">Salvestusaeg</button>
+        </div>
+      </div>
+      <div class="chart-card">
+        <nav id="treemap-breadcrumb" class="chart-breadcrumb" aria-label="Teemade hierarhia"></nav>
+        <div id="treemap-chart" class="chart chart-treemap" role="img" aria-label="Teemade jaotus"></div>
+        <p id="treemap-help" class="chart-help">Klõpsa põhiteemal, et näha selle alamteemasid.</p>
+      </div>
+    </section>
+
+    <section class="chart-section" id="topic-map">
+      <div class="section-heading">
+        <div><p class="section-number">02</p><h2>Teemade 2D kaart</h2><p id="scatter-description">Iga mull on üks alamteema. Asukoht põhineb selle lõikude keskpunktil, suurus arutelude arvul ja värv põhiteemal.</p></div>
+        <div class="segmented-control" role="group" aria-label="2D kaardi vaade">
+          <button class="active" type="button" data-scatter-view="topics" aria-pressed="true">Alamteemad</button>
+          <button type="button" data-scatter-view="segments" aria-pressed="false">Teemalõigud</button>
+        </div>
+      </div>
+      <div class="chart-card">
+        <div id="scatter-chart" class="chart chart-scatter" role="img" aria-label="Teemade 2D kaart"></div>
+        <p id="scatter-help" class="chart-help">Hõljuta lisainfo nägemiseks. Mull avab valitud põhiteema transkriptivaates.</p>
+      </div>
+    </section>
+
+    <section class="chart-section" id="organizers">
+      <div class="section-heading">
+        <div><p class="section-number">03</p><h2>Teemad ja korraldajad</h2><p>Maatriks loendab erinevaid arutelusid, mitte lõike. Nii ei muuda pikem transkript korraldajat kunstlikult suuremaks.</p></div>
+      </div>
+      <div class="chart-card">
+        <div id="organizer-chart" class="chart chart-heatmap" role="img" aria-label="Teemade ja korraldajate seosed"></div>
+        <p class="chart-help">Klõpsa lahtril, et filtreerida transkripte teema ja korraldaja järgi.</p>
+      </div>
+    </section>
+
+    <aside class="notice methodology-note">
+      <strong>Mida need tulemused kirjeldavad?</strong>
+      <p>Analüüs hõlmab olemasolevaid transkribeeritud salvestisi, mitte kogu festivaliprogrammi. Teemad on määratud semantilistele lõikudele ning ühe arutelu sees võib esineda mitu põhiteemat.</p>
+    </aside>
+  </main>
+
+  <footer class="site-footer"><span>Arvamusfestivali salvestuste analüüs</span><span>Andmed: 2025–2026 transkribeeritud arutelud</span></footer>
+  <noscript><p class="notice error-notice">Interaktiivsed joonised vajavad JavaScripti.</p></noscript>
+</body>
+</html>

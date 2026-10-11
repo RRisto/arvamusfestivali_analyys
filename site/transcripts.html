@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="et">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Otsi Arvamusfestivali transkriptidest, vali arutelu ja ava ajastatud helilink.">
+  <title>Arvamusfestivali teemavaade · Transkriptide otsing</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23123b31'/%3E%3Ccircle cx='16' cy='16' r='8' fill='%23f4b942'/%3E%3Cpath d='M16 7v18M7 16h18' stroke='%23123b31' stroke-width='3'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="assets/styles.css">
+  <script src="assets/common.js" defer></script>
+  <script type="module" src="assets/transcripts.js"></script>
+</head>
+<body data-page="transcripts">
+  <a class="skip-link" href="#main-content">Liigu sisu juurde</a>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Arvamusfestivali teemavaade, avaleht"><span class="brand-mark" aria-hidden="true">✦</span><span>Arvamusfestivali <strong>teemavaade</strong></span></a>
+    <nav class="primary-nav" aria-label="Põhinavigatsioon"><a href="index.html" data-nav="overview">Ülevaade</a><a href="compare.html" data-nav="compare">2025 ↔ 2026</a><a href="transcripts.html" data-nav="transcripts">Transkriptid</a></nav>
+  </header>
+
+  <main id="main-content">
+    <section class="page-intro transcript-intro"><div><p class="eyebrow">Transkriptide otsing</p><h1>Leia arutelust täpne koht</h1><p class="lede">Otsi sõna või fraasi, kitsenda tulemusi ja vali lõik. Ajastatud helilink viib otse vastava hetkeni salvestuses.</p></div></section>
+    <div id="page-error" class="notice error-notice" role="alert" aria-live="polite" hidden></div>
+
+    <section class="search-panel" aria-label="Transkriptiotsingu filtrid">
+      <label class="search-field"><span>Otsing</span><input id="search-query" type="search" placeholder="Näiteks õpetaja, tehisintellekt…" autocomplete="off"><small>Otsib lõigu tekstist, pealkirjast ja teemast.</small></label>
+      <div class="filter-grid">
+        <label><span>Aasta</span><select id="year-filter"><option value="">Kõik aastad</option><option value="2025">2025</option><option value="2026">2026</option></select></label>
+        <label><span>Põhiteema</span><select id="category-filter"><option value="">Kõik põhiteemad</option></select></label>
+        <label><span>Korraldaja</span><select id="organizer-filter"><option value="">Kõik korraldajad</option></select></label>
+        <label><span>Arutelu</span><select id="talk-filter"><option value="">Kõik arutelud</option></select></label>
+      </div>
+      <button id="clear-filters" class="secondary-button" type="button">Tühjenda filtrid</button>
+    </section>
+
+    <div class="explorer-layout">
+      <section class="results-panel" aria-labelledby="results-title">
+        <div class="panel-heading"><div><p class="eyebrow">Tulemused</p><h2 id="results-title"><span id="result-count">—</span> lõiku</h2></div><small id="result-limit-note"></small></div>
+        <div id="search-results" class="result-list" aria-live="polite"><p class="empty-state">Andmete laadimine…</p></div>
+      </section>
+      <section id="transcript-reader" class="reader-panel" aria-labelledby="reader-title">
+        <div class="reader-empty"><p class="eyebrow">Valitud lõik</p><h2 id="reader-title">Vali vasakult tulemus</h2><p>Siin kuvatakse transkripti lõik, arutelu andmed ja Ajastatud helilink.</p></div>
+      </section>
+    </div>
+  </main>
+  <footer class="site-footer"><span>Arvamusfestivali salvestuste analüüs</span><span>Otsing 2025–2026 transkribeeritud aruteludes</span></footer>
+</body>
+</html>

@@ -6,6 +6,21 @@ lookup API](https://itunes.apple.com/lookup) (collection ID `1477431807`) and th
 uses the authoritative SoundCloud RSS feed returned by Apple. The RSS enclosure is
 the audio source; its publication date determines the archive year.
 
+## Results website
+
+The static results website has three focused pages: a topic overview, a separate
+2025–2026 comparison, and a transcript explorer with timestamped audio links.
+Build its browser-ready data from the repository root and start a local server:
+
+```powershell
+uv run python scripts/build_results_site.py --root . --output site/data
+uv run python -m http.server 8765 --directory site
+```
+
+Then open `http://localhost:8765/`. Do not open the HTML files directly: browsers
+block the JSON requests used by the interactive charts and transcript search. The
+site is fully static after the build; it does not call a model or application API.
+
 ## Prerequisites
 
 Use Windows PowerShell with [uv](https://docs.astral.sh/uv/) installed and on
