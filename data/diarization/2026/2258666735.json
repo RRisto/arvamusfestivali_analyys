@@ -1,0 +1,881 @@
+{
+  "schema_version": 1,
+  "episode_id": "2258666735",
+  "model": "pyannote/speaker-diarization-community-1",
+  "device": "cpu",
+  "speakers": [
+    "SPEAKER_00",
+    "SPEAKER_01",
+    "SPEAKER_02",
+    "SPEAKER_03",
+    "SPEAKER_04",
+    "SPEAKER_05"
+  ],
+  "turns": [
+    {
+      "start_seconds": 4.165,
+      "end_seconds": 7.085,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start_seconds": 10.612,
+      "end_seconds": 12.35,
+      "speaker": "SPEAKER_02"
+    },
+    {
+      "start_seconds": 13.058,
+      "end_seconds": 16.906,
+      "speaker": "SPEAKER_02"
+    },
+    {
+      "start_seconds": 16.973,
+      "end_seconds": 16.99,
+      "speaker": "SPEAKER_02"
+    },
+    {
+      "start_seconds": 17.412,
+      "end_seconds": 21.547,
+      "speaker": "SPEAKER_02"
+    },
+    {
+      "start_seconds": 22.12,
+      "end_seconds": 28.803,
+      "speaker": "SPEAKER_02"
+    },
+    {
+      "start_seconds": 29.731,
+      "end_seconds": 34.135,
+      "speaker": "SPEAKER_02"
+    },
+    {
+      "start_seconds": 35.57,
+      "end_seconds": 42.64,
+      "speaker": "SPEAKER_02"
+    },
+    {
+      "start_seconds": 43.754,
+      "end_seconds": 50.69,
+      "speaker": "SPEAKER_02"
+    },
+    {
+      "start_seconds": 52.293,
+      "end_seconds": 54.183,
+      "speaker": "SPEAKER_02"
+    },
+    {
+      "start_seconds": 55.077,
+      "end_seconds": 59.279,
+      "speaker": "SPEAKER_02"
+    },
+    {
+      "start_seconds": 60.443,
+      "end_seconds": 63.43,
+      "speaker": "SPEAKER_02"
+    },
+    {
+      "start_seconds": 63.667,
+      "end_seconds": 71.294,
+      "speaker": "SPEAKER_02"
+    },
+    {
+      "start_seconds": 72.391,
+      "end_seconds": 74.112,
+      "speaker": "SPEAKER_02"
+    },
+    {
+      "start_seconds": 74.483,
+      "end_seconds": 78.533,
+      "speaker": "SPEAKER_02"
+    },
+    {
+      "start_seconds": 79.782,
+      "end_seconds": 81.183,
+      "speaker": "SPEAKER_02"
+    },
+    {
+      "start_seconds": 82.702,
+      "end_seconds": 85.402,
+      "speaker": "SPEAKER_02"
+    },
+    {
+      "start_seconds": 89.35,
+      "end_seconds": 110.562,
+      "speaker": "SPEAKER_02"
+    },
+    {
+      "start_seconds": 112.115,
+      "end_seconds": 127.657,
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "start_seconds": 128.365,
+      "end_seconds": 128.382,
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start_seconds": 128.382,
+      "end_seconds": 128.399,
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "start_seconds": 128.399,
+      "end_seconds": 129.023,
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start_seconds": 129.023,
+      "end_seconds": 129.226,
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "start_seconds": 129.226,
+      "end_seconds": 129.31,
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start_seconds": 129.31,
+      "end_seconds": 129.833,
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "start_seconds": 129.833,
+      "end_seconds": 129.918,
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start_seconds": 129.918,
+      "end_seconds": 129.952,
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "start_seconds": 129.952,
+      "end_seconds": 130.036,
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start_seconds": 130.036,
+      "end_seconds": 143.097,
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "start_seconds": 143.401,
+      "end_seconds": 145.021,
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "start_seconds": 145.325,
+      "end_seconds": 147.94,
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "start_seconds": 148.733,
+      "end_seconds": 174.333,
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "start_seconds": 176.611,
+      "end_seconds": 210.26,
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start_seconds": 211.795,
+      "end_seconds": 211.964,
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start_seconds": 211.964,
+      "end_seconds": 244.111,
+      "speaker": "SPEAKER_04"
+    },
+    {
+      "start_seconds": 244.178,
+      "end_seconds": 257.138,
+      "speaker": "SPEAKER_04"
+    },
+    {
+      "start_seconds": 257.746,
+      "end_seconds": 258.32,
+      "speaker": "SPEAKER_04"
+    },
+    {
+      "start_seconds": 259.366,
+      "end_seconds": 261.998,
+      "speaker": "SPEAKER_04"
+    },
+    {
+      "start_seconds": 262.403,
+      "end_seconds": 269.66,
+      "speaker": "SPEAKER_04"
+    },
+    {
+      "start_seconds": 269.879,
+      "end_seconds": 271.313,
+      "speaker": "SPEAKER_04"
+    },
+    {
+      "start_seconds": 271.685,
+      "end_seconds": 271.988,
+      "speaker": "SPEAKER_04"
+    },
+    {
+      "start_seconds": 273.811,
+      "end_seconds": 282.215,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start_seconds": 282.265,
+      "end_seconds": 295.04,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start_seconds": 295.225,
+      "end_seconds": 299.697,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start_seconds": 300.355,
+      "end_seconds": 320.082,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start_seconds": 320.858,
+      "end_seconds": 337.21,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start_seconds": 337.919,
+      "end_seconds": 339.151,
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start_seconds": 339.151,
+      "end_seconds": 339.168,
+      "speaker": "SPEAKER_02"
+    },
+    {
+      "start_seconds": 344.315,
+      "end_seconds": 368.716,
+      "speaker": "SPEAKER_02"
+    },
+    {
+      "start_seconds": 369.205,
+      "end_seconds": 371.146,
+      "speaker": "SPEAKER_02"
+    },
+    {
+      "start_seconds": 375.888,
+      "end_seconds": 378.942,
+      "speaker": "SPEAKER_00"
+    }
+  ],
+  "cues": [
+    {
+      "start_seconds": 10.88,
+      "end_seconds": 13.44,
+      "text": "Tere tulemast arvamusfestivalile.",
+      "speaker": "SPEAKER_02",
+      "speaker_overlap_seconds": 1.852,
+      "speaker_share": 0.7234
+    },
+    {
+      "start_seconds": 13.44,
+      "end_seconds": 19.48,
+      "text": "Olete jõudnud arutellu, milliseid lasteraamatuid tahame, mille toovad teieni lastekaitse",
+      "speaker": "SPEAKER_02",
+      "speaker_overlap_seconds": 5.551,
+      "speaker_share": 0.919
+    },
+    {
+      "start_seconds": 19.48,
+      "end_seconds": 22.44,
+      "text": "liit ja meie säravad lapse õiguste saadikud.",
+      "speaker": "SPEAKER_02",
+      "speaker_overlap_seconds": 2.387,
+      "speaker_share": 0.8064
+    },
+    {
+      "start_seconds": 22.44,
+      "end_seconds": 28.16,
+      "text": "Mina olen Tuule, samuti lapse õiguste saadik ja Eesti esindaja ühes organisatsioonis",
+      "speaker": "SPEAKER_02",
+      "speaker_overlap_seconds": 5.72,
+      "speaker_share": 1.0
+    },
+    {
+      "start_seconds": 28.16,
+      "end_seconds": 30.48,
+      "text": "nimega EuroCeld.",
+      "speaker": "SPEAKER_02",
+      "speaker_overlap_seconds": 1.392,
+      "speaker_share": 0.6
+    },
+    {
+      "start_seconds": 30.48,
+      "end_seconds": 35.88,
+      "text": "Tänane arutelu on eriline, sest sõna saavad lapsed ise, ehk siis teie.",
+      "speaker": "SPEAKER_02",
+      "speaker_overlap_seconds": 3.965,
+      "speaker_share": 0.7343
+    },
+    {
+      "start_seconds": 35.88,
+      "end_seconds": 41.48,
+      "text": "Te räägite, milliseid raamatuid teid päriselt kõnetavad ja mis aitaks teil rohkem lu",
+      "speaker": "SPEAKER_02",
+      "speaker_overlap_seconds": 5.6,
+      "speaker_share": 1.0
+    },
+    {
+      "start_seconds": 41.48,
+      "end_seconds": 44.0,
+      "text": "gemishuvi tunda.",
+      "speaker": "SPEAKER_02",
+      "speaker_overlap_seconds": 1.406,
+      "speaker_share": 0.5579
+    },
+    {
+      "start_seconds": 44.0,
+      "end_seconds": 50.32,
+      "text": "Arutelu, aruteluringe viivad läbi lapseõiguste saadikud Miia Mai, Mirjam ja meie kaks",
+      "speaker": "SPEAKER_02",
+      "speaker_overlap_seconds": 6.32,
+      "speaker_share": 1.0
+    },
+    {
+      "start_seconds": 50.32,
+      "end_seconds": 55.28,
+      "text": "Martat koos teiste kirjandushuviliste noortega.",
+      "speaker": "SPEAKER_02",
+      "speaker_overlap_seconds": 2.463,
+      "speaker_share": 0.4966
+    },
+    {
+      "start_seconds": 55.28,
+      "end_seconds": 60.8,
+      "text": "Arutelud toimuvad erinevates vormides, et igaühe hääl saaks kõlada.",
+      "speaker": "SPEAKER_02",
+      "speaker_overlap_seconds": 4.356,
+      "speaker_share": 0.7891
+    },
+    {
+      "start_seconds": 60.8,
+      "end_seconds": 64.04,
+      "text": "Kallid täiskasvanud, kes te veel siin pisut olete.",
+      "speaker": "SPEAKER_02",
+      "speaker_overlap_seconds": 3.003,
+      "speaker_share": 0.9269
+    },
+    {
+      "start_seconds": 64.04,
+      "end_seconds": 69.48,
+      "text": "Palume teid tagasi kell üksteist nelikümmend viis, mil teeme päeva mõtetest kokkuvõt",
+      "speaker": "SPEAKER_02",
+      "speaker_overlap_seconds": 5.44,
+      "speaker_share": 1.0
+    },
+    {
+      "start_seconds": 69.48,
+      "end_seconds": 72.64,
+      "text": "te ja jagame laste ettepanekuid.",
+      "speaker": "SPEAKER_02",
+      "speaker_overlap_seconds": 2.063,
+      "speaker_share": 0.6528
+    },
+    {
+      "start_seconds": 72.64,
+      "end_seconds": 77.72,
+      "text": "Tule kuulama ja kaasa mõtlema, sest just siin sünnivad mõtteid, mis võivad muuta kogu",
+      "speaker": "SPEAKER_02",
+      "speaker_overlap_seconds": 4.709,
+      "speaker_share": 0.927
+    },
+    {
+      "start_seconds": 77.72,
+      "end_seconds": 80.04,
+      "text": "laste kirjandusmaailma.",
+      "speaker": "SPEAKER_02",
+      "speaker_overlap_seconds": 1.071,
+      "speaker_share": 0.4616
+    },
+    {
+      "start_seconds": 80.04,
+      "end_seconds": 89.6,
+      "text": "Nii, ja nüüd palume siis täiskasvanutel lahkuda ja hakkavad töötoad.",
+      "speaker": "SPEAKER_02",
+      "speaker_overlap_seconds": 4.093,
+      "speaker_share": 0.4281
+    },
+    {
+      "start_seconds": 89.6,
+      "end_seconds": 94.4,
+      "text": "Nii väga tore, et te olete kõik siia keskele tagasi jõudnud ja tore näha, et täiskas",
+      "speaker": "SPEAKER_02",
+      "speaker_overlap_seconds": 4.8,
+      "speaker_share": 1.0
+    },
+    {
+      "start_seconds": 94.4,
+      "end_seconds": 99.72,
+      "text": "vanud on ka enda tee tagasi siia alasse leidnud.",
+      "speaker": "SPEAKER_02",
+      "speaker_overlap_seconds": 5.32,
+      "speaker_share": 1.0
+    },
+    {
+      "start_seconds": 99.72,
+      "end_seconds": 107.16,
+      "text": "Nüüd ma annan mikrofoni järjest meie grupijuhtidele ja nad jagavad siis kolme mõtet enda",
+      "speaker": "SPEAKER_02",
+      "speaker_overlap_seconds": 7.44,
+      "speaker_share": 1.0
+    },
+    {
+      "start_seconds": 107.16,
+      "end_seconds": 112.64,
+      "text": "ringist, mis neile enim silma jäid ja tutvustavad natukene, mis me tegime.",
+      "speaker": "SPEAKER_02",
+      "speaker_overlap_seconds": 3.402,
+      "speaker_share": 0.6208
+    },
+    {
+      "start_seconds": 112.64,
+      "end_seconds": 119.92,
+      "text": "Ja ehk siis mina olen Marta ja minu töötoas oli siis eesmärk panna kirja",
+      "speaker": "SPEAKER_03",
+      "speaker_overlap_seconds": 7.28,
+      "speaker_share": 1.0
+    },
+    {
+      "start_seconds": 119.92,
+      "end_seconds": 125.84,
+      "text": ", et mis võiks selle raamatu alguses kohe toimuda, et siis kindlasti oleks piisavalt",
+      "speaker": "SPEAKER_03",
+      "speaker_overlap_seconds": 5.92,
+      "speaker_share": 1.0
+    },
+    {
+      "start_seconds": 125.84,
+      "end_seconds": 128.88,
+      "text": "põnev, et tahaks ikkagi edasi ka lugeda.",
+      "speaker": "SPEAKER_03",
+      "speaker_overlap_seconds": 1.834,
+      "speaker_share": 0.6033
+    },
+    {
+      "start_seconds": 128.88,
+      "end_seconds": 134.28,
+      "text": "Ja peamiselt toodigi välja siis see, et alguses võiks kohe olla mingisugune sündmus ja",
+      "speaker": "SPEAKER_03",
+      "speaker_overlap_seconds": 5.004,
+      "speaker_share": 0.9267
+    },
+    {
+      "start_seconds": 134.28,
+      "end_seconds": 140.2,
+      "text": "see võiks olla kuidagi võib-olla hirmus, natuke kurb ja, ja siis seda sealt nagu edasi",
+      "speaker": "SPEAKER_03",
+      "speaker_overlap_seconds": 5.92,
+      "speaker_share": 1.0
+    },
+    {
+      "start_seconds": 140.2,
+      "end_seconds": 146.16,
+      "text": "liikuda, aga et peamine on see, et lõpp oleks alati ikkagi õnnelik, et keegi nagu nu",
+      "speaker": "SPEAKER_03",
+      "speaker_overlap_seconds": 5.352,
+      "speaker_share": 0.898
+    },
+    {
+      "start_seconds": 146.16,
+      "end_seconds": 149.24,
+      "text": "tuga raamatut kinni panna ei tahaks.",
+      "speaker": "SPEAKER_03",
+      "speaker_overlap_seconds": 2.287,
+      "speaker_share": 0.7425
+    },
+    {
+      "start_seconds": 149.24,
+      "end_seconds": 155.6,
+      "text": "Ja üks asi, mis ma märkasin, et väga paljudele meeldis see mõte, et see kogu sündmus",
+      "speaker": "SPEAKER_03",
+      "speaker_overlap_seconds": 6.36,
+      "speaker_share": 1.0
+    },
+    {
+      "start_seconds": 155.6,
+      "end_seconds": 158.52,
+      "text": "tik toimuks siis sünnipäeval.",
+      "speaker": "SPEAKER_03",
+      "speaker_overlap_seconds": 2.92,
+      "speaker_share": 1.0
+    },
+    {
+      "start_seconds": 158.52,
+      "end_seconds": 165.8,
+      "text": "Et see oli kuidagi huvitav ja kohe väga-väga paljudel tuli see just välja, et, et taha",
+      "speaker": "SPEAKER_03",
+      "speaker_overlap_seconds": 7.28,
+      "speaker_share": 1.0
+    },
+    {
+      "start_seconds": 165.8,
+      "end_seconds": 171.48,
+      "text": "ks, et toimuks sünnipäeval ja, ja siis sealt liikuda edasi arvutimängudesse ja inter",
+      "speaker": "SPEAKER_03",
+      "speaker_overlap_seconds": 5.68,
+      "speaker_share": 1.0
+    },
+    {
+      "start_seconds": 171.48,
+      "end_seconds": 172.88,
+      "text": "netimaailma.",
+      "speaker": "SPEAKER_03",
+      "speaker_overlap_seconds": 1.4,
+      "speaker_share": 1.0
+    },
+    {
+      "start_seconds": 172.88,
+      "end_seconds": 177.08,
+      "text": "Ja jah, see minu poolt, ma arvan kõik.",
+      "speaker": "SPEAKER_03",
+      "speaker_overlap_seconds": 1.453,
+      "speaker_share": 0.346
+    },
+    {
+      "start_seconds": 177.08,
+      "end_seconds": 184.76,
+      "text": "Mina olen Miia-Mai ja minu grupis arutasime siis, et mis saaks siis, kui raamatu",
+      "speaker": "SPEAKER_05",
+      "speaker_overlap_seconds": 7.68,
+      "speaker_share": 1.0
+    },
+    {
+      "start_seconds": 184.76,
+      "end_seconds": 191.72,
+      "text": "id ei oleks, millised oleks emotsioonid ja kuidas sa siis ennast nagu tunneksid.",
+      "speaker": "SPEAKER_05",
+      "speaker_overlap_seconds": 6.96,
+      "speaker_share": 1.0
+    },
+    {
+      "start_seconds": 191.72,
+      "end_seconds": 198.92,
+      "text": "Mulle jäi silma see, et enamus vastasid, et kui raamatuid ei oleks, siis nad oleks ku",
+      "speaker": "SPEAKER_05",
+      "speaker_overlap_seconds": 7.2,
+      "speaker_share": 1.0
+    },
+    {
+      "start_seconds": 198.92,
+      "end_seconds": 202.4,
+      "text": "rvad, neil oleks igav ja ei oleks mitte midagi teha.",
+      "speaker": "SPEAKER_05",
+      "speaker_overlap_seconds": 3.48,
+      "speaker_share": 1.0
+    },
+    {
+      "start_seconds": 202.4,
+      "end_seconds": 209.6,
+      "text": "Ja et kui raamatud oleks, siis oleks palju parem ja nad oleks rõõmsad ja see",
+      "speaker": "SPEAKER_05",
+      "speaker_overlap_seconds": 7.2,
+      "speaker_share": 1.0
+    },
+    {
+      "start_seconds": 209.6,
+      "end_seconds": 212.2,
+      "text": "minu poolt kõik.",
+      "speaker": "SPEAKER_05",
+      "speaker_overlap_seconds": 0.829,
+      "speaker_share": 0.3188
+    },
+    {
+      "start_seconds": 212.2,
+      "end_seconds": 216.64,
+      "text": "Tere, olen Mirjam ja minu töötoa teema oli.",
+      "speaker": "SPEAKER_04",
+      "speaker_overlap_seconds": 4.44,
+      "speaker_share": 1.0
+    },
+    {
+      "start_seconds": 216.64,
+      "end_seconds": 223.48,
+      "text": "Milliseid raamatuid tahaksime juurde, et missugused teemad võiksid olla?",
+      "speaker": "SPEAKER_04",
+      "speaker_overlap_seconds": 6.84,
+      "speaker_share": 1.0
+    },
+    {
+      "start_seconds": 223.48,
+      "end_seconds": 228.16,
+      "text": "Et põhikalt mulle jäi väga silma, et igas grupis pakuti, et võiks olla rohkem kriminu",
+      "speaker": "SPEAKER_04",
+      "speaker_overlap_seconds": 4.68,
+      "speaker_share": 1.0
+    },
+    {
+      "start_seconds": 228.16,
+      "end_seconds": 233.12,
+      "text": "lle ja mitte just selliseid, kus nagu midagi varastatakse, vaid sellised, kus on nii",
+      "speaker": "SPEAKER_04",
+      "speaker_overlap_seconds": 4.96,
+      "speaker_share": 1.0
+    },
+    {
+      "start_seconds": 233.12,
+      "end_seconds": 238.32,
+      "text": "sugused pigem mõrvamüsteeriumid või noh, midagi sellist natukene põnevamat.",
+      "speaker": "SPEAKER_04",
+      "speaker_overlap_seconds": 5.2,
+      "speaker_share": 1.0
+    },
+    {
+      "start_seconds": 238.32,
+      "end_seconds": 246.0,
+      "text": "Ja siis jäi veel selline asi, et ühes grupis mainiti, et võiks olla selline asi, et teha",
+      "speaker": "SPEAKER_04",
+      "speaker_overlap_seconds": 7.613,
+      "speaker_share": 0.9913
+    },
+    {
+      "start_seconds": 246.0,
+      "end_seconds": 250.8,
+      "text": "kse nagu, kirjeldatakse mingisuguse objekti elu, näiteks see ei ole nagu inimene, vaid",
+      "speaker": "SPEAKER_04",
+      "speaker_overlap_seconds": 4.8,
+      "speaker_share": 1.0
+    },
+    {
+      "start_seconds": 250.8,
+      "end_seconds": 253.56,
+      "text": "see on nagu näiteks kartul, kivi, noh mida iganes.",
+      "speaker": "SPEAKER_04",
+      "speaker_overlap_seconds": 2.76,
+      "speaker_share": 1.0
+    },
+    {
+      "start_seconds": 253.56,
+      "end_seconds": 258.28,
+      "text": "Lihtsalt siukene, et noh, saad teada, kuidas niisugune elutu asi mõtleb.",
+      "speaker": "SPEAKER_04",
+      "speaker_overlap_seconds": 4.112,
+      "speaker_share": 0.8712
+    },
+    {
+      "start_seconds": 258.28,
+      "end_seconds": 264.6,
+      "text": "Ja oligi niisugune, et lõpus võiks olla mingisugune niisugune plot vist või niisugune",
+      "speaker": "SPEAKER_04",
+      "speaker_overlap_seconds": 4.869,
+      "speaker_share": 0.7704
+    },
+    {
+      "start_seconds": 264.6,
+      "end_seconds": 269.2,
+      "text": "üllatus, et ei ole lihtsalt, et ma arvasin seda juba ette, vaid tulebki niisugune nagu",
+      "speaker": "SPEAKER_04",
+      "speaker_overlap_seconds": 4.6,
+      "speaker_share": 1.0
+    },
+    {
+      "start_seconds": 269.2,
+      "end_seconds": 270.2,
+      "text": "põnev lõpp.",
+      "speaker": "SPEAKER_04",
+      "speaker_overlap_seconds": 0.781,
+      "speaker_share": 0.781
+    },
+    {
+      "start_seconds": 270.2,
+      "end_seconds": 272.0,
+      "text": "Et see jäi mulle väga silma.",
+      "speaker": "SPEAKER_04",
+      "speaker_overlap_seconds": 1.416,
+      "speaker_share": 0.7867
+    },
+    {
+      "start_seconds": 272.0,
+      "end_seconds": 274.28,
+      "text": "Aitäh.",
+      "speaker": "SPEAKER_01",
+      "speaker_overlap_seconds": 0.469,
+      "speaker_share": 0.2057
+    },
+    {
+      "start_seconds": 274.28,
+      "end_seconds": 280.88,
+      "text": "Tere, minu nimi on Kaumard ja minu töötoas siis me saime välja mõelda uusi raamatute",
+      "speaker": "SPEAKER_01",
+      "speaker_overlap_seconds": 6.6,
+      "speaker_share": 1.0
+    },
+    {
+      "start_seconds": 280.88,
+      "end_seconds": 282.96,
+      "text": "gelasi, keda me sooviksime.",
+      "speaker": "SPEAKER_01",
+      "speaker_overlap_seconds": 2.03,
+      "speaker_share": 0.976
+    },
+    {
+      "start_seconds": 282.96,
+      "end_seconds": 287.84,
+      "text": "Ja minu, minule jäi väga silma see, et tavaliselt need uued raamatutegelased olid ikkagi",
+      "speaker": "SPEAKER_01",
+      "speaker_overlap_seconds": 4.88,
+      "speaker_share": 1.0
+    },
+    {
+      "start_seconds": 287.84,
+      "end_seconds": 292.56,
+      "text": "siuksed, kas esemed või loomad, et inimesi oli seal tõesti väga vähe.",
+      "speaker": "SPEAKER_01",
+      "speaker_overlap_seconds": 4.72,
+      "speaker_share": 1.0
+    },
+    {
+      "start_seconds": 292.56,
+      "end_seconds": 297.72,
+      "text": "Et just sooviti siukseid erilisi loomasid või siis näiteks üldse objekte.",
+      "speaker": "SPEAKER_01",
+      "speaker_overlap_seconds": 4.975,
+      "speaker_share": 0.9641
+    },
+    {
+      "start_seconds": 297.72,
+      "end_seconds": 300.56,
+      "text": "Et alati ei peagi see tegelane olema inimene.",
+      "speaker": "SPEAKER_01",
+      "speaker_overlap_seconds": 2.182,
+      "speaker_share": 0.7683
+    },
+    {
+      "start_seconds": 300.56,
+      "end_seconds": 306.28,
+      "text": "Lisaks mulle jäi ka silma see, et alati ei pea see tegelane olema mingi superkangela",
+      "speaker": "SPEAKER_01",
+      "speaker_overlap_seconds": 5.72,
+      "speaker_share": 1.0
+    },
+    {
+      "start_seconds": 306.28,
+      "end_seconds": 311.96,
+      "text": "ne, midagi väga erilist printsessi või võiks olla ka täiesti tavaline inimene, nagu me",
+      "speaker": "SPEAKER_01",
+      "speaker_overlap_seconds": 5.68,
+      "speaker_share": 1.0
+    },
+    {
+      "start_seconds": 311.96,
+      "end_seconds": 317.44,
+      "text": "kõik, et ei pea alati olema midagi väga suurt või erilist või tahakski lugeda mingit",
+      "speaker": "SPEAKER_01",
+      "speaker_overlap_seconds": 5.48,
+      "speaker_share": 1.0
+    },
+    {
+      "start_seconds": 317.44,
+      "end_seconds": 321.04,
+      "text": "sihukese tavalise inimese lugu.",
+      "speaker": "SPEAKER_01",
+      "speaker_overlap_seconds": 2.824,
+      "speaker_share": 0.7844
+    },
+    {
+      "start_seconds": 321.04,
+      "end_seconds": 326.0,
+      "text": "Ja lisaks ma alguses küsisin ka lemmik raamatute kohta ja mulle jäi väga silma niisu",
+      "speaker": "SPEAKER_01",
+      "speaker_overlap_seconds": 4.96,
+      "speaker_share": 1.0
+    },
+    {
+      "start_seconds": 326.0,
+      "end_seconds": 331.28,
+      "text": "gune asi, et väga palju kõlasid vanad Eesti raamatud, kus olid need lemmiktegelased siis",
+      "speaker": "SPEAKER_01",
+      "speaker_overlap_seconds": 5.28,
+      "speaker_share": 1.0
+    },
+    {
+      "start_seconds": 331.28,
+      "end_seconds": 335.6,
+      "text": "pärit, mis oli mulle väga üllatav ja väga tore, et sellistest vanadest Eesti lastera",
+      "speaker": "SPEAKER_01",
+      "speaker_overlap_seconds": 4.32,
+      "speaker_share": 1.0
+    },
+    {
+      "start_seconds": 335.6,
+      "end_seconds": 338.28,
+      "text": "amatutest oli lemmiktegelasi.",
+      "speaker": "SPEAKER_01",
+      "speaker_overlap_seconds": 1.61,
+      "speaker_share": 0.6007
+    },
+    {
+      "start_seconds": 338.28,
+      "end_seconds": 344.64,
+      "text": "Ma arvan, et see on kõik.",
+      "speaker": "SPEAKER_05",
+      "speaker_overlap_seconds": 0.871,
+      "speaker_share": 0.1369
+    },
+    {
+      "start_seconds": 344.64,
+      "end_seconds": 349.44,
+      "text": "Nii, ja nüüd me sooviksime teha ühispildi kõikide lastega, kes arutelus osaleksid ja",
+      "speaker": "SPEAKER_02",
+      "speaker_overlap_seconds": 4.8,
+      "speaker_share": 1.0
+    },
+    {
+      "start_seconds": 349.44,
+      "end_seconds": 354.84,
+      "text": "et kohe peale seda ühispilti te lähte tagasi enda viimastesse arutelupunktidesse, ehk",
+      "speaker": "SPEAKER_02",
+      "speaker_overlap_seconds": 5.4,
+      "speaker_share": 1.0
+    },
+    {
+      "start_seconds": 354.84,
+      "end_seconds": 359.16,
+      "text": "siis ma ei tea, kes oli Miia Maiga seal, lähevad tagasi sinna, meil on teile väiksed",
+      "speaker": "SPEAKER_02",
+      "speaker_overlap_seconds": 4.32,
+      "speaker_share": 1.0
+    },
+    {
+      "start_seconds": 359.16,
+      "end_seconds": 363.44,
+      "text": "kingitused ja tahaksime teha viimase tagasiside, ehk siis palume teid kõiki siia ala",
+      "speaker": "SPEAKER_02",
+      "speaker_overlap_seconds": 4.28,
+      "speaker_share": 1.0
+    },
+    {
+      "start_seconds": 363.44,
+      "end_seconds": 368.64,
+      "text": "vahete ühispildi jaoks ja siis kindlasti ärge minge ära, vaid minge viimasesse gruppi",
+      "speaker": "SPEAKER_02",
+      "speaker_overlap_seconds": 5.2,
+      "speaker_share": 1.0
+    },
+    {
+      "start_seconds": 368.64,
+      "end_seconds": 369.48,
+      "text": "tagasi.",
+      "speaker": "SPEAKER_02",
+      "speaker_overlap_seconds": 0.351,
+      "speaker_share": 0.4179
+    },
+    {
+      "start_seconds": 369.48,
+      "end_seconds": 383.739,
+      "text": "Aitäh, mina omalt poolt tänan teid kõiki.",
+      "speaker": "SPEAKER_00",
+      "speaker_overlap_seconds": 3.054,
+      "speaker_share": 0.2142
+    }
+  ]
+}

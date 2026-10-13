@@ -89,6 +89,56 @@ Audio cache files are deleted only after a validated transcript archive is writt
 On download, transcription, or archive failure, the verified cache remains for a
 safe retry. Temporary partial downloads use `.part` files.
 
+## One-episode speaker diarization pilot
+
+The pilot uses pyannote's local `speaker-diarization-community-1` model to assign
+anonymous speaker labels to the existing timestamped cues. Accept the model's terms
+on Hugging Face, create an access token, and expose it only for the current shell:
+
+```powershell
+$env:HF_TOKEN = "<your-hugging-face-token>"
+uv run scripts/diarize_episode.py data/transcripts/2026/2258666735.json
+```
+
+This shortest archived episode is about 6.4 minutes. The script downloads and verifies
+its source audio, automatically uses CUDA when available, and writes
+`data/diarization/2026/2258666735.json`. Supply an already downloaded file with
+`--audio <path>`. If the participant count is known, use `--num-speakers`; otherwise
+`--min-speakers` and `--max-speakers` constrain automatic speaker counting. The
+canonical transcript is never modified.
+
+Each output contains the exclusive speaker turns plus a `speaker` and `speaker_share`
+for every transcript cue. Low `speaker_share` values identify cues that cross a
+speaker boundary and need review. Speaker labels are anonymous and episode-local.
+
+Build a standalone review page after diarization:
+
+```powershell
+uv run python scripts/build_diarization_review.py data/transcripts/2026/2258666735.json
+uv run python -m http.server 8765 --directory site
+```
+
+Open `http://localhost:8765/diarization/2258666735.html`. Consecutive cues from the
+same detected speaker are merged into cards; selecting a card seeks the fixed audio
+player to that segment and starts playback. Amber cards contain at least one cue with
+low speaker overlap and should be checked manually.
+
+For the complete archive, use the resumable GPU batch runner. A five-episode
+benchmark is intentionally the first step:
+
+```bash
+python scripts/diarize_all.py --limit 5 --dry-run
+python scripts/diarize_all.py --limit 5
+python scripts/diarize_all.py
+```
+
+The model is loaded once and reused. Valid outputs are skipped, temporary audio is
+removed after each episode, failures do not stop the batch, and progress is saved in
+`data/diarization/batch-status.json`. Review pages and their index are written under
+`site/diarization/`. The batch requires CUDA by default; see [RUNPOD.md](RUNPOD.md)
+for the Pod configuration, secure token handling, benchmark, resume, and download
+steps.
+
 ## Git policy
 
 Commit the catalog snapshots in `data/catalog/` and final transcript JSON in

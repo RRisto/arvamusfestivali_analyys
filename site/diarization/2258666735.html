@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="et">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Milliseid lasteraamatuid tahame – lastega ja lastele — kõnelejate ülevaade</title>
+  <style>
+    :root { color-scheme: light; font-family: Inter, ui-sans-serif, system-ui, sans-serif; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: #f5f7fb; color: #172033; }
+    header, main { width: min(920px, calc(100% - 32px)); margin-inline: auto; }
+    header { padding: 38px 0 20px; }
+    h1 { margin: 0 0 10px; font-size: clamp(1.65rem, 4vw, 2.65rem); line-height: 1.08; }
+    .summary { color: #59657a; margin: 0 0 18px; }
+    .source-link a { color: #2458c6; font-weight: 700; }
+    .player-dock {
+      position: sticky; top: 0; z-index: 5; background: rgba(245,247,251,.94);
+      backdrop-filter: blur(12px); border-block: 1px solid #dce2ec; padding: 14px 0;
+    }
+    .player-inner { width: min(920px, calc(100% - 32px)); margin-inline: auto; }
+    audio { display: block; width: 100%; }
+    #now-playing { min-height: 1.4em; margin: 8px 0 0; color: #445069; font-size: .92rem; }
+    .legend { display: flex; flex-wrap: wrap; gap: 8px; padding: 22px 0 14px; }
+    .speaker-chip {
+      border-left: 5px solid var(--speaker-color); background: white; border-radius: 8px;
+      padding: 7px 10px; box-shadow: 0 1px 3px #17203314;
+      font-weight: 750; font-size: .82rem;
+    }
+    .segments { display: grid; gap: 12px; padding: 4px 0 54px; }
+    .segment-card {
+      width: 100%; border: 1px solid #dce2ec;
+      border-left: 7px solid var(--speaker-color); border-radius: 12px;
+      background: white; color: inherit; padding: 16px 18px; text-align: left;
+      cursor: pointer; box-shadow: 0 2px 8px #1720330c;
+      transition: transform .12s ease, box-shadow .12s ease, border-color .12s ease;
+    }
+    .segment-card:hover, .segment-card:focus-visible {
+      transform: translateY(-1px); box-shadow: 0 7px 20px #1720331a;
+      outline: 3px solid #93b4ff; outline-offset: 2px;
+    }
+    .segment-card.active {
+      border-color: var(--speaker-color);
+      box-shadow: 0 0 0 3px color-mix(in srgb, var(--speaker-color) 22%, transparent);
+    }
+    .segment-card.needs-review { background: #fffaf0; }
+    .segment-head {
+      display: flex; align-items: center; flex-wrap: wrap; gap: 10px; margin-bottom: 9px;
+    }
+    .timestamp { color: #526077; font-variant-numeric: tabular-nums; }
+    .review-badge {
+      background: #f8d98b; color: #6c4400; border-radius: 999px;
+      padding: 3px 8px; font-size: .74rem; font-weight: 800;
+    }
+    .segment-text { display: block; font-size: 1.02rem; line-height: 1.62; }
+    @media (max-width: 560px) {
+      header, main, .player-inner { width: min(100% - 20px, 920px); }
+      .segment-card { padding: 14px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Milliseid lasteraamatuid tahame – lastega ja lastele</h1>
+    <p class="summary">
+      6 kõnelejat · 8 segmenti ·
+      7 vajab kõneleja kontrolli
+    </p>
+    <p class="source-link"><a href="https://soundcloud.com/arvamusfestival/milliseid-lasteraamatuid-tahame-lastega-ja-lastele-5" target="_blank" rel="noreferrer">Ava salvestuse leht ↗</a></p>
+  </header>
+  <div class="player-dock">
+    <div class="player-inner">
+      <audio id="episode-audio" controls preload="metadata"
+             src="https://feeds.soundcloud.com/stream/2258666735-arvamusfestival-milliseid-lasteraamatuid-tahame-lastega-ja-lastele-5.mp3"></audio>
+      <p id="now-playing">Vali allpool segment, et alustada kuulamist.</p>
+    </div>
+  </div>
+  <main>
+    <div class="legend" aria-label="Kõnelejad"><span class="speaker-chip" style="--speaker-color:#2563eb">SPEAKER_00</span><span class="speaker-chip" style="--speaker-color:#db2777">SPEAKER_01</span><span class="speaker-chip" style="--speaker-color:#059669">SPEAKER_02</span><span class="speaker-chip" style="--speaker-color:#d97706">SPEAKER_03</span><span class="speaker-chip" style="--speaker-color:#7c3aed">SPEAKER_04</span><span class="speaker-chip" style="--speaker-color:#0891b2">SPEAKER_05</span></div>
+    <div class="segments"><button type="button" class="segment-card needs-review" data-segment-id="segment-0001" data-start="10.88" style="--speaker-color:#059669"><span class="segment-head"><strong>SPEAKER_02</strong><span class="timestamp">▶ 0:11–1:53</span><span class="review-badge">Kontrolli kõnelejat</span></span><span class="segment-text">Tere tulemast arvamusfestivalile. Olete jõudnud arutellu, milliseid lasteraamatuid tahame, mille toovad teieni lastekaitse liit ja meie säravad lapse õiguste saadikud. Mina olen Tuule, samuti lapse õiguste saadik ja Eesti esindaja ühes organisatsioonis nimega EuroCeld. Tänane arutelu on eriline, sest sõna saavad lapsed ise, ehk siis teie. Te räägite, milliseid raamatuid teid päriselt kõnetavad ja mis aitaks teil rohkem lu gemishuvi tunda. Arutelu, aruteluringe viivad läbi lapseõiguste saadikud Miia Mai, Mirjam ja meie kaks Martat koos teiste kirjandushuviliste noortega. Arutelud toimuvad erinevates vormides, et igaühe hääl saaks kõlada. Kallid täiskasvanud, kes te veel siin pisut olete. Palume teid tagasi kell üksteist nelikümmend viis, mil teeme päeva mõtetest kokkuvõt te ja jagame laste ettepanekuid. Tule kuulama ja kaasa mõtlema, sest just siin sünnivad mõtteid, mis võivad muuta kogu laste kirjandusmaailma. Nii, ja nüüd palume siis täiskasvanutel lahkuda ja hakkavad töötoad. Nii väga tore, et te olete kõik siia keskele tagasi jõudnud ja tore näha, et täiskas vanud on ka enda tee tagasi siia alasse leidnud. Nüüd ma annan mikrofoni järjest meie grupijuhtidele ja nad jagavad siis kolme mõtet enda ringist, mis neile enim silma jäid ja tutvustavad natukene, mis me tegime.</span></button>
+<button type="button" class="segment-card needs-review" data-segment-id="segment-0002" data-start="112.64" style="--speaker-color:#d97706"><span class="segment-head"><strong>SPEAKER_03</strong><span class="timestamp">▶ 1:53–2:57</span><span class="review-badge">Kontrolli kõnelejat</span></span><span class="segment-text">Ja ehk siis mina olen Marta ja minu töötoas oli siis eesmärk panna kirja , et mis võiks selle raamatu alguses kohe toimuda, et siis kindlasti oleks piisavalt põnev, et tahaks ikkagi edasi ka lugeda. Ja peamiselt toodigi välja siis see, et alguses võiks kohe olla mingisugune sündmus ja see võiks olla kuidagi võib-olla hirmus, natuke kurb ja, ja siis seda sealt nagu edasi liikuda, aga et peamine on see, et lõpp oleks alati ikkagi õnnelik, et keegi nagu nu tuga raamatut kinni panna ei tahaks. Ja üks asi, mis ma märkasin, et väga paljudele meeldis see mõte, et see kogu sündmus tik toimuks siis sünnipäeval. Et see oli kuidagi huvitav ja kohe väga-väga paljudel tuli see just välja, et, et taha ks, et toimuks sünnipäeval ja, ja siis sealt liikuda edasi arvutimängudesse ja inter netimaailma. Ja jah, see minu poolt, ma arvan kõik.</span></button>
+<button type="button" class="segment-card needs-review" data-segment-id="segment-0003" data-start="177.08" style="--speaker-color:#0891b2"><span class="segment-head"><strong>SPEAKER_05</strong><span class="timestamp">▶ 2:57–3:32</span><span class="review-badge">Kontrolli kõnelejat</span></span><span class="segment-text">Mina olen Miia-Mai ja minu grupis arutasime siis, et mis saaks siis, kui raamatu id ei oleks, millised oleks emotsioonid ja kuidas sa siis ennast nagu tunneksid. Mulle jäi silma see, et enamus vastasid, et kui raamatuid ei oleks, siis nad oleks ku rvad, neil oleks igav ja ei oleks mitte midagi teha. Ja et kui raamatud oleks, siis oleks palju parem ja nad oleks rõõmsad ja see minu poolt kõik.</span></button>
+<button type="button" class="segment-card" data-segment-id="segment-0004" data-start="212.2" style="--speaker-color:#7c3aed"><span class="segment-head"><strong>SPEAKER_04</strong><span class="timestamp">▶ 3:32–4:32</span></span><span class="segment-text">Tere, olen Mirjam ja minu töötoa teema oli. Milliseid raamatuid tahaksime juurde, et missugused teemad võiksid olla? Et põhikalt mulle jäi väga silma, et igas grupis pakuti, et võiks olla rohkem kriminu lle ja mitte just selliseid, kus nagu midagi varastatakse, vaid sellised, kus on nii sugused pigem mõrvamüsteeriumid või noh, midagi sellist natukene põnevamat. Ja siis jäi veel selline asi, et ühes grupis mainiti, et võiks olla selline asi, et teha kse nagu, kirjeldatakse mingisuguse objekti elu, näiteks see ei ole nagu inimene, vaid see on nagu näiteks kartul, kivi, noh mida iganes. Lihtsalt siukene, et noh, saad teada, kuidas niisugune elutu asi mõtleb. Ja oligi niisugune, et lõpus võiks olla mingisugune niisugune plot vist või niisugune üllatus, et ei ole lihtsalt, et ma arvasin seda juba ette, vaid tulebki niisugune nagu põnev lõpp. Et see jäi mulle väga silma.</span></button>
+<button type="button" class="segment-card needs-review" data-segment-id="segment-0005" data-start="272" style="--speaker-color:#db2777"><span class="segment-head"><strong>SPEAKER_01</strong><span class="timestamp">▶ 4:32–5:38</span><span class="review-badge">Kontrolli kõnelejat</span></span><span class="segment-text">Aitäh. Tere, minu nimi on Kaumard ja minu töötoas siis me saime välja mõelda uusi raamatute gelasi, keda me sooviksime. Ja minu, minule jäi väga silma see, et tavaliselt need uued raamatutegelased olid ikkagi siuksed, kas esemed või loomad, et inimesi oli seal tõesti väga vähe. Et just sooviti siukseid erilisi loomasid või siis näiteks üldse objekte. Et alati ei peagi see tegelane olema inimene. Lisaks mulle jäi ka silma see, et alati ei pea see tegelane olema mingi superkangela ne, midagi väga erilist printsessi või võiks olla ka täiesti tavaline inimene, nagu me kõik, et ei pea alati olema midagi väga suurt või erilist või tahakski lugeda mingit sihukese tavalise inimese lugu. Ja lisaks ma alguses küsisin ka lemmik raamatute kohta ja mulle jäi väga silma niisu gune asi, et väga palju kõlasid vanad Eesti raamatud, kus olid need lemmiktegelased siis pärit, mis oli mulle väga üllatav ja väga tore, et sellistest vanadest Eesti lastera amatutest oli lemmiktegelasi.</span></button>
+<button type="button" class="segment-card needs-review" data-segment-id="segment-0006" data-start="338.28" style="--speaker-color:#0891b2"><span class="segment-head"><strong>SPEAKER_05</strong><span class="timestamp">▶ 5:38–5:45</span><span class="review-badge">Kontrolli kõnelejat</span></span><span class="segment-text">Ma arvan, et see on kõik.</span></button>
+<button type="button" class="segment-card needs-review" data-segment-id="segment-0007" data-start="344.64" style="--speaker-color:#059669"><span class="segment-head"><strong>SPEAKER_02</strong><span class="timestamp">▶ 5:45–6:09</span><span class="review-badge">Kontrolli kõnelejat</span></span><span class="segment-text">Nii, ja nüüd me sooviksime teha ühispildi kõikide lastega, kes arutelus osaleksid ja et kohe peale seda ühispilti te lähte tagasi enda viimastesse arutelupunktidesse, ehk siis ma ei tea, kes oli Miia Maiga seal, lähevad tagasi sinna, meil on teile väiksed kingitused ja tahaksime teha viimase tagasiside, ehk siis palume teid kõiki siia ala vahete ühispildi jaoks ja siis kindlasti ärge minge ära, vaid minge viimasesse gruppi tagasi.</span></button>
+<button type="button" class="segment-card needs-review" data-segment-id="segment-0008" data-start="369.48" style="--speaker-color:#2563eb"><span class="segment-head"><strong>SPEAKER_00</strong><span class="timestamp">▶ 6:09–6:24</span><span class="review-badge">Kontrolli kõnelejat</span></span><span class="segment-text">Aitäh, mina omalt poolt tänan teid kõiki.</span></button></div>
+  </main>
+  <script>
+    const player = document.getElementById("episode-audio");
+    const nowPlaying = document.getElementById("now-playing");
+    const cards = [...document.querySelectorAll(".segment-card")];
+    cards.forEach((card) => {
+      card.addEventListener("click", () => {
+        const start = Number(card.dataset.start);
+        player.currentTime = start;
+        player.play().catch(() => {});
+        cards.forEach((item) => item.classList.toggle("active", item === card));
+        nowPlaying.textContent = card.querySelector("strong").textContent
+          + " · "
+          + card.querySelector(".timestamp").textContent.replace("▶ ", "");
+      });
+    });
+  </script>
+</body>
+</html>

@@ -21,6 +21,8 @@ data/topic-analysis/cache/
 data/topic-analysis/results/
 .ipynb_checkpoints/
 *.part
+.tmp/
+/runpod-diarization.zip
 
 /untitled.txt
 /unititled.txt
