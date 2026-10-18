@@ -6,6 +6,10 @@ lookup API](https://itunes.apple.com/lookup) (collection ID `1477431807`) and th
 uses the authoritative SoundCloud RSS feed returned by Apple. The RSS enclosure is
 the audio source; its publication date determines the archive year.
 
+For a reproducible full-corpus retranscription on RunPod, including isolated staging,
+catalog/model locks, checksummed promotion, saved-turn diarization reassignment, and
+the ordered downstream rebuild, follow [RUNPOD_RETRANSCRIPTION.md](RUNPOD_RETRANSCRIPTION.md).
+
 ## Results website
 
 The static results website has three focused pages: a topic overview, a separate

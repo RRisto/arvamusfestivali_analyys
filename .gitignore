@@ -23,6 +23,8 @@ data/topic-analysis/results/
 *.part
 .tmp/
 /runpod-diarization.zip
+data/retranscription/*
+!data/retranscription/2026-run-lock.json
 
 /untitled.txt
 /unititled.txt
