@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import argparse
+import json
 import shutil
 import sys
 from collections.abc import Sequence
@@ -55,7 +56,15 @@ def _episode_id(value: str) -> str:
 def _add_common_arguments(parser: argparse.ArgumentParser) -> None:
     parser.add_argument("--year", required=True, type=_year, help="publication year")
     parser.add_argument("--root", type=Path, default=Path.cwd(), help="archive root directory")
-    parser.add_argument("--episode-id", type=_episode_id, help="one numeric SoundCloud episode ID")
+    episode_scope = parser.add_mutually_exclusive_group()
+    episode_scope.add_argument(
+        "--episode-id", type=_episode_id, help="one numeric SoundCloud episode ID"
+    )
+    episode_scope.add_argument(
+        "--episode-list",
+        type=Path,
+        help="JSON file containing an explicit episode_ids list",
+    )
     parser.add_argument("--limit", type=_positive_limit, help="maximum pending episodes to process")
     parser.add_argument(
         "--parallelism",
@@ -126,6 +135,23 @@ def _validate_transcription_configuration(*, script: Path, uv_executable: str) -
         raise RuntimeError("ffmpeg executable is required for MP3 transcription")
 
 
+def _read_episode_list(path: Path | None) -> tuple[str, ...] | None:
+    if path is None:
+        return None
+    payload = json.loads(path.read_text(encoding="utf-8"))
+    episode_ids = payload.get("episode_ids") if isinstance(payload, dict) else None
+    if not isinstance(episode_ids, list) or not episode_ids:
+        raise ValueError("episode list must contain at least one episode ID")
+    if not all(isinstance(episode_id, str) for episode_id in episode_ids):
+        raise ValueError("episode list IDs must be strings")
+    if any(not episode_id.isascii() or not episode_id.isdigit() for episode_id in episode_ids):
+        raise ValueError("episode list IDs must be numeric")
+    validated = tuple(episode_ids)
+    if len(validated) != len(set(validated)):
+        raise ValueError("episode list must not repeat IDs")
+    return validated
+
+
 def _dependencies(uv_executable: str) -> PipelineDependencies:
     return PipelineDependencies(transcriber=partial(run_transcriber, uv_executable=uv_executable))
 
@@ -160,6 +186,7 @@ def main(argv: Sequence[str] | None = None) -> int:
             "paths": PipelinePaths.from_root(args.root),
             "catalog_snapshot": args.catalog_snapshot,
             "episode_id": args.episode_id,
+            "episode_ids": _read_episode_list(args.episode_list),
             "limit": args.limit,
             "parallelism": args.parallelism,
             "force": args.force,

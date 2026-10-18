@@ -25,6 +25,7 @@ data/topic-analysis/results/
 /runpod-diarization.zip
 data/retranscription/*
 !data/retranscription/2026-run-lock.json
+!data/retranscription/2026-affected-episodes.json
 
 /untitled.txt
 /unititled.txt

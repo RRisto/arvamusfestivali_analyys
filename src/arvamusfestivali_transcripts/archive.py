@@ -4,7 +4,7 @@ import json
 import math
 import os
 import re
-import tempfile
+import uuid
 from collections.abc import Mapping
 from datetime import UTC, datetime
 from pathlib import Path
@@ -90,18 +90,20 @@ def write_archive(path: Path, payload: Mapping[str, Any], force: bool = False) -
     validate_archive(payload, published_at.year)
 
     path.parent.mkdir(parents=True, exist_ok=True)
-    descriptor, temporary_name = tempfile.mkstemp(
-        prefix=f".{path.name}.", suffix=".tmp", dir=path.parent
-    )
-    temporary = Path(temporary_name)
+    temporary = path.with_name(f".{path.name}.{uuid.uuid4().hex}.tmp")
     try:
-        with os.fdopen(descriptor, "w", encoding="utf-8", newline="\n") as stream:
+        with temporary.open("x", encoding="utf-8", newline="\n") as stream:
             json.dump(payload, stream, ensure_ascii=False, indent=2)
             stream.write("\n")
             stream.flush()
             os.fsync(stream.fileno())
         if force:
-            temporary.replace(path)
+            os.replace(temporary, path)
+        elif os.name == "nt":
+            try:
+                os.rename(temporary, path)
+            except FileExistsError as error:
+                raise FileExistsError(f"refusing to overwrite existing archive: {path}") from error
         else:
             try:
                 os.link(temporary, path)

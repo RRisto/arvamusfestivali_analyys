@@ -18,6 +18,8 @@ def main():
     source = base / "segment-dataset/all-segments.parquet"
     data = pd.read_parquet(source)
     semantic = data[data.segmentation == "semantic"]
+    source_manifest = json.loads((source.parent / "manifest.json").read_text())
+    has_model_baseline = source_manifest.get("assignment_baseline") != "none"
     manifest = json.loads((output / "manifest.json").read_text())
     assert hashlib.sha256(source.read_bytes()).hexdigest() == manifest["source_sha256"]
     assigned = pd.read_parquet(output / "assignments.parquet")
@@ -54,12 +56,20 @@ def main():
     assigned.to_parquet(output / "assignments.parquet", index=False)
     assigned.to_csv(output / "assignments.csv", index=False)
     review = data.merge(assigned, on="segment_key", how="left", validate="one_to_one")
-    review["model_high_level_id"] = review.topic_key.map(mapping)
+    review["model_high_level_id"] = (
+        review.topic_key.map(mapping) if has_model_baseline else pd.NA
+    )
     pd.testing.assert_frame_equal(review[data.columns], data)
     review.to_parquet(output / "review-segments.parquet", index=False)
     selected = review[review.segmentation == "semantic"].copy()
-    selected["fine_topic_agrees"] = selected.topic_id == selected.jev_topic_id
-    selected["high_level_agrees"] = selected.model_high_level_id == selected.jev_high_level_id
+    if has_model_baseline:
+        selected["fine_topic_agrees"] = selected.topic_id == selected.jev_topic_id
+        selected["high_level_agrees"] = (
+            selected.model_high_level_id == selected.jev_high_level_id
+        )
+    else:
+        selected["fine_topic_agrees"] = pd.NA
+        selected["high_level_agrees"] = pd.NA
     selected.groupby(["jev_topic_id", "jev_topic_name"]).agg(
         segments=("segment_key", "size"),
         talks=("episode_id", "nunique"),
@@ -82,7 +92,11 @@ def main():
         y="recording_hours",
         hover_data=["segments", "talks"],
     ).write_html(output / "high-level-coverage.html", include_plotlyjs=True)
-    disagreements = selected[~selected.high_level_agrees]
+    disagreements = (
+        selected[~selected.high_level_agrees]
+        if has_model_baseline
+        else selected.iloc[0:0]
+    )
     disagreements[
         [
             "segment_key",
@@ -110,17 +124,28 @@ def main():
             / selected.duration_seconds.sum()
             * 100
         ),
-        "fine_label_agreement_pct": float(selected.fine_topic_agrees.mean() * 100),
-        "parent_label_agreement_pct": float(selected.high_level_agrees.mean() * 100),
-        "interpretation": "Agreement with the original clustering is descriptive, not accuracy. "
-        "Jev uses detailed 236-topic choice; parents are dictionary rollups, "
-        "not direct high-level predictions.",
+        "fine_label_agreement_pct": (
+            float(selected.fine_topic_agrees.mean() * 100) if has_model_baseline else None
+        ),
+        "parent_label_agreement_pct": (
+            float(selected.high_level_agrees.mean() * 100) if has_model_baseline else None
+        ),
+        "interpretation": (
+            "Agreement with the original clustering is descriptive, not accuracy. "
+            if has_model_baseline
+            else "Topic-model assignments were intentionally not regenerated; "
+            "agreement is unavailable. "
+        )
+        + "Jev uses the existing detailed 236-topic vocabulary; parents are dictionary "
+        "rollups, not direct high-level predictions.",
     }
     (output / "summary.json").write_text(json.dumps(stats, indent=2) + "\n")
     manifest["high_level_mapping_sha256"] = hashlib.sha256(
         (mapping_root / "topic-key-to-high-level.json").read_bytes()
     ).hexdigest()
     manifest["high_level_assignment_type"] = "dictionary_parent_of_detailed_jev_choice"
+    manifest["corpus_sha256"] = source_manifest["corpus_sha256"]
+    manifest["assignment_baseline"] = source_manifest["assignment_baseline"]
     manifest["validation"] = (
         "All native semantic keys covered once; input columns unchanged; "
         "probability vocabularies and values checked."
@@ -129,8 +154,8 @@ def main():
     (output / "index.html").write_text(
         '<!doctype html><meta charset="utf-8"><h1>Jev labels for all current '
         "semantic segments</h1><p>Detailed topics are direct Jev choices. High-level"
-        " categories come from the saved dictionary. Original model topics and "
-        'boundaries are preserved. Agreement is not accuracy.</p><p><a href="high-'
+        " categories come from the saved dictionary. Semantic boundaries were rebuilt "
+        'from the current transcripts without refitting topics.</p><p><a href="high-'
         'level-coverage.html">High-level coverage chart</a></p>'
         + pd.DataFrame([stats]).to_html(index=False)
         + parent_summary.to_html(index=False)

@@ -174,6 +174,24 @@ def test_episode_filter_precedes_skip_and_limit(tmp_path, services, episode):
         run_frozen(paths, services, snapshot, episode_id="999")
 
 
+def test_episode_list_filters_to_explicit_set_before_parallel_processing(
+    tmp_path, services, episode
+):
+    paths = PipelinePaths.from_root(tmp_path)
+    second = replace(episode, id="456", audio_url="https://example.test/456.mp3")
+    third = replace(episode, id="789", audio_url="https://example.test/789.mp3")
+    snapshot = save_catalog(paths, [episode, second, third])
+
+    summary = run_frozen(
+        paths, services, snapshot, episode_ids=("789", "456"), dry_run=True
+    )
+
+    assert (summary.selected, summary.completed) == (2, 0)
+    assert not (paths.transcripts / "2026/123.json").exists()
+    with pytest.raises(ValueError, match="999"):
+        run_frozen(paths, services, snapshot, episode_ids=("456", "999"))
+
+
 def test_streaming_continues_after_failure_and_retries_cached_audio(tmp_path, services, episode):
     paths = PipelinePaths.from_root(tmp_path)
     second = replace(episode, id="456", audio_url="https://example.test/456.mp3")

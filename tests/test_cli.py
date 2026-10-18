@@ -282,6 +282,21 @@ def test_main_rejects_non_numeric_episode_ids(
     assert "episode ID must be numeric" in capsys.readouterr().err
 
 
+def test_parser_accepts_explicit_episode_list_file(tmp_path: Path) -> None:
+    import json
+
+    from arvamusfestivali_transcripts import __main__ as cli
+
+    selection = tmp_path / "affected.json"
+    selection.write_text(json.dumps({"episode_ids": ["100", "200"]}), encoding="utf-8")
+
+    args = cli.build_parser().parse_args(
+        ["fetch", "--year", "2026", "--episode-list", str(selection)]
+    )
+
+    assert args.episode_list == selection
+
+
 def test_main_rejects_year_outside_supported_range(capsys: pytest.CaptureFixture[str]) -> None:
     next_year = datetime.now(UTC).year + 1
 

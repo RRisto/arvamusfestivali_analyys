@@ -29,6 +29,7 @@ def main() -> None:
     metadata = pd.read_parquet(BASE / "talk-metadata/talks.parquet")
     assert metadata.episode_id.is_unique and metadata.programme_year.notna().all()
     full_manifest = json.loads((SOURCE / "manifest.json").read_text())
+    has_model_baseline = full_manifest.get("assignment_baseline") != "none"
     assert sha(BASE / "segment-dataset/all-segments.parquet") == full_manifest["source_sha256"]
     coordinates = pd.read_csv(SOURCE / "bubble-maps/topic-coordinates.csv")
     styles = json.loads((BASE / "high-level-topics/category-style.json").read_text())
@@ -99,11 +100,17 @@ def main() -> None:
             jev_unassigned_time_pct=float(
                 semantic.loc[noise].duration_seconds.sum() / semantic.duration_seconds.sum() * 100
             ),
-            fine_label_agreement_pct=float(
-                semantic.topic_id.eq(semantic.jev_topic_id).mean() * 100
+            fine_label_agreement_pct=(
+                float(semantic.topic_id.eq(semantic.jev_topic_id).mean() * 100)
+                if has_model_baseline
+                else None
             ),
-            parent_label_agreement_pct=float(
-                semantic.model_high_level_id.eq(semantic.jev_high_level_id).mean() * 100
+            parent_label_agreement_pct=(
+                float(
+                    semantic.model_high_level_id.eq(semantic.jev_high_level_id).mean() * 100
+                )
+                if has_model_baseline
+                else None
             ),
             organizer_known_talks=int(talks.organizer.ne("").sum()),
             interpretation="Agreement is descriptive, not accuracy; original shared "
@@ -119,6 +126,8 @@ def main() -> None:
                 "config_sha256",
                 "names_sha256",
                 "assignment_type",
+                "assignment_baseline",
+                "corpus_sha256",
                 "high_level_mapping_sha256",
                 "high_level_assignment_type",
             ]
@@ -134,7 +143,11 @@ def main() -> None:
             talk_metadata_sha256=sha(out / "talk-metadata.parquet"),
             export_type="derived_year_subset",
             api_requests_this_export=0,
-            classification="Existing saved responses, unchanged native boundaries and labels",
+            classification=(
+                "Existing saved responses and original model comparison"
+                if has_model_baseline
+                else "Jev-only refresh from current transcript text; no topic-model refit"
+            ),
             bubble_coordinates=("Combined-corpus projection; year-specific counts"),
         )
         (out / "manifest.json").write_text(json.dumps(provenance, indent=2) + "\n")

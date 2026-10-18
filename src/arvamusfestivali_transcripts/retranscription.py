@@ -1,4 +1,4 @@
-"""Reproducible staging, validation, and promotion for full retranscription runs."""
+"""Reproducible staging, validation, and promotion for selected retranscriptions."""
 
 from __future__ import annotations
 
@@ -7,7 +7,7 @@ import hashlib
 import json
 import os
 import sys
-from collections.abc import Mapping
+from collections.abc import Mapping, Sequence
 from datetime import UTC, datetime
 from pathlib import Path
 from typing import Any
@@ -56,9 +56,10 @@ def create_run_lock(
     baseline_dir: Path,
     transcriber_script: Path,
     *,
+    episode_ids: Sequence[str],
     expected_model: Mapping[str, str],
 ) -> dict[str, Any]:
-    """Pin catalog, integration script, model metadata, and baseline audio identities."""
+    """Pin selected episodes, integration script, model, and baseline identities."""
     catalog = CatalogSnapshot.from_json(catalog_path.read_text(encoding="utf-8"))
     required_model_fields = {"name", "repository", "revision", "precision"}
     if set(expected_model) != required_model_fields or not all(expected_model.values()):
@@ -66,7 +67,17 @@ def create_run_lock(
     if not transcriber_script.is_file():
         raise FileNotFoundError(transcriber_script)
 
-    episodes: dict[str, dict[str, str]] = {}
+    selected_ids = [str(episode_id) for episode_id in episode_ids]
+    if not selected_ids:
+        raise ValueError("episode selection must contain at least one ID")
+    if len(selected_ids) != len(set(selected_ids)):
+        raise ValueError("episode selection must not repeat IDs")
+    catalog_by_id = {episode.id: episode for episode in catalog.episodes}
+    unknown = sorted(set(selected_ids) - set(catalog_by_id))
+    if unknown:
+        raise ValueError(f"episode selection contains IDs not in catalog: {', '.join(unknown)}")
+
+    baseline_archives: dict[str, tuple[dict[str, Any], str]] = {}
     for episode in catalog.episodes:
         archive_path = baseline_dir / f"{episode.id}.json"
         archive = _read_object(archive_path)
@@ -74,18 +85,40 @@ def create_run_lock(
         metadata = archive["episode"]
         if metadata["id"] != episode.id or metadata["audio_url"] != episode.audio_url:
             raise ValueError(f"baseline identity does not match catalog for episode {episode.id}")
+        baseline_archives[episode.id] = (archive, sha256_file(archive_path))
+
+    source_by_audio: dict[str, str] = {}
+    for episode_id in selected_ids:
+        archive, _ = baseline_archives[episode_id]
+        audio_sha256 = str(archive["episode"]["audio_sha256"])
+        if audio_sha256 in source_by_audio:
+            raise ValueError("episode selection must not repeat the same recording")
+        source_by_audio[audio_sha256] = episode_id
+
+    episodes: dict[str, dict[str, str]] = {}
+    for episode in catalog.episodes:
+        archive, baseline_sha256 = baseline_archives[episode.id]
+        metadata = archive["episode"]
+        audio_sha256 = str(metadata["audio_sha256"])
+        source_episode_id = source_by_audio.get(audio_sha256)
+        if source_episode_id is None:
+            continue
         episodes[episode.id] = {
-            "audio_sha256": str(metadata["audio_sha256"]),
+            "audio_sha256": audio_sha256,
             "audio_url": episode.audio_url,
+            "baseline_sha256": baseline_sha256,
+            "source_episode_id": source_episode_id,
         }
 
     return {
-        "schema_version": 1,
+        "schema_version": 2,
+        "scope": "selected_episodes",
         "year": catalog.year,
         "catalog_filename": catalog_path.name,
         "catalog_sha256": sha256_file(catalog_path),
         "transcriber_script_sha256": sha256_file(transcriber_script),
         "expected_model": dict(expected_model),
+        "transcribe_episode_ids": selected_ids,
         "episodes": episodes,
     }
 
@@ -93,6 +126,47 @@ def create_run_lock(
 def write_run_lock(path: Path, lock: Mapping[str, Any]) -> Path:
     """Write a run lock atomically."""
     return _atomic_json(path, lock)
+
+
+def read_episode_selection(path: Path) -> list[str]:
+    """Read an explicit JSON selection of affected episode IDs."""
+    payload = _read_object(path)
+    episode_ids = payload.get("episode_ids")
+    if not isinstance(episode_ids, list) or not all(
+        isinstance(episode_id, str) for episode_id in episode_ids
+    ):
+        raise ValueError("episode selection must contain a string episode_ids list")
+    return episode_ids
+
+
+def materialize_aliases(
+    baseline_dir: Path,
+    stage_dir: Path,
+    lock: Mapping[str, Any],
+) -> int:
+    """Create duplicate-audio archive aliases from each newly transcribed source."""
+    episodes = lock.get("episodes")
+    sources = lock.get("transcribe_episode_ids")
+    if not isinstance(episodes, dict) or not isinstance(sources, list):
+        raise ValueError("invalid run lock")
+    source_ids = set(sources)
+    created = 0
+    for episode_id, metadata in sorted(episodes.items()):
+        if episode_id in source_ids:
+            continue
+        if not isinstance(metadata, dict):
+            raise ValueError("invalid run lock episode metadata")
+        source_id = metadata.get("source_episode_id")
+        if not isinstance(source_id, str) or source_id not in source_ids:
+            raise ValueError(f"invalid source episode for alias {episode_id}")
+        source = _read_object(stage_dir / f"{source_id}.json")
+        alias = _read_object(baseline_dir / f"{episode_id}.json")
+        if source["episode"]["audio_sha256"] != alias["episode"]["audio_sha256"]:
+            raise ValueError(f"audio identity differs for alias {episode_id}")
+        alias["transcription"] = source["transcription"]
+        _atomic_json(stage_dir / f"{episode_id}.json", alias)
+        created += 1
+    return created
 
 
 def validate_stage(
@@ -115,14 +189,18 @@ def validate_stage(
     expected_model = lock.get("expected_model")
     if not isinstance(locked_episodes, dict) or not isinstance(expected_model, dict):
         raise ValueError("invalid run lock")
-    expected_ids = {episode.id for episode in catalog.episodes}
-    if set(locked_episodes) != expected_ids:
-        raise ValueError("run lock episode set does not match catalog")
+    if lock.get("scope") != "selected_episodes":
+        raise ValueError("run lock is not scoped to selected episodes")
+    catalog_by_id = {episode.id: episode for episode in catalog.episodes}
+    expected_ids = set(locked_episodes)
+    if not expected_ids or not expected_ids.issubset(catalog_by_id):
+        raise ValueError("run lock episode set is empty or not contained in catalog")
 
     failures: list[dict[str, str]] = []
     files: dict[str, dict[str, Any]] = {}
     missing = 0
-    for episode in catalog.episodes:
+    for episode_id in sorted(expected_ids):
+        episode = catalog_by_id[episode_id]
         path = transcript_dir / f"{episode.id}.json"
         if not path.is_file():
             missing += 1
@@ -143,6 +221,7 @@ def validate_stage(
                 raise ValueError("transcription model metadata differs from run lock")
             files[path.name] = {
                 "sha256": sha256_file(path),
+                "baseline_sha256": locked["baseline_sha256"],
                 "audio_sha256": episode_data["audio_sha256"],
                 "cue_count": len(archive["transcription"]["cues"]),
             }
@@ -199,7 +278,7 @@ def promote_stage(
     backup_dir: Path,
     manifest: Mapping[str, Any],
 ) -> None:
-    """Promote one verified directory with rollback and a retained previous archive."""
+    """Promote verified selected files with rollback and byte-preserved bystanders."""
     if not manifest_is_promotable(manifest):
         raise ValueError("manifest is not promotable")
     if not stage_dir.is_dir():
@@ -218,14 +297,33 @@ def promote_stage(
         current_digest = sha256_file(stage_dir / name)
         if not isinstance(metadata, dict) or metadata.get("sha256") != current_digest:
             raise ValueError(f"staged file changed after validation: {name}")
+        target_path = target_dir / name
+        if not target_path.is_file():
+            raise FileNotFoundError(target_path)
+        if metadata.get("baseline_sha256") != sha256_file(target_path):
+            raise ValueError(f"canonical file changed after run lock creation: {name}")
 
-    backup_dir.parent.mkdir(parents=True, exist_ok=True)
-    os.replace(target_dir, backup_dir)
+    backup_dir.mkdir(parents=True)
+    backed_up: list[str] = []
+    promoted: list[str] = []
     try:
-        os.replace(stage_dir, target_dir)
+        for name in sorted(files):
+            os.replace(target_dir / name, backup_dir / name)
+            backed_up.append(name)
+        for name in sorted(files):
+            os.replace(stage_dir / name, target_dir / name)
+            promoted.append(name)
     except Exception:
-        os.replace(backup_dir, target_dir)
+        for name in reversed(promoted):
+            os.replace(target_dir / name, stage_dir / name)
+        for name in reversed(backed_up):
+            os.replace(backup_dir / name, target_dir / name)
+        backup_dir.rmdir()
         raise
+    try:
+        stage_dir.rmdir()
+    except OSError:
+        pass
 
 
 def _add_validation_arguments(parser: argparse.ArgumentParser, *, manifest: bool) -> None:
@@ -244,6 +342,12 @@ def build_parser() -> argparse.ArgumentParser:
     create.add_argument("--catalog", type=Path, required=True)
     create.add_argument("--baseline", type=Path, required=True)
     create.add_argument("--transcriber-script", type=Path, required=True)
+    create.add_argument(
+        "--episodes",
+        type=Path,
+        required=True,
+        help="JSON file containing the explicit affected episode_ids list",
+    )
     create.add_argument("--output", type=Path, required=True)
     validate = commands.add_parser("validate", help="validate stage and write its manifest")
     _add_validation_arguments(validate, manifest=True)
@@ -254,6 +358,13 @@ def build_parser() -> argparse.ArgumentParser:
     promote.add_argument("--target", type=Path, required=True)
     promote.add_argument("--backup", type=Path, required=True)
     promote.add_argument("--manifest", type=Path, required=True)
+    aliases = commands.add_parser(
+        "materialize-aliases",
+        help="create duplicate-audio aliases from selected staged transcriptions",
+    )
+    aliases.add_argument("--baseline", type=Path, required=True)
+    aliases.add_argument("--stage", type=Path, required=True)
+    aliases.add_argument("--lock", type=Path, required=True)
     return parser
 
 
@@ -265,10 +376,15 @@ def main(argv: list[str] | None = None) -> int:
                 args.catalog,
                 args.baseline,
                 args.transcriber_script,
+                episode_ids=read_episode_selection(args.episodes),
                 expected_model=PINNED_MODEL,
             )
             write_run_lock(args.output, lock)
             print(f"wrote {args.output} ({len(lock['episodes'])} episodes)")
+            return 0
+        if args.command == "materialize-aliases":
+            created = materialize_aliases(args.baseline, args.stage, _read_object(args.lock))
+            print(f"materialized {created} duplicate-audio aliases")
             return 0
         if args.command in {"validate", "status"}:
             lock = _read_object(args.lock)

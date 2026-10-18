@@ -8,7 +8,7 @@ import logging
 import os
 import shutil
 import tempfile
-from collections.abc import Callable
+from collections.abc import Callable, Sequence
 from concurrent.futures import ThreadPoolExecutor
 from contextlib import nullcontext
 from dataclasses import dataclass
@@ -84,6 +84,7 @@ def run_year(
     collection_id: int = DEFAULT_COLLECTION_ID,
     catalog_snapshot: Path | None = None,
     episode_id: str | None = None,
+    episode_ids: Sequence[str] | None = None,
     limit: int | None = None,
     parallelism: int = 1,
     force: bool = False,
@@ -98,6 +99,7 @@ def run_year(
         collection_id,
         catalog_snapshot,
         episode_id,
+        episode_ids,
         limit,
         parallelism,
         force,
@@ -114,6 +116,7 @@ def fetch_year(
     collection_id: int = DEFAULT_COLLECTION_ID,
     catalog_snapshot: Path | None = None,
     episode_id: str | None = None,
+    episode_ids: Sequence[str] | None = None,
     limit: int | None = None,
     parallelism: int = 1,
     force: bool = False,
@@ -128,6 +131,7 @@ def fetch_year(
         collection_id,
         catalog_snapshot,
         episode_id,
+        episode_ids,
         limit,
         parallelism,
         force,
@@ -145,6 +149,7 @@ def transcribe_year(
     collection_id: int = DEFAULT_COLLECTION_ID,
     catalog_snapshot: Path | None = None,
     episode_id: str | None = None,
+    episode_ids: Sequence[str] | None = None,
     limit: int | None = None,
     parallelism: int = 1,
     force: bool = False,
@@ -159,6 +164,7 @@ def transcribe_year(
         collection_id,
         catalog_snapshot,
         episode_id,
+        episode_ids,
         limit,
         parallelism,
         force,
@@ -330,6 +336,7 @@ def _workflow(
     collection_id: int,
     catalog_snapshot: Path | None,
     episode_id: str | None,
+    episode_ids: Sequence[str] | None,
     limit: int | None,
     parallelism: int,
     force: bool,
@@ -354,10 +361,26 @@ def _workflow(
         )
     _validate_snapshot(snapshot, year)
     candidates = sorted(snapshot.episodes, key=lambda episode: (episode.published_at, episode.id))
+    if episode_id is not None and episode_ids is not None:
+        raise ValueError("episode_id and episode_ids are mutually exclusive")
     if episode_id is not None:
         candidates = [episode for episode in candidates if episode.id == episode_id]
         if not candidates:
             raise ValueError(f"episode {episode_id} is absent from the {year} catalog")
+    elif episode_ids is not None:
+        selected_ids = tuple(episode_ids)
+        if not selected_ids:
+            raise ValueError("episode_ids must contain at least one ID")
+        if len(selected_ids) != len(set(selected_ids)):
+            raise ValueError("episode_ids must not repeat IDs")
+        catalog_ids = {episode.id for episode in candidates}
+        missing_ids = sorted(set(selected_ids) - catalog_ids)
+        if missing_ids:
+            raise ValueError(
+                f"episodes {', '.join(missing_ids)} are absent from the {year} catalog"
+            )
+        selected_set = set(selected_ids)
+        candidates = [episode for episode in candidates if episode.id in selected_set]
     summary = RunSummary()
     pending = []
     for episode in candidates:
@@ -382,6 +405,11 @@ def _workflow(
             state.record_discovered(episode.id, year)
     if not selected:
         return summary
+    # Create shared parents before worker threads; concurrent mkdir can fail on Windows.
+    (paths.audio_cache / str(year)).mkdir(parents=True, exist_ok=True)
+    if mode != "fetch":
+        (paths.transcripts / str(year)).mkdir(parents=True, exist_ok=True)
+        (paths.engine_output / str(year)).mkdir(parents=True, exist_ok=True)
 
     def process(episode: Episode) -> RunSummary:
         episode_summary = RunSummary()

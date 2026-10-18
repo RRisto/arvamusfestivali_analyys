@@ -80,15 +80,85 @@ def test_create_run_lock_pins_catalog_script_model_and_audio_identity(tmp_path: 
     script = tmp_path / "transcribe.py"
     script.write_text("# pinned transcriber\n", encoding="utf-8")
 
-    lock = create_run_lock(catalog, baseline, script, expected_model=MODEL)
+    lock = create_run_lock(
+        catalog, baseline, script, episode_ids=("200",), expected_model=MODEL
+    )
 
     assert lock["catalog_sha256"] == hashlib.sha256(catalog.read_bytes()).hexdigest()
     assert lock["transcriber_script_sha256"] == hashlib.sha256(script.read_bytes()).hexdigest()
     assert lock["expected_model"] == MODEL
+    assert lock["scope"] == "selected_episodes"
     assert lock["episodes"] == {
-        "100": {"audio_sha256": "1" * 64, "audio_url": "https://example.test/100.mp3"},
-        "200": {"audio_sha256": "2" * 64, "audio_url": "https://example.test/200.mp3"},
+        "200": {
+            "audio_sha256": "2" * 64,
+            "audio_url": "https://example.test/200.mp3",
+            "baseline_sha256": hashlib.sha256((baseline / "200.json").read_bytes()).hexdigest(),
+            "source_episode_id": "200",
+        }
     }
+    assert lock["transcribe_episode_ids"] == ["200"]
+
+
+def test_create_run_lock_rejects_missing_unknown_or_repeated_selection(tmp_path: Path) -> None:
+    import pytest
+
+    from arvamusfestivali_transcripts.retranscription import create_run_lock
+
+    catalog = _write_catalog(tmp_path / "catalog.json")
+    baseline = tmp_path / "baseline"
+    _write_archive(baseline, "100", "1" * 64)
+    _write_archive(baseline, "200", "2" * 64)
+    script = tmp_path / "transcribe.py"
+    script.write_text("# pinned transcriber\n", encoding="utf-8")
+
+    for selection, message in (
+        ((), "at least one"),
+        (("999",), "not in catalog"),
+        (("100", "100"), "must not repeat"),
+    ):
+        with pytest.raises(ValueError, match=message):
+            create_run_lock(
+                catalog,
+                baseline,
+                script,
+                episode_ids=selection,
+                expected_model=MODEL,
+            )
+
+
+def test_lock_expands_duplicate_audio_and_materializes_alias_without_transcribing_it(
+    tmp_path: Path,
+) -> None:
+    from arvamusfestivali_transcripts.retranscription import (
+        create_run_lock,
+        materialize_aliases,
+        validate_stage,
+    )
+
+    catalog = _write_catalog(tmp_path / "catalog.json", ("100", "200", "300"))
+    baseline = tmp_path / "baseline"
+    _write_archive(baseline, "100", "1" * 64, text="old primary")
+    _write_archive(baseline, "200", "2" * 64, text="unrelated")
+    _write_archive(baseline, "300", "1" * 64, text="old alias")
+    script = tmp_path / "transcribe.py"
+    script.write_text("# pinned transcriber\n", encoding="utf-8")
+
+    lock = create_run_lock(
+        catalog, baseline, script, episode_ids=("100",), expected_model=MODEL
+    )
+
+    assert lock["transcribe_episode_ids"] == ["100"]
+    assert set(lock["episodes"]) == {"100", "300"}
+    assert lock["episodes"]["300"]["source_episode_id"] == "100"
+
+    stage = tmp_path / "stage"
+    _write_archive(stage, "100", "1" * 64, text="corrected")
+    materialize_aliases(baseline, stage, lock)
+
+    alias = json.loads((stage / "300.json").read_text(encoding="utf-8"))
+    assert alias["episode"]["id"] == "300"
+    assert alias["transcription"]["text"] == "corrected"
+    assert validate_stage(catalog, stage, lock, year=2026)["counts"]["valid"] == 2
 
 
 def test_validate_stage_reports_missing_mismatch_and_unexpected_files(tmp_path: Path) -> None:
@@ -100,7 +170,9 @@ def test_validate_stage_reports_missing_mismatch_and_unexpected_files(tmp_path: 
     _write_archive(baseline, "200", "2" * 64)
     script = tmp_path / "transcribe.py"
     script.write_text("# pinned transcriber\n", encoding="utf-8")
-    lock = create_run_lock(catalog, baseline, script, expected_model=MODEL)
+    lock = create_run_lock(
+        catalog, baseline, script, episode_ids=("100", "200"), expected_model=MODEL
+    )
     stage = tmp_path / "stage"
     _write_archive(stage, "100", "9" * 64)
     _write_archive(stage, "999", "3" * 64)
@@ -129,7 +201,9 @@ def test_validate_stage_records_checksums_only_after_complete_validation(tmp_pat
         _write_archive(stage, episode_id, digest, text=f"new {episode_id}")
     script = tmp_path / "transcribe.py"
     script.write_text("# pinned transcriber\n", encoding="utf-8")
-    lock = create_run_lock(catalog, baseline, script, expected_model=MODEL)
+    lock = create_run_lock(
+        catalog, baseline, script, episode_ids=("100", "200"), expected_model=MODEL
+    )
 
     manifest = validate_stage(catalog, stage, lock, year=2026)
 
@@ -150,14 +224,18 @@ def test_promote_stage_keeps_recoverable_backup_and_refuses_changed_files(tmp_pa
         validate_stage,
     )
 
-    catalog = _write_catalog(tmp_path / "catalog.json", ("100",))
+    catalog = _write_catalog(tmp_path / "catalog.json", ("100", "200"))
     target = tmp_path / "transcripts" / "2026"
     _write_archive(target, "100", "1" * 64, text="old")
+    untouched = _write_archive(target, "200", "2" * 64, text="untouched")
+    untouched_before = untouched.read_bytes()
     stage = tmp_path / "staging" / "2026"
     _write_archive(stage, "100", "1" * 64, text="new")
     script = tmp_path / "transcribe.py"
     script.write_text("# pinned transcriber\n", encoding="utf-8")
-    lock = create_run_lock(catalog, target, script, expected_model=MODEL)
+    lock = create_run_lock(
+        catalog, target, script, episode_ids=("100",), expected_model=MODEL
+    )
     manifest = validate_stage(catalog, stage, lock, year=2026)
     backup = tmp_path / "backups" / "before-retranscription"
 
@@ -172,6 +250,8 @@ def test_promote_stage_keeps_recoverable_backup_and_refuses_changed_files(tmp_pa
     promote_stage(stage, target, backup, manifest)
     assert json.loads((target / "100.json").read_text())["transcription"]["text"] == "new"
     assert json.loads((backup / "100.json").read_text())["transcription"]["text"] == "old"
+    assert not (backup / "200.json").exists()
+    assert (target / "200.json").read_bytes() == untouched_before
     assert not stage.exists()
 
 
@@ -187,6 +267,8 @@ def test_cli_create_lock_and_validate_write_operator_artifacts(tmp_path: Path) -
     script.write_text("# pinned transcriber\n", encoding="utf-8")
     lock_path = tmp_path / "run-lock.json"
     manifest_path = tmp_path / "manifest.json"
+    episodes_path = tmp_path / "affected.json"
+    episodes_path.write_text(json.dumps({"episode_ids": ["100"]}), encoding="utf-8")
 
     assert main(
         [
@@ -197,6 +279,8 @@ def test_cli_create_lock_and_validate_write_operator_artifacts(tmp_path: Path) -
             str(baseline),
             "--transcriber-script",
             str(script),
+            "--episodes",
+            str(episodes_path),
             "--output",
             str(lock_path),
         ]
@@ -217,3 +301,24 @@ def test_cli_create_lock_and_validate_write_operator_artifacts(tmp_path: Path) -
         ]
     ) == 0
     assert json.loads(manifest_path.read_text())["counts"]["valid"] == 1
+
+
+def test_cli_refuses_to_create_unscoped_full_corpus_lock(tmp_path: Path) -> None:
+    import pytest
+
+    from arvamusfestivali_transcripts.retranscription import build_parser
+
+    with pytest.raises(SystemExit):
+        build_parser().parse_args(
+            [
+                "create-lock",
+                "--catalog",
+                str(tmp_path / "catalog.json"),
+                "--baseline",
+                str(tmp_path / "baseline"),
+                "--transcriber-script",
+                str(tmp_path / "transcribe.py"),
+                "--output",
+                str(tmp_path / "lock.json"),
+            ]
+        )
