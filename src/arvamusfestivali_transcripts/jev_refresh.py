@@ -268,6 +268,22 @@ def _run_command(root: Path, arguments: Sequence[str]) -> None:
     subprocess.run(list(arguments), cwd=root, check=True)
 
 
+def _copy_tree_contents(source: Path, target: Path) -> None:
+    """Copy files without metadata operations unsupported by some mounted filesystems."""
+    target.mkdir(parents=True)
+    for path in sorted(source.rglob("*")):
+        if path.is_symlink():
+            raise ValueError(f"refusing symlink in staged refresh output: {path}")
+        destination = target / path.relative_to(source)
+        if path.is_dir():
+            destination.mkdir(parents=True, exist_ok=True)
+        elif path.is_file():
+            destination.parent.mkdir(parents=True, exist_ok=True)
+            shutil.copyfile(path, destination)
+        else:
+            raise ValueError(f"unsupported staged refresh entry: {path}")
+
+
 def _replace_from_stage(source: Path, target: Path, backup: Path, root: Path) -> None:
     root = root.resolve()
     for path in (source, target, backup):
@@ -278,10 +294,10 @@ def _replace_from_stage(source: Path, target: Path, backup: Path, root: Path) ->
         raise FileNotFoundError(f"staged refresh output is missing: {source}")
     if target.exists() and not backup.exists():
         backup.parent.mkdir(parents=True, exist_ok=True)
-        shutil.copytree(target, backup)
+        _copy_tree_contents(target, backup)
     if target.exists():
         shutil.rmtree(target)
-    shutil.copytree(source, target)
+    _copy_tree_contents(source, target)
 
 
 def _default_actions(

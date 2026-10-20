@@ -5,10 +5,12 @@
   "config_sha256": "791b3a18ca033f33af669847b325eb1dc204a59acb8cde7a2f41152bdc9d69f4",
   "names_sha256": "f9df8d6803da4d5893fb934cba166d779939500c7dfc60c847ebebc2acfed5ad",
   "assignment_type": "single_primary_topic_choice",
+  "assignment_baseline": "none",
+  "corpus_sha256": "ac2d7f6514f0dd469da1845dc8d80c44182c415a9c0d2ec20272953fc44f97bc",
   "high_level_mapping_sha256": "51f2c51e813dd9fff758d65b9264fc492a1baa37545eb2d463366ac97275f9a1",
   "high_level_assignment_type": "dictionary_parent_of_detailed_jev_choice",
   "programme_year": 2025,
-  "segment_count": 2154,
+  "segment_count": 2152,
   "episode_ids": [
     "2247188684",
     "2247188687",
@@ -125,13 +127,13 @@
     "2323554812",
     "2323554815"
   ],
-  "source_sha256": "8f1225be64cc1fb991de9498d804d7de0018e9cb0b9d47a21d186e25ba275741",
-  "full_source_sha256": "5bdf11fdf388c3de3fe56eb414794e82690c57dae7843107cff424f2a1f3ce99",
-  "parent_assignments_sha256": "c229fdf8702f0581de1f64c29f4ffc60242f277cb203a2059c17c6648e301ec1",
-  "assignments_sha256": "4327a1071eecf02f1432646842fb65305bfd102e959f4328e08a32e835799d53",
+  "source_sha256": "99d6ff2d59f0bade5f4932039a78f47e66176c468b944627d9d971e956e4d35c",
+  "full_source_sha256": "6c6d926941343d27cadc8a1dac71641bd83e4dc3c1da75b1a99461690dfd8417",
+  "parent_assignments_sha256": "87930b1448fd63fb3073864b5867e66c42f8f3768390adf1b4ac527fbdb45910",
+  "assignments_sha256": "a16bffa2b0ed07b4675500201e4ebf9ea43e437fd59d3e0273168351c4fdcc64",
   "talk_metadata_sha256": "fa2cbcf1f8260af7726fb4be18b43666a8c3a8832a11e9d010e18402ed74030c",
   "export_type": "derived_year_subset",
   "api_requests_this_export": 0,
-  "classification": "Existing saved responses, unchanged native boundaries and labels",
-  "bubble_coordinates": "Reuse combined-corpus Jev centroid projection; year-specific counts"
+  "classification": "Jev-only refresh from current transcript text; no topic-model refit",
+  "bubble_coordinates": "Combined-corpus projection; year-specific counts"
 }

@@ -138,8 +138,6 @@ def main():
                 "created_at": datetime.now(UTC).isoformat(),
                 "response": result,
             }
-            with log_lock, response_path.open("a") as stream:
-                stream.write(json.dumps(record, ensure_ascii=False) + "\n")
             saved[request_hash] = record
         if record["segment_key"] != row.segment_key:
             record = {
@@ -147,8 +145,8 @@ def main():
                 "reused_from_segment_key": record["segment_key"],
                 "segment_key": row.segment_key,
             }
-            with log_lock, response_path.open("a") as stream:
-                stream.write(json.dumps(record, ensure_ascii=False) + "\n")
+        with log_lock, response_path.open("a") as stream:
+            stream.write(json.dumps(record, ensure_ascii=False) + "\n")
         result = record["response"]
         answer = result["answers"]["primary_topic"]
         probabilities = answer["probabilities"]
