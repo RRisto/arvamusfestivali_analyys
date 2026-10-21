@@ -76,6 +76,47 @@ requests. The snapshot’s sibling XML is the raw source record. To add a later 
 run the same command with that year after its festival feed has published episodes;
 the first regular run writes its matching catalog snapshot automatically.
 
+### Stereo phase cancellation and missing speech
+
+Some SoundCloud recordings have two nearly identical stereo channels with opposite
+polarity. A normal stereo-to-mono mix then cancels much of the speech: in the affected
+2026 recordings the mix was about 25 dB quieter than either individual channel. The
+recognizer can consequently emit long cues containing only a few words or omit whole
+sentences even though the original audio sounds normal when played in stereo.
+
+The bundled TalTech adapter protects against this in `select_channel()`. It measures
+the complete recording and keeps the mono mix normally; when the mix is at least
+12 dB weaker than the stronger source channel, it transcribes that channel alone.
+Do not remove this selection or unconditionally downmix stereo audio. The chosen value
+is recorded as `transcription.runtime.audio_channel` (`mix`, `left`, or `right`) in
+every archive.
+
+After changing the transcriber or repairing old archives:
+
+1. Run one affected episode with `--force` and inspect the resulting JSON before a
+   batch run. A phase-cancelled recording should report `left` or `right`, not `mix`.
+2. Compare word count and suspicious cues with the previous archive. A useful review
+   threshold is a cue lasting at least 8 seconds with fewer than 20 words per minute;
+   listen to every remaining match because pauses and applause can be legitimate.
+3. Only then rerun all selected recordings and downstream diarization/topic analysis.
+
+```powershell
+uv run arvamusfestivali-transcripts run --year 2026 --episode-id 2397264564 --force --transcriber-script vendor/estonian-audio-transcription/scripts/transcribe.py
+
+$archive = Get-Content -Raw data/transcripts/2026/2397264564.json | ConvertFrom-Json
+$archive.transcription.runtime.audio_channel
+$archive.transcription.cues | Where-Object {
+    $duration = [double]$_.end_seconds - [double]$_.start_seconds
+    $words = ([regex]::Matches([string]$_.text, '\p{L}+')).Count
+    $duration -ge 8 -and ($words / $duration * 60) -lt 20
+} | Select-Object start_seconds, end_seconds, text
+```
+
+This check detects the systematic cancellation failure, not every ASR omission. The
+TalTech large streaming model can still miss isolated words or sentences, so sparse
+matches and material word-count decreases require listening rather than automatic
+acceptance or rejection.
+
 ## Archive format and links
 
 Each transcript is UTF-8 JSON with `schema_version: 1`, `episode`, and
