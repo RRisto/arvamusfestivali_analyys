@@ -24,6 +24,127 @@ export function buildCategoryBubbles(scatter, categories) {
   });
 }
 
+export function buildTopicCooccurrenceMatrix(scatter, categories) {
+  const categoryNames = new Map(categories.map((category) => [category.id, category.name]));
+  const topicsByTalk = new Map();
+  scatter.forEach((row) => {
+    const name = categoryNames.get(row.category_id);
+    if (!name || row.category_id === "unassigned" || name === "Määramata") return;
+    if (!topicsByTalk.has(row.episode)) topicsByTalk.set(row.episode, new Set());
+    topicsByTalk.get(row.episode).add(row.category_id);
+  });
+
+  const talkTotals = new Map();
+  topicsByTalk.forEach((topicIds) => topicIds.forEach((id) =>
+    talkTotals.set(id, (talkTotals.get(id) || 0) + 1)));
+  const categoryIds = [...talkTotals]
+    .sort(([leftId, leftTotal], [rightId, rightTotal]) =>
+      rightTotal - leftTotal
+      || categoryNames.get(leftId).localeCompare(categoryNames.get(rightId), "et"))
+    .map(([id]) => id);
+  const positions = new Map(categoryIds.map((id, index) => [id, index]));
+  const z = categoryIds.map((_, row) =>
+    categoryIds.map((__, column) => row === column ? null : 0));
+
+  topicsByTalk.forEach((topicIds) => {
+    const indexes = [...topicIds].map((id) => positions.get(id)).sort((a, b) => a - b);
+    indexes.forEach((left, offset) => {
+      indexes.slice(offset + 1).forEach((right) => {
+        z[left][right] += 1;
+        z[right][left] += 1;
+      });
+    });
+  });
+
+  return {
+    categoryIds,
+    names: categoryIds.map((id) => categoryNames.get(id)),
+    z,
+  };
+}
+
+export function buildSubtopicCooccurrenceMatrix(scatter, categories) {
+  const categoryNames = new Map(categories.map((category) => [category.id, category.name]));
+  const subtopics = new Map();
+  const subtopicsByTalk = new Map();
+  scatter.forEach((row) => {
+    const topic = row.topic || "Määramata";
+    const categoryName = categoryNames.get(row.category_id);
+    if (!categoryName || row.category_id === "unassigned" || topic === "Määramata") return;
+    const id = `${row.category_id}\u0000${topic}`;
+    const current = subtopics.get(id) || {
+      categoryId: row.category_id,
+      topic,
+      episodes: new Set(),
+    };
+    current.episodes.add(row.episode);
+    subtopics.set(id, current);
+    if (!subtopicsByTalk.has(row.episode)) subtopicsByTalk.set(row.episode, new Set());
+    subtopicsByTalk.get(row.episode).add(id);
+  });
+
+  const cooccurrenceTotals = new Map();
+  subtopicsByTalk.forEach((topicIds) => {
+    topicIds.forEach((id) =>
+      cooccurrenceTotals.set(id, (cooccurrenceTotals.get(id) || 0) + topicIds.size - 1));
+  });
+  const ids = categories.flatMap((category) => [...subtopics]
+    .filter(([id, subtopic]) =>
+      subtopic.categoryId === category.id && (cooccurrenceTotals.get(id) || 0) >= 3)
+    .sort(([, left], [, right]) =>
+      right.episodes.size - left.episodes.size || left.topic.localeCompare(right.topic, "et"))
+    .map(([id]) => id));
+  const positions = new Map(ids.map((id, index) => [id, index]));
+  const z = ids.map((_, row) => ids.map((__, column) => row === column ? null : 0));
+  subtopicsByTalk.forEach((topicIds) => {
+    const indexes = [...topicIds]
+      .map((id) => positions.get(id))
+      .filter((index) => index !== undefined)
+      .sort((a, b) => a - b);
+    indexes.forEach((left, offset) => {
+      indexes.slice(offset + 1).forEach((right) => {
+        z[left][right] += 1;
+        z[right][left] += 1;
+      });
+    });
+  });
+
+  return {
+    ids,
+    labels: ids.map((id) => {
+      const subtopic = subtopics.get(id);
+      return `${categoryNames.get(subtopic.categoryId)} · ${subtopic.topic}`;
+    }),
+    z,
+  };
+}
+
+export function buildCooccurrenceLayout(chartLayout, isSubtopics, itemCount) {
+  const size = Math.max(900, itemCount * 18 + 420);
+  return {
+    ...chartLayout,
+    ...(isSubtopics
+      ? { autosize: false, width: size, height: size }
+      : { autosize: true }),
+    xaxis: {
+      tickangle: isSubtopics ? -90 : -45,
+      tickfont: { size: isSubtopics ? 8 : 10 },
+      side: "bottom",
+      automargin: true,
+      fixedrange: true,
+    },
+    yaxis: {
+      autorange: "reversed",
+      automargin: true,
+      fixedrange: true,
+      tickfont: { size: isSubtopics ? 8 : 10 },
+    },
+    margin: isSubtopics
+      ? { l: 370, r: 50, t: 24, b: 370 }
+      : { l: 285, r: 30, t: 24, b: 280 },
+  };
+}
+
 export function buildTopicBubbles(scatter, categories) {
   const groups = new Map();
   scatter.forEach((row) => {

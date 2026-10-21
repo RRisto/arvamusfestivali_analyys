@@ -3,6 +3,9 @@ import test from "node:test";
 
 import {
   buildCategoryBubbles,
+  buildCooccurrenceLayout,
+  buildSubtopicCooccurrenceMatrix,
+  buildTopicCooccurrenceMatrix,
   buildTopicBubbles,
   buildTopicScatterLayout,
   buildTopicScatterTraces,
@@ -10,6 +13,95 @@ import {
   createLazyViewController,
   heatmapText,
 } from "../../site/assets/overview-core.mjs";
+
+test("subtopic heatmap layout allocates an explicit square canvas for every row", () => {
+  const layout = buildCooccurrenceLayout({ font: { family: "sans-serif" } }, true, 236);
+
+  assert.equal(layout.autosize, false);
+  assert.equal(layout.width, 4668);
+  assert.equal(layout.height, 4668);
+  assert.equal(layout.xaxis.tickangle, -90);
+  assert.deepEqual(buildCooccurrenceLayout({}, false, 20), {
+    autosize: true,
+    xaxis: {
+      tickangle: -45,
+      tickfont: { size: 10 },
+      side: "bottom",
+      automargin: true,
+      fixedrange: true,
+    },
+    yaxis: {
+      autorange: "reversed",
+      automargin: true,
+      fixedrange: true,
+      tickfont: { size: 10 },
+    },
+    margin: { l: 285, r: 30, t: 24, b: 280 },
+  });
+});
+
+test("subtopic co-occurrence matrix omits subtopics with fewer than three co-occurrences", () => {
+  const categories = [
+    { id: "education", name: "Haridus" },
+    { id: "ai", name: "Tehisintellekt" },
+    { id: "unassigned", name: "Määramata" },
+  ];
+  const scatter = [
+    { episode: "e1", category_id: "education", topic: "Digioskused" },
+    { episode: "e1", category_id: "education", topic: "Digioskused" },
+    { episode: "e1", category_id: "ai", topic: "Digioskused" },
+    { episode: "e2", category_id: "education", topic: "Digioskused" },
+    { episode: "e2", category_id: "education", topic: "Õpetajad" },
+    { episode: "e2", category_id: "ai", topic: "Digioskused" },
+    { episode: "e3", category_id: "ai", topic: "Robotid" },
+    { episode: "e4", category_id: "unassigned", topic: "Muu" },
+    { episode: "e5", category_id: "education", topic: "Määramata" },
+  ];
+
+  assert.deepEqual(buildSubtopicCooccurrenceMatrix(scatter, categories), {
+    ids: [
+      "education\u0000Digioskused",
+      "ai\u0000Digioskused",
+    ],
+    labels: [
+      "Haridus · Digioskused",
+      "Tehisintellekt · Digioskused",
+    ],
+    z: [
+      [null, 2],
+      [2, null],
+    ],
+  });
+});
+
+test("topic co-occurrence matrix counts each high-level pair once per talk", () => {
+  const categories = [
+    { id: "education", name: "Haridus" },
+    { id: "ai", name: "Tehisintellekt" },
+    { id: "health", name: "Tervis" },
+    { id: "unassigned", name: "Määramata" },
+  ];
+  const scatter = [
+    { episode: "e1", category_id: "education" },
+    { episode: "e1", category_id: "education" },
+    { episode: "e1", category_id: "ai" },
+    { episode: "e2", category_id: "education" },
+    { episode: "e2", category_id: "ai" },
+    { episode: "e2", category_id: "health" },
+    { episode: "e3", category_id: "health" },
+    { episode: "e3", category_id: "unassigned" },
+  ];
+
+  assert.deepEqual(buildTopicCooccurrenceMatrix(scatter, categories), {
+    categoryIds: ["education", "ai", "health"],
+    names: ["Haridus", "Tehisintellekt", "Tervis"],
+    z: [
+      [null, 2, 1],
+      [2, null, 1],
+      [1, 1, null],
+    ],
+  });
+});
 
 test("topic bubbles aggregate subtopics and inherit their main-topic color", () => {
   const categories = [

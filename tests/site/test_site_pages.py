@@ -59,10 +59,17 @@ def test_overview_exposes_navigation_metrics_and_accessible_charts() -> None:
     assert "Arvamusfestivali teemavaade" in page.title
     assert {"index.html", "compare.html", "transcripts.html"} <= page.links
     assert {"metric-talks", "metric-segments", "metric-categories"} <= page.ids
-    assert {"treemap-chart", "treemap-breadcrumb", "scatter-chart", "organizer-chart"} <= page.ids
+    assert {
+        "treemap-chart",
+        "treemap-breadcrumb",
+        "scatter-chart",
+        "cooccurrence-chart",
+        "organizer-chart",
+    } <= page.ids
     assert {
         "Teemade jaotus",
         "Teemade 2D kaart",
+        "Põhiteemade koosesinemise heatmap",
         "Teemade ja korraldajate seosed",
     } <= page.labels
     assert {button.get("data-metric") for button in page.buttons} >= {"talks", "hours"}
@@ -70,8 +77,12 @@ def test_overview_exposes_navigation_metrics_and_accessible_charts() -> None:
         "topics",
         "segments",
     }
+    assert {button.get("data-cooccurrence-view") for button in page.buttons} >= {
+        "categories",
+        "subtopics",
+    }
     assert "https://cdn.plot.ly/plotly-3.1.0.min.js" in page.scripts
-    assert "assets/overview.js?v=topic-bubbles3" in page.scripts
+    assert "assets/overview.js?v=topic-subtopics4" in page.scripts
     assert any("transkribeeritud salvestisi" in text for text in page.text)
 
 
@@ -99,7 +110,7 @@ def test_comparison_is_a_separate_accessible_page() -> None:
         "talk_coverage",
     }
     assert "https://cdn.plot.ly/plotly-3.1.0.min.js" in page.scripts
-    assert any(script.split("?", 1)[0] == "assets/compare.js" for script in page.scripts)
+    assert "assets/compare.js?v=subtopic-metrics2" in page.scripts
     assert any("transkribeeritud salvestiste" in text for text in page.text)
 
 

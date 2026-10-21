@@ -1,11 +1,14 @@
 import {
+  buildCooccurrenceLayout,
+  buildSubtopicCooccurrenceMatrix,
   buildTopicBubbles,
+  buildTopicCooccurrenceMatrix,
   buildTopicScatterLayout,
   buildTopicScatterTraces,
   buildTreemapLevel,
   createLazyViewController,
   heatmapText,
-} from "./overview-core.mjs?v=topic-bubbles3";
+} from "./overview-core.mjs?v=topic-subtopics4";
 
 (async function () {
   "use strict";
@@ -181,6 +184,65 @@ import {
       });
     });
     common.observeOnce(scatter, () => scatterController.mount());
+
+    const cooccurrenceChart = document.getElementById("cooccurrence-chart");
+    const cooccurrenceScroll = document.getElementById("cooccurrence-scroll");
+    let cooccurrenceView = "categories";
+    let cooccurrenceReady = false;
+    function renderCooccurrence() {
+      cooccurrenceChart.classList.remove("chart-loading");
+      if (!cooccurrenceChart.classList.contains("js-plotly-plot")) cooccurrenceChart.textContent = "";
+      const isSubtopics = cooccurrenceView === "subtopics";
+      const matrix = isSubtopics
+        ? buildSubtopicCooccurrenceMatrix(data.scatter, data.categories)
+        : buildTopicCooccurrenceMatrix(data.scatter, data.categories);
+      const labels = isSubtopics ? matrix.labels : matrix.names;
+      const layout = buildCooccurrenceLayout(common.chartLayout, isSubtopics, labels.length);
+      cooccurrenceScroll.classList.toggle("subtopics-active", isSubtopics);
+      cooccurrenceChart.style.width = isSubtopics ? `${layout.width}px` : "";
+      cooccurrenceChart.style.height = isSubtopics ? `${layout.height}px` : "";
+      cooccurrenceChart.setAttribute("aria-label", isSubtopics
+        ? "Kõigi alamteemade koosesinemise heatmap"
+        : "Põhiteemade koosesinemise heatmap");
+      document.getElementById("cooccurrence-description").textContent = isSubtopics
+        ? `Maatriksis on ${labels.length} alamteemat, millel on teiste alamteemadega kokku vähemalt 3 koosesinemist. Iga paar loetakse ühe arutelu kohta ainult üks kord.`
+        : "Iga lahter näitab, mitmes erinevas arutelus kaks põhiteemat koos esinesid. Diagonaal on jäetud tühjaks ning „Määramata” lõigud on välja jäetud.";
+      document.getElementById("cooccurrence-help").textContent = isSubtopics
+        ? "Keri maatriksit mõlemas suunas. Hõljuta lahtril alamteemade ja täpse arvu nägemiseks."
+        : "Tumedam lahter tähendab rohkem ühiseid arutelusid. Hõljuta lahtril teemade ja täpse arvu nägemiseks.";
+      const hover = matrix.z.map((row, rowIndex) => row.map((talks, columnIndex) =>
+        rowIndex === columnIndex
+          ? ""
+          : `<b>${labels[rowIndex]}</b><br>+ ${labels[columnIndex]}<br>${talks} arutelu`));
+      Plotly.react(cooccurrenceChart, [{
+        type: "heatmap",
+        x: labels,
+        y: labels,
+        z: matrix.z,
+        customdata: hover,
+        xgap: 1,
+        ygap: 1,
+        colorscale: [[0, "#f3f7f5"], [.25, "#d1e3dc"], [.6, "#8eb7a8"], [1, "#376f5d"]],
+        colorbar: { title: "Arutelusid" },
+        hoverongaps: false,
+        hovertemplate: "%{customdata}<extra></extra>",
+      }], layout, common.plotConfig);
+    }
+    document.querySelectorAll("[data-cooccurrence-view]").forEach((button) => {
+      button.addEventListener("click", () => {
+        cooccurrenceView = button.dataset.cooccurrenceView;
+        document.querySelectorAll("[data-cooccurrence-view]").forEach((candidate) => {
+          const selected = candidate === button;
+          candidate.classList.toggle("active", selected);
+          candidate.setAttribute("aria-pressed", String(selected));
+        });
+        if (cooccurrenceReady) renderCooccurrence();
+      });
+    });
+    common.observeOnce(cooccurrenceChart, () => {
+      cooccurrenceReady = true;
+      renderCooccurrence();
+    });
 
     const organizerChart = document.getElementById("organizer-chart");
     common.observeOnce(organizerChart, () => {

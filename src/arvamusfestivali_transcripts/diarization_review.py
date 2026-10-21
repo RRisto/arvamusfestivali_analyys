@@ -10,6 +10,8 @@ from collections.abc import Mapping, Sequence
 from pathlib import Path
 from typing import Any
 
+from .text_quality import has_meaningful_text
+
 LOW_CONFIDENCE_THRESHOLD = 0.65
 SPEAKER_COLORS = (
     "#2563eb",
@@ -35,6 +37,8 @@ def merge_speaker_cues(
         start = float(cue["start_seconds"])
         end = float(cue["end_seconds"])
         text = str(cue.get("text", "")).strip()
+        if not has_meaningful_text(text):
+            continue
         share = float(cue.get("speaker_share", 0.0))
         if grouped and grouped[-1]["speaker"] == speaker:
             current = grouped[-1]

@@ -72,6 +72,54 @@ def test_merge_speaker_cues_keeps_separate_turns_and_marks_low_confidence() -> N
     ]
 
 
+def test_merge_speaker_cues_omits_empty_and_punctuation_only_text() -> None:
+    from arvamusfestivali_transcripts.diarization_review import merge_speaker_cues
+
+    cues = [
+        {
+            "start_seconds": 0.0,
+            "end_seconds": 1.0,
+            "text": "   ",
+            "speaker": "SPEAKER_00",
+            "speaker_share": 1.0,
+        },
+        {
+            "start_seconds": 1.0,
+            "end_seconds": 2.0,
+            "text": "...?! —",
+            "speaker": "SPEAKER_01",
+            "speaker_share": 1.0,
+        },
+        {
+            "start_seconds": 2.0,
+            "end_seconds": 3.0,
+            "text": "42%",
+            "speaker": "SPEAKER_00",
+            "speaker_share": 1.0,
+        },
+        {
+            "start_seconds": 3.0,
+            "end_seconds": 4.0,
+            "text": "Õige.",
+            "speaker": "SPEAKER_00",
+            "speaker_share": 1.0,
+        },
+    ]
+
+    assert merge_speaker_cues(cues) == [
+        {
+            "id": "segment-0001",
+            "speaker": "SPEAKER_00",
+            "start": 2.0,
+            "end": 4.0,
+            "text": "42% Õige.",
+            "cue_count": 2,
+            "minimum_speaker_share": 1.0,
+            "needs_review": False,
+        }
+    ]
+
+
 def test_build_review_page_embeds_safe_data_and_clickable_audio_segments(
     tmp_path: Path,
 ) -> None:

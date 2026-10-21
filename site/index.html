@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="assets/styles.css">
   <script src="https://cdn.plot.ly/plotly-3.1.0.min.js" defer></script>
   <script src="assets/common.js" defer></script>
-  <script type="module" src="assets/overview.js?v=topic-bubbles3"></script>
+  <script type="module" src="assets/overview.js?v=topic-subtopics4"></script>
 </head>
 <body data-page="overview">
   <a class="skip-link" href="#main-content">Liigu sisu juurde</a>
@@ -76,9 +76,23 @@
       </div>
     </section>
 
+    <section class="chart-section" id="cooccurrences">
+      <div class="section-heading">
+        <div><p class="section-number">03</p><h2>Teemade koosesinemine</h2><p id="cooccurrence-description">Iga lahter näitab, mitmes erinevas arutelus kaks põhiteemat koos esinesid. Diagonaal on jäetud tühjaks ning „Määramata” lõigud on välja jäetud.</p></div>
+        <div class="segmented-control" role="group" aria-label="Koosesinemise vaade">
+          <button class="active" type="button" data-cooccurrence-view="categories" aria-pressed="true">Põhiteemad</button>
+          <button type="button" data-cooccurrence-view="subtopics" aria-pressed="false">Kõik alamteemad</button>
+        </div>
+      </div>
+      <div class="chart-card">
+        <div id="cooccurrence-scroll" class="cooccurrence-scroll"><div id="cooccurrence-chart" class="chart chart-cooccurrence chart-loading" role="img" aria-label="Põhiteemade koosesinemise heatmap">Laen joonist…</div></div>
+        <p id="cooccurrence-help" class="chart-help">Tumedam lahter tähendab rohkem ühiseid arutelusid. Hõljuta lahtril teemade ja täpse arvu nägemiseks.</p>
+      </div>
+    </section>
+
     <section class="chart-section" id="organizers">
       <div class="section-heading">
-        <div><p class="section-number">03</p><h2>Teemad ja korraldajad</h2><p>Maatriks loendab erinevaid arutelusid, mitte lõike. Nii ei muuda pikem transkript korraldajat kunstlikult suuremaks.</p></div>
+        <div><p class="section-number">04</p><h2>Teemad ja korraldajad</h2><p>Maatriks loendab erinevaid arutelusid, mitte lõike. Nii ei muuda pikem transkript korraldajat kunstlikult suuremaks.</p></div>
       </div>
       <div class="chart-card">
         <div id="organizer-chart" class="chart chart-heatmap" role="img" aria-label="Teemade ja korraldajate seosed"></div>

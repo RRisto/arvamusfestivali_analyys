@@ -48,6 +48,27 @@ def test_load_corpus_deduplicates_by_audio_hash_and_retains_provenance(
     )
 
 
+def test_load_corpus_omits_empty_and_punctuation_only_cues(
+    tmp_path: Path, write_topic_archive: Callable[..., Path]
+) -> None:
+    write_topic_archive(
+        tmp_path,
+        cues=[
+            {"start_seconds": 0.0, "end_seconds": 10.0, "text": "..."},
+            {"start_seconds": 10.0, "end_seconds": 20.0, "text": "—?!"},
+            {"start_seconds": 20.0, "end_seconds": 30.0, "text": "Tere!"},
+            {"start_seconds": 30.0, "end_seconds": 40.0, "text": "42%"},
+        ],
+    )
+
+    episodes = load_corpus(tmp_path, 2026)
+
+    assert episodes[0].cues == (
+        Cue(20.0, 30.0, "Tere!"),
+        Cue(30.0, 40.0, "42%"),
+    )
+
+
 def test_load_corpus_prefers_earliest_published_then_numeric_id(
     tmp_path: Path, write_topic_archive: Callable[..., Path]
 ) -> None:

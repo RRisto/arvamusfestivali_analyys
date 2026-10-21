@@ -41,6 +41,7 @@ topic-analysis = [
     "scikit-learn>=1.6,<2",
     "sentence-transformers>=5,<6",
     "torch>=2.7,<3",
+    "turftopic>=0.28,<0.29",
     "umap-learn>=0.5.7,<0.6",
 ]
 

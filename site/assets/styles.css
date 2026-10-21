@@ -61,7 +61,9 @@ main { width: min(1320px, calc(100% - 2rem)); margin: 0 auto; padding-bottom: 4r
 .segmented-control button.active { background: var(--forest-900); color: white; }
 .chart-card { overflow: hidden; border: 1px solid var(--line); border-radius: 1rem; background: white; box-shadow: var(--shadow); }
 .chart { min-height: 32rem; width: 100%; }
-.chart-treemap { min-height: 36rem; }.chart-scatter { min-height: 42rem; }.chart-heatmap { min-height: 38rem; }
+.chart-treemap { min-height: 36rem; }.chart-scatter { min-height: 42rem; }.chart-cooccurrence { min-height: 55rem; }.chart-heatmap { min-height: 38rem; }
+.cooccurrence-scroll { overflow: hidden; }
+.cooccurrence-scroll.subtopics-active { overflow: auto; max-height: 75vh; overscroll-behavior: contain; }
 .chart-help { margin: 0; padding: .8rem 1rem; border-top: 1px solid var(--line); color: var(--muted); font-size: .88rem; }
 .chart-breadcrumb { display: flex; align-items: center; flex-wrap: wrap; gap: .35rem; min-height: 3.2rem; padding: .65rem 1rem; border-bottom: 1px solid var(--line); }
 .chart-breadcrumb button { padding: .3rem .45rem; border: 0; border-radius: .35rem; background: transparent; color: var(--forest-700); font-weight: 800; cursor: pointer; }

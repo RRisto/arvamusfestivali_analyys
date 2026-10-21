@@ -15,6 +15,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
 from arvamusfestivali_transcripts.archive import validate_archive
+from arvamusfestivali_transcripts.text_quality import has_meaningful_text
 
 from .types import CanonicalEpisode, Cue
 
@@ -36,6 +37,7 @@ def _load_archive(path: Path, year: int) -> CanonicalEpisode:
         cues = tuple(
             Cue(cue["start_seconds"], cue["end_seconds"], cue["text"])
             for cue in transcription["cues"]
+            if has_meaningful_text(cue["text"])
         )
         return CanonicalEpisode(
             episode_id=episode_id,
