@@ -6,6 +6,10 @@ Nine recordings also have duplicate RSS archive IDs, so validation and promotion
 JSON archives while RunPod transcribes only the 22 unique recordings. The remaining 233
 archives are never staged or replaced.
 
+Run the complete audio for all 22 selected unique recordings. Do not restrict the rerun to
+episode `2397264564`, but do not expand it to the full 2026 archive either. The existing
+selection already captures the recordings with long recognition gaps.
+
 No command in this document runs transcription locally. Run the transcription section on
 RunPod yourself.
 
@@ -17,6 +21,9 @@ RunPod yourself.
 - Model: `TalTechNLP/streaming-zipformer-large.et-en`, revision
   `2812262bd4fd5d4327dc09ca0e6c19e8a32a03d6`, int8
 - Runtime: sherpa-onnx 1.13.7, modified beam search, four threads
+- Audio preparation: automatic stereo handling. Use the normal mono mix unless destructive
+  phase cancellation makes it at least 12 dB weaker than an individual channel; then use the
+  stronger channel. The selected mode is recorded as `runtime.audio_channel`.
 
 The selection file is mandatory. The pipeline refuses an unscoped lock, unknown or repeated
 IDs, and selecting two IDs for the same audio recording. Lock creation automatically adds all
@@ -86,14 +93,16 @@ tmux new -s transcript-repair
 cd /workspace/project
 set -o pipefail
 uv run arvamusfestivali-transcripts run \
-  --year 2026 --root /workspace/project/stage \
+  --year 2026 --root /workspace/project/stage-channel-safe \
   --catalog-snapshot data/catalog/20260920T112540Z-2026.json \
   --episode-list data/retranscription/2026-affected-episodes.json \
   --transcriber-script vendor/estonian-audio-transcription/scripts/transcribe.py \
   --parallelism 8 |& tee -a /workspace/project/repair-run.log
 ```
 
-Rerun the same command to resume; do not add `--force`. It will skip valid staged archives.
+This uses a new stage root intentionally. Do not reuse the pre-channel-fix `stage` directory,
+because valid-looking old archives would be skipped. Rerun the same command to resume this
+new run; do not add `--force`.
 After the 22 transcriptions finish, create the nine duplicate-ID archives from the newly
 transcribed matching audio. This copies only transcription content while retaining each alias's
 own frozen episode metadata:
@@ -101,7 +110,7 @@ own frozen episode metadata:
 ```bash
 uv run python scripts/manage_retranscription.py materialize-aliases \
   --baseline /workspace/project/baseline/data/transcripts/2026 \
-  --stage stage/data/transcripts/2026 \
+  --stage stage-channel-safe/data/transcripts/2026 \
   --lock data/retranscription/2026-run-lock.json
 ```
 
@@ -113,10 +122,10 @@ Validate exactly the locked 31 archives and package them:
 ```bash
 uv run python scripts/manage_retranscription.py validate \
   --catalog data/catalog/20260920T112540Z-2026.json \
-  --stage stage/data/transcripts/2026 \
+  --stage stage-channel-safe/data/transcripts/2026 \
   --lock data/retranscription/2026-run-lock.json \
-  --manifest stage/2026-repair-manifest.json --year 2026
-tar -C stage -czf /workspace/af-2026-transcript-repair.tgz \
+  --manifest stage-channel-safe/2026-repair-manifest.json --year 2026
+tar -C stage-channel-safe -czf /workspace/af-2026-transcript-repair.tgz \
   data/transcripts/2026 2026-repair-manifest.json data/state/pipeline.sqlite3
 sha256sum /workspace/af-2026-transcript-repair.tgz > /workspace/af-2026-transcript-repair.sha256
 ```
@@ -185,6 +194,8 @@ naming. Use `--dry-run` first to inspect the plan without Jev calls.
 
 - Selection remains 22 unique recordings / 31 archive IDs.
 - RunPod receives `--episode-list`; no year-wide command is used.
+- All 22 selected recordings are decoded from their complete audio with automatic channel
+  selection; `2397264564` must report `runtime.audio_channel` as `left` or `right`, not `mix`.
 - Stage validation is 31/31 with the pinned model and unchanged audio hashes.
 - Promotion backs up/replaces only those 31 JSON files.
 - Saved speaker turns are reassigned only to corrected cues.
