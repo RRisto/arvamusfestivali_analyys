@@ -38,71 +38,71 @@ Education slightly declined overall (13.73% → 12.45%), but early-childhood edu
 
 | jev_high_level_name                                   |   time_share_2025 |   time_share_2026 |   time_share_delta_pp |   talk_coverage_2025 |   talk_coverage_2026 |
 |:------------------------------------------------------|------------------:|------------------:|----------------------:|---------------------:|---------------------:|
-| Tehisintellekt ja digitehnoloogia                     |              0.73 |              8.14 |                  7.41 |                 8.77 |                18.1  |
-| Tervishoid, ravi ja terviseandmed                     |              6.84 |             10.74 |                  3.9  |                10.53 |                16.19 |
-| Eluase, ruum ja ühendused                             |              2.64 |              6.08 |                  3.43 |                 7.02 |                10.48 |
-| Pere, suhted ja sooline võrdsus                       |              1.81 |              4.72 |                  2.91 |                 3.51 |                 5.71 |
-| Ränne, lõimumine ja kuuluvus                          |              2.23 |              5.13 |                  2.9  |                 7.02 |                11.43 |
-| Laste ja noorte kaitse ning toetamine                 |              2.35 |              5.06 |                  2.71 |                 6.14 |                10.48 |
-| Kultuur, loome ja pärand                              |              2.08 |              4.23 |                  2.15 |                 4.39 |                 4.76 |
-| Toit, põllumajandus ja toidujulgeolek                 |              0.23 |              1.64 |                  1.41 |                 1.75 |                 4.76 |
-| Vaimne tervis, tervisekäitumine ja ennetus            |              4.61 |              5.86 |                  1.25 |                14.91 |                16.19 |
-| Küberturvalisus, privaatsus ja digiohud               |              1.39 |              2.56 |                  1.17 |                 5.26 |                10.48 |
-| Meedia, avalik arutelu ja infokvaliteet               |              2.23 |              3.16 |                  0.93 |                 9.65 |                 6.67 |
-| Kliima, rohepööre ja kestlik tarbimine                |              3.92 |              4.63 |                  0.71 |                20.18 |                12.38 |
-| Energeetika ja energiaturud                           |              5.89 |              6.25 |                  0.35 |                13.16 |                11.43 |
-| Majandus, ettevõtlus ja innovatsioon                  |              3.18 |              2.7  |                 -0.48 |                14.04 |                12.38 |
-| Tööelu, juhtimine ja töötajate õigused                |              7.53 |              6.97 |                 -0.57 |                18.42 |                12.38 |
-| Haridus, õppimine ja oskused                          |             13.6  |             12.66 |                 -0.94 |                36.84 |                28.57 |
-| Määramata                                             |              7.12 |              5.48 |                 -1.64 |                71.05 |                70.48 |
-| Rahvusvahelised suhted, Euroopa Liit ja humanitaarabi |              6.29 |              0.92 |                 -5.37 |                14.04 |                 1.9  |
-| Riigikaitse, julgeolek ja kriisivalmidus              |              8.04 |              0.92 |                 -7.12 |                12.28 |                 4.76 |
-| Loodus, metsandus ja maavarad                         |              7.88 |              0.38 |                 -7.5  |                11.4  |                 3.81 |
-| Riigijuhtimine, kodanikuühiskond ja õigus             |              9.39 |              1.78 |                 -7.62 |                26.32 |                13.33 |
+| Tehisintellekt ja digitehnoloogia                     |              0.74 |              8.26 |                  7.53 |                 8.77 |                19.05 |
+| Tervishoid, ravi ja terviseandmed                     |              6.76 |             10.75 |                  3.99 |                10.53 |                15.24 |
+| Eluase, ruum ja ühendused                             |              2.71 |              6.31 |                  3.6  |                 7.89 |                10.48 |
+| Ränne, lõimumine ja kuuluvus                          |              2.15 |              5.15 |                  3    |                 7.02 |                11.43 |
+| Pere, suhted ja sooline võrdsus                       |              1.83 |              4.73 |                  2.9  |                 3.51 |                 5.71 |
+| Laste ja noorte kaitse ning toetamine                 |              2.39 |              5.12 |                  2.73 |                 6.14 |                12.38 |
+| Kultuur, loome ja pärand                              |              2.04 |              4.29 |                  2.25 |                 4.39 |                 4.76 |
+| Toit, põllumajandus ja toidujulgeolek                 |              0.23 |              1.79 |                  1.56 |                 1.75 |                 5.71 |
+| Küberturvalisus, privaatsus ja digiohud               |              1.49 |              2.87 |                  1.38 |                 6.14 |                10.48 |
+| Vaimne tervis, tervisekäitumine ja ennetus            |              4.55 |              5.83 |                  1.28 |                14.04 |                16.19 |
+| Meedia, avalik arutelu ja infokvaliteet               |              2.15 |              3.2  |                  1.05 |                 8.77 |                 7.62 |
+| Kliima, rohepööre ja kestlik tarbimine                |              3.85 |              4.6  |                  0.75 |                19.3  |                13.33 |
+| Energeetika ja energiaturud                           |              5.9  |              6.08 |                  0.18 |                13.16 |                11.43 |
+| Majandus, ettevõtlus ja innovatsioon                  |              3.18 |              2.78 |                 -0.4  |                14.04 |                12.38 |
+| Tööelu, juhtimine ja töötajate õigused                |              7.54 |              7.06 |                 -0.48 |                18.42 |                13.33 |
+| Haridus, õppimine ja oskused                          |             13.68 |             12.36 |                 -1.32 |                37.72 |                26.67 |
+| Määramata                                             |              7.31 |              4.91 |                 -2.39 |                71.93 |                71.43 |
+| Rahvusvahelised suhted, Euroopa Liit ja humanitaarabi |              6.25 |              0.92 |                 -5.33 |                14.04 |                 1.9  |
+| Riigikaitse, julgeolek ja kriisivalmidus              |              8.07 |              0.92 |                 -7.15 |                13.16 |                 5.71 |
+| Loodus, metsandus ja maavarad                         |              7.78 |              0.4  |                 -7.38 |                11.4  |                 3.81 |
+| Riigijuhtimine, kodanikuühiskond ja õigus             |              9.42 |              1.68 |                 -7.75 |                25.44 |                13.33 |
 
 ## Observed emergence and absence
 
-43 detailed topics only observed in 2026 (17 meet the support flag); 62 only observed in 2025 (31 meet it).
+42 detailed topics only observed in 2026 (18 meet the support flag); 60 only observed in 2025 (30 meet it).
 
 ### Only observed in 2026: largest by time share
 
 | jev_topic_name                                        |   time_share_2026 |   minutes_2026 |   talks_2026 | supported_2026   |
 |:------------------------------------------------------|------------------:|---------------:|-------------:|:-----------------|
-| Alushariduse vastutus ja kvaliteet                    |              2.27 |         207.08 |            7 | True             |
-| Toidujulgeoleku tarneahela toimepidevus               |              1.06 |          96.51 |            4 | True             |
+| Alushariduse vastutus ja kvaliteet                    |              2.25 |         205.29 |            7 | True             |
+| Toidujulgeoleku tarneahela toimepidevus               |              1.21 |         110.35 |            5 | True             |
 | lapsevanema kaasamine lasteaia koostöösse             |              1.04 |          95    |            3 | True             |
 | ravikindlustus vabakutselistele loovisikutele         |              0.95 |          86.47 |            2 | True             |
-| teadlaste ja ajakirjanduse suhtlusriskid              |              0.92 |          84.56 |            2 | True             |
+| Perearstikeskuste küberturvalisuse nõuded             |              0.95 |          86.45 |            1 | False            |
+| teadlaste ja ajakirjanduse suhtlusriskid              |              0.93 |          84.56 |            2 | True             |
 | Tööelu jätkamine kroonilise haiguse ajal              |              0.92 |          84.34 |            1 | False            |
+| Eestisse kolinud pagulaste kuuluvus ja kohanemine     |              0.89 |          81    |            3 | True             |
 | Türgi hambaravi garantii- ja parandamisvaidlused      |              0.88 |          80.82 |            1 | False            |
 | Grafiti, tänavakunsti ja lubade vahe                  |              0.86 |          78.75 |            1 | False            |
-| Eestisse kolinud pagulaste kuuluvus ja kohanemine     |              0.85 |          77.83 |            2 | True             |
 | Kultuuriretsepti rakendamine vaimse tervise toetuseks |              0.84 |          77.15 |            1 | False            |
-| AI päringute energiakulu läbipaistvus                 |              0.84 |          77.01 |            2 | True             |
-| Perearstikeskuste küberturvalisuse nõuded             |              0.83 |          75.98 |            1 | False            |
-| Autoriõigused ja AI treeningu läbipaistvus            |              0.82 |          75.37 |            3 | True             |
-| AI-agentide volitamine isikukoodi kaudu               |              0.82 |          75.36 |            3 | True             |
-| Käibemaksu ja toetuste mõju kultuurile                |              0.82 |          74.65 |            2 | True             |
+| AI päringute energiakulu läbipaistvus                 |              0.84 |          76.32 |            2 | True             |
+| Hingamisega rahunemine ja enesekaastunne              |              0.83 |          75.88 |            3 | True             |
+| Autoriõigused ja AI treeningu läbipaistvus            |              0.83 |          75.37 |            3 | True             |
+| AI-agentide volitamine isikukoodi kaudu               |              0.83 |          75.36 |            3 | True             |
 
 ### Only observed in 2025: largest by time share
 
 | jev_topic_name                                       |   time_share_2025 |   minutes_2025 |   talks_2025 | supported_2025   |
 |:-----------------------------------------------------|------------------:|---------------:|-------------:|:-----------------|
 | Lai riigikaitse kodune ja kogukondlik valmisolek     |              2.11 |         209.54 |            7 | True             |
-| Fosforiidi kaevandamise riskid ja ringfosfor         |              1.47 |         146.34 |            2 | True             |
+| Fosforiidi kaevandamise riskid ja ringfosfor         |              1.58 |         156.9  |            2 | True             |
 | Kaitsekulude tõus ja hanked                          |              1.32 |         131.11 |            7 | True             |
-| Metsa raiemahtude ja kaitse vaidlus                  |              1.05 |         104.1  |            6 | True             |
+| Vabaühenduste rahastamise läbipaistvus ja sõltumatus |              0.95 |          93.89 |            2 | True             |
 | Vasakpoolsuse ja identiteedi pinged                  |              0.93 |          92.21 |            2 | True             |
-| Vabaühenduste rahastamise läbipaistvus ja sõltumatus |              0.93 |          92.2  |            2 | True             |
 | Von der Leyeni EL-i eelarve ja maksud                |              0.9  |          89.11 |            3 | True             |
 | Püsimetsanduse definitsioon ja valikraie             |              0.89 |          88.16 |            1 | False            |
 | Korteriühistute kogukonnatunde loomine               |              0.87 |          86.7  |            1 | False            |
-| Ukraina turule sisenemine kohaliku partneriga        |              0.87 |          86.43 |            3 | True             |
+| Ukraina turule sisenemine kohaliku partneriga        |              0.87 |          86.19 |            3 | True             |
 | Sooneutraalne ajateenistus ja reservi täitmine       |              0.85 |          84.6  |            4 | True             |
 | Naiste osakaalu suurendamine IKT-s                   |              0.85 |          84.42 |            2 | True             |
 | laste hambaravi, narkoos ja vanema vastutus          |              0.85 |          84.28 |            1 | False            |
-| Ajaloolised paralleelid tänapäeva konfliktidele      |              0.85 |          84.13 |            5 | True             |
 | Noorte alkoholiga pidutsemine ja surve               |              0.83 |          82.56 |            1 | False            |
+| naiste ajateenistuse laiendamine riigikaitses        |              0.83 |          81.8  |            3 | True             |
+| Ajaloolised paralleelid tänapäeva konfliktidele      |              0.81 |          80.14 |            5 | True             |
 
 ## Inside each main topic
 
@@ -110,197 +110,197 @@ Education slightly declined overall (13.73% → 12.45%), but early-childhood edu
 
 | jev_topic_name                                  |   within_parent_share_2025 |   within_parent_share_2026 |   within_parent_delta_pp |   time_share_delta_pp |   talks_2025 |   talks_2026 |
 |:------------------------------------------------|---------------------------:|---------------------------:|-------------------------:|----------------------:|-------------:|-------------:|
-| AI mõju töökorraldusele ja tööturule            |                      55.19 |                      20.63 |                   -34.56 |                  1.27 |            7 |           11 |
-| AI kasutamine töö- ja loometekstide koostamisel |                      31.25 |                       1.92 |                   -29.33 |                 -0.07 |            4 |            4 |
-| AI-agentide vastutus ja kontroll                |                       3.03 |                      25.48 |                    22.44 |                  2.05 |            1 |            9 |
-| AI-assistendi prompti ülesehitus                |                       2.27 |                      12.43 |                    10.16 |                  1    |            1 |            2 |
-| Autoriõigused ja AI treeningu läbipaistvus      |                       0    |                      10.12 |                    10.12 |                  0.82 |            0 |            3 |
+| AI mõju töökorraldusele ja tööturule            |                      55.19 |                      21.92 |                   -33.27 |                  1.41 |            7 |           13 |
+| AI kasutamine töö- ja loometekstide koostamisel |                      31.25 |                       1.89 |                   -29.36 |                 -0.07 |            4 |            4 |
+| AI-agentide vastutus ja kontroll                |                       3.03 |                      24.91 |                    21.88 |                  2.04 |            1 |           10 |
+| AI-assistendi prompti ülesehitus                |                       2.27 |                      12.26 |                     9.99 |                  1    |            1 |            2 |
+| Autoriõigused ja AI treeningu läbipaistvus      |                       0    |                       9.99 |                     9.99 |                  0.83 |            0 |            3 |
 
 ### Laste ja noorte kaitse ning toetamine
 
 | jev_topic_name                               |   within_parent_share_2025 |   within_parent_share_2026 |   within_parent_delta_pp |   time_share_delta_pp |   talks_2025 |   talks_2026 |
 |:---------------------------------------------|---------------------------:|---------------------------:|-------------------------:|----------------------:|-------------:|-------------:|
-| lapsega esmakontakti loomine lastekaitses    |                      21.65 |                       1.21 |                   -20.44 |                 -0.45 |            1 |            2 |
-| Laste internetikäitumine ja abiotsimine      |                      20.27 |                       1.15 |                   -19.12 |                 -0.42 |            4 |            1 |
-| Lastekodukasvamise kogemus ja märkamise roll |                       6.4  |                      23.9  |                    17.5  |                  1.06 |            1 |            3 |
-| Laste ja AI-petuste internetiohud            |                      18.09 |                       3.21 |                   -14.88 |                 -0.26 |            1 |            2 |
-| Veebis lastega suhtlemise seksuaalriskid     |                       6.99 |                      18.02 |                    11.03 |                  0.75 |            3 |            1 |
+| lapsega esmakontakti loomine lastekaitses    |                      21.28 |                       1.19 |                   -20.09 |                 -0.45 |            1 |            2 |
+| Laste internetikäitumine ja abiotsimine      |                      19.93 |                       1.14 |                   -18.79 |                 -0.42 |            4 |            1 |
+| Lastekodukasvamise kogemus ja märkamise roll |                       6.29 |                      23.62 |                    17.33 |                  1.06 |            1 |            3 |
+| Laste ja AI-petuste internetiohud            |                      17.78 |                       3.75 |                   -14.03 |                 -0.23 |            1 |            3 |
+| Veebis lastega suhtlemise seksuaalriskid     |                       6.87 |                      17.8  |                    10.93 |                  0.75 |            3 |            1 |
 
 ### Kliima, rohepööre ja kestlik tarbimine
 
 | jev_topic_name                                     |   within_parent_share_2025 |   within_parent_share_2026 |   within_parent_delta_pp |   time_share_delta_pp |   talks_2025 |   talks_2026 |
 |:---------------------------------------------------|---------------------------:|---------------------------:|-------------------------:|----------------------:|-------------:|-------------:|
-| AI päringute energiakulu läbipaistvus              |                       0    |                      18.19 |                    18.19 |                  0.84 |            0 |            2 |
-| kliimariski mõju vee- ja soojusvarustusele         |                       2.93 |                      17.68 |                    14.75 |                  0.7  |            2 |            4 |
-| Minimalistlik ökoeluviis ja piisavus               |                      15.35 |                       1.16 |                   -14.19 |                 -0.55 |            2 |            1 |
-| Rohetehnoloogia rahastus ja laenuotsused           |                      13.91 |                       0.81 |                   -13.1  |                 -0.51 |            4 |            1 |
-| rohetehnoloogia investeeringute ja turu takistused |                      24.5  |                      12.61 |                   -11.89 |                 -0.38 |           12 |            5 |
+| AI päringute energiakulu läbipaistvus              |                       0    |                      18.18 |                    18.18 |                  0.84 |            0 |            2 |
+| Minimalistlik ökoeluviis ja piisavus               |                      15.68 |                       0    |                   -15.68 |                 -0.6  |            2 |            0 |
+| kliimariski mõju vee- ja soojusvarustusele         |                       2.99 |                      16.77 |                    13.78 |                  0.66 |            2 |            4 |
+| rohetehnoloogia investeeringute ja turu takistused |                      25.02 |                      12.72 |                   -12.3  |                 -0.38 |           12 |            5 |
+| Rohetehnoloogia rahastus ja laenuotsused           |                      14.2  |                       2.06 |                   -12.14 |                 -0.45 |            4 |            1 |
 
 ### Kultuur, loome ja pärand
 
 | jev_topic_name                                |   within_parent_share_2025 |   within_parent_share_2026 |   within_parent_delta_pp |   time_share_delta_pp |   talks_2025 |   talks_2026 |
 |:----------------------------------------------|---------------------------:|---------------------------:|-------------------------:|----------------------:|-------------:|-------------:|
-| Koduloomuuseumi rahastamine ja jätkamine      |                      33.13 |                       0    |                   -33.13 |                 -0.69 |            1 |            0 |
-| noorte filmiarutelud ja tagasiside            |                      28.86 |                       0    |                   -28.86 |                 -0.6  |            1 |            0 |
-| Emadus ja koolikultuur kultuuri kandjana      |                      24.32 |                       0    |                   -24.32 |                 -0.51 |            2 |            0 |
-| ravikindlustus vabakutselistele loovisikutele |                       0    |                      22.38 |                    22.38 |                  0.95 |            0 |            2 |
-| Grafiti, tänavakunsti ja lubade vahe          |                       0    |                      20.38 |                    20.38 |                  0.86 |            0 |            1 |
+| Koduloomuuseumi rahastamine ja jätkamine      |                      33.7  |                       0    |                   -33.7  |                 -0.69 |            1 |            0 |
+| noorte filmiarutelud ja tagasiside            |                      29.35 |                       0    |                   -29.35 |                 -0.6  |            1 |            0 |
+| Emadus ja koolikultuur kultuuri kandjana      |                      23.02 |                       0    |                   -23.02 |                 -0.47 |            2 |            0 |
+| ravikindlustus vabakutselistele loovisikutele |                       0    |                      22.04 |                    22.04 |                  0.95 |            0 |            2 |
+| Grafiti, tänavakunsti ja lubade vahe          |                       0    |                      20.08 |                    20.08 |                  0.86 |            0 |            1 |
 
 ### Küberturvalisus, privaatsus ja digiohud
 
 | jev_topic_name                                 |   within_parent_share_2025 |   within_parent_share_2026 |   within_parent_delta_pp |   time_share_delta_pp |   talks_2025 |   talks_2026 |
 |:-----------------------------------------------|---------------------------:|---------------------------:|-------------------------:|----------------------:|-------------:|-------------:|
-| Paroolide ja wifi kaudu levinud küberpettused  |                      46.88 |                       0    |                   -46.88 |                 -0.65 |            1 |            0 |
-| andmejärelevalve ja tehisintellekti piirid     |                       9.02 |                      48.26 |                    39.24 |                  1.11 |            3 |            9 |
-| Laste piltide postitamine vanemate poolt       |                      38.62 |                       0    |                   -38.62 |                 -0.54 |            1 |            0 |
-| Perearstikeskuste küberturvalisuse nõuded      |                       0    |                      32.44 |                    32.44 |                  0.83 |            0 |            1 |
-| Interneti solvangute ja ähvarduste ohjeldamine |                       5.49 |                      19.3  |                    13.82 |                  0.42 |            2 |            1 |
+| Paroolide ja wifi kaudu levinud küberpettused  |                      43.92 |                       0    |                   -43.92 |                 -0.65 |            1 |            0 |
+| andmejärelevalve ja tehisintellekti piirid     |                       8.45 |                      49.76 |                    41.31 |                  1.3  |            3 |            9 |
+| Laste piltide postitamine vanemate poolt       |                      36.17 |                       0    |                   -36.17 |                 -0.54 |            1 |            0 |
+| Perearstikeskuste küberturvalisuse nõuded      |                       0    |                      32.99 |                    32.99 |                  0.95 |            0 |            1 |
+| Interneti solvangute ja ähvarduste ohjeldamine |                      11.46 |                      17.25 |                     5.79 |                  0.32 |            3 |            1 |
 
 ### Riigikaitse, julgeolek ja kriisivalmidus
 
 | jev_topic_name                                   |   within_parent_share_2025 |   within_parent_share_2026 |   within_parent_delta_pp |   time_share_delta_pp |   talks_2025 |   talks_2026 |
 |:-------------------------------------------------|---------------------------:|---------------------------:|-------------------------:|----------------------:|-------------:|-------------:|
-| CBRN-riskideks valmisoleku arutelu               |                       0    |                      88.39 |                    88.39 |                  0.81 |            0 |            1 |
-| Lai riigikaitse kodune ja kogukondlik valmisolek |                      26.26 |                       0    |                   -26.26 |                 -2.11 |            7 |            0 |
-| Kaitsekulude tõus ja hanked                      |                      16.43 |                       0    |                   -16.43 |                 -1.32 |            7 |            0 |
-| Sooneutraalne ajateenistus ja reservi täitmine   |                      10.6  |                       0    |                   -10.6  |                 -0.85 |            4 |            0 |
-| naiste ajateenistuse laiendamine riigikaitses    |                      10.25 |                       0    |                   -10.25 |                 -0.82 |            3 |            0 |
+| CBRN-riskideks valmisoleku arutelu               |                       0    |                      88.39 |                    88.39 |                  0.81 |            0 |            2 |
+| Lai riigikaitse kodune ja kogukondlik valmisolek |                      26.2  |                       0    |                   -26.2  |                 -2.11 |            7 |            0 |
+| Kaitsekulude tõus ja hanked                      |                      16.39 |                       0    |                   -16.39 |                 -1.32 |            7 |            0 |
+| Sooneutraalne ajateenistus ja reservi täitmine   |                      10.58 |                       0    |                   -10.58 |                 -0.85 |            4 |            0 |
+| naiste ajateenistuse laiendamine riigikaitses    |                      10.23 |                       0    |                   -10.23 |                 -0.83 |            3 |            0 |
 
 ### Majandus, ettevõtlus ja innovatsioon
 
 | jev_topic_name                                           |   within_parent_share_2025 |   within_parent_share_2026 |   within_parent_delta_pp |   time_share_delta_pp |   talks_2025 |   talks_2026 |
 |:---------------------------------------------------------|---------------------------:|---------------------------:|-------------------------:|----------------------:|-------------:|-------------:|
-| Ukraina turule sisenemine kohaliku partneriga            |                      27.38 |                       0    |                   -27.38 |                 -0.87 |            3 |            0 |
-| Startup-ökosüsteemi kogukond ja eeskujud                 |                       2.92 |                      30.26 |                    27.35 |                  0.72 |            2 |            3 |
-| Startupide registreerimise ja fondi-õiguse lihtsustamine |                       0    |                      23.74 |                    23.74 |                  0.64 |            0 |            2 |
-| Väikeettevõtjate maksud, hanked ja eksport               |                      23.66 |                       1.32 |                   -22.33 |                 -0.72 |            5 |            2 |
-| Majanduskasvu ja heaolu vaidlus                          |                      16.56 |                      23.21 |                     6.64 |                  0.1  |            9 |            3 |
+| Ukraina turule sisenemine kohaliku partneriga            |                      27.33 |                       0    |                   -27.33 |                 -0.87 |            3 |            0 |
+| Startup-ökosüsteemi kogukond ja eeskujud                 |                       2.92 |                      29.42 |                    26.5  |                  0.72 |            2 |            3 |
+| Startupide registreerimise ja fondi-õiguse lihtsustamine |                       0    |                      23.08 |                    23.08 |                  0.64 |            0 |            2 |
+| Väikeettevõtjate maksud, hanked ja eksport               |                      23.67 |                       1.29 |                   -22.39 |                 -0.72 |            5 |            2 |
+| Majanduskasvu ja heaolu vaidlus                          |                      16.57 |                      25.34 |                     8.77 |                  0.18 |            9 |            3 |
 
 ### Haridus, õppimine ja oskused
 
 | jev_topic_name                                |   within_parent_share_2025 |   within_parent_share_2026 |   within_parent_delta_pp |   time_share_delta_pp |   talks_2025 |   talks_2026 |
 |:----------------------------------------------|---------------------------:|---------------------------:|-------------------------:|----------------------:|-------------:|-------------:|
-| Alushariduse vastutus ja kvaliteet            |                       0    |                      17.89 |                    17.89 |                  2.27 |            0 |            7 |
-| Lasteaia kvaliteet, märkamise ja toetuse roll |                       0.2  |                      10.74 |                    10.54 |                  1.33 |            1 |            6 |
-| Eesti hariduse eesmärgid ja sihid             |                      13.22 |                       2.74 |                   -10.48 |                 -1.45 |           19 |            6 |
-| lapsevanema kaasamine lasteaia koostöösse     |                       0    |                       8.2  |                     8.2  |                  1.04 |            0 |            3 |
-| õpilasmaleva esimese töökogemuse roll         |                       0.77 |                       7.96 |                     7.19 |                  0.9  |            1 |            2 |
+| Alushariduse vastutus ja kvaliteet            |                       0    |                      18.18 |                    18.18 |                  2.25 |            0 |            7 |
+| Eesti hariduse eesmärgid ja sihid             |                      13.32 |                       2.35 |                   -10.97 |                 -1.53 |           20 |            4 |
+| Lasteaia kvaliteet, märkamise ja toetuse roll |                       0.2  |                      11.03 |                    10.83 |                  1.34 |            1 |            6 |
+| lapsevanema kaasamine lasteaia koostöösse     |                       0    |                       8.41 |                     8.41 |                  1.04 |            0 |            3 |
+| õpilasmaleva esimese töökogemuse roll         |                       0.76 |                       7.87 |                     7.11 |                  0.87 |            1 |            2 |
 
 ### Energeetika ja energiaturud
 
 | jev_topic_name                                    |   within_parent_share_2025 |   within_parent_share_2026 |   within_parent_delta_pp |   time_share_delta_pp |   talks_2025 |   talks_2026 |
 |:--------------------------------------------------|---------------------------:|---------------------------:|-------------------------:|----------------------:|-------------:|-------------:|
-| Eesti elektritarbimise ja tootmise sihid          |                       4.52 |                      20.77 |                    16.25 |                  1.03 |            4 |            7 |
-| Elektribörsi hinnakujunduse jaotumine             |                       0.82 |                      13.05 |                    12.23 |                  0.77 |            1 |            3 |
-| Tuulikuinfraheli häirivuse ja tervisemõju vaidlus |                      11.51 |                       0.39 |                   -11.12 |                 -0.65 |            2 |            1 |
-| Biogaasi ja vesiniku kasutus Eestis               |                      15.99 |                       7.04 |                    -8.95 |                 -0.5  |            4 |            6 |
-| Tuuleparkide kaasamise usalduskriis               |                       9.95 |                       1.23 |                    -8.73 |                 -0.51 |            1 |            2 |
+| Eesti elektritarbimise ja tootmise sihid          |                       4.53 |                      21.38 |                    16.85 |                  1.03 |            4 |            7 |
+| Elektribörsi hinnakujunduse jaotumine             |                       0.82 |                      13.43 |                    12.61 |                  0.77 |            1 |            3 |
+| Biogaasi ja vesiniku kasutus Eestis               |                      15.99 |                       4.7  |                   -11.29 |                 -0.66 |            4 |            6 |
+| Tuulikuinfraheli häirivuse ja tervisemõju vaidlus |                      11.51 |                       0.4  |                   -11.11 |                 -0.65 |            2 |            1 |
+| Tuuleparkide kaasamise usalduskriis               |                       9.96 |                       1.26 |                    -8.69 |                 -0.51 |            1 |            2 |
 
 ### Pere, suhted ja sooline võrdsus
 
 | jev_topic_name                                   |   within_parent_share_2025 |   within_parent_share_2026 |   within_parent_delta_pp |   time_share_delta_pp |   talks_2025 |   talks_2026 |
 |:-------------------------------------------------|---------------------------:|---------------------------:|-------------------------:|----------------------:|-------------:|-------------:|
-| sündimuse toetamine läbi perekindluse            |                      51.33 |                       0.76 |                   -50.57 |                 -0.89 |            2 |            1 |
-| Õige keha- ja seksuaalsõnavara õpetamine         |                      27.58 |                       0.38 |                   -27.2  |                 -0.48 |            1 |            1 |
-| Emaduse karjäärikaod ja naasmine tööle           |                       1.47 |                      20.45 |                    18.98 |                  0.94 |            1 |            3 |
-| Naiste juhtide ja isade rolliootused             |                       0.89 |                      17.64 |                    16.75 |                  0.82 |            1 |            3 |
-| Istanbuli konventsiooni vaidlused ja rakendamine |                       6.35 |                      20.63 |                    14.28 |                  0.86 |            1 |            1 |
+| sündimuse toetamine läbi perekindluse            |                      50.95 |                       0.76 |                   -50.2  |                 -0.89 |            2 |            1 |
+| Õige keha- ja seksuaalsõnavara õpetamine         |                      27.38 |                       0.38 |                   -27    |                 -0.48 |            1 |            1 |
+| Emaduse karjäärikaod ja naasmine tööle           |                       1.46 |                      20.45 |                    18.99 |                  0.94 |            1 |            3 |
+| Naiste juhtide ja isade rolliootused             |                       0.89 |                      17.64 |                    16.76 |                  0.82 |            1 |            3 |
+| Istanbuli konventsiooni vaidlused ja rakendamine |                       7.04 |                      20.63 |                    13.59 |                  0.85 |            1 |            1 |
 
 ### Toit, põllumajandus ja toidujulgeolek
 
 | jev_topic_name                           |   within_parent_share_2025 |   within_parent_share_2026 |   within_parent_delta_pp |   time_share_delta_pp |   talks_2025 |   talks_2026 |
 |:-----------------------------------------|---------------------------:|---------------------------:|-------------------------:|----------------------:|-------------:|-------------:|
 | Valgu tootmine kohalike biojääkide pealt |                        100 |                       0    |                  -100    |                 -0.23 |            2 |            0 |
-| Toidujulgeoleku tarneahela toimepidevus  |                          0 |                      64.47 |                    64.47 |                  1.06 |            0 |            4 |
-| parim enne ja kõlblik kuni märgistus     |                          0 |                      35.53 |                    35.53 |                  0.58 |            0 |            1 |
+| Toidujulgeoleku tarneahela toimepidevus  |                          0 |                      67.48 |                    67.48 |                  1.21 |            0 |            5 |
+| parim enne ja kõlblik kuni märgistus     |                          0 |                      32.52 |                    32.52 |                  0.58 |            0 |            1 |
 
 ### Riigijuhtimine, kodanikuühiskond ja õigus
 
 | jev_topic_name                                       |   within_parent_share_2025 |   within_parent_share_2026 |   within_parent_delta_pp |   time_share_delta_pp |   talks_2025 |   talks_2026 |
 |:-----------------------------------------------------|---------------------------:|---------------------------:|-------------------------:|----------------------:|-------------:|-------------:|
-| Vabatahtlike hoidmine ja kaasamise barjäärid         |                       0.77 |                      38.53 |                    37.76 |                  0.61 |            2 |            1 |
-| Kogukonna hääle kaasamine otsustesse                 |                       6.35 |                      17.87 |                    11.52 |                 -0.28 |            8 |            5 |
-| Vasakpoolsuse ja identiteedi pinged                  |                       9.89 |                       0    |                    -9.89 |                 -0.93 |            2 |            0 |
-| Vabaühenduste rahastamise läbipaistvus ja sõltumatus |                       9.89 |                       0    |                    -9.89 |                 -0.93 |            2 |            0 |
-| Eesti 2050 ühised unistused ja tulevikunägemus       |                      11.42 |                       2.07 |                    -9.35 |                 -1.04 |            6 |            1 |
+| Vabatahtlike hoidmine ja kaasamise barjäärid         |                       0.77 |                       40.9 |                    40.13 |                  0.61 |            2 |            1 |
+| Vabaühenduste rahastamise läbipaistvus ja sõltumatus |                      10.05 |                        0   |                   -10.05 |                 -0.95 |            2 |            0 |
+| Vasakpoolsuse ja identiteedi pinged                  |                       9.87 |                        0   |                    -9.87 |                 -0.93 |            2 |            0 |
+| Eesti 2050 ühised unistused ja tulevikunägemus       |                      11.4  |                        2.2 |                    -9.2  |                 -1.04 |            6 |            1 |
+| Annetuste kasutamine organisatsiooni kuludeks        |                       8.2  |                        0   |                    -8.2  |                 -0.77 |            2 |            0 |
 
 ### Tervishoid, ravi ja terviseandmed
 
 | jev_topic_name                                           |   within_parent_share_2025 |   within_parent_share_2026 |   within_parent_delta_pp |   time_share_delta_pp |   talks_2025 |   talks_2026 |
 |:---------------------------------------------------------|---------------------------:|---------------------------:|-------------------------:|----------------------:|-------------:|-------------:|
-| Perearsti tööjaotus ja koostöövõrgustik                  |                      14.6  |                       1.39 |                   -13.21 |                 -0.85 |            5 |            1 |
-| laste hambaravi, narkoos ja vanema vastutus              |                      12.43 |                       0    |                   -12.43 |                 -0.85 |            1 |            0 |
-| Ülekaaluravimite hüvitamine ja elustiil                  |                      11.73 |                       0    |                   -11.73 |                 -0.8  |            1 |            0 |
-| Terviseandmete kasutamine ravi ja ennetuse parandamiseks |                       1.29 |                      12.46 |                    11.16 |                  1.25 |            2 |            4 |
-| Haigekassa rahastusmudeli ümbermõtestamine               |                      12.3  |                       1.33 |                   -10.98 |                 -0.7  |            3 |            3 |
+| Perearsti tööjaotus ja koostöövõrgustik                  |                      14.69 |                       1.39 |                   -13.3  |                 -0.84 |            5 |            1 |
+| laste hambaravi, narkoos ja vanema vastutus              |                      12.57 |                       0    |                   -12.57 |                 -0.85 |            1 |            0 |
+| Ülekaaluravimite hüvitamine ja elustiil                  |                      11.87 |                       0    |                   -11.87 |                 -0.8  |            1 |            0 |
+| Dementsusega hooldekodus vägivalla ja vastutuse arutelu  |                      11.5  |                       0    |                   -11.5  |                 -0.78 |            1 |            0 |
+| Terviseandmete kasutamine ravi ja ennetuse parandamiseks |                       1.31 |                      12.45 |                    11.15 |                  1.25 |            2 |            4 |
 
 ### Rahvusvahelised suhted, Euroopa Liit ja humanitaarabi
 
 | jev_topic_name                                  |   within_parent_share_2025 |   within_parent_share_2026 |   within_parent_delta_pp |   time_share_delta_pp |   talks_2025 |   talks_2026 |
 |:------------------------------------------------|---------------------------:|---------------------------:|-------------------------:|----------------------:|-------------:|-------------:|
-| ÜRO reform ja väikeriikide hääl                 |                      11.64 |                      92.35 |                    80.71 |                  0.12 |            4 |            1 |
-| Von der Leyeni EL-i eelarve ja maksud           |                      14.28 |                       0    |                   -14.28 |                 -0.9  |            3 |            0 |
-| Ajaloolised paralleelid tänapäeva konfliktidele |                      13.48 |                       0    |                   -13.48 |                 -0.85 |            5 |            0 |
-| Trumpi mõju USA poliitika ja Ukraina suunal     |                      17.86 |                       5.71 |                   -12.14 |                 -1.07 |            5 |            1 |
-| Palestiina tunnustamise ja kahe riigi debatt    |                      10.88 |                       0    |                   -10.88 |                 -0.68 |            2 |            0 |
+| ÜRO reform ja väikeriikide hääl                 |                      11.72 |                      92.35 |                    80.63 |                  0.12 |            4 |            1 |
+| Von der Leyeni EL-i eelarve ja maksud           |                      14.37 |                       0    |                   -14.37 |                 -0.9  |            3 |            0 |
+| Ajaloolised paralleelid tänapäeva konfliktidele |                      12.93 |                       0    |                   -12.93 |                 -0.81 |            5 |            0 |
+| Trumpi mõju USA poliitika ja Ukraina suunal     |                      17.97 |                       5.71 |                   -12.26 |                 -1.07 |            5 |            1 |
+| Palestiina tunnustamise ja kahe riigi debatt    |                      10.95 |                       0    |                   -10.95 |                 -0.68 |            2 |            0 |
 
 ### Meedia, avalik arutelu ja infokvaliteet
 
 | jev_topic_name                                            |   within_parent_share_2025 |   within_parent_share_2026 |   within_parent_delta_pp |   time_share_delta_pp |   talks_2025 |   talks_2026 |
 |:----------------------------------------------------------|---------------------------:|---------------------------:|-------------------------:|----------------------:|-------------:|-------------:|
-| Infosõja vastulöök ja väärinfo tõrjumine                  |                      54.13 |                      13.88 |                   -40.26 |                 -0.77 |            5 |            5 |
-| teadlaste ja ajakirjanduse suhtlusriskid                  |                       0    |                      29.25 |                    29.25 |                  0.92 |            0 |            2 |
-| Rohe- ja heaolu­väidete eksitavus reklaamis               |                       1.29 |                      27.79 |                    26.5  |                  0.85 |            1 |            1 |
-| Palestiina ja progressiivsete teemade kallutatud kajastus |                      21.14 |                       0    |                   -21.14 |                 -0.47 |            2 |            0 |
-| Sotsiaalmeedia poliitilise arutelu kvaliteet              |                       9.17 |                      29.08 |                    19.92 |                  0.72 |            4 |            2 |
+| Infosõja vastulöök ja väärinfo tõrjumine                  |                      56.21 |                      14.87 |                   -41.34 |                 -0.73 |            5 |            6 |
+| teadlaste ja ajakirjanduse suhtlusriskid                  |                       0    |                      28.92 |                    28.92 |                  0.93 |            0 |            2 |
+| Rohe- ja heaolu­väidete eksitavus reklaamis               |                       1.34 |                      27.47 |                    26.13 |                  0.85 |            1 |            1 |
+| Sotsiaalmeedia poliitilise arutelu kvaliteet              |                       5.69 |                      28.75 |                    23.06 |                  0.8  |            3 |            2 |
+| Palestiina ja progressiivsete teemade kallutatud kajastus |                      21.95 |                       0    |                   -21.95 |                 -0.47 |            2 |            0 |
 
 ### Ränne, lõimumine ja kuuluvus
 
 | jev_topic_name                                    |   within_parent_share_2025 |   within_parent_share_2026 |   within_parent_delta_pp |   time_share_delta_pp |   talks_2025 |   talks_2026 |
 |:--------------------------------------------------|---------------------------:|---------------------------:|-------------------------:|----------------------:|-------------:|-------------:|
-| Sisserände juhtimine ja talendivajadus            |                      28.55 |                       0.69 |                   -27.86 |                 -0.6  |            4 |            1 |
-| eestikeelse suhtluse ja ühiskeele otsimine        |                      18.42 |                       0.82 |                   -17.6  |                 -0.37 |            4 |            1 |
-| Eestisse kolinud pagulaste kuuluvus ja kohanemine |                       0    |                      16.6  |                    16.6  |                  0.85 |            0 |            2 |
-| Soome-ugri pagulus ja keeleidentiteet             |                       0    |                      14.47 |                    14.47 |                  0.74 |            0 |            1 |
-| AI roll elamisloa otsustes                        |                       0    |                      14.4  |                    14.4  |                  0.74 |            0 |            1 |
+| Sisserände juhtimine ja talendivajadus            |                      29.63 |                       1.52 |                   -28.11 |                 -0.56 |            4 |            2 |
+| Rände integreerimise ja keelepoliitika riskid     |                      29.84 |                      12.47 |                   -17.37 |                  0    |            2 |            3 |
+| Eestisse kolinud pagulaste kuuluvus ja kohanemine |                       0    |                      17.23 |                    17.23 |                  0.89 |            0 |            3 |
+| Soome-ugri pagulus ja keeleidentiteet             |                       0    |                      14.43 |                    14.43 |                  0.74 |            0 |            1 |
+| AI roll elamisloa otsustes                        |                       0    |                      14.36 |                    14.36 |                  0.74 |            0 |            1 |
 
 ### Loodus, metsandus ja maavarad
 
 | jev_topic_name                               |   within_parent_share_2025 |   within_parent_share_2026 |   within_parent_delta_pp |   time_share_delta_pp |   talks_2025 |   talks_2026 |
 |:---------------------------------------------|---------------------------:|---------------------------:|-------------------------:|----------------------:|-------------:|-------------:|
-| Puidu väärindamine raiemahtu vähendades      |                       8.35 |                      73.61 |                    65.26 |                 -0.38 |            5 |            3 |
-| Fosforiidi kaevandamise riskid ja ringfosfor |                      18.72 |                       0    |                   -18.72 |                 -1.47 |            2 |            0 |
-| Kohtla-Järve tuhamägede väetisetehas         |                       0.77 |                      15.62 |                    14.84 |                 -0    |            1 |            1 |
-| Metsa raiemahtude ja kaitse vaidlus          |                      13.32 |                       0    |                   -13.32 |                 -1.05 |            6 |            0 |
-| Püsimetsanduse definitsioon ja valikraie     |                      11.28 |                       0    |                   -11.28 |                 -0.89 |            1 |            0 |
+| Puidu väärindamine raiemahtu vähendades      |                       8.47 |                      68.82 |                    60.36 |                 -0.38 |            5 |            3 |
+| Fosforiidi kaevandamise riskid ja ringfosfor |                      20.34 |                       0    |                   -20.34 |                 -1.58 |            2 |            0 |
+| Kohtla-Järve tuhamägede väetisetehas         |                       0.79 |                      14.88 |                    14.09 |                 -0    |            1 |            1 |
+| Püsimetsanduse definitsioon ja valikraie     |                      11.43 |                       0    |                   -11.43 |                 -0.89 |            1 |            0 |
+| Elurikkuse krediitide turu kujundamine       |                       9.96 |                       0    |                    -9.96 |                 -0.78 |            1 |            0 |
 
 ### Eluase, ruum ja ühendused
 
 | jev_topic_name                                           |   within_parent_share_2025 |   within_parent_share_2026 |   within_parent_delta_pp |   time_share_delta_pp |   talks_2025 |   talks_2026 |
 |:---------------------------------------------------------|---------------------------:|---------------------------:|-------------------------:|----------------------:|-------------:|-------------:|
-| Korteriühistute kogukonnatunde loomine                   |                      33.05 |                       0    |                   -33.05 |                 -0.87 |            1 |            0 |
-| Reisiks valmistumine ja turvalisus                       |                      21.28 |                       0    |                   -21.28 |                 -0.56 |            1 |            0 |
-| üldplaneeringus haljastuse ja rohekoridoride säilitamine |                      20.91 |                       0    |                   -20.91 |                 -0.55 |            1 |            0 |
-| üleriigiline planeering ja ruumipoliitika                |                       6.85 |                      23.39 |                    16.54 |                  1.24 |            2 |            4 |
-| Idapiirialade eraldi regionaalpoliitika                  |                       1.26 |                      13.55 |                    12.29 |                  0.79 |            1 |            1 |
+| Korteriühistute kogukonnatunde loomine                   |                      32.26 |                       0    |                   -32.26 |                 -0.87 |            1 |            0 |
+| Reisiks valmistumine ja turvalisus                       |                      20.78 |                       0    |                   -20.78 |                 -0.56 |            1 |            0 |
+| üldplaneeringus haljastuse ja rohekoridoride säilitamine |                      20.42 |                       1.52 |                   -18.89 |                 -0.46 |            1 |            1 |
+| üleriigiline planeering ja ruumipoliitika                |                       6.69 |                      22.54 |                    15.85 |                  1.24 |            2 |            4 |
+| Idapiirialade eraldi regionaalpoliitika                  |                       1.23 |                      13.06 |                    11.83 |                  0.79 |            1 |            1 |
 
 ### Vaimne tervis, tervisekäitumine ja ennetus
 
 | jev_topic_name                                        |   within_parent_share_2025 |   within_parent_share_2026 |   within_parent_delta_pp |   time_share_delta_pp |   talks_2025 |   talks_2026 |
 |:------------------------------------------------------|---------------------------:|---------------------------:|-------------------------:|----------------------:|-------------:|-------------:|
-| Noorte alkoholiga pidutsemine ja surve                |                      18.05 |                       0    |                   -18.05 |                 -0.83 |            1 |            0 |
-| laste nutiekraani ja sotsiaalmeedia sõltuvus          |                      27.34 |                      10.86 |                   -16.47 |                 -0.62 |            7 |            3 |
-| Üksilduse vähendamine suhtluse ja kogukonnaga         |                       1.45 |                      17.27 |                    15.82 |                  0.95 |            3 |            2 |
-| Liikumisharjumuste kujundamine lastel                 |                      16.51 |                       0.72 |                   -15.79 |                 -0.72 |            2 |            2 |
-| Kultuuriretsepti rakendamine vaimse tervise toetuseks |                       0    |                      14.4  |                    14.4  |                  0.84 |            0 |            1 |
+| Noorte alkoholiga pidutsemine ja surve                |                      18.32 |                       0    |                   -18.32 |                 -0.83 |            1 |            0 |
+| Üksilduse vähendamine suhtluse ja kogukonnaga         |                       0.74 |                      17.37 |                    16.64 |                  0.98 |            2 |            2 |
+| Liikumisharjumuste kujundamine lastel                 |                      16.75 |                       0.72 |                   -16.03 |                 -0.72 |            2 |            2 |
+| laste nutiekraani ja sotsiaalmeedia sõltuvus          |                      26.94 |                      10.96 |                   -15.98 |                 -0.59 |            6 |            3 |
+| Kultuuriretsepti rakendamine vaimse tervise toetuseks |                       0    |                      14.49 |                    14.49 |                  0.84 |            0 |            1 |
 
 ### Tööelu, juhtimine ja töötajate õigused
 
 | jev_topic_name                                 |   within_parent_share_2025 |   within_parent_share_2026 |   within_parent_delta_pp |   time_share_delta_pp |   talks_2025 |   talks_2026 |
 |:-----------------------------------------------|---------------------------:|---------------------------:|-------------------------:|----------------------:|-------------:|-------------:|
-| Töökiusamise piiri tõmbamine tööl              |                      16.48 |                       1.97 |                   -14.51 |                 -1.1  |            3 |            1 |
-| Tööelu jätkamine kroonilise haiguse ajal       |                       0    |                      13.24 |                    13.24 |                  0.92 |            0 |            1 |
-| Miinimumpalga tõstmise mõju tööle ja vaesusele |                       0.52 |                      11.98 |                    11.45 |                  0.79 |            1 |            2 |
-| Naiste osakaalu suurendamine IKT-s             |                      11.29 |                       0    |                   -11.29 |                 -0.85 |            2 |            0 |
-| Juhi ja töötaja äärmused organisatsioonis      |                      10.96 |                       1.03 |                    -9.93 |                 -0.75 |            2 |            3 |
+| Töökiusamise piiri tõmbamine tööl              |                      16.5  |                       1.95 |                   -14.55 |                 -1.11 |            3 |            1 |
+| Tööelu jätkamine kroonilise haiguse ajal       |                       0    |                      13.08 |                    13.08 |                  0.92 |            0 |            1 |
+| Miinimumpalga tõstmise mõju tööle ja vaesusele |                       0.53 |                      11.83 |                    11.31 |                  0.8  |            1 |            2 |
+| Naiste osakaalu suurendamine IKT-s             |                      11.3  |                       0    |                   -11.3  |                 -0.85 |            2 |            0 |
+| Juhi ja töötaja äärmused organisatsioonis      |                      10.97 |                       1.02 |                    -9.95 |                 -0.75 |            2 |            3 |
 

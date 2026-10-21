@@ -18,6 +18,9 @@ RunPod yourself.
 - Catalog: `data/catalog/20260920T112540Z-2026.json`
 - Selection: `data/retranscription/2026-affected-episodes.json`
 - Lock: `data/retranscription/2026-run-lock.json`
+- Transcriber: `vendor/estonian-audio-transcription/scripts/transcribe.py`. It streams
+  the complete audio through the pinned model, checks stereo phase cancellation
+  across the recording, and writes the selected channel to runtime metadata.
 - Model: `TalTechNLP/streaming-zipformer-large.et-en`, revision
   `2812262bd4fd5d4327dc09ca0e6c19e8a32a03d6`, int8
 - Runtime: sherpa-onnx 1.13.7, modified beam search, four threads
@@ -37,7 +40,7 @@ script intentionally changes:
   --catalog data\catalog\20260920T112540Z-2026.json `
   --baseline data\transcripts\2026 `
   --episodes data\retranscription\2026-affected-episodes.json `
-  --transcriber-script C:\Users\risto\projects\skils_plugins\plugins\estonian-audio-transcription\skills\estonian-audio-transcription\scripts\transcribe.py `
+  --transcriber-script vendor\estonian-audio-transcription\scripts\transcribe.py `
   --output data\retranscription\2026-run-lock.json
 ```
 
@@ -59,7 +62,9 @@ Copy-Item data\catalog\20260920T112540Z-2026.json -Destination "$handoff\project
 Copy-Item data\retranscription\2026-affected-episodes.json,data\retranscription\2026-run-lock.json -Destination "$handoff\project\data\retranscription"
 $lock = Get-Content data\retranscription\2026-run-lock.json -Raw | ConvertFrom-Json
 $lock.episodes.PSObject.Properties.Name | ForEach-Object { Copy-Item "data\transcripts\2026\$_.json" -Destination "$handoff\project\baseline\data\transcripts\2026" }
-Copy-Item C:\Users\risto\projects\skils_plugins\plugins\estonian-audio-transcription\skills\estonian-audio-transcription -Destination "$handoff\project\vendor\estonian-audio-transcription" -Recurse
+New-Item -ItemType Directory -Force "$handoff\project\vendor\estonian-audio-transcription\scripts" | Out-Null
+Copy-Item vendor\estonian-audio-transcription\pyproject.toml,vendor\estonian-audio-transcription\uv.lock -Destination "$handoff\project\vendor\estonian-audio-transcription"
+Copy-Item vendor\estonian-audio-transcription\scripts\transcribe.py -Destination "$handoff\project\vendor\estonian-audio-transcription\scripts"
 Get-ChildItem $handoff -Recurse -Force | Where-Object { $_.Name -match '^\.env|token|credential|secret' }
 tar -C $handoff -czf .tmp\runpod-transcript-repair.tgz project
 Get-FileHash .tmp\runpod-transcript-repair.tgz -Algorithm SHA256 | Format-List

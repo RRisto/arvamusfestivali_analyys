@@ -1,39 +1,39 @@
 jev_topic_id,jev_topic_name,segments,talks,recording_hours,mean_choice_probability
--1,Unassigned,228,81,11.782408055555559,0.590219298245614
+-1,Unassigned,229,82,12.06932527777778,0.582882096069869
 0,noorte radikaliseerumine ja kuuluvus,8,1,0.7442999999999999,0.8362499999999999
 1,Tööõnnetuste ennetus ja tööohutuse teadlikkus,19,1,1.4170225,0.9894736842105264
 2,Vähiravi patsiendikesksus ja palliatiivne tugi,2,1,0.2667,0.95
 3,Juhi ja töötaja äärmused organisatsioonis,16,2,1.3658777777777777,0.833125
 4,"Lasteaia kvaliteet, märkamise ja toetuse roll",1,1,0.04507777777777777,0.39
 5,Rohetehnoloogia rahastus ja laenuotsused,9,4,0.9023944444444444,0.7544444444444445
-7,Tagasiside ja hinde seos õppimisega,16,2,1.3654322222222222,0.95375
+7,Tagasiside ja hinde seos õppimisega,17,2,1.324766666666667,0.9652941176470589
 8,Palestiina tunnustamise ja kahe riigi debatt,19,2,1.131633333333333,0.9021052631578947
 9,AI-assistendi prompti ülesehitus,1,1,0.027588888888889062,0.91
 10,Nõusolek paarisuhtes ja läheduses,3,1,0.2617444444444444,0.43333333333333335
-11,laste nutiekraani ja sotsiaalmeedia sõltuvus,29,7,2.0841022222222225,0.8175862068965517
+11,laste nutiekraani ja sotsiaalmeedia sõltuvus,28,6,2.0234855555555558,0.8453571428571429
 12,sündimuse toetamine läbi perekindluse,16,2,1.5363302777777774,0.893125
 13,Emaduse karjäärikaod ja naasmine tööle,1,1,0.04395555555555562,0.96
-14,Üksilduse vähendamine suhtluse ja kogukonnaga,3,3,0.11025805555555543,0.6733333333333333
+14,Üksilduse vähendamine suhtluse ja kogukonnaga,2,2,0.05533333333333338,0.78
 16,Töökiusamise piiri tõmbamine tööl,22,3,2.0537261111111107,0.6877272727272727
 17,Biogaasi ja vesiniku kasutus Eestis,19,4,1.5575458333333334,0.9110526315789473
 18,Töökiusu ja vaidluste piiritlemine töösuhtes,12,3,1.0227555555555559,0.6516666666666667
-20,Nutiseadmete kasutuse piiramine koolis,13,3,1.1466213888888888,0.8915384615384615
-22,Ukraina turule sisenemine kohaliku partneriga,14,3,1.4405277777777774,0.9
+20,Nutiseadmete kasutuse piiramine koolis,12,3,1.0637444444444444,0.91
+22,Ukraina turule sisenemine kohaliku partneriga,14,3,1.4364611111111112,0.8928571428571429
 23,õpilasmaleva esimese töökogemuse roll,2,1,0.17267777777777774,0.65
-24,Eesti kliimahoiakud ja rohepöörde skeptitsism,25,10,1.949736944444444,0.7264
-25,Teadmussiirdedoktorantuuri ettevõtluslik praktilisus,4,2,0.27327777777777745,0.8
+24,Eesti kliimahoiakud ja rohepöörde skeptitsism,23,8,1.7269147222222223,0.7517391304347826
+25,Teadmussiirdedoktorantuuri ettevõtluslik praktilisus,5,3,0.3012055555555552,0.72
 27,Reisiks valmistumine ja turvalisus,12,1,0.9304808333333334,0.8708333333333332
-28,Täiskasvanute ümberõpe ja õppimise paindlikkus,17,3,1.3329066666666667,0.8194117647058823
-29,Läänemeremaade julgeolekukoostöö NATO varjus,13,2,1.1362736111111111,0.8430769230769232
+28,Täiskasvanute ümberõpe ja õppimise paindlikkus,16,2,1.2861622222222222,0.83875
+29,Läänemeremaade julgeolekukoostöö NATO varjus,14,3,1.1665791666666665,0.8185714285714286
 30,"laste hambaravi, narkoos ja vanema vastutus",20,1,1.4046924999999997,0.9135
 31,Valimiste valvamine ja rahastamise läbipaistvus,17,2,1.2269666666666665,0.8005882352941176
 32,Vererõhu ja südameriski varajane ennetus,2,1,0.13545555555555563,0.73
-33,Kogukonna hääle kaasamine otsustesse,13,8,0.9866111111111112,0.6892307692307693
-34,Vabaühenduste rahastamise läbipaistvus ja sõltumatus,18,2,1.5366519444444442,0.9472222222222223
+33,Kogukonna hääle kaasamine otsustesse,14,8,1.054677777777778,0.6542857142857142
+34,Vabaühenduste rahastamise läbipaistvus ja sõltumatus,17,2,1.5649125,0.9617647058823531
 35,Rahvakohtunike ja menetluse tõhustamise vaidlus,14,1,1.0166950000000001,0.8221428571428572
 36,Lastekodukasvamise kogemus ja märkamise roll,2,1,0.2481777777777778,0.985
 37,kliimariski mõju vee- ja soojusvarustusele,4,2,0.1899555555555556,0.5125000000000001
-38,eesti keele õppimine mitmekeelses koolis,9,2,0.6560183333333333,0.8266666666666667
+38,eesti keele õppimine mitmekeelses koolis,10,2,0.7891777777777778,0.779
 39,Vasakpoolsuse ja identiteedi pinged,19,2,1.5368683333333333,0.8884210526315789
 40,Õige keha- ja seksuaalsõnavara õpetamine,10,1,0.8256111111111113,0.6940000000000001
 41,Laste piltide postitamine vanemate poolt,11,1,0.8888777777777777,0.9872727272727272
@@ -45,7 +45,7 @@ jev_topic_id,jev_topic_name,segments,talks,recording_hours,mean_choice_probabili
 50,Annetuste kasutamine organisatsiooni kuludeks,14,2,1.2762666666666669,0.8685714285714285
 52,Narva-ründe ja hübriidohu arutelu,10,1,0.9560405555555557,0.9480000000000001
 53,koolivõrgu koondamine ja juhtimisotsused,13,2,1.0387777777777776,0.8423076923076922
-54,Istanbuli konventsiooni vaidlused ja rakendamine,2,1,0.19021111111111105,0.615
+54,Istanbuli konventsiooni vaidlused ja rakendamine,2,1,0.21225555555555553,0.49
 55,Püsimetsanduse definitsioon ja valikraie,18,1,1.4693222222222224,0.9194444444444445
 56,Noorte koduostu ja üüri kättesaadavus,1,1,0.08305555555555555,0.4
 57,Tugevustel põhinev paindlik koolikorraldus,13,1,1.1792444444444445,0.9292307692307692
@@ -54,34 +54,34 @@ jev_topic_id,jev_topic_name,segments,talks,recording_hours,mean_choice_probabili
 62,Rail Balticu ja raudteeühenduste mõju,2,1,0.17351250000000012,0.78
 63,Paroolide ja wifi kaudu levinud küberpettused,14,1,1.0791374999999996,0.8592857142857142
 64,Eesti 2050 ühised unistused ja tulevikunägemus,20,6,1.7744888888888888,0.7895
-66,NEET-noorte toetamine ja vastutuse jagamine,4,3,0.2556888888888889,0.47
-67,Perearsti tööjaotus ja koostöövõrgustik,22,5,1.650843888888889,0.8409090909090909
+66,NEET-noorte toetamine ja vastutuse jagamine,4,3,0.32681666666666664,0.4275
+67,Perearsti tööjaotus ja koostöövõrgustik,22,5,1.6408050000000003,0.8350000000000001
 68,Ettevõtliku hoiakuga kooli ja töö sidumine,14,3,1.2416325000000001,0.92
 69,Kohtla-Järve tuhamägede väetisetehas,2,1,0.10097777777777783,0.565
 70,Õpiampsud töö- ja enesearengu osana,12,2,1.1517563888888889,0.8675
 71,Miinimumpalga tõstmise mõju tööle ja vaesusele,1,1,0.06537777777777781,0.41000000000000003
 72,Metsaomanike kaitse- ja majandusvaidlused,18,4,1.6361869444444448,0.8
 73,Korteriühistute kogukonnatunde loomine,19,1,1.4449447222222223,0.8936842105263159
-74,eestikeelse suhtluse ja ühiskeele otsimine,9,4,0.6784936111111112,0.7
+74,eestikeelse suhtluse ja ühiskeele otsimine,8,4,0.5138047222222222,0.73125
 75,Tuuleparkide kaasamise usalduskriis,13,1,0.9699111111111112,0.6853846153846154
 76,Laste ja AI-petuste internetiohud,8,1,0.7018777777777778,0.83375
 78,Koduloomuuseumi rahastamine ja jätkamine,15,1,1.1382591666666668,0.9666666666666667
-79,"Kodu, kool ja sõbrad kujundavad sallivust",4,2,0.37024444444444443,0.4175
+79,"Kodu, kool ja sõbrad kujundavad sallivust",4,2,0.32195555555555544,0.355
 80,Varude ja tsiviilkaasatuse sõjaks valmistumine,9,2,0.8255711111111113,0.8122222222222223
 81,ELi eelarve ja Rail Balticu rahastus,12,1,0.8815877777777775,0.7475
-82,Vanus ja oskused tööelus,7,4,0.6320444444444445,0.7414285714285714
+82,Vanus ja oskused tööelus,7,4,0.6214833333333333,0.7414285714285714
 83,Kaitsekulude tõus ja hanked,28,7,2.185085833333333,0.8357142857142856
 84,surmaga toimetulek ja sellest rääkimine,2,1,0.10342222222222214,0.76
 85,Koolijuhi strateegiline roll ja vastutus,17,4,1.2463661111111108,0.7829411764705883
-87,Fosforiidi kaevandamise riskid ja ringfosfor,30,2,2.439023888888888,0.843
-89,Dementsusega hooldekodus vägivalla ja vastutuse arutelu,13,1,1.2159619444444447,0.963076923076923
+87,Fosforiidi kaevandamise riskid ja ringfosfor,34,2,2.615018333333333,0.8261764705882353
+89,Dementsusega hooldekodus vägivalla ja vastutuse arutelu,17,1,1.284655555555556,0.9129411764705883
 90,kaugtöö ja töövälise aja piirid,3,2,0.20248888888888883,0.4633333333333334
 91,Märgalade ja maastike kaitsev roll,11,1,1.0745666666666667,0.7818181818181817
-93,Eestisse kolijate kuuluvustunne ja kohanemine,6,2,0.5239333333333333,0.665
-94,planeeringute ja kaasamise venimine,3,1,0.23543333333333344,0.7866666666666667
+93,Eestisse kolijate kuuluvustunne ja kohanemine,8,2,0.603088888888889,0.59625
+94,planeeringute ja kaasamise venimine,4,2,0.3422055555555557,0.74
 95,Veebis lastega suhtlemise seksuaalriskid,3,3,0.27117777777777785,0.7233333333333333
 97,Armeenia ja humanitaarabi rahastuse kärped,6,1,0.6096111111111111,0.7633333333333333
-98,Vajaduspõhine tudengitoetus ja elamiskulud,5,2,0.3233777777777778,0.8019999999999999
+98,Vajaduspõhine tudengitoetus ja elamiskulud,5,2,0.3709166666666667,0.8859999999999999
 100,naiste ajateenistuse laiendamine riigikaitses,16,3,1.3633652777777776,0.78375
 101,Liikumisharjumuste kujundamine lastel,15,2,1.2584238888888886,0.892
 102,Hispaaniasse kolimise hirm reservväelaste seas,6,1,0.40786666666666666,0.8133333333333334
@@ -90,25 +90,26 @@ jev_topic_id,jev_topic_name,segments,talks,recording_hours,mean_choice_probabili
 106,Sooneutraalne ajateenistus ja reservi täitmine,18,4,1.409966666666667,0.5672222222222223
 111,Diabeedi vaimne koormus ja kriis,13,1,1.0542177777777775,0.8669230769230769
 113,Rohe- ja heaolu­väidete eksitavus reklaamis,1,1,0.0475,0.64
-114,Sotsiaalmeedia poliitilise arutelu kvaliteet,4,4,0.3383333333333333,0.6000000000000001
+114,Sotsiaalmeedia poliitilise arutelu kvaliteet,3,3,0.20218888888888892,0.6833333333333332
 115,Patsiendi info jagamine ja koostöö,8,4,0.6200333333333331,0.51875
 116,Programmeerijaks saamise oskused ja praktikaotsing,11,2,0.8275627777777781,0.7227272727272728
 117,Kaugkütte hinna kujunemine ja püsitasu,3,1,0.27184444444444433,0.8966666666666666
-118,Visiooni ja väärtuste vaidlus riigijuhtimises,18,8,1.6315080555555552,0.7422222222222222
+118,Visiooni ja väärtuste vaidlus riigijuhtimises,17,7,1.5775080555555554,0.7676470588235295
 119,Naiste osakaalu suurendamine IKT-s,18,2,1.4069508333333334,0.89
 120,AI odava kasutuselevõtu ja eksporti,1,1,0.055488888888888886,0.5700000000000001
 122,Tööülesannete paindlik jaotamine,8,1,0.7805669444444445,0.6375
 124,Von der Leyeni EL-i eelarve ja maksud,18,3,1.4851430555555556,0.8011111111111111
-125,Tubli lapse surve ja märkamine,1,1,0.032470833333333456,0.55
+125,Tubli lapse surve ja märkamine,1,1,0.028283333333333254,0.64
 126,noorte filmiarutelud ja tagasiside,10,1,0.9915055555555558,0.96
 127,Elektribörsi hinnakujunduse jaotumine,1,1,0.07977750000000014,0.84
-128,Annetuste mõju ja annetamise normaliseerimine,22,3,1.6847319444444444,0.8913636363636364
+128,Annetuste mõju ja annetamise normaliseerimine,22,3,1.6745986111111106,0.8931818181818181
 129,lapsega esmakontakti loomine lastekaitses,10,1,0.8400888888888889,0.818
 130,ÜRO reform ja väikeriikide hääl,16,4,1.211061111111111,0.790625
 131,Haigekassa rahastusmudeli ümbermõtestamine,17,3,1.3909116666666668,0.711764705882353
 132,Eesti elektritarbimise ja tootmise sihid,5,4,0.44088888888888883,0.394
 133,Rände integreerimise ja keelepoliitika riskid,15,2,1.0592130555555554,0.76
 134,Õpetaja Laura tulevikuõpetuse stsenaariumid,9,1,0.6587152777777778,0.8877777777777778
+135,Õpilasesinduse sisuline kaasamine,1,1,0.0267444444444445,0.67
 136,Maapiirkondade teenuste ja ühenduste koosplaneerimine,2,2,0.19059999999999996,0.47000000000000003
 137,AI roll arstide suhtluses ja vähiravis,1,1,0.12545555555555565,0.38
 138,Kriisi olukorras otsustamine ja juhtimine,4,4,0.2260111111111112,0.52
@@ -124,18 +125,18 @@ jev_topic_id,jev_topic_name,segments,talks,recording_hours,mean_choice_probabili
 148,Infosõja vastulöök ja väärinfo tõrjumine,24,5,1.9981633333333335,0.7920833333333334
 149,tehisintellekti kirjutatud teadusartiklite usaldus ja hindamine,1,1,0.03678888888888887,0.9400000000000001
 150,Naiste juhtide ja isade rolliootused,1,1,0.02668888888888887,0.34
-151,Tervishoiu konkurentsi tasakaal,3,2,0.2383666666666667,0.32666666666666666
+151,Tervishoiu konkurentsi tasakaal,2,1,0.17245555555555553,0.385
 152,CO2 kvoodikaubanduse reform ja ETS2,6,4,0.39898888888888895,0.7766666666666667
 153,Vähipatsiendi infoedastuse vastutus,1,1,0.052988888888888946,0.67
-154,Interneti solvangute ja ähvarduste ohjeldamine,2,2,0.12628888888888873,0.6699999999999999
+154,Interneti solvangute ja ähvarduste ohjeldamine,3,3,0.2816722222222221,0.5666666666666667
 155,AI-agentide vastutus ja kontroll,1,1,0.036855555555555544,0.98
 156,Meretuuleparkide arendamise kindlustamine,3,1,0.23655555555555566,0.7533333333333333
 157,Startup-ökosüsteemi kogukond ja eeskujud,2,2,0.15347361111111113,0.5449999999999999
 159,Vabatahtlike hoidmine ja kaasamise barjäärid,2,2,0.11964444444444447,0.905
 160,Juhitavate elektrivõimsuste vajadus Eestis,22,3,1.6954297222222217,0.7427272727272727
 161,Ekspordi eetika sanktsiooniriikides,9,1,0.733857222222222,0.8500000000000001
-163,Läbipõlemise varajaste märkide märkamine,16,5,1.2331419444444447,0.790625
-164,Emadus ja koolikultuur kultuuri kandjana,10,2,0.8354,0.6799999999999999
+163,Läbipõlemise varajaste märkide märkamine,17,5,1.237414166666667,0.7776470588235295
+164,Emadus ja koolikultuur kultuuri kandjana,9,2,0.7776666666666665,0.7177777777777777
 165,Pätsi ja Vabadussõja ajalooline kasutus,5,1,0.47056666666666663,0.828
 166,Puidu väärindamine raiemahtu vähendades,14,5,1.0881397222222227,0.7542857142857143
 167,metsade tagavara langus ja arvestuslangi vaidlus,13,2,1.092888888888889,0.8876923076923077
@@ -143,10 +144,9 @@ jev_topic_id,jev_topic_name,segments,talks,recording_hours,mean_choice_probabili
 169,Majanduskasvu ja heaolu vaidlus,12,9,0.8712444444444445,0.6216666666666667
 171,Tehisintellekti kasutus kooliõppes,17,6,1.2563547222222218,0.571764705882353
 174,Maksutõusud ja majanduse toimetulek,9,2,0.7128555555555556,0.83
-175,Matemaatika visuaalsed mustrid ja ratta jäljed,1,1,0.026944444444444444,0.74
-176,Eesti loodusidentiteet ja kliimaskepsis,2,2,0.054033333333333454,0.345
+176,Eesti loodusidentiteet ja kliimaskepsis,3,3,0.1418722222222223,0.3666666666666667
 178,Noorte alkoholiga pidutsemine ja surve,16,1,1.3760688888888888,0.86
-179,Covidijärgne nakkushaiguste seaduse muutmine,6,2,0.8002666666666666,0.7833333333333333
+179,Covidijärgne nakkushaiguste seaduse muutmine,6,2,0.7451444444444442,0.7466666666666667
 181,Eesti elektritarbimise kasv ja puudujääk,2,2,0.2001555555555554,0.47500000000000003
 182,terviseandmete kasutus ja eetikakomitee loa takistused,2,1,0.0918,0.48500000000000004
 184,"Noorte veipimise, nikotiini ja salaturu piiramine",1,1,0.026366666666666688,0.5700000000000001
@@ -155,12 +155,12 @@ jev_topic_id,jev_topic_name,segments,talks,recording_hours,mean_choice_probabili
 187,Sisserände juhtimine ja talendivajadus,14,4,1.0516555555555558,0.6692857142857144
 188,Inseneride nappus ja palga küsimus,4,3,0.20663333333333322,0.6775
 189,kihiline õhukaitse ja mehitamata võimed,5,2,0.447622222222222,0.966
-190,Eesti hariduse eesmärgid ja sihid,39,19,2.9751402777777787,0.7284615384615385
+190,Eesti hariduse eesmärgid ja sihid,40,20,3.0108569444444453,0.72825
 191,Soola vähendamine ja igapäevane liikumine,4,1,0.22552222222222237,0.48000000000000004
 192,Rahapõhine abi humanitaarkriisides,5,1,0.23647777777777776,0.834
 193,Raudteeühenduse ja ühistranspordi koordineerimine,1,1,0.04472222222222222,0.93
-195,Tervisehoolekande tehnoloogiad ja andmepõhine lõimimine,14,4,1.1365811111111113,0.8028571428571428
-197,Ajaloolised paralleelid tänapäeva konfliktidele,19,5,1.4021944444444445,0.8173684210526315
+195,Tervisehoolekande tehnoloogiad ja andmepõhine lõimimine,13,3,1.066347777777778,0.7946153846153846
+197,Ajaloolised paralleelid tänapäeva konfliktidele,19,5,1.3357333333333334,0.8147368421052632
 198,Tuulikuinfraheli häirivuse ja tervisemõju vaidlus,18,2,1.121305,0.825
 199,AI kasutamine töö- ja loometekstide koostamisel,7,4,0.37978888888888884,0.6485714285714286
 200,Metsa raiemahtude ja kaitse vaidlus,24,6,1.7349199999999998,0.65125
@@ -171,7 +171,7 @@ jev_topic_id,jev_topic_name,segments,talks,recording_hours,mean_choice_probabili
 207,MMS ja seemneõli tervisevildakus,4,1,0.11944444444444442,0.9075
 208,Tulemuspõhine tervishoiurahastus ja kaugjälgimine,2,1,0.2060666666666667,0.67
 209,Laste internetikäitumine ja abiotsimine,11,4,0.7865674999999998,0.7663636363636364
-211,Tuuleparkide kaasamise murede tuum,16,6,1.1143444444444444,0.6675
+211,Tuuleparkide kaasamise murede tuum,16,6,1.1122944444444443,0.6675
 212,kaugkütte elektrifitseerimine ja hinnastamine,10,2,0.9280947222222223,0.844
 213,Tuuliku müra normid ja mõõtmised,8,1,0.5148777777777778,0.81
 214,välistööjõu kasutamine hooaja- ja lihttöödel,8,1,0.7561547222222222,0.75375
@@ -189,7 +189,8 @@ jev_topic_id,jev_topic_name,segments,talks,recording_hours,mean_choice_probabili
 226,raviraha jaotamine patsiendiga kaasa,4,2,0.3010666666666666,0.5175
 227,Põlevkivile õigustava teadlase valimine,5,1,0.30025555555555544,0.744
 228,ÜRO Julgeolekunõukogu reformiummik,2,1,0.16431111111111124,0.9550000000000001
+229,Üliõpilaste roll ja kõrghariduse ootused,1,1,0.025811111111111132,0.28
 230,Eesti majanduskasvu pidurdavad välis- ja usaldustegurid,5,3,0.26241111111111093,0.572
-231,Fosforiidi arutelu ja kogukonna vastuseis,13,4,1.0968047222222221,0.5776923076923077
+231,Fosforiidi arutelu ja kogukonna vastuseis,12,4,0.7445388888888891,0.6116666666666667
 233,Kaasamise aeglane juhtimine ja valeinfo,4,2,0.4719555555555557,0.6825
 234,AI muudab üksikettevõtluse lihtsamaks,1,1,0.04477777777777798,0.45

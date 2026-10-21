@@ -29,16 +29,15 @@ site is fully static after the build; it does not call a model or application AP
 ## Prerequisites
 
 Use Windows PowerShell with [uv](https://docs.astral.sh/uv/) installed and on
-`PATH`. Install `ffmpeg` and make it available on `PATH`, because the external
-Estonian audio-transcription skill processes MP3 audio. Configure the local skill
-script path exactly as shown below, or replace it with the matching path on your
-machine.
+`PATH`. Install `ffmpeg` and make it available on `PATH`, because the bundled
+Estonian audio transcriber processes MP3 audio. Its script and pinned dependencies
+are in `vendor/estonian-audio-transcription/`.
 
 ```powershell
 uv sync --dev
-uv run arvamusfestivali-transcripts run --year 2026 --dry-run --transcriber-script C:\Users\risto\projects\skils_plugins\plugins\estonian-audio-transcription\skills\estonian-audio-transcription\scripts\transcribe.py
-uv run arvamusfestivali-transcripts run --year 2026 --limit 1 --transcriber-script C:\Users\risto\projects\skils_plugins\plugins\estonian-audio-transcription\skills\estonian-audio-transcription\scripts\transcribe.py
-uv run arvamusfestivali-transcripts run --year 2026 --transcriber-script C:\Users\risto\projects\skils_plugins\plugins\estonian-audio-transcription\skills\estonian-audio-transcription\scripts\transcribe.py
+uv run arvamusfestivali-transcripts run --year 2026 --dry-run --transcriber-script vendor/estonian-audio-transcription/scripts/transcribe.py
+uv run arvamusfestivali-transcripts run --year 2026 --limit 1 --transcriber-script vendor/estonian-audio-transcription/scripts/transcribe.py
+uv run arvamusfestivali-transcripts run --year 2026 --transcriber-script vendor/estonian-audio-transcription/scripts/transcribe.py
 ```
 
 The first command is a dry run: it discovers the selected episodes but does not
@@ -55,7 +54,7 @@ concurrently with `--parallelism`; each worker uses the transcriber's default fo
 CPU threads, so `--parallelism 4` is appropriate for a 16-vCPU machine:
 
 ```powershell
-uv run arvamusfestivali-transcripts run --year 2026 --parallelism 4 --catalog-snapshot data/catalog/<timestamp>-2026.json --transcriber-script C:\Users\risto\projects\skils_plugins\plugins\estonian-audio-transcription\skills\estonian-audio-transcription\scripts\transcribe.py
+uv run arvamusfestivali-transcripts run --year 2026 --parallelism 4 --catalog-snapshot data/catalog/<timestamp>-2026.json --transcriber-script vendor/estonian-audio-transcription/scripts/transcribe.py
 ```
 
 The default remains `--parallelism 1`. Each worker uses an independent HTTP client,
@@ -63,7 +62,7 @@ state-database connection, and engine-output directory. Retry an episode after f
 its cause with the same command plus `--episode-id`:
 
 ```powershell
-uv run arvamusfestivali-transcripts run --year 2026 --episode-id 2400217815 --transcriber-script C:\Users\risto\projects\skils_plugins\plugins\estonian-audio-transcription\skills\estonian-audio-transcription\scripts\transcribe.py
+uv run arvamusfestivali-transcripts run --year 2026 --episode-id 2400217815 --transcriber-script vendor/estonian-audio-transcription/scripts/transcribe.py
 ```
 
 `fetch` only builds the verified audio cache; `transcribe` only consumes verified

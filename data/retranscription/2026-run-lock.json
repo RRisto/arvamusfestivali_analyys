@@ -3,8 +3,8 @@
   "scope": "selected_episodes",
   "year": 2026,
   "catalog_filename": "20260920T112540Z-2026.json",
-  "catalog_sha256": "b97e2a2075c8a7bab855ae3e55dfaf92b5e68d08c27b48ed9d106946cd99fc24",
-  "transcriber_script_sha256": "216566e4232b70a08454396f2534ca9f5a612ffce6379366dfdca8ffd584e6ca",
+  "catalog_sha256": "695679c156f5d37d2eac05dc15d3633272f9d390e563827cc1ed86b85d717352",
+  "transcriber_script_sha256": "bf3c361af535aacb7d55143d65b8367e2b6e2f8112212c7b9078d92c5b9b3852",
   "expected_model": {
     "name": "large",
     "repository": "TalTechNLP/streaming-zipformer-large.et-en",
@@ -39,187 +39,187 @@
     "2250797864": {
       "audio_sha256": "def48c12a17cf3d05e4c8644cccea9bbe0dffd589c02740979e2b2b6999410dc",
       "audio_url": "https://feeds.soundcloud.com/stream/2250797864-arvamusfestival-kuidas-luua-hoolivamat-uhiskonda_pihlakodu-juhtumist-edasi-6.mp3",
-      "baseline_sha256": "9251b5f17bc8f4effcd096c76004c446cbe6158ed60e66b36be78360cb6db0b5",
+      "baseline_sha256": "f214e0665f057b645d403ac90ef83ff0557adc5a45b3537c689b10fba58a0173",
       "source_episode_id": "2250797864"
     },
     "2258666738": {
       "audio_sha256": "ccc1de80e834dfd7504034b438d4f163924a87c34d0bf3edcc802c70af2c6c6a",
       "audio_url": "https://feeds.soundcloud.com/stream/2258666738-arvamusfestival-mitmekultuuriline-maailm-eesti-koolis-1.mp3",
-      "baseline_sha256": "a62234faa5163b3ebb480e59851731f650d4d78265f82199be26a3ec6fa5dda8",
+      "baseline_sha256": "b66499c12e9f5e286512f48332a48e53c7c9bedad666d3056b887fb71a010505",
       "source_episode_id": "2258666738"
     },
     "2277338243": {
       "audio_sha256": "0905f6e82a01d09a83d5094fbba1d2ce2496fbe85447a34601e45764661416d5",
       "audio_url": "https://feeds.soundcloud.com/stream/2277338243-arvamusfestival-maailmahariduslik-malumang-ja-motteharjutused-koos-ivo-linnaga-1.mp3",
-      "baseline_sha256": "da805530028c79e233a1abbffb1efbff2c4b45d580b32c00b046f8e8063ffd45",
+      "baseline_sha256": "21596692aba263b85073832a4ae1c44882e6050118c5a94dd0202eea6181ec22",
       "source_episode_id": "2277338243"
     },
     "2300040506": {
       "audio_sha256": "22f1530985b850d1567d0e5f45e1881891c1fdde8e802ae74e9d09eb34f06202",
       "audio_url": "https://feeds.soundcloud.com/stream/2300040506-arvamusfestival-parisvabakond-teeb-asju-riigi-rahata-eks-3.mp3",
-      "baseline_sha256": "33a825eb6552479862ba65adf294887c742cb245b99c8c022c239381412fad3c",
+      "baseline_sha256": "bc0541befc465a258b36114fcb88d9f548e2599424e85b0f81c14d419383cfc6",
       "source_episode_id": "2300040506"
     },
     "2314163822": {
       "audio_sha256": "805cb9467e48262869da758a8b0f241de14569e2eb846fd452b3913afadbca27",
       "audio_url": "https://feeds.soundcloud.com/stream/2314163822-arvamusfestival-marshall-plan-20_estonia-ukraine-and-the-path-forward-3.mp3",
-      "baseline_sha256": "ce05a7f570224ce0d1dfa5e7642ee72a2fcba65d5e663f5745eeefdd58f3e3ca",
+      "baseline_sha256": "1159645e50f4617614f2c0ca82d8018e9d3cc5b3fcf5f386958ce4f680b90c95",
       "source_episode_id": "2314163822"
     },
     "2318409179": {
       "audio_sha256": "5288898a45a778c613f25c77f8aa4546a543ff4346009dc1e1e22dc9adcd590b",
       "audio_url": "https://feeds.soundcloud.com/stream/2318409179-arvamusfestival-kas-noortelt-noutakse-rohkem-kui-vastu-pakutakse-6.mp3",
-      "baseline_sha256": "81c83e741bd9e110ab9ad2d65daaf913a6ea6c0c01b43747976eb1ee88b6e44e",
+      "baseline_sha256": "2bc830f9a8295a62dfd70b487a496215a982e10595bf98f8643568fb86af92db",
       "source_episode_id": "2318409179"
     },
     "2318409182": {
       "audio_sha256": "b2a2e8749196ba60efcb93e6cf810ffbf44048d37c1e07e53b413de915802e69",
       "audio_url": "https://feeds.soundcloud.com/stream/2318409182-arvamusfestival-ma-tahan-oppida-andke-mulle-tagasisidet-5.mp3",
-      "baseline_sha256": "837f192fbcb6b3d3c826ace9af8051506a7aa76bd7c8230b4dbeb7ffb47dda33",
+      "baseline_sha256": "43ea33d1be630a3b6fe9cfb49c99c4ca53f03fccc1c947f171140038d830f2e5",
       "source_episode_id": "2318409182"
     },
     "2318409185": {
       "audio_sha256": "3aad6ba32a0cf9102f8245303ea8a1cc4bb13a1e8b2df730f1e92d62e746bf44",
       "audio_url": "https://feeds.soundcloud.com/stream/2318409185-arvamusfestival-nutiseadmete-kasutus-koolikeskkonnas-millal-ja-millal-mitte-4.mp3",
-      "baseline_sha256": "58be7a7dcc58d8db2d0c759bd97da77ef2bc5afb38ce24ad9d2bad31883c2225",
+      "baseline_sha256": "dc55888210fd8acba7ea7f1b8fc16bd262d306e0d2ee27c9f8b717c61b1eee0b",
       "source_episode_id": "2318409185"
     },
     "2323554785": {
       "audio_sha256": "35c5d676fdac1dc2a1b342002d357e139cd1207e97bda43207a6fa95ae88aa32",
       "audio_url": "https://feeds.soundcloud.com/stream/2323554785-arvamusfestival-miks-kaasamine-pekki-laheb_demokraatiatrenn-5.mp3",
-      "baseline_sha256": "8954d42085b478197155f2fc88a036794d4cb62b3f2a062318582bca89481111",
+      "baseline_sha256": "6c1b9cc3c0ad2d5c33f440e4e287081aa14b287bd7e3cb8bdf9ec4309e56e87c",
       "source_episode_id": "2323554785"
     },
     "2323554803": {
       "audio_sha256": "480a809e1284bcbaaf3dde8481a4da634e69b7823a842504aff583fd411e9dd7",
       "audio_url": "https://feeds.soundcloud.com/stream/2323554803-arvamusfestival-mis-on-fosforiidi-kaevandamise-hind-demokraatiatrenn-2.mp3",
-      "baseline_sha256": "412c9f0d6b540f3e309944083c7382b276b7d04ae2df9b9498cf2bd645e1514b",
+      "baseline_sha256": "2aec1834ccddb565509b4f334ef5cef1cff5c627defeeec960a9c5939e513c0b",
       "source_episode_id": "2323554803"
     },
     "2339511542": {
       "audio_sha256": "805cb9467e48262869da758a8b0f241de14569e2eb846fd452b3913afadbca27",
       "audio_url": "https://feeds.soundcloud.com/stream/2339511542-arvamusfestival-marshall-plan-20_estonia-ukraine-and-the-path-forward-1-5.mp3",
-      "baseline_sha256": "01fbfd65ab94a0b959fc526fafe8c73acc5f3d6f6d9e1664de27a23d132d54da",
+      "baseline_sha256": "c3b7cf58f9c9dc210b13eae371099206f9476c4dba90be9cf0726f8c2239241e",
       "source_episode_id": "2314163822"
     },
     "2393585466": {
       "audio_sha256": "737403fb8f6c8f97be9b540c56cdb167a610019d9f5db214dd6d79243f9cec17",
       "audio_url": "https://feeds.soundcloud.com/stream/2393585466-arvamusfestival-matemaatikatund-ja-ring-kui-motlemise-laborid-7.mp3",
-      "baseline_sha256": "3d27a6fa92fb9ad01b6deab1339cbf7852383b4782a443999947a2b7c51f4e46",
+      "baseline_sha256": "79ced1640bd04843cc2210d2d26066ed3c6055605aa7466cf2de0f29827a9897",
       "source_episode_id": "2393585466"
     },
     "2395857138": {
       "audio_sha256": "b85aa58281304a4dc81bff97161a2ffe28bc34e32ba5c22d45e1896eac8fc0cf",
       "audio_url": "https://feeds.soundcloud.com/stream/2395857138-arvamusfestival-do-they-belong-here-or-do-they-just-live-here-9.mp3",
-      "baseline_sha256": "f36b7e28ff75cc6d743ad99ebeb92b468407fe89a79eec86367a1e0d333c3bdf",
+      "baseline_sha256": "9317b7d20b299e6a7c1d1ee5ef5ebce904d2077f6b74e4c2508e1c3fbd03761d",
       "source_episode_id": "2395857138"
     },
     "2395857141": {
       "audio_sha256": "a07e67f4a2cecfd76f19dc4bd7e4400a4e4790925698a2dd2657e3ea1c19dc6c",
       "audio_url": "https://feeds.soundcloud.com/stream/2395857141-arvamusfestival-kes-utleb-meile-et-nemad-pole-meie-8.mp3",
-      "baseline_sha256": "60a3e37b2e94477311919c2a091ae3842eea9c63cdb216c642cdecbd33ae5578",
+      "baseline_sha256": "12786ffea33e311de470a7c5e66470800993be9f4f5b073fc3cb359f82a6eaa7",
       "source_episode_id": "2395857141"
     },
     "2396670936": {
       "audio_sha256": "ba4cbf0516f2baeccd6653c9710ee0746b8e33b8a1d2aa989462c17a095c81d5",
       "audio_url": "https://feeds.soundcloud.com/stream/2396670936-arvamusfestival-kas-eesti-on-valmis-jargmiseks-kriisiks-mis-ei-tule-tankiga_keemilised-bioloogilised-radioloogilised-ja-tuumariskid-8.mp3",
-      "baseline_sha256": "058234f162508af310b748cf0822c61e462d8d4ff33402572146ff92db55ab5a",
+      "baseline_sha256": "6cdf5edc030d22fe78b57598bcf56bc7bac1560ab68421a91dccd0d3c9ace432",
       "source_episode_id": "2396670936"
     },
     "2396692737": {
       "audio_sha256": "b3bc76c9eab0edf78926ecaa1b6b3995ca47f06d934311655dbd45b53925dbb3",
       "audio_url": "https://feeds.soundcloud.com/stream/2396692737-arvamusfestival-keskkonnahoid-vastutuules_kas-keskkonnaprojektid-on-vaid-kulu-voi-ka-vaartus-inimestele-ja-ettevotetele-2.mp3",
-      "baseline_sha256": "cdc901832423b1410c11daaa38703148b86a307dcfb88d6d3e5c4766d1474d1d",
+      "baseline_sha256": "c82158edb2756307601b73ab88c8b125b8f3b9920fed6ba7c821b5d118c38da6",
       "source_episode_id": "2396692737"
     },
     "2396692743": {
       "audio_sha256": "f85c38b8004a6703bb61c2715fcd1e47477a2102ddeedac0c989eadf8ee14cd2",
       "audio_url": "https://feeds.soundcloud.com/stream/2396692743-arvamusfestival-jargmise-polvkonna-opilasmalev-8.mp3",
-      "baseline_sha256": "371165ad75f900e70d039fe20a94ad5985455dfc75664e20e7a27e8e7de7cf64",
+      "baseline_sha256": "f35f762f72a3cd51ce29213a50d5cd83ac51d8f75d66d5fdce8fcb6c3e178ae1",
       "source_episode_id": "2396692743"
     },
     "2396706159": {
       "audio_sha256": "f85c38b8004a6703bb61c2715fcd1e47477a2102ddeedac0c989eadf8ee14cd2",
       "audio_url": "https://feeds.soundcloud.com/stream/2396706159-arvamusfestival-e5045938-140b-4920-b2b2-dbeb337191f9.mp3",
-      "baseline_sha256": "1aaca277f3e998e76c89a9a7a1c4512665d9b2cc84891001496780fbd044d48d",
+      "baseline_sha256": "f667ec7d59d751125660446cbcc0a6cc44da8b49db6952c4b1ff9c6f18cdaa68",
       "source_episode_id": "2396692743"
     },
     "2396706162": {
       "audio_sha256": "b3bc76c9eab0edf78926ecaa1b6b3995ca47f06d934311655dbd45b53925dbb3",
       "audio_url": "https://feeds.soundcloud.com/stream/2396706162-arvamusfestival-0e4bee62-f713-46cb-8714-a9bd261797ff.mp3",
-      "baseline_sha256": "307f75158deffa0bd6fee2d2b3ffd186a34e07c33bb26e0bfc6f375f05a0811b",
+      "baseline_sha256": "33cbf94170a59fed209a3b82119d30f83194f6076c53868acf0405cf77853794",
       "source_episode_id": "2396692737"
     },
     "2396712564": {
       "audio_sha256": "f85c38b8004a6703bb61c2715fcd1e47477a2102ddeedac0c989eadf8ee14cd2",
       "audio_url": "https://feeds.soundcloud.com/stream/2396712564-arvamusfestival-ac9ba343-6535-49fd-8646-d0fc39929b37.mp3",
-      "baseline_sha256": "8797632e93e949dc6ab93e4d96edb09b1480de3cbc1cc9f74c83533ec69aefca",
+      "baseline_sha256": "f335a939bce04d8e332c0946036a5efd5db9e364f2cde322ca0fdb00a3df7f1b",
       "source_episode_id": "2396692743"
     },
     "2396712573": {
       "audio_sha256": "b3bc76c9eab0edf78926ecaa1b6b3995ca47f06d934311655dbd45b53925dbb3",
       "audio_url": "https://feeds.soundcloud.com/stream/2396712573-arvamusfestival-d66c5b33-ce98-4e81-8751-de7f01c5800d.mp3",
-      "baseline_sha256": "cf00199691889337bfd17645721c0d95608d5f4b00500a2603074eaa23822f36",
+      "baseline_sha256": "00fa23cb1d503c66ef1d8404ae344fac1b5c35efc9d0e4ad2d37af9bde6e4640",
       "source_episode_id": "2396692737"
     },
     "2397264564": {
       "audio_sha256": "713e31bb27fc805fd96835da737c9635b3534ef17605d2a69e544b8265d8a651",
       "audio_url": "https://feeds.soundcloud.com/stream/2397264564-arvamusfestival-kuberturvalisus-vs-ettevotlusvoime_kus-on-tasakaal-3.mp3",
-      "baseline_sha256": "17dfc648c8b93829d5b37fa432382a6fc2b5bc41de34c9cc44e137329716e316",
+      "baseline_sha256": "ecdedf6bce922a3d2da26ed717733c71bff7a0d5a5595354bb45ab6a4dc0d220",
       "source_episode_id": "2397264564"
     },
     "2397264570": {
       "audio_sha256": "3124b0deba08af9e0740450c974fc41ca29554a9aa5c361fd92cf01e3697979b",
       "audio_url": "https://feeds.soundcloud.com/stream/2397264570-arvamusfestival-miljon-sensorit-uks-planeet_kuidas-tehisintellekt-asjades-aiot-muudab-teadust-9.mp3",
-      "baseline_sha256": "ff5e05adf7cc9dcf42fc288b80e4b2d410d9501ea6461a2cecf91961f349089e",
+      "baseline_sha256": "6fd35c8310a255589f60e1e2e5863d1b2f772591ffa5fb1e03a0e845606f2b21",
       "source_episode_id": "2397264570"
     },
     "2397264573": {
       "audio_sha256": "14227d50ffca4d0ff4e2ce59790dc135a24294b45274ed7cea7285b68789f382",
       "audio_url": "https://feeds.soundcloud.com/stream/2397264573-arvamusfestival-kas-oleme-tehisaru-nimel-valmis-ohverdama-oma-inimoigused-8.mp3",
-      "baseline_sha256": "3b06582cc7038a76bb87704e287e746252a951559344809636b79cd2e63212d8",
+      "baseline_sha256": "f80f455de04c2869f2fcbace563ad4ad1b35d5c4d43bf3a6fdf342b0bcacea36",
       "source_episode_id": "2397264573"
     },
     "2397264576": {
       "audio_sha256": "48c5e26dc14530f28b049012070eb529f299983410b5f98b39bc98b8a0f15a1b",
       "audio_url": "https://feeds.soundcloud.com/stream/2397264576-arvamusfestival-kas-linnud-ja-loomad-keedavad-meile-uut-superhaigust-2.mp3",
-      "baseline_sha256": "8c193f7c65ab1ce09c624b9e5d4281fc72b87d58726f550ea6612028e8d7113e",
+      "baseline_sha256": "237e8ef27994c3c4b0f7bb155eb53af7bb614d7f612b211b1918d448d85adb19",
       "source_episode_id": "2397264576"
     },
     "2397270048": {
       "audio_sha256": "48c5e26dc14530f28b049012070eb529f299983410b5f98b39bc98b8a0f15a1b",
       "audio_url": "https://feeds.soundcloud.com/stream/2397270048-arvamusfestival-45d9a2fd-6b56-41ff-8793-da6312d5d466.mp3",
-      "baseline_sha256": "468561ce1a832d769a9b01f3d968853f114383a91f12da16549661cf420e596f",
+      "baseline_sha256": "78241f51015cdf2b0cd9f9a4132ee1b75785ff644825e106482681720602d7f7",
       "source_episode_id": "2397264576"
     },
     "2397270060": {
       "audio_sha256": "14227d50ffca4d0ff4e2ce59790dc135a24294b45274ed7cea7285b68789f382",
       "audio_url": "https://feeds.soundcloud.com/stream/2397270060-arvamusfestival-dec05348-b041-4a21-bdd0-ef0a309be8a9.mp3",
-      "baseline_sha256": "65026290b3d18dbba6ef7f5cc6611cf721ce383ab20bdbb302be353bb3e6c19d",
+      "baseline_sha256": "e9f1a64b6025f39f6770f50a93400f879475c1c219618647422a942908445f6e",
       "source_episode_id": "2397264573"
     },
     "2397270063": {
       "audio_sha256": "713e31bb27fc805fd96835da737c9635b3534ef17605d2a69e544b8265d8a651",
       "audio_url": "https://feeds.soundcloud.com/stream/2397270063-arvamusfestival-239c0b54-1c9f-4ef5-b81d-670d86c16646.mp3",
-      "baseline_sha256": "5e9da5ddf3e50703a7211406e11543f83ba1941280415dc6a085b6c4e1921c24",
+      "baseline_sha256": "8f1c3e3fd21a591ae919c9546c8020171dd8a9d52a770975f73a8ea41c8fa6a2",
       "source_episode_id": "2397264564"
     },
     "2397270066": {
       "audio_sha256": "3124b0deba08af9e0740450c974fc41ca29554a9aa5c361fd92cf01e3697979b",
       "audio_url": "https://feeds.soundcloud.com/stream/2397270066-arvamusfestival-172d5e26-9f1b-4d6a-a5ab-69da98760023.mp3",
-      "baseline_sha256": "1e14ca87d0c78e22137e43fa4a7a849535d346fcf39b567a25ea187a1207c087",
+      "baseline_sha256": "b41e7b687dd847d9a51234f96251b356ad4908c838e23b897844c7c5040a406c",
       "source_episode_id": "2397264570"
     },
     "2397829629": {
       "audio_sha256": "50a51ca43e62555e761f19895637fd3671be87378e363c37ac872db50a866c1d",
       "audio_url": "https://feeds.soundcloud.com/stream/2397829629-arvamusfestival-religioossete-uhenduste-roll-uhiskonna-toetaja-ja-tasakaalustajana-1.mp3",
-      "baseline_sha256": "c7804331524c54c4e954cbace01ec9dc6c8762f2d05919ced000d990de9e523e",
+      "baseline_sha256": "5428b507694de099c1576bf3197dfe3e0366a665bd8f9e0794f79ba7f764b564",
       "source_episode_id": "2397829629"
     },
     "2400164904": {
       "audio_sha256": "6ba129f6fb89eb15d293e3aa862729616ad81c42607b4d242c9865b87cf0ac21",
       "audio_url": "https://feeds.soundcloud.com/stream/2400164904-arvamusfestival-kuidas-toetada-lapse-keele-ja-kone-arengut-liikumismangude-kaudu-6.mp3",
-      "baseline_sha256": "762464f69ccb0d3da9dda8ab82b784cf10c982afdc76576e77a431a687daec39",
+      "baseline_sha256": "7ea5db9ef412662e60c3c551abc9e0d7084f43b70d683784fd9bf6187534be59",
       "source_episode_id": "2400164904"
     }
   }

@@ -1,8 +1,8 @@
 {
-  "semantic_segments": 4126,
+  "semantic_segments": 4139,
   "talks": 219,
-  "jev_unassigned_segments": 396,
-  "jev_unassigned_time_pct": 6.338061059807757,
+  "jev_unassigned_segments": 383,
+  "jev_unassigned_time_pct": 6.158531536188117,
   "fine_label_agreement_pct": null,
   "parent_label_agreement_pct": null,
   "interpretation": "Topic-model assignments were intentionally not regenerated; agreement is unavailable. Jev uses the existing detailed 236-topic vocabulary; parents are dictionary rollups, not direct high-level predictions."

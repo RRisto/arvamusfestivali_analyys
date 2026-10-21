@@ -1,7 +1,7 @@
 {
-  "source_sha256": "b5bd631fb54407c61a8156d7adeacec7e63cf26cbf181e328a21783347c852de",
-  "segments": 4126,
-  "assigned_segments": 3730,
+  "source_sha256": "912f23c4dada9494d9e7f26d46946780e8e8fc5450f50513aaab2d8b3d620cbc",
+  "segments": 4139,
+  "assigned_segments": 3756,
   "topics": 236,
   "categories": 20,
   "centroid_method": "Normalized mean of original 1024-dimensional BGE vectors for Jev primary-topic members, equal segment weights",

@@ -1,8 +1,8 @@
 {
   "programme_year": 2026,
-  "source_sha256": "a84864c4e9db0d5aa8cd03400abb88987a0e21b489e8e939c5f5377d75195818",
+  "source_sha256": "b83076a38f7eeff04b08c4d2b3a6942181ae63196841a6a3ea6de8243b04e399",
   "counts_scope": "Festival year only",
-  "segments": 1974,
+  "segments": 1979,
   "talks": 105,
   "coordinate_scope": null,
   "talk_area_rule": "Area sums topic memberships; parent labels count unions"

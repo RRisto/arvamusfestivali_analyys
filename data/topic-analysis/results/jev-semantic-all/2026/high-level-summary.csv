@@ -1,22 +1,22 @@
 jev_high_level_id,jev_high_level_name,segments,talks,recording_hours,mean_choice_probability
-ai,Tehisintellekt ja digitehnoloogia,159,19,12.407983333333332,0.810566037735849
-children,Laste ja noorte kaitse ning toetamine,104,11,7.703821666666667,0.8442307692307692
-climate,"Kliima, rohepööre ja kestlik tarbimine",87,13,7.056921388888889,0.7422988505747127
-culture,"Kultuur, loome ja pärand",74,5,6.440054444444443,0.8439189189189189
-cyber,"Küberturvalisus, privaatsus ja digiohud",40,11,3.9038838888888887,0.8317500000000001
-defence,"Riigikaitse, julgeolek ja kriisivalmidus",19,5,1.398589722222222,0.8231578947368421
-economy,"Majandus, ettevõtlus ja innovatsioon",55,13,4.109574722222223,0.7550909090909091
-education,"Haridus, õppimine ja oskused",237,30,19.29662388888889,0.7829957805907173
-energy,Energeetika ja energiaturud,115,12,9.518088888888888,0.6700869565217391
+ai,Tehisintellekt ja digitehnoloogia,164,20,12.57741111111111,0.8042682926829269
+children,Laste ja noorte kaitse ning toetamine,106,13,7.796343888888888,0.8351886792452831
+climate,"Kliima, rohepööre ja kestlik tarbimine",86,14,6.996260277777778,0.731860465116279
+culture,"Kultuur, loome ja pärand",76,5,6.53802111111111,0.8440789473684212
+cyber,"Küberturvalisus, privaatsus ja digiohud",52,11,4.367766944444445,0.8509615384615384
+defence,"Riigikaitse, julgeolek ja kriisivalmidus",19,6,1.3988666666666667,0.8105263157894737
+economy,"Majandus, ettevõtlus ja innovatsioon",56,13,4.227263611111111,0.7539285714285714
+education,"Haridus, õppimine ja oskused",228,28,18.81544611111111,0.7853070175438597
+energy,Energeetika ja energiaturud,112,12,9.249788888888888,0.6759821428571428
 family,"Pere, suhted ja sooline võrdsus",92,6,7.1990380555555555,0.8368478260869565
-food,"Toit, põllumajandus ja toidujulgeolek",34,5,2.4949966666666663,0.8402941176470589
-governance,"Riigijuhtimine, kodanikuühiskond ja õigus",32,14,2.7090111111111113,0.7078125
-healthcare,"Tervishoid, ravi ja terviseandmed",205,17,16.362294444444444,0.7797073170731708
+food,"Toit, põllumajandus ja toidujulgeolek",36,6,2.7255966666666667,0.8216666666666667
+governance,"Riigijuhtimine, kodanikuühiskond ja õigus",31,14,2.5517888888888884,0.7154838709677419
+healthcare,"Tervishoid, ravi ja terviseandmed",208,16,16.36420972222222,0.7803846153846153
 international,"Rahvusvahelised suhted, Euroopa Liit ja humanitaarabi",16,2,1.4011913888888892,0.75125
-media,"Meedia, avalik arutelu ja infokvaliteet",62,7,4.818098888888889,0.8279032258064516
-migration,"Ränne, lõimumine ja kuuluvus",93,12,7.815111944444444,0.784516129032258
-nature,"Loodus, metsandus ja maavarad",8,4,0.5802777777777777,0.57625
-place,"Eluase, ruum ja ühendused",125,11,9.257229722222222,0.7744800000000001
-unassigned,Määramata,168,74,8.356869166666666,0.58875
-wellbeing,"Vaimne tervis, tervisekäitumine ja ennetus",114,17,8.927460000000002,0.855438596491228
-work,"Tööelu, juhtimine ja töötajate õigused",135,13,10.615389444444443,0.8532592592592593
+media,"Meedia, avalik arutelu ja infokvaliteet",63,8,4.874115555555555,0.8223809523809524
+migration,"Ränne, lõimumine ja kuuluvus",94,12,7.836474166666667,0.7711702127659574
+nature,"Loodus, metsandus ja maavarad",9,4,0.6091555555555556,0.5433333333333334
+place,"Eluase, ruum ja ühendused",127,11,9.605940833333333,0.767244094488189
+unassigned,Määramata,154,75,7.48073861111111,0.5626623376623378
+wellbeing,"Vaimne tervis, tervisekäitumine ja ennetus",114,17,8.873793333333333,0.8546491228070174
+work,"Tööelu, juhtimine ja töötajate õigused",136,14,10.744500555555557,0.8497058823529412

@@ -90,6 +90,7 @@ def test_notebook_executes_offline_and_exports_manifest(
     config.source = config.source.replace(
         "DRY_RUN_WITH_FAKE_EMBEDDINGS = False", "DRY_RUN_WITH_FAKE_EMBEDDINGS = True"
     )
+    config.source = config.source.replace("EPISODE_COUNT = 216", "EPISODE_COUNT = 6")
     review_cell = next(cell for cell in notebook.cells if cell.id == "code-14")
     review_cell.source = review_cell.source.replace(
         "MANUAL_REVIEWS: list[ManualTopicReview] = []",

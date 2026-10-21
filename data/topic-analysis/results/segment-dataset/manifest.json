@@ -1,8 +1,8 @@
 {
   "assignment_baseline": "none",
-  "boundary_embedding_cache_hits": 0,
-  "corpus_sha256": "ac2d7f6514f0dd469da1845dc8d80c44182c415a9c0d2ec20272953fc44f97bc",
-  "embedding_cache_hits": 0,
+  "boundary_embedding_cache_hits": 34895,
+  "corpus_sha256": "580022fdbd4180c4ee0bb66ff95867e8d9322d860964b91f89233e70afbc60c2",
+  "embedding_cache_hits": 34895,
   "embedding_dimension": 1024,
   "embedding_model_id": "BAAI/bge-m3",
   "embedding_revision": "5617a9f61b028005a4858fdac845db406aefb181",
@@ -31,7 +31,7 @@
     "target_seconds": 300
   },
   "segment_embedding_cache_hits": 0,
-  "segments": 4126,
+  "segments": 4139,
   "semantic_segmentation": {
     "atomic_max_seconds": 45.0,
     "atomic_target_seconds": 30.0,
@@ -40,7 +40,7 @@
     "max_segment_seconds": 600.0,
     "min_segment_seconds": 90.0
   },
-  "source_sha256": "6c6d926941343d27cadc8a1dac71641bd83e4dc3c1da75b1a99461690dfd8417",
+  "source_sha256": "912ffec98022f50756c3ea7cb341e1bf6325c057690b3851a24d20f558cd2e3f",
   "vocabulary_model": "semantic:bge:leaf-local-6-2:42",
   "years": [
     2026

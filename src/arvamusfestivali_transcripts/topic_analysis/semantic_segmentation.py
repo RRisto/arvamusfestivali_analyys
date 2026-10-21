@@ -20,7 +20,7 @@ from .types import (
 def _passage(episode: CanonicalEpisode, indices: Sequence[int]) -> Passage:
     cues = tuple(episode.cues[index] for index in indices)
     start = cues[0].start_seconds
-    end = cues[-1].end_seconds
+    end = max(cue.end_seconds for cue in cues)
     return Passage(
         passage_id=(
             f"{episode.episode_id}:{round(start * 1000):012d}-{round(end * 1000):012d}"
@@ -45,17 +45,25 @@ def build_atomic_blocks(
     """Accumulate whole cues into short, deterministic, non-overlapping blocks."""
     groups: list[tuple[int, ...]] = []
     current: list[int] = []
+    target_reached = False
     for index, cue in enumerate(episode.cues):
         if current:
-            prospective_duration = cue.end_seconds - episode.cues[current[0]].start_seconds
-            if prospective_duration > config.atomic_max_seconds:
+            current_cues = tuple(episode.cues[item] for item in current)
+            current_end = max(item.end_seconds for item in current_cues)
+            prospective_duration = max(current_end, cue.end_seconds) - current_cues[0].start_seconds
+            can_close = cue.start_seconds >= current_end
+            if can_close and (
+                target_reached or prospective_duration > config.atomic_max_seconds
+            ):
                 groups.append(tuple(current))
                 current = []
+                target_reached = False
         current.append(index)
-        duration = cue.end_seconds - episode.cues[current[0]].start_seconds
+        duration = max(episode.cues[item].end_seconds for item in current) - episode.cues[
+            current[0]
+        ].start_seconds
         if duration >= config.atomic_target_seconds:
-            groups.append(tuple(current))
-            current = []
+            target_reached = True
     if current:
         groups.append(tuple(current))
     return tuple(_passage(episode, indices) for indices in groups)
@@ -302,7 +310,10 @@ def segment_episode_semantically(
     groups: list[tuple[int, ...]] = []
     current: list[int] = []
     for index, cue in enumerate(episode.cues):
-        if current and cue.start_seconds in cuts:
+        starts_new_timestamp = (
+            index == 0 or episode.cues[index - 1].start_seconds < cue.start_seconds
+        )
+        if current and starts_new_timestamp and cue.start_seconds in cuts:
             groups.append(tuple(current))
             current = []
         current.append(index)

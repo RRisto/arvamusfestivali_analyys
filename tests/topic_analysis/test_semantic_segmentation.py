@@ -110,6 +110,36 @@ def test_atomic_blocks_close_before_a_new_cue_would_exceed_maximum() -> None:
     ]
 
 
+def test_atomic_blocks_keep_overlapping_cues_together() -> None:
+    episode = episode_with_custom_cues(
+        [(0, 20, "first"), (19, 40, "overlapping"), (40, 60, "third")]
+    )
+    config = SemanticSegmentationConfig(atomic_target_seconds=30, atomic_max_seconds=35)
+
+    blocks = build_atomic_blocks(episode, config)
+
+    assert [(item.start_seconds, item.end_seconds) for item in blocks] == [
+        (0, 40),
+        (40, 60),
+    ]
+    assert all(left.end_seconds <= right.start_seconds for left, right in zip(blocks, blocks[1:]))
+
+
+def test_atomic_blocks_respect_the_latest_end_in_a_group() -> None:
+    episode = episode_with_custom_cues(
+        [(0, 30, "long first"), (10, 20, "short overlap"), (30, 40, "third")]
+    )
+    config = SemanticSegmentationConfig(atomic_target_seconds=10, atomic_max_seconds=35)
+
+    blocks = build_atomic_blocks(episode, config)
+
+    assert [(item.start_seconds, item.end_seconds) for item in blocks] == [
+        (0, 30),
+        (30, 40),
+    ]
+    assert all(left.end_seconds <= right.start_seconds for left, right in zip(blocks, blocks[1:]))
+
+
 def test_atomic_blocks_keep_an_indivisible_long_cue() -> None:
     episode = episode_with_custom_cues([(0, 120, "long cue"), (120, 130, "tail")])
 
@@ -327,6 +357,36 @@ def test_segment_episode_merges_original_cues_at_selected_cut() -> None:
         "https://example.test/episode-1.mp3#t=0",
         "https://example.test/episode-1.mp3#t=90",
     ]
+
+
+def test_segment_cut_does_not_split_cues_with_the_same_start_time() -> None:
+    episode = episode_with_custom_cues(
+        [
+            (0, 20, "first"),
+            (20, 30, "second"),
+            (30, 31, "short cue"),
+            (30, 60, "same start"),
+            (60, 90, "last"),
+        ]
+    )
+    config = SemanticSegmentationConfig(
+        atomic_target_seconds=30,
+        atomic_max_seconds=45,
+        context_seconds=30,
+        min_segment_seconds=10,
+        max_segment_seconds=60,
+        boundary_quantile=0.5,
+    )
+    blocks = build_atomic_blocks(episode, config)
+    vectors = np.array([[1.0, 0.0], [0.0, 1.0], [0.0, 1.0]], dtype=np.float32)
+
+    result = segment_episode_semantically(episode, blocks, vectors, config)
+
+    assert [(item.start_seconds, item.end_seconds) for item in result.passages] == [
+        (0, 30),
+        (30, 90),
+    ]
+    assert "short cue same start" in result.passages[1].text
 
 
 def test_segment_episode_with_flat_embeddings_preserves_one_short_passage() -> None:

@@ -1,194 +1,195 @@
 topic_id,topic_name,topic_key,high_level_id,high_level_name,x,y,segment_count,talk_count
-0,noorte radikaliseerumine ja kuuluvus,semantic:bge:leaf-local-6-2:42:0,children,Laste ja noorte kaitse ning toetamine,4.801447,1.5866327,8,1
-1,Tööõnnetuste ennetus ja tööohutuse teadlikkus,semantic:bge:leaf-local-6-2:42:1,work,"Tööelu, juhtimine ja töötajate õigused",1.804649,0.6051431,19,1
-2,Vähiravi patsiendikesksus ja palliatiivne tugi,semantic:bge:leaf-local-6-2:42:2,healthcare,"Tervishoid, ravi ja terviseandmed",2.0434434,2.4316432,2,1
-3,Juhi ja töötaja äärmused organisatsioonis,semantic:bge:leaf-local-6-2:42:3,work,"Tööelu, juhtimine ja töötajate õigused",1.7483045,0.15965928,16,2
-4,"Lasteaia kvaliteet, märkamise ja toetuse roll",semantic:bge:leaf-local-6-2:42:4,education,"Haridus, õppimine ja oskused",3.4884996,-0.08095457,1,1
-5,Rohetehnoloogia rahastus ja laenuotsused,semantic:bge:leaf-local-6-2:42:5,climate,"Kliima, rohepööre ja kestlik tarbimine",7.7570066,1.0118963,9,4
-7,Tagasiside ja hinde seos õppimisega,semantic:bge:leaf-local-6-2:42:7,education,"Haridus, õppimine ja oskused",4.7934375,-0.5985349,16,2
-8,Palestiina tunnustamise ja kahe riigi debatt,semantic:bge:leaf-local-6-2:42:8,international,"Rahvusvahelised suhted, Euroopa Liit ja humanitaarabi",4.8775964,2.9700098,19,2
-9,AI-assistendi prompti ülesehitus,semantic:bge:leaf-local-6-2:42:9,ai,Tehisintellekt ja digitehnoloogia,6.255361,-1.5973314,1,1
-10,Nõusolek paarisuhtes ja läheduses,semantic:bge:leaf-local-6-2:42:10,family,"Pere, suhted ja sooline võrdsus",2.5724864,0.58575815,3,1
-11,laste nutiekraani ja sotsiaalmeedia sõltuvus,semantic:bge:leaf-local-6-2:42:11,wellbeing,"Vaimne tervis, tervisekäitumine ja ennetus",3.9650064,0.6509499,29,7
-12,sündimuse toetamine läbi perekindluse,semantic:bge:leaf-local-6-2:42:12,family,"Pere, suhted ja sooline võrdsus",2.8568616,0.071711294,16,2
-13,Emaduse karjäärikaod ja naasmine tööle,semantic:bge:leaf-local-6-2:42:13,family,"Pere, suhted ja sooline võrdsus",2.3713944,0.053002484,1,1
-14,Üksilduse vähendamine suhtluse ja kogukonnaga,semantic:bge:leaf-local-6-2:42:14,wellbeing,"Vaimne tervis, tervisekäitumine ja ennetus",3.0135136,1.7268589,3,3
-16,Töökiusamise piiri tõmbamine tööl,semantic:bge:leaf-local-6-2:42:16,work,"Tööelu, juhtimine ja töötajate õigused",1.6850764,0.35182962,22,3
-17,Biogaasi ja vesiniku kasutus Eestis,semantic:bge:leaf-local-6-2:42:17,energy,Energeetika ja energiaturud,8.338719,1.716283,19,4
-18,Töökiusu ja vaidluste piiritlemine töösuhtes,semantic:bge:leaf-local-6-2:42:18,work,"Tööelu, juhtimine ja töötajate õigused",1.8032342,0.5057972,12,3
-20,Nutiseadmete kasutuse piiramine koolis,semantic:bge:leaf-local-6-2:42:20,education,"Haridus, õppimine ja oskused",4.15977,-0.06519561,13,3
-22,Ukraina turule sisenemine kohaliku partneriga,semantic:bge:leaf-local-6-2:42:22,economy,"Majandus, ettevõtlus ja innovatsioon",5.853342,3.5421524,14,3
-23,õpilasmaleva esimese töökogemuse roll,semantic:bge:leaf-local-6-2:42:23,education,"Haridus, õppimine ja oskused",4.131865,-0.83395386,2,1
-24,Eesti kliimahoiakud ja rohepöörde skeptitsism,semantic:bge:leaf-local-6-2:42:24,climate,"Kliima, rohepööre ja kestlik tarbimine",7.7701187,2.137783,25,10
-25,Teadmussiirdedoktorantuuri ettevõtluslik praktilisus,semantic:bge:leaf-local-6-2:42:25,education,"Haridus, õppimine ja oskused",6.2628856,-0.14129558,4,2
-27,Reisiks valmistumine ja turvalisus,semantic:bge:leaf-local-6-2:42:27,place,"Eluase, ruum ja ühendused",5.358839,1.0080158,12,1
-28,Täiskasvanute ümberõpe ja õppimise paindlikkus,semantic:bge:leaf-local-6-2:42:28,education,"Haridus, õppimine ja oskused",4.6351233,-0.886448,17,3
-29,Läänemeremaade julgeolekukoostöö NATO varjus,semantic:bge:leaf-local-6-2:42:29,defence,"Riigikaitse, julgeolek ja kriisivalmidus",5.1898193,3.4439335,13,2
-30,"laste hambaravi, narkoos ja vanema vastutus",semantic:bge:leaf-local-6-2:42:30,healthcare,"Tervishoid, ravi ja terviseandmed",2.883262,0.9090514,20,1
-31,Valimiste valvamine ja rahastamise läbipaistvus,semantic:bge:leaf-local-6-2:42:31,governance,"Riigijuhtimine, kodanikuühiskond ja õigus",5.505643,2.3776338,17,2
-32,Vererõhu ja südameriski varajane ennetus,semantic:bge:leaf-local-6-2:42:32,wellbeing,"Vaimne tervis, tervisekäitumine ja ennetus",2.3566847,2.2708206,2,1
-33,Kogukonna hääle kaasamine otsustesse,semantic:bge:leaf-local-6-2:42:33,governance,"Riigijuhtimine, kodanikuühiskond ja õigus",6.126005,2.3161812,13,8
-34,Vabaühenduste rahastamise läbipaistvus ja sõltumatus,semantic:bge:leaf-local-6-2:42:34,governance,"Riigijuhtimine, kodanikuühiskond ja õigus",3.891962,2.6140008,18,2
-35,Rahvakohtunike ja menetluse tõhustamise vaidlus,semantic:bge:leaf-local-6-2:42:35,governance,"Riigijuhtimine, kodanikuühiskond ja õigus",4.935629,1.8688844,14,1
-36,Lastekodukasvamise kogemus ja märkamise roll,semantic:bge:leaf-local-6-2:42:36,children,Laste ja noorte kaitse ning toetamine,3.280491,0.28304726,2,1
-37,kliimariski mõju vee- ja soojusvarustusele,semantic:bge:leaf-local-6-2:42:37,climate,"Kliima, rohepööre ja kestlik tarbimine",8.593719,1.5492878,4,2
-38,eesti keele õppimine mitmekeelses koolis,semantic:bge:leaf-local-6-2:42:38,education,"Haridus, õppimine ja oskused",4.9527497,0.147357,9,2
-39,Vasakpoolsuse ja identiteedi pinged,semantic:bge:leaf-local-6-2:42:39,governance,"Riigijuhtimine, kodanikuühiskond ja õigus",5.6157627,2.390336,19,2
-40,Õige keha- ja seksuaalsõnavara õpetamine,semantic:bge:leaf-local-6-2:42:40,family,"Pere, suhted ja sooline võrdsus",3.3878014,0.5903277,10,1
-41,Laste piltide postitamine vanemate poolt,semantic:bge:leaf-local-6-2:42:41,cyber,"Küberturvalisus, privaatsus ja digiohud",3.8418689,0.6156148,11,1
-42,Idapiirialade eraldi regionaalpoliitika,semantic:bge:leaf-local-6-2:42:42,place,"Eluase, ruum ja ühendused",6.2966948,1.5137308,1,1
-44,Tööstuse energiaportfelli ja emissioonide optimeerimine,semantic:bge:leaf-local-6-2:42:44,climate,"Kliima, rohepööre ja kestlik tarbimine",8.457966,1.7941524,6,3
-45,Lai riigikaitse kodune ja kogukondlik valmisolek,semantic:bge:leaf-local-6-2:42:45,defence,"Riigikaitse, julgeolek ja kriisivalmidus",5.755889,3.3949335,44,7
-46,laimavate netikommentaaride ja mainekahju vaidlused kohtus,semantic:bge:leaf-local-6-2:42:46,governance,"Riigijuhtimine, kodanikuühiskond ja õigus",4.734416,2.1663067,20,1
-47,Ülekaaluravimite hüvitamine ja elustiil,semantic:bge:leaf-local-6-2:42:47,healthcare,"Tervishoid, ravi ja terviseandmed",2.2881794,2.1742005,18,1
-50,Annetuste kasutamine organisatsiooni kuludeks,semantic:bge:leaf-local-6-2:42:50,governance,"Riigijuhtimine, kodanikuühiskond ja õigus",3.715879,2.623609,14,2
-52,Narva-ründe ja hübriidohu arutelu,semantic:bge:leaf-local-6-2:42:52,defence,"Riigikaitse, julgeolek ja kriisivalmidus",5.3045835,3.5221243,10,1
-53,koolivõrgu koondamine ja juhtimisotsused,semantic:bge:leaf-local-6-2:42:53,education,"Haridus, õppimine ja oskused",4.739136,-0.63774854,13,2
-54,Istanbuli konventsiooni vaidlused ja rakendamine,semantic:bge:leaf-local-6-2:42:54,family,"Pere, suhted ja sooline võrdsus",4.692784,2.553982,2,1
-55,Püsimetsanduse definitsioon ja valikraie,semantic:bge:leaf-local-6-2:42:55,nature,"Loodus, metsandus ja maavarad",8.002075,2.820262,18,1
-56,Noorte koduostu ja üüri kättesaadavus,semantic:bge:leaf-local-6-2:42:56,place,"Eluase, ruum ja ühendused",6.4998274,1.6751803,1,1
-57,Tugevustel põhinev paindlik koolikorraldus,semantic:bge:leaf-local-6-2:42:57,education,"Haridus, õppimine ja oskused",4.650559,-0.56766975,13,1
-60,andmejärelevalve ja tehisintellekti piirid,semantic:bge:leaf-local-6-2:42:60,cyber,"Küberturvalisus, privaatsus ja digiohud",6.5305715,-1.4767705,4,3
-61,Elurikkuse krediitide turu kujundamine,semantic:bge:leaf-local-6-2:42:61,nature,"Loodus, metsandus ja maavarad",8.1205,1.9624815,16,1
-62,Rail Balticu ja raudteeühenduste mõju,semantic:bge:leaf-local-6-2:42:62,place,"Eluase, ruum ja ühendused",6.8720446,1.4778545,2,1
-63,Paroolide ja wifi kaudu levinud küberpettused,semantic:bge:leaf-local-6-2:42:63,cyber,"Küberturvalisus, privaatsus ja digiohud",6.4420724,-1.7509891,14,1
-64,Eesti 2050 ühised unistused ja tulevikunägemus,semantic:bge:leaf-local-6-2:42:64,governance,"Riigijuhtimine, kodanikuühiskond ja õigus",5.9364924,1.6423751,20,6
-66,NEET-noorte toetamine ja vastutuse jagamine,semantic:bge:leaf-local-6-2:42:66,children,Laste ja noorte kaitse ning toetamine,4.012271,0.12054707,4,3
-67,Perearsti tööjaotus ja koostöövõrgustik,semantic:bge:leaf-local-6-2:42:67,healthcare,"Tervishoid, ravi ja terviseandmed",2.611397,2.4889445,22,5
-68,Ettevõtliku hoiakuga kooli ja töö sidumine,semantic:bge:leaf-local-6-2:42:68,education,"Haridus, õppimine ja oskused",4.54841,-0.77482724,14,3
-69,Kohtla-Järve tuhamägede väetisetehas,semantic:bge:leaf-local-6-2:42:69,nature,"Loodus, metsandus ja maavarad",8.1183815,1.7182051,2,1
-70,Õpiampsud töö- ja enesearengu osana,semantic:bge:leaf-local-6-2:42:70,education,"Haridus, õppimine ja oskused",4.574015,-1.1403782,12,2
-71,Miinimumpalga tõstmise mõju tööle ja vaesusele,semantic:bge:leaf-local-6-2:42:71,work,"Tööelu, juhtimine ja töötajate õigused",6.8091474,0.57968366,1,1
-72,Metsaomanike kaitse- ja majandusvaidlused,semantic:bge:leaf-local-6-2:42:72,nature,"Loodus, metsandus ja maavarad",7.848648,2.880427,18,4
-73,Korteriühistute kogukonnatunde loomine,semantic:bge:leaf-local-6-2:42:73,place,"Eluase, ruum ja ühendused",6.227761,2.0105965,19,1
-74,eestikeelse suhtluse ja ühiskeele otsimine,semantic:bge:leaf-local-6-2:42:74,migration,"Ränne, lõimumine ja kuuluvus",5.1570325,0.6278849,9,4
-75,Tuuleparkide kaasamise usalduskriis,semantic:bge:leaf-local-6-2:42:75,energy,Energeetika ja energiaturud,7.082142,2.5384934,13,1
-76,Laste ja AI-petuste internetiohud,semantic:bge:leaf-local-6-2:42:76,children,Laste ja noorte kaitse ning toetamine,4.19108,0.898235,8,1
-78,Koduloomuuseumi rahastamine ja jätkamine,semantic:bge:leaf-local-6-2:42:78,culture,"Kultuur, loome ja pärand",5.9015102,1.4355183,15,1
-79,"Kodu, kool ja sõbrad kujundavad sallivust",semantic:bge:leaf-local-6-2:42:79,migration,"Ränne, lõimumine ja kuuluvus",4.5385423,0.22871728,4,2
-80,Varude ja tsiviilkaasatuse sõjaks valmistumine,semantic:bge:leaf-local-6-2:42:80,defence,"Riigikaitse, julgeolek ja kriisivalmidus",5.864205,3.385074,9,2
-81,ELi eelarve ja Rail Balticu rahastus,semantic:bge:leaf-local-6-2:42:81,international,"Rahvusvahelised suhted, Euroopa Liit ja humanitaarabi",7.222271,1.4101648,12,1
-82,Vanus ja oskused tööelus,semantic:bge:leaf-local-6-2:42:82,work,"Tööelu, juhtimine ja töötajate õigused",2.3391414,-0.18937439,7,4
-83,Kaitsekulude tõus ja hanked,semantic:bge:leaf-local-6-2:42:83,defence,"Riigikaitse, julgeolek ja kriisivalmidus",5.71671,3.666932,28,7
-84,surmaga toimetulek ja sellest rääkimine,semantic:bge:leaf-local-6-2:42:84,healthcare,"Tervishoid, ravi ja terviseandmed",1.9591616,2.162593,2,1
-85,Koolijuhi strateegiline roll ja vastutus,semantic:bge:leaf-local-6-2:42:85,education,"Haridus, õppimine ja oskused",4.4505363,-0.63832164,17,4
-87,Fosforiidi kaevandamise riskid ja ringfosfor,semantic:bge:leaf-local-6-2:42:87,nature,"Loodus, metsandus ja maavarad",7.5993633,2.1887476,30,2
-89,Dementsusega hooldekodus vägivalla ja vastutuse arutelu,semantic:bge:leaf-local-6-2:42:89,healthcare,"Tervishoid, ravi ja terviseandmed",2.6956465,1.6869088,13,1
-90,kaugtöö ja töövälise aja piirid,semantic:bge:leaf-local-6-2:42:90,work,"Tööelu, juhtimine ja töötajate õigused",1.7066973,0.21316588,3,2
-91,Märgalade ja maastike kaitsev roll,semantic:bge:leaf-local-6-2:42:91,defence,"Riigikaitse, julgeolek ja kriisivalmidus",7.025003,3.1561959,11,1
-93,Eestisse kolijate kuuluvustunne ja kohanemine,semantic:bge:leaf-local-6-2:42:93,migration,"Ränne, lõimumine ja kuuluvus",5.2917833,0.98280376,6,2
-94,planeeringute ja kaasamise venimine,semantic:bge:leaf-local-6-2:42:94,place,"Eluase, ruum ja ühendused",6.5636697,1.9514221,3,1
-95,Veebis lastega suhtlemise seksuaalriskid,semantic:bge:leaf-local-6-2:42:95,children,Laste ja noorte kaitse ning toetamine,3.896453,0.864293,3,3
-97,Armeenia ja humanitaarabi rahastuse kärped,semantic:bge:leaf-local-6-2:42:97,international,"Rahvusvahelised suhted, Euroopa Liit ja humanitaarabi",3.947546,3.0483756,6,1
-98,Vajaduspõhine tudengitoetus ja elamiskulud,semantic:bge:leaf-local-6-2:42:98,education,"Haridus, õppimine ja oskused",5.585525,-0.26894674,5,2
-100,naiste ajateenistuse laiendamine riigikaitses,semantic:bge:leaf-local-6-2:42:100,defence,"Riigikaitse, julgeolek ja kriisivalmidus",5.914146,3.218561,16,3
-101,Liikumisharjumuste kujundamine lastel,semantic:bge:leaf-local-6-2:42:101,wellbeing,"Vaimne tervis, tervisekäitumine ja ennetus",3.6821055,-0.10297375,15,2
-102,Hispaaniasse kolimise hirm reservväelaste seas,semantic:bge:leaf-local-6-2:42:102,defence,"Riigikaitse, julgeolek ja kriisivalmidus",5.9345,3.222457,6,1
-103,üleriigiline planeering ja ruumipoliitika,semantic:bge:leaf-local-6-2:42:103,place,"Eluase, ruum ja ühendused",6.3351226,1.5530493,3,2
-104,Trumpi mõju USA poliitika ja Ukraina suunal,semantic:bge:leaf-local-6-2:42:104,international,"Rahvusvahelised suhted, Euroopa Liit ja humanitaarabi",5.162961,3.2640662,18,5
-106,Sooneutraalne ajateenistus ja reservi täitmine,semantic:bge:leaf-local-6-2:42:106,defence,"Riigikaitse, julgeolek ja kriisivalmidus",5.881844,3.4615428,18,4
-111,Diabeedi vaimne koormus ja kriis,semantic:bge:leaf-local-6-2:42:111,wellbeing,"Vaimne tervis, tervisekäitumine ja ennetus",2.1699526,1.9720159,13,1
-113,Rohe- ja heaolu­väidete eksitavus reklaamis,semantic:bge:leaf-local-6-2:42:113,media,"Meedia, avalik arutelu ja infokvaliteet",7.662549,1.5744756,1,1
-114,Sotsiaalmeedia poliitilise arutelu kvaliteet,semantic:bge:leaf-local-6-2:42:114,media,"Meedia, avalik arutelu ja infokvaliteet",5.1118474,2.205169,4,4
-115,Patsiendi info jagamine ja koostöö,semantic:bge:leaf-local-6-2:42:115,healthcare,"Tervishoid, ravi ja terviseandmed",2.2417202,1.934679,8,4
-116,Programmeerijaks saamise oskused ja praktikaotsing,semantic:bge:leaf-local-6-2:42:116,education,"Haridus, õppimine ja oskused",5.9692245,-0.7732265,11,2
-117,Kaugkütte hinna kujunemine ja püsitasu,semantic:bge:leaf-local-6-2:42:117,energy,Energeetika ja energiaturud,8.534072,1.6169459,3,1
-118,Visiooni ja väärtuste vaidlus riigijuhtimises,semantic:bge:leaf-local-6-2:42:118,governance,"Riigijuhtimine, kodanikuühiskond ja õigus",5.6922255,2.439714,18,8
-119,Naiste osakaalu suurendamine IKT-s,semantic:bge:leaf-local-6-2:42:119,work,"Tööelu, juhtimine ja töötajate õigused",5.8362274,-0.66339415,18,2
-120,AI odava kasutuselevõtu ja eksporti,semantic:bge:leaf-local-6-2:42:120,ai,Tehisintellekt ja digitehnoloogia,6.45113,-1.1551899,1,1
-122,Tööülesannete paindlik jaotamine,semantic:bge:leaf-local-6-2:42:122,work,"Tööelu, juhtimine ja töötajate õigused",1.6967258,0.04183052,8,1
-124,Von der Leyeni EL-i eelarve ja maksud,semantic:bge:leaf-local-6-2:42:124,international,"Rahvusvahelised suhted, Euroopa Liit ja humanitaarabi",7.308011,1.3004547,18,3
-125,Tubli lapse surve ja märkamine,semantic:bge:leaf-local-6-2:42:125,children,Laste ja noorte kaitse ning toetamine,3.4906197,0.12329142,1,1
-126,noorte filmiarutelud ja tagasiside,semantic:bge:leaf-local-6-2:42:126,culture,"Kultuur, loome ja pärand",4.169374,0.46933928,10,1
-127,Elektribörsi hinnakujunduse jaotumine,semantic:bge:leaf-local-6-2:42:127,energy,Energeetika ja energiaturud,8.655089,1.9350096,1,1
-128,Annetuste mõju ja annetamise normaliseerimine,semantic:bge:leaf-local-6-2:42:128,governance,"Riigijuhtimine, kodanikuühiskond ja õigus",3.7913904,2.7013273,22,3
-129,lapsega esmakontakti loomine lastekaitses,semantic:bge:leaf-local-6-2:42:129,children,Laste ja noorte kaitse ning toetamine,3.2402303,0.34285632,10,1
-130,ÜRO reform ja väikeriikide hääl,semantic:bge:leaf-local-6-2:42:130,international,"Rahvusvahelised suhted, Euroopa Liit ja humanitaarabi",4.7539053,3.0424001,16,4
-131,Haigekassa rahastusmudeli ümbermõtestamine,semantic:bge:leaf-local-6-2:42:131,healthcare,"Tervishoid, ravi ja terviseandmed",2.5292265,2.7719722,17,3
-132,Eesti elektritarbimise ja tootmise sihid,semantic:bge:leaf-local-6-2:42:132,energy,Energeetika ja energiaturud,8.618401,1.8976406,5,4
-133,Rände integreerimise ja keelepoliitika riskid,semantic:bge:leaf-local-6-2:42:133,migration,"Ränne, lõimumine ja kuuluvus",5.605914,1.2533786,15,2
-134,Õpetaja Laura tulevikuõpetuse stsenaariumid,semantic:bge:leaf-local-6-2:42:134,education,"Haridus, õppimine ja oskused",5.020715,-1.0437034,9,1
-136,Maapiirkondade teenuste ja ühenduste koosplaneerimine,semantic:bge:leaf-local-6-2:42:136,place,"Eluase, ruum ja ühendused",6.274557,1.458353,2,2
-137,AI roll arstide suhtluses ja vähiravis,semantic:bge:leaf-local-6-2:42:137,healthcare,"Tervishoid, ravi ja terviseandmed",2.217271,2.3236895,1,1
-138,Kriisi olukorras otsustamine ja juhtimine,semantic:bge:leaf-local-6-2:42:138,work,"Tööelu, juhtimine ja töötajate õigused",1.3962405,0.29135275,4,4
-139,Tehisaru mõju õppimisele ja hindamisele,semantic:bge:leaf-local-6-2:42:139,education,"Haridus, õppimine ja oskused",5.2280207,-0.984835,15,4
-140,üldplaneeringus haljastuse ja rohekoridoride säilitamine,semantic:bge:leaf-local-6-2:42:140,place,"Eluase, ruum ja ühendused",6.6433024,1.8879988,9,1
-141,TalTechi energeetikaõpingud ja tööalane suund,semantic:bge:leaf-local-6-2:42:141,education,"Haridus, õppimine ja oskused",6.2486935,-0.27719203,9,2
-142,"Väikeettevõtjate maksud, hanked ja eksport",semantic:bge:leaf-local-6-2:42:142,economy,"Majandus, ettevõtlus ja innovatsioon",7.4500966,0.6249167,14,5
-143,Terviseidu turuletoomise rahastus ja regulatsioon,semantic:bge:leaf-local-6-2:42:143,healthcare,"Tervishoid, ravi ja terviseandmed",2.6976016,2.8232477,4,2
-144,Minimalistlik ökoeluviis ja piisavus,semantic:bge:leaf-local-6-2:42:144,climate,"Kliima, rohepööre ja kestlik tarbimine",7.0432663,1.6805044,13,2
-145,Õpetajate ja õpilaste AI-kohandumine,semantic:bge:leaf-local-6-2:42:145,education,"Haridus, õppimine ja oskused",5.2535105,-1.1896038,19,5
-146,Inseneeriaõppe ja tehnikahariduse järelkasv,semantic:bge:leaf-local-6-2:42:146,education,"Haridus, õppimine ja oskused",6.2494917,-0.1426277,16,9
-147,Noorte osalus erakondade noortekogudes,semantic:bge:leaf-local-6-2:42:147,governance,"Riigijuhtimine, kodanikuühiskond ja õigus",5.5112133,2.080609,6,2
-148,Infosõja vastulöök ja väärinfo tõrjumine,semantic:bge:leaf-local-6-2:42:148,media,"Meedia, avalik arutelu ja infokvaliteet",5.0400558,2.4914212,24,5
-149,tehisintellekti kirjutatud teadusartiklite usaldus ja hindamine,semantic:bge:leaf-local-6-2:42:149,education,"Haridus, õppimine ja oskused",5.9811,-1.3263602,1,1
-150,Naiste juhtide ja isade rolliootused,semantic:bge:leaf-local-6-2:42:150,family,"Pere, suhted ja sooline võrdsus",2.3209012,0.08623135,1,1
-151,Tervishoiu konkurentsi tasakaal,semantic:bge:leaf-local-6-2:42:151,healthcare,"Tervishoid, ravi ja terviseandmed",2.5998876,2.87031,3,2
-152,CO2 kvoodikaubanduse reform ja ETS2,semantic:bge:leaf-local-6-2:42:152,climate,"Kliima, rohepööre ja kestlik tarbimine",8.378577,2.0199609,6,4
-153,Vähipatsiendi infoedastuse vastutus,semantic:bge:leaf-local-6-2:42:153,healthcare,"Tervishoid, ravi ja terviseandmed",2.0059786,2.3483677,1,1
-154,Interneti solvangute ja ähvarduste ohjeldamine,semantic:bge:leaf-local-6-2:42:154,cyber,"Küberturvalisus, privaatsus ja digiohud",4.7244754,1.9148157,2,2
-155,AI-agentide vastutus ja kontroll,semantic:bge:leaf-local-6-2:42:155,ai,Tehisintellekt ja digitehnoloogia,6.3353066,-1.5355674,1,1
-156,Meretuuleparkide arendamise kindlustamine,semantic:bge:leaf-local-6-2:42:156,energy,Energeetika ja energiaturud,8.737551,1.9402311,3,1
-157,Startup-ökosüsteemi kogukond ja eeskujud,semantic:bge:leaf-local-6-2:42:157,economy,"Majandus, ettevõtlus ja innovatsioon",7.008252,-0.08146625,2,2
-159,Vabatahtlike hoidmine ja kaasamise barjäärid,semantic:bge:leaf-local-6-2:42:159,governance,"Riigijuhtimine, kodanikuühiskond ja õigus",4.060341,2.213633,2,2
-160,Juhitavate elektrivõimsuste vajadus Eestis,semantic:bge:leaf-local-6-2:42:160,energy,Energeetika ja energiaturud,8.627502,1.7071886,22,3
-161,Ekspordi eetika sanktsiooniriikides,semantic:bge:leaf-local-6-2:42:161,international,"Rahvusvahelised suhted, Euroopa Liit ja humanitaarabi",7.651536,0.568741,9,1
-163,Läbipõlemise varajaste märkide märkamine,semantic:bge:leaf-local-6-2:42:163,wellbeing,"Vaimne tervis, tervisekäitumine ja ennetus",1.5715741,0.43156356,16,5
-164,Emadus ja koolikultuur kultuuri kandjana,semantic:bge:leaf-local-6-2:42:164,culture,"Kultuur, loome ja pärand",4.8435774,0.1632729,10,2
-165,Pätsi ja Vabadussõja ajalooline kasutus,semantic:bge:leaf-local-6-2:42:165,culture,"Kultuur, loome ja pärand",5.5502925,2.8449936,5,1
-166,Puidu väärindamine raiemahtu vähendades,semantic:bge:leaf-local-6-2:42:166,nature,"Loodus, metsandus ja maavarad",8.144564,2.231155,14,5
-167,metsade tagavara langus ja arvestuslangi vaidlus,semantic:bge:leaf-local-6-2:42:167,nature,"Loodus, metsandus ja maavarad",7.9790154,2.8080013,13,2
-168,Paindlik tööaeg ja kokkulepitud piirid,semantic:bge:leaf-local-6-2:42:168,work,"Tööelu, juhtimine ja töötajate õigused",1.594263,0.052135184,10,4
-169,Majanduskasvu ja heaolu vaidlus,semantic:bge:leaf-local-6-2:42:169,economy,"Majandus, ettevõtlus ja innovatsioon",7.3250895,0.97759575,12,9
-171,Tehisintellekti kasutus kooliõppes,semantic:bge:leaf-local-6-2:42:171,education,"Haridus, õppimine ja oskused",5.496953,-1.2159884,17,6
-174,Maksutõusud ja majanduse toimetulek,semantic:bge:leaf-local-6-2:42:174,economy,"Majandus, ettevõtlus ja innovatsioon",7.0657344,0.84303397,9,2
-175,Matemaatika visuaalsed mustrid ja ratta jäljed,semantic:bge:leaf-local-6-2:42:175,education,"Haridus, õppimine ja oskused",5.0456495,-0.7519941,1,1
-176,Eesti loodusidentiteet ja kliimaskepsis,semantic:bge:leaf-local-6-2:42:176,climate,"Kliima, rohepööre ja kestlik tarbimine",7.505614,2.6177619,2,2
-178,Noorte alkoholiga pidutsemine ja surve,semantic:bge:leaf-local-6-2:42:178,wellbeing,"Vaimne tervis, tervisekäitumine ja ennetus",3.9317682,1.0802609,16,1
-179,Covidijärgne nakkushaiguste seaduse muutmine,semantic:bge:leaf-local-6-2:42:179,healthcare,"Tervishoid, ravi ja terviseandmed",6.592445,2.476978,6,2
-181,Eesti elektritarbimise kasv ja puudujääk,semantic:bge:leaf-local-6-2:42:181,energy,Energeetika ja energiaturud,8.856752,1.7510741,2,2
-182,terviseandmete kasutus ja eetikakomitee loa takistused,semantic:bge:leaf-local-6-2:42:182,healthcare,"Tervishoid, ravi ja terviseandmed",2.4682105,2.893298,2,1
-184,"Noorte veipimise, nikotiini ja salaturu piiramine",semantic:bge:leaf-local-6-2:42:184,wellbeing,"Vaimne tervis, tervisekäitumine ja ennetus",3.8315783,1.2400405,1,1
-185,meeste osa koduses ja lapsehoius,semantic:bge:leaf-local-6-2:42:185,family,"Pere, suhted ja sooline võrdsus",2.643261,0.12322773,3,1
-186,AI mõju töökorraldusele ja tööturule,semantic:bge:leaf-local-6-2:42:186,ai,Tehisintellekt ja digitehnoloogia,6.191063,-1.0714219,9,7
-187,Sisserände juhtimine ja talendivajadus,semantic:bge:leaf-local-6-2:42:187,migration,"Ränne, lõimumine ja kuuluvus",6.2695813,0.48120016,14,4
-188,Inseneride nappus ja palga küsimus,semantic:bge:leaf-local-6-2:42:188,education,"Haridus, õppimine ja oskused",6.506417,0.074398495,4,3
-189,kihiline õhukaitse ja mehitamata võimed,semantic:bge:leaf-local-6-2:42:189,defence,"Riigikaitse, julgeolek ja kriisivalmidus",5.695991,3.6016567,5,2
-190,Eesti hariduse eesmärgid ja sihid,semantic:bge:leaf-local-6-2:42:190,education,"Haridus, õppimine ja oskused",4.973392,-0.4595749,39,19
-191,Soola vähendamine ja igapäevane liikumine,semantic:bge:leaf-local-6-2:42:191,wellbeing,"Vaimne tervis, tervisekäitumine ja ennetus",2.960166,1.3808281,4,1
-192,Rahapõhine abi humanitaarkriisides,semantic:bge:leaf-local-6-2:42:192,international,"Rahvusvahelised suhted, Euroopa Liit ja humanitaarabi",3.4486217,3.0048902,5,1
-193,Raudteeühenduse ja ühistranspordi koordineerimine,semantic:bge:leaf-local-6-2:42:193,place,"Eluase, ruum ja ühendused",6.5500593,1.4766675,1,1
-195,Tervisehoolekande tehnoloogiad ja andmepõhine lõimimine,semantic:bge:leaf-local-6-2:42:195,healthcare,"Tervishoid, ravi ja terviseandmed",2.6406853,2.4098651,14,4
-197,Ajaloolised paralleelid tänapäeva konfliktidele,semantic:bge:leaf-local-6-2:42:197,international,"Rahvusvahelised suhted, Euroopa Liit ja humanitaarabi",5.285478,3.122807,19,5
-198,Tuulikuinfraheli häirivuse ja tervisemõju vaidlus,semantic:bge:leaf-local-6-2:42:198,energy,Energeetika ja energiaturud,6.98852,2.7589252,18,2
-199,AI kasutamine töö- ja loometekstide koostamisel,semantic:bge:leaf-local-6-2:42:199,ai,Tehisintellekt ja digitehnoloogia,6.185364,-1.490052,7,4
-200,Metsa raiemahtude ja kaitse vaidlus,semantic:bge:leaf-local-6-2:42:200,nature,"Loodus, metsandus ja maavarad",7.8893957,2.78016,24,6
-201,Eesti majanduskasvu aeglane koordineerimine,semantic:bge:leaf-local-6-2:42:201,economy,"Majandus, ettevõtlus ja innovatsioon",7.1895647,0.92642134,7,2
-202,IT-värbamine ja palgataseme kerked,semantic:bge:leaf-local-6-2:42:202,work,"Tööelu, juhtimine ja töötajate õigused",6.2976284,-0.6507026,7,2
-203,Hiina mõju USA kaubandus- ja tarneahelatele,semantic:bge:leaf-local-6-2:42:203,international,"Rahvusvahelised suhted, Euroopa Liit ja humanitaarabi",7.7497597,0.7990973,7,4
-204,Terviseandmete kasutamine ravi ja ennetuse parandamiseks,semantic:bge:leaf-local-6-2:42:204,healthcare,"Tervishoid, ravi ja terviseandmed",2.2759109,2.4676666,2,2
-207,MMS ja seemneõli tervisevildakus,semantic:bge:leaf-local-6-2:42:207,wellbeing,"Vaimne tervis, tervisekäitumine ja ennetus",2.3796463,1.7796663,4,1
-208,Tulemuspõhine tervishoiurahastus ja kaugjälgimine,semantic:bge:leaf-local-6-2:42:208,healthcare,"Tervishoid, ravi ja terviseandmed",2.3716052,2.5689726,2,1
-209,Laste internetikäitumine ja abiotsimine,semantic:bge:leaf-local-6-2:42:209,children,Laste ja noorte kaitse ning toetamine,3.7724082,0.5489627,11,4
-211,Tuuleparkide kaasamise murede tuum,semantic:bge:leaf-local-6-2:42:211,energy,Energeetika ja energiaturud,6.7062683,2.2508497,16,6
-212,kaugkütte elektrifitseerimine ja hinnastamine,semantic:bge:leaf-local-6-2:42:212,energy,Energeetika ja energiaturud,8.6672535,1.617502,10,2
-213,Tuuliku müra normid ja mõõtmised,semantic:bge:leaf-local-6-2:42:213,energy,Energeetika ja energiaturud,6.951646,2.8826394,8,1
-214,välistööjõu kasutamine hooaja- ja lihttöödel,semantic:bge:leaf-local-6-2:42:214,work,"Tööelu, juhtimine ja töötajate õigused",6.2569914,0.49690706,8,1
-215,Laulupeo ja Pätsi ümber käiv väärinfo,semantic:bge:leaf-local-6-2:42:215,media,"Meedia, avalik arutelu ja infokvaliteet",5.4914002,2.6417277,4,1
-216,rohetehnoloogia investeeringute ja turu takistused,semantic:bge:leaf-local-6-2:42:216,climate,"Kliima, rohepööre ja kestlik tarbimine",8.165946,1.4191086,20,12
-217,Erakonnajuhid ja noorte esindajad laval,semantic:bge:leaf-local-6-2:42:217,governance,"Riigijuhtimine, kodanikuühiskond ja õigus",5.6618557,2.2588284,6,3
-218,Töövaidluste kompromissid ja töölepingu vaidlused,semantic:bge:leaf-local-6-2:42:218,work,"Tööelu, juhtimine ja töötajate õigused",1.7754703,0.4442885,12,2
-219,Palestiina ja progressiivsete teemade kallutatud kajastus,semantic:bge:leaf-local-6-2:42:219,media,"Meedia, avalik arutelu ja infokvaliteet",5.0191026,2.3403914,10,2
-220,Bioressursside väärindamise takistused,semantic:bge:leaf-local-6-2:42:220,nature,"Loodus, metsandus ja maavarad",7.993118,1.6632482,9,1
-221,Metsa istandike rajamine ja regulatsioon,semantic:bge:leaf-local-6-2:42:221,nature,"Loodus, metsandus ja maavarad",8.068093,2.675365,4,1
-222,Valgu tootmine kohalike biojääkide pealt,semantic:bge:leaf-local-6-2:42:222,food,"Toit, põllumajandus ja toidujulgeolek",8.131563,1.3482203,5,2
-223,Eleringi vähempakkumised uute elektrivõimsuste jaoks,semantic:bge:leaf-local-6-2:42:223,energy,Energeetika ja energiaturud,8.857402,1.9308978,1,1
-224,Sagedusreservi hange ja liitumistingimused,semantic:bge:leaf-local-6-2:42:224,energy,Energeetika ja energiaturud,9.028989,1.8529924,6,2
-225,hariduse tulevikuala arutelude tutvustus,semantic:bge:leaf-local-6-2:42:225,education,"Haridus, õppimine ja oskused",4.9068685,-0.945237,8,5
-226,raviraha jaotamine patsiendiga kaasa,semantic:bge:leaf-local-6-2:42:226,healthcare,"Tervishoid, ravi ja terviseandmed",2.5020912,2.8122833,4,2
-227,Põlevkivile õigustava teadlase valimine,semantic:bge:leaf-local-6-2:42:227,media,"Meedia, avalik arutelu ja infokvaliteet",8.242813,2.1169834,5,1
-228,ÜRO Julgeolekunõukogu reformiummik,semantic:bge:leaf-local-6-2:42:228,international,"Rahvusvahelised suhted, Euroopa Liit ja humanitaarabi",4.9687014,3.0759864,2,1
-230,Eesti majanduskasvu pidurdavad välis- ja usaldustegurid,semantic:bge:leaf-local-6-2:42:230,economy,"Majandus, ettevõtlus ja innovatsioon",7.235813,0.93325496,5,3
-231,Fosforiidi arutelu ja kogukonna vastuseis,semantic:bge:leaf-local-6-2:42:231,nature,"Loodus, metsandus ja maavarad",7.3213096,2.3979642,13,4
-233,Kaasamise aeglane juhtimine ja valeinfo,semantic:bge:leaf-local-6-2:42:233,governance,"Riigijuhtimine, kodanikuühiskond ja õigus",6.311307,2.398595,4,2
-234,AI muudab üksikettevõtluse lihtsamaks,semantic:bge:leaf-local-6-2:42:234,ai,Tehisintellekt ja digitehnoloogia,6.329555,-1.2512366,1,1
+0,noorte radikaliseerumine ja kuuluvus,semantic:bge:leaf-local-6-2:42:0,children,Laste ja noorte kaitse ning toetamine,3.0570636,0.4591981,8,1
+1,Tööõnnetuste ennetus ja tööohutuse teadlikkus,semantic:bge:leaf-local-6-2:42:1,work,"Tööelu, juhtimine ja töötajate õigused",0.6969988,2.3601377,19,1
+2,Vähiravi patsiendikesksus ja palliatiivne tugi,semantic:bge:leaf-local-6-2:42:2,healthcare,"Tervishoid, ravi ja terviseandmed",2.2936437,2.8117952,2,1
+3,Juhi ja töötaja äärmused organisatsioonis,semantic:bge:leaf-local-6-2:42:3,work,"Tööelu, juhtimine ja töötajate õigused",0.5139144,2.3294945,16,2
+4,"Lasteaia kvaliteet, märkamise ja toetuse roll",semantic:bge:leaf-local-6-2:42:4,education,"Haridus, õppimine ja oskused",0.6554827,0.39813066,1,1
+5,Rohetehnoloogia rahastus ja laenuotsused,semantic:bge:leaf-local-6-2:42:5,climate,"Kliima, rohepööre ja kestlik tarbimine",4.004918,-2.4759018,9,4
+7,Tagasiside ja hinde seos õppimisega,semantic:bge:leaf-local-6-2:42:7,education,"Haridus, õppimine ja oskused",0.92179793,-0.7442707,17,2
+8,Palestiina tunnustamise ja kahe riigi debatt,semantic:bge:leaf-local-6-2:42:8,international,"Rahvusvahelised suhted, Euroopa Liit ja humanitaarabi",4.395998,0.9906536,19,2
+9,AI-assistendi prompti ülesehitus,semantic:bge:leaf-local-6-2:42:9,ai,Tehisintellekt ja digitehnoloogia,1.2910832,-2.557399,1,1
+10,Nõusolek paarisuhtes ja läheduses,semantic:bge:leaf-local-6-2:42:10,family,"Pere, suhted ja sooline võrdsus",1.1448917,1.6750078,3,1
+11,laste nutiekraani ja sotsiaalmeedia sõltuvus,semantic:bge:leaf-local-6-2:42:11,wellbeing,"Vaimne tervis, tervisekäitumine ja ennetus",1.3809006,0.54209065,28,6
+12,sündimuse toetamine läbi perekindluse,semantic:bge:leaf-local-6-2:42:12,family,"Pere, suhted ja sooline võrdsus",0.43597844,1.1181556,16,2
+13,Emaduse karjäärikaod ja naasmine tööle,semantic:bge:leaf-local-6-2:42:13,family,"Pere, suhted ja sooline võrdsus",0.43416032,1.5283184,1,1
+14,Üksilduse vähendamine suhtluse ja kogukonnaga,semantic:bge:leaf-local-6-2:42:14,wellbeing,"Vaimne tervis, tervisekäitumine ja ennetus",2.2518256,1.7322172,2,2
+16,Töökiusamise piiri tõmbamine tööl,semantic:bge:leaf-local-6-2:42:16,work,"Tööelu, juhtimine ja töötajate õigused",0.5194993,2.3870904,22,3
+17,Biogaasi ja vesiniku kasutus Eestis,semantic:bge:leaf-local-6-2:42:17,energy,Energeetika ja energiaturud,4.6684356,-2.7233179,19,4
+18,Töökiusu ja vaidluste piiritlemine töösuhtes,semantic:bge:leaf-local-6-2:42:18,work,"Tööelu, juhtimine ja töötajate õigused",0.64648825,2.530586,12,3
+20,Nutiseadmete kasutuse piiramine koolis,semantic:bge:leaf-local-6-2:42:20,education,"Haridus, õppimine ja oskused",1.1391011,-0.13810667,12,3
+22,Ukraina turule sisenemine kohaliku partneriga,semantic:bge:leaf-local-6-2:42:22,economy,"Majandus, ettevõtlus ja innovatsioon",5.2307487,0.27510977,14,3
+23,õpilasmaleva esimese töökogemuse roll,semantic:bge:leaf-local-6-2:42:23,education,"Haridus, õppimine ja oskused",1.3634106,-0.14358371,2,1
+24,Eesti kliimahoiakud ja rohepöörde skeptitsism,semantic:bge:leaf-local-6-2:42:24,climate,"Kliima, rohepööre ja kestlik tarbimine",4.745828,-1.8187834,23,8
+25,Teadmussiirdedoktorantuuri ettevõtluslik praktilisus,semantic:bge:leaf-local-6-2:42:25,education,"Haridus, õppimine ja oskused",2.4437778,-1.7470134,5,3
+27,Reisiks valmistumine ja turvalisus,semantic:bge:leaf-local-6-2:42:27,place,"Eluase, ruum ja ühendused",2.7961485,-0.15945636,12,1
+28,Täiskasvanute ümberõpe ja õppimise paindlikkus,semantic:bge:leaf-local-6-2:42:28,education,"Haridus, õppimine ja oskused",1.6746688,-0.9998994,16,2
+29,Läänemeremaade julgeolekukoostöö NATO varjus,semantic:bge:leaf-local-6-2:42:29,defence,"Riigikaitse, julgeolek ja kriisivalmidus",4.7976975,0.8597252,14,3
+30,"laste hambaravi, narkoos ja vanema vastutus",semantic:bge:leaf-local-6-2:42:30,healthcare,"Tervishoid, ravi ja terviseandmed",1.5460978,1.7582134,20,1
+31,Valimiste valvamine ja rahastamise läbipaistvus,semantic:bge:leaf-local-6-2:42:31,governance,"Riigijuhtimine, kodanikuühiskond ja õigus",3.992119,0.20613137,17,2
+32,Vererõhu ja südameriski varajane ennetus,semantic:bge:leaf-local-6-2:42:32,wellbeing,"Vaimne tervis, tervisekäitumine ja ennetus",2.5451152,2.8554368,2,1
+33,Kogukonna hääle kaasamine otsustesse,semantic:bge:leaf-local-6-2:42:33,governance,"Riigijuhtimine, kodanikuühiskond ja õigus",4.2531033,-0.365026,14,8
+34,Vabaühenduste rahastamise läbipaistvus ja sõltumatus,semantic:bge:leaf-local-6-2:42:34,governance,"Riigijuhtimine, kodanikuühiskond ja õigus",3.3262448,1.2406099,17,2
+35,Rahvakohtunike ja menetluse tõhustamise vaidlus,semantic:bge:leaf-local-6-2:42:35,governance,"Riigijuhtimine, kodanikuühiskond ja õigus",3.289644,0.38429222,14,1
+36,Lastekodukasvamise kogemus ja märkamise roll,semantic:bge:leaf-local-6-2:42:36,children,Laste ja noorte kaitse ning toetamine,0.7185545,0.7536616,2,1
+37,kliimariski mõju vee- ja soojusvarustusele,semantic:bge:leaf-local-6-2:42:37,climate,"Kliima, rohepööre ja kestlik tarbimine",4.5947814,-3.0979922,4,2
+38,eesti keele õppimine mitmekeelses koolis,semantic:bge:leaf-local-6-2:42:38,education,"Haridus, õppimine ja oskused",2.1606426,-0.26487088,10,2
+39,Vasakpoolsuse ja identiteedi pinged,semantic:bge:leaf-local-6-2:42:39,governance,"Riigijuhtimine, kodanikuühiskond ja õigus",4.087724,0.012972022,19,2
+40,Õige keha- ja seksuaalsõnavara õpetamine,semantic:bge:leaf-local-6-2:42:40,family,"Pere, suhted ja sooline võrdsus",1.1406199,1.1456784,10,1
+41,Laste piltide postitamine vanemate poolt,semantic:bge:leaf-local-6-2:42:41,cyber,"Küberturvalisus, privaatsus ja digiohud",1.2325767,0.7247098,11,1
+42,Idapiirialade eraldi regionaalpoliitika,semantic:bge:leaf-local-6-2:42:42,place,"Eluase, ruum ja ühendused",3.591933,-0.926771,1,1
+44,Tööstuse energiaportfelli ja emissioonide optimeerimine,semantic:bge:leaf-local-6-2:42:44,climate,"Kliima, rohepööre ja kestlik tarbimine",4.443742,-2.8805873,6,3
+45,Lai riigikaitse kodune ja kogukondlik valmisolek,semantic:bge:leaf-local-6-2:42:45,defence,"Riigikaitse, julgeolek ja kriisivalmidus",4.7399535,0.53108305,44,7
+46,laimavate netikommentaaride ja mainekahju vaidlused kohtus,semantic:bge:leaf-local-6-2:42:46,governance,"Riigijuhtimine, kodanikuühiskond ja õigus",3.492328,0.8826072,20,1
+47,Ülekaaluravimite hüvitamine ja elustiil,semantic:bge:leaf-local-6-2:42:47,healthcare,"Tervishoid, ravi ja terviseandmed",2.457352,2.6154413,18,1
+50,Annetuste kasutamine organisatsiooni kuludeks,semantic:bge:leaf-local-6-2:42:50,governance,"Riigijuhtimine, kodanikuühiskond ja õigus",3.2558572,1.5082122,14,2
+52,Narva-ründe ja hübriidohu arutelu,semantic:bge:leaf-local-6-2:42:52,defence,"Riigikaitse, julgeolek ja kriisivalmidus",4.8101254,0.7601513,10,1
+53,koolivõrgu koondamine ja juhtimisotsused,semantic:bge:leaf-local-6-2:42:53,education,"Haridus, õppimine ja oskused",0.86938953,-0.46533105,13,2
+54,Istanbuli konventsiooni vaidlused ja rakendamine,semantic:bge:leaf-local-6-2:42:54,family,"Pere, suhted ja sooline võrdsus",3.9447358,0.9341877,2,1
+55,Püsimetsanduse definitsioon ja valikraie,semantic:bge:leaf-local-6-2:42:55,nature,"Loodus, metsandus ja maavarad",5.583391,-2.0123332,18,1
+56,Noorte koduostu ja üüri kättesaadavus,semantic:bge:leaf-local-6-2:42:56,place,"Eluase, ruum ja ühendused",3.8568466,-1.2418971,1,1
+57,Tugevustel põhinev paindlik koolikorraldus,semantic:bge:leaf-local-6-2:42:57,education,"Haridus, õppimine ja oskused",0.9157826,-0.61605453,13,1
+60,andmejärelevalve ja tehisintellekti piirid,semantic:bge:leaf-local-6-2:42:60,cyber,"Küberturvalisus, privaatsus ja digiohud",1.4405335,-2.6768339,4,3
+61,Elurikkuse krediitide turu kujundamine,semantic:bge:leaf-local-6-2:42:61,nature,"Loodus, metsandus ja maavarad",4.732519,-2.484167,16,1
+62,Rail Balticu ja raudteeühenduste mõju,semantic:bge:leaf-local-6-2:42:62,place,"Eluase, ruum ja ühendused",3.7563467,-1.4329693,2,1
+63,Paroolide ja wifi kaudu levinud küberpettused,semantic:bge:leaf-local-6-2:42:63,cyber,"Küberturvalisus, privaatsus ja digiohud",1.4083234,-2.5310607,14,1
+64,Eesti 2050 ühised unistused ja tulevikunägemus,semantic:bge:leaf-local-6-2:42:64,governance,"Riigijuhtimine, kodanikuühiskond ja õigus",3.3727522,-0.6926957,20,6
+66,NEET-noorte toetamine ja vastutuse jagamine,semantic:bge:leaf-local-6-2:42:66,children,Laste ja noorte kaitse ning toetamine,1.3318415,0.18517482,4,3
+67,Perearsti tööjaotus ja koostöövõrgustik,semantic:bge:leaf-local-6-2:42:67,healthcare,"Tervishoid, ravi ja terviseandmed",2.5218272,3.0540287,22,5
+68,Ettevõtliku hoiakuga kooli ja töö sidumine,semantic:bge:leaf-local-6-2:42:68,education,"Haridus, õppimine ja oskused",1.4427744,-0.71224725,14,3
+69,Kohtla-Järve tuhamägede väetisetehas,semantic:bge:leaf-local-6-2:42:69,nature,"Loodus, metsandus ja maavarad",4.8334274,-2.505259,2,1
+70,Õpiampsud töö- ja enesearengu osana,semantic:bge:leaf-local-6-2:42:70,education,"Haridus, õppimine ja oskused",1.5672373,-1.158879,12,2
+71,Miinimumpalga tõstmise mõju tööle ja vaesusele,semantic:bge:leaf-local-6-2:42:71,work,"Tööelu, juhtimine ja töötajate õigused",3.2198439,-1.6928552,1,1
+72,Metsaomanike kaitse- ja majandusvaidlused,semantic:bge:leaf-local-6-2:42:72,nature,"Loodus, metsandus ja maavarad",5.4317603,-1.892456,18,4
+73,Korteriühistute kogukonnatunde loomine,semantic:bge:leaf-local-6-2:42:73,place,"Eluase, ruum ja ühendused",3.9898047,-0.6280564,19,1
+74,eestikeelse suhtluse ja ühiskeele otsimine,semantic:bge:leaf-local-6-2:42:74,migration,"Ränne, lõimumine ja kuuluvus",2.5935676,-0.20868947,8,4
+75,Tuuleparkide kaasamise usalduskriis,semantic:bge:leaf-local-6-2:42:75,energy,Energeetika ja energiaturud,4.764846,-1.1870201,13,1
+76,Laste ja AI-petuste internetiohud,semantic:bge:leaf-local-6-2:42:76,children,Laste ja noorte kaitse ning toetamine,1.2693197,0.5981751,8,1
+78,Koduloomuuseumi rahastamine ja jätkamine,semantic:bge:leaf-local-6-2:42:78,culture,"Kultuur, loome ja pärand",2.4534311,0.06541696,15,1
+79,"Kodu, kool ja sõbrad kujundavad sallivust",semantic:bge:leaf-local-6-2:42:79,migration,"Ränne, lõimumine ja kuuluvus",1.8293494,-0.05041121,4,2
+80,Varude ja tsiviilkaasatuse sõjaks valmistumine,semantic:bge:leaf-local-6-2:42:80,defence,"Riigikaitse, julgeolek ja kriisivalmidus",5.1187005,0.3159395,9,2
+81,ELi eelarve ja Rail Balticu rahastus,semantic:bge:leaf-local-6-2:42:81,international,"Rahvusvahelised suhted, Euroopa Liit ja humanitaarabi",3.9450812,-1.7308991,12,1
+82,Vanus ja oskused tööelus,semantic:bge:leaf-local-6-2:42:82,work,"Tööelu, juhtimine ja töötajate õigused",0.7399074,1.7975837,7,4
+83,Kaitsekulude tõus ja hanked,semantic:bge:leaf-local-6-2:42:83,defence,"Riigikaitse, julgeolek ja kriisivalmidus",5.005823,0.17279461,28,7
+84,surmaga toimetulek ja sellest rääkimine,semantic:bge:leaf-local-6-2:42:84,healthcare,"Tervishoid, ravi ja terviseandmed",2.2689056,2.3739223,2,1
+85,Koolijuhi strateegiline roll ja vastutus,semantic:bge:leaf-local-6-2:42:85,education,"Haridus, õppimine ja oskused",0.9792793,-0.52388066,17,4
+87,Fosforiidi kaevandamise riskid ja ringfosfor,semantic:bge:leaf-local-6-2:42:87,nature,"Loodus, metsandus ja maavarad",4.9928117,-1.7049087,34,2
+89,Dementsusega hooldekodus vägivalla ja vastutuse arutelu,semantic:bge:leaf-local-6-2:42:89,healthcare,"Tervishoid, ravi ja terviseandmed",2.272192,2.301569,17,1
+90,kaugtöö ja töövälise aja piirid,semantic:bge:leaf-local-6-2:42:90,work,"Tööelu, juhtimine ja töötajate õigused",0.5981075,2.2138693,3,2
+91,Märgalade ja maastike kaitsev roll,semantic:bge:leaf-local-6-2:42:91,defence,"Riigikaitse, julgeolek ja kriisivalmidus",5.3681,-0.9447691,11,1
+93,Eestisse kolijate kuuluvustunne ja kohanemine,semantic:bge:leaf-local-6-2:42:93,migration,"Ränne, lõimumine ja kuuluvus",2.742222,-0.12820734,8,2
+94,planeeringute ja kaasamise venimine,semantic:bge:leaf-local-6-2:42:94,place,"Eluase, ruum ja ühendused",4.072337,-0.94611543,4,2
+95,Veebis lastega suhtlemise seksuaalriskid,semantic:bge:leaf-local-6-2:42:95,children,Laste ja noorte kaitse ning toetamine,1.3407335,0.9568387,3,3
+97,Armeenia ja humanitaarabi rahastuse kärped,semantic:bge:leaf-local-6-2:42:97,international,"Rahvusvahelised suhted, Euroopa Liit ja humanitaarabi",3.8009572,1.7273813,6,1
+98,Vajaduspõhine tudengitoetus ja elamiskulud,semantic:bge:leaf-local-6-2:42:98,education,"Haridus, õppimine ja oskused",2.1215818,-1.2507783,5,2
+100,naiste ajateenistuse laiendamine riigikaitses,semantic:bge:leaf-local-6-2:42:100,defence,"Riigikaitse, julgeolek ja kriisivalmidus",4.894335,0.26837057,16,3
+101,Liikumisharjumuste kujundamine lastel,semantic:bge:leaf-local-6-2:42:101,wellbeing,"Vaimne tervis, tervisekäitumine ja ennetus",0.98486984,0.16409202,15,2
+102,Hispaaniasse kolimise hirm reservväelaste seas,semantic:bge:leaf-local-6-2:42:102,defence,"Riigikaitse, julgeolek ja kriisivalmidus",4.9201927,0.18827572,6,1
+103,üleriigiline planeering ja ruumipoliitika,semantic:bge:leaf-local-6-2:42:103,place,"Eluase, ruum ja ühendused",3.6511607,-0.99706066,3,2
+104,Trumpi mõju USA poliitika ja Ukraina suunal,semantic:bge:leaf-local-6-2:42:104,international,"Rahvusvahelised suhted, Euroopa Liit ja humanitaarabi",4.884522,0.7826058,18,5
+106,Sooneutraalne ajateenistus ja reservi täitmine,semantic:bge:leaf-local-6-2:42:106,defence,"Riigikaitse, julgeolek ja kriisivalmidus",5.162212,0.39336115,18,4
+111,Diabeedi vaimne koormus ja kriis,semantic:bge:leaf-local-6-2:42:111,wellbeing,"Vaimne tervis, tervisekäitumine ja ennetus",2.2654727,2.4621809,13,1
+113,Rohe- ja heaolu­väidete eksitavus reklaamis,semantic:bge:leaf-local-6-2:42:113,media,"Meedia, avalik arutelu ja infokvaliteet",4.409227,-1.9434774,1,1
+114,Sotsiaalmeedia poliitilise arutelu kvaliteet,semantic:bge:leaf-local-6-2:42:114,media,"Meedia, avalik arutelu ja infokvaliteet",3.7088149,0.37484422,3,3
+115,Patsiendi info jagamine ja koostöö,semantic:bge:leaf-local-6-2:42:115,healthcare,"Tervishoid, ravi ja terviseandmed",2.1189196,2.4796321,8,4
+116,Programmeerijaks saamise oskused ja praktikaotsing,semantic:bge:leaf-local-6-2:42:116,education,"Haridus, õppimine ja oskused",1.8887366,-1.857485,11,2
+117,Kaugkütte hinna kujunemine ja püsitasu,semantic:bge:leaf-local-6-2:42:117,energy,Energeetika ja energiaturud,4.5362716,-3.0336642,3,1
+118,Visiooni ja väärtuste vaidlus riigijuhtimises,semantic:bge:leaf-local-6-2:42:118,governance,"Riigijuhtimine, kodanikuühiskond ja õigus",4.1340303,-0.018329047,17,7
+119,Naiste osakaalu suurendamine IKT-s,semantic:bge:leaf-local-6-2:42:119,work,"Tööelu, juhtimine ja töötajate õigused",1.9146032,-1.6214585,18,2
+120,AI odava kasutuselevõtu ja eksporti,semantic:bge:leaf-local-6-2:42:120,ai,Tehisintellekt ja digitehnoloogia,1.6902287,-2.4845302,1,1
+122,Tööülesannete paindlik jaotamine,semantic:bge:leaf-local-6-2:42:122,work,"Tööelu, juhtimine ja töötajate õigused",0.41103956,2.1511774,8,1
+124,Von der Leyeni EL-i eelarve ja maksud,semantic:bge:leaf-local-6-2:42:124,international,"Rahvusvahelised suhted, Euroopa Liit ja humanitaarabi",3.9154346,-1.7997626,18,3
+125,Tubli lapse surve ja märkamine,semantic:bge:leaf-local-6-2:42:125,children,Laste ja noorte kaitse ning toetamine,0.558631,0.56113815,1,1
+126,noorte filmiarutelud ja tagasiside,semantic:bge:leaf-local-6-2:42:126,culture,"Kultuur, loome ja pärand",1.7001143,0.4858653,10,1
+127,Elektribörsi hinnakujunduse jaotumine,semantic:bge:leaf-local-6-2:42:127,energy,Energeetika ja energiaturud,4.9503336,-3.1693468,1,1
+128,Annetuste mõju ja annetamise normaliseerimine,semantic:bge:leaf-local-6-2:42:128,governance,"Riigijuhtimine, kodanikuühiskond ja õigus",3.3283913,1.6039444,22,3
+129,lapsega esmakontakti loomine lastekaitses,semantic:bge:leaf-local-6-2:42:129,children,Laste ja noorte kaitse ning toetamine,0.7106653,0.7290849,10,1
+130,ÜRO reform ja väikeriikide hääl,semantic:bge:leaf-local-6-2:42:130,international,"Rahvusvahelised suhted, Euroopa Liit ja humanitaarabi",4.418638,1.120222,16,4
+131,Haigekassa rahastusmudeli ümbermõtestamine,semantic:bge:leaf-local-6-2:42:131,healthcare,"Tervishoid, ravi ja terviseandmed",2.7763855,3.1746626,17,3
+132,Eesti elektritarbimise ja tootmise sihid,semantic:bge:leaf-local-6-2:42:132,energy,Energeetika ja energiaturud,4.6640296,-2.988817,5,4
+133,Rände integreerimise ja keelepoliitika riskid,semantic:bge:leaf-local-6-2:42:133,migration,"Ränne, lõimumine ja kuuluvus",3.1064267,-0.3383666,15,2
+134,Õpetaja Laura tulevikuõpetuse stsenaariumid,semantic:bge:leaf-local-6-2:42:134,education,"Haridus, õppimine ja oskused",0.9029865,-1.1455384,9,1
+135,Õpilasesinduse sisuline kaasamine,semantic:bge:leaf-local-6-2:42:135,education,"Haridus, õppimine ja oskused",1.2042749,-0.4568806,1,1
+136,Maapiirkondade teenuste ja ühenduste koosplaneerimine,semantic:bge:leaf-local-6-2:42:136,place,"Eluase, ruum ja ühendused",3.5069928,-1.0360981,2,2
+137,AI roll arstide suhtluses ja vähiravis,semantic:bge:leaf-local-6-2:42:137,healthcare,"Tervishoid, ravi ja terviseandmed",2.231065,2.8569453,1,1
+138,Kriisi olukorras otsustamine ja juhtimine,semantic:bge:leaf-local-6-2:42:138,work,"Tööelu, juhtimine ja töötajate õigused",0.36547104,2.437851,4,4
+139,Tehisaru mõju õppimisele ja hindamisele,semantic:bge:leaf-local-6-2:42:139,education,"Haridus, õppimine ja oskused",1.2338463,-1.2728417,15,4
+140,üldplaneeringus haljastuse ja rohekoridoride säilitamine,semantic:bge:leaf-local-6-2:42:140,place,"Eluase, ruum ja ühendused",4.0093036,-1.1080891,9,1
+141,TalTechi energeetikaõpingud ja tööalane suund,semantic:bge:leaf-local-6-2:42:141,education,"Haridus, õppimine ja oskused",2.3268607,-1.7774532,9,2
+142,"Väikeettevõtjate maksud, hanked ja eksport",semantic:bge:leaf-local-6-2:42:142,economy,"Majandus, ettevõtlus ja innovatsioon",3.4746833,-2.3864586,14,5
+143,Terviseidu turuletoomise rahastus ja regulatsioon,semantic:bge:leaf-local-6-2:42:143,healthcare,"Tervishoid, ravi ja terviseandmed",2.9623995,2.9452643,4,2
+144,Minimalistlik ökoeluviis ja piisavus,semantic:bge:leaf-local-6-2:42:144,climate,"Kliima, rohepööre ja kestlik tarbimine",4.230769,-1.5693575,13,2
+145,Õpetajate ja õpilaste AI-kohandumine,semantic:bge:leaf-local-6-2:42:145,education,"Haridus, õppimine ja oskused",1.2500727,-1.4603713,19,5
+146,Inseneeriaõppe ja tehnikahariduse järelkasv,semantic:bge:leaf-local-6-2:42:146,education,"Haridus, õppimine ja oskused",2.6436625,-1.5285699,16,9
+147,Noorte osalus erakondade noortekogudes,semantic:bge:leaf-local-6-2:42:147,governance,"Riigijuhtimine, kodanikuühiskond ja õigus",3.7653966,0.012932849,6,2
+148,Infosõja vastulöök ja väärinfo tõrjumine,semantic:bge:leaf-local-6-2:42:148,media,"Meedia, avalik arutelu ja infokvaliteet",3.979379,0.5634243,24,5
+149,tehisintellekti kirjutatud teadusartiklite usaldus ja hindamine,semantic:bge:leaf-local-6-2:42:149,education,"Haridus, õppimine ja oskused",1.4618396,-2.2515395,1,1
+150,Naiste juhtide ja isade rolliootused,semantic:bge:leaf-local-6-2:42:150,family,"Pere, suhted ja sooline võrdsus",0.51210064,1.677574,1,1
+151,Tervishoiu konkurentsi tasakaal,semantic:bge:leaf-local-6-2:42:151,healthcare,"Tervishoid, ravi ja terviseandmed",2.807629,3.13341,2,1
+152,CO2 kvoodikaubanduse reform ja ETS2,semantic:bge:leaf-local-6-2:42:152,climate,"Kliima, rohepööre ja kestlik tarbimine",4.641956,-2.7825968,6,4
+153,Vähipatsiendi infoedastuse vastutus,semantic:bge:leaf-local-6-2:42:153,healthcare,"Tervishoid, ravi ja terviseandmed",2.227153,2.7610598,1,1
+154,Interneti solvangute ja ähvarduste ohjeldamine,semantic:bge:leaf-local-6-2:42:154,cyber,"Küberturvalisus, privaatsus ja digiohud",3.568995,0.74782175,3,3
+155,AI-agentide vastutus ja kontroll,semantic:bge:leaf-local-6-2:42:155,ai,Tehisintellekt ja digitehnoloogia,1.2637572,-2.6782393,1,1
+156,Meretuuleparkide arendamise kindlustamine,semantic:bge:leaf-local-6-2:42:156,energy,Energeetika ja energiaturud,4.6007075,-3.2401402,3,1
+157,Startup-ökosüsteemi kogukond ja eeskujud,semantic:bge:leaf-local-6-2:42:157,economy,"Majandus, ettevõtlus ja innovatsioon",2.7435799,-2.3155928,2,2
+159,Vabatahtlike hoidmine ja kaasamise barjäärid,semantic:bge:leaf-local-6-2:42:159,governance,"Riigijuhtimine, kodanikuühiskond ja õigus",2.9795737,0.95322275,2,2
+160,Juhitavate elektrivõimsuste vajadus Eestis,semantic:bge:leaf-local-6-2:42:160,energy,Energeetika ja energiaturud,4.772581,-3.0559237,22,3
+161,Ekspordi eetika sanktsiooniriikides,semantic:bge:leaf-local-6-2:42:161,international,"Rahvusvahelised suhted, Euroopa Liit ja humanitaarabi",3.587862,-2.5554383,9,1
+163,Läbipõlemise varajaste märkide märkamine,semantic:bge:leaf-local-6-2:42:163,wellbeing,"Vaimne tervis, tervisekäitumine ja ennetus",0.96716493,2.2546449,17,5
+164,Emadus ja koolikultuur kultuuri kandjana,semantic:bge:leaf-local-6-2:42:164,culture,"Kultuur, loome ja pärand",1.9252157,-0.24972872,9,2
+165,Pätsi ja Vabadussõja ajalooline kasutus,semantic:bge:leaf-local-6-2:42:165,culture,"Kultuur, loome ja pärand",4.448319,0.3142972,5,1
+166,Puidu väärindamine raiemahtu vähendades,semantic:bge:leaf-local-6-2:42:166,nature,"Loodus, metsandus ja maavarad",5.140037,-2.3316069,14,5
+167,metsade tagavara langus ja arvestuslangi vaidlus,semantic:bge:leaf-local-6-2:42:167,nature,"Loodus, metsandus ja maavarad",5.576145,-1.9952228,13,2
+168,Paindlik tööaeg ja kokkulepitud piirid,semantic:bge:leaf-local-6-2:42:168,work,"Tööelu, juhtimine ja töötajate õigused",0.63275766,2.2166238,10,4
+169,Majanduskasvu ja heaolu vaidlus,semantic:bge:leaf-local-6-2:42:169,economy,"Majandus, ettevõtlus ja innovatsioon",3.6981442,-2.0506325,12,9
+171,Tehisintellekti kasutus kooliõppes,semantic:bge:leaf-local-6-2:42:171,education,"Haridus, õppimine ja oskused",1.179251,-1.6321721,17,6
+174,Maksutõusud ja majanduse toimetulek,semantic:bge:leaf-local-6-2:42:174,economy,"Majandus, ettevõtlus ja innovatsioon",3.4134862,-1.897876,9,2
+176,Eesti loodusidentiteet ja kliimaskepsis,semantic:bge:leaf-local-6-2:42:176,climate,"Kliima, rohepööre ja kestlik tarbimine",5.1019034,-1.5580353,3,3
+178,Noorte alkoholiga pidutsemine ja surve,semantic:bge:leaf-local-6-2:42:178,wellbeing,"Vaimne tervis, tervisekäitumine ja ennetus",1.7200655,0.8935838,16,1
+179,Covidijärgne nakkushaiguste seaduse muutmine,semantic:bge:leaf-local-6-2:42:179,healthcare,"Tervishoid, ravi ja terviseandmed",4.4492393,-0.7448264,6,2
+181,Eesti elektritarbimise kasv ja puudujääk,semantic:bge:leaf-local-6-2:42:181,energy,Energeetika ja energiaturud,4.8317184,-3.2509983,2,2
+182,terviseandmete kasutus ja eetikakomitee loa takistused,semantic:bge:leaf-local-6-2:42:182,healthcare,"Tervishoid, ravi ja terviseandmed",3.0044591,3.1421182,2,1
+184,"Noorte veipimise, nikotiini ja salaturu piiramine",semantic:bge:leaf-local-6-2:42:184,wellbeing,"Vaimne tervis, tervisekäitumine ja ennetus",1.8392318,0.8364362,1,1
+185,meeste osa koduses ja lapsehoius,semantic:bge:leaf-local-6-2:42:185,family,"Pere, suhted ja sooline võrdsus",0.49228865,1.3713722,3,1
+186,AI mõju töökorraldusele ja tööturule,semantic:bge:leaf-local-6-2:42:186,ai,Tehisintellekt ja digitehnoloogia,1.6413815,-2.3141944,9,7
+187,Sisserände juhtimine ja talendivajadus,semantic:bge:leaf-local-6-2:42:187,migration,"Ränne, lõimumine ja kuuluvus",2.846875,-1.1116354,14,4
+188,Inseneride nappus ja palga küsimus,semantic:bge:leaf-local-6-2:42:188,education,"Haridus, õppimine ja oskused",2.658924,-1.657532,4,3
+189,kihiline õhukaitse ja mehitamata võimed,semantic:bge:leaf-local-6-2:42:189,defence,"Riigikaitse, julgeolek ja kriisivalmidus",5.1326556,0.38875356,5,2
+190,Eesti hariduse eesmärgid ja sihid,semantic:bge:leaf-local-6-2:42:190,education,"Haridus, õppimine ja oskused",1.4096409,-0.7640369,40,20
+191,Soola vähendamine ja igapäevane liikumine,semantic:bge:leaf-local-6-2:42:191,wellbeing,"Vaimne tervis, tervisekäitumine ja ennetus",1.8155347,1.5333077,4,1
+192,Rahapõhine abi humanitaarkriisides,semantic:bge:leaf-local-6-2:42:192,international,"Rahvusvahelised suhted, Euroopa Liit ja humanitaarabi",3.5420077,2.0944493,5,1
+193,Raudteeühenduse ja ühistranspordi koordineerimine,semantic:bge:leaf-local-6-2:42:193,place,"Eluase, ruum ja ühendused",3.6274557,-1.2582626,1,1
+195,Tervisehoolekande tehnoloogiad ja andmepõhine lõimimine,semantic:bge:leaf-local-6-2:42:195,healthcare,"Tervishoid, ravi ja terviseandmed",2.8302557,2.5911605,13,3
+197,Ajaloolised paralleelid tänapäeva konfliktidele,semantic:bge:leaf-local-6-2:42:197,international,"Rahvusvahelised suhted, Euroopa Liit ja humanitaarabi",4.653493,0.6181154,19,5
+198,Tuulikuinfraheli häirivuse ja tervisemõju vaidlus,semantic:bge:leaf-local-6-2:42:198,energy,Energeetika ja energiaturud,4.843537,-1.0191265,18,2
+199,AI kasutamine töö- ja loometekstide koostamisel,semantic:bge:leaf-local-6-2:42:199,ai,Tehisintellekt ja digitehnoloogia,1.431847,-2.6464248,7,4
+200,Metsa raiemahtude ja kaitse vaidlus,semantic:bge:leaf-local-6-2:42:200,nature,"Loodus, metsandus ja maavarad",5.4482107,-1.8991033,24,6
+201,Eesti majanduskasvu aeglane koordineerimine,semantic:bge:leaf-local-6-2:42:201,economy,"Majandus, ettevõtlus ja innovatsioon",3.5968874,-2.040322,7,2
+202,IT-värbamine ja palgataseme kerked,semantic:bge:leaf-local-6-2:42:202,work,"Tööelu, juhtimine ja töötajate õigused",2.050587,-2.0551364,7,2
+203,Hiina mõju USA kaubandus- ja tarneahelatele,semantic:bge:leaf-local-6-2:42:203,international,"Rahvusvahelised suhted, Euroopa Liit ja humanitaarabi",3.7428691,-2.57081,7,4
+204,Terviseandmete kasutamine ravi ja ennetuse parandamiseks,semantic:bge:leaf-local-6-2:42:204,healthcare,"Tervishoid, ravi ja terviseandmed",2.7547019,2.9849048,2,2
+207,MMS ja seemneõli tervisevildakus,semantic:bge:leaf-local-6-2:42:207,wellbeing,"Vaimne tervis, tervisekäitumine ja ennetus",2.0061207,2.1062715,4,1
+208,Tulemuspõhine tervishoiurahastus ja kaugjälgimine,semantic:bge:leaf-local-6-2:42:208,healthcare,"Tervishoid, ravi ja terviseandmed",2.546621,2.9864523,2,1
+209,Laste internetikäitumine ja abiotsimine,semantic:bge:leaf-local-6-2:42:209,children,Laste ja noorte kaitse ning toetamine,1.1952137,0.6809937,11,4
+211,Tuuleparkide kaasamise murede tuum,semantic:bge:leaf-local-6-2:42:211,energy,Energeetika ja energiaturud,4.602217,-0.9159612,16,6
+212,kaugkütte elektrifitseerimine ja hinnastamine,semantic:bge:leaf-local-6-2:42:212,energy,Energeetika ja energiaturud,4.6331344,-3.1869226,10,2
+213,Tuuliku müra normid ja mõõtmised,semantic:bge:leaf-local-6-2:42:213,energy,Energeetika ja energiaturud,4.9325795,-0.8922456,8,1
+214,välistööjõu kasutamine hooaja- ja lihttöödel,semantic:bge:leaf-local-6-2:42:214,work,"Tööelu, juhtimine ja töötajate õigused",2.7720447,-1.2444509,8,1
+215,Laulupeo ja Pätsi ümber käiv väärinfo,semantic:bge:leaf-local-6-2:42:215,media,"Meedia, avalik arutelu ja infokvaliteet",4.288145,0.37939516,4,1
+216,rohetehnoloogia investeeringute ja turu takistused,semantic:bge:leaf-local-6-2:42:216,climate,"Kliima, rohepööre ja kestlik tarbimine",4.212824,-2.7171311,20,12
+217,Erakonnajuhid ja noorte esindajad laval,semantic:bge:leaf-local-6-2:42:217,governance,"Riigijuhtimine, kodanikuühiskond ja õigus",3.9614735,-0.047583837,6,3
+218,Töövaidluste kompromissid ja töölepingu vaidlused,semantic:bge:leaf-local-6-2:42:218,work,"Tööelu, juhtimine ja töötajate õigused",0.59670234,2.4727945,12,2
+219,Palestiina ja progressiivsete teemade kallutatud kajastus,semantic:bge:leaf-local-6-2:42:219,media,"Meedia, avalik arutelu ja infokvaliteet",3.8349185,0.59671813,10,2
+220,Bioressursside väärindamise takistused,semantic:bge:leaf-local-6-2:42:220,nature,"Loodus, metsandus ja maavarad",4.701173,-2.24281,9,1
+221,Metsa istandike rajamine ja regulatsioon,semantic:bge:leaf-local-6-2:42:221,nature,"Loodus, metsandus ja maavarad",5.4539933,-2.1204054,4,1
+222,Valgu tootmine kohalike biojääkide pealt,semantic:bge:leaf-local-6-2:42:222,food,"Toit, põllumajandus ja toidujulgeolek",4.4972124,-2.447247,5,2
+223,Eleringi vähempakkumised uute elektrivõimsuste jaoks,semantic:bge:leaf-local-6-2:42:223,energy,Energeetika ja energiaturud,4.910444,-3.3340595,1,1
+224,Sagedusreservi hange ja liitumistingimused,semantic:bge:leaf-local-6-2:42:224,energy,Energeetika ja energiaturud,4.7971835,-3.4923596,6,2
+225,hariduse tulevikuala arutelude tutvustus,semantic:bge:leaf-local-6-2:42:225,education,"Haridus, õppimine ja oskused",1.2241178,-0.87321615,8,5
+226,raviraha jaotamine patsiendiga kaasa,semantic:bge:leaf-local-6-2:42:226,healthcare,"Tervishoid, ravi ja terviseandmed",2.633279,3.1669028,4,2
+227,Põlevkivile õigustava teadlase valimine,semantic:bge:leaf-local-6-2:42:227,media,"Meedia, avalik arutelu ja infokvaliteet",4.561738,-2.5482213,5,1
+228,ÜRO Julgeolekunõukogu reformiummik,semantic:bge:leaf-local-6-2:42:228,international,"Rahvusvahelised suhted, Euroopa Liit ja humanitaarabi",4.519966,0.9265582,2,1
+229,Üliõpilaste roll ja kõrghariduse ootused,semantic:bge:leaf-local-6-2:42:229,education,"Haridus, õppimine ja oskused",1.8999153,-1.4108226,1,1
+230,Eesti majanduskasvu pidurdavad välis- ja usaldustegurid,semantic:bge:leaf-local-6-2:42:230,economy,"Majandus, ettevõtlus ja innovatsioon",3.6069078,-2.0737278,5,3
+231,Fosforiidi arutelu ja kogukonna vastuseis,semantic:bge:leaf-local-6-2:42:231,nature,"Loodus, metsandus ja maavarad",5.064292,-1.3288983,12,4
+233,Kaasamise aeglane juhtimine ja valeinfo,semantic:bge:leaf-local-6-2:42:233,governance,"Riigijuhtimine, kodanikuühiskond ja õigus",4.3522806,-0.49478427,4,2
+234,AI muudab üksikettevõtluse lihtsamaks,semantic:bge:leaf-local-6-2:42:234,ai,Tehisintellekt ja digitehnoloogia,1.7246577,-2.541582,1,1
