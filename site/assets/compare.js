@@ -163,10 +163,10 @@
       hovertemplate: "%{y}<br>2025: %{customdata[0]:.2f}%<br>2026: %{customdata[1]:.2f}%<br>Muutus: %{x:+.2f} pp<extra></extra>",
     }], {
       ...siteCommon.chartLayout,
-      height: Math.max(420, rows.length * 28),
+      height: Math.max(320, rows.length * 28 + 70),
       xaxis: { title: `2026 − 2025, ${labels[metric]} (protsendipunkti)`, ticksuffix: " pp", zeroline: true, zerolinewidth: 2, zerolinecolor: "#17322b", gridcolor: "#e7ece9" },
-      yaxis: { automargin: true, ticklabelstandoff: 16 },
-      margin: { l: 280, r: 30, t: 35, b: 60 },
+      yaxis: { automargin: true, ticklabelstandoff: 8 },
+      margin: { l: 280, r: 30, t: 16, b: 42 },
     }, siteCommon.plotConfig);
   }
 

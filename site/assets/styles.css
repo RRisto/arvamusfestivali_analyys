@@ -92,7 +92,8 @@ main { width: min(1320px, calc(100% - 2rem)); margin: 0 auto; padding-bottom: 4r
 .insight-grid article:last-child { background: #fff0ec; border-color: var(--orange); }
 .insight-grid span, .insight-grid strong, .insight-grid small { display: block; }.insight-grid span { color: var(--muted); font-size: .8rem; font-weight: 900; text-transform: uppercase; letter-spacing: .08em; }.insight-grid strong { margin: .3rem 0; font: 700 1.25rem/1.2 Georgia, serif; }.insight-grid small { font-weight: 900; }
 .chart-comparison, .chart-difference { min-height: 40.625rem; }
-.chart-subtopic-difference { min-height: 26.25rem; }
+.chart-subtopic-difference { min-height: 20rem; }
+.subtopic-comparison-section { margin-bottom: 2rem; }
 
 .transcript-intro { display: block; max-width: 68rem; }.transcript-intro h1 { max-width: none; }
 .talk-catalog[hidden], .explorer-layout[hidden], .filter-grid[hidden], #clear-filters[hidden], #back-to-talks[hidden] { display: none !important; }
