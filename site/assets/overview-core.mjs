@@ -246,6 +246,10 @@ function aggregateTopics(segments) {
   return [...topics.entries()].sort(([left], [right]) => left.localeCompare(right, "et"));
 }
 
+function topicDisplayName(topic) {
+  return topic === "Unassigned" ? "Määramata" : topic;
+}
+
 export function buildTreemapLevel(data, selection, metric) {
   if (!selection.categoryId) {
     return data.categories.flatMap((category) => {
@@ -257,7 +261,7 @@ export function buildTreemapLevel(data, selection, metric) {
         id: topic,
         treeId: `topic:${category.id}:${topic}`,
         parent: `category:${category.id}`,
-        label: topic,
+        label: topicDisplayName(topic),
         value: metric === "talks" ? totals.episodes.size : totals.hours,
         displayValue: metric === "talks" ? totals.episodes.size : totals.hours,
         talks: totals.episodes.size,
@@ -288,7 +292,7 @@ export function buildTreemapLevel(data, selection, metric) {
       .map(([topic, totals]) => ({
         level: "topic",
         id: topic,
-        label: topic,
+        label: topicDisplayName(topic),
         value: metric === "talks" ? totals.episodes.size : totals.hours,
         displayValue: metric === "talks" ? totals.episodes.size : totals.hours,
         talks: totals.episodes.size,

@@ -1,6 +1,7 @@
 import { filterSegments, normalizeText, stateToQuery } from "./search-core.mjs";
 
 const MAX_RESULTS = 80;
+const ORPHAN_FRAGMENT_TEXT = new Set(["d.", "st.", "ad.", "s.", "gi.", "eid.", "des.", "ks."]);
 let data;
 let results = [];
 let selectedSegmentId = "";
@@ -8,10 +9,40 @@ let timer;
 
 const elements = {};
 
+function displayTopicName(topic) {
+  return topic === "Unassigned" ? "Määramata" : topic;
+}
+
+function isOrphanFragment(text) {
+  const value = text.trim().toLocaleLowerCase("et");
+  return !/\p{L}/u.test(value) || ORPHAN_FRAGMENT_TEXT.has(value);
+}
+
+function preparePassagesForDisplay(passages) {
+  const prepared = passages.map((passage) => ({ ...passage }));
+  const visible = [];
+  prepared.forEach((passage) => {
+    const text = passage.text || "";
+    const leadingPunctuation = text.match(/^\s*([.!?…]+)\s*/u);
+    if (leadingPunctuation && visible.length) {
+      const previous = visible[visible.length - 1];
+      if (!/[.!?…][\])}"'»”]*\s*$/u.test(previous.text.trimEnd())) {
+        previous.text = `${previous.text.trimEnd()}${leadingPunctuation[1]}`;
+      }
+      passage.text = text.slice(leadingPunctuation[0].length);
+    }
+    if (!isOrphanFragment(passage.text || "")) visible.push(passage);
+  });
+  return visible;
+}
+
 function renderTalkCatalog() {
   const query = normalizeText(elements.query.value.trim());
   const talks = data.talks
     .filter((talk) => (!elements.year.value || String(talk.year) === elements.year.value)
+      && (!elements.category.value || (talk.categories || []).includes(elements.category.value))
+      && (!elements.organizer.value || talk.organizer === elements.organizer.value)
+      && (!elements.talk.value || talk.episode === elements.talk.value)
       && normalizeText(`${talk.title} ${talk.organizer || ""}`).includes(query))
     .sort((a, b) => b.year - a.year || a.title.localeCompare(b.title, "et"));
   elements.talkCount.textContent = siteCommon.formatNumber(talks.length);
@@ -24,6 +55,8 @@ function renderTalkCatalog() {
     return;
   }
   talks.forEach((talk) => {
+    const card = document.createElement("div");
+    card.className = `talk-card-wrap${elements.talk.value === talk.episode ? " selected" : ""}`;
     const button = document.createElement("button");
     button.type = "button";
     button.className = `talk-card${elements.talk.value === talk.episode ? " selected" : ""}`;
@@ -34,7 +67,14 @@ function renderTalkCatalog() {
     meta.textContent = [talk.year, talk.organizer].filter(Boolean).join(" · ");
     button.append(heading, meta);
     button.addEventListener("click", () => openTalk(talk));
-    elements.talkList.append(button);
+    const statsLink = document.createElement("a");
+    statsLink.className = "talk-stats-link";
+    statsLink.href = `diarization/${encodeURIComponent(talk.episode)}-stats.html`;
+    statsLink.target = "_blank";
+    statsLink.rel = "noreferrer";
+    statsLink.textContent = "Kõnelejate statistika ↗";
+    card.append(button, statsLink);
+    elements.talkList.append(card);
   });
 }
 
@@ -46,9 +86,9 @@ function setSearchMode() {
   elements.query.placeholder = inTalk ? "Otsi sõna või fraasi transkriptist…" : "Arutelu pealkiri või korraldaja…";
   elements.searchHelp.textContent = inTalk
     ? "Otsib valitud arutelu transkripti lõikudest; vali tulemus, et liikuda vastava ajastatud kohani."
-    : "Otsing leiab arutelusid pealkirja ja korraldaja järgi. Vali arutelu, et avada kogu transkript.";
-  elements.filterGrid.hidden = !inTalk;
-  document.getElementById("clear-filters").hidden = !inTalk;
+    : "";
+  elements.filterGrid.hidden = false;
+  document.getElementById("clear-filters").hidden = false;
   document.getElementById("back-to-talks").hidden = !inTalk;
 }
 
@@ -124,10 +164,11 @@ function selectSegment(segment, updateUrl = true) {
   const passages = data.segments
     .filter((item) => item.episode === segment.episode)
     .sort((a, b) => a.start - b.start);
+  const displayPassages = preparePassagesForDisplay(passages);
   elements.reader.replaceChildren();
   const article = document.createElement("article");
   article.className = "reader-content";
-  article.innerHTML = `<p class="eyebrow">${segment.year} · ${passages.length} teemalõiku</p><h2 id="reader-title"></h2><p class="reader-meta"></p><p class="reader-participants"></p><p class="speaker-note">Kõnelejatähised on automaatsed ega ole osalejatega nimeliselt kokku viidud.</p><div class="reader-actions"></div><div class="passage-list"></div>`;
+  article.innerHTML = `<p class="eyebrow">${segment.year} · ${displayPassages.length} teemalõiku</p><h2 id="reader-title"></h2><p class="reader-meta"></p><p class="reader-participants"></p><p class="speaker-note">Kõnelejatähised on automaatsed ega ole osalejatega nimeliselt kokku viidud.</p><div class="reader-actions"></div><div class="passage-list"></div>`;
   article.querySelector("h2").textContent = talk?.title || segment.title;
   article.querySelector(".reader-meta").textContent = [segment.organizer, talk?.stage].filter(Boolean).join(" · ");
   const participants = [talk?.moderator && `Moderaator: ${talk.moderator}`, talk?.panelists].filter(Boolean).join("\n");
@@ -135,6 +176,7 @@ function selectSegment(segment, updateUrl = true) {
   participantLine.textContent = participants ? `Osalejad: ${participants}` : "";
   participantLine.hidden = !participants;
   const actions = article.querySelector(".reader-actions");
+  let audioPlayer;
   if (talk?.page) {
     const source = document.createElement("a");
     source.className = "primary-button";
@@ -144,22 +186,49 @@ function selectSegment(segment, updateUrl = true) {
     source.textContent = "Ava salvestuse leht ↗";
     actions.append(source);
   }
+  if (talk) {
+    const stats = document.createElement("a");
+    stats.className = "secondary-button";
+    stats.href = `diarization/${encodeURIComponent(talk.episode)}-stats.html`;
+    stats.target = "_blank";
+    stats.rel = "noreferrer";
+    stats.textContent = "Kõnelejate statistika ↗";
+    actions.append(stats);
+  }
+  if (talk?.audio) {
+    audioPlayer = document.createElement("audio");
+    audioPlayer.className = "transcript-audio-player";
+    audioPlayer.controls = true;
+    audioPlayer.preload = "metadata";
+    audioPlayer.src = talk.audio;
+    audioPlayer.setAttribute("aria-label", "Arutelu helipleier");
+    actions.append(audioPlayer);
+  }
   const list = article.querySelector(".passage-list");
-  passages.forEach((passage) => {
+  displayPassages.forEach((passage) => {
     const section = document.createElement("section");
     section.className = `reader-passage${passage.id === segment.id ? " selected" : ""}`;
     section.dataset.readerSegment = passage.id;
     const passageHead = document.createElement("div");
     passageHead.className = "passage-head";
     const topic = document.createElement("strong");
-    topic.textContent = passage.topic || passage.category;
-    const audio = document.createElement("a");
-    audio.href = passage.audio;
-    audio.target = "_blank";
-    audio.rel = "noreferrer";
-    audio.textContent = `▶ ${formatTime(passage.start)}`;
-    audio.setAttribute("aria-label", `Ajastatud helilink, ${formatTime(passage.start)}`);
-    passageHead.append(topic, audio);
+    topic.textContent = displayTopicName(passage.topic || passage.category);
+    const playButton = document.createElement("button");
+    playButton.type = "button";
+    playButton.className = "passage-play-button";
+    playButton.textContent = `▶ ${formatTime(passage.start)}`;
+    playButton.setAttribute("aria-label", `Esita alates ${formatTime(passage.start)}`);
+    playButton.disabled = !audioPlayer;
+    playButton.addEventListener("click", () => {
+      if (!audioPlayer) return;
+      const seekAndPlay = () => {
+        audioPlayer.currentTime = passage.start;
+        audioPlayer.play().catch(() => {});
+      };
+      if (audioPlayer.readyState >= HTMLMediaElement.HAVE_METADATA) seekAndPlay();
+      else audioPlayer.addEventListener("loadedmetadata", seekAndPlay, { once: true });
+    });
+    passageHead.append(topic, playButton);
     const text = document.createElement("p");
     addHighlightedText(text, passage.text, elements.query.value);
     section.append(passageHead);
@@ -170,7 +239,8 @@ function selectSegment(segment, updateUrl = true) {
       passage.speakers.forEach((speaker) => {
         const chip = document.createElement("span");
         chip.className = "passage-speaker";
-        chip.textContent = `${speaker.name || speaker.id} · ${formatTime(speaker.seconds)}`;
+        const speakerLabel = speaker.name || (speaker.id === "UNASSIGNED" ? "Määramata" : speaker.id);
+        chip.textContent = `${speakerLabel} · ${formatTime(speaker.seconds)}`;
         speakers.append(chip);
       });
       section.append(speakers);

@@ -16,9 +16,21 @@ import {
   const common = window.siteCommon;
   try {
     const data = await common.fetchJson("data/overview.json");
-    document.getElementById("metric-talks").textContent = common.formatNumber(data.metrics.talks);
-    document.getElementById("metric-segments").textContent = common.formatNumber(data.metrics.segments);
-    document.getElementById("metric-categories").textContent = common.formatNumber(data.metrics.categories);
+    const yearFilter = document.getElementById("overview-year");
+    let viewData = buildYearView(data, yearFilter.value);
+    function updateMetrics() {
+      document.getElementById("metric-talks").textContent = common.formatNumber(
+        new Set(viewData.scatter.map((item) => item.episode)).size,
+      );
+      document.getElementById("metric-segments").textContent = common.formatNumber(viewData.scatter.length);
+      document.getElementById("metric-categories").textContent = common.formatNumber(
+        viewData.categories.filter((category) => category.segments > 0).length,
+      );
+      document.getElementById("metric-subtopics").textContent = common.formatNumber(
+        new Set(viewData.scatter.map((item) => item.topic).filter(Boolean)).size,
+      );
+    }
+    updateMetrics();
 
     let treemapMetric = "talks";
     let treemapReady = false;
@@ -28,13 +40,12 @@ import {
 
     function renderTreemapBreadcrumb() {
       treemapBreadcrumb.replaceChildren();
-      const category = data.categories.find((item) => item.id === treemapSelection.categoryId);
-      const crumbs = [
-        { label: "Kõik põhiteemad", categoryId: "", topic: "" },
-      ];
+      const category = viewData.categories.find((item) => item.id === treemapSelection.categoryId);
+      const crumbs = [];
       if (category) crumbs.push({ label: category.name, categoryId: category.id, topic: "" });
       if (treemapSelection.topic) {
-        crumbs.push({ label: treemapSelection.topic, categoryId: category.id, topic: treemapSelection.topic });
+        const label = treemapSelection.topic === "Unassigned" ? "Määramata" : treemapSelection.topic;
+        crumbs.push({ label, categoryId: category.id, topic: treemapSelection.topic });
       }
       crumbs.forEach((crumb, index) => {
         if (index) {
@@ -62,7 +73,7 @@ import {
       treemap.classList.remove("chart-loading");
       if (!treemap.classList.contains("js-plotly-plot")) treemap.textContent = "";
       const isTalks = treemapMetric === "talks";
-      const nodes = buildTreemapLevel(data, treemapSelection, treemapMetric);
+      const nodes = buildTreemapLevel(viewData, treemapSelection, treemapMetric);
       renderTreemapBreadcrumb();
       document.getElementById("treemap-help").textContent = treemapSelection.topic
         ? "Klõpsa lõigul, et avada täpne koht transkriptis ja ajastatud helilink."
@@ -116,20 +127,23 @@ import {
     });
 
     const scatter = document.getElementById("scatter-chart");
+    let activeScatterView = "topics";
+    let scatterReady = false;
     function renderScatter(scatterView) {
       scatter.classList.remove("chart-loading");
       if (!scatter.classList.contains("js-plotly-plot")) scatter.textContent = "";
       if (scatterView === "topics") {
-        const bubbles = buildTopicBubbles(data.scatter, data.categories);
-        document.getElementById("scatter-description").textContent = "Iga mull on üks alamteema. Asukoht põhineb selle lõikude keskpunktil, suurus arutelude arvul ja värv põhiteemal.";
-        document.getElementById("scatter-help").textContent = "Hõljuta kõigi alamteemade nimede nägemiseks. Mull avab vastavad lõigud transkriptiotsingus.";
-        const traces = buildTopicScatterTraces(bubbles, data.categories);
+        const bubbles = buildTopicBubbles(viewData.scatter, viewData.categories);
+        document.getElementById("scatter-description").textContent = "Iga mull on üks alamteema. Asukoht näitab sarnasust teiste teemadega, suurus arutelude arvu ja värv põhiteemat.";
+        document.getElementById("scatter-help").textContent = "Mullil klõpsamine avab vastavad lõigud transkriptiotsingus.";
+        const traces = buildTopicScatterTraces(bubbles, viewData.categories);
         return Plotly.react(scatter, traces, buildTopicScatterLayout(common.chartLayout), common.plotConfig).then((plot) => {
           plot.removeAllListeners("plotly_click");
           plot.on("plotly_click", (event) => {
             const [category, , topic] = event.points[0]?.customdata || [];
             if (category && topic) {
               const params = new URLSearchParams({ category, q: topic });
+              if (yearFilter.value !== "all") params.set("year", yearFilter.value);
               location.href = `transcripts.html?${params}`;
             }
           });
@@ -139,12 +153,12 @@ import {
       document.getElementById("scatter-description").textContent = "Iga punkt on üks semantiline lõik. Lähedus näitab tekstilist sarnasust, värv põhiteemat. Kahemõõtmeline kaugus on ligikaudne.";
       document.getElementById("scatter-help").textContent = "Hõljuta lisainfo nägemiseks. Punkt avab valitud lõigu ja ajastatud helilingi.";
       const grouped = new Map();
-      data.scatter.forEach((row) => {
+      viewData.scatter.forEach((row) => {
         if (!grouped.has(row.category_id)) grouped.set(row.category_id, []);
         grouped.get(row.category_id).push(row);
       });
       const traces = [...grouped.entries()].map(([categoryId, rows]) => {
-        const category = data.categories.find((item) => item.id === categoryId);
+        const category = viewData.categories.find((item) => item.id === categoryId);
         return {
           type: "scattergl",
           mode: "markers",
@@ -167,7 +181,7 @@ import {
         plot.removeAllListeners("plotly_click");
         plot.on("plotly_click", (event) => {
           const segment = event.points[0]?.customdata?.[0];
-          const row = data.scatter.find((item) => item.id === segment);
+          const row = viewData.scatter.find((item) => item.id === segment);
           if (row) location.href = `transcripts.html?episode=${encodeURIComponent(row.episode)}&segment=${encodeURIComponent(row.id)}`;
         });
       });
@@ -175,6 +189,7 @@ import {
     const scatterController = createLazyViewController("topics", renderScatter);
     document.querySelectorAll("[data-scatter-view]").forEach((button) => {
       button.addEventListener("click", () => {
+        activeScatterView = button.dataset.scatterView;
         scatterController.setView(button.dataset.scatterView);
         document.querySelectorAll("[data-scatter-view]").forEach((candidate) => {
           const selected = candidate === button;
@@ -183,7 +198,10 @@ import {
         });
       });
     });
-    common.observeOnce(scatter, () => scatterController.mount());
+    common.observeOnce(scatter, () => {
+      scatterReady = true;
+      scatterController.mount();
+    });
 
     const cooccurrenceChart = document.getElementById("cooccurrence-chart");
     const cooccurrenceScroll = document.getElementById("cooccurrence-scroll");
@@ -194,8 +212,8 @@ import {
       if (!cooccurrenceChart.classList.contains("js-plotly-plot")) cooccurrenceChart.textContent = "";
       const isSubtopics = cooccurrenceView === "subtopics";
       const matrix = isSubtopics
-        ? buildSubtopicCooccurrenceMatrix(data.scatter, data.categories)
-        : buildTopicCooccurrenceMatrix(data.scatter, data.categories);
+        ? buildSubtopicCooccurrenceMatrix(viewData.scatter, viewData.categories)
+        : buildTopicCooccurrenceMatrix(viewData.scatter, viewData.categories);
       const labels = isSubtopics ? matrix.labels : matrix.names;
       const layout = buildCooccurrenceLayout(common.chartLayout, isSubtopics, labels.length);
       cooccurrenceScroll.classList.toggle("subtopics-active", isSubtopics);
@@ -206,10 +224,10 @@ import {
         : "Põhiteemade koosesinemise heatmap");
       document.getElementById("cooccurrence-description").textContent = isSubtopics
         ? `Maatriksis on ${labels.length} alamteemat, millel on teiste alamteemadega kokku vähemalt 3 koosesinemist. Iga paar loetakse ühe arutelu kohta ainult üks kord.`
-        : "Iga lahter näitab, mitmes erinevas arutelus kaks põhiteemat koos esinesid. Diagonaal on jäetud tühjaks ning „Määramata” lõigud on välja jäetud.";
+        : "Iga lahter näitab, mitmes erinevas arutelus kaks teemat koos esinesid. „Määramata” teemaga lõigud on välja jäetud.";
       document.getElementById("cooccurrence-help").textContent = isSubtopics
         ? "Keri maatriksit mõlemas suunas. Hõljuta lahtril alamteemade ja täpse arvu nägemiseks."
-        : "Tumedam lahter tähendab rohkem ühiseid arutelusid. Hõljuta lahtril teemade ja täpse arvu nägemiseks.";
+        : "Tumedam lahter tähendab rohkem ühiseid arutelusid.";
       const hover = matrix.z.map((row, rowIndex) => row.map((talks, columnIndex) =>
         rowIndex === columnIndex
           ? ""
@@ -245,14 +263,15 @@ import {
     });
 
     const organizerChart = document.getElementById("organizer-chart");
-    common.observeOnce(organizerChart, () => {
+    let organizerReady = false;
+    function renderOrganizer() {
       organizerChart.classList.remove("chart-loading");
-      organizerChart.textContent = "";
-      const organizers = [...new Set(data.organizer_topics.map((row) => row.organizer))];
-      const categories = data.categories.filter((category) => data.organizer_topics.some((row) => row.category === category.id));
-      const lookup = new Map(data.organizer_topics.map((row) => [`${row.organizer}\u0000${row.category}`, row.talks]));
+      if (!organizerChart.classList.contains("js-plotly-plot")) organizerChart.textContent = "";
+      const organizers = [...new Set(viewData.organizer_topics.map((row) => row.organizer))];
+      const categories = viewData.categories.filter((category) => viewData.organizer_topics.some((row) => row.category === category.id));
+      const lookup = new Map(viewData.organizer_topics.map((row) => [`${row.organizer}\u0000${row.category}`, row.talks]));
       const z = organizers.map((organizer) => categories.map((category) => lookup.get(`${organizer}\u0000${category.id}`) || 0));
-      Plotly.newPlot(organizerChart, [{
+      Plotly.react(organizerChart, [{
         type: "heatmap",
         x: categories.map((row) => row.name),
         y: organizers,
@@ -269,13 +288,67 @@ import {
         xaxis: { tickangle: -35, side: "bottom", automargin: true },
         yaxis: { automargin: true },
         margin: { l: 230, r: 30, t: 20, b: 180 },
-      }, common.plotConfig);
-      organizerChart.on("plotly_click", (event) => {
-        const [organizer, category] = event.points[0]?.customdata || [];
-        if (organizer && category) location.href = `transcripts.html?category=${encodeURIComponent(category)}&organizer=${encodeURIComponent(organizer)}`;
+      }, common.plotConfig).then((plot) => {
+        plot.removeAllListeners("plotly_click");
+        plot.on("plotly_click", (event) => {
+          const [organizer, category] = event.points[0]?.customdata || [];
+          if (organizer && category) {
+            const params = new URLSearchParams({ category, organizer });
+            if (yearFilter.value !== "all") params.set("year", yearFilter.value);
+            location.href = `transcripts.html?${params}`;
+          }
+        });
       });
+    }
+    common.observeOnce(organizerChart, () => {
+      organizerReady = true;
+      renderOrganizer();
+    });
+
+    yearFilter.addEventListener("change", () => {
+      viewData = buildYearView(data, yearFilter.value);
+      treemapSelection.categoryId = "";
+      treemapSelection.topic = "";
+      updateMetrics();
+      if (treemapReady) renderTreemap();
+      if (scatterReady) scatterController.setView(activeScatterView);
+      if (cooccurrenceReady) renderCooccurrence();
+      if (organizerReady) renderOrganizer();
     });
   } catch (error) {
     common.showError(error);
   }
 })();
+
+function buildYearView(data, year) {
+  const scatter = year === "all"
+    ? data.scatter
+    : data.scatter.filter((row) => String(row.year) === String(year));
+  const categories = data.categories.map((category) => {
+    const rows = scatter.filter((row) => row.category_id === category.id);
+    return {
+      ...category,
+      segments: rows.length,
+      talks: new Set(rows.map((row) => row.episode)).size,
+      hours: rows.reduce(
+        (total, row) => total + (Number(row.end) - Number(row.start)) / 3600,
+        0,
+      ),
+    };
+  });
+  const organizerEpisodes = new Map();
+  scatter.forEach((row) => {
+    const key = `${row.organizer}\u0000${row.category_id}`;
+    if (!organizerEpisodes.has(key)) organizerEpisodes.set(key, new Set());
+    organizerEpisodes.get(key).add(row.episode);
+  });
+  const organizer_topics = [...organizerEpisodes].map(([key, episodes]) => {
+    const separator = key.indexOf("\u0000");
+    return {
+      organizer: key.slice(0, separator),
+      category: key.slice(separator + 1),
+      talks: episodes.size,
+    };
+  });
+  return { ...data, scatter, categories, organizer_topics };
+}

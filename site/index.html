@@ -4,19 +4,19 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Arvamusfestivali transkribeeritud arutelude teemade jaotus, teemakaart ning korraldajate seosed.">
-  <title>Arvamusfestivali teemavaade · Ülevaade</title>
+  <title>Arvamusfestivali ülevaade</title>
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23123b31'/%3E%3Ccircle cx='16' cy='16' r='8' fill='%23f4b942'/%3E%3Cpath d='M16 7v18M7 16h18' stroke='%23123b31' stroke-width='3'/%3E%3C/svg%3E">
   <link rel="stylesheet" href="assets/styles.css">
   <script src="https://cdn.plot.ly/plotly-3.1.0.min.js" defer></script>
   <script src="assets/common.js" defer></script>
-  <script type="module" src="assets/overview.js?v=topic-subtopics4"></script>
+  <script type="module" src="assets/overview.js?v=overview-year-filter1"></script>
 </head>
 <body data-page="overview">
   <a class="skip-link" href="#main-content">Liigu sisu juurde</a>
   <header class="site-header">
-    <a class="brand" href="index.html" aria-label="Arvamusfestivali teemavaade, avaleht">
+    <a class="brand" href="index.html" aria-label="Arvamusfestivali ülevaade, avaleht">
       <span class="brand-mark" aria-hidden="true">✦</span>
-      <span>Arvamusfestivali <strong>teemavaade</strong></span>
+      <span>Arvamusfestivali <strong>ülevaade</strong></span>
     </a>
     <nav class="primary-nav" aria-label="Põhinavigatsioon">
       <a href="index.html" data-nav="overview">Ülevaade</a>
@@ -28,9 +28,7 @@
   <main id="main-content">
     <section class="page-intro compact-intro">
       <div>
-        <p class="eyebrow">Arvamusfestivali teemaanalüüs</p>
         <h1>Millest festivalil räägiti?</h1>
-        <p class="lede">Vaata, kui laialt teemad aruteludes levisid, kui palju salvestusaega neile kulus ja millised korraldajad neid käsitlesid.</p>
       </div>
       <a class="search-shortcut" href="transcripts.html">
         <span aria-hidden="true">⌕</span>
@@ -38,21 +36,30 @@
       </a>
     </section>
 
+    <div class="overview-year-toolbar">
+      <label for="overview-year">Aasta</label>
+      <select id="overview-year" aria-label="Filtreeri ülevaadet aasta järgi">
+        <option value="all">Kõik aastad</option>
+        <option value="2025">2025</option>
+        <option value="2026">2026</option>
+      </select>
+    </div>
+
     <div id="page-error" class="notice error-notice" role="alert" aria-live="polite" hidden></div>
 
     <section class="metric-grid" aria-label="Andmestiku põhinäitajad">
       <article class="metric-card"><strong id="metric-talks">—</strong><span>arutelu</span></article>
       <article class="metric-card"><strong id="metric-segments">—</strong><span>teemalõiku</span></article>
       <article class="metric-card"><strong id="metric-categories">—</strong><span>põhiteemat</span></article>
-      <article class="metric-card accent-card"><strong>2</strong><span>võrreldavat aastat</span></article>
+      <article class="metric-card"><strong id="metric-subtopics">—</strong><span>alamteemat</span></article>
     </section>
 
     <section class="chart-section" id="distribution">
       <div class="section-heading">
-        <div><p class="section-number">01</p><h2>Teemade jaotus</h2><p>Üks vaade, kaks mõõdikut. Arutelude arv näitab teema ulatust; salvestusaeg näitab sellele pühendatud mahtu.</p></div>
+        <div><h2>Teemade jaotus</h2><p>Arutelude arv näitab arutelusid, kus seda teemat puudutati; ajaline kestvus näitab teemale pühendatud lõikude ajalist kestvust.</p></div>
         <div class="segmented-control" role="group" aria-label="Treemapi mõõdik">
           <button class="active" type="button" data-metric="talks" aria-pressed="true">Arutelude arv</button>
-          <button type="button" data-metric="hours" aria-pressed="false">Salvestusaeg</button>
+          <button type="button" data-metric="hours" aria-pressed="false">Ajaline kestvus</button>
         </div>
       </div>
       <div class="chart-card">
@@ -64,7 +71,7 @@
 
     <section class="chart-section" id="topic-map">
       <div class="section-heading">
-        <div><p class="section-number">02</p><h2>Teemade 2D kaart</h2><p id="scatter-description">Iga mull on üks alamteema. Asukoht põhineb selle lõikude keskpunktil, suurus arutelude arvul ja värv põhiteemal.</p></div>
+        <div><h2>Teemade 2D kaart</h2><p id="scatter-description">Iga mull on üks alamteema. Asukoht näitab sarnasust teiste teemadega, suurus arutelude arvu ja värv põhiteemat.</p></div>
         <div class="segmented-control" role="group" aria-label="2D kaardi vaade">
           <button class="active" type="button" data-scatter-view="topics" aria-pressed="true">Alamteemad</button>
           <button type="button" data-scatter-view="segments" aria-pressed="false">Teemalõigud</button>
@@ -72,13 +79,13 @@
       </div>
       <div class="chart-card">
         <div id="scatter-chart" class="chart chart-scatter" role="img" aria-label="Teemade 2D kaart"></div>
-        <p id="scatter-help" class="chart-help">Hõljuta lisainfo nägemiseks. Mull avab valitud põhiteema transkriptivaates.</p>
+        <p id="scatter-help" class="chart-help">Mullil klõpsamine avab vastavad lõigud transkriptiotsingus.</p>
       </div>
     </section>
 
     <section class="chart-section" id="cooccurrences">
       <div class="section-heading">
-        <div><p class="section-number">03</p><h2>Teemade koosesinemine</h2><p id="cooccurrence-description">Iga lahter näitab, mitmes erinevas arutelus kaks põhiteemat koos esinesid. Diagonaal on jäetud tühjaks ning „Määramata” lõigud on välja jäetud.</p></div>
+        <div><h2>Teemade koosesinemine</h2><p id="cooccurrence-description">Iga lahter näitab, mitmes erinevas arutelus kaks teemat koos esinesid. „Määramata” teemaga lõigud on välja jäetud.</p></div>
         <div class="segmented-control" role="group" aria-label="Koosesinemise vaade">
           <button class="active" type="button" data-cooccurrence-view="categories" aria-pressed="true">Põhiteemad</button>
           <button type="button" data-cooccurrence-view="subtopics" aria-pressed="false">Kõik alamteemad</button>
@@ -86,13 +93,13 @@
       </div>
       <div class="chart-card">
         <div id="cooccurrence-scroll" class="cooccurrence-scroll"><div id="cooccurrence-chart" class="chart chart-cooccurrence chart-loading" role="img" aria-label="Põhiteemade koosesinemise heatmap">Laen joonist…</div></div>
-        <p id="cooccurrence-help" class="chart-help">Tumedam lahter tähendab rohkem ühiseid arutelusid. Hõljuta lahtril teemade ja täpse arvu nägemiseks.</p>
+        <p id="cooccurrence-help" class="chart-help">Tumedam lahter tähendab rohkem ühiseid arutelusid.</p>
       </div>
     </section>
 
     <section class="chart-section" id="organizers">
       <div class="section-heading">
-        <div><p class="section-number">04</p><h2>Teemad ja korraldajad</h2><p>Maatriks loendab erinevaid arutelusid, mitte lõike. Nii ei muuda pikem transkript korraldajat kunstlikult suuremaks.</p></div>
+        <div><h2>Teemad ja korraldajad</h2><p>Tabel näitab mitu valitud teemal arutelu korraldaja organiseeris.</p></div>
       </div>
       <div class="chart-card">
         <div id="organizer-chart" class="chart chart-heatmap" role="img" aria-label="Teemade ja korraldajate seosed"></div>
