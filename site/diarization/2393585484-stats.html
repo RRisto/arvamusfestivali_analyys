@@ -1,7 +1,7 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8">
+<html lang="et"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Hinded ja heaolu – kas kool hindab õigesti_ — discussion statistics</title>
+<title>Hinded ja heaolu – kas kool hindab õigesti_ — arutelu statistika</title>
 <script src="https://cdn.plot.ly/plotly-3.1.0.min.js" defer></script>
 <style>
 :root{font-family:Inter,ui-sans-serif,system-ui,sans-serif;color:#172033;background:#f5f7fb}
@@ -24,32 +24,38 @@ main{padding:18px 0 54px}
 h2{margin:4px 0 0;font-size:1.22rem}
 .chart{min-height:300px}
 .note{color:#59657a}
+.topic-modes{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0}
+.topic-modes button{border:1px solid #c9d2e0;border-radius:8px;padding:8px 12px;
+  background:white;color:#243047;font:inherit;font-weight:700;cursor:pointer}
+.topic-modes button[aria-pressed="true"]{background:#2458c6;color:white;border-color:#2458c6}
 @media(max-width:600px){header,main{width:calc(100% - 20px)}
   .chart{min-height:250px}}
 </style></head><body>
-<header><p><a href="2393585484.html">← Listen and read transcript</a></p><h1>Hinded ja heaolu – kas kool hindab õigesti_</h1>
-<p class="meta">Conversation statistics · <span id="organizer"></span></p>
+<header><p><a href="../transcripts.html?episode=2393585484">← Ava arutelu transkript</a></p><h1>Hinded ja heaolu – kas kool hindab õigesti_</h1>
+<p class="meta">Arutelu statistika · <span id="organizer"></span></p>
 <div id="summary" class="summary"></div></header>
 <div class="player"><audio id="audio" controls preload="metadata"></audio></div>
 <main>
 <section class="chart-card">
-<h2>Participation over time</h2>
-<p class="note">Ten-minute windows advance every five minutes. Turns crossing a window
-boundary are divided by overlap. Click the chart to seek the recording.</p>
+<h2>Kõnelejate osalus ajas</h2>
+<p class="note">Kümneminutiline aken liigub viie minuti kaupa. Aknapiiri ületavad kõnevoorud
+jagatakse kestuse järgi. Salvestisesse hüppamiseks klõpsa graafikul.</p>
 <div id="participation" class="chart"></div><div id="equality" class="chart"></div>
 </section>
 <section class="chart-card">
-<h2>Speaker–topic participation</h2>
-<p class="note">Each cell shows the speaker’s share of aligned speech within that
-high-level topic.</p>
+<h2>Kõnelejate teemajaotus</h2>
+<p class="note">Lahter näitab kõneleja osa selle teema kõneajast.</p>
+<div class="topic-modes" role="group" aria-label="Teemade detailsus">
+<button id="detailed-topics" type="button" aria-pressed="true">Alamteemad</button>
+<button id="high-level-topics" type="button" aria-pressed="false">Põhiteemad</button>
+</div>
 <div id="speaker-topic" class="chart"></div>
-<p id="no-topics" class="note" hidden>No matching topic assignments are available
-for this discussion.</p>
+<p id="no-topics" class="note" hidden>Selle arutelu kohta pole teemamääranguid.</p>
 </section>
 <section class="chart-card">
-<h2>Turn-transition structure</h2>
-<p class="note">Adjacent runs by the same speaker are collapsed. Rows show the share
-of each speaker’s outgoing turns passed to another speaker.</p>
+<h2>Kõnelejate vahetumise struktuur</h2>
+<p class="note">Kõrvuti sama kõneleja voorud koondatakse. Read näitavad, kui sageli
+läheb kõnejärg ühelt kõnelejalt teisele.</p>
 <div id="transitions" class="chart"></div>
 </section>
 </main><script src="../assets/discussion-stats.js" defer></script>

@@ -55,7 +55,7 @@
         0.40337248469279874,
         0.4602736750651644
       ],
-      "SPEAKER_06": [
+      "Silver Sillak": [
         0.3760921460316185,
         0.18238382199760445,
         0.23600562093799346,
@@ -180,49 +180,104 @@
     }
   },
   "speaker_topic": {
-    "speakers": [
-      "SPEAKER_04",
-      "SPEAKER_01",
-      "SPEAKER_06",
-      "SPEAKER_05",
-      "SPEAKER_02",
-      "SPEAKER_03",
-      "SPEAKER_00"
-    ],
-    "topics": [
-      "Kliima, rohepööre ja kestlik tarbimine",
-      "Rahvusvahelised suhted, Euroopa Liit ja humanitaarabi"
-    ],
-    "shares": [
-      [
-        0.25400093733624673,
-        1.0
+    "high_level": {
+      "speakers": [
+        "SPEAKER_04",
+        "SPEAKER_01",
+        "Silver Sillak",
+        "SPEAKER_05",
+        "SPEAKER_02",
+        "SPEAKER_03",
+        "SPEAKER_00"
       ],
-      [
-        0.24146078814890093,
-        0.0
+      "topics": [
+        "Kliima, rohepööre ja kestlik tarbimine",
+        "Rahvusvahelised suhted, Euroopa Liit ja humanitaarabi"
       ],
-      [
-        0.20677701679486302,
-        0.0
-      ],
-      [
-        0.18524420696780458,
-        0.0
-      ],
-      [
-        0.09409451949574917,
-        0.0
-      ],
-      [
-        0.017179060642276534,
-        0.0
-      ],
-      [
-        0.0012434706141590725,
-        0.0
+      "shares": [
+        [
+          0.25400093733624673,
+          1.0
+        ],
+        [
+          0.24146078814890093,
+          0.0
+        ],
+        [
+          0.20677701679486302,
+          0.0
+        ],
+        [
+          0.18524420696780458,
+          0.0
+        ],
+        [
+          0.09409451949574917,
+          0.0
+        ],
+        [
+          0.017179060642276534,
+          0.0
+        ],
+        [
+          0.0012434706141590725,
+          0.0
+        ]
       ]
-    ]
+    },
+    "detailed": {
+      "speakers": [
+        "SPEAKER_04",
+        "SPEAKER_01",
+        "Silver Sillak",
+        "SPEAKER_05",
+        "SPEAKER_02",
+        "SPEAKER_03",
+        "SPEAKER_00"
+      ],
+      "topics": [
+        "CO2 kvoodikaubanduse reform ja ETS2",
+        "Eesti kliimahoiakud ja rohepöörde skeptitsism",
+        "Hiina mõju USA kaubandus- ja tarneahelatele"
+      ],
+      "shares": [
+        [
+          0.2036327899962724,
+          0.9061021039076053,
+          1.0
+        ],
+        [
+          0.2601111650808356,
+          0.0,
+          0.0
+        ],
+        [
+          0.21915818526174655,
+          0.046481774123437625,
+          0.0
+        ],
+        [
+          0.19955242782176935,
+          0.0,
+          0.0
+        ],
+        [
+          0.10136235900409538,
+          0.0,
+          0.0
+        ],
+        [
+          0.014843556830747267,
+          0.04741612196895713,
+          0.0
+        ],
+        [
+          0.0013395160045333876,
+          0.0,
+          0.0
+        ]
+      ]
+    }
   },
   "transitions": {
     "speakers": [
@@ -232,7 +287,7 @@
       "SPEAKER_03",
       "SPEAKER_04",
       "SPEAKER_05",
-      "SPEAKER_06"
+      "Silver Sillak"
     ],
     "shares": [
       [

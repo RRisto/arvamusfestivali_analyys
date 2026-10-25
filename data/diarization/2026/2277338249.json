@@ -6,7 +6,7 @@
   "speakers": [
     "SPEAKER_00",
     "SPEAKER_01",
-    "SPEAKER_02",
+    "SPEAKER_13",
     "SPEAKER_03",
     "SPEAKER_04",
     "SPEAKER_05",
@@ -16,8 +16,7 @@
     "SPEAKER_09",
     "SPEAKER_10",
     "SPEAKER_11",
-    "SPEAKER_12",
-    "SPEAKER_13"
+    "SPEAKER_12"
   ],
   "turns": [
     {
@@ -468,67 +467,67 @@
     {
       "start_seconds": 814.351,
       "end_seconds": 823.666,
-      "speaker": "SPEAKER_02"
+      "speaker": "SPEAKER_13"
     },
     {
       "start_seconds": 824.83,
       "end_seconds": 827.632,
-      "speaker": "SPEAKER_02"
+      "speaker": "SPEAKER_13"
     },
     {
       "start_seconds": 827.716,
       "end_seconds": 833.707,
-      "speaker": "SPEAKER_02"
+      "speaker": "SPEAKER_13"
     },
     {
       "start_seconds": 834.061,
       "end_seconds": 854.243,
-      "speaker": "SPEAKER_02"
+      "speaker": "SPEAKER_13"
     },
     {
       "start_seconds": 854.294,
       "end_seconds": 857.99,
-      "speaker": "SPEAKER_02"
+      "speaker": "SPEAKER_13"
     },
     {
       "start_seconds": 858.26,
       "end_seconds": 860.538,
-      "speaker": "SPEAKER_02"
+      "speaker": "SPEAKER_13"
     },
     {
       "start_seconds": 861.179,
       "end_seconds": 875.742,
-      "speaker": "SPEAKER_02"
+      "speaker": "SPEAKER_13"
     },
     {
       "start_seconds": 876.299,
       "end_seconds": 924.528,
-      "speaker": "SPEAKER_02"
+      "speaker": "SPEAKER_13"
     },
     {
       "start_seconds": 924.798,
       "end_seconds": 937.032,
-      "speaker": "SPEAKER_02"
+      "speaker": "SPEAKER_13"
     },
     {
       "start_seconds": 937.15,
       "end_seconds": 942.128,
-      "speaker": "SPEAKER_02"
+      "speaker": "SPEAKER_13"
     },
     {
       "start_seconds": 942.753,
       "end_seconds": 993.243,
-      "speaker": "SPEAKER_02"
+      "speaker": "SPEAKER_13"
     },
     {
       "start_seconds": 993.682,
       "end_seconds": 1007.468,
-      "speaker": "SPEAKER_02"
+      "speaker": "SPEAKER_13"
     },
     {
       "start_seconds": 1007.671,
       "end_seconds": 1014.1,
-      "speaker": "SPEAKER_02"
+      "speaker": "SPEAKER_13"
     },
     {
       "start_seconds": 1016.665,
@@ -723,52 +722,52 @@
     {
       "start_seconds": 1463.245,
       "end_seconds": 1469.101,
-      "speaker": "SPEAKER_02"
+      "speaker": "SPEAKER_13"
     },
     {
       "start_seconds": 1472.611,
       "end_seconds": 1486.398,
-      "speaker": "SPEAKER_02"
+      "speaker": "SPEAKER_13"
     },
     {
       "start_seconds": 1486.786,
       "end_seconds": 1563.803,
-      "speaker": "SPEAKER_02"
+      "speaker": "SPEAKER_13"
     },
     {
       "start_seconds": 1564.664,
       "end_seconds": 1587.412,
-      "speaker": "SPEAKER_02"
+      "speaker": "SPEAKER_13"
     },
     {
       "start_seconds": 1588.255,
       "end_seconds": 1602.785,
-      "speaker": "SPEAKER_02"
+      "speaker": "SPEAKER_13"
     },
     {
       "start_seconds": 1603.19,
       "end_seconds": 1614.833,
-      "speaker": "SPEAKER_02"
+      "speaker": "SPEAKER_13"
     },
     {
       "start_seconds": 1614.884,
       "end_seconds": 1614.901,
-      "speaker": "SPEAKER_02"
+      "speaker": "SPEAKER_13"
     },
     {
       "start_seconds": 1615.576,
       "end_seconds": 1625.448,
-      "speaker": "SPEAKER_02"
+      "speaker": "SPEAKER_13"
     },
     {
       "start_seconds": 1625.684,
       "end_seconds": 1630.544,
-      "speaker": "SPEAKER_02"
+      "speaker": "SPEAKER_13"
     },
     {
       "start_seconds": 1631.0,
       "end_seconds": 1651.857,
-      "speaker": "SPEAKER_02"
+      "speaker": "SPEAKER_13"
     },
     {
       "start_seconds": 1651.857,
@@ -778,47 +777,47 @@
     {
       "start_seconds": 1652.178,
       "end_seconds": 1664.902,
-      "speaker": "SPEAKER_02"
+      "speaker": "SPEAKER_13"
     },
     {
       "start_seconds": 1665.104,
       "end_seconds": 1676.393,
-      "speaker": "SPEAKER_02"
+      "speaker": "SPEAKER_13"
     },
     {
       "start_seconds": 1676.967,
       "end_seconds": 1686.282,
-      "speaker": "SPEAKER_02"
+      "speaker": "SPEAKER_13"
     },
     {
       "start_seconds": 1686.451,
       "end_seconds": 1690.568,
-      "speaker": "SPEAKER_02"
+      "speaker": "SPEAKER_13"
     },
     {
       "start_seconds": 1691.311,
       "end_seconds": 1695.597,
-      "speaker": "SPEAKER_02"
+      "speaker": "SPEAKER_13"
     },
     {
       "start_seconds": 1696.087,
       "end_seconds": 1719.037,
-      "speaker": "SPEAKER_02"
+      "speaker": "SPEAKER_13"
     },
     {
       "start_seconds": 1719.34,
       "end_seconds": 1778.622,
-      "speaker": "SPEAKER_02"
+      "speaker": "SPEAKER_13"
     },
     {
       "start_seconds": 1778.977,
       "end_seconds": 1780.867,
-      "speaker": "SPEAKER_02"
+      "speaker": "SPEAKER_13"
     },
     {
       "start_seconds": 1781.997,
       "end_seconds": 1802.551,
-      "speaker": "SPEAKER_02"
+      "speaker": "SPEAKER_13"
     },
     {
       "start_seconds": 1803.412,
@@ -1018,32 +1017,32 @@
     {
       "start_seconds": 2107.33,
       "end_seconds": 2111.06,
-      "speaker": "SPEAKER_02"
+      "speaker": "SPEAKER_13"
     },
     {
       "start_seconds": 2111.228,
       "end_seconds": 2132.255,
-      "speaker": "SPEAKER_02"
+      "speaker": "SPEAKER_13"
     },
     {
       "start_seconds": 2132.592,
       "end_seconds": 2141.502,
-      "speaker": "SPEAKER_02"
+      "speaker": "SPEAKER_13"
     },
     {
       "start_seconds": 2141.857,
       "end_seconds": 2147.003,
-      "speaker": "SPEAKER_02"
+      "speaker": "SPEAKER_13"
     },
     {
       "start_seconds": 2147.105,
       "end_seconds": 2151.526,
-      "speaker": "SPEAKER_02"
+      "speaker": "SPEAKER_13"
     },
     {
       "start_seconds": 2151.914,
       "end_seconds": 2155.643,
-      "speaker": "SPEAKER_02"
+      "speaker": "SPEAKER_13"
     },
     {
       "start_seconds": 2155.643,
@@ -1053,7 +1052,7 @@
     {
       "start_seconds": 2157.112,
       "end_seconds": 2157.162,
-      "speaker": "SPEAKER_02"
+      "speaker": "SPEAKER_13"
     },
     {
       "start_seconds": 2157.162,
@@ -1063,7 +1062,7 @@
     {
       "start_seconds": 2158.057,
       "end_seconds": 2158.968,
-      "speaker": "SPEAKER_02"
+      "speaker": "SPEAKER_13"
     },
     {
       "start_seconds": 2158.968,
@@ -1378,7 +1377,7 @@
     {
       "start_seconds": 2872.713,
       "end_seconds": 2883.682,
-      "speaker": "SPEAKER_02"
+      "speaker": "SPEAKER_13"
     },
     {
       "start_seconds": 2883.682,
@@ -1398,7 +1397,7 @@
     {
       "start_seconds": 2893.553,
       "end_seconds": 2902.531,
-      "speaker": "SPEAKER_02"
+      "speaker": "SPEAKER_13"
     },
     {
       "start_seconds": 2904.505,
@@ -1513,42 +1512,42 @@
     {
       "start_seconds": 3163.199,
       "end_seconds": 3169.882,
-      "speaker": "SPEAKER_02"
+      "speaker": "SPEAKER_13"
     },
     {
       "start_seconds": 3170.54,
       "end_seconds": 3178.184,
-      "speaker": "SPEAKER_02"
+      "speaker": "SPEAKER_13"
     },
     {
       "start_seconds": 3178.387,
       "end_seconds": 3178.724,
-      "speaker": "SPEAKER_02"
+      "speaker": "SPEAKER_13"
     },
     {
       "start_seconds": 3179.095,
       "end_seconds": 3196.662,
-      "speaker": "SPEAKER_02"
+      "speaker": "SPEAKER_13"
     },
     {
       "start_seconds": 3196.797,
       "end_seconds": 3201.758,
-      "speaker": "SPEAKER_02"
+      "speaker": "SPEAKER_13"
     },
     {
       "start_seconds": 3201.995,
       "end_seconds": 3211.799,
-      "speaker": "SPEAKER_02"
+      "speaker": "SPEAKER_13"
     },
     {
       "start_seconds": 3212.137,
       "end_seconds": 3214.634,
-      "speaker": "SPEAKER_02"
+      "speaker": "SPEAKER_13"
     },
     {
       "start_seconds": 3214.904,
       "end_seconds": 3216.203,
-      "speaker": "SPEAKER_02"
+      "speaker": "SPEAKER_13"
     },
     {
       "start_seconds": 3216.676,
@@ -1558,17 +1557,17 @@
     {
       "start_seconds": 3217.351,
       "end_seconds": 3218.802,
-      "speaker": "SPEAKER_02"
+      "speaker": "SPEAKER_13"
     },
     {
       "start_seconds": 3219.106,
       "end_seconds": 3220.237,
-      "speaker": "SPEAKER_02"
+      "speaker": "SPEAKER_13"
     },
     {
       "start_seconds": 3220.507,
       "end_seconds": 3239.525,
-      "speaker": "SPEAKER_02"
+      "speaker": "SPEAKER_13"
     },
     {
       "start_seconds": 3242.056,
@@ -1588,7 +1587,7 @@
     {
       "start_seconds": 3280.447,
       "end_seconds": 3282.843,
-      "speaker": "SPEAKER_02"
+      "speaker": "SPEAKER_13"
     },
     {
       "start_seconds": 3283.248,
@@ -1598,7 +1597,7 @@
     {
       "start_seconds": 3284.564,
       "end_seconds": 3284.648,
-      "speaker": "SPEAKER_02"
+      "speaker": "SPEAKER_13"
     },
     {
       "start_seconds": 3285.678,
@@ -2053,72 +2052,72 @@
     {
       "start_seconds": 4755.76,
       "end_seconds": 4757.667,
-      "speaker": "SPEAKER_02"
+      "speaker": "SPEAKER_13"
     },
     {
       "start_seconds": 4758.123,
       "end_seconds": 4767.978,
-      "speaker": "SPEAKER_02"
+      "speaker": "SPEAKER_13"
     },
     {
       "start_seconds": 4770.34,
       "end_seconds": 4770.948,
-      "speaker": "SPEAKER_02"
+      "speaker": "SPEAKER_13"
     },
     {
       "start_seconds": 4772.112,
       "end_seconds": 4813.642,
-      "speaker": "SPEAKER_02"
+      "speaker": "SPEAKER_13"
     },
     {
       "start_seconds": 4813.962,
       "end_seconds": 4841.722,
-      "speaker": "SPEAKER_02"
+      "speaker": "SPEAKER_13"
     },
     {
       "start_seconds": 4842.008,
       "end_seconds": 4846.075,
-      "speaker": "SPEAKER_02"
+      "speaker": "SPEAKER_13"
     },
     {
       "start_seconds": 4846.43,
       "end_seconds": 4847.628,
-      "speaker": "SPEAKER_02"
+      "speaker": "SPEAKER_13"
     },
     {
       "start_seconds": 4848.337,
       "end_seconds": 4864.148,
-      "speaker": "SPEAKER_02"
+      "speaker": "SPEAKER_13"
     },
     {
       "start_seconds": 4864.435,
       "end_seconds": 4907.939,
-      "speaker": "SPEAKER_02"
+      "speaker": "SPEAKER_13"
     },
     {
       "start_seconds": 4908.698,
       "end_seconds": 4912.107,
-      "speaker": "SPEAKER_02"
+      "speaker": "SPEAKER_13"
     },
     {
       "start_seconds": 4913.103,
       "end_seconds": 4929.775,
-      "speaker": "SPEAKER_02"
+      "speaker": "SPEAKER_13"
     },
     {
       "start_seconds": 4930.265,
       "end_seconds": 4938.162,
-      "speaker": "SPEAKER_02"
+      "speaker": "SPEAKER_13"
     },
     {
       "start_seconds": 4938.365,
       "end_seconds": 4973.127,
-      "speaker": "SPEAKER_02"
+      "speaker": "SPEAKER_13"
     },
     {
       "start_seconds": 4975.574,
       "end_seconds": 5010.809,
-      "speaker": "SPEAKER_02"
+      "speaker": "SPEAKER_13"
     },
     {
       "start_seconds": 5011.332,
@@ -2128,7 +2127,7 @@
     {
       "start_seconds": 5039.058,
       "end_seconds": 5039.902,
-      "speaker": "SPEAKER_02"
+      "speaker": "SPEAKER_13"
     },
     {
       "start_seconds": 5042.416,
@@ -3749,7 +3748,7 @@
       "start_seconds": 814.52,
       "end_seconds": 818.64,
       "text": "Jah, siin võib seda näidet veel kasutada.",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 4.12,
       "speaker_share": 1.0
     },
@@ -3757,7 +3756,7 @@
       "start_seconds": 818.64,
       "end_seconds": 822.84,
       "text": "Sinu näidet siis seda kui, vabandust.",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 4.2,
       "speaker_share": 1.0
     },
@@ -3765,7 +3764,7 @@
       "start_seconds": 822.84,
       "end_seconds": 830.28,
       "text": "Kuidas ja arutleda selle üle, et missugused eesmärgid seatakse liikumisele ja",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 6.192,
       "speaker_share": 0.8323
     },
@@ -3773,7 +3772,7 @@
       "start_seconds": 830.28,
       "end_seconds": 835.68,
       "text": ", ja selles episoodis, eks ole, eesmärgiseadjaks on, on õpetaja ja, ja me võime siis",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 5.046,
       "speaker_share": 0.9344
     },
@@ -3781,7 +3780,7 @@
       "start_seconds": 835.68,
       "end_seconds": 839.64,
       "text": "eristada, eks ole, seda, et eesmärgi võib seada nii-öelda absoluutskaalal, nagu seda",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 3.96,
       "speaker_share": 1.0
     },
@@ -3789,7 +3788,7 @@
       "start_seconds": 839.64,
       "end_seconds": 843.32,
       "text": "siis selles episoodis väga paljudes teistes episoodides, mis meile meelde tulevad, teha",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 3.68,
       "speaker_share": 1.0
     },
@@ -3797,7 +3796,7 @@
       "start_seconds": 843.32,
       "end_seconds": 844.08,
       "text": "kse, eks ole.",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 0.76,
       "speaker_share": 1.0
     },
@@ -3805,7 +3804,7 @@
       "start_seconds": 844.08,
       "end_seconds": 848.12,
       "text": "Et öeldakse, et on mingisugused sekundid, mingisugused meetrid, kust alates tulevad mingi",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 4.04,
       "speaker_share": 1.0
     },
@@ -3813,7 +3812,7 @@
       "start_seconds": 848.12,
       "end_seconds": 849.28,
       "text": "d hinded.",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 1.16,
       "speaker_share": 1.0
     },
@@ -3821,7 +3820,7 @@
       "start_seconds": 849.28,
       "end_seconds": 853.68,
       "text": "Aga et eesmärki võib seada ka teisiti ja sina tõid siis näite teisest eesmärgiseadest",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 4.4,
       "speaker_share": 1.0
     },
@@ -3829,7 +3828,7 @@
       "start_seconds": 853.68,
       "end_seconds": 856.8,
       "text": ", mis on, ei ole absoluuts kallal, on suhtelisel skaalal.",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 3.069,
       "speaker_share": 0.9837
     },
@@ -3837,7 +3836,7 @@
       "start_seconds": 856.8,
       "end_seconds": 863.24,
       "text": "On minu taseme suhtes, eks ole, et eesmärk ei ole mitte kaks meetrit, vaid eesmärk on",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 5.529,
       "speaker_share": 0.8585
     },
@@ -3845,7 +3844,7 @@
       "start_seconds": 863.24,
       "end_seconds": 865.76,
       "text": "kümme protsenti rohkem kui, kui üleeile.",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 2.52,
       "speaker_share": 1.0
     },
@@ -3853,7 +3852,7 @@
       "start_seconds": 865.76,
       "end_seconds": 873.92,
       "text": "Ja ma arvan, et, et see paralleel sellega, et igasuguses arengus pingutus on",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 8.16,
       "speaker_share": 1.0
     },
@@ -3861,7 +3860,7 @@
       "start_seconds": 873.92,
       "end_seconds": 881.32,
       "text": "vajalik, on nagu siia väga hästi seostatav, et on jah, pingutus vajalik,",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 6.843,
       "speaker_share": 0.9247
     },
@@ -3869,7 +3868,7 @@
       "start_seconds": 881.32,
       "end_seconds": 885.68,
       "text": "aga nüüd see pingutus muutub seesmiselt motiveerivaks siis, kui ta on, on parasjagu jõu",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 4.36,
       "speaker_share": 1.0
     },
@@ -3877,7 +3876,7 @@
       "start_seconds": 885.68,
       "end_seconds": 891.88,
       "text": "kohane, eks ole, et, et kui ülesanne on mulle liiga lihtne, siis minu seesmine motiva",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 6.2,
       "speaker_share": 1.0
     },
@@ -3885,7 +3884,7 @@
       "start_seconds": 891.88,
       "end_seconds": 893.48,
       "text": "tsioon väga ei käivitu.",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 1.6,
       "speaker_share": 1.0
     },
@@ -3893,7 +3892,7 @@
       "start_seconds": 893.48,
       "end_seconds": 897.8,
       "text": "Võib-olla tööinimesed teavad seda hästi, et on mingi osa oma tööst, mida te võib-olla",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 4.32,
       "speaker_share": 1.0
     },
@@ -3901,7 +3900,7 @@
       "start_seconds": 897.8,
       "end_seconds": 901.8,
       "text": "teete, sellepärast et, et mõtlete väga elavalt selle peale, kuidas palk jookseb, et.",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 4.0,
       "speaker_share": 1.0
     },
@@ -3909,7 +3908,7 @@
       "start_seconds": 901.8,
       "end_seconds": 906.0,
       "text": "Aga et noh, mingit seesmist siukest tungi, et prooviks, kas ma saaks selle emaili veel",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 4.2,
       "speaker_share": 1.0
     },
@@ -3917,7 +3916,7 @@
       "start_seconds": 906.0,
       "end_seconds": 907.28,
       "text": "ilusamini kirjutada.",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 1.28,
       "speaker_share": 1.0
     },
@@ -3925,7 +3924,7 @@
       "start_seconds": 907.28,
       "end_seconds": 909.28,
       "text": "Et, et seda nagu ei teki.",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 2.0,
       "speaker_share": 1.0
     },
@@ -3933,7 +3932,7 @@
       "start_seconds": 909.28,
       "end_seconds": 915.4,
       "text": "Ja teine äärmus on siis see, et ülesanne on, on jaburalt raske, et, et minu isiklik ko",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 6.12,
       "speaker_share": 1.0
     },
@@ -3941,7 +3940,7 @@
       "start_seconds": 915.4,
       "end_seconds": 921.28,
       "text": "gemus on ka kehalise tunnist ikkagi see, et noh, need, need nagu viie standardid olid",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 5.88,
       "speaker_share": 1.0
     },
@@ -3949,7 +3948,7 @@
       "start_seconds": 921.28,
       "end_seconds": 925.08,
       "text": ", noh et ei ole küsimus, ma võin rohkem pingutada, võin vähem pingutada.",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 3.53,
       "speaker_share": 0.9289
     },
@@ -3957,7 +3956,7 @@
       "start_seconds": 925.08,
       "end_seconds": 926.84,
       "text": "Et see ei ole mulle kättesaadav.",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 1.76,
       "speaker_share": 1.0
     },
@@ -3965,7 +3964,7 @@
       "start_seconds": 926.84,
       "end_seconds": 930.64,
       "text": "Et see, mis mind motiveerib, on, eks ole, tõesti see, et, et kas ma saaks täna rohkem",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 3.8,
       "speaker_share": 1.0
     },
@@ -3973,7 +3972,7 @@
       "start_seconds": 930.64,
       "end_seconds": 932.16,
       "text": "kui eile.",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 1.52,
       "speaker_share": 1.0
     },
@@ -3981,7 +3980,7 @@
       "start_seconds": 932.16,
       "end_seconds": 936.56,
       "text": "Ja on veel muid võimalusi, kui ma tahtsin siin selle ära illustreerida ja siis siduda",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 4.4,
       "speaker_share": 1.0
     },
@@ -3989,7 +3988,7 @@
       "start_seconds": 936.56,
       "end_seconds": 939.88,
       "text": "korra võib-olla Aave sellega, mis sina ütlesid, ma ei tea, kas sa oled sellega nõus,",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 3.202,
       "speaker_share": 0.9645
     },
@@ -3997,7 +3996,7 @@
       "start_seconds": 939.88,
       "end_seconds": 944.88,
       "text": "et, et, et see on minu meelest väga oluline, teie ees, ma olen Aavelt selle.",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 4.375,
       "speaker_share": 0.875
     },
@@ -4005,7 +4004,7 @@
       "start_seconds": 944.88,
       "end_seconds": 947.84,
       "text": "Enamus asju, mis ma teile täna räägin, ma olen Aavelt õppinud.",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 2.96,
       "speaker_share": 1.0
     },
@@ -4013,7 +4012,7 @@
       "start_seconds": 947.84,
       "end_seconds": 954.8,
       "text": "Et, et see vahetu kogemus liikumisest, liikumise ajal võib-olla ka nagu vahetult enne",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 6.96,
       "speaker_share": 1.0
     },
@@ -4021,7 +4020,7 @@
       "start_seconds": 954.8,
       "end_seconds": 957.88,
       "text": ", vahetult pärast, et sihuke kompott-tundeid on nagu oluline.",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 3.08,
       "speaker_share": 1.0
     },
@@ -4029,7 +4028,7 @@
       "start_seconds": 957.88,
       "end_seconds": 961.44,
       "text": "Et see on, see on nüüd väga tähtis ja nüüd me võime küsida, aga kust see tunne tuleb",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 3.56,
       "speaker_share": 1.0
     },
@@ -4037,7 +4036,7 @@
       "start_seconds": 961.44,
       "end_seconds": 965.44,
       "text": ", et miks siis on nii, et liikumise ajal on halb või hea tunne ja nüüd ma arvan, et see",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 4.0,
       "speaker_share": 1.0
     },
@@ -4045,7 +4044,7 @@
       "start_seconds": 965.44,
       "end_seconds": 969.6,
       "text": "tunne võib tulla väga mitmetest erinevatest kohtadest ja üks nendest kohtadest on see",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 4.16,
       "speaker_share": 1.0
     },
@@ -4053,7 +4052,7 @@
       "start_seconds": 969.6,
       "end_seconds": 975.76,
       "text": "selline eesmärk, mida ma oma fookuses pean, kui ma parasjagu seda liikumist teen.",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 6.16,
       "speaker_share": 1.0
     },
@@ -4061,7 +4060,7 @@
       "start_seconds": 975.76,
       "end_seconds": 981.12,
       "text": "Et kui, kui see eesmärk on seotud näiteks selle enesearenguga, siis võib see tunne minna",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 5.36,
       "speaker_share": 1.0
     },
@@ -4069,7 +4068,7 @@
       "start_seconds": 981.12,
       "end_seconds": 982.84,
       "text": ", eks ole, positiivseks.",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 1.72,
       "speaker_share": 1.0
     },
@@ -4077,7 +4076,7 @@
       "start_seconds": 982.84,
       "end_seconds": 989.28,
       "text": "Ja, ja ma üldse ei alahindaks seda, et, et kui seal fookuses on noh, näiteks teised inimesed",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 6.44,
       "speaker_share": 1.0
     },
@@ -4085,7 +4084,7 @@
       "start_seconds": 989.28,
       "end_seconds": 996.56,
       "text": ", et, et ma arvan, et sellised nagu paljud liikumisvormid, mille",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 6.841,
       "speaker_share": 0.9397
     },
@@ -4093,7 +4092,7 @@
       "start_seconds": 996.56,
       "end_seconds": 999.52,
       "text": "juurde inimesed jäävad, on mingis mõttes sotsiaalsed.",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 2.96,
       "speaker_share": 1.0
     },
@@ -4101,7 +4100,7 @@
       "start_seconds": 999.52,
       "end_seconds": 1004.96,
       "text": "Kas nad on siis nagu meeskonnaga või, või rühmaga, eks ole, või nad on isegi kui nad",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 5.44,
       "speaker_share": 1.0
     },
@@ -4109,7 +4108,7 @@
       "start_seconds": 1004.96,
       "end_seconds": 1009.44,
       "text": "on individuaalalad, aga seda tehakse mingis kogukonnas, et sellest kogukonnast tulene",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 4.277,
       "speaker_share": 0.9547
     },
@@ -4117,7 +4116,7 @@
       "start_seconds": 1009.44,
       "end_seconds": 1014.36,
       "text": "v selline sisend on see, mis nagu hakkab keerama seda tunnet lõppkokkuvõttes positiivse",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 4.66,
       "speaker_share": 0.9472
     },
@@ -4973,7 +4972,7 @@
       "start_seconds": 1464.04,
       "end_seconds": 1473.0,
       "text": "Aitäh küsimuse eest, jah, muidugi võin lihtsate sõnadega seletada.",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 5.45,
       "speaker_share": 0.6083
     },
@@ -4981,7 +4980,7 @@
       "start_seconds": 1473.0,
       "end_seconds": 1479.56,
       "text": "Võtame, mulle millegipärast tuli, tuli sihuke nagu tehnokraatlik metafoor.",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 6.56,
       "speaker_share": 1.0
     },
@@ -4989,7 +4988,7 @@
       "start_seconds": 1479.56,
       "end_seconds": 1486.12,
       "text": "Et kujutame ette, et ajus on selline üleni must, sihuke hästi modernne klaviatuur, kus",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 6.56,
       "speaker_share": 1.0
     },
@@ -4997,7 +4996,7 @@
       "start_seconds": 1486.12,
       "end_seconds": 1488.24,
       "text": "klahvid on alt valgustatud.",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 1.732,
       "speaker_share": 0.817
     },
@@ -5005,7 +5004,7 @@
       "start_seconds": 1488.24,
       "end_seconds": 1493.16,
       "text": "Et sa algul ei näe üldse, mis klahve klahvid seal on ja siis ja siis vaikselt keeratakse",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 4.92,
       "speaker_share": 1.0
     },
@@ -5013,7 +5012,7 @@
       "start_seconds": 1493.16,
       "end_seconds": 1494.08,
       "text": "valgus peale.",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 0.92,
       "speaker_share": 1.0
     },
@@ -5021,7 +5020,7 @@
       "start_seconds": 1494.08,
       "end_seconds": 1499.96,
       "text": "Et me võime ette kujutada seda hetke, kus aju otsustab, et mida ta nüüd teeb mingisuguse",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 5.88,
       "speaker_share": 1.0
     },
@@ -5029,7 +5028,7 @@
       "start_seconds": 1499.96,
       "end_seconds": 1507.28,
       "text": "s olukorras, et kas ma haaran nutitelefoni järgi või ma ei tea, lähen jalutama või veel",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 7.32,
       "speaker_share": 1.0
     },
@@ -5037,7 +5036,7 @@
       "start_seconds": 1507.28,
       "end_seconds": 1512.52,
       "text": "enam, ma arvan, mulle väga meeldis see Kadi, sinu nagu lauale toodud laiendus siia, et",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 5.24,
       "speaker_share": 1.0
     },
@@ -5045,7 +5044,7 @@
       "start_seconds": 1512.52,
       "end_seconds": 1517.12,
       "text": "me kindlasti ei pea rääkima täna liikumisest, mida tehakse noh, justkui ainult liiku",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 4.6,
       "speaker_share": 1.0
     },
@@ -5053,7 +5052,7 @@
       "start_seconds": 1517.12,
       "end_seconds": 1521.0,
       "text": "mise pärast, niisugusest organiseeritud spordist, me võime rääkida ka kõigist liikumise",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 3.88,
       "speaker_share": 1.0
     },
@@ -5061,7 +5060,7 @@
       "start_seconds": 1521.0,
       "end_seconds": 1525.96,
       "text": "st, mida tehakse mingite muude eesmärkide nimel, näiteks tööle saada või kooli saada",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 4.96,
       "speaker_share": 1.0
     },
@@ -5069,7 +5068,7 @@
       "start_seconds": 1525.96,
       "end_seconds": 1531.32,
       "text": "või poodi saada, eks ju, et kas ma hommikul lähen autoga või lähen rattaga.",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 5.36,
       "speaker_share": 1.0
     },
@@ -5077,7 +5076,7 @@
       "start_seconds": 1531.32,
       "end_seconds": 1539.04,
       "text": "Ja nüüd need variandid on siis need klahvid, mis sellel minu sügavmusal pla",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 7.72,
       "speaker_share": 1.0
     },
@@ -5085,7 +5084,7 @@
       "start_seconds": 1539.04,
       "end_seconds": 1543.12,
       "text": "tool hakkavad nagu mingisugust nagu eredust omandama.",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 4.08,
       "speaker_share": 1.0
     },
@@ -5093,7 +5092,7 @@
       "start_seconds": 1543.12,
       "end_seconds": 1546.6,
       "text": "Ja üldiselt see vastus sellele, et kuidas aju otsuseid teeb, on see, et, et aju lõpu",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 3.48,
       "speaker_share": 1.0
     },
@@ -5101,7 +5100,7 @@
       "start_seconds": 1546.6,
       "end_seconds": 1550.24,
       "text": "ks otsustab selle teguviisi kasuks, mis muutub seal kõige eredamaks.",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 3.64,
       "speaker_share": 1.0
     },
@@ -5109,7 +5108,7 @@
       "start_seconds": 1550.24,
       "end_seconds": 1556.04,
       "text": "Nüüd miks, mis, mis asjad muudavad klahve seal platool eredaks?",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 5.8,
       "speaker_share": 1.0
     },
@@ -5117,7 +5116,7 @@
       "start_seconds": 1556.04,
       "end_seconds": 1561.16,
       "text": "Esimene filter on, on see, et, et millised tegevused on üldse nagu siin olukorras võimalik",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 5.12,
       "speaker_share": 1.0
     },
@@ -5125,7 +5124,7 @@
       "start_seconds": 1561.16,
       "end_seconds": 1562.44,
       "text": "ud.",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 1.28,
       "speaker_share": 1.0
     },
@@ -5133,7 +5132,7 @@
       "start_seconds": 1562.44,
       "end_seconds": 1568.88,
       "text": "Ja, ja see, me sageli nagu unustame selle ära, aga kui me hakkame otsima viise, kuidas",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 5.579,
       "speaker_share": 0.8663
     },
@@ -5141,7 +5140,7 @@
       "start_seconds": 1568.88,
       "end_seconds": 1573.48,
       "text": "käitumist mõjutada, siis see, see, ma ütleks, on esimene koht, kuhu tasuks nagu vaadata",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 4.6,
       "speaker_share": 1.0
     },
@@ -5149,7 +5148,7 @@
       "start_seconds": 1573.48,
       "end_seconds": 1579.52,
       "text": ", et, et mida see olukord võimaldab, mida ta mugavaks teeb, mida ta nagu käeulatusse",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 6.04,
       "speaker_share": 1.0
     },
@@ -5157,7 +5156,7 @@
       "start_seconds": 1579.52,
       "end_seconds": 1580.36,
       "text": "asetab.",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 0.84,
       "speaker_share": 1.0
     },
@@ -5165,7 +5164,7 @@
       "start_seconds": 1580.36,
       "end_seconds": 1587.24,
       "text": "Et kas rattaga liikumine on üleüldse mul nagu võimalik?",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 6.88,
       "speaker_share": 1.0
     },
@@ -5173,7 +5172,7 @@
       "start_seconds": 1587.24,
       "end_seconds": 1592.36,
       "text": "Ja kui proovida näiteid tuua, siis noh, need näited sageli on, on seotud ka sellega,",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 4.277,
       "speaker_share": 0.8354
     },
@@ -5181,7 +5180,7 @@
       "start_seconds": 1592.36,
       "end_seconds": 1597.0,
       "text": "et kui näiteks tahate ise oma käitumist muuta, oma harjumusi muuta, et siis üks väga",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 4.64,
       "speaker_share": 1.0
     },
@@ -5189,7 +5188,7 @@
       "start_seconds": 1597.0,
       "end_seconds": 1599.24,
       "text": "lihtne viis on võimalusi endalt maha hakata võtma.",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 2.24,
       "speaker_share": 1.0
     },
@@ -5197,7 +5196,7 @@
       "start_seconds": 1599.24,
       "end_seconds": 1603.68,
       "text": "Et näiteks väga lihtne on tervislikult toituda, kui teil kodus ei ole kommi.",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 4.035,
       "speaker_share": 0.9088
     },
@@ -5205,7 +5204,7 @@
       "start_seconds": 1603.68,
       "end_seconds": 1608.6,
       "text": "Et ärge pange endale koju kommi ja selgub, et teie dieet paraneb, eks ole.",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 4.92,
       "speaker_share": 1.0
     },
@@ -5213,7 +5212,7 @@
       "start_seconds": 1608.6,
       "end_seconds": 1611.52,
       "text": "Eluiga kohe pikeneb ja nii edasi.",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 2.92,
       "speaker_share": 1.0
     },
@@ -5221,7 +5220,7 @@
       "start_seconds": 1611.52,
       "end_seconds": 1617.24,
       "text": "Ja, ja, ja samamoodi, eks ju, kui me räägime laste puhul noh, liikumisest, siis me või",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 4.994,
       "speaker_share": 0.8731
     },
@@ -5229,7 +5228,7 @@
       "start_seconds": 1617.24,
       "end_seconds": 1621.6,
       "text": "me küsida, et mis on see nagu alternatiiv, mis tuleb võistlema sinna, sellele suurele",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 4.36,
       "speaker_share": 1.0
     },
@@ -5237,7 +5236,7 @@
       "start_seconds": 1621.6,
       "end_seconds": 1626.28,
       "text": "paneelile liikumisega ja sageli siis need alternatiivid on, on, on vähem liikuvad tegevus",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 4.444,
       "speaker_share": 0.9496
     },
@@ -5245,7 +5244,7 @@
       "start_seconds": 1626.28,
       "end_seconds": 1630.0,
       "text": "ed, mis on ekraanidega seotud, siis võib mõelda, et noh, et kui mugavad ja kättesaada",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 3.72,
       "speaker_share": 1.0
     },
@@ -5253,7 +5252,7 @@
       "start_seconds": 1630.0,
       "end_seconds": 1631.72,
       "text": "vad need ekraanid on?",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 1.264,
       "speaker_share": 0.7349
     },
@@ -5261,7 +5260,7 @@
       "start_seconds": 1631.72,
       "end_seconds": 1635.68,
       "text": "Et esimene filter on nagu see, et mida see olukord mulle üldse võimaldab, siis, siis",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 3.96,
       "speaker_share": 1.0
     },
@@ -5269,7 +5268,7 @@
       "start_seconds": 1635.68,
       "end_seconds": 1640.32,
       "text": "teine tegur, mis hakkab seda valgust sinna peale keerama, on tõesti harjumus.",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 4.64,
       "speaker_share": 1.0
     },
@@ -5277,7 +5276,7 @@
       "start_seconds": 1640.32,
       "end_seconds": 1645.16,
       "text": "Et vahel on niimoodi, et kui ma olen aastakümneid selles olukorras alati haaranud selle",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 4.84,
       "speaker_share": 1.0
     },
@@ -5285,7 +5284,7 @@
       "start_seconds": 1645.16,
       "end_seconds": 1648.96,
       "text": "järele, siis tegelikult kogu edasine, mida ma teile kohe seletama hakkame, jääb ära.",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 3.8,
       "speaker_share": 1.0
     },
@@ -5293,7 +5292,7 @@
       "start_seconds": 1648.96,
       "end_seconds": 1652.2,
       "text": "Et see nupp läheb juba nii teravalt põlema, et ta saab valituks.",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 2.919,
       "speaker_share": 0.9009
     },
@@ -5301,7 +5300,7 @@
       "start_seconds": 1652.2,
       "end_seconds": 1656.4,
       "text": "Jah, ma lähen rattaga, isegi kui ilm on kole ja isegi kui ma maha istuks ja järgi mõtle",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 4.2,
       "speaker_share": 1.0
     },
@@ -5309,7 +5308,7 @@
       "start_seconds": 1656.4,
       "end_seconds": 1659.2,
       "text": "ks, siis tegelikult täna oleks mõistlik autoga minna, mul on õhtul vaja poodi ka minna",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 2.8,
       "speaker_share": 1.0
     },
@@ -5317,7 +5316,7 @@
       "start_seconds": 1659.2,
       "end_seconds": 1662.52,
       "text": ", aga see mõte tuleb mulle alles siis, kui ma olen juba poolel teel rattaga tööle, sellepärast",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 3.32,
       "speaker_share": 1.0
     },
@@ -5325,7 +5324,7 @@
       "start_seconds": 1662.52,
       "end_seconds": 1667.6,
       "text": "et mul on kümme aastat iga päev rattaga tööle läinud hull inimene.",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 4.878,
       "speaker_share": 0.9602
     },
@@ -5333,7 +5332,7 @@
       "start_seconds": 1667.6,
       "end_seconds": 1670.0,
       "text": "Jooksmas käinud.",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 2.4,
       "speaker_share": 1.0
     },
@@ -5341,7 +5340,7 @@
       "start_seconds": 1670.0,
       "end_seconds": 1676.04,
       "text": "Ja siis, kui ütleme, harjumus ei ole dikteerinud valikut, on mul seal olukord on, on",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 6.04,
       "speaker_share": 1.0
     },
@@ -5349,7 +5348,7 @@
       "start_seconds": 1676.04,
       "end_seconds": 1682.12,
       "text": "niimoodi nagu hägusalt valgustanud välja mõned käitumisvalikud, et siis nüüd aju hakka",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 5.506,
       "speaker_share": 0.9056
     },
@@ -5357,7 +5356,7 @@
       "start_seconds": 1682.12,
       "end_seconds": 1686.88,
       "text": "b põhimõtteliselt tegema seda, et ta ikkagi ennustab, mis juhtub, kui ma teen üht ja",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 4.591,
       "speaker_share": 0.9645
     },
@@ -5365,7 +5364,7 @@
       "start_seconds": 1686.88,
       "end_seconds": 1688.4,
       "text": "kui ma teen teist.",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 1.52,
       "speaker_share": 1.0
     },
@@ -5373,7 +5372,7 @@
       "start_seconds": 1688.4,
       "end_seconds": 1693.32,
       "text": "Ja see ennustamine ei ole niisugune teadlik, eks ole, Exceli tabelisse kirjapanemine",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 4.177,
       "speaker_share": 0.849
     },
@@ -5381,7 +5380,7 @@
       "start_seconds": 1693.32,
       "end_seconds": 1699.08,
       "text": ", et kui ma lähen trenni, siis ma elan nii ja nii palju kauem või kui ma võtan selle",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 5.27,
       "speaker_share": 0.9149
     },
@@ -5389,7 +5388,7 @@
       "start_seconds": 1699.08,
       "end_seconds": 1704.88,
       "text": "pitsa, kuskil oli uudis, et, et üks foto vähendab tervena elatud elu kakskümmend kuus",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 5.8,
       "speaker_share": 1.0
     },
@@ -5397,7 +5396,7 @@
       "start_seconds": 1704.88,
       "end_seconds": 1705.92,
       "text": "minutit.",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 1.04,
       "speaker_share": 1.0
     },
@@ -5405,7 +5404,7 @@
       "start_seconds": 1705.92,
       "end_seconds": 1710.6,
       "text": "Et, et ei ole sellist protsessi, vaid protsess on palju automaatsem.",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 4.68,
       "speaker_share": 1.0
     },
@@ -5413,7 +5412,7 @@
       "start_seconds": 1710.6,
       "end_seconds": 1715.32,
       "text": "Et, et ajul on võime ennustada, valdavalt see võime tugineb assotsiatsioonidele ehk va",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 4.72,
       "speaker_share": 1.0
     },
@@ -5421,7 +5420,7 @@
       "start_seconds": 1715.32,
       "end_seconds": 1716.76,
       "text": "rasemale kogemusele.",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 1.44,
       "speaker_share": 1.0
     },
@@ -5429,7 +5428,7 @@
       "start_seconds": 1716.76,
       "end_seconds": 1722.92,
       "text": "Et kui ma olen selles hetkes, kui mul on ühes toas on nutitelefon ja akna all on kam",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 5.857,
       "speaker_share": 0.9508
     },
@@ -5437,7 +5436,7 @@
       "start_seconds": 1722.92,
       "end_seconds": 1727.76,
       "text": "bajõmmid, kes kutsuvad jalgpalli mängima, siis hetkega on nende kahe tegevuse, kogemus",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 4.84,
       "speaker_share": 1.0
     },
@@ -5445,7 +5444,7 @@
       "start_seconds": 1727.76,
       "end_seconds": 1729.84,
       "text": "e, selline pilt on mul ees.",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 2.08,
       "speaker_share": 1.0
     },
@@ -5453,7 +5452,7 @@
       "start_seconds": 1729.84,
       "end_seconds": 1734.92,
       "text": "Et mida see endaga kaasa toob, kuidas ma ennast tunnen, mida teised minuga teevad ja",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 5.08,
       "speaker_share": 1.0
     },
@@ -5461,7 +5460,7 @@
       "start_seconds": 1734.92,
       "end_seconds": 1735.72,
       "text": "nii edasi.",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 0.8,
       "speaker_share": 1.0
     },
@@ -5469,7 +5468,7 @@
       "start_seconds": 1735.72,
       "end_seconds": 1741.84,
       "text": "Ja nüüd nende piltide selline jõud seda nuppu valgustada sõltub sellest, et kui heas",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 6.12,
       "speaker_share": 1.0
     },
@@ -5477,7 +5476,7 @@
       "start_seconds": 1741.84,
       "end_seconds": 1745.6,
       "text": "kooskõlas need pildid on sellega, mida ma tahan ja väärtustan, et, et see toob tagasi",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 3.76,
       "speaker_share": 1.0
     },
@@ -5485,7 +5484,7 @@
       "start_seconds": 1745.6,
       "end_seconds": 1747.6,
       "text": "meid nende eesmärkide juurde.",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 2.0,
       "speaker_share": 1.0
     },
@@ -5493,7 +5492,7 @@
       "start_seconds": 1747.6,
       "end_seconds": 1753.4,
       "text": "Et kui ma ühest pildist saan väga palju midagi, mis minu jaoks on oluline, mida vane",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 5.8,
       "speaker_share": 1.0
     },
@@ -5501,7 +5500,7 @@
       "start_seconds": 1753.4,
       "end_seconds": 1755.24,
       "text": "maks me saame, mis on tähenduslik.",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 1.84,
       "speaker_share": 1.0
     },
@@ -5509,7 +5508,7 @@
       "start_seconds": 1755.24,
       "end_seconds": 1759.52,
       "text": "Et, et, et see, see tegevus ise, jah, see pilt võib sisaldada seda, et mul on, mul on",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 4.28,
       "speaker_share": 1.0
     },
@@ -5517,7 +5516,7 @@
       "start_seconds": 1759.52,
       "end_seconds": 1764.52,
       "text": "füüsiliselt raske pingutada, aga ta sisaldab ka seda, et see raske pingutus ütleb mulle",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 5.0,
       "speaker_share": 1.0
     },
@@ -5525,7 +5524,7 @@
       "start_seconds": 1764.52,
       "end_seconds": 1770.36,
       "text": "midagi minu kohta näiteks, ma tunnen, et, et ma elan oma ideaalide kohaselt või see või",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 5.84,
       "speaker_share": 1.0
     },
@@ -5533,7 +5532,7 @@
       "start_seconds": 1770.36,
       "end_seconds": 1775.68,
       "text": "maldab mul olla koos teiste inimestega või see võimaldab mul, eks ole, treenida mingisuguse",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 5.32,
       "speaker_share": 1.0
     },
@@ -5541,7 +5540,7 @@
       "start_seconds": 1775.68,
       "end_seconds": 1780.2,
       "text": "ks sündmuseks, kus ma tahan olla heas vormis või see võimaldab mul noh, arvata, et ma",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 4.165,
       "speaker_share": 0.9215
     },
@@ -5549,7 +5548,7 @@
       "start_seconds": 1780.2,
       "end_seconds": 1782.16,
       "text": "näen hea välja.",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 0.83,
       "speaker_share": 0.4235
     },
@@ -5557,7 +5556,7 @@
       "start_seconds": 1782.16,
       "end_seconds": 1785.68,
       "text": "Kõikvõimalikud erinevad motiivid, mida erinevad liikumised inimestele nagu annavad, et",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 3.52,
       "speaker_share": 1.0
     },
@@ -5565,7 +5564,7 @@
       "start_seconds": 1785.68,
       "end_seconds": 1789.96,
       "text": "need keeravad seda valgust peale, kuni siis üks, üks või teine valik võidab, et umbes",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 4.28,
       "speaker_share": 1.0
     },
@@ -5573,7 +5572,7 @@
       "start_seconds": 1789.96,
       "end_seconds": 1794.36,
       "text": "selline on see nagu mehaanika mida ma siis võtsin väikse hetke, et panna meile lauale",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 4.4,
       "speaker_share": 1.0
     },
@@ -5581,7 +5580,7 @@
       "start_seconds": 1794.36,
       "end_seconds": 1798.4,
       "text": "ja, ja nüüd me võime muidugi selle väga abstraktse loo hakata siis järjest paigutama",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 4.04,
       "speaker_share": 1.0
     },
@@ -5589,7 +5588,7 @@
       "start_seconds": 1798.4,
       "end_seconds": 1801.4,
       "text": "mingitesse konkreetsematesse kontekstidesse, eks ju, kus.",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 3.0,
       "speaker_share": 1.0
     },
@@ -5597,7 +5596,7 @@
       "start_seconds": 1801.4,
       "end_seconds": 1803.6,
       "text": "Kus see lahti rullub.",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 1.151,
       "speaker_share": 0.5232
     },
@@ -6133,7 +6132,7 @@
       "start_seconds": 2107.92,
       "end_seconds": 2113.72,
       "text": "Väga hea küsimus, et, et seda noh ühesõnaga seda oleks tore uurida, ma ei tea kindla",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 5.632,
       "speaker_share": 0.971
     },
@@ -6141,7 +6140,7 @@
       "start_seconds": 2113.72,
       "end_seconds": 2117.76,
       "text": "t uuringut, ma ka pakuks, et see inimeste vahel varieerub ja võib inimeste sees ka ikkagi",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 4.04,
       "speaker_share": 1.0
     },
@@ -6149,7 +6148,7 @@
       "start_seconds": 2117.76,
       "end_seconds": 2118.88,
       "text": "vanuseid varieeruda.",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 1.12,
       "speaker_share": 1.0
     },
@@ -6157,7 +6156,7 @@
       "start_seconds": 2118.88,
       "end_seconds": 2123.8,
       "text": "Aga samas, kui ma hakkasin nagu läbi mängima, oli nagu sinagi praegu, et, et siis, et",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 4.92,
       "speaker_share": 1.0
     },
@@ -6165,7 +6164,7 @@
       "start_seconds": 2123.8,
       "end_seconds": 2128.56,
       "text": "ma ei leia väga tugevaid nagu näiteid, et ilmselt on küll see, et, et nende vajaduste",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 4.76,
       "speaker_share": 1.0
     },
@@ -6173,7 +6172,7 @@
       "start_seconds": 2128.56,
       "end_seconds": 2132.76,
       "text": "kuidagi ilmnemine on nagu erinev, et, et kui me mõtleme näiteks selle osavuse peale,",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 3.863,
       "speaker_share": 0.9198
     },
@@ -6181,7 +6180,7 @@
       "start_seconds": 2132.76,
       "end_seconds": 2136.84,
       "text": "et kui sa mõtled mingisuguse kolmeaastase peale ja, ja siis kolmekümne aastase peale",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 4.08,
       "speaker_share": 1.0
     },
@@ -6189,7 +6188,7 @@
       "start_seconds": 2136.84,
       "end_seconds": 2140.96,
       "text": ", et need on väga erinevad, eks ole, et kolmekümne aastane on võib-olla väga teadlikult",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 4.12,
       "speaker_share": 1.0
     },
@@ -6197,7 +6196,7 @@
       "start_seconds": 2140.96,
       "end_seconds": 2146.16,
       "text": "suudab endale nagu määratleda või sõnastada või märgata, et kus ma olen ja kuidas ma",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 4.845,
       "speaker_share": 0.9317
     },
@@ -6205,7 +6204,7 @@
       "start_seconds": 2146.16,
       "end_seconds": 2147.56,
       "text": "nüüd saan paremaks ja nii edasi.",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 1.298,
       "speaker_share": 0.9271
     },
@@ -6213,7 +6212,7 @@
       "start_seconds": 2147.56,
       "end_seconds": 2151.84,
       "text": "Aga tegelikult seesama kolmeaastane ka, kui sa vaatad, et missugused tegevuse ta vali",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 3.966,
       "speaker_share": 0.9266
     },
@@ -6221,7 +6220,7 @@
       "start_seconds": 2151.84,
       "end_seconds": 2155.4,
       "text": "b, et siis ta valib täpselt selle tegevuse, kus tal on midagi uut, aga mitte liiga üle",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 3.486,
       "speaker_share": 0.9792
     },
@@ -7533,7 +7532,7 @@
       "start_seconds": 2872.96,
       "end_seconds": 2877.72,
       "text": "Ütlen lihtsalt vahele ära, et see muidu väga tore mõte, aga see ühe lati seadmine, seda",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 4.76,
       "speaker_share": 1.0
     },
@@ -7541,7 +7540,7 @@
       "start_seconds": 2877.72,
       "end_seconds": 2879.2,
       "text": "saaks targemini teha.",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 1.48,
       "speaker_share": 1.0
     },
@@ -7549,7 +7548,7 @@
       "start_seconds": 2879.2,
       "end_seconds": 2883.0,
       "text": "Lähtuvalt sellest, mis me enne rääkisime, eks ju, et, et see ei motiveeri arengut, vaid",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 3.8,
       "speaker_share": 1.0
     },
@@ -7581,7 +7580,7 @@
       "start_seconds": 2893.68,
       "end_seconds": 2893.92,
       "text": "tiivis.",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 0.24,
       "speaker_share": 1.0
     },
@@ -7589,7 +7588,7 @@
       "start_seconds": 2893.92,
       "end_seconds": 2898.8,
       "text": "Aga ei taha sellesse kinni jääda, et selles mõttes see noh nagu väga lahe näide sellest",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 4.88,
       "speaker_share": 1.0
     },
@@ -7597,7 +7596,7 @@
       "start_seconds": 2898.8,
       "end_seconds": 2903.0,
       "text": ", et nagu võtta probleem, läheneda loovalt, on ju ja, ja mõelda, et mida me saame teha",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 3.731,
       "speaker_share": 0.8883
     },
@@ -8125,7 +8124,7 @@
       "start_seconds": 3161.96,
       "end_seconds": 3163.56,
       "text": ".",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 0.361,
       "speaker_share": 0.2256
     },
@@ -8133,7 +8132,7 @@
       "start_seconds": 3163.56,
       "end_seconds": 3168.0,
       "text": "Mul on, mul on ka paar mõtet ja ma tahan enne, et Aave, Aave räägiks ära, et, et kui",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 4.44,
       "speaker_share": 1.0
     },
@@ -8141,7 +8140,7 @@
       "start_seconds": 3168.0,
       "end_seconds": 3170.72,
       "text": "me oleme praegu selle juures, et mis trennis toimub.",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 2.062,
       "speaker_share": 0.7581
     },
@@ -8149,7 +8148,7 @@
       "start_seconds": 3170.72,
       "end_seconds": 3174.96,
       "text": "Teised võivad ka rääkida, aga et, et siis üks, üks osa treeneri kompetentsist on see",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 4.24,
       "speaker_share": 1.0
     },
@@ -8157,7 +8156,7 @@
       "start_seconds": 3174.96,
       "end_seconds": 3176.32,
       "text": ", mida me puudutasime.",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 1.36,
       "speaker_share": 1.0
     },
@@ -8165,7 +8164,7 @@
       "start_seconds": 3176.32,
       "end_seconds": 3182.08,
       "text": "Aga teine osa on see, mis haakub vestluse alguses mainitud, eks ju emotsionaalse koge",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 5.186,
       "speaker_share": 0.9003
     },
@@ -8173,7 +8172,7 @@
       "start_seconds": 3182.08,
       "end_seconds": 3187.08,
       "text": "musega ja eesmärkidega ja, ja et nüüd on jälle see koht, et Aave on, mind on juba töö",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 5.0,
       "speaker_share": 1.0
     },
@@ -8181,7 +8180,7 @@
       "start_seconds": 3187.08,
       "end_seconds": 3188.72,
       "text": "delnud, ma olen juba saan aru.",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 1.64,
       "speaker_share": 1.0
     },
@@ -8189,7 +8188,7 @@
       "start_seconds": 3188.72,
       "end_seconds": 3193.36,
       "text": "Aga ma tahaks, et ta räägiks teile ka sellest, et, et kuidas siin on ka täna ikkagi küsimus",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 4.64,
       "speaker_share": 1.0
     },
@@ -8197,7 +8196,7 @@
       "start_seconds": 3193.36,
       "end_seconds": 3194.56,
       "text": "e kohad.",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 1.2,
       "speaker_share": 1.0
     },
@@ -8205,7 +8204,7 @@
       "start_seconds": 3194.56,
       "end_seconds": 3200.84,
       "text": "Et mis on, mina saan sellest aru niimoodi, et, et noh, lapsevaatest on see küsimus selles",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 6.145,
       "speaker_share": 0.9785
     },
@@ -8213,7 +8212,7 @@
       "start_seconds": 3200.84,
       "end_seconds": 3207.08,
       "text": ", et, et mismoodi treener noh temaga ümber käib ja, ja kogu see asi on üles ehitatud",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 6.003,
       "speaker_share": 0.962
     },
@@ -8221,7 +8220,7 @@
       "start_seconds": 3207.08,
       "end_seconds": 3207.24,
       "text": ".",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 0.16,
       "speaker_share": 1.0
     },
@@ -8229,7 +8228,7 @@
       "start_seconds": 3207.24,
       "end_seconds": 3211.76,
       "text": "Ja võib-olla treeneri vaatest ja siin ma mõtlen juba ise edasi, on see, on see ka seotud",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 4.52,
       "speaker_share": 1.0
     },
@@ -8237,7 +8236,7 @@
       "start_seconds": 3211.76,
       "end_seconds": 3215.52,
       "text": "sellega, et, et mis on nagu noh, päeva lõpuks treeneri eesmärk.",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 3.152,
       "speaker_share": 0.8383
     },
@@ -8245,7 +8244,7 @@
       "start_seconds": 3215.52,
       "end_seconds": 3221.44,
       "text": "Et kas treener, noh lööb endale vastu rinda ja ütleb, et, et tänu mulle on siin mingi",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 4.198,
       "speaker_share": 0.7091
     },
@@ -8253,7 +8252,7 @@
       "start_seconds": 3221.44,
       "end_seconds": 3225.92,
       "text": "ring inimesi, kes oskavad ja tahavad liikuda kogu oma ülejäänud elu.",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 4.48,
       "speaker_share": 1.0
     },
@@ -8261,7 +8260,7 @@
       "start_seconds": 3225.92,
       "end_seconds": 3231.12,
       "text": "Või ta ütleb, et ma panin oma sellele kursakaaslasele seal maakonnakatele ära, on ju",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 5.2,
       "speaker_share": 1.0
     },
@@ -8269,7 +8268,7 @@
       "start_seconds": 3231.12,
       "end_seconds": 3233.56,
       "text": ", minu lapsed olid paremad kui tema lapsed.",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 2.44,
       "speaker_share": 1.0
     },
@@ -8277,7 +8276,7 @@
       "start_seconds": 3233.56,
       "end_seconds": 3237.88,
       "text": "Ja ma kahtlustan, et noh, meil on seda teist täna võib-olla nagu gramm rohkem ja seda",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 4.32,
       "speaker_share": 1.0
     },
@@ -8285,7 +8284,7 @@
       "start_seconds": 3237.88,
       "end_seconds": 3242.28,
       "text": "esimest gramm vähem, aga kuidas tegelikult on?",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 1.645,
       "speaker_share": 0.3739
     },
@@ -8373,7 +8372,7 @@
       "start_seconds": 3280.64,
       "end_seconds": 3283.48,
       "text": "Ei, aga seda on väga hea kuulda, et, et see on nagu nihkumas.",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 2.203,
       "speaker_share": 0.7757
     },
@@ -11269,7 +11268,7 @@
       "start_seconds": 4754.2,
       "end_seconds": 4756.48,
       "text": ".",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 0.72,
       "speaker_share": 0.3158
     },
@@ -11277,7 +11276,7 @@
       "start_seconds": 4756.48,
       "end_seconds": 4758.4,
       "text": "Tahate?",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 1.464,
       "speaker_share": 0.7625
     },
@@ -11285,7 +11284,7 @@
       "start_seconds": 4758.4,
       "end_seconds": 4760.0,
       "text": "Ma võin alustada.",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 1.6,
       "speaker_share": 1.0
     },
@@ -11293,7 +11292,7 @@
       "start_seconds": 4760.0,
       "end_seconds": 4764.08,
       "text": "Marko on minu sõber ka, Marko püüdis esitada küsimust niimoodi, et ei tuleks, ei tule",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 4.08,
       "speaker_share": 1.0
     },
@@ -11301,7 +11300,7 @@
       "start_seconds": 4764.08,
       "end_seconds": 4768.28,
       "text": "ks, ei oleks aru saada, et on teadlane, aga siis ta kasutas terminit praktikani, et siis",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 3.898,
       "speaker_share": 0.9281
     },
@@ -11309,7 +11308,7 @@
       "start_seconds": 4768.28,
       "end_seconds": 4772.72,
       "text": ".",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 1.216,
       "speaker_share": 0.2739
     },
@@ -11317,7 +11316,7 @@
       "start_seconds": 4772.72,
       "end_seconds": 4778.16,
       "text": "Ja, ja minu peas on ka, et kui ma nagu hästi suuri lahtreid kasutan, et siis noh, mulle",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 5.44,
       "speaker_share": 1.0
     },
@@ -11325,7 +11324,7 @@
       "start_seconds": 4778.16,
       "end_seconds": 4782.48,
       "text": "tundub, et kui me räägime sellest liikumisest, et siis on väga oluline silmas pidada",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 4.32,
       "speaker_share": 1.0
     },
@@ -11333,7 +11332,7 @@
       "start_seconds": 4782.48,
       "end_seconds": 4787.08,
       "text": ", et, et üldiselt normaalne inimene ei liigu liikumise pärast, ta liigub millegipära",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 4.6,
       "speaker_share": 1.0
     },
@@ -11341,7 +11340,7 @@
       "start_seconds": 4787.08,
       "end_seconds": 4789.4,
       "text": "st, mida see liikumine talle annab, eks ju.",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 2.32,
       "speaker_share": 1.0
     },
@@ -11349,7 +11348,7 @@
       "start_seconds": 4789.4,
       "end_seconds": 4794.56,
       "text": "Ja nüüd need asjad, mida need liikumine annab, et osad neist on, on võib-olla siis tõesti",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 5.16,
       "speaker_share": 1.0
     },
@@ -11357,7 +11356,7 @@
       "start_seconds": 4794.56,
       "end_seconds": 4798.16,
       "text": "sellise organiseerituma liikumisega seotud, millest me oleme rohkem rääkinud, et ma saa",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 3.6,
       "speaker_share": 1.0
     },
@@ -11365,7 +11364,7 @@
       "start_seconds": 4798.16,
       "end_seconds": 4803.4,
       "text": "n sealt, eks ole, sihukest eneseteostust ja vahvat kamba tunnet ja võib-olla üks asi",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 5.24,
       "speaker_share": 1.0
     },
@@ -11373,7 +11372,7 @@
       "start_seconds": 4803.4,
       "end_seconds": 4806.88,
       "text": ", millest me ei ole rääkinud, ma väga kiirelt paneks lauale, on see, et ma saan nagu",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 3.48,
       "speaker_share": 1.0
     },
@@ -11381,7 +11380,7 @@
       "start_seconds": 4806.88,
       "end_seconds": 4811.6,
       "text": "sellist enesejuhtimise kogemust, eks ju, et ma olen väljakutsuvates olukordades, ma näe",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 4.72,
       "speaker_share": 1.0
     },
@@ -11389,7 +11388,7 @@
       "start_seconds": 4811.6,
       "end_seconds": 4814.28,
       "text": "n iseenda arengut, ma suudan seda jälgida ja nii edasi ja nii edasi.",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 2.36,
       "speaker_share": 0.8806
     },
@@ -11397,7 +11396,7 @@
       "start_seconds": 4814.28,
       "end_seconds": 4817.72,
       "text": "Ja siis on kõik need liikumised, mis on tõesti nagu tehtud sellepärast, et mul on vaja",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 3.44,
       "speaker_share": 1.0
     },
@@ -11405,7 +11404,7 @@
       "start_seconds": 4817.72,
       "end_seconds": 4820.48,
       "text": "kuhugi saada, on ju, mul on vaja mingi asi kätte saada, eks ju.",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 2.76,
       "speaker_share": 1.0
     },
@@ -11413,7 +11412,7 @@
       "start_seconds": 4820.48,
       "end_seconds": 4826.24,
       "text": "Ja, ja et Marko, sa viitad sellele, et, et tõenäoliselt on, on keskkonnas muutused toimu",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 5.76,
       "speaker_share": 1.0
     },
@@ -11421,7 +11420,7 @@
       "start_seconds": 4826.24,
       "end_seconds": 4831.4,
       "text": "nud noh seal võib-olla väga suuremas osas, eks ju, me mainisime seda, et mängud on muutu",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 5.16,
       "speaker_share": 1.0
     },
@@ -11429,7 +11428,7 @@
       "start_seconds": 4831.4,
       "end_seconds": 4836.72,
       "text": "nud passiivsemaks, kuna nad on läinud ekraani taha ja siis teine, eks ju, on see, et",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 5.32,
       "speaker_share": 1.0
     },
@@ -11437,7 +11436,7 @@
       "start_seconds": 4836.72,
       "end_seconds": 4841.6,
       "text": ", et me käime kohtades autoga ja, ja lapsed käivad ka kohtades autoga, me viime neid",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 4.88,
       "speaker_share": 1.0
     },
@@ -11445,7 +11444,7 @@
       "start_seconds": 4841.6,
       "end_seconds": 4846.92,
       "text": ", eks ju, kooli ja et siin on minu meelest küll niisuguseid toredaid kohti ja mul ei",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 4.679,
       "speaker_share": 0.8795
     },
@@ -11453,7 +11452,7 @@
       "start_seconds": 4846.92,
       "end_seconds": 4852.76,
       "text": "ole nagu väga sihukeseid võluvitsu, aga et mingit, mingit pisikesed asjad, mis on osa",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 5.131,
       "speaker_share": 0.8786
     },
@@ -11461,7 +11460,7 @@
       "start_seconds": 4852.76,
       "end_seconds": 4858.04,
       "text": "d on täna arutelust läbi käinud ka, et, et no mulle näiteks tundub see, et see, et kooli",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 5.28,
       "speaker_share": 1.0
     },
@@ -11469,7 +11468,7 @@
       "start_seconds": 4858.04,
       "end_seconds": 4862.2,
       "text": "de need spordiväljakud on avatud väljaspool kooliaega, et see on nüüd korra Eesti ühis",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 4.16,
       "speaker_share": 1.0
     },
@@ -11477,7 +11476,7 @@
       "start_seconds": 4862.2,
       "end_seconds": 4864.68,
       "text": "konnast läbi käinud, sama asi võiks käia lasteaedadega.",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 2.193,
       "speaker_share": 0.8843
     },
@@ -11485,7 +11484,7 @@
       "start_seconds": 4864.68,
       "end_seconds": 4869.56,
       "text": "Et lasteaias on enamasti mänguväljak ja seal ümberkaudsetes majaelanikel ei pruugi olla",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 4.88,
       "speaker_share": 1.0
     },
@@ -11493,7 +11492,7 @@
       "start_seconds": 4869.56,
       "end_seconds": 4873.84,
       "text": "sama häid mänguväljakuid, on mõned on lasteaiad Eestis, mis on lahti, teised, mis ei",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 4.28,
       "speaker_share": 1.0
     },
@@ -11501,7 +11500,7 @@
       "start_seconds": 4873.84,
       "end_seconds": 4876.4,
       "text": "ole, siis on seesama koolitee.",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 2.56,
       "speaker_share": 1.0
     },
@@ -11509,7 +11508,7 @@
       "start_seconds": 4876.4,
       "end_seconds": 4881.64,
       "text": "Ma olen selle peale juhtumisi mõelnud, sest mul paluti korra selle peale mõelda, et,",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 5.24,
       "speaker_share": 1.0
     },
@@ -11517,7 +11516,7 @@
       "start_seconds": 4881.64,
       "end_seconds": 4886.44,
       "text": "et, et noh näiteks võiks ju korraldada niimoodi, et, et kooli lähedale ei saa parkida",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 4.8,
       "speaker_share": 1.0
     },
@@ -11525,7 +11524,7 @@
       "start_seconds": 4886.44,
       "end_seconds": 4890.6,
       "text": ", et tuleb parkida, et lihtsalt näiteks väiksemas linnas ma täitsa kujutan ette, et,",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 4.16,
       "speaker_share": 1.0
     },
@@ -11533,7 +11532,7 @@
       "start_seconds": 4890.6,
       "end_seconds": 4893.76,
       "text": "et koolilähedased tänavad võiksid üldse olla jalakäija tänavad, et seal ei ole üldse",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 3.16,
       "speaker_share": 1.0
     },
@@ -11541,7 +11540,7 @@
       "start_seconds": 4893.76,
       "end_seconds": 4895.44,
       "text": "autoga võimalik minna.",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 1.68,
       "speaker_share": 1.0
     },
@@ -11549,7 +11548,7 @@
       "start_seconds": 4895.44,
       "end_seconds": 4899.96,
       "text": "Aga et, et isegi suuremas linnas, et no näiteks parkimiskeelu panna ja tagada piisavalt",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 4.52,
       "speaker_share": 1.0
     },
@@ -11557,7 +11556,7 @@
       "start_seconds": 4899.96,
       "end_seconds": 4904.08,
       "text": "turvaline tee, et, et see, kui ma viin oma lapse kooli, et siis mingi etapp sealt, eks",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 4.12,
       "speaker_share": 1.0
     },
@@ -11565,7 +11564,7 @@
       "start_seconds": 4904.08,
       "end_seconds": 4906.4,
       "text": "ole, ta käib, käib peatumiskeelu, siis sa mõtled.",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 2.32,
       "speaker_share": 1.0
     },
@@ -11573,7 +11572,7 @@
       "start_seconds": 4906.4,
       "end_seconds": 4908.92,
       "text": "Peatumiskeelu ja õige jah, jah.",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 1.761,
       "speaker_share": 0.6988
     },
@@ -11581,7 +11580,7 @@
       "start_seconds": 4908.92,
       "end_seconds": 4913.4,
       "text": "Oleks paneks parkimiskeelu, ootaks tulemust, ei tule.",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 3.484,
       "speaker_share": 0.7777
     },
@@ -11589,7 +11588,7 @@
       "start_seconds": 4913.4,
       "end_seconds": 4919.12,
       "text": "Ja, ja siis on veel, kui, kui veel nagu see, kui mul paluti selle peale mõelda selle",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 5.72,
       "speaker_share": 1.0
     },
@@ -11597,7 +11596,7 @@
       "start_seconds": 4919.12,
       "end_seconds": 4926.28,
       "text": "sisendiks on väga tore teadustöö ava- , ilmub inimarengu aruandes inimgeograafid on oma",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 7.16,
       "speaker_share": 1.0
     },
@@ -11605,7 +11604,7 @@
       "start_seconds": 4926.28,
       "end_seconds": 4931.48,
       "text": "töövõtteid ja mõõdikuid kasutades siis nagu jälginud Eesti laste liikuvust ja jõudnud",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 4.71,
       "speaker_share": 0.9058
     },
@@ -11613,7 +11612,7 @@
       "start_seconds": 4931.48,
       "end_seconds": 4934.92,
       "text": "samadele järeldustele, et, et autodega tuleks, käiakse palju rohkem.",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 3.44,
       "speaker_share": 1.0
     },
@@ -11621,7 +11620,7 @@
       "start_seconds": 4934.92,
       "end_seconds": 4938.04,
       "text": "Üks põhjus on see, et inimestel on autosid, teine põhjus on see, et meil on valglinna",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 3.12,
       "speaker_share": 1.0
     },
@@ -11629,7 +11628,7 @@
       "start_seconds": 4938.04,
       "end_seconds": 4938.76,
       "text": "stumine.",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 0.517,
       "speaker_share": 0.7181
     },
@@ -11637,7 +11636,7 @@
       "start_seconds": 4938.76,
       "end_seconds": 4942.4,
       "text": "Inimesed elavadki distantsilt, kust ei ole võimalik käia jala, eks ju.",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 3.64,
       "speaker_share": 1.0
     },
@@ -11645,7 +11644,7 @@
       "start_seconds": 4942.4,
       "end_seconds": 4947.76,
       "text": "Ja siis, ja siis seal tekib, eks ole, et üks, üks on siis see nagu kodunt kooli liiku",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 5.36,
       "speaker_share": 1.0
     },
@@ -11653,7 +11652,7 @@
       "start_seconds": 4947.76,
       "end_seconds": 4950.16,
       "text": "mine ja küsimus, et mis, mis võttega seda tehakse.",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 2.4,
       "speaker_share": 1.0
     },
@@ -11661,7 +11660,7 @@
       "start_seconds": 4950.16,
       "end_seconds": 4953.64,
       "text": "Ja teine on siis see nagu koolist huvikooli.",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 3.48,
       "speaker_share": 1.0
     },
@@ -11669,7 +11668,7 @@
       "start_seconds": 4953.64,
       "end_seconds": 4957.48,
       "text": "Et õudselt äge oleks, kui noh, näiteks linnaplaneerimises tekiksid mingid niuksed nagu",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 3.84,
       "speaker_share": 1.0
     },
@@ -11677,7 +11676,7 @@
       "start_seconds": 4957.48,
       "end_seconds": 4961.84,
       "text": "noh, linnakud, eks ju, et kus me ka usaldaks lapsel ise minna muusikakooli, ise minna",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 4.36,
       "speaker_share": 1.0
     },
@@ -11685,7 +11684,7 @@
       "start_seconds": 4961.84,
       "end_seconds": 4963.12,
       "text": "trennihoonesse.",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 1.28,
       "speaker_share": 1.0
     },
@@ -11693,7 +11692,7 @@
       "start_seconds": 4963.12,
       "end_seconds": 4965.6,
       "text": "Et ma ei peaks autoga sinna nagu järgi tulema.",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 2.48,
       "speaker_share": 1.0
     },
@@ -11701,7 +11700,7 @@
       "start_seconds": 4965.6,
       "end_seconds": 4969.56,
       "text": "Ja siis viimane mõte, mille, mis ei ole absoluutselt tõenduspõhine, ma lihtsalt mõtle",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 3.96,
       "speaker_share": 1.0
     },
@@ -11709,7 +11708,7 @@
       "start_seconds": 4969.56,
       "end_seconds": 4970.28,
       "text": "sin selle peale.",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 0.72,
       "speaker_share": 1.0
     },
@@ -11717,7 +11716,7 @@
       "start_seconds": 4970.28,
       "end_seconds": 4975.88,
       "text": "Autobiograafiliselt on see, et, et, et.",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 3.153,
       "speaker_share": 0.563
     },
@@ -11725,7 +11724,7 @@
       "start_seconds": 4975.88,
       "end_seconds": 4981.0,
       "text": "Et ühesõnaga bussidel oleksid jalgratta ja need restid osades riikides on neid näha,",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 5.12,
       "speaker_share": 1.0
     },
@@ -11733,7 +11732,7 @@
       "start_seconds": 4981.0,
       "end_seconds": 4985.16,
       "text": "et, et mulle tundub, et on mingi hulk inimesi, kes võib-olla elavad täna noh sellise",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 4.16,
       "speaker_share": 1.0
     },
@@ -11741,7 +11740,7 @@
       "start_seconds": 4985.16,
       "end_seconds": 4989.12,
       "text": "s olukorras, et, et ma saaks, mul mingi buss on küll, millega ma saaks tööl või kooli",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 3.96,
       "speaker_share": 1.0
     },
@@ -11749,7 +11748,7 @@
       "start_seconds": 4989.12,
       "end_seconds": 4991.24,
       "text": "s käia, aga see peatus on nii kaugel.",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 2.12,
       "speaker_share": 1.0
     },
@@ -11757,7 +11756,7 @@
       "start_seconds": 4991.24,
       "end_seconds": 4994.68,
       "text": "Et ma sinna jala tegelikult minema ei hakka ja siis ma võtan selle auto, aga et kui ma",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 3.44,
       "speaker_share": 1.0
     },
@@ -11765,7 +11764,7 @@
       "start_seconds": 4994.68,
       "end_seconds": 5000.96,
       "text": "saaks võtta ratta ja panna ratta bussi peale või minna ta ka rongi peale, eks ju.",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 6.28,
       "speaker_share": 1.0
     },
@@ -11773,7 +11772,7 @@
       "start_seconds": 5000.96,
       "end_seconds": 5004.16,
       "text": "Et siukseid pisikesed asjad on minu meelest nagu toredad, mida läbi mõelda, et mõned",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 3.2,
       "speaker_share": 1.0
     },
@@ -11781,7 +11780,7 @@
       "start_seconds": 5004.16,
       "end_seconds": 5008.16,
       "text": "illustratsioonid selleks, et tõesti siin on nagu teine pool selle organiseeritud lii",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 4.0,
       "speaker_share": 1.0
     },
@@ -11789,7 +11788,7 @@
       "start_seconds": 5008.16,
       "end_seconds": 5011.64,
       "text": "kumise kõrval, mida me võiks ju samamoodi arendada.",
-      "speaker": "SPEAKER_02",
+      "speaker": "SPEAKER_13",
       "speaker_overlap_seconds": 2.649,
       "speaker_share": 0.7612
     },

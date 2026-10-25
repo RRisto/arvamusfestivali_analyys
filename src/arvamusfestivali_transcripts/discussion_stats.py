@@ -54,7 +54,10 @@ def _load_inputs(root: Path) -> tuple[dict[str, dict[str, Any]], dict[str, list[
 
     assignments = pd.read_parquet(
         results / "jev-semantic-all/assignments.parquet",
-        columns=["segment_key", "jev_high_level_id", "jev_high_level_name"],
+        columns=[
+            "segment_key", "jev_topic_id", "jev_topic_name",
+            "jev_high_level_id", "jev_high_level_name",
+        ],
     )
     segments = pd.read_parquet(
         results / "segment-dataset/all-segments.parquet",
@@ -63,12 +66,18 @@ def _load_inputs(root: Path) -> tuple[dict[str, dict[str, Any]], dict[str, list[
     segments = segments.loc[segments.text.map(has_meaningful_text)].copy()
     chunks = assignments.merge(segments, on="segment_key", how="inner", validate="one_to_one")
     chunks["episode_id"] = chunks.episode_id.astype(str)
+    topic_names = chunks.jev_topic_name.astype(str)
+    chunks["jev_topic_name"] = topic_names.mask(
+        topic_names.str.casefold().eq("unassigned"), "Määramata"
+    )
     by_episode: dict[str, list[dict[str, Any]]] = {}
     for episode_id, group in chunks.groupby("episode_id", sort=False):
         by_episode[str(episode_id)] = [
             {
                 "start_seconds": float(row.start_seconds),
                 "end_seconds": float(row.end_seconds),
+                "detailed_topic_id": str(row.jev_topic_id),
+                "detailed_topic_name": str(row.jev_topic_name),
                 "high_level_id": str(row.jev_high_level_id),
                 "high_level_name": str(row.jev_high_level_name),
             }
@@ -77,13 +86,43 @@ def _load_inputs(root: Path) -> tuple[dict[str, dict[str, Any]], dict[str, list[
     return aliases, by_episode
 
 
-def _participation_over_time(turns: list[dict[str, Any]]) -> dict[str, Any]:
+def _load_speaker_names(root: Path) -> dict[str, dict[str, str]]:
+    path = root / "data/diarization/speaker-name-detections-2026.csv"
+    if not path.exists():
+        return {}
+    names = pd.read_csv(path).fillna("")
+    names = names.loc[
+        names.confidence.astype(str).str.casefold().isin({"high", "medium"})
+        & names.speaker_label.astype(str).str.strip().ne("")
+        & names.suggested_name.astype(str).str.strip().ne("")
+    ].copy()
+    counts = names.groupby(["episode_id", "speaker_label"]).suggested_name.nunique()
+    valid = counts[counts.eq(1)].reset_index()[["episode_id", "speaker_label"]]
+    names = names.merge(
+        valid, on=["episode_id", "speaker_label"], how="inner", validate="many_to_one"
+    ).drop_duplicates(["episode_id", "speaker_label"])
+    return {
+        str(episode_id): {
+            str(row.speaker_label): str(row.suggested_name)
+            for row in group.itertuples()
+        }
+        for episode_id, group in names.groupby("episode_id", sort=False)
+    }
+
+
+def _speaker_label(speaker: str, names: dict[str, str]) -> str:
+    return names.get(speaker) or speaker
+
+
+def _participation_over_time(
+    turns: list[dict[str, Any]], names: dict[str, str]
+) -> dict[str, Any]:
     valid: list[tuple[float, float, str]] = []
     for turn in turns:
         try:
             start = float(turn["start_seconds"])
             end = float(turn["end_seconds"])
-            speaker = str(turn["speaker"])
+            speaker = _speaker_label(str(turn["speaker"]), names)
         except (KeyError, TypeError, ValueError):
             continue
         if speaker and math.isfinite(end - start) and end > start:
@@ -130,7 +169,7 @@ def _participation_over_time(turns: list[dict[str, Any]]) -> dict[str, Any]:
     omitted_speakers = ordered_speakers[8:]
     visible_shares = {speaker: speaker_shares[speaker] for speaker in visible_speakers}
     if omitted_speakers:
-        visible_shares["Other speakers"] = [
+        visible_shares["Muud kõnelejad"] = [
             sum(speaker_shares[speaker][index] for speaker in omitted_speakers)
             for index in range(len(windows))
         ]
@@ -153,32 +192,48 @@ def _discussion_payload(
     audio_url: str,
     diarization: dict[str, Any],
     topic_chunks: list[dict[str, Any]],
+    speaker_names: dict[str, str],
 ) -> dict[str, Any]:
     turns = diarization.get("turns", [])
     topic_overlap = align_topic_chunks_to_speakers(topic_chunks, turns)
-    topic_totals: dict[tuple[str, str, str], float] = defaultdict(float)
+    high_level_totals: dict[tuple[str, str, str], float] = defaultdict(float)
+    detailed_totals: dict[tuple[str, str, str], float] = defaultdict(float)
     for row in topic_overlap:
-        key = (str(row["speaker"]), str(row["high_level_id"]), str(row["high_level_name"]))
-        topic_totals[key] += float(row["overlap_seconds"])
-    speaker_totals: dict[str, float] = defaultdict(float)
-    topic_seconds: dict[tuple[str, str], float] = defaultdict(float)
-    for (speaker, topic_id, topic_name), seconds in topic_totals.items():
-        speaker_totals[speaker] += seconds
-        topic_seconds[(topic_id, topic_name)] += seconds
-    speakers = sorted(speaker_totals, key=lambda speaker: (-speaker_totals[speaker], speaker))
-    topics = sorted(topic_seconds, key=lambda topic: (-topic_seconds[topic], topic[1]))
-    topic_matrix = [
-        [
-            topic_totals.get((speaker, topic_id, topic_name), 0.0)
-            / topic_seconds[(topic_id, topic_name)]
-            if topic_seconds[(topic_id, topic_name)]
-            else 0.0
-            for topic_id, topic_name in topics
-        ]
-        for speaker in speakers
-    ]
+        speaker = _speaker_label(str(row["speaker"]), speaker_names)
+        high_key = (speaker, str(row["high_level_id"]), str(row["high_level_name"]))
+        detailed_key = (
+            speaker,
+            str(row["detailed_topic_id"]),
+            str(row["detailed_topic_name"]),
+        )
+        high_level_totals[high_key] += float(row["overlap_seconds"])
+        detailed_totals[detailed_key] += float(row["overlap_seconds"])
 
-    transition_rows = speaker_transition_rows(turns)
+    def topic_matrix(totals: dict[tuple[str, str, str], float]) -> dict[str, Any]:
+        speaker_totals: dict[str, float] = defaultdict(float)
+        topic_seconds: dict[tuple[str, str], float] = defaultdict(float)
+        for (speaker, topic_id, topic_name), seconds in totals.items():
+            speaker_totals[speaker] += seconds
+            topic_seconds[(topic_id, topic_name)] += seconds
+        speakers = sorted(speaker_totals, key=lambda speaker: (-speaker_totals[speaker], speaker))
+        topics = sorted(topic_seconds, key=lambda topic: (-topic_seconds[topic], topic[1]))
+        shares = [
+            [
+                totals.get((speaker, topic_id, topic_name), 0.0)
+                / topic_seconds[(topic_id, topic_name)]
+                if topic_seconds[(topic_id, topic_name)]
+                else 0.0
+                for topic_id, topic_name in topics
+            ]
+            for speaker in speakers
+        ]
+        return {"speakers": speakers, "topics": [name for _, name in topics], "shares": shares}
+
+    named_turns = [
+        {**turn, "speaker": _speaker_label(str(turn.get("speaker", "")), speaker_names)}
+        for turn in turns
+    ]
+    transition_rows = speaker_transition_rows(named_turns)
     transition_speakers = sorted(
         {str(row["from_speaker"]) for row in transition_rows}
         | {str(row["to_speaker"]) for row in transition_rows}
@@ -198,7 +253,7 @@ def _discussion_payload(
         ]
         for source in transition_speakers
     ]
-    participation = _participation_over_time(turns)
+    participation = _participation_over_time(turns, speaker_names)
     summary = summarize_conversation(diarization)
     return {
         "episode_id": episode_id,
@@ -212,9 +267,8 @@ def _discussion_payload(
         "speaker_switches": sum(int(row["transition_count"]) for row in transition_rows),
         "participation": participation,
         "speaker_topic": {
-            "speakers": speakers,
-            "topics": [topic_name for _, topic_name in topics],
-            "shares": topic_matrix,
+            "high_level": topic_matrix(high_level_totals),
+            "detailed": topic_matrix(detailed_totals),
         },
         "transitions": {"speakers": transition_speakers, "shares": transition_matrix},
     }
@@ -224,9 +278,9 @@ def _render_stats_page(episode_id: str, title: str) -> str:
     safe_id = html.escape(episode_id, quote=True)
     safe_title = html.escape(title)
     return f"""<!doctype html>
-<html lang="en"><head><meta charset="utf-8">
+<html lang="et"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{safe_title} — discussion statistics</title>
+<title>{safe_title} — arutelu statistika</title>
 <script src="https://cdn.plot.ly/plotly-3.1.0.min.js" defer></script>
 <style>
 :root{{font-family:Inter,ui-sans-serif,system-ui,sans-serif;color:#172033;background:#f5f7fb}}
@@ -249,32 +303,38 @@ main{{padding:18px 0 54px}}
 h2{{margin:4px 0 0;font-size:1.22rem}}
 .chart{{min-height:300px}}
 .note{{color:#59657a}}
+.topic-modes{{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0}}
+.topic-modes button{{border:1px solid #c9d2e0;border-radius:8px;padding:8px 12px;
+  background:white;color:#243047;font:inherit;font-weight:700;cursor:pointer}}
+.topic-modes button[aria-pressed="true"]{{background:#2458c6;color:white;border-color:#2458c6}}
 @media(max-width:600px){{header,main{{width:calc(100% - 20px)}}
   .chart{{min-height:250px}}}}
 </style></head><body>
-<header><p><a href="{safe_id}.html">← Listen and read transcript</a></p><h1>{safe_title}</h1>
-<p class="meta">Conversation statistics · <span id="organizer"></span></p>
+<header><p><a href="../transcripts.html?episode={safe_id}">← Ava arutelu transkript</a></p><h1>{safe_title}</h1>
+<p class="meta">Arutelu statistika · <span id="organizer"></span></p>
 <div id="summary" class="summary"></div></header>
 <div class="player"><audio id="audio" controls preload="metadata"></audio></div>
 <main>
 <section class="chart-card">
-<h2>Participation over time</h2>
-<p class="note">Ten-minute windows advance every five minutes. Turns crossing a window
-boundary are divided by overlap. Click the chart to seek the recording.</p>
+<h2>Kõnelejate osalus ajas</h2>
+<p class="note">Kümneminutiline aken liigub viie minuti kaupa. Aknapiiri ületavad kõnevoorud
+jagatakse kestuse järgi. Salvestisesse hüppamiseks klõpsa graafikul.</p>
 <div id="participation" class="chart"></div><div id="equality" class="chart"></div>
 </section>
 <section class="chart-card">
-<h2>Speaker–topic participation</h2>
-<p class="note">Each cell shows the speaker’s share of aligned speech within that
-high-level topic.</p>
+<h2>Kõnelejate teemajaotus</h2>
+<p class="note">Lahter näitab kõneleja osa selle teema kõneajast.</p>
+<div class="topic-modes" role="group" aria-label="Teemade detailsus">
+<button id="detailed-topics" type="button" aria-pressed="true">Alamteemad</button>
+<button id="high-level-topics" type="button" aria-pressed="false">Põhiteemad</button>
+</div>
 <div id="speaker-topic" class="chart"></div>
-<p id="no-topics" class="note" hidden>No matching topic assignments are available
-for this discussion.</p>
+<p id="no-topics" class="note" hidden>Selle arutelu kohta pole teemamääranguid.</p>
 </section>
 <section class="chart-card">
-<h2>Turn-transition structure</h2>
-<p class="note">Adjacent runs by the same speaker are collapsed. Rows show the share
-of each speaker’s outgoing turns passed to another speaker.</p>
+<h2>Kõnelejate vahetumise struktuur</h2>
+<p class="note">Kõrvuti sama kõneleja voorud koondatakse. Read näitavad, kui sageli
+läheb kõnejärg ühelt kõnelejalt teisele.</p>
 <div id="transitions" class="chart"></div>
 </section>
 </main><script src="../assets/discussion-stats.js" defer></script>
@@ -286,6 +346,7 @@ def build_discussion_stats_site(project_root: str | Path) -> tuple[int, int]:
     """Write one listening-linked static stats page for each diarization recording."""
     root = Path(project_root).resolve()
     aliases, chunks_by_episode = _load_inputs(root)
+    names_by_episode = _load_speaker_names(root)
     transcript_root = root / "data/transcripts"
     diarization_root = root / "data/diarization"
     stats_root = root / "site/diarization"
@@ -313,6 +374,7 @@ def build_discussion_stats_site(project_root: str | Path) -> tuple[int, int]:
             audio_url=str(episode.get("audio_url") or ""),
             diarization=diarization,
             topic_chunks=chunks_by_episode.get(canonical_id, []),
+            speaker_names=names_by_episode.get(episode_id, {}),
         )
         data_path = json_root / f"{episode_id}.json"
         data_path.parent.mkdir(parents=True, exist_ok=True)

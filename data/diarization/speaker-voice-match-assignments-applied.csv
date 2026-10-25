@@ -1,0 +1,19 @@
+﻿episode_id,episode_title,source_speaker_label,assigned_speaker_label,suggested_name,cosine_similarity,second_candidate_margin,reference_recordings,model,review_status
+2247188702,Kuidas juhtida riiki? Visiooni põhjal? Väärtuste põhjal?,SPEAKER_05,SPEAKER_05,Maria Kütt,0.9879,0.0938,2395991451/SPEAKER_02:0,microsoft/wavlm-base-plus-sv,applied_medium_confidence
+2247188705,Kas töötaja on alati nõrgem osapool?,SPEAKER_05,SPEAKER_05,Kristjan Pihl,0.9877,0.2881,2318409191/SPEAKER_11:0,microsoft/wavlm-base-plus-sv,applied_medium_confidence
+2258666744,Rahvus: inimene,SPEAKER_08,SPEAKER_08,Natalja Kitam,0.9452,0.2781,2396670933/SPEAKER_06:6,microsoft/wavlm-base-plus-sv,applied_medium_confidence
+2267420990,Püsimetsandus – kas kesktee metsakaitse ja metsamajanduse vahel_,SPEAKER_07,SPEAKER_07,Raul Rosenvald,0.9934,0.2543,2267420996/SPEAKER_06:6,microsoft/wavlm-base-plus-sv,applied_medium_confidence
+2267420990,Püsimetsandus – kas kesktee metsakaitse ja metsamajanduse vahel_,SPEAKER_01,SPEAKER_01,Ode Maria Punamäe,0.9816,0.2370,2323554800/SPEAKER_09:6,microsoft/wavlm-base-plus-sv,applied_medium_confidence
+2271676364,"Rahvaarv kahaneb, aga ohud kasvavad. Kas Eesti riigikaitse vajab uut lähenemist_",SPEAKER_07,SPEAKER_06,Riina Sikkut,0.9786,0.0969,2394248502/SPEAKER_05:6,microsoft/wavlm-base-plus-sv,applied_medium_confidence
+2271676364,"Rahvaarv kahaneb, aga ohud kasvavad. Kas Eesti riigikaitse vajab uut lähenemist_",SPEAKER_08,SPEAKER_06,Riina Sikkut,0.9657,0.0928,2394248502/SPEAKER_05:6,microsoft/wavlm-base-plus-sv,applied_medium_confidence
+2271676364,"Rahvaarv kahaneb, aga ohud kasvavad. Kas Eesti riigikaitse vajab uut lähenemist_",SPEAKER_06,SPEAKER_06,Riina Sikkut,0.9678,0.0834,2394248502/SPEAKER_05:6,microsoft/wavlm-base-plus-sv,applied_medium_confidence
+2277338249,Kas lapsi saab panna liikuma_,SPEAKER_02,SPEAKER_13,Andero Uusberg,0.9848,0.1646,2289585029/SPEAKER_01:0,microsoft/wavlm-base-plus-sv,applied_medium_confidence
+2277338249,Kas lapsi saab panna liikuma_,SPEAKER_13,SPEAKER_13,Andero Uusberg,0.9423,0.1158,2289585029/SPEAKER_01:0,microsoft/wavlm-base-plus-sv,applied_medium_confidence
+2277338249,Kas lapsi saab panna liikuma_,SPEAKER_07,SPEAKER_07,Kadi Lubi,0.9899,0.2287,2293106213/SPEAKER_07:0,microsoft/wavlm-base-plus-sv,applied_medium_confidence
+2280202460,Tööstusinvesteeringud ja energiajulgeolek. Kuidas tagada tööstuse edukas tulevik muutuvas geopoliitilises olukorras_,SPEAKER_03,SPEAKER_03,Ott Pärna,0.9099,0.1050,2395991469/SPEAKER_01:6,microsoft/wavlm-base-plus-sv,applied_medium_confidence
+2387966364,Millised on kohaliku kaugkütte tulevikustsenaariumid_,SPEAKER_03,SPEAKER_03,Kristjan Pihl,0.9788,0.1486,2318409191/SPEAKER_11:0,microsoft/wavlm-base-plus-sv,applied_medium_confidence
+2387966364,Millised on kohaliku kaugkütte tulevikustsenaariumid_,SPEAKER_04,SPEAKER_04,Rein Vaks,0.9881,0.0931,2302899431/SPEAKER_08:6,microsoft/wavlm-base-plus-sv,applied_medium_confidence
+2387966373,Miks peab elektriga kauplema börsil_ (1),SPEAKER_02,SPEAKER_02,Marko Allikson,0.9836,0.1333,2396692749/SPEAKER_06:6,microsoft/wavlm-base-plus-sv,applied_medium_confidence
+2396670924,Loodusrahvas või ressursirahvas_ miks keskkond valimiskasti juures kaotab_,SPEAKER_02,SPEAKER_02,Tarmo Jüristo,0.9897,0.1014,2300040482/SPEAKER_06:6,microsoft/wavlm-base-plus-sv,applied_medium_confidence
+2397177249,AI ajastu ettevõtlus – kas miljon mikroettevõtjat või paar suurt võitjat_,SPEAKER_01,SPEAKER_01,Kei Olbrei,0.9858,0.6280,2395991469/SPEAKER_03:6,microsoft/wavlm-base-plus-sv,applied_medium_confidence
+2400207759,Tervishoid aastal 2050_ milliseid otsuseid peame tegema juba täna_,SPEAKER_01,SPEAKER_01,Taavi Einaste,0.9350,0.4508,2383055898/SPEAKER_01:6,microsoft/wavlm-base-plus-sv,applied_medium_confidence

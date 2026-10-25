@@ -11,8 +11,6 @@
     "SPEAKER_04",
     "SPEAKER_05",
     "SPEAKER_06",
-    "SPEAKER_07",
-    "SPEAKER_08",
     "SPEAKER_09"
   ],
   "turns": [
@@ -574,7 +572,7 @@
     {
       "start_seconds": 783.183,
       "end_seconds": 783.689,
-      "speaker": "SPEAKER_07"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 783.689,
@@ -584,7 +582,7 @@
     {
       "start_seconds": 783.976,
       "end_seconds": 784.516,
-      "speaker": "SPEAKER_07"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 784.516,
@@ -594,7 +592,7 @@
     {
       "start_seconds": 784.55,
       "end_seconds": 784.6,
-      "speaker": "SPEAKER_07"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 784.6,
@@ -604,7 +602,7 @@
     {
       "start_seconds": 784.87,
       "end_seconds": 788.735,
-      "speaker": "SPEAKER_07"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 788.735,
@@ -639,7 +637,7 @@
     {
       "start_seconds": 973.043,
       "end_seconds": 978.967,
-      "speaker": "SPEAKER_07"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 978.967,
@@ -1084,7 +1082,7 @@
     {
       "start_seconds": 1471.396,
       "end_seconds": 1471.919,
-      "speaker": "SPEAKER_08"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 1471.919,
@@ -1094,7 +1092,7 @@
     {
       "start_seconds": 1472.206,
       "end_seconds": 1475.108,
-      "speaker": "SPEAKER_08"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 1475.48,
@@ -1104,22 +1102,22 @@
     {
       "start_seconds": 1485.115,
       "end_seconds": 1486.027,
-      "speaker": "SPEAKER_08"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 1486.027,
       "end_seconds": 1486.533,
-      "speaker": "SPEAKER_07"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 1486.533,
       "end_seconds": 1486.55,
-      "speaker": "SPEAKER_08"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 1486.55,
       "end_seconds": 1486.567,
-      "speaker": "SPEAKER_07"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 1486.634,
@@ -1129,62 +1127,62 @@
     {
       "start_seconds": 1487.258,
       "end_seconds": 1487.292,
-      "speaker": "SPEAKER_08"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 1487.292,
       "end_seconds": 1488.76,
-      "speaker": "SPEAKER_07"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 1489.081,
       "end_seconds": 1505.737,
-      "speaker": "SPEAKER_07"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 1505.753,
       "end_seconds": 1505.77,
-      "speaker": "SPEAKER_07"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 1505.787,
       "end_seconds": 1506.125,
-      "speaker": "SPEAKER_07"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 1506.361,
       "end_seconds": 1508.318,
-      "speaker": "SPEAKER_07"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 1509.263,
       "end_seconds": 1524.164,
-      "speaker": "SPEAKER_07"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 1524.755,
       "end_seconds": 1529.345,
-      "speaker": "SPEAKER_07"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 1529.463,
       "end_seconds": 1545.072,
-      "speaker": "SPEAKER_07"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 1545.376,
       "end_seconds": 1558.758,
-      "speaker": "SPEAKER_07"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 1559.129,
       "end_seconds": 1563.517,
-      "speaker": "SPEAKER_07"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 1564.124,
       "end_seconds": 1568.107,
-      "speaker": "SPEAKER_07"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 1568.107,
@@ -1199,7 +1197,7 @@
     {
       "start_seconds": 1569.44,
       "end_seconds": 1569.592,
-      "speaker": "SPEAKER_07"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 1569.592,
@@ -1209,7 +1207,7 @@
     {
       "start_seconds": 1569.71,
       "end_seconds": 1571.87,
-      "speaker": "SPEAKER_07"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 1571.87,
@@ -1219,7 +1217,7 @@
     {
       "start_seconds": 1572.562,
       "end_seconds": 1572.629,
-      "speaker": "SPEAKER_07"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 1572.629,
@@ -1229,7 +1227,7 @@
     {
       "start_seconds": 1572.933,
       "end_seconds": 1573.253,
-      "speaker": "SPEAKER_07"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 1573.253,
@@ -1239,152 +1237,152 @@
     {
       "start_seconds": 1575.008,
       "end_seconds": 1577.506,
-      "speaker": "SPEAKER_07"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 1577.995,
       "end_seconds": 1579.717,
-      "speaker": "SPEAKER_07"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 1580.138,
       "end_seconds": 1587.749,
-      "speaker": "SPEAKER_07"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 1587.884,
       "end_seconds": 1592.339,
-      "speaker": "SPEAKER_07"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 1592.812,
       "end_seconds": 1596.322,
-      "speaker": "SPEAKER_07"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 1596.743,
       "end_seconds": 1607.105,
-      "speaker": "SPEAKER_07"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 1607.594,
       "end_seconds": 1616.842,
-      "speaker": "SPEAKER_07"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 1617.55,
       "end_seconds": 1619.103,
-      "speaker": "SPEAKER_07"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 1619.542,
       "end_seconds": 1633.362,
-      "speaker": "SPEAKER_07"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 1633.75,
       "end_seconds": 1636.315,
-      "speaker": "SPEAKER_07"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 1636.737,
       "end_seconds": 1639.37,
-      "speaker": "SPEAKER_07"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 1639.775,
       "end_seconds": 1640.382,
-      "speaker": "SPEAKER_07"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 1640.551,
       "end_seconds": 1645.023,
-      "speaker": "SPEAKER_07"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 1645.512,
       "end_seconds": 1647.082,
-      "speaker": "SPEAKER_07"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 1647.672,
       "end_seconds": 1649.579,
-      "speaker": "SPEAKER_07"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 1650.052,
       "end_seconds": 1650.592,
-      "speaker": "SPEAKER_07"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 1650.794,
       "end_seconds": 1657.78,
-      "speaker": "SPEAKER_07"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 1658.388,
       "end_seconds": 1664.935,
-      "speaker": "SPEAKER_07"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 1665.61,
       "end_seconds": 1670.082,
-      "speaker": "SPEAKER_07"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 1670.285,
       "end_seconds": 1673.525,
-      "speaker": "SPEAKER_07"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 1674.031,
       "end_seconds": 1696.559,
-      "speaker": "SPEAKER_07"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 1697.015,
       "end_seconds": 1706.38,
-      "speaker": "SPEAKER_07"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 1706.431,
       "end_seconds": 1709.384,
-      "speaker": "SPEAKER_07"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 1709.738,
       "end_seconds": 1723.441,
-      "speaker": "SPEAKER_07"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 1724.116,
       "end_seconds": 1729.904,
-      "speaker": "SPEAKER_07"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 1730.427,
       "end_seconds": 1738.78,
-      "speaker": "SPEAKER_07"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 1739.168,
       "end_seconds": 1744.636,
-      "speaker": "SPEAKER_07"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 1744.805,
       "end_seconds": 1756.55,
-      "speaker": "SPEAKER_07"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 1757.09,
       "end_seconds": 1764.194,
-      "speaker": "SPEAKER_07"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 1764.565,
       "end_seconds": 1774.049,
-      "speaker": "SPEAKER_07"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 1774.505,
@@ -1394,232 +1392,232 @@
     {
       "start_seconds": 1776.698,
       "end_seconds": 1776.884,
-      "speaker": "SPEAKER_07"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 1778.487,
       "end_seconds": 1783.735,
-      "speaker": "SPEAKER_08"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 1783.837,
       "end_seconds": 1786.739,
-      "speaker": "SPEAKER_08"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 1786.857,
       "end_seconds": 1792.038,
-      "speaker": "SPEAKER_08"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 1792.409,
       "end_seconds": 1807.664,
-      "speaker": "SPEAKER_08"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 1808.137,
       "end_seconds": 1809.689,
-      "speaker": "SPEAKER_08"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 1810.499,
       "end_seconds": 1822.666,
-      "speaker": "SPEAKER_08"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 1823.155,
       "end_seconds": 1831.137,
-      "speaker": "SPEAKER_08"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 1831.61,
       "end_seconds": 1839.541,
-      "speaker": "SPEAKER_08"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 1839.592,
       "end_seconds": 1842.41,
-      "speaker": "SPEAKER_08"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 1842.562,
       "end_seconds": 1846.443,
-      "speaker": "SPEAKER_08"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 1846.679,
       "end_seconds": 1865.242,
-      "speaker": "SPEAKER_08"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 1865.528,
       "end_seconds": 1874.152,
-      "speaker": "SPEAKER_08"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 1874.405,
       "end_seconds": 1883.551,
-      "speaker": "SPEAKER_08"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 1883.956,
       "end_seconds": 1890.065,
-      "speaker": "SPEAKER_08"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 1890.267,
       "end_seconds": 1891.162,
-      "speaker": "SPEAKER_08"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 1891.651,
       "end_seconds": 1899.228,
-      "speaker": "SPEAKER_08"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 1899.852,
       "end_seconds": 1908.475,
-      "speaker": "SPEAKER_08"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 1908.998,
       "end_seconds": 1916.153,
-      "speaker": "SPEAKER_08"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 1916.491,
       "end_seconds": 1919.107,
-      "speaker": "SPEAKER_08"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 1919.748,
       "end_seconds": 1924.726,
-      "speaker": "SPEAKER_08"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 1925.249,
       "end_seconds": 1934.632,
-      "speaker": "SPEAKER_08"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 1934.699,
       "end_seconds": 1950.713,
-      "speaker": "SPEAKER_08"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 1951.169,
       "end_seconds": 1960.805,
-      "speaker": "SPEAKER_08"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 1961.412,
       "end_seconds": 1964.062,
-      "speaker": "SPEAKER_08"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 1964.382,
       "end_seconds": 1967.538,
-      "speaker": "SPEAKER_08"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 1967.69,
       "end_seconds": 1969.006,
-      "speaker": "SPEAKER_08"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 1969.242,
       "end_seconds": 1970.626,
-      "speaker": "SPEAKER_08"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 1971.267,
       "end_seconds": 1973.14,
-      "speaker": "SPEAKER_08"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 1973.917,
       "end_seconds": 1984.278,
-      "speaker": "SPEAKER_08"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 1984.565,
       "end_seconds": 2012.02,
-      "speaker": "SPEAKER_08"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 2013.303,
       "end_seconds": 2013.792,
-      "speaker": "SPEAKER_08"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 2014.636,
       "end_seconds": 2020.576,
-      "speaker": "SPEAKER_08"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 2020.66,
       "end_seconds": 2035.426,
-      "speaker": "SPEAKER_08"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 2035.763,
       "end_seconds": 2044.454,
-      "speaker": "SPEAKER_08"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 2044.505,
       "end_seconds": 2048.588,
-      "speaker": "SPEAKER_08"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 2049.736,
       "end_seconds": 2055.76,
-      "speaker": "SPEAKER_08"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 2056.688,
       "end_seconds": 2069.969,
-      "speaker": "SPEAKER_08"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 2070.273,
       "end_seconds": 2078.474,
-      "speaker": "SPEAKER_08"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 2079.419,
       "end_seconds": 2084.397,
-      "speaker": "SPEAKER_08"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 2084.785,
       "end_seconds": 2090.253,
-      "speaker": "SPEAKER_08"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 2090.573,
       "end_seconds": 2093.476,
-      "speaker": "SPEAKER_08"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 2094.37,
       "end_seconds": 2097.121,
-      "speaker": "SPEAKER_08"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 2097.644,
       "end_seconds": 2099.146,
-      "speaker": "SPEAKER_08"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 2099.872,
       "end_seconds": 2104.057,
-      "speaker": "SPEAKER_08"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 2104.917,
       "end_seconds": 2111.245,
-      "speaker": "SPEAKER_08"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 2111.245,
@@ -1694,32 +1692,32 @@
     {
       "start_seconds": 2222.013,
       "end_seconds": 2222.857,
-      "speaker": "SPEAKER_07"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 2223.616,
       "end_seconds": 2270.495,
-      "speaker": "SPEAKER_07"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 2270.849,
       "end_seconds": 2271.49,
-      "speaker": "SPEAKER_07"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 2271.727,
       "end_seconds": 2272.705,
-      "speaker": "SPEAKER_07"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 2273.11,
       "end_seconds": 2277.768,
-      "speaker": "SPEAKER_07"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 2278.274,
       "end_seconds": 2286.003,
-      "speaker": "SPEAKER_07"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 2286.003,
@@ -1744,12 +1742,12 @@
     {
       "start_seconds": 2290.694,
       "end_seconds": 2293.023,
-      "speaker": "SPEAKER_07"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 2293.445,
       "end_seconds": 2305.966,
-      "speaker": "SPEAKER_07"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 2305.966,
@@ -1759,7 +1757,7 @@
     {
       "start_seconds": 2307.772,
       "end_seconds": 2307.805,
-      "speaker": "SPEAKER_07"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 2307.805,
@@ -1769,12 +1767,12 @@
     {
       "start_seconds": 2307.839,
       "end_seconds": 2339.513,
-      "speaker": "SPEAKER_07"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 2339.598,
       "end_seconds": 2345.403,
-      "speaker": "SPEAKER_07"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 2345.403,
@@ -1814,57 +1812,57 @@
     {
       "start_seconds": 2387.101,
       "end_seconds": 2395.589,
-      "speaker": "SPEAKER_08"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 2395.96,
       "end_seconds": 2397.496,
-      "speaker": "SPEAKER_08"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 2397.884,
       "end_seconds": 2400.162,
-      "speaker": "SPEAKER_08"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 2400.719,
       "end_seconds": 2404.077,
-      "speaker": "SPEAKER_08"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 2404.448,
       "end_seconds": 2405.495,
-      "speaker": "SPEAKER_08"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 2405.883,
       "end_seconds": 2407.722,
-      "speaker": "SPEAKER_08"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 2408.33,
       "end_seconds": 2409.106,
-      "speaker": "SPEAKER_08"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 2409.308,
       "end_seconds": 2411.3,
-      "speaker": "SPEAKER_08"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 2411.671,
       "end_seconds": 2418.303,
-      "speaker": "SPEAKER_08"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 2418.64,
       "end_seconds": 2427.213,
-      "speaker": "SPEAKER_08"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 2427.618,
       "end_seconds": 2479.475,
-      "speaker": "SPEAKER_08"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 2479.475,
@@ -2009,7 +2007,7 @@
     {
       "start_seconds": 2718.155,
       "end_seconds": 2718.56,
-      "speaker": "SPEAKER_07"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 2718.56,
@@ -2094,32 +2092,32 @@
     {
       "start_seconds": 2833.462,
       "end_seconds": 2836.668,
-      "speaker": "SPEAKER_07"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 2839.047,
       "end_seconds": 2854.758,
-      "speaker": "SPEAKER_07"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 2854.943,
       "end_seconds": 2879.564,
-      "speaker": "SPEAKER_07"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 2879.918,
       "end_seconds": 2880.357,
-      "speaker": "SPEAKER_07"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 2880.779,
       "end_seconds": 2888.423,
-      "speaker": "SPEAKER_07"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 2888.508,
       "end_seconds": 2912.504,
-      "speaker": "SPEAKER_07"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 2912.842,
@@ -2134,7 +2132,7 @@
     {
       "start_seconds": 2942.221,
       "end_seconds": 2942.828,
-      "speaker": "SPEAKER_08"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 2942.828,
@@ -2144,22 +2142,22 @@
     {
       "start_seconds": 2944.01,
       "end_seconds": 2976.916,
-      "speaker": "SPEAKER_08"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 2977.372,
       "end_seconds": 2979.211,
-      "speaker": "SPEAKER_08"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 2979.312,
       "end_seconds": 2982.012,
-      "speaker": "SPEAKER_08"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 2982.721,
       "end_seconds": 3026.478,
-      "speaker": "SPEAKER_08"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 3028.03,
@@ -2169,7 +2167,7 @@
     {
       "start_seconds": 3030.865,
       "end_seconds": 3030.882,
-      "speaker": "SPEAKER_08"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 3030.882,
@@ -2389,7 +2387,7 @@
     {
       "start_seconds": 3352.823,
       "end_seconds": 3353.313,
-      "speaker": "SPEAKER_07"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 3353.313,
@@ -2399,17 +2397,17 @@
     {
       "start_seconds": 3354.562,
       "end_seconds": 3357.92,
-      "speaker": "SPEAKER_07"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 3358.122,
       "end_seconds": 3358.949,
-      "speaker": "SPEAKER_07"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 3359.86,
       "end_seconds": 3389.358,
-      "speaker": "SPEAKER_07"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 3389.425,
@@ -2419,7 +2417,7 @@
     {
       "start_seconds": 3399.652,
       "end_seconds": 3426.128,
-      "speaker": "SPEAKER_07"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 3426.128,
@@ -2429,22 +2427,22 @@
     {
       "start_seconds": 3434.11,
       "end_seconds": 3445.214,
-      "speaker": "SPEAKER_08"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 3445.67,
       "end_seconds": 3451.103,
-      "speaker": "SPEAKER_08"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 3451.559,
       "end_seconds": 3457.347,
-      "speaker": "SPEAKER_08"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 3457.651,
       "end_seconds": 3508.225,
-      "speaker": "SPEAKER_08"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 3508.225,
@@ -2504,7 +2502,7 @@
     {
       "start_seconds": 3584.45,
       "end_seconds": 3584.568,
-      "speaker": "SPEAKER_07"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 3584.568,
@@ -2514,7 +2512,7 @@
     {
       "start_seconds": 3586.913,
       "end_seconds": 3617.035,
-      "speaker": "SPEAKER_07"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 3617.035,
@@ -2524,37 +2522,37 @@
     {
       "start_seconds": 3620.782,
       "end_seconds": 3639.53,
-      "speaker": "SPEAKER_07"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 3639.918,
       "end_seconds": 3643.58,
-      "speaker": "SPEAKER_07"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 3644.103,
       "end_seconds": 3689.581,
-      "speaker": "SPEAKER_07"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 3689.885,
       "end_seconds": 3705.612,
-      "speaker": "SPEAKER_07"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 3705.815,
       "end_seconds": 3710.928,
-      "speaker": "SPEAKER_07"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 3711.434,
       "end_seconds": 3719.787,
-      "speaker": "SPEAKER_07"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 3720.108,
       "end_seconds": 3731.144,
-      "speaker": "SPEAKER_07"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 3731.144,
@@ -2659,7 +2657,7 @@
     {
       "start_seconds": 3875.56,
       "end_seconds": 3877.028,
-      "speaker": "SPEAKER_07"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 3877.028,
@@ -2669,7 +2667,7 @@
     {
       "start_seconds": 3881.315,
       "end_seconds": 3909.023,
-      "speaker": "SPEAKER_07"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 3909.023,
@@ -2699,7 +2697,7 @@
     {
       "start_seconds": 3913.478,
       "end_seconds": 3913.512,
-      "speaker": "SPEAKER_07"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 3913.512,
@@ -2719,7 +2717,7 @@
     {
       "start_seconds": 3915.503,
       "end_seconds": 3928.177,
-      "speaker": "SPEAKER_08"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 3928.177,
@@ -2874,7 +2872,7 @@
     {
       "start_seconds": 4226.037,
       "end_seconds": 4236.787,
-      "speaker": "SPEAKER_07"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 4236.787,
@@ -2919,7 +2917,7 @@
     {
       "start_seconds": 4261.947,
       "end_seconds": 4261.964,
-      "speaker": "SPEAKER_08"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 4262.757,
@@ -2929,12 +2927,12 @@
     {
       "start_seconds": 4264.698,
       "end_seconds": 4270.908,
-      "speaker": "SPEAKER_08"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 4270.958,
       "end_seconds": 4278.974,
-      "speaker": "SPEAKER_08"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 4278.974,
@@ -2944,7 +2942,7 @@
     {
       "start_seconds": 4281.978,
       "end_seconds": 4283.159,
-      "speaker": "SPEAKER_08"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 4283.362,
@@ -3004,7 +3002,7 @@
     {
       "start_seconds": 4384.088,
       "end_seconds": 4384.139,
-      "speaker": "SPEAKER_08"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 4384.139,
@@ -3014,22 +3012,22 @@
     {
       "start_seconds": 4386.029,
       "end_seconds": 4402.651,
-      "speaker": "SPEAKER_08"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 4403.022,
       "end_seconds": 4406.498,
-      "speaker": "SPEAKER_08"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 4406.87,
       "end_seconds": 4424.892,
-      "speaker": "SPEAKER_08"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 4425.415,
       "end_seconds": 4435.034,
-      "speaker": "SPEAKER_08"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 4435.034,
@@ -3039,7 +3037,7 @@
     {
       "start_seconds": 4439.168,
       "end_seconds": 4452.314,
-      "speaker": "SPEAKER_08"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 4452.314,
@@ -3049,12 +3047,12 @@
     {
       "start_seconds": 4460.161,
       "end_seconds": 4464.616,
-      "speaker": "SPEAKER_07"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 4464.616,
       "end_seconds": 4470.573,
-      "speaker": "SPEAKER_08"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 4470.573,
@@ -3064,17 +3062,17 @@
     {
       "start_seconds": 4481.204,
       "end_seconds": 4484.967,
-      "speaker": "SPEAKER_08"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 4485.322,
       "end_seconds": 4503.428,
-      "speaker": "SPEAKER_08"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 4503.783,
       "end_seconds": 4504.12,
-      "speaker": "SPEAKER_08"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 4504.12,
@@ -3084,22 +3082,22 @@
     {
       "start_seconds": 4512.271,
       "end_seconds": 4512.929,
-      "speaker": "SPEAKER_07"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 4513.283,
       "end_seconds": 4553.092,
-      "speaker": "SPEAKER_07"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 4553.193,
       "end_seconds": 4553.227,
-      "speaker": "SPEAKER_07"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 4553.699,
       "end_seconds": 4562.002,
-      "speaker": "SPEAKER_07"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 4562.322,
@@ -3134,7 +3132,7 @@
     {
       "start_seconds": 4590.352,
       "end_seconds": 4594.655,
-      "speaker": "SPEAKER_08"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 4594.655,
@@ -3144,7 +3142,7 @@
     {
       "start_seconds": 4594.722,
       "end_seconds": 4594.891,
-      "speaker": "SPEAKER_08"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 4594.891,
@@ -3339,7 +3337,7 @@
     {
       "start_seconds": 4760.249,
       "end_seconds": 4762.966,
-      "speaker": "SPEAKER_08"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 4762.966,
@@ -3349,7 +3347,7 @@
     {
       "start_seconds": 4763.101,
       "end_seconds": 4763.168,
-      "speaker": "SPEAKER_08"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 4763.168,
@@ -3364,12 +3362,12 @@
     {
       "start_seconds": 4777.495,
       "end_seconds": 4777.934,
-      "speaker": "SPEAKER_07"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 4778.187,
       "end_seconds": 4778.272,
-      "speaker": "SPEAKER_07"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 4778.272,
@@ -3379,17 +3377,17 @@
     {
       "start_seconds": 4778.305,
       "end_seconds": 4780.027,
-      "speaker": "SPEAKER_07"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 4780.027,
       "end_seconds": 4780.347,
-      "speaker": "SPEAKER_08"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 4780.347,
       "end_seconds": 4789.156,
-      "speaker": "SPEAKER_07"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 4789.156,
@@ -3399,7 +3397,7 @@
     {
       "start_seconds": 4789.662,
       "end_seconds": 4789.73,
-      "speaker": "SPEAKER_07"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 4789.73,
@@ -3454,7 +3452,7 @@
     {
       "start_seconds": 4935.918,
       "end_seconds": 4936.492,
-      "speaker": "SPEAKER_08"
+      "speaker": "SPEAKER_06"
     },
     {
       "start_seconds": 4941.115,
@@ -4891,7 +4889,7 @@
       "start_seconds": 785.76,
       "end_seconds": 789.4,
       "text": "kuna te olete koalitsioonis, sa võid vastata, et sa oled Liisaga nõus.",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 2.975,
       "speaker_share": 0.8173
     },
@@ -5211,7 +5209,7 @@
       "start_seconds": 973.44,
       "end_seconds": 977.12,
       "text": "Ei, Taanis, aga teistes saab ikkagi mitte minna.",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 3.68,
       "speaker_share": 1.0
     },
@@ -6115,7 +6113,7 @@
       "start_seconds": 1471.6,
       "end_seconds": 1475.84,
       "text": "Mul on küsimus moderaatorile, et kas me saame kõik nii pika monoloogi endale.",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 3.221,
       "speaker_share": 0.7597
     },
@@ -6139,7 +6137,7 @@
       "start_seconds": 1484.72,
       "end_seconds": 1486.96,
       "text": "Ka praegu võiks ma võtta ka kolm minutit äkki.",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 0.929,
       "speaker_share": 0.4147
     },
@@ -6147,7 +6145,7 @@
       "start_seconds": 1486.96,
       "end_seconds": 1487.76,
       "text": "Anna tuld.",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 0.468,
       "speaker_share": 0.585
     },
@@ -6155,7 +6153,7 @@
       "start_seconds": 1487.76,
       "end_seconds": 1489.4,
       "text": "Aitäh.",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 1.319,
       "speaker_share": 0.8043
     },
@@ -6163,7 +6161,7 @@
       "start_seconds": 1489.4,
       "end_seconds": 1490.88,
       "text": "Riina võtab.",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 1.48,
       "speaker_share": 1.0
     },
@@ -6171,7 +6169,7 @@
       "start_seconds": 1490.88,
       "end_seconds": 1496.48,
       "text": "Ma nüüd sotsiaaldemokraatide programmi koostamisest ei alusta, aga mina ise olen umbes",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 5.6,
       "speaker_share": 1.0
     },
@@ -6179,7 +6177,7 @@
       "start_seconds": 1496.48,
       "end_seconds": 1502.96,
       "text": "kakskümmend aastat toetanud kohustuslikku ajateenistust naistele ja noh, kui, kui ma",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 6.48,
       "speaker_share": 1.0
     },
@@ -6187,7 +6185,7 @@
       "start_seconds": 1502.96,
       "end_seconds": 1508.08,
       "text": "sellest räägin, ma korduvalt olen saanud reaktsiooni, ah noh, no sinusugune feminist",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 4.851,
       "speaker_share": 0.9475
     },
@@ -6195,7 +6193,7 @@
       "start_seconds": 1508.08,
       "end_seconds": 1509.6,
       "text": "muidugi.",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 0.575,
       "speaker_share": 0.3783
     },
@@ -6203,7 +6201,7 @@
       "start_seconds": 1509.6,
       "end_seconds": 1513.84,
       "text": "Mis minu jaoks, või noh, mind viib täiesti lühisesse, sellepärast et feministid enam",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 4.24,
       "speaker_share": 1.0
     },
@@ -6211,7 +6209,7 @@
       "start_seconds": 1513.84,
       "end_seconds": 1518.2,
       "text": "asti ei toeta kohustuslikku ajateenistust naistele ja teiseks, see ei ole absoluutselt",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 4.36,
       "speaker_share": 1.0
     },
@@ -6219,7 +6217,7 @@
       "start_seconds": 1518.2,
       "end_seconds": 1519.88,
       "text": "võrdsus poliitika küsimus.",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 1.68,
       "speaker_share": 1.0
     },
@@ -6227,7 +6225,7 @@
       "start_seconds": 1519.88,
       "end_seconds": 1525.0,
       "text": "Meil ei ole vaja kõigil sama rasket varustust või relva ringi vedada.",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 4.529,
       "speaker_share": 0.8846
     },
@@ -6235,7 +6233,7 @@
       "start_seconds": 1525.0,
       "end_seconds": 1530.24,
       "text": "See on puhtalt Eesti kaitsmise küsimus ja nii nagu Eerik-Niiles ütles, et noh, et täpselt",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 5.122,
       "speaker_share": 0.9775
     },
@@ -6243,7 +6241,7 @@
       "start_seconds": 1530.24,
       "end_seconds": 1535.56,
       "text": "Iisraeli mudel, mina ka ei kujuta ette, kuidas on võimalik Eestit kaitsta, võttes aja",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 5.32,
       "speaker_share": 1.0
     },
@@ -6251,7 +6249,7 @@
       "start_seconds": 1535.56,
       "end_seconds": 1540.2,
       "text": "teenistusse tervise poolest need üksikud sobivad noormehed.",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 4.64,
       "speaker_share": 1.0
     },
@@ -6259,7 +6257,7 @@
       "start_seconds": 1540.2,
       "end_seconds": 1546.08,
       "text": "Et lisaks sellele, et me tegelikult ei peaks teist poolt noormeestest kõrvale jätma,",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 5.576,
       "speaker_share": 0.9483
     },
@@ -6267,7 +6265,7 @@
       "start_seconds": 1546.08,
       "end_seconds": 1552.84,
       "text": "siis samamoodi ma arvan, et kohustuslik ajateenistus naistele on tulevikus vajalik ja",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 6.76,
       "speaker_share": 1.0
     },
@@ -6275,7 +6273,7 @@
       "start_seconds": 1552.84,
       "end_seconds": 1556.84,
       "text": "me peaks teadlikult astuma samme sinna suunas, mina olen osalenud kolmedel koalitsiooni",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 4.0,
       "speaker_share": 1.0
     },
@@ -6283,7 +6281,7 @@
       "start_seconds": 1556.84,
       "end_seconds": 1562.08,
       "text": "läbirääkimistel, iga kord olen tõstatanud naiste ajateenistuse teema, ta on jõudnud ko",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 4.869,
       "speaker_share": 0.9292
     },
@@ -6291,7 +6289,7 @@
       "start_seconds": 1562.08,
       "end_seconds": 1567.76,
       "text": "alitsioonileppesse sellisel kujul, et noh, et soodustame naiste suuremat kaasamist riigi",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 5.073,
       "speaker_share": 0.8931
     },
@@ -6315,7 +6313,7 @@
       "start_seconds": 1575.36,
       "end_seconds": 1579.92,
       "text": "Vaatamata sellele, et me oleme siin kõik ühte meelt, siis --- , aga teeme siis lihtsalt",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 3.868,
       "speaker_share": 0.8482
     },
@@ -6323,7 +6321,7 @@
       "start_seconds": 1579.92,
       "end_seconds": 1581.04,
       "text": "ära.",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 0.902,
       "speaker_share": 0.8054
     },
@@ -6331,7 +6329,7 @@
       "start_seconds": 1581.04,
       "end_seconds": 1586.12,
       "text": "No vot nii vana, ma olen ka, et vaatamata sellele, et me kõik võime arvata, et kohustus",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 5.08,
       "speaker_share": 1.0
     },
@@ -6339,7 +6337,7 @@
       "start_seconds": 1586.12,
       "end_seconds": 1591.08,
       "text": "lik ajateenistus naistele võiks sobida, ühiskonnas ei saa seda niimoodi ära teha ja ma",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 4.825,
       "speaker_share": 0.9728
     },
@@ -6347,7 +6345,7 @@
       "start_seconds": 1591.08,
       "end_seconds": 1597.36,
       "text": "ei taha nüüd olla ebaviisakas, aga kui me tahame ajateenistust naistele laiendada, siis",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 5.386,
       "speaker_share": 0.8576
     },
@@ -6355,7 +6353,7 @@
       "start_seconds": 1597.36,
       "end_seconds": 1602.6,
       "text": "see kommunikatsioon, mida te siin teete, see tuleb ikkagi täielikult ümber vaadata, sest",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 5.24,
       "speaker_share": 1.0
     },
@@ -6363,7 +6361,7 @@
       "start_seconds": 1602.6,
       "end_seconds": 1605.2,
       "text": "isegi kui mina toetan seda.",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 2.6,
       "speaker_share": 1.0
     },
@@ -6371,7 +6369,7 @@
       "start_seconds": 1605.2,
       "end_seconds": 1607.92,
       "text": "Terviseametile, et anname kogu informatsiooni.",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 2.231,
       "speaker_share": 0.8202
     },
@@ -6379,7 +6377,7 @@
       "start_seconds": 1607.92,
       "end_seconds": 1614.48,
       "text": "Ei, ei ausalt öeldes härra Sigu on naisi see öeldes, et meil ei ole piisavalt heas v",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 6.56,
       "speaker_share": 1.0
     },
@@ -6387,7 +6385,7 @@
       "start_seconds": 1614.48,
       "end_seconds": 1617.96,
       "text": "ormis noormehi, võtame nüüd tüdrukud.",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 2.772,
       "speaker_share": 0.7966
     },
@@ -6395,7 +6393,7 @@
       "start_seconds": 1617.96,
       "end_seconds": 1621.2,
       "text": "Aga teate, minge valdadega, meil on selline lugu.",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 2.801,
       "speaker_share": 0.8645
     },
@@ -6403,7 +6401,7 @@
       "start_seconds": 1621.2,
       "end_seconds": 1625.24,
       "text": "Maalehes oli kunagi huvitav artikkel, kuidas, kui kolmkümmend aastat on valda juhtinud",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 4.04,
       "speaker_share": 1.0
     },
@@ -6411,7 +6409,7 @@
       "start_seconds": 1625.24,
       "end_seconds": 1630.84,
       "text": "mehed valla eelarve on nii kehvas seisus ja veel on üht-teist jama juhtunud, et keegi",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 5.6,
       "speaker_share": 1.0
     },
@@ -6419,7 +6417,7 @@
       "start_seconds": 1630.84,
       "end_seconds": 1635.92,
       "text": "enam ei taha või ei oska midagi teha, siis pannakse naine omavalitsust juhtima ja ta",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 4.692,
       "speaker_share": 0.9236
     },
@@ -6427,7 +6425,7 @@
       "start_seconds": 1635.92,
       "end_seconds": 1637.52,
       "text": "veab välja.",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 1.178,
       "speaker_share": 0.7362
     },
@@ -6435,7 +6433,7 @@
       "start_seconds": 1637.52,
       "end_seconds": 1643.84,
       "text": "Ma arvan, et juba see mõtteviis, et oh, mees, meestest meile ei piisa, ei aita, no mis",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 5.746,
       "speaker_share": 0.9092
     },
@@ -6443,7 +6441,7 @@
       "start_seconds": 1643.84,
       "end_seconds": 1645.88,
       "text": ", mis meil nüüd üle jääb?",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 1.551,
       "speaker_share": 0.7603
     },
@@ -6451,7 +6449,7 @@
       "start_seconds": 1645.88,
       "end_seconds": 1648.2,
       "text": "Tulge nüüd tüdrukud teie.",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 1.73,
       "speaker_share": 0.7457
     },
@@ -6459,7 +6457,7 @@
       "start_seconds": 1648.2,
       "end_seconds": 1651.28,
       "text": "No niimoodi ei taha keegi tulla.",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 2.405,
       "speaker_share": 0.7808
     },
@@ -6467,7 +6465,7 @@
       "start_seconds": 1651.28,
       "end_seconds": 1656.52,
       "text": "Mina ise olen veendunud tõepoolest, et Eesti kaitsmiseks on vaja, et kõik kodanikud,",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 5.24,
       "speaker_share": 1.0
     },
@@ -6475,7 +6473,7 @@
       "start_seconds": 1656.52,
       "end_seconds": 1661.92,
       "text": "no esiteks oleks patriootlikud ja, ja ajateenistuse mõte ei ole mitte see, et kõik oska",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 4.792,
       "speaker_share": 0.8874
     },
@@ -6483,7 +6481,7 @@
       "start_seconds": 1661.92,
       "end_seconds": 1665.8,
       "text": "ksid teha midagi relvaga ja haavaga.",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 3.205,
       "speaker_share": 0.826
     },
@@ -6491,7 +6489,7 @@
       "start_seconds": 1665.8,
       "end_seconds": 1673.04,
       "text": "Aga kas täpselt kaitsetahe, arusaam sellest, miks, mis on minu roll, mida ma saan, mille",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 7.037,
       "speaker_share": 0.972
     },
@@ -6499,7 +6497,7 @@
       "start_seconds": 1673.04,
       "end_seconds": 1679.48,
       "text": "ks ma sobin ja koostoimetamise harjumus ja ausalt öeldes sellise süveneva ebavõrdsuse",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 5.934,
       "speaker_share": 0.9214
     },
@@ -6507,7 +6505,7 @@
       "start_seconds": 1679.48,
       "end_seconds": 1684.44,
       "text": "taustal, kus meil neid kokkupuutepunkte erinevate ma ei tea erinevates Eesti piirkond",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 4.96,
       "speaker_share": 1.0
     },
@@ -6515,7 +6513,7 @@
       "start_seconds": 1684.44,
       "end_seconds": 1689.32,
       "text": "ades elavate inimeste vahel, ma ei tea, sissetuleku tasemete vahel jääb vähemaks.",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 4.88,
       "speaker_share": 1.0
     },
@@ -6523,7 +6521,7 @@
       "start_seconds": 1689.32,
       "end_seconds": 1695.16,
       "text": "Ma arvan, on erakordselt tähtis, et seda tüüpi ühine siduv kogemus oleks kõigil Eestis",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 5.84,
       "speaker_share": 1.0
     },
@@ -6531,7 +6529,7 @@
       "start_seconds": 1695.16,
       "end_seconds": 1697.4,
       "text": "üles kasvavatel noortel olemas.",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 1.784,
       "speaker_share": 0.7964
     },
@@ -6539,7 +6537,7 @@
       "start_seconds": 1697.4,
       "end_seconds": 1702.68,
       "text": "Ja, ja kuna ma ei ole eriti entusiastlike tehnoloogia osas ja ma arvan, et see AI kiire",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 5.28,
       "speaker_share": 1.0
     },
@@ -6547,7 +6545,7 @@
       "start_seconds": 1702.68,
       "end_seconds": 1706.4,
       "text": "areng võib viia selleni, et füüsilised kohtumised ja suulised eksamid on väärtusliku",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 3.7,
       "speaker_share": 0.9946
     },
@@ -6555,7 +6553,7 @@
       "start_seconds": 1706.4,
       "end_seconds": 1713.56,
       "text": "mad, siis see, et sa pärast AI õpet keskkoolis jõuad sinna, et lisaks Google Map",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 6.775,
       "speaker_share": 0.9462
     },
@@ -6563,7 +6561,7 @@
       "start_seconds": 1713.56,
       "end_seconds": 1718.4,
       "text": "sile sa oskad tegelikult ka metsas orienteeruda ja, ja päriselt mingisuguseid meeskonna",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 4.84,
       "speaker_share": 1.0
     },
@@ -6571,7 +6569,7 @@
       "start_seconds": 1718.4,
       "end_seconds": 1721.04,
       "text": "ülesandeid lahendada ja, ja.",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 2.64,
       "speaker_share": 1.0
     },
@@ -6579,7 +6577,7 @@
       "start_seconds": 1721.04,
       "end_seconds": 1724.4,
       "text": "Noh, ka virtuaalvabas keskkonnas toimetada.",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 2.685,
       "speaker_share": 0.7991
     },
@@ -6587,7 +6585,7 @@
       "start_seconds": 1724.4,
       "end_seconds": 1727.44,
       "text": "Et see on erakordselt väärtuslik ka tulevikumaailmas.",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 3.04,
       "speaker_share": 1.0
     },
@@ -6595,7 +6593,7 @@
       "start_seconds": 1727.44,
       "end_seconds": 1734.0,
       "text": "Nii et kui me nüüd saaks selle kommunikatsiooni ikkagi sellele, et, et Eesti kaitsmise",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 6.037,
       "speaker_share": 0.9203
     },
@@ -6603,7 +6601,7 @@
       "start_seconds": 1734.0,
       "end_seconds": 1738.24,
       "text": "ks on vaja, et kõik kodanikud oskus, mitte et see oleks nagu mingi häda väljapääs, kuna",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 4.24,
       "speaker_share": 1.0
     },
@@ -6611,7 +6609,7 @@
       "start_seconds": 1738.24,
       "end_seconds": 1739.72,
       "text": "mehed on haiged.",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 1.092,
       "speaker_share": 0.7378
     },
@@ -6619,7 +6617,7 @@
       "start_seconds": 1739.72,
       "end_seconds": 1746.76,
       "text": "Et siis me võiks ju sinna suunas liikuda, ma arvan nii, et kõigepealt võiks soodustada",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 6.871,
       "speaker_share": 0.976
     },
@@ -6627,7 +6625,7 @@
       "start_seconds": 1746.76,
       "end_seconds": 1751.52,
       "text": "vabatahtlik, noh, et ühel aastal kutsutaksegi naisi üles, tead, tüdrukud, tulge ka klassi",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 4.76,
       "speaker_share": 1.0
     },
@@ -6635,7 +6633,7 @@
       "start_seconds": 1751.52,
       "end_seconds": 1753.04,
       "text": "ga ajateenistusse.",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 1.52,
       "speaker_share": 1.0
     },
@@ -6643,7 +6641,7 @@
       "start_seconds": 1753.04,
       "end_seconds": 1760.08,
       "text": "Et vabatahtlikult siis see, et kutse läheb kõigile, asendusteenistuse rolli kasvatada",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 6.5,
       "speaker_share": 0.9233
     },
@@ -6651,7 +6649,7 @@
       "start_seconds": 1760.08,
       "end_seconds": 1764.4,
       "text": "ka noormeeste jaoks, kes võib-olla siis ajateenistusse, tervise mõttes ei sobi või ei",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 4.114,
       "speaker_share": 0.9523
     },
@@ -6659,7 +6657,7 @@
       "start_seconds": 1764.4,
       "end_seconds": 1764.8,
       "text": "saa.",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 0.235,
       "speaker_share": 0.5875
     },
@@ -6667,7 +6665,7 @@
       "start_seconds": 1764.8,
       "end_seconds": 1769.48,
       "text": "Ja ka naistele anda võimalus asendusteenistus läbida ja siis jõuda selleni, no ma ei",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 4.68,
       "speaker_share": 1.0
     },
@@ -6675,7 +6673,7 @@
       "start_seconds": 1769.48,
       "end_seconds": 1774.32,
       "text": "tea, viie aasta jooksul äkki, et, et tõepoolest, et ajateenistus on kohustuslik kõigi",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 4.569,
       "speaker_share": 0.944
     },
@@ -6699,7 +6697,7 @@
       "start_seconds": 1776.96,
       "end_seconds": 1778.76,
       "text": "Aitäh.",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 0.273,
       "speaker_share": 0.1517
     },
@@ -6707,7 +6705,7 @@
       "start_seconds": 1778.76,
       "end_seconds": 1780.0,
       "text": "Riina, aitäh.",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 1.24,
       "speaker_share": 1.0
     },
@@ -6715,7 +6713,7 @@
       "start_seconds": 1780.0,
       "end_seconds": 1785.28,
       "text": "Sinu nägemus on väga adekvaatne, mis puudutab sellist järk-järgulist üleminekut kohu",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 5.178,
       "speaker_share": 0.9807
     },
@@ -6723,7 +6721,7 @@
       "start_seconds": 1785.28,
       "end_seconds": 1787.56,
       "text": "stuslikule ajateenistusele kõigile.",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 2.162,
       "speaker_share": 0.9482
     },
@@ -6731,7 +6729,7 @@
       "start_seconds": 1787.56,
       "end_seconds": 1792.64,
       "text": "Sellepärast et, et kui me nüüd kohe kõik naised ajateenistusse korraga see survestamine",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 4.709,
       "speaker_share": 0.927
     },
@@ -6739,7 +6737,7 @@
       "start_seconds": 1792.64,
       "end_seconds": 1797.16,
       "text": ", see on täpselt seesama, mida öeldakse mulle, kui ma räägin madalast sündimusest, sa",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 4.52,
       "speaker_share": 1.0
     },
@@ -6747,7 +6745,7 @@
       "start_seconds": 1797.16,
       "end_seconds": 1801.32,
       "text": "tahad naisi survestada, mis sa kõige mõtled, eks ole, ma ei taha kunagi kedagi surve",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 4.16,
       "speaker_share": 1.0
     },
@@ -6755,7 +6753,7 @@
       "start_seconds": 1801.32,
       "end_seconds": 1805.52,
       "text": "stada ja sama on ka ajateenistusega, kui sa ütled täna kõikidele naistele, et nüüd ja",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 4.2,
       "speaker_share": 1.0
     },
@@ -6763,7 +6761,7 @@
       "start_seconds": 1805.52,
       "end_seconds": 1808.8,
       "text": "kohe see tekitab tegelikult ühiskonnas vastuseisu.",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 2.807,
       "speaker_share": 0.8558
     },
@@ -6771,7 +6769,7 @@
       "start_seconds": 1808.8,
       "end_seconds": 1811.2,
       "text": "Hea näide olen ma ise.",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 1.59,
       "speaker_share": 0.6625
     },
@@ -6779,7 +6777,7 @@
       "start_seconds": 1811.2,
       "end_seconds": 1815.96,
       "text": "Eerik mainis siin, et, et võib-olla on erakondi, kes saadavad naised kööki süüa tegema",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 4.76,
       "speaker_share": 1.0
     },
@@ -6787,7 +6785,7 @@
       "start_seconds": 1815.96,
       "end_seconds": 1816.64,
       "text": ", eks ole.",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 0.68,
       "speaker_share": 1.0
     },
@@ -6795,7 +6793,7 @@
       "start_seconds": 1816.64,
       "end_seconds": 1821.6,
       "text": "Minul on kokapaberid, minu ajal anti need keskkooli kõrvalt, aga minul teeb kodus abi",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 4.96,
       "speaker_share": 1.0
     },
@@ -6803,7 +6801,7 @@
       "start_seconds": 1821.6,
       "end_seconds": 1823.36,
       "text": "kaasa süüa, sest talle meeldib.",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 1.271,
       "speaker_share": 0.7222
     },
@@ -6811,7 +6809,7 @@
       "start_seconds": 1823.36,
       "end_seconds": 1828.64,
       "text": "Ja minule ei meeldi, mina tegelen poliitikaga, aga mu õde näiteks on väga perekeskne",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 5.28,
       "speaker_share": 1.0
     },
@@ -6819,7 +6817,7 @@
       "start_seconds": 1828.64,
       "end_seconds": 1831.96,
       "text": "inimene, tema on eluaeg tahtnud lapsi kasvatada, kodune olla.",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 2.847,
       "speaker_share": 0.8575
     },
@@ -6827,7 +6825,7 @@
       "start_seconds": 1831.96,
       "end_seconds": 1836.68,
       "text": "Miks me kogu aeg ühiskonnas jagame, et sinna jooksuga, tänna jooksuga, eks ole, kui me",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 4.72,
       "speaker_share": 1.0
     },
@@ -6835,7 +6833,7 @@
       "start_seconds": 1836.68,
       "end_seconds": 1841.8,
       "text": "räägime vabadustest, siis peab olema naisel kõigepealt valikuvabadus, kas ta tahab la",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 5.069,
       "speaker_share": 0.99
     },
@@ -6843,7 +6841,7 @@
       "start_seconds": 1841.8,
       "end_seconds": 1846.44,
       "text": "psi kasvatada ja need naised neliteist protsenti, kes tahavad olla kodused ja lapsi kas",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 4.488,
       "speaker_share": 0.9672
     },
@@ -6851,7 +6849,7 @@
       "start_seconds": 1846.44,
       "end_seconds": 1851.36,
       "text": "vatada isegi seal kuskil nurga taga süüa teha, on täiesti olemas, ärme neid naeruväär",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 4.684,
       "speaker_share": 0.952
     },
@@ -6859,7 +6857,7 @@
       "start_seconds": 1851.36,
       "end_seconds": 1851.72,
       "text": "ista.",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 0.36,
       "speaker_share": 1.0
     },
@@ -6867,7 +6865,7 @@
       "start_seconds": 1851.72,
       "end_seconds": 1855.76,
       "text": "Aga isegi neil on kasulik ajateenistuse läbimüük.",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 4.04,
       "speaker_share": 1.0
     },
@@ -6875,7 +6873,7 @@
       "start_seconds": 1855.76,
       "end_seconds": 1859.4,
       "text": "Me jõuame sinna, sest et kui nad seal teevad süüa, peavad nad olema kaitstud.",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 3.64,
       "speaker_share": 1.0
     },
@@ -6883,7 +6881,7 @@
       "start_seconds": 1859.4,
       "end_seconds": 1863.08,
       "text": "Kui nad hoolitsevad haigete eest, peavad nad oskama, eks ole, püssi lasta.",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 3.68,
       "speaker_share": 1.0
     },
@@ -6891,7 +6889,7 @@
       "start_seconds": 1863.08,
       "end_seconds": 1868.4,
       "text": "Ja nüüd need naised, minu taolised, ma olen käinud nüüd kuue viimase aasta jooksul I",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 5.034,
       "speaker_share": 0.9462
     },
@@ -6899,7 +6897,7 @@
       "start_seconds": 1868.4,
       "end_seconds": 1872.48,
       "text": "israelis hästi palju kordi, ka sealjuures sõjatsoonis.",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 4.08,
       "speaker_share": 1.0
     },
@@ -6907,7 +6905,7 @@
       "start_seconds": 1872.48,
       "end_seconds": 1878.6,
       "text": "Ja, ja jäänud ka tule alla ja mul ei ole sellist nagu hirmu sõja ees ja mind huvitav",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 5.867,
       "speaker_share": 0.9587
     },
@@ -6915,7 +6913,7 @@
       "start_seconds": 1878.6,
       "end_seconds": 1880.52,
       "text": "ad sellised teemad ja.",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 1.92,
       "speaker_share": 1.0
     },
@@ -6923,7 +6921,7 @@
       "start_seconds": 1880.52,
       "end_seconds": 1884.28,
       "text": "Ja, ja ma ütleks, naiste puhul on kõige tähtsam eeskuju.",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 3.355,
       "speaker_share": 0.8923
     },
@@ -6931,7 +6929,7 @@
       "start_seconds": 1884.28,
       "end_seconds": 1889.56,
       "text": "Kui ma vaatan paremale poole või vaatan siia saali, ma näen väga palju inimesi, kes on",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 5.28,
       "speaker_share": 1.0
     },
@@ -6939,7 +6937,7 @@
       "start_seconds": 1889.56,
       "end_seconds": 1891.92,
       "text": "riigikaitsega seotud.",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 1.669,
       "speaker_share": 0.7072
     },
@@ -6947,7 +6945,7 @@
       "start_seconds": 1891.92,
       "end_seconds": 1896.96,
       "text": "Aga paljud teist päriselt on Naiskodukaitses või Kaitseliidus või, või tegelikult ka",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 5.04,
       "speaker_share": 1.0
     },
@@ -6955,7 +6953,7 @@
       "start_seconds": 1896.96,
       "end_seconds": 1900.2,
       "text": "teevad selle baasväljaõppe läbi või on teinud.",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 2.616,
       "speaker_share": 0.8074
     },
@@ -6963,7 +6961,7 @@
       "start_seconds": 1900.2,
       "end_seconds": 1905.48,
       "text": "Siis, kui Venemaa ründas Ukrainat, siis oli minul selge see otsus, et ma teen vabata",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 5.28,
       "speaker_share": 1.0
     },
@@ -6971,7 +6969,7 @@
       "start_seconds": 1905.48,
       "end_seconds": 1909.36,
       "text": "htlikku tööd väga palju iga päev ja olen aastakümneid teinud.",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 3.357,
       "speaker_share": 0.8652
     },
@@ -6979,7 +6977,7 @@
       "start_seconds": 1909.36,
       "end_seconds": 1913.36,
       "text": "Ma ei olnud Kaitseliitu ega Naiskodukaitses ja sellepärast astunud, kuna mu vaba aeg",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 4.0,
       "speaker_share": 1.0
     },
@@ -6987,7 +6985,7 @@
       "start_seconds": 1913.36,
       "end_seconds": 1918.2,
       "text": "oli sisustatud muude abistamistegevustega, aga ma astusin kohe, sest mul oli selge, et",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 4.502,
       "speaker_share": 0.9302
     },
@@ -6995,7 +6993,7 @@
       "start_seconds": 1918.2,
       "end_seconds": 1923.28,
       "text": "kui siin läheb jamaks, siis minul ei ole kahju oma viiskümmend pluss eluaastat Eesti",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 4.439,
       "speaker_share": 0.8738
     },
@@ -7003,7 +7001,7 @@
       "start_seconds": 1923.28,
       "end_seconds": 1925.36,
       "text": "eest anda, ma olen saanud nii palju.",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 1.557,
       "speaker_share": 0.7486
     },
@@ -7011,7 +7009,7 @@
       "start_seconds": 1925.36,
       "end_seconds": 1930.56,
       "text": "Ja see ongi nüüd see patriotism ja see on eeskuju, mida peaks näitama iga poliitik, kes",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 5.2,
       "speaker_share": 1.0
     },
@@ -7019,7 +7017,7 @@
       "start_seconds": 1930.56,
       "end_seconds": 1936.0,
       "text": "võtab sõna, et lähme teeme kohe ära, ta peaks minema esimesena tegema selle õppe läbi",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 5.373,
       "speaker_share": 0.9877
     },
@@ -7027,7 +7025,7 @@
       "start_seconds": 1936.0,
       "end_seconds": 1940.84,
       "text": ", baasväljaõppe, minema tegema selle terviseõppe läbi minema, orienteerumisõpet läbi",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 4.84,
       "speaker_share": 1.0
     },
@@ -7035,7 +7033,7 @@
       "start_seconds": 1940.84,
       "end_seconds": 1941.32,
       "text": "tegema.",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 0.48,
       "speaker_share": 1.0
     },
@@ -7043,7 +7041,7 @@
       "start_seconds": 1941.32,
       "end_seconds": 1946.0,
       "text": "Mina käisin eelmine aasta näiteks olin, ole valmis laagris, olin telgi vanem, mul tuli",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 4.68,
       "speaker_share": 1.0
     },
@@ -7051,7 +7049,7 @@
       "start_seconds": 1946.0,
       "end_seconds": 1951.48,
       "text": "kaks gruppi, kaksteist ühes grupis, kaksteist teises grupis naised-lapsed.",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 5.024,
       "speaker_share": 0.9168
     },
@@ -7059,7 +7057,7 @@
       "start_seconds": 1951.48,
       "end_seconds": 1956.84,
       "text": "Püstitasime metsa telki, juhendasin kuidas, kuidas panna seal see ahi põlema, kuidas",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 5.36,
       "speaker_share": 1.0
     },
@@ -7067,7 +7065,7 @@
       "start_seconds": 1956.84,
       "end_seconds": 1961.72,
       "text": "ellu jääda metsas, kuidas priimust süüdata, kuidas orienteeruda, sellised asjad.",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 4.273,
       "speaker_share": 0.8756
     },
@@ -7075,7 +7073,7 @@
       "start_seconds": 1961.72,
       "end_seconds": 1967.04,
       "text": "Eks ole, tuleks kõigil, kes sellest räägivad, läbi teha ja siis hakata rääkima, see on",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 5.0,
       "speaker_share": 0.9398
     },
@@ -7083,7 +7081,7 @@
       "start_seconds": 1967.04,
       "end_seconds": 1971.68,
       "text": "minu nõuanne, kui me räägime naistest selles väljaõppes, aga.",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 3.611,
       "speaker_share": 0.7782
     },
@@ -7091,7 +7089,7 @@
       "start_seconds": 1971.68,
       "end_seconds": 1974.4,
       "text": "Riina võttis väga hästi kokku.",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 1.943,
       "speaker_share": 0.7143
     },
@@ -7099,7 +7097,7 @@
       "start_seconds": 1974.4,
       "end_seconds": 1979.4,
       "text": "Vabatahtlikult, järk-järgult oma eeskujuga ja kommunikatsioon.",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 5.0,
       "speaker_share": 1.0
     },
@@ -7107,7 +7105,7 @@
       "start_seconds": 1979.4,
       "end_seconds": 1984.72,
       "text": "Siin on väga suur roll naistel, tarkadel naistel, vaadake täna Facebooki, mis toimub",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 5.033,
       "speaker_share": 0.9461
     },
@@ -7115,7 +7113,7 @@
       "start_seconds": 1984.72,
       "end_seconds": 1992.0,
       "text": ", mingisugused rahupooldajad, plaan B, keegi Ülle Pukk kutsub rahvast kokku, kelle raha",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 7.28,
       "speaker_share": 1.0
     },
@@ -7123,7 +7121,7 @@
       "start_seconds": 1992.0,
       "end_seconds": 1996.88,
       "text": "eest, meil on juba tegelikult meediatandril kommunikatsioonis nii palju võimalusi, kus",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 4.88,
       "speaker_share": 1.0
     },
@@ -7131,7 +7129,7 @@
       "start_seconds": 1996.88,
       "end_seconds": 2002.8,
       "text": "me peaksime täna, kohe praegu osalema ja kõik need vene trollid ja kinni makstud age",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 5.92,
       "speaker_share": 1.0
     },
@@ -7139,7 +7137,7 @@
       "start_seconds": 2002.8,
       "end_seconds": 2004.2,
       "text": "ndid sealt tagasi lööma.",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 1.4,
       "speaker_share": 1.0
     },
@@ -7147,7 +7145,7 @@
       "start_seconds": 2004.2,
       "end_seconds": 2009.88,
       "text": "Et neid riigikaitse rolle laiapindses riigikaitses on ääretult palju rohkem kui ainult",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 5.68,
       "speaker_share": 1.0
     },
@@ -7155,7 +7153,7 @@
       "start_seconds": 2009.88,
       "end_seconds": 2011.56,
       "text": "see baasväljaõpe.",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 1.68,
       "speaker_share": 1.0
     },
@@ -7163,7 +7161,7 @@
       "start_seconds": 2011.56,
       "end_seconds": 2018.76,
       "text": "Ja tõesti mehi ei saa ainult jätta riigikaitsesse üksinda, naised pea",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 5.073,
       "speaker_share": 0.7046
     },
@@ -7171,7 +7169,7 @@
       "start_seconds": 2018.76,
       "end_seconds": 2023.4,
       "text": "vad appi tulema ja nad on juba täna tulnud, aga tõepoolest, et kuidas neid meelitada",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 4.556,
       "speaker_share": 0.9819
     },
@@ -7179,7 +7177,7 @@
       "start_seconds": 2023.4,
       "end_seconds": 2027.72,
       "text": "sinna, seda ma olen ka ära näinud, et väga paljud naised ka ütlevad, et aga ma tahan",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 4.32,
       "speaker_share": 1.0
     },
@@ -7187,7 +7185,7 @@
       "start_seconds": 2027.72,
       "end_seconds": 2029.68,
       "text": "kodus, ma pean ju kodu kaitsma, eks ole.",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 1.96,
       "speaker_share": 1.0
     },
@@ -7195,7 +7193,7 @@
       "start_seconds": 2029.68,
       "end_seconds": 2035.16,
       "text": "Et kõigile, siis ma arvan, et alates keskkoolist vähemalt peaks olema mingisugune ko",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 5.48,
       "speaker_share": 1.0
     },
@@ -7203,7 +7201,7 @@
       "start_seconds": 2035.16,
       "end_seconds": 2040.52,
       "text": "hustuslik, kas siis tsiviilkaitse või mingisugune vorm ajateenistuse vorm, et nad läbi",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 5.023,
       "speaker_share": 0.9371
     },
@@ -7211,7 +7209,7 @@
       "start_seconds": 2040.52,
       "end_seconds": 2042.36,
       "text": "vad kõik vajalikud oskused.",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 1.84,
       "speaker_share": 1.0
     },
@@ -7219,7 +7217,7 @@
       "start_seconds": 2042.36,
       "end_seconds": 2047.44,
       "text": "Anname oma inimestele need vajalikud oskused ära ja üks asi, mida riik on kümme aastat",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 5.029,
       "speaker_share": 0.99
     },
@@ -7227,7 +7225,7 @@
       "start_seconds": 2047.44,
       "end_seconds": 2050.24,
       "text": "on hiljaks hiljaks jäänud.",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 1.652,
       "speaker_share": 0.59
     },
@@ -7235,7 +7233,7 @@
       "start_seconds": 2050.24,
       "end_seconds": 2054.52,
       "text": "Meie enda kõrged riigiametnikud on pannud lauale mitu korda dokumenti, mis puudutab vastu",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 4.28,
       "speaker_share": 1.0
     },
@@ -7243,7 +7241,7 @@
       "start_seconds": 2054.52,
       "end_seconds": 2057.04,
       "text": "panuliikumist, resilians.",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 1.592,
       "speaker_share": 0.6317
     },
@@ -7251,7 +7249,7 @@
       "start_seconds": 2057.04,
       "end_seconds": 2061.68,
       "text": "Leedus on raamat välja antud, Rootsis on see raamat välja antud, inimestele lihtsalt",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 4.64,
       "speaker_share": 1.0
     },
@@ -7259,7 +7257,7 @@
       "start_seconds": 2061.68,
       "end_seconds": 2067.28,
       "text": "vabaks levitamiseks, et mida iga inimene saab ära teha, kui vaenlane meid peaks ründa",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 5.6,
       "speaker_share": 1.0
     },
@@ -7267,7 +7265,7 @@
       "start_seconds": 2067.28,
       "end_seconds": 2070.68,
       "text": "ma või kuidas valmis olla, see on selline partisanisõda.",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 3.096,
       "speaker_share": 0.9106
     },
@@ -7275,7 +7273,7 @@
       "start_seconds": 2070.68,
       "end_seconds": 2075.16,
       "text": "Meie riigis otsustajad selleni millegipärast pole tänapäevani veel jõudnud.",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 4.48,
       "speaker_share": 1.0
     },
@@ -7283,7 +7281,7 @@
       "start_seconds": 2075.16,
       "end_seconds": 2081.08,
       "text": "Kaks aastat tagasi kirjutas Urmas Reinsalu Hanno Pevkurile kirja troonidest, hakkame",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 4.975,
       "speaker_share": 0.8404
     },
@@ -7291,7 +7289,7 @@
       "start_seconds": 2081.08,
       "end_seconds": 2086.0,
       "text": "arendama droonisõda, kaks aastat tagasi Hanno Pevkur vastas talle, see on nii väljapa",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 4.532,
       "speaker_share": 0.9211
     },
@@ -7299,7 +7297,7 @@
       "start_seconds": 2086.0,
       "end_seconds": 2090.12,
       "text": "istev asi, et sellega me küll meie riik ei tegele, et tegelikult me oleme kõik olulise",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 4.12,
       "speaker_share": 1.0
     },
@@ -7307,7 +7305,7 @@
       "start_seconds": 2090.12,
       "end_seconds": 2093.56,
       "text": "d asjad kõrguse tõttu maha maganud.",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 3.036,
       "speaker_share": 0.8826
     },
@@ -7315,7 +7313,7 @@
       "start_seconds": 2093.56,
       "end_seconds": 2099.44,
       "text": "Meil on inimesed, kes räägivad riigikaitsest ja siis on teised, kes peavad neid kuula",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 4.253,
       "speaker_share": 0.7233
     },
@@ -7323,7 +7321,7 @@
       "start_seconds": 2099.44,
       "end_seconds": 2100.16,
       "text": "ma.",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 0.288,
       "speaker_share": 0.4
     },
@@ -7331,7 +7329,7 @@
       "start_seconds": 2100.16,
       "end_seconds": 2106.52,
       "text": "See ei ole laiapindne riigikaitse, laiapindne riigikaitse on see, et sa kaasadki kõik",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 5.5,
       "speaker_share": 0.8648
     },
@@ -7339,7 +7337,7 @@
       "start_seconds": 2106.52,
       "end_seconds": 2109.96,
       "text": "i inimesi ja sa võtadki need ettepanekud vastu ja viid nad ellu.",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 3.44,
       "speaker_share": 1.0
     },
@@ -7347,7 +7345,7 @@
       "start_seconds": 2109.96,
       "end_seconds": 2111.56,
       "text": "Nii, kas nüüd sai kolm minutit läbi.",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 1.285,
       "speaker_share": 0.8031
     },
@@ -7579,7 +7577,7 @@
       "start_seconds": 2224.48,
       "end_seconds": 2228.08,
       "text": "Ma tahtsin tuua kõigepealt välja ühe nõrkuse selles argumentatsioonis ka, et kui me ütleme",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 3.6,
       "speaker_share": 1.0
     },
@@ -7587,7 +7585,7 @@
       "start_seconds": 2228.08,
       "end_seconds": 2231.52,
       "text": ", et meeste tervis on nii kehv, et meil ei ole võtta neid, kes ajateenistusse tulevad",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 3.44,
       "speaker_share": 1.0
     },
@@ -7595,7 +7593,7 @@
       "start_seconds": 2231.52,
       "end_seconds": 2231.76,
       "text": ".",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 0.24,
       "speaker_share": 1.0
     },
@@ -7603,7 +7601,7 @@
       "start_seconds": 2231.76,
       "end_seconds": 2237.12,
       "text": "Siis noh, tervise valdkonnast tulijana ma ütlengi, et noh, et kui mure on kehv tervi",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 5.36,
       "speaker_share": 1.0
     },
@@ -7611,7 +7609,7 @@
       "start_seconds": 2237.12,
       "end_seconds": 2242.44,
       "text": "s, siis ühiskond võidakse oluliselt rohkem tegeleme siis noorte meeste tervisega, lisa",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 5.32,
       "speaker_share": 1.0
     },
@@ -7619,7 +7617,7 @@
       "start_seconds": 2242.44,
       "end_seconds": 2246.92,
       "text": "kehalised kasvatused, mingisugused õpped, värgid, aga see ei ole ju see mure, mida me",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 4.48,
       "speaker_share": 1.0
     },
@@ -7627,7 +7625,7 @@
       "start_seconds": 2246.92,
       "end_seconds": 2251.2,
       "text": "tegelikult lahendame, meil ei piisa sellest, et poisid oleksid terved ja me saaksime",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 4.28,
       "speaker_share": 1.0
     },
@@ -7635,7 +7633,7 @@
       "start_seconds": 2251.2,
       "end_seconds": 2256.6,
       "text": "sealt nagu, et meil tegelikult on seda lisasammu vaja, seega ka argument, miks naist",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 5.4,
       "speaker_share": 1.0
     },
@@ -7643,7 +7641,7 @@
       "start_seconds": 2256.6,
       "end_seconds": 2260.68,
       "text": "ele kohustuslik ajateenistus kehtestada, peab olema teistsugune, see peamine argument",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 4.08,
       "speaker_share": 1.0
     },
@@ -7651,7 +7649,7 @@
       "start_seconds": 2260.68,
       "end_seconds": 2262.24,
       "text": "peab olema teistsugune.",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 1.56,
       "speaker_share": 1.0
     },
@@ -7659,7 +7657,7 @@
       "start_seconds": 2262.24,
       "end_seconds": 2265.64,
       "text": "Aga ja tõesti see sümpaatsem lähenemine.",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 3.4,
       "speaker_share": 1.0
     },
@@ -7667,7 +7665,7 @@
       "start_seconds": 2265.64,
       "end_seconds": 2270.68,
       "text": "Ma Martin, kindral Martin Heremi käest küsisin vist kuus aastat tagasi, et mis tema arva",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 4.855,
       "speaker_share": 0.9633
     },
@@ -7675,7 +7673,7 @@
       "start_seconds": 2270.68,
       "end_seconds": 2271.12,
       "text": "b.",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 0.271,
       "speaker_share": 0.6159
     },
@@ -7683,7 +7681,7 @@
       "start_seconds": 2271.12,
       "end_seconds": 2277.12,
       "text": "Ja tema vastas väga kenasti, et ta põhimõtteliselt toetab, sest see tõstaks ohvitser",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 5.358,
       "speaker_share": 0.893
     },
@@ -7691,7 +7689,7 @@
       "start_seconds": 2277.12,
       "end_seconds": 2278.44,
       "text": "konna kvaliteeti.",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 0.814,
       "speaker_share": 0.6167
     },
@@ -7699,7 +7697,7 @@
       "start_seconds": 2278.44,
       "end_seconds": 2281.84,
       "text": "Ja no vot see on, noh, see on nüüd Eerik-Niiles, et noh, meil on neid tarku naisi vaja",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 3.4,
       "speaker_share": 1.0
     },
@@ -7707,7 +7705,7 @@
       "start_seconds": 2281.84,
       "end_seconds": 2286.32,
       "text": ", see on oluliselt sümpaatsem argument kui see, et poisid on haiged.",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 4.163,
       "speaker_share": 0.9292
     },
@@ -7723,7 +7721,7 @@
       "start_seconds": 2291.32,
       "end_seconds": 2298.44,
       "text": "Aga, aga ja nüüd mulle tundub, et tegelikult meil ei ole ka lahenduses seda erimeel",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 6.698,
       "speaker_share": 0.9407
     },
@@ -7731,7 +7729,7 @@
       "start_seconds": 2298.44,
       "end_seconds": 2303.04,
       "text": "sust, noh näiteks eestikeelse õppe puhul ka otsus tehti ära, sa hakkad rakendama, üle",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 4.6,
       "speaker_share": 1.0
     },
@@ -7739,7 +7737,7 @@
       "start_seconds": 2303.04,
       "end_seconds": 2309.28,
       "text": "lähevad esimene, neljas klass, järgmisel aastal on järgmised.",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 4.4,
       "speaker_share": 0.7051
     },
@@ -7747,7 +7745,7 @@
       "start_seconds": 2309.28,
       "end_seconds": 2314.16,
       "text": "Seda, sellega ma olen nõus, otsuse, et viie aasta pärast on ajateenistus kõigil naist",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 4.88,
       "speaker_share": 1.0
     },
@@ -7755,7 +7753,7 @@
       "start_seconds": 2314.16,
       "end_seconds": 2316.36,
       "text": "el kohus, selle me saaksime ära teha.",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 2.2,
       "speaker_share": 1.0
     },
@@ -7763,7 +7761,7 @@
       "start_seconds": 2316.36,
       "end_seconds": 2320.32,
       "text": "Küsimus, mis sammudega me sinna jõuame, sest iseenesest vaata, mingid kasarmud, värg",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 3.96,
       "speaker_share": 1.0
     },
@@ -7771,7 +7769,7 @@
       "start_seconds": 2320.32,
       "end_seconds": 2325.0,
       "text": "id, sul on mingisuguseid tehnilisi küsimusi, võib teada andmekaitselised seaduses al",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 4.68,
       "speaker_share": 1.0
     },
@@ -7779,7 +7777,7 @@
       "start_seconds": 2325.0,
       "end_seconds": 2330.28,
       "text": "use loomine tüdrukute andmete saamiseks, need sammud tuleb ka ära teha ja see menetlus",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 5.28,
       "speaker_share": 1.0
     },
@@ -7787,7 +7785,7 @@
       "start_seconds": 2330.28,
       "end_seconds": 2331.8,
       "text": "ei toimu ka riigikogus üleöö.",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 1.52,
       "speaker_share": 1.0
     },
@@ -7795,7 +7793,7 @@
       "start_seconds": 2331.8,
       "end_seconds": 2336.08,
       "text": "Aga et me saaks see viie aasta pärast seda päriselt rakendada või nelja aasta pärast",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 4.28,
       "speaker_share": 1.0
     },
@@ -7803,7 +7801,7 @@
       "start_seconds": 2336.08,
       "end_seconds": 2338.84,
       "text": "päris, me peame need loogilised sammud astuma.",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 2.76,
       "speaker_share": 1.0
     },
@@ -7811,7 +7809,7 @@
       "start_seconds": 2338.84,
       "end_seconds": 2344.72,
       "text": "Noh, et.",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 5.795,
       "speaker_share": 0.9855
     },
@@ -7819,7 +7817,7 @@
       "start_seconds": 2344.72,
       "end_seconds": 2345.8,
       "text": "Saab kohe ära teha.",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 0.683,
       "speaker_share": 0.6324
     },
@@ -7907,7 +7905,7 @@
       "start_seconds": 2387.48,
       "end_seconds": 2391.92,
       "text": "Palju on räägitud Iisraeli ja nende naiste julgusest, et ühe käega patsutab oma kõhtu",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 4.44,
       "speaker_share": 1.0
     },
@@ -7915,7 +7913,7 @@
       "start_seconds": 2391.92,
       "end_seconds": 2396.32,
       "text": "ja teisega hoiab automaati ja tõesti, seal on sündimus oluliselt kõrgem.",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 4.029,
       "speaker_share": 0.9157
     },
@@ -7923,7 +7921,7 @@
       "start_seconds": 2396.32,
       "end_seconds": 2398.16,
       "text": "Ajaloolistel põhjustel võib-olla.",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 1.452,
       "speaker_share": 0.7891
     },
@@ -7931,7 +7929,7 @@
       "start_seconds": 2398.16,
       "end_seconds": 2401.0,
       "text": "Aga see on ka strateegia ja trahv on ellu.",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 2.283,
       "speaker_share": 0.8039
     },
@@ -7939,7 +7937,7 @@
       "start_seconds": 2401.0,
       "end_seconds": 2405.56,
       "text": "See on nendel põhineb nende pühakirja tekstidel, aga need naised, ma olen nendega su",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 4.124,
       "speaker_share": 0.9044
     },
@@ -7947,7 +7945,7 @@
       "start_seconds": 2405.56,
       "end_seconds": 2412.04,
       "text": "helnud, tegelikult nad ise ütlevad, et nad kardavad praegu ka Jeruusalemmas elades ta",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 4.976,
       "speaker_share": 0.7679
     },
@@ -7955,7 +7953,7 @@
       "start_seconds": 2412.04,
       "end_seconds": 2415.48,
       "text": "läheb teenistusest koju, sest ta ei, tal võib olla terroriste, aga ta naabertänavas,",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 3.44,
       "speaker_share": 1.0
     },
@@ -7963,7 +7961,7 @@
       "start_seconds": 2415.48,
       "end_seconds": 2418.92,
       "text": "eks ole, nad seal elab ju teatud protsent ka moslemeid seal ühiskonnas.",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 3.103,
       "speaker_share": 0.902
     },
@@ -7971,7 +7969,7 @@
       "start_seconds": 2418.92,
       "end_seconds": 2423.52,
       "text": "Et, et nad ei ole tegelikult kõik valmis selleks riigikaitseliseks ülesandeks, mis neil",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 4.6,
       "speaker_share": 1.0
     },
@@ -7979,7 +7977,7 @@
       "start_seconds": 2423.52,
       "end_seconds": 2427.92,
       "text": "e on antud, et, et tegelikult nad osad nendest kardavad ja, ja võib-olla ei tahaks.",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 3.995,
       "speaker_share": 0.908
     },
@@ -7987,7 +7985,7 @@
       "start_seconds": 2427.92,
       "end_seconds": 2432.04,
       "text": "Aga neil on see kohustuslik, sest on ümber piiratud vaenulikest režiimidest, et meil",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 4.12,
       "speaker_share": 1.0
     },
@@ -7995,7 +7993,7 @@
       "start_seconds": 2432.04,
       "end_seconds": 2437.36,
       "text": "on nagu vaenulik idanaaber ja allpool siiski ja ülevalpool siiski sõbralikud naabrid",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 5.32,
       "speaker_share": 1.0
     },
@@ -8003,7 +8001,7 @@
       "start_seconds": 2437.36,
       "end_seconds": 2438.0,
       "text": ", et.",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 0.64,
       "speaker_share": 1.0
     },
@@ -8011,7 +8009,7 @@
       "start_seconds": 2438.0,
       "end_seconds": 2442.04,
       "text": "Et see annab meile väikese ajaakna, et me ei saa päris Iisraeliga ennast võrrelda.",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 4.04,
       "speaker_share": 1.0
     },
@@ -8019,7 +8017,7 @@
       "start_seconds": 2442.04,
       "end_seconds": 2447.2,
       "text": "Et selles mõttes peab ikkagi see teatud vabatahtlik komponent jääma, et see selline välja",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 5.16,
       "speaker_share": 1.0
     },
@@ -8027,7 +8025,7 @@
       "start_seconds": 2447.2,
       "end_seconds": 2452.76,
       "text": "õpe kõigile, oskused kõigile ja meil on ju tegelikult täna juba need ole valmis laag",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 5.56,
       "speaker_share": 1.0
     },
@@ -8035,7 +8033,7 @@
       "start_seconds": 2452.76,
       "end_seconds": 2456.56,
       "text": "rid olemas ja kui me nüüd ütleme, et nüüd jookske kõik korraga, meil ei ole isegi ette",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 3.8,
       "speaker_share": 1.0
     },
@@ -8043,7 +8041,7 @@
       "start_seconds": 2456.56,
       "end_seconds": 2458.68,
       "text": "valmis, teeme teekaardi või mitte, aga.",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 2.12,
       "speaker_share": 1.0
     },
@@ -8051,7 +8049,7 @@
       "start_seconds": 2458.68,
       "end_seconds": 2463.44,
       "text": "Kes hakkavad koolitama, kust tuleb rahastus, meil on isegi täna Naiskodukaitse pealik",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 4.76,
       "speaker_share": 1.0
     },
@@ -8059,7 +8057,7 @@
       "start_seconds": 2463.44,
       "end_seconds": 2467.64,
       "text": "tuleb, palub, et aidake see bürokraatia on õudne, et ma saaksin teha neid laagreid ja",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 4.2,
       "speaker_share": 1.0
     },
@@ -8067,7 +8065,7 @@
       "start_seconds": 2467.64,
       "end_seconds": 2472.68,
       "text": "inimesi välja õpetada, ma jõuaks rohkem, aga see läheb läbi kaitseministeeriumi, sise",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 5.04,
       "speaker_share": 1.0
     },
@@ -8075,7 +8073,7 @@
       "start_seconds": 2472.68,
       "end_seconds": 2476.32,
       "text": "ministeeriumi eelarve, siis läheb päästeametile, siis ma pean tagasiulatuvalt aru and",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 3.64,
       "speaker_share": 1.0
     },
@@ -8083,7 +8081,7 @@
       "start_seconds": 2476.32,
       "end_seconds": 2479.8,
       "text": "ma palju, mis kõik, et see bürokraatia on meeletu, vot sealt tuleb hakata.",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 3.155,
       "speaker_share": 0.9066
     },
@@ -8803,7 +8801,7 @@
       "start_seconds": 2835.6,
       "end_seconds": 2842.76,
       "text": "Nii nagu erinevate teemade puhul sa võid saada nihke tulemuse",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 4.781,
       "speaker_share": 0.6677
     },
@@ -8811,7 +8809,7 @@
       "start_seconds": 2842.76,
       "end_seconds": 2848.76,
       "text": "või valimi, näiteks maid sa valisid võib-olla mingi profiili alusel välja, et meie si",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 6.0,
       "speaker_share": 1.0
     },
@@ -8819,7 +8817,7 @@
       "start_seconds": 2848.76,
       "end_seconds": 2852.6,
       "text": "nuga vestlesime siinsamas telgis eelmise arvamusfestivali ajal.",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 3.84,
       "speaker_share": 1.0
     },
@@ -8827,7 +8825,7 @@
       "start_seconds": 2852.6,
       "end_seconds": 2857.36,
       "text": "Ja sa teadsid, mida ma arvan sellest küsimusest ja, ja meil on siin üksmeelt kerge saa",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 4.575,
       "speaker_share": 0.9611
     },
@@ -8835,7 +8833,7 @@
       "start_seconds": 2857.36,
       "end_seconds": 2863.12,
       "text": "vutada, aga ma arvan, et kõigi meie erakondades toimub seesama, mis Lavly kirjeldas.",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 5.76,
       "speaker_share": 1.0
     },
@@ -8843,7 +8841,7 @@
       "start_seconds": 2863.12,
       "end_seconds": 2869.24,
       "text": "Kus erakonna positsioon ei ole nii selge ja tugev, vaatamata sellele, et teatud liik",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 6.12,
       "speaker_share": 1.0
     },
@@ -8851,7 +8849,7 @@
       "start_seconds": 2869.24,
       "end_seconds": 2875.96,
       "text": "mete osas seda on, et meie saame kokku leppida, aga, aga see, mida koalitsioon teeb või",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 6.72,
       "speaker_share": 1.0
     },
@@ -8859,7 +8857,7 @@
       "start_seconds": 2875.96,
       "end_seconds": 2880.0,
       "text": "mida koalitsioonileppesse kirjutatakse, see on tavaliselt mingi lahjem versioon sellest",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 3.686,
       "speaker_share": 0.9124
     },
@@ -8867,7 +8865,7 @@
       "start_seconds": 2880.0,
       "end_seconds": 2880.2,
       "text": ".",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 0.2,
       "speaker_share": 1.0
     },
@@ -8875,7 +8873,7 @@
       "start_seconds": 2880.2,
       "end_seconds": 2886.16,
       "text": "Nii et noh, sellepärast on vaja häid argumente, toetuse ehitamist ühiskonnas ja me ei",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 5.538,
       "speaker_share": 0.9292
     },
@@ -8883,7 +8881,7 @@
       "start_seconds": 2886.16,
       "end_seconds": 2893.0,
       "text": "saa seda teha üleöö, sest noh, täpselt see, see tõrge igasuguste sunniviisiliste asjad",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 6.755,
       "speaker_share": 0.9876
     },
@@ -8891,7 +8889,7 @@
       "start_seconds": 2893.0,
       "end_seconds": 2894.84,
       "text": "e osas on niivõrd kõrge.",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 1.84,
       "speaker_share": 1.0
     },
@@ -8899,7 +8897,7 @@
       "start_seconds": 2894.84,
       "end_seconds": 2899.64,
       "text": "Noh, mina viimati, ma ei mäleta, kas me olime sinuga koos oli vaata alkoholikaugmüügi",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 4.8,
       "speaker_share": 1.0
     },
@@ -8907,7 +8905,7 @@
       "start_seconds": 2899.64,
       "end_seconds": 2902.6,
       "text": "piiramine, et sa ei saaks koos nuudlitega alkoholi tellida.",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 2.96,
       "speaker_share": 1.0
     },
@@ -8915,7 +8913,7 @@
       "start_seconds": 2902.6,
       "end_seconds": 2907.64,
       "text": "Paneelis ka kõik on sama meelt, muidugi no miks peab alaealine saama koos nuudlitega",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 5.04,
       "speaker_share": 1.0
     },
@@ -8923,7 +8921,7 @@
       "start_seconds": 2907.64,
       "end_seconds": 2908.88,
       "text": "ka õlle tellida?",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 1.24,
       "speaker_share": 1.0
     },
@@ -8931,7 +8929,7 @@
       "start_seconds": 2908.88,
       "end_seconds": 2913.08,
       "text": "Aga, aga noh, selle piirangu poliitiline rakendamine, no no võimatu.",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 3.624,
       "speaker_share": 0.8629
     },
@@ -8995,7 +8993,7 @@
       "start_seconds": 2944.48,
       "end_seconds": 2949.24,
       "text": "Riik on jokutanud tõesti siiamaani ja nüüd ei lahenda nüüd kohe sinnapoole jooksu, see",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 4.76,
       "speaker_share": 1.0
     },
@@ -9003,7 +9001,7 @@
       "start_seconds": 2949.24,
       "end_seconds": 2953.76,
       "text": "tõesti ei lahenda, see tõesti tekitab, tekitab lõhestamist ja nagu te näete, ma maini",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 4.52,
       "speaker_share": 1.0
     },
@@ -9011,7 +9009,7 @@
       "start_seconds": 2953.76,
       "end_seconds": 2957.76,
       "text": "sin juba korra meie kommunikatsiooniruumis avalikus kommunikatsiooniruumis juba toimu",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 4.0,
       "speaker_share": 1.0
     },
@@ -9019,7 +9017,7 @@
       "start_seconds": 2957.76,
       "end_seconds": 2958.64,
       "text": "b lõhestamine.",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 0.88,
       "speaker_share": 1.0
     },
@@ -9027,7 +9025,7 @@
       "start_seconds": 2958.64,
       "end_seconds": 2963.48,
       "text": "Ja kui tõesti neid naisi nüüd anda, nende ohvriteks, mul on omal perekonnas see, et ma",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 4.84,
       "speaker_share": 1.0
     },
@@ -9035,7 +9033,7 @@
       "start_seconds": 2963.48,
       "end_seconds": 2968.96,
       "text": "iga nädal räägin, et, et olen rahu poolt, ei tähenda seda, et, et, et annab kõik püs",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 5.48,
       "speaker_share": 1.0
     },
@@ -9043,7 +9041,7 @@
       "start_seconds": 2968.96,
       "end_seconds": 2973.08,
       "text": "sid ära nagu Kaitseliit kunagi pidi andma, eks ole, riigikaitse kui Pätsi ajal, eks ole",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 4.12,
       "speaker_share": 1.0
     },
@@ -9051,7 +9049,7 @@
       "start_seconds": 2973.08,
       "end_seconds": 2973.24,
       "text": ".",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 0.16,
       "speaker_share": 1.0
     },
@@ -9059,7 +9057,7 @@
       "start_seconds": 2973.24,
       "end_seconds": 2977.92,
       "text": "Et meil ei olegi enam pärast relvi, et lihtsalt ootame ja vaatame, mis juhtub.",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 4.224,
       "speaker_share": 0.9026
     },
@@ -9067,7 +9065,7 @@
       "start_seconds": 2977.92,
       "end_seconds": 2984.32,
       "text": "Me ei saa survestada, siin ei ole võimalik inimesi survestada, see kohustuslik ajate",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 5.59,
       "speaker_share": 0.8734
     },
@@ -9075,7 +9073,7 @@
       "start_seconds": 2984.32,
       "end_seconds": 2989.48,
       "text": "enistus kõlab osadele naistele hirmutavalt, vaadake polle, mina muuseas, Eerik ei ole",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 5.16,
       "speaker_share": 1.0
     },
@@ -9083,7 +9081,7 @@
       "start_seconds": 2989.48,
       "end_seconds": 2994.0,
       "text": "reitinguid vaadanud, et ma ei tea, mis minu erakonna juhid isegi arvavad, mind usalda",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 4.52,
       "speaker_share": 1.0
     },
@@ -9091,7 +9089,7 @@
       "start_seconds": 2994.0,
       "end_seconds": 2997.44,
       "text": "ti siia, ma saan aru, ka mind saadeti siia, kuna ma olen vabatahtlik riigikaitse, Na",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 3.44,
       "speaker_share": 1.0
     },
@@ -9099,7 +9097,7 @@
       "start_seconds": 2997.44,
       "end_seconds": 3002.76,
       "text": "iskodukaitsja, siis ma räägin oma arvamusest ja ka kommunikatsioonieksperdina ma räägi",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 5.32,
       "speaker_share": 1.0
     },
@@ -9107,7 +9105,7 @@
       "start_seconds": 3002.76,
       "end_seconds": 3007.76,
       "text": "n oma arvamusest, meil ei ole mõtet inimesi hirmutada, vaid tegelikult tuleb luua ko",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 5.0,
       "speaker_share": 1.0
     },
@@ -9115,7 +9113,7 @@
       "start_seconds": 3007.76,
       "end_seconds": 3012.56,
       "text": "hustuslik riigikaitses riigikaitseteenistuses osalemise võimalus.",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 4.8,
       "speaker_share": 1.0
     },
@@ -9123,7 +9121,7 @@
       "start_seconds": 3012.56,
       "end_seconds": 3017.2,
       "text": "Riigikaitses osalemise võimalus, see peab olema kohustuslik, väljaõpe peab olema kohu",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 4.64,
       "speaker_share": 1.0
     },
@@ -9131,7 +9129,7 @@
       "start_seconds": 3017.2,
       "end_seconds": 3022.68,
       "text": "stuslik, aga kohustuslik ajateenistus, siis me lööme tegelikult meie elanikkonna just",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 5.48,
       "speaker_share": 1.0
     },
@@ -9139,7 +9137,7 @@
       "start_seconds": 3022.68,
       "end_seconds": 3028.24,
       "text": "nimelt naised, lööme kahte lehte, sest osad nendest ei ole täna selleks valmis.",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 3.798,
       "speaker_share": 0.6831
     },
@@ -9739,7 +9737,7 @@
       "start_seconds": 3353.24,
       "end_seconds": 3360.36,
       "text": "Ja küsimus on, et kuidas selle nagu mingi poliitilise konsensuseni jõuda ja Eeri",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 4.758,
       "speaker_share": 0.6683
     },
@@ -9747,7 +9745,7 @@
       "start_seconds": 3360.36,
       "end_seconds": 3364.32,
       "text": "k ütles, et tema jaoks, ta räägib enda seisukoht, see ei ole tema jaoks mingi partei",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 3.96,
       "speaker_share": 1.0
     },
@@ -9755,7 +9753,7 @@
       "start_seconds": 3364.32,
       "end_seconds": 3365.32,
       "text": "line küsimus.",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 1.0,
       "speaker_share": 1.0
     },
@@ -9763,7 +9761,7 @@
       "start_seconds": 3365.32,
       "end_seconds": 3370.16,
       "text": "Ja, ja noh, ma olen täiesti nõus, et kui me nüüd hakkame kujundama erakondlikke seisu",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 4.84,
       "speaker_share": 1.0
     },
@@ -9771,7 +9769,7 @@
       "start_seconds": 3370.16,
       "end_seconds": 3375.0,
       "text": "kohti, et kes on poolt, kes on vastu ja mis siis populaarne on ja kes reitingus võida",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 4.84,
       "speaker_share": 1.0
     },
@@ -9779,7 +9777,7 @@
       "start_seconds": 3375.0,
       "end_seconds": 3379.16,
       "text": "b ja kaotab, siis me seda küsimust kiiresti nüüd küll lahendada ei saa, et nii nagu ju",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 4.16,
       "speaker_share": 1.0
     },
@@ -9787,7 +9785,7 @@
       "start_seconds": 3379.16,
       "end_seconds": 3384.12,
       "text": "lgeolekus meil on olnud erakondade ülene konsensus, et see on, kui me räägime, et see",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 4.96,
       "speaker_share": 1.0
     },
@@ -9795,7 +9793,7 @@
       "start_seconds": 3384.12,
       "end_seconds": 3388.2,
       "text": "on Eesti julgeoleku tagamiseks vaja, see ei ole küsimus, kas me hakkame mingit erakond",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 4.08,
       "speaker_share": 1.0
     },
@@ -9803,7 +9801,7 @@
       "start_seconds": 3388.2,
       "end_seconds": 3389.68,
       "text": "likku lahingut pidama.",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 1.158,
       "speaker_share": 0.7824
     },
@@ -9835,7 +9833,7 @@
       "start_seconds": 3399.92,
       "end_seconds": 3405.0,
       "text": "Jah, et mina, ma ei tea ju, mina siin garanteerida teiste erakondade toetust, aga mis",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 5.08,
       "speaker_share": 1.0
     },
@@ -9843,7 +9841,7 @@
       "start_seconds": 3405.0,
       "end_seconds": 3410.56,
       "text": "ma tahan, et minu jaoks see võiks käia nii, et kui see on midagi, mida on vaja noh, nagu",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 5.56,
       "speaker_share": 1.0
     },
@@ -9851,7 +9849,7 @@
       "start_seconds": 3410.56,
       "end_seconds": 3416.4,
       "text": "kaitsmise jaoks, siis, siis erakonnad saavad oma liikmete sest tööd teha ja meie peaks",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 5.84,
       "speaker_share": 1.0
     },
@@ -9859,7 +9857,7 @@
       "start_seconds": 3416.4,
       "end_seconds": 3422.36,
       "text": "tegema selgitust ühiskonnas, miks seda vaja on, miks see Eesti jaoks õige valik on, mitte",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 5.96,
       "speaker_share": 1.0
     },
@@ -9867,7 +9865,7 @@
       "start_seconds": 3422.36,
       "end_seconds": 3427.84,
       "text": "mingisuguseid parteilisi reitingul või, või valijate eelistusel.",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 3.768,
       "speaker_share": 0.6876
     },
@@ -9899,7 +9897,7 @@
       "start_seconds": 3434.6,
       "end_seconds": 3438.92,
       "text": "Mul on jah see tähelepanek, et see, et, et kui me nüüd selle sõnumiga läheme välja, et",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 4.32,
       "speaker_share": 1.0
     },
@@ -9907,7 +9905,7 @@
       "start_seconds": 3438.92,
       "end_seconds": 3443.28,
       "text": "me kõik ütlemegi, et kohustuslik ajateenistus naistele on siin täna kõigi poolt kõla",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 4.36,
       "speaker_share": 1.0
     },
@@ -9915,7 +9913,7 @@
       "start_seconds": 3443.28,
       "end_seconds": 3449.44,
       "text": "nud, siis mina rõhutan, et ma veel kord soovin, et see oleks asendusteenistuse võimalus",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 5.704,
       "speaker_share": 0.926
     },
@@ -9923,7 +9921,7 @@
       "start_seconds": 3449.44,
       "end_seconds": 3449.88,
       "text": "ega.",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 0.44,
       "speaker_share": 1.0
     },
@@ -9931,7 +9929,7 @@
       "start_seconds": 3449.88,
       "end_seconds": 3452.04,
       "text": "See peab olema vabatahtlik.",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 1.704,
       "speaker_share": 0.7889
     },
@@ -9939,7 +9937,7 @@
       "start_seconds": 3452.04,
       "end_seconds": 3456.28,
       "text": "Kõik mehed isegi ei, ei soovi tegelikult olla kaitseväelased, aga nad tegelikult soovi",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 4.24,
       "speaker_share": 1.0
     },
@@ -9947,7 +9945,7 @@
       "start_seconds": 3456.28,
       "end_seconds": 3457.96,
       "text": "ksid asendusteenistust.",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 1.376,
       "speaker_share": 0.819
     },
@@ -9955,7 +9953,7 @@
       "start_seconds": 3457.96,
       "end_seconds": 3461.88,
       "text": "Ja seda tuleb võimaldada, kui inimesel on riigikaitsesse panustamine, panustamise ta",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 3.92,
       "speaker_share": 1.0
     },
@@ -9963,7 +9961,7 @@
       "start_seconds": 3461.88,
       "end_seconds": 3467.72,
       "text": "he näiteks hooldajana, kas haigla õena siis selliseid oskusi läheb ju väga vaja, eva",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 5.84,
       "speaker_share": 1.0
     },
@@ -9971,7 +9969,7 @@
       "start_seconds": 3467.72,
       "end_seconds": 3472.56,
       "text": "kueerijatena meil on elanikkonna kaitse väga suur osakaal, sa ei pea olema metsas, joo",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 4.84,
       "speaker_share": 1.0
     },
@@ -9979,7 +9977,7 @@
       "start_seconds": 3472.56,
       "end_seconds": 3477.28,
       "text": "ksma püssiga, aga sa tegeled elanikkonna kaitsega näiteks või noh, tõesti, eks ole, igasugu",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 4.72,
       "speaker_share": 1.0
     },
@@ -9987,7 +9985,7 @@
       "start_seconds": 3477.28,
       "end_seconds": 3479.36,
       "text": "sed ettevalmistused tagasi tagalatööd.",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 2.08,
       "speaker_share": 1.0
     },
@@ -9995,7 +9993,7 @@
       "start_seconds": 3479.36,
       "end_seconds": 3484.6,
       "text": "Et see asendusteenistuse rõhuasetus on kindlasti Isamaal väga oluline, me ei tee sunni",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 5.24,
       "speaker_share": 1.0
     },
@@ -10003,7 +10001,7 @@
       "start_seconds": 3484.6,
       "end_seconds": 3489.44,
       "text": "viisiliselt ja me ei survesta ja me ei jookse nüüd püssipauk ja kõik paneme parema poole",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 4.84,
       "speaker_share": 1.0
     },
@@ -10011,7 +10009,7 @@
       "start_seconds": 3489.44,
       "end_seconds": 3490.04,
       "text": "jooksu.",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 0.6,
       "speaker_share": 1.0
     },
@@ -10019,7 +10017,7 @@
       "start_seconds": 3490.04,
       "end_seconds": 3494.0,
       "text": "Tegelikult meil ei ole isegi läbimõeldud, kas inimesed tulevad meiega kaasa ja me ei",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 3.96,
       "speaker_share": 1.0
     },
@@ -10027,7 +10025,7 @@
       "start_seconds": 3494.0,
       "end_seconds": 3497.88,
       "text": "ole ette valmistunud selleks, kas me suudame üldse vastu võtta, eks ole.",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 3.88,
       "speaker_share": 1.0
     },
@@ -10035,7 +10033,7 @@
       "start_seconds": 3497.88,
       "end_seconds": 3503.08,
       "text": "Täna meil on tegelikult Naiskodukaitsel Kaitseliidul koolitusvõimekus, me ei suuda isegi",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 5.2,
       "speaker_share": 1.0
     },
@@ -10043,7 +10041,7 @@
       "start_seconds": 3503.08,
       "end_seconds": 3506.6,
       "text": "seda rakendada, et kuidas me siis nüüd suudame, et nüüd paneme piiri siit ja paneme kõik",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 3.52,
       "speaker_share": 1.0
     },
@@ -10051,7 +10049,7 @@
       "start_seconds": 3506.6,
       "end_seconds": 3508.96,
       "text": "sinnapoole jooksu, see isegi ei ole võimalik.",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 1.625,
       "speaker_share": 0.6886
     },
@@ -10203,7 +10201,7 @@
       "start_seconds": 3587.52,
       "end_seconds": 3593.68,
       "text": "Aga see on väga huvitav, et, et Lavly seda küsimust niimoodi näeb, sest mina olen äär",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 6.16,
       "speaker_share": 1.0
     },
@@ -10211,7 +10209,7 @@
       "start_seconds": 3593.68,
       "end_seconds": 3599.12,
       "text": "miselt suur demokraat ja ma arvan, et ainult valimistel mandaadi saanud poliitikud saa",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 5.44,
       "speaker_share": 1.0
     },
@@ -10219,7 +10217,7 @@
       "start_seconds": 3599.12,
       "end_seconds": 3603.96,
       "text": "vad teha otsuseid, peavad tegema otsuseid, aga vaat neid otsuseid ei saa teha kõhutu",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 4.84,
       "speaker_share": 1.0
     },
@@ -10227,7 +10225,7 @@
       "start_seconds": 3603.96,
       "end_seconds": 3605.24,
       "text": "nde pealt.",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 1.28,
       "speaker_share": 1.0
     },
@@ -10235,7 +10233,7 @@
       "start_seconds": 3605.24,
       "end_seconds": 3610.72,
       "text": "Ega seda viit protsenti kaitsekuludeks ja laskemoona kiires tempos soetamist ei mõel",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 5.48,
       "speaker_share": 1.0
     },
@@ -10243,7 +10241,7 @@
       "start_seconds": 3610.72,
       "end_seconds": 3616.96,
       "text": "nud välja keegi kampaania korras enne valimisi ja ei, ei teinud valijatele sellist ette",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 6.24,
       "speaker_share": 1.0
     },
@@ -10267,7 +10265,7 @@
       "start_seconds": 3622.24,
       "end_seconds": 3629.4,
       "text": "Et seda, et eksperdid informeerivad poliitika tegemist, seda, et kaitseväe juhataja sõ",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 7.16,
       "speaker_share": 1.0
     },
@@ -10275,7 +10273,7 @@
       "start_seconds": 3629.4,
       "end_seconds": 3634.12,
       "text": "jaline nõuanne on midagi, mida me võtame eelarves kaitsevaldkonna eelarve planeerimise",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 4.72,
       "speaker_share": 1.0
     },
@@ -10283,7 +10281,7 @@
       "start_seconds": 3634.12,
       "end_seconds": 3638.28,
       "text": "aluseks ja seda, kui kaitseväe juhataja näiteks, ma ei ütle, et ta peab seda tegema või",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 4.16,
       "speaker_share": 1.0
     },
@@ -10291,7 +10289,7 @@
       "start_seconds": 3638.28,
       "end_seconds": 3640.32,
       "text": "et see oleks ainuke viis edasi minna.",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 1.652,
       "speaker_share": 0.8098
     },
@@ -10299,7 +10297,7 @@
       "start_seconds": 3640.32,
       "end_seconds": 3644.44,
       "text": "Kuid kui tema ütleks ohvitserkonna kvaliteedi tõstmiseks oleks vaja.",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 3.597,
       "speaker_share": 0.8731
     },
@@ -10307,7 +10305,7 @@
       "start_seconds": 3644.44,
       "end_seconds": 3649.36,
       "text": "Ta ei ütle, et see peab olema kohustuslik ajateenistus naistele, meie saame vaielda selle",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 4.92,
       "speaker_share": 1.0
     },
@@ -10315,7 +10313,7 @@
       "start_seconds": 3649.36,
       "end_seconds": 3654.32,
       "text": "üle ja küsida mandaati, kuidas selle tulemuseni jõuda, kas me teeme üleöö, kas me tee",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 4.96,
       "speaker_share": 1.0
     },
@@ -10323,7 +10321,7 @@
       "start_seconds": 3654.32,
       "end_seconds": 3659.24,
       "text": "me järk-järgult, kas me teeme ankeedid vabatahtlikult, asendusteenistuse roll, see on",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 4.92,
       "speaker_share": 1.0
     },
@@ -10331,7 +10329,7 @@
       "start_seconds": 3659.24,
       "end_seconds": 3664.6,
       "text": "kõik valida ja selle jaoks me saame erinevaid mandaate küsida, aga seda, et eksperti",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 5.36,
       "speaker_share": 1.0
     },
@@ -10339,7 +10337,7 @@
       "start_seconds": 3664.6,
       "end_seconds": 3670.88,
       "text": "del ja valdkonna, ma ei tea, juhtidel peab, puudub igasugune seos praktilise poliitik",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 6.28,
       "speaker_share": 1.0
     },
@@ -10347,7 +10345,7 @@
       "start_seconds": 3670.88,
       "end_seconds": 3672.6,
       "text": "a tegemise, sellega ma olen vastu.",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 1.72,
       "speaker_share": 1.0
     },
@@ -10355,7 +10353,7 @@
       "start_seconds": 3672.6,
       "end_seconds": 3677.32,
       "text": "Me suur osa meist ei tea ühestki valdkonnast midagi ja seda tüüpi ettepanekuid ja soovi",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 4.72,
       "speaker_share": 1.0
     },
@@ -10363,7 +10361,7 @@
       "start_seconds": 3677.32,
       "end_seconds": 3682.76,
       "text": "tusi on vaja, et me saaksime ka mandaati võtma minna, aga Lavly enne ütles ka seda, vaata",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 5.44,
       "speaker_share": 1.0
     },
@@ -10371,7 +10369,7 @@
       "start_seconds": 3682.76,
       "end_seconds": 3686.4,
       "text": "rääkis nagu sotsiaalsest või ühiskondlikust poolest ja mul on tunne, et siin on jäänud",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 3.64,
       "speaker_share": 1.0
     },
@@ -10379,7 +10377,7 @@
       "start_seconds": 3686.4,
       "end_seconds": 3691.32,
       "text": "see märkimata, nii et lihtsalt nagu kommentaari korras ma ütlen, et me räägime justku",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 4.616,
       "speaker_share": 0.9382
     },
@@ -10387,7 +10385,7 @@
       "start_seconds": 3691.32,
       "end_seconds": 3696.24,
       "text": "i nagu tehnilisest või, või kaitsevaldkonna teemast ja ma arvan, et me praegu ei suu",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 4.92,
       "speaker_share": 1.0
     },
@@ -10395,7 +10393,7 @@
       "start_seconds": 3696.24,
       "end_seconds": 3702.6,
       "text": "da ka ära kirjeldada seda, kui suur muutus erinevates valdkondades võib sellega kaas",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 6.36,
       "speaker_share": 1.0
     },
@@ -10403,7 +10401,7 @@
       "start_seconds": 3702.6,
       "end_seconds": 3703.2,
       "text": "neda.",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 0.6,
       "speaker_share": 1.0
     },
@@ -10411,7 +10409,7 @@
       "start_seconds": 3703.2,
       "end_seconds": 3710.2,
       "text": "See hea näide, no minu arust sel aastal rekordarv noormeri mehi vist soovis saada õe",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 6.797,
       "speaker_share": 0.971
     },
@@ -10419,7 +10417,7 @@
       "start_seconds": 3710.2,
       "end_seconds": 3711.68,
       "text": "ks õppima minna.",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 0.974,
       "speaker_share": 0.6581
     },
@@ -10427,7 +10425,7 @@
       "start_seconds": 3711.68,
       "end_seconds": 3717.44,
       "text": "Ja aga suur osa neist on parameedikuna olnud ajateenistuses või mingisuguse baasi all",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 5.76,
       "speaker_share": 1.0
     },
@@ -10435,7 +10433,7 @@
       "start_seconds": 3717.44,
       "end_seconds": 3720.4,
       "text": "es olnud, päris huvitav, sobib mulle.",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 2.639,
       "speaker_share": 0.8916
     },
@@ -10443,7 +10441,7 @@
       "start_seconds": 3720.4,
       "end_seconds": 3725.96,
       "text": "Et, et seal tuleb erinevas valdkondades nagu lainena teise ringi efekte, mida me praegu",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 5.56,
       "speaker_share": 1.0
     },
@@ -10451,7 +10449,7 @@
       "start_seconds": 3725.96,
       "end_seconds": 3730.4,
       "text": "ei kirjelda, me ei peagi seda tegema, aga me peaks mõtlema, et sealt tuleb välja tegelikult",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 4.44,
       "speaker_share": 1.0
     },
@@ -10459,7 +10457,7 @@
       "start_seconds": 3730.4,
       "end_seconds": 3731.6,
       "text": "positiivseid asju.",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 0.744,
       "speaker_share": 0.62
     },
@@ -10739,7 +10737,7 @@
       "start_seconds": 3883.08,
       "end_seconds": 3888.52,
       "text": "Ma lisan siia juurde veel, täna me räägime küll ajateenistusest kitsamalt, aga noh, lisa",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 5.44,
       "speaker_share": 1.0
     },
@@ -10747,7 +10745,7 @@
       "start_seconds": 3888.52,
       "end_seconds": 3894.12,
       "text": "ks sellele kahtlemata ka need, kes ajateenistust ei läbi, et oleks rohkem, ma ei tea",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 5.6,
       "speaker_share": 1.0
     },
@@ -10755,7 +10753,7 @@
       "start_seconds": 3894.12,
       "end_seconds": 3900.2,
       "text": ", naiskodukaitses, Kaitseliidus, erinevates teistes organ- , minu vabatahtlikud pääst",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 6.08,
       "speaker_share": 1.0
     },
@@ -10763,7 +10761,7 @@
       "start_seconds": 3900.2,
       "end_seconds": 3905.0,
       "text": "jad, politseinikud, et tegelikult kõik võiks leida endale sellise rolli, mis siis, mis",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 4.8,
       "speaker_share": 1.0
     },
@@ -10771,7 +10769,7 @@
       "start_seconds": 3905.0,
       "end_seconds": 3907.88,
       "text": "siis nende, ma ei tea, elu ja oskustega sobib.",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 2.88,
       "speaker_share": 1.0
     },
@@ -10795,7 +10793,7 @@
       "start_seconds": 3916.92,
       "end_seconds": 3921.04,
       "text": "Ma tean, poliitikud armastavad palju rääkida, aga ma olen natuke konkreetsem, et ma,",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 4.12,
       "speaker_share": 1.0
     },
@@ -10803,7 +10801,7 @@
       "start_seconds": 3921.04,
       "end_seconds": 3922.92,
       "text": "me rääkisime ka kommunikatsioonist, et.",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 1.88,
       "speaker_share": 1.0
     },
@@ -10811,7 +10809,7 @@
       "start_seconds": 3922.92,
       "end_seconds": 3927.88,
       "text": "Ärme siis räägi kohustuslik ajateenistus, vaid räägime sellest, et kõik osalevad riigi",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 4.96,
       "speaker_share": 1.0
     },
@@ -11435,7 +11433,7 @@
       "start_seconds": 4227.12,
       "end_seconds": 4231.8,
       "text": "Tegelikult ju tahaks teada, ankeet annab rohkem infot, et, et noh, see, seda tahaks ka",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 4.68,
       "speaker_share": 1.0
     },
@@ -11443,7 +11441,7 @@
       "start_seconds": 4231.8,
       "end_seconds": 4233.12,
       "text": "noormeeste kohta teada.",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 1.32,
       "speaker_share": 1.0
     },
@@ -11451,7 +11449,7 @@
       "start_seconds": 4233.12,
       "end_seconds": 4238.32,
       "text": "Noh, nii nagu arstiteaduskonna kandideerijad, tahaks seda motivatsiooni teada saada.",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 3.667,
       "speaker_share": 0.7052
     },
@@ -11531,7 +11529,7 @@
       "start_seconds": 4265.28,
       "end_seconds": 4270.0,
       "text": "Just, et ma tegelikult küsiks Anu käest seda, et kas te nagu seda motivatsiooni uuri",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 4.72,
       "speaker_share": 1.0
     },
@@ -11539,7 +11537,7 @@
       "start_seconds": 4270.0,
       "end_seconds": 4274.44,
       "text": "nguid olete teinud, kas need uuringud ja mingisugused analüüsid eelneksid äkki nende",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 4.39,
       "speaker_share": 0.9887
     },
@@ -11547,7 +11545,7 @@
       "start_seconds": 4274.44,
       "end_seconds": 4276.24,
       "text": "le kutsetele, et mida tüdrukud arvavad.",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 1.8,
       "speaker_share": 1.0
     },
@@ -11555,7 +11553,7 @@
       "start_seconds": 4276.24,
       "end_seconds": 4281.0,
       "text": "Ja, ja, ja et kas noh, et alustaks nagu ütleme.",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 2.734,
       "speaker_share": 0.5744
     },
@@ -11563,7 +11561,7 @@
       "start_seconds": 4281.0,
       "end_seconds": 4283.56,
       "text": "Sihtrühmalt arvamust ja siis alles kutsed.",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 1.181,
       "speaker_share": 0.4613
     },
@@ -11787,7 +11785,7 @@
       "start_seconds": 4384.64,
       "end_seconds": 4389.96,
       "text": "Usume demokraatiasse ka natukene, aga ma usun, see oli hästi hea vastus, et, et, et tegelikult",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 3.931,
       "speaker_share": 0.7389
     },
@@ -11795,7 +11793,7 @@
       "start_seconds": 4389.96,
       "end_seconds": 4394.32,
       "text": "analüüsite, mul on omal kaks kahekümne üheksa aastast poega täpselt see vaade ongi, et",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 4.36,
       "speaker_share": 1.0
     },
@@ -11803,7 +11801,7 @@
       "start_seconds": 4394.32,
       "end_seconds": 4399.92,
       "text": "nad nagu noh, kõik, mis te ütlesite täpselt nii on, et tahetakse mitte aadetega patri",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 5.6,
       "speaker_share": 1.0
     },
@@ -11811,7 +11809,7 @@
       "start_seconds": 4399.92,
       "end_seconds": 4402.44,
       "text": "otismi, vaid, vaid siis oskusi.",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 2.52,
       "speaker_share": 1.0
     },
@@ -11819,7 +11817,7 @@
       "start_seconds": 4402.44,
       "end_seconds": 4407.84,
       "text": "Aga, aga mis ma tahtsin öeldagi kommunikatsiooni kohta veel.",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 4.657,
       "speaker_share": 0.8624
     },
@@ -11827,7 +11825,7 @@
       "start_seconds": 4407.84,
       "end_seconds": 4413.6,
       "text": "Et ma eeldaks, et pärast seda, kui, kui läheb see testkutse tegelikult enne seda ma taha",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 5.76,
       "speaker_share": 1.0
     },
@@ -11835,7 +11833,7 @@
       "start_seconds": 4413.6,
       "end_seconds": 4418.96,
       "text": "ks, et kaitseväe juhataja ütleks avalikult välja, et meil on seda vaja, mina tahaks seda",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 5.36,
       "speaker_share": 1.0
     },
@@ -11843,7 +11841,7 @@
       "start_seconds": 4418.96,
       "end_seconds": 4424.2,
       "text": "kuulda, vähemalt fraktsioonidele, ta tuleks ja ütleks meie fraktsioonis, et selline olukord",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 5.24,
       "speaker_share": 1.0
     },
@@ -11851,7 +11849,7 @@
       "start_seconds": 4424.2,
       "end_seconds": 4426.0,
       "text": ", ta selgitaks.",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 1.277,
       "speaker_share": 0.7094
     },
@@ -11859,7 +11857,7 @@
       "start_seconds": 4426.0,
       "end_seconds": 4431.24,
       "text": "Ja, ja mitte see ei tule kusagilt ülevalt käsk kõikidele, et meil on nüüd selline otsus",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 5.24,
       "speaker_share": 1.0
     },
@@ -11867,7 +11865,7 @@
       "start_seconds": 4431.24,
       "end_seconds": 4436.16,
       "text": ", mina sooviksin, et kaitseväelased ise annaksid meile mõista, mis on vajadus.",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 3.794,
       "speaker_share": 0.7711
     },
@@ -11883,7 +11881,7 @@
       "start_seconds": 4439.88,
       "end_seconds": 4443.68,
       "text": "Ja kaitseväe juhataja räägibki, aga mina kuulen kutsete saatmisest praegu sinult siin",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 3.8,
       "speaker_share": 1.0
     },
@@ -11891,7 +11889,7 @@
       "start_seconds": 4443.68,
       "end_seconds": 4447.68,
       "text": ", et sul on selline idee, mina temalt ei ole kuulnud, et meil on vajadus rohkem nais",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 4.0,
       "speaker_share": 1.0
     },
@@ -11899,7 +11897,7 @@
       "start_seconds": 4447.68,
       "end_seconds": 4452.76,
       "text": "i saada kaitseväkke, alles ta käis meil kevadel ja üks asi veel, kui ma olin kaitseminister",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 4.634,
       "speaker_share": 0.9122
     },
@@ -11923,7 +11921,7 @@
       "start_seconds": 4459.88,
       "end_seconds": 4460.92,
       "text": "Kaitseväelasi.",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 0.759,
       "speaker_share": 0.7298
     },
@@ -11931,7 +11929,7 @@
       "start_seconds": 4460.92,
       "end_seconds": 4465.16,
       "text": "Ja kui on näha, et viie aasta pärast ta seda piisavalt arvu ei saa, siis on meie vaid",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 3.696,
       "speaker_share": 0.8717
     },
@@ -11939,7 +11937,7 @@
       "start_seconds": 4465.16,
       "end_seconds": 4468.8,
       "text": "lete, kui kaitseväe juhataja on käinud fraktsioonis ja me oleme nendel teemadel tema",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 3.64,
       "speaker_share": 1.0
     },
@@ -11947,7 +11945,7 @@
       "start_seconds": 4468.8,
       "end_seconds": 4471.4,
       "text": "ga rääkinud omavahel, miks te nagu seda nagu vaidlustate?",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 1.773,
       "speaker_share": 0.6819
     },
@@ -11987,7 +11985,7 @@
       "start_seconds": 4481.48,
       "end_seconds": 4485.64,
       "text": "Ja ühe, ühe asja ma ütleks veel ja see puudutas kommunikatsiooni.",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 3.805,
       "speaker_share": 0.9147
     },
@@ -11995,7 +11993,7 @@
       "start_seconds": 4485.64,
       "end_seconds": 4491.12,
       "text": "Käisin kaitseministri nõunikuna aastatel kaks tuhat seitse kuni üksteist, oober Amme",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 5.48,
       "speaker_share": 1.0
     },
@@ -12003,7 +12001,7 @@
       "start_seconds": 4491.12,
       "end_seconds": 4496.96,
       "text": "rkaus nii-öelda propagandakoolis ja anti propagandaoskused ja see on see, mis on minu",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 5.84,
       "speaker_share": 1.0
     },
@@ -12011,7 +12009,7 @@
       "start_seconds": 4496.96,
       "end_seconds": 4503.2,
       "text": "l nagu mure, et me ei osale täna avalikus sotsiaalmeedias selles propagandasõjas laia",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 6.24,
       "speaker_share": 1.0
     },
@@ -12019,7 +12017,7 @@
       "start_seconds": 4503.2,
       "end_seconds": 4504.08,
       "text": "pindselt.",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 0.525,
       "speaker_share": 0.5966
     },
@@ -12051,7 +12049,7 @@
       "start_seconds": 4510.72,
       "end_seconds": 4515.2,
       "text": "Nii, Riina.",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 2.575,
       "speaker_share": 0.5748
     },
@@ -12059,7 +12057,7 @@
       "start_seconds": 4515.2,
       "end_seconds": 4520.0,
       "text": "Et mis see järgmine samm siis võiks olla, oli küsimus või mis teha, näiteks täna õhtu",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 4.8,
       "speaker_share": 1.0
     },
@@ -12067,7 +12065,7 @@
       "start_seconds": 4520.0,
       "end_seconds": 4524.28,
       "text": "l on erakonna esimeeste debatt, võiks alustada sellega, et küsida erakondade esimeest",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 4.28,
       "speaker_share": 1.0
     },
@@ -12075,7 +12073,7 @@
       "start_seconds": 4524.28,
       "end_seconds": 4528.64,
       "text": "elt, mida nad arvavad, kas nad näevad, et selles osas on konsensust võimalik esitada",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 4.36,
       "speaker_share": 1.0
     },
@@ -12083,7 +12081,7 @@
       "start_seconds": 4528.64,
       "end_seconds": 4532.52,
       "text": "ja järgmine samm, et tõepoolest kõik erakonnad võiksid ka sisemise protsessi läbi käi",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 3.88,
       "speaker_share": 1.0
     },
@@ -12091,7 +12089,7 @@
       "start_seconds": 4532.52,
       "end_seconds": 4538.44,
       "text": "a, teades seda Kaitseressurssi ameti infot, et viie aasta pärast me ei saa noormehi,",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 5.92,
       "speaker_share": 1.0
     },
@@ -12099,7 +12097,7 @@
       "start_seconds": 4538.44,
       "end_seconds": 4545.0,
       "text": "et ajateenistuses oleks piisavalt inimesi Eesti kaits- , siis programmi kahekümne se",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 6.56,
       "speaker_share": 1.0
     },
@@ -12107,7 +12105,7 @@
       "start_seconds": 4545.0,
       "end_seconds": 4548.88,
       "text": "itsmenda aasta valimiste programmi võiksid kõik erakonnad seisukoha kujundada, meil on",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 3.88,
       "speaker_share": 1.0
     },
@@ -12115,7 +12113,7 @@
       "start_seconds": 4548.88,
       "end_seconds": 4554.28,
       "text": "vastutus erakonna sees oma positsiooni kaitsta tugevalt esindada, teised ära veenda.",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 4.827,
       "speaker_share": 0.8939
     },
@@ -12123,7 +12121,7 @@
       "start_seconds": 4554.28,
       "end_seconds": 4558.44,
       "text": "Et jah, Eeriku jaoks on liiga aeglane tempo, aga, aga kuna teil on peaministritool, te",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 4.16,
       "speaker_share": 1.0
     },
@@ -12131,7 +12129,7 @@
       "start_seconds": 4558.44,
       "end_seconds": 4562.24,
       "text": "saate seda kiiremini rakendada, enne kui teised erakonnad konsensust ehitada jõuavad",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 3.562,
       "speaker_share": 0.9374
     },
@@ -12203,7 +12201,7 @@
       "start_seconds": 4590.32,
       "end_seconds": 4598.64,
       "text": "Naised ei taha kohustuslikus ajateenistuses.",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 4.472,
       "speaker_share": 0.5375
     },
@@ -12507,7 +12505,7 @@
       "start_seconds": 4760.6,
       "end_seconds": 4766.72,
       "text": "Ressurssi on, aga bürokraatia värki on palju selle.",
-      "speaker": "SPEAKER_08",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 2.433,
       "speaker_share": 0.3975
     },
@@ -12531,7 +12529,7 @@
       "start_seconds": 4778.64,
       "end_seconds": 4783.44,
       "text": "Või selle ühti läbimine ja, ja pärast seda, kui see ettepanek on välja käinud, siis nagu",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 4.48,
       "speaker_share": 0.9333
     },
@@ -12539,7 +12537,7 @@
       "start_seconds": 4783.44,
       "end_seconds": 4787.64,
       "text": ", et kui seda ei saa, siis matemaatika eksam või võiks kohustuslik olla kõigile me ikka",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 4.2,
       "speaker_share": 1.0
     },
@@ -12547,7 +12545,7 @@
       "start_seconds": 4787.64,
       "end_seconds": 4790.44,
       "text": "ühiskonnas võidaks, kui sellegi kätte saaks.",
-      "speaker": "SPEAKER_07",
+      "speaker": "SPEAKER_06",
       "speaker_overlap_seconds": 1.584,
       "speaker_share": 0.5657
     },

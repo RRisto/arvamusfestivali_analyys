@@ -54,6 +54,7 @@ Open `http://localhost:8765/`. Serve the site over HTTP so its JSON data loads.
 - [Transcription, archive format, and diarization](docs/transcription-guide.md)
 - [RunPod diarization batch](docs/RUNPOD.md)
 - [RunPod transcript repair](RUNPOD_RETRANSCRIPTION.md)
+- [Cross-recording speaker voice matching](docs/speaker-voice-matching.md)
 - [Topic analysis and experiments](docs/topic-analysis-guide.md)
 - [Topic model review](docs/REVIEW.md)
 

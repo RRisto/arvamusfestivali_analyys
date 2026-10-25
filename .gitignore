@@ -15,6 +15,8 @@ build/
 .DS_Store
 .worktrees/
 data/audio-cache/
+data/diarization/model-cache/
+data/diarization/speaker-voice-cache/
 data/engine-output/
 data/state/
 data/topic-analysis/cache/

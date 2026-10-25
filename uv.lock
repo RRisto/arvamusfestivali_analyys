@@ -127,6 +127,11 @@ dev = [
     { name = "pytest" },
     { name = "ruff" },
 ]
+speaker-match = [
+    { name = "numpy" },
+    { name = "torch" },
+    { name = "transformers" },
+]
 topic-analysis = [
     { name = "arviz" },
     { name = "bertopic" },
@@ -158,6 +163,11 @@ requires-dist = [{ name = "httpx", specifier = ">=0.28,<0.29" }]
 dev = [
     { name = "pytest", specifier = ">=8.0" },
     { name = "ruff", specifier = ">=0.8" },
+]
+speaker-match = [
+    { name = "numpy", specifier = ">=2,<3" },
+    { name = "torch", specifier = ">=2.7,<3" },
+    { name = "transformers", specifier = ">=5,<6" },
 ]
 topic-analysis = [
     { name = "arviz", specifier = ">=0.23,<0.24" },

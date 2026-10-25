@@ -50,7 +50,7 @@
         0.8333195593551357,
         0.3754678661944797
       ],
-      "SPEAKER_01": [
+      "Brent Pere": [
         0.44272785834657646,
         0.29454155585772007,
         0.24043794530483328,
@@ -155,51 +155,82 @@
     }
   },
   "speaker_topic": {
-    "speakers": [
-      "SPEAKER_02",
-      "SPEAKER_01"
-    ],
-    "topics": [
-      "Küberturvalisus, privaatsus ja digiohud",
-      "Tööelu, juhtimine ja töötajate õigused",
-      "Tehisintellekt ja digitehnoloogia",
-      "Määramata"
-    ],
-    "shares": [
-      [
-        0.7290517689399445,
-        0.8029932053962142,
-        0.5971948066890305,
-        0.7868715711123213
+    "high_level": {
+      "speakers": [
+        "SPEAKER_02",
+        "Brent Pere"
       ],
-      [
-        0.27094823106005556,
-        0.19700679460378573,
-        0.4028051933109695,
-        0.2131284288876787
+      "topics": [
+        "Küberturvalisus, privaatsus ja digiohud",
+        "Tööelu, juhtimine ja töötajate õigused",
+        "Tehisintellekt ja digitehnoloogia",
+        "Määramata"
+      ],
+      "shares": [
+        [
+          0.7290517689399445,
+          0.8029932053962142,
+          0.5971948066890305,
+          0.7868715711123213
+        ],
+        [
+          0.27094823106005556,
+          0.19700679460378573,
+          0.4028051933109695,
+          0.2131284288876787
+        ]
       ]
-    ]
+    },
+    "detailed": {
+      "speakers": [
+        "SPEAKER_02",
+        "Brent Pere"
+      ],
+      "topics": [
+        "andmejärelevalve ja tehisintellekti piirid",
+        "Vanus ja oskused tööelus",
+        "AI mõju töökorraldusele ja tööturule",
+        "Määramata",
+        "AI-agentide vastutus ja kontroll"
+      ],
+      "shares": [
+        [
+          0.7290517689399445,
+          0.8029932053962142,
+          0.4038458441370211,
+          0.7868715711123213,
+          0.9893301977179686
+        ],
+        [
+          0.27094823106005556,
+          0.19700679460378573,
+          0.5961541558629789,
+          0.2131284288876787,
+          0.010669802282031371
+        ]
+      ]
+    }
   },
   "transitions": {
     "speakers": [
+      "Brent Pere",
       "SPEAKER_00",
-      "SPEAKER_01",
       "SPEAKER_02"
     ],
     "shares": [
       [
         0.0,
-        1.0,
-        0.0
-      ],
-      [
         0.02564102564102564,
-        0.0,
         0.9743589743589743
       ],
       [
-        0.0,
         1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
         0.0
       ]
     ]

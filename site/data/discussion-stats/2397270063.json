@@ -30,7 +30,7 @@
       87.26259999999999
     ],
     "speaker_shares": {
-      "SPEAKER_02": [
+      "Karl Roben": [
         0.5062895294979225,
         0.5086183270001418,
         0.32199499768679263,
@@ -50,7 +50,7 @@
         0.5633211098374111,
         0.4999469171610456
       ],
-      "SPEAKER_01": [
+      "Anett": [
         0.4878365654394486,
         0.49138167299985824,
         0.6780050023132074,
@@ -155,45 +155,67 @@
     }
   },
   "speaker_topic": {
-    "speakers": [
-      "SPEAKER_02",
-      "SPEAKER_01"
-    ],
-    "topics": [
-      "Küberturvalisus, privaatsus ja digiohud",
-      "Laste ja noorte kaitse ning toetamine"
-    ],
-    "shares": [
-      [
-        0.5256308120012656,
-        0.8041169211142903
+    "high_level": {
+      "speakers": [
+        "Karl Roben",
+        "Anett"
       ],
-      [
-        0.47436918799873445,
-        0.19588307888570966
+      "topics": [
+        "Küberturvalisus, privaatsus ja digiohud",
+        "Laste ja noorte kaitse ning toetamine"
+      ],
+      "shares": [
+        [
+          0.5256308120012656,
+          0.8041169211142903
+        ],
+        [
+          0.47436918799873445,
+          0.19588307888570966
+        ]
       ]
-    ]
+    },
+    "detailed": {
+      "speakers": [
+        "Karl Roben",
+        "Anett"
+      ],
+      "topics": [
+        "Perearstikeskuste küberturvalisuse nõuded",
+        "Laste ja AI-petuste internetiohud"
+      ],
+      "shares": [
+        [
+          0.5256308120012656,
+          0.8041169211142903
+        ],
+        [
+          0.47436918799873445,
+          0.19588307888570966
+        ]
+      ]
+    }
   },
   "transitions": {
     "speakers": [
-      "SPEAKER_00",
-      "SPEAKER_01",
-      "SPEAKER_02"
+      "Anett",
+      "Karl Roben",
+      "SPEAKER_00"
     ],
     "shares": [
       [
         0.0,
+        0.9875,
+        0.0125
+      ],
+      [
         1.0,
+        0.0,
         0.0
       ],
       [
-        0.0125,
-        0.0,
-        0.9875
-      ],
-      [
-        0.0,
         1.0,
+        0.0,
         0.0
       ]
     ]
