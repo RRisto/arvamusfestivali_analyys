@@ -289,8 +289,9 @@ import {
         hovertemplate: "<b>%{customdata[0]}</b><br>%{customdata[2]}<br>%{z} arutelu<extra></extra>",
       }], {
         ...common.chartLayout,
+        height: Math.max(680, 46 * organizers.length + 220),
         xaxis: { tickangle: -35, side: "bottom", automargin: true },
-        yaxis: { automargin: true },
+        yaxis: { automargin: true, ticklabelstandoff: 10 },
         margin: { l: 230, r: 30, t: 20, b: 180 },
       }, common.plotConfig).then((plot) => {
         plot.removeAllListeners("plotly_click");
