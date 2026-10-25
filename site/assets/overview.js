@@ -267,11 +267,28 @@ import {
     });
 
     const organizerChart = document.getElementById("organizer-chart");
+    const organizerCount = document.getElementById("organizer-count");
+    const organizerToggle = document.getElementById("organizer-toggle");
+    let showAllOrganizers = false;
     let organizerReady = false;
     function renderOrganizer() {
       organizerChart.classList.remove("chart-loading");
       if (!organizerChart.classList.contains("js-plotly-plot")) organizerChart.textContent = "";
-      const organizers = [...new Set(viewData.organizer_topics.map((row) => row.organizer))];
+      const organizerEpisodes = new Map();
+      for (const row of viewData.scatter) {
+        if (!organizerEpisodes.has(row.organizer)) organizerEpisodes.set(row.organizer, new Set());
+        organizerEpisodes.get(row.organizer).add(row.episode);
+      }
+      const sortedOrganizers = [...organizerEpisodes.keys()].sort((a, b) => {
+        if (a === "Korraldaja teadmata") return 1;
+        if (b === "Korraldaja teadmata") return -1;
+        return organizerEpisodes.get(b).size - organizerEpisodes.get(a).size || a.localeCompare(b, "et");
+      });
+      const organizers = showAllOrganizers ? sortedOrganizers : sortedOrganizers.slice(0, 20);
+      organizerCount.textContent = `Kuvatakse ${organizers.length} / ${sortedOrganizers.length} korraldajat, järjestatud arutelude arvu järgi.`;
+      organizerToggle.hidden = sortedOrganizers.length <= 20;
+      organizerToggle.textContent = showAllOrganizers ? "Näita 20 suurimat" : `Näita kõiki (${sortedOrganizers.length})`;
+      organizerToggle.setAttribute("aria-expanded", String(showAllOrganizers));
       const categories = viewData.categories.filter((category) => viewData.organizer_topics.some((row) => row.category === category.id));
       const lookup = new Map(viewData.organizer_topics.map((row) => [`${row.organizer}\u0000${row.category}`, row.talks]));
       const z = organizers.map((organizer) => categories.map((category) => lookup.get(`${organizer}\u0000${category.id}`) || 0));
@@ -289,9 +306,9 @@ import {
         hovertemplate: "<b>%{customdata[0]}</b><br>%{customdata[2]}<br>%{z} arutelu<extra></extra>",
       }], {
         ...common.chartLayout,
-        height: Math.max(680, 46 * organizers.length + 220),
+        height: Math.max(560, 26 * organizers.length + 200),
         xaxis: { tickangle: -35, side: "bottom", automargin: true },
-        yaxis: { automargin: true, ticklabelstandoff: 10 },
+        yaxis: { autorange: "reversed", automargin: true, ticklabelstandoff: 10 },
         margin: { l: 230, r: 30, t: 20, b: 180 },
       }, common.plotConfig).then((plot) => {
         plot.removeAllListeners("plotly_click");
@@ -308,6 +325,10 @@ import {
     common.observeOnce(organizerChart, () => {
       organizerReady = true;
       renderOrganizer();
+    });
+    organizerToggle.addEventListener("click", () => {
+      showAllOrganizers = !showAllOrganizers;
+      if (organizerReady) renderOrganizer();
     });
 
     yearFilter.addEventListener("change", () => {

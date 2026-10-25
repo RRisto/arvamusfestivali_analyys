@@ -35,7 +35,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .primary-nav a:hover, .primary-nav a[aria-current="page"] { background: rgba(255,255,255,.11); color: white; }
 
 main { width: min(1320px, calc(100% - 2rem)); margin: 0 auto; padding-bottom: 4rem; }
-.page-intro { display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(18rem, .6fr); gap: 2.5rem; align-items: end; padding: clamp(2.5rem, 6vw, 5.2rem) 0 2rem; }
+.page-intro { display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(18rem, .6fr); gap: 2.5rem; align-items: end; padding: clamp(1.25rem, 3vw, 2.5rem) 0 1.5rem; }
 .compact-intro h1 { max-width: 15ch; margin: .3rem 0 .8rem; font: 700 clamp(2.5rem, 5vw, 4.8rem)/.98 Georgia, "Times New Roman", serif; letter-spacing: -.035em; }
 .eyebrow { margin: 0; color: var(--forest-700); text-transform: uppercase; letter-spacing: .13em; font-size: .78rem; font-weight: 900; }
 .lede { max-width: 56rem; margin: 0; color: var(--muted); font-size: 1.12rem; }
@@ -72,6 +72,9 @@ main { width: min(1320px, calc(100% - 2rem)); margin: 0 auto; padding-bottom: 4r
 .chart-breadcrumb button { padding: .3rem .45rem; border: 0; border-radius: .35rem; background: transparent; color: var(--forest-700); font-weight: 800; cursor: pointer; }
 .chart-breadcrumb button:hover { background: var(--forest-100); }.chart-breadcrumb button[aria-current="page"] { color: var(--ink); cursor: default; }.breadcrumb-separator { color: var(--muted); }
 .chart-loading { display: grid; place-items: center; color: var(--muted); }
+.organizer-controls { display: flex; align-items: center; justify-content: space-between; gap: 1rem; padding: .7rem 1rem; border-bottom: 1px solid var(--line); }
+.organizer-controls p { margin: 0; color: var(--muted); font-size: .9rem; }
+.organizer-controls button { margin: 0; }
 
 .notice { padding: 1.15rem 1.25rem; border-radius: .75rem; }
 .methodology-note { display: grid; grid-template-columns: 15rem 1fr; gap: 1rem; background: var(--forest-100); border-left: .3rem solid var(--forest-700); }
@@ -93,6 +96,7 @@ main { width: min(1320px, calc(100% - 2rem)); margin: 0 auto; padding-bottom: 4r
 .insight-grid span, .insight-grid strong, .insight-grid small { display: block; }.insight-grid span { color: var(--muted); font-size: .8rem; font-weight: 900; text-transform: uppercase; letter-spacing: .08em; }.insight-grid strong { margin: .3rem 0; font: 700 1.25rem/1.2 Georgia, serif; }.insight-grid small { font-weight: 900; }
 .chart-comparison, .chart-difference { min-height: 40.625rem; }
 .chart-subtopic-difference { min-height: 20rem; }
+.chart-view-toggle { width: fit-content; margin: .5rem 0 1rem; }
 .subtopic-comparison-section { margin-bottom: 2rem; }
 
 .transcript-intro { display: block; max-width: 68rem; }.transcript-intro h1 { max-width: none; }

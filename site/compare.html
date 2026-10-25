@@ -6,10 +6,10 @@
   <meta name="description" content="Arvamusfestivali 2025. ja 2026. aasta transkribeeritud arutelude teemade võrdlus.">
   <title>Arvamusfestivali ülevaade · 2025 ja 2026</title>
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23123b31'/%3E%3Ccircle cx='16' cy='16' r='8' fill='%23f4b942'/%3E%3Cpath d='M16 7v18M7 16h18' stroke='%23123b31' stroke-width='3'/%3E%3C/svg%3E">
-  <link rel="stylesheet" href="assets/styles.css">
+  <link rel="stylesheet" href="assets/styles.css?v=compact-header-gap1">
   <script src="https://cdn.plot.ly/plotly-3.1.0.min.js" defer></script>
   <script src="assets/common.js" defer></script>
-  <script src="assets/compare.js?v=subtopic-compact2" defer></script>
+  <script src="assets/compare.js?v=year-level-toggles1" defer></script>
 </head>
 <body data-page="compare">
   <a class="skip-link" href="#main-content">Liigu sisu juurde</a>
@@ -43,7 +43,11 @@
 
     <section class="chart-section">
       <div class="section-heading"><div><h2>Erinevus</h2><p>Positiivne väärtus tähendab, et teema osakaal oli 2026. aastal suurem; negatiivne väärtus tähendab langust.</p></div></div>
-      <div class="chart-card"><div id="difference-chart" class="chart chart-difference" role="img" aria-label="Teemade muutus protsendipunktides"></div></div>
+      <div class="segmented-control chart-view-toggle" role="group" aria-label="Teemade muutuse vaade">
+        <button class="active" type="button" data-chart-view="difference" data-view="share" aria-pressed="true">Osakaalu muutus (pp)</button>
+        <button type="button" data-chart-view="difference" data-view="absolute" aria-pressed="false">Absoluutmaht (2025 ja 2026)</button>
+      </div>
+      <div class="chart-card"><div id="difference-chart" class="chart chart-difference" role="img" aria-label="Teemade muutus"></div></div>
     </section>
 
     <section class="chart-section subtopic-comparison-section">
@@ -52,7 +56,11 @@
         <label for="subtopic-category">Põhiteema</label>
         <select id="subtopic-category" aria-label="Vali alamteemade võrdluseks põhiteema"></select>
       </div>
-      <div class="chart-card"><div id="subtopic-difference-chart" class="chart chart-difference chart-subtopic-difference" role="img" aria-label="Valitud põhiteema alamteemade osakaalu muutus 2025. ja 2026. aasta vahel"></div></div>
+      <div class="segmented-control chart-view-toggle" role="group" aria-label="Alamteemade muutuse vaade">
+        <button class="active" type="button" data-chart-view="subtopic" data-view="share" aria-pressed="true">Osakaalu muutus (pp)</button>
+        <button type="button" data-chart-view="subtopic" data-view="absolute" aria-pressed="false">Absoluutmaht (2025 ja 2026)</button>
+      </div>
+      <div class="chart-card"><div id="subtopic-difference-chart" class="chart chart-difference chart-subtopic-difference" role="img" aria-label="Valitud põhiteema alamteemade muutus"></div></div>
     </section>
 
     <aside class="notice methodology-note"><strong>Võrdluse piirang</strong><p>Tulemused kirjeldavad ainult olemasolevate transkribeeritud salvestiste sisu. Erinevus võib peegeldada nii programmi muutust kui ka seda, millised arutelud salvestati ja analüüsi jõudsid.</p></aside>
