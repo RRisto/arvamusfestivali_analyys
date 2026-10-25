@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="assets/styles.css">
   <script src="https://cdn.plot.ly/plotly-3.1.0.min.js" defer></script>
   <script src="assets/common.js" defer></script>
-  <script src="assets/compare.js?v=topic-label-gap1" defer></script>
+  <script src="assets/compare.js?v=subtopic-height1" defer></script>
 </head>
 <body data-page="compare">
   <a class="skip-link" href="#main-content">Liigu sisu juurde</a>
@@ -43,7 +43,7 @@
 
     <section class="chart-section">
       <div class="section-heading"><div><h2>Erinevus</h2><p>Positiivne väärtus tähendab, et teema osakaal oli 2026. aastal suurem; negatiivne väärtus tähendab langust.</p></div></div>
-      <div class="chart-card"><div id="difference-chart" class="chart chart-difference" role="img" aria-label="Teemade muutus protsendipunktides"></div><p class="chart-help">Erinevus on esitatud protsendipunktides.</p></div>
+      <div class="chart-card"><div id="difference-chart" class="chart chart-difference" role="img" aria-label="Teemade muutus protsendipunktides"></div></div>
     </section>
 
     <section class="chart-section">
@@ -52,7 +52,7 @@
         <label for="subtopic-category">Põhiteema</label>
         <select id="subtopic-category" aria-label="Vali alamteemade võrdluseks põhiteema"></select>
       </div>
-      <div class="chart-card"><div id="subtopic-difference-chart" class="chart chart-difference" role="img" aria-label="Valitud põhiteema alamteemade osakaalu muutus 2025. ja 2026. aasta vahel"></div><p class="chart-help">Skaala näitab osakaalu muutust protsendipunktides: 0 tähendab, et osakaal ei muutunud; positiivne väärtus näitab kasvu 2026. aastal ja negatiivne vähenemist. Osakaal arvutatakse valitud põhiteemast.</p></div>
+      <div class="chart-card"><div id="subtopic-difference-chart" class="chart chart-difference chart-subtopic-difference" role="img" aria-label="Valitud põhiteema alamteemade osakaalu muutus 2025. ja 2026. aasta vahel"></div></div>
     </section>
 
     <aside class="notice methodology-note"><strong>Võrdluse piirang</strong><p>Tulemused kirjeldavad ainult olemasolevate transkribeeritud salvestiste sisu. Erinevus võib peegeldada nii programmi muutust kui ka seda, millised arutelud salvestati ja analüüsi jõudsid.</p></aside>

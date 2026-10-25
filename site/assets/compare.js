@@ -91,7 +91,7 @@
     }], {
       ...siteCommon.chartLayout,
       height: Math.max(650, categories.length * 31),
-      xaxis: { title: `2026 − 2025, ${labels[metric]} (protsendipunkti)`, zeroline: true, zerolinewidth: 2, zerolinecolor: "#17322b", gridcolor: "#e7ece9" },
+      xaxis: { title: `2026 − 2025, ${labels[metric]} (protsendipunkti)`, ticksuffix: " pp", zeroline: true, zerolinewidth: 2, zerolinecolor: "#17322b", gridcolor: "#e7ece9" },
       yaxis: { automargin: true, ticklabelstandoff: 16 },
       margin: { l: 280, r: 30, t: 35, b: 60 },
     }, siteCommon.plotConfig).then((plot) => {
@@ -164,7 +164,7 @@
     }], {
       ...siteCommon.chartLayout,
       height: Math.max(420, rows.length * 28),
-      xaxis: { title: `2026 − 2025, ${labels[metric]} (protsendipunkti)`, zeroline: true, zerolinewidth: 2, zerolinecolor: "#17322b", gridcolor: "#e7ece9" },
+      xaxis: { title: `2026 − 2025, ${labels[metric]} (protsendipunkti)`, ticksuffix: " pp", zeroline: true, zerolinewidth: 2, zerolinecolor: "#17322b", gridcolor: "#e7ece9" },
       yaxis: { automargin: true, ticklabelstandoff: 16 },
       margin: { l: 280, r: 30, t: 35, b: 60 },
     }, siteCommon.plotConfig);

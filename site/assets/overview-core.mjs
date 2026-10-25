@@ -237,9 +237,11 @@ function aggregateTopics(segments) {
   segments.forEach((segment) => {
     const current = topics.get(segment.topic) || {
       episodes: new Set(),
+      segments: 0,
       hours: 0,
     };
     current.episodes.add(segment.episode);
+    current.segments += 1;
     current.hours += (Number(segment.end) - Number(segment.start)) / 3600;
     topics.set(segment.topic, current);
   });
@@ -248,6 +250,12 @@ function aggregateTopics(segments) {
 
 function topicDisplayName(topic) {
   return topic === "Unassigned" ? "Määramata" : topic;
+}
+
+function treemapMetricValue(totals, metric) {
+  if (metric === "talks") return totals.episodes.size;
+  if (metric === "segments") return totals.segments;
+  return totals.hours;
 }
 
 export function buildTreemapLevel(data, selection, metric) {
@@ -262,8 +270,9 @@ export function buildTreemapLevel(data, selection, metric) {
         treeId: `topic:${category.id}:${topic}`,
         parent: `category:${category.id}`,
         label: topicDisplayName(topic),
-        value: metric === "talks" ? totals.episodes.size : totals.hours,
-        displayValue: metric === "talks" ? totals.episodes.size : totals.hours,
+        value: treemapMetricValue(totals, metric),
+        displayValue: treemapMetricValue(totals, metric),
+        segments: totals.segments,
         talks: totals.episodes.size,
         hours: totals.hours,
         color: category.color,
@@ -277,6 +286,7 @@ export function buildTreemapLevel(data, selection, metric) {
         label: category.name,
         value: topicNodes.reduce((sum, topic) => sum + topic.value, 0),
         displayValue: category[metric],
+        segments: category.segments,
         talks: category.talks,
         hours: category.hours,
         color: category.color,
@@ -293,8 +303,9 @@ export function buildTreemapLevel(data, selection, metric) {
         level: "topic",
         id: topic,
         label: topicDisplayName(topic),
-        value: metric === "talks" ? totals.episodes.size : totals.hours,
-        displayValue: metric === "talks" ? totals.episodes.size : totals.hours,
+        value: treemapMetricValue(totals, metric),
+        displayValue: treemapMetricValue(totals, metric),
+        segments: totals.segments,
         talks: totals.episodes.size,
         hours: totals.hours,
         color: category?.color,
@@ -309,8 +320,9 @@ export function buildTreemapLevel(data, selection, metric) {
         level: "passage",
         id: segment.id,
         label: `${segment.title} · ${passageTime(segment.start)}`,
-        value: metric === "talks" ? 1 : hours,
-        displayValue: metric === "talks" ? 1 : hours,
+        value: metric === "hours" ? hours : 1,
+        displayValue: metric === "hours" ? hours : 1,
+        segments: 1,
         talks: 1,
         hours,
         color: category?.color,

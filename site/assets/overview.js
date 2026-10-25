@@ -8,7 +8,7 @@ import {
   buildTreemapLevel,
   createLazyViewController,
   heatmapText,
-} from "./overview-core.mjs?v=topic-subtopics4";
+} from "./overview-core.mjs?v=treemap-segment-metric1";
 
 (async function () {
   "use strict";
@@ -41,7 +41,10 @@ import {
     function renderTreemapBreadcrumb() {
       treemapBreadcrumb.replaceChildren();
       const category = viewData.categories.find((item) => item.id === treemapSelection.categoryId);
-      const crumbs = [];
+      const hasSelection = Boolean(treemapSelection.categoryId || treemapSelection.topic);
+      const crumbs = hasSelection
+        ? [{ label: "Kõik põhiteemad", categoryId: "", topic: "" }]
+        : [];
       if (category) crumbs.push({ label: category.name, categoryId: category.id, topic: "" });
       if (treemapSelection.topic) {
         const label = treemapSelection.topic === "Unassigned" ? "Määramata" : treemapSelection.topic;
@@ -72,7 +75,8 @@ import {
     function renderTreemap() {
       treemap.classList.remove("chart-loading");
       if (!treemap.classList.contains("js-plotly-plot")) treemap.textContent = "";
-      const isTalks = treemapMetric === "talks";
+      const isHours = treemapMetric === "hours";
+      const unit = isHours ? "tundi" : treemapMetric === "segments" ? "teemalõiku" : "arutelu";
       const nodes = buildTreemapLevel(viewData, treemapSelection, treemapMetric);
       renderTreemapBreadcrumb();
       document.getElementById("treemap-help").textContent = treemapSelection.topic
@@ -86,10 +90,10 @@ import {
         parents: nodes.map((row) => row.parent || ""),
         values: nodes.map((row) => row.value),
         ids: nodes.map((row) => row.treeId || `${row.level}:${row.id}`),
-        customdata: nodes.map((row) => [row.level, row.id, row.talks, row.hours, row.episode, row.segment, row.categoryId, row.displayValue]),
+        customdata: nodes.map((row) => [row.level, row.id, row.talks, row.hours, row.episode, row.segment, row.categoryId, row.displayValue, row.segments]),
         branchvalues: "total",
-        texttemplate: `<b>%{label}</b><br>%{customdata[7]:${isTalks ? ".0f" : ".1f"}} ${isTalks ? "arutelu" : "tundi"}`,
-        hovertemplate: "<b>%{label}</b><br>%{customdata[2]} arutelu<br>%{customdata[3]:.1f} tundi<extra></extra>",
+        texttemplate: `<b>%{label}</b><br>%{customdata[7]:${isHours ? ".1f" : ".0f"}} ${unit}`,
+        hovertemplate: "<b>%{label}</b><br>%{customdata[2]} arutelu<br>%{customdata[8]} teemalõiku<br>%{customdata[3]:.1f} tundi<extra></extra>",
         marker: { colors: nodes.map((row) => row.color), line: { color: "#ffffff", width: 2 } },
         tiling: { pad: 3 },
       }], { ...common.chartLayout, margin: { l: 8, r: 8, t: 8, b: 8 } }, common.plotConfig).then((plot) => {

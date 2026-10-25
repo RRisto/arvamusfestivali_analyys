@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="assets/styles.css">
   <script src="https://cdn.plot.ly/plotly-3.1.0.min.js" defer></script>
   <script src="assets/common.js" defer></script>
-  <script type="module" src="assets/overview.js?v=overview-year-filter1"></script>
+  <script type="module" src="assets/overview.js?v=treemap-segment-metric1"></script>
 </head>
 <body data-page="overview">
   <a class="skip-link" href="#main-content">Liigu sisu juurde</a>
@@ -56,9 +56,10 @@
 
     <section class="chart-section" id="distribution">
       <div class="section-heading">
-        <div><h2>Teemade jaotus</h2><p>Arutelude arv näitab arutelusid, kus seda teemat puudutati; ajaline kestvus näitab teemale pühendatud lõikude ajalist kestvust.</p></div>
+        <div><h2>Teemade jaotus</h2><p>Arutelude arv näitab arutelusid, kus seda teemat puudutati vähemalt ühes lõigus; teemalõikude arv näitab selle teemaga lõikude arvu; ajaline kestvus näitab teemale pühendatud lõikude ajalist kestvust.</p></div>
         <div class="segmented-control" role="group" aria-label="Treemapi mõõdik">
           <button class="active" type="button" data-metric="talks" aria-pressed="true">Arutelude arv</button>
+          <button type="button" data-metric="segments" aria-pressed="false">Teemalõikude arv</button>
           <button type="button" data-metric="hours" aria-pressed="false">Ajaline kestvus</button>
         </div>
       </div>
