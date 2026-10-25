@@ -27,7 +27,7 @@ archive without credentials while preserving the directory layout:
 ```powershell
 tar.exe -a -c -f runpod-diarization.zip `
   src scripts data/transcripts data/diarization site/diarization `
-  pyproject.toml RUNPOD.md
+  pyproject.toml docs/RUNPOD.md
 ```
 
 Upload `runpod-diarization.zip` into `/workspace` using the Pod's file browser,
