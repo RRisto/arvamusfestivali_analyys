@@ -1,9 +1,18 @@
 # Arvamusfestival transcript archive
 
-This project archives Arvamusfestival podcast transcripts as timestamped JSON,
-adds speaker diarization, and publishes a static site for exploring transcripts
-and topic analysis. It discovers episodes from the Apple Podcasts collection
-and the linked SoundCloud RSS feed.
+This project turns Arvamusfestival podcast audio into searchable transcripts and
+topic analysis. It finds recordings through Apple Podcasts and the linked
+SoundCloud feed, downloads each MP3, transcribes the speech into timestamped
+Estonian text, and separately identifies when different speakers talk. After a
+transcript is validated, its local audio cache is deleted; the JSON keeps a link
+to the original audio. The site lets you read transcripts and jump to a point in
+the recording.
+
+**What is included:** `data/transcripts/2026/` contains 264 transcript files,
+all published in the podcast feed in 2026. After duplicate audio is removed,
+the topic analysis covers 219 distinct festival talks: 114 from the **2025
+programme** and 105 from the **2026 programme**. The folder year is the podcast
+publication year; the programme year describes when the festival talk took place.
 
 ## Quick start
 
@@ -19,6 +28,10 @@ uv run arvamusfestivali-transcripts run --year 2026 --limit 1 --transcriber-scri
 Inspect the one-episode result in `data/transcripts/2026/` before running the
 full year. The command skips valid existing archives when resumed. For the full
 run, remove `--limit 1`.
+
+See [.env.example](.env.example) for optional API keys used by diarization and
+topic analysis. Set the keys you need in your shell; the project does not load
+`.env` automatically.
 
 ## View the results
 
