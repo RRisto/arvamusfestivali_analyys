@@ -223,6 +223,21 @@ def run_batch(
             owned_processor.close()
     _write_status(project_root, plan, completed, failed)
     build_review_index(project_root, failures=failed)
+    required_stats_inputs = (
+        project_root / "data/topic-analysis/results/talk-metadata/talks.parquet",
+        project_root / "data/topic-analysis/results/jev-semantic-all/assignments.parquet",
+        project_root / "data/topic-analysis/results/segment-dataset/all-segments.parquet",
+    )
+    if all(path.is_file() for path in required_stats_inputs):
+        try:
+            from .discussion_stats import build_discussion_stats_site
+
+            pages, _ = build_discussion_stats_site(project_root)
+            print(f"built {pages} discussion statistics pages", flush=True)
+        except ModuleNotFoundError as error:
+            if error.name not in {"pandas", "pyarrow"}:
+                raise
+            print("skipped statistics pages; install the topic-analysis dependencies", flush=True)
     return BatchSummary(completed=completed, failed=failed)
 
 
@@ -243,7 +258,13 @@ def build_review_index(
         if review.is_file():
             completed += 1
             state = '<span class="done">Completed</span>'
-            title_markup = f'<a href="{episode_id}.html">{title}</a>'
+            stats_page = project_root / "site" / "diarization" / f"{episode_id}-stats.html"
+            stats_link = (
+                f' · <a href="{episode_id}-stats.html">Statistics</a>'
+                if stats_page.is_file()
+                else ""
+            )
+            title_markup = f'<a href="{episode_id}.html">{title}</a>{stats_link}'
         elif episode_id in failures:
             message = html.escape(str(failures[episode_id]))
             state = f'<span class="failed">Failed: {message}</span>'

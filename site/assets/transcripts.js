@@ -8,6 +8,67 @@ let timer;
 
 const elements = {};
 
+function renderTalkCatalog() {
+  const query = normalizeText(elements.query.value.trim());
+  const talks = data.talks
+    .filter((talk) => (!elements.year.value || String(talk.year) === elements.year.value)
+      && normalizeText(`${talk.title} ${talk.organizer || ""}`).includes(query))
+    .sort((a, b) => b.year - a.year || a.title.localeCompare(b.title, "et"));
+  elements.talkCount.textContent = siteCommon.formatNumber(talks.length);
+  elements.talkList.replaceChildren();
+  if (!talks.length) {
+    const empty = document.createElement("p");
+    empty.className = "empty-state";
+    empty.textContent = "Sobivaid arutelusid ei leitud.";
+    elements.talkList.append(empty);
+    return;
+  }
+  talks.forEach((talk) => {
+    const button = document.createElement("button");
+    button.type = "button";
+    button.className = `talk-card${elements.talk.value === talk.episode ? " selected" : ""}`;
+    button.setAttribute("aria-pressed", String(elements.talk.value === talk.episode));
+    const heading = document.createElement("strong");
+    heading.textContent = talk.title;
+    const meta = document.createElement("span");
+    meta.textContent = [talk.year, talk.organizer].filter(Boolean).join(" · ");
+    button.append(heading, meta);
+    button.addEventListener("click", () => openTalk(talk));
+    elements.talkList.append(button);
+  });
+}
+
+function setSearchMode() {
+  const inTalk = Boolean(elements.talk.value);
+  elements.talkCatalog.hidden = inTalk;
+  elements.explorer.hidden = !inTalk;
+  elements.searchLabel.textContent = inTalk ? "Otsi transkriptist" : "Otsi arutelu";
+  elements.query.placeholder = inTalk ? "Otsi sõna või fraasi transkriptist…" : "Arutelu pealkiri või korraldaja…";
+  elements.searchHelp.textContent = inTalk
+    ? "Otsib valitud arutelu transkripti lõikudest; vali tulemus, et liikuda vastava ajastatud kohani."
+    : "Otsing leiab arutelusid pealkirja ja korraldaja järgi. Vali arutelu, et avada kogu transkript.";
+  elements.filterGrid.hidden = !inTalk;
+  document.getElementById("clear-filters").hidden = !inTalk;
+  document.getElementById("back-to-talks").hidden = !inTalk;
+}
+
+function openTalk(talk) {
+  const firstPassage = data.segments
+    .filter((segment) => segment.episode === talk.episode)
+    .sort((a, b) => a.start - b.start)[0];
+  if (!firstPassage) return;
+  elements.talk.value = talk.episode;
+  elements.year.value = String(talk.year);
+  elements.category.value = "";
+  elements.organizer.value = "";
+  elements.query.value = "";
+  selectedSegmentId = firstPassage.id;
+  setSearchMode();
+  renderTalkCatalog();
+  renderResults();
+  requestAnimationFrame(() => elements.reader.scrollIntoView({ behavior: "smooth", block: "start" }));
+}
+
 function stateFromControls() {
   return {
     query: elements.query.value.trim(),
@@ -66,9 +127,13 @@ function selectSegment(segment, updateUrl = true) {
   elements.reader.replaceChildren();
   const article = document.createElement("article");
   article.className = "reader-content";
-  article.innerHTML = `<p class="eyebrow">${segment.year} · ${passages.length} teemalõiku</p><h2 id="reader-title"></h2><p class="reader-meta"></p><div class="reader-actions"></div><div class="passage-list"></div>`;
+  article.innerHTML = `<p class="eyebrow">${segment.year} · ${passages.length} teemalõiku</p><h2 id="reader-title"></h2><p class="reader-meta"></p><p class="reader-participants"></p><p class="speaker-note">Kõnelejatähised on automaatsed ega ole osalejatega nimeliselt kokku viidud.</p><div class="reader-actions"></div><div class="passage-list"></div>`;
   article.querySelector("h2").textContent = talk?.title || segment.title;
-  article.querySelector(".reader-meta").textContent = [segment.organizer, talk?.stage, talk?.moderator && `Moderaator: ${talk.moderator}`].filter(Boolean).join(" · ");
+  article.querySelector(".reader-meta").textContent = [segment.organizer, talk?.stage].filter(Boolean).join(" · ");
+  const participants = [talk?.moderator && `Moderaator: ${talk.moderator}`, talk?.panelists].filter(Boolean).join("\n");
+  const participantLine = article.querySelector(".reader-participants");
+  participantLine.textContent = participants ? `Osalejad: ${participants}` : "";
+  participantLine.hidden = !participants;
   const actions = article.querySelector(".reader-actions");
   if (talk?.page) {
     const source = document.createElement("a");
@@ -97,7 +162,20 @@ function selectSegment(segment, updateUrl = true) {
     passageHead.append(topic, audio);
     const text = document.createElement("p");
     addHighlightedText(text, passage.text, elements.query.value);
-    section.append(passageHead, text);
+    section.append(passageHead);
+    if (passage.speakers?.length) {
+      const speakers = document.createElement("div");
+      speakers.className = "passage-speakers";
+      speakers.setAttribute("aria-label", "Lõigu kõneleja");
+      passage.speakers.forEach((speaker) => {
+        const chip = document.createElement("span");
+        chip.className = "passage-speaker";
+        chip.textContent = `${speaker.name || speaker.id} · ${formatTime(speaker.seconds)}`;
+        speakers.append(chip);
+      });
+      section.append(speakers);
+    }
+    section.append(text);
     list.append(section);
   });
   elements.reader.append(article);
@@ -110,6 +188,13 @@ function selectSegment(segment, updateUrl = true) {
 }
 
 function renderResults() {
+  if (!elements.talk.value) {
+    setSearchMode();
+    renderTalkCatalog();
+    history.replaceState(null, "", stateToQuery(stateFromControls()));
+    return;
+  }
+  setSearchMode();
   const state = stateFromControls();
   results = filterSegments(data.segments, state);
   elements.count.textContent = siteCommon.formatNumber(results.length);
@@ -148,7 +233,10 @@ function renderResults() {
 function scheduleRender() {
   clearTimeout(timer);
   selectedSegmentId = "";
-  timer = setTimeout(renderResults, 180);
+  timer = setTimeout(() => {
+    if (elements.talk.value) renderResults();
+    else renderTalkCatalog();
+  }, 180);
 }
 
 function initializeControls(params) {
@@ -163,6 +251,18 @@ function initializeControls(params) {
   selectedSegmentId = params.get("segment") || "";
   [elements.year, elements.category, elements.organizer, elements.talk].forEach((control) => control.addEventListener("change", scheduleRender));
   elements.query.addEventListener("input", scheduleRender);
+  document.getElementById("back-to-talks").addEventListener("click", () => {
+    elements.talk.value = "";
+    elements.query.value = "";
+    elements.year.value = "";
+    elements.category.value = "";
+    elements.organizer.value = "";
+    selectedSegmentId = "";
+    setSearchMode();
+    renderTalkCatalog();
+    history.replaceState(null, "", window.location.pathname);
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  });
   document.getElementById("clear-filters").addEventListener("click", () => {
     [elements.query, elements.year, elements.category, elements.organizer, elements.talk].forEach((control) => { control.value = ""; });
     selectedSegmentId = "";
@@ -173,17 +273,24 @@ function initializeControls(params) {
 async function init() {
   Object.assign(elements, {
     query: document.getElementById("search-query"),
+    searchLabel: document.getElementById("search-label"),
+    searchHelp: document.getElementById("search-help"),
+    filterGrid: document.querySelector(".filter-grid"),
+    explorer: document.getElementById("explorer-layout"),
+    talkCatalog: document.getElementById("talk-catalog"),
     year: document.getElementById("year-filter"),
     category: document.getElementById("category-filter"),
     organizer: document.getElementById("organizer-filter"),
     talk: document.getElementById("talk-filter"),
+    talkList: document.getElementById("talk-list"),
+    talkCount: document.getElementById("talk-count"),
     results: document.getElementById("search-results"),
     reader: document.getElementById("transcript-reader"),
     count: document.getElementById("result-count"),
     limit: document.getElementById("result-limit-note"),
   });
   try {
-    data = await siteCommon.fetchJson("data/transcripts.json");
+    data = await siteCommon.fetchJson("data/transcripts.json?v=speaker-turns1");
     data.segments.forEach((segment) => { segment._search = normalizeText(`${segment.title} ${segment.topic} ${segment.text} ${segment.organizer}`); });
     initializeControls(new URLSearchParams(window.location.search));
     renderResults();

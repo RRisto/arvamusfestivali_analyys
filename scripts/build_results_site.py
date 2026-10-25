@@ -65,13 +65,169 @@ def _load_cues(
     return cache[episode_id]
 
 
+def _load_speaker_turns(
+    root: Path,
+    episode_id: str,
+    year: int,
+    cache: dict[str, list[dict[str, Any]]],
+) -> list[dict[str, Any]]:
+    if episode_id in cache:
+        return cache[episode_id]
+    path = root / "data/diarization" / str(year) / f"{episode_id}.json"
+    if not path.exists():
+        matches = sorted((root / "data/diarization").glob(f"*/{episode_id}.json"))
+        path = matches[0] if matches else path
+    if not path.exists():
+        cache[episode_id] = []
+        return []
+    archive = json.loads(path.read_text(encoding="utf-8"))
+    turns = archive.get("turns", [])
+    cache[episode_id] = sorted(turns, key=lambda turn: float(turn["start_seconds"]))
+    return cache[episode_id]
+
+
+def _load_speaker_cues(
+    root: Path,
+    episode_id: str,
+    year: int,
+    cache: dict[str, list[dict[str, Any]]],
+) -> list[dict[str, Any]]:
+    if episode_id in cache:
+        return cache[episode_id]
+    path = root / "data/diarization" / str(year) / f"{episode_id}.json"
+    if not path.exists():
+        matches = sorted((root / "data/diarization").glob(f"*/{episode_id}.json"))
+        path = matches[0] if matches else path
+    if not path.exists():
+        cache[episode_id] = []
+        return []
+    archive = json.loads(path.read_text(encoding="utf-8"))
+    cues = archive.get("cues", [])
+    cache[episode_id] = sorted(cues, key=lambda cue: float(cue["start_seconds"]))
+    return cache[episode_id]
+
+
+def _load_speaker_names(root: Path) -> dict[tuple[str, str], str]:
+    path = root / "data/diarization/speaker-name-detections-2026.csv"
+    if not path.exists():
+        return {}
+    names: dict[tuple[str, str], str] = {}
+    for row in _read_csv(path):
+        episode_id = row.get("episode_id", "").strip()
+        speaker = row.get("speaker_label", "").strip()
+        name = row.get("suggested_name", "").strip()
+        confidence = row.get("confidence", "").strip().casefold()
+        if episode_id and speaker and name and confidence in {"high", "medium"}:
+            names[(episode_id, speaker)] = name
+    return names
+
+
+def _speakers_for_interval(
+    turns: list[dict[str, Any]], start: float, end: float
+) -> list[dict[str, object]]:
+    speech: defaultdict[str, float] = defaultdict(float)
+    for turn in turns:
+        overlap = min(end, float(turn["end_seconds"])) - max(
+            start, float(turn["start_seconds"])
+        )
+        if overlap > 0:
+            speech[str(turn.get("speaker") or "UNASSIGNED")] += overlap
+    return [
+        {"id": speaker, "seconds": round(seconds, 1)}
+        for speaker, seconds in sorted(speech.items(), key=lambda item: (-item[1], item[0]))
+    ]
+
+
+def _speaker_intervals(
+    turns: list[dict[str, Any]], start: float, end: float
+) -> list[tuple[float, float, str]]:
+    """Split an interval into consecutive spans that each have one diarized speaker."""
+    spans: list[tuple[float, float, str]] = []
+    for turn in turns:
+        turn_start = max(start, float(turn["start_seconds"]))
+        turn_end = min(end, float(turn["end_seconds"]))
+        speaker = str(turn.get("speaker") or "UNASSIGNED")
+        if turn_end <= turn_start:
+            continue
+        if spans and spans[-1][2] == speaker and turn_start - spans[-1][1] <= 0.75:
+            spans[-1] = (spans[-1][0], turn_end, speaker)
+        else:
+            spans.append((turn_start, turn_end, speaker))
+    return spans
+
+
+def _speaker_passages(
+    cues: list[dict[str, Any]], start: float, end: float
+) -> list[tuple[float, float, str, str]]:
+    """Group full diarized transcript cues by speaker without cutting cue text."""
+    passages: list[list[Any]] = []
+    for cue in cues:
+        cue_start = float(cue["start_seconds"])
+        cue_end = float(cue["end_seconds"])
+        midpoint = (cue_start + cue_end) / 2
+        if not start <= midpoint < end:
+            continue
+        speaker = str(cue.get("speaker") or "UNASSIGNED")
+        text = str(cue.get("text", "")).strip()
+        if not text:
+            continue
+        if passages and passages[-1][2] == speaker and cue_start - passages[-1][1] <= 1.5:
+            previous = passages[-1]
+            previous[1] = max(previous[1], cue_end)
+            previous[3].append(text)
+        else:
+            passages.append([cue_start, cue_end, speaker, [text]])
+    return [
+        (passage_start, passage_end, speaker, _clean_transcript_text(" ".join(texts)))
+        for passage_start, passage_end, speaker, texts in passages
+    ]
+
+
+def _clean_transcript_text(text: str) -> str:
+    known_split_words = {
+        "ar sti": "arsti",
+        "ar stilt": "arstilt",
+        "di skussiooni": "diskussiooni",
+        "tervi shoiuga": "tervishoiuga",
+        "tervi shoiu": "tervishoiu",
+        "kaugmedi tsiini": "kaugmeditsiini",
+    }
+    for split, corrected in known_split_words.items():
+        text = re.sub(rf"\b{re.escape(split)}\b", corrected, text, flags=re.IGNORECASE)
+    text = re.sub(r"\s+([,.;?!:])", r"\1", text)
+    return re.sub(r"\s+", " ", text).strip()
+
+
+def _repair_split_word_seams(segments: list[dict[str, Any]]) -> None:
+    """Rejoin one-letter ASR fragments split exactly at adjacent topic boundaries."""
+    by_episode: defaultdict[str, list[dict[str, Any]]] = defaultdict(list)
+    for segment in segments:
+        by_episode[str(segment["episode"])].append(segment)
+    for rows in by_episode.values():
+        rows.sort(key=lambda row: float(row["start"]))
+        for previous, current in zip(rows, rows[1:]):
+            if len(previous.get("speakers", [])) != 1 or len(current.get("speakers", [])) != 1:
+                continue
+            if previous["speakers"][0]["id"] != current["speakers"][0]["id"]:
+                continue
+            if abs(float(current["start"]) - float(previous["end"])) > 0.05:
+                continue
+            previous_text = str(previous.get("text", "")).rstrip()
+            current_text = str(current.get("text", "")).lstrip()
+            match = re.match(r"^([a-zõäöüšž])\s+(.+)$", current_text)
+            if not match or not re.search(r"[a-zõäöüšž]$", previous_text):
+                continue
+            previous["text"] = f"{previous_text}{match.group(1)}"
+            current["text"] = match.group(2)
+
+
 def _passage_text(cues: list[dict[str, Any]], start: float, end: float) -> str:
     texts = [
         str(cue.get("text", "")).strip()
         for cue in cues
         if float(cue["end_seconds"]) > start and float(cue["start_seconds"]) < end
     ]
-    return " ".join(text for text in texts if text)
+    return _clean_transcript_text(" ".join(text for text in texts if text))
 
 
 def _category_colors(results: Path) -> dict[str, str]:
@@ -195,6 +351,9 @@ def _transcript_payload(
     talks_by_id = {row["episode_id"]: row for row in talk_rows}
     category_sets: defaultdict[str, set[str]] = defaultdict(set)
     cue_cache: dict[str, list[dict[str, Any]]] = {}
+    speaker_turn_cache: dict[str, list[dict[str, Any]]] = {}
+    speaker_cue_cache: dict[str, list[dict[str, Any]]] = {}
+    speaker_names = _load_speaker_names(root)
     segment_payload: list[dict[str, object]] = []
     for row in segments:
         episode_id = row["episode_id"]
@@ -204,23 +363,64 @@ def _transcript_payload(
         organizer = row.get("organizer", "").strip() or "Korraldaja teadmata"
         topic = row.get("jev_topic_name", "") or "Määramata"
         category = row["jev_high_level_name"]
-        category_sets[episode_id].add(row["jev_high_level_id"])
-        segment_payload.append(
-            {
-                "id": row["segment_key"],
-                "episode": episode_id,
-                "title": row["title"],
-                "start": round(start, 3),
-                "end": round(end, 3),
-                "text": text,
-                "audio": row["audio_link"],
-                "topic": topic,
-                "category_id": row["jev_high_level_id"],
-                "category": category,
-                "year": _int(row["programme_year"]),
-                "organizer": organizer,
-            }
+        speaker_turns = _load_speaker_turns(
+            root, episode_id, _int(row["programme_year"]), speaker_turn_cache
         )
+        speaker_cues = _load_speaker_cues(
+            root, episode_id, _int(row["programme_year"]), speaker_cue_cache
+        )
+        category_sets[episode_id].add(row["jev_high_level_id"])
+        passages = _speaker_passages(speaker_cues, start, end)
+        if passages:
+            segment_parts = passages
+        else:
+            spans = _speaker_intervals(speaker_turns, start, end)
+            segment_parts = [
+                (
+                    span_start,
+                    span_end,
+                    speaker,
+                    _passage_text(_load_cues(root, episode_id, cue_cache), span_start, span_end)
+                    if speaker
+                    else text,
+                )
+                for span_start, span_end, speaker in spans
+            ]
+            if not segment_parts:
+                segment_parts = [(start, end, "", text)]
+        for part_index, (span_start, span_end, speaker, passage_text) in enumerate(segment_parts):
+            audio = re.sub(r"#t=[^&]*$", "", row["audio_link"])
+            audio = f"{audio}#t={span_start:.3f}"
+            segment_payload.append(
+                {
+                    "id": (
+                        row["segment_key"]
+                        if part_index == 0
+                        else f"{row['segment_key']}:speaker:{speaker}:{span_start:.3f}"
+                    ),
+                    "episode": episode_id,
+                    "title": row["title"],
+                    "start": round(span_start, 3),
+                    "end": round(span_end, 3),
+                    "text": passage_text,
+                    "audio": audio,
+                    "topic": topic,
+                    "category_id": row["jev_high_level_id"],
+                    "category": category,
+                    "year": _int(row["programme_year"]),
+                    "organizer": organizer,
+                    "speakers": (
+                        [{
+                            "id": speaker,
+                            "name": speaker_names.get((episode_id, speaker), ""),
+                            "seconds": round(span_end - span_start, 1),
+                        }]
+                        if speaker
+                        else []
+                    ),
+                }
+            )
+    _repair_split_word_seams(segment_payload)
     segment_payload.sort(key=lambda row: (str(row["title"]).casefold(), float(row["start"])))
     talk_payload = []
     for episode_id in sorted({row["episode_id"] for row in segments}):

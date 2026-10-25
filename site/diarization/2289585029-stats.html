@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Alati ühenduses. Suurem produktiivsus või läbipõlemise oht_ — discussion statistics</title>
+<script src="https://cdn.plot.ly/plotly-3.1.0.min.js" defer></script>
+<style>
+:root{font-family:Inter,ui-sans-serif,system-ui,sans-serif;color:#172033;background:#f5f7fb}
+*{box-sizing:border-box}
+body{margin:0}
+header,main{width:min(1120px,calc(100% - 32px));margin-inline:auto}
+header{padding:30px 0 16px}
+h1{font-size:clamp(1.6rem,4vw,2.5rem);margin:0 0 8px}
+a{color:#2458c6;font-weight:700}.meta{color:#59657a;margin:8px 0}
+.player{position:sticky;top:0;z-index:3;background:#f5f7f7ed;
+  backdrop-filter:blur(12px);padding:12px max(16px,calc((100vw - 1120px)/2));
+  border-block:1px solid #dce2ec}
+audio{width:100%}
+main{padding:18px 0 54px}
+.summary{display:flex;flex-wrap:wrap;gap:10px;margin:8px 0 18px}
+.pill{background:white;border:1px solid #dce2ec;border-radius:999px;
+  padding:7px 12px;font-size:.9rem}
+.chart-card{background:white;border:1px solid #dce2ec;border-radius:14px;
+  padding:14px 16px;margin:14px 0;box-shadow:0 2px 8px #1720330b}
+h2{margin:4px 0 0;font-size:1.22rem}
+.chart{min-height:300px}
+.note{color:#59657a}
+@media(max-width:600px){header,main{width:calc(100% - 20px)}
+  .chart{min-height:250px}}
+</style></head><body>
+<header><p><a href="2289585029.html">← Listen and read transcript</a></p><h1>Alati ühenduses. Suurem produktiivsus või läbipõlemise oht_</h1>
+<p class="meta">Conversation statistics · <span id="organizer"></span></p>
+<div id="summary" class="summary"></div></header>
+<div class="player"><audio id="audio" controls preload="metadata"></audio></div>
+<main>
+<section class="chart-card">
+<h2>Participation over time</h2>
+<p class="note">Ten-minute windows advance every five minutes. Turns crossing a window
+boundary are divided by overlap. Click the chart to seek the recording.</p>
+<div id="participation" class="chart"></div><div id="equality" class="chart"></div>
+</section>
+<section class="chart-card">
+<h2>Speaker–topic participation</h2>
+<p class="note">Each cell shows the speaker’s share of aligned speech within that
+high-level topic.</p>
+<div id="speaker-topic" class="chart"></div>
+<p id="no-topics" class="note" hidden>No matching topic assignments are available
+for this discussion.</p>
+</section>
+<section class="chart-card">
+<h2>Turn-transition structure</h2>
+<p class="note">Adjacent runs by the same speaker are collapsed. Rows show the share
+of each speaker’s outgoing turns passed to another speaker.</p>
+<div id="transitions" class="chart"></div>
+</section>
+</main><script src="../assets/discussion-stats.js" defer></script>
+<script>window.DISCUSSION_STATS_ID="2289585029";</script></body></html>

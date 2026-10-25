@@ -1,0 +1,150 @@
+{
+  "episode_id": "2258666735",
+  "canonical_episode_id": "2258666735",
+  "title": "Milliseid lasteraamatuid tahame – lastega ja lastele",
+  "organizer": "MTÜ Lastekaitse Liit ja Tallinna Raamatukogud",
+  "programme_stage": "3 Elujõuline kultuur",
+  "audio_url": "https://feeds.soundcloud.com/stream/2258666735-arvamusfestival-milliseid-lasteraamatuid-tahame-lastega-ja-lastele-5.mp3",
+  "speaker_count": 6,
+  "speech_minutes": 5.485833333333334,
+  "speaker_switches": 18,
+  "participation": {
+    "minutes": [
+      3.1578500000000003,
+      5.65785
+    ],
+    "speaker_shares": {
+      "SPEAKER_01": [
+        0.18754367309737188,
+        0.5407199808164967
+      ],
+      "SPEAKER_02": [
+        0.3310952453288775,
+        0.3950452610754754
+      ],
+      "SPEAKER_03": [
+        0.17990277988758915,
+        0.0
+      ],
+      "SPEAKER_04": [
+        0.17410603068509783,
+        0.0
+      ],
+      "SPEAKER_05": [
+        0.10920249126538065,
+        0.01846412085606419
+      ],
+      "SPEAKER_00": [
+        0.018149779735682908,
+        0.04577063725196374
+      ]
+    },
+    "metrics": {
+      "dominant_speaker_share": [
+        0.3310952453288775,
+        0.5407199808164967
+      ],
+      "gini": [
+        0.3009246037774064,
+        0.4790105509262023
+      ],
+      "effective_speaker_share": [
+        0.7585093807989276,
+        0.5544777359235972
+      ]
+    }
+  },
+  "speaker_topic": {
+    "speakers": [
+      "SPEAKER_02",
+      "SPEAKER_01",
+      "SPEAKER_03",
+      "SPEAKER_04",
+      "SPEAKER_05",
+      "SPEAKER_00"
+    ],
+    "topics": [
+      "Määramata"
+    ],
+    "shares": [
+      [
+        0.33351126818463517
+      ],
+      [
+        0.18937790294574203
+      ],
+      [
+        0.18166227965222934
+      ],
+      [
+        0.1758088366128566
+      ],
+      [
+        0.11027052233082398
+      ],
+      [
+        0.00936919027371298
+      ]
+    ]
+  },
+  "transitions": {
+    "speakers": [
+      "SPEAKER_00",
+      "SPEAKER_01",
+      "SPEAKER_02",
+      "SPEAKER_03",
+      "SPEAKER_04",
+      "SPEAKER_05"
+    ],
+    "shares": [
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      [
+        0.5,
+        0.0,
+        0.0,
+        0.5,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.14285714285714285,
+        0.7142857142857143,
+        0.14285714285714285,
+        0.0
+      ]
+    ]
+  }
+}

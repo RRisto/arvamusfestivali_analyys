@@ -1,0 +1,46 @@
+﻿episode_id,episode_title,speaker_label,suggested_name,evidence,confidence
+2247188690,Kas kõik on kiusamine?,SPEAKER_02,Tarmo Kase,Direct self-identification: “mina olen Tarmo” during his response.,High
+2247188690,Kas kõik on kiusamine?,SPEAKER_07,Airi Mittendorf,"Moderator addresses “Airi” immediately before the answer; content refers to Tervise Arengu Instituut, matching her introduction.",High
+2247188690,Kas kõik on kiusamine?,SPEAKER_05,Kaili Rätsep,Moderator addresses Kaili immediately before a legal-practice response; diarization includes overlap with moderator.,Medium
+2247188693,Töökius otse laval,SPEAKER_01,Tanel Talve,Direct self-identification: “Minu nimi on Tanel Talve”; he continues as moderator.,High
+2247188693,Töökius otse laval,SPEAKER_04,Elina Soomets,Moderator asks Elina a question; this speaker gives the answer about people asking questions.,High
+2247188693,Töökius otse laval,SPEAKER_03,Johanna Rähn,Moderator addresses Johanna immediately before this speaker answers about Lidl; label also appears on moderator overlap.,Medium
+2247188696,Juhi võim versus töötaja julgus,,,"No speaker-to-name mapping retained: diarization turn labels overlap around introductions, and the excerpt reviewed did not give a clear self-identification tied to a stable label.",Unresolved
+2247188699,Õpiamps kui osa tööst,SPEAKER_09,Triin Ploompuu,Opening speaker self-identifies by name and role; later continues moderating and addresses panelists.,High
+2247188699,Õpiamps kui osa tööst,SPEAKER_02,Gert Kivimaa,Moderator addresses Gert immediately before this speaker answers about a recent learning bite.,Medium
+2247188702,Kuidas juhtida riiki? Visiooni põhjal? Väärtuste põhjal?,,,No reliable mapping retained from the reviewed excerpt; diarization showed substantial overlapping labels.,Unresolved
+2247188705,Kas töötaja on alati nõrgem osapool?,,,"No reliable name-to-label match retained; introductions and diarized turns overlap, and direct addressing was insufficient in the reviewed excerpt.",Unresolved
+2247188708,Disainime tööd,,,No reliable mapping retained from the reviewed excerpt; speaker labels overlap heavily during the opening and introductions.,Unresolved
+2250797867,"Loodus, majandus ja julgeolek. Kas valida tuleb ainult kaks?",,,No reliable mapping retained from the reviewed excerpt; introductions are fragmented and speaker labels overlap.,Unresolved
+2250797870,Noored ja äärmuslus. Mida saame teha?,SPEAKER_06,Dmitri Jagunin,"Likely first panelist response after the moderator asks everyone to begin; content fits the introduction, but no direct name call was visible at that turn.",Low
+2250797873,Vasakpoolsus Eestis. Kas turumõtlemine on piisav?,SPEAKER_11,,"Moderator label is clear from the opening and panel introductions, but the moderator’s name was not present in the reviewed excerpt.",Unresolved
+2250797876,Kas öko-eluviis on ainult rikastele_,SPEAKER_03,Martin Altraja,Self-identifies as Martin Altraja in the turn beginning at 00:49.,High
+2250797876,Kas öko-eluviis on ainult rikastele_,SPEAKER_09,Maie Kiisel,Moderator introduces Maie Kiisel and asks her about the study; this speaker answers about the research.,Medium
+2250797879,Looduskaitse ja riigikaitse – teineteist võimendavad jõud_,SPEAKER_04,Karin Pahman,Moderator introduces Karin Pahman immediately before a response about joining the Kaitseliit; diarization overlaps at the turn boundary.,Medium
+2250797879,Looduskaitse ja riigikaitse – teineteist võimendavad jõud_,SPEAKER_11,Timo Kark,Moderator introduces and addresses Timo Kark immediately before this speaker responds.,Medium
+2250797882,Meedia roll progressiivsete teemade kajastamisel,SPEAKER_06,See Dagri Gurjeva,"Self-identifies in the opening; the transcript renders the name as “See Dagri Gurjeva”, so spelling may be an ASR error.",High
+2250797882,Meedia roll progressiivsete teemade kajastamisel,SPEAKER_04,Gretel Juhansoo,Self-identifies by name during the introductions.,High
+2250797882,Meedia roll progressiivsete teemade kajastamisel,SPEAKER_07,Helena Aarbi,Self-identifies as Helena Aarbi in her introduction.,High
+2250797882,Meedia roll progressiivsete teemade kajastamisel,SPEAKER_05,Kätlin Kiilberg,Self-identifies as Kätlin Kiilberg in her introduction.,High
+2250797882,Meedia roll progressiivsete teemade kajastamisel,SPEAKER_01,Märt Velkin,Self-identifies as Märt Velkin in his introduction.,High
+2250797888,Rohkem kui kondoom ja video. Seksuaalhariduse tulevik Eestis,SPEAKER_07,Egeli Petermann,Self-identifies by name in the opening.,High
+2250797888,Rohkem kui kondoom ja video. Seksuaalhariduse tulevik Eestis,SPEAKER_04,Annika Tamme,"Likely the clinical sexologist from the introduction; this label gives the first extended panel response, but no direct self-name was found.",Medium
+2250797888,Rohkem kui kondoom ja video. Seksuaalhariduse tulevik Eestis,SPEAKER_08,Merilin Mandel,Moderator addresses Merilin immediately before this speaker responds with her work background.,High
+2250797888,Rohkem kui kondoom ja video. Seksuaalhariduse tulevik Eestis,SPEAKER_09,Silja,Likely the teacher introduced as Silja; the speaker later answers from the perspective of a school teacher.,Medium
+2254333406,"Kuhu pöörad, rohepööre_",SPEAKER_06,Leif Kalev,Self-identifies as moderator in the opening.,High
+2254333406,"Kuhu pöörad, rohepööre_",SPEAKER_04,Kristi Klaas,Self-identifies in the introductions.,High
+2254333406,"Kuhu pöörad, rohepööre_",SPEAKER_07,Jaanus Purga,Self-identifies in the introductions.,High
+2254333406,"Kuhu pöörad, rohepööre_",SPEAKER_01,Anu Realo,Self-identifies in the introductions.,High
+2254333406,"Kuhu pöörad, rohepööre_",SPEAKER_02,Tõnis Leht,Self-identifies in the introductions.,High
+2254333409,Kust tuleb raha aastal 2040_,SPEAKER_11,Mikko Eerik,Self-identifies as Mikko Eerik in the opening.,High
+2254333409,Kust tuleb raha aastal 2040_,SPEAKER_07,Kadri Prinski,Moderator addresses Kadri immediately before this speaker introduces herself.,High
+2254333412,Millist väliruumi ootame oma linnadesse_ LIFE Tartu ROHEringiga.alp,SPEAKER_02,Riia Ränisoo,Self-identifies as the Tartu Roheringi project lead during introductions.,High
+2254333415,Hakkab looma! Unistades loome Eesti tulevikku,SPEAKER_11,Liina Viies,Moderator addresses Liina by name; this speaker answers about her role in the dreaming initiative.,High
+2254333415,Hakkab looma! Unistades loome Eesti tulevikku,SPEAKER_13,Otto Mätas,Moderator names Otto immediately before this speaker gives his introduction.,High
+2254333415,Hakkab looma! Unistades loome Eesti tulevikku,SPEAKER_07,Peep Vain,Moderator introduces Peep Vain immediately before this speaker answers.,High
+2258666735,Milliseid lasteraamatuid tahame – lastega ja lastele,SPEAKER_02,Tuule,Self-identifies in the opening.,High
+2258666735,Milliseid lasteraamatuid tahame – lastega ja lastele,SPEAKER_03,Marta,Self-identifies as Marta in the workshop recap.,High
+2258666735,Milliseid lasteraamatuid tahame – lastega ja lastele,SPEAKER_05,Miia-Mai,Self-identifies by name in the workshop recap.,High
+2258666735,Milliseid lasteraamatuid tahame – lastega ja lastele,SPEAKER_04,Mirjam,Self-identifies by name in the workshop recap.,High
+2258666735,Milliseid lasteraamatuid tahame – lastega ja lastele,SPEAKER_01,Kaumard,Self-identifies by name in the workshop recap.,High
+2258666738,Mitmekultuuriline maailm Eesti koolis,SPEAKER_08,Kati Pakratsebank,Self-identifies as moderator in the opening.,High

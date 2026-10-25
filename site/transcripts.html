@@ -8,7 +8,7 @@
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23123b31'/%3E%3Ccircle cx='16' cy='16' r='8' fill='%23f4b942'/%3E%3Cpath d='M16 7v18M7 16h18' stroke='%23123b31' stroke-width='3'/%3E%3C/svg%3E">
   <link rel="stylesheet" href="assets/styles.css">
   <script src="assets/common.js" defer></script>
-  <script type="module" src="assets/transcripts.js"></script>
+  <script type="module" src="assets/transcripts.js?v=speaker-turns1"></script>
 </head>
 <body data-page="transcripts">
   <a class="skip-link" href="#main-content">Liigu sisu juurde</a>
@@ -18,11 +18,11 @@
   </header>
 
   <main id="main-content">
-    <section class="page-intro transcript-intro"><div><p class="eyebrow">Transkriptide otsing</p><h1>Leia arutelust täpne koht</h1><p class="lede">Otsi sõna või fraasi, kitsenda tulemusi ja vali lõik. Ajastatud helilink viib otse vastava hetkeni salvestuses.</p></div></section>
+    <section class="page-intro transcript-intro"><div><p class="eyebrow">Transkriptide otsing</p><h1>Leia arutelu ja ava transkript</h1><p class="lede">Otsi arutelude loetelust pealkirja või korraldaja järgi ja ava kogu transkript. Täpse koha leidmiseks saad seejärel otsida fraasi ning liikuda ajastatud helilingiga salvestuses õigesse hetke.</p></div></section>
     <div id="page-error" class="notice error-notice" role="alert" aria-live="polite" hidden></div>
 
     <section class="search-panel" aria-label="Transkriptiotsingu filtrid">
-      <label class="search-field"><span>Otsing</span><input id="search-query" type="search" placeholder="Näiteks õpetaja, tehisintellekt…" autocomplete="off"><small>Otsib lõigu tekstist, pealkirjast ja teemast.</small></label>
+      <label class="search-field"><span id="search-label">Otsi arutelu</span><input id="search-query" type="search" placeholder="Arutelu pealkiri või korraldaja…" autocomplete="off"><small id="search-help">Otsing leiab arutelusid pealkirja ja korraldaja järgi.</small></label>
       <div class="filter-grid">
         <label><span>Aasta</span><select id="year-filter"><option value="">Kõik aastad</option><option value="2025">2025</option><option value="2026">2026</option></select></label>
         <label><span>Põhiteema</span><select id="category-filter"><option value="">Kõik põhiteemad</option></select></label>
@@ -32,9 +32,14 @@
       <button id="clear-filters" class="secondary-button" type="button">Tühjenda filtrid</button>
     </section>
 
-    <div class="explorer-layout">
+    <section id="talk-catalog" class="talk-catalog" aria-labelledby="talk-catalog-title">
+      <div class="catalog-heading"><div><p class="eyebrow">Arutelude loetelu</p><h2 id="talk-catalog-title"><span id="talk-count">—</span> arutelu</h2></div><p class="catalog-instruction">Vali arutelu, et avada kogu transkript.</p></div>
+      <div id="talk-list" class="talk-list" aria-live="polite"><p class="empty-state">Arutelude laadimine…</p></div>
+    </section>
+
+    <div id="explorer-layout" class="explorer-layout" hidden>
       <section class="results-panel" aria-labelledby="results-title">
-        <div class="panel-heading"><div><p class="eyebrow">Tulemused</p><h2 id="results-title"><span id="result-count">—</span> lõiku</h2></div><small id="result-limit-note"></small></div>
+        <div class="panel-heading"><div><p class="eyebrow">Transkripti lõigud</p><h2 id="results-title"><span id="result-count">—</span> lõiku</h2></div><button id="back-to-talks" class="secondary-button" type="button">Kõik arutelud</button><small id="result-limit-note"></small></div>
         <div id="search-results" class="result-list" aria-live="polite"><p class="empty-state">Andmete laadimine…</p></div>
       </section>
       <section id="transcript-reader" class="reader-panel" aria-labelledby="reader-title">

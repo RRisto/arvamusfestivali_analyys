@@ -116,6 +116,8 @@ def _render_page(
     episode: Mapping[str, Any],
     diarization: Mapping[str, Any],
     segments: Sequence[Mapping[str, Any]],
+    *,
+    stats_available: bool = False,
 ) -> str:
     title = str(episode["title"])
     audio_url = str(episode["audio_url"])
@@ -132,6 +134,12 @@ def _render_page(
         f'<a href="{html.escape(page_url, quote=True)}" target="_blank" rel="noreferrer">'
         "Ava salvestuse leht ↗</a>"
         if page_url
+        else ""
+    )
+    stats_link = (
+        f'<a href="{html.escape(str(episode["id"]), quote=True)}-stats.html">'
+        "View discussion statistics ↗</a>"
+        if stats_available
         else ""
     )
     return f"""<!doctype html>
@@ -201,7 +209,7 @@ def _render_page(
       {len(speakers)} kõnelejat · {len(segments)} segmenti ·
       {review_count} vajab kõneleja kontrolli
     </p>
-    <p class="source-link">{source_link}</p>
+    <p class="source-link">{source_link} {stats_link}</p>
   </header>
   <div class="player-dock">
     <div class="player-inner">
@@ -242,14 +250,19 @@ def build_review_page(transcript_path: Path, diarization_path: Path, output: Pat
     episode = transcript.get("episode")
     if not isinstance(episode, dict):
         raise ValueError("transcript archive is missing episode metadata")
-    if str(episode.get("id")) != str(diarization.get("episode_id")):
+    episode_id = str(episode.get("id", ""))
+    if episode_id != str(diarization.get("episode_id")):
         raise ValueError("transcript and diarization episode IDs do not match")
     cues = diarization.get("cues")
     if not isinstance(cues, list):
         raise ValueError("diarization output is missing cues")
     segments = merge_speaker_cues(cues)
     output.parent.mkdir(parents=True, exist_ok=True)
-    output.write_text(_render_page(episode, diarization, segments), encoding="utf-8")
+    stats_page = output.with_name(f"{episode_id}-stats.html")
+    output.write_text(
+        _render_page(episode, diarization, segments, stats_available=stats_page.is_file()),
+        encoding="utf-8",
+    )
     return output
 
 
