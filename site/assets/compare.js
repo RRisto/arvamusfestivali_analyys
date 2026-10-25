@@ -65,7 +65,7 @@
       barmode: "group",
       height: Math.max(650, names.length * 31),
       xaxis: { title: `${labels[metric]} (%)`, ticksuffix: "%", gridcolor: "#e7ece9" },
-      yaxis: { autorange: "reversed", automargin: true },
+      yaxis: { autorange: "reversed", automargin: true, ticklabelstandoff: 16 },
       legend: { orientation: "h", y: 1.08 },
       margin: { l: 280, r: 30, t: 60, b: 60 },
     }, siteCommon.plotConfig).then((plot) => {
@@ -92,7 +92,7 @@
       ...siteCommon.chartLayout,
       height: Math.max(650, categories.length * 31),
       xaxis: { title: `2026 − 2025, ${labels[metric]} (protsendipunkti)`, zeroline: true, zerolinewidth: 2, zerolinecolor: "#17322b", gridcolor: "#e7ece9" },
-      yaxis: { automargin: true },
+      yaxis: { automargin: true, ticklabelstandoff: 16 },
       margin: { l: 280, r: 30, t: 35, b: 60 },
     }, siteCommon.plotConfig).then((plot) => {
       plot.removeAllListeners("plotly_click");
@@ -165,7 +165,7 @@
       ...siteCommon.chartLayout,
       height: Math.max(420, rows.length * 28),
       xaxis: { title: `2026 − 2025, ${labels[metric]} (protsendipunkti)`, zeroline: true, zerolinewidth: 2, zerolinecolor: "#17322b", gridcolor: "#e7ece9" },
-      yaxis: { automargin: true },
+      yaxis: { automargin: true, ticklabelstandoff: 16 },
       margin: { l: 280, r: 30, t: 35, b: 60 },
     }, siteCommon.plotConfig);
   }
