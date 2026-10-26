@@ -271,6 +271,7 @@
   }
 
   function render() {
+    document.getElementById("talk-coverage-help").hidden = metric !== "talk_coverage";
     renderSummary();
     renderDistribution();
     renderDifference();
