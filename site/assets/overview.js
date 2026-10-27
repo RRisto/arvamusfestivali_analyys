@@ -7,7 +7,6 @@ import {
   buildTopicScatterTraces,
   buildTreemapLevel,
   createLazyViewController,
-  heatmapText,
 } from "./overview-core.mjs?v=treemap-segment-metric1";
 
 (async function () {
@@ -297,9 +296,6 @@ import {
         x: categories.map((row) => row.name),
         y: organizers,
         z,
-        text: heatmapText(z),
-        texttemplate: "%{text}",
-        textfont: { color: "#102e26", size: 11 },
         customdata: organizers.map((organizer) => categories.map((category) => [organizer, category.id, category.name])),
         colorscale: [[0, "#edf3f0"], [.35, "#c5dcd3"], [1, "#8eb7a8"]],
         colorbar: { title: "Arutelusid" },
