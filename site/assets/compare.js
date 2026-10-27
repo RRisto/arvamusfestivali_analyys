@@ -17,7 +17,7 @@
   const absoluteLabels = {
     talk_coverage: { title: "arutelude arv", unit: "arutelu", digits: 0 },
     segment_share: { title: "teemalõikude arv", unit: "lõiku", digits: 0 },
-    time_share: { title: "salvestusaeg", unit: "min", digits: 2 },
+    time_share: { title: "salvestusaeg", unit: "min", digits: 1 },
   };
 
   function categoryRows() {
@@ -58,7 +58,7 @@
   }
 
   function formatAbsoluteTemplate(valueIndex) {
-    return `%{customdata[${valueIndex}]:${absoluteLabels[metric].digits === 0 ? ",.0f" : ",.2f"}}`;
+    return `%{customdata[${valueIndex}]:${absoluteLabels[metric].digits === 0 ? ",.0f" : ",.1f"}}`;
   }
 
   function transcriptUrl(category, year) {
@@ -117,7 +117,7 @@
         y: rows.map((item) => item.name),
         customdata,
         marker: { color: rows.map((item) => item[deltaKey()] >= 0 ? "#d95e32" : "#286454") },
-        hovertemplate: `%{y}<br>2025 osakaal: %{customdata[0]:.2f}%<br>2026 osakaal: %{customdata[1]:.2f}%<br>Osakaalu muutus: %{x:+.2f} pp<br>Absoluutmaht: ${formatAbsoluteTemplate(2)} → ${formatAbsoluteTemplate(3)} ${unit} (${formatAbsoluteTemplate(4)} ${unit})<extra></extra>`,
+        hovertemplate: `%{y}<br>2025 osakaal: %{customdata[0]:.1f}%<br>2026 osakaal: %{customdata[1]:.1f}%<br>Osakaalu muutus: %{x:+.1f} pp<br>Absoluutmaht: ${formatAbsoluteTemplate(2)} → ${formatAbsoluteTemplate(3)} ${unit} (${formatAbsoluteTemplate(4)} ${unit})<extra></extra>`,
       }]
       : [2025, 2026].map((year, index) => ({
         type: "bar",
@@ -126,11 +126,11 @@
         x: rows.map((item) => absoluteValue(item, year)),
         y: rows.map((item) => item.name),
         customdata,
-        texttemplate: metric === "time_share" ? "%{x:,.2f}" : "%{x:,.0f}",
+        texttemplate: metric === "time_share" ? "%{x:,.1f}" : "%{x:,.0f}",
         textposition: "outside",
         cliponaxis: false,
         marker: { color: index === 0 ? "#b8c9c3" : "#d95e32" },
-        hovertemplate: `%{y}<br>2025. aasta: ${formatAbsoluteTemplate(2)} ${unit}<br>2026. aasta: ${formatAbsoluteTemplate(3)} ${unit}<br>Absoluutmahu muutus: %{customdata[4]:+.${absoluteLabels[metric].digits}f} ${unit}<br>Osakaalu muutus: %{customdata[5]:+.2f} pp<extra></extra>`,
+        hovertemplate: `%{y}<br>2025. aasta: ${formatAbsoluteTemplate(2)} ${unit}<br>2026. aasta: ${formatAbsoluteTemplate(3)} ${unit}<br>Absoluutmahu muutus: %{customdata[4]:+.${absoluteLabels[metric].digits}f} ${unit}<br>Osakaalu muutus: %{customdata[5]:+.1f} pp<extra></extra>`,
       }));
 
     Plotly.react("difference-chart", traces, {
@@ -224,7 +224,7 @@
         y: chartRows.map((row) => row.name),
         customdata,
         marker: { color: chartRows.map((row) => row.delta >= 0 ? "#d95e32" : "#286454") },
-        hovertemplate: `%{y}<br>2025 osakaal: %{customdata[0]:.2f}%<br>2026 osakaal: %{customdata[1]:.2f}%<br>Osakaalu muutus: %{x:+.2f} pp<br>Absoluutmaht: %{customdata[2]:.${absoluteLabels[metric].digits}f} → %{customdata[3]:.${absoluteLabels[metric].digits}f} ${unit} (%{customdata[4]:+.${absoluteLabels[metric].digits}f} ${unit})<extra></extra>`,
+        hovertemplate: `%{y}<br>2025 osakaal: %{customdata[0]:.1f}%<br>2026 osakaal: %{customdata[1]:.1f}%<br>Osakaalu muutus: %{x:+.1f} pp<br>Absoluutmaht: %{customdata[2]:.${absoluteLabels[metric].digits}f} → %{customdata[3]:.${absoluteLabels[metric].digits}f} ${unit} (%{customdata[4]:+.${absoluteLabels[metric].digits}f} ${unit})<extra></extra>`,
       }]
       : [2025, 2026].map((year, index) => ({
         type: "bar",
@@ -233,11 +233,11 @@
         x: chartRows.map((row) => year === 2025 ? row.absolute2025 : row.absolute2026),
         y: chartRows.map((row) => row.name),
         customdata,
-        texttemplate: metric === "time_share" ? "%{x:,.2f}" : "%{x:,.0f}",
+        texttemplate: metric === "time_share" ? "%{x:,.1f}" : "%{x:,.0f}",
         textposition: "outside",
         cliponaxis: false,
         marker: { color: index === 0 ? "#b8c9c3" : "#d95e32" },
-        hovertemplate: `%{y}<br>2025. aasta: %{customdata[2]:.${absoluteLabels[metric].digits}f} ${unit}<br>2026. aasta: %{customdata[3]:.${absoluteLabels[metric].digits}f} ${unit}<br>Absoluutmahu muutus: %{customdata[4]:+.${absoluteLabels[metric].digits}f} ${unit}<br>Osakaalu muutus: %{customdata[5]:+.2f} pp<extra></extra>`,
+        hovertemplate: `%{y}<br>2025. aasta: %{customdata[2]:.${absoluteLabels[metric].digits}f} ${unit}<br>2026. aasta: %{customdata[3]:.${absoluteLabels[metric].digits}f} ${unit}<br>Absoluutmahu muutus: %{customdata[4]:+.${absoluteLabels[metric].digits}f} ${unit}<br>Osakaalu muutus: %{customdata[5]:+.1f} pp<extra></extra>`,
       }));
 
     Plotly.react("subtopic-difference-chart", traces, {
