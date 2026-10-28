@@ -77,6 +77,9 @@ import {
       const isHours = treemapMetric === "hours";
       const unit = isHours ? "tundi" : treemapMetric === "segments" ? "teemalõiku" : "arutelu";
       const nodes = buildTreemapLevel(viewData, treemapSelection, treemapMetric);
+      const totalValue = buildTreemapLevel(viewData, { categoryId: "", topic: "" }, treemapMetric)
+        .filter((row) => row.level === "category")
+        .reduce((sum, row) => sum + row.value, 0);
       renderTreemapBreadcrumb();
       document.getElementById("treemap-help").textContent = treemapSelection.topic
         ? "Klõpsa lõigul, et avada täpne koht transkriptis ja ajastatud helilink."
@@ -89,10 +92,10 @@ import {
         parents: nodes.map((row) => row.parent || ""),
         values: nodes.map((row) => row.value),
         ids: nodes.map((row) => row.treeId || `${row.level}:${row.id}`),
-        customdata: nodes.map((row) => [row.level, row.id, row.talks, row.hours, row.episode, row.segment, row.categoryId, row.displayValue, row.segments]),
+        customdata: nodes.map((row) => [row.level, row.id, row.talks, row.hours, row.episode, row.segment, row.categoryId, row.displayValue, row.segments, totalValue ? row.value / totalValue * 100 : 0]),
         branchvalues: "total",
         texttemplate: `<b>%{label}</b><br>%{customdata[7]:${isHours ? ".1f" : ".0f"}} ${unit}`,
-        hovertemplate: "<b>%{label}</b><br>%{customdata[2]} arutelu<br>%{customdata[8]} teemalõiku<br>%{customdata[3]:.1f} tundi<extra></extra>",
+        hovertemplate: "<b>%{label}</b><br>%{customdata[2]} arutelu<br>%{customdata[8]} teemalõiku<br>%{customdata[3]:.1f} tundi<br>Osakaal kõigi teemade kogumahust: %{customdata[9]:.1f}%<extra></extra>",
         marker: { colors: nodes.map((row) => row.color), line: { color: "#ffffff", width: 2 } },
         tiling: { pad: 3 },
       }], { ...common.chartLayout, margin: { l: 8, r: 8, t: 8, b: 8 } }, common.plotConfig).then((plot) => {
