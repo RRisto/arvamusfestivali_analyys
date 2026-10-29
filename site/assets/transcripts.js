@@ -137,6 +137,58 @@ function formatTime(seconds) {
   return `${Math.floor(total / 60)}:${String(total % 60).padStart(2, "0")}`;
 }
 
+function formatExportTime(seconds) {
+  const value = Math.max(0, Number(seconds) || 0);
+  const hours = Math.floor(value / 3600);
+  const minutes = Math.floor((value % 3600) / 60);
+  const remainingSeconds = (value % 60).toFixed(3).padStart(6, "0");
+  return `${String(hours).padStart(2, "0")}:${String(minutes).padStart(2, "0")}:${remainingSeconds}`;
+}
+
+function csvCell(value) {
+  let text = String(value ?? "");
+  if (/^[=+\-@\t\r]/u.test(text)) text = `'${text}`;
+  return `"${text.replaceAll('"', '""')}"`;
+}
+
+function transcriptExportRows(talk, passages) {
+  const headers = ["Arutelu", "Aasta", "Korraldaja", "Algus", "Lõpp", "Rääkija", "Põhiteema", "Alamteema", "Tekst"];
+  const rows = passages.flatMap((passage) => {
+    const speakers = passage.speakers?.length
+      ? passage.speakers.map((speaker) => speaker.name || (speaker.id === "UNASSIGNED" ? "Määramata" : speaker.id))
+      : ["Määramata"];
+    return speakers.map((speaker) => [
+      talk?.title || passage.title,
+      talk?.year || passage.year,
+      talk?.organizer || passage.organizer,
+      formatExportTime(passage.start),
+      formatExportTime(passage.end),
+      speaker,
+      passage.category || "",
+      displayTopicName(passage.topic || passage.category),
+      passage.text,
+    ]);
+  });
+  return [headers, ...rows];
+}
+
+function downloadTranscript(talk, passages, format) {
+  const rows = transcriptExportRows(talk, passages);
+  const isCsv = format === "csv";
+  const content = isCsv
+    ? rows.map((row) => row.map(csvCell).join(";")).join("\r\n")
+    : rows.map((row) => row.map((value) => String(value ?? "").replace(/[\t\r\n]+/gu, " ")).join("\t")).join("\r\n");
+  const blob = new Blob(["\uFEFF", content], { type: `${isCsv ? "text/csv" : "text/plain"};charset=utf-8` });
+  const url = URL.createObjectURL(blob);
+  const link = document.createElement("a");
+  link.href = url;
+  link.download = `transkript-${talk?.episode || "arutelu"}.${format}`;
+  document.body.append(link);
+  link.click();
+  link.remove();
+  setTimeout(() => URL.revokeObjectURL(url), 1000);
+}
+
 function addHighlightedText(target, text, query) {
   const normalizedQuery = normalizeText(query);
   if (!normalizedQuery) {
@@ -194,6 +246,15 @@ function selectSegment(segment, updateUrl = true) {
     stats.rel = "noreferrer";
     stats.textContent = "Kõnelejate statistika ↗";
     actions.append(stats);
+
+    [["txt", "Laadi alla TXT"], ["csv", "Laadi alla CSV"]].forEach(([format, label]) => {
+      const download = document.createElement("button");
+      download.type = "button";
+      download.className = "secondary-button";
+      download.textContent = label;
+      download.addEventListener("click", () => downloadTranscript(talk, displayPassages, format));
+      actions.append(download);
+    });
   }
   if (talk?.audio) {
     audioPlayer = document.createElement("audio");
