@@ -1,0 +1,16 @@
+.discussion-stats .stats-intro { width:min(1320px,calc(100% - 2rem)); margin:auto; padding:2rem 0 1rem; }
+.stats-intro h1 { margin:.5rem 0; color:var(--forest-900); font:700 clamp(1.8rem,4vw,3rem)/1.12 Georgia,"Times New Roman",serif; letter-spacing:-.025em; }
+.discussion-stats .meta,.discussion-stats .note { color:var(--muted); }
+.discussion-stats .player { padding:1rem max(1rem,calc((100vw - 1320px)/2)); background:var(--forest-100); border-block:1px solid var(--line); }
+.discussion-stats audio { width:100%; display:block; }
+.discussion-stats main { padding-top:1rem; }
+.discussion-stats .summary { display:flex; flex-wrap:wrap; gap:.6rem; margin:1rem 0; }
+.discussion-stats .pill { padding:.45rem .8rem; background:var(--surface); border:1px solid var(--line); border-radius:.65rem; font-size:.9rem; }
+.discussion-stats .chart-card { margin:0 0 1.5rem; padding:clamp(1rem,3vw,2rem); background:var(--surface); border:1px solid var(--line); border-radius:.9rem; box-shadow:var(--shadow); overflow:hidden; }
+.discussion-stats h2 { margin:0; color:var(--forest-900); font:700 clamp(1.5rem,3vw,2rem)/1.2 Georgia,"Times New Roman",serif; }
+.discussion-stats .chart { min-height:300px; }
+.discussion-stats .topic-modes { display:flex; gap:.5rem; flex-wrap:wrap; margin:1rem 0; }
+.discussion-stats .topic-modes button { padding:.6rem .85rem; border:1px solid var(--line); border-radius:.5rem; background:var(--surface); color:var(--forest-700); font:inherit; font-weight:700; cursor:pointer; }
+.discussion-stats .topic-modes button[aria-pressed="true"] { background:var(--forest-900); color:white; border-color:var(--forest-900); }
+.discussion-stats .topic-modes button:hover { box-shadow:inset 0 0 0 1px var(--forest-700); }
+@media(max-width:600px) { .discussion-stats .chart { min-height:250px; } }
